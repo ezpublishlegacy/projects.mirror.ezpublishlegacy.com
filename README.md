@@ -6,9 +6,9 @@ This repository provides a complete and accurate mirror static html of the websi
 Version
 =======
 
-* The current version of eZ Publish Legacy : Projects Mirror is 0.1.1
+* The current version of eZ Publish Legacy : Projects Mirror is 0.1.2
 
-* Last Major update: February 5, 2017
+* Last Major update: February 7, 2017
 
 
 Copyright
@@ -28,7 +28,7 @@ Code License
 
 eZ Publish Legacy : Projects Mirror is licensed under the GNU General Public License.
 
-The complete license agreement is included in the [LICENSE](LICENSE) file.
+The complete license agreement is included in the [LICENSE.md](LICENSE.md) file.
 
 
 eZp Order Report is free software: you can redistribute it and/or modify
@@ -62,7 +62,7 @@ Documentation License
 
 eZ Publish Legacy : Projects Mirror is licensed under the GNU Free Documentation License.
 
-The complete license agreement is included in the [LICENSE](LICENSE) file.
+The complete license agreement is included in the [LICENSE_CONTENT.md](LICENSE_CONTENT.md) file.
 
 Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License,Version 1.2 or any later version published by the Free Soft- ware Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be downloaded from https://www.gnu.org/licenses/old-licenses/fdl-1.2.html
 
