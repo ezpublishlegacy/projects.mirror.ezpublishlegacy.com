@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgeshi / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8412" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: SVN version and ezini literal</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal3</link>
+      <description>Added a workaround in svn revision 1673. Please test with your code</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal3</guid>
+      <pubDate>Tue, 13 Mar 2012 17:51:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code6</link>
+      <description>Added workaround in svn revision 1673</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code6</guid>
+      <pubDate>Tue, 13 Mar 2012 17:50:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code5</link>
+      <description>PS: I can not see any evident error in the syntax definition.&#13;
+I asked for help in the geshi mailing list.&#13;
+In the meantime, always start your ini snippets with an empty line as workaround...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code5</guid>
+      <pubDate>Tue, 13 Mar 2012 17:35:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code4</link>
+      <description>Right - I just tested it and it is a bug - only happens when there is no &lt;?php at the top of the ini file (I test using the highlighting view to avoid any errors with ezoe).&#13;
+Looking into it...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code4</guid>
+      <pubDate>Tue, 13 Mar 2012 16:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code3</link>
+      <description>In fact the exemple I gave on my previous post return an error :&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;literal class="ezini"&gt;[RegionalSettings]&#13;
+TranslationExtensions[]=monextension&lt;/literal&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+And there is no extra white spaces.&#13;
+&#13;
+The first line should be oberlighted in yellow (but tag is not properly opened).&#13;
+&#13;
+&lt;code&gt;&#13;
+span style="background-color: yellow;"&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code3</guid>
+      <pubDate>Tue, 13 Mar 2012 16:24:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Permissions not needed</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/permissions_not_needed/re_permissions_not_needed</link>
+      <description>1. everyone can see colorized snippets of code that have been inserted as part of rich text fields, or using the ezsh() template operator&#13;
+&#13;
+2. the extension provides a module/view to show to the user the highlighted content of complete files on the server's filesystem&#13;
+&#13;
+3. the two permissions are there to allow users to either be able to access highlighted content of all files within eZ Publish, or any file on the server (of course all files that the webserver has permissions to read)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/permissions_not_needed/re_permissions_not_needed</guid>
+      <pubDate>Tue, 13 Mar 2012 15:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code2</link>
+      <description>The idea about yellow bacgkround is: to highlight invalid ini files&#13;
+&#13;
+The most common cases are: when there is whitespace in the ini file that would prevent proper parsing.&#13;
+&#13;
+If you want to highlight ini sources with added extra whitespace for didactic purposes, we can maybe provide a 2nd, separate highlighting syntax definition.&#13;
+&#13;
+If you have proper ini files that get the yellow stuff wrong, please paste them here so I can troubleshoot</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code2</guid>
+      <pubDate>Tue, 13 Mar 2012 15:03:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code</link>
+      <description>For informations it only comes with ez publish ini files and with the first line :&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;literal class="ezini"&gt;[RegionalSettings]&#13;
+TranslationExtensions[]=monextension&lt;/literal&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Won't pass even if there is no spaces before and after [RegionalSettings].</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code/re_additonal_and_unwanted_code</guid>
+      <pubDate>Mon, 12 Mar 2012 22:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Additonal (and unwanted) code</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code</link>
+      <description>Hi,&#13;
+&#13;
+I often have this problem with ezgeshi : it adds code in my snippets :&#13;
+&#13;
+At the beginning :&#13;
+&#13;
+span style="background-color: yellow;"&gt;&#13;
+&#13;
+and randomly in the text it clearly add those hilights on some words (don't know why those words it looks like random).</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/additonal_and_unwanted_code</guid>
+      <pubDate>Mon, 12 Mar 2012 21:45:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Permissions not needed</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/permissions_not_needed</link>
+      <description>Hi,&#13;
+&#13;
+I just installed eZ Geshi and I don't understand why the file INSTALL tells to grant permissions because without them Anonymous can see the colorized codes on the public pages.&#13;
+&#13;
+The second thing I don't understand is the difference between view_ezpublish_source and view_any_source specified in the file INSTALL ?&#13;
+&#13;
+Thanks per advance,&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/permissions_not_needed</guid>
+      <pubDate>Wed, 21 Dec 2011 18:14:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN version and ezini literal</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal2</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+The problem is that "span style="background-color: yellow;"&gt; 16 [SiteSettings]" is displayed as is. We sholdln't see « span style="background-color: yellow;"&gt; » but only "16 [SiteSettings]" with the right colors.&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal2</guid>
+      <pubDate>Mon, 19 Dec 2011 08:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN version and ezini literal</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal</link>
+      <description>Do you get the yellow background, or an invalid html?&#13;
+&#13;
+The yellow backgorund is meant to highlight whan you have spaces in your ini values that are most likely errors...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal/re_svn_version_and_ezini_literal</guid>
+      <pubDate>Sun, 18 Dec 2011 23:07:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>SVN version and ezini literal</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+I just dowloaded and install the svn version and it seems there is a litle bug when the extension displays ezini literals. I get this display:&#13;
+&#13;
+span style="background-color: yellow;"&gt; 16 [SiteSettings]&#13;
+&#13;
+If I choose eztemplate or INI all is perfect.&#13;
+&#13;
+Regards,&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/svn_version_and_ezini_literal</guid>
+      <pubDate>Sun, 18 Dec 2011 22:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select5</link>
+      <description>I just downloaded the new code from SVN and loaded the extension. I cleared my cache once and everything is OK.&#13;
+&#13;
+Merci beaucoup Gaetano.</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select5</guid>
+      <pubDate>Mon, 17 Oct 2011 09:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select4</link>
+      <description>ps. I just committed new files to svn. the CR/LF thing should be fixed</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select4</guid>
+      <pubDate>Sat, 15 Oct 2011 00:08:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select3</link>
+      <description>I tested on an install of eZ 2011.9 on php 5.3 / windows.&#13;
+&#13;
+I added two code blocks to a folder's xml block. All the types of code where available as styles.&#13;
+&#13;
+I had to clear all caches a couple of times more than expected, then the thing started to work - the design\standard\templates\content\datatype\view\ezxmltags\literal.tpl template was not being picked up immediately.&#13;
+&#13;
+As for the list of available styles being empty and your php fatal error: I can not test on ovh servers as I have no hosted server there.&#13;
+But the error you report is weird: on line 1 of autoloads/ezsh.php there is the php opening tag, no more, no less.&#13;
+&#13;
+I suspect there might be problems with line-end characters - maybe the original file was edited on a mac and uses pure-CR for line feeds. And php interpreter might not like it. Can you check this?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select3</guid>
+      <pubDate>Fri, 14 Oct 2011 23:10:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select2</link>
+      <description>For information : while running my website on OVH server with PHP 5.2 I have the following error :&#13;
+&#13;
+Parse error: syntax error, unexpected T_STRING in /homez.110/martindad/www/extension/ezsh/autoloads/ezsh.php on line 1</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select2</guid>
+      <pubDate>Wed, 05 Oct 2011 14:48:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select</link>
+      <description>will test asap - which meand most likely not before next week&#13;
+&#13;
+ciao&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select/re_ez_2011_9_ezsh_1_3_1_nothing_to_select</guid>
+      <pubDate>Tue, 04 Oct 2011 17:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ 2011.9 / ezsh 1.3.1 : Nothing to select</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select</link>
+      <description>Hi,&#13;
+&#13;
+I tryed to use ezsh on eZ 2011.9 but I can't make it working.&#13;
+&#13;
+I activated and reloaded extensions array from the admin interface and cleard the caches but I have nothing to choose in "literal" blocks.&#13;
+&#13;
+Is 1.3.1 compatible with 2011.9 ?</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/ez_2011_9_ezsh_1_3_1_nothing_to_select</guid>
+      <pubDate>Tue, 04 Oct 2011 15:07:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Something strange.</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/something_strange/re_something_strange2</link>
+      <description>Please test version 1.3.1. There was an error introduced in the template operator used to highlight the text</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/something_strange/re_something_strange2</guid>
+      <pubDate>Wed, 03 Nov 2010 19:26:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Something strange.</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/something_strange/re_something_strange</link>
+      <description>ezgeshi 1.2 works with ezpublish 4.4</description>
+      <author>community@ez.no (Philippe Vincent-Royol)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/something_strange/re_something_strange</guid>
+      <pubDate>Tue, 02 Nov 2010 11:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Something strange.</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/something_strange</link>
+      <description>Hi !&#13;
+&#13;
+Ive a problem with ezgeshi 1.3.&#13;
+I use ezpublish 4.4 and there are no render for literal text. $content varialbe is empty.. What s wrong ?&#13;
+&#13;
+Thanks&#13;
+Philippe</description>
+      <author>community@ez.no (Philippe Vincent-Royol)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/something_strange</guid>
+      <pubDate>Tue, 02 Nov 2010 10:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem with version 1.3</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/problem_with_version_1_3/re_problem_with_version_1_3</link>
+      <description>- what is your exact problem - apart from the error log you mention?&#13;
+&#13;
+Is it related to usage together with ggsysinfo?&#13;
+&#13;
+Is it an error when using the extension for highlighting code in the online-editor?&#13;
+&#13;
+Keep in mind that the new version provides a mean to highlight any file within the eZP directory but has no 'file picker' interface - it's up to you to create the links that will point to the correct urls to show an highlighted file.</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/problem_with_version_1_3/re_problem_with_version_1_3</guid>
+      <pubDate>Fri, 02 Jul 2010 16:53:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem with version 1.3</title>
+      <link>http://projects.ez.no/ezgeshi/forum/general/problem_with_version_1_3</link>
+      <description>Unfortunately, I couldn't get Version 1.3 to work :-(&#13;
+&#13;
+In the error log I saw:&#13;
+&#13;
+&lt;code&gt;&#13;
+[ Jul 02 2010 12:54:11 ] [113.139.69.194] eZModuleFunctionInfo::loadDefinition:&#13;
+Missing function definition file for module: conten&#13;
+[ Jul 02 2010 12:54:11 ] [113.139.69.194] eZFunctionHandler::execute:&#13;
+Cannot execute function 'node' in module 'conten', no valid data&#13;
+&lt;/code&gt;&#13;
+&#13;
+but I couldn't track down where this error came from.&#13;
+&#13;
+Version 1.2.1 works fine! :-)</description>
+      <author>community@ez.no (Andy Caiger)</author>
+      <guid>http://projects.ez.no/ezgeshi/forum/general/problem_with_version_1_3</guid>
+      <pubDate>Fri, 02 Jul 2010 11:37:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

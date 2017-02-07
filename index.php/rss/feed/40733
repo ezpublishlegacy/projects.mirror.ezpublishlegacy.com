@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / rgisocodes / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:29:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:29:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40733" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/37404f3d3237a0d31246fbcd4561dafa440d3f67</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;final commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/37404f3d3237a0d31246fbcd4561dafa440d3f67</guid>
+      <pubDate>Wed, 10 Oct 2012 21:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/eb206483dcfb15d73f6712133e1e1158c4bf5a40</link>
+      <description>
+      &lt;pre&gt;- .gitignore
+- .travis.yml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;final commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/eb206483dcfb15d73f6712133e1e1158c4bf5a40</guid>
+      <pubDate>Wed, 10 Oct 2012 21:01:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/fa71886f2282424c5b39a3e736e5fc80c31abcd5</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+- CHANGELOG
+- LICENSE
+m README.md
+- TODO.md
+- classes/bban.php
+- classes/codepostal.php
+- classes/creditcard.php
+- classes/iban.php
+- classes/insee.php
+- classes/nss.php
+- classes/siren.php
+- classes/siret.php
+- classes/ssn.php
+- classes/swiftbic.php
+- classes/uknin.php
+- datatypes/bban/bbantype.php
+- datatypes/codepostal/codepostaltype.php
+- datatypes/creditcard/creditcardtype.php
+- datatypes/iban/ibantype.php
+- datatypes/insee/inseetype.php
+- datatypes/nss/nsstype.php
+- datatypes/siren/sirentype.php
+- datatypes/siret/sirettype.php
+- datatypes/ssn/ssntype.php
+- datatypes/swiftbic/swiftbictype.php
+- datatypes/uknin/uknintype.php
+- design/standard/templates/class/datatype/edit/bban.tpl
+- design/standard/templates/class/datatype/edit/codepostal.tpl
+- design/standard/templates/class/datatype/edit/creditcard.tpl
+- design/standard/templates/class/datatype/edit/iban.tpl
+- design/standard/templates/class/datatype/edit/insee.tpl
+- design/standard/templates/class/datatype/edit/nss.tpl
+- design/standard/templates/class/datatype/edit/siren.tpl
+- design/standard/templates/class/datatype/edit/siret.tpl
+- design/standard/templates/class/datatype/edit/ssn.tpl
+- design/standard/templates/class/datatype/edit/swiftbic.tpl
+- design/standard/templates/class/datatype/edit/uknin.tpl
+- design/standard/templates/class/datatype/view/bban.tpl
+- design/standard/templates/class/datatype/view/codepostal.tpl
+- design/standard/templates/class/datatype/view/creditcard.tpl
+- design/standard/templates/class/datatype/view/iban.tpl
+- design/standard/templates/class/datatype/view/insee.tpl
+- design/standard/templates/class/datatype/view/nss.tpl
+- design/standard/templates/class/datatype/view/siren.tpl
+- design/standard/templates/class/datatype/view/siret.tpl
+- design/standard/templates/class/datatype/view/ssn.tpl
+- design/standard/templates/class/datatype/view/swiftbic.tpl
+- design/standard/templates/class/datatype/view/uknin.tpl
+- design/standard/templates/content/datatype/collect/bban.tpl
+- design/standard/templates/content/datatype/collect/codepostal.tpl
+- design/standard/templates/content/datatype/collect/creditcard.tpl
+- design/standard/templates/content/datatype/collect/iban.tpl
+- design/standard/templates/content/datatype/collect/insee.tpl
+- design/standard/templates/content/datatype/collect/nss.tpl
+- design/standard/templates/content/datatype/collect/siren.tpl
+- design/standard/templates/content/datatype/collect/siret.tpl
+- design/standard/templates/content/datatype/collect/ssn.tpl
+- design/standard/templates/content/datatype/collect/swiftbic.tpl
+- design/standard/templates/content/datatype/collect/uknin.tpl
+- design/standard/templates/content/datatype/diff/bban.tpl
+- design/standard/templates/content/datatype/diff/codepostal.tpl
+- design/standard/templates/content/datatype/diff/creditcard.tpl
+- design/standard/templates/content/datatype/diff/iban.tpl
+- design/standard/templates/content/datatype/diff/insee.tpl
+- design/standard/templates/content/datatype/diff/nss.tpl
+- design/standard/templates/content/datatype/diff/siren.tpl
+- design/standard/templates/content/datatype/diff/siret.tpl
+- design/standard/templates/content/datatype/diff/ssn.tpl
+- design/standard/templates/content/datatype/diff/swiftbic.tpl
+- design/standard/templates/content/datatype/diff/uknin.tpl
+- design/standard/templates/content/datatype/edit/bban.tpl
+- design/standard/templates/content/datatype/edit/codepostal.tpl
+- design/standard/templates/content/datatype/edit/creditcard.tpl
+- design/standard/templates/content/datatype/edit/iban.tpl
+- design/standard/templates/content/datatype/edit/insee.tpl
+- design/standard/templates/content/datatype/edit/nss.tpl
+- design/standard/templates/content/datatype/edit/siren.tpl
+- design/standard/templates/content/datatype/edit/siret.tpl
+- design/standard/templates/content/datatype/edit/ssn.tpl
+- design/standard/templates/content/datatype/edit/swiftbic.tpl
+- design/standard/templates/content/datatype/edit/uknin.tpl
+- design/standard/templates/content/datatype/pdf/bban.tpl
+- design/standard/templates/content/datatype/pdf/codepostal.tpl
+- design/standard/templates/content/datatype/pdf/creditcard.tpl
+- design/standard/templates/content/datatype/pdf/iban.tpl
+- design/standard/templates/content/datatype/pdf/insee.tpl
+- design/standard/templates/content/datatype/pdf/nss.tpl
+- design/standard/templates/content/datatype/pdf/siren.tpl
+- design/standard/templates/content/datatype/pdf/siret.tpl
+- design/standard/templates/content/datatype/pdf/ssn.tpl
+- design/standard/templates/content/datatype/pdf/swiftbic.tpl
+- design/standard/templates/content/datatype/pdf/uknin.tpl
+- design/standard/templates/content/datatype/result/info/bban.tpl
+- design/standard/templates/content/datatype/result/info/codepostal.tpl
+- design/standard/templates/content/datatype/result/info/creditcard.tpl
+- design/standard/templates/content/datatype/result/info/iban.tpl
+- design/standard/templates/content/datatype/result/info/insee.tpl
+- design/standard/templates/content/datatype/result/info/nss.tpl
+- design/standard/templates/content/datatype/result/info/siren.tpl
+- design/standard/templates/content/datatype/result/info/siret.tpl
+- design/standard/templates/content/datatype/result/info/ssn.tpl
+- design/standard/templates/content/datatype/result/info/swiftbic.tpl
+- design/standard/templates/content/datatype/result/info/uknin.tpl
+- design/standard/templates/content/datatype/view/bban.tpl
+- design/standard/templates/content/datatype/view/codepostal.tpl
+- design/standard/templates/content/datatype/view/creditcard.tpl
+- design/standard/templates/content/datatype/view/iban.tpl
+- design/standard/templates/content/datatype/view/insee.tpl
+- design/standard/templates/content/datatype/view/nss.tpl
+- design/standard/templates/content/datatype/view/siren.tpl
+- design/standard/templates/content/datatype/view/siret.tpl
+- design/standard/templates/content/datatype/view/ssn.tpl
+- design/standard/templates/content/datatype/view/swiftbic.tpl
+- design/standard/templates/content/datatype/view/uknin.tpl
+- ezinfo.php
+- phpunit.xml
+- settings/content.ini.append.php
+- settings/design.ini.append.php
+- settings/site.ini.append.php
+- tests/bbanTest.php
+- tests/bootstrap.php
+- tests/codepostalTest.php
+- tests/codepostaltest.php
+- tests/creditcardTest.php
+- tests/creditcardtest.php
+- tests/ibanTest.php
+- tests/ibantest.php
+- tests/inseeTest.php
+- tests/inseetest.php
+- tests/nssTest.php
+- tests/nsstest.php
+- tests/sirenTest.php
+- tests/siretTest.php
+- tests/ssnTest.php
+- tests/swiftbicTest.php
+- tests/ukninTest.php
+- translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;final commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/fa71886f2282424c5b39a3e736e5fc80c31abcd5</guid>
+      <pubDate>Wed, 10 Oct 2012 21:01:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/960da5c81995b2d9a44a20948be367a800fc0b6b</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;final commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/960da5c81995b2d9a44a20948be367a800fc0b6b</guid>
+      <pubDate>Wed, 10 Oct 2012 21:01:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/ecdb91c5e2c1e30c91e56db684f759dd577f6fdd</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ajout doctype.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/ecdb91c5e2c1e30c91e56db684f759dd577f6fdd</guid>
+      <pubDate>Tue, 24 Apr 2012 12:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/f088ad0ee65a38a41a57c29fcbe78c14a46c96db</link>
+      <description>
+      &lt;pre&gt;m datatypes/bban/bbantype.php
+m datatypes/codepostal/codepostaltype.php
+m datatypes/creditcard/creditcardtype.php
+m datatypes/iban/ibantype.php
+m datatypes/insee/inseetype.php
+m datatypes/nss/nsstype.php
+m datatypes/siren/sirentype.php
+m datatypes/siret/sirettype.php
+m datatypes/ssn/ssntype.php
+m datatypes/swiftbic/swiftbictype.php
+m datatypes/uknin/uknintype.php
+m settings/site.ini.append.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from npanau/master
+
+Update </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/f088ad0ee65a38a41a57c29fcbe78c14a46c96db</guid>
+      <pubDate>Tue, 24 Apr 2012 12:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/5059c1e59cd0775d4c709d2a0d3de4a3cc129156</link>
+      <description>
+      &lt;pre&gt;m datatypes/bban/bbantype.php
+m datatypes/codepostal/codepostaltype.php
+m datatypes/creditcard/creditcardtype.php
+m datatypes/iban/ibantype.php
+m datatypes/insee/inseetype.php
+m datatypes/nss/nsstype.php
+m datatypes/siren/sirentype.php
+m datatypes/siret/sirettype.php
+m datatypes/ssn/ssntype.php
+m datatypes/swiftbic/swiftbictype.php
+m datatypes/uknin/uknintype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;correction validate des datatypes : bug car !$classAttribute-&gt;attribute non set.
+Changement de ezi18 par ezpi18n::tr.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/5059c1e59cd0775d4c709d2a0d3de4a3cc129156</guid>
+      <pubDate>Tue, 24 Apr 2012 12:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/a5f4346d7bb0ada7b132ed48c337190795dd2f1f</link>
+      <description>
+      &lt;pre&gt;m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;correction RegionnalSettings : il manquait un s.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/a5f4346d7bb0ada7b132ed48c337190795dd2f1f</guid>
+      <pubDate>Tue, 24 Apr 2012 12:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/8789e02cece2514f5c4cfb9360c10ff427fdd5d9</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+m README.md
+m TODO
++ classes/codepostal.php
++ classes/nss.php
++ datatypes/codepostal/codepostaltype.php
++ datatypes/nss/nsstype.php
++ design/standard/templates/class/datatype/edit/codepostal.tpl
++ design/standard/templates/class/datatype/view/codepostal.tpl
++ design/standard/templates/content/datatype/collect/codepostal.tpl
+m design/standard/templates/content/datatype/collect/nss.tpl
++ design/standard/templates/content/datatype/diff/codepostal.tpl
++ design/standard/templates/content/datatype/edit/codepostal.tpl
+m design/standard/templates/content/datatype/edit/nss.tpl
++ design/standard/templates/content/datatype/pdf/codepostal.tpl
++ design/standard/templates/content/datatype/result/info/codepostal.tpl
++ design/standard/templates/content/datatype/view/codepostal.tpl
+m ezinfo.php
+m settings/content.ini.append.php
++ tests/codepostaltest.php
++ tests/nsstest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updating GPL infos </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/8789e02cece2514f5c4cfb9360c10ff427fdd5d9</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/cb2811b2e1697f9217a61e3119c04e15b6e9d2b4</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+m README.md
+m TODO
++ classes/siren.php
++ classes/siret.php
++ datatypes/siren/sirentype.php
++ datatypes/siret/sirettype.php
++ design/standard/templates/class/datatype/edit/siren.tpl
++ design/standard/templates/class/datatype/edit/siret.tpl
++ design/standard/templates/class/datatype/view/siren.tpl
++ design/standard/templates/class/datatype/view/siret.tpl
++ design/standard/templates/content/datatype/collect/siren.tpl
++ design/standard/templates/content/datatype/collect/siret.tpl
++ design/standard/templates/content/datatype/diff/siren.tpl
++ design/standard/templates/content/datatype/diff/siret.tpl
++ design/standard/templates/content/datatype/edit/siren.tpl
++ design/standard/templates/content/datatype/edit/siret.tpl
++ design/standard/templates/content/datatype/pdf/siren.tpl
++ design/standard/templates/content/datatype/pdf/siret.tpl
++ design/standard/templates/content/datatype/result/info/siren.tpl
++ design/standard/templates/content/datatype/result/info/siret.tpl
++ design/standard/templates/content/datatype/view/siren.tpl
++ design/standard/templates/content/datatype/view/siret.tpl
+m ezinfo.php
+m settings/content.ini.append.php
++ tests/sirentest.php
++ tests/sirettest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding SIREN </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/cb2811b2e1697f9217a61e3119c04e15b6e9d2b4</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/c7f9f839ad7cda4c992d41de5b4672ca46845cbf</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+m README.md
+m TODO
++ classes/insee.php
++ datatypes/insee/inseetype.php
++ design/standard/templates/class/datatype/edit/insee.tpl
++ design/standard/templates/class/datatype/view/insee.tpl
++ design/standard/templates/content/datatype/collect/insee.tpl
++ design/standard/templates/content/datatype/diff/insee.tpl
++ design/standard/templates/content/datatype/edit/insee.tpl
++ design/standard/templates/content/datatype/pdf/insee.tpl
++ design/standard/templates/content/datatype/result/info/insee.tpl
++ design/standard/templates/content/datatype/view/insee.tpl
+m ezinfo.php
+m settings/content.ini.append.php
++ tests/inseetest.php
+m tests/ssntest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding Numéro INSEE datatype&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/c7f9f839ad7cda4c992d41de5b4672ca46845cbf</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/998d753bec7708896693c13d651f6b2baeb58660</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+m README.md
+m TODO
++ classes/ssn.php
+m datatypes/creditcard/creditcardtype.php
++ datatypes/ssn/ssntype.php
+m datatypes/swiftbic/swiftbictype.php
++ design/standard/templates/class/datatype/edit/nss.tpl
++ design/standard/templates/class/datatype/edit/ssn.tpl
++ design/standard/templates/class/datatype/view/nss.tpl
++ design/standard/templates/class/datatype/view/ssn.tpl
++ design/standard/templates/content/datatype/collect/nss.tpl
++ design/standard/templates/content/datatype/collect/ssn.tpl
++ design/standard/templates/content/datatype/diff/nss.tpl
++ design/standard/templates/content/datatype/diff/ssn.tpl
++ design/standard/templates/content/datatype/edit/nss.tpl
++ design/standard/templates/content/datatype/edit/ssn.tpl
++ design/standard/templates/content/datatype/pdf/nss.tpl
++ design/standard/templates/content/datatype/pdf/ssn.tpl
++ design/standard/templates/content/datatype/result/info/nss.tpl
++ design/standard/templates/content/datatype/result/info/ssn.tpl
++ design/standard/templates/content/datatype/view/nss.tpl
++ design/standard/templates/content/datatype/view/ssn.tpl
+m ezinfo.php
+m settings/content.ini.append.php
++ tests/ssntest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding US Social Security number datatype&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/998d753bec7708896693c13d651f6b2baeb58660</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/e2742d44cad991278f39faf0c60e45047393a3af</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+- README
++ README.md
+m TODO
++ classes/creditcard.php
++ datatypes/creditcard/creditcardtype.php
++ design/standard/templates/class/datatype/edit/creditcard.tpl
++ design/standard/templates/class/datatype/view/creditcard.tpl
++ design/standard/templates/content/datatype/collect/creditcard.tpl
++ design/standard/templates/content/datatype/diff/creditcard.tpl
++ design/standard/templates/content/datatype/edit/creditcard.tpl
++ design/standard/templates/content/datatype/pdf/creditcard.tpl
++ design/standard/templates/content/datatype/result/info/creditcard.tpl
++ design/standard/templates/content/datatype/view/creditcard.tpl
+m settings/content.ini.append.php
++ tests/creditcardtest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Credit card number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/e2742d44cad991278f39faf0c60e45047393a3af</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/734bacae07f273eb74ae83e70c0758911f9699d1</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+- classes/rib.php
++ classes/swiftbic.php
++ datatypes/swiftbic/swiftbictype.php
++ design/standard/templates/class/datatype/edit/swiftbic.tpl
++ design/standard/templates/class/datatype/view/swiftbic.tpl
++ design/standard/templates/content/datatype/collect/swiftbic.tpl
++ design/standard/templates/content/datatype/diff/swiftbic.tpl
++ design/standard/templates/content/datatype/edit/swiftbic.tpl
++ design/standard/templates/content/datatype/pdf/swiftbic.tpl
++ design/standard/templates/content/datatype/result/info/swiftbic.tpl
++ design/standard/templates/content/datatype/view/swiftbic.tpl
+m settings/content.ini.append.php
+m tests/README
+m tests/bbantest.php
++ tests/swiftbictest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding SWIFT/BIC Datatype&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/734bacae07f273eb74ae83e70c0758911f9699d1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/f613a8a6453c51d4cc7ba1f8a694b9f355f51428</link>
+      <description>
+      &lt;pre&gt;&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:ronanguilloux/rgIsoCodes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/f613a8a6453c51d4cc7ba1f8a694b9f355f51428</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/07cabcb6db2fcbcfc9f7ee91780158f9bd0e3439</link>
+      <description>
+      &lt;pre&gt;m classes/bban.php
+m classes/codepostal.php
+m classes/creditcard.php
+m classes/iban.php
+m classes/insee.php
+m classes/nss.php
+m classes/siren.php
+m classes/siret.php
+m classes/swiftbic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;s/@see/@link, a @see misunderstanding fixed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/07cabcb6db2fcbcfc9f7ee91780158f9bd0e3439</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/9180da43e15808ae6794d1be1b6f4cfe4aec3168</link>
+      <description>
+      &lt;pre&gt;m classes/bban.php
+m classes/codepostal.php
+m classes/creditcard.php
+m classes/iban.php
+m classes/insee.php
+m classes/nss.php
+m classes/siren.php
+m classes/siret.php
+m classes/swiftbic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;s/@see/@link, a @see misundestanding fixed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/9180da43e15808ae6794d1be1b6f4cfe4aec3168</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/8369a2eef6925581a7610e00ea0bb02d567cd288</link>
+      <description>
+      &lt;pre&gt;- TODO
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;cleanings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/8369a2eef6925581a7610e00ea0bb02d567cd288</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/b13923601795b70c0f945429768950b077b082be</link>
+      <description>
+      &lt;pre&gt;m TODO
++ TODO.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;more TODO&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/b13923601795b70c0f945429768950b077b082be</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/a4658c12d977442b3ef1f2574db32e602f9b008b</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+m README.md
+m TODO
++ classes/uknin.php
++ datatypes/uknin/uknintype.php
++ design/standard/templates/class/datatype/edit/uknin.tpl
++ design/standard/templates/class/datatype/view/uknin.tpl
++ design/standard/templates/content/datatype/collect/uknin.tpl
++ design/standard/templates/content/datatype/diff/uknin.tpl
++ design/standard/templates/content/datatype/edit/uknin.tpl
++ design/standard/templates/content/datatype/pdf/uknin.tpl
++ design/standard/templates/content/datatype/result/info/uknin.tpl
++ design/standard/templates/content/datatype/view/uknin.tpl
+m settings/content.ini.append.php
++ tests/uknintest.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding UK's National Insurance Number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/a4658c12d977442b3ef1f2574db32e602f9b008b</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/5277df5184592fba645efe1a2e2bd38a8f1e6870</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renaming INSEE into NSS, adding FRE-fr Postcode&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/5277df5184592fba645efe1a2e2bd38a8f1e6870</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/fc743e24df9f54ae915c2df15afbeeb585a1c8e5</link>
+      <description>
+      &lt;pre&gt;m classes/ssn.php
+m tests/ssnTest.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;test fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/fc743e24df9f54ae915c2df15afbeeb585a1c8e5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/2d5b0d19e043b607e566acea58e6701f88aaa706</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;travis hooking&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/2d5b0d19e043b607e566acea58e6701f88aaa706</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/456deb5aa6c8aabdec4959b38b2660a5a91b00f1</link>
+      <description>
+      &lt;pre&gt;+ .travis.yml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;adding travis conf&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/456deb5aa6c8aabdec4959b38b2660a5a91b00f1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/b5eeaef40d9bc676f4ecfc810d6ac6c07979b446</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;adding support contact&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/b5eeaef40d9bc676f4ecfc810d6ac6c07979b446</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/2b1e4cc60204deeb2bf2a525e2737800c1034e8b</link>
+      <description>
+      &lt;pre&gt;m CHANGELOG
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;enhancing uniTest with bootstrapper </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/2b1e4cc60204deeb2bf2a525e2737800c1034e8b</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/b641155384d20a13709b39b78086930b98f432a4</link>
+      <description>
+      &lt;pre&gt;- tests/README
+- tests/bbantest.php
+- tests/sirentest.php
+- tests/sirettest.php
+- tests/ssntest.php
+- tests/swiftbictest.php
+- tests/uknintest.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;enhancing uniTest with bootstrapper </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/b641155384d20a13709b39b78086930b98f432a4</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/rgisocodes/subversion/c7d66aa5fbf73d74b16ea6bc9360bd5ff58319d5</link>
+      <description>
+      &lt;pre&gt;+ CHANGELOG
++ LICENSE
+m README.md
++ TODO.md
+m classes/siret.php
++ ezinfo.php
++ phpunit.xml
++ tests/bbanTest.php
++ tests/bootstrap.php
++ tests/codepostalTest.php
+m tests/codepostaltest.php
++ tests/creditcardTest.php
+m tests/creditcardtest.php
++ tests/ibanTest.php
+m tests/ibantest.php
++ tests/inseeTest.php
+m tests/inseetest.php
++ tests/nssTest.php
+m tests/nsstest.php
++ tests/sirenTest.php
++ tests/siretTest.php
++ tests/ssnTest.php
++ tests/swiftbicTest.php
++ tests/ukninTest.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;enhancing uniTest with bootstrapper </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/c7d66aa5fbf73d74b16ea6bc9360bd5ff58319d5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>rgisocodes rev. 1 by Ronan Guilloux</title>
+      <link>http://projects.ez.no/rgisocodes/subversion/1</link>
+      <description>initial commit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rgisocodes/subversion/1</guid>
+      <pubDate>Fri, 01 Apr 2011 08:02:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

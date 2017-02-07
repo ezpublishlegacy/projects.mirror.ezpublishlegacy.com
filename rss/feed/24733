@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_extendedfilter</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:30:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:30:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24733" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/75638dba29184b9839b3f3724c83035c725a3bb9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from seroman/master
+
+added index for tables&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/75638dba29184b9839b3f3724c83035c725a3bb9</guid>
+      <pubDate>Tue, 26 Aug 2014 13:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/634761094ef2595c8a6751dff3b5664b9f825758</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added index for tables&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/634761094ef2595c8a6751dff3b5664b9f825758</guid>
+      <pubDate>Tue, 26 Aug 2014 13:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/5ab00cc9b8d177f37dc06939918f41d865bed663</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from seroman/master
+
+Added keyword extended filter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/5ab00cc9b8d177f37dc06939918f41d865bed663</guid>
+      <pubDate>Tue, 26 Aug 2014 13:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/475da7315ad104e0735c11f07d88ff7c89fcd3e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added attribute filter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/475da7315ad104e0735c11f07d88ff7c89fcd3e4</guid>
+      <pubDate>Tue, 26 Aug 2014 13:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/1028dd02566edfd834b23610daa779c09c69e2ca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added keyword extensded filter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/1028dd02566edfd834b23610daa779c09c69e2ca</guid>
+      <pubDate>Tue, 26 Aug 2014 13:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/08ac2882ccca271b0132ed3ff3f1f7c11e71f152</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix sorting by related object name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/08ac2882ccca271b0132ed3ff3f1f7c11e71f152</guid>
+      <pubDate>Fri, 27 Jun 2014 09:30:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/39561ae9470b08ed414c11ca4f31ae6dab23e148</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from diaborn19/patch-4
+
+fix sorting by related object name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/39561ae9470b08ed414c11ca4f31ae6dab23e148</guid>
+      <pubDate>Fri, 27 Jun 2014 09:30:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/9f62a367b7c5d3549b17e9bda543ee158fef561b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from diaborn19/patch-1
+
+implementation of sorting by related object name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/9f62a367b7c5d3549b17e9bda543ee158fef561b</guid>
+      <pubDate>Wed, 25 Jun 2014 14:50:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/b3330ce464fd8d7e6930c82c4d3eb2cb1154a8ff</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;implementation of sorting by related object name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/b3330ce464fd8d7e6930c82c4d3eb2cb1154a8ff</guid>
+      <pubDate>Wed, 25 Jun 2014 14:50:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/c58da3a8defb1612b507831c9e6d0a5d49bb48ca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;reversed objects list fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/c58da3a8defb1612b507831c9e6d0a5d49bb48ca</guid>
+      <pubDate>Mon, 07 Oct 2013 08:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/acc358059152c48382a53763b65ba618824c56fe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;multiple parent nodes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/acc358059152c48382a53763b65ba618824c56fe</guid>
+      <pubDate>Tue, 09 Jul 2013 11:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/27d02e3c1db4fbde181966754e225ac15fcd6f02</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;sorting by float attribute&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/27d02e3c1db4fbde181966754e225ac15fcd6f02</guid>
+      <pubDate>Mon, 27 May 2013 19:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/f2f4dfc6bcf043315b0001e29ff3861939c29f52</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;floatComparison&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/f2f4dfc6bcf043315b0001e29ff3861939c29f52</guid>
+      <pubDate>Sun, 26 May 2013 21:50:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/6da91af5ba4672966193efccbdf9e40459b40df1</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
++ readme.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:nxc/nxc_extendedfilter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/6da91af5ba4672966193efccbdf9e40459b40df1</guid>
+      <pubDate>Tue, 12 Mar 2013 14:42:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/c1a83f05b3aae1b9d4bdcd283133fa5dba0722ed</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;db_field changed in location filter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/c1a83f05b3aae1b9d4bdcd283133fa5dba0722ed</guid>
+      <pubDate>Tue, 12 Mar 2013 14:42:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/6ffebc3443a212f29f233194ebe9f7b7beb24ced</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;related object list fix when there are no object ids param&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/6ffebc3443a212f29f233194ebe9f7b7beb24ced</guid>
+      <pubDate>Wed, 06 Feb 2013 13:30:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/fc63fce56272157a4d97c304f20626971f73096a</link>
+      <description>
+      &lt;pre&gt;+ readme.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/fc63fce56272157a4d97c304f20626971f73096a</guid>
+      <pubDate>Wed, 06 Feb 2013 13:20:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/8fe47b7e33dd1e16a06597dfd08bd3fa6b33cf0f</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Now it is possible to specify a couple of attributes for object relations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/8fe47b7e33dd1e16a06597dfd08bd3fa6b33cf0f</guid>
+      <pubDate>Wed, 29 Aug 2012 06:50:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/d301f541efae65f9a9e6fff436ff60d2bcca202f</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added distance measure for geo filter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/d301f541efae65f9a9e6fff436ff60d2bcca202f</guid>
+      <pubDate>Wed, 11 Jul 2012 13:40:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/df47b02559ff0fe71497dedee9db03c96f8d4982</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;geoLocation can be used for sorting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/df47b02559ff0fe71497dedee9db03c96f8d4982</guid>
+      <pubDate>Wed, 06 Jun 2012 09:10:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/1d62c40f559ce1038407d32ff62835d3d42372e8</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;sortByAttributesGroup added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/1d62c40f559ce1038407d32ff62835d3d42372e8</guid>
+      <pubDate>Tue, 15 May 2012 10:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/f4a5279e8f49a4e8446955bcfa5d34ad7a8d2610</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Child nodes count filter is added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/f4a5279e8f49a4e8446955bcfa5d34ad7a8d2610</guid>
+      <pubDate>Thu, 10 May 2012 19:11:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>New filters are available</title>
+      <link>http://projects.ez.no/nxc_extendedfilter/news/new_filters_are_available</link>
+      <description>
+&lt;ul&gt;
+
+&lt;li&gt;Source code is moved to &lt;a href="https://https://github.com/nxc/nxc_extendedfilter" target="_blank"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;A couple of new subfilters are added&lt;/li&gt;
+
+&lt;li&gt;Checkout the blog post about &lt;a href="http://blog.nxcgroup.com/2012/ez-publish-extended-attribute-filters/" target="_self"&gt;Extended Attribute Filters&lt;/a&gt; in our &lt;a href="http://blog.nxcgroup.com" target="_self"&gt;blog&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/news/new_filters_are_available</guid>
+      <pubDate>Fri, 04 May 2012 08:40:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>New filters are available</title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/6d84c1eb930234a55d9db23537738dbfefb1ece4</link>
+      <description>
+      &lt;pre&gt;m classes/nxcextendedattributefilter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed geo filter miles -&gt; km&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/6d84c1eb930234a55d9db23537738dbfefb1ece4</guid>
+      <pubDate>Fri, 04 May 2012 08:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>New filters are available</title>
+      <link>http://projects.ez.no/nxc_extendedfilter/subversion/aa3e676ecc871b7be14c61252040d3658a761a24</link>
+      <description>
+      &lt;pre&gt;+ classes/nxcextendedattributefilter.php
++ ezinfo.php
++ settings.php
++ settings/extendedattributefilter.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/subversion/aa3e676ecc871b7be14c61252040d3658a761a24</guid>
+      <pubDate>Mon, 23 Apr 2012 14:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_extendedfilter.zip</title>
+      <link>http://projects.ez.no/nxc_extendedfilter/downloads/nxc_extendedfilter_zip</link>
+      <description>&lt;p&gt;First stable version&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_extendedfilter/downloads/nxc_extendedfilter_zip</guid>
+      <pubDate>Sat, 03 Apr 2010 13:10:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

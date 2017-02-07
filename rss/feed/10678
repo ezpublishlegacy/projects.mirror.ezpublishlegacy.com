@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezurlaliasmigration</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10678" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezurlaliasmigration rev. 46 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/46</link>
+      <description>- Modified: Set executable property</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/46</guid>
+      <pubDate>Tue, 28 Apr 2009 13:25:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 47 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/47</link>
+      <description>- Added: Tagged 1.0.1 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/47</guid>
+      <pubDate>Tue, 28 Apr 2009 13:25:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 45 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/45</link>
+      <description>- Updated: Bumped version number and copyright year
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/45</guid>
+      <pubDate>Tue, 28 Apr 2009 13:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 44 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/44</link>
+      <description>- Fixed class name in ezinfo.php
+  (Merged from trunk rev. 43)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/44</guid>
+      <pubDate>Thu, 09 Oct 2008 16:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 43 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/43</link>
+      <description>- Fixed: class name in ezinfo.php
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/43</guid>
+      <pubDate>Thu, 09 Oct 2008 15:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 42 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/42</link>
+      <description>- Fix: the sql script would not work when run via the php migrate script instead of sqlplus tool</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/42</guid>
+      <pubDate>Fri, 29 Aug 2008 11:15:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 41 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/41</link>
+      <description>- Fixes for Oracle compatibility: add missing table definition; use single quotes instead of doubles for string values in queries</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/41</guid>
+      <pubDate>Thu, 28 Aug 2008 23:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 40 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/40</link>
+      <description>- Made 1.0.0 branch for eZP 3.10 version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/40</guid>
+      <pubDate>Fri, 15 Aug 2008 00:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 39 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/39</link>
+      <description>- Made 1.0.0 branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/39</guid>
+      <pubDate>Fri, 15 Aug 2008 00:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 37 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/37</link>
+      <description>- Remved count of migrated aliases
+  (Merged form trunk rev. 36)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/37</guid>
+      <pubDate>Tue, 12 Aug 2008 09:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 38 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/38</link>
+      <description>- Added extra changelog entry for PHP 4 vesion</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/38</guid>
+      <pubDate>Tue, 12 Aug 2008 09:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 36 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/36</link>
+      <description>- Removed count of migrated elements
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/36</guid>
+      <pubDate>Tue, 12 Aug 2008 09:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 35 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/35</link>
+      <description>- Fixed: Several PHP 4 backport issues.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/35</guid>
+      <pubDate>Tue, 12 Aug 2008 09:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 34 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/34</link>
+      <description>- Fixed bug #13475: global aliases aren't restored when migrating url aliases in 4.0.1rc2
+  (Merged from trunk rev. 32, 33)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/34</guid>
+      <pubDate>Tue, 12 Aug 2008 07:40:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 33 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/33</link>
+      <description>- Added distribution flags of docs directory</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/33</guid>
+      <pubDate>Mon, 11 Aug 2008 13:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 32 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/32</link>
+      <description>- Fixed bug #13475: global aliases aren't restored when migrating url aliases in 4.0.1rc2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/32</guid>
+      <pubDate>Mon, 11 Aug 2008 13:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 31 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/31</link>
+      <description>- Added tags for RC2 releases included in eZP 4.0.1rc2 and 3.10.1rc2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/31</guid>
+      <pubDate>Fri, 08 Aug 2008 11:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 30 by Ole Morten Halvorsen</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/30</link>
+      <description>- Added missing includes for PHP 4.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/30</guid>
+      <pubDate>Wed, 06 Aug 2008 13:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 29 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/29</link>
+      <description>- Renamed file to correspond to class name
+- Fixed include statements to use new filename.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/29</guid>
+      <pubDate>Wed, 06 Aug 2008 12:40:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 28 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/28</link>
+      <description>- Renamed file to correspond with class name.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/28</guid>
+      <pubDate>Wed, 06 Aug 2008 12:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 27 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/27</link>
+      <description>- Fixed: Added missing distribution flag
+  (Merged from trunk rev. 26)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/27</guid>
+      <pubDate>Wed, 06 Aug 2008 09:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 26 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/26</link>
+      <description>- Fixed: Added distribution flag.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/26</guid>
+      <pubDate>Wed, 06 Aug 2008 09:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 25 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/25</link>
+      <description>- Added: Distribution flag to files.
+  (Merged from trunk rev. 24)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/25</guid>
+      <pubDate>Wed, 06 Aug 2008 09:15:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 24 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/24</link>
+      <description>- Added: distribution flag
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/24</guid>
+      <pubDate>Wed, 06 Aug 2008 09:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 23 by Ole Morten Halvorsen</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/23</link>
+      <description>- Added missing PHP4 includes.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/23</guid>
+      <pubDate>Wed, 06 Aug 2008 09:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 22 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/22</link>
+      <description>- Updated build information for PHP 4
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/22</guid>
+      <pubDate>Wed, 06 Aug 2008 08:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 20 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/20</link>
+      <description>- Updated: Name of extension.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/20</guid>
+      <pubDate>Wed, 06 Aug 2008 08:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 21 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/21</link>
+      <description>- Merged: rev. 20 from trunk
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/21</guid>
+      <pubDate>Wed, 06 Aug 2008 08:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 18 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/18</link>
+      <description>- Updated: Adjusted text in readme file.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/18</guid>
+      <pubDate>Wed, 06 Aug 2008 07:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 19 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/19</link>
+      <description>- Merged: Rev. 18 from trunk.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/19</guid>
+      <pubDate>Wed, 06 Aug 2008 07:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 16 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/16</link>
+      <description>- Updated: PHP 4 compatibility
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/16</guid>
+      <pubDate>Tue, 05 Aug 2008 13:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 17 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/17</link>
+      <description>- Removed: Hints for PHP 4 compatibility changes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/17</guid>
+      <pubDate>Tue, 05 Aug 2008 13:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 15 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/15</link>
+      <description>- Updated: Further fixes for PHP 4 compatibility
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/15</guid>
+      <pubDate>Tue, 05 Aug 2008 12:40:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 14 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/14</link>
+      <description>- Updated: Changes for PHP 4 compatibility
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/14</guid>
+      <pubDate>Tue, 05 Aug 2008 12:15:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 13 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/13</link>
+      <description>- Merged: Rev. 12 from trunk.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/13</guid>
+      <pubDate>Tue, 05 Aug 2008 12:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 11 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/11</link>
+      <description>- Merged changes from trunk
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/11</guid>
+      <pubDate>Tue, 05 Aug 2008 12:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 12 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/12</link>
+      <description>- Fixed: typo in array index.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/12</guid>
+      <pubDate>Tue, 05 Aug 2008 12:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 10 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/10</link>
+      <description>- Fixed: history entries with lang_mask = 1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/10</guid>
+      <pubDate>Tue, 05 Aug 2008 10:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 9 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/9</link>
+      <description>- Fixed migration of history entries always showed up as failures.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/9</guid>
+      <pubDate>Tue, 05 Aug 2008 09:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 8 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/8</link>
+      <description>- Fixed: migration output always said migration failed
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/8</guid>
+      <pubDate>Tue, 05 Aug 2008 09:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 7 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/7</link>
+      <description>- Fixed: wromg extension name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/7</guid>
+      <pubDate>Tue, 05 Aug 2008 09:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 6 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/6</link>
+      <description>- Fix for dataset larger than $fetchLimit
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/6</guid>
+      <pubDate>Tue, 05 Aug 2008 07:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 5 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/5</link>
+      <description>- Updated: First batch of PHP 4 changes.
+# These are mainly focused on OO visibility. More changes are coming.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/5</guid>
+      <pubDate>Mon, 04 Aug 2008 14:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 3 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/3</link>
+      <description>- Added branch for PHP 4 repository</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/3</guid>
+      <pubDate>Mon, 04 Aug 2008 13:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 4 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/4</link>
+      <description>- Based PHP 4 branch on trunk</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/4</guid>
+      <pubDate>Mon, 04 Aug 2008 13:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 2 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/2</link>
+      <description>- Added: initial import of codebase.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/2</guid>
+      <pubDate>Mon, 04 Aug 2008 13:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezurlaliasmigration rev. 1 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezurlaliasmigration/subversion/1</link>
+      <description>- Added: svn directory structure
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezurlaliasmigration/subversion/1</guid>
+      <pubDate>Mon, 04 Aug 2008 11:45:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

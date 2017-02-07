@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / unofficialhabla</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1530" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Unofficial Hab.la sources migrate to GitHub</title>
+      <link>http://projects.ez.no/unofficialhabla/news/unofficial_hab_la_sources_migrate_to_github</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the migration of&amp;nbsp;this&amp;nbsp;&lt;a href="http://projects.ez.no/unofficialhabla" target="_self"&gt;project's&lt;/a&gt;&amp;nbsp;source repositories to&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/unofficialolark" target="_self"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/brookinsconsulting/unofficialolark" target="_self"&gt;https://github.com/brookinsconsulting/unofficialolark&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The Unofficial Hab.la&amp;nbsp;extension remains a projects.ez.no project, only our preferred source control has changed.&lt;/p&gt;&lt;p&gt;Feel free to checkout this extension or any of our other solutions available on projects.ez.ez.no and GitHub.&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/news/unofficial_hab_la_sources_migrate_to_github</guid>
+      <pubDate>Tue, 29 Nov 2011 01:37:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>unofficialhabla.tar.bz2</title>
+      <link>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_tar_bz2</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_tar_bz2</guid>
+      <pubDate>Tue, 13 Nov 2007 15:19:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 0.0.1 available</title>
+      <link>http://projects.ez.no/unofficialhabla/news/release_0_0_1_available</link>
+      <description> &lt;p&gt;Brookins Consulting is pleased to announce the release of the &lt;a href="/../../unofficialhabla" target="_self"&gt;Unofficial Hab.la&lt;/a&gt; extension a Hab.la based livehelp, instant message, chat solution for eZ Publish web sites.&lt;/p&gt; &lt;p&gt;The &lt;a href="/../../unofficialhabla" target="_self"&gt;Unofficial Hab.la&lt;/a&gt; exension provides a clean simple solution to the common need of how to offer live help features with eZ Publish. &lt;a href="http://projects.ez.no/unofficialhabla/downloads" target="_self"&gt;Download&lt;/a&gt;&lt;a href="http://projects.ez.no/content/download/2072/7820/file/unofficialhabla.tar.gz" target="_blank"&gt;0.0.1&lt;/a&gt; today!&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/news/release_0_0_1_available</guid>
+      <pubDate>Mon, 29 Oct 2007 00:53:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unofficial Hab.la Extension Feedback</title>
+      <link>http://projects.ez.no/unofficialhabla/forum/general/unofficial_hab_la_extension_feedback</link>
+      <description>Hello!&#13;
+&#13;
+Brookins Consulting is pleased to announce the release of the 'unofficialhabla' extension is an unofficial Hab.la solution for eZ Publish.&#13;
+&#13;
+The solution is a javascript design extension consisting of a design, settings, javacript files and no templates.&#13;
+&#13;
+The design offers a very simple way to enable site-wide use without modifications to your existing eZ Publish site.&#13;
+&#13;
+Please provide feedback to the community on how the unofficialhabla extension works for you and any features you might think would be useful to add.&#13;
+&#13;
+If this extension is useful to you please write a positive review, http://projects.ez.no/unofficialhabla/reviews&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/forum/general/unofficial_hab_la_extension_feedback</guid>
+      <pubDate>Sun, 28 Oct 2007 23:43:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>unofficialhabla.zip</title>
+      <link>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_zip</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_zip</guid>
+      <pubDate>Sun, 28 Oct 2007 21:09:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>unofficialhabla.tar.gz</title>
+      <link>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/unofficialhabla/downloads/releases/unofficialhabla_tar_gz</guid>
+      <pubDate>Sun, 28 Oct 2007 21:09:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

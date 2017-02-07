@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / flashupload / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:11:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:11:41 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/561" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Need help to use flashupload with flash10</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10/re_need_help_to_use_flashupload_with_flash102</link>
+      <description>Thanks&#13;
+&#13;
+you help me too much!!!</description>
+      <author>community@ez.no (Thitiwat Yaemsuwan)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10/re_need_help_to_use_flashupload_with_flash102</guid>
+      <pubDate>Wed, 29 Oct 2008 10:34:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help to use flashupload with flash10</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10/re_need_help_to_use_flashupload_with_flash10</link>
+      <description>Hi,&#13;
+&#13;
+The problem is with a new security feature in flash 10.&#13;
+&#13;
+There is a fix to swfupload, the js/flash library that flashupload uses. It is detailed here:&#13;
+&#13;
+http://codetunes.com/2008/10/21/swfupload-and-flash-10/&#13;
+&#13;
+This will need integrating into flashupload.&#13;
+&#13;
+Unfortunately I don't have the time to support this extension at the moment.&#13;
+&#13;
+If you or anyone else would like to take it on, you are more than welcome.&#13;
+&#13;
+Sorry I can't help more.</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10/re_need_help_to_use_flashupload_with_flash10</guid>
+      <pubDate>Wed, 29 Oct 2008 09:35:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Need help to use flashupload with flash10</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10</link>
+      <description>Hi&#13;
+&#13;
+My site use flashupload for upload picture and some flash style.... its very good extension..&#13;
+but i doesn't work with flash 10&#13;
+&#13;
+Would you please tell me how to fix this problem?&#13;
+&#13;
+I use PHP5.2.3 , eZ Publish 4.0.1&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Thitiwat Yaemsuwan)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_to_use_flashupload_with_flash10</guid>
+      <pubDate>Wed, 29 Oct 2008 03:51:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help getting flashupload working</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working4</link>
+      <description>No visiting that url directly now just gives me a blank page, no errors.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working4</guid>
+      <pubDate>Thu, 20 Sep 2007 06:07:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help getting flashupload working</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working3</link>
+      <description>humpf.&#13;
+&#13;
+is browsing to /flashupload/upload/185 still showing an error?</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working3</guid>
+      <pubDate>Wed, 19 Sep 2007 15:04:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help getting flashupload working</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working2</link>
+      <description>Thanks Stevo&#13;
+&#13;
+I tried out the changes your recommended but it did a page reload after the first file, any other ideas?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working2</guid>
+      <pubDate>Wed, 19 Sep 2007 05:23:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help getting flashupload working</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working</link>
+      <description>hi brendan,&#13;
+&#13;
+sorry it's taken so long to get back to you on this, i'm working away from home + don't have an ez setup or anything.&#13;
+&#13;
+i think you can fix this by removing the ampersand on </description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working/re_need_help_getting_flashupload_working</guid>
+      <pubDate>Tue, 18 Sep 2007 17:41:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Need help getting flashupload working</title>
+      <link>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working</link>
+      <description>Hi I seem to be experiencing trouble using this extension, I suspect it may be something to do with my server environment since I've tried it on 2 separate ezp installations.  The flash loads fine, the upload progress bars work fine, however after the first file finishes uploading the page prematurely reloads before the other files are uploaded.  I then don't find that no files were really been upload.  The debug output doesn't seem really helpful:&#13;
+&#13;
+&lt;code&gt;&#13;
+----- DEBUG OUTPUT ----&#13;
+ID: SWFUpload0&#13;
+control_id: SWFUpload0&#13;
+ui_container_element: flashUI1&#13;
+degraded_container_element: degradedUI1&#13;
+upload_target_url: http://admin.mydomain.com/flashupload/upload/185&#13;
+upload_cookies: &#13;
+begin_upload_on_queue: true&#13;
+file_types: *.*&#13;
+file_types_description: 'All Files'|i18n('flashupload')&#13;
+file_size_limit: 10240&#13;
+file_upload_limit: 50&#13;
+flash_url: /extension/flashupload/design/standard/flash/swfuploadr5.swf&#13;
+flash_container_element: &#13;
+flash_width: 0px&#13;
+flash_height: 0px&#13;
+flash_color: #000000&#13;
+debug: true&#13;
+----- DEBUG OUTPUT END ----&#13;
+&#13;
+&#13;
+SWF DEBUG: SWFUpload Init Complete&#13;
+SWF DEBUG: &#13;
+----- SWF DEBUG OUTPUT ----&#13;
+ControlID: SWFUpload0&#13;
+Upload Target URL: http://admin.mydomain.com/flashupload/upload/185&#13;
+Begin Upload on Queue: true&#13;
+File Types: *.*&#13;
+File Types Description: 'All Files'|i18n('flashupload') (*.*)&#13;
+File Size Limit: 10240&#13;
+File Upload Limit: 50&#13;
+----- SWF DEBUG OUTPUT ----&#13;
+Flash called back and is ready.&#13;
+SWF DEBUG: UploadFile: Browsing files. *.*&#13;
+SWF DEBUG: Files Selected. Processing file list&#13;
+SWF DEBUG: onSelect: File within size limit. Adding to queue and making callback.&#13;
+SWF DEBUG: onSelect: File within size limit. Adding to queue and making callback.&#13;
+SWF DEBUG: onSelect: Uploads set to begin immediately. Calling StartUpload.&#13;
+SWF DEBUG: StartUpload(): Starting Upload&#13;
+SWF DEBUG: startFile(): File Reference found.  Starting upload to http://admin.mydomain.com/flashupload/upload/185. File Number: 0&#13;
+SWF DEBUG: startFile(): Upload started.&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 98304. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 131072. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 163840. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 196608. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 229376. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 262144. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 294912. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 327680. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 360448. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 393216. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 425984. Total: 454656&#13;
+SWF DEBUG: onProgress: File Number: 0. Bytes: 454656. Total: 454656&#13;
+SWF DEBUG: onComplete: File Number: 0. Upload Complete. Calling uploadComplete.&#13;
+SWF DEBUG: UploadComplete(): Upload complete. Removing File Reference and advancing the queue.&#13;
+SWF DEBUG: startFile(): File Reference found.  Starting upload to http://admin.mydomain.com/flashupload/upload/185. File Number: 1&#13;
+SWF DEBUG: startFile(): Upload started.&#13;
+SWF DEBUG: onProgress: File Number: 1. Bytes: 98304. Total: 641881&#13;
+&lt;/code&gt;&#13;
+&#13;
+If I visit /flashupload/upload/185 directly I get this message, Warning: Call-time pass-by-reference has been deprecated - argument passed by value; If you would like to pass it by reference, modify the declaration of [runtime function name](). If you would like to enable call-time pass-by-reference, you can set allow_call_time_pass_reference to true in your INI file. However, future versions may not support this any longer. in /data/www/mydomain/extension/flashupload/modules/flashupload/upload.php on line 46&#13;
+&#13;
+I tried enabling the php allow_call_time_pass_reference but this didn't help.  I would really appreciate any advice on tracking my problem down.&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/need_help_getting_flashupload_working</guid>
+      <pubDate>Mon, 10 Sep 2007 05:19:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Looks sexy !</title>
+      <link>http://projects.ez.no/flashupload/forum/general/looks_sexy/re_looks_sexy</link>
+      <description>thanks xavier,&#13;
+&#13;
+that's nearly all thanks to the nice demo for SWFUploadR5, it's lovely. let me know how you get on with it.&#13;
+&#13;
+when i get a chance, i'll have a look at incorporating the jquery thing for those without flash.</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/looks_sexy/re_looks_sexy</guid>
+      <pubDate>Tue, 15 May 2007 18:46:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looks sexy !</title>
+      <link>http://projects.ez.no/flashupload/forum/general/looks_sexy</link>
+      <description>I was looking at the mutiple upload in jquery, but like your flash solution !&#13;
+&#13;
+&#13;
+I hope it with solve the lack of working webdav on the apple white thing...&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/flashupload/forum/general/looks_sexy</guid>
+      <pubDate>Tue, 15 May 2007 12:57:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

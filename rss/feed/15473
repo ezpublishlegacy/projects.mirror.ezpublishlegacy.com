@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / paradoxpdf / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:20:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:20:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15473" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/35a009cbc5fda44e72c675ba3f9bb49ba729c1e7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;typo fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/35a009cbc5fda44e72c675ba3f9bb49ba729c1e7</guid>
+      <pubDate>Wed, 24 Feb 2016 16:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/f596c5af9d9635bdbfcc0d859c63858a65719cb2</link>
+      <description>
+      &lt;pre&gt;m classes/paradoxpdf.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix pdf download issue in ie on https mode
+http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/f596c5af9d9635bdbfcc0d859c63858a65719cb2</guid>
+      <pubDate>Mon, 22 Apr 2013 15:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/5b4fc86c73e4d2ef910527471c2c67121e9348c3</link>
+      <description>
+      &lt;pre&gt;m classes/paradoxpdf.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed parameter name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/5b4fc86c73e4d2ef910527471c2c67121e9348c3</guid>
+      <pubDate>Thu, 21 Mar 2013 06:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/3440bd22f9cd39826551db9d51b1aee3cded79c4</link>
+      <description>
+      &lt;pre&gt;m doc/changelog.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changelog update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/3440bd22f9cd39826551db9d51b1aee3cded79c4</guid>
+      <pubDate>Sat, 02 Mar 2013 19:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/67f3eb8678ad66488ecb219a6c57b88447b3845a</link>
+      <description>
+      &lt;pre&gt;m classes/paradoxpdf.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix Empty PDF file after cache purge&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/67f3eb8678ad66488ecb219a6c57b88447b3845a</guid>
+      <pubDate>Sat, 02 Mar 2013 18:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/ec5daf0049a978dff8f415283ca167745adbf5a3</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Create README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/ec5daf0049a978dff8f415283ca167745adbf5a3</guid>
+      <pubDate>Sat, 02 Mar 2013 18:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/7c8dfd796a6eaf322d2d01a5a94c2f1640cc26ac</link>
+      <description>
+      &lt;pre&gt;+ autoloads/eztemplateautoload.php
++ autoloads/paradoxpdfoperators.php
++ bin/paradoxpdf.jar
++ classes/paradoxpdf.php
++ design/standard/override/templates/paradoxpdf_layout.tpl
++ design/standard/stylesheets/print-core.css
++ design/standard/templates/includes/paradoxpdf_bookmarks.tpl
++ design/standard/templates/includes/paradoxpdf_toc.tpl
++ design/standard/templates/node/view/pdf.tpl
++ design/standard/templates/paradoxpdf_layout.tpl
++ doc/Licence.txt
++ doc/README.txt
++ doc/changelog.txt
++ doc/doc.txt
++ doc/install.txt
++ doc/roadmap.txt
++ doc/specs.txt
++ ezinfo.php
++ settings/design.ini.append.php
++ settings/layout.ini.append.php
++ settings/override.ini.append.php
++ settings/paradoxpdf.ini
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/7c8dfd796a6eaf322d2d01a5a94c2f1640cc26ac</guid>
+      <pubDate>Sat, 02 Mar 2013 18:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 47 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/47</link>
+      <description>V 2.1.5 :
+--------
+    * Fixed blank page after cache purge (caused by missing translation string)
+    * Fixed relative to absolute urls rewrite : all urls will be transformed
+    * Added DebugVerbose ini setting</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/47</guid>
+      <pubDate>Sun, 11 Apr 2010 13:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 46 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/46</link>
+      <description>removing branches as they are never updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/46</guid>
+      <pubDate>Sun, 11 Apr 2010 00:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 45 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/45</link>
+      <description>Try to fix empty pdf file after cache purge</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/45</guid>
+      <pubDate>Thu, 21 Jan 2010 23:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 44 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/44</link>
+      <description>fix is_set</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/44</guid>
+      <pubDate>Thu, 21 Jan 2010 23:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 43 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/43</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/43</guid>
+      <pubDate>Tue, 19 Jan 2010 17:35:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 42 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/42</link>
+      <description>Fix ignore_content_expiry thanks to Alex Yes
+Fix documentation typos</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/42</guid>
+      <pubDate>Tue, 19 Jan 2010 17:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 41 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/41</link>
+      <description>fix notice $debugEnabled</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/41</guid>
+      <pubDate>Fri, 30 Oct 2009 06:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 40 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/40</link>
+      <description>Fixed typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/40</guid>
+      <pubDate>Wed, 01 Jul 2009 16:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 38 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/38</link>
+      <description>    * Pdf File name is sanitized to prevet download injection attacks
+    * Fixed http headers issue in ssl mode with IE
+    * Fixed typo DebugPDF=disabled instead of DebugPDF=disabed (thanks to Børge Warvik)
+    * Documentation update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/38</guid>
+      <pubDate>Fri, 12 Jun 2009 03:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 39 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/39</link>
+      <description>private variable removed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/39</guid>
+      <pubDate>Fri, 12 Jun 2009 03:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 37 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/37</link>
+      <description>installation process update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/37</guid>
+      <pubDate>Mon, 08 Jun 2009 13:50:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 36 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/36</link>
+      <description>    * Fixed http headers 
+        - For ssl mode 
+        - Better file download handeling
+        - Proxy cache (pdf are only cached on browser to avoid serving same pdfs for all 	users, maybe tweaked in future)
+    * Documentation update </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/36</guid>
+      <pubDate>Fri, 05 Jun 2009 15:45:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 35 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/35</link>
+      <description>added persistent variable to node/view/pdf.tpl</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/35</guid>
+      <pubDate>Mon, 01 Jun 2009 19:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 34 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/34</link>
+      <description>- Added node view custom variables (parameters, viewmode, language_code ...) to node/view/pdf.tpl so they can be used on pdf view
+- update roadmap, install instructions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/34</guid>
+      <pubDate>Mon, 01 Jun 2009 18:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 33 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/33</link>
+      <description>comment fixed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/33</guid>
+      <pubDate>Fri, 08 May 2009 21:35:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 32 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/32</link>
+      <description>V 2.1.0 :
+-------
+    * Added Check Access policies option (to use content/pdf policies)
+    * Core CSS update for generic TOC
+    * Added PDFCache ini setting for developpers (developper mode)
+    * Enhanced browser cache handling
+    * Documentation updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/32</guid>
+      <pubDate>Fri, 08 May 2009 20:45:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 31 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/31</link>
+      <description>changelog updated for V2.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/31</guid>
+      <pubDate>Wed, 29 Apr 2009 00:15:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 30 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/30</link>
+      <description>Added example path of java executable on windows
+Documentation update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/30</guid>
+      <pubDate>Tue, 28 Apr 2009 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 29 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/29</link>
+      <description>user documentation update : font embeeding and howto design</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/29</guid>
+      <pubDate>Mon, 27 Apr 2009 14:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 28 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/28</link>
+      <description>ParadoxPDF V 2.0 : 
+ - paradoxpdf.jar rebuild (xhtmlrendrer R8 Final)
+ - added TOC and Bookmak support and examples
+ - added Asian characters support
+ - java sources </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/28</guid>
+      <pubDate>Mon, 27 Apr 2009 02:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 27 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/27</link>
+      <description>update ezinfo version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/27</guid>
+      <pubDate>Sun, 26 Apr 2009 22:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 26 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/26</link>
+      <description>Tagging V1.1 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/26</guid>
+      <pubDate>Sun, 26 Apr 2009 17:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 25 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/25</link>
+      <description>Branch of paradoxpdf V1.X (based on xhtmlrendrer R7)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/25</guid>
+      <pubDate>Sun, 26 Apr 2009 17:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 24 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/24</link>
+      <description>added 1.x and 2.x svn branches</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/24</guid>
+      <pubDate>Sun, 26 Apr 2009 17:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 23 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/23</link>
+      <description>fix layout/set documentation </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/23</guid>
+      <pubDate>Sun, 26 Apr 2009 16:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 22 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/22</link>
+      <description>use file_get_contents() instead of ezFile::getContent()
+fix template $node
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/22</guid>
+      <pubDate>Thu, 23 Apr 2009 14:40:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 21 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/21</link>
+      <description>Handling ressources relative paths (for loading, css, images, js ...)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/21</guid>
+      <pubDate>Tue, 21 Apr 2009 09:25:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 20 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/20</link>
+      <description>Cluster mode documentation update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/20</guid>
+      <pubDate>Fri, 17 Apr 2009 16:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 19 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/19</link>
+      <description>Fix debug message and add  "&lt;!-- DEBUG_REPORT --&gt;" flag on paradox_pdf layout to avoid printing the debug report in pdf file when debug is enabled</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/19</guid>
+      <pubDate>Tue, 14 Apr 2009 12:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 18 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/18</link>
+      <description>Update cache keys handling and documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/18</guid>
+      <pubDate>Mon, 13 Apr 2009 14:15:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 17 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/17</link>
+      <description>Rebuild of paradoxpdf.jar jre 1.4 or higer compatible
+Many Enhancements for command execution
+Update Debug process documentation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/17</guid>
+      <pubDate>Fri, 10 Apr 2009 01:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 16 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/16</link>
+      <description>added documentation for using pdf view for custom modules views</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/16</guid>
+      <pubDate>Thu, 09 Apr 2009 12:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 15 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/15</link>
+      <description>fix documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/15</guid>
+      <pubDate>Thu, 09 Apr 2009 11:45:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 14 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/14</link>
+      <description>Rebluid paradoxpdf.jar using JDK 1.4 to make it compatible with JRE 1.4 or above</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/14</guid>
+      <pubDate>Thu, 09 Apr 2009 11:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 13 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/13</link>
+      <description>fix ezinfo version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/13</guid>
+      <pubDate>Wed, 08 Apr 2009 14:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 12 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/12</link>
+      <description>Added debug documentation </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/12</guid>
+      <pubDate>Wed, 08 Apr 2009 13:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 11 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/11</link>
+      <description>add command execution loggin</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/11</guid>
+      <pubDate>Wed, 08 Apr 2009 13:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 10 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/10</link>
+      <description>Documentation update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/10</guid>
+      <pubDate>Wed, 08 Apr 2009 13:15:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 8 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/8</link>
+      <description>remove tag sorry!</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/8</guid>
+      <pubDate>Wed, 08 Apr 2009 10:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 9 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/9</link>
+      <description>remove tag sorry</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/9</guid>
+      <pubDate>Wed, 08 Apr 2009 10:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 7 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/7</link>
+      <description>1.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/7</guid>
+      <pubDate>Wed, 08 Apr 2009 01:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 6 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/6</link>
+      <description>update paradoxpdf operator : only xhtml parameter is required, other parameters are optional</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/6</guid>
+      <pubDate>Wed, 08 Apr 2009 01:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>paradoxpdf rev. 5 by Karnichi Mohamed</title>
+      <link>http://projects.ez.no/paradoxpdf/subversion/5</link>
+      <description>1.0 Beta</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/paradoxpdf/subversion/5</guid>
+      <pubDate>Tue, 07 Apr 2009 23:50:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

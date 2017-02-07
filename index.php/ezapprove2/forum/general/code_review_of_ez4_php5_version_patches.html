@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 14:55:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Code review of eZ4/php5 version &amp; patches     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/c22340ae62018a2df56dcfdb09ed896d.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index-2.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/index.php/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/index.php/ezapprove2/forum/general'];
+menu[4] = ['Leaders', '/index.php/ezapprove2/team/leaders', 'Members', '/index.php/ezapprove2/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezapprove2.html" onmouseover="switchSubMenu( this );">eZ Approve 2 &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezapprove2.html">ezapprove2</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        code review of ez4/php5 ver...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Code review of eZ4/php5 version &amp; patches</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg8161">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bruce_morrison.html">Bruce Morrison</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/bruce_morrison/26413-14-eng-GB/bruce_morrison_small.jpg" width="93" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 27 February 2008 2:30:56 am</p>
+
+        <div class="attribute-long">Howdy<br />
+<br />
+I've  installed the eZ4 /php5 version and am doing a code review as we are going to use this in a project.<br />
+<br />
+Will provide patches/commits (if  added as a member)...here's  the first one<br />
+<pre class="wordwrap"><span class="line">Index: classes/ezxapprovestatususerlink.php</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- classes/ezxapprovestatususerlink.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(revision 2500)</span>
+
+<span class="line">+++ classes/ezxapprovestatususerlink.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(working copy)</span>
+
+<span class="line">@@ -52,7 +52,7 @@</span>
+
+<span class="line">&nbsp;class eZXApproveStatusUserLink extends eZPersistentObject</span>
+
+<span class="line">&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;const RoleCreator = 0;</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;const RoleApprover = 0;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;const RoleApprover = 1;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;const StatusNone = 0;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;const StatusApproved = 1;</span></pre><br />
+<br />
+Looks as if the RoleApprover was incorrectly assigned 0 when it from moved to a class constant.<br />
+<br />
+Cheers<br />
+Bruce
+</div>
+                    <div class="attribute-signature">
+            <p>W: <a href="http://www.stuffandcontent.com/" title="http://www.stuffandcontent.com/">http://www.stuffandcontent.com/</a><br />
+T: <a href="http://twitter.com/brucemorrison" title="http://twitter.com/brucemorrison">http://twitter.com/brucemorrison</a><br />
+G+ <a href="http://plus.tl/brucemorrison" title="http://plus.tl/brucemorrison">http://plus.tl/brucemorrison</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg8173">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bruce_morrison.html">Bruce Morrison</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/bruce_morrison/26413-14-eng-GB/bruce_morrison_small.jpg" width="93" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 28 February 2008 1:55:42 am</p>
+
+        <div class="attribute-long">Minor changes to method definitions get rid of strict warnings:<br />
+<pre class="wordwrap"><span class="line">Index: collaboration/ezapprove2/ezapprove2collaborationhandler.php</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- collaboration/ezapprove2/ezapprove2collaborationhandler.php (revision 2500)</span>
+
+<span class="line">+++ collaboration/ezapprove2/ezapprove2collaborationhandler.php (working copy)</span>
+
+<span class="line">@@ -103,7 +103,7 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;/*!</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\reimp</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;function title( $collaborationItem )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;function title( &amp;$collaborationItem )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return ezi18n( 'kernel/classes', 'Approval v.2' );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">@@ -156,7 +156,7 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\reimp</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\return the number of messages for the approve item.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;function messageCount( $collaborationItem )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;function messageCount( &amp;$collaborationItem )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return eZCollaborationItemMessageLink::fetchItemCount( array( 'item_id' =&gt; $collaborationItem-&gt;attribute( 'id' ) ) );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">@@ -165,7 +165,7 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\reimp</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\return the number of unread messages for the approve item.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;function unreadMessageCount( $collaborationItem )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;function unreadMessageCount( &amp;$collaborationItem )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$lastRead = 0;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$status = $collaborationItem-&gt;attribute( 'user_status' );</span>
+
+<span class="line">@@ -271,7 +271,7 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\reimp</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a new comment, approves the item or denies the item.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;function handleCustomAction( $module, $collaborationItem )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;function handleCustomAction( &amp;$module, &amp;$collaborationItem )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$redirectView = 'item';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$redirectParameters = array( 'full', $collaborationItem-&gt;attribute( 'id' ) );</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>W: <a href="http://www.stuffandcontent.com/" title="http://www.stuffandcontent.com/">http://www.stuffandcontent.com/</a><br />
+T: <a href="http://twitter.com/brucemorrison" title="http://twitter.com/brucemorrison">http://twitter.com/brucemorrison</a><br />
+G+ <a href="http://plus.tl/brucemorrison" title="http://plus.tl/brucemorrison">http://plus.tl/brucemorrison</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg8174">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bruce_morrison.html">Bruce Morrison</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/bruce_morrison/26413-14-eng-GB/bruce_morrison_small.jpg" width="93" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 28 February 2008 2:01:59 am</p>
+
+        <div class="attribute-long">When an item is first created and caught by the workflow and is editied by the approver, the approver is prompted to place the item after publishing.  This can be impossible as there is no information as to where the object was created.  <br />
+<br />
+I tracked this down to  when the new draft is created from the original that the node assignments are note copied because they have a remote_id of 0 (I suspect because it's not been published) <br />
+<br />
+The following patch manually copies the node assignments if the item has not been published and this &quot;fixes' the issue.<br />
+<br />
+<pre class="wordwrap"><span class="line">Index: collaboration/ezapprove2/ezapprove2collaborationhandler.php</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- collaboration/ezapprove2/ezapprove2collaborationhandler.php (revision 2500)</span>
+
+<span class="line">+++ collaboration/ezapprove2/ezapprove2collaborationhandler.php (working copy)</span>
+
+<span class="line">&nbsp;@@ -345,6 +345,24 @@</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 2. Create new version based in the pending one.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$newVersion = $contentObject-&gt;createNewVersion( $approveStatus-&gt;attribute( 'active_version' ) );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// If the Object has never been published we have to copy the node</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// assignment(s) acorss from the initial version to avoid the user</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// being prompted for a location when publishing.</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// It would appear that isn't done in the model for non published items.</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ($contentObject-&gt;attribute('published') == 0)</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$version = $contentObject-&gt;attribute('current');</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$nodeAssignmentList = $version-&gt;attribute( 'node_assignments' );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$contentObjectID = $contentObject-&gt;attribute('id');</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$newVersionNumber = $newVersion-&gt;attribute('version');</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach ( array_keys( $nodeAssignmentList ) as $key )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$nodeAssignment = $nodeAssignmentList[$key];</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$clonedAssignment = $nodeAssignment-&gt;cloneNodeAssignment( $newVersionNumber, $contentObjectID );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$clonedAssignment-&gt;store();</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 3. Set pending version to rejected.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$oldVersion = $approveStatus-&gt;attribute( 'object_version' );</span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>W: <a href="http://www.stuffandcontent.com/" title="http://www.stuffandcontent.com/">http://www.stuffandcontent.com/</a><br />
+T: <a href="http://twitter.com/brucemorrison" title="http://twitter.com/brucemorrison">http://twitter.com/brucemorrison</a><br />
+G+ <a href="http://plus.tl/brucemorrison" title="http://plus.tl/brucemorrison">http://plus.tl/brucemorrison</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg8175">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bruce_morrison.html">Bruce Morrison</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/bruce_morrison/26413-14-eng-GB/bruce_morrison_small.jpg" width="93" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 28 February 2008 2:09:15 am</p>
+
+        <div class="attribute-long">I suspect this is related the the previous  item and possibility may be a an eZ issue.  When an item is displayed in a collaboration preview using the plain view the location (&quot;Placed in&quot;) is blank.  You have to use the conten_version and not the content_object to get these to display.<br />
+<br />
+I've added this to the extension but maybe it should go in the main eZ dist as it's most probably an issue with the shipped approve workflow<br />
+<br />
+<pre class="wordwrap"><span class="line">Index: design/standard/templates/node/view/plain.tpl</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- design/standard/templates/node/view/plain.tpl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(revision 0)</span>
+
+<span class="line">+++ design/standard/templates/node/view/plain.tpl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(revision 0)</span>
+
+<span class="line">@@ -0,0 +1,45 @@</span>
+
+<span class="line">+{* DO NOT EDIT THIS FILE! Use an override template instead. *}</span>
+
+<span class="line">+{* Default object view template for read-only views</span>
+
+<span class="line">+&nbsp;&nbsp;Displays object content only with no buttons or children *}</span>
+
+<span class="line">+{default content_object=$node.object</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content_version=$node.contentobject_version_object</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;node_name=$node.name|wash}</span>
+
+<span class="line">+</span>
+
+<span class="line">+&lt;div class=&quot;objectheader&quot;&gt;</span>
+
+<span class="line">+&lt;h2&gt;Default object view. &lt;a class=&quot;menuheadlink&quot; href={&quot;/setup/templateview/node/view/plain.tpl&quot;|ezurl}&gt;Click to create a custom template&lt;/a&gt;&lt;/h2&gt;</span>
+
+<span class="line">+&lt;/div&gt;</span>
+
+<span class="line">+</span>
+
+<span class="line">+&lt;div class=&quot;object&quot;&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;h1&gt;{$node_name}&lt;/h1&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;input type=&quot;hidden&quot; name=&quot;TopLevelNode&quot; value=&quot;{$content_object.main_node_id}&quot; /&gt;</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{section name=ContentObjectAttribute loop=$content_version.contentobject_attributes}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;div class=&quot;block&quot;&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;{$ContentObjectAttribute:item.contentclass_attribute.name|wash}&lt;/label&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class=&quot;box&quot;&gt;{attribute_view_gui attribute=$ContentObjectAttribute:item}&lt;/p&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{/section}</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;h3&gt;{'Placed in'|i18n('design/standard/node/view')}&lt;/h3&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{section name=Parent loop=$content_version.parent_nodes}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{let parent_node=fetch(content,node,hash(node_id,$:item.parent_node))}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{section name=Path loop=$:parent_node.path}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{node_view_gui view=text_linked content_node=$:item} /</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{/section}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{node_view_gui view=text_linked content_node=$:parent_node}&lt;br/&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{/let}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{/section}</span>
+
+<span class="line">+&lt;/div&gt;</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{let name=Object related_objects=$content_version.related_contentobject_array}</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{section name=ContentObject&nbsp;loop=$Object:related_objects show=$Object:related_objects&nbsp;sequence=array(bglight,bgdark)}</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class=&quot;block&quot;&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{content_view_gui view=text_linked content_object=$Object:ContentObject:item}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span>
+
+<span class="line">+</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{/section}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;{/let}</span>
+
+<span class="line">+</span>
+
+<span class="line">+{/default}</span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>W: <a href="http://www.stuffandcontent.com/" title="http://www.stuffandcontent.com/">http://www.stuffandcontent.com/</a><br />
+T: <a href="http://twitter.com/brucemorrison" title="http://twitter.com/brucemorrison">http://twitter.com/brucemorrison</a><br />
+G+ <a href="http://plus.tl/brucemorrison" title="http://plus.tl/brucemorrison">http://plus.tl/brucemorrison</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg8177">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bruce_morrison.html">Bruce Morrison</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/bruce_morrison/26413-14-eng-GB/bruce_morrison_small.jpg" width="93" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 28 February 2008 5:25:58 am</p>
+
+        <div class="attribute-long">Typo in Constant<br />
+<pre class="wordwrap"><span class="line">Index: eventtypes/event/ezapprove2/ezapprove2type.php</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- eventtypes/event/ezapprove2/ezapprove2type.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(revision 2500)</span>
+
+<span class="line">+++ eventtypes/event/ezapprove2/ezapprove2type.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(working copy)</span>
+
+<span class="line">@@ -128,7 +128,7 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( !$object )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eZDebugSetting::writeError( 'kernel-workflow-approve', $parameters['object_id'], 'eZApprove2Type::execute' );</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return eZWorkflowType::STATUS_WORKFLOW_CANCELED;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>W: <a href="http://www.stuffandcontent.com/" title="http://www.stuffandcontent.com/">http://www.stuffandcontent.com/</a><br />
+T: <a href="http://twitter.com/brucemorrison" title="http://twitter.com/brucemorrison">http://twitter.com/brucemorrison</a><br />
+G+ <a href="http://plus.tl/brucemorrison" title="http://plus.tl/brucemorrison">http://plus.tl/brucemorrison</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 14:55:01 GMT -->
+</html>

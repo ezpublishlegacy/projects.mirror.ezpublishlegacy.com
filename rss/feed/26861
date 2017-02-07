@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowforum / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:47:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:47:31 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26861" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x6</link>
+      <description>There's also a standalone extension containing just the ezbirthday datatype at http://projects.ez.no/birthday which we've used in a couple of our projects.&#13;
+&#13;
+It was on my 'To Do' list for a long time to clone the standalone birthday extension to git which I've finally done. It's at https://github.com/eab-dev/birthday&#13;
+&#13;
+Hope you can get it to work on eZ Publish 5! Will all legacy custom datatypes fail with that kind of error?&#13;
+&#13;
+Andy&#13;
+&#13;
+</description>
+      <author>community@ez.no (Andy Caiger)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x6</guid>
+      <pubDate>Sat, 22 Nov 2014 07:02:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x5</link>
+      <description>Hi,&#13;
+&#13;
+I have just added it to github: https://github.com/xrowgmbh/xrowforum</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x5</guid>
+      <pubDate>Fri, 21 Nov 2014 13:31:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x4</link>
+      <description>Understood Robert.  Is this on github, perhaps I can do a pull request if I can sort the issues out.  It would be a shame to let the extension lapse as there is nothing else in the eZ community like this that I'm aware.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x4</guid>
+      <pubDate>Fri, 21 Nov 2014 13:04:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x3</link>
+      <description>yes ezbirthday datatype is coming from our extension. &#13;
+&#13;
+I am not planning to upgrade this extension soon, sorry.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x3</guid>
+      <pubDate>Fri, 21 Nov 2014 12:03:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x2</link>
+      <description>Hi guys&#13;
+&#13;
+I'm now looking to upgrade a site to eZ5 which is using this extension.  I have done any investigations yet but after a basic upgrade get a NotFound: Could not find 'eZ\Publish\SPI\Persistence\Content\FieldValue\Converter\*' with identifier 'ezbirthday' which is a library within the extension I think.&#13;
+&#13;
+If anyone has tacked this let me know.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x2</guid>
+      <pubDate>Fri, 21 Nov 2014 11:57:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x</link>
+      <description>hi,&#13;
+&#13;
+i have not tested it yet so I dont know.&#13;
+in any case it is NOT planned yet to upgrade it in near future.&#13;
+&#13;
+cheers,&#13;
+robert</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x</guid>
+      <pubDate>Wed, 28 May 2014 11:12:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x</link>
+      <description>Hi,&#13;
+is xrowforum compatible with ezp 5.x? &#13;
+Will there be an upgrade available?&#13;
+Thanks in advance.&#13;
+&#13;
+regards&#13;
+&#13;
+</description>
+      <author>community@ez.no (Horst Lindlbauer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x</guid>
+      <pubDate>Tue, 27 May 2014 14:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pin a topic</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/pin_a_topic/re_pin_a_topic</link>
+      <description>Hi Guillaume,&#13;
+&#13;
+yes its possible. If I remember it right, then you only need to add a new checkbox attribute to your forum topic class with the identifier "sticky" and thats it.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/pin_a_topic/re_pin_a_topic</guid>
+      <pubDate>Wed, 19 Mar 2014 16:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pin a topic</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/pin_a_topic</link>
+      <description>Hello&#13;
+&#13;
+Is it possible to pin a topic with xrowforum extension ?&#13;
+If not, what is the best way to accomplish this feature ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Guillaume Kempfer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/pin_a_topic</guid>
+      <pubDate>Wed, 19 Mar 2014 16:33:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses3</link>
+      <description>hi,&#13;
+&#13;
+good question.. i dont know what is the best way to implement it. i havent looked into it for more then a year. maybe i will have a look into it later next week.. i dont know yet. i was thinking about fetching all available siteaccess from site ini and then foreach them in seperate input fileds in the admin panel. then we store them in xrowforum ini siteaccess based and read them out in the template automatically siteaccess based. something like that.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses3</guid>
+      <pubDate>Wed, 09 Jan 2013 12:44:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses2</link>
+      <description>So we  have good and bad news I see :) I have different admins/editors who should see only their forums on Admin Panel and separated statistic as well. &#13;
+&#13;
+I need to create few root nodes for different forums (different customers). So my idea is to start new structure just under Main Node (node_id:2) containing Forum nodes and add to each Forum additional location placed under Customer sites like:&#13;
+&#13;
+Home -&gt; Forums -&gt; Customer 1 (with additional location to Home -&gt; Companies -&gt; First Group -&gt; Customer 1 -&gt;Forum)&#13;
+Home -&gt; Forums -&gt; Customer 2 (with additional location to Home -&gt; Companies -&gt; First Group -&gt; Customer 2 -&gt;Forum)&#13;
+Home -&gt; Forums -&gt; Customer 3 (with additional location to Home -&gt; Companies -&gt; Second Group -&gt; Customer 3 -&gt;Forum)&#13;
+&#13;
+Than I will set ForumIndexPageNodeID to Forums node id and override php script and statistic template where I check permission of admin to show proper statistics &#13;
+&#13;
+What do you think? Any suggestions how change them and don't break anything? :)&#13;
+&#13;
+Regards,&#13;
+Thanks again for answer&#13;
+Patryk.</description>
+      <author>community@ez.no (Patryk Manterys)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses2</guid>
+      <pubDate>Wed, 09 Jan 2013 12:12:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses</link>
+      <description>Hi Patryk,&#13;
+&#13;
+its no problem to run the forum extension with different siteaccesses. On lineage-realm.com you can see an example of that. but also you are right about the ForumIndexPageNodeID. this can only be set ONCE its not controllable via siteaccess yet. but as far as i remember this setting is only there to display a correct statistic. so i dont know if that is important for you. if you want you can enhance the code so that its controllable per siteaccess. shouldnt be too hard. i will take it to kernel then.&#13;
+&#13;
+p.s. you may dont need to seperate the forums anyway, you should be able to control via settings and policies that user only see the content belonging to the used siteaccess even if all use the same forum node (for example when the siteaccesses are language based). you can only see english content in the american siteaccess or polish content when you use the polish siteaccess. setting this up is a ezpublish feature not an xrowforum feature. but i dont know your needs tho.&#13;
+&#13;
+p.p.s. i havent modified the extension for a long time.. i think there are various updates needed, be aware of that.&#13;
+&#13;
+Robert.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses</guid>
+      <pubDate>Wed, 09 Jan 2013 11:54:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses</link>
+      <description>Hi xrow :)&#13;
+&#13;
+Guys is this possible to run this forum extension on many site accesses?&#13;
+&#13;
+I have one instance of eZ (4.4) with about 40 sites belongs to different customers. Now I want to install xrowforum for some of them. &#13;
+&#13;
+As I see in admin panel, xrowforum tab, there are settings to set ForumIndexPageNodeID and so on.. Is it possible to have these settings different for particular sites?&#13;
+&#13;
+Of course I want separated forums, that users from site A see only forum A and users from site B see only Forum B.&#13;
+&#13;
+Thanks for answer :)</description>
+      <author>community@ez.no (Patryk Manterys)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses</guid>
+      <pubDate>Wed, 09 Jan 2013 09:51:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Delete all include and require in php files</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files/re_delete_all_include_and_require_in_php_files</link>
+      <description>I have also replaced all 'ezi18n' function calls by 'ezpI18n::tr'.</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files/re_delete_all_include_and_require_in_php_files</guid>
+      <pubDate>Wed, 01 Feb 2012 08:35:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delete all include and require in php files</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files</link>
+      <description>Hello,&#13;
+I was trying to override some classes of your extension, especially ones about BBCode, in order to add filters. The problem is that php files like BBCodeParser.php are hard included into classes with "include_once" or "require_once" php functions. &#13;
+&#13;
+You should search and delete every "include" and "require" statements into your extension php files. They are useless thanks to eZ Publish autoload mechanism.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files</guid>
+      <pubDate>Tue, 31 Jan 2012 15:18:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation3</link>
+      <description>thanks for your contribution. the ts file has been added.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation3</guid>
+      <pubDate>Tue, 25 Oct 2011 08:53:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation2</link>
+      <description>Ok thanks !</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation2</guid>
+      <pubDate>Mon, 24 Oct 2011 15:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation</link>
+      <description>hi,&#13;
+&#13;
+robert [ at ] xrow. de</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation</guid>
+      <pubDate>Mon, 24 Oct 2011 13:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation</link>
+      <description>Hi, &#13;
+&#13;
+I wrote a french ts file for this extension.&#13;
+How can I send it to you ?&#13;
+</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation</guid>
+      <pubDate>Mon, 24 Oct 2011 12:52:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Settings</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/design_settings/re_design_settings</link>
+      <description>thx for the hint.&#13;
+i changed it in the install doc, or did you find it somewhere else too?</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/design_settings/re_design_settings</guid>
+      <pubDate>Mon, 05 Sep 2011 14:18:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Design Settings</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/design_settings</link>
+      <description>Hi,&#13;
+&#13;
+In site.ini.append.php, it would be better to use &lt;i&gt;AdditionalSiteDesignList&lt;/i&gt; instead of &lt;i&gt;SiteDesign&lt;/i&gt;, which overrides default SiteDesign settings...&#13;
+&#13;
+Thanks&#13;
+&#13;
+Simon</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/design_settings</guid>
+      <pubDate>Mon, 05 Sep 2011 13:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>http://www.lineage-realm.com/community</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_www_lineage_realm_com_community</link>
+      <description>hi,&#13;
+&#13;
+after many changes this is my latest project which is using the xrowforum extension.&#13;
+have a look at it if you want :-) i will attach a couple of pictures to the gallery so that you know how it actually looks like when you are logged in.&#13;
+&#13;
+http://projects.ez.no/xrowforum/gallery/screenshots_from_lineage_realm_com&#13;
+live page: http://www.lineage-realm.com/community</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_www_lineage_realm_com_community</guid>
+      <pubDate>Thu, 18 Aug 2011 13:06:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does not work with Community-Edition 2011.7 ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_73</link>
+      <description>Hi Horst,&#13;
+&#13;
+the debug seems not to be responsible for any of your described issues.&#13;
+the warnings mention there i will leave there for now since they dont cause any issues.&#13;
+&#13;
+the whole notification flagsystem wont work without triggers. i would really like to help you. any chance you can give me access to backend so i can double check the triggers and workflows? i still think one workflow is calling himself. maybe u can make screens and send them to robert@xrow.de if i am not allowed to access your system.&#13;
+&#13;
+please try to update your extension version. maybe that solves a your network not found thing. i fixed a similar issue 1 or 2 weeks ago. i also cant reproduce your issue. if its not fixed then please tell me the steps how to reproduce the error.&#13;
+&#13;
+the notification bug is fixed in rev. 30, please update your extension.&#13;
+&#13;
+thanks for reporting :-)</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_73</guid>
+      <pubDate>Mon, 01 Aug 2011 10:24:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does not work with Community-Edition 2011.7 ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_72</link>
+      <description>Hi Robert,&#13;
+thank you for the quick reply.&#13;
+I could not manage to track the error so far. I created workflows and triggers exactly as instructed.&#13;
+&#13;
+I have some more errors: &#13;
+&#13;
+- "friendship request" results in a file not found error:&#13;
+&gt;&gt; The requested URL /pm/network was not found on this server.&#13;
+&#13;
+- click on "notify me about changes" opens a new reply form ??&#13;
+&#13;
+Everything else seems to work even without triggers being set.&#13;
+&#13;
+&#13;
+Here is the debug output (not very helpful though) if triggers are set as instructed:&#13;
+&#13;
+Timing: 	Aug 01 2011 11:30:56&#13;
+&#13;
+Script start&#13;
+&#13;
+Timing: 	Aug 01 2011 11:30:56&#13;
+&#13;
+Module start 'xrowforum'&#13;
+&#13;
+Strict: Deprecation 	Aug 01 2011 11:30:56&#13;
+&#13;
+Function templateInit() has been deprecated in 4.3 in favor of eZTemplate::factory()&#13;
+&#13;
+Strict: Deprecation 	Aug 01 2011 11:30:56&#13;
+&#13;
+Function ezi18n() has been deprecated in 4.3 in favor of ezpI18n::tr()&#13;
+&#13;
+Notice: PHP: E_NOTICE 	Aug 01 2011 11:30:56&#13;
+&#13;
+Undefined offset: 0 in /var/www/phpdev.mrmf.de/ezp_2011.7/extension/xrowforum/eventtypes/event/setsessionbeforepublish/setsessionbeforepublishtype.php on line 29&#13;
+&#13;
+</description>
+      <author>community@ez.no (Horst Lindlbauer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_72</guid>
+      <pubDate>Mon, 01 Aug 2011 09:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does not work with Community-Edition 2011.7 ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_7</link>
+      <description>hi,&#13;
+&#13;
+sounds a bit to me that you have setted up the workflows wrong. maybe you created a request that can never finish. endless loop. please check out the screens and the attached documentation again. if that doesnt fix the problem please provide more information (screens, access whatever)&#13;
+&#13;
+greetings robert from xrow.&#13;
+robert@xrow.de</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7/re_does_not_work_with_community_edition_2011_7</guid>
+      <pubDate>Fri, 29 Jul 2011 12:01:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does not work with Community-Edition 2011.7 ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7</link>
+      <description>&#13;
+I installed on eZ Community Project 2011.7 and can't get anything on click on the xrowForum-Tab. &#13;
+Setting the triggers for the workflows results in "eZ Publish could not finish the request"-errors on every send-for-publishing-click...&#13;
+ &#13;
+&#13;
+</description>
+      <author>community@ez.no (Horst Lindlbauer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/does_not_work_with_community_edition_2011_7</guid>
+      <pubDate>Fri, 29 Jul 2011 11:39:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ 4.5 ready, PM and friendsystem added</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ez_4_5_ready_pm_and_friendsystem_added</link>
+      <description>Hi,&#13;
+I was using http://projects.ez.no/ezpm for long time but I needed many enhancements so I started programming my own private message system and included this to my forum extension now.  The pm systems are quite similar. I guess his coding style is clearer (class usage) but I provide more features. Some examples of the &lt;b&gt;difference&lt;/b&gt; of our extensions:&#13;
+&#13;
+•	Validation before sending&#13;
+•	“Pm is Read” check functionality work &#13;
+•	Possibility to send pms via name input (jquery name suggest)&#13;
+•	Mail notifications (editable for each user stored in ezuserpreferences)&#13;
+•	No text limit of 255 digits&#13;
+•	Search option in inbox/outbox&#13;
+•	Editor added for smileys, bold, images, ..&#13;
+•	You can add friends (with friend requests accept/decline + mail notification)&#13;
+•	Many operators added to make it more easy to get basic information into your custom template (example: online friend count)&#13;
+•	and some more I think..&#13;
+(for the full feature list read below)&#13;
+&#13;
+All needed changes for the PM system are in svn revision #9 &#13;
+&#13;
+&lt;b&gt;How to upgrade&lt;/b&gt;&#13;
+1.	Use the latest svn trunk (I suppose svn up extension/xrowforum)&#13;
+2.	create the 2 needed sql tables:&#13;
+a.	extension/xrowforum/doc/install/pm_tables.sql&#13;
+3.	Run autoloads ( php bin/php/ezpgenerateautoloads.php –e )&#13;
+4.	Include the pm menu template to your favorite location and you better add a if clause around it if the current user is logged in&#13;
+a.	{include uri='design:pm/control_menu.tpl'}&#13;
+5.	 Clear cache&#13;
+6.	add the permissions for the “pm” module to your choosen user role&#13;
+7.	=&gt; DONE.&#13;
+&#13;
+If you are new to the xrowforum extension then just follow the documentation and you will also get the pm functions.&#13;
+&#13;
+&lt;b&gt;Feature List PM/Friend&lt;/b&gt;&#13;
+&#13;
+ - creates replies(posts) in the same language as the parent(topic)&#13;
+        - speed increase&#13;
+        - avoids problems with "object unavailabilty" which appeared in the past on multilingual sites&#13;
+        - new template (= code cleanup)&#13;
+    &#13;
+	7. Private Messaging module&#13;
+		- Inbox&#13;
+			* search in inbox&#13;
+			* new messages special displayed&#13;
+			* straight reply function&#13;
+			* remove messages&#13;
+			* sorting messages&#13;
+		- Outbox&#13;
+			* search in outbox&#13;
+			* new messages special displayed&#13;
+			* straight reply function&#13;
+			* remove messages&#13;
+			* sorting messages&#13;
+		- Network Overview&#13;
+			* option do add friends and to block user&#13;
+			* Friendlist&#13;
+			* Blocklist&#13;
+			* Friendrequestlist&#13;
+		- Create PM&#13;
+			* full validation&#13;
+			* Editor&#13;
+			* jQuery name suggest&#13;
+		- View PM&#13;
+		- different Operators&#13;
+			* Private Message Count (inbox: total/new/old, outbox: total)&#13;
+			* Relation Check&#13;
+				- is user XX blocked? is user XX a friend?&#13;
+				- friendlist&#13;
+				- who of my friends is online / offline&#13;
+			* Requestcheck&#13;
+		- Friend Request "Workflow"&#13;
+			- add =&gt; accept =&gt; is friend =&gt; break friendship&#13;
+		- Block User&#13;
+			- block removable if you are the user whoch actually started blocking the other user&#13;
+		- Mail Notification&#13;
+			* enable/disable via .ini setting&#13;
+			* if enabled then each user can decide if notifications are wanted or not&#13;
+				- sends notification on: new PM in inbox, new Friend Request, User accepted the request, User rejected the request&#13;
+		- and much more..&#13;
+&#13;
+&#13;
+&lt;b&gt;Other changes of the release&lt;/b&gt;&#13;
+&#13;
+•	some HTML errors fixed&#13;
+•	eZ 4.5 ready&#13;
+o	problem with ezi18n fixed&#13;
+•	some other minor fixes wich if forgot by now ;-) see svn log for more information&#13;
+&#13;
+&lt;b&gt;Note&lt;/b&gt;&#13;
+If you like to customize the extension then i suggest to take a look into my small documentation. That should explain the usage  a little and gives you some hints which save you searching hours into my code ;-)&#13;
+&#13;
+http://svn.projects.ez.no/xrowforum/trunk/doc/pm_documentation</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ez_4_5_ready_pm_and_friendsystem_added</guid>
+      <pubDate>Sun, 01 May 2011 14:28:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: http://seelenfeuer-clan.de/community/Seelen...</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen4</link>
+      <description>hey,&#13;
+&#13;
+yeah would be cool if you post a link here :-)&#13;
+i had so many requests on that extension but no one is posting a reference link..&#13;
+&#13;
+about the user link, i know what you mean, just another hint for you about this: when you use more then one location for a user( like i do with different usergroups) then you better ALWAYS only work with the "main node" link.&#13;
+&#13;
+could look like that:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;a href={$topic.object.owner.main_node.url_alias|ezurl()}&gt;{$topic.object.owner.name|wash()}&lt;/a&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+that will be useful and avoids trouble when you for example store objects below the user object (like guestbook comments or whatever you can imagine)&#13;
+&#13;
+cheers.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen4</guid>
+      <pubDate>Mon, 21 Mar 2011 10:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: http://seelenfeuer-clan.de/community/Seelen...</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen3</link>
+      <description>Oh, great! It took a while, but it works. So users have profiles after all, just need to set them to be viewable and to find how to get the link to them (and this was not easy) :D&#13;
+&#13;
+I hope I will be able to post a link to my forum in here during the next week. Still a lot to learn about eZ Publish. I hope it gets more eZ as I go :D</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen3</guid>
+      <pubDate>Sun, 20 Mar 2011 17:01:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: http://seelenfeuer-clan.de/community/Seelen...</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen2</link>
+      <description>thanks!&#13;
+&#13;
+the "profile" is simply a overwritte template for user full view, nothing special. no thats not in extension because its technically just design.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen2</guid>
+      <pubDate>Fri, 18 Mar 2011 19:22:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: http://seelenfeuer-clan.de/community/Seelen...</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen</link>
+      <description>Nice forum!&#13;
+&#13;
+I see that you also have user profiles. Does this extension creates user profiles as well? I am quite amazed that I found today that the users have no profiles. This should be basic...</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum/re_http_seelenfeuer_clan_de_community_seelen</guid>
+      <pubDate>Fri, 18 Mar 2011 17:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>http://seelenfeuer-clan.de/community/Seelenfeuer-Forum</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum</link>
+      <description>URL: http://seelenfeuer-clan.de/community/Seelenfeuer-Forum&#13;
+&#13;
+feel free to create users if you are interested to test some features which you are only able to use when you are logged in. not all features from xrowforum are implemented but most of them. </description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_seelenfeuer_clan_de_community_seelenfeuer_forum</guid>
+      <pubDate>Wed, 09 Mar 2011 12:46:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: phpMyAdmin?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/phpmyadmin/re_phpmyadmin</link>
+      <description>hi,&#13;
+&#13;
+i guess you can ofc. if its not working then try to open the .sql file (its small file) and copy the content to your script execute shell in phpmyadmin. im not familiar with phpmyadmin but i hope you have that or a similar function there.&#13;
+&#13;
+cheers.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/phpmyadmin/re_phpmyadmin</guid>
+      <pubDate>Thu, 09 Dec 2010 12:25:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>phpMyAdmin?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/phpmyadmin</link>
+      <description>Hi,&#13;
+&#13;
+I'm somewhat new to using shell commands so can I run the tables.sql file using phpMyAdmin?&#13;
+&#13;
+cheers&#13;
+N:)</description>
+      <author>community@ez.no (Neo Pixel)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/phpmyadmin</guid>
+      <pubDate>Thu, 09 Dec 2010 11:32:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Birthday</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/birthday/re_birthday</link>
+      <description>Hi,&#13;
+&#13;
+i'm sorry but i will not extract the changes to a seperate project since its not my datatype and i didn't really make BIG changes on it. i only made it valid for php5 if i remember right.&#13;
+but if you want you can of course feel free and take the datatype from my svn tree and replace it with the one from the original birthday extension. maybe that helps you.&#13;
+also i will let georg know that you are interested in a update of his extension, he might will come back to you then.&#13;
+&#13;
+cheers.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/birthday/re_birthday</guid>
+      <pubDate>Mon, 29 Nov 2010 09:40:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Birthday</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/birthday</link>
+      <description>What would you think of extracting the changes you've made on the birthday datatype to an independent eZBirthday extension.&#13;
+&#13;
+In fact before posting here, I've just posted in the birthday project forum to as if someone is still maintaining it..&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/birthday</guid>
+      <pubDate>Sat, 27 Nov 2010 07:18:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezPublish 4.4</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_43</link>
+      <description>hey,&#13;
+&#13;
+i just did setted it up for ez 4.4 community version. it works 99%&#13;
+&#13;
+no fatal errors no php warnings no nothing.&#13;
+took me less then 10min to setup, 30min to fix my setup cause i wasnt reading carefull what i wrote half a year ago.&#13;
+&#13;
+so i give you those hints:&#13;
+&#13;
+- read EVERY SINGLE STEP of my install instructions, if you do what is written there then its no problem to set up.&#13;
+- especially check your design settings, dont forget these (like i did) u will need it for front and backend so you can set it up in override i guess&#13;
+- set up the workflows correctly! better double check (thats the most "hardest" part in installation)&#13;
+- use the correct nodes in the override ini&#13;
+- dont forget to go to backend and setup the IDs there&#13;
+&#13;
+and now the most important:&#13;
+&#13;
+eZ has the classes folder, forums, forum, topic, reply but as demo content it delivers folder =&gt; forum =&gt; topic i dont know why eZ dont use all the classes they got in there demo pages. so i highly recommand not to use the demo content from eZ.&#13;
+&#13;
+build it like that: 1) folder/frontpage(doesnt matter what) as forum index 2) forums 3) forum 4) topic 5) reply&#13;
+&#13;
+thats how a forum works for me in my opinion and thats how i created my templates so watch out to keep that order if you use my extension.&#13;
+&#13;
+so good luck. extension works with 4.4!&#13;
+&#13;
+P.S. you might spot a problem when using smiliess and BB codes when creating a topic but thats a simple javascript error, u can fix it easy. just the child or subnode when trying to search the input field might differs, just try to use 1 number more or less.. but maybe you wont even have that problem :)&#13;
+&#13;
+P.P.S. another good new, if you use 4.4 then you dont need to add the patch, my extension works without it then.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_43</guid>
+      <pubDate>Mon, 08 Nov 2010 16:07:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezPublish 4.4</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_42</link>
+      <description>Thank you for your answer, this is good news.&#13;
+&#13;
+I did not start building the actual website yet so I did not tried to install it, but I will start implementation soon. I will post the link to the website as soon as i is done, if you want to see an implementation on a site.&#13;
+&#13;
+Have you managed to install it on 4.4 version?</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_42</guid>
+      <pubDate>Sat, 06 Nov 2010 10:29:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezPublish 4.4</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_4</link>
+      <description>Hey,&#13;
+&#13;
+nice that you want to try my extension, i dont see a reason why it should not work under 4.4 so i guess you can implement it (but i didnt test it yet).&#13;
+&#13;
+To implement the extension i guess you will need 10-30min.. not more, there is a installation document attached, just follow the steps, should be quite easy and fast. good luck, let me know it if you implement it and use it in the end actually. i still havent seen a single live page with my extension. (link would be nice) thx in advance and let me know if you need more help. :) &#13;
+&#13;
+greetings&#13;
+&#13;
+edit: i might install it in 1 week for 4.4 to test it :) i update this post here then.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4/re_ezpublish_4_4</guid>
+      <pubDate>Sun, 24 Oct 2010 20:45:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezPublish 4.4</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4</link>
+      <description>This seems to be a really must have extension for my community driven website. Thank you for your work!&#13;
+&#13;
+Will this extension work eZ Publish 4.4? &#13;
+I could test it, but I have several more days of work until I reach the point where I need to implement the forum, so I would like to know how much time I should plan for implementing it.</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezpublish_4_4</guid>
+      <pubDate>Thu, 21 Oct 2010 21:55:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Settings : ForumIndexPageNodeID</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/settings_forumindexpagenodeid/re_settings_forumindexpagenodeid</link>
+      <description>Hey Jérôme!&#13;
+&#13;
+I'm glad you tested my extension, would be interesting to know if you really have use for it and if yes, can you link me the forum where it is in use? i had no time to put it into my own forum yet. was it easy to install? &#13;
+&#13;
+and about your problem, well, you can't imagine how often i confused myself with those contentojectID vs nodeID thing in my settings. i maybe didnt gave them the most logical variable names thats true hehe.. and ofc you are right, it took the wrong timestamp cause i entered a nodeID as a contentobjectID. i just fixed it and u can find it in SVN trunk. i also renamed the variables a bit to make it more clear what is what.&#13;
+&#13;
+it is now like that:&#13;
+&#13;
+&lt;code&gt;&#13;
+$forum_start = $db-&gt;arrayQuery("SELECT published FROM ezcontentobject, ezcontentobject_tree WHERE ezcontentobject_tree.contentobject_id = ezcontentobject.id AND ezcontentobject_tree.main_node_id = $ForumIndexPageNodeID;");&#13;
+&lt;/code&gt;&#13;
+&#13;
+maybe its more easy to understand now. but to answer you clearly now: you need to enter the NODEID not the object id. cause i also use this ID from the settings which you refer to for some "hardcoded links" like:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;form name="form_{$child.node_id}" id="form_{$child.node_id}" method="post" action={concat('content/view/full/', $forum_id)|ezurl()}&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+so im pretty sure its the node ID. if u update xrowforum/overview.php and enter the nodeID then everything should be fine and it should solve your error. would be cool if you give me a report if it fixed your problem, else try to explain it a bit more.&#13;
+&#13;
+thx for trying my extension. &#13;
+&#13;
+greetings robert.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/settings_forumindexpagenodeid/re_settings_forumindexpagenodeid</guid>
+      <pubDate>Tue, 10 Aug 2010 15:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Settings : ForumIndexPageNodeID</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/settings_forumindexpagenodeid</link>
+      <description>Hello&#13;
+&#13;
+Thanks for this great extension !&#13;
+I found a label mistake in the settings view : &lt;i&gt; ForumIndexPageNodeID&lt;/i&gt; seems to be an object ID to fill. If you fill the NodeID, a warning is raised from &lt;i&gt;overview&lt;/i&gt; view :&#13;
+&lt;code&gt;&#13;
+$http = eZHTTPTool::instance();&#13;
+$tpl = templateInit();&#13;
+$db = eZDB::instance();&#13;
+$Module = $Params['Module'];&#13;
+$sys = eZSys::instance();&#13;
+$xrowForumINI = eZINI::instance( 'xrowforum.ini' );&#13;
+$ForumIndexObject = $xrowForumINI-&gt;variable( 'IDs', 'ForumIndexObject' );&#13;
+&#13;
+...&#13;
+&#13;
+$forum_start = $db-&gt;arrayQuery("SELECT published FROM ezcontentobject WHERE id = $ForumIndexObject;");&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/settings_forumindexpagenodeid</guid>
+      <pubDate>Fri, 30 Jul 2010 08:42:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / liseventsearch / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:24:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:24:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/49980" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/liseventsearch/source/05407ae0f7aa32d6daf37bee9260d549b4509d83</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/liseventsearch/source/05407ae0f7aa32d6daf37bee9260d549b4509d83</guid>
+      <pubDate>Fri, 03 May 2013 04:03:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/liseventsearch/source/20fe1e76bcfd6c7caf94ca961573419d608636b0</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
++ LICENSE
+m README.md
++ classes/lisEventSearchFilter.php
++ doc/README.txt
++ settings/extendedattributefilter.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/liseventsearch/source/20fe1e76bcfd6c7caf94ca961573419d608636b0</guid>
+      <pubDate>Fri, 03 May 2013 04:03:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

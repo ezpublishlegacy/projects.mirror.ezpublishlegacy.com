@@ -1,0 +1,928 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezvlogin/forum/general/working_with_custom_headers/(offset)/20 by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:20:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Working with custom Headers     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezvlogin/forum/general'];
+menu[4] = ['Leaders', '/ezvlogin/team/leaders', 'Members', '/ezvlogin/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../../ezvlogin.html" onmouseover="switchSubMenu( this );">eZ Varnish Login &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../../../ezvlogin.html">ezvlogin</a>
+        
+                        /
+                            <a href="../../../../forum.html">forum</a>
+        
+                        /
+                            <a href="../../../general.html">general</a>
+        
+                        /
+                                        working with custom headers
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Working with custom Headers</h1>
+</div>
+
+    
+
+                
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+<div class="pagenavigator">
+<p>
+
+           <span class="previous"><a href="../../working_with_custom_headers.html"><span class="text">&laquo;&nbsp;Previous</span></a></span>
+       
+          
+<span class="pages">
+                      <span class="other"><a href="../../working_with_custom_headers.html">1</a></span>
+            
+        <span class="current">2</span>
+
+    
+</span>
+
+</p>
+<div class="break"></div>
+</div>
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+
+    
+
+
+
+
+<tr class="bgdark" id="msg14347">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 20 February 2009 10:20:21 am</p>
+
+        <div class="attribute-long">Due to some trouble with other installations, I changed <br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+to <br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+which means that only the post request itself is passed.<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14348">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 20 February 2009 10:21:27 am</p>
+
+        <div class="attribute-long">Hello Norman,<br />
+<br />
+thanks for the feedback.<br />
+<br />
+I am discussing with Paul on how we could provide some kind of an &quot;official&quot; .vcl file for eZ Publish.<br />
+<br />
+Once we are done with this I think Paul will inform the community.<br />
+<br />
+Cheers :)
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14893">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 March 2009 11:48:41 am</p>
+
+        <div class="attribute-long">I can confirmed that you should not set Expires headers, as they will cause browsers to cache pages as well.<br />
+<br />
+This is some of the settings we use on a site (with squid, but in this regard they behave the same, only Varnish is much better at handling cookies for login status with vcl files like the ones above):<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[HTTPHeaderSettings]</span>
+
+<span class="line">CustomHeader=enabled</span>
+
+<span class="line"># new setting as of 4.0.2 and 4.1 (#014130)</span>
+
+<span class="line"># Not really needed with a decent vcl setup, but doesn't hurt</span>
+
+<span class="line">OnlyForAnonymous=enabled</span>
+
+<span class="line">Pragma[]</span>
+
+<span class="line">Pragma[/]=cache</span>
+
+<span class="line"># Needed since httpheader code does not set headers for other</span>
+
+<span class="line"># modules then content view unless specific asked for it&nbsp;</span>
+
+<span class="line">Pragma[/user/login]=cache</span>
+
+<span class="line"># How long Squid should cache&nbsp;</span>
+
+<span class="line">Cache-Control[]</span>
+
+<span class="line">Cache-Control[/]=cache, s-maxage=600</span>
+
+<span class="line">Cache-Control[/user/login]=cache, s-maxage=600</span>
+
+<span class="line"></span></pre><br />
+<br />
+I just post it for reference, it works but the &quot;public, must-revalidate, max-age&quot; setting from Norman is probably better.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18016">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/stevo2.html">STEVO +</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/stevo__2/20593-1-eng-GB/stevo_small.gif" width="60" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 23</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 22 July 2009 5:39:26 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I've been trying to follow Norman's method for forcing the browser to request again after the user logs in/out.<br />
+<br />
+For me, it didn't work when the user logs out: The browser seems to make the request with &quot;If-Modified-Since&quot; and so varnish returns a 304 Not Modified and the browser uses it's latest cached file which - the logged in version.<br />
+<br />
+I may well have missed something, but I've solved the problem for me by adding:<br />
+<br />
+<pre class="wordwrap"><span class="line">set req.http.If-Modified-Since = &quot;Mon, 26 Jul 1997 05:00:00 GMT&quot;;</span></pre><br />
+<br />
+to the bottom of sub vcl_recv. Varnish will then lookup + return it's non-logged in cached version + all is well.
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18017">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 22 July 2009 6:31:48 pm</p>
+
+        <div class="attribute-long">Hi Stevo,<br />
+<br />
+you could also drop the header information from ez within the vcl so the client's browser dosen't cache the html requests:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">sub vcl_hit</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (!obj.cacheable)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.url ~ &quot;\.(gif|jpg|jpeg|swf|css|js|flv|mp3|mp4|pdf|ico)$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;deliver;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set obj.http.Cache-Control = &quot;no-cache, must-revalidate&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set obj.http.Pragma = &quot;no-cache&quot;;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre><br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18022">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/stevo2.html">STEVO +</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/stevo__2/20593-1-eng-GB/stevo_small.gif" width="60" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 23</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 22 July 2009 11:38:10 pm</p>
+
+        <div class="attribute-long">Hi Norman,<br />
+<br />
+Thanks, i was pretty sure I tried that (but in vcl_fetch) but perhaps I forgot the pragma. It's easy to run around in circles with this stuff eh?<br />
+<br />
+After 2 days of blindly hacking around I think I've got everything working as I want. I have anonymous users cached, basic users cached with a different hash and advanced users passed right through.<br />
+<br />
+I've also patched the kernel with a little helper function to set a has_user_data cookie if there's anything in the basket or wishlist or particular user/preferences set. I'll have to upload an extension.
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18023">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/stevo2.html">STEVO +</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/stevo__2/20593-1-eng-GB/stevo_small.gif" width="60" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 23</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 22 July 2009 11:41:23 pm</p>
+
+        <div class="attribute-long">Oh, I should add a big thank you to everyone that's posted stuff about this varnish stuff + I have to say, it's well worth it in the end!
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19228">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 08 September 2009 12:55:28 am</p>
+
+        <div class="attribute-long">Hi there. We'll gonna implement varnish for one of our projects. i will try all your suggestions about .vcl file. Anyway, Jérome was talking about an 'official ez publish varnish configuration'.  how is it? Should i try start with this one?<br />
+<br />
+<a href="http://svn.projects.ez.no/ezvlogin/tags/ezvlogin-1.1/doc/example.vcl" title="http://svn.projects.ez.no/ezvlogin/tags/ezvlogin-1.1/doc/example.vcl">http://svn.projects.ez.no/ezvlogin/tags/ezvlogin-1.1/doc/example.vcl</a><br />
+<br />
+and then add your suggestions?<br />
+<br />
+Thanks in advanced. <br />
+<br />
+Best regards.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg21002">
+    
+    <td class="info">
+        <p class="author"><a href="../../../../../users/community/ekkehard_doerre2.html">Ekkehard Dörre</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../../var/plain_site/storage/images/users/community/ekkehard_doerre2/25088-41-eng-GB/ekkehard_doerre_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 March 2003</p>
+        <p class="posts">Posts: 20</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 11 November 2009 7:04:59 pm</p>
+
+        <div class="attribute-long">Hi all,<br />
+<br />
+@Jérôme is there any progress in the &quot;official&quot; .vcl file for ez Publish, you mentioned at Friday 20 February 2009 10:21:27 am?<br />
+<br />
+This would be a nice thing,<br />
+<br />
+<br />
+Greetings, ekke
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.coolscreen.de/" title="http://www.coolscreen.de">http://www.coolscreen.de</a> - member of <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a><br />
+eZ Publish 5 Consulting</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div class="pagenavigator">
+<p>
+
+           <span class="previous"><a href="../../working_with_custom_headers.html"><span class="text">&laquo;&nbsp;Previous</span></a></span>
+       
+          
+<span class="pages">
+                      <span class="other"><a href="../../working_with_custom_headers.html">1</a></span>
+            
+        <span class="current">2</span>
+
+    
+</span>
+
+</p>
+<div class="break"></div>
+</div>
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezvlogin/forum/general/working_with_custom_headers/(offset)/20 by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:20:36 GMT -->
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezssp / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:00:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:00:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/578" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezssp rev. 10 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/10</link>
+      <description>- Implemented enhancement: eZ Publish 4.4 compatibility
+- Implemented enhancement: option to NOT defer to cron
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/10</guid>
+      <pubDate>Mon, 22 Nov 2010 19:27:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 9 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/9</link>
+      <description>- Implemented enhancement: remove unnecessary includes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/9</guid>
+      <pubDate>Wed, 03 Sep 2008 06:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 7 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/7</link>
+      <description>- Added: stable branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 8 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/8</link>
+      <description>- Creating stable 1.0 branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 5 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/5</link>
+      <description>- Fixed: PHP warning about undefined variable $addOwnerGroups
+- Implemented: workflow recursion protection</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 6 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/6</link>
+      <description>- Implemented: update for eZ Publish 4.0
+# still using deprecated ezxml library though, but this can be changed later</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/3</link>
+      <description>- Defer to cron by default (maybe add a configurable option for this later)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 4 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/4</link>
+      <description>- extension info file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/1</link>
+      <description>- Initial version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezssp rev. 2 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezssp/subversion/2</link>
+      <description>- Fixed: if no roles are selected then deselected roles are not removed
+- Improvement: "add owner" checkboxes are flags, so no need to use associative post arrays
+- Workaround for issue http://issues.ez.no/10685: fetchHTTPInput function of a workflow event also executed on first request to workflow/edit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezssp/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / structural</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:19:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:19:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/35756" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/structural/news/changelog</link>
+      <description>&lt;p&gt;
+1.1:&lt;br /&gt;
+ - fixed minor css issue&lt;br /&gt;
+ - moved to stable&lt;br /&gt;
+ 1.0&lt;br /&gt; - first release&lt;/p&gt;</description>
+      <author>community@ez.no (bisk  )</author>
+      <guid>http://projects.ez.no/structural/news/changelog</guid>
+      <pubDate>Sat, 01 Apr 2006 08:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>structural-1-1.ezpkg</title>
+      <link>http://projects.ez.no/structural/downloads/structural_1_1_ezpkg</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/structural/downloads/structural_1_1_ezpkg</guid>
+      <pubDate>Sat, 01 Apr 2006 08:31:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

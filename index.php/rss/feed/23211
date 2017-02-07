@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztoolbox / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:34:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:34:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23211" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Excellent start</title>
+      <link>http://projects.ez.no/eztoolbox/reviews/excellent_start</link>
+      <description>The current version of it (searching the online eZ Publish documentation) is working like a charm, has an intuitive UI, usable with keyboard only, quick...well, an excellent start. &#13;
+&#13;
+This project could become, as it names suggests, a set of browser (and not only Chrome btw) tools, extensions to ease eZ Publish development generally. &#13;
+&#13;
+One thought was to have eZDebug in Firebug. Two initiatives started in this direction, which could be merged : &#13;
+* http://projects.ez.no/fireez&#13;
+* http://projects.ez.no/ezfire&#13;
+&#13;
+My 2 cents :)&#13;
+&#13;
+Thanks for the initiative Mathieu, &#13;
+PS : i requested membership on the project :)&#13;
+PS2: the install-and-put-hands-on explanation is clear ( http://projects.ez.no/eztoolbox/forum/general/how_to_contribute_on_the_project#msg23218 )</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/eztoolbox/reviews/excellent_start</guid>
+      <pubDate>Fri, 12 Feb 2010 15:50:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

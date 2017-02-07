@@ -1,0 +1,89 @@
+Index: kernel/classes/ezcontentobject.php
+===================================================================
+--- kernel/classes/ezcontentobject.php	(revision 14135)
++++ kernel/classes/ezcontentobject.php	(working copy)
+@@ -2609,6 +2609,31 @@
+                             }
+                         } break;
+ 
++                        case 'ParentDepth':
++                        {
++                            $assignedNodes = $this->attribute( 'assigned_nodes' );
++                            if ( count( $assignedNodes ) > 0 )
++                            {
++                                foreach ( $assignedNodes as  $assignedNode )
++                                {
++                                    $depth = $assignedNode->attribute( 'depth' );
++                                    if ( in_array( $depth, $limitationArray[$key] ) )
++                                    {
++                                        $access = 'allowed';
++                                        break;
++                                    }
++                                }
++                            }
++                            
++                            if ( $access != 'allowed' )
++                            {
++                                $access = 'denied';
++                                $limitationList = array( 'Limitation' => $key,
++                                                         'Required' => $limitationArray[$key] );
++                            }
++                        } break;
++
++
+                         case 'Section':
+                         case 'User_Section':
+                         {
+Index: kernel/classes/ezcontentobjecttreenode.php
+===================================================================
+--- kernel/classes/ezcontentobjecttreenode.php	(revision 14135)
++++ kernel/classes/ezcontentobjecttreenode.php	(working copy)
+@@ -4380,6 +4380,20 @@
+                             }
+                         } break;
+ 
++                        case 'ParentDepth':
++                        {
++                            if (  in_array( $this->attribute( 'depth' ), $limitationArray[$key]  ) )
++                            {
++                                $access = 'allowed';
++                            }
++                            else
++                            {
++                                $access = 'denied';
++                                $limitationList = array( 'Limitation' => $key,
++                                                         'Required' => $limitationArray[$key] );
++                            }
++                        } break;
++
+                         case 'Node':
+                         {
+                             $accessNode = false;
+Index: kernel/content/module.php
+===================================================================
+--- kernel/content/module.php	(revision 14135)
++++ kernel/content/module.php	(working copy)
+@@ -472,6 +472,15 @@
+             'value' => '1')
+         )
+     );
++$depthArray = array();
++for ( $i = 1; $i <= 20; $i++ )
++{
++    $depthArray[] = array( 'Name' => $i, 'value' => $i );
++}
++$ParentDepth = array(
++    'name'=> 'ParentDepth',
++    'values'=> $depthArray
++    );
+ $Node = array(
+     'name'=> 'Node',
+     'values'=> array()
+@@ -494,6 +503,7 @@
+ $FunctionList['create'] = array( 'Class' => $ClassID,
+                                  'Section' => $SectionID,
+                                  'ParentClass' => $ParentClassID,
++                                 'ParentDepth' => $ParentDepth,
+                                  'Node' => array_merge(  $Node, array( 'DropList' => array( 'ParentClass', 'Section' ) ) ),
+                                  'Subtree' => $Subtree
+                                  );

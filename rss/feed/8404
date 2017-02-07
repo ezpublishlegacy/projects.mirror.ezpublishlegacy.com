@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggxmlview / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:22:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:22:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8404" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggxmlview/subversion/6bea49f3b4a4298c871b5238b1b07113950b9054</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitgignore and composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/6bea49f3b4a4298c871b5238b1b07113950b9054</guid>
+      <pubDate>Tue, 13 May 2014 21:23:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggxmlview/subversion/924057b56074c4bc3ccbe0f4f82ed726cf7afa1f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix json view of nodes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/924057b56074c4bc3ccbe0f4f82ed726cf7afa1f</guid>
+      <pubDate>Tue, 13 May 2014 21:23:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 39 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/39</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/39</guid>
+      <pubDate>Thu, 16 Dec 2010 21:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 38 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/38</link>
+      <description>- more detailed install instructions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/38</guid>
+      <pubDate>Thu, 16 Dec 2010 21:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 37 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/37</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/37</guid>
+      <pubDate>Thu, 16 Dec 2010 21:31:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 35 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/35</link>
+      <description>- tag for release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/35</guid>
+      <pubDate>Thu, 16 Dec 2010 21:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 36 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/36</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/36</guid>
+      <pubDate>Thu, 16 Dec 2010 21:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 34 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/34</link>
+      <description>- fix: invalid xml for objrelation attributes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/34</guid>
+      <pubDate>Thu, 16 Dec 2010 21:11:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 33 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/33</link>
+      <description>- improved the encoding of ezpersistentobject descendant classes (eg. ezcontentobjectreenode as returned by fetch content/list): now the proper type is enforced for scalar attributes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/33</guid>
+      <pubDate>Sun, 20 Jun 2010 00:25:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 32 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/32</link>
+      <description>- add info, tag for release 0.2.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/32</guid>
+      <pubDate>Thu, 17 Jun 2010 13:40:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 31 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/31</link>
+      <description>- fix missing inclusion of php file for templateinit call</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/31</guid>
+      <pubDate>Tue, 15 Jun 2010 20:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 29 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/29</link>
+      <description>- update copyright notices to 2010</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/29</guid>
+      <pubDate>Fri, 19 Mar 2010 23:55:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 30 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/30</link>
+      <description>- add changelog for version 2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/30</guid>
+      <pubDate>Fri, 19 Mar 2010 23:55:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 28 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/28</link>
+      <description>- added release dates to changelogs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/28</guid>
+      <pubDate>Tue, 22 Sep 2009 08:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 26 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/26</link>
+      <description>- fix for php 4.1: add xml to list of known modules</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/26</guid>
+      <pubDate>Fri, 15 May 2009 12:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 27 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/27</link>
+      <description>- doc file improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/27</guid>
+      <pubDate>Fri, 15 May 2009 12:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 24 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/24</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/24</guid>
+      <pubDate>Fri, 15 May 2009 12:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 25 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/25</link>
+      <description>- set by default content-type on json content
+(missing changelog from previous commit)
+- update copyright stmt to correct year
+- add a "httpheader" tpl operator to send tpl headers
+- add override templates that can be used as alternative to layout/set module</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/25</guid>
+      <pubDate>Fri, 15 May 2009 12:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 23 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/23</link>
+      <description>- changelog update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/23</guid>
+      <pubDate>Fri, 26 Dec 2008 16:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 22 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/22</link>
+      <description>- created two separate node views, json/xml, which only has links to children, and xmlmap/jsonmap which has complete site content;
+- moved comments to bottom, to avoid problems with dumb json parsers;
+- object element in node xml now uses class_id, not class_name, to avoid risk of invalid xml (element id cannot have spaces);
+- more info by default for nodes, including remote_id;
+- for new/unknown datatypes, always echo attribute name in both json and xml;
+- updated bundled jsonrpc library to latest version available (fixes utf8 encoding for chars outside the bmp)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/22</guid>
+      <pubDate>Fri, 26 Dec 2008 16:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 21 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/21</link>
+      <description>- added extra info about setting up virtual urls</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/21</guid>
+      <pubDate>Wed, 01 Oct 2008 12:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 20 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/20</link>
+      <description>add ComplexDisplayViewModes to the default settings modified by the lib</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/20</guid>
+      <pubDate>Wed, 01 Oct 2008 12:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 19 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/19</link>
+      <description>- Added test package containing an object with attributes of all datatypes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/19</guid>
+      <pubDate>Sun, 14 Sep 2008 22:00:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/17</link>
+      <description>- Fix template for authors</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/17</guid>
+      <pubDate>Thu, 31 Jul 2008 00:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/18</link>
+      <description>- Whitespace and comments fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/18</guid>
+      <pubDate>Thu, 31 Jul 2008 00:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/16</link>
+      <description>- Added templates for object relation(s) attributes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/16</guid>
+      <pubDate>Thu, 31 Jul 2008 00:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 15 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/15</link>
+      <description>- Added json extension emulation lib, from phpxmlrpc lib plus extras, for those installs without json</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/15</guid>
+      <pubDate>Mon, 17 Mar 2008 22:45:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 14 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/14</link>
+      <description>- More information</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/14</guid>
+      <pubDate>Sat, 08 Mar 2008 16:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/12</link>
+      <description>- Template fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/12</guid>
+      <pubDate>Sat, 08 Mar 2008 16:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/13</link>
+      <description>- Moved object output in their own template, so that content_view_gui can also be used</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/13</guid>
+      <pubDate>Sat, 08 Mar 2008 16:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/11</link>
+      <description>- Fix: remove path of layout module from generated urls</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/11</guid>
+      <pubDate>Sat, 08 Mar 2008 16:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/10</link>
+      <description>- Added namespace and schema declarations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/10</guid>
+      <pubDate>Fri, 07 Mar 2008 22:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/9</link>
+      <description>- bring eztext tpl in line with other attributes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/9</guid>
+      <pubDate>Fri, 07 Mar 2008 22:10:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/8</link>
+      <description>- Typo fix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/8</guid>
+      <pubDate>Fri, 07 Mar 2008 22:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/7</link>
+      <description>More datatypes templates</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/7</guid>
+      <pubDate>Fri, 07 Mar 2008 21:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/6</link>
+      <description>use correct wash operator</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/6</guid>
+      <pubDate>Fri, 07 Mar 2008 21:30:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/5</link>
+      <description>more templates for base datatypes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/5</guid>
+      <pubDate>Fri, 07 Mar 2008 19:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/4</link>
+      <description>- Fix closing xml tag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/4</guid>
+      <pubDate>Fri, 07 Mar 2008 19:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/3</link>
+      <description>- Initial code checkin, in the correct dir</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/3</guid>
+      <pubDate>Thu, 06 Mar 2008 11:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/2</link>
+      <description>- Remove all code checked in under bad directory structure</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/2</guid>
+      <pubDate>Thu, 06 Mar 2008 11:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ggxmlview/subversion/1</link>
+      <description>- Initial check in of code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggxmlview/subversion/1</guid>
+      <pubDate>Thu, 06 Mar 2008 11:35:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgeshi / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8416" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/f6532dfa66ad88ec833acf7cdc90d5346bb4c871</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/f6532dfa66ad88ec833acf7cdc90d5346bb4c871</guid>
+      <pubDate>Sat, 02 Nov 2013 22:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/f1f905c8c12e78ba845551a6d4b836c2cdcded71</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezgeshi.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: was not properly adding links to template names in error messages in debug output&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/f1f905c8c12e78ba845551a6d4b836c2cdcded71</guid>
+      <pubDate>Thu, 18 Apr 2013 19:07:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/ffcf3fad90215905712fac48631ffe23710dad67</link>
+      <description>
+      &lt;pre&gt;+ doc/changelogs/1.5/CHANGELOG-1.4-to-1.5
++ lib/geshi/geshi/twig.php
++ lib/geshi/geshi/twightml.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add twig support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/ffcf3fad90215905712fac48631ffe23710dad67</guid>
+      <pubDate>Thu, 18 Apr 2013 19:07:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/7ca68c5d6d4ee0b94b479ae6dfbcf6989c77b60a</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezgeshi.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve the number of error/warning lines that get a link to the source files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/7ca68c5d6d4ee0b94b479ae6dfbcf6989c77b60a</guid>
+      <pubDate>Thu, 18 Apr 2013 19:07:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/be213d644ae394262f8a268364f231d5e7eec200</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+m doc/todo
+m extension.xml
+m ezinfo.php
+m pake/options-ezsh.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitignore
+Update files with next rel. number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/be213d644ae394262f8a268364f231d5e7eec200</guid>
+      <pubDate>Wed, 28 Mar 2012 10:51:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/cec797c1344c65420457c73ea374eefb3656630c</link>
+      <description>
+      &lt;pre&gt;m lib/geshi/geshi/ezini.php
+m lib/geshi/geshi/eztemplate.php
+m modules/geshi/highlight.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update licensing headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/cec797c1344c65420457c73ea374eefb3656630c</guid>
+      <pubDate>Wed, 28 Mar 2012 10:51:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgeshi/subversion/72508fe9bae01e579b5ae50c7aa215963ce64a92</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezsh.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix link to github in pakefile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/72508fe9bae01e579b5ae50c7aa215963ce64a92</guid>
+      <pubDate>Wed, 28 Mar 2012 10:51:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1685 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1685</link>
+      <description>Core meltdown</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1685</guid>
+      <pubDate>Sun, 25 Mar 2012 01:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1684 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1684</link>
+      <description>Reanem license file to be more complaint with pake makefile</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1684</guid>
+      <pubDate>Sun, 25 Mar 2012 00:45:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1683 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1683</link>
+      <description>Alow usage of absolute paths on windows
+Block usage of absolute paths by default, make enabling it optional
+Update docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1683</guid>
+      <pubDate>Sun, 25 Mar 2012 00:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1682 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1682</link>
+      <description>Make detection of url prefix to eZ more robust</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1682</guid>
+      <pubDate>Sat, 24 Mar 2012 23:45:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1681 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1681</link>
+      <description>Modified the way we inject links in list of used templates: add them to 4th column instead of taking over existing ones</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1681</guid>
+      <pubDate>Sat, 24 Mar 2012 23:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1680 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1680</link>
+      <description>Improve install docs and default settings
+Improve the debug output monkeypatching
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1680</guid>
+      <pubDate>Fri, 23 Mar 2012 13:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1679 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1679</link>
+      <description>Take over complete control of debug output: add links to all files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1679</guid>
+      <pubDate>Fri, 23 Mar 2012 02:15:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1678 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1678</link>
+      <description>Typos in changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1678</guid>
+      <pubDate>Fri, 23 Mar 2012 00:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1677 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1677</link>
+      <description>Fix previous commit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1677</guid>
+      <pubDate>Tue, 13 Mar 2012 19:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1675 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1675</link>
+      <description>Take over links to visual/templateedit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1675</guid>
+      <pubDate>Tue, 13 Mar 2012 19:30:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1676 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1676</link>
+      <description>Be less aggressive in link changes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1676</guid>
+      <pubDate>Tue, 13 Mar 2012 19:30:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1673 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1673</link>
+      <description>Ugly fix for ini language producing broken html</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1673</guid>
+      <pubDate>Tue, 13 Mar 2012 18:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1674 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1674</link>
+      <description>Improve previous commit to make the fix apply more broadly</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1674</guid>
+      <pubDate>Tue, 13 Mar 2012 18:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1672 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1672</link>
+      <description>Add more comments stating geshi appartenance</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1672</guid>
+      <pubDate>Tue, 13 Mar 2012 17:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1671 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1671</link>
+      <description>New feature: blacklisted files not to highlight</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1671</guid>
+      <pubDate>Tue, 13 Mar 2012 16:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1670 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1670</link>
+      <description>Add pakefile, extension.xml, update todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1670</guid>
+      <pubDate>Tue, 13 Mar 2012 16:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1669 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1669</link>
+      <description>Upgrade to geshi 1.8.10
+Upgrade tags to release 1.4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1669</guid>
+      <pubDate>Tue, 13 Mar 2012 15:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1668 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1668</link>
+      <description>- fix line-end chars: some file has it mac-style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1668</guid>
+      <pubDate>Fri, 14 Oct 2011 23:31:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1667 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1667</link>
+      <description>- fix ezsh tpl operator (was broken in 1.3 release)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1667</guid>
+      <pubDate>Sun, 07 Nov 2010 18:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1665 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1665</link>
+      <description>- update list of languages for GeSHi 1.8.6</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1665</guid>
+      <pubDate>Fri, 28 May 2010 00:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1666 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1666</link>
+      <description>- update info files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1666</guid>
+      <pubDate>Fri, 28 May 2010 00:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1663 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1663</link>
+      <description>- update ezinfo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1663</guid>
+      <pubDate>Fri, 28 May 2010 00:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1664 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1664</link>
+      <description>- use 'setup' nav part for highlighting files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1664</guid>
+      <pubDate>Fri, 28 May 2010 00:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1662 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1662</link>
+      <description>- better detection of file type based on known ezpublish dirs and files if no type specified</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1662</guid>
+      <pubDate>Tue, 04 May 2010 14:05:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1661 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1661</link>
+      <description>- comments header</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1661</guid>
+      <pubDate>Tue, 04 May 2010 13:30:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1660 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1660</link>
+      <description>- many tpl parser improvements, some more tests in the test file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1660</guid>
+      <pubDate>Tue, 04 May 2010 12:10:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1659 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1659</link>
+      <description>- do not include geshi directly anymore, rely on autoload instead</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1659</guid>
+      <pubDate>Mon, 03 May 2010 13:35:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1658 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1658</link>
+      <description>- display short filename to end user</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1658</guid>
+      <pubDate>Mon, 03 May 2010 13:05:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1657 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1657</link>
+      <description>- tabs to spaces, as per geshi recommendations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1657</guid>
+      <pubDate>Mon, 03 May 2010 12:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1656 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1656</link>
+      <description>- more test cases</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1656</guid>
+      <pubDate>Mon, 03 May 2010 12:45:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1655 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1655</link>
+      <description>- fixed the eztemplate language to highlight strings on right hand of assignments that have no quotes;
+- highlight as variable objects subattributes regardless of level</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1655</guid>
+      <pubDate>Mon, 03 May 2010 12:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1653 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1653</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1653</guid>
+      <pubDate>Mon, 03 May 2010 12:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1654 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1654</link>
+      <description>- added a test file for the template language</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1654</guid>
+      <pubDate>Mon, 03 May 2010 12:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1652 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1652</link>
+      <description>- fixed the eztemplate language not to highlight stuff in {literal} blocks</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1652</guid>
+      <pubDate>Mon, 03 May 2010 11:55:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1651 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1651</link>
+      <description>- rewritten the eztemplate language files to better support links to 4.X online docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1651</guid>
+      <pubDate>Mon, 03 May 2010 10:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1650 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1650</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1650</guid>
+      <pubDate>Mon, 03 May 2010 09:20:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1649 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1649</link>
+      <description>- better parsing of bad lines in ini files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1649</guid>
+      <pubDate>Mon, 03 May 2010 09:05:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1648 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1648</link>
+      <description>- updated to geshi 1.0.8.6</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1648</guid>
+      <pubDate>Mon, 03 May 2010 08:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1647 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1647</link>
+      <description>- add a view that highlights ezpublish files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1647</guid>
+      <pubDate>Sun, 02 May 2010 20:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1646 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1646</link>
+      <description>- coding style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1646</guid>
+      <pubDate>Sun, 02 May 2010 20:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1645 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1645</link>
+      <description>- php5 style: no more references</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1645</guid>
+      <pubDate>Sun, 02 May 2010 20:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1644 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1644</link>
+      <description>- Added release dates to changelogs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1644</guid>
+      <pubDate>Tue, 22 Sep 2009 08:25:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgeshi rev. 1643 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgeshi/subversion/1643</link>
+      <description>- add license text</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgeshi/subversion/1643</guid>
+      <pubDate>Tue, 30 Jun 2009 08:45:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

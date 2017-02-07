@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezoracle / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:41:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:41:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9835" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle7</link>
+      <description>If the memory usage is not the biggest problem for you (esp. during traffic spikes), I'd go for a completely separate http server then. Less chances for finger-pointing when something goes wrong in any of the two applications...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle7</guid>
+      <pubDate>Fri, 07 Aug 2009 13:24:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle6</link>
+      <description>I understand your points,&#13;
+&#13;
+Our constrains are :&#13;
+&#13;
+1) ezpublish 4.1 ( because object states )&#13;
+2) running ezp on the same server running OAS &#13;
+3) running the OAS Applications ( Java ) without problems derived of ezp installation&#13;
+&#13;
+Note: hacking ezp 4.1 for php 5.1.x isn't an option</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle6</guid>
+      <pubDate>Thu, 06 Aug 2009 17:26:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle5</link>
+      <description>As I stated before, it boils down to the versions of php you need.&#13;
+&#13;
+You can compile php 5.2 as a module for oracle http server and use it instead of the native mod_php. You will loose oracle support for that part, but not for the rest of the OAS-hosted apps - but should you call oracle for support, they would ask you to reproduce the bug with the custom-built mod_php disabled as first thing. And you would have to check all existing php applications for compatibility with php 5.2.&#13;
+&#13;
+Or you can stay with php 5.1. Either run eZP 4.0 in a supported configuration, or install eZP 4.1 and hack it to work in an unsupported config - there is a blog post by Kristof Coomans with detailed instructions on how to do that: http://blog.coomanskristof.be/2009/07/15/ez-publish-4-1-3-on-php-5-1-2/&#13;
+&#13;
+In any case, eZ Publish requires some php.ini configurations that might be slightly different from the ones used by other php applications. If you are already running php apps in OAS, you might want to set up separate virtual hosts to have per-app different values for those configurations.</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle5</guid>
+      <pubDate>Thu, 06 Aug 2009 14:23:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle4</link>
+      <description>Hi,&#13;
+&#13;
+What about the scenario where you already have OAS ( with Oracle HTTP Server ) running other applications on the server ?</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle4</guid>
+      <pubDate>Thu, 06 Aug 2009 14:13:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle3</link>
+      <description>Never.&#13;
+&#13;
+I personally tend to compile my apache+php installs by hand on linux, and most hosting environments either do the same or use the stock versions that come with the os.&#13;
+&#13;
+eZPublish uses the oci libs linked from php to connect to the db, so there would be no gain, afaict, in using the http server coming from Oracle, as you would not be using the mod_oc*** modules that are added in that server anyway.&#13;
+&#13;
+Otoh you could get (paid for) support from Oracle, as long as you use the php module that is already included in the oracle application server: according to this doc: http://www.oracle.com/technology/products/ias/ohs/htdocs/ohs-101310-faq.pdf, you would be getting by default apache 1.3.34 and php 5.1.2.&#13;
+Unluckily that would limit you to eZ Publish 4.0, as 4.1 and later need php version 5.2...&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle3</guid>
+      <pubDate>Thu, 06 Aug 2009 10:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle2</link>
+      <description>Gaetano&#13;
+&#13;
+Thanks, &#13;
+&#13;
+Another question, have you installed ezpublish with Oracle Application Server  ( Oracle HTTP Server ) ?</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle2</guid>
+      <pubDate>Wed, 05 Aug 2009 16:03:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle</link>
+      <description>Not that I know of</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle/re_any_known_issue_with_zend_core_for_oracle</guid>
+      <pubDate>Wed, 05 Aug 2009 10:36:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>any known issue with Zend Core for Oracle ?</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle</link>
+      <description>Hi,&#13;
+&#13;
+I would like to install ezpublish/ezoracle with Zend Core for Oracle , &#13;
+&#13;
+is there any known issue with this setup ?&#13;
+&#13;
+Regards&#13;
+</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle</guid>
+      <pubDate>Wed, 05 Aug 2009 09:05:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in9</link>
+      <description>Hi&#13;
+&#13;
+The actual name of the db handler is ezoracle, not oracle. A temporary fix is available here: http://issues.ez.no/IssueView.php?Id=15109</description>
+      <author>community@ez.no (Vidar Langseid)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in9</guid>
+      <pubDate>Tue, 30 Jun 2009 12:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in8</link>
+      <description>Exact I've done a mistake.thx.&#13;
+&#13;
+I run again the ezpgenerateautoloads.php&#13;
+&#13;
+it displays 54 php files instead of 52 &#13;
+&#13;
+&lt;i&gt;&#13;
+Scan complete. Found 54 PHP files.&#13;
+&#13;
+Searching for classes (tokenizing).&#13;
+&#13;
+Found 22 classes, added 22 of them to the autoload array.&#13;
+&lt;/i&gt;&#13;
+&#13;
+Now the ezp_extension.php generated is correct :)&#13;
+&#13;
+&lt;?php&#13;
+/**&#13;
+ * Autoloader definition for eZ Publish Extension files.&#13;
+ *&#13;
+ * @copyright Copyright (C) 1999-2009 eZ Systems AS. All rights reserved.&#13;
+ * @license http://ez.no/licenses/gnu_gpl GNU GPL v2&#13;
+ * @version //autogentag//&#13;
+ * @package kernel&#13;
+ *&#13;
+ */&#13;
+&#13;
+return array(&#13;
+      'EnchantSpell'              =&gt; 'extension/ezoe/modules/ezoe/classes/EnchantSpell.php',&#13;
+      'GoogleSpell'               =&gt; 'extension/ezoe/modules/ezoe/classes/GoogleSpell.php',&#13;
+      'Moxiecode_JSON'            =&gt; 'extension/ezoe/modules/ezoe/classes/utils/mcejson.php',&#13;
+      'Moxiecode_JSONReader'      =&gt; 'extension/ezoe/modules/ezoe/classes/utils/mcejson.php',&#13;
+      'PSpell'                    =&gt; 'extension/ezoe/modules/ezoe/classes/PSpell.php',&#13;
+      'PSpellShell'               =&gt; 'extension/ezoe/modules/ezoe/classes/PSpellShell.php',&#13;
+      'SpellChecker'              =&gt; 'extension/ezoe/modules/ezoe/classes/SpellChecker.php',&#13;
+      'eZOEAjaxContent'           =&gt; 'extension/ezoe/classes/ezoeajaxcontent.php',&#13;
+      'eZOEInputParser'           =&gt; 'extension/ezoe/ezxmltext/handlers/input/ezoeinputparser.php',&#13;
+      'eZOEPacker'                =&gt; 'extension/ezoe/autoloads/ezoepacker.php',&#13;
+      'eZOEPackerFunctions'       =&gt; 'extension/ezoe/classes/ezoepackerfunctions.php',&#13;
+      'eZOETemplateUtils'         =&gt; 'extension/ezoe/autoloads/ezoetemplateutils.php',&#13;
+      'eZOEXMLInput'              =&gt; 'extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php',&#13;
+      'eZOOConverter'             =&gt; 'extension/ezodf/classes/ezooconverter.php',&#13;
+      'eZOOGenerator'             =&gt; 'extension/ezodf/classes/ezoogenerator.php',&#13;
+      'eZOOImport'                =&gt; 'extension/ezodf/classes/ezooimport.php',&#13;
+      'eZOpenofficeUploadHandler' =&gt; 'extension/ezodf/uploadhandlers/ezopenofficeuploadhandler.php',&#13;
+     &lt;i&gt; 'eZOracleDB'                =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php', &lt;/i&gt;&#13;
+      'eZOracleSchema'            =&gt; 'extension/ezoracle/ezdb/dbms-schema/ezoracleschema.php',&#13;
+      'eZRESTODFHandler'          =&gt; 'extension/ezodf/classes/ezrestodfhandler.php',&#13;
+      'ezodfInfo'                 =&gt; 'extension/ezodf/ezinfo.php',&#13;
+      'ezoeInfo'                  =&gt; 'extension/ezoe/ezinfo.php',&#13;
+    );&#13;
+&#13;
+?&gt;&#13;
+&#13;
+but the have still the same problem.&#13;
+&#13;
+C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --u&#13;
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11&#13;
+Could not initialize database:&#13;
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'&#13;
+* No database handler was found for 'oracle'&#13;
+&#13;
+</description>
+      <author>community@ez.no (dada Mr)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in8</guid>
+      <pubDate>Wed, 24 Jun 2009 08:57:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in7</link>
+      <description>&lt;code&gt;&#13;
+&lt;?php&#13;
+ExtensionSettings]&#13;
+ActiveExtensions[]&#13;
+ActiveExtensions[]=ezoracle&#13;
+?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Yoi miss an opening bracket in there (unless that was justa  typo when pasting to the web):&#13;
+&lt;i&gt;ExtensionSettings] =&gt; [ExtensionSettings]&lt;/i&gt;&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in7</guid>
+      <pubDate>Wed, 24 Jun 2009 08:32:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in6</link>
+      <description>Ok tanks for your answer.&#13;
+&#13;
+My site.ini.append.php is situated i folder &lt;i&gt;settings/override/&lt;/i&gt;&#13;
+&lt;code&gt;&#13;
+&lt;?php &#13;
+ExtensionSettings]&#13;
+ActiveExtensions[]&#13;
+ActiveExtensions[]=ezoracle&#13;
+?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+this file contains only 3 lines ??&#13;
+&#13;
+I run &gt;php bin/php/ezpgenerateautoloads.php&#13;
+&#13;
+&#13;
+I add ( and verify it exists )   'eZOracleDB'                =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php',&#13;
+&#13;
+in  var/autoload/ezp_extension.php. &#13;
+&#13;
+I launch &#13;
+php bin/php/ezsqlinsertschema.php --type=oracle --us&#13;
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11&#13;
+Could not initialize database:&#13;
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'&#13;
+* No database handler was found for 'oracle'&#13;
+&#13;
+??</description>
+      <author>community@ez.no (dada Mr)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in6</guid>
+      <pubDate>Wed, 24 Jun 2009 08:16:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in5</link>
+      <description>Can you verify that:&#13;
+&#13;
+1 - in settings/override/site.ini.append.php you have this:&#13;
+[ExtensionSettings]&#13;
+ActiveExtensions[]&#13;
+...&#13;
+ActiveExtensions[]=ezoracle&#13;
+...&#13;
+&#13;
+2 - in var/autoload/ezp_extension.php you have this:&#13;
+...&#13;
+      'eZOracleDB'                         =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php',&#13;
+...&#13;
+&#13;
+If point 1 is false, you will have to add that line and rerun ezpgenerateautoloads.php</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in5</guid>
+      <pubDate>Tue, 23 Jun 2009 17:25:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in4</link>
+      <description>Ok.I run that script from php command &#13;
+I have this message &#13;
+&lt;i&gt;&#13;
+Scanning for PHP-files.&#13;
+&#13;
+Scan complete. Found 52 PHP files.&#13;
+&#13;
+Searching for classes (tokenizing).&#13;
+&#13;
+Found 20 classes, added 20 of them to the autoload array.&#13;
+&lt;/i&gt;&#13;
+&#13;
+=&gt; so the extension are activated&#13;
+and the extensions autoload regenerated&#13;
+&#13;
+&#13;
+Next step should be the initialisation of the database.&#13;
+&#13;
+&lt;i&gt;&#13;
+C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --us&#13;
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11&#13;
+Could not initialize database:&#13;
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'&#13;
+* No database handler was found for 'oracle'&#13;
+&lt;/i&gt;&#13;
+&#13;
+but I have the same message than before ?&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (dada Mr)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in4</guid>
+      <pubDate>Tue, 23 Jun 2009 17:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in3</link>
+      <description>You should run that script from php command line, and starting from the ezpublish root directory - it should not be run via web access.&#13;
+&#13;
+If you prefer to update the autoloads via a GUI, you can do that in the admin interface of eZ Publish, but only after you have installed it successfully (cat-and-tail problem in your case)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in3</guid>
+      <pubDate>Tue, 23 Jun 2009 16:07:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in2</link>
+      <description>Ok you're totally right , I forget this step 8&#13;
+Now I have a message.&#13;
+&#13;
+after launching the regeneration of the extension autoload file :&#13;
+http://localhost/ezpublish-4.1.3/bin/php/ezpgenerateautoloads.php&#13;
+&#13;
+I have this message below:&#13;
+&#13;
+&lt;i&gt;Scanning for PHP-files. The directory file 'C:/wamp/www/ezpublish-4.1.3/bin/php/extension' could not be found.&#13;
+&lt;/i&gt;&#13;
+&#13;
+</description>
+      <author>community@ez.no (dada Mr)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in2</guid>
+      <pubDate>Tue, 23 Jun 2009 15:46:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pb using script ezsqlinsertschema.php to in...</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in</link>
+      <description>Are you sure you followed carefully step 8: "Enable the extension"?&#13;
+&#13;
+you need to&#13;
+- have the extension activated&#13;
+- have the extensions autoload regenerated&#13;
+&#13;
+"no database handler was found" means that the php class eZOracleDB was not found by the system when tryng to load it</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g/re_pb_using_script_ezsqlinsertschema_php_to_in</guid>
+      <pubDate>Tue, 23 Jun 2009 13:55:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pb using script ezsqlinsertschema.php to install oracle 11g</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g</link>
+      <description>Hello,&#13;
+&#13;
+I'm working on window xp with WAMP 2.0.&#13;
+I've installed ezpublish-4.1.3  from scratch with the extension oracle 2.0 ( last one i believe ) . I've followed the manual.&#13;
+On this server , running an oracle database 11 g&#13;
+&#13;
+I do a program's test to control that the connection is ok on the database with php&#13;
+It works very good !&#13;
+&lt;code&gt;&#13;
+ $oracle_user = "EZPUBLISH";&#13;
+ $oracle_pwd  = "EZPUBLISH";&#13;
+ $machine     =  "XE11";&#13;
+$conn=OCI_CONNECT($oracle_user,$oracle_pwd,$machine);&#13;
+	if (!$conn )&#13;
+	{&#13;
+	&#13;
+		echo "pb connexion";&#13;
+		die;&#13;
+	}	&#13;
+	echo "connecté avec OCI_connect";&#13;
+oci_close($conn);&#13;
+&lt;/code&gt;&#13;
+&#13;
+when I launch the php commande &#13;
+&lt;code&gt;&#13;
+C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --us&#13;
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11&#13;
+Could not initialize database:&#13;
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'&#13;
+* No database handler was found for 'oracle'&#13;
+&lt;/code&gt;&#13;
+&#13;
+I have some question  &lt;i&gt;No database handler&lt;/i&gt; what does it mean ?&#13;
+How can we debug the &lt;i&gt;functions&lt;/i&gt; and &lt;i&gt;classes&lt;/i&gt; in ezpublish?&#13;
+&#13;
+Thx&#13;
+bangkok94&#13;
+&#13;
+</description>
+      <author>community@ez.no (dada Mr)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g</guid>
+      <pubDate>Tue, 23 Jun 2009 10:24:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: mysql2oracle-data.php, non-ASCII</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/mysql2oracle_data_php_non_ascii/re_mysql2oracle_data_php_non_ascii</link>
+      <description>I presume it is correct, or at least better than not having it.&#13;
+I'm going to create an issue in the eZ Publish tracker about it</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/mysql2oracle_data_php_non_ascii/re_mysql2oracle_data_php_non_ascii</guid>
+      <pubDate>Sun, 22 Feb 2009 19:27:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>mysql2oracle-data.php, non-ASCII</title>
+      <link>http://projects.ez.no/ezoracle/forum/general/mysql2oracle_data_php_non_ascii</link>
+      <description>hi!&#13;
+&#13;
+for multilingual sites without ASCII encoding you would probably use something like:&#13;
+&#13;
+&lt;code&gt;&#13;
+// connect to mysql&#13;
+if ( !( $mydb = mysql_connect ( $myHost, $myUser, $myPass ) ) )&#13;
+    die( "cannot connect to MySQL\n" );&#13;
+&#13;
+if( !mysql_select_db( $myDBName, $mydb ) )&#13;
+    die( "Could not select database: " . mysql_error() . "\n" );&#13;
+&#13;
+mysql_query("SET character_set_results=utf8", $mydb);&#13;
+mysql_query("SET character_set_client=utf8", $mydb);&#13;
+mysql_query("SET character_set_connection=utf8", $mydb);&#13;
+&#13;
+// connect to oracle&#13;
+if ( !( $oradb = oci_connect( $oraUser, $oraPass, $oraInst, 'AL32UTF8' ) ) )&#13;
+    die( "cannot connect to Oracle\n" );&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Cheers. </description>
+      <author>community@ez.no (Gernot Rief)</author>
+      <guid>http://projects.ez.no/ezoracle/forum/general/mysql2oracle_data_php_non_ascii</guid>
+      <pubDate>Fri, 31 Oct 2008 23:29:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

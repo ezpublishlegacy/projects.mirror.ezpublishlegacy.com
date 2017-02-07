@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / healthcheck / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:53:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:53:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/523" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Details</title>
+      <link>http://projects.ez.no/healthcheck/forum/general/details/re_details</link>
+      <description>Yes, I just got distracted before doing it - it should be up shortly. It is very, very alpha though ;)</description>
+      <author>community@ez.no (Michael Maclean)</author>
+      <guid>http://projects.ez.no/healthcheck/forum/general/details/re_details</guid>
+      <pubDate>Fri, 27 Apr 2007 22:54:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Details</title>
+      <link>http://projects.ez.no/healthcheck/forum/general/details</link>
+      <description>Hi Michael,&#13;
+&#13;
+I would be interested to know more about this extension. Are you planning to add it to subversion?&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/healthcheck/forum/general/details</guid>
+      <pubDate>Mon, 23 Apr 2007 15:06:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

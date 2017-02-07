@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdbintegrity / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25220" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ DB Integrity 0.3 released</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_3_released</link>
+      <description>&lt;p&gt;It now allows to add database consistency checks via completely custom sql queries.&lt;/p&gt;&lt;p&gt;A couple custom queries checking nodes, objects and url-aliases are thrown in for good measure.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_3_released</guid>
+      <pubDate>Tue, 22 Jul 2014 21:04:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ DB Integrity 0.2 released</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_2_released</link>
+      <description>&lt;p&gt;It can now check your contents as well!&lt;/p&gt;&lt;p&gt;(only a few datatypes supported so far)&lt;/p&gt;&lt;p&gt;https://github.com/gggeek/ezdbintegrity/releases/tag/v0.2.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_2_released</guid>
+      <pubDate>Tue, 11 Mar 2014 12:09:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ DB Integrity 0.1 finally available!</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_1_finally_available</link>
+      <description>&lt;p&gt;...was it worth the wait?&lt;/p&gt;&lt;p&gt;Anyway, highlights:&lt;/p&gt;&lt;p&gt;- it includes a list of all the known FKs between tables, tested on eZP 4.7&lt;/p&gt;&lt;p&gt;- it can check them via command line&lt;/p&gt;&lt;p&gt;- any FK violation which you think is legit, please report as bug either on projects.ez.no or github&lt;/p&gt;&lt;p&gt;Get it from https://github.com/gggeek/ezdbintegrity&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_1_finally_available</guid>
+      <pubDate>Sat, 08 Mar 2014 15:50:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / arh_jdebug</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25332" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Planning some changes</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/planning_some_changes</link>
+      <description>As new member in the project, I's like to discuss some ideas before committing them:&#13;
+&#13;
+1. use pure-js based loading. This beacuse you can not guarantee that the debug_toolbar.tpl is loaded at all times (I generally have it disabled)&#13;
+&#13;
+2. use design.ini to enable/disable the extension instead of providing a custom param in debugjquery.ini&#13;
+&#13;
+3. rename images so that they use lowercase, english filenames&#13;
+&#13;
+4. rename the module name and ini file name so that they're consistent with the extension&#13;
+&#13;
+5. if possible, do away completely with the custom fetch functions&#13;
+&#13;
+Comments?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/planning_some_changes</guid>
+      <pubDate>Tue, 03 Apr 2012 11:29:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/7</link>
+      <description>Whitespace, indentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/7</guid>
+      <pubDate>Tue, 03 Apr 2012 11:15:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/5</link>
+      <description>Remove charset tag from ini files (best practice)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/5</guid>
+      <pubDate>Tue, 03 Apr 2012 11:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/6</link>
+      <description>Add license file, version info file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/6</guid>
+      <pubDate>Tue, 03 Apr 2012 11:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug 0.3</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_3</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Add features : &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; - Call js and css files using extension ezjscore (a template operator ezscript_require and ezcss_require)&lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_3</guid>
+      <pubDate>Mon, 23 Aug 2010 02:08:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re : This can conflict with typical javascript in a project (Doug Plant)  </title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/re_this_can_conflict_with_typical_javascript_in_a_project_doug_plant</link>
+      <description>In the latest version of the extesion, the call of js and css files is made with extension ezjscore (a template operator ezscript_require).So there is no possibility of conflicts with the use of jQuery in another extensions.</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/re_this_can_conflict_with_typical_javascript_in_a_project_doug_plant</guid>
+      <pubDate>Mon, 23 Aug 2010 02:05:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 4 by Abdelkader RHOUATI</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/4</link>
+      <description>the call of jquery's files is made with extension ezjscore (a template operator ezscript_require).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/4</guid>
+      <pubDate>Mon, 23 Aug 2010 02:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>This can conflict with typical javascript in a project</title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/this_can_conflict_with_typical_javascript_in_a_project</link>
+      <description>I'm down-grading my star-rating in light of the ease with which this extension conflicted with the project's own jquery.</description>
+      <author>community@ez.no (Doug Plant)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/this_can_conflict_with_typical_javascript_in_a_project</guid>
+      <pubDate>Fri, 16 Jul 2010 22:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug 0.2</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_2</link>
+      <description>&lt;p&gt;Add features :&lt;/p&gt;&lt;p&gt;- The default location is manageable in the configuration file.&lt;/p&gt;&lt;p&gt;- The state of the debug bar (closed / opened) is stored in preferences of the current user &lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_2</guid>
+      <pubDate>Wed, 12 May 2010 00:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 3 by Abdelkader RHOUATI</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/3</link>
+      <description>add features :
+
+- The default location is manageable in the configuration file.
+- The state of the debug bar (closed / opened) is stored in preferences of the current user </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/3</guid>
+      <pubDate>Wed, 12 May 2010 00:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 2 by Abdelkader RHOUATI</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/2</link>
+      <description>Version 0.1 of the extension is a prototype to see exactly what it will look like, now we must define the requirements and functionalities that can be included in the extension </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/2</guid>
+      <pubDate>Sun, 02 May 2010 23:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug rev. 1 by Abdelkader RHOUATI</title>
+      <link>http://projects.ez.no/arh_jdebug/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/arh_jdebug/subversion/1</guid>
+      <pubDate>Sun, 02 May 2010 23:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very handy</title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/very_handy</link>
+      <description>I like this. I'm using it as soon as I installed it, and relying on it within minutes.&#13;
+&#13;
+I hope you don't mind my proposing some ideas:&#13;
+- the closed state doesn't stick over page-loads; have you considered cookies or ez preferences?&#13;
+- being able to completely hide the toolbar and call it up with a key-press, like ctrl-spacebar&#13;
+- being able to enable only for logged-in users (so that one could install it on a production site)&#13;
+- the default location is somewhat in the way - that is where the first of my echo-output goes&#13;
+</description>
+      <author>community@ez.no (Doug Plant)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/very_handy</guid>
+      <pubDate>Fri, 30 Apr 2010 22:26:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: add debug.css</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css/re_add_debug_css</link>
+      <description>Hi Matthieu,&#13;
+&#13;
+The use of the extension ezjscore to call js and css  files, is part of the priority adjustments, that we will do.&#13;
+&#13;
+You're right it's interesting to store the state in ezpreference, I will do it.&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css/re_add_debug_css</guid>
+      <pubDate>Thu, 29 Apr 2010 14:28:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>add debug.css</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css</link>
+      <description>Hello Abdelkader,&#13;
+&#13;
+Thank you for this extension that's really usefull !&#13;
+&#13;
+I just have a problem a presentation because I don't load debug.css in my front office. What do you think of using the ezcss_require template operator to load your 'debugjquery.css' and add loading of ez 'debug.css'.&#13;
+&#13;
+Something like :&#13;
+{ezcss_require( array( 'debug.css', 'debugjquery.css' ) )}&#13;
+&#13;
+Cheers !&#13;
+&#13;
+PS : Another great feature would be to store the state of the debug bar ( i.e. open / close ) in ezpreference and this way we could just open the debug bar when we want. If you are interested and want help just tell me ;)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css</guid>
+      <pubDate>Thu, 29 Apr 2010 12:48:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug 0.1</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_1</link>
+      <description>&lt;p&gt;Version 0.1 of the extension is a prototype to see exactly what it will look like, now we must define the requirements and functionalities that can be included in the extension&lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_1</guid>
+      <pubDate>Wed, 28 Apr 2010 23:36:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

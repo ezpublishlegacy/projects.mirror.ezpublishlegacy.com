@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezscriptmonitor / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:12:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:12:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15981" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Some problem in eZ Publish 4.3 beta install...</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install4</link>
+      <description>This makes sense, but since we are in the process of integrating this functionality with the distribution, I do not want to maintain the extension. I'll add a note to the 0.4 release to warn about this.</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install4</guid>
+      <pubDate>Wed, 03 Mar 2010 08:51:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some problem in eZ Publish 4.3 beta install...</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install3</link>
+      <description>Hi,&#13;
+&#13;
+Thanks for fix.&#13;
+&#13;
+I wondered whether it would be good to use the method method_exists('ezpI18n','tr') (return bool, true, false), then the previous versions of eZ Publish can also use this extension.&#13;
+Maybe I'm wrong, and no sense, what do you think?&#13;
+&#13;
+Best regards,&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install3</guid>
+      <pubDate>Wed, 03 Mar 2010 08:38:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some problem in eZ Publish 4.3 beta install...</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install2</link>
+      <description>Fixed in 0.4.</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install2</guid>
+      <pubDate>Mon, 01 Mar 2010 10:05:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some problem in eZ Publish 4.3 beta install...</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install</link>
+      <description>Duly noted. The core team changed the function name without updating this extension. We'll fix it. Thanks for the heads up!</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation/re_some_problem_in_ez_publish_4_3_beta_install</guid>
+      <pubDate>Mon, 01 Mar 2010 09:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some problem in eZ Publish 4.3 beta installation</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation</link>
+      <description>Hi,&#13;
+&#13;
+Fatal error: Call to undefined method ezpI18n::translate() in /var/www/ezpublish_test/extension/ezscriptmonitor/modules/scriptmonitor/list.php on line 15&#13;
+&#13;
+When i changed this line:&#13;
+&lt;code&gt;&#13;
+$Result['path'] = array( array( 'url' =&gt; false,&#13;
+                                'text' =&gt; ezpI18n::translate( 'ezscriptmonitor', 'Script monitor' ) ) );&#13;
+&lt;/code&gt;&#13;
+&#13;
+to:&#13;
+&#13;
+&lt;code&gt;&#13;
+$Result['path'] = array( array( 'url' =&gt; false,&#13;
+                                'text' =&gt; ezpI18n::tr( 'ezscriptmonitor', 'Script monitor' ) ) );&#13;
+&lt;/code&gt;&#13;
+&#13;
+works well.&#13;
+&#13;
+Best regards,&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/some_problem_in_ez_publish_4_3_beta_installation</guid>
+      <pubDate>Fri, 26 Feb 2010 11:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great work :)</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/great_work/re_great_work2</link>
+      <description>Hello,&#13;
+I also think this extension should be included in the default eZ Publish code.&#13;
+&#13;
+I run some huge web sites for my customers and we have to run a dedicated php cli script for adding and removing attributes, now I'm going to implement this extension to streamline the operations.&#13;
+&#13;
+Thank you very much for your work!&#13;
+Alex Pagnoni</description>
+      <author>community@ez.no (Alex Pagnoni)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/great_work/re_great_work2</guid>
+      <pubDate>Thu, 12 Nov 2009 14:00:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>NB: Issue tracker</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/nb_issue_tracker</link>
+      <description>Jostein has created a placeholder issue to collect operations that are susceptible to timeouts. Please check it - do you have anything to add?&#13;
+&#13;
+http://issues.ez.no/15753</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/nb_issue_tracker</guid>
+      <pubDate>Thu, 05 Nov 2009 09:25:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem5</link>
+      <description>Thanks for feedback. I have comitted the SQL change.</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem5</guid>
+      <pubDate>Fri, 17 Jul 2009 13:56:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem4</link>
+      <description>&#13;
+You are right I made a mistake.&#13;
+I didn't read the definition of eZContentObjectAttribute::fetch. </description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem4</guid>
+      <pubDate>Fri, 17 Jul 2009 13:46:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem3</link>
+      <description>The SQL change makes obvious sense. I should do it that way, thanks!&#13;
+&#13;
+What I don't understand is the change in the foreach loop, where you change&#13;
+&lt;code&gt;&#13;
+$objectClassAttributeIDs[ $row['id'] ] = $row['contentclassattribute_id'];&#13;
+&lt;/code&gt;&#13;
+to&#13;
+&lt;code&gt;&#13;
+$objectClassAttributeIDs[] = $row['contentclassattribute_id'];&#13;
+&lt;/code&gt;&#13;
+This should cause problems below, here:&#13;
+&lt;code&gt;&#13;
+// Remove old attributes&#13;
+foreach ( $attributesToRemove as $objectAttributeID =&gt; $classAttributeID )&#13;
+{&#13;
+    $objectAttribute = eZContentObjectAttribute::fetch( $objectAttributeID, $versionID );&#13;
+    if ( !is_object( $objectAttribute ) )&#13;
+        continue;&#13;
+    $objectAttribute-&gt;remove( $objectAttributeID );&#13;
+}&#13;
+&lt;/code&gt;&#13;
+when the array key no longer refers to object attribute IDs. Right?</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem3</guid>
+      <pubDate>Fri, 17 Jul 2009 08:40:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem2</link>
+      <description>Diff against addmissingobjectattributes.php trunk:&#13;
+&#13;
+&#13;
+&#13;
+&lt;code&gt;&#13;
+# It uses platform neutral UTF-8 encoding.&#13;
+# Above lines and this line are ignored by the patching process.&#13;
+--- /home/mosa/Sources/Scuola/sito_cervignano/m2000/extension/scuola/scripts/after_deploy_classes.php&#13;
++++ /tmp/extension/ezscriptmonitor/bin/addmissingobjectattributes.php&#13;
+@@ -1,7 +1,39 @@&#13;
++#!/usr/bin/env php&#13;
+ &lt;?php&#13;
+-/* &#13;
+- * To change this template, choose Tools | Templates&#13;
+- * and open the template in the editor.&#13;
++//&#13;
++// Created on: &lt;10-Aug-2004 15:47:14 pk&gt;&#13;
++//&#13;
++// Copyright (C) 1999-2008 eZ systems as. All rights reserved.&#13;
++//&#13;
++// This source file is part of the eZ publish (tm) Open Source Content&#13;
++// Management System.&#13;
++//&#13;
++// This file may be distributed and/or modified under the terms of the&#13;
++// "GNU General Public License" version 2 as published by the Free&#13;
++// Software Foundation and appearing in the file LICENSE.GPL included in&#13;
++// the packaging of this file.&#13;
++//&#13;
++// Licencees holding valid "eZ publish professional licences" may use this&#13;
++// file in accordance with the "eZ publish professional licence" Agreement&#13;
++// provided with the Software.&#13;
++//&#13;
++// This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING&#13;
++// THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR&#13;
++// PURPOSE.&#13;
++//&#13;
++// The "eZ publish professional licence" is available at&#13;
++// http://ez.no/products/licences/professional/. For pricing of this licence&#13;
++// please contact us via e-mail to licence@ez.no. Further contact&#13;
++// information is available at http://ez.no/home/contact/.&#13;
++//&#13;
++// The "GNU General Public License" (GPL) is available at&#13;
++// http://www.gnu.org/copyleft/gpl.html.&#13;
++//&#13;
++// Contact licence@ez.no if any conditions of this licencing isn't clear to&#13;
++// you.&#13;
++//&#13;
++&#13;
++/*! \file addmissingobjectattributes.php&#13;
+  */&#13;
+ &#13;
+ require 'autoload.php';&#13;
+@@ -41,7 +73,6 @@&#13;
+     $limit = 100;&#13;
+     $objects = eZContentObject::fetchSameClassList( $classId, true, $offset, $limit );&#13;
+ &#13;
+-&#13;
+     // Add and/or remove attributes for all versions and translations of all objects of this class&#13;
+     while ( count( $objects ) &gt; 0 )&#13;
+     {&#13;
+@@ -54,11 +85,7 @@&#13;
+             $objectVersions = $object-&gt;versions();&#13;
+             foreach ( $objectVersions as $objectVersion )&#13;
+             {&#13;
+-                &#13;
+-                &#13;
+                 $versionID = $objectVersion-&gt;attribute( 'version' );&#13;
+-&#13;
+-               &#13;
+                 $translations = $objectVersion-&gt;translations();&#13;
+                 foreach ( $translations as $translation )&#13;
+                 {&#13;
+@@ -66,29 +93,19 @@&#13;
+                  &#13;
+                     // Class attribute IDs of object attributes (not necessarily the same as those in the class, hence the manual sql)&#13;
+                     $objectClassAttributeIDs = array();&#13;
+-                    &#13;
+-                        $db_query="SELECT id,contentclassattribute_id, data_type_string FROM&#13;
+-                                               ezcontentobject_attribute&#13;
+-                                               WHERE&#13;
+-                                               contentobject_id = '$contentObjectID' AND&#13;
+-                                               version = '$versionID' AND&#13;
+-                                               language_code='$translationName' ";&#13;
+-&#13;
+-&#13;
+-                        $rows = $db-&gt;arrayQuery($db_query);&#13;
+-&#13;
+-&#13;
++                    $rows = $db-&gt;arrayQuery( "SELECT DISTINCT id, contentclassattribute_id, data_type_string&#13;
++                                              FROM ezcontentobject_attribute&#13;
++                                              WHERE contentobject_id = $contentObjectID" );&#13;
+                         foreach ( $rows as $row )&#13;
+                         {&#13;
+-                            $objectClassAttributeIDs[] = $row['contentclassattribute_id'];&#13;
++                        $objectClassAttributeIDs[ $row['id'] ] = $row['contentclassattribute_id'];&#13;
+                         }&#13;
+ &#13;
+                     // Quick array diffs&#13;
+                     $attributesToRemove = array_diff( $objectClassAttributeIDs, $classAttributeIDs ); // Present in the object, not in the class&#13;
+                     $attributesToAdd = array_diff( $classAttributeIDs, $objectClassAttributeIDs ); // Present in the class, not in the object&#13;
+-                    //print_r($attributesToAdd);&#13;
+ &#13;
+-                    //Remove old attributes&#13;
++                    // Remove old attributes&#13;
+                     foreach ( $attributesToRemove as $objectAttributeID =&gt; $classAttributeID )&#13;
+                     {&#13;
+                         $objectAttribute = eZContentObjectAttribute::fetch( $objectAttributeID, $versionID );&#13;
+@@ -197,9 +214,17 @@&#13;
+ &#13;
+ $db = eZDB::instance();&#13;
+ &#13;
++// Take care of script monitoring&#13;
++$scheduledScript = false;&#13;
++if ( isset( $options['scriptid'] ) and&#13;
++     in_array( 'ezscriptmonitor', eZExtension::activeExtensions() ) and&#13;
++     class_exists( 'eZScheduledScript' ) )&#13;
++{&#13;
++    $scriptID = $options['scriptid'];&#13;
++    $scheduledScript = eZScheduledScript::fetch( $scriptID );&#13;
++}&#13;
+ &#13;
+ // Do the update&#13;
+-&#13;
+ if ( isset( $options['classid'] ) )&#13;
+ {&#13;
+     updateClass( $options['classid'] );&#13;
+@@ -211,11 +236,10 @@&#13;
+     foreach ( $classes as $class )&#13;
+     {&#13;
+         $cli-&gt;notice( 'Checking class ' . $class['id'] . ': ' . $class['name'] );&#13;
+-        updateClass( $class['id']);&#13;
++        updateClass( $class['id'] );&#13;
+     }&#13;
+ }&#13;
+ &#13;
+ $script-&gt;shutdown();&#13;
+ &#13;
+-&#13;
+ ?&gt;&#13;
+&#13;
+&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem2</guid>
+      <pubDate>Mon, 13 Jul 2009 13:53:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem</link>
+      <description>I'm glad it was useful.&#13;
+&#13;
+I'm not clear on what you changed - could you please post a diff of your change?</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem/re_ezpublish_4_1_3_problem</guid>
+      <pubDate>Mon, 13 Jul 2009 08:09:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>EzPublish 4.1.3 problem</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem</link>
+      <description>Hi,&#13;
+&#13;
+I borrowed one of your scripts (addmissingobjectattributes.php) to build a simple deployment script.&#13;
+&#13;
+I make a dump of db classes tables,  check which classes have changed since last sync, insert those into the production database and then run a modified version of your script to update objects attributes.&#13;
+&#13;
+At first no object was being updated because  $attributesToRemove  and  $attributesToAdd arrays were always empty.&#13;
+&#13;
+ To make things work I had to modify your script:&#13;
+&lt;code&gt;&#13;
+ $db_query="SELECT id,contentclassattribute_id, data_type_string FROM&#13;
+                                               ezcontentobject_attribute&#13;
+                                               WHERE &#13;
+                                               contentobject_id = '$contentObjectID' AND&#13;
+                                               version = '$versionID' AND &#13;
+                                               language_code='$translationName' ";&#13;
+&#13;
+&#13;
+                        $rows = $db-&gt;arrayQuery($db_query);&#13;
+&#13;
+&#13;
+                        foreach ( $rows as $row )&#13;
+                        {&#13;
+                            $objectClassAttributeIDs[] = $row['contentclassattribute_id'];&#13;
+                        }&#13;
+&#13;
+&lt;/code&gt;&#13;
+Now $db_query fetches only object attributes of the same version and language. &#13;
+&#13;
+In this way $objectClassAttributeIDs[]  contains only the attributes of a specific version and  language of an object, and array_diff works again:)&#13;
+&#13;
+I hope this could be useful. &#13;
+&#13;
+P.S.&#13;
+Thank you for your contribution, it saved me a lot of time.&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/ezpublish_4_1_3_problem</guid>
+      <pubDate>Sun, 12 Jul 2009 21:04:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great work :)</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/great_work/re_great_work</link>
+      <description>Thanks! I am certainly aiming for this to get into the distribution.</description>
+      <author>community@ez.no (Gunnstein Lye)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/great_work/re_great_work</guid>
+      <pubDate>Tue, 05 May 2009 07:49:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great work :)</title>
+      <link>http://projects.ez.no/ezscriptmonitor/forum/general/great_work</link>
+      <description>The issue of modifying content classes with large number of objects is a huge issue - you lose the flexibility because you simply can not edit the classes due to timeouts. Once this goes project forward I suggest that this is built into the default distribution.</description>
+      <author>community@ez.no (Jani Tarvainen)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/forum/general/great_work</guid>
+      <pubDate>Mon, 04 May 2009 19:14:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

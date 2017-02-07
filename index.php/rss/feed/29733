@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezde__insert_tab_ / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:21:39 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:21:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29733" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ezde_insert_tab/news/changelog</link>
+      <description>&lt;p&gt;
+Version 1.2&lt;br /&gt;
+ - Added code coloring shema for TPL language. Can be change in&lt;br /&gt;
+ Edit-&gt;Preferences-&gt;Code Coloring-&gt;PHP&lt;br /&gt;
+ - eZ publish ".tpl" extension in "Save as" mode&lt;br /&gt;
+ Version 1.1&lt;br /&gt;
+ - Added fetch function "tree"&lt;br /&gt;
+ - Added template function "include"&lt;br /&gt; - Initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezde_insert_tab/news/changelog</guid>
+      <pubDate>Sat, 02 Jul 2005 13:47:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

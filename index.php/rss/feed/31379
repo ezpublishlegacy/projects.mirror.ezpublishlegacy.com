@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / enhanced_selection / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 22:37:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 22:37:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31379" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>optgroup</title>
+      <link>http://projects.ez.no/enhanced_selection/forum/general/optgroup</link>
+      <description>The extension will be really completed  with the possibility to add optgroup option&#13;
+&#13;
+&lt;optgroup class="xxx"  label="xxxxx"&gt;&#13;
+    &lt;option value="xx"&gt;xx&lt;/option&gt;&#13;
+     ...&#13;
+ &lt;/optgroup&gt;&#13;
+</description>
+      <author>community@ez.no (Stephane Cottin)</author>
+      <guid>http://projects.ez.no/enhanced_selection/forum/general/optgroup</guid>
+      <pubDate>Thu, 06 Oct 2011 10:03:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>SQL query</title>
+      <link>http://projects.ez.no/enhanced_selection/forum/general/sql_query</link>
+      <description>Hi,&#13;
+&#13;
+The SQL feature is undocumented...&#13;
+If you want to add a SQL query in your datatype, you can do like this :&#13;
+&lt;code&gt;&#13;
+SELECT FIELD1 as identifier, FIELD2 as name FROM TABLE&#13;
+&lt;/code&gt;&#13;
+&#13;
+Good and usefull extension !&#13;
+Thanks</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/enhanced_selection/forum/general/sql_query</guid>
+      <pubDate>Fri, 17 Jun 2011 09:22:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

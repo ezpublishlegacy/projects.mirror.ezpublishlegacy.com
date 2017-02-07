@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcgooglesitemaps</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:34:59 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:34:59 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/50378" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/965a07ebfd4e9a4a28d6a5dd56f53cf12f61c6f1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor generatemultilingual cronjob part to address content siteaccess url bugs, added execution time display feature, improved execution output&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/965a07ebfd4e9a4a28d6a5dd56f53cf12f61c6f1</guid>
+      <pubDate>Thu, 25 Jun 2015 15:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/6fc7e71ea3a273beca9226cd4f8de02a9e95c733</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Check if variables are set before reading them
+
+Just changing the order of the validation, to avoid reading unexisting variables and throwing errors&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/6fc7e71ea3a273beca9226cd4f8de02a9e95c733</guid>
+      <pubDate>Wed, 15 Apr 2015 14:42:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/16c375b8c79c498a5c785414335cd62affefb91b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from yannoz/master
+
+Updated: Bugfix: Check if template variables are set before reading them&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/16c375b8c79c498a5c785414335cd62affefb91b</guid>
+      <pubDate>Wed, 15 Apr 2015 14:42:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/593a201a70c5159b7deab76a9885f3a1f95973a5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;FIX missing protocol separator in the multilingual cronjob&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/593a201a70c5159b7deab76a9885f3a1f95973a5</guid>
+      <pubDate>Fri, 09 Jan 2015 20:03:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/d0501727da5a097ea88ac9c261c8f60c9d0b49bb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from Open-Wide/fix/generatemultilingual-urlalias-protocol-separator
+
+Update: Bugfix for missing protocol separator in the multilingual cronjob&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/d0501727da5a097ea88ac9c261c8f60c9d0b49bb</guid>
+      <pubDate>Fri, 09 Jan 2015 20:03:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/0830d2d6226892c552d4f50e94c8ca490eb01ed1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; ends with a single slash no matter what siteurl is&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/0830d2d6226892c552d4f50e94c8ca490eb01ed1</guid>
+      <pubDate>Fri, 09 Jan 2015 08:53:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/aeb588c5a802eefffc907bb969f5e7376978163a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from Open-Wide/fix/siteURL-ends-slash
+
+Updated: Ensure site url ends with a single slash no matter what site.ini siteUrl contains&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/aeb588c5a802eefffc907bb969f5e7376978163a</guid>
+      <pubDate>Fri, 09 Jan 2015 08:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/070a4b5947d6a222062141aea66357ffc1081ac2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Fixed cronjob script setting typo. Converted php file to unix line endings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/070a4b5947d6a222062141aea66357ffc1081ac2</guid>
+      <pubDate>Tue, 09 Sep 2014 21:43:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/e21bb31719495c54520284098fda2076a752cef1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Updated changelog 1.1.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/e21bb31719495c54520284098fda2076a752cef1</guid>
+      <pubDate>Tue, 09 Sep 2014 21:42:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/8eda1d4953b2546142310f58f0623c7381b163a5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added cronjob feature to fetch content in all siteaccess defined languages. Converted php file to unix line endings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/8eda1d4953b2546142310f58f0623c7381b163a5</guid>
+      <pubDate>Tue, 09 Sep 2014 21:42:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.3 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt;&amp;nbsp;extension version 1.1.3&amp;nbsp;(&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54645/261405/file/bcgooglesitemaps_1-1-3.tar.bz2" target="_self"&gt;tar.bz2&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/54644/261402/file/bcgooglesitemaps_1-1-3.zip" target="_self"&gt;zip&lt;/a&gt;)&amp;nbsp;Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.3" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt;&amp;nbsp;including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Updated: Added bugfix for cronjob subtree content fetch fetching content in all available languages instead of only in current siteacess language.&lt;/li&gt;
+
+&lt;li&gt;Updated: Refactor cronjob code syntax and comments&lt;/li&gt;
+
+&lt;li&gt;Updated: Added extended and revised ini documentation comments&lt;/li&gt;
+
+&lt;li&gt;Added: Added refactored path ini variable to override sitemap output directory path&lt;/li&gt;
+
+&lt;li&gt;Added: Added sitemap link protocol ini variable&lt;/li&gt;
+
+&lt;li&gt;Updated: Extended multilingual site testing of sitemap generation process and results&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised release documentation making minor improvements&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</guid>
+      <pubDate>Tue, 09 Sep 2014 10:15:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.3 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/9d06bbc2a8d138428a6603d2245f184d7c18d5a5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed: Removed deprecated 4.x siteacces changing code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/9d06bbc2a8d138428a6603d2245f184d7c18d5a5</guid>
+      <pubDate>Tue, 09 Sep 2014 10:12:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.tar.bz2</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_tar_bz2</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_tar_bz2</guid>
+      <pubDate>Tue, 09 Sep 2014 10:05:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.zip</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_zip</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_zip</guid>
+      <pubDate>Tue, 09 Sep 2014 10:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_3_tar_gz</guid>
+      <pubDate>Tue, 09 Sep 2014 10:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/97a2d0e44461a4c2aa898604374165dfa52d40e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Revised release documentation making minor improvements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/97a2d0e44461a4c2aa898604374165dfa52d40e4</guid>
+      <pubDate>Tue, 09 Sep 2014 09:12:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/3876ec9b03fee07e79a4ed25ab7ed07aff1674db</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added release changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/3876ec9b03fee07e79a4ed25ab7ed07aff1674db</guid>
+      <pubDate>Tue, 09 Sep 2014 09:12:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-3.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/cbdd53a99ded411cf2f4b48f78212bcb05fb97ac</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactored newly tested multilingual implementation of sitemap generators&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/cbdd53a99ded411cf2f4b48f78212bcb05fb97ac</guid>
+      <pubDate>Tue, 09 Sep 2014 09:12:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.2 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of &lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt; extension version 1.1.2 (&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/52584/251565/file/bcgooglesitemaps_1-1-2.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52583/251562/file/bcgooglesitemaps_1-1-2.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.2" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&amp;nbsp;Updated: Renamed extension to bcgooglesitemaps&lt;/li&gt;
+
+&lt;li&gt;Added: Added dynamic sitemap generator from googlesitemapgenerator_3_0_0 extension internals&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised extended documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</guid>
+      <pubDate>Sun, 09 Jun 2013 14:17:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.bz2</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_tar_bz2</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_tar_bz2</guid>
+      <pubDate>Sun, 09 Jun 2013 14:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.zip</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_zip</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_zip</guid>
+      <pubDate>Sun, 09 Jun 2013 14:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/downloads/bcgooglesitemaps_1_1_2_tar_gz</guid>
+      <pubDate>Sun, 09 Jun 2013 14:00:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/e50d480ab711042ca9053dfce0fef377f60d05eb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added utf8 settings header to settings file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/e50d480ab711042ca9053dfce0fef377f60d05eb</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/54279cebd2f6a0c13dcbf06a9001698797d5af38</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added phpdoc comment block documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/54279cebd2f6a0c13dcbf06a9001698797d5af38</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/b14afbd949315aa07486a41772a3a07a649a4e32</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added extension documentation and changelogs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/b14afbd949315aa07486a41772a3a07a649a4e32</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/8dfe99d901d88617ba0cf83163f8eaf8188ab481</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Adding google sitemap multilingual cronjob part&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/8dfe99d901d88617ba0cf83163f8eaf8188ab481</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/190e12132660420fd0fdd4e29858a07a207a6eef</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Initial import of all2egooglesitemaps extension revision 5 for eZ Publish 4.x+. Default settings set to use default siteaccess. Added multilingual/siteaccess support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/190e12132660420fd0fdd4e29858a07a207a6eef</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/de31c524fa334e3ec1ed60469c03f9b4fe03c88e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added lib/access.php from ezpublish 4.5 to retain cronjob functionality&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/de31c524fa334e3ec1ed60469c03f9b4fe03c88e</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/603013df7c91ca08ab6636636cf241323e61af4a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Minor documentation improvements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/603013df7c91ca08ab6636636cf241323e61af4a</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/95257dbf44eb49d0e2b4ee918faa46127392da0b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Renamed extension to bcgooglesitemaps&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/95257dbf44eb49d0e2b4ee918faa46127392da0b</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/22c1cfae23baa4db9ccf4fec16afa6e6261e21fa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Revised documentation to show 4.x can still be used with this extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/22c1cfae23baa4db9ccf4fec16afa6e6261e21fa</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/d1370245853a05f96993efa49bffa654ba3b8e35</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated release documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/d1370245853a05f96993efa49bffa654ba3b8e35</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/49106f484044b320e14bdfad1926cfde6b1dbef1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added release changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/49106f484044b320e14bdfad1926cfde6b1dbef1</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/7f1d2bffe7442372bfaeb7778c56e8807f0c3ec0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated cronjob parts to use lib/access.php to retain cronjob part functionality&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/7f1d2bffe7442372bfaeb7778c56e8807f0c3ec0</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/49dd3477627d390cbecbe74f3d616edcfaa0cca7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Minor documentation comment update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/49dd3477627d390cbecbe74f3d616edcfaa0cca7</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/6173e4f69a7398b14568be5b14b5f78fad16faf1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Minor documentation updates&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/6173e4f69a7398b14568be5b14b5f78fad16faf1</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcgooglesitemaps_1-1-2.tar.gz</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/source/44cd9a52231d44809539cbe7d7d358f91953d9b5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added code for dynamic realtime sitemap generator&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/source/44cd9a52231d44809539cbe7d7d358f91953d9b5</guid>
+      <pubDate>Sun, 09 Jun 2013 12:53:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

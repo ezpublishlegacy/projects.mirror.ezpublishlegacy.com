@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / import / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:49:59 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:49:59 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/929" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Compatiblity</title>
+      <link>http://projects.ez.no/import/forum/general/compatiblity</link>
+      <description>Hello,&#13;
+I want to know if this extension is compatible with ez4.4&#13;
+Has anyone tried it? Or any suggestion for other similar extension compatible.&#13;
+I want to import lots of data from a csv file.&#13;
+Thanks</description>
+      <author>community@ez.no (Vali Faria)</author>
+      <guid>http://projects.ez.no/import/forum/general/compatiblity</guid>
+      <pubDate>Thu, 05 Jan 2012 15:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Importing users</title>
+      <link>http://projects.ez.no/import/forum/general/importing_users</link>
+      <description>Hi,&#13;
+&#13;
+I need to import users into ezPublish 4.4&#13;
+&#13;
+ie. first name, surname, email address&#13;
+&#13;
+I've had a look at your documentation but I'm not sure how to do it.&#13;
+&#13;
+Would it be possible for you to explain please?&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Andy&#13;
+&#13;
+</description>
+      <author>community@ez.no (Andy Woods)</author>
+      <guid>http://projects.ez.no/import/forum/general/importing_users</guid>
+      <pubDate>Thu, 19 May 2011 17:07:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

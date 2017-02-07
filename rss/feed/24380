@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezworkflowcollection / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:14 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24380" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZWorkflowCollection 0.6 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</link>
+      <description>&lt;p&gt;- adds a new workflow event: add secondary location upon publish based on an object-relation attribute of current object&lt;/p&gt;&lt;p&gt;- tested for compatibility with eZP 5.1&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</guid>
+      <pubDate>Wed, 24 Jul 2013 10:18:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_5_released</link>
+      <description>&lt;p&gt;3 new workflow event types in this release, as well as assorted bugfixes:&lt;/p&gt;
+&lt;ol&gt;
+
+&lt;li&gt;add url alias&lt;/li&gt;
+
+&lt;li&gt;copy children on add location to parent&lt;/li&gt;
+
+&lt;li&gt;copy node to all parent locations&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;p&gt;The 2nd and 3rd are helpful when having content composed of a tree of nodes and wanting to keep it identical in multiple locations&lt;/p&gt;&lt;p&gt;For the next release: the non-workflow-event related stuff will be refactored in a separate extension&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_5_released</guid>
+      <pubDate>Wed, 23 May 2012 21:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection moves to github</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_moves_to_github</link>
+      <description>&lt;p&gt;Source code now available at https://github.com/gggeek/ezworkflowcollection.git&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_moves_to_github</guid>
+      <pubDate>Wed, 28 Mar 2012 10:46:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.4 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_4_released</link>
+      <description>&lt;p&gt;The workflow event used to send PURGE command to reverse-proxy caches when an object is published is &lt;b&gt;much&lt;/b&gt; improved: it will not only send purge command for the object's node's urls, but for trhe urls of all nodes expired via the (smart) view cache expiry rules.&lt;/p&gt;&lt;p&gt;Bugfixes: corrected oracls schema sql file, added postgres one&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_4_released</guid>
+      <pubDate>Sat, 14 May 2011 13:27:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.3 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_3_released</link>
+      <description>&lt;p&gt;Since release 0.1, new features have been added to ezworkflowcollection, a new addlocation workflow event and a cool object state interface to manage pending and published contents.&lt;/p&gt;</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_3_released</guid>
+      <pubDate>Thu, 13 Jan 2011 15:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.1 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_1_released</link>
+      <description>&lt;p&gt;3 workflows for now - more to come in the next releases.&lt;/p&gt;&lt;p&gt;The GUI for those workflows is inexistent - developers are welcome to provide help with the templates for editi,g workflow events via class/object pickers.&lt;/p&gt;&lt;p&gt;===================================&lt;/p&gt;&lt;p&gt;
+Multipublish workflow:&lt;br /&gt;
+will add secondary locations (one or more) when a content is published.&lt;br /&gt;
+The list of nodes used as parents for secondary location(s) has to be defined for every workflow event (ie. in the admin interface).&lt;br /&gt;
+It is possible, but not mandatory, to add a class/attribute combination acting as filter, deciding for every given object being published wheter the multipublication will happen or not:&lt;br /&gt;
+ - If no class/attribute combination is selected, the workflow will apply to every object published (to limit its applicability, chain it to a multiplexer workflow).&lt;br /&gt;
+ - If a class/attribute combination is selected, the workflow will check the value of the given attribute to decide if multi-publication has to take place; if the attribute is not found in the current class, no multi-publication happens. &lt;br /&gt;
+ - If multiple class/attribute combinations are selected, the workflow will apply to every object that has set to TRUE at least one of those attributes.&lt;br /&gt;
+If an edited object is already child of one of the nodes selcted as multi-publication location, the workflow does not add a new secondary location at the same place.&lt;br /&gt;
+The cronjob never removes any secondary location, nor does it change any location to become primary.&lt;br /&gt;
+===================================&lt;br /&gt;
+Subtree Multiplexer workflow:&lt;br /&gt;
+like a standard multiplexer, but filters on node subtrees instead&lt;br /&gt;
+===================================&lt;br /&gt;
+Expire remote caches (ezflow based) workflow:&lt;br /&gt;
+used to expire reverse proxy caches when an object is edited.&lt;br /&gt;
+It is based on the eZHTTPCacheManager class and configuration from eZ Flow, which means that:&lt;br /&gt;
+. eZ Flow is needed to take advantage of this workflow&lt;br /&gt;
+. for the workflow to do anything, editing squid.ini is necessary&lt;br /&gt;
+. currently the only CacheManager class available can purge both squid and varnish reverse proxy caches&lt;br /&gt;. it allows to purge the cache correctly even if multiple domains/hostnames are cused (see ezworkflowcollection.ini)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_1_released</guid>
+      <pubDate>Wed, 14 Apr 2010 11:34:40 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

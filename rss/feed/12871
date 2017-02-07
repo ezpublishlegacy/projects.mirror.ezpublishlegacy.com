@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggsysinfo / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12871" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ggSysInfo 0.7 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_7_released</link>
+      <description>&lt;p&gt;New:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;two command-line scripts to generate comprehensive reports about current installation&lt;/li&gt;
+
+&lt;li&gt;new report view: all ini settings&lt;/li&gt;
+
+&lt;li&gt;add support for OpCache and Zend Accelerator Plus infos&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Plus a couple of improvements and bugfixes&lt;/p&gt;&lt;p&gt;Get it from &lt;a href="http://projects.ez.no/ggsysinfo/downloads/ggsysinfo_0_7_0_zip" target="_self"&gt;http://projects.ez.no/ggsysinfo/downloads/ggsysinfo_0_7_0_zip&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_7_released</guid>
+      <pubDate>Mon, 10 Mar 2014 00:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.6 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_6_released</link>
+      <description>&lt;p&gt;New features in this version: more QA checks!&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;all php files are parsed for valid syntax&lt;/li&gt;
+
+&lt;li&gt;all tpl files are parsed for valid syntax&lt;/li&gt;
+
+&lt;li&gt;the tests run by the setup wizard, checking system requirements, are now available inside the gui too&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Note that checking syntax of all tpl and php files takes a loong time, please do not close the browser and allow the page to load fully&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_6_released</guid>
+      <pubDate>Sun, 12 Aug 2012 15:48:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.5 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_5_released</link>
+      <description>&lt;p&gt;One more release full of goodies:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;add list of all existing template operators, with "view source" integration (if ezgeshi is installed)&lt;/li&gt;
+
+&lt;li&gt;add, courtesy of the phpsecinfo project, checks for security configuration of the eZP installation&lt;/li&gt;
+
+&lt;li&gt;add a page checking for common db misconfigurations (only available for mysql)&lt;/li&gt;
+
+&lt;li&gt;Fixes all known bugs&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_5_released</guid>
+      <pubDate>Sun, 01 Apr 2012 16:12:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo goes to github</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_goes_to_github</link>
+      <description>&lt;p&gt;Source code now available at https://github.com/gggeek/ggsysinfo.git&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_goes_to_github</guid>
+      <pubDate>Wed, 28 Mar 2012 10:48:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.4 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_4_released</link>
+      <description>&lt;p&gt;Even more great new additions:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt; 'module operations' view&lt;/li&gt;
+
+&lt;li&gt;'classes report' view (thanks A. Sebbane)&lt;/li&gt;
+
+&lt;li&gt;'QA' views checking for common errors in ini files and php files&lt;/li&gt;
+
+&lt;li&gt;test connectivity to Solr, when eZFind is installed&lt;/li&gt;
+
+&lt;li&gt;list count of pending indexation events and notification events&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_4_released</guid>
+      <pubDate>Mon, 01 Nov 2010 16:26:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.3 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_3_released</link>
+      <description>&lt;p&gt;More great new additions:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;'log display' view, to display log messages within the console&lt;/li&gt;
+
+&lt;li&gt;'log stats' view, with size and last modification date of all log files&lt;/li&gt;
+
+&lt;li&gt;'log churn' view, with graphs of the messages per minute saved to log files&lt;/li&gt;
+
+&lt;li&gt;an info view for the wincache accelerator&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;NB: permission policy checking on the provided views has been fixed; all users are encouraged to upgrade&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_3_released</guid>
+      <pubDate>Sat, 19 Jun 2010 22:05:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.2 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_2_released</link>
+      <description>&lt;p&gt;Great new additions:&lt;/p&gt;&lt;p&gt;- a graph (implemented via eZ Components) of the number of cache files generated by eZ Publish over time&lt;/p&gt;&lt;p&gt;- complete, detailed list of active modules, views, fetch functions, policy functions, with parameters (where available) and links to online docs&lt;/p&gt;&lt;p&gt;More images here: &lt;a href="http://projects.ez.no/ggsysinfo/gallery/admin_interface_screenshots/list_of_available_fetch_functions" target="_self"&gt;http://projects.ez.no/ggsysinfo/gallery/admin_interface_screenshots/list_of_available_fetch_functions&lt;/a&gt;, &lt;a href="http://projects.ez.no/ggsysinfo/gallery/admin_interface_screenshots/list_of_available_fetch_functions2" target="_self"&gt;http://projects.ez.no/ggsysinfo/gallery/admin_interface_screenshots/list_of_available_fetch_functions2&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_2_released</guid>
+      <pubDate>Sun, 25 Apr 2010 22:20:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.1 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_1_released</link>
+      <description> &lt;p&gt;Still home for Christmas holidays and with nothing to do after finishing compiling the 2.6.28 kernel?&lt;/p&gt; &lt;p&gt;Rejoyce! Now you can play around with the ggsysinfo extension, designed to give eZ Publish admins valuable extra insight into their running systems.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_1_released</guid>
+      <pubDate>Fri, 26 Dec 2008 12:01:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

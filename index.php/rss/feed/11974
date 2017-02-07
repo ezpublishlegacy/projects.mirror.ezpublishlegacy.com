@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / mod_ezclustered_image</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:56:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:56:31 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11974" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Looking for maintainers</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/news/looking_for_maintainers</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; This extension is looking for someone interested in taking over this package. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; If you are interested feel free to apply &lt;a href="http://projects.ez.no/mod_ezclustered_image/team/leaders" target="_blank"&gt;here&lt;/a&gt; and send me an email [jr@ez.no] so I do not forget to grant you access. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; I will update this news as soon as a new maintainer is found. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Otherwise you can assume this project dead. &lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/news/looking_for_maintainers</guid>
+      <pubDate>Tue, 07 Apr 2009 08:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 16 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/16</link>
+      <description>Removed extra spaces</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/16</guid>
+      <pubDate>Mon, 23 Mar 2009 08:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 15 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/15</link>
+      <description>- remove the load module part</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/15</guid>
+      <pubDate>Fri, 28 Nov 2008 11:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>First beta release</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/news/first_beta_release</link>
+      <description> &lt;p&gt;The module dev is done, the beta-1 release is available in the &lt;a href="/index.php/../../../mod_ezclustered_image/downloads" target="_self"&gt;"Downloads" section&lt;/a&gt; &lt;/p&gt; &lt;p&gt;Debian users, please read the README.DEBIAN first.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/news/first_beta_release</guid>
+      <pubDate>Thu, 27 Nov 2008 20:17:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image-1.0-beta.tar.gz</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/downloads/mod_ezclustered_image_1_0_beta_tar_gz</link>
+      <description> &lt;p&gt;First beta release of the module.&lt;/p&gt; &lt;p&gt;Debian users, please read the README.DEBIAN first.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/downloads/mod_ezclustered_image_1_0_beta_tar_gz</guid>
+      <pubDate>Thu, 27 Nov 2008 19:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 14 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/14</link>
+      <description>- added README and README.DEBIAN files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/14</guid>
+      <pubDate>Thu, 27 Nov 2008 16:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 13 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/13</link>
+      <description>- fixed wrong email adress</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/13</guid>
+      <pubDate>Thu, 27 Nov 2008 16:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 12 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/12</link>
+      <description>- removed "test" target</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/12</guid>
+      <pubDate>Thu, 27 Nov 2008 15:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 11 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/11</link>
+      <description>- housecleaning</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/11</guid>
+      <pubDate>Thu, 27 Nov 2008 15:15:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 10 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/10</link>
+      <description>- added LICENSE
+- added INSTALL
+- added copyright terms at the top of mod_ezclustered_image.c
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/10</guid>
+      <pubDate>Wed, 26 Nov 2008 08:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 9 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/9</link>
+      <description>- commented out DEBUG flag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/9</guid>
+      <pubDate>Wed, 26 Nov 2008 07:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 8 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/8</link>
+      <description>- added name_hash to the SQL query
+- housecleaning
+- added Expires and Etag headers
+- added (but disabled) Last-Modified header
+- disabled Connection header as it triggers an X-Pad header
+- added fdm=marker in source code for more readability
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/8</guid>
+      <pubDate>Wed, 26 Nov 2008 06:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 7 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/7</link>
+      <description>- first working version, finally :)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/7</guid>
+      <pubDate>Mon, 24 Nov 2008 16:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 6 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/6</link>
+      <description>- must fix this f**** broken pipe</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/6</guid>
+      <pubDate>Mon, 24 Nov 2008 09:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 5 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/5</link>
+      <description>- fixed return error codes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/5</guid>
+      <pubDate>Sun, 02 Nov 2008 12:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 4 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/4</link>
+      <description>- updated comment for configuration</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/4</guid>
+      <pubDate>Sun, 26 Oct 2008 19:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 3 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/3</link>
+      <description>- set real_filename as read only</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/3</guid>
+      <pubDate>Sun, 26 Oct 2008 18:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 2 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/2</link>
+      <description>- fixed a crash with apr_pstrcat</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/2</guid>
+      <pubDate>Wed, 22 Oct 2008 18:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>mod_ezclustered_image rev. 1 by Jérôme Renard</title>
+      <link>http://projects.ez.no/mod_ezclustered_image/subversion/1</link>
+      <description>-initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mod_ezclustered_image/subversion/1</guid>
+      <pubDate>Sat, 18 Oct 2008 07:45:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsurvey_ezp4 / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8203" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Very Nice!</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/reviews/very_nice</link>
+      <description>Nice Extension!&#13;
+&#13;
+It would be nice to have a customer voting view in next version.</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/reviews/very_nice</guid>
+      <pubDate>Mon, 10 Aug 2009 14:26:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Good but more enhancements may be done</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/reviews/good_but_more_enhancements_may_be_done</link>
+      <description>Very helpful survey extension. The only minus is that it does not handle anonymous voting. Such feature can be in demand when creating general surveys for all site visitors (not only for registered ones).</description>
+      <author>community@ez.no (Eugene Svirskyy)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/reviews/good_but_more_enhancements_may_be_done</guid>
+      <pubDate>Thu, 02 Apr 2009 14:32:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Review</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/reviews/my_review</link>
+      <description>Hi, I've installed your extension and it is a great extension you have made, very clean.</description>
+      <author>community@ez.no (Maxime Thomas)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/reviews/my_review</guid>
+      <pubDate>Wed, 02 Jul 2008 21:58:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_twitter / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:33:51 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:33:51 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/39228" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>New release (compatible with 2014.07.0) and Twitter API 1.1</title>
+      <link>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2014_07_0_and_twitter_api_1_1</link>
+      <description>&lt;p&gt;If you use this extension or did in the past you should review our new GitHub repository:&amp;nbsp;&lt;/p&gt;&lt;pre class="bash" style="font-family:monospace;"&gt;&lt;span style="color: #c20cb9; font-weight: bold;"&gt;git&lt;/span&gt; clone &lt;span style="color: #c20cb9; font-weight: bold;"&gt;git&lt;/span&gt;&lt;span style="color: #000000; font-weight: bold;"&gt;@&lt;/span&gt;github.com:brookinsconsulting&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;nxc_twitter.git ezpublish_legacy&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;extension&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;nxc_twitter;&lt;/span&gt;&lt;/pre&gt;
+
+&lt;p&gt;or you may download a package instead&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54542/260965/file/nxc_twitter_2014.07.tar.gz" target="_self"&gt;nxc_twitter_2014.07.tar.gz&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Warning&lt;/b&gt;: This solution is &lt;i&gt;deprecated&lt;/i&gt;. Please &lt;b&gt;do not use&lt;/b&gt; for new projects. Please use&amp;nbsp;&lt;a href="http://projects.ez.no/nxc_social_networks" title="http://projects.ez.no/nxc_social_networks" target="_self"&gt;http://projects.ez.no/nxc_social_networks&lt;/a&gt;&amp;nbsp;&lt;i&gt;instead&lt;/i&gt;!&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2014_07_0_and_twitter_api_1_1</guid>
+      <pubDate>Sun, 31 Aug 2014 18:10:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>New release (compatible with 2011.8)</title>
+      <link>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2011_8</link>
+      <description>&lt;p&gt;You can checkout SVN:&amp;nbsp;&lt;/p&gt;&lt;pre class="bash" style="font-family:monospace;"&gt;&lt;span style="color: #c20cb9; font-weight: bold;"&gt;svn&lt;/span&gt; checkout http:&lt;span style="color: #000000; font-weight: bold;"&gt;//&lt;/span&gt;svn.projects.ez.no&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;nxc_twitter&lt;/span&gt;&lt;/pre&gt;
+
+&lt;p&gt;or download directly &lt;a href="http://projects.ez.no/content/download/43103/190229/version/2/file/nxc_twitter_2011.8.tar.gz" target="_self"&gt;nxc_twitter_2011.8.tar.gz&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2011_8</guid>
+      <pubDate>Mon, 19 Sep 2011 08:39:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

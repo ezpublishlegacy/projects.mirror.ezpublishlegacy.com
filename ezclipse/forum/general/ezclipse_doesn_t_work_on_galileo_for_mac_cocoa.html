@@ -1,0 +1,990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 16:21:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            eZclipse doesn't work on Galileo for Mac (Cocoa)     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezclipse/forum/general', 'Bugs', '/ezclipse/forum/bugs', 'Features request', '/ezclipse/forum/features_request'];
+menu[4] = ['Leaders', '/ezclipse/team/leaders', 'Members', '/ezclipse/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezclipse.html" onmouseover="switchSubMenu( this );">eZclipse &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+            
+    <li class="current"><a href="../general.html">General</a></li>
+
+                
+    
+    <li ><a href="../bugs.html">Bugs</a></li>
+
+                        
+    
+    <li class="last"><a href="../features_request.html">Features request</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezclipse.html">ezclipse</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        ezclipse doesn't work on ga...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>eZclipse doesn't work on Galileo for Mac (Cocoa)</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg18395">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 August 2009 10:50:02 am</p>
+
+        <div class="attribute-long">Hello<br />
+<br />
+I can't make eZClipse work on Galileo (Eclipse 3.5) for Mac (Cocoa version). Is there something special to do ?<br />
+<br />
+Eclipse 3.5<br />
+MacOS Leopard (10.5.7)<br />
+JRE 1.5<br />
+<br />
+Thanks !
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                                        <p class="moderated">Moderated by: Alain Sahli</p>
+                        </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg18398">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/sebastien_morel.html">Sébastien Morel</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/sebastien_morel/28963-25-eng-GB/sebastien_morel_small.jpg" width="100" height="93"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />03 February 2006</p>
+        <p class="posts">Posts: 8</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 August 2009 12:04:53 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I haven't logs errors concerning wess plugins neither.<br />
+<br />
+But, I have installed the plugins by copy/pasting the .jar file in plugins directory. (Procedure working on windows Galileo)<br />
+<br />
+What other informations do you need, for us to help you ?<br />
+<br />
+++
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+@Novactive (<a href="http://www.novactive.com)/" title="http://www.novactive.com)">http://www.novactive.com)</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18426">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/alain_sahli.html">Alain Sahli</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2007</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 2:37:02 pm</p>
+
+        <div class="attribute-long">Hello,<br />
+<br />
+Please try to do this :<br />
+<br />
+1. Start Eclipse with the command line and the &quot;-console&quot; argument. --&gt; ./eclipse -console<br />
+2. When Eclipse finished to start, type &quot;ss&quot; in the command. This will list all the loaded plugins. Try to find a plugin that begins with ch.wess.ezclipse.*<br />
+3. In front of the plugin name there's a number (id), execute this command : diag &lt;id&gt;<br />
+4. Show me the result...<br />
+<br />
+Thanks for you help !
+</div>
+                    <div class="attribute-signature">
+            <p>eZ Publish Certified developer : <a href="http://auth.ez.no/certification/verify/272583" title="http://auth.ez.no/certification/verify/272583">http://auth.ez.no/certification/verify/272583</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18427">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/sebastien_morel.html">Sébastien Morel</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/sebastien_morel/28963-25-eng-GB/sebastien_morel_small.jpg" width="100" height="93"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />03 February 2006</p>
+        <p class="posts">Posts: 8</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 3:29:41 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+So, the result of ss command concerning the wess plugin :<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">360&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTALLED&nbsp;&nbsp;ch.wess.ezclipse.communcation_1.0.0</span>
+
+<span class="line">361&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTALLED&nbsp;&nbsp;ch.wess.ezclipse.core_1.0.0</span>
+
+<span class="line">362&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTALLED&nbsp;&nbsp;ch.wess.ezclipse.ini_1.0.0</span>
+
+<span class="line">363&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTALLED&nbsp;&nbsp;ch.wess.ezclipse.tpl_1.0.0</span>
+
+<span class="line">364&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTALLED&nbsp;&nbsp;ch.wess.ezclipse.varbrowser_1.0.0</span>
+
+<span class="line"></span></pre><br />
+<br />
+Now, the result of diag command :<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">osgi&gt; diag 360</span>
+
+<span class="line">reference:file:plugins/ch.wess.ezclipse.communcation_1.0.0.jar [360]</span>
+
+<span class="line">&nbsp;Direct constraints which are unresolved:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing imported package ch.wess.ezclipse.core_0.0.0.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">osgi&gt; diag 361</span>
+
+<span class="line">reference:file:plugins/ch.wess.ezclipse.core_1.0.0.jar [361]</span>
+
+<span class="line">&nbsp;No unresolved constraints.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">osgi&gt; diag 362</span>
+
+<span class="line">reference:file:plugins/ch.wess.ezclipse.ini_1.0.0.jar [362]</span>
+
+<span class="line">&nbsp;Direct constraints which are unresolved:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing required bundle ch.wess.ezclipse.core_1.0.0.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">osgi&gt; diag 363</span>
+
+<span class="line">reference:file:plugins/ch.wess.ezclipse.tpl_1.0.0.jar [363]</span>
+
+<span class="line">&nbsp;Direct constraints which are unresolved:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing required bundle ch.wess.ezclipse.core_1.0.0.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing imported package ch.wess.ezclipse.communication_0.0.0.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">osgi&gt; diag 364</span>
+
+<span class="line">reference:file:plugins/ch.wess.ezclipse.varbrowser_1.0.0.jar [364]</span>
+
+<span class="line">&nbsp;Direct constraints which are unresolved:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing required bundle ch.wess.ezclipse.core_1.0.0.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;Missing required bundle ch.wess.ezclipse.communcation_1.0.0.</span>
+
+<span class="line"></span></pre><br />
+<br />
+Reading that,I think you will think the problem is trivial ;)<br />
+<br />
+Thanks for your help<br />
+<br />
+Séb
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+@Novactive (<a href="http://www.novactive.com)/" title="http://www.novactive.com)">http://www.novactive.com)</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18562">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/alain_sahli.html">Alain Sahli</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2007</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 11 August 2009 11:24:06 am</p>
+
+        <div class="attribute-long">Hello,<br />
+<br />
+No it's not trivila but really strange !<br />
+<br />
+Which version of Java are you using ? 5 or 6 ?
+</div>
+                    <div class="attribute-signature">
+            <p>eZ Publish Certified developer : <a href="http://auth.ez.no/certification/verify/272583" title="http://auth.ez.no/certification/verify/272583">http://auth.ez.no/certification/verify/272583</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18563">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 11 August 2009 11:35:06 am</p>
+
+        <div class="attribute-long">I tried both : Java 1.5 (32bits) and Java 1.6 (64bits)
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18564">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/sebastien_morel.html">Sébastien Morel</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/sebastien_morel/28963-25-eng-GB/sebastien_morel_small.jpg" width="100" height="93"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />03 February 2006</p>
+        <p class="posts">Posts: 8</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 11 August 2009 11:54:26 am</p>
+
+        <div class="attribute-long">Hi,<br />
+<pre class="wordwrap"><span class="line">No it's not trivila but really strange !</span></pre>Sorry, I thought that it's was just a link problem or similar on mac.<br />
+<br />
+I'm in hollyday and I can't test before September. But, I will be here the 1st September to continue help you.<br />
+<br />
+<pre class="wordwrap"><span class="line">I tried both : Java 1.5 (32bits) and Java 1.6 (64bits) </span></pre><br />
+Jérome, you have the same errors with the diag command ?<br />
+<br />
+++
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+@Novactive (<a href="http://www.novactive.com)/" title="http://www.novactive.com)">http://www.novactive.com)</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18565">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 11 August 2009 11:56:49 am</p>
+
+        <div class="attribute-long">Yes I have the same errors.<br />
+I can still test for you Alain ;)
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19009">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/sebastien_morel.html">Sébastien Morel</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/sebastien_morel/28963-25-eng-GB/sebastien_morel_small.jpg" width="100" height="93"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />03 February 2006</p>
+        <p class="posts">Posts: 8</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 30 August 2009 2:49:38 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I think that I have a good news, I just upgrade on Snow Leopard and the bug is fixed, the plugins is ok in Eclipse.<br />
+<br />
+I havn't to re-install, I just launch Eclipse and everything is ok !<br />
+<br />
+<br />
+Someone can confirm ?<br />
+<br />
+Thanks <br />
+<br />
+++
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+@Novactive (<a href="http://www.novactive.com)/" title="http://www.novactive.com)">http://www.novactive.com)</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19206">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 07 September 2009 11:16:41 am</p>
+
+        <div class="attribute-long">Same thing for me. So I guess the problem comes with the Java version that comes with Mac OS Leopard... Snow Leopard Java is 1.6, full 64bits.<br />
+<br />
+But I have a small issue : INI syntax coloring is working well for *.ini files, but *.ini.append.php are still opened with PDT editor :-(
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19209">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/alain_sahli.html">Alain Sahli</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2007</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 07 September 2009 12:48:06 pm</p>
+
+        <div class="attribute-long">I'm doing a complete refactoring to downgrade the plug-in in Java 5. I think after that it should work.
+</div>
+                    <div class="attribute-signature">
+            <p>eZ Publish Certified developer : <a href="http://auth.ez.no/certification/verify/272583" title="http://auth.ez.no/certification/verify/272583">http://auth.ez.no/certification/verify/272583</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 16:21:18 GMT -->
+</html>

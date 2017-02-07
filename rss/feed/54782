@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpliteralobjectsreport / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:21:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:21:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/54782" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/ac1f89f41d140b154cdaf74a9e3f69f03b0252a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor report generator to provide attribute identifier&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/ac1f89f41d140b154cdaf74a9e3f69f03b0252a6</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/9e8827bf2b40146f6609f19c21bd3d0edea54a08</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor report generator to omit objects without nodes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/9e8827bf2b40146f6609f19c21bd3d0edea54a08</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/af4dae292847c1afad49c2e83b99aaaa44741ff3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed: Removed report temp file.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/af4dae292847c1afad49c2e83b99aaaa44741ff3</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/0c2f0b938d7668481f06ee25e8fd354e0bab6c00</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added initial commit of repository files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/0c2f0b938d7668481f06ee25e8fd354e0bab6c00</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/91ec7468c08cca6035e6d3a4c4121c65401bd733</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added report cronjob, module, design and settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/91ec7468c08cca6035e6d3a4c4121c65401bd733</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/1660943a52544a396eb9b9c2534e480f99816bac</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor report generator to provide attribute name in report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/1660943a52544a396eb9b9c2534e480f99816bac</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport/source/654dc0ba70238d34f12eaa82f8302f5ac30c901a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor report generator to provide for grouping results by attribute id instead of object id&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport/source/654dc0ba70238d34f12eaa82f8302f5ac30c901a</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

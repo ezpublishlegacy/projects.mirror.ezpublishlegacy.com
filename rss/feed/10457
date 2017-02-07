@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / rssfeed_operator / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:39:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:39:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10457" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: RSS fetch functions enhancement request</title>
+      <link>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request/re_rss_fetch_functions_enhancement_request2</link>
+      <description>Hello,&#13;
+&#13;
+Brookins Consulting has integrated the related contributions from Kristof Coomans and this extension into bcrssfeeds extension and tested with eZ Publish 2014.11&#13;
+&#13;
+http://projects.ez.no/rssfeed_operator/forum/general/mirror_of_the_rssfeedoperator_extension_on_github&#13;
+&#13;
+Thank you for your contributions Kristof and Bertrand!&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request/re_rss_fetch_functions_enhancement_request2</guid>
+      <pubDate>Sun, 31 May 2015 21:05:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mirror of the rssfeedoperator extension on GitHub!</title>
+      <link>http://projects.ez.no/rssfeed_operator/forum/general/mirror_of_the_rssfeedoperator_extension_on_github</link>
+      <description>Hello eZ Community using rssfeedoperator extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a complete mirror import of the project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/bcrssfeeds&#13;
+&#13;
+We continue strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+The mirror import was based on the latest svn version, r1 | bd | 24/07/2008 11:25 am.&#13;
+&#13;
+The GitHub version provides new features and continued compatibility with eZ Publish Community Project 2014.11 aka eZ Publish 5.x&#13;
+&#13;
+Brookins Consulting has refactored the solution to be slightly more compatible with eZ Publish 5.x and to include the features contributed by Kristof Coomans.&#13;
+&#13;
+Download: https://github.com/brookinsconsulting/bcrssfeeds/archive/master.zip&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/rssfeed_operator/forum/general/mirror_of_the_rssfeedoperator_extension_on_github</guid>
+      <pubDate>Sun, 31 May 2015 21:03:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: RSS fetch functions enhancement request</title>
+      <link>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request/re_rss_fetch_functions_enhancement_request</link>
+      <description>The idea of this operator is to be able to show different feeds for different parts of the website. It's not very complex, but gets this job done :)</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request/re_rss_fetch_functions_enhancement_request</guid>
+      <pubDate>Thu, 24 Jul 2008 09:21:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>RSS fetch functions enhancement request</title>
+      <link>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request</link>
+      <description>Hi&#13;
+&#13;
+At first sight looks a bit similar to something I wrote for eZ Projects. I thought it was included in the enhancement request here: http://issues.ez.no/9933, but apparently it's not. I'll add a new patch there.&#13;
+&#13;
+Example code:&#13;
+&lt;code&gt;&#13;
+{def $rssList=fetch('rss','subtree_list',hash('node_id',$module_result.node_id, 'max_depth', $max_depth))}&#13;
+{foreach $rssList as $rss}&#13;
+&lt;link rel="alternate" type="application/rss+xml" title="{$rss.title|wash}" href={concat("/rss/feed/",$rss.access_url)|ezurl} /&gt;&#13;
+{/foreach}&#13;
+{undef $rssList}&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/rssfeed_operator/forum/general/rss_fetch_functions_enhancement_request</guid>
+      <pubDate>Thu, 24 Jul 2008 09:09:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

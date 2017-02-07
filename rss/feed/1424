@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezvideoflv / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1424" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezvideoflv rev. 24 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/24</link>
+      <description>Create tag for 0.3 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/24</guid>
+      <pubDate>Sun, 04 Oct 2009 15:25:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 22 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/22</link>
+      <description>Minor code cleanup
+Added svn:keywords property on files and header to use it
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/22</guid>
+      <pubDate>Sun, 04 Oct 2009 15:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 23 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/23</link>
+      <description>Added missing svn:keywords property on translation file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/23</guid>
+      <pubDate>Sun, 04 Oct 2009 15:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 21 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/21</link>
+      <description>Fixed CS issues (:retab)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/21</guid>
+      <pubDate>Sun, 04 Oct 2009 15:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 20 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/20</link>
+      <description>Fixed compatibility with eZ Publish &gt;= 4.1 (thanks Sébastien Morel)
+Minor code cleanup
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/20</guid>
+      <pubDate>Sun, 04 Oct 2009 14:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 19 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/19</link>
+      <description>Added tag for 0.2 version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/19</guid>
+      <pubDate>Sun, 04 Oct 2009 13:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 18 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/18</link>
+      <description>Added tags subdir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/18</guid>
+      <pubDate>Sun, 04 Oct 2009 13:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 17 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/17</link>
+      <description>Adding french translation of new strings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/17</guid>
+      <pubDate>Fri, 07 Mar 2008 22:35:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 16 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/16</link>
+      <description>Stick to template coding standards
+http://ez.no/ezpublish/documentation/development/standards/template
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/16</guid>
+      <pubDate>Fri, 07 Mar 2008 22:25:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 15 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/15</link>
+      <description>- Stick to eZ Publish PHP Coding standard
+  http://ez.no/ezpublish/documentation/development/standards/php
+- Change eZ publish to eZ Publish
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/15</guid>
+      <pubDate>Fri, 07 Mar 2008 22:20:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 14 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/14</link>
+      <description>added duration function attribute and display in edit interface
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/14</guid>
+      <pubDate>Fri, 07 Mar 2008 05:35:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 13 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/13</link>
+      <description>added metadata storage support
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/13</guid>
+      <pubDate>Fri, 07 Mar 2008 05:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 12 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/12</link>
+      <description>replaced tabs with spaces
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/12</guid>
+      <pubDate>Fri, 07 Mar 2008 05:05:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 10 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/10</link>
+      <description>Wrong URL operator used in the view templates
+See http://projects.ez.no/ezvideoflv/forum/general/tweaks
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/10</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 11 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/11</link>
+      <description>Adding comment on how to easily give access to videos to all user (anonymous and identified)
+See http://projects.ez.no/ezvideoflv/forum/general/tweaks
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/11</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 7 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/7</link>
+      <description>- Added eZP4 branch, based on http://svn.projects.ez.no/ezvideoflv/ezp3/trunk/ rev. 6.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 8 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/8</link>
+      <description>Compatibility with eZ Publish 4.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 9 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/9</link>
+      <description>new release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/9</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 5 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/5</link>
+      <description>- Add some debug information about convert process
+- Correct bugs and mistakes
+- Clear caches only if the convert process is ok
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 6 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/6</link>
+      <description>- Modex eZP3 files.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 3 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/3</link>
+      <description>- Configuration for translation
+- French translation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 4 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/4</link>
+      <description>String change in edit view
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 1 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/1</link>
+      <description>Initial import
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvideoflv rev. 2 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezvideoflv/subversion/2</link>
+      <description>Move docs to project page
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvideoflv/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

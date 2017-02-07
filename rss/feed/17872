@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bccleanuprss / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:32:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:32:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17872" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cleaning up older RSS feeds</title>
+      <link>http://projects.ez.no/bccleanuprss/reviews/cleaning_up_older_rss_feeds</link>
+      <description>I ran into a roadblock when handling data feeds from numerous RSS sources. I called on Brookins and was surprise by his rapid response. He had a ready-made extension to eZ Publish that cleans up the runaway accumulation of RSS data on my web site: bccleanuprss. &#13;
+&#13;
+I added a new crontab line to run bccleanuprss.php five minutes before the (daily) time when the main eZ Publish cronjobs are set to run. (This main set of cronjobs contains rssimport.php). The result is a fresh set of RSS inputs on my site, every day!&#13;
+&#13;
+His solution is working for us as intended. As a consequence we are able to continue successfully with our web design project. For us Brookins Consulting is a five star service. &#13;
+&#13;
+Thank you,&#13;
+Lulio Vargas-Viñas&#13;
+Independent Web Designer</description>
+      <author>community@ez.no (Lulio Vargas)</author>
+      <guid>http://projects.ez.no/bccleanuprss/reviews/cleaning_up_older_rss_feeds</guid>
+      <pubDate>Sat, 29 Aug 2009 15:44:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

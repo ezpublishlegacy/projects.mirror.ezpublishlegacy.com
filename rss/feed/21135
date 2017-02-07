@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / epie / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:39:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:39:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21135" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZIEImageToolSaturation</title>
+      <link>http://projects.ez.no/epie/forum/general/ezieimagetoolsaturation</link>
+      <description>This class is not found in repository. Could you fix this?</description>
+      <author>community@ez.no (Rafał Kostecki)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezieimagetoolsaturation</guid>
+      <pubDate>Fri, 28 Sep 2012 09:33:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cropping size presets?</title>
+      <link>http://projects.ez.no/epie/forum/general/cropping_size_presets</link>
+      <description>Hi,&#13;
+&#13;
+I would like to add cropping presets to a pulldown menue for cropping size presets in the right sidebar above the pixel ratio input fields. &#13;
+The goal: the editor only uses certain image sizes throughout the site. Instead of selecting the correct size manually, he/she could use a predefined 300x200px size from the pulldown, which sets the cropping selction to the right size.&#13;
+&#13;
+Is there a way to extend ezie for this purpose in a clean, upgradable way?&#13;
+&#13;
+Thanks!</description>
+      <author>community@ez.no (Jens Doka)</author>
+      <guid>http://projects.ez.no/epie/forum/general/cropping_size_presets</guid>
+      <pubDate>Mon, 19 Dec 2011 13:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Contrast, crop and brightness...</title>
+      <link>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness/re_contrast_crop_and_brightness2</link>
+      <description>Hi Romeo!&#13;
+I'm sorry to say that this was the only thing I did to get it work. My version of eZ is 4.2.0 and the version of ezie is 1.0.&#13;
+&#13;
+Also note that ezie demands PHP 5.2 and higher otherwise I'm not sure it will work...&#13;
+&#13;
+Good Luck!&#13;
+&#13;
+/Anja Lundin, Novitell AB</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness/re_contrast_crop_and_brightness2</guid>
+      <pubDate>Mon, 10 Jan 2011 13:38:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Contrast, crop and brightness...</title>
+      <link>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness/re_contrast_crop_and_brightness</link>
+      <description>Hi,  I am having the same issue(ez 4.3.0) image crop function  not working and looked for the line  . But I couldn't find such code in prepare.php file. Any help would be apreciable</description>
+      <author>community@ez.no (Romeo Antony)</author>
+      <guid>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness/re_contrast_crop_and_brightness</guid>
+      <pubDate>Mon, 10 Jan 2011 12:29:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Contrast, crop and brightness...</title>
+      <link>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness</link>
+      <description>...wasn't working until I commented out line 25 in ezie/modules/ezie/prepare.php&#13;
+&#13;
+&lt;code&gt;&#13;
+   die( '// @todo fixme :)' );&#13;
+&lt;/code&gt;&#13;
+&#13;
+If someone else is having the same problem. I use ezie with eZ 4.3.0.&#13;
+&#13;
+This is a great extension. Many thanks!&#13;
+&#13;
+/Anja Lundin, Novitell AB</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/epie/forum/general/contrast_crop_and_brightness</guid>
+      <pubDate>Thu, 01 Jul 2010 08:29:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode7</link>
+      <description>OK, it works. &#13;
+&#13;
+but... I needed within image.ini.append.php to add a specific path to "convert" &#13;
+&#13;
+# The path to the executable, can be empty for global path.&#13;
+ExecutablePath=&#13;
+&#13;
+became : &#13;
+&#13;
+ExecutablePath=/usr/bin/&#13;
+&#13;
+thanks&#13;
+&#13;
+Pablo</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode7</guid>
+      <pubDate>Thu, 20 May 2010 13:15:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode6</link>
+      <description>Sorry, I'm still late. &#13;
+&#13;
+I'm going to do it right now, thanks. </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode6</guid>
+      <pubDate>Thu, 20 May 2010 12:29:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode5</link>
+      <description>Pablo,&#13;
+&#13;
+the clustering issues should be fixed (in SVN), but will unfortunately require a hack in the index_image_xxx.php file you're using (depending on your handler) since the image editor uses images prepended with a query string in order to trick the browser cache.&#13;
+&#13;
+This is the fix you can use on index_image_mysql.php:&#13;
+&#13;
+&lt;code&gt;&#13;
+--- index_image_mysql.php.orig	2010-04-13 17:59:08.000000000 +0200&#13;
++++ index_image_mysql.php	2010-04-13 16:03:31.000000000 +0200&#13;
+@@ -30,7 +30,11 @@&#13;
+ if ( !mysql_select_db( STORAGE_DB, $db ) )&#13;
+     _die( "Unable to select database " . STORAGE_DB . ".\n" );&#13;
+ &#13;
+-$filename = ltrim( $_SERVER['REQUEST_URI'], "/");&#13;
++$filename = ltrim( $_SERVER['REQUEST_URI'], "/" );&#13;
++if ( strrpos( $filename, '?' ) !== false )&#13;
++{&#13;
++    $filename = substr( $filename, 0, strrpos( $filename, '?' ) );&#13;
++}&#13;
+ &#13;
+ // Fetch file metadata.&#13;
+ $filePathHash = mysql_real_escape_string( $filename );&#13;
+&lt;/code&gt;&#13;
+&#13;
+This will be committed to ezp trunk once it has been approved, as well as on other  handler's index files.</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode5</guid>
+      <pubDate>Tue, 13 Apr 2010 16:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode4</link>
+      <description>added &#13;
+&#13;
+modules/ezie/prepare.php&#13;
+around line 40 &#13;
+&#13;
+&lt;code&gt;&#13;
+if ( !file_exists( $absolute_image_path ) )&#13;
+        {&#13;
+            $sourceFileHandler = eZClusterFileHandler::instance( $img-&gt;attributeFromOriginal('url'));&#13;
+            $sourceFileHandler-&gt;fetch();&#13;
+        }&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode4</guid>
+      <pubDate>Tue, 13 Apr 2010 13:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode3</link>
+      <description>I fixed it. But my code is dirty... :)</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode3</guid>
+      <pubDate>Tue, 13 Apr 2010 13:39:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode2</link>
+      <description>We are aware of this, and are fixing it. Stay in touch :-)</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode2</guid>
+      <pubDate>Thu, 08 Apr 2010 10:56:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode</link>
+      <description>I did a quick & dirty patch : on modules/prepare.php
+<code>
+ --- 1 
++++ 2 
+@@ -35,6 +35,12 @@
+ $img = eZContentObjectAttribute::fetch( $NodeId, $Version )->attribute('content');&#13;
+ $image_path = $img-&gt;attributeFromOriginal('url');&#13;
+ $absolute_image_path = eZSys::rootDir() . "/" . $image_path;&#13;
++&#13;
++if ( !file_exists( $absolute_image_path ) )&#13;
++        {&#13;
++            $sourceFileHandler = eZClusterFileHandler::instance( $img-&gt;attributeFromOriginal('url'));&#13;
++            $sourceFileHandler-&gt;fetch();&#13;
++        }&#13;
+ &#13;
+ // TODO: Check for editing rights&#13;
+&lt;/code&gt;&#13;
+ and then it works</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode/re_ezie_cluster_image_mode</guid>
+      <pubDate>Thu, 11 Mar 2010 09:43:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZIE cluster image mode ? </title>
+      <link>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode</link>
+      <description>&#13;
+It seems not to work with the index cluster . &#13;
+&#13;
+Any idea ? any roadmap about that point ? &#13;
+&#13;
+thanks &#13;
+&#13;
+bye&#13;
+&#13;
+Pablo&#13;
+&#13;
+</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/ezie_cluster_image_mode</guid>
+      <pubDate>Tue, 16 Feb 2010 15:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ImageMagick Path ? </title>
+      <link>http://projects.ez.no/epie/forum/general/imagemagick_path</link>
+      <description>&#13;
+Hi, &#13;
+&#13;
+If ImageMagick's convert is not in the Path the extension won't work (it is not using the ExecutablePath variable from image.ini). &#13;
+&#13;
+Any feedback ? &#13;
+&#13;
+When will it be added to the extension ? &#13;
+&#13;
+thanks </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/epie/forum/general/imagemagick_path</guid>
+      <pubDate>Tue, 16 Feb 2010 15:49:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bugs</title>
+      <link>http://projects.ez.no/epie/forum/general/bugs</link>
+      <description>- after editing an image, the input fields in the page for editing the content object get messed up: some chars can be entered, some other get magically eaten by some js event handler. This happened when triying to edit both the image caption and another unrelated field, once with ff 3.6/win, once on a mac...&#13;
+&#13;
+- sometimes the action to zoom out the image does not work very well. And for cropping it is necessary to fully zoom out. Why not start with an image that is zoomed out to fit editor's window as initial state (instead of 100% zoom)?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/epie/forum/general/bugs</guid>
+      <pubDate>Mon, 01 Feb 2010 14:38:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>time for a changelog?</title>
+      <link>http://projects.ez.no/epie/forum/general/time_for_a_changelog</link>
+      <description>it would be nice to have one changelog file per version, in the docs dir - even when you're just releasing betas</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/epie/forum/general/time_for_a_changelog</guid>
+      <pubDate>Mon, 25 Jan 2010 18:25:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>naming confusion?</title>
+      <link>http://projects.ez.no/epie/forum/general/naming_confusion</link>
+      <description>- the name of the extension is "eZ Image Editor"&#13;
+- shortname is epie&#13;
+- but the subdir in svn is ezie&#13;
+&#13;
+???&#13;
+&#13;
+ps: it is customari in the svn for ezp projects to have trunk/extension/extname - you missed a folder...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/epie/forum/general/naming_confusion</guid>
+      <pubDate>Mon, 25 Jan 2010 18:23:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

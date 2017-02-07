@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nmcontent / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:08:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:08:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41455" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Is there any updates coming for nmcontent ?</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent/re_is_there_any_updates_coming_for_nmcontent2</link>
+      <description>Thanks a lot.</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent/re_is_there_any_updates_coming_for_nmcontent2</guid>
+      <pubDate>Thu, 12 Apr 2012 10:36:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is there any updates coming for nmcontent ?</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent/re_is_there_any_updates_coming_for_nmcontent</link>
+      <description>Hi Yassine,&#13;
+&#13;
+We've definetly been talking about all of these, but I can't say for sure as of now when they'll be implemented.&#13;
+&#13;
+However, we're hoping to have things moved to GitHub soon so you are able to contribute yourself. We'll keep you posted.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent/re_is_there_any_updates_coming_for_nmcontent</guid>
+      <pubDate>Thu, 12 Apr 2012 06:33:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is there any updates coming for nmcontent ?</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent</link>
+      <description>Hi,&#13;
+&#13;
+I would like to know if there is any update for nmcontent ?&#13;
+&#13;
+Maybe like :&#13;
+- Specify the group of classes (actually the default group is content)&#13;
+- Specify if the class is a container (needs an update for ezclasspec.&#13;
+- Specify a language&#13;
+- migrate to github ?&#13;
+&#13;
+Keep up the good work.</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/is_there_any_updates_coming_for_nmcontent</guid>
+      <pubDate>Tue, 10 Apr 2012 16:05:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Structure import and names containing accen...</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character/re_structure_import_and_names_containing_accen2</link>
+      <description>You're Right. am using an old version :)&#13;
+&#13;
+Thank you very much&#13;
+</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character/re_structure_import_and_names_containing_accen2</guid>
+      <pubDate>Mon, 14 Nov 2011 12:41:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Structure import and names containing accen...</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character/re_structure_import_and_names_containing_accen</link>
+      <description>Hi Yassine,&#13;
+&#13;
+Thanks for the tip. However, this has actually already been fixed:&#13;
+&#13;
+http://projects.ez.no/nmcontent/subversion/7&#13;
+&#13;
+I'm guessing you're using a slightly older version.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character/re_structure_import_and_names_containing_accen</guid>
+      <pubDate>Mon, 14 Nov 2011 11:19:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structure import and names containing accent character</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character</link>
+      <description>Hi,&#13;
+&#13;
+Thank you for this great extension. It helps me a lot.&#13;
+&#13;
+If labels contains accent characters, it will be save as html entitites (&eacute;cole instead of école)&#13;
+&#13;
+I fixed this in the module structureimport.php by changing the following line&#13;
+&#13;
+ &lt;code&gt;&#13;
+// format structure&#13;
+	$structure = $class-&gt;formatStructure($_POST['contentStructure']);&#13;
+&lt;/code&gt;&#13;
+&#13;
+by&#13;
+&#13;
+&lt;code&gt;&#13;
+// format structure&#13;
+	$structure = $class-&gt;formatStructure(html_entity_decode ($_POST['contentStructure'], ENT_COMPAT, "UTF-8"));&#13;
+&lt;/code&gt;&#13;
+&#13;
+Again, thanks a lot</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/structure_import_and_names_containing_accent_character</guid>
+      <pubDate>Mon, 14 Nov 2011 11:11:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: site_admin/nmcontent/classimport - returns...</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error/re_site_admin_nmcontent_classimport_returns2</link>
+      <description>Hi Eirik,&#13;
+thanks for your quick answer. It doesn't run on an empty ezwebin installation with ezpublish 2011.9, but it does on ezflow_site with content based on ezpublish 2011.8.&#13;
+&#13;
+No errors except kernel (20), but I need to turn on debug_display in php.ini, I'll check that later.&#13;
+Jens </description>
+      <author>community@ez.no (Jens Doka)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error/re_site_admin_nmcontent_classimport_returns2</guid>
+      <pubDate>Wed, 12 Oct 2011 13:05:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: site_admin/nmcontent/classimport - returns...</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error/re_site_admin_nmcontent_classimport_returns</link>
+      <description>Hi Jens,&#13;
+&#13;
+No, not really. Which version of eZP are you running? Also, what kind of error message do you get in the browser?</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error/re_site_admin_nmcontent_classimport_returns</guid>
+      <pubDate>Mon, 10 Oct 2011 16:33:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>site_admin/nmcontent/classimport - returns kernel error</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error</link>
+      <description>Hi,&#13;
+installed the extension in a clean ezwebin site, activated it in admin cleared all caches, but I cannot open /nmcontent/classimport - logs say&#13;
+&#13;
+[ Oct 10 2011 18:11:38 ] [200.100.1.13] error/view.php:&#13;
+Error ocurred using URI: /www/index.php/site_admin/nmcontent/classimport&#13;
+&#13;
+Any idea what's missing?&#13;
+&#13;
+Jens</description>
+      <author>community@ez.no (Jens Doka)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/site_admin_nmcontent_classimport_returns_kernel_error</guid>
+      <pubDate>Mon, 10 Oct 2011 16:21:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: NM Content vs eZ Publish packaging system</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/nm_content_vs_ez_publish_packaging_system/re_nm_content_vs_ez_publish_packaging_system</link>
+      <description>Hi Geoff,&#13;
+&#13;
+The idea behind NM Content is to take something that you've (hopefully) already created as a part of the specification phase, and turn it into something useful right away in eZ Publish.&#13;
+&#13;
+For content classes, this process starts with the ezclasspec tool (http://projects.ez.no/ezclasspec) where you can quickly and easily create a specification of the content classes required for your project. Compared to the process of creating content classes directly in eZ Publish, ezclasspec is designed to be fast and nimble, allowing you to use it as a tool in a client or internal meeting. When the class specification has been finalized, it can be imported as content classes into eZ Publish.&#13;
+&#13;
+For content structures, we (Netmaking) have a habit of specifying them as nested, unordered lists, so we wanted something that could take those lists and provide us with a flying start, and that's what NM Content does.&#13;
+&#13;
+With this in mind, NM Content can't really be compared with the packaging system, as the packaging system only works on pre-produced packages. For the class specification format communicated between ezclasspec and NM Content, the format could of course had been the packaging system, but we found it to be a little overkill with regards to what we wanted to accomplish.&#13;
+&#13;
+Hope this was useful. Please don't hesitate to ask again if it was unclear.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/nm_content_vs_ez_publish_packaging_system/re_nm_content_vs_ez_publish_packaging_system</guid>
+      <pubDate>Wed, 18 May 2011 17:08:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>NM Content vs eZ Publish packaging system</title>
+      <link>http://projects.ez.no/nmcontent/forum/general/nm_content_vs_ez_publish_packaging_system</link>
+      <description>Hi there,&#13;
+&#13;
+In a nutshell, can you describe the advantages of using NM Content over the eZ Publish packaging system, and in which situations it may be advantageous? </description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/nmcontent/forum/general/nm_content_vs_ez_publish_packaging_system</guid>
+      <pubDate>Tue, 17 May 2011 02:46:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

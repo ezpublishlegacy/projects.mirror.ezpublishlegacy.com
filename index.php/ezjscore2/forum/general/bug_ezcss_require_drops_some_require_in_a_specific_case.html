@@ -1,0 +1,754 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 19:39:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            [bug?] ezcss_require drops some require in a specific case     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/c22340ae62018a2df56dcfdb09ed896d.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index-2.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/index.php/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/index.php/ezjscore2/forum/general'];
+menu[4] = ['Leaders', '/index.php/ezjscore2/team/leaders', 'Members', '/index.php/ezjscore2/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezjscore2.html" onmouseover="switchSubMenu( this );">eZ JSCore &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezjscore2.html">ezjscore</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        [bug?] ezcss_require drops...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>[bug?] ezcss_require drops some require in a specific case</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg39844">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_despatis.html">Jerome Despatis</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 November 2008</p>
+        <p class="posts">Posts: 20</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 25 January 2011 10:58:53 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I have a template (page_head_dmv.tpl) that is included in pagelayout.tpl.<br />
+To be precise, the include is done this way:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{include uri='design:page_head.tpl'}</span>
+
+<span class="line">{include uri='design:page_head_dmv.tpl'}</span>
+
+<span class="line">{include uri='design:page_head_style.tpl'}</span>
+
+<span class="line">{include uri='design:page_head_script.tpl'}</span>
+
+<span class="line"></span></pre><br />
+<br />
+in my template page_head_dmv.tpl, I use ezcss_require, like this:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezcss_require('menu.css')}</span>
+
+<span class="line"></span></pre><br />
+<br />
+It correctly works on a view full node for example, menu.css is bundled in the global minified css, built by ezjscore<br />
+<br />
+<br />
+###### When it works...<br />
+<br />
+In fact, to give some information, by adding some logs in static function ezjscPackerTemplateFunctions::setPersistentArray(), the following test is true<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $tpl-&gt;hasVariable('module_result') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$isPageLayout = true;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult = $tpl-&gt;variable('module_result');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+As a result $moduleResult is filled in (and $isPageLayout is true), and the next test is true also:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $moduleResult['content_info']['persistent_variable'] ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $moduleResult['content_info']['persistent_variable'];</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And finally at the end of this function, as $moduleResult['content_info']['persistent_variable'] exists, the following code correctly filled in $moduleResult['content_info']['persistent_variable']:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $moduleResult['content_info']['persistent_variable'] ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult['content_info']['persistent_variable'] = $persistentVariable;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tpl-&gt;setVariable('module_result', $moduleResult );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+Well all works there !<br />
+<br />
+<br />
+######## When it DOESN'T work<br />
+However when I edit an object (www.domain.com/content/edit/383/1 for example), all my ezcss_require in my custom template page_head_dmv.tpl are lost...<br />
+<br />
+In fact, to give more explanations, in that case, all css from the module /content/edit are SUCCESSFULLY loaded first thanks to ezjscore<br />
+the following test is false:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $tpl-&gt;hasVariable('module_result') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$isPageLayout = true;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult = $tpl-&gt;variable('module_result');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+but the following is true:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if ( $tpl-&gt;hasVariable('persistent_variable') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $tpl-&gt;variable('persistent_variable');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And at the end, as isPageLayout is false, the following code is executed, and correctly works (as $tpl-&gt;hasVariable('persistent_variable')  is true):<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">$tpl-&gt;setVariable('persistent_variable', $persistentVariable );</span>
+
+<span class="line"></span></pre><br />
+<br />
+AND AFTER comes the load of my css in my page_head_dmv.tpl (which is included in pagelayout.tpl), and things are going crazy here...<br />
+Whenever I use ezcss_require in page_head_dmv.tpl, the following test is true:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $tpl-&gt;hasVariable('module_result') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$isPageLayout = true;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult = $tpl-&gt;variable('module_result');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+BUT the following test is wrong:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $moduleResult['content_info']['persistent_variable'] ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $moduleResult['content_info']['persistent_variable'];</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+and the following test is true:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if ( $tpl-&gt;hasVariable('persistent_variable') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $tpl-&gt;variable('persistent_variable');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And at the end, as $isPageLayout is true, the following code is executed, but it doesn't store anything as  $moduleResult['content_info']['persistent_variable'] doesn't exist...:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $isPageLayout )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $moduleResult['content_info']['persistent_variable'] ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult['content_info']['persistent_variable'] = $persistentVariable;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$tpl-&gt;setVariable('module_result', $moduleResult );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+=&gt; As a result, my css required by ezcss_require is not stored anywhere ..... and this css is not put into the global minified css...<br />
+<br />
+I really think that whenever $tpl-&gt;hasVariable('module_result') is true, a second check HAS to be performed before putting $isPageLayout to true<br />
+<br />
+Indeed, a workaround for me was changing the code:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $tpl-&gt;hasVariable('module_result') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$isPageLayout = true;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult = $tpl-&gt;variable('module_result');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+TO:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $tpl-&gt;hasVariable('module_result') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$moduleResult = $tpl-&gt;variable('module_result');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $moduleResult['content_info']['persistent_variable'] ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$isPageLayout = true;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And then all works as expected for me...<br />
+<br />
+Please confirm me this is a ezjscore, or maybe I've missed something...
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg39850">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 26 January 2011 11:22:55 am</p>
+
+        <div class="attribute-long">you are right, however, I think the correct solution would be:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">diff --git a/autoloads/ezjscpackertemplatefunctions.php b/autoloads/ezjscpackertemplatefunctions.php</span>
+
+<span class="line">index 8136f20bfd1c50dde323580795b7a890d2f2bf86..6ceed8a28733c9b438233b2c05700f9246ac8fda 100644</span>
+
+<span class="line">--- a/autoloads/ezjscpackertemplatefunctions.php</span>
+
+<span class="line">+++ b/autoloads/ezjscpackertemplatefunctions.php</span>
+
+<span class="line">@@ -304,7 +304,7 @@ class ezjscPackerTemplateFunctions</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $moduleResult['content_info']['persistent_variable'];</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if ( $tpl-&gt;hasVariable('persistent_variable') )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if ( !$isPageLayout &amp;&amp; $tpl-&gt;hasVariable('persistent_variable') )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$persistentVariable = $tpl-&gt;variable('persistent_variable');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+As it should read value from self::$persistentVariable in this case, as persistent_variable is only supported by content/view.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg39852">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_despatis.html">Jerome Despatis</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 November 2008</p>
+        <p class="posts">Posts: 20</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 26 January 2011 2:50:24 pm</p>
+
+        <div class="attribute-long">Thanks !<br />
+<br />
+I've dropped my patch and added yours, it works as expected !<br />
+<br />
+I've had added an issue here:<br />
+<a href="http://issues.ez.no/IssueView.php?Id=17875&amp;activeItem=4" title="http://issues.ez.no/IssueView.php?Id=17875&amp;activeItem=4">http://issues.ez.no/IssueView.php?Id=17875&amp;activeItem=4</a><br />
+<br />
+Maybe you could put your patch and close this issue ?<br />
+<br />
+Thanks again
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg39868">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_despatis.html">Jerome Despatis</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 November 2008</p>
+        <p class="posts">Posts: 20</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 27 January 2011 12:26:56 pm</p>
+
+        <div class="attribute-long">Thanks for code patching for next ezp 4.5
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 19:39:52 GMT -->
+</html>

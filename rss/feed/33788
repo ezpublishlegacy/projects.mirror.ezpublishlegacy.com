@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ldap-sync</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:19:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:19:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33788" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ldap_sync/news/changelog</link>
+      <description>&lt;p&gt;
+RE-RELEASE (20. Jul. 2008)&lt;br /&gt;
+ -Initial alpha release of the 1.x series of ldapsync&lt;br /&gt;
+ -------------------&lt;br /&gt;
+ -------------------&lt;br /&gt;
+ UPDATE (06. Aug. 2004):&lt;br /&gt;
+ -There has been a bug in writing the md5_hash to the ldap-server. This is&lt;br /&gt;
+ now done in the correct way!&lt;br /&gt;
+ -NOTE: You need to change the way eZ publish creates the md5_hash to&lt;br /&gt;
+ md5_password in site.ini !!!&lt;br /&gt;
+ -Added comments to the ldapsyncoptions.ini file&lt;br /&gt;
+ -Added example files for eZ publish 3.4-1&lt;br /&gt;
+ -Theres a bug: LDAP-Sync won't delete any entry from the ldap server if an&lt;br /&gt;
+ object is removed - I work on this!!! &lt;br /&gt;
+ -Note: The new version is packed as a tar.gz. You can unpack it with eg.&lt;br /&gt;
+ winrar under Windows (www.rarlabs.org).&lt;br /&gt;
+ UPDATE (19. Apr. 2005):&lt;br /&gt;
+ This is not an update of any sources. I just changed the title of this&lt;br /&gt;
+ contribution to ldap-sync. There are plans to rewrite this hole&lt;br /&gt;
+ thing:&lt;br /&gt;
+ -Real sync between eZp and LDAP&lt;br /&gt;
+ -Make use of only one config-file&lt;br /&gt;
+ -Build as an extension&lt;br /&gt;
+ -No more need to hack index.php&lt;br /&gt;
+ -Activation through a workflow&lt;br /&gt;
+ -Documentation&lt;br /&gt;
+ -Instructions how to setup for Ximian (Novell) Evolution&lt;br /&gt; -Support for eZp 3.5.2 and up&lt;/p&gt;</description>
+      <author>community@ez.no (Daniel Beyer)</author>
+      <guid>http://projects.ez.no/ldap_sync/news/changelog</guid>
+      <pubDate>Sun, 20 Jul 2008 14:45:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>ldapsync_v1.0alpha.tar.bz2</title>
+      <link>http://projects.ez.no/ldap_sync/downloads/ldapsync_v1_0alpha_tar_bz2</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ldap_sync/downloads/ldapsync_v1_0alpha_tar_bz2</guid>
+      <pubDate>Sun, 20 Jul 2008 14:45:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

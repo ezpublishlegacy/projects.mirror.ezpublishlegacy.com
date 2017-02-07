@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owsimpledom</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:28:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:28:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46649" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/bcb50d8b7f93c46366b54ab9f2e350e2d1afcabe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;css_inline : adding a parameter to unforce one line return of str_get_html() function&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/bcb50d8b7f93c46366b54ab9f2e350e2d1afcabe</guid>
+      <pubDate>Mon, 23 Feb 2015 09:52:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/079b3266afc47f5bf7a90215fb315628f25ba33b</link>
+      <description>
+      &lt;pre&gt;m classes/owcssinline.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix : supports 'http://' in css inliner properties&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/079b3266afc47f5bf7a90215fb315628f25ba33b</guid>
+      <pubDate>Fri, 01 Jun 2012 12:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/bff5cd1ecc2afefe2711e3bec8e939e531354143</link>
+      <description>
+      &lt;pre&gt;m classes/owcssinline.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CSS inliner : Fix non-object error when html is empty&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/bff5cd1ecc2afefe2711e3bec8e939e531354143</guid>
+      <pubDate>Fri, 11 May 2012 12:51:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/019bf2c7081531d70cb6f731495f2c059174b711</link>
+      <description>
+      &lt;pre&gt;m classes/owcssinline.php
+m doc/INSTALL.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix css inliner output bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/019bf2c7081531d70cb6f731495f2c059174b711</guid>
+      <pubDate>Thu, 10 May 2012 14:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/a2a81017a2c7616c06fa6e2d9fd99d3d936fba85</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/a2a81017a2c7616c06fa6e2d9fd99d3d936fba85</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/8c9eddca8c4c7ae394b418eae4620586e4351638</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/8c9eddca8c4c7ae394b418eae4620586e4351638</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/1d0537e453928cb3789e637c1985e29a39be39e5</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/1d0537e453928cb3789e637c1985e29a39be39e5</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/fdfb3ae198a1e30e2e78f6caa16a30cdd991c7c2</link>
+      <description>
+      &lt;pre&gt;m README.md
+m autoloads/owsimpledomoperators.php
+m classes/owcssinline.php
++ classes/owsimpledom.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bugs fix and documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/fdfb3ae198a1e30e2e78f6caa16a30cdd991c7c2</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/61fcfbfe21177ca8aef0d5ab865bfa3fce27cd44</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/61fcfbfe21177ca8aef0d5ab865bfa3fce27cd44</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/e7973b7cd815a2b7880710c9a0cd917ec759052c</link>
+      <description>
+      &lt;pre&gt;m README.md
++ autoloads/eztemplateautoload.php
++ autoloads/owsimpledomoperators.php
++ classes/owcssinline.php
++ classes/simplehtmldom/app/.svn/all-wcprops
++ classes/simplehtmldom/app/.svn/entries
++ classes/simplehtmldom/app/.svn/text-base/google.htm.svn-base
++ classes/simplehtmldom/app/.svn/text-base/index.php.svn-base
++ classes/simplehtmldom/app/google.htm
++ classes/simplehtmldom/app/index.php
++ classes/simplehtmldom/app/js/.svn/all-wcprops
++ classes/simplehtmldom/app/js/.svn/entries
++ classes/simplehtmldom/app/js/.svn/text-base/jquery.js.svn-base
++ classes/simplehtmldom/app/js/.svn/text-base/jquery.treeview.css.svn-base
++ classes/simplehtmldom/app/js/.svn/text-base/jquery.treeview.js.svn-base
++ classes/simplehtmldom/app/js/.svn/text-base/screen.css.svn-base
++ classes/simplehtmldom/app/js/images/.svn/all-wcprops
++ classes/simplehtmldom/app/js/images/.svn/entries
++ classes/simplehtmldom/app/js/images/.svn/prop-base/treeview-default-line.gif.svn-base
++ classes/simplehtmldom/app/js/images/.svn/prop-base/treeview-default.gif.svn-base
++ classes/simplehtmldom/app/js/images/.svn/text-base/treeview-default-line.gif.svn-base
++ classes/simplehtmldom/app/js/images/.svn/text-base/treeview-default.gif.svn-base
++ classes/simplehtmldom/app/js/images/treeview-default-line.gif
++ classes/simplehtmldom/app/js/images/treeview-default.gif
++ classes/simplehtmldom/app/js/jquery.js
++ classes/simplehtmldom/app/js/jquery.treeview.css
++ classes/simplehtmldom/app/js/jquery.treeview.js
++ classes/simplehtmldom/app/js/screen.css
++ classes/simplehtmldom/change_log.txt
++ classes/simplehtmldom/example/.svn/all-wcprops
++ classes/simplehtmldom/example/.svn/entries
++ classes/simplehtmldom/example/.svn/prop-base/example_callback.php.svn-base
++ classes/simplehtmldom/example/.svn/prop-base/example_extract_html.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/example_advanced_selector.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/example_basic_selector.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/example_callback.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/example_extract_html.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/example_modify_contents.php.svn-base
++ classes/simplehtmldom/example/.svn/text-base/simple_html_dom_utility.php.svn-base
++ classes/simplehtmldom/example/example_advanced_selector.php
++ classes/simplehtmldom/example/example_basic_selector.php
++ classes/simplehtmldom/example/example_callback.php
++ classes/simplehtmldom/example/example_extract_html.php
++ classes/simplehtmldom/example/example_modify_contents.php
++ classes/simplehtmldom/example/scraping/.svn/all-wcprops
++ classes/simplehtmldom/example/scraping/.svn/entries
++ classes/simplehtmldom/example/scraping/.svn/prop-base/example_scraping_digg.php.svn-base
++ classes/simplehtmldom/example/scraping/.svn/prop-base/example_scraping_imdb.php.svn-base
++ classes/simplehtmldom/example/scraping/.svn/prop-base/example_scraping_slashdot.php.svn-base
++ classes/simplehtmldom/example/scraping/.svn/text-base/example_scraping_digg.php.svn-base
++ classes/simplehtmldom/example/scraping/.svn/text-base/example_scraping_imdb.php.svn-base
++ classes/simplehtmldom/example/scraping/.svn/text-base/example_scraping_slashdot.php.svn-base
++ classes/simplehtmldom/example/scraping/example_scraping_digg.php
++ classes/simplehtmldom/example/scraping/example_scraping_imdb.php
++ classes/simplehtmldom/example/scraping/example_scraping_slashdot.php
++ classes/simplehtmldom/example/simple_html_dom_utility.php
++ classes/simplehtmldom/manual/.svn/all-wcprops
++ classes/simplehtmldom/manual/.svn/entries
++ classes/simplehtmldom/manual/.svn/prop-base/manual.htm.svn-base
++ classes/simplehtmldom/manual/.svn/prop-base/manual_api.htm.svn-base
++ classes/simplehtmldom/manual/.svn/prop-base/manual_faq.htm.svn-base
++ classes/simplehtmldom/manual/.svn/text-base/manual.htm.svn-base
++ classes/simplehtmldom/manual/.svn/text-base/manual_api.htm.svn-base
++ classes/simplehtmldom/manual/.svn/text-base/manual_faq.htm.svn-base
++ classes/simplehtmldom/manual/css/.svn/all-wcprops
++ classes/simplehtmldom/manual/css/.svn/entries
++ classes/simplehtmldom/manual/css/.svn/text-base/default.css.svn-base
++ classes/simplehtmldom/manual/css/.svn/text-base/ui.tabs.css.svn-base
++ classes/simplehtmldom/manual/css/default.css
++ classes/simplehtmldom/manual/css/ui.tabs.css
++ classes/simplehtmldom/manual/img/.svn/all-wcprops
++ classes/simplehtmldom/manual/img/.svn/entries
++ classes/simplehtmldom/manual/img/.svn/prop-base/tab.png.svn-base
++ classes/simplehtmldom/manual/img/.svn/text-base/tab.png.svn-base
++ classes/simplehtmldom/manual/img/tab.png
++ classes/simplehtmldom/manual/js/.svn/all-wcprops
++ classes/simplehtmldom/manual/js/.svn/entries
++ classes/simplehtmldom/manual/js/.svn/text-base/jquery-1.2.3.pack.js.svn-base
++ classes/simplehtmldom/manual/js/.svn/text-base/ui.tabs.pack.js.svn-base
++ classes/simplehtmldom/manual/js/jquery-1.2.3.pack.js
++ classes/simplehtmldom/manual/js/ui.tabs.pack.js
++ classes/simplehtmldom/manual/manual.htm
++ classes/simplehtmldom/manual/manual_api.htm
++ classes/simplehtmldom/manual/manual_faq.htm
++ classes/simplehtmldom/simple_html_dom.php
++ classes/simplehtmldom/testcase/.svn/all-wcprops
++ classes/simplehtmldom/testcase/.svn/entries
++ classes/simplehtmldom/testcase/.svn/prop-base/all_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/callback_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/dom_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/element_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/invalid_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/jquery-1.2.3.pack.js.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/mass_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/memory_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/misc_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/performance_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/selector_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/slick_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/slickspeed.htm.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/std_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/prop-base/strip_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/all_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/callback_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/dom_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/element_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/invalid_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/jquery-1.2.3.pack.js.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/mass_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/memory_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/misc_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/performance_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/selector_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/slick_test.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/slickspeed.htm.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/std_testcase.php.svn-base
++ classes/simplehtmldom/testcase/.svn/text-base/strip_testcase.php.svn-base
++ classes/simplehtmldom/testcase/all_test.php
++ classes/simplehtmldom/testcase/callback_testcase.php
++ classes/simplehtmldom/testcase/dom_testcase.php
++ classes/simplehtmldom/testcase/element_testcase.php
++ classes/simplehtmldom/testcase/html/.svn/all-wcprops
++ classes/simplehtmldom/testcase/html/.svn/entries
++ classes/simplehtmldom/testcase/invalid_testcase.php
++ classes/simplehtmldom/testcase/jquery-1.2.3.pack.js
++ classes/simplehtmldom/testcase/mass_test.php
++ classes/simplehtmldom/testcase/memory_test.php
++ classes/simplehtmldom/testcase/misc_testcase.php
++ classes/simplehtmldom/testcase/performance_test.php
++ classes/simplehtmldom/testcase/reader/.svn/all-wcprops
++ classes/simplehtmldom/testcase/reader/.svn/dir-prop-base
++ classes/simplehtmldom/testcase/reader/.svn/entries
++ classes/simplehtmldom/testcase/reader/.svn/prop-base/all_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/prop-base/element_testcase.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/prop-base/memory_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/prop-base/performance_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/prop-base/selector_testcase.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/text-base/all_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/text-base/element_testcase.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/text-base/memory_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/text-base/performance_test.php.svn-base
++ classes/simplehtmldom/testcase/reader/.svn/text-base/selector_testcase.php.svn-base
++ classes/simplehtmldom/testcase/reader/all_test.php
++ classes/simplehtmldom/testcase/reader/element_testcase.php
++ classes/simplehtmldom/testcase/reader/memory_test.php
++ classes/simplehtmldom/testcase/reader/performance_test.php
++ classes/simplehtmldom/testcase/reader/selector_testcase.php
++ classes/simplehtmldom/testcase/selector_testcase.php
++ classes/simplehtmldom/testcase/slick_test.php
++ classes/simplehtmldom/testcase/slickspeed.htm
++ classes/simplehtmldom/testcase/std_testcase.php
++ classes/simplehtmldom/testcase/strip_testcase.php
++ doc/INSTALL.txt
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initialisation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/e7973b7cd815a2b7880710c9a0cd917ec759052c</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/d3734010304efb8865a35ebae3dec9fc44145eee</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/d3734010304efb8865a35ebae3dec9fc44145eee</guid>
+      <pubDate>Wed, 02 May 2012 15:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/3896e123a105ba4a48518cb87a23746ff9989d75</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/3896e123a105ba4a48518cb87a23746ff9989d75</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/dc8dfc386355be5ad78583c1344f2461f9b66f10</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/dc8dfc386355be5ad78583c1344f2461f9b66f10</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/ede1d4ae120e819c2f6ae011e80fe73570159888</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/ede1d4ae120e819c2f6ae011e80fe73570159888</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/e5f8493690151b0e145d3573f6c26a74f55d148f</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/e5f8493690151b0e145d3573f6c26a74f55d148f</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/e0db25aeeb212ddab1938ae98ac7be9764fb35f4</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/e0db25aeeb212ddab1938ae98ac7be9764fb35f4</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/42f9d6ac6920dfe56017ff5421201275c6334467</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/42f9d6ac6920dfe56017ff5421201275c6334467</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/9d79ef44c86a934aeb13dd02891b6d38e69d36d6</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/9d79ef44c86a934aeb13dd02891b6d38e69d36d6</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/b2e14b4bb6aa6b1938f092a2b0b4d0c217f63510</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/b2e14b4bb6aa6b1938f092a2b0b4d0c217f63510</guid>
+      <pubDate>Wed, 02 May 2012 15:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpledom/source/ea2b6d63722db54a3a571fddf4ccbc41977f6951</link>
+      <description>
+      &lt;pre&gt;m README.md
+m autoloads/owsimpledomoperators.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add trim clause&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpledom/source/ea2b6d63722db54a3a571fddf4ccbc41977f6951</guid>
+      <pubDate>Wed, 02 May 2012 15:41:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/flashupload/forum/general/need_help_getting_flashupload_working by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 21:11:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Need help getting flashupload working     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = [];
+menu[4] = ['General', '/flashupload/forum/general'];
+menu[5] = ['Leaders', '/flashupload/team/leaders', 'Members', '/flashupload/team/members'];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../flashupload.html" onmouseover="switchSubMenu( this );">Flashupload &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../flashupload/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../flashupload/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+                            <li ><a href="../../../../flashupload/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../flashupload/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../flashupload/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../flashupload/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li class="last"><a href="../../../../flashupload/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../flashupload/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../flashupload.html">flashupload</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        need help getting flashuplo...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Need help getting flashupload working</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg1356">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/brendan_pike.html">Brendan Pike</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/brendan_pike/25503-40-eng-GB/brendan_pike_small.jpg" width="91" height="99"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 86</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 10 September 2007 7:19:44 am</p>
+
+        <div class="attribute-long">Hi I seem to be experiencing trouble using this extension, I suspect it may be something to do with my server environment since I've tried it on 2 separate ezp installations.  The flash loads fine, the upload progress bars work fine, however after the first file finishes uploading the page prematurely reloads before the other files are uploaded.  I then don't find that no files were really been upload.  The debug output doesn't seem really helpful:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">----- DEBUG OUTPUT ----</span>
+
+<span class="line">ID: SWFUpload0</span>
+
+<span class="line">control_id: SWFUpload0</span>
+
+<span class="line">ui_container_element: flashUI1</span>
+
+<span class="line">degraded_container_element: degradedUI1</span>
+
+<span class="line">upload_target_url: <a href="http://admin.mydomain.com/flashupload/upload/185" title="http://admin.mydomain.com/flashupload/upload/185">http://admin.mydomain.com/flashupload/upload/185</a></span>
+
+<span class="line">upload_cookies:&nbsp;</span>
+
+<span class="line">begin_upload_on_queue: true</span>
+
+<span class="line">file_types: *.*</span>
+
+<span class="line">file_types_description: 'All Files'|i18n('flashupload')</span>
+
+<span class="line">file_size_limit: 10240</span>
+
+<span class="line">file_upload_limit: 50</span>
+
+<span class="line">flash_url: /extension/flashupload/design/standard/flash/swfuploadr5.swf</span>
+
+<span class="line">flash_container_element:&nbsp;</span>
+
+<span class="line">flash_width: 0px</span>
+
+<span class="line">flash_height: 0px</span>
+
+<span class="line">flash_color: #000000</span>
+
+<span class="line">debug: true</span>
+
+<span class="line">----- DEBUG OUTPUT END ----</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">SWF DEBUG: SWFUpload Init Complete</span>
+
+<span class="line">SWF DEBUG:&nbsp;</span>
+
+<span class="line">----- SWF DEBUG OUTPUT ----</span>
+
+<span class="line">ControlID: SWFUpload0</span>
+
+<span class="line">Upload Target URL: <a href="http://admin.mydomain.com/flashupload/upload/185" title="http://admin.mydomain.com/flashupload/upload/185">http://admin.mydomain.com/flashupload/upload/185</a></span>
+
+<span class="line">Begin Upload on Queue: true</span>
+
+<span class="line">File Types: *.*</span>
+
+<span class="line">File Types Description: 'All Files'|i18n('flashupload') (*.*)</span>
+
+<span class="line">File Size Limit: 10240</span>
+
+<span class="line">File Upload Limit: 50</span>
+
+<span class="line">----- SWF DEBUG OUTPUT ----</span>
+
+<span class="line">Flash called back and is ready.</span>
+
+<span class="line">SWF DEBUG: UploadFile: Browsing files. *.*</span>
+
+<span class="line">SWF DEBUG: Files Selected. Processing file list</span>
+
+<span class="line">SWF DEBUG: onSelect: File within size limit. Adding to queue and making callback.</span>
+
+<span class="line">SWF DEBUG: onSelect: File within size limit. Adding to queue and making callback.</span>
+
+<span class="line">SWF DEBUG: onSelect: Uploads set to begin immediately. Calling StartUpload.</span>
+
+<span class="line">SWF DEBUG: StartUpload(): Starting Upload</span>
+
+<span class="line">SWF DEBUG: startFile(): File Reference found.&nbsp;Starting upload to <a href="http://admin.mydomain.com/flashupload/upload/185" title="http://admin.mydomain.com/flashupload/upload/185">http://admin.mydomain.com/flashupload/upload/185</a>. File Number: 0</span>
+
+<span class="line">SWF DEBUG: startFile(): Upload started.</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 98304. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 131072. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 163840. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 196608. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 229376. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 262144. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 294912. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 327680. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 360448. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 393216. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 425984. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 0. Bytes: 454656. Total: 454656</span>
+
+<span class="line">SWF DEBUG: onComplete: File Number: 0. Upload Complete. Calling uploadComplete.</span>
+
+<span class="line">SWF DEBUG: UploadComplete(): Upload complete. Removing File Reference and advancing the queue.</span>
+
+<span class="line">SWF DEBUG: startFile(): File Reference found.&nbsp;Starting upload to <a href="http://admin.mydomain.com/flashupload/upload/185" title="http://admin.mydomain.com/flashupload/upload/185">http://admin.mydomain.com/flashupload/upload/185</a>. File Number: 1</span>
+
+<span class="line">SWF DEBUG: startFile(): Upload started.</span>
+
+<span class="line">SWF DEBUG: onProgress: File Number: 1. Bytes: 98304. Total: 641881</span>
+
+<span class="line"></span></pre><br />
+<br />
+If I visit /flashupload/upload/185 directly I get this message, Warning: Call-time pass-by-reference has been deprecated - argument passed by value; If you would like to pass it by reference, modify the declaration of [runtime function name](). If you would like to enable call-time pass-by-reference, you can set allow_call_time_pass_reference to true in your INI file. However, future versions may not support this any longer. in /data/www/mydomain/extension/flashupload/modules/flashupload/upload.php on line 46<br />
+<br />
+I tried enabling the php allow_call_time_pass_reference but this didn't help.  I would really appreciate any advice on tracking my problem down.<br />
+<br />
+Thanks
+</div>
+                    <div class="attribute-signature">
+            <p>Australian eZ publish specialist <a href="http://www.dbinformatics.com.au/" title="http://www.dbinformatics.com.au">http://www.dbinformatics.com.au</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg1389">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/stevo2.html">STEVO +</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/stevo__2/20593-1-eng-GB/stevo_small.gif" width="60" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 23</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 18 September 2007 7:41:43 pm</p>
+
+        <div class="attribute-long">hi brendan,<br />
+<br />
+sorry it's taken so long to get back to you on this, i'm working away from home + don't have an ez setup or anything.<br />
+<br />
+i think you can fix this by removing the ampersand on &amp;$result on line 46 of upload.php<br />
+<br />
+you should also comment out the fwrite + fclose lines that i've noticed i left in there after debugging.<br />
+<br />
+hope this helps.
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg1390">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/brendan_pike.html">Brendan Pike</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/brendan_pike/25503-40-eng-GB/brendan_pike_small.jpg" width="91" height="99"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 86</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 19 September 2007 7:23:13 am</p>
+
+        <div class="attribute-long">Thanks Stevo<br />
+<br />
+I tried out the changes your recommended but it did a page reload after the first file, any other ideas?
+</div>
+                    <div class="attribute-signature">
+            <p>Australian eZ publish specialist <a href="http://www.dbinformatics.com.au/" title="http://www.dbinformatics.com.au">http://www.dbinformatics.com.au</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg1391">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/stevo2.html">STEVO +</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/stevo__2/20593-1-eng-GB/stevo_small.gif" width="60" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 23</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 19 September 2007 5:04:14 pm</p>
+
+        <div class="attribute-long">humpf.<br />
+<br />
+is browsing to /flashupload/upload/185 still showing an error?
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg1392">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/brendan_pike.html">Brendan Pike</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/brendan_pike/25503-40-eng-GB/brendan_pike_small.jpg" width="91" height="99"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 86</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 20 September 2007 8:07:06 am</p>
+
+        <div class="attribute-long">No visiting that url directly now just gives me a blank page, no errors.
+</div>
+                    <div class="attribute-signature">
+            <p>Australian eZ publish specialist <a href="http://www.dbinformatics.com.au/" title="http://www.dbinformatics.com.au">http://www.dbinformatics.com.au</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/flashupload/forum/general/need_help_getting_flashupload_working by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 21:11:02 GMT -->
+</html>

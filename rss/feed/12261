@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / batchtool / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:03:18 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:03:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12261" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Script execution</title>
+      <link>http://projects.ez.no/batchtool/forum/general/script_execution</link>
+      <description>Hi,&#13;
+&#13;
+I have some difficulties to run the script of this extension. I use eZ Publish 4.3.&#13;
+&#13;
+I executed this (root of my eZ Publish installation):&#13;
+&lt;code&gt;&#13;
+php runcrojobs.php batchtool --filter="fetchnodelist;parent=941" --operation="nodelistname"&#13;
+&lt;/code&gt;&#13;
+&#13;
+Result:&#13;
+&lt;code&gt;&#13;
+Running cronjob part 'batchtool'&#13;
+&lt;/code&gt;&#13;
+and nothing happens.&#13;
+&#13;
+Has someone some tips?&#13;
+Thanks in advance.&#13;
+</description>
+      <author>community@ez.no (Sylvain Guittard)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/script_execution</guid>
+      <pubDate>Tue, 17 Jan 2012 09:14:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: node assign operation</title>
+      <link>http://projects.ez.no/batchtool/forum/general/node_assign_operation/re_node_assign_operation2</link>
+      <description>Here it is:&#13;
+&#13;
+http://ezpublish.pastebin.com/E8jbs7MD</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/node_assign_operation/re_node_assign_operation2</guid>
+      <pubDate>Thu, 29 Jul 2010 09:27:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Using movenode resets time zone of datetime...</title>
+      <link>http://projects.ez.no/batchtool/forum/general/using_movenode_resets_time_zone_of_datetime_fields/re_using_movenode_resets_time_zone_of_datetime</link>
+      <description>Oh, that sounds very strange indeed. Will have to look a little closer at it as soon as I can find the time.</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/using_movenode_resets_time_zone_of_datetime_fields/re_using_movenode_resets_time_zone_of_datetime</guid>
+      <pubDate>Wed, 28 Jul 2010 20:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [PATCH] Using eZ Components' ProgressBar</title>
+      <link>http://projects.ez.no/batchtool/forum/general/patch_using_ez_components_progressbar/re_patch_using_ez_components_progressbar</link>
+      <description>Thanks for this, very nice solution.&#13;
+&#13;
+Only problem I see with bringing in eZ Components is that it won't work on older eZ Publish versions. But there maybe is no need to support pre-4 versions now anyway. I'll have to think about this, but I'd like to include the patch.</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/patch_using_ez_components_progressbar/re_patch_using_ez_components_progressbar</guid>
+      <pubDate>Wed, 28 Jul 2010 20:12:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: node assign operation</title>
+      <link>http://projects.ez.no/batchtool/forum/general/node_assign_operation/re_node_assign_operation</link>
+      <description>Sorry for the slow reply. I've been rather busy this summer...&#13;
+&#13;
+I would certainly like to include your add location operation. I've been meaning to brush up on this extension for some time now, and add a few new operations, just have to find the time for it. :)&#13;
+&#13;
+I suggest you put it on http://ezpublish.pastebin.com and post the link here. Or drop by IRC chat at irc.freenode.org channel #eZPublish, I'm always there as Bratt.</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/node_assign_operation/re_node_assign_operation</guid>
+      <pubDate>Wed, 28 Jul 2010 20:07:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using movenode resets time zone of datetime fields</title>
+      <link>http://projects.ez.no/batchtool/forum/general/using_movenode_resets_time_zone_of_datetime_fields</link>
+      <description>I tried moving a bunch of nodes containing datetime fields. My time zone is UTC+2. After moving them, all the fields were shifted two hours earlier. My guess is that the time zone somehow affects this, though how I am not sure. It seems counterintuitive and may be a bug in eZ publish itself.</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/using_movenode_resets_time_zone_of_datetime_fields</guid>
+      <pubDate>Wed, 28 Jul 2010 12:40:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>[PATCH] Using eZ Components' ProgressBar</title>
+      <link>http://projects.ez.no/batchtool/forum/general/patch_using_ez_components_progressbar</link>
+      <description>The following patch (created using git and git-svn) will render a progress bar instead of printing successfully modified nodes. Errors will still be printed.&#13;
+&#13;
+&lt;code&gt;&#13;
+From 2d99c7b7804a801ec35f7372ef54eb1c12cc8f0a Mon Sep 17 00:00:00 2001&#13;
+From: Leif Arne Storset &lt;lstorset@opera.com&gt;&#13;
+Date: Mon, 26 Jul 2010 16:20:52 +0200&#13;
+Subject: [PATCH] Using eZ Components' ProgressBar&#13;
+&#13;
+---&#13;
+ cronjobs/batchtool.php |   20 +++++++++++++++++++-&#13;
+ 1 files changed, 19 insertions(+), 1 deletions(-)&#13;
+&#13;
+diff --git a/cronjobs/batchtool.php b/cronjobs/batchtool.php&#13;
+index 47c01e5..bda9bf7 100644&#13;
+--- a/cronjobs/batchtool.php&#13;
++++ b/cronjobs/batchtool.php&#13;
+@@ -6,6 +6,15 @@ include_once( 'lib/ezutils/classes/ezfunctionhandler.php' );&#13;
+ include_once( 'kernel/classes/ezcontentobjecttreenodeoperations.php' );&#13;
+ include_once( 'kernel/classes/ezcontentobjectoperations.php' );&#13;
+ include_once( 'extension/batchtool/classes/lib.php' );&#13;
++include_once( 'extension/batchtool/classes/lib.php' );&#13;
++&#13;
++// eZ Components&#13;
++$useBundledComponents = defined( 'EZP_USE_BUNDLED_COMPONENTS' ) ? EZP_USE_BUNDLED_COMPONENTS === true : file_exists( 'lib/ezc' );&#13;
++if ( $useBundledComponents )&#13;
++{&#13;
++    set_include_path( './lib/ezc' . PATH_SEPARATOR . get_include_path() );&#13;
++}&#13;
++include 'ConsoleTools/src/progressbar.php';&#13;
+ &#13;
+ $standard_options = "[h|help][q|quiet][d;*|debug;*][c|colors][no-colors][logfiles][no-logfiles][s:|siteaccess:][l:|login:][p:|password:][v*|verbose*]";&#13;
+ $script_options = "[f:|filter:*][o:|operation:*][and][or]";&#13;
+@@ -207,6 +216,11 @@ echo "Running operations on $total_count objects.\n";&#13;
+ $changed_count = 0;&#13;
+ $duplicate_count = 0;&#13;
+ $object_id_array = array();&#13;
++&#13;
++// Set up progress bar&#13;
++$output = new ezcConsoleOutput();&#13;
++$bar = new ezcConsoleProgressbar( $output, count($object_list) );&#13;
++&#13;
+ foreach( $object_list as $object )&#13;
+ {&#13;
+     $object_id = $object-&gt;attribute( $idFieldName );&#13;
+@@ -228,8 +242,12 @@ foreach( $object_list as $object )&#13;
+ &#13;
+     if ( $result )&#13;
+         $changed_count++;&#13;
+-    echo ( $result ) ? "Done operations on node $object_id\n" : "Operations failed on node $object_id\n";&#13;
++&#13;
++	$bar-&gt;advance();&#13;
++	if ( !$result )&#13;
++		echo "\nOperations failed on node $object_id\n";&#13;
+ }&#13;
++$bar-&gt;finish();&#13;
+ &#13;
+ echo "$total_count nodes processed, $changed_count nodes successfull, $duplicate_count duplicates.\n";&#13;
+ &#13;
+-- &#13;
+1.7.0.4&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/patch_using_ez_components_progressbar</guid>
+      <pubDate>Mon, 26 Jul 2010 14:34:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>node assign operation</title>
+      <link>http://projects.ez.no/batchtool/forum/general/node_assign_operation</link>
+      <description>I have created for my own needs a node assign operation that can assigns multiple adition loactions to the resulting objects. So Arne if you are interested in including it in the batchtool extension contact me here.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/node_assign_operation</guid>
+      <pubDate>Thu, 01 Jul 2010 20:09:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Small Typo in nodemove.php on Line 27</title>
+      <link>http://projects.ez.no/batchtool/forum/general/small_typo_in_nodemove_php_on_line_27</link>
+      <description>There is just one ")" missing in nodemove.php at the End of Line 27!&#13;
+&#13;
+&lt;code&gt;&#13;
+return moveNode( $object-&gt;attribute( 'node_id' , $target_id ));&#13;
+&lt;/code&gt;&#13;
+&#13;
+Great contribution!&#13;
+&#13;
+</description>
+      <author>community@ez.no (Andreas Adelsberger)</author>
+      <guid>http://projects.ez.no/batchtool/forum/general/small_typo_in_nodemove_php_on_line_27</guid>
+      <pubDate>Tue, 02 Dec 2008 14:46:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

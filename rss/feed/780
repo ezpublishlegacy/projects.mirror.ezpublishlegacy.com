@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ticketsystem</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:35:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:35:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/780" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Compatibility with 4.x</title>
+      <link>http://projects.ez.no/ticketsystem/forum/general/compatibility_with_4_x</link>
+      <description>Hi Björn,&#13;
+&#13;
+looking for a helpdesk solution for our NGO I tried running the trunk of helpdesk under a 4.x installation and I get some errors I cannot fix by myself. Have you folks actually updated this extension to be compatible with 4.x? If so could you share the extension with me?&#13;
+&#13;
+Best wishes&#13;
+&#13;
+Sebastian </description>
+      <author>community@ez.no (Sebastian Schoeller)</author>
+      <guid>http://projects.ez.no/ticketsystem/forum/general/compatibility_with_4_x</guid>
+      <pubDate>Sat, 23 Jul 2011 12:22:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Similarity with sckscreatesubtreenotificationrule</title>
+      <link>http://projects.ez.no/ticketsystem/forum/general/similarity_with_sckscreatesubtreenotificationrule</link>
+      <description>Hi Björn and others&#13;
+&#13;
+Nice contribution. Didn't have the time yet to test it all but I've read through the source files and found out the ticket notification workflow event type is very similar to the event type in the following extension: http://ez.no/community/contribs/workflow/sck_cen_create_subtree_notification_rule. I recently added options to that extension to add subtree notification rules for the owner and/or creator of the object (see http://projects.ez.no/addcollabrule/forum/general/extend_to_publish_notification ).</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ticketsystem/forum/general/similarity_with_sckscreatesubtreenotificationrule</guid>
+      <pubDate>Fri, 25 May 2007 14:26:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

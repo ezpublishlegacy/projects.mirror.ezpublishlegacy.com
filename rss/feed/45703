@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / silver-post / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:04:19 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:04:19 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45703" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Object Created. No Node Created</title>
+      <link>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created3</link>
+      <description>Hi Frank,&#13;
+&#13;
+I achieved adding articles successfully with your extension itself. I got issues previously because I didn't include following lines of code for Class 'rest_controller.php' necessary for publishing article.&#13;
+&#13;
+&lt;code&gt;&#13;
+ public function doAddChildNode() {&#13;
+        // needed for Publishing, index.php:336&#13;
+        $moduleRepositories = eZModule::activeModuleRepositories();&#13;
+        eZModule::setGlobalPathList( $moduleRepositories );&#13;
+       &#13;
+       //rest of code logic here&#13;
+  &#13;
+ }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Thanks again for this great extension.&#13;
+Kinjalgiri Goswami</description>
+      <author>community@ez.no (Kinjalgiri Goswami)</author>
+      <guid>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created3</guid>
+      <pubDate>Sat, 27 Apr 2013 06:08:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Object Created. No Node Created</title>
+      <link>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created2</link>
+      <description>Hi Frank,&#13;
+&#13;
+Thanks you for the quick reply.&#13;
+&#13;
+I had not set up any workflow which requires an approval for the items created by extensions.&#13;
+&#13;
+Steps I follow:&#13;
+&#13;
+1). Making a fresh installation of Community Project 2012.6.&#13;
+2). Create a custom class for making post.&#13;
+3). Add customized silver.post.(then Autoload,Cache Clean)&#13;
+4).Call the the REST URL to post in eZ Publish.&#13;
+&#13;
+I will implement suggestion given by you for new REST interface of eZ publish.&#13;
+&#13;
+Thanks again.&#13;
+Kinjalgiri Goswami</description>
+      <author>community@ez.no (Kinjalgiri Goswami)</author>
+      <guid>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created2</guid>
+      <pubDate>Thu, 25 Apr 2013 13:44:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Object Created. No Node Created</title>
+      <link>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created</link>
+      <description>Hi Kinjalgiri,&#13;
+&#13;
+do you have set up a workflow which requires an approval of the documents created by the extension? This might explain why the objects were stored as a draft. &#13;
+&#13;
+If you just use the module for creating objects i would recommend to use the new REST interface of eZ publish. It´s much more powerful.&#13;
+&#13;
+We have developed this extensions before the REST interface has been implemented by eZ. It was made for the iphone app available in the App store. &#13;
+&#13;
+best&#13;
+&#13;
+Frank </description>
+      <author>community@ez.no (Frank Dege)</author>
+      <guid>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created/re_object_created_no_node_created</guid>
+      <pubDate>Thu, 25 Apr 2013 13:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Object Created. No Node Created</title>
+      <link>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created</link>
+      <description>Hi,&#13;
+&#13;
+Thanks for this great extension.&#13;
+&#13;
+I tried implementing this extension, but when I call REST API URL from cURL, Object is created in DB for the passed data but related Node is not created.&#13;
+&#13;
+In other words, My articles are saved as DRAFT.And they do not get published.&#13;
+&#13;
+Can you please help me on this?&#13;
+&#13;
+My installation is "Community Project 2012.6"&#13;
+&#13;
+Thanks in advance.&#13;
+Kinjalgiri Goswami&#13;
+</description>
+      <author>community@ez.no (Kinjalgiri Goswami)</author>
+      <guid>http://projects.ez.no/silver_post/forum/general/object_created_no_node_created</guid>
+      <pubDate>Thu, 25 Apr 2013 13:01:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Want to collaborate on ezcontentstaging?</title>
+      <link>http://projects.ez.no/silver_post/forum/general/want_to_collaborate_on_ezcontentstaging</link>
+      <description>The ezcontentstaging extension does in fact already allow content creation via ajax calls - it is not only useful in a staging context but for any ajax-based interface.&#13;
+&#13;
+I was in fact thinking about splitting ezcontenstaging in2  parts: client and server, with the server being the part that is useful for your usecase.&#13;
+&#13;
+And there is a lot of things to do there to get the extension in perfect shape.&#13;
+&#13;
+So all collaboration is welcome.&#13;
+&#13;
+http://projects.ez.no/ezcontentstaging</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/silver_post/forum/general/want_to_collaborate_on_ezcontentstaging</guid>
+      <pubDate>Wed, 28 Mar 2012 10:58:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

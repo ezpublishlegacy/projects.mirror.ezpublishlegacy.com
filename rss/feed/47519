@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / optionmatrix</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:06:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:06:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47519" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>info collection?</title>
+      <link>http://projects.ez.no/optionmatrix/reviews/info_collection</link>
+      <description>I like this, but it will only be useful if it stores data to the collection.&#13;
+The current release does not even post data to the mailer.&#13;
+When will it be ready to use?  </description>
+      <author>community@ez.no (Horst Lindlbauer)</author>
+      <guid>http://projects.ez.no/optionmatrix/reviews/info_collection</guid>
+      <pubDate>Tue, 25 Sep 2012 15:33:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>optionmatrix 1.1</title>
+      <link>http://projects.ez.no/optionmatrix/downloads/optionmatrix_1_1</link>
+      <description>&lt;p&gt;Equivalent of delta 2 svn or 6a04bbb git&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/optionmatrix/downloads/optionmatrix_1_1</guid>
+      <pubDate>Thu, 26 Jul 2012 15:44:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>optionmatrix rev. 2 by Steven E Bailey</title>
+      <link>http://projects.ez.no/optionmatrix/source/2</link>
+      <description>Fixed default number of rows.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/optionmatrix/source/2</guid>
+      <pubDate>Tue, 24 Jul 2012 16:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>optionMatrix 1.0</title>
+      <link>http://projects.ez.no/optionmatrix/downloads/optionmatrix_1_0</link>
+      <description>&lt;p&gt;This is equivalent to the initial commits to svn and git.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/optionmatrix/downloads/optionmatrix_1_0</guid>
+      <pubDate>Tue, 24 Jul 2012 13:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>optionmatrix rev. 1 by Steven E Bailey</title>
+      <link>http://projects.ez.no/optionmatrix/source/1</link>
+      <description>Initial
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/optionmatrix/source/1</guid>
+      <pubDate>Tue, 24 Jul 2012 13:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Option Matrix 1.0 Released</title>
+      <link>http://projects.ez.no/optionmatrix/news/option_matrix_1_0_released</link>
+      <description>&lt;p&gt;The first hack at the optionmatrix datatype has been released.&amp;nbsp; To keep up on changes etc. you can also take a look at https://github.com/leidentech/optionmatrix.git&lt;/p&gt;&lt;p&gt;Keep in mind this is beta code.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/optionmatrix/news/option_matrix_1_0_released</guid>
+      <pubDate>Tue, 24 Jul 2012 09:49:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

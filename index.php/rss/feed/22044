@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezxmlexport / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22044" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions8</link>
+      <description>An updated version of Russel's XSL can be found at http://share.ez.no/forums/developer/ez-xml-export-object-relations-xsl#comment76986 , which works for most fields, and allows full export-from-ezxmlexport and import-with-data-import.&#13;
+&#13;
+I'm using this to export/import translated content objects.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions8</guid>
+      <pubDate>Mon, 27 Aug 2012 22:16:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: export gallery with images</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/export_gallery_with_images/re_export_gallery_with_images</link>
+      <description>I finnaly solve my problem, here is the patch for the file :&#13;
+extension\ezxmlexport\classes\exporter\ezxmlexportexporter.php&#13;
+&#13;
+&lt;code&gt;&#13;
+--- ezxmlexportexporter_orig.php	2010-09-28 13:50:00.000000000 +0200&#13;
++++ ezxmlexportexporter_patche.php	2010-10-07 11:29:04.012069100 +0200&#13;
+@@ -840,7 +840,8 @@&#13;
+                            . '&lt;/' . $tagName . '&gt;';&#13;
+         }&#13;
+ &#13;
+-        $this-&gt;RelatedObjectList = array();&#13;
++		// Modif Oliv : je commente la ligne ci-dessous car le tableau est reinitialise et donc seul le premier objet possede la relation dans le XML, est ce un bug de ezxmlexport ??&#13;
++        //$this-&gt;RelatedObjectList = array();&#13;
+ &#13;
+         return $objectList;&#13;
+     }&#13;
+@@ -1062,6 +1063,65 @@&#13;
+             $object = $exportableNode-&gt;object();&#13;
+             $contentObjectID = $object-&gt;attribute( 'id' );&#13;
+ &#13;
++			/*DEBUT MODIF OLIV : debut code pour ajouter les noeud enfant exportables */&#13;
++			&#13;
++			if( $relatedObjectHandling == 2 )&#13;
++			{&#13;
++			&#13;
++				$contentObjectID_node_id = $exportableNode-&gt;attribute('node_id');&#13;
++				eZLog::write("Id du node exporte :" . $contentObjectID_node_id);&#13;
++&#13;
++				$maxDepth = $this-&gt;getMaxContentTreeDepth();&#13;
++				if( !$maxDepth )&#13;
++				{&#13;
++					eZDebug::writeError( 'erreur recup maxdepth' );&#13;
++					return false;&#13;
++				}&#13;
++&#13;
++				$classFilterArray = array();&#13;
++				foreach( $this-&gt;ExportableContentClasses as $exportableClass )&#13;
++				{&#13;
++					$classFilterArray[] = $exportableClass['contentclass_id'];&#13;
++				}&#13;
++			&#13;
++				$params_sub_tree = array( 	'Depth'            =&gt; $maxDepth,&#13;
++											'IgnoreVisibility' =&gt; true,&#13;
++											'ClassFilterType'  =&gt; 'include',&#13;
++											'ClassFilterArray' =&gt; $classFilterArray   );&#13;
++											&#13;
++				$exportableSubTreeNodes = array();							 &#13;
++				$exportableSubTreeNodes[] = eZContentObjectTreeNode::subTreeByNodeID( $params_sub_tree, $contentObjectID_node_id );&#13;
++				&#13;
++				$exportableSubTreeNodes = $exportableSubTreeNodes[0];&#13;
++			&#13;
++		        foreach( $exportableSubTreeNodes as $exportableSubTreeNode )&#13;
++				{&#13;
++				&#13;
++					$exportableSubTreeObject = $exportableSubTreeNode-&gt;object();&#13;
++					$exportableSubTreeObjectID = $exportableSubTreeObject-&gt;attribute( 'id' );&#13;
++&#13;
++                    if( $this-&gt;isExportable( $exportableSubTreeObject ) )&#13;
++                    {&#13;
++					&#13;
++                        $this-&gt;RelatedObjectList[ $contentObjectID ][] =  array( 'related_object_id' =&gt; $exportableSubTreeObjectID,&#13;
++                                                                                 'remote_id'         =&gt; $exportableSubTreeObject-&gt;attribute( 'remote_id' ) );						&#13;
++						$nodeToAdd = eZContentObjectTreeNode::fetch($exportableSubTreeObject-&gt;attribute( 'main_node_id' ) );&#13;
++						if( $nodeToAdd instanceof eZContentObjectTreeNode )&#13;
++						{&#13;
++							$exportableNodeList[] = $nodeToAdd;&#13;
++							eZLog::write("NOEUD ENFANT AJOUTE : " . $exportableSubTreeObject-&gt;attribute( 'main_node_id' ) . "\n\n");&#13;
++						}&#13;
++						else&#13;
++						{&#13;
++							eZLog::write( 'le noeud de peut etre ajouter il n\'est pas du type eZContentObjectTreeNode', 'error.log' );&#13;
++						}&#13;
++					}					&#13;
++				&#13;
++				}&#13;
++				&#13;
++			}&#13;
++			/*FIN MODIF OLIV*/&#13;
++			&#13;
+             $eZContentFunctionCollection = new eZContentFunctionCollection();&#13;
+             $relatedObjectIDList = $eZContentFunctionCollection-&gt;fetchRelatedObjectsID( $contentObjectID,&#13;
+                                                                                         0,&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Olivier Revollat)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/export_gallery_with_images/re_export_gallery_with_images</guid>
+      <pubDate>Thu, 07 Oct 2010 10:15:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>export gallery with images</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/export_gallery_with_images</link>
+      <description>Hello, I have a folder containing galleries and those galleries there is some images ;)&#13;
+When I export the folder, it exports the gallery as XML but not the related content (the images)... is there any solution/patch to this pb  ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Olivier Revollat)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/export_gallery_with_images</guid>
+      <pubDate>Mon, 04 Oct 2010 14:57:10 +0000</pubDate>
+    </item>
+    <item>
+      <title/>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/in_xml_files</link>
+      <description>When I use this extension, I found that when the content contains &, the xml can be exported but can't open. 
+
+Then i Found that the type of the attribute is a text line, and in the code os ezxmlupload, it just output the content, so i change the code of ezxmlupload.
+
+extension/ezxmlexport/classes/datatypes/ezstring/ezstringxmlexport.php
+Line 49:
+Change from
+<code>
+return $this->contentObjectAttribute->content();&#13;
+&lt;/code&gt;&#13;
+To &#13;
+&lt;code&gt;&#13;
+return "&lt;![CDATA[\n"&#13;
+            .$this-&gt;contentObjectAttribute-&gt;content()&#13;
+            . "]]&gt;\n";&#13;
+&lt;/code&gt;&#13;
+also, you can change another file to void this problem.&#13;
+&#13;
+extension/ezxmlexport/classes/datatypes/eztext/eztextxmlexport.php&#13;
+Line 33:&#13;
+Change form&#13;
+&lt;code&gt;&#13;
+return $this-&gt;contentObjectAttribute-&gt;content();&#13;
+&lt;/code&gt;&#13;
+To&#13;
+&lt;code&gt;&#13;
+return &#13;
+            "&lt;![CDATA[\n"&#13;
+            .$this-&gt;contentObjectAttribute-&gt;content()&#13;
+            . "]]&gt;\n";&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (david lee)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/in_xml_files</guid>
+      <pubDate>Fri, 16 Jul 2010 08:50:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions7</link>
+      <description>Another bug I think - in the logging XML:&#13;
+&#13;
+The log XML format will be invalid due to the &lt;appliedxslttransformation&gt;&lt;/appliedxslttransformation&gt; element being empty (in my case anyway).&#13;
+&#13;
+I am using the stylesheet posted above but there is no content for the &lt;appliedxslttransformation&gt; element. If this is meant, shouldn't a self-closing element be used in its place? &lt;appliedxslttransformation/&gt;&#13;
+&#13;
+Cheers&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions7</guid>
+      <pubDate>Thu, 22 Apr 2010 00:42:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions6</link>
+      <description>I believe I have found a bug:&#13;
+&#13;
+1). Setup an export within a channel and set its "Related object handling" to 1.&#13;
+2). Run the export #&gt; php runcronjobs.php -s &lt;siteaccess&gt; ezxmlexport&#13;
+3). Copy the exported .xml file somewhere as relations_1.xml&#13;
+4). Modify the same export and set its "Related object handling" to 2.&#13;
+5). Run the export #&gt; php runcronjobs.php -s &lt;siteaccess&gt; ezxmlexport.&#13;
+6). Copy the exported .xml file somewhere as relations_2.xml&#13;
+7). diff the two. Nothing has changed except the value of the &lt;export_date&gt; element.&#13;
+&#13;
+Cheers&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions6</guid>
+      <pubDate>Wed, 21 Apr 2010 23:57:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Install and Config</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/install_and_config</link>
+      <description>A quick note to those trying to get XSL transformations to work on Unix-like systems. &#13;
+&#13;
+You need to ensure you explicitly compile PHP with XSL support by pointing PHP's configure script at the directory where libxml2 and libxslt are found. So on my 64bit CentOS distro, the compile flag was:&#13;
+&#13;
+&lt;code&gt;&#13;
+--with-xsl=/usr/lib64/&#13;
+&lt;/code&gt;&#13;
+&#13;
+Otherwise ezxmlexport throws errors about not being able to find some otherwise native PHP XSL function(s).&#13;
+&#13;
+Hope that helps someone.&#13;
+&#13;
+Cheers.&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/install_and_config</guid>
+      <pubDate>Mon, 19 Apr 2010 20:31:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions5</link>
+      <description>By default ezxmlexport will only export the *child nodes* of the parent node you select after pressing the "Choose Contents" button.&#13;
+&#13;
+I had simply assumed that the node I selected would be exported along with its sub-tree which is not the case.&#13;
+&#13;
+This situation could be improved I think:&#13;
+&#13;
+1) If not already, the docs could make sure this is made clear.&#13;
+2). An additional form-widget in the export interface labeled: 'Export Behaviour' with option1: 'default' and option2: 'complete' - where 'default' is the behavior as it is now, and 'complete' includes the parent directory the user selects when choosing his content. This could even simply be an .ini setting.&#13;
+&#13;
+Cheers&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions5</guid>
+      <pubDate>Mon, 19 Apr 2010 20:22:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions4</link>
+      <description>Thanks Russell, this is very useful !</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions4</guid>
+      <pubDate>Mon, 19 Apr 2010 07:56:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions3</link>
+      <description>The XSL stylesheet bundled with this extension is empty. It would be useful for those new to XSL and what it does to supply an example - e.g. transforming the default XML into the simple XML format understood by the excellent data_import extension.&#13;
+&#13;
+Regards,&#13;
+Russell&#13;
+&#13;
+[UPDATE]&#13;
+Here is a functioning XSL stylesheet which I have (very basically) tested, which transforms native ezxmlexport XML to native data_import (extension) XML format. I have updated it with the &lt;xsl:output&gt; element. Using the cdata-section-elements="field" means that all our transformed XML will be enclosed in &lt;![CDATA[ ]]&gt; blocks. Not sure of the ramifications of this being used for *all* fields yet but I'll keep an eye out:&#13;
+&#13;
+&lt;code&gt;&#13;
+ &lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+ &lt;!--&#13;
+     XSL stylesheet to transform 'ezxmlexport' eZ-extension XML into 'data_import' eZ-extension XML&#13;
+     Russell Michell April 2010 r DOT michell AT gns DOT cri DOT nz&#13;
+ --&gt;&#13;
+ &lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"&gt;&#13;
+ &lt;xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes" xml:space="preserve" cdata-section-elements="field" /&gt;&#13;
+     &lt;xsl:template match="/ezpublish"&gt;&#13;
+     &lt;all&gt;&#13;
+         &lt;xsl:for-each select="objects"&gt;&#13;
+         &lt;xsl:sort select="./child::node()/show_children" data-type="number" order="descending" /&gt;&#13;
+         &lt;entry&gt;&#13;
+             &lt;xsl:for-each select="./*"&gt;&#13;
+             &lt;!-- "Dynamically" add attributes to the &lt;entry&gt; element --&gt;&#13;
+                 &lt;xsl:attribute name="type"&gt;&#13;
+                     &lt;xsl:value-of select="name(.)" /&gt;&#13;
+                 &lt;/xsl:attribute&gt;&#13;
+                 &lt;xsl:attribute name="id"&gt;&#13;
+                     &lt;xsl:value-of select="@contentobject_id" /&gt;&#13;
+                 &lt;/xsl:attribute&gt;&#13;
+                 &lt;!-- Something wrong with ezxmlexport or data_import with remote_ids. So get it directly instead --&gt;&#13;
+                 &lt;xsl:attribute name="parent_id"&gt;&#13;
+                     &lt;xsl:value-of select="@parent_id" /&gt;&#13;
+                 &lt;/xsl:attribute&gt;&#13;
+                 &lt;!-- Note the use of the XSL '|' (or) operator: eZ 'folder' and 'article' classes use different attribute naming conventions --&gt;&#13;
+                 &lt;field name="name"&gt;&#13;
+                     &lt;xsl:value-of disable-output-escaping="yes" select="current()/name|current()/title" /&gt;&#13;
+                 &lt;/field&gt;&#13;
+                 &lt;field name="shortname"&gt;&#13;
+                     &lt;xsl:value-of select="current()/short_name|current()/short_title" /&gt;&#13;
+                 &lt;/field&gt;&#13;
+                 &lt;field name="description"&gt;&#13;
+                     &lt;xsl:value-of select="current()/description|current()/body" /&gt;&#13;
+                 &lt;/field&gt;&#13;
+                 &lt;!-- Check if current content-classes even use the 'show_children' attrbute --&gt;&#13;
+                 &lt;xsl:if test="attribute::show_children"&gt;&#13;
+                     &lt;field name="showsubitems"&gt;&#13;
+                         &lt;xsl:value-of select="current()/show_children" /&gt;&#13;
+                     &lt;/field&gt;&#13;
+                 &lt;/xsl:if&gt;&#13;
+                 &lt;field name="publishdate"&gt;&#13;
+                     &lt;xsl:value-of select="current()/publish_date" /&gt;&#13;
+                 &lt;/field&gt;&#13;
+             &lt;/xsl:for-each&gt;&#13;
+         &lt;/entry&gt;&#13;
+         &lt;/xsl:for-each&gt;&#13;
+     &lt;/all&gt;&#13;
+     &lt;/xsl:template&gt;&#13;
+ &lt;/xsl:stylesheet&gt;&#13;
+&lt;/code&gt;&#13;
+[/UPDATE]</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions3</guid>
+      <pubDate>Mon, 12 Apr 2010 23:02:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions2</link>
+      <description>When previewing an export, it would be very handy to add a third button at the bottom: "Edit this Export". That would save a couple of clicks going back to the export channel list and selecting the 'Edit' link again.&#13;
+&#13;
+Cheers&#13;
+Russell</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions2</guid>
+      <pubDate>Mon, 12 Apr 2010 02:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions</link>
+      <description>A minor adjustment: When removing individual exports from a channel, I was expecting the related contents of the 'export' directory to be deleted too. Failing that, a prompt that asks the user "&lt;b&gt;Delete all export-related files from 'export' directory?"&lt;/b&gt;&#13;
+&#13;
+Also: Not sure why the same extension directory structure ('/extension/ezxmlexport/exports/xml/') is re-created when an export is created: /ezpublish/extension/ezxmlexport/exports/xml/my-export/extension/ezxmlexport/exports/xml/&#13;
+&#13;
+Might it be less complex to create it in:&#13;
+&#13;
+&lt;code&gt;&#13;
+/extension/ezxmlexport/exports/xml/my-export/my-export.tar.gz&#13;
+/extension/ezxmlexport/exports/xml/my-export/my-export.xml&#13;
+&lt;/code&gt;&#13;
+&#13;
+Just an idea :-)&#13;
+&#13;
+&#13;
+Cheers!&#13;
+Russell</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions/re_suggestions</guid>
+      <pubDate>Tue, 06 Apr 2010 00:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suggestions</title>
+      <link>http://projects.ez.no/ezxmlexport/forum/general/suggestions</link>
+      <description>I keep having to refer to the online docs to see what '1' and '2' mean in the admin &lt;select&gt; menus. As a suggestion, could the text-labels for each &lt;select&gt; menu for this extension be improved:&#13;
+&#13;
+* Use "&lt;b&gt;Multiple files (N-Mode)&lt;/b&gt;" instead of just 'n' as label in admin "Slicing mode" &lt;select&gt; menu&#13;
+* Use "&lt;b&gt;Single file (1-Mode)&lt;/b&gt;" instead of just '1' as label in admin "Slicing mode" &lt;select&gt; menu&#13;
+* Use "&lt;b&gt;Relations not exported, referenced only (Level 1)&lt;/b&gt;" instead of just '1' as label in admin "Related object handling" &lt;select&gt; menu&#13;
+* Use "&lt;b&gt;Relations exported (Level 2)&lt;/b&gt;" instead of just '2' as label in admin "Related object handling" &lt;select&gt; menu&#13;
+&#13;
+Cheers&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezxmlexport/forum/general/suggestions</guid>
+      <pubDate>Mon, 05 Apr 2010 22:14:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

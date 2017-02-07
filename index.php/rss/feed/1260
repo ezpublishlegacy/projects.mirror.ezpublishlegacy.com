@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezbirthday / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:50:04 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:50:03 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1260" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_75</link>
+      <description>Hello Ivo,&#13;
+&#13;
+Fantastic! Thanks for sharing. &#13;
+&#13;
+I was pretty sure there was another key reason why I trust using Netgen software :)&#13;
+&#13;
+New stack bundles are a nice benefit that make the transition to New stack much eZier :)&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_75</guid>
+      <pubDate>Tue, 16 Jun 2015 07:24:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_74</link>
+      <description>Hi all,&#13;
+&#13;
+Thanks Heath for mentioning our work. We used the birthday thing indeed on several projects. It has also the new stack fieldtype so you can do frontend work in twig:&#13;
+https://github.com/netgen/NetgenBirthdayBundle&#13;
+&#13;
+;)</description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_74</guid>
+      <pubDate>Tue, 16 Jun 2015 06:54:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_73</link>
+      <description>Hello Anselme Chorein,&#13;
+&#13;
+Thank you for posting to this thread your suggested solution.&#13;
+&#13;
+I had avoided addressing the topic of the split / forks of the birthday datatype solution for a long time waiting for more progress to be made publicly before speaking on this topic. Unfortunately I kept putting this post off for far too long.&#13;
+&#13;
+What many users don't realize is that long ago (some time after 4.3+ api changes) the svn repository for this project became unmaintained, which for end users / developers is very unfortunate.&#13;
+&#13;
+Fortunately from this negative sprung a different kind of positive result ... forks (from what I have seen a fair number of them). First private forks (with only required or minimal modifications) then later public and unique forks. &#13;
+&#13;
+Most of the forks are fairly similar, I think because this solution was created and refined early on in it's lifetime / history and as they say, it it ain't broke ... no need to fix it :)&#13;
+&#13;
+&lt;b&gt;Today I quickly see these forks&lt;/b&gt;:&#13;
+&#13;
+- &lt;b&gt;Xrow&lt;/b&gt;: While have not seen a public xrow git repository of this extension. I have seen that they have a version of the datatype with the xrowforum extension (though I do wish they would maintain a submodule instead). Though it seems that little to no continued improvements have been made to this copy, https://github.com/xrowgmbh/xrowforum/blob/master/datatypes/ezbirthday/ezbirthdaytype.php&#13;
+&#13;
+- &lt;b&gt;eab-dev&lt;/b&gt;: This fork seems to be a full history import of the svn repository, patched with the required 4.3 api changes (ezpI18n::tr) and a helpful though slightly inaccurate README.md file, https://github.com/eab-dev/birthday/&#13;
+&#13;
+---- Users who might consider using the svn repository provided by this project would be better served in the long run to use this git repository instead.&#13;
+&#13;
+-  &lt;b&gt;Netgen&lt;/b&gt;: This fork seems to be import of the svn sources (without it's history), patched with the required 4.3 api changes (ezpI18n::tr) but without a helpful accurate README.md file, https://github.com/netgen/birthday&#13;
+&#13;
+---- I think that users who use composer to install extensions should consider using the Netgen fork over the other sources. Also Netgen does very good eZ Publish work in the community and has proven themselves open to collaboration on public extension Pull Requests for bugfixes and other helpful improvements. &#13;
+&#13;
+In light of all that I have shared, the next time I want to depend on a vendor's fork of this extension datatype (with respect to the vendors history of proper maintenance of a public resource and collaboration on it's development) ... I would choose to build upon the Netgen fork first.&#13;
+&#13;
+&lt;b&gt;In short: Please do not use the (eZ Publish &lt;= 4.2) svn repository copy of this extension any longer unless your using a copy of eZ Publish 4.2 (or lesser version). Everyone else should use one of the publicly available Git based repositories instead (which have already been updated properly to support versions of eZ Publish 4.3 (or greater version))&lt;/b&gt;&#13;
+&#13;
+If I have missed or omitted another public fork of this extension datatype, which is more than just a git repo with the needed 4.3+ api bugfixes / prior svn version history ... please share a link here in this forum thread so that others can properly consider which fork will best suite their needs and requirements.&#13;
+&#13;
+I hope this summary helps others!&#13;
+&#13;
+Take it eZ!&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_73</guid>
+      <pubDate>Mon, 15 Jun 2015 15:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_72</link>
+      <description>hack the extension and replace calls to ezi18n with calls to ezpI18n::tr function.&#13;
+&#13;
+files :&#13;
+/extension/birthday/datatypes/ezbirthday/ezbirthday.php&#13;
+/extension/birthday/datatypes/ezbirthday/ezbirthdaytype.php&#13;
+&#13;
+some deprecated code still there, but 4.7 is working :)</description>
+      <author>community@ez.no (Anselme Chorein)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_72</guid>
+      <pubDate>Sun, 14 Jun 2015 16:03:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_7</link>
+      <description>Maybe a bit late but i freshly upgrade my system to 4.7 from 4.2 and this extension is making my system completely down!&#13;
+&#13;
+I am now searching for an improvement and to know why that is not working </description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7/re_is_working_with_4_7</guid>
+      <pubDate>Sun, 21 Jul 2013 06:14:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is working with 4.7?</title>
+      <link>http://projects.ez.no/birthday/forum/general/is_working_with_4_7</link>
+      <description>Hi,&#13;
+&#13;
+i didnt test, but i would like to know if someone tested in 4.6 or 4.7.&#13;
+&#13;
+Thanks in advance.&#13;
+Francisca</description>
+      <author>community@ez.no (Francisca Hernández)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/is_working_with_4_7</guid>
+      <pubDate>Mon, 10 Dec 2012 14:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: New releases ...</title>
+      <link>http://projects.ez.no/birthday/forum/general/new_releases/re_new_releases</link>
+      <description>Hello Jean-Luc,&#13;
+&#13;
+Apologies for my late reply.&#13;
+&#13;
+But I was reviewing some eZ history and came to the Birthday Datatype project,&#13;
+saw your question and wanted to simply chime in agreement with your suggestion.&#13;
+&#13;
+It would be nice to see this the continued maintenance of this (to some) important solution.&#13;
+&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/new_releases/re_new_releases</guid>
+      <pubDate>Tue, 22 Nov 2011 03:14:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>New releases ...</title>
+      <link>http://projects.ez.no/birthday/forum/general/new_releases</link>
+      <description>Well,&#13;
+&#13;
+I've just got a simple question : is someone still maintaining this extension ?&#13;
+&#13;
+A sort of forked version has been added to xrowforum and I think the changes they made should be committed to a new eZBirthay extension to have a working independent extension.&#13;
+&#13;
+Thank you </description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/new_releases</guid>
+      <pubDate>Sat, 27 Nov 2010 07:14:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Removed ezDomDocument dependency</title>
+      <link>http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency/re_removed_ezdomdocument_dependency</link>
+      <description>There was an error in Unserialize...&#13;
+&#13;
+this is the correct version:&#13;
+&#13;
+&lt;code&gt;&#13;
+function unserializeContentClassAttribute( $classAttribute, $attributeNode, $attributeParametersNode )&#13;
+    {&#13;
+     &#13;
+       foreach($attributeParametersNode-&gt;getElementsByTagName( 'default-value' ) as $attribute){&#13;
+            $defaultValue = $attribute-&gt;getAttribute('type');&#13;
+        }&#13;
+ &#13;
+        switch ( $defaultValue )&#13;
+        {&#13;
+            case 'empty':&#13;
+            {&#13;
+                $classAttribute-&gt;setAttribute( self::BIRTHDAY_DEFAULT, self::BIRTHDAY_DEFAULT_EMTPY );&#13;
+            } break;&#13;
+            case 'current-date':&#13;
+            {&#13;
+                $classAttribute-&gt;setAttribute( self::BIRTHDAY_DEFAULT, self::BIRTHDAY_DEFAULT_CURRENT_DATE );&#13;
+            } break;&#13;
+        }&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency/re_removed_ezdomdocument_dependency</guid>
+      <pubDate>Thu, 10 Dec 2009 09:48:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>French translation / small issues / possible improvements</title>
+      <link>http://projects.ez.no/birthday/forum/general/french_translation_small_issues_possible_improvements</link>
+      <description>Hi,&#13;
+&#13;
+I've just registered to be member of the birthday extension dev team.&#13;
+&#13;
+I wrote the translation file for fre-FR locale, the patch is available here http://pwet.fr/content/download/73109/224587/file/fre_translation_birthday.patch&#13;
+&#13;
+I wrote a small patch to fix some small issue&#13;
+- BOM at the begin of a PHP file (see [1])&#13;
+- fixed some minor coding standards issues (tabs, missing spaces, ...)&#13;
+- replace a call to ereg by preg_match to be PHP 5.3 compliant&#13;
+&#13;
+This patch is available here : http://pwet.fr/content/download/73110/224590/file/bom_cs_php53_birthday.patch&#13;
+&#13;
+In addition it would be nice to make this extension compatible with 4.1 and 4.2 by removing references to eZDomDocument as mentioned in [2].&#13;
+&#13;
+[1] http://projects.ez.no/birthday/forum/general/utf_8_bom_header&#13;
+[2] http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/french_translation_small_issues_possible_improvements</guid>
+      <pubDate>Mon, 30 Nov 2009 12:53:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sort by birthday</title>
+      <link>http://projects.ez.no/birthday/forum/general/sort_by_birthday</link>
+      <description>Hi all,&#13;
+&#13;
+i use the birthday extension and i want to create a list which contains alls users with their birthdays. The list should sorted by birthday.&#13;
+&#13;
+i add following code to my fetch&#13;
+&lt;code&gt;&#13;
+ 'sort_by', array( 'attribute', false(),'user/birthday' )&#13;
+&lt;/code&gt;&#13;
+&#13;
+but result was this:&#13;
+&#13;
+29.11 - user a&#13;
+&lt;b&gt;08.11 - user b &lt;/b&gt; here is the problem.&#13;
+25.11 - user c&#13;
+18.04 - user d&#13;
+&#13;
+What can i do to make the sorting working?</description>
+      <author>community@ez.no (Joerg Hasenkamp)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/sort_by_birthday</guid>
+      <pubDate>Sun, 29 Nov 2009 16:57:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Removed ezDomDocument dependency</title>
+      <link>http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency</link>
+      <description>I removed ezDomDocument dependency in order to be able to export a class containing an ezbirthday datatype. &#13;
+I had to modify serializeContentClassAttribute and unserializeContentClassAttribute:&#13;
+&#13;
+&lt;code&gt;&#13;
+function serializeContentClassAttribute( $classAttribute, $attributeNode, $attributeParametersNode )&#13;
+    {&#13;
+        $defaultValue = $classAttribute-&gt;attribute( self::BIRTHDAY_DEFAULT );&#13;
+&#13;
+        $dom = $attributeParametersNode-&gt;ownerDocument;&#13;
+        switch ( $defaultValue )&#13;
+        {&#13;
+            case self::BIRTHDAY_DEFAULT_EMTPY:&#13;
+            {&#13;
+                $attributeParametersNode-&gt;appendChild( $dom-&gt;createElement( 'default-value',&#13;
+                                                                                         array( 'type' =&gt; 'empty' ) ) );&#13;
+            } break;&#13;
+            case self::BIRTHDAY_DEFAULT_CURRENT_DATE:&#13;
+            {&#13;
+                  $attributeParametersNode-&gt;appendChild( $dom-&gt;createElement( 'default-value',&#13;
+                                                                                         array( 'type' =&gt; 'current-date' ) ) );&#13;
+&#13;
+            } break;&#13;
+        }&#13;
+        unset($dom);&#13;
+&#13;
+    }&#13;
+&#13;
+    /*!&#13;
+     \reimp&#13;
+    */&#13;
+    function unserializeContentClassAttribute( $classAttribute, $attributeNode, $attributeParametersNode )&#13;
+    {&#13;
+     &#13;
+        $defaultValue = $attributeParametersNode-&gt;getElementByTagName( 'default-value' )-&gt;getAttribute('type');&#13;
+ &#13;
+        switch ( $defaultValue )&#13;
+        {&#13;
+            case 'empty':&#13;
+            {&#13;
+                $classAttribute-&gt;setAttribute( self::BIRTHDAY_DEFAULT, self::BIRTHDAY_DEFAULT_EMTPY );&#13;
+            } break;&#13;
+            case 'current-date':&#13;
+            {&#13;
+                $classAttribute-&gt;setAttribute( self::BIRTHDAY_DEFAULT, self::BIRTHDAY_DEFAULT_CURRENT_DATE );&#13;
+            } break;&#13;
+        }&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency</guid>
+      <pubDate>Fri, 27 Nov 2009 08:33:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: error introduced in svn version 13</title>
+      <link>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13/re_error_introduced_in_svn_version_132</link>
+      <description>What ezp version are you running?&#13;
+This line shouldn't be needed if you update your autoload file like with other extensions.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13/re_error_introduced_in_svn_version_132</guid>
+      <pubDate>Tue, 11 Aug 2009 07:39:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>UTF-8 BOM header</title>
+      <link>http://projects.ez.no/birthday/forum/general/utf_8_bom_header</link>
+      <description>Hi Georg&#13;
+&#13;
+The ezbirthdaytype.php file apparently contains a UTF-8 BOM header, which causes certain browsers like Firefox to show some weird characters at the top of the page. See http://www.w3.org/International/questions/qa-utf8-bom for more details.&#13;
+&#13;
+This is valid for at least the 1.0 branch, I did not test it on trunk.&#13;
+&#13;
+Could you fix this by removing the BOM header? Thanks.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/utf_8_bom_header</guid>
+      <pubDate>Sun, 03 May 2009 10:42:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: error introduced in svn version 13</title>
+      <link>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13/re_error_introduced_in_svn_version_13</link>
+      <description>The fix works for us, too. Thanks!&#13;
+&#13;
+Björn or Georg, any chance that we can get this line back into the SVN?&#13;
+</description>
+      <author>community@ez.no (meinhard benn)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13/re_error_introduced_in_svn_version_13</guid>
+      <pubDate>Sat, 11 Apr 2009 12:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>error introduced in svn version 13</title>
+      <link>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13</link>
+      <description>First of all: thank you for a very useful contribution!&#13;
+&#13;
+I got the following error message when I tried to use a birthday attribute as an information collector:&#13;
+&#13;
+"Fatal error: Class 'eZBirthday' not found in /home/erik/Workspaces/nkino/nkino/nkino/extension/birthday/datatypes/ezbirthday/ezbirthdaytype.php on line 183"&#13;
+&#13;
+Adding the line&#13;
+&lt;code&gt;&#13;
+include_once( 'extension/birthday/datatypes/ezbirthday/ezbirthday.php' );&#13;
+&lt;/code&gt;&#13;
+in extension/birthday/datatypes/ezbirthday/ezbirthdaytype.php solved the problem.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Erik Erik Seierstad)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/error_introduced_in_svn_version_13</guid>
+      <pubDate>Thu, 26 Mar 2009 11:37:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: The download files...</title>
+      <link>http://projects.ez.no/birthday/forum/general/the_download_files/re_the_download_files</link>
+      <description>I figured it out on my own. Downloaded from Subversion.&#13;
+&#13;
+Works great. Thanks again.&#13;
+&#13;
+Regards&#13;
+</description>
+      <author>community@ez.no (Ritu Sharma)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/the_download_files/re_the_download_files</guid>
+      <pubDate>Fri, 30 Jan 2009 17:38:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>The download files...</title>
+      <link>http://projects.ez.no/birthday/forum/general/the_download_files</link>
+      <description>Hi Georg&#13;
+&#13;
+Thanks for making such a useful datatype available. It is something nice to have for Intranets.&#13;
+&#13;
+When will the files be available in download section? Is there other way I can download it?&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (Ritu Sharma)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/the_download_files</guid>
+      <pubDate>Fri, 30 Jan 2009 16:18:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://projects.ez.no/birthday/forum/general/search</link>
+      <description>Hi!&#13;
+&#13;
+How can I use the search engine in eZ to find a range of node objects which use the birthday datatype attribute? I'm looking for a way to input min age and max age in a search form and return the results.&#13;
+&#13;
+Anyway thanks a lot for a great contribution!&#13;
+&#13;
+Espen</description>
+      <author>community@ez.no (Espen R)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/search</guid>
+      <pubDate>Mon, 14 Apr 2008 15:17:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Port to 4.0?</title>
+      <link>http://projects.ez.no/birthday/forum/general/port_to_4_0/re_port_to_4_02</link>
+      <description>Thanx!&#13;
+&#13;
+S.</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/port_to_4_0/re_port_to_4_02</guid>
+      <pubDate>Tue, 18 Mar 2008 18:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Port to 4.0?</title>
+      <link>http://projects.ez.no/birthday/forum/general/port_to_4_0/re_port_to_4_0</link>
+      <description>Hi,&#13;
+&#13;
+the port to 4.0 is available now.&#13;
+&#13;
+The version for 3.x versions is moved to /stable/1.0</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/port_to_4_0/re_port_to_4_0</guid>
+      <pubDate>Tue, 18 Mar 2008 16:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Port to 4.0?</title>
+      <link>http://projects.ez.no/birthday/forum/general/port_to_4_0</link>
+      <description>Hi,&#13;
+&#13;
+Will this extension be ported to work on eZ 4.0?&#13;
+&#13;
+S.</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/port_to_4_0</guid>
+      <pubDate>Tue, 18 Mar 2008 08:52:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adding some date arithmetic operators to this datatype?</title>
+      <link>http://projects.ez.no/birthday/forum/general/adding_some_date_arithmetic_operators_to_this_datatype</link>
+      <description>It would be much more useful to use "universal dates" for doing date math than the standard unix-timestamp based date: you can carry out operation on timestamps, but when tou go back to date representation, you're screwed if ending up before the epoch.&#13;
+&#13;
+Suggestions:&#13;
+a) allow strtotime format, such as modify('+1 day'), [the 'php way', not too friendly really] or&#13;
+b) pick a date math implementation from another implementation, such eg as the oracle one (http://www.psoug.org/reference/date_func.html)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/birthday/forum/general/adding_some_date_arithmetic_operators_to_this_datatype</guid>
+      <pubDate>Thu, 06 Mar 2008 12:14:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

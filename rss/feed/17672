@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / doc / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:32:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:32:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17672" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>doc rev. 5 by Christian Rößler</title>
+      <link>http://projects.ez.no/doc/subversion/5</link>
+      <description>added howto for direct update from 4.0.1 to 4.4.0 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/doc/subversion/5</guid>
+      <pubDate>Wed, 08 Dec 2010 15:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>doc rev. 4 by Christian Rößler</title>
+      <link>http://projects.ez.no/doc/subversion/4</link>
+      <description>added additional update-scripts not even mentioned in the official update-procedures. see bug:15999 on http://issues.ez.no/IssueView.php?Id=15999 for details</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/doc/subversion/4</guid>
+      <pubDate>Thu, 14 Jan 2010 13:35:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>doc rev. 3 by Christian Rößler</title>
+      <link>http://projects.ez.no/doc/subversion/3</link>
+      <description> * section about ezcomponents was a bit unclear, modified it
+ * fixed some typos, (ezpublish vs. eZPublish ...)
+ * removed/replaced the section about 'remove setup siteaccess'
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/doc/subversion/3</guid>
+      <pubDate>Thu, 19 Nov 2009 13:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>doc rev. 2 by Christian Rößler</title>
+      <link>http://projects.ez.no/doc/subversion/2</link>
+      <description>added croessler-folder and including the ez-upgrade guide (4.0.1 - 4.2.0)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/doc/subversion/2</guid>
+      <pubDate>Fri, 13 Nov 2009 15:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>doc rev. 1 by André R</title>
+      <link>http://projects.ez.no/doc/subversion/1</link>
+      <description>Intial structure</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/doc/subversion/1</guid>
+      <pubDate>Thu, 09 Jul 2009 13:35:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

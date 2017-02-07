@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezstyleeditor / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:16:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:16:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22062" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZ Webin - doesn't work for me - Bug?</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug3</link>
+      <description>Hi Sebastian, Paul,&#13;
+&#13;
+I have the nex problem if you have any seggestion to fix this problem I appreciate this:&#13;
+&#13;
+Hello everybody,&#13;
+&#13;
+I change ActiveExtensions[]=ezstyleeditor and now I can see the CSS buttons on toolbar (like Steven says)&#13;
+&#13;
+after all this extension works partially....&#13;
+&#13;
+when I click on CSS button I cant see the CSS toll bar with regular link:&#13;
+&#13;
+http:/www.website.com/styleeditor/visual/2&#13;
+&#13;
+but I can see the ezstyleeditor extension if I change to:&#13;
+&#13;
+&#13;
+http:/www.website.com/styleeditor/visual/1 (or 68 for example)&#13;
+&#13;
+works if I change 2 for 1.&#13;
+&#13;
+&#13;
+Somebody can help me work with the regular /styleeditor/visual/2?&#13;
+&#13;
+&#13;
+&#13;
+Thanks, best regards </description>
+      <author>community@ez.no (ari glez)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug3</guid>
+      <pubDate>Tue, 29 May 2012 18:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Installation</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/installation/re_installation2</link>
+      <description>Hello everybody,&#13;
+&#13;
+I change ActiveExtensions[]=ezstyleeditor and now I can see the CSS buttons on toolbar (like Steven says)&#13;
+&#13;
+after all this extension works partially....&#13;
+&#13;
+when I click on CSS button I cant see the CSS toll bar with regular link: &#13;
+&#13;
+http:/www.website.com/styleeditor/visual/2&#13;
+&#13;
+but I can see the ezstyleeditor extension if I change to:&#13;
+&#13;
+&#13;
+http:/www.website.com/styleeditor/visual/1 (or 68 for example)&#13;
+&#13;
+works if I change 2 for 1.&#13;
+&#13;
+&#13;
+Somebody can help me work with the regular /styleeditor/visual/2?&#13;
+&#13;
+&#13;
+&#13;
+Thanks, best regards</description>
+      <author>community@ez.no (ari glez)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/installation/re_installation2</guid>
+      <pubDate>Tue, 29 May 2012 18:20:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Installation</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/installation/re_installation</link>
+      <description>Hellow Steven,&#13;
+&#13;
+I intall this extension and made some changes but today when I press the css button I can see anywhere the css tool bar.&#13;
+&#13;
+any suggestion?&#13;
+&#13;
+&#13;
+best regards. </description>
+      <author>community@ez.no (ari glez)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/installation/re_installation</guid>
+      <pubDate>Tue, 22 May 2012 17:29:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error: Call to undefined function accessType()</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/fatal_error_call_to_undefined_function_accesstype</link>
+      <description>I get this error by entering /styleeditor/visual/2 in ezwebin and ezflow&#13;
+&#13;
+Fatal error: Call to undefined function accessType() in /extension/ezstyleeditor/modules/styleeditor/visual.php on line 109 Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+by comment out lines 109 -112 everything is working fine&#13;
+&#13;
+$access = accessType( $uri,&#13;
+    eZSys::hostname(),&#13;
+    eZSys::serverPort(),&#13;
+    eZSys::indexFile() );&#13;
+&#13;
+&#13;
+systeminfo: &#13;
+ - ezp Community Project 2011.8&#13;
+ - MatchOrder=host&#13;
+ - mysql 	5.1.46 &#13;
+ - php 5.3.3.&#13;
+   DOM/XML 	enabled&#13;
+  json support 	enabled &#13;
+&#13;
+&#13;
+&#13;
+any ideas?&#13;
+</description>
+      <author>community@ez.no (Chris Christes)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/fatal_error_call_to_undefined_function_accesstype</guid>
+      <pubDate>Sat, 27 Aug 2011 17:51:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: general behaviour and question</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/general_behaviour_and_question/re_general_behaviour_and_question</link>
+      <description>forget it, it was due to my ezwebin configuration, on a regular simple one, it works.&#13;
+&#13;
+and the style are written in the head, which was my main question and which I think is not so good but the feature could be useful for some "minisites" .</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/general_behaviour_and_question/re_general_behaviour_and_question</guid>
+      <pubDate>Fri, 19 Nov 2010 17:23:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>general behaviour and question</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/general_behaviour_and_question</link>
+      <description>Hello everybody,&#13;
+&#13;
+I installed the extension successfully or so it seems but I don't understand the general purpose of it : i'm able to change my styles and rules and the database is implemented, everything's fine but then when or how is it stored in a css file so I can actually get my modifications visible for everybody? &#13;
+&#13;
+I must be missing something here... or is it an alternative to firebug features?&#13;
+&#13;
+Thanks for the enlightment !&#13;
+&#13;
+Gwenal&#13;
+&#13;
+Ps : when i change the site style or create a new one, the pop up doesn't chose.</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/general_behaviour_and_question</guid>
+      <pubDate>Fri, 19 Nov 2010 10:34:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ Webin - doesn't work for me - Bug?</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug2</link>
+      <description>hi,&#13;
+&#13;
+I had a similar problem. After moving &#13;
+&#13;
+&lt;code&gt;&#13;
+ActiveExtensions[]=ezjscore&#13;
+&lt;/code&gt;&#13;
+&#13;
+below &#13;
+&#13;
+&lt;code&gt;&#13;
+ActiveExtensions[]=ezstyleeditor&#13;
+ActiveExtensions[]=ezwebin&#13;
+&lt;/code&gt;&#13;
+&#13;
+and doing&#13;
+&#13;
+&lt;code&gt;&#13;
+php bin/php/ezpgenerateautoloads.php -e -p&#13;
+php bin/php/ezcache.php --clear-all --purge&#13;
+&lt;/code&gt;&#13;
+&#13;
+it worked.&#13;
+&#13;
+best of luck&#13;
+&#13;
+sebastian</description>
+      <author>community@ez.no (Sebastian Schoeller)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug2</guid>
+      <pubDate>Tue, 23 Feb 2010 13:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ Webin - doesn't work for me - Bug?</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug</link>
+      <description>Hi&#13;
+&#13;
+I have experienced the same problems as Paul described, using eZ Publish 4.2.0 with Webin extension,  PHP 5.2.10 and PostgreSQL 8.3. Used Firefox 3.5.8 as browser.&#13;
+&#13;
+- In Styles-&gt;Site style list, "Create" works and I can create a site style "Custom" for example. There is no "Delete" button. I could delete it only by deleting the record in the database table ezcssesitestyle.&#13;
+&#13;
+- In Styles-&gt;Site style list, "Choose" doesn't do anything as Paul described. "Cancel" button works. "Version" button shows "Version list".&#13;
+&#13;
+- Tried to change color of h1 text in "Company" page of Webin demo. In Elements-&gt;Header1 , changed color in the dialog box Properties of "Header 1". Color popup window worked, and the color of text with h1 tag changed properly on browser when "Apply" button was pushed. After pushed "Save" button, the color change remained. In webdeveloper plugin of Firefox, CSS is displayed as CSS specified by style elements in &#13;
+http://ezwebin.comio.net/eng/styleeditor/visual/140:&#13;
+&#13;
+@import url(/var/storage/packages/eZ-systems/ezwebin_design_blue/files/default/file/classes-colors.css);&#13;
+    @import url(/var/storage/packages/eZ-systems/ezwebin_design_blue/files/default/file/site-colors.css);&#13;
+&#13;
+h1, div.attribute-header h1, div.attribute-header h1.long {&#13;
+color: #68D217;&#13;
+}&#13;
+h1, div.attribute-header h1, div.attribute-header h1.long {&#13;
+color: #68D217;&#13;
+}&#13;
+&#13;
+don't know why there's duplication of lines.&#13;
+&#13;
+When "Exit" button of Style Editor is hit, the change made by Style Editor is reverted on browser. Restarting Style Editor again, I see the change on Header 1 is still there in the Properties for "Header 1" window. By hitting the "Apply" button, the header changes its color again on browser. It doesn't stay when exiting the Style Editor.&#13;
+&#13;
+This extension can be a very important tool to work with designers when creating web sites using eZ Publish. I appreciate the efforts of the developers, and wish them best.&#13;
+&#13;
+--&#13;
+Teru</description>
+      <author>community@ez.no (Teru H.)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug/re_ez_webin_doesn_t_work_for_me_bug</guid>
+      <pubDate>Thu, 18 Feb 2010 06:05:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webin - doesn't work for me - Bug?</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug</link>
+      <description>Hi,&#13;
+&#13;
+I've now done 4 clean installs of eZ 4.2 and this extension. The installs were 2 x eZ Flow, and 2 x eZ Webin. The outcome: the Flow installs of the extension work, but the Webin ones don't.&#13;
+&#13;
+Specifically, the problem seems to be that (in my eZ Webin installs), the "Choose" button does not work when selecting a Site Style. (This button is in the "Site style list" dialogue window accessed via the "Styles" menu bar).&#13;
+&#13;
+The results include that:&#13;
+1) "Choose" button does not do anything (But in eZ Flow, the dialog window closes, site style updates and style changes are shown on the website).&#13;
+2) Site style changes are not loaded when a style is selected or changed.&#13;
+3) The current site style is not loaded when the site is loaded (eg if change using the extension, the changes do not take effect).&#13;
+&#13;
+I'm pretty sure its all part of the same problem.&#13;
+&#13;
+Using PHP 5.2.3 / MySQL. &#13;
+&#13;
+Suggested Improvement - adding a way to remove site styles (can add to list, but not remove).&#13;
+&#13;
+Anyone else had trouble with this? Is there something I've missed?&#13;
+&#13;
+Thanks&#13;
+&#13;
+- Paul</description>
+      <author>community@ez.no (Paul Wilson)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/ez_webin_doesn_t_work_for_me_bug</guid>
+      <pubDate>Sat, 06 Feb 2010 03:41:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/installation</link>
+      <description>You might want to clarify in the installation instructions that to use the edit features you need the eZ Website Toolbar extension too... (unless there is some other way of using this without the toolbar?)  And, if you have the toolbar extension, make sure you add the:&#13;
+&#13;
+ActiveExtensions[]=ezstyleeditor&#13;
+&#13;
+line above the:&#13;
+&#13;
+ActiveExtensions[]=ezwt&#13;
+&#13;
+line in the site.ini &#13;
+&#13;
+Otherwise the css button never shows up.&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/installation</guid>
+      <pubDate>Thu, 21 Jan 2010 13:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Selector stay in template after declarations are removed</title>
+      <link>http://projects.ez.no/ezstyleeditor/forum/general/selector_stay_in_template_after_declarations_are_removed</link>
+      <description>I played around a bit with this extension. I'm impressed! I also like seeing ezjscore being used in many extensions like this one!&#13;
+&#13;
+When I remove all style declarations from a certain element, the empty css selector is still visible in the sourcecode, and thus in the database, i.e:&#13;
+&lt;code&gt;&#13;
+div#page&#13;
+{&#13;
+}&#13;
+&lt;/code&gt;&#13;
+ I assume this is a (minor) bug?&#13;
+&#13;
+</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/ezstyleeditor/forum/general/selector_stay_in_template_after_declarations_are_removed</guid>
+      <pubDate>Wed, 06 Jan 2010 20:35:46 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdbintegrity / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25227" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/0a554c45f6f126c44c8c92d7dbcc065f426e0e86</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix one bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/0a554c45f6f126c44c8c92d7dbcc065f426e0e86</guid>
+      <pubDate>Wed, 26 Oct 2016 16:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/e4104e1d1332e6219c8dfd5d83fd55d8c9e4ec14</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update version info; add changelogs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/e4104e1d1332e6219c8dfd5d83fd55d8c9e4ec14</guid>
+      <pubDate>Fri, 26 Aug 2016 16:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/0515b827b0e154e45e5d3fb997c043dc2b4879fc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a few more queries to check objects versions and attributes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/0515b827b0e154e45e5d3fb997c043dc2b4879fc</guid>
+      <pubDate>Fri, 26 Aug 2016 16:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/d749c593f54e03a0ab04027bff93a2b5a4331138</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add one extra check for table ezcontentobject_link&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/d749c593f54e03a0ab04027bff93a2b5a4331138</guid>
+      <pubDate>Wed, 27 Jul 2016 09:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a5e4e140e5ba768c431bf8c647ab41332b17b428</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow command lien scripts ro be interrupted and still output the report; tag for 0.7.0 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a5e4e140e5ba768c431bf8c647ab41332b17b428</guid>
+      <pubDate>Tue, 26 Jul 2016 08:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/c0adb182e92cf79dd705f563c9f567580e533832</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ezdbintegrity&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/c0adb182e92cf79dd705f563c9f567580e533832</guid>
+      <pubDate>Tue, 26 Jul 2016 08:30:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/6d83ed92bac4334805725e18854fa28ab1f091e7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from brunofax/patch-1
+
+Corrections to CustomQueries&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/6d83ed92bac4334805725e18854fa28ab1f091e7</guid>
+      <pubDate>Mon, 18 Jul 2016 08:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/c2f4b2304287f54ec6fbaf00ec2cc7263bd97075</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Corrections to CustomQueries
+
+1) Query objects_with_multiple_main_nodes:  a table name is missing (" FROM o, ezcontentobject_tree n")
+
+2) Query objects_with_bad_attribute_count:  It is OK, but when used as subquery just to get the count of the results, an error 
+Error Code: 1060. Duplicate column name 'contentclass_id'
+is produced, at least in MySQL which does not accept duplicated column names in subqueries. To avoid this I added an alias to the first occurrence of the name.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/c2f4b2304287f54ec6fbaf00ec2cc7263bd97075</guid>
+      <pubDate>Mon, 18 Jul 2016 08:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/dfa5494513b1bb4de77d201aac3e2152fa79c780</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix definition of fk for table ezcomment_notification&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/dfa5494513b1bb4de77d201aac3e2152fa79c780</guid>
+      <pubDate>Tue, 05 Jul 2016 00:30:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/49fa1bc89690aa4511e56e9bfa2f58fa2eb8aa3f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;refactor for better cli output on big databases; add option to skip FK column check&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/49fa1bc89690aa4511e56e9bfa2f58fa2eb8aa3f</guid>
+      <pubDate>Mon, 04 Jul 2016 09:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/2cfebf695930dac27fb5821cd20275cc491cf65b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/2cfebf695930dac27fb5821cd20275cc491cf65b</guid>
+      <pubDate>Mon, 04 Jul 2016 09:10:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/2b8592fc542034995f52a19f0fb24cc8787d094b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for cluster mode for storage checking&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/2b8592fc542034995f52a19f0fb24cc8787d094b</guid>
+      <pubDate>Fri, 20 May 2016 14:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/b53f2aa9450a5c97848a6e987d1699b901aabd9c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/b53f2aa9450a5c97848a6e987d1699b901aabd9c</guid>
+      <pubDate>Fri, 20 May 2016 14:50:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/ed480b8fc2ca93f7afd4ab4ffb5fcd81fb2f4077</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/ed480b8fc2ca93f7afd4ab4ffb5fcd81fb2f4077</guid>
+      <pubDate>Thu, 19 May 2016 18:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/91cade5e44833307ff060b7505ba5366fd9f95e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Welcome 2016&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/91cade5e44833307ff060b7505ba5366fd9f95e4</guid>
+      <pubDate>Thu, 19 May 2016 18:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/7bacb08d972abf9c2dd4533747a5b85f6f303e8c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a storage checker and a checked for 'ezmedia' attributes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/7bacb08d972abf9c2dd4533747a5b85f6f303e8c</guid>
+      <pubDate>Thu, 19 May 2016 18:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a185662d9bdb77d21542bf6729add934337c4dbd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Tag version 0.4&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a185662d9bdb77d21542bf6729add934337c4dbd</guid>
+      <pubDate>Tue, 10 May 2016 15:00:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a0877442f516869760b5cd413a65392dce565504</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix changelogs; update todo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a0877442f516869760b5cd413a65392dce565504</guid>
+      <pubDate>Wed, 30 Jul 2014 15:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/470bfb7ed411e5f5f04f006f00e034e1f11eda75</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed: attribute checking did not work with php &lt; 5.3.7&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/470bfb7ed411e5f5f04f006f00e034e1f11eda75</guid>
+      <pubDate>Wed, 30 Jul 2014 15:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/bdbb53f364235753de528beadbbb654038ae508a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix one custom sql request; comments/todos&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/bdbb53f364235753de528beadbbb654038ae508a</guid>
+      <pubDate>Wed, 30 Jul 2014 15:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/ef8afbb235cac41d14ca1fd4c90c71500f5e45cd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for custom sql queries&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/ef8afbb235cac41d14ca1fd4c90c71500f5e45cd</guid>
+      <pubDate>Tue, 22 Jul 2014 21:01:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/172adae056e310bdb40ffbbdf5cf7021d7266576</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add more FK definitions for ezsystems extensions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/172adae056e310bdb40ffbbdf5cf7021d7266576</guid>
+      <pubDate>Thu, 20 Mar 2014 00:50:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/b5263444a85c471de155021d3e00a6eedcfad25e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add more FK checks for ezflow tables&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/b5263444a85c471de155021d3e00a6eedcfad25e</guid>
+      <pubDate>Thu, 20 Mar 2014 00:50:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/4a03d1ef884f1e616d33c99e5ae460fbe802808e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Alter FK definition for languages of obj attributes and classes, after investigating how it works&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/4a03d1ef884f1e616d33c99e5ae460fbe802808e</guid>
+      <pubDate>Thu, 20 Mar 2014 00:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/46946c21d1317256b3e17f6cfe32f9738e2f721f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;improve docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/46946c21d1317256b3e17f6cfe32f9738e2f721f</guid>
+      <pubDate>Tue, 11 Mar 2014 15:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/10bdc704556158e0bf5539e41600c2d18d7841b5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Do not use autoloadhelper as we need inis anyway; Fix integer and float datatype checkers; Tag release 0.2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/10bdc704556158e0bf5539e41600c2d18d7841b5</guid>
+      <pubDate>Tue, 11 Mar 2014 12:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/065177ecc3911a7c6c6fe6a8af665ff1714e8624</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow scripts to run without autoload generation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/065177ecc3911a7c6c6fe6a8af665ff1714e8624</guid>
+      <pubDate>Tue, 11 Mar 2014 12:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/0abbf87fc74f781a13d9cfc2e4980372bf0e94ea</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for checking ezuser attributes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/0abbf87fc74f781a13d9cfc2e4980372bf0e94ea</guid>
+      <pubDate>Tue, 11 Mar 2014 10:41:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/97a889055613a44151a6ff75cf7cc31a57fd250a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add specific attribute checkers for strings, ints and floats&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/97a889055613a44151a6ff75cf7cc31a57fd250a</guid>
+      <pubDate>Tue, 11 Mar 2014 10:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/6231b133b6c9c7593a881f84a1123a6b8ded4050</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow checking if a non nullable attribute has no content&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/6231b133b6c9c7593a881f84a1123a6b8ded4050</guid>
+      <pubDate>Tue, 11 Mar 2014 10:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/f7ba4794fa821969500fa54dbb19d28641cd0803</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow datatype checker to operate on all known types&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/f7ba4794fa821969500fa54dbb19d28641cd0803</guid>
+      <pubDate>Tue, 11 Mar 2014 10:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/0512223409810379b68de611e35a29e35e01c42c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow user to specify class/attribute instead of datatype, if he wants to&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/0512223409810379b68de611e35a29e35e01c42c</guid>
+      <pubDate>Tue, 11 Mar 2014 10:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/e74f3e3898ac514a2a189831a45dfe19cb9ee732</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add size checks for binaryfile and image datatypes; cleanups&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/e74f3e3898ac514a2a189831a45dfe19cb9ee732</guid>
+      <pubDate>Tue, 11 Mar 2014 10:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a73e84f2eebc505f19c465e96b5eeeb357666eb7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;updated todo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a73e84f2eebc505f19c465e96b5eeeb357666eb7</guid>
+      <pubDate>Mon, 10 Mar 2014 19:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/4d465ad86e35ea868ec870d91fb0cd1e79d99fb5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow dumping of all the datatype checks defined; by default only check published content, but allow to check all&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/4d465ad86e35ea868ec870d91fb0cd1e79d99fb5</guid>
+      <pubDate>Mon, 10 Mar 2014 19:00:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/be7832b8ce10350ae0870b8477eaf592651a6fde</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update info files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/be7832b8ce10350ae0870b8477eaf592651a6fde</guid>
+      <pubDate>Mon, 10 Mar 2014 17:11:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/d108dd33414788f262bad91ce590957a4f78b175</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added gitignore file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/d108dd33414788f262bad91ce590957a4f78b175</guid>
+      <pubDate>Mon, 10 Mar 2014 17:11:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/2f605c524ec2861e28f1632b77772cd38f00361c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow checking of attribute data based on their types&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/2f605c524ec2861e28f1632b77772cd38f00361c</guid>
+      <pubDate>Mon, 10 Mar 2014 17:11:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/6eabfe09ab7cff47090407641c1bc6cb3072a17f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Simple refactoring&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/6eabfe09ab7cff47090407641c1bc6cb3072a17f</guid>
+      <pubDate>Mon, 10 Mar 2014 17:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a58dcd1dda902fa31d8ea8284bacf30dae9cbf14</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow generation of fks from ezpo definitions; check problems in column definitions; support writing ini files with fks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a58dcd1dda902fa31d8ea8284bacf30dae9cbf14</guid>
+      <pubDate>Sat, 08 Mar 2014 02:20:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/a8a798931787cbdafe72c7848bedcdfaeb459eb7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add info files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/a8a798931787cbdafe72c7848bedcdfaeb459eb7</guid>
+      <pubDate>Fri, 07 Mar 2014 23:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/c53d90b3d35d8b9d33a682788df1eba6bfc21739</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/c53d90b3d35d8b9d33a682788df1eba6bfc21739</guid>
+      <pubDate>Fri, 07 Mar 2014 23:10:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbintegrity rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/5</link>
+      <description>- comments
+- more readable and detailed script output</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/5</guid>
+      <pubDate>Thu, 24 Mar 2011 13:22:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbintegrity rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/4</link>
+      <description>- Add scripts for testing roundtrip conversion of db schema / data: dba-db-dba and sql-db-sql</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/4</guid>
+      <pubDate>Thu, 24 Mar 2011 13:01:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbintegrity rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/3</link>
+      <description>- add todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/3</guid>
+      <pubDate>Fri, 29 Oct 2010 17:09:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbintegrity rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/2</link>
+      <description>- add an old image pf the eZ db schema and a tentative format for fk descriptions in ini file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/2</guid>
+      <pubDate>Fri, 29 Oct 2010 17:07:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbintegrity rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezdbintegrity/subversion/1</link>
+      <description>- build base repo layout</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/subversion/1</guid>
+      <pubDate>Fri, 29 Oct 2010 17:05:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

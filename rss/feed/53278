@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / platformuitypelist</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:47:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:47:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/53278" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/218b3394d16f872c97770985b74bfbf9361bf801</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed the options to be rendered in a side view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/218b3394d16f872c97770985b74bfbf9361bf801</guid>
+      <pubDate>Sat, 14 Feb 2015 15:33:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/1abd935a9644b580d215b1ae1d84474e7f57e456</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from dpobel/options_sideview
+
+Changed the options to be rendered in a side view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/1abd935a9644b580d215b1ae1d84474e7f57e456</guid>
+      <pubDate>Sat, 14 Feb 2015 15:33:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/705cda9ed19aa89aea1001f5dac1a9117bcbfa32</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the navigation item to navigate to the dpTypeList route&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/705cda9ed19aa89aea1001f5dac1a9117bcbfa32</guid>
+      <pubDate>Wed, 11 Feb 2015 07:53:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/8481c04ef9170fa37c74135214e83e58cfc67f26</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from dpobel/typelist_view
+
+Added the navigation item to navigate to the dpTypeList route&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/8481c04ef9170fa37c74135214e83e58cfc67f26</guid>
+      <pubDate>Wed, 11 Feb 2015 07:53:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/a3a85cc92ee4173583fecc30ba4e020f0ebd8bd3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from dpobel/typelist_view
+
+Implemented the display of the content types in the list view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/a3a85cc92ee4173583fecc30ba4e020f0ebd8bd3</guid>
+      <pubDate>Thu, 05 Feb 2015 13:13:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/3330c199098e548217f93efe9347e204cfdd5bb4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented the display of the content types in the list view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/3330c199098e548217f93efe9347e204cfdd5bb4</guid>
+      <pubDate>Thu, 05 Feb 2015 13:13:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/43c6f478607bd9d4267e2d660d5abcefccfd9250</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from dpobel/fetch_types
+
+Content types and content type groups loading through the REST API&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/43c6f478607bd9d4267e2d660d5abcefccfd9250</guid>
+      <pubDate>Tue, 03 Feb 2015 13:43:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/e0891c2d07e885a97b3ca2368375a2c1c3d28552</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed a mistake in the type list plugin doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/e0891c2d07e885a97b3ca2368375a2c1c3d28552</guid>
+      <pubDate>Tue, 03 Feb 2015 13:43:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/32c8e2ede63176fd82b235b58e7be657f749d3ed</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the type list view service to fetch the groups and the types&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/32c8e2ede63176fd82b235b58e7be657f749d3ed</guid>
+      <pubDate>Tue, 03 Feb 2015 13:43:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/44f2525c736c766de4fe1ea80c533e0af3c59954</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the app type list plugin and the main view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/44f2525c736c766de4fe1ea80c533e0af3c59954</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/22bae26b445251349f49d645c3273769bc2de337</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/22bae26b445251349f49d645c3273769bc2de337</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/7a7d8b89603388accf23d85ab98e7b59dd45d0aa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Prepared the bundle to extend PlatformUI&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/7a7d8b89603388accf23d85ab98e7b59dd45d0aa</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/5947f0816892ad8007148654180bdee742532adb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the generated bundle code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/5947f0816892ad8007148654180bdee742532adb</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/41d3a7d8ddf495fdb9e6809fbb03a2cc24b9b7a0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/41d3a7d8ddf495fdb9e6809fbb03a2cc24b9b7a0</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/3aee75282bbd82385f6bd9bf9a0bae4cd6ddc9d3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from dpobel/travis_ci
+
+Travis ci&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/3aee75282bbd82385f6bd9bf9a0bae4cd6ddc9d3</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/486e98f4fdd62c7e4a5ddf57648afc8d38dd4a77</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Configured Travis CI&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/486e98f4fdd62c7e4a5ddf57648afc8d38dd4a77</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/7b4d0702758796dce7e2294f97d439f29fcacfa8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the grunt file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/7b4d0702758796dce7e2294f97d439f29fcacfa8</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/platformuitypelist/source/be2f6cffccdac66b2ad024a392e52e313d70b09b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added the unit tests for type list plugin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/platformuitypelist/source/be2f6cffccdac66b2ad024a392e52e313d70b09b</guid>
+      <pubDate>Mon, 02 Feb 2015 15:13:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

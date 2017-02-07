@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / enhancedezbinaryfile / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:47:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:47:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11040" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>enhancedezbinaryfile revision 5</title>
+      <link>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_5</link>
+      <description>&lt;p&gt;This is the same as the subversion revision 5.&amp;nbsp; For ezpublish 4.5.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_5</guid>
+      <pubDate>Sun, 26 Jun 2011 12:52:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>enhancedezbinaryfile revision 4</title>
+      <link>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_4</link>
+      <description>&lt;p&gt;This is the same as the subversion revision 4.&amp;nbsp; For ezpublish 4.4.&lt;/p&gt;&lt;p&gt;Note: this fixes the initial directory error.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_4</guid>
+      <pubDate>Sat, 08 Jan 2011 13:34:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>enhancedezbinaryfile revision 3</title>
+      <link>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_3</link>
+      <description>&lt;p&gt;This is enhancedbinaryfile with calls to eZDOMDocument removed so it can work with ezp 4.1 (it should be backward compatible to all 4.x versions). It also has a new template operator checkfile - which can be used to see if a file exists in the file system.&lt;/p&gt;&lt;p&gt;Also, the collectinfo kernel hack checks to see if there are attachments and only sends the mail multi-part if there are.&lt;/p&gt;&lt;p&gt;This is the same as the subversion revision 3.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_3</guid>
+      <pubDate>Fri, 24 Apr 2009 09:45:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>enhancedezbinaryfile revision 2</title>
+      <link>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_2</link>
+      <description>&lt;p&gt;This is the equivelent of subversion revision 2. It uses the depreciated eZDOMDocument class.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/enhancedezbinaryfile/downloads/enhancedezbinaryfile_revision_2</guid>
+      <pubDate>Tue, 26 Aug 2008 09:39:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

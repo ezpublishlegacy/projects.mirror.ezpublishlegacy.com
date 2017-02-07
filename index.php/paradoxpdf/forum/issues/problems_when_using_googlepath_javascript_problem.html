@@ -1,0 +1,772 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/paradoxpdf/forum/issues/problems_when_using_googlepath_javascript_problem by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:19:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Problems when using GooglePath -&gt; Javascript problem?     /         Issues     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/paradoxpdf/forum/general', 'Suggestions', '/paradoxpdf/forum/suggestions', 'Issues', '/paradoxpdf/forum/issues'];
+menu[4] = ['Leaders', '/paradoxpdf/team/leaders', 'Members', '/paradoxpdf/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../paradoxpdf.html" onmouseover="switchSubMenu( this );">ParadoxPDF &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../paradoxpdf/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../paradoxpdf/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../paradoxpdf/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../paradoxpdf/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../paradoxpdf/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../paradoxpdf/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../paradoxpdf/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+    
+    <li ><a href="../../../../paradoxpdf/forum/general.html">General</a></li>
+
+                
+    
+    <li ><a href="../../../../paradoxpdf/forum/suggestions.html">Suggestions</a></li>
+
+                        
+            
+    <li class="last current"><a href="../../../../paradoxpdf/forum/issues.html">Issues</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../paradoxpdf.html">paradoxpdf</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../issues.html">issues</a>
+        
+                        /
+                                        problems when using googlep...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Problems when using GooglePath -&gt; Javascript problem?</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg16062">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/marco_zinn.html">Marco Zinn</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/marco_zinn/25508-10-eng-GB/marco_zinn_small.jpg" width="86" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 27</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 02 May 2009 5:49:23 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+the extension is great and it works quite fine!<br />
+<br />
+I noticed it does not work, when i use an attribute of the &quot;GooglePath&quot; type: <a href="http://ez.no/developer/contribs/template_plugins/googlepath_for_ez_4_0_x" title="http://ez.no/developer/contribs/template_plugins/googlepath_for_ez_4_0_x">http://ez.no/developer/contribs/template_plugins/googlepath_for_ez_4_0_x</a><br />
+I think, i stumbles upon the JS stuff, that's used to display the map.<br />
+<br />
+Is this a generic issue (Javascript and Paradox), is there an easy workaround?<br />
+Something like a CSS-line that will hide all SCRIPT elements?<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Marco<br />
+<a href="http://www.hyperroad-design.com/" title="http://www.hyperroad-design.com">http://www.hyperroad-design.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg16063">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/karnichi_mohamed2.html">Karnichi Mohamed</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/karnichi_mohamed2/35486-41-eng-GB/karnichi_mohamed_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 October 2006</p>
+        <p class="posts">Posts: 78</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 02 May 2009 9:57:40 pm</p>
+
+        <div class="attribute-long">Hi Marco<br />
+<br />
+Thank you for your feedback;<br />
+<br />
+The  <b> XhtmlRendrer don't support JavaScript at all</b>. So you have to manage yourself removing javascript elements and calls in your templates. You can use for this ezpublish template override mechanisms.<br />
+For example you can  override content/view/pdf.tpl for the class that uses googletype datatype. Then in the overrided template dont output the content of the googlepath attribute.<br />
+<br />
+However If you want to print google maps in your pdfs you can use  the google maps static api <a href="http://code.google.com/apis/maps/documentation/staticmaps/" title="http://code.google.com/apis/maps/documentation/staticmaps/">http://code.google.com/apis/maps/documentation/staticmaps/</a> witch enables using google maps without javascripts. <br />
+<br />
+<br />
+Hope this helps.<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.amiralweb.com/" title="http://www.amiralweb.com">http://www.amiralweb.com</a>  Certified eZPublish Expert</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg16069">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/marco_zinn.html">Marco Zinn</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/marco_zinn/25508-10-eng-GB/marco_zinn_small.jpg" width="86" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 27</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 03 May 2009 5:35:28 pm</p>
+
+        <div class="attribute-long">Hello,<br />
+<br />
+thanks for your reply. i tried your approach with the static google maps, but it does not work either :-(<br />
+- I am able to create a static Map using Google maps. It's displayed in the full view as expected<br />
+- I'm also able to embed an img in the template, which is loaded from some other domain (img src=&quot;<a href="http://www.ez.no/....")" title="http://www.ez.no/....&quot;)">http://www.ez.no/....&quot;)</a>. This works great in HTML and pdf view<br />
+- But as soon as i try to create a PDF version of something containing a static Google map, paradoxpdf shows Error: ParadoxPDF::generatePDF . <br />
+<br />
+I assume, that either there are problems with an img src using parameters (you have to pass everything to GoogleMaps in the img URL). the log says &quot;The reference to the entity &quot;zoom&quot; must end with the &quot;;&quot; delimiter&quot;... &quot;zoom&quot; is the second parameter in the google maps image URL, so it's the first after a &amp; character:<br />
+Static Google Maps URL starts like this<br />
+<a href="http://maps.google.com/staticmap?center=50.05008477838258,8.624267578125&amp;zoom=11&amp;size=550x400&amp;maptype=terrain&amp;sensor=false&amp;key=MY_GOOGLE_KEY" title="http://maps.google.com/staticmap?center=50.05008477838258,8.624267578125&amp;zoom=11&amp;size=550x400&amp;maptype=terrain&amp;sensor=false&amp;key=MY_GOOGLE_KEY">http://maps.google.com/staticmap?...p;sensor=false&amp;key=MY_GOOGLE_KEY</a><br />
+<br />
+Or there is kind of a timeout: Generating the static image needs some time. <br />
+<br />
+Besides that: I tried to pass the &quot;viewmode&quot; variable from the full-view template to the attribute-view-template, but i found out, that the variable is not set, when using PDF view. Can you confirm this? From <a href="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/template_basics/node_templates" title="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/template_basics/node_templates">http://ez.no/doc/ez_publish/techn...lates/template_basics/node_templates</a> , i expected, that this would be set in all node-view-templates, also in the PDF view.<br />
+<br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Marco<br />
+<a href="http://www.hyperroad-design.com/" title="http://www.hyperroad-design.com">http://www.hyperroad-design.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg16070">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/karnichi_mohamed2.html">Karnichi Mohamed</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/karnichi_mohamed2/35486-41-eng-GB/karnichi_mohamed_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 October 2006</p>
+        <p class="posts">Posts: 78</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 04 May 2009 12:19:59 am</p>
+
+        <div class="attribute-long">Hi Marco,<br />
+<br />
+I am not sure that I understood the problems with static googlemaps images, or for viewmode. Can send me the temporary generated xhtml file, so i can check the error ?<br />
+<br />
+I gess that you have to use &quot;&amp;amp;&quot; instead of &quot;&amp;&quot; to indicate an ampersand in the url of the google maps image, the rendrer will then be able to load properly the image.<br />
+<br />
+Normally there is no special treatment to make  pdf templates . You create templates just like you're used to any html views.<br />
+<br />
+Thanks
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.amiralweb.com/" title="http://www.amiralweb.com">http://www.amiralweb.com</a>  Certified eZPublish Expert</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg16134">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/marco_zinn.html">Marco Zinn</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/marco_zinn/25508-10-eng-GB/marco_zinn_small.jpg" width="86" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 27</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 06 May 2009 8:12:47 am</p>
+
+        <div class="attribute-long">Hello Karnichi,<br />
+<br />
+You wrote &quot;I gess that you have to use &quot;&amp;amp;&quot; instead of &quot;&amp;&quot; to indicate an ampersand in the url of the google maps image, the rendrer will then be able to load properly the image.&quot;<br />
+<br />
+Just to let you know: this works :) I did this manually now, but i think, there is an ez operator for doing this kind of URL encoding.<br />
+<br />
+&quot;Normally there is no special treatment to make pdf templates . You create templates just like you're used to any html views.&quot;<br />
+<br />
+Well, this is, what i thought, too. But, at least for &amp;'s in Image URL, one must slighty modify the template code. But after using &quot;&amp;amp;&quot; instead of &quot;&amp;&quot; , it still works fine in the the browser :)<br />
+<br />
+About the nodeview issue:<br />
+I had created a new class. In the template node/view/full.tpl for that class, i have this code in order to display some metadata for debugging:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{$node}/</span>
+
+<span class="line">{$viewmode}/</span>
+
+<span class="line">{$language_code}/</span>
+
+<span class="line">{$view_parameters}/</span>
+
+<span class="line">{$collection_attributes}/</span>
+
+<span class="line">{$validation}/</span>
+
+<span class="line">{$persistent_variable ( false )}/</span>
+
+<span class="line">{$node_path}/</span>
+
+<span class="line"></span></pre><br />
+<br />
+In the HTML view (<a href="http://hostname/content/view/full/161)" title="http://HOSTNAME/content/view/full/161)">http://HOSTNAME/content/view/full/161)</a> , i have this output:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">Object(eZContentObjectTreeNode)/ full/ / Array/ / Array/ / Array/&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+In the pdf view (<a href="http://hostname/content/view/pdf/161)" title="http://HOSTNAME/content/view/pdf/161)">http://HOSTNAME/content/view/pdf/161)</a> , i have this output in the PDF text:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">Object(eZContentObjectTreeNode)/ / / / / / / /</span>
+
+<span class="line"></span></pre><br />
+<br />
+So, it seems to me, that several metadata variables are not available in that view or in the pdf pagelayout<br />
+<br />
+I wanted to do this, because i wanted to hide the Javascript code by reading the {$viewmode} value (if {$viewmode} = pdf, then hide JS code), but that didn't work.<br />
+<br />
+André comment in <a href="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/template_basics/node_templates" title="http://ez.no/doc/ez_publish/technical_manual/4_0/templates/template_basics/node_templates">http://ez.no/doc/ez_publish/techn...lates/template_basics/node_templates</a> let's me think, that these variables should be available in all &quot;node&quot; templates.
+</div>
+                    <div class="attribute-signature">
+            <p>Marco<br />
+<a href="http://www.hyperroad-design.com/" title="http://www.hyperroad-design.com">http://www.hyperroad-design.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg16213">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/karnichi_mohamed2.html">Karnichi Mohamed</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/karnichi_mohamed2/35486-41-eng-GB/karnichi_mohamed_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 October 2006</p>
+        <p class="posts">Posts: 78</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 08 May 2009 11:26:53 pm</p>
+
+        <div class="attribute-long">Hi Marco,<br />
+<br />
+If you need &quot;metadata&quot; informations you have to override the content/view/pdf.tpl <br />
+Why you haven't those &quot;metadata variables&quot; on the default templates? because the default content/view/pdf.tpl (comming with paradoxpdf)  loads node/view/full.tpl through node_view_gui, this is just a facility to make it working out of the box. But the node_view_gui has it's own namespace (variable scope). So just make your own override, you will then have all variables<br />
+<br />
+On the pagelayout the only way to get this informations using the $module_result variable<br />
+<br />
+Enjoy<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.amiralweb.com/" title="http://www.amiralweb.com">http://www.amiralweb.com</a>  Certified eZPublish Expert</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg16627">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/karnichi_mohamed2.html">Karnichi Mohamed</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/karnichi_mohamed2/35486-41-eng-GB/karnichi_mohamed_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 October 2006</p>
+        <p class="posts">Posts: 78</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 01 June 2009 8:39:49 pm</p>
+
+        <div class="attribute-long">As another person  asked for this : i have updated the node/view/pdf.tpl so you can get variables set by content view. It is on the trunk I will make a new release that includes this modification.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{node_view_gui view=full content_node=$node</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viewmode=$viewmode</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;language_code=$language_code</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view_parameters=$view_parameters</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;collection_attributes=$collection_attributes</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;validation=$validation}</span>
+
+<span class="line"></span></pre><br />
+<br />
+On the next relase many enhancements will be added to make pdf generation and manipulation easier from php code
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.amiralweb.com/" title="http://www.amiralweb.com">http://www.amiralweb.com</a>  Certified eZPublish Expert</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/paradoxpdf/forum/issues/problems_when_using_googlepath_javascript_problem by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:19:19 GMT -->
+</html>

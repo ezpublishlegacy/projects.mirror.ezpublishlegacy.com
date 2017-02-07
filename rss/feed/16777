@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezyui / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:16:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:16:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16777" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker5</link>
+      <description>Hi again!&#13;
+&#13;
+Thanks for fixing a couple of things, however, it would be nice to review your patches before you commit them.&#13;
+For instance you shouldn't do several things at once in a commit, and the "- added charset parameter to operators" will break any use of the operators that use the last param. Not a big deal as ezyui isn't even at the beta stage and will see some changes, but you really need to discuss this with the other members of the project, so they know about it..&#13;
+&#13;
+And I'm not convinced the patch for the lib problem is the correct one, it might be better to allow full (design) path if it starts with '/' for instance(see bellow patch), what do you think?&#13;
+&#13;
+We need to make this as general as possible, just like eZ Publish, so we can't commit workaround code.&#13;
+&#13;
+Sorry for bringing this up, but as we are a team, we really need to be able to review and discuss, especially patches.&#13;
+&#13;
+All in sense of better co-operation in future :)&#13;
+&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: trunk/ezyui/classes/ezyuipacker.php&#13;
+===================================================================&#13;
+--- trunk/ezyui/classes/ezyuipacker.php	(revision 21)&#13;
++++ trunk/ezyui/classes/ezyuipacker.php	(working copy)&#13;
+@@ -256,15 +256,14 @@&#13;
+             // or is it a relative path&#13;
+             else&#13;
+             {&#13;
+-                $file = $file;&#13;
++                // allow path to be outside subpath if it starts with '/'&#13;
++                if ( $file[0] === '/' )&#13;
++                    $file = ltrim( $file, '/' );&#13;
++                else&#13;
++                    $file = $subPath . $file;&#13;
++&#13;
+                 $triedFiles = array();&#13;
+                 $match = eZTemplateDesignResource::fileMatch( $bases, '', $file, $triedFiles );&#13;
+-                // Work around many extensions use design.ini[JavaScriptSettings].JavaScriptList but the path is not correct &#13;
+-                if ( $match === false )&#13;
+-                {&#13;
+-                	$file = $subPath . $file;&#13;
+-                	$match = eZTemplateDesignResource::fileMatch( $bases, '', $file, $triedFiles );&#13;
+-                }&#13;
+                 if ( $match === false )&#13;
+                 {&#13;
+                     eZDebug::writeWarning( "Could not find: $file", __METHOD__ );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker5</guid>
+      <pubDate>Tue, 28 Jul 2009 08:37:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker4</link>
+      <description>I would not rip it apart... people used top the yui might get confused...</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker4</guid>
+      <pubDate>Wed, 22 Jul 2009 23:27:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker3</link>
+      <description>Or we can move scripts to javascript dir, css to stylesheets dir and images to images dir?&#13;
+</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker3</guid>
+      <pubDate>Tue, 21 Jul 2009 20:28:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker2</link>
+      <description>In this case we definitly need to fix the packer.&#13;
+&#13;
+I might supply a patch when I have more time.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker2</guid>
+      <pubDate>Tue, 21 Jul 2009 13:39:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker</link>
+      <description>I would keep files where are now. As it is more logical to keep it in the lib directory as in the javascript. YUI is not only the JS files, but also CSS, images which are part of default skin for controls. Serving them from javascript directory is a bit weird. This should be fixed in packer IMHO.</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker/re_bug_path_of_ezyui_incompatible_with_ezpacker</guid>
+      <pubDate>Mon, 20 Jul 2009 22:14:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>BUG path of ezyui incompatible with ezpacker</title>
+      <link>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker</link>
+      <description>rename&#13;
+&#13;
+http://svn.projects.ez.no/ezyui/trunk/ezyui/design/standard/lib/&#13;
+&#13;
+to&#13;
+&#13;
+http://svn.projects.ez.no/ezyui/trunk/ezyui/design/standard/javascript/&#13;
+&#13;
+This line of the packer breaks my neck.&#13;
+&#13;
+$packedFiles = eZYuiPacker::packFiles( $scriptFiles, 'javascript/', '.js', $packLevel, $wwwInCacheHash );&#13;
+&#13;
+If you move it you also don`t need the additional rw rule.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/bug_path_of_ezyui_incompatible_with_ezpacker</guid>
+      <pubDate>Mon, 20 Jul 2009 16:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sitepoint Article: YUI 3: Lighter, Faster,...</title>
+      <link>http://projects.ez.no/ezyui/forum/general/sitepoint_article_yui_3_lighter_faster_easier_to_use/re_sitepoint_article_yui_3_lighter_faster</link>
+      <description>Thanks Bruce, nice article indeed ;)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/sitepoint_article_yui_3_lighter_faster_easier_to_use/re_sitepoint_article_yui_3_lighter_faster</guid>
+      <pubDate>Fri, 19 Jun 2009 08:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitepoint Article: YUI 3: Lighter, Faster, Easier to Use</title>
+      <link>http://projects.ez.no/ezyui/forum/general/sitepoint_article_yui_3_lighter_faster_easier_to_use</link>
+      <description>http://www.sitepoint.com/article/yui-3-whats-new/&#13;
+&#13;
+Good article on whats new in YUI 3.&#13;
+&#13;
+There  is a beta due next week.&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/sitepoint_article_yui_3_lighter_faster_easier_to_use</guid>
+      <pubDate>Thu, 18 Jun 2009 07:25:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Release</title>
+      <link>http://projects.ez.no/ezyui/forum/general/release/re_release</link>
+      <description>I can not give an answer to this yet as yui 3.0 is not finalized and there is currently no specification for this one(eZYUI). My best guess would be sometime in the second half of this year..</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/release/re_release</guid>
+      <pubDate>Tue, 09 Jun 2009 09:37:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release</title>
+      <link>http://projects.ez.no/ezyui/forum/general/release</link>
+      <description>Hi, &#13;
+&#13;
+This extension seems usefull ! &#13;
+Can we have more details on the coming features ?&#13;
+&#13;
+When can we test the extension ?&#13;
+&#13;
+Thanks for the job !</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ezyui/forum/general/release</guid>
+      <pubDate>Tue, 09 Jun 2009 08:00:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

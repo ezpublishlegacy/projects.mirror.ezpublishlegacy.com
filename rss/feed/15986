@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezscriptmonitor / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15986" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/62d3d72b89f27322058e5b1d45c5eb17f03c8304</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update and rename README to README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/62d3d72b89f27322058e5b1d45c5eb17f03c8304</guid>
+      <pubDate>Fri, 11 Nov 2016 13:50:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/dc6427fcad74671454f418e72112b1cc0674a09a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from netbliss/master
+
+Italian translation created&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/dc6427fcad74671454f418e72112b1cc0674a09a</guid>
+      <pubDate>Fri, 11 Nov 2016 13:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/76b229d93186abc9610ffd83e2d88ca2cc0cab34</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;[composer.json] Update package description&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/76b229d93186abc9610ffd83e2d88ca2cc0cab34</guid>
+      <pubDate>Fri, 05 Aug 2016 09:20:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/d9e05a18a3d6f6b97f3d70436577aa3804c23f60</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23823: Add missing object attributes with Symfony console results in PHP Fatal error
+
+PHP Fatal error:  Call to a member function output() on a non-object in /var/www/ezpublish/ezpublish_legacy/extension/ezscriptmonitor/bin/addmissingobjectattributes.php on line 70&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/d9e05a18a3d6f6b97f3d70436577aa3804c23f60</guid>
+      <pubDate>Fri, 19 Dec 2014 11:50:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/bdf13a25cd0af16486cd20d8827ea1eafd1909d9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #17 from blankse/patch-1
+
+Fix EZP-23823: Add missing object attributes with Symfony console results in PHP F...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/bdf13a25cd0af16486cd20d8827ea1eafd1909d9</guid>
+      <pubDate>Fri, 19 Dec 2014 11:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/385c1670518d6d36cd94f56efe0edfdde1d88e41</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/385c1670518d6d36cd94f56efe0edfdde1d88e41</guid>
+      <pubDate>Mon, 03 Nov 2014 14:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/4c682951dcbc6dd33eaf17ea03271c7cb6687ede</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/4c682951dcbc6dd33eaf17ea03271c7cb6687ede</guid>
+      <pubDate>Tue, 20 May 2014 20:10:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/832242ea79af4c7bcd11b3817b8e675d74766f0e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/832242ea79af4c7bcd11b3817b8e675d74766f0e</guid>
+      <pubDate>Thu, 15 May 2014 09:10:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/1e72523523a2aa25ac8e2633308a9d2647477fec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/1e72523523a2aa25ac8e2633308a9d2647477fec</guid>
+      <pubDate>Thu, 15 May 2014 09:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/d0dedec3093d91bba6cc2dc4b0cc6df1b4e7fdcd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/d0dedec3093d91bba6cc2dc4b0cc6df1b4e7fdcd</guid>
+      <pubDate>Tue, 13 May 2014 21:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/4fd26b5290509bf430606cfeadff05e72944cf4e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from Heliopsis-HQ/ext-name-config
+
+EZP-22038 : Allow alternative legacy extension name in package configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/4fd26b5290509bf430606cfeadff05e72944cf4e</guid>
+      <pubDate>Mon, 02 Dec 2013 15:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/a0155d5f48ba168ba5769310b7f22f0da96c23cf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Configure extension name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/a0155d5f48ba168ba5769310b7f22f0da96c23cf</guid>
+      <pubDate>Mon, 02 Dec 2013 15:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/7a0bd8618c8c1daf77b5a2d5186f20cac4c7f2cc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use objectLimit from ini settings instead of hard-coded&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/7a0bd8618c8c1daf77b5a2d5186f20cac4c7f2cc</guid>
+      <pubDate>Thu, 25 Jul 2013 11:10:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/85c134c843a3f835a82a63262310b2ac1649bf5e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;adding comment on ObjectLimit setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/85c134c843a3f835a82a63262310b2ac1649bf5e</guid>
+      <pubDate>Thu, 25 Jul 2013 11:10:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/9630572742fdeac33382c6004403eb5faaaa8b85</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;call eZContentObjectAttribute::fetchSameClassAttributeIDList with $asObject=false, in order to use less memory.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/9630572742fdeac33382c6004403eb5faaaa8b85</guid>
+      <pubDate>Thu, 25 Jul 2013 11:10:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/6877a9de4a48eef372a768041c9d17f38d480e23</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #15 from ballinette/EZP-20491-improvement
+
+EZP-20491 improvement : limitation of memory usage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/6877a9de4a48eef372a768041c9d17f38d480e23</guid>
+      <pubDate>Thu, 25 Jul 2013 11:10:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/735719e33749d39340648cb8b57036e5d31c03d1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20752: Monitor page is not updated
+- Monitor page is now updated while the script is executed
+- The batch deletion processes element by 500 instead of 50
+- Added some cli output to help debuging
+- Very minor CS fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/735719e33749d39340648cb8b57036e5d31c03d1</guid>
+      <pubDate>Wed, 03 Jul 2013 14:20:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/83f6a5f3d4148ef9651400bfbdd3f5f4dfaa060a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/83f6a5f3d4148ef9651400bfbdd3f5f4dfaa060a</guid>
+      <pubDate>Fri, 07 Jun 2013 10:40:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/eb1cd6a5cef6d5393d653981cb034fcb189cc3b9</link>
+      <description>
+      &lt;pre&gt;m bin/syncobjectattributes.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-20491: eZScriptMonitor - memory limit overflow
+- batched attribute removal to prevent memory limit overflow.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/eb1cd6a5cef6d5393d653981cb034fcb189cc3b9</guid>
+      <pubDate>Thu, 11 Apr 2013 14:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/c1b88fa2992b85047a37a235046daebd19f119a8</link>
+      <description>
+      &lt;pre&gt;m settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed title of extension link in left menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/c1b88fa2992b85047a37a235046daebd19f119a8</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/6f581c9f96ae292b061fb7b4798fa4b967d6d69b</link>
+      <description>
+      &lt;pre&gt;m bin/syncobjectattributes.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: fixed various stuff introduced in 5bcce1693e7d5a12
+
+- "$siteaccess" should be "$siteAccess"
+- wrong condition used in bin/php/updateniceurls.php (condition was
+  negated)
+- using temp vars sparingly&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/6f581c9f96ae292b061fb7b4798fa4b967d6d69b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/5bcce1693e7d5a128b3d517cf4fc10a30f595eea</link>
+      <description>
+      &lt;pre&gt;m bin/syncobjectattributes.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from crevillo/issue-016796
+
+Fixed #016796: Command line script siteaccess messages&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/5bcce1693e7d5a128b3d517cf4fc10a30f595eea</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/6ffd686d70f4c21e11a77717eb7cca3bb68a0179</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/6ffd686d70f4c21e11a77717eb7cca3bb68a0179</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/94031b2c66b29a5fcdb89df9af4327b42086469e</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL.txt
+m doc/README.txt
+- patches/trunk/classedit-deferred.diff
+- patches/trunk/classedit.diff
+m patches/trunk/subtreeremove.diff
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from glye/annapurna-update
+
+Updated patches and doc for 4.6 Annapurna&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/94031b2c66b29a5fcdb89df9af4327b42086469e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/edae2bcaab796872eda3c767b85eac65e4a10e23</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/edae2bcaab796872eda3c767b85eac65e4a10e23</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/45a27927846c33128bcdb0e3efb3f23e20b7dfc6</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL.txt
+m doc/README.txt
+- patches/trunk/classedit-deferred.diff
+- patches/trunk/classedit.diff
+m patches/trunk/subtreeremove.diff
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated patches and doc for 4.6 Annapurna&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/45a27927846c33128bcdb0e3efb3f23e20b7dfc6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/41c8a82d8c10be6513b617333db076a8c210d374</link>
+      <description>
+      &lt;pre&gt;m settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from glye/leftmenu
+
+Fixed title of extension link in left menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/41c8a82d8c10be6513b617333db076a8c210d374</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/21720fc77f0d07b015d939cce8c4b05fa709ffd6</link>
+      <description>
+      &lt;pre&gt;m doc/README.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from jdespatis/unknown-constant
+
+eZScheduledScript::TYPE_PHP is an unknown constant resulting in a php crash&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/21720fc77f0d07b015d939cce8c4b05fa709ffd6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/eb400111b9c27d5857c454170db250febe633699</link>
+      <description>
+      &lt;pre&gt;m doc/README.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;clean code and more doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/eb400111b9c27d5857c454170db250febe633699</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/af83c8f10bd91ea8702f7d885c1ff16617c2b0f1</link>
+      <description>
+      &lt;pre&gt;m doc/README.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changing to generic code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/af83c8f10bd91ea8702f7d885c1ff16617c2b0f1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/2abefa3b323cb8d24e41128f9c27a9841ae2885b</link>
+      <description>
+      &lt;pre&gt;m doc/README.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;eZScheduledScript::TYPE_PHP is an unknown constant resulting in a php crash&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/2abefa3b323cb8d24e41128f9c27a9841ae2885b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/ffa8f92f8283905a30653b4900d3f4cd5b3aeb1e</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from npanau/master
+
+French translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/ffa8f92f8283905a30653b4900d3f4cd5b3aeb1e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/76a3f08c87f9b126cc1bb93764fd5fe26eb20e91</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/76a3f08c87f9b126cc1bb93764fd5fe26eb20e91</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/2a351622882e94b9c1b610934f18ac1ab3393c8a</link>
+      <description>
+      &lt;pre&gt;m bin/addmissingobjectattributes.php
+m bin/syncobjectattributes.php
+m classes/ezcontentclasseditdeferredhandler.php
+m classes/ezscheduledscript.php
+m cronjobs/runscheduledscripts.php
+m extension.xml
+m ezinfo.php
+m modules/scriptmonitor/list.php
+m modules/scriptmonitor/module.php
+m modules/scriptmonitor/view.php
+m modules/test/antitimeout.php
+m modules/test/module.php
+m modules/test/timeout.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/2a351622882e94b9c1b610934f18ac1ab3393c8a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/915b0e8e6a619ee88c29ce21a214fb2b8d630e7c</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from emodric/cro_HR
+
+Add Croatian translation - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/915b0e8e6a619ee88c29ce21a214fb2b8d630e7c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/cd274f0f2ab53d33750ec970c7444b0a780eb431</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/cd274f0f2ab53d33750ec970c7444b0a780eb431</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/41be776f20ab5db0fe721a505859043aa3d28baf</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from thiagocamposviana/master
+
+finalized pt-BR translation - Etna/4.7 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/41be776f20ab5db0fe721a505859043aa3d28baf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/2a73d4be574c72160ff882b33e5235c670a562d6</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/2a73d4be574c72160ff882b33e5235c670a562d6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/dad5ee89a44972683162db82c61c65253913b8f6</link>
+      <description>
+      &lt;pre&gt;m bin/addmissingobjectattributes.php
+m bin/syncobjectattributes.php
+m classes/ezcontentclasseditdeferredhandler.php
+m classes/ezscheduledscript.php
+m cronjobs/runscheduledscripts.php
+m extension.xml
+m ezinfo.php
+m modules/scriptmonitor/list.php
+m modules/scriptmonitor/module.php
+m modules/scriptmonitor/view.php
+m modules/test/antitimeout.php
+m modules/test/module.php
+m modules/test/timeout.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/dad5ee89a44972683162db82c61c65253913b8f6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 45 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/45</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/45</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 44 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/44</link>
+      <description>- Added: Missing license headers</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/44</guid>
+      <pubDate>Fri, 24 Sep 2010 13:35:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 43 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/43</link>
+      <description>- preparing final builds</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/43</guid>
+      <pubDate>Tue, 14 Sep 2010 22:30:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 42 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/42</link>
+      <description>- added missing ezinfo file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/42</guid>
+      <pubDate>Tue, 14 Sep 2010 16:25:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 41 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/41</link>
+      <description>- Updated copyright notice with current year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/41</guid>
+      <pubDate>Wed, 24 Mar 2010 10:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 40 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/40</link>
+      <description>- Fixed incorrect company name</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/40</guid>
+      <pubDate>Wed, 24 Mar 2010 10:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 38 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/38</link>
+      <description>- Added README</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/38</guid>
+      <pubDate>Fri, 19 Mar 2010 14:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 39 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/39</link>
+      <description>- eZScriptMonitor is now Ant ready</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/39</guid>
+      <pubDate>Fri, 19 Mar 2010 14:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 37 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/37</link>
+      <description>- Added LICENSE</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/37</guid>
+      <pubDate>Fri, 19 Mar 2010 14:25:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 36 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/36</link>
+      <description>- Removed liquibase dir
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/36</guid>
+      <pubDate>Fri, 19 Mar 2010 14:20:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezscriptmonitor rev. 35 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezscriptmonitor/subversion/35</link>
+      <description>- Added: ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezscriptmonitor/subversion/35</guid>
+      <pubDate>Tue, 09 Mar 2010 16:15:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezlightbox</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/20581" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/072ae1492f389e19987abfbb709cd8edfe29b386</link>
+      <description>
+      &lt;pre&gt;+ translations/esl-ES/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;location: added esl-ES translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/072ae1492f389e19987abfbb709cd8edfe29b386</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/52bb31af79aa0406dc53f6ecdf586107c058496d</link>
+      <description>
+      &lt;pre&gt;m actions/content_actionhandler.php
+m classes/ezlightbox.php
+m classes/ezlightboxaccess.php
+m datatypes/ezlightboxwrapper/ezlightboxwrappertype.php
+m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/lightboxoperationcollection.php
+m modules/lightbox/send.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replaced ezi18n() with ezpI18n::tr()
+(Merged from master commit e9a9dce)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/52bb31af79aa0406dc53f6ecdf586107c058496d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/fbb4e352fde89d68a9d52ac5a5a264004c8e7445</link>
+      <description>
+      &lt;pre&gt;- translations/dut-NL/translation.ts
+m translations/esl-ES/translation.ts
+- translations/fre-FR/translation.ts
+m translations/ger-DE/translation.ts
+- translations/hun-HU/translation.ts
+- translations/pol-PL/translation.ts
+m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: updated strings for the ezpublish 4.5 release
+
+Removed empty translation files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/fbb4e352fde89d68a9d52ac5a5a264004c8e7445</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/86a59f23b9fd5cd548fcecd11b62e347b8e95d8e</link>
+      <description>
+      &lt;pre&gt;m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization: updated base translations.ts file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/86a59f23b9fd5cd548fcecd11b62e347b8e95d8e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/cb891b9fff2d05797091708c7fd88130ee9f6102</link>
+      <description>
+      &lt;pre&gt;m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/lightboxfunctioncollection.php
+m modules/lightbox/lightboxoperationcollection.php
+m modules/lightbox/send.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed require_once( 'autoload.php' ) calls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/cb891b9fff2d05797091708c7fd88130ee9f6102</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/0239f12f706b35dad676e5ba42cdd49047aed937</link>
+      <description>
+      &lt;pre&gt;m actions/content_actionhandler.php
+m classes/ezlightbox.php
+m classes/ezlightboxaccess.php
+m classes/ezlightboxobject.php
+m classes/ezlightboxobjectitem.php
+m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/send.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Removed require_once( 'kernel/common/template.php' ) calls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/0239f12f706b35dad676e5ba42cdd49047aed937</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/32fcfc88aab90c48ef13b36c156b4edf53ad7411</link>
+      <description>
+      &lt;pre&gt;m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/send.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replace templateInit() for eZTemplate::factory()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/32fcfc88aab90c48ef13b36c156b4edf53ad7411</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/2d7e1530242a80c0d4ea9a91e7ac15978ba14176</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed some issues in the french translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/2d7e1530242a80c0d4ea9a91e7ac15978ba14176</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/9e98194ed6b5baab863938d00d7fdb989fa0eee1</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from SylvainGuittard/master
+
+New translation : FR - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/9e98194ed6b5baab863938d00d7fdb989fa0eee1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/1f5eef40b62845c185916625b8ae7ae06994dc02</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Modification Lightbox Wrapper&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/1f5eef40b62845c185916625b8ae7ae06994dc02</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/fb40b38d0c82bde3d1847a214522c6f365c21f7f</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation created&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/fb40b38d0c82bde3d1847a214522c6f365c21f7f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/fb46bc434eaa7664b8b100f3b4dfc7ccb2fed0b7</link>
+      <description>
+      &lt;pre&gt;m translations/esl-ES/translation.ts
+m translations/ger-DE/translation.ts
+m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: updated strings for the ezpublish 4.5 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/fb46bc434eaa7664b8b100f3b4dfc7ccb2fed0b7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/157042c2809ab63a2641a1bcb5f72486bafeb88d</link>
+      <description>
+      &lt;pre&gt;m modules/lightbox/send.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed: copyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/157042c2809ab63a2641a1bcb5f72486bafeb88d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/7518e9dc96d3eb96be9852d20b53ee92b4ec99ec</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/7518e9dc96d3eb96be9852d20b53ee92b4ec99ec</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/5ecccb4f9b9feeb1f6cbb04e84a07be6cf5f3495</link>
+      <description>
+      &lt;pre&gt;m actions/content_actionhandler.php
+m classes/ezlightbox.php
+m classes/ezlightboxaccess.php
+m classes/ezlightboxobject.php
+m classes/ezlightboxobjectitem.php
+m cronjobs/lightboxcleanup.php
+m datatypes/ezlightboxwrapper/ezlightboxwrappertype.php
+m ezinfo.php
+m lightboxitems/ezcontentobjectlightboxitem.php
+m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/function_definition.php
+m modules/lightbox/lightboxfunctioncollection.php
+m modules/lightbox/lightboxoperationcollection.php
+m modules/lightbox/module.php
+m modules/lightbox/operation_definition.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/5ecccb4f9b9feeb1f6cbb04e84a07be6cf5f3495</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/b82835cb6c89a1cd9cdc76ea64fce293cd5a82e4</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated strings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/b82835cb6c89a1cd9cdc76ea64fce293cd5a82e4</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/1763138e3eefde8581b3f1e290b21c0538795772</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from dpobel/fre-fr
+
+Fixed some issues in the french translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/1763138e3eefde8581b3f1e290b21c0538795772</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/02b35b89192bac8939adf52e78399c1e8ec9cdd6</link>
+      <description>
+      &lt;pre&gt;m actions/content_actionhandler.php
+m classes/ezlightbox.php
+m classes/ezlightboxaccess.php
+m classes/ezlightboxobject.php
+m classes/ezlightboxobjectitem.php
+m cronjobs/lightboxcleanup.php
+m datatypes/ezlightboxwrapper/ezlightboxwrappertype.php
+m extension.xml
+m ezinfo.php
+m lightboxitems/ezcontentobjectlightboxitem.php
+m modules/lightbox/create.php
+m modules/lightbox/edit.php
+m modules/lightbox/function_definition.php
+m modules/lightbox/lightboxfunctioncollection.php
+m modules/lightbox/lightboxoperationcollection.php
+m modules/lightbox/module.php
+m modules/lightbox/operation_definition.php
+m modules/lightbox/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/02b35b89192bac8939adf52e78399c1e8ec9cdd6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/7b7d0ba644e74e86b6a6f411c5d43c510459feb7</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezlightboxwrapper/ezlightboxwrappertype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed inclusion of deprecated i18n.php file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/7b7d0ba644e74e86b6a6f411c5d43c510459feb7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezlightbox/subversion/4f8e79e3fd113e8a53d401ee0ae5a9638d485a16</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/4f8e79e3fd113e8a53d401ee0ae5a9638d485a16</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 37 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/37</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/37</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 36 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/36</link>
+      <description>Fixed bug #016547: EzTeamRoom: PostGres: Create new lightbox [Error] Transaction in progress failed due to DB error, transaction was rollbacked.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/36</guid>
+      <pubDate>Wed, 15 Sep 2010 14:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Greet Job, But complicated for a simple functionality</title>
+      <link>http://projects.ez.no/ezlightbox/forum/general/greet_job_but_complicated_for_a_simple_functionality</link>
+      <description>I think you do a greet work in this exension.&#13;
+&#13;
+I hope having in addition to the notion of lightbox etc... Another simple feature, like adding a class to a image object in order to have a lightbox image including in a blockXML.&#13;
+&#13;
+is that possible?&#13;
+&#13;
+Tks</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/ezlightbox/forum/general/greet_job_but_complicated_for_a_simple_functionality</guid>
+      <pubDate>Sat, 28 Aug 2010 23:59:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 35 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/35</link>
+      <description>- Fixed bug #16917: [ezteamroom] Notice: Undefined index: SCRIPT_URI
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/35</guid>
+      <pubDate>Mon, 21 Jun 2010 09:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 34 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/34</link>
+      <description>- renamed schema.dba to db_schema.dba (merge from trunk/rev. 33)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/34</guid>
+      <pubDate>Wed, 21 Apr 2010 14:15:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 33 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/33</link>
+      <description>- renamed schema.dba to db_schema.dba</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/33</guid>
+      <pubDate>Wed, 21 Apr 2010 14:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 32 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/32</link>
+      <description>- updating revision number</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/32</guid>
+      <pubDate>Fri, 26 Mar 2010 15:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 31 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/31</link>
+      <description>- Added .dba file
+  (Merged from trunk, rev. 30)
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/31</guid>
+      <pubDate>Thu, 25 Mar 2010 12:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 30 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/30</link>
+      <description>- Added schema.db</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/30</guid>
+      <pubDate>Thu, 25 Mar 2010 09:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 29 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/29</link>
+      <description>- Fixed copyright year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/29</guid>
+      <pubDate>Wed, 24 Mar 2010 17:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 28 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/28</link>
+      <description>- fixed bug #016472: Bug: CronJob &gt; TeamRoom &gt; lightboxcleanup (parse error)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/28</guid>
+      <pubDate>Fri, 19 Mar 2010 14:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 27 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/27</link>
+      <description>- fixed bug #016472: Bug: CronJob &gt; TeamRoom &gt; lightboxcleanup (parse error)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/27</guid>
+      <pubDate>Fri, 19 Mar 2010 14:15:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 26 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/26</link>
+      <description>- preparing yet another package</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/26</guid>
+      <pubDate>Thu, 18 Mar 2010 15:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 24 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/24</link>
+      <description>- fixed bug #016458: schema files for ezlightbox is now wrong</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/24</guid>
+      <pubDate>Thu, 18 Mar 2010 15:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 25 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/25</link>
+      <description>- svn property eol style native</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/25</guid>
+      <pubDate>Thu, 18 Mar 2010 15:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 22 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/22</link>
+      <description>- updating build config for trunk (correcting previous commit)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/22</guid>
+      <pubDate>Tue, 16 Mar 2010 14:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 23 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/23</link>
+      <description>- updating build config for trunk, changed url</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/23</guid>
+      <pubDate>Tue, 16 Mar 2010 14:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 21 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/21</link>
+      <description>- updating build config for stable/0.7</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/21</guid>
+      <pubDate>Tue, 16 Mar 2010 14:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 20 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/20</link>
+      <description>- updating build config</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/20</guid>
+      <pubDate>Tue, 16 Mar 2010 13:50:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 19 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/19</link>
+      <description>- syncing private branches</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/19</guid>
+      <pubDate>Tue, 16 Mar 2010 13:35:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 18 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/18</link>
+      <description>- CS: svn properties added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/18</guid>
+      <pubDate>Mon, 08 Mar 2010 13:35:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 17 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/17</link>
+      <description>- Merged: with commercial repository -r {2009-10-29}:55329</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/17</guid>
+      <pubDate>Mon, 08 Mar 2010 13:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 16 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/16</link>
+      <description>- CS: using UNIX eol</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/16</guid>
+      <pubDate>Mon, 08 Mar 2010 13:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 15 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/15</link>
+      <description>- Added postgresql schema</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/15</guid>
+      <pubDate>Wed, 03 Mar 2010 08:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 14 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/14</link>
+      <description>- Added liquibase files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/14</guid>
+      <pubDate>Wed, 03 Mar 2010 08:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 13 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/13</link>
+      <description>- Renamed schema file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/13</guid>
+      <pubDate>Tue, 02 Mar 2010 15:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 12 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/12</link>
+      <description>- preparing build of 1.0-beta1, changing meta-data</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/12</guid>
+      <pubDate>Mon, 22 Feb 2010 14:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/11</link>
+      <description>- change quote style to better interact with build tool</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/11</guid>
+      <pubDate>Fri, 19 Feb 2010 16:45:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 10 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/10</link>
+      <description>- preparing beta1 build</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/10</guid>
+      <pubDate>Fri, 19 Feb 2010 09:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezlightbox rev. 9 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezlightbox/subversion/9</link>
+      <description>- corrected qa requirements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezlightbox/subversion/9</guid>
+      <pubDate>Mon, 08 Feb 2010 22:05:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

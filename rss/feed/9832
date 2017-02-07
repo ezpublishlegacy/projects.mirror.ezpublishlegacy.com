@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezoracle</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9832" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/72b2331d373f95a06e1407f42b5e9ab5ce6749be</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-24763: Concurrency problems in generating image aliases&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/72b2331d373f95a06e1407f42b5e9ab5ce6749be</guid>
+      <pubDate>Thu, 15 Oct 2015 14:03:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/af0b0b00b9572e623d6f72f1d0640b9e58504edf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #25 from ezsystems/ezp-24763_generating_files
+
+Fix EZP-24763: Concurrency problems in generating image aliases&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/af0b0b00b9572e623d6f72f1d0640b9e58504edf</guid>
+      <pubDate>Thu, 15 Oct 2015 14:03:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/b7b5df4416443bb56d714aa7d35d231cf940837b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Better error reporting for ezdfs handler; clean up dead code and warnings reported by phpstorm&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/b7b5df4416443bb56d714aa7d35d231cf940837b</guid>
+      <pubDate>Thu, 15 Oct 2015 14:03:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/402a2195f4f9c38d9e09049fb96f0b53863916dc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Whitespace&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/402a2195f4f9c38d9e09049fb96f0b53863916dc</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/b5fe0c3199885c704f2a5df5ad95243395a6cca3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add upgrade sql for ezp 5.2.0 =&gt; 5.3.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/b5fe0c3199885c704f2a5df5ad95243395a6cca3</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/349a15de18c4ba15d2b14d3094116e64a58229f0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Also add changes to the upgrade script from 5.0 to 5.1 which were previously left out&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/349a15de18c4ba15d2b14d3094116e64a58229f0</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/0d0c03f4efead767c756b532490bf879a596cfd2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #20 from gggeek/support_53
+
+WIP: Support 53&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/0d0c03f4efead767c756b532490bf879a596cfd2</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/7de9c0700b2a58a0d2f2f5037cc6da3026fcd8f4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23890: better sort index elements in db schema def. extraction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/7de9c0700b2a58a0d2f2f5037cc6da3026fcd8f4</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/bce5f14c39413e79785299d3baf4ac06c91ed0a8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix pesky typo in script to upgrade to 5.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/bce5f14c39413e79785299d3baf4ac06c91ed0a8</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/d2b04a698b2fa5ad0031f0339c47a005ae2a86a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Make sure we drop the temp table when updating to 5.2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/d2b04a698b2fa5ad0031f0339c47a005ae2a86a6</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/b354078fa513f6f8c6b2f1caf46b3d7767b603b4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix last 'alter table' command from 5.0 to 5.1 to make it actually work&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/b354078fa513f6f8c6b2f1caf46b3d7767b603b4</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/d95d223b17221072778291073b88177ea02be40c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add 5.1 to 5.2 sql&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/d95d223b17221072778291073b88177ea02be40c</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/52760cf364b0d20d8dfc7887dd53585fe88eda9b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #21 from gggeek/issue_23890
+
+Fix EZP-23890: better sort index elements in db schema def. extraction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/52760cf364b0d20d8dfc7887dd53585fe88eda9b</guid>
+      <pubDate>Fri, 16 Jan 2015 16:53:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/da62cba460d43b5544b7a5c6d3eb605d4d1fa514</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed: ezcontentobject_link.op_code column&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/da62cba460d43b5544b7a5c6d3eb605d4d1fa514</guid>
+      <pubDate>Fri, 24 Oct 2014 00:13:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/8849aee21b44c6fb2e0bab6ffb558b4d7172f096</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: cleanup queries for ezcontentobject_link table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/8849aee21b44c6fb2e0bab6ffb558b4d7172f096</guid>
+      <pubDate>Fri, 24 Oct 2014 00:13:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/317478a6876d993e54b2f5fc9e7f6bc6c34f2871</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/317478a6876d993e54b2f5fc9e7f6bc6c34f2871</guid>
+      <pubDate>Thu, 15 May 2014 09:03:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/7fb18747d7ac7caa2b12c310f569d46c827cc464</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/7fb18747d7ac7caa2b12c310f569d46c827cc464</guid>
+      <pubDate>Tue, 13 May 2014 21:53:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/77343529dc98557c770015bad4e45ae88faea6f8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-21585: ORA-12899 when creating content in japanese&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/77343529dc98557c770015bad4e45ae88faea6f8</guid>
+      <pubDate>Fri, 25 Oct 2013 10:13:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/b6e51c9f52f014e78582d5828f0487d026ae818e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-21750: bad help message in ora-drop-schema.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/b6e51c9f52f014e78582d5828f0487d026ae818e</guid>
+      <pubDate>Tue, 15 Oct 2013 11:43:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/c387f11f992b0c443412b14e5561cda22aa77875</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #17 from gggeek/EZP-21750
+
+Fix EZP-21750: bad help message in ora-drop-schema.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/c387f11f992b0c443412b14e5561cda22aa77875</guid>
+      <pubDate>Tue, 15 Oct 2013 11:43:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/111d0e6b3fef2d4c02bf7a97a0fed53bf71163ec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-21648: added priority and is_hidden columns to eznode_assignment table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/111d0e6b3fef2d4c02bf7a97a0fed53bf71163ec</guid>
+      <pubDate>Mon, 07 Oct 2013 08:23:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/874c9aa22daf6dbc8528510548916bde71fb95fe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from pspanja/fix-EZP-21648-node_assignment-new-columns
+
+Fix EZP-21648: when publishing Content with Location some Location create struct properties are not respected&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/874c9aa22daf6dbc8528510548916bde71fb95fe</guid>
+      <pubDate>Mon, 07 Oct 2013 08:23:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/9778d8574bd409fbb656abd33af3976305e5c465</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-20048: removed instructions about DB cluster&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/9778d8574bd409fbb656abd33af3976305e5c465</guid>
+      <pubDate>Fri, 13 Sep 2013 10:32:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/5fb896f404602414d75617784ed8c7fc4d7a0202</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-21412: Improved insert/update of cache
+
+Implements _insertUpdate in the Oracle DFS handler in order
+to better handle race conditions.
+- only updates entries that weren't changed (mtime) since
+  we checked for their existence (better performances)
+- silently (jerken-clustering notice) ignores insert failures
+  on duplicate key
+- doesn't store nor end generation when no cache has been written
+  to DFS (better performances)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/5fb896f404602414d75617784ed8c7fc4d7a0202</guid>
+      <pubDate>Thu, 05 Sep 2013 10:03:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/ad803cdbdb6b5ad3f448ffb819534c5e1facb1b0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from jjCavalleri/20824
+
+Fixed #20824: ezoracledb-&gt;generateSQLINStatement - not working correctly for items &gt; 1000&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/ad803cdbdb6b5ad3f448ffb819534c5e1facb1b0</guid>
+      <pubDate>Tue, 21 May 2013 12:53:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/3fff95005cf911cef7d3a2c4d151115ed06fb1c8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #20824: ezoracledb-&gt;generateSQLINStatement - not working correctly for items &gt; 1000&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/3fff95005cf911cef7d3a2c4d151115ed06fb1c8</guid>
+      <pubDate>Tue, 21 May 2013 12:53:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/bd956fec88088f496cf103e7e6a4beb5a68ee562</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.1/dbupdate-5.0.0-to-5.1.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #13 from pspanja/EZP-20239
+
+Cleanup queries for ezcontentobject_link table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/bd956fec88088f496cf103e7e6a4beb5a68ee562</guid>
+      <pubDate>Sun, 17 Feb 2013 11:43:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/e45491b93c62e46b2a4eb87ba1b6ada959e0afc8</link>
+      <description>
+      &lt;pre&gt;m LICENSE
+m bin/php/mysql2oracle-data.php
+m bin/php/mysql2oracle-schema.php
+m bin/php/ora-drop-schema.php
+m bin/php/ora-grant.php
+m bin/php/ora-update-seqs.php
+m bin/php/oracleclusterbinarypurge.php
+m clusterfilehandlers/dbbackends/oracle.php
+m clusterfilehandlers/dfsbackends/oracle.php
+m clusterfilehandlers/gateways/db.php
+m clusterfilehandlers/gateways/dfs.php
+m extension.xml
+m ezdb/dbms-drivers/ezoracledb.php
+m ezdb/dbms-schema/ezoracleschema.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/e45491b93c62e46b2a4eb87ba1b6ada959e0afc8</guid>
+      <pubDate>Wed, 06 Feb 2013 15:13:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/0d756f3ae1886c28b160dd90399c0f0a4430bcd0</link>
+      <description>
+      &lt;pre&gt;+ update/database/ezpublish/5.1/dbupdate-5.0.0-to-5.1.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented EZP-20194: Providing DB upgrade scripts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/0d756f3ae1886c28b160dd90399c0f0a4430bcd0</guid>
+      <pubDate>Wed, 23 Jan 2013 17:03:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/7edd3f54c5318125c0acea94080989eb52d18cd4</link>
+      <description>
+      &lt;pre&gt;+ update/database/ezpublish/5.1/dbupdate-5.0.0-to-5.1.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from patrickallaert/EZP-20194
+
+Implemented EZP-20194: Providing DB upgrade scripts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/7edd3f54c5318125c0acea94080989eb52d18cd4</guid>
+      <pubDate>Wed, 23 Jan 2013 17:03:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/1b8a0f5a38e2c347377ab079cf17b6d8b8e1fb4f</link>
+      <description>
+      &lt;pre&gt;m README.cluster
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from jpingo/patch-1
+
+Update README.cluster&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/1b8a0f5a38e2c347377ab079cf17b6d8b8e1fb4f</guid>
+      <pubDate>Wed, 02 Jan 2013 16:03:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/32caa998e36b6586a329b26afdd19c40ec7c2f03</link>
+      <description>
+      &lt;pre&gt;m README.cluster
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.cluster
+
+Changed the Clustering documentation link to the new version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/32caa998e36b6586a329b26afdd19c40ec7c2f03</guid>
+      <pubDate>Wed, 02 Jan 2013 16:03:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/2e33c773dcd26931c90d21a862a1790c490f4abd</link>
+      <description>
+      &lt;pre&gt;m README
+m README.cluster
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20049: eZ Oracle Upgrade link isn't working on README file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/2e33c773dcd26931c90d21a862a1790c490f4abd</guid>
+      <pubDate>Wed, 02 Jan 2013 11:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/b36636fc6bcd42c3e3616a005619f904d4624836</link>
+      <description>
+      &lt;pre&gt;m clusterfilehandlers/dfsbackends/oracle.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed EZP-196171 - DFS cluster: expiryXYZtmp.php with 0 byte size&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/b36636fc6bcd42c3e3616a005619f904d4624836</guid>
+      <pubDate>Tue, 11 Dec 2012 14:42:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/191c0e4de26be945607138a3fc9a5837ad088288</link>
+      <description>
+      &lt;pre&gt;m bin/php/mysql2oracle-data.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from gggeek/issue_19296_
+
+Further fixes for issue 19296: allow proper migration of data from mysql...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/191c0e4de26be945607138a3fc9a5837ad088288</guid>
+      <pubDate>Mon, 10 Dec 2012 16:32:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/7fc1f4f66c909ddf6d97b0754c56023f62ea6831</link>
+      <description>
+      &lt;pre&gt;m README.cluster
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from pedroresende/EZP-20048
+
+Fix EZP-20048 - README.Cluster in eZ Oracle extension has a typoo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/7fc1f4f66c909ddf6d97b0754c56023f62ea6831</guid>
+      <pubDate>Mon, 10 Dec 2012 12:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/587c07c578219f9318da15867d9c731fd8c75372</link>
+      <description>
+      &lt;pre&gt;+ update/database/ezpublish/4.7/dbupdate-4.6.0-to-4.7.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20185: eZOracle: dbupdate-4.6.0-to-4.7.0.sql is missing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/587c07c578219f9318da15867d9c731fd8c75372</guid>
+      <pubDate>Mon, 03 Dec 2012 14:52:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/ee442b838b0878d49d38d9be4f6c3b692e74f7a9</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/4.7/unstable/dbupdate-4.6.0-to-4.7.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-19833: Upgrade fails if ezpending_actions is not empty
+
+Make sure we try to create s_pending_actions_incr sequence only once&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/ee442b838b0878d49d38d9be4f6c3b692e74f7a9</guid>
+      <pubDate>Fri, 30 Nov 2012 14:04:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/c60c8afe0fa103c6b0d9beb81ab19b91e23a298f</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/dbupdate-4.7.0-to-5.0.0.sql
++ update/database/ezpublish/5.0/unstable/dbupdate-5.0.0alpha1-to-5.0.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from patrickallaert/EZP-20089
+
+Fixed: EZP-20089: Failure in legacy integration tests with non SQLite da...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/c60c8afe0fa103c6b0d9beb81ab19b91e23a298f</guid>
+      <pubDate>Thu, 22 Nov 2012 16:52:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/d711c5fd10f22c19676ad2f4f00f831dd4f61937</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/dbupdate-4.7.0-to-5.0.0.sql
++ update/database/ezpublish/5.0/unstable/dbupdate-5.0.0alpha1-to-5.0.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed: EZP-20089: Failure in legacy integration tests with non SQLite database&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/d711c5fd10f22c19676ad2f4f00f831dd4f61937</guid>
+      <pubDate>Thu, 22 Nov 2012 16:52:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/2dbe5bcc3c276f68ee534ba5777138e9080a5df1</link>
+      <description>
+      &lt;pre&gt;+ update/database/ezpublish/5.0/dbupdate-4.7.0-to-5.0.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20035: Missing SQL files for Oracle's upgrade&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/2dbe5bcc3c276f68ee534ba5777138e9080a5df1</guid>
+      <pubDate>Tue, 13 Nov 2012 15:22:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/497b76cd8526f994aa2e216042b3730f8b8fda86</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/4.7/unstable/dbupdate-4.6.0-to-4.7.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-19833: Upgrade fails if ezpending_actions is not empty&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/497b76cd8526f994aa2e216042b3730f8b8fda86</guid>
+      <pubDate>Fri, 26 Oct 2012 09:02:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/bc0b097a3cca90d355002180b10926062b595894</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented #019384: Adding an index on ezuser.login could lead to substancial performance gains&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/bc0b097a3cca90d355002180b10926062b595894</guid>
+      <pubDate>Thu, 13 Sep 2012 08:12:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/c4f85b601429197a6b62e37bb9dd933625ebe234</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from patrickallaert/issue-19384
+
+Implemented #019384: Adding an index on ezuser.login could lead to subst...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/c4f85b601429197a6b62e37bb9dd933625ebe234</guid>
+      <pubDate>Thu, 13 Sep 2012 08:12:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/2d7bbb87c23ad0faee6ceb20d5d6e238e37100cb</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19397: General digest settings table is not updated when changing email&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/2d7bbb87c23ad0faee6ceb20d5d6e238e37100cb</guid>
+      <pubDate>Thu, 30 Aug 2012 07:21:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/d8ad4a95c487bc7c91999c14d065578c461523b9</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/d8ad4a95c487bc7c91999c14d065578c461523b9</guid>
+      <pubDate>Mon, 27 Aug 2012 12:52:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/7b53204c2d90c7008ae3fe4b836ffd3bb1795885</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from ezsystems/19169_duplicate_object_state_group
+
+Fixed #19169: duplicated object state groups after changing default language&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/7b53204c2d90c7008ae3fe4b836ffd3bb1795885</guid>
+      <pubDate>Mon, 09 Jul 2012 15:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/98d70e77e46187352cd03114cbbd93286de0b8ef</link>
+      <description>
+      &lt;pre&gt;m update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19169: duplicated object state groups after changing default language&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/98d70e77e46187352cd03114cbbd93286de0b8ef</guid>
+      <pubDate>Mon, 09 Jul 2012 15:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/05ed707c4bf52c33947cb6300223cc99f36c5640</link>
+      <description>
+      &lt;pre&gt;+ update/database/ezpublish/5.0/unstable/dbupdate-4.7.0-to-5.0.0alpha1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added missing SQL to upgrade Oracle database to eZ Publish 5.0.0alpha1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/05ed707c4bf52c33947cb6300223cc99f36c5640</guid>
+      <pubDate>Thu, 05 Jul 2012 13:51:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezoracle/subversion/a2a850b628e58c518c114c742c08553889c073f6</link>
+      <description>
+      &lt;pre&gt;m INSTALL
+m README.cluster
+m bin/shell/ora-initialize.sh
+m clusterfilehandlers/dbbackends/oracle.php
+m clusterfilehandlers/dfsbackends/oracle.php
+m ezdb/dbms-drivers/ezoracledb.php
+m ezdb/dbms-schema/ezoracleschema.php
+m update/database/ezpublish/4.7/unstable/dbupdate-4.6.0-to-4.7.0alpha1.sql
+m update/database/ezpublish/4.7/unstable/dbupdate-4.7.0alpha1-to-4.7.0beta1.sql
++ update/database/ezpublish/4.7/unstable/dbupdate-4.7.0beta1-to-4.7.0rc1.sql
++ update/database/ezpublish/4.7/unstable/dbupdate-cluster-4.7.0beta1-to-4.7.0rc1.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:ezsystems/ezoracle&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezoracle/subversion/a2a850b628e58c518c114c742c08553889c073f6</guid>
+      <pubDate>Thu, 24 May 2012 14:51:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

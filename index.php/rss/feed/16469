@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / dpgnu / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:22:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:22:32 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16469" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Match with Google requirements</title>
+      <link>http://projects.ez.no/dpgnu/forum/general/match_with_google_requirements</link>
+      <description>To match Google requirements, the extension should provide at least 3 digit numbers or more but not 4 digits numbers to not be assimilated as a date.&#13;
+It's actually not the case.&#13;
+It's a very simple update which consists in using the substr php function in order to return only 3 digits numbers in the process function.</description>
+      <author>community@ez.no (Emmanuel Mouchel)</author>
+      <guid>http://projects.ez.no/dpgnu/forum/general/match_with_google_requirements</guid>
+      <pubDate>Thu, 03 Feb 2011 15:27:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to use it ?</title>
+      <link>http://projects.ez.no/dpgnu/forum/general/how_to_use_it</link>
+      <description>Hi,&#13;
+&#13;
+I checked out the last version on the SVN, activated the extension, cleared the caches, runned the updateniceurls.php, re-cleared the cache and my url are unchanged...&#13;
+&#13;
+Did I missed something ?&#13;
+&#13;
+EDIT : 	&#13;
+sorry I made a mistake in the settings&#13;
+&#13;
+Thank you for this extension!</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/dpgnu/forum/general/how_to_use_it</guid>
+      <pubDate>Mon, 15 Jun 2009 11:07:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

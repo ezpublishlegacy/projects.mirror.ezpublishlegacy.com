@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpiwik / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:26:09 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:26:09 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9518" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Status of project</title>
+      <link>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project3</link>
+      <description>Here you go:&#13;
+&#13;
+&#13;
+https://github.com/xrowgmbh/xrowpiwik</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project3</guid>
+      <pubDate>Mon, 28 Jan 2013 13:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Status of project</title>
+      <link>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project2</link>
+      <description>+1&#13;
+&#13;
+I would be a fan for a Piwik interface in eZ.&#13;
+Does anyone have Frédéric DAVID email to contact him ?&#13;
+&#13;
+Otherwise it would be a good idea to recover this repository and build a new integration extension, cause the project is visible on Piwik web site : http://piwik.org/integrate/&#13;
+&#13;
+Olivier</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project2</guid>
+      <pubDate>Thu, 25 Oct 2012 10:57:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Status of project</title>
+      <link>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project</link>
+      <description>+1&#13;
+I am also really keen on seeing an eZ Publish - Piwik integration.&#13;
+&#13;
+@Frederic : was there any base-code you could push into the SVN repository ?&#13;
+&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezpiwik/forum/general/status_of_project/re_status_of_project</guid>
+      <pubDate>Wed, 20 Jul 2011 07:24:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Status of project</title>
+      <link>http://projects.ez.no/ezpiwik/forum/general/status_of_project</link>
+      <description>I see no sources or downloads anywhere, but the idea is good...&#13;
+&#13;
+My take on what we could do:&#13;
+- the bit of template to load the piwik js bug in frontend templates&#13;
+- integration of the piwik console in the eZP admin interface, with roles and policies correctly managed&#13;
+- ability to filter out from stats visits by some groups of eZ users (eg admins, editors)- fetch functions to get piwik data in eZ templates&#13;
+- more???&#13;
+&#13;
+Please approve my membership request to kickstart development if there is no code to start from...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpiwik/forum/general/status_of_project</guid>
+      <pubDate>Tue, 19 Jul 2011 19:05:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>src of ez piwik</title>
+      <link>http://projects.ez.no/ezpiwik/forum/general/src_of_ez_piwik</link>
+      <description>I can't find any source code?&#13;
+&#13;
+Can you upload it?&#13;
+&#13;
+Thank's&#13;
+Felix&#13;
+&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezpiwik/forum/general/src_of_ez_piwik</guid>
+      <pubDate>Tue, 09 Feb 2010 11:00:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / fezmetadata / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:35:34 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:35:34 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11881" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>To make it work with latest versions</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/to_make_it_work_with_latest_versions</link>
+      <description>Hello&#13;
+&#13;
+I have the Community Project 2011.5 version (ok no so latest...)&#13;
+The ezi18n funciton is used in the classe fezmetadata.php. But this function is deprecated...&#13;
+You have to replace the line 111 : &#13;
+&lt;code&gt;&#13;
+$metaName = ezi18n( 'fezmetadata', $ini-&gt;variable( 'MetaData_'.$metaName, 'Name' ) );&#13;
+&lt;/code&gt;&#13;
+by :&#13;
+&lt;code&gt; &#13;
+$metaName = ezpI18n::tr( 'fezmetadata', $ini-&gt;variable( 'MetaData_'.$metaName, 'Name' ), null, null );&#13;
+&lt;/code&gt;&#13;
+&#13;
+It works for me and I think it would help ;-)&#13;
+</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/to_make_it_work_with_latest_versions</guid>
+      <pubDate>Wed, 15 May 2013 08:17:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is it working with ezpublish 4.4 ?</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/is_it_working_with_ezpublish_4_4</link>
+      <description>Hello ,&#13;
+&#13;
+I'm trying your extension with eZPublish 4.4 but no one metadata input form are display.&#13;
+&#13;
+Is it a problement of my configuration or extension doesn't work with this version ? &#13;
+&#13;
+Thanks for your reply.  </description>
+      <author>community@ez.no (Etienne Loth)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/is_it_working_with_ezpublish_4_4</guid>
+      <pubDate>Thu, 28 Jul 2011 16:23:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta data not get displayed on hidden page</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/meta_data_not_get_displayed_on_hidden_page</link>
+      <description>Hi &#13;
+&#13;
+I am using this extension on all of our websites as it provides great flexibility over the keywords and description. &#13;
+But just have realized that if the page is hidden, custom keywords and description tags added using this extension, does not get displayed. Is there any way to get this working on hidden pages?&#13;
+&#13;
+Really appreciate your advice!&#13;
+&#13;
+Regards&#13;
+Anaya</description>
+      <author>community@ez.no (Anaya P)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/meta_data_not_get_displayed_on_hidden_page</guid>
+      <pubDate>Tue, 11 Jan 2011 14:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage5</link>
+      <description>I think you could fetch the languages not in your ezmetadata.ini.append.php but in the SiteLanguageList in site.ini.append.php !&#13;
+&#13;
+In design/admin(2)/templates/fezmetadata/edit.tpl (line 34) :&#13;
+&lt;code&gt;&#13;
+{def $language_list=ezini( 'RegionalSettings', 'SiteLanguageList' )}&#13;
+{if gt( $language_list|count, '1' )}&#13;
+	&lt;div class="block"&gt;&#13;
+		&lt;label for="language"&gt;{'Language'|i18n('fezmetadata')}:&lt;/label&gt;&#13;
+		&lt;select id="langauge" class="box" name="language"&gt;&#13;
+			{foreach $language_list as $language_code}&#13;
+				&lt;option value="{$language_code}"{if $object.language|eq($language_code)} selected="selected"{/if}&gt;{$language_code}&lt;/option&gt;&#13;
+			{/foreach}&#13;
+		&lt;/select&gt;&#13;
+	&lt;/div&gt;&#13;
+{else}&#13;
+	{foreach $language_list as $language_code}&#13;
+		&lt;input type="hidden" value="{$language_code}" name="language" /&gt;&#13;
+	{/foreach}&#13;
+{/if}&#13;
+&lt;/code&gt;&#13;
+&#13;
+And in design/admin(2)/templates/metadata.tpl :&#13;
+remove line 25 : {def $language_list=ezini( 'Language', 'List', 'ezmetadata.ini' )}&#13;
+replace line 34 by : {$meta_data.language}&#13;
+&#13;
+Nice extension btw</description>
+      <author>community@ez.no (Pierre Martel)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage5</guid>
+      <pubDate>Tue, 02 Nov 2010 09:09:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not working in EZ Publish 4.3</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/not_working_in_ez_publish_4_3</link>
+      <description>Hi&#13;
+&#13;
+I have used this extension for ez publish 4.0.6 and it works fine there.&#13;
+Trying to use it in 4.3, but can not see meta data tab in the admin, so was wondering whether this extension is compatible with ez publish 4.3 or not?&#13;
+&#13;
+Regards&#13;
+Anaya</description>
+      <author>community@ez.no (Anaya P)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/not_working_in_ez_publish_4_3</guid>
+      <pubDate>Mon, 20 Sep 2010 09:46:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage4</link>
+      <description>Sent.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage4</guid>
+      <pubDate>Thu, 29 Apr 2010 14:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage3</link>
+      <description>Sorry for my reponse a bit late.&#13;
+&#13;
+You can send be the code there : fredericdavid at wanadoo dot fr&#13;
+&#13;
+or another solution. You apply at Team Member. You can use svn with this solution&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage3</guid>
+      <pubDate>Thu, 29 Apr 2010 13:55:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage2</link>
+      <description>Hi Frédéric,&#13;
+&#13;
+Apologizes for the late reply. Anders did not receive a notification of your reply.&#13;
+&#13;
+Please let us know where you want us to send the code.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage2</guid>
+      <pubDate>Fri, 22 Jan 2010 09:47:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage</link>
+      <description>Hi,&#13;
+&#13;
+I'm interested by your changes for multilanguage sites.&#13;
+&#13;
+Maybe can I take some ideas for the "official version"</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage/re_multilanguage</guid>
+      <pubDate>Tue, 24 Nov 2009 14:24:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multilanguage</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multilanguage</link>
+      <description>Hi there,&#13;
+I have altered the extension to work with multilanguage sites. &#13;
+&#13;
+Is this something of interest, just say so and I will provide you with the code.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multilanguage</guid>
+      <pubDate>Tue, 24 Nov 2009 13:38:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Default database engine for mysql</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/default_database_engine_for_mysql</link>
+      <description>Your sql/schema.sql file should declare the default engine so that the table creation is consistent with the rest of an eZ 4 database regardless of the mysql server config.&#13;
+&#13;
+CREATE TABLE fezmeta_data (&#13;
+id INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,&#13;
+contentobject_id INT( 11 ) NOT NULL ,&#13;
+meta_name VARCHAR( 255 ) NOT NULL ,&#13;
+meta_value VARCHAR( 255 ) NOT NULL&#13;
+) ENGINE=InnoDB&#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (Olivier Clavel)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/default_database_engine_for_mysql</guid>
+      <pubDate>Thu, 15 Oct 2009 07:13:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>good extension but monolingue </title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension_but_monolingue</link>
+      <description>is the upgrade to multilanguage allready planned ?&#13;
+&#13;
+this make me very happy &#13;
+&#13;
+thanks for this extension</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension_but_monolingue</guid>
+      <pubDate>Thu, 17 Sep 2009 05:17:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Little problem</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem3</link>
+      <description>I think you don't have regenerate autoloads.&#13;
+&#13;
+lauch this command :&#13;
+&#13;
+php bin/php/ezpgenerateautoloads.php -e</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem3</guid>
+      <pubDate>Fri, 21 Aug 2009 14:20:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Little problem</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem2</link>
+      <description>Thank you for your response, i have a problem when I valid in setup/extension :&#13;
+&#13;
+Fatal error: Class 'ezcFile' not found in /home/infosplage.com/html/lib/ezutils/classes/ezautoloadgenerator.php on line 283&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&#13;
+no message in console mode but same problem :&#13;
+Fatal error: Class 'feZMetaData' not found in /home/infosplage.com/html/extension/fezmetadata/modules/fezmetadata/edit.php on line 68&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+Sorry... any idea ?</description>
+      <author>community@ez.no (Aurélien Faucon)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem2</guid>
+      <pubDate>Mon, 06 Jul 2009 16:22:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Little problem</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem</link>
+      <description>Hi,&#13;
+&#13;
+When you install this extension, you must have to regenerate autoloads. You can regenerate autoloads :&#13;
+&#13;
+- execute the command : php bin/php/ezpgenerateautoloads.php -e&#13;
+- on the admin interface, when you active the extension, you have a submit button to regenerate autoloads.&#13;
+&#13;
+With this solution, your problem will be fix.</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/little_problem/re_little_problem</guid>
+      <pubDate>Mon, 06 Jul 2009 07:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Little problem</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/little_problem</link>
+      <description>Hi all,&#13;
+In first sorry for my limited english.&#13;
+I have a little problem with this extension.&#13;
+When I Click on add a meta data i have a fatal error :&#13;
+Fatal error: Class 'feZMetaData' not found in /home/infosplage.com/html/extension/fezmetadata/modules/fezmetadata/edit.php on line 68&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+Thanks for your help </description>
+      <author>community@ez.no (Aurélien Faucon)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/little_problem</guid>
+      <pubDate>Sat, 04 Jul 2009 08:01:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Metadata for site, section, subtree, object</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/metadata_for_site_section_subtree_object/re_metadata_for_site_section_subtree_object</link>
+      <description>Set metadata for object/subtree is easy. Just update the page_head.tpl.&#13;
+&#13;
+Section and Site are a little bit difficult. I think it's possible to use meta data subtree for site/section.</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/metadata_for_site_section_subtree_object/re_metadata_for_site_section_subtree_object</guid>
+      <pubDate>Sun, 26 Oct 2008 07:57:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fez - open-source(forge) project</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/fez_open_source_forge_project/re_fez_open_source_forge_project</link>
+      <description>There isn't any relation with the fez open source project.&#13;
+&#13;
+Juste f like frefred, for fun.</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/fez_open_source_forge_project/re_fez_open_source_forge_project</guid>
+      <pubDate>Sun, 26 Oct 2008 07:54:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Search integration</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/search_integration/re_search_integration</link>
+      <description>For the moment, I don't think It's possible, but why not in the future.</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/search_integration/re_search_integration</guid>
+      <pubDate>Sun, 26 Oct 2008 07:54:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fez - open-source(forge) project</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/fez_open_source_forge_project</link>
+      <description>Does this have anything to do with the open-source project Fez ( http://sourceforge.net/projects/fez/ )?</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/fez_open_source_forge_project</guid>
+      <pubDate>Sat, 25 Oct 2008 20:51:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiple schemas</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/multiple_schemas</link>
+      <description>It would be great to have the ability to reference multiple schemas.  Here's an example which references a Dublin Core schema:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;&#13;
+&lt;meta name="DC.Coverage" content="Aotearoa" /&gt;&#13;
+&lt;meta name="DC.Coverage" content="New Zealand" /&gt;&#13;
+&lt;meta name="DC.Date.Created" content="31/08/08" /&gt;&#13;
+&lt;meta name="DC.Description" content="Ki te Aoturoa is a set of learning materials for inservice teacher educators (ISTEs) that models the integration of theory and practice critical for ISTE learning. The materials are intended to help ISTEs improve their practice in ways that will impact on teachers practice and lead to improved student outcomes. The materials were developed as part of INSTEP, a Ministry of Education, New Zealand-wide research and development initiative about the learning and practice of ISTEs. " /&gt;&#13;
+&lt;meta name="DC.Format" content="web site" /&gt;&#13;
+&lt;meta name="DC.Identifier" content="http://www.instep.net.nz/" /&gt;&#13;
+&#13;
+&lt;meta name="DC.Language" content="en" /&gt;&#13;
+&lt;meta name="DC.Rights.Name" content="Ministry of Education, New Zealand" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="ICT" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Social Sciences" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Governing and Managing New Zealand Schools" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Gifted and Talented" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Professional Development" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Technology" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="Health and Physical Education" /&gt;&#13;
+&lt;meta name="DC.Subject.Classification" content="The Arts" /&gt;&#13;
+&lt;meta name="DC.Subject.Keyword" content="Best practice" /&gt;&#13;
+&lt;meta name="DC.Subject.Keyword" content="Inquiry learning" /&gt;&#13;
+&lt;meta name="DC.Title" content="Ki te Aoturoa: Improving Inservice Teacher Educator Learning and Practice" /&gt;&#13;
+&lt;meta name="DC.Type" content="Professional development material" /&gt;&#13;
+&lt;meta name="DC.Type" content="Professional reading" /&gt;&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/multiple_schemas</guid>
+      <pubDate>Sat, 25 Oct 2008 20:49:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metadata for site, section, subtree, object</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/metadata_for_site_section_subtree_object</link>
+      <description>This is a request: to be able to set metadata on a per site/section/subtree/object basis.&#13;
+</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/metadata_for_site_section_subtree_object</guid>
+      <pubDate>Sat, 25 Oct 2008 20:40:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Search integration</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/search_integration</link>
+      <description>Is it possible to search the metadata for objects via eZ Find?  If not, this would be an important feature to build in.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/search_integration</guid>
+      <pubDate>Sat, 25 Oct 2008 20:32:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension6</link>
+      <description>great. hope i can find some time to start to work about internazionalization in this week. i tell you about when i have something. </description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension6</guid>
+      <pubDate>Thu, 16 Oct 2008 14:15:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension5</link>
+      <description>If you want to contribute, please register as a member of the fezmetadata project on this page : http://projects.ez.no/fezmetadata/team/members&#13;
+Your contributions are welcomed :-)&#13;
+Just one thing, before coding/commiting, keep on opening a topic in the forum per ideas/bugs so that we can discuss about.&#13;
+&#13;
+I would change the feZ Meta Data project to add :&#13;
+&#13;
+versionning and language of the meta data object in a next version. I hope the version 1.1 :)</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension5</guid>
+      <pubDate>Thu, 16 Oct 2008 13:57:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension4</link>
+      <description>I see it more clearly know. Thank you. &#13;
+&#13;
+Maybe i can help you with internazionalization?&#13;
+It would be nice to have the posibility to add custom tags for the diferrent versions of objects you have in several languages. &#13;
+&#13;
+Right now it seems that "French" is "hardcoded" in the edit template... &#13;
+&#13;
+</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension4</guid>
+      <pubDate>Thu, 16 Oct 2008 12:39:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension3</link>
+      <description>Hi,&#13;
+&#13;
+&gt;I've been thinking in a way to let the users the ability to choose the users they want.&#13;
+&gt;If i'm not wrong, now it's only possible to work with "keywords" and "description" tag. if you need more tags you will need to do some updates to the table schema... am i right with this?&#13;
+&gt;If so, it would be nice to add some kind of "meta administration". it could be a new tab in the upper menu in the admin site. Clicking on it, you will be shown a list of tags. from there, you could add, edit or delete tags. And from a script the table schema will be modified.&#13;
+&gt;This way, everybody can use this extension and add their tags without needing to know sql... &#13;
+&#13;
+For the moment,  the users can manage the availabled meta data in the file ezmetadata.ini. The extension use an array to list the meta data.&#13;
+&#13;
+You can find the informations there : &#13;
+&#13;
+http://svn.projects.ez.no/fezmetadata/trunk/settings/ezmetadata.ini.append.php&#13;
+&#13;
+The sub section like [MetaData_keywords] allows to display in the meta data bloc the name Keywords This term can be translated, like Mots Clés in French.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension3</guid>
+      <pubDate>Thu, 16 Oct 2008 11:56:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension2</link>
+      <description>Glad it helped. &#13;
+&#13;
+I have more ideas about the extension.&#13;
+&#13;
+I've been thinking in a way to let the users the ability to choose the users they want. &#13;
+If i'm not wrong, now it's only possible to work with "keywords" and "description" tag. if you need more tags you will need to do some updates to the table schema... am i right with this?&#13;
+&#13;
+If so, it would be nice to add some kind of "meta administration". it could be a new tab in the upper menu in the admin site. Clicking on it, you will be shown a list of tags. from there, you could add, edit or delete tags. And from a script the table schema will be modified. &#13;
+This way, everybody can use this extension and add their tags without needing to know sql... &#13;
+&#13;
+</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension2</guid>
+      <pubDate>Thu, 16 Oct 2008 09:15:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension</link>
+      <description>Thanks you for your support.&#13;
+&#13;
+I update the sql schema. It's correct now :)&#13;
+</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension/re_good_extension</guid>
+      <pubDate>Wed, 15 Oct 2008 17:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Good extension</title>
+      <link>http://projects.ez.no/fezmetadata/forum/general/good_extension</link>
+      <description>Nice extension we have here. It seems there is some things that still need to be changed. Mainly related to the sql schema provided in the sql folder. it seems that sql file are not the same that the one used in php files, so you get some errors by default. &#13;
+&#13;
+But thanks for sharing this. it's really a good start point. </description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/fezmetadata/forum/general/good_extension</guid>
+      <pubDate>Tue, 14 Oct 2008 22:09:45 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

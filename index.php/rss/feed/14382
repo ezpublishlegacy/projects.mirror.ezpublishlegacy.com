@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsnmpd / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:56:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:56:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14382" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Subsequent queries to eZsnmpdStatusHandler...</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail/re_subsequent_queries_to_ezsnmpdstatushandler2</link>
+      <description>ps: this bug should have been fixed with release 0.2, and definitely nailed down in version 0.3 of the extension</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail/re_subsequent_queries_to_ezsnmpdstatushandler2</guid>
+      <pubDate>Sun, 10 Jan 2010 22:08:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subsequent queries to eZsnmpdStatusHandler...</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail/re_subsequent_queries_to_ezsnmpdstatushandler</link>
+      <description>No, it's not a bug of eZP, it's just a weird usage of the eZP db API done by the extension.&#13;
+&#13;
+The idea is that the ezsnmpagent php script might be used as a daemon, ie. a process that runs forever, not just as a "start, echo requested value then die" process.&#13;
+The net-snmp package can accommodate both ways of working: either invoke the ez script once and keep using the process as long as it is running, or invoke it on each snmp request, assuming it will die immediately.&#13;
+The 2nd way of working is of course better for performances, but has some serious drawbacks: if the script is eg. started now, and it is requested the value of an ini file, it will keep that value in its own ram, not shared with any other process. If a day later the ini value has changed on disk, and the ini cache has been cleared, but the php process is still running, it has to be told explicitly to refresh its ini cache or it will never be able to 'see' the change.&#13;
+The same applies for the db state - I do not want to keep one extra db connection open all of the time just for the snmp agent, plus when asked for db status, I have to make sure the test is done every time and an old result is not returned.&#13;
+That's the reason of the weird usage of the db api, with the connection getting closed.&#13;
+&#13;
+Since now the recommended way of using the extension together with the snmp agent is in non-persistent mode, I think I will change the code to not use a separate db connection by default...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail/re_subsequent_queries_to_ezsnmpdstatushandler</guid>
+      <pubDate>Mon, 28 Dec 2009 14:31:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subsequent queries to eZsnmpdStatusHandler fail</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail</link>
+      <description>For some status monitoring, I query eZSNMPd directly within PHP. I noticed that I only got the value of the first query to eZsnmpdStatusHandler - all subsequent queries returned 0.&#13;
+&#13;
+After some debugging I found the reason: In line #74 in ezsnmpdstatushandler.php, you close the database connection. Any following instances of eZDB will return that closed connection instead of opening a new one.&#13;
+&#13;
+I'm not sure whether this might be a bug of eZ itself, but I fixed it for now by commenting out the $db-&gt;close();.</description>
+      <author>community@ez.no (Markus Birth)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/subsequent_queries_to_ezsnmpdstatushandler_fail</guid>
+      <pubDate>Mon, 21 Dec 2009 11:32:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Session counter increases with every SNMP call</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call/re_session_counter_increases_with_every_snmp_call2</link>
+      <description>Just wanted to let you know that sending back the session cookie (received upon first call) works fine. Now the session counter doesn't increase anymore.&#13;
+&#13;
+Cheers,&#13;
+  Markus Birth&#13;
+</description>
+      <author>community@ez.no (Markus Birth)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call/re_session_counter_increases_with_every_snmp_call2</guid>
+      <pubDate>Mon, 16 Nov 2009 16:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Session counter increases with every SNMP call</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call/re_session_counter_increases_with_every_snmp_call</link>
+      <description>That's an interesting side effect, which I did not foresee. The extension was developed with snmpd in mind after all, with the http interface added on as courtesy.&#13;
+&#13;
+The fact is that eZ Publish by default creates a new user session for every http request received from a user that has no session cookie. It is quite hard to work around that, and afaik it will only be possible in 4.3 - it is in fact a limiting factor for scalability being addressed.&#13;
+&#13;
+I do not have enough spare time at the moment to dedicate to the creation of a different index.php that does not start a php session, so I can only suggest workarounds:&#13;
+&#13;
+- try to force your monitoring tool into sending a session cookie&#13;
+&#13;
+- lower session timeouts so that the session count does not increase too much. If session timeout is at 60 minutes and you query status every 60 seconds, you will have, after 1 hour warmup, a session count always at 60+real_number&#13;
+&#13;
+- use the php cli script to get the values out of the server, or the snmpd version.</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call/re_session_counter_increases_with_every_snmp_call</guid>
+      <pubDate>Fri, 02 Oct 2009 11:11:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Session counter increases with every SNMP call</title>
+      <link>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call</link>
+      <description>I'm building a status watcher which should query your extension via HTTP for several values.&#13;
+&#13;
+While testing I noticed that the session counter increases with every call I make. So if I make a query per minute, the session counter will be increased by 60 after one hour without anyone else being active on the server.&#13;
+&#13;
+Can this be fixed?&#13;
+&#13;
+Best regards&#13;
+&#13;
+  Markus Birth&#13;
+</description>
+      <author>community@ez.no (Markus Birth)</author>
+      <guid>http://projects.ez.no/ezsnmpd/forum/general/session_counter_increases_with_every_snmp_call</guid>
+      <pubDate>Fri, 02 Oct 2009 10:50:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

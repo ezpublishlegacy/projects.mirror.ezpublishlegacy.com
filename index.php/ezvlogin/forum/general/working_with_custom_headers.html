@@ -1,0 +1,2358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezvlogin/forum/general/working_with_custom_headers by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:19:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Working with custom Headers     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezvlogin/forum/general'];
+menu[4] = ['Leaders', '/ezvlogin/team/leaders', 'Members', '/ezvlogin/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../ezvlogin.html" onmouseover="switchSubMenu( this );">eZ Varnish Login &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../ezvlogin/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../ezvlogin/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../ezvlogin/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../ezvlogin/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../ezvlogin/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../ezvlogin/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../ezvlogin/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../ezvlogin/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezvlogin.html">ezvlogin</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        working with custom headers
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Working with custom Headers</h1>
+</div>
+
+    
+
+                                
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+<div class="pagenavigator">
+<p>
+
+            
+            <span class="next"><a href="working_with_custom_headers/(offset)/20.html"><span class="text">Next&nbsp;&raquo;</span></a></span>
+      
+<span class="pages">
+    
+        <span class="current">1</span>
+
+                      <span class="other"><a href="working_with_custom_headers/(offset)/20.html">2</a></span>
+            
+</span>
+
+</p>
+<div class="break"></div>
+</div>
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg14242">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 17 February 2009 8:24:15 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I've tested the extension on a varnish installation nearly the same .vcl file you provided as example.<br />
+<br />
+Usually we work with Custom Headers like:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[HTTPHeaderSettings]</span>
+
+<span class="line">CustomHeader=enabled</span>
+
+<span class="line">Pragma[/]=</span>
+
+<span class="line">Cache-Control[/]=public, must-revalidate, max-age=10800</span>
+
+<span class="line">Expires[/]=10800</span>
+
+<span class="line"></span></pre><br />
+<br />
+So Varnish is able to cache the request to the eZ publish backend.<br />
+Using your extension works great to login into the backend through varnish.<br />
+When the user is logged in, the requests are passed to the backend.<br />
+<br />
+But there's a problem when the user has already visited some pages on the site.<br />
+The browser has a local cache for the requests and uses them instead of requesting once again.<br />
+How do you force the browser to request once again ?<br />
+<br />
+Working without custom headers would effect that varnish wouldn't cache the most load intensive requests (eZ Publish backend).<br />
+<br />
+Any ideas?
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg14249">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 18 February 2009 8:56:00 am</p>
+
+        <div class="attribute-long">Hi Norman,<br />
+<br />
+first of all I have to apologize because I uploaded the wrong .vcl configuration files in the doc/ folder of the extension. I removed it in trunk and will be replaced by a .vcl for Varnish1 and another for Varnish2, but I need time to do this and unfortunately I am too busy at the moment :/<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">So Varnish is able to cache the request to the eZ publish backend.</span>
+
+<span class="line">Using your extension works great to login into the backend through varnish.</span>
+
+<span class="line">When the user is logged in, the requests are passed to the backend.</span>
+
+<span class="line"></span></pre><br />
+<br />
+What does your  vcl_recv function look like ?<br />
+Something like this worked fine on <a href="http://haz.de/" title="http://haz.de">http://haz.de</a> for example : <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[...]</span>
+
+<span class="line">sub vcl_recv</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;[... lots of backend switch stuff here ...]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* do not use Varnish when the user is authenticated */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if(req.http.Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.request == &quot;GET&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.url ~ &quot;\.(gif|jpg|jpeg|swf|css|js|flv|mp3|mp4|pdf|ico)$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">}</span>
+
+<span class="line">[...]</span>
+
+<span class="line"></span></pre><br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">But there's a problem when the user has already visited some pages on the site.</span>
+
+<span class="line">The browser has a local cache for the requests and uses them instead of requesting once again.</span>
+
+<span class="line"></span></pre><br />
+<br />
+I agree I already got the same issue, unfortunately I did not find a solution for this one yet.<br />
+I generally reduce the TTL to a few minutes, from 1 to 5, and this is usually acceptable by customers but this is only a workaround and not a solution though.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">How do you force the browser to request once again ?</span>
+
+<span class="line"></span></pre><br />
+<br />
+Currently, we can not.<br />
+What we need here is a correct Etag support in eZ Publish.<br />
+<br />
+If think that modifying the Etag's value would solve your issue here, however this is actually not possible, but maybe in 4.1, with the new content_read trigger, you could write a custom workflow event which generates a new Etag value for the current node or the current object.<br />
+Since the object has changed, its modification date changed as well. Then taking this date into account and using it to generate a different Etag should force your browser to revalidate its copy with the server. However you will have to remove your Expires call because if I remember well Expires will avoid HTTP request, but if you have both Cache-Control and Expires, then Cache-Control will override Expires and the browser will test if its local copy is still fresh or not.<br />
+<br />
+Hope that helps.<br />
+<br />
+(I hope my answer is not too messy)<br />
+<br />
+:)
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14278">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 18 February 2009 6:54:51 pm</p>
+
+        <div class="attribute-long">Hi Jerome,<br />
+<br />
+I've tested a bit around with some settings and found a solution that seem to work fine in most cases.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[HTTPHeaderSettings]</span>
+
+<span class="line">CustomHeader=enabled</span>
+
+<span class="line">HeaderList[]=Cache-Control</span>
+
+<span class="line">HeaderList[]=Pragma</span>
+
+<span class="line">Cache-Control[/]=public, must-revalidate, max-age=10800</span>
+
+<span class="line">Pragma[/]=</span>
+
+<span class="line"></span></pre><br />
+<br />
+with the vcl:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">sub vcl_recv {</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">[... backend &amp; default stuff&nbsp;...]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# do not use Varnish when the user is authenticated</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Cookie &amp;&amp; req.http.Cookie ~ &quot;is_logged_in&quot; ) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.request != &quot;GET&quot; &amp;&amp; req.request != &quot;HEAD&quot;) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Expect) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Authenticate) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Cache-Control ~ &quot;no-cache&quot;) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# Cache all other objects which use cookies (overwrite default).</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# throw away cookies all other and lookup</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;remove req.http.cookie;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_fetch {</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;[...&nbsp;default stuff&nbsp;...]&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (obj.http.Set-Cookie &amp;&amp; (!obj.http.Set-Cookie == &quot;is_logged_in&quot;)) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove obj.http.Set-Cookie;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;[...&nbsp;default stuff&nbsp;...]&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre><br />
+<br />
+As long as the user has no &quot;is_logged_in&quot; Cookie, he'll get the cached version of the site.<br />
+As soon as the logs in, the requests are passed to the backend server.<br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14284">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 9:17:52 am</p>
+
+        <div class="attribute-long">Hello Norman,<br />
+<br />
+I wrote a very similar .vcl file yesterday evening, however it does not seem to work for me.<br />
+<br />
+Here is what I got so far.<br />
+As you will notice there are a few debugging stuff but the concept is there anyway<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">sub vcl_recv</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set req.backend = default;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/***************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* Never cache pages with POST parameters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* Typical use case : /user/login or /usr/register */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* You do not want to get those pages cached&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/***************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/******************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* do not use Varnish when the user is authenticated&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* This configuration requires the ezvlogin extension */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* <a href="../../../../ezvlogin.html" title="http://projects.ez.no/ezvlogin">http://projects.ez.no/ezvlogin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* With the default configuration for LoginSettings&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* in vlogin.ini.append.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/******************************************************/</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;//if(req.http.Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.http.Set-Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/********************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* Returns the item from the cache for any GET request&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* All the configuration done in HTTPHeaderSettings in&nbsp;*/&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* eZ Publish as well as Apache's mod_expires will come */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* into play here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/********************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.request == &quot;GET&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/*********************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* We want Varnish to return binary files from its cache */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* all the configuration we used for mod_expires is used */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* in this case&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/*********************************************************/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.url ~ &quot;\.(gif|jpg|jpeg|swf|css|js|flv|mp3|mp4|pdf|ico)$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_fetch</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* Might work with eZ Publish 4.0.1 and with and without eZ Vlogin</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;//if (obj.http.Cookie ~ &quot;^eZSESSID=.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* Works with eZ Publish trunk only</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;// WORKS !!!</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (obj.http.Set-Cookie ~ &quot;^is_logged_in=deleted.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set obj.http.Is-Logged-In=&quot;deleted&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// DOES NOT WORK !!</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//remove obj.http.Cookie;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// WORKS !!!</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove obj.http.Set-Cookie;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;// WORKS !!!!</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;else if (obj.http.Set-Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set obj.http.Is-Logged-In=&quot;true&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set obj.http.X-Cache = &quot;Miss&quot;;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_hit</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (!obj.cacheable)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set obj.http.X-Cache = &quot;Hit&quot;;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre><br />
+<br />
+I will send the correct .vcl file as soon as I get everything working fine.<br />
+<br />
+I do not know your feeling about Varnish but even though it is really powerful, it is also very easy to make mistakes without noticing it, and testing can be really difficult.
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14286">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 9:46:09 am</p>
+
+        <div class="attribute-long">This is what I currently have:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">sub vcl_recv {</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# normalize encoding</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Accept-Encoding){</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Accept-Encoding ~ &quot;gzip&quot;){</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set req.http.Accept-Encoding = &quot;gzip&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elseif (req.http.Accept-Encoding ~ &quot;deflate&quot; ) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set req.http.Accept-Encoding = &quot;deflate&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove req.http.Accept-Encoding;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.url ~ &quot;\.(js|css|jpg|png|gif|mp3|swf|flv|xml|html|ico)$&quot;){&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove req.http.cookie;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# pass the request if Cookie from vlogin is present</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Cookie &amp;&amp; req.http.Cookie ~ &quot;is_logged_in&quot; ) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.request != &quot;GET&quot; &amp;&amp; req.request != &quot;HEAD&quot;) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Expect) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Authenticate) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (req.http.Cache-Control ~ &quot;no-cache&quot;) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# Cache all other objects which use cookies (overwrite default).</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# throw away all other cookies and lookup</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;remove req.http.cookie;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_hit {</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (!obj.cacheable) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_fetch {</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (!obj.cacheable) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;# remove cookie information if the user isn't logged in</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (obj.http.Set-Cookie &amp;&amp; (!obj.http.Set-Cookie == &quot;is_logged_in&quot;)) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove obj.http.Set-Cookie;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (&nbsp;obj.http.Pragma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~ &quot;no-cache&quot;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|| obj.http.Cache-Control ~ &quot;no-cache&quot;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|| obj.http.Cache-Control ~ &quot;private&quot;) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;if (obj.ttl &lt; 3600s){</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set obj.ttl = 3600s;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre><br />
+<br />
+Mainly it throws away any cookie information. <br />
+Additionaly I'm normalizing the encoding for all browsers.
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14287">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 10:24:13 am</p>
+
+        <div class="attribute-long">You were right for the remove req.http.cookie; at the end of vcl_recv, it seems to work fine.<br />
+<br />
+I finally came up with the following configuration, which is a bit different than yours but it seems to work. We (eZ) should really provide &quot;official&quot; Varnish configuration files....<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">backend default</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set backend.host = &quot;127.0.0.1&quot; ;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set backend.port = &quot;8080&quot; ;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_recv</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;set req.backend = default;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if(req.http.Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.request == &quot;GET&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (req.url ~ &quot;\.(gif|jpg|jpeg|swf|css|js|flv|mp3|mp4|pdf|ico)$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/* Nirvana */</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;remove req.http.cookie;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_fetch</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* Should Works with eZ Publish 3.*, 4.0.* with eZ Vlogin</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;//if (obj.http.Set-Cookie ~ &quot;^eZSESSID=.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* Works with eZ Publish trunk only</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;if (obj.http.Set-Cookie ~ &quot;^is_logged_in=deleted.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove obj.http.Set-Cookie;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+:)
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14288">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 10:49:27 am</p>
+
+        <div class="attribute-long">The .vcl seems fine. I'll give it a try later today and see what happens.<br />
+<br />
+I agree with you about the standard which should be supported by eZ, <br />
+also the cookie &quot;is_logged_in&quot; cookie should be standard.<br />
+<br />
+Additionally we need to have a cookie like &quot;has_user_data&quot;.<br />
+For example when a anonymous user adds something to the basket or to the whishlist.<br />
+<br />
+This could easily done by adding a few lines to the modules.<br />
+<br />
+Currently I hacked the basket.php like:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">// Set eZVLogin cookies</span>
+
+<span class="line">$user&nbsp;&nbsp;= eZUser::instance();</span>
+
+<span class="line">eZVLoginHelper::setUserCookie( $user, $user-&gt;attribute('contentobject')-&gt;attribute('name') );</span>
+
+<span class="line"></span></pre> 
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14289">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 11:15:31 am</p>
+
+        <div class="attribute-long">Actually I still got a problem with the issue described in your first post. My test was a false positive :/. I tried with your configuration file and mine, same problem in both cases.<br />
+<br />
+But I am thinking about a potential workaround for this.<br />
+<br />
+To sum up the issue is the following : <br />
+<br />
+- You are anonymous, you get the page from Varnish or your local cache.<br />
+- You log in and are redirected to the previously visited page and tadahh you get your local copy, which is of course not what you want, you want a fresh page, like if there is no-cache, no-store no-xxxx.<br />
+<br />
+The idea is the following : <br />
+Since, in ezvlogin we control the way users are authenticated, how about adding a specific marker to Varnish to say &quot;Hey I just loged in send no-cache|store|whatever because I want<br />
+a fresh copy, and not my local one&quot;.<br />
+<br />
+This could be a cookie or a specific HTTP header. I would not like adding yet another cookie because we already have too much of them on the eZ Publish' plate... But I would prefer sending a specific HTTP header that Varnish could understand, something like : <br />
+Just-Logged-in=yes, and if Varnish gets this header it returns no-cachexxxx and remove this header after that of course to keep things clean and clear.<br />
+<br />
+What do you think about this ?<br />
+<br />
+I will write a patch for ezvlogin anyway and see what happens, if it work then I will commit it to trunk.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[...]also the cookie &quot;is_logged_in&quot; cookie should be standard.</span>
+
+<span class="line"></span></pre><br />
+<br />
+As of 4.1 you wil get such a cookie, is_logged_in=true when logged in and is_logged_in=delete for anonymous users.
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14291">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 11:25:20 am</p>
+
+        <div class="attribute-long">How are your headers looking like?<br />
+<br />
+Currently I use:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[HTTPHeaderSettings]</span>
+
+<span class="line">CustomHeader=enabled</span>
+
+<span class="line">HeaderList[]=Cache-Control</span>
+
+<span class="line">HeaderList[]=Pragma</span>
+
+<span class="line">Cache-Control[/]=public, must-revalidate, max-age=10800</span>
+
+<span class="line">Pragma[/]=</span>
+
+<span class="line"></span></pre><br />
+<br />
+which works fine.
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14293">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:17:54 pm</p>
+
+        <div class="attribute-long">Ha ok you use must-revalidate, not me.<br />
+Will add right away.
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14294">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:29:50 pm</p>
+
+        <div class="attribute-long">Another thing I modified is the behavior of ETags within Apache.<br />
+I removed them all...<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">Header unset ETag</span>
+
+<span class="line">FileETag None</span>
+
+<span class="line"></span></pre><br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14295">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:30:34 pm</p>
+
+        <div class="attribute-long">Does not work either with your .vcl and mine, I tried with the following headers : <br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">Cache-Control[]</span>
+
+<span class="line">Cache-Control[/]=public, must-revalidate, max-age=200</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">Pragma[]</span>
+
+<span class="line">Pragma[/]=</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">Expires[]</span>
+
+<span class="line">Expires[/]=+200</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14296">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:36:13 pm</p>
+
+        <div class="attribute-long">Try removing the Expires header
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14297">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:44:37 pm</p>
+
+        <div class="attribute-long">This should not change things as Cache-Control should override Expires when both are set : <br />
+<br />
+<a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.21" title="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.21">http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.21</a><br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note: if a response includes a Cache-Control field with the max-</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;age directive (see section 14.9.3), that directive overrides the</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expires field.</span>
+
+<span class="line"></span></pre><br />
+<br />
+I will test without Expires anyway, we never know ;)
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14298">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:48:37 pm</p>
+
+        <div class="attribute-long">Take a look at <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a>
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14299">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_renard.html">Jérôme Renard</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/jerome_renard/49352-5-eng-GB/jerome_renard_small.png" width="100" height="62"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />06 August 2008</p>
+        <p class="posts">Posts: 22</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:58:19 pm</p>
+
+        <div class="attribute-long">Well it seem that removing the Expires field helped.<br />
+<br />
+This is weird though, good to know anyway :)
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://jrenard.info/" title="http://jrenard.info">http://jrenard.info</a> | <a href="http://39web.fr/" title="http://39web.fr">http://39web.fr</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14300">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 12:59:18 pm</p>
+
+        <div class="attribute-long"><pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;if (obj.http.Set-Cookie ~ &quot;^eZSESSID=.*$&quot;)</span>
+
+<span class="line"></span></pre><br />
+<br />
+should be<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;if (obj.http.Set-Cookie ~ &quot;^eZSESSID.*=.*$&quot;)</span>
+
+<span class="line"></span></pre><br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14301">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 1:07:18 pm</p>
+
+        <div class="attribute-long">Should we talk about skype ?
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14304">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 19 February 2009 1:20:13 pm</p>
+
+        <div class="attribute-long">I've tested a bit around and the .vcl seems to be fine now, <br />
+when working without the expires header:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">sub vcl_recv</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;if(req.http.Cookie ~ &quot;^is_logged_in=true.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;if (req.request == &quot;GET&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;if (req.url ~ &quot;\.(gif|jpg|jpeg|swf|css|js|flv|mp3|mp4|pdf|ico)$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lookup;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;/* Nirvana */</span>
+
+<span class="line">&nbsp;&nbsp;remove req.http.cookie;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_fetch</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;*&nbsp;Works with eZ Publish 3.*, 4.0.* with eZ Vlogin</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;if (obj.http.Set-Cookie ~ &quot;^eZSESSID.*=.*$&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set obj.http.X-Cookie = &quot;Cookie removed&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove obj.http.Set-Cookie;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">sub vcl_hit</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;if (!obj.cacheable)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;set obj.http.X-Cache = &quot;Cache-Hit&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;deliver;</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14345">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 20 February 2009 9:18:37 am</p>
+
+        <div class="attribute-long">Hi Jerome,<br />
+<br />
+I found out that <br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&nbsp;if (req.request == &quot;POST&quot;)</span>
+
+<span class="line">&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pipe;</span>
+
+<span class="line">&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+causes some trouble, as soon as the client sends a post, he'll enter the pipe mode which means that alls requests are passed to the backend as long as the connection is available.<br />
+<br />
+This happens for exaple when using ajax functions like &quot;update viewcount&quot;.
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14346">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/norman_leutner.html">Norman Leutner</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />22 October 2003</p>
+        <p class="posts">Posts: 44</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 20 February 2009 9:21:50 am</p>
+
+        <div class="attribute-long">Removing that part works fine.
+</div>
+                    <div class="attribute-signature">
+            <p>Mit freundlichen Grüßen<br />
+Best regards<br />
+<br />
+Norman Leutner<br />
+<br />
+____________________________________________________________<br />
+eZ Partner - <a href="http://www.all2e.com/" title="http://www.all2e.com">http://www.all2e.com</a><br />
+<a href="http://ez.no/partners/worldwide_partners/all2e_gmbh" title="http://ez.no/partners/worldwide_partners/all2e_gmbh">http://ez.no/partners/worldwide_partners/all2e_gmbh</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div class="pagenavigator">
+<p>
+
+            
+            <span class="next"><a href="working_with_custom_headers/(offset)/20.html"><span class="text">Next&nbsp;&raquo;</span></a></span>
+      
+<span class="pages">
+    
+        <span class="current">1</span>
+
+                      <span class="other"><a href="working_with_custom_headers/(offset)/20.html">2</a></span>
+            
+</span>
+
+</p>
+<div class="break"></div>
+</div>
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezvlogin/forum/general/working_with_custom_headers by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:19:30 GMT -->
+</html>

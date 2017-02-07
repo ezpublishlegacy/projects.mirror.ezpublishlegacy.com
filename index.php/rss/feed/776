@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xmlwash / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:09:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:09:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/776" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Great Job</title>
+      <link>http://projects.ez.no/xmlwash/reviews/great_job</link>
+      <description>I use this extension very often and I find it really helpful and very well done.&#13;
+&#13;
+Thank you for your job!</description>
+      <author>community@ez.no (Monica Giambitto)</author>
+      <guid>http://projects.ez.no/xmlwash/reviews/great_job</guid>
+      <pubDate>Mon, 19 Sep 2011 08:03:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>tgz extension is wrong</title>
+      <link>http://projects.ez.no/xmlwash/reviews/tgz_extension_is_wrong</link>
+      <description>hi&#13;
+&#13;
+dont know how it works yet. &#13;
+just a comment; the tgz extension is wrong, &#13;
+current 0.2 is just a tar file.&#13;
+&#13;
+*-pike</description>
+      <author>community@ez.no (*- pike)</author>
+      <guid>http://projects.ez.no/xmlwash/reviews/tgz_extension_is_wrong</guid>
+      <pubDate>Tue, 19 Feb 2008 17:33:31 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

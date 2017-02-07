@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sqliimport / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:47:39 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:47:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27737" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/8fb344d68626ddc5ba2f92c5d561122d9016f3a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Avoid output to STDERR
+
+eZCLI writes notices, warnings and errors to STDERR, which should not be wanted here.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/8fb344d68626ddc5ba2f92c5d561122d9016f3a6</guid>
+      <pubDate>Wed, 27 Jan 2016 10:01:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/a88297de3a4e533538bdca4560f3a3777a350876</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #26 from jeromegamez/avoid-writing-to-STDERR
+
+Avoid output to STDERR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/a88297de3a4e533538bdca4560f3a3777a350876</guid>
+      <pubDate>Wed, 27 Jan 2016 10:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/76a7cc4ef504cf2c2e2dc96faff156217fe1ceca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #24 from Opencontent/postgres
+
+Add postgresql support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/76a7cc4ef504cf2c2e2dc96faff156217fe1ceca</guid>
+      <pubDate>Wed, 18 Nov 2015 08:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/7d93f5a3ce31e4a14e7f3dba1ae45c45a4dc8c78</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Postgresql serialize dirty work around
+
+See http://www.php.net/manual/en/function.serialize.php#96504&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/7d93f5a3ce31e4a14e7f3dba1ae45c45a4dc8c78</guid>
+      <pubDate>Wed, 18 Nov 2015 08:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/9e8740497894f3c98e0a22b9a1cb24d25bc5532d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;postgresql schema&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/9e8740497894f3c98e0a22b9a1cb24d25bc5532d</guid>
+      <pubDate>Wed, 18 Nov 2015 08:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/bf3a81c8bd5dfa570547186541132ad0a7fef11c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #23 from jeromegamez/code-inspection
+
+Ameliorate IDE support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/bf3a81c8bd5dfa570547186541132ad0a7fef11c</guid>
+      <pubDate>Wed, 20 May 2015 12:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/fc16a06a5e2e6ea2b10f573eb96e3659e74028d6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Modify PHPDocs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/fc16a06a5e2e6ea2b10f573eb96e3659e74028d6</guid>
+      <pubDate>Wed, 20 May 2015 12:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/7bddb7100d0f33baf7a1bd9d2aeb3ce4d4247932</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #22 from jeromegamez/bugfix/missing-break
+
+SQLIContentField never returns identifier&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/7bddb7100d0f33baf7a1bd9d2aeb3ce4d4247932</guid>
+      <pubDate>Thu, 23 Apr 2015 09:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/18d30adabf652b466c9296e49a7ecbfe67ccce38</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add missing break&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/18d30adabf652b466c9296e49a7ecbfe67ccce38</guid>
+      <pubDate>Thu, 23 Apr 2015 09:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/fb2a29334878f584de15a1c923bb0a3d2b79b28c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #21 from brookinsconsulting/static-cache-class-override-support
+
+Implemented: Support for static cache handler system&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/fb2a29334878f584de15a1c923bb0a3d2b79b28c</guid>
+      <pubDate>Tue, 07 Oct 2014 04:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/5f87aa12e2cc256fb9ed12df7f4d468ddb0c2621</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented: Support for static cache handler system. Added StaticCache enabled check before performing executeActions method to mirror kernel implementation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/5f87aa12e2cc256fb9ed12df7f4d468ddb0c2621</guid>
+      <pubDate>Tue, 07 Oct 2014 04:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/77a981f2a406bf8b68321c3ee4cdadbe53e06c7d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed CS in SQLIContentUtils&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/77a981f2a406bf8b68321c3ee4cdadbe53e06c7d</guid>
+      <pubDate>Thu, 25 Sep 2014 07:41:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/c4ba75584d7945915ded92d7ca4d736e8fb04201</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #20 from brookinsconsulting/staticcache-delay-to-cronjob-support
+
+Implemented: Support for static cache delay to cronjob feature&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/c4ba75584d7945915ded92d7ca4d736e8fb04201</guid>
+      <pubDate>Mon, 22 Sep 2014 20:01:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/c3fe930f86eb06e88fe9ed54cec2f643280e1298</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added support for static cache delayed caching to cronjob&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/c3fe930f86eb06e88fe9ed54cec2f643280e1298</guid>
+      <pubDate>Mon, 22 Sep 2014 20:01:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/251567b3fcbd558e24de2fee29539c71675225b5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed ezinfo.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/251567b3fcbd558e24de2fee29539c71675225b5</guid>
+      <pubDate>Fri, 06 Jun 2014 09:11:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/b6fc6280b954f41cc68363bab84dbecd3a68e2fc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed ant folder&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/b6fc6280b954f41cc68363bab84dbecd3a68e2fc</guid>
+      <pubDate>Fri, 06 Jun 2014 09:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/aa111945346007e5165144ac8169b9738aa517e1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding code to resize left column on recent version of eZ publish&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/aa111945346007e5165144ac8169b9738aa517e1</guid>
+      <pubDate>Thu, 06 Feb 2014 15:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/ff199b41ca367072006a54e18e8c4746d94e6625</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #17 from Open-Wide/lolautruche/left_column_resize
+
+Left column resize&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/ff199b41ca367072006a54e18e8c4746d94e6625</guid>
+      <pubDate>Thu, 06 Feb 2014 15:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/b61bf15d53744a47ef10a164464affd643b8b7e2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove commented line&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/b61bf15d53744a47ef10a164464affd643b8b7e2</guid>
+      <pubDate>Thu, 06 Feb 2014 15:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/7dacf399ba29dfa8d04b2f80fa3f72c5c4247160</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Typo fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/7dacf399ba29dfa8d04b2f80fa3f72c5c4247160</guid>
+      <pubDate>Thu, 30 Jan 2014 16:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/2e9cab2a409ed85f4aa6fa7a959ecd2c2ab42bee</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from patrickallaert/patch-1
+
+Typo fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/2e9cab2a409ed85f4aa6fa7a959ecd2c2ab42bee</guid>
+      <pubDate>Thu, 30 Jan 2014 16:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/581e801f3a120502625469e2bac08947ba745622</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix usage of unknown variables&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/581e801f3a120502625469e2bac08947ba745622</guid>
+      <pubDate>Wed, 22 Jan 2014 09:51:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/778c965177fbba592d522f02330c2e22ff2a30b9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #15 from Open-Wide/lolautruche/fix_variables
+
+Fix usage of unknown variables&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/778c965177fbba592d522f02330c2e22ff2a30b9</guid>
+      <pubDate>Wed, 22 Jan 2014 09:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/ce8377e685d10a0d18a59b344b31efd0e73144e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove duplicate class eZPendingActions
+
+The class is already defined in kernel/classes/ezpendingactions.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/ce8377e685d10a0d18a59b344b31efd0e73144e4</guid>
+      <pubDate>Thu, 28 Nov 2013 08:21:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/eb249d4716e3b91dcb6c3b82acfa989bd56f1be8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from jeromegamez/remove_ezpendingactions
+
+Remove duplicate class eZPendingActions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/eb249d4716e3b91dcb6c3b82acfa989bd56f1be8</guid>
+      <pubDate>Thu, 28 Nov 2013 08:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/65712a8e934ea6a5129d510768ec194f36a56e14</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change legacy installer name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/65712a8e934ea6a5129d510768ec194f36a56e14</guid>
+      <pubDate>Fri, 07 Jun 2013 08:11:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/395688055dc76febe58c420b4955ac92e48ecae2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from zacek/KABELEZ-196_division_by_zero
+
+KABELEZ-196 Division by zero error on empty import list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/395688055dc76febe58c420b4955ac92e48ecae2</guid>
+      <pubDate>Thu, 06 Jun 2013 12:51:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/9b2af1e70b87e710bb2b8c2edbc01c169825a89e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added ezpublish-legacy-extension as composer type&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/9b2af1e70b87e710bb2b8c2edbc01c169825a89e</guid>
+      <pubDate>Thu, 06 Jun 2013 11:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/f263e389f337158d16f38fc8f44f90c1e589c94b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/f263e389f337158d16f38fc8f44f90c1e589c94b</guid>
+      <pubDate>Thu, 06 Jun 2013 11:21:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/cb143726f1976911f7f03025dc91b95df7f98560</link>
+      <description>
+      &lt;pre&gt;m settings/sqliimport.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from alafon/disable-default-handler
+
+Disable rssimporthandler by default&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/cb143726f1976911f7f03025dc91b95df7f98560</guid>
+      <pubDate>Fri, 22 Feb 2013 11:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/ce8e7c81b403a0109c6e6feeeda8340f6dacc487</link>
+      <description>
+      &lt;pre&gt;m classes/ezxmltext/input/handlers/sqlixmlinputparser.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #10 Mailto links not correctly imported&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/ce8e7c81b403a0109c6e6feeeda8340f6dacc487</guid>
+      <pubDate>Wed, 20 Feb 2013 09:21:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/97630952c1009d75f64fbcb05310f00487e3acd9</link>
+      <description>
+      &lt;pre&gt;m README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from Synap/README-fix
+
+Fixed RST images for github homepage (tree =&gt; raw)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/97630952c1009d75f64fbcb05310f00487e3acd9</guid>
+      <pubDate>Wed, 13 Feb 2013 13:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/53fb24be05fd2c3a6f024c0f1e6150847a5fa054</link>
+      <description>
+      &lt;pre&gt;m cronjobs/sqliimport_cleanup.php
+m cronjobs/sqliimport_run.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ensure no output whith quit cronjob&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/53fb24be05fd2c3a6f024c0f1e6150847a5fa054</guid>
+      <pubDate>Tue, 21 Aug 2012 11:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/fbdae668fcf000f4eb11ee8c297b990c1ebe37d1</link>
+      <description>
+      &lt;pre&gt;m cronjobs/sqliimport_cleanup.php
+m cronjobs/sqliimport_run.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from Heliopsis-HQ/quiet_cron
+
+Ensure no output whith quiet cronjob&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/fbdae668fcf000f4eb11ee8c297b990c1ebe37d1</guid>
+      <pubDate>Tue, 21 Aug 2012 11:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/dae03213b4c801d019299f7d577a35f8814ce947</link>
+      <description>
+      &lt;pre&gt;m classes/sourcehandlers/options/sqliimporthandleroptions.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from p7s1digital/support-equal-signs-as-option-value
+
+Fixed bug in sqliiimporthandler options to handleuris with equal signs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/dae03213b4c801d019299f7d577a35f8814ce947</guid>
+      <pubDate>Tue, 22 May 2012 10:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/263442a521eed3c4ef11574634f054a1e65c6835</link>
+      <description>
+      &lt;pre&gt;m classes/sourcehandlers/options/sqliimporthandleroptions.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed bug in sqliiimporthandler options to handleuris with equal sign characters&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/263442a521eed3c4ef11574634f054a1e65c6835</guid>
+      <pubDate>Tue, 22 May 2012 10:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/d715f4a3916832fea8922cdcf5a6c6e650645acd</link>
+      <description>
+      &lt;pre&gt;m classes/content/sqlicontentpublisher.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from darylounet/patch-1
+
+import optimization (do not create draft if not necessary)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/d715f4a3916832fea8922cdcf5a6c6e650645acd</guid>
+      <pubDate>Tue, 06 Mar 2012 16:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/c7bac668343fb8f0e3a1f16ae9ccb819385de140</link>
+      <description>
+      &lt;pre&gt;m classes/content/sqlicontentpublisher.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Corrected Code Style ;)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/c7bac668343fb8f0e3a1f16ae9ccb819385de140</guid>
+      <pubDate>Tue, 06 Mar 2012 16:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/9738b87b9bac2a8eb748623a46b18f14d77cb6e5</link>
+      <description>
+      &lt;pre&gt;m classes/content/sqlicontentpublisher.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;import optimization (do not create draft if not necessary)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/9738b87b9bac2a8eb748623a46b18f14d77cb6e5</guid>
+      <pubDate>Tue, 06 Mar 2012 16:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/fcd973929bd96d2cef4b5306db213c84e6a40a6b</link>
+      <description>
+      &lt;pre&gt;m classes/sourcehandlers/csv/sqlicsvrow.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #3 __get and isset with SQLICsvRow&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/fcd973929bd96d2cef4b5306db213c84e6a40a6b</guid>
+      <pubDate>Mon, 23 Jan 2012 16:40:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/f26d75899b2d91e416c1d4c65f6db4ef0896d0c7</link>
+      <description>
+      &lt;pre&gt;+ README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added README.rst&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/f26d75899b2d91e416c1d4c65f6db4ef0896d0c7</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/25aa2f4cb2a24fffe970bb257ab6025440fd66cb</link>
+      <description>
+      &lt;pre&gt;+ share/db_schema.dba
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from Heliopsis-HQ/master
+
+Added schema dba file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/25aa2f4cb2a24fffe970bb257ab6025440fd66cb</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/beda0c2f4f54f482c6566ff5f5f1e7b45b9e13f4</link>
+      <description>
+      &lt;pre&gt;+ share/db_schema.dba
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;db schema dba file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/beda0c2f4f54f482c6566ff5f5f1e7b45b9e13f4</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/da3881b3c75b7d703e00152f4be713b65dac4b4f</link>
+      <description>
+      &lt;pre&gt;m README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed RST images for github homepage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/da3881b3c75b7d703e00152f4be713b65dac4b4f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sqliimport/subversion/de45a9cd4d2bcba47f964ce8db9f1f90a260cb79</link>
+      <description>
+      &lt;pre&gt;m README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed RST stuffs for github homepage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/de45a9cd4d2bcba47f964ce8db9f1f90a260cb79</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqliimport rev. 38 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqliimport/subversion/38</link>
+      <description>Added spanish translation (thanks Alex Muñoz)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/38</guid>
+      <pubDate>Wed, 18 May 2011 14:42:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqliimport rev. 37 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqliimport/subversion/37</link>
+      <description>s/ezi18n/SQLIImportUtils::translate</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/37</guid>
+      <pubDate>Sat, 16 Apr 2011 18:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqliimport rev. 36 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqliimport/subversion/36</link>
+      <description>Fixed issue with csv row iteration, throwing an SQLICSVException (Thanks Edi Modrić !)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/36</guid>
+      <pubDate>Fri, 01 Apr 2011 10:01:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqliimport rev. 35 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqliimport/subversion/35</link>
+      <description>Added Oracle support (Thanks Simone Tellini !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/35</guid>
+      <pubDate>Thu, 09 Dec 2010 22:31:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqliimport rev. 34 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqliimport/subversion/34</link>
+      <description>Updated doc about content options and publish options - http://bit.ly/f3f2RI</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqliimport/subversion/34</guid>
+      <pubDate>Mon, 29 Nov 2010 16:03:45 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

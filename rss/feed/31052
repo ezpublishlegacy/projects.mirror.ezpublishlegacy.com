@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xmlarea</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:18:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:18:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31052" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/xmlarea/news/changelog</link>
+      <description>&lt;p&gt;
+0.2:&lt;br /&gt;
+ added nested list support&lt;br /&gt;
+ added editing properties for all tags&lt;br /&gt;
+ added insert special character plugin&lt;br /&gt;
+ added perl spellcheck plugin&lt;br /&gt;
+ added toggle custom context menu button&lt;br /&gt;
+ removed server side browser check&lt;br /&gt;
+ replaced javascript remote scripting with xmlhttprequest&lt;br /&gt;
+ fixed loads of javascript bugs ('specially in ie)&lt;br /&gt;
+ much improved custom tags system&lt;br /&gt;
+ generally tidied things up&lt;br /&gt;
+ 0.11b:&lt;br /&gt;
+ fixed links to js files to work with installations in sub directories.&lt;br /&gt;
+ &lt;br /&gt; fixed language_code bug&lt;/p&gt;</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/xmlarea/news/changelog</guid>
+      <pubDate>Fri, 11 Mar 2005 15:45:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlarea0.2.2.zip</title>
+      <link>http://projects.ez.no/xmlarea/downloads/xmlarea0_2_2_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/xmlarea/downloads/xmlarea0_2_2_zip</guid>
+      <pubDate>Fri, 11 Mar 2005 15:45:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

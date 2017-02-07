@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezteamroom</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21757" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/75e527202a665ee13defcbb1b88fbc001fe41b68</link>
+      <description>
+      &lt;pre&gt;m settings/site.ini.append.php
+m settings/siteaccess/ezteamroom/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed EZP-16627: ezteamroom: RootNodeDepth=1 hardcoded in extension's site.ini instead of siteaccess&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/75e527202a665ee13defcbb1b88fbc001fe41b68</guid>
+      <pubDate>Tue, 02 Apr 2013 15:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/272b2777a594aa3b647f77a452c550ffb8e690cc</link>
+      <description>
+      &lt;pre&gt;m settings/site.ini.append.php
+m settings/siteaccess/ezteamroom/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from patrickallaert/EZP-16627
+
+Fixed EZP-16627: ezteamroom: RootNodeDepth=1 hardcoded in extension's si...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/272b2777a594aa3b647f77a452c550ffb8e690cc</guid>
+      <pubDate>Tue, 02 Apr 2013 15:41:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/77326f68081c518b46f4e01022e61baa37515b27</link>
+      <description>
+      &lt;pre&gt;+ extension/ezteamroom/design/standard/templates/teamroom/install_wiki_classes.tpl
++ extension/ezteamroom/documentation/1.4_to_1.5
++ extension/ezteamroom/update/1.4to1.5/migrate_wiki.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- added update Script for 1.4 to 1.5
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezteamroom/trunk@312 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/77326f68081c518b46f4e01022e61baa37515b27</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/6ea1d9fd4bdaf380e898a52b0cbe35515860ce88</link>
+      <description>
+      &lt;pre&gt;m design/ezteamroom/override/templates/fileline/image.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;FIX: #019262: Unable to download Image files from eZTeamRoom
+(cherry picked from commit 2b99112fe67d93c44a2a0109ea82ac899104b189)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/6ea1d9fd4bdaf380e898a52b0cbe35515860ce88</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/7ea0f0993973283f0bb71a1113e263de226e98df</link>
+      <description>
+      &lt;pre&gt;m classes/ezteamroomtoc.php
+m ezinfo.php
+m modules/wiki/module.php
+m modules/wiki/random_page.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/7ea0f0993973283f0bb71a1113e263de226e98df</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/07f237fd33ffad016ccdeb04a3bb8ff56ea6bf77</link>
+      <description>
+      &lt;pre&gt;m translations/swe-SE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from ljo/master
+
+Translated the last new strings in Swedish, swe-SE, translation to ezteamroom.  - 4.7(Etna) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/07f237fd33ffad016ccdeb04a3bb8ff56ea6bf77</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/5d8b5f66d191a96d59e4e265fd875c33a79208c7</link>
+      <description>
+      &lt;pre&gt;m translations/swe-SE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Translated the last new strings for Swedish, swe-SE, for ezteamroom.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/5d8b5f66d191a96d59e4e265fd875c33a79208c7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/59a0ebe990c283ae840e808df314d603cd946bae</link>
+      <description>
+      &lt;pre&gt;+ INSTALL
++ LICENSE
++ README
++ actions/content_actionhandler.php
++ autoloads/eztemplateautoload.php
++ classes/ezteamroom.php
++ classes/ezteamroomoperators.php
++ classes/ezteamroomtoc.php
++ classes/ezxTeamRoomUtils.php
++ collaboration/ezapprovememberregistration/ezapprovememberregistrationcollaborationhandler.php
++ content/ezteamroomhandler.php
++ cronjobs/cleanup_users.php
++ cronjobs/teamroom_mail_import.php
++ data/ez_logo_png_imagesmall.png
++ data/icon003.gif
++ data/icon168.gif
++ data/icon170.gif
++ data/icon224.gif
++ data/icon226.gif
++ data/icon613.gif
++ data/icon618.gif
++ data/icon619.gif
++ data/icon620.gif
++ data/icon673.gif
++ data/icon674.gif
++ data/icon675.gif
++ data/icon676.gif
++ data/icon677.gif
++ data/icon678.gif
++ data/icon679.gif
++ data/icon900.gif
++ data/people.gif
++ design/admin/templates/popupmenu/teamroomcontextmenu.tpl
++ design/admin/templates/popupmenu/teamroomsubitemscontextmenu.tpl
++ design/ezteamroom/images/add_lightbox.png
++ design/ezteamroom/images/add_task_button.png
++ design/ezteamroom/images/blog_bg.gif
++ design/ezteamroom/images/body_bg.png
++ design/ezteamroom/images/box_bg.gif
++ design/ezteamroom/images/box_bg.png
++ design/ezteamroom/images/box_bg2.gif
++ design/ezteamroom/images/box_bg2.png
++ design/ezteamroom/images/box_bg3.gif
++ design/ezteamroom/images/box_bg3.png
++ design/ezteamroom/images/boxes/box_bg.png
++ design/ezteamroom/images/boxes/dragbar.png
++ design/ezteamroom/images/boxes/dragbar_bg.png
++ design/ezteamroom/images/boxes/dragbar_bg_right.PNG
++ design/ezteamroom/images/boxes/max_min_close.png
++ design/ezteamroom/images/button_bg.png
++ design/ezteamroom/images/buttons/back_button.jpg
++ design/ezteamroom/images/buttons/cancel_button.jpg
++ design/ezteamroom/images/buttons/confirm_button.jpg
++ design/ezteamroom/images/buttons/empty_arrows_white_button_193_47.gif
++ design/ezteamroom/images/buttons/empty_button_160_40.jpg
++ design/ezteamroom/images/buttons/empty_button_187_39.gif
++ design/ezteamroom/images/buttons/search_button.jpg
++ design/ezteamroom/images/cal_bg.gif
++ design/ezteamroom/images/cal_bg_s.gif
++ design/ezteamroom/images/cal_td_bg.gif
++ design/ezteamroom/images/cal_td_bg_s.gif
++ design/ezteamroom/images/cal_th_bg.gif
++ design/ezteamroom/images/close_milestone.png
++ design/ezteamroom/images/close_milestone_g.png
++ design/ezteamroom/images/content-bg.gif
++ design/ezteamroom/images/content-bg.jpg
++ design/ezteamroom/images/createblogpost.gif
++ design/ezteamroom/images/createcomment.gif
++ design/ezteamroom/images/createevent.gif
++ design/ezteamroom/images/createreply.gif
++ design/ezteamroom/images/createteamroom.gif
++ design/ezteamroom/images/createtopic.gif
++ design/ezteamroom/images/createwiki.gif
++ design/ezteamroom/images/date_bg.png
++ design/ezteamroom/images/edit.png
++ design/ezteamroom/images/edit_profile.gif
++ design/ezteamroom/images/filebox_bg.gif
++ design/ezteamroom/images/files_icons/file_icon.gif
++ design/ezteamroom/images/files_icons/folder_icon.gif
++ design/ezteamroom/images/folder_icon.png
++ design/ezteamroom/images/footer-bg.gif
++ design/ezteamroom/images/footer-bg.jpg
++ design/ezteamroom/images/footer-bg.png
++ design/ezteamroom/images/footer_bg.png
++ design/ezteamroom/images/forum_bg.png
++ design/ezteamroom/images/forum_tr_bg.gif
++ design/ezteamroom/images/header_bg.png
++ design/ezteamroom/images/header_bg_left.png
++ design/ezteamroom/images/icons/add_favs.gif
++ design/ezteamroom/images/icons/add_widget.gif
++ design/ezteamroom/images/icons/home.gif
++ design/ezteamroom/images/icons/teamrooms.png
++ design/ezteamroom/images/icons/teamrooms1.gif
++ design/ezteamroom/images/icons/teamrooms2.gif
++ design/ezteamroom/images/icons/teamrooms_selected.png
++ design/ezteamroom/images/icons/top/sprites_map_90_45_itemsize.gif
++ design/ezteamroom/images/keepmeupdated.gif
++ design/ezteamroom/images/li_bg.gif
++ design/ezteamroom/images/li_cursor.gif
++ design/ezteamroom/images/li_last_bg.gif
++ design/ezteamroom/images/li_vert.gif
++ design/ezteamroom/images/lightbox/action_add_to_cart.png
++ design/ezteamroom/images/lightbox/action_add_to_lightbox.png
++ design/ezteamroom/images/lightbox/action_add_to_lightbox_small.png
++ design/ezteamroom/images/lightbox/action_lightbox_add_medium.png
++ design/ezteamroom/images/lightbox/action_lightbox_delete.png
++ design/ezteamroom/images/lightbox/action_lightbox_move.png
++ design/ezteamroom/images/lightbox/action_lightbox_new.png
++ design/ezteamroom/images/lightbox/action_lightbox_rename.png
++ design/ezteamroom/images/lightbox/action_lightbox_send.png
++ design/ezteamroom/images/lightbox/action_lightbox_view.png
++ design/ezteamroom/images/lightbox/action_maximize.png
++ design/ezteamroom/images/lightbox/action_minimize.png
++ design/ezteamroom/images/list.gif
++ design/ezteamroom/images/login_button.jpg
++ design/ezteamroom/images/menu/bg.gif
++ design/ezteamroom/images/menu/bg_center.gif
++ design/ezteamroom/images/menu/bg_current.gif
++ design/ezteamroom/images/menu/bg_left.gif
++ design/ezteamroom/images/menu/bg_right.gif
++ design/ezteamroom/images/month_bg.gif
++ design/ezteamroom/images/multi_uploadimage.gif
++ design/ezteamroom/images/new.png
++ design/ezteamroom/images/prio/1.png
++ design/ezteamroom/images/prio/2.png
++ design/ezteamroom/images/prio/3.png
++ design/ezteamroom/images/progress/prog025a.gif
++ design/ezteamroom/images/progress/prog025w.gif
++ design/ezteamroom/images/progress/prog050a.gif
++ design/ezteamroom/images/progress/prog050w.gif
++ design/ezteamroom/images/progress/prog075a.gif
++ design/ezteamroom/images/progress/prog075w.gif
++ design/ezteamroom/images/progress/prog100a.gif
++ design/ezteamroom/images/progress/prog100w.gif
++ design/ezteamroom/images/remove.png
++ design/ezteamroom/images/selectcolumnbg.png
++ design/ezteamroom/images/selectcolumnclosebutton.png
++ design/ezteamroom/images/selectcolumncolumn.png
++ design/ezteamroom/images/sidemenu_bullet.png
++ design/ezteamroom/images/sidemenu_bullet2.png
++ design/ezteamroom/images/signup_button.jpg
++ design/ezteamroom/images/task_bg.png
++ design/ezteamroom/images/taskinfo_bg.png
++ design/ezteamroom/images/teamroom/internal_g.gif
++ design/ezteamroom/images/teamroom/internal_s.gif
++ design/ezteamroom/images/teamroom/private_g.gif
++ design/ezteamroom/images/teamroom/private_s.gif
++ design/ezteamroom/images/teamroom/protected_g.gif
++ design/ezteamroom/images/teamroom/protected_s.gif
++ design/ezteamroom/images/teamroom/public_g.gif
++ design/ezteamroom/images/teamroom/public_s.gif
++ design/ezteamroom/images/teamroom/sprites_map_50_50_itemsize.gif
++ design/ezteamroom/images/teamroom_bg.png
++ design/ezteamroom/images/teamroom_box/border-bc.gif
++ design/ezteamroom/images/teamroom_box/border-bl.gif
++ design/ezteamroom/images/teamroom_box/border-br.gif
++ design/ezteamroom/images/teamroom_box/border-mc.gif
++ design/ezteamroom/images/teamroom_box/border-ml.gif
++ design/ezteamroom/images/teamroom_box/border-mr.gif
++ design/ezteamroom/images/teamroom_box/border-tc.gif
++ design/ezteamroom/images/teamroom_box/border-tl.gif
++ design/ezteamroom/images/teamroom_box/border-tr.gif
++ design/ezteamroom/images/teamroom_box/icon.gif
++ design/ezteamroom/images/th_bg.png
++ design/ezteamroom/images/topmenu_bg.png
++ design/ezteamroom/images/topmenu_bg_selected.png
++ design/ezteamroom/images/upload_file.gif
++ design/ezteamroom/images/uploadimage.gif
++ design/ezteamroom/images/uploadmilestone.gif
++ design/ezteamroom/images/user/header_orange_background.jpg
++ design/ezteamroom/images/user/profile_photo_background.jpg
++ design/ezteamroom/images/widgetbox/content.gif
++ design/ezteamroom/images/widgetbox/footer.gif
++ design/ezteamroom/images/widgetbox/header.gif
++ design/ezteamroom/images/yui/fader.gif
++ design/ezteamroom/images/yui/thumb-n.gif
++ design/ezteamroom/images/yui/thumb-w.gif
++ design/ezteamroom/javascript/boxes.js
++ design/ezteamroom/javascript/drag_drop.js
++ design/ezteamroom/javascript/ezdatepickerex.js
++ design/ezteamroom/javascript/files.js
++ design/ezteamroom/javascript/json2.js
++ design/ezteamroom/javascript/lightbox.js
++ design/ezteamroom/javascript/personal_frontpage_helper.js
++ design/ezteamroom/javascript/teamroom.js
++ design/ezteamroom/javascript/yui/fonts/README
++ design/ezteamroom/javascript/yui/fonts/fonts-min.css
++ design/ezteamroom/javascript/yui/fonts/fonts.css
++ design/ezteamroom/javascript/yui/slider/README
++ design/ezteamroom/javascript/yui/slider/slider-debug.js
++ design/ezteamroom/javascript/yui/slider/slider-min.js
++ design/ezteamroom/javascript/yui/slider/slider.js
++ design/ezteamroom/javascript/yui/utilities/README
++ design/ezteamroom/javascript/yui/utilities/utilities.js
++ design/ezteamroom/override/templates/attributes/edit/access_type_teamroom.tpl
++ design/ezteamroom/override/templates/attributes/edit/documents.tpl
++ design/ezteamroom/override/templates/attributes/edit/ezdatetime.tpl
++ design/ezteamroom/override/templates/attributes/edit/priority.tpl
++ design/ezteamroom/override/templates/attributes/edit/task_milestone.tpl
++ design/ezteamroom/override/templates/attributes/edit/users.tpl
++ design/ezteamroom/override/templates/attributes/view/access_type.tpl
++ design/ezteamroom/override/templates/attributes/view/access_type_teamroom.tpl
++ design/ezteamroom/override/templates/attributes/view/documents.tpl
++ design/ezteamroom/override/templates/attributes/view/milestone_related_files.tpl
++ design/ezteamroom/override/templates/attributes/view/milestone_related_tasks.tpl
++ design/ezteamroom/override/templates/attributes/view/planned_end_date.tpl
++ design/ezteamroom/override/templates/attributes/view/priority.tpl
++ design/ezteamroom/override/templates/attributes/view/task_milestone.tpl
++ design/ezteamroom/override/templates/attributes/view/users.tpl
++ design/ezteamroom/override/templates/avatar/user.tpl
++ design/ezteamroom/override/templates/cal_line/event.tpl
++ design/ezteamroom/override/templates/cal_line/milestone.tpl
++ design/ezteamroom/override/templates/cal_line/task.tpl
++ design/ezteamroom/override/templates/content/search.tpl
++ design/ezteamroom/override/templates/content/view/line/file.tpl
++ design/ezteamroom/override/templates/content/view/line/image.tpl
++ design/ezteamroom/override/templates/content/view/line/user.tpl
++ design/ezteamroom/override/templates/content/view/line/xmpimage.tpl
++ design/ezteamroom/override/templates/content/view/line/xmpproduct.tpl
++ design/ezteamroom/override/templates/edit/comment.tpl
++ design/ezteamroom/override/templates/edit/file.tpl
++ design/ezteamroom/override/templates/edit/file_folder.tpl
++ design/ezteamroom/override/templates/edit/forum_reply.tpl
++ design/ezteamroom/override/templates/edit/forum_topic.tpl
++ design/ezteamroom/override/templates/edit/milestone_folder.tpl
++ design/ezteamroom/override/templates/edit/task.tpl
++ design/ezteamroom/override/templates/edit/task_list.tpl
++ design/ezteamroom/override/templates/edit/teamroom.tpl
++ design/ezteamroom/override/templates/edit/user.tpl
++ design/ezteamroom/override/templates/embed/horizontally_listed_sub_items.tpl
++ design/ezteamroom/override/templates/embed/itemized_sub_items.tpl
++ design/ezteamroom/override/templates/embed/itemized_subtree_items.tpl
++ design/ezteamroom/override/templates/embed/task.tpl
++ design/ezteamroom/override/templates/embed/vertically_listed_sub_items.tpl
++ design/ezteamroom/override/templates/fileline/file.tpl
++ design/ezteamroom/override/templates/fileline/folder.tpl
++ design/ezteamroom/override/templates/fileline/image.tpl
++ design/ezteamroom/override/templates/fileline/lightbox.tpl
++ design/ezteamroom/override/templates/fileline/quicktime.tpl
++ design/ezteamroom/override/templates/fileline/real_video.tpl
++ design/ezteamroom/override/templates/fileline/windows_media.tpl
++ design/ezteamroom/override/templates/full/article.tpl
++ design/ezteamroom/override/templates/full/blog.tpl
++ design/ezteamroom/override/templates/full/blog_post.tpl
++ design/ezteamroom/override/templates/full/event.tpl
++ design/ezteamroom/override/templates/full/event_calendar.tpl
++ design/ezteamroom/override/templates/full/file_folder.tpl
++ design/ezteamroom/override/templates/full/folder.tpl
++ design/ezteamroom/override/templates/full/forum.tpl
++ design/ezteamroom/override/templates/full/forum_reply.tpl
++ design/ezteamroom/override/templates/full/forum_topic.tpl
++ design/ezteamroom/override/templates/full/frontpage.tpl
++ design/ezteamroom/override/templates/full/image.tpl
++ design/ezteamroom/override/templates/full/milestone_folder.tpl
++ design/ezteamroom/override/templates/full/personal_frontpage.tpl
++ design/ezteamroom/override/templates/full/quicktime.tpl
++ design/ezteamroom/override/templates/full/real_video.tpl
++ design/ezteamroom/override/templates/full/task_list.tpl
++ design/ezteamroom/override/templates/full/teamroom.tpl
++ design/ezteamroom/override/templates/full/user.tpl
++ design/ezteamroom/override/templates/full/user_group.tpl
++ design/ezteamroom/override/templates/full/wiki.tpl
++ design/ezteamroom/override/templates/full/wiki_page.tpl
++ design/ezteamroom/override/templates/full/windows_media.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/event_calendar.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/folder.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/forum.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/gallery.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/itemized_sub_items.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/wiki.tpl
++ design/ezteamroom/override/templates/itemizedsubitems/wiki_page.tpl
++ design/ezteamroom/override/templates/lightbox/edit_lightbox.tpl
++ design/ezteamroom/override/templates/line/blog_post.tpl
++ design/ezteamroom/override/templates/line/comment.tpl
++ design/ezteamroom/override/templates/line/milestone.tpl
++ design/ezteamroom/override/templates/line/teamroom.tpl
++ design/ezteamroom/override/templates/line/teamroomnode.tpl
++ design/ezteamroom/override/templates/line/wiki.tpl
++ design/ezteamroom/override/templates/line/wiki_page.tpl
++ design/ezteamroom/override/templates/listitem/blog_post.tpl
++ design/ezteamroom/override/templates/listitem/file.tpl
++ design/ezteamroom/override/templates/listitem/image.tpl
++ design/ezteamroom/override/templates/listitem/mytasks.tpl
++ design/ezteamroom/override/templates/listitem/teamroom.tpl
++ design/ezteamroom/override/templates/listitem/user.tpl
++ design/ezteamroom/override/templates/module_widget/blog.tpl
++ design/ezteamroom/override/templates/module_widget/create_new_teamroom.tpl
++ design/ezteamroom/override/templates/module_widget/event_calendar.tpl
++ design/ezteamroom/override/templates/module_widget/file_folder.tpl
++ design/ezteamroom/override/templates/module_widget/latest_messages.tpl
++ design/ezteamroom/override/templates/module_widget/mytasks.tpl
++ design/ezteamroom/override/templates/module_widget/user_group.tpl
++ design/ezteamroom/override/templates/module_widget_pagelayout.tpl
++ design/ezteamroom/override/templates/pf_box/infobox.tpl
++ design/ezteamroom/override/templates/pf_box/module_widget.tpl
++ design/ezteamroom/override/templates/smallline/task.tpl
++ design/ezteamroom/override/templates/table_line/task.tpl
++ design/ezteamroom/override/templates/task.tpl
++ design/ezteamroom/override/templates/user/full_user.tpl
++ design/ezteamroom/stylesheets/browsers/ie5.css
++ design/ezteamroom/stylesheets/browsers/ie6.css
++ design/ezteamroom/stylesheets/browsers/ie7.css
++ design/ezteamroom/stylesheets/core.css
++ design/ezteamroom/stylesheets/lightbox.css
++ design/ezteamroom/stylesheets/teamroom.css
++ design/ezteamroom/stylesheets/teamwebin.css
++ design/ezteamroom/templates/content/advancedsearch.tpl
++ design/ezteamroom/templates/content/attribute_edit.tpl
++ design/ezteamroom/templates/content/bookmark.tpl
++ design/ezteamroom/templates/content/browse.tpl
++ design/ezteamroom/templates/content/browse_mode_list.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezboolean.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezdate.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezdatetime.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezobjectrelationlist.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezstring.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezsubtreesubscription.tpl
++ design/ezteamroom/templates/content/datatype/edit/ezuser.tpl
++ design/ezteamroom/templates/content/datatype/view/ezbinaryfile.tpl
++ design/ezteamroom/templates/content/datatype/view/ezimage.tpl
++ design/ezteamroom/templates/content/datatype/view/ezkeyword.tpl
++ design/ezteamroom/templates/content/datatype/view/ezobjectrelation.tpl
++ design/ezteamroom/templates/content/edit.tpl
++ design/ezteamroom/templates/content/edit_attribute.tpl
++ design/ezteamroom/templates/content/edit_draft.tpl
++ design/ezteamroom/templates/content/pendinglist.tpl
++ design/ezteamroom/templates/content/view/lightbox_line.tpl
++ design/ezteamroom/templates/content/view/smallline.tpl
++ design/ezteamroom/templates/ezmultiupload/ezmultiupload_upload.tpl
++ design/ezteamroom/templates/full/event_view_calendar.tpl
++ design/ezteamroom/templates/full/event_view_program.tpl
++ design/ezteamroom/templates/lightbox/lightbox-head.tpl
++ design/ezteamroom/templates/lightbox/listentry.tpl
++ design/ezteamroom/templates/lightbox/views/currentlightbox.tpl
++ design/ezteamroom/templates/lightbox/views/lightboxlist.tpl
++ design/ezteamroom/templates/lightbox/views/lightboxselection.tpl
++ design/ezteamroom/templates/loginpagelayout.tpl
++ design/ezteamroom/templates/menu/flat_left.tpl
++ design/ezteamroom/templates/menu/flat_top.tpl
++ design/ezteamroom/templates/navigator/alphabetical.tpl
++ design/ezteamroom/templates/navigator/google.tpl
++ design/ezteamroom/templates/node/removeobject.tpl
++ design/ezteamroom/templates/node/view/allteamrooms.tpl
++ design/ezteamroom/templates/node/view/avatar.tpl
++ design/ezteamroom/templates/node/view/cal_line.tpl
++ design/ezteamroom/templates/node/view/createteamroom.tpl
++ design/ezteamroom/templates/node/view/fileline.tpl
++ design/ezteamroom/templates/node/view/latestmessages.tpl
++ design/ezteamroom/templates/node/view/lightboxlist.tpl
++ design/ezteamroom/templates/node/view/listitem.tpl
++ design/ezteamroom/templates/node/view/manage.tpl
++ design/ezteamroom/templates/node/view/module_widget.tpl
++ design/ezteamroom/templates/node/view/mytasks.tpl
++ design/ezteamroom/templates/node/view/myteamrooms.tpl
++ design/ezteamroom/templates/node/view/pf_box.tpl
++ design/ezteamroom/templates/node/view/sitemap.tpl
++ design/ezteamroom/templates/node/view/table_line.tpl
++ design/ezteamroom/templates/node/view/teamroomlist.tpl
++ design/ezteamroom/templates/node/view/teamrooms.tpl
++ design/ezteamroom/templates/node/view/usertasks.tpl
++ design/ezteamroom/templates/node/view/usertaskslist.tpl
++ design/ezteamroom/templates/node/view/wiki_atoz.tpl
++ design/ezteamroom/templates/node/view/wiki_search.tpl
++ design/ezteamroom/templates/node/view/wiki_tags.tpl
++ design/ezteamroom/templates/notification/addingresult.tpl
++ design/ezteamroom/templates/notification/handler/ezcollaboration/settings/edit.tpl
++ design/ezteamroom/templates/notification/handler/ezgeneraldigest/settings/edit.tpl
++ design/ezteamroom/templates/notification/handler/ezsubtree/settings/edit.tpl
++ design/ezteamroom/templates/notification/handler/ezsubtree/view/plain.tpl
++ design/ezteamroom/templates/notification/settings.tpl
++ design/ezteamroom/templates/page_head_script.tpl
++ design/ezteamroom/templates/page_head_style.tpl
++ design/ezteamroom/templates/pagelayout.tpl
++ design/ezteamroom/templates/parts/header.tpl
++ design/ezteamroom/templates/parts/path.tpl
++ design/ezteamroom/templates/parts/wiki_leftcol.tpl
++ design/ezteamroom/templates/user/activate.tpl
++ design/ezteamroom/templates/user/edit.tpl
++ design/ezteamroom/templates/user/edit_menu.tpl
++ design/ezteamroom/templates/user/forgotpassword.tpl
++ design/ezteamroom/templates/user/login.tpl
++ design/ezteamroom/templates/user/password.tpl
++ design/ezteamroom/templates/user/register.tpl
++ design/ezteamroom/templates/user/registrationapproved.tpl
++ design/ezteamroom/templates/user/registrationfeedback.tpl
++ design/ezteamroom/templates/user/registrationinfo.tpl
++ design/ezteamroom/templates/user/success.tpl
++ design/standard/images/back-button-16x16.gif
++ design/standard/images/breadcrumb.gif
++ design/standard/images/breadcrumb_delimiter.gif
++ design/standard/images/buttons/edit_button.jpg
++ design/standard/images/buttons/new_draft_button.jpg
++ design/standard/images/buttons/ok_button.jpg
++ design/standard/images/change_password.gif
++ design/standard/images/close_milestone.gif
++ design/standard/images/close_milestone_g.gif
++ design/standard/images/comment.gif
++ design/standard/images/file/bookmark.gif
++ design/standard/images/file/delete.gif
++ design/standard/images/file/download.gif
++ design/standard/images/file/lock_closed.gif
++ design/standard/images/file/lock_open.gif
++ design/standard/images/file/update.gif
++ design/standard/images/file/versions.gif
++ design/standard/images/forum_up.gif
++ design/standard/images/icons/icon_info.jpg
++ design/standard/images/icons/icon_ok.jpg
++ design/standard/images/icons/icon_warn.jpg
++ design/standard/images/lightbox/action_lightbox_delete_medium.png
++ design/standard/images/lightbox/action_lightbox_edit_medium.png
++ design/standard/images/lightbox/action_lightbox_move_medium.png
++ design/standard/images/lightbox/action_lightbox_new_medium.png
++ design/standard/images/lightbox/action_lightbox_send_medium.png
++ design/standard/images/lightbox/action_lightbox_view_medium.png
++ design/standard/images/lightbox_bulb.gif
++ design/standard/images/lightbox_bulb_small.gif
++ design/standard/images/loading.gif
++ design/standard/images/mail-16x16.gif
++ design/standard/images/mail.gif
++ design/standard/images/paginating/first.gif
++ design/standard/images/paginating/last.gif
++ design/standard/images/paginating/next.gif
++ design/standard/images/paginating/prev.gif
++ design/standard/images/task_delete.gif
++ design/standard/images/task_edit.gif
++ design/standard/images/task_info.gif
++ design/standard/images/teamroom/logo.png
++ design/standard/images/user/default_user_image.png
++ design/standard/images/user/header_orange_background.jpg
++ design/standard/images/user/profile_header_logo.jpg
++ design/standard/images/user/profile_photo_background.jpg
++ design/standard/javascript/editfunctions.js
++ design/standard/javascript/insertmedia.js
++ design/standard/javascript/yui/build/calendar/yui_calendar.js
++ design/standard/javascript/yui/build/yahoo-dom-event/yahoo-dom-event.js
++ design/standard/override/templates/attribute/edit/ezobjectrelation.tpl
++ design/standard/override/templates/content/view/embed/task.tpl
++ design/standard/override/templates/lightbox/views/list.tpl
++ design/standard/override/templates/line_thumbnail/file.tpl
++ design/standard/stylesheets/browsers/ie5.css
++ design/standard/stylesheets/browsers/ie6.css
++ design/standard/stylesheets/browsers/ie7.css
++ design/standard/stylesheets/classes-colors.css
++ design/standard/stylesheets/print.css
++ design/standard/stylesheets/site-colors.css
++ design/standard/stylesheets/yui/build/calendar/assets/calendar.css
++ design/standard/stylesheets/yui/fonts/fonts-min.css
++ design/standard/templates/collaboration/group/view/list.tpl
++ design/standard/templates/collaboration/group_tree.tpl
++ design/standard/templates/collaboration/handlers/icon/small/ezapprovememberregistration.tpl
++ design/standard/templates/collaboration/handlers/view/full/ezapprovememberregistration.tpl
++ design/standard/templates/collaboration/handlers/view/line/ezapprovememberregistration.tpl
++ design/standard/templates/collaboration/item_list.tpl
++ design/standard/templates/collaboration/message/view/element/ezapprovememberregistration_comment.tpl
++ design/standard/templates/collaboration/view/summary.tpl
++ design/standard/templates/content/view/cal_line.tpl
++ design/standard/templates/lightbox/create.tpl
++ design/standard/templates/lightbox/edit.tpl
++ design/standard/templates/lightbox/send.tpl
++ design/standard/templates/lightbox/views/full.tpl
++ design/standard/templates/lightbox/views/list.tpl
++ design/standard/templates/node/view/edit_preview.tpl
++ design/standard/templates/notification/addingresult.tpl
++ design/standard/templates/notification/handler/ezcollaboration/view/ezapprovememberregistration/approver.tpl
++ design/standard/templates/notification/handler/ezcollaboration/view/ezapprovememberregistration/author.tpl
++ design/standard/templates/teamroom/browse_invite.tpl
++ design/standard/templates/teamroom/createteamroom.tpl
++ design/standard/templates/teamroom/createteamroom_demo_content.tpl
++ design/standard/templates/teamroom/install_wiki_classes.tpl
++ design/standard/templates/teamroom/installezteamroom.tpl
++ design/standard/templates/teamroom/invite.tpl
++ design/standard/templates/teamroom/mail/invitationfeedback.tpl
++ design/standard/templates/teamroom/mail/member_invited.tpl
++ design/standard/templates/teamroom/mail/member_removed.tpl
++ design/standard/templates/teamroom/mail/member_resign.tpl
++ design/standard/templates/teamroom/mail/member_resign_done.tpl
++ design/standard/templates/teamroom/mail/memberregistration_approved.tpl
++ design/standard/templates/teamroom/mail/memberregistration_denied.tpl
++ design/standard/templates/teamroom/mail/messagecenter.tpl
++ design/standard/templates/teamroom/mail/new_user_member_invited.tpl
++ design/standard/templates/teamroom/mail/remind_member_invited.tpl
++ design/standard/templates/teamroom/mail/teamroom_ready.tpl
++ design/standard/templates/teamroom/mail_footer.tpl
++ design/standard/templates/teamroom/manage.tpl
++ design/standard/templates/teamroom/messagecenter.tpl
++ design/standard/templates/teamroom/register.tpl
++ design/standard/templates/teamroom/register_deferred.tpl
++ design/standard/templates/teamroom/register_done.tpl
++ design/standard/templates/teamroom/resign.tpl
++ design/standard/templates/teamroom/resign_done.tpl
++ design/standard/templates/workflow/eventtype/edit/event_ezapprovememberregistration.tpl
++ design/standard/templates/workflow/eventtype/view/event_ezapprovememberregistration.tpl
++ doc/changelogs/1.2/CHANGELOG-1.1.0-to-1.2.0
++ documentation/1.4_to_1.5
++ documentation/INSTALL
++ documentation/TODO
++ documentation/mail_to_ez_specification.txt
++ eventtypes/event/ezapprovememberregistration/ezapprovememberregistrationtype.php
++ eventtypes/event/ezsetsection/ezsetsectiontype.php
++ eventtypes/event/ezsetteamroom/ezsetteamroomtype.php
++ extension.xml
++ ezinfo.php
++ modules/filelist/module.php
++ modules/filelist/setattribute.php
++ modules/tasklist/module.php
++ modules/tasklist/set.php
++ modules/teamroom/bookmark.php
++ modules/teamroom/ezteamroomfunctioncollection.php
++ modules/teamroom/function_definition.php
++ modules/teamroom/invite.php
++ modules/teamroom/manage.php
++ modules/teamroom/messagecenter.php
++ modules/teamroom/module.php
++ modules/teamroom/operation_definition.php
++ modules/teamroom/register.php
++ modules/teamroom/resign.php
++ modules/teamroom/teamroomoperationcollection.php
++ modules/wiki/module.php
++ modules/wiki/random_page.php
++ settings/admininterface.ini.append.php
++ settings/browse.ini.append.php
++ settings/collaboration.ini.append.php
++ settings/content.ini.append.php
++ settings/cronjob.ini.append.php
++ settings/design.ini.append.php
++ settings/ezmultiupload.ini.append.php
++ settings/fetchalias.ini.append.php
++ settings/image.ini.append.php
++ settings/lightbox.ini.append.php
++ settings/module.ini.append.php
++ settings/personalfrontpage.ini.append.php
++ settings/site.ini.append.php
++ settings/siteaccess/ezteamroom/browse.ini.append.php
++ settings/siteaccess/ezteamroom/content.ini.append.php
++ settings/siteaccess/ezteamroom/contentstructuremenu.ini.append.php
++ settings/siteaccess/ezteamroom/design.ini.append.php
++ settings/siteaccess/ezteamroom/ezmultiupload.ini.append.php
++ settings/siteaccess/ezteamroom/icon.ini.append.php
++ settings/siteaccess/ezteamroom/image.ini.append.php
++ settings/siteaccess/ezteamroom/menu.ini.append.php
++ settings/siteaccess/ezteamroom/override.ini.append.php
++ settings/siteaccess/ezteamroom/personalfrontpage.ini.append.php
++ settings/siteaccess/ezteamroom/site.ini.append.php
++ settings/siteaccess/ezteamroom/template.ini.append.php
++ settings/siteaccess/ezteamroom/toolbar.ini.append.php
++ settings/siteaccess/ezteamroom/workflow.ini.append.php
++ settings/teamroom.ini.append.php
++ settings/template.ini.append.php
++ settings/texttoimage.ini.append.php
++ settings/upload.ini.append.php
++ settings/websitetoolbar.ini.append.php
++ settings/workflow.ini.append.php
++ settings/xmlinstaller.ini.append.php
++ translations/dut-NL/translation.ts
++ translations/esl-ES/translation.ts
++ translations/fre-FR/translation.ts
++ translations/ger-DE/translation.ts
++ translations/hun-HU/translation.ts
++ translations/pol-PL/translation.ts
++ translations/untranslated/translation.ts
++ update/1.1/update_info_1.0.4.txt
++ update/1.4to1.5/migrate_wiki.php
++ xmlinstallerhandler/ezcheckteamroomrequirements.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- moved extensions files to root directories (trunk, branches/1.5, tags/1.5.0)
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezteamroom/trunk@440 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/59a0ebe990c283ae840e808df314d603cd946bae</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/80407e123d00266fde2bd5cf5ba1d81487864576</link>
+      <description>
+      &lt;pre&gt;m INSTALL
+m classes/ezteamroomtoc.php
+m design/ezteamroom/override/templates/fileline/image.tpl
+m design/ezteamroom/templates/node/removeobject.tpl
+m ezinfo.php
+m modules/wiki/module.php
+m modules/wiki/random_page.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'stable-1.5'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/80407e123d00266fde2bd5cf5ba1d81487864576</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/a3ab52fc424b7715cbdbcb1e4d94b21f013fdb80</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from npanau/47transFR
+
+traduction FR - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/a3ab52fc424b7715cbdbcb1e4d94b21f013fdb80</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/3615e6d7220015b541abdf6df834f40576123a8f</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;traduction FR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/3615e6d7220015b541abdf6df834f40576123a8f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/eb2ce091aaf923ee31a7aa3f019dab98fcacd1bd</link>
+      <description>
+      &lt;pre&gt;m INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; added eZOE as required extension to INSTALL&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/eb2ce091aaf923ee31a7aa3f019dab98fcacd1bd</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/49a15501d3abc8d6dc557139e34e47840ad6f374</link>
+      <description>
+      &lt;pre&gt;m design/ezteamroom/templates/node/removeobject.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;FIX: #019279: Module not found, after removing ezteamroom
+(cherry picked from commit 0c7bf32dcaadd63c728e51fa7f85bbdf13a27360)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/49a15501d3abc8d6dc557139e34e47840ad6f374</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/761b2a159ea23409de5c45bcf5c98c07791dfbdf</link>
+      <description>
+      &lt;pre&gt;m collaboration/ezapprovememberregistration/ezapprovememberregistrationcollaborationhandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed inclusion of deprecated i18n.php file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/761b2a159ea23409de5c45bcf5c98c07791dfbdf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/f5640b0c00a0a5e563a397e357c4adcf20f822bf</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/f5640b0c00a0a5e563a397e357c4adcf20f822bf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/ecd2c7dbd0e340b97d47232e63100b0f58505e0b</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from lolautruche/updatedFrenchTranslation
+
+Updated french translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/ecd2c7dbd0e340b97d47232e63100b0f58505e0b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/ab1d2fb883b850eac7dde1fb752286ca6a66b9e7</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated french translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/ab1d2fb883b850eac7dde1fb752286ca6a66b9e7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/b64ca2e8afb830ebfdf50e998b54d42de7c8fe25</link>
+      <description>
+      &lt;pre&gt;m translations/dut-NL/translation.ts
+m translations/esl-ES/translation.ts
+m translations/fre-FR/translation.ts
+m translations/ger-DE/translation.ts
+m translations/hun-HU/translation.ts
+m translations/pol-PL/translation.ts
+m translations/swe-SE/translation.ts
+m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/b64ca2e8afb830ebfdf50e998b54d42de7c8fe25</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/d53148e74b615085301a9453ec51fc91711d5628</link>
+      <description>
+      &lt;pre&gt;m actions/content_actionhandler.php
+m autoloads/eztemplateautoload.php
+m classes/ezteamroom.php
+m classes/ezteamroomoperators.php
+m classes/ezteamroomtoc.php
+m classes/ezxTeamRoomUtils.php
+m collaboration/ezapprovememberregistration/ezapprovememberregistrationcollaborationhandler.php
+m cronjobs/cleanup_users.php
+m cronjobs/teamroom_mail_import.php
+m design/ezteamroom/javascript/boxes.js
+m design/ezteamroom/javascript/drag_drop.js
+m design/ezteamroom/javascript/personal_frontpage_helper.js
+m eventtypes/event/ezapprovememberregistration/ezapprovememberregistrationtype.php
+m eventtypes/event/ezsetsection/ezsetsectiontype.php
+m eventtypes/event/ezsetteamroom/ezsetteamroomtype.php
+m extension.xml
+m ezinfo.php
+m modules/filelist/module.php
+m modules/filelist/setattribute.php
+m modules/tasklist/module.php
+m modules/tasklist/set.php
+m modules/teamroom/bookmark.php
+m modules/teamroom/ezteamroomfunctioncollection.php
+m modules/teamroom/function_definition.php
+m modules/teamroom/invite.php
+m modules/teamroom/manage.php
+m modules/teamroom/messagecenter.php
+m modules/teamroom/module.php
+m modules/teamroom/operation_definition.php
+m modules/teamroom/register.php
+m modules/teamroom/resign.php
+m modules/teamroom/teamroomoperationcollection.php
+m modules/wiki/module.php
+m modules/wiki/random_page.php
+m xmlinstallerhandler/ezcheckteamroomrequirements.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/d53148e74b615085301a9453ec51fc91711d5628</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/cf9ed664a2e8e69029922b75e661e98b6adeb37c</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from SylvainGuittard/master
+
+French translation finished - 2012.10/5.0 translation session&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/cf9ed664a2e8e69029922b75e661e98b6adeb37c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/bbc320319803a395b5c9218ea476fad0e4ae9b79</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation finished&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/bbc320319803a395b5c9218ea476fad0e4ae9b79</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezteamroom/subversion/8ef97d132c411c9ed79e8e204891479be627588f</link>
+      <description>
+      &lt;pre&gt;m classes/ezteamroom.php
+m modules/teamroom/invite.php
+m modules/teamroom/manage.php
+m modules/teamroom/messagecenter.php
+m modules/teamroom/register.php
+m modules/teamroom/resign.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/8ef97d132c411c9ed79e8e204891479be627588f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Future roadmap</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/future_roadmap</link>
+      <description>Hi all&#13;
+&#13;
+Just wondering what the future holds for ez teamroom, if any further development is planned or if this project has been abandoned?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/future_roadmap</guid>
+      <pubDate>Mon, 20 Feb 2012 07:21:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Manage attendees of an event in ezteamroom...</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar/re_manage_attendees_of_an_event_in_ezteamroom</link>
+      <description>Hi,&#13;
+The problem seems to be caused by the use of the "$()" function in: &#13;
+extension/ezevent/design/standard/javascript/ezevent.js&#13;
+&#13;
+The following patch seems to solve it (also I have added code to prevent a user to be added twice) at least with my setup.&#13;
+Mathieu &#13;
+&#13;
+&lt;code&gt;&#13;
+--- ./extension/ezevent/design/standard/javascript/ezevent.js   2010-12-03 09:04:47.000000000 +0100&#13;
++++ ./extension/ezevent/design/standard/javascript/ezevent.js.new       2010-12-02 18:10:52.000000000 +0100&#13;
+@@ -91,7 +91,8 @@&#13;
+ &#13;
+ function ezevent_showHideBlock( blockID, show )&#13;
+ {&#13;
+-    var block = $( 'ezeventattribute_' + blockID );&#13;
++    //var block = $( 'ezeventattribute_' + blockID );&#13;
++    var block = document.getElementById('ezeventattribute_' + blockID);&#13;
+     if ( block )&#13;
+     {&#13;
+         block.style.display =  ( show ) ? "block" : "none";&#13;
+@@ -138,7 +139,8 @@&#13;
+     gLinkinProgress = true;&#13;
+     if ( gLinkTarget != '' )&#13;
+     {&#13;
+-        lTarget = $( gLinkTarget );&#13;
++        //lTarget = $( gLinkTarget );&#13;
++        lTarget = document.getElementById(gLinkTarget);&#13;
+         gLinkTarget = '';&#13;
+     }&#13;
+     else&#13;
+@@ -193,7 +195,15 @@&#13;
+ &#13;
+ function  ezevent_addUserListEntry( id, uname )&#13;
+ {&#13;
+-    var userList = $( 'list_of_users' );&#13;
++    var user = document.getElementById('list_of_users_entry_' + id);&#13;
++    if ( user ) &#13;
++    {&#13;
++        // user has been already added&#13;
++       return false;&#13;
++    }&#13;
++&#13;
++    //var userList = $( 'list_of_users' );&#13;
++    var userList = document.getElementById('list_of_users');&#13;
+ &#13;
+     if ( !userList )&#13;
+     {&#13;
+@@ -218,7 +228,8 @@&#13;
+ &#13;
+ function  ezevent_removeUserListEntry( id )&#13;
+ {&#13;
+-    var item = $( id );&#13;
++    //var item = $( id );&#13;
++    var item = document.getElementById(id);&#13;
+     &#13;
+     if ( item )&#13;
+     {&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar/re_manage_attendees_of_an_event_in_ezteamroom</guid>
+      <pubDate>Fri, 03 Dec 2010 08:07:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom2</link>
+      <description>Hi,&#13;
+I have modified the following file: &#13;
+extension/ezteamroom/design/ezteamroom/override/templates/fileline/file.tpl&#13;
+in order to add a "version" parameter to the download links. Now I can download all the versions of a file.&#13;
+&#13;
+Warning: the user has to have the permission on the "versionread" of the "content" module.&#13;
+Mathieu&#13;
+&#13;
+--- file.tpl    2010-12-02 09:26:52.000000000 +0100&#13;
++++ file.tpl.new        2010-12-02 09:21:52.000000000 +0100&#13;
+@@ -122,7 +122,7 @@&#13;
+             &lt;td class="{$style}"&gt;{$version.status|choose("Draft"|i18n("ezteamroom/files"),"Published"|i18n("ezteamroom/files"),"Pending"|i18n("ezteamroom/files"),"Archived"|i18n("ezteamroom/files"),"Rejected"|i18n("ezteamroom/files"))}&lt;/td&gt;&#13;
+             &lt;td class="{$style}"&gt;&lt;a target="_blank" href={concat("/content/view/full/",$version.creator.main_node_id,"/")|ezurl}&gt;{$version.creator.name|wash}&lt;/a&gt;&lt;/td&gt;&#13;
+             &lt;td class="{$style}"&gt;&lt;span class="small"&gt;{$version.modified|l10n(shortdate)}&lt;/span&gt;&lt;/td&gt;&#13;
+-            &lt;td class="{$style}"&gt;&lt;a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}&gt; {"Get version"|i18n("ezteamroom/files")}&lt;/a&gt;&lt;/td&gt;&#13;
++            &lt;td class="{$style}"&gt;&lt;a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/version/", $version.version, "/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}&gt; {"Get version"|i18n("ezteamroom/files")}&lt;/a&gt;&lt;/td&gt;&#13;
+         &lt;/tr&gt;&#13;
+         {/foreach}&#13;
+         &lt;/table&gt;&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom2</guid>
+      <pubDate>Thu, 02 Dec 2010 08:37:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to download files using WebDAV</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav/re_unable_to_download_files_using_webdav</link>
+      <description>Hi, &#13;
+If I set:&#13;
+  PathPrefix= &#13;
+instead of: &#13;
+  PathPrefix=Teamrooms &#13;
+in settings/siteaccess/ezteamroom/site.ini.append.php, I can download the files using webdav. It seems that this parameter is not properly handled in:&#13;
+kernel/private/classes/webdav/ezwebdavcontentbackend.php? &#13;
+Mathieu &#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav/re_unable_to_download_files_using_webdav</guid>
+      <pubDate>Wed, 01 Dec 2010 16:55:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manage attendees of an event in ezteamroom calendar</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar</link>
+      <description>Hi,&#13;
+I cannot manage the attendees of an event in the calendar. When I am trying to edit an event, I get by default the following javascripr error:&#13;
+"ezevent_initWithMode is not defined"&#13;
+&#13;
+Uncomment the following line in extension/ezevent/settings/design.ini.append.php:&#13;
+JavaScriptList[]=ezevent.js&#13;
+helps but does not solve the problem. Is anyone using this feature? I have using ez publish 4.4.0 + ezteamroom 1.2.&#13;
+&#13;
+Thanks,&#13;
+Mathieu</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar</guid>
+      <pubDate>Wed, 01 Dec 2010 14:26:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 75 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/75</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/75</guid>
+      <pubDate>Wed, 27 Oct 2010 14:15:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where is cronjob script ?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/where_is_cronjob_script</link>
+      <description>Hi,&#13;
+&#13;
+where is a cronjob script for setup new teamroom?&#13;
+I see only cleanup_users.php and teamroom_mail_import.php&#13;
+&#13;
+Now I can only create new teamrooms but cant use them? Am I missing something?:-)&#13;
+&#13;
+Verzion of ezteamroom is 1.2&#13;
+&#13;
+Update:&#13;
+Problem solved!&#13;
+&#13;
+Best regards,&#13;
+Sinisa</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/where_is_cronjob_script</guid>
+      <pubDate>Fri, 15 Oct 2010 09:23:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>teamroom member registration</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/teamroom_member_registration</link>
+      <description>Is there any way to see the waiting user registration to a teamroom in ezteamroom site access ? or teamroom owners have to go in collaboration dashboard in back end to validate them ?&#13;
+&#13;
+For exemple, when an user ask to be a member in a teamroom. I only see it in the collaboration view in back end, so I need to change to admin siteaccess to validate it.</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/teamroom_member_registration</guid>
+      <pubDate>Fri, 08 Oct 2010 08:54:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>cache update</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/cache_update</link>
+      <description>Hi,&#13;
+&#13;
+I'm experiencing some trouble in list pages. some of them are not updated when I create/update/delete objects.&#13;
+For example, blog list doesn't been updated when I add a new one. In the other hand, it works properly in task list (when I create one task, the list is updated).&#13;
+&#13;
+Does anyone know something about this issue ?</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/cache_update</guid>
+      <pubDate>Tue, 05 Oct 2010 09:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom</link>
+      <description>Hi, &#13;
+I get the same error with ez teamroom 1.1 and ez publish 4.3 + plain_site package. I have also tested latest code from 1.1 svn branch. Is this a bug or a configuration issue?&#13;
+Thanks,&#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom</guid>
+      <pubDate>Fri, 24 Sep 2010 16:48:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to download files using WebDAV</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav</link>
+      <description>Hi, &#13;
+I am testing eZ Teamroom + WebDAV access. I am able to upload files but when I try to download a file, I get an "500 Internal Server Error" and the following error message in Apache log file:&#13;
+ &#13;
+[Fri Sep 24 17:59:55 2010] [error] [client x.x.x.x] PHP Fatal error:  Call to a member function attribute() on a non-object in /homelocal/ezpublish/www/kernel/private/classes/webdav/ezwebdavcontentbackend.php on line 1449&#13;
+ &#13;
+My setup:  &#13;
+- eZ Publish 4.3.0 (plain_site package using eng-GB langage) &#13;
+- eZ Teamroom 1.1-0 (I get the same error with latest SVN code: 1.1 branch). &#13;
+- PHP 5.2.10  &#13;
+- Webdav client : konqueror or cadaver &#13;
+- default WebDAV configuration (I have just set "EnableWebDAV=true" in ini file)&#13;
+&#13;
+Thanks in advance, &#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav</guid>
+      <pubDate>Fri, 24 Sep 2010 16:33:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 74 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/74</link>
+      <description>--Committed Spanish translation on behalf of Silvia Pinel &lt;silvia [dot] pinel [at] microblau [dot] net&gt;. Thank you, and thank you Microblau</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/74</guid>
+      <pubDate>Wed, 08 Sep 2010 08:10:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom</link>
+      <description>My problem is that when i upload different version of a file (with the same filename) it is only possible to download the latest which is tagged 'published' although it shows the versions correctly. Within the database there are entries in ezbinaryfile for the files and in the filesystem i can find all the versions.&#13;
+When i look for the files from the admin interface i see the versions and it correctly displays the sizes of the files, but when i open them they always show the latest (published) version. &#13;
+&#13;
+Perhaps it is just a setting but i am not getting it and since this is the essential part of a versioning system i would like to get this working. I also tried to set the permissions according to the manual installation entry of the technical manual of ezpublish. &#13;
+&#13;
+Version of teamroom is 1.1 and ezpublish is 4.3. Installed on CentOS 5.5.&#13;
+&#13;
+Thanks in advance!</description>
+      <author>community@ez.no (Remco Luitwieler)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom</guid>
+      <pubDate>Tue, 07 Sep 2010 09:48:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 73 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/73</link>
+      <description>- Removed 1.2 changelog which does not belong here
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/73</guid>
+      <pubDate>Tue, 31 Aug 2010 11:10:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 72 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/72</link>
+      <description>- Fixed bug #16781: ezteamroom does not use ezjscore (ez*_load()) so jquery++ isn't load
+  (Merged from trunk rev. 71)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/72</guid>
+      <pubDate>Tue, 31 Aug 2010 11:10:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 71 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/71</link>
+      <description>- Fixed bug #16781: ezteamroom does not use ezjscore (ez*_load()) so jquery++ isn't load
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/71</guid>
+      <pubDate>Tue, 31 Aug 2010 11:05:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to enable the online editor with ez tea...</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom/re_how_to_enable_the_online_editor_with_ez_tea</link>
+      <description>Hi Mathieu,&#13;
+&#13;
+it's seems there's an issue in ezteamroom with ezoe and ezwebin. See http://issues.ez.no/16781&#13;
+&#13;
+Cheers,</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom/re_how_to_enable_the_online_editor_with_ez_tea</guid>
+      <pubDate>Thu, 19 Aug 2010 21:41:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to enable the online editor with ez teamroom?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom</link>
+      <description>Hi,&#13;
+I am new to eZ Publish. I have installed version 4.3.0 + eZ Website Interface 1.6-0 + eZ Teamroom 1.1-0. How to enable the online editor in the eZ Teamroom interface? I have modified the settings/override/site.ini.append.php file as follow: &#13;
+&#13;
+  [ExtensionSettings]&#13;
+  ActiveExtensions[]=ezevent&#13;
+  ActiveExtensions[]=ezteamroom&#13;
+  ActiveExtensions[]=ezlightbox&#13;
+  ActiveExtensions[]=ezxmlinstaller&#13;
+  ActiveExtensions[]=ezmultiupload&#13;
+  ActiveExtensions[]=ezjscore&#13;
+  ActiveExtensions[]=ezwt&#13;
+  ActiveExtensions[]=ezodf&#13;
+  ActiveExtensions[]=ezoe&#13;
+  ActiveExtensions[]=ezwebin&#13;
+&#13;
+and then run:&#13;
+&#13;
+  php bin/php/ezpgenerateautoloads.php -e&#13;
+&#13;
+and then clear all cache using the admin interface, but the online editor does not work. For example, when I try to create a new Milestone, the editor does not appear (description field) and I get the following Javascript errors: &#13;
+&#13;
+  jQuery is not defined&#13;
+  tinyMCE has no properties&#13;
+  tinymce.ScriptLoader has no properties&#13;
+&#13;
+I precise that the editor is working when I edit pages of the eZ Website interface.&#13;
+&#13;
+Thanks in advance,&#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom</guid>
+      <pubDate>Thu, 19 Aug 2010 12:05:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 70 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/70</link>
+      <description>CS: added missing newline at end-of-file to ChangeLog files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/70</guid>
+      <pubDate>Wed, 18 Aug 2010 07:35:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 68 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/68</link>
+      <description>CS: added missing newline at end-of-file to css files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/68</guid>
+      <pubDate>Wed, 18 Aug 2010 07:35:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 69 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/69</link>
+      <description>CS: added missing newline at end-of-file to txt files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/69</guid>
+      <pubDate>Wed, 18 Aug 2010 07:35:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 66 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/66</link>
+      <description>CS: added missing newline at end-of-file to php files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/66</guid>
+      <pubDate>Wed, 18 Aug 2010 07:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 67 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/67</link>
+      <description>CS: added missing newline at end-of-file to js files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/67</guid>
+      <pubDate>Wed, 18 Aug 2010 07:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 65 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/65</link>
+      <description>Fixed bug #16630: ezteamroom: standard tpl operator urlencode is modified</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/65</guid>
+      <pubDate>Tue, 10 Aug 2010 10:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 64 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/64</link>
+      <description>- Fixed bug #16834: Teamroom: changing policies in one teamroom affects user's policies in other teamroom
+  (Merged from trunk rev. 63)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/64</guid>
+      <pubDate>Tue, 13 Jul 2010 09:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 63 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/63</link>
+      <description>- Fixed bug #16834: Teamroom: changing policies in one teamroom affects user's policies in other teamroom</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/63</guid>
+      <pubDate>Tue, 13 Jul 2010 09:00:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 62 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/62</link>
+      <description>- Fixed bug #16816: Teamroom: Removing teamroom user also removes user's policies in another teamroom.
+  (Merged from trunk rev. 61)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/62</guid>
+      <pubDate>Wed, 23 Jun 2010 14:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom rev. 61 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezteamroom/subversion/61</link>
+      <description>- Fixed bug #16816: Teamroom: Removing teamroom user also removes user's policies in another teamroom.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezteamroom/subversion/61</guid>
+      <pubDate>Wed, 23 Jun 2010 14:00:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

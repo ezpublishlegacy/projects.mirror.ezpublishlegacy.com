@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / session_cleanup / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:39:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:39:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1376" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Update to eZ 4.1</title>
+      <link>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1/re_update_to_ez_4_12</link>
+      <description>The extension is now eZP 4.1 ready</description>
+      <author>community@ez.no (Niko Goers)</author>
+      <guid>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1/re_update_to_ez_4_12</guid>
+      <pubDate>Mon, 03 Aug 2009 10:38:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update to eZ 4.1</title>
+      <link>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1/re_update_to_ez_4_1</link>
+      <description>Thanks for sharing this</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1/re_update_to_ez_4_1</guid>
+      <pubDate>Wed, 17 Jun 2009 15:48:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Update to eZ 4.1</title>
+      <link>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1</link>
+      <description>These changes are needed to have this extension working in eZ 4.1:&#13;
+&#13;
+&lt;code&gt;&#13;
+Modified: extension/session_cleanup/cronjobs/session_cleanup.php&#13;
+===================================================================&#13;
+--- extension/session_cleanup/cronjobs/session_cleanup.php   2009-05-04 15:13:02 UTC (rev 10183)&#13;
++++ extension/session_cleanup/cronjobs/session_cleanup.php   2009-05-04 15:15:13 UTC (rev 10184)&#13;
+@@ -9,13 +9,13 @@&#13;
+     {&#13;
+            if( !$isQuiet )&#13;
+                $cli-&gt;output( 'Removing  ALL sessions from database...' );&#13;
+-       eZSessionEmpty();&#13;
++       eZSession::cleanup();&#13;
+     }&#13;
+     else&#13;
+     {&#13;
+            if( !$isQuiet )&#13;
+                $cli-&gt;output( 'Removing EXPIRED sessions from database...' );&#13;
+-       eZSessionGarbageCollector();&#13;
++       eZSession::garbageCollector();&#13;
+     }&#13;
+ &#13;
+     if( !$isQuiet )&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Xavier Serna)</author>
+      <guid>http://projects.ez.no/session_cleanup/forum/general/update_to_ez_4_1</guid>
+      <pubDate>Tue, 05 May 2009 10:05:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

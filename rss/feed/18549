@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztestbrowser / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18549" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Test browser 0.2</title>
+      <link>http://projects.ez.no/eztestbrowser/downloads/ez_test_browser_0_2</link>
+      <description></description>
+      <author>community@ez.no (Francesco Trucchia)</author>
+      <guid>http://projects.ez.no/eztestbrowser/downloads/ez_test_browser_0_2</guid>
+      <pubDate>Mon, 17 Aug 2009 16:16:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Test Browser 0.1</title>
+      <link>http://projects.ez.no/eztestbrowser/downloads/ez_test_browser_0_1</link>
+      <description></description>
+      <author>community@ez.no (Francesco Trucchia)</author>
+      <guid>http://projects.ez.no/eztestbrowser/downloads/ez_test_browser_0_1</guid>
+      <pubDate>Mon, 17 Aug 2009 16:16:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

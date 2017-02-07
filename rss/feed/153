@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / superuser / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:07 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/153" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>superuser rev. 1449 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1449</link>
+      <description>- updated ezinfo file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1449</guid>
+      <pubDate>Sat, 09 May 2009 10:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1448 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1448</link>
+      <description>- Implemented enhancement: remove unnecessary includes
+- Implemented enhancement: remove unnecessary references</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1448</guid>
+      <pubDate>Wed, 03 Sep 2008 06:50:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1446 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1446</link>
+      <description>- Fixed bug: unable to log in with super password when AuthenticateMatch=login;email and providing email as login</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1446</guid>
+      <pubDate>Fri, 08 Aug 2008 09:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1447 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1447</link>
+      <description>- Fixed bug: unable to log in with super password when AuthenticateMatch=login;email and providing email as login</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1447</guid>
+      <pubDate>Fri, 08 Aug 2008 09:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1445 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1445</link>
+      <description>- Adding 1.0 stable branch
+  (Copied from trunk rev. 1442)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1445</guid>
+      <pubDate>Mon, 28 Jul 2008 08:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1443 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1443</link>
+      <description>- Implemented: eZ Publish 4 compatibility
+- Implemented: YAML license header
+- Implemented: copyright update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1443</guid>
+      <pubDate>Mon, 28 Jul 2008 08:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1444 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1444</link>
+      <description>- Adding stable branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1444</guid>
+      <pubDate>Mon, 28 Jul 2008 08:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1441 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1441</link>
+      <description>Default settings file is not needed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1441</guid>
+      <pubDate>Tue, 26 Feb 2008 11:08:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1442 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1442</link>
+      <description>Removed some debug statements and unnecessary code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1442</guid>
+      <pubDate>Tue, 26 Feb 2008 11:08:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1439 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1439</link>
+      <description>post-install script for superuser extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1439</guid>
+      <pubDate>Tue, 26 Feb 2008 11:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1425 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1425</link>
+      <description>Enabled post 3.6.2 setting</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1425</guid>
+      <pubDate>Tue, 26 Feb 2008 11:07:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1426 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1426</link>
+      <description>Fixed wrong setting</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1426</guid>
+      <pubDate>Tue, 26 Feb 2008 11:07:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 1371 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/1371</link>
+      <description>extension info file for eZ publish 3.9</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/1371</guid>
+      <pubDate>Tue, 26 Feb 2008 11:07:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>superuser rev. 720 by Kristof Coomans</title>
+      <link>http://projects.ez.no/superuser/subversion/720</link>
+      <description>Super User extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/superuser/subversion/720</guid>
+      <pubDate>Tue, 26 Feb 2008 11:07:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

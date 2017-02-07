@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cjw_newsletter / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:36:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:36:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24647" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: CJW Newsletter List setup error</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_list_setup_error/re_cjw_newsletter_list_setup_error</link>
+      <description>Hello,&#13;
+&#13;
+I get the same problem. &#13;
+&#13;
+Did you find a solution ? &#13;
+&#13;
+Thanks for your reply.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Clement Nicolas)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_list_setup_error/re_cjw_newsletter_list_setup_error</guid>
+      <pubDate>Thu, 15 Oct 2015 15:56:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to send newsletters in eZ Publish 5 legacy stack</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/unable_to_send_newsletters_in_ez_publish_5_legacy_stack</link>
+      <description>I need some urgent help please. I've installed CJW Newsletter on behalf of a client who needs to use it during a launch within a week. Everything has been running very well right up until I did the first newsletter test run.  Preview emails get sent out fine but not newsletter via crontab at all, they get struck in &#13;
+&#13;
+It seems that ezpublish_legacy/extension/cjw_newsletter/cronjobs/cjw_newsletter_mailqueue_process.php cronjob is not found.  We tried running it via&#13;
+php runcronjobs.php cjw_newsletter_mailqueue_process&#13;
+and&#13;
+php ezpublish/console ezpublish:legacy:script runcronjobs.php cjw_newsletter_mailqueue_process&#13;
+&#13;
+With no results: it does not seem to use the correct cronjob.ini and uses the default site.ini from settings/site.ini which does not have the right database credentials also.&#13;
+&#13;
+When the news http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_and_ez_publish_5 was made was the cron process function tested? &#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/unable_to_send_newsletters_in_ez_publish_5_legacy_stack</guid>
+      <pubDate>Thu, 02 Jul 2015 14:59:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter List setup error</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_list_setup_error</link>
+      <description>Hi, &#13;
+&#13;
+i'm trying to install CJW Newsletter on my ezpublish 4.3 but when i try to create the CJW Newsletter List, some errors are thrown. &#13;
+&#13;
+For exemple i'm selecting HTML as Available newsletter output formats and when i validate the form an error tell me : You have to choose an output format.&#13;
+&#13;
+i've dumped the vars in cjwnewsletterlisttype.tpl and the Http-&gt;hasPostVariable return false ...&#13;
+&#13;
+any ideas ?</description>
+      <author>community@ez.no (Nicolas Paulhan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_list_setup_error</guid>
+      <pubDate>Thu, 23 Apr 2015 09:17:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Add file attachment</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/add_file_attachment/re_add_file_attachment</link>
+      <description>Hello Braik,&#13;
+&#13;
+Welcome to the eZ Community!&#13;
+&#13;
+I have answered your message on share.ez.no forums on the same topic: http://share.ez.no/forums/developer/cjw-newsletter-file-attachment#comment86238&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/add_file_attachment/re_add_file_attachment</guid>
+      <pubDate>Thu, 26 Mar 2015 02:52:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add file attachment</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/add_file_attachment</link>
+      <description>Hello everybody !&#13;
+&#13;
+I'm having troubles sending attachments with my newsletters.&#13;
+&#13;
+I have added a file attribute with identificator "nl_attachment" in the CJW Newsletter Edition Class so I can upload a file that I can attach to the mail.&#13;
+&#13;
+The file uploads in var/storage folder with a random name.&#13;
+&#13;
+But I really don't know how to get the name of the uploaded file in my sendEmail method of cjwnewslettermail.php and put it in the $mail-&gt;addAttachment(path) method.&#13;
+&#13;
+How can I access the attribute "nl_attachment" and get the filename field ?</description>
+      <author>community@ez.no (Braik Olivier)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/add_file_attachment</guid>
+      <pubDate>Tue, 24 Mar 2015 15:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter and eZ Publish 5</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_and_ez_publish_5</link>
+      <description>We can confirm that CJW Newsletter is running smoothly in the eZ Publish 5.x Legacy Stack.&#13;
+&#13;
+Furthermore we are in the process of porting the newsletter datatype to the Symfony stack. This will allow you to use CJW Newsletter in a pure eZ Publish 5 environment.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/cjw_newsletter_and_ez_publish_5</guid>
+      <pubDate>Tue, 08 Jul 2014 09:33:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: shell_exec</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/shell_exec/re_shell_exec3</link>
+      <description>Hello&#13;
+I had the problem and I solved it by replace the getAvailableSiteaccessList function.&#13;
+I use the eZINI class to read in the site.ini.&#13;
+Here is the new function :&#13;
+&lt;code&gt;&#13;
+function getAvailableSiteaccessList()&#13;
+{&#13;
+	$ini = eZINI::instance( 'site.ini' );&#13;
+	$availableSiteAccessListArray = $ini-&gt;variable('SiteAccessSettings', 'AvailableSiteAccessList' );&#13;
+	$availableSiteAccessListInfoArray = array();&#13;
+&#13;
+	foreach ( $availableSiteAccessListArray as $siteAccessName )&#13;
+	{&#13;
+		&#13;
+		$siteIni = eZINI::getSiteAccessIni($siteAccessName, 'site.ini');&#13;
+		if ( is_object( $siteIni ) )&#13;
+		{&#13;
+			$locale = $siteIni-&gt;variable( 'RegionalSettings', 'Locale' );&#13;
+			$siteUrl = $siteIni-&gt;variable( 'SiteSettings', 'SiteURL' );&#13;
+		}&#13;
+		$availableSiteAccessListInfoArray[ $siteAccessName ] = array( 'name' =&gt; $siteAccessName,&#13;
+																	  'locale' =&gt; $locale,&#13;
+																	  'site_url' =&gt; $siteUrl );&#13;
+	}&#13;
+	return $availableSiteAccessListInfoArray;&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+The shell_exec function has been deleted in PHP 5.4 version...&#13;
+Hope this help&#13;
+Regards&#13;
+</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/shell_exec/re_shell_exec3</guid>
+      <pubDate>Fri, 18 Oct 2013 08:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: automatic editions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions3</link>
+      <description>The same to me, did you find any solution?</description>
+      <author>community@ez.no (Stefan Pump)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions3</guid>
+      <pubDate>Thu, 08 Aug 2013 11:47:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: automatic editions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions2</link>
+      <description>Hi Bartek,&#13;
+I was able to create a new cjw_newsletter_edition by code using eZContentFunctions::createAndPublishObject,&#13;
+&#13;
+&#13;
+            $user = eZUser::currentUser();&#13;
+            $params = array();&#13;
+            $params ['class_identifier'] = 'cjw_newsletter_edition';&#13;
+            $params['creator_id'] = $user-&gt;ContentObjectID;&#13;
+            $params['parent_node_id']=12118;&#13;
+            $attributesData = array ( ) ;&#13;
+            $attributesData['title'] = 'Test';&#13;
+            $attributesData['short_title'] = 'Test';&#13;
+            $params['attributes'] = $attributesData;&#13;
+            $object = eZContentFunctions::createAndPublishObject($params);&#13;
+&#13;
+but the newsletter created that way are not editable ... maybe some attributes not set correctly ?&#13;
+Can you detail how you managed to create your objects ?&#13;
+Thanks</description>
+      <author>community@ez.no (Imad MHAMDI)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions2</guid>
+      <pubDate>Mon, 05 Aug 2013 07:54:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detect sending of preview mail from eZ template?</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/detect_sending_of_preview_mail_from_ez_template</link>
+      <description>Hi,&#13;
+&#13;
+is it possible to detect in newsletter skin template (html.tpl), that the newsletter is in preview mode or test e-mail mode?&#13;
+&#13;
+We use UTM Google Analytics parameters to track clicks in our newsletters, but we would like to disable those when sending test newsletters around in order not to polute the statistics.&#13;
+&#13;
+Thanks!</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/detect_sending_of_preview_mail_from_ez_template</guid>
+      <pubDate>Wed, 17 Jul 2013 12:03:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Using different content classes</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/using_different_content_classes/re_using_different_content_classes</link>
+      <description>Hi Niels&#13;
+&#13;
+the composition of the newsletter is fully customizable with the use of templates. Simply create a new skin based on the files you find in &#13;
+&#13;
+extension/cjw_newsletter/design/standard/templates/newsletter/skin/default/outputformat&#13;
+&#13;
+and put any logic you like in there.&#13;
+&#13;
+regards&#13;
+Donat&#13;
+&#13;
+</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/using_different_content_classes/re_using_different_content_classes</guid>
+      <pubDate>Tue, 18 Jun 2013 09:51:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Status of project</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/status_of_project/re_status_of_project</link>
+      <description>Hi Brendan&#13;
+&#13;
+We plan to release a new version under GPL quite soon.&#13;
+&#13;
+As for eZ 5: we have no plan to migrate the extension in the near future, as we have no reason to believe that it should not run in the legacy stack. Please share any experiences you have,&#13;
+&#13;
+Regards&#13;
+Donat</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/status_of_project/re_status_of_project</guid>
+      <pubDate>Tue, 18 Jun 2013 09:45:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using different content classes</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/using_different_content_classes</link>
+      <description>Hi there,&#13;
+&#13;
+is it possible to configure cjw_newsletter to use different content classes for newsletter aggregation?&#13;
+&#13;
+Thans in advance // nielo</description>
+      <author>community@ez.no (Niels Heinemann)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/using_different_content_classes</guid>
+      <pubDate>Tue, 11 Jun 2013 07:46:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Status of project</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/status_of_project</link>
+      <description>Could we have an update on CJW Newsletter please.  There has been no updates or almost a year and I see it does not support eZ 5.&#13;
+&#13;
+Has this been abandoned?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/status_of_project</guid>
+      <pubDate>Mon, 22 Apr 2013 04:32:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>HTML View</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/html_view</link>
+      <description>Hi , &#13;
+&#13;
+I just wanted to have a HTML_view for my Newsletter and write down inside the newsletter "If you don't see this correct click here " and then redirect them to an HTML view !&#13;
+&#13;
+&#13;
+We have a quite similar module already inside extension which we can change and use it for this purpose called "preview_archive" but the only problem I have is we cannot change the template a little bit ! So if I write the [[name]] inside template or write this sentence there is no possible way to exclude them in HTML View.&#13;
+&#13;
+Do you have any trick or any new way to do this ?&#13;
+&#13;
+Thanks in Advance</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/html_view</guid>
+      <pubDate>Mon, 14 Jan 2013 13:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Getting Fatal Error </title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/getting_fatal_error/re_getting_fatal_error5</link>
+      <description>Hi guys !&#13;
+&#13;
+&#13;
+I got exactly the same error when i try to run Process command of newsletter to send them out !&#13;
+&#13;
+&lt;code&gt;&#13;
+Using siteaccess aw_user for cronjob&#13;
+Running cronjob part 'cjw_newsletter_mailqueue_process'&#13;
+Running extension/cjw_newsletter/cronjobs/cjw_newsletter_mailqueue_process.php at: 24.12.2012 10:32&#13;
+START: cjw_newsletter_mailqueue_process&#13;
+PHP Fatal error:  Call to a member function getElementsByTagName() on a non-object in /var/www/awcruise/extension/cjw_newsletter/classes/cjwnewslettereditionsend.php on line 455&#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+How did you solve it Ivo ? Any Idea Felix ?</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/getting_fatal_error/re_getting_fatal_error5</guid>
+      <pubDate>Mon, 24 Dec 2012 00:59:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subscribe by Workflow</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/subscribe_by_workflow</link>
+      <description>Hi All , &#13;
+&#13;
+we have a booking system and we want to automatically subscribe every booking's Email address in the Newsletter !&#13;
+&#13;
+How is that possible ? &#13;
+Any way except workflow and if with workflow , how can i push the information in the list ?</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/subscribe_by_workflow</guid>
+      <pubDate>Tue, 02 Oct 2012 09:18:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Why I can't delete aborted newsletters or a...</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/why_i_can_t_delete_aborted_newsletters_or_archived/re_why_i_can_t_delete_aborted_newsletters_or_a</link>
+      <description>HI all&#13;
+great project!!&#13;
+&#13;
+But I have the same question!!!&#13;
+&#13;
+How can I remove archived editions??? Is only possible removing the newsletter???&#13;
+&#13;
+Isn't possible to add a button to remove editions used for testing purpose????&#13;
+&#13;
+Thanks all!!&#13;
+&#13;
+Giuseppe</description>
+      <author>community@ez.no (Giuseppe Licheri)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/why_i_can_t_delete_aborted_newsletters_or_archived/re_why_i_can_t_delete_aborted_newsletters_or_a</guid>
+      <pubDate>Fri, 14 Sep 2012 13:47:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>how to Remove mass subsciptions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/how_to_remove_mass_subsciptions</link>
+      <description>Hello !&#13;
+&#13;
+i'm looking for the method to remove mass subscriptions from the interface ?&#13;
+&#13;
+I want to make an upgrade of my list et before importing the new database i need to remove all subrisciption.&#13;
+&#13;
+Any ideas?&#13;
+&#13;
+Thanks a lot.&#13;
+&#13;
+Jérémy</description>
+      <author>community@ez.no (Jeremy Arsac)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/how_to_remove_mass_subsciptions</guid>
+      <pubDate>Wed, 30 May 2012 13:43:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: shell_exec</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/shell_exec/re_shell_exec2</link>
+      <description>I also have this problem, i cant run shell_exec(), is there any workaround?</description>
+      <author>community@ez.no (Ove Wilmann)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/shell_exec/re_shell_exec2</guid>
+      <pubDate>Tue, 22 May 2012 07:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: USER problem with CJW newsletter</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter/re_user_problem_with_cjw_newsletter2</link>
+      <description>Hi Felix , &#13;
+&#13;
+You're welcome, it was the minimum appreciation for your job &#13;
+&#13;
+&#13;
+Happy to hear that i am the FIRST ;)&#13;
+&#13;
+&#13;
+--------------------&#13;
+&#13;
+about the problem  :&#13;
+&#13;
+I have give all modules with all functions to new user and newsletter with all functions but the problem still exists !&#13;
+&#13;
+So i guess it is not role and policy problem !&#13;
+&#13;
+Any more guess ?&#13;
+</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter/re_user_problem_with_cjw_newsletter2</guid>
+      <pubDate>Fri, 18 May 2012 15:38:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: USER problem with CJW newsletter</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter/re_user_problem_with_cjw_newsletter</link>
+      <description>Hi Amir,&#13;
+&#13;
+thank's for your Postcard ;-). You are the first one.&#13;
+&#13;
+...&#13;
+Your problem with an other user ... this should work. Has the user realy the same rights as the admin?&#13;
+e.g. newsletter/index  ...&#13;
+&#13;
+Cheers&#13;
+Felix</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter/re_user_problem_with_cjw_newsletter</guid>
+      <pubDate>Fri, 18 May 2012 14:32:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>USER problem with CJW newsletter</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter</link>
+      <description>Hi All , &#13;
+&#13;
+when i log in as "admin" i have all the functionality of newsletter and i can see the newsletter-system and its sub-items as a tree in the left menu (when i navigate to newsletter tab of course)&#13;
+&#13;
+&#13;
+BUT&#13;
+when i log-in as another user which has the same power as admin about newsletter, i cannot see the newsletter-system as a tree in the left menu ! (I have all posibilities like creating and sending newsletter)&#13;
+&#13;
+&#13;
+why is it so ? any help ?&#13;
+&#13;
+&#13;
+Thanks in Advance </description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/user_problem_with_cjw_newsletter</guid>
+      <pubDate>Wed, 16 May 2012 15:48:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: automatic editions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions</link>
+      <description>I manage to figure it out. Basically what needs to be done is:&#13;
+&#13;
+1. create nodes with ezApi&#13;
+2. use CjwNewsletterEdition class to store data into "cjwnl_edition" table&#13;
+3. use CjwNewsletterEditionSend class to store data into "cjwnl_edition_send" table&#13;
+&#13;
+If needed, probably I could do some tutorial.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Bartek Tokarczyk)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions/re_automatic_editions</guid>
+      <pubDate>Tue, 08 May 2012 13:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Enhancement #426: Scheduled sending out</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_426_scheduled_sending_out/re_enhancement_426_scheduled_sending_out</link>
+      <description>new current status:&#13;
+&#13;
+[ ] suggestion or enhancement / looking for funding&#13;
+[ ] in specification / looking for final funding&#13;
+[ ] funding nearly successful, in specification&#13;
+[ ] funding successful, in development&#13;
+[+] in development, beta version </description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_426_scheduled_sending_out/re_enhancement_426_scheduled_sending_out</guid>
+      <pubDate>Wed, 02 May 2012 21:26:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Enhancement #1231: User segmentation, virtu...</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1231_user_segmentation_virtual_nl_list/re_enhancement_1231_user_segmentation_virtu</link>
+      <description>new current status:&#13;
+&#13;
+[ ] suggestion or enhancement / looking for funding&#13;
+[ ] in specification / looking for final funding&#13;
+[ ] funding nearly successful, in specification&#13;
+[ ] funding successful, in development&#13;
+[+] in development, beta version&#13;
+&#13;
+EN: Blog post in English about user segmentation: http://cjw-network.com/en/blog/user-segmentation&#13;
+&#13;
+DE: Blog post in German about user segmentation / Zielgruppenunterscheidung: http://cjw-network.com/de/blog/user-segmentation-zielgruppenunterscheidung</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1231_user_segmentation_virtual_nl_list/re_enhancement_1231_user_segmentation_virtu</guid>
+      <pubDate>Wed, 02 May 2012 21:25:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sender name charset encoding</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding3</link>
+      <description>Hi,&#13;
+&#13;
+I tried your solution, but I obtain "=?utf-8?Q?" in sender field...</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding3</guid>
+      <pubDate>Wed, 18 Apr 2012 07:53:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>automatic editions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions</link>
+      <description>Hey ;)&#13;
+&#13;
+What I need is automatic editions, I did custom skin which fetches my latest articles and want to automatically send once a week articles from last week to my subscribers. I've created a CLI script which uses ez API to create cjw_newsletter_edition node. But it's not enough probably I need to add something to those cjw tables in database. &#13;
+&#13;
+Could anyone help, I need some advice. Maybe there is some cjw api?&#13;
+&#13;
+Please help.</description>
+      <author>community@ez.no (Bartek Tokarczyk)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/automatic_editions</guid>
+      <pubDate>Wed, 18 Apr 2012 07:25:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>If user already exists, direct subscription doesn't work</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/if_user_already_exists_direct_subscription_doesn_t_work</link>
+      <description>I've got a system with multiple newsletters and if an existing user tries to sign up for another newsletter from the subscribe page, it doesn't subscribe them, it sends them a link to the configure page (where, of course, they can subscribe or unsubscribe.)  This was a bit unexpected for me, but digging in the code, I found that this is the way it's designed -&#13;
+&#13;
+In classes/cjwnewslettersubscription.php&#13;
+&lt;code&gt;&#13;
+             case -1:&#13;
+                if( $context == 'subscribe' )&#13;
+                {&#13;
+                    eZDebug::writeDebug( "checkResult[$checkResult] - CjwNewsletterSubscription::createSubscriptionByArray return false because email already exists" );&#13;
+                    // break because a newsletter user with email exists&#13;
+                    return false;&#13;
+                }&#13;
+                break;&#13;
+&lt;/code&gt;&#13;
+&#13;
+and in modules/newsletter/subscribe.php&#13;
+&lt;code&gt;&#13;
+        if ( is_object( $existingNewsletterUserObject) )&#13;
+        {&#13;
+            $tpl-&gt;setVariable( 'user_email_already_exists', $subscriptionDataArr['email'] );&#13;
+&#13;
+            // $existingNewsletterUserObject-&gt;sendSubriptionInfoMail();&#13;
+            $mailSendResult = $existingNewsletterUserObject-&gt;sendSubcriptionInformationMail();&#13;
+&lt;/code&gt;&#13;
+&#13;
+I'm wondering if there is a reason for this logic?  I can't think of any right now but it may blindness....</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/if_user_already_exists_direct_subscription_doesn_t_work</guid>
+      <pubDate>Tue, 17 Apr 2012 13:42:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Missing datatypes in package</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/missing_datatypes_in_package/re_missing_datatypes_in_package</link>
+      <description>OK i mixed up datatypes with classes. My class package was installed wrong. Reinstallation helped, now it works fine ;)</description>
+      <author>community@ez.no (Bartek Tokarczyk)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/missing_datatypes_in_package/re_missing_datatypes_in_package</guid>
+      <pubDate>Tue, 10 Apr 2012 09:01:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missing datatypes in package</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/missing_datatypes_in_package</link>
+      <description>Hey there,&#13;
+&#13;
+In cjw_newsletter_documentation  I can see 5 datatypes CJW Newsletter Article, Edition, List, Root, System. But in package (http://projects.ez.no/cjw_newsletter/downloads/cjw_newsletter_1_0_0) in datatypes directory there are only 2 of them and one new I can see there Edition, List and Subscription.&#13;
+&#13;
+Actually documentation firstly says that CJW Newsletter Root should be just folder. But latter I can see all those 5 types on screenshot and one of them is CJW Newsletter Root.&#13;
+&#13;
+Could someone please explain, how should I configure extension so it works ;)&#13;
+</description>
+      <author>community@ez.no (Bartek Tokarczyk)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/missing_datatypes_in_package</guid>
+      <pubDate>Fri, 06 Apr 2012 12:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Generate newsletter link (inline archive ve...</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/generate_newsletter_link_inline_archive_version/re_generate_newsletter_link_inline_archive_ve</link>
+      <description>Hi,&#13;
+Finally I added a new placeholder : "#_hash_newsletter_#"&#13;
+and I replace this in the cronjob...</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/generate_newsletter_link_inline_archive_version/re_generate_newsletter_link_inline_archive_ve</guid>
+      <pubDate>Thu, 05 Apr 2012 08:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generate newsletter link (inline archive version)</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/generate_newsletter_link_inline_archive_version</link>
+      <description>Hi,&#13;
+&#13;
+Is there a way to include archive link in email body ?&#13;
+&#13;
+Thanks !</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/generate_newsletter_link_inline_archive_version</guid>
+      <pubDate>Wed, 04 Apr 2012 13:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>New cjw_newsletter version</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/new_cjw_newsletter_version</link>
+      <description>Hi,&#13;
+&#13;
+Can I find a cjw_newsletter version with all recent patches somewhere?&#13;
+&#13;
+For exemple :&#13;
+ - Sender name encoding (http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding)&#13;
+ - Memory limit in bounce tracker (http://projects.ez.no/cjw_newsletter/forum/general/bounce_tracker)&#13;
+etc.&#13;
+&#13;
+The svn source is empty&#13;
+&#13;
+Thanks :)</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/new_cjw_newsletter_version</guid>
+      <pubDate>Thu, 22 Mar 2012 10:04:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sending mails : howto ?</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/sending_mails_howto</link>
+      <description>Hello &#13;
+I would like to know the behavior of the extension when sending lot of mails. Because I have 9965 subscriptions and I'm afraid to start the cronjob (afraid to kill my server or to be blacklisted as spammer)...&#13;
+Did someone already tested ?&#13;
+Thanks for reply</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/sending_mails_howto</guid>
+      <pubDate>Tue, 06 Mar 2012 14:48:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Newsletter not send</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/newsletter_not_send</link>
+      <description>Hello,&#13;
+&#13;
+We've used the cjw_newsletter successfully in december to send a mailing. We're trying to send a second mail using the same cjw_newsletter_list, but no mails are send.&#13;
+&#13;
+The cronjob status is:&#13;
+0 - wait_for_process ( 22/02/2012 12:29 pm )&#13;
+&#13;
+But running the cronjob for processing gives:&#13;
+# ./runcronjobs.php  -s default_user cjw_newsletter_mailqueue_create&#13;
+&gt;&gt; START: check NlEditionSend objects with status STATUS_WAIT_FOR_PROCESS&#13;
+&gt;&gt;&gt; NlEditionSend objects with STATUS_WAIT_FOR_PROCESS found: 0&#13;
+&#13;
+So no newsletter waiting for process is found.&#13;
+&#13;
+Ez pub version is:Community Project 2011.6 (Community Project 2011.6) &#13;
+&#13;
+any idea?</description>
+      <author>community@ez.no (Stefan de Bruijn)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/newsletter_not_send</guid>
+      <pubDate>Wed, 22 Feb 2012 13:17:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: LibreOffice or OpenOffice import in cjw_new...</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter/re_libreoffice_or_openoffice_import_in_cjw_new2</link>
+      <description>Thank you I'll try this</description>
+      <author>community@ez.no (Patrick Maynard)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter/re_libreoffice_or_openoffice_import_in_cjw_new2</guid>
+      <pubDate>Tue, 14 Feb 2012 13:17:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I can't delete aborted newsletters or archived?</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/why_i_can_t_delete_aborted_newsletters_or_archived</link>
+      <description>Had some fight with cronjob and newsletter sending so after putting ExtensionDirectories[]=cjw_newsletter into main override cronjob.append.ini.php I can execute cronjobs and mail is sent!! Puff just spent 1 day debugging :-) &#13;
+&#13;
+Still have question!&#13;
+&#13;
+Why I can't delete aborted Newsletter editions from the system? Remove button is disabled and I have "You don't have permission to remove this item." ???!?!&#13;
+&#13;
+Best regards,&#13;
+Sinisa</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/why_i_can_t_delete_aborted_newsletters_or_archived</guid>
+      <pubDate>Sat, 04 Feb 2012 22:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: LibreOffice or OpenOffice import in cjw_new...</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter/re_libreoffice_or_openoffice_import_in_cjw_new</link>
+      <description>Hi,&#13;
+&#13;
+import new object with odf import is set in odf.ini.append.php&#13;
+&#13;
+&lt;code&gt;&#13;
+[ODFImportSettings]&#13;
+# Default class for import&#13;
+DefaultImportClass=article&#13;
+#DefaultImportClass=circular_letter&#13;
+# Default class for making an image&#13;
+DefaultImportImageClass=image&#13;
+RegisteredClassArray[]=article&#13;
+RegisteredClassArray[]=folder&#13;
+RegisteredClassArray[]=image&#13;
+RegisteredClassArray[]=documentation_page&#13;
+ImportedImagesMediaNodeName=Imported images&#13;
+PlaceImagesInMedia=false&#13;
+&lt;/code&gt;&#13;
+&#13;
+But if you create a new dummy nl edition, and than export it and than edit and than import with odf it should work.&#13;
+&#13;
+(The links for odf import + export we should add in the backend, in the websitetoolbar the links are already there)&#13;
+&#13;
+Cheers Felix</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter/re_libreoffice_or_openoffice_import_in_cjw_new</guid>
+      <pubDate>Mon, 30 Jan 2012 15:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>LibreOffice or OpenOffice import in cjw_newsletter</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter</link>
+      <description>Hello !&#13;
+Sometimes we need to create a newsletter in a more advanced editor than ezoe, with LibreOffice Writer for example, with table, cells, columns, colors, photos, etc...&#13;
+I make newsletter in LibreOffice writer, then I copy-paste html code between &lt;literal class="html"&gt; and &lt;/literal&gt;. This allow to keep styles, colors, etc...&#13;
+I import photos manually also.&#13;
+I tried to import a LibreOffice document into cjw_newsletter, but it creates an article, and not a cjw_newsletter document (cjw_newsletter_edition).&#13;
+The advantage I've seen was the photos automatically going in Media Section.&#13;
+Is there a way to import LibreOffice or OpenOffice document into cjw_newsletter ?</description>
+      <author>community@ez.no (Patrick Maynard)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/libreoffice_or_openoffice_import_in_cjw_newsletter</guid>
+      <pubDate>Mon, 30 Jan 2012 10:26:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Delete mass emails</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/delete_mass_emails/re_delete_mass_emails2</link>
+      <description>Thank you for your reply !</description>
+      <author>community@ez.no (Patrick Maynard)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/delete_mass_emails/re_delete_mass_emails2</guid>
+      <pubDate>Fri, 27 Jan 2012 10:52:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiple list permissions</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/multiple_list_permissions</link>
+      <description>Hi, I checked the user manual but wasn't able to find an answer.  &#13;
+&#13;
+Is it possible to run lists with different subscribe permissions, specifically I would like to allow website members (who have eZ accounts) to subscribe to a private list and another that anonymous users can subscribe to.&#13;
+&#13;
+Is this currently possible and if so how?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/multiple_list_permissions</guid>
+      <pubDate>Thu, 12 Jan 2012 07:05:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: can't send any newsletter</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/can_t_send_any_newsletter/re_can_t_send_any_newsletter6</link>
+      <description>I met the problem too.&#13;
+I create a skin "myskin" which include only html.tpl. But when I create the "CJW Newsletter List" object, I select both "html" and "text" for attribute "Newsletter output formats". My solution is to add a new text.tpl to the skin "myskin"</description>
+      <author>community@ez.no (kingsun he)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/can_t_send_any_newsletter/re_can_t_send_any_newsletter6</guid>
+      <pubDate>Mon, 09 Jan 2012 10:28:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bounce tracker</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/bounce_tracker/re_bounce_tracker11</link>
+      <description>Just a confirmation that I also ran into this problem and that Simon's work-around fixed my problem also.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/bounce_tracker/re_bounce_tracker11</guid>
+      <pubDate>Mon, 09 Jan 2012 10:04:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: v2 release date</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/v2_release_date/re_v2_release_date</link>
+      <description>we have not yet a release date. But we hope that we can share a first public beta in march 2012.</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/v2_release_date/re_v2_release_date</guid>
+      <pubDate>Thu, 05 Jan 2012 08:45:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sender name charset encoding</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding2</link>
+      <description>Ok,&#13;
+&#13;
+Thanks a lot !&#13;
+&#13;
+I will test this update :)</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding2</guid>
+      <pubDate>Thu, 22 Dec 2011 10:08:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>v2 release date</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/v2_release_date</link>
+      <description>Hi, I'm just trying to plan things for myself and wondering if you will be releasing v2 before 2012?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/v2_release_date</guid>
+      <pubDate>Thu, 22 Dec 2011 05:57:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: newsletter/send trouble</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/newsletter_send_trouble/re_newsletter_send_trouble2</link>
+      <description>problem fixed.&#13;
+&#13;
+it was not a cjw_newsletter issue.&#13;
+it was a generell ez publish installation issue after moving to an other server.</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/newsletter_send_trouble/re_newsletter_send_trouble2</guid>
+      <pubDate>Tue, 20 Dec 2011 08:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unsubscribe hash</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/unsubscribe_hash/re_unsubscribe_hash4</link>
+      <description>Hi Anthony,&#13;
+&#13;
+we plan also to replace the placeholder string even in preview mode.&#13;
+But for this we have to do some refactoring of code.&#13;
+This feature will be come maybe in version 3.x of the newsletter.&#13;
+&#13;
+It's nice to hear that you like the cjw_newsletter extension. We would be happy if you write a short review.&#13;
+&#13;
+Cheers&#13;
+Felix</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/unsubscribe_hash/re_unsubscribe_hash4</guid>
+      <pubDate>Tue, 20 Dec 2011 08:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sender name charset encoding</title>
+      <link>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding</link>
+      <description>Hi Simon,&#13;
+&#13;
+yes it's true. The bug is fixed in the next newsletter version.&#13;
+We had to set the charset to utf-8 for all ezcMailAddress()&#13;
+&#13;
+Here is the diff:&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: cjwnewslettermail.php&#13;
+===================================================================&#13;
+--- cjwnewslettermail.php	(revision 18881)&#13;
++++ cjwnewslettermail.php	(revision 18882)&#13;
+@@ -167,9 +167,13 @@&#13;
+         $mail-&gt;charset = $emailCharset;&#13;
+         $mail-&gt;subjectCharset = $emailCharset;&#13;
+         // from and to addresses, and subject&#13;
+-        $mail-&gt;from = new ezcMailAddress( trim( $emailSender ), $emailSenderName );&#13;
++        $mail-&gt;from = new ezcMailAddress( trim( $emailSender ),&#13;
++                                          $emailSenderName,&#13;
++                                          $mail-&gt;charset );&#13;
+         // returnpath for email bounces&#13;
+-        $mail-&gt;returnPath = new ezcMailAddress( trim( $emailSender ) );&#13;
++        $mail-&gt;returnPath = new ezcMailAddress( trim( $emailSender ),&#13;
++                                                '',&#13;
++                                                $mail-&gt;charset );&#13;
+ &#13;
+         if ( $isPreview )&#13;
+         {&#13;
+@@ -179,13 +183,17 @@&#13;
+                 // check if email&#13;
+                 if ( $receiver != '' )&#13;
+                 {&#13;
+-                    $mail-&gt;addTo( new ezcMailAddress( trim( $receiver ), 'NL Test Receiver'. $index ) );&#13;
++                    $mail-&gt;addTo( new ezcMailAddress( trim( $receiver ),&#13;
++                                                      'NL Test Receiver'. $index,&#13;
++                                                       $mail-&gt;charset ) );&#13;
+                 }&#13;
+             }&#13;
+         }&#13;
+         else&#13;
+         {&#13;
+-            $mail-&gt;addTo( new ezcMailAddress( trim( $emailReceiver ), $emailReceiverName ) );&#13;
++            $mail-&gt;addTo( new ezcMailAddress( trim( $emailReceiver ),&#13;
++                                              $emailReceiverName,&#13;
++                                              $mail-&gt;charset ) );&#13;
+         }&#13;
+ &#13;
+         if ( array_key_exists( 'html', $emailBodyArray ) == false )&#13;
+@@ -241,7 +249,7 @@&#13;
+         // set 'x-cjwnl-' mailheader&#13;
+         foreach( $this-&gt;ExtraEmailHeaderItemArray as $key =&gt; $value )&#13;
+         {&#13;
+-            $mail-&gt;setHeader( $key, $value );&#13;
++            $mail-&gt;setHeader( $key, $value, $mail-&gt;charset );&#13;
+         }&#13;
+ &#13;
+         $mail-&gt;build();&#13;
+@@ -459,4 +467,4 @@&#13;
+ &#13;
+ }&#13;
+ &#13;
+-?&gt;&#13;
+\ No newline at end of file&#13;
++?&gt;&#13;
+&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/forum/general/sender_name_charset_encoding/re_sender_name_charset_encoding</guid>
+      <pubDate>Tue, 20 Dec 2011 07:57:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

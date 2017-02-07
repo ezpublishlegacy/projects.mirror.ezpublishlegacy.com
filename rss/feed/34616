@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / simplified_chinese_translation_for_ezwebin_1.2</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:12:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:12:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/34616" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/simplified_chinese_translation_for_ezwebin_1_2/news/changelog</link>
+      <description>&lt;p&gt;
++ Merge new sources with ezlupdate&lt;br /&gt;
+ + Fixing bugs&lt;br /&gt;
+ + Trimming full/half width spaces&lt;br /&gt;
+ + Consistent format for full-width punctuations , . : ( ) [ ]&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Michael Lee)</author>
+      <guid>http://projects.ez.no/simplified_chinese_translation_for_ezwebin_1_2/news/changelog</guid>
+      <pubDate>Wed, 06 Jun 2007 15:24:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebin-1.2-chi-CN-TS.tgz</title>
+      <link>http://projects.ez.no/simplified_chinese_translation_for_ezwebin_1_2/downloads/ezwebin_1_2_chi_cn_ts_tgz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/simplified_chinese_translation_for_ezwebin_1_2/downloads/ezwebin_1_2_chi_cn_ts_tgz</guid>
+      <pubDate>Wed, 06 Jun 2007 15:24:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

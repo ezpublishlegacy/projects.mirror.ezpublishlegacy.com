@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezupgrade</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:45:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:45:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23527" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: DownloadURL for version 5.0.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0/re_downloadurl_for_version_5_0_02</link>
+      <description>I guess it looked too good to be true!&#13;
+&#13;
+Thanks for the answer, though, and congratulations for that handy tool.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0/re_downloadurl_for_version_5_0_02</guid>
+      <pubDate>Fri, 07 Jun 2013 16:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: DownloadURL for version 5.0.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0/re_downloadurl_for_version_5_0_0</link>
+      <description>Hi,&#13;
+&#13;
+I'm sorry, but currently eZ Upgrade only supports the Enterprise-version. If you have a valid Enterprise license, you can download the distro from the support portal.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0/re_downloadurl_for_version_5_0_0</guid>
+      <pubDate>Fri, 07 Jun 2013 04:46:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>DownloadURL for version 5.0.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0</link>
+      <description>Hi,&#13;
+&#13;
+I'm currently trying to upgrade a 4.4.0 install to 5.0.0 with ezupgrade. After a small problem with the eZ Components that I had to install from PEAR since the package structure is different from the eZ Components website package, after a small problem with ezcopy that has to be copied in the lib folder (not just symbolic linked), after a small problem with the ezcopy.ini that I had to copy into the ezupgrade/settings folder, I was able to create an account.&#13;
+&#13;
+Unfortunately, I got this messages :&#13;
+&#13;
+Checking for local distro&#13;
+Local distro not found. Checking for remote distro&#13;
+No distro available for version 5.0.0. Aborting&#13;
+&#13;
+Looking into the code, I have to provide a DownloadURL in the ezupgrade.ini settings file for the 5.0.0 version, but I'm confused on what I should put it there. What Comunity Project version package should I reference?&#13;
+&#13;
+Thank in advance!</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/downloadurl_for_version_5_0_0</guid>
+      <pubDate>Thu, 06 Jun 2013 18:05:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_75</link>
+      <description>https://github.com/ezsystems/ezupgrade</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_75</guid>
+      <pubDate>Thu, 25 Apr 2013 05:16:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_74</link>
+      <description>Hi,&#13;
+&#13;
+The link you have give is showing "page not found" error.&#13;
+&#13;
+Can you please provide latest workable link?</description>
+      <author>community@ez.no (Nehal Shah)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_74</guid>
+      <pubDate>Thu, 25 Apr 2013 04:49:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_73</link>
+      <description>You should get it from GitHub (https://github.com/ezsystems/ezupgrade). eZ Upgrade currently supports upgrading all the way up to 5.0.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_73</guid>
+      <pubDate>Tue, 23 Apr 2013 06:31:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_72</link>
+      <description>Hi,&#13;
+&#13;
+But in "Compatible with" column it shows "3.5.0 &gt; 4.3.0". Can you please give details on this?</description>
+      <author>community@ez.no (Nehal Shah)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_72</guid>
+      <pubDate>Tue, 23 Apr 2013 04:39:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from 4.4.0 to 4.5.0 (CP 4.2011)</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_20113</link>
+      <description>Yes, you can.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_20113</guid>
+      <pubDate>Mon, 22 Apr 2013 06:48:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_7</link>
+      <description>Yes, you can.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7/re_upgrade_4_6_to_4_7</guid>
+      <pubDate>Mon, 22 Apr 2013 06:47:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>upgrade 4.6 to 4.7</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7</link>
+      <description>Hi,&#13;
+&#13;
+Can we upgrade eZ-publish from 4.6 to 4.7 using ezupgrade?</description>
+      <author>community@ez.no (Nehal Shah)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_4_6_to_4_7</guid>
+      <pubDate>Sat, 20 Apr 2013 05:24:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from 4.4.0 to 4.5.0 (CP 4.2011)</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_20112</link>
+      <description>Hi,&#13;
+&#13;
+Can we upgrade eZ_publish from 4.6 to 4.7 using ezupgrade?</description>
+      <author>community@ez.no (Nehal Shah)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_20112</guid>
+      <pubDate>Sat, 20 Apr 2013 05:22:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezdbfile update problem</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezdbfile_update_problem/re_ezdbfile_update_problem</link>
+      <description>Hi Kirk,&#13;
+&#13;
+Would you be so kind as to post this as an issue on eZ Upgrades new home at https://github.com/ezsystems/ezupgrade ?&#13;
+&#13;
+Thanks !</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezdbfile_update_problem/re_ezdbfile_update_problem</guid>
+      <pubDate>Mon, 27 Jun 2011 12:16:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezdbfile update problem</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezdbfile_update_problem</link>
+      <description>I just noticed a problem with the database part of your ez upgrade which is that it didn't add the column "name_trunk" to the table ezdbfile. Because this column isn't part of ezdbfile the script mysql.php cannot cache image files out to the database which then causes our eZPublish site to hang forever.&#13;
+&#13;
+Do you happen to know why your tool doesn't add the column "name_trunk" to the table "ezdbfile"?&#13;
+&#13;
+However, your tool is certainly a huge improvement over doing the upgrade by hand, and so many thanks for creating it.</description>
+      <author>community@ez.no (Kirk Evenson)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezdbfile_update_problem</guid>
+      <pubDate>Sat, 25 Jun 2011 06:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: errors running EZ upgrade on MAMP/macintosh </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh/re_errors_running_ez_upgrade_on_mamp_macintosh2</link>
+      <description>Hi Erland,&#13;
+&#13;
+You're right. As of know, ezupgrade does not provide an option to specify the path to eZC, but rather assumes that it is installed via PEAR (I think).</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh/re_errors_running_ez_upgrade_on_mamp_macintosh2</guid>
+      <pubDate>Tue, 10 May 2011 10:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: errors running EZ upgrade on MAMP/macintosh </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh/re_errors_running_ez_upgrade_on_mamp_macintosh</link>
+      <description>I am maybe on some sort of track here adding the correct path. But shouldent this be in the settings?&#13;
+&#13;
+this is what I did. And now lets see where this goes.&#13;
+&#13;
+require_once "/Applications/MAMP/htdocs/www/lib/ezc/Base/src/base.php";&#13;
+</description>
+      <author>community@ez.no (Erland Flaten)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh/re_errors_running_ez_upgrade_on_mamp_macintosh</guid>
+      <pubDate>Mon, 09 May 2011 12:53:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>errors running EZ upgrade on MAMP/macintosh </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh</link>
+      <description>I have an installation of ezpubish 4.1.3 which I have copied from my online server. On the local macintosh I also have ezupgrade with ezcopy.  The online server dident have EZ Components built in, so I copied ezc from a another EZ installation , a new 4.5 with EZC included.&#13;
+&#13;
+The installation runs fine local on Mac using MAMP. So do A cleam install of EZ 4.5&#13;
+&#13;
+So I would like to try EZ Upgrade but get this two errors. &#13;
+&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+MacErland:ezupgrade eflaten$ php ezupgrade eflaten&#13;
+PHP Warning:  require_once(ezc/Base/base.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/ezupgrade/lib/ezcopy/classes/ezcomponents.php on line 3&#13;
+PHP Fatal error:  require_once(): Failed opening required 'ezc/Base/base.php' (include_path='.:/usr/local/share/pear:/Users/eflaten/pear/share/pear:lib/ezcopy/lib/phpseclib0.1.5') in /Applications/MAMP/htdocs/ezupgrade/lib/ezcopy/classes/ezcomponents.php on line 3&#13;
+&lt;/code&gt;&#13;
+&#13;
+What should I do to get installer to work?</description>
+      <author>community@ez.no (Erland Flaten)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/errors_running_ez_upgrade_on_mamp_macintosh</guid>
+      <pubDate>Mon, 09 May 2011 12:12:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from 4.4.0 to 4.5.0 (CP 4.2011)</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_2011</link>
+      <description>Hi Heath,&#13;
+&#13;
+Indeed, there is. We will be adding support for 4.5.0 within the next couple of weeks.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011/re_upgrade_from_4_4_0_to_4_5_0_cp_4_2011</guid>
+      <pubDate>Tue, 26 Apr 2011 07:09:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrade from 4.4.0 to 4.5.0 (CP 4.2011)</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011</link>
+      <description>Hello,&#13;
+&#13;
+I write to ask if there are any plans of adding support to ezupgrade to support upgrades From eZ Publish 4.4 to eZ Publish 4.5.0 (CP 4.2011)&#13;
+&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_4_0_to_4_5_0_cp_4_2011</guid>
+      <pubDate>Mon, 25 Apr 2011 03:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Worked smoothly from 4.0.7 to 4.4 for projects.ez.no</title>
+      <link>http://projects.ez.no/ezupgrade/reviews/worked_smoothly_from_4_0_7_to_4_4_for_projects_ez_no</link>
+      <description>Very good job. &#13;
+&#13;
+Usable and useful, making upgrades easily monitorable, and mostly automated. &#13;
+We are in the process of upgrading share.ez.no from 4.2 to 4.4 with ezupgrade.&#13;
+&#13;
+Keep-up, &#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezupgrade/reviews/worked_smoothly_from_4_0_7_to_4_4_for_projects_ez_no</guid>
+      <pubDate>Mon, 07 Mar 2011 10:04:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from 4.0.7 to 4.4.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_0_7_to_4_4_0/re_upgrade_from_4_0_7_to_4_4_0</link>
+      <description>Output from ezupgrade:&#13;
+Running upgrades for v. 4.1.0&#13;
+Upgrade function updateOERewriteRules run&#13;
+Upgrade function updateImageSystem run&#13;
+Upgrade function updateDBForVersion run&#13;
+Applying sql/4.1/4.1.0.sql to database ez_grundew_440 OK&#13;
+Upgrade function generateAutoLoads run&#13;
+Running script bin/php/ezpgenerateautoloads.php --extension  -sa3OK&#13;
+Upgrade function upgradeScripts41 run&#13;
+Running script update/common/scripts/4.1/addlockstategroup.php  -sa3Fatal error: A database transaction in eZ Publish failed.&#13;
+&#13;
+The current execution was stopped to prevent further problems.&#13;
+</description>
+      <author>community@ez.no (Grunde Waag)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_0_7_to_4_4_0/re_upgrade_from_4_0_7_to_4_4_0</guid>
+      <pubDate>Fri, 25 Feb 2011 09:42:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrade from 4.0.7 to 4.4.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_0_7_to_4_4_0</link>
+      <description>Hi,&#13;
+I've been trying to upgrade from 4.0.7 to 4.4.0.&#13;
+&#13;
+The upgrade script doesn't apply any upgrade scripts from the 4.1 version.&#13;
+&#13;
+When I try to access my site I get this error:&#13;
+[ Feb 25 2011 10:08:49 ] [193.212.132.34] eZMySQLDB:&#13;
+Query error: Table 'ez_440.ezcobj_state_link' doesn't exist. Query: SELECT l.contentobject_state_id, s.identifier AS state_identifier, g.identifier AS state_group_identifier&#13;
+                FROM ezcobj_state_link l, ezcobj_state s, ezcobj_state_group g&#13;
+                WHERE l.contentobject_id=7461 AND&#13;
+                      s.id=l.contentobject_state_id AND&#13;
+                      g.id=s.group_id&#13;
+&#13;
+&#13;
+I also try to upgrade to ez publish 4.1.4 but get this error:&#13;
+INITIATING UPGRADE&#13;
+The existing installation is located locally at /home/grundew/ez_4.0.7/&#13;
+Dumping database&#13;
+ez_grundew: OK (157,2 MB)&#13;
+PHP Fatal error:  Uncaught exception 'ezcConfigurationUnknownSettingException' with message 'The setting 'Upgrade_4.1.4', 'UpgradeContainerSinceVersion' does not exist.' in /usr/share/php/ezc/Configuration/configuration.php:221&#13;
+Stack trace:&#13;
+#0 /usr/share/php/ezc/Configuration/configuration.php(239): ezcConfiguration-&gt;assertGroupSetting('Upgrade_4.1.4', 'UpgradeContaine...')&#13;
+#1 /usr/share/php/ezc/Configuration/configuration_manager.php(302): ezcConfiguration-&gt;getSetting('Upgrade_4.1.4', 'UpgradeContaine...')&#13;
+#2 /usr/share/php/ezc/Configuration/configuration_manager.php(326): ezcConfigurationManager-&gt;fetchSetting('getSetting', 'ezupgrade', 'Upgrade_4.1.4', 'UpgradeContaine...')&#13;
+#3 /home/grundew/src/ezupgrade/classes/ezupgrade.php(875): ezcConfigurationManager-&gt;getSetting('ezupgrade', 'Upgrade_4.1.4', 'UpgradeContaine...')&#13;
+#4 /home/grundew/src/ezupgrade/classes/ezupgrade.php(42): eZUpgrade-&gt;fetchUpgradeToVersion()&#13;
+#5 /home/grundew/src/ezupgrade/ezupgrade(30): eZUpgrade-&gt;run()&#13;
+#6 {main}&#13;
+  thrown in /usr/share/php/ezc/Configuration/configuration.php on line 221&#13;
+</description>
+      <author>community@ez.no (Grunde Waag)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrade_from_4_0_7_to_4_4_0</guid>
+      <pubDate>Fri, 25 Feb 2011 09:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Script error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/script_error/re_script_error</link>
+      <description>The error is coming from sql statements that were not executed during the script run. Mostly the 4.1 sql updates.&#13;
+&#13;
+Daniel</description>
+      <author>community@ez.no (Daniel Lemur)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/script_error/re_script_error</guid>
+      <pubDate>Tue, 18 Jan 2011 00:52:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Script error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/script_error</link>
+      <description>ezupgrade stalls after error below.  Any suggestion would be appreciated:&#13;
+Upgrade function upgradeScripts41 run&#13;
+Running script update/common/scripts/4.1/addlockstategroup.php  -ssite_adminDo you want to continue? (y/n) [y] &#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+Fatal error: A database transaction in eZ Publish failed.&#13;
+&#13;
+The current execution was stopped to prevent further problems.&#13;
+You should contact the System Administrator (adminemail@local-domain.dom) of this site.&#13;
+The current transaction ID is TRANSID-2c4aecaa80c0d5caace9f97ad79b7ab8 and has been logged.&#13;
+Please include the transaction ID and the name of the current script when contacting the system administrator.&#13;
+</description>
+      <author>community@ez.no (Daniel Lemur)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/script_error</guid>
+      <pubDate>Mon, 17 Jan 2011 04:47:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: using ezupgrade </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade/re_using_ezupgrade2</link>
+      <description>Thank you for your reply. I went ahead and ran the script based on it's tolerance.&#13;
+&#13;
+Although I have not test the upgraded db, I was able to run 3.6.x to 3.8.x then to 3.10.1 from there i'll be going to 4.3.0. &#13;
+&#13;
+I am thinking by way of facilitating the process, one can setup different account for each step.&#13;
+&#13;
+Many thanks,&#13;
+&#13;
+Daniel</description>
+      <author>community@ez.no (Daniel Lemur)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade/re_using_ezupgrade2</guid>
+      <pubDate>Fri, 14 Jan 2011 08:03:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: using ezupgrade </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade/re_using_ezupgrade</link>
+      <description>Hi Daniel,&#13;
+&#13;
+Yes, you need to perform the steps even though you have both PHP versions installed.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade/re_using_ezupgrade</guid>
+      <pubDate>Fri, 14 Jan 2011 07:43:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>using ezupgrade </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade</link>
+      <description>In upgrading from 3.6.x to 4.3.0 is it necessary to perform the upgrade in stages as indicated:&#13;
+FROM	TO&#13;
+3.5.0		3.8.7&#13;
+3.8.7		3.9.1&#13;
+3.9.1		3.10.1&#13;
+3.10.1	4.0.1&#13;
+4.0.1		4.3.0 &#13;
+&#13;
+If both php 4.4.6 and 5.2.1 are installed.&#13;
+&#13;
+When  account.ini is set to upgrade from 3.6.x to 4.3.0, ezupgrade returns error that files are only available up to 4.0.x in the 4.3.0 distro.&#13;
+&#13;
+Many thanks for making this project available.&#13;
+&#13;
+Daniel</description>
+      <author>community@ez.no (Daniel Lemur)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/using_ezupgrade</guid>
+      <pubDate>Thu, 13 Jan 2011 23:46:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unclear failures</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/unclear_failures</link>
+      <description>While upgrading from 3.10.1 -&gt; 4.01 and then 4.0.1 -&gt; 4.4.0 I several sql errors:&#13;
+&#13;
+&lt;code&gt;Running upgrades for v. 4.0.2&#13;
+Upgrade function updateDBForVersion run&#13;
+Applying sql/4.0/4.0.2.sql to database laas_dev_440 ERROR 1050 (42S01) at line 3: Table 'ezurlalias_ml_incr' already exists&#13;
+OK&#13;
+&#13;
+Running upgrades for v. 4.1.0&#13;
+Upgrade function updateOERewriteRules run&#13;
+Upgrade function updateImageSystem run&#13;
+Upgrade function updateDBForVersion run&#13;
+Applying sql/4.1/4.1.0.sql to database laas_dev_440 ERROR 1050 (42S01) at line 18: Table 'ezcobj_state' already exists&#13;
+OK&#13;
+&#13;
+Running upgrades for v. 4.3.0&#13;
+Upgrade function upgrade430Notice run&#13;
+Upgrade function updateDBForVersion run&#13;
+Applying sql/4.3/4.3.0.sql to database laas_dev_440 ERROR 1050 (42S01) at line 11: Table 'ezscheduled_script' already exists&#13;
+OK&#13;
+&lt;/code&gt;&#13;
+&#13;
+They don't clearly get flagged as having failed.  I'm not sure of the failure reason though.&#13;
+</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/unclear_failures</guid>
+      <pubDate>Thu, 11 Nov 2010 06:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to upgrade from 3.10.1</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_13</link>
+      <description>It works for me now.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_13</guid>
+      <pubDate>Thu, 11 Nov 2010 06:39:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to upgrade from 3.10.1</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_12</link>
+      <description>Do you have any update on this? I downloaded the latest SVN copy late last week and I can't update from 3.10.1 to 4.0.7.&#13;
+&#13;
+If I try I get &#13;
+&lt;code&gt;&#13;
+Can not upgrade from 3.10.1 to 4.0.7. Version 4.0.7 holds upgrade files only down to version 4.0.0&#13;
+CRITICAL ERROR - ENDING SCRIPT&#13;
+&lt;/code&gt;&#13;
+&#13;
+If I try to upgrade from 3.10.1 to 4.0.1 as suggested by the documentation, the script can't find the tarball.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_12</guid>
+      <pubDate>Mon, 08 Nov 2010 01:32:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy/ezc installation: 'ezc/Base/base.php' </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php3</link>
+      <description>OK guys, here's what worked for me.&#13;
+&#13;
+Firstly edit the ezcomponents file (/root/tools/ezupgrade/lib/ezcopy/classes/ezcomponents.php in your case, Marco) so that the require_once reads:&#13;
+&lt;code&gt;&#13;
+require_once "ezc/Base/src/base.php";&#13;
+&lt;/code&gt;&#13;
+&#13;
+Then ensure that "ezc/Base/src/base.php" is in your PHP path. I did it via a symbolic link, but editting php.ini should work as well.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php3</guid>
+      <pubDate>Mon, 01 Nov 2010 22:41:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy/ezc installation: 'ezc/Base/base.php' </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php2</link>
+      <description>Hi Anders,&#13;
+&#13;
+I don't think that downloading by 'pear' will make any difference to the layout of the components, will it?&#13;
+&#13;
+I also have the problem that Marco has, but I downloaded eZP 4.2.0 with the included ezcomponents-2009.2. In my case the same problem is seen. In the ezc/Base directory there is no base.php, and as in Marco's case there is a base.php in the src subdirectory of ezc/Base:&#13;
+&#13;
+&lt;code&gt;&#13;
+[cliffp@ak-lan-intranet-prod-01 trunk]$ find /sysmanage/data/www/ezpublish-4.2.0 -name 'base.php'&#13;
+/sysmanage/data/www/ezpublish-4.2.0/lib/ezc/Base/src/base.php&#13;
+/sysmanage/data/www/ezpublish-4.2.0/lib/ezc/Graph/src/data_container/base.php&#13;
+/sysmanage/data/www/ezpublish-4.2.0/lib/ezc/Graph/src/datasets/base.php&#13;
+/sysmanage/data/www/ezpublish-4.2.0/lib/ezc/Document/src/document/xml/xhtml/filter/element/base.php&#13;
+/sysmanage/data/www/ezpublish-4.2.0/lib/ezc/Document/src/document/xml/xhtml/filter/base.php&#13;
+&lt;/code&gt;&#13;
+&#13;
+The path includes /sysmanage/data/www/ezpublish-4.2.0/kernel/classes, but not the above. If I make a symbolic link to the ezc directory, it still won't find the base.php in ..../ezc/Base.&#13;
+&#13;
+Please advise. I don't have easy access on my servers to the Internet, so I can't use 'pear'.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php2</guid>
+      <pubDate>Mon, 01 Nov 2010 21:44:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy/ezc installation: 'ezc/Base/base.php' </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php</link>
+      <description>Hi Marco,&#13;
+&#13;
+Yes, you need both eZ Copy and eZ Components. The best way to do this is to set up eZ Componets with pear, in that way your php-cli will find it. I can`t see any catch by installing eZ Compontens.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php/re_ezcopy_ezc_installation_ezc_base_base_php</guid>
+      <pubDate>Mon, 01 Nov 2010 07:48:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy/ezc installation: 'ezc/Base/base.php' </title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php</link>
+      <description>Hello Eirik,&#13;
+first of all, thanks ezupgrade (and the nice show in Berlin).&#13;
+I want to try ezupgrade to do a local upgrade from ez 4.1 to 4.3 or 4.4. "local" means, that the upgraded installation will be in the same server as the "old" one.&#13;
+&#13;
+I checked out ezupgrade and ezcopy via "svn export" and managed to copy/move ezcopy to the lib folder. &#13;
+Then i downloaded ezcompontens from the website and un-tar-ed it.&#13;
+But, to be honest, i have trouble to get everything running.&#13;
+Whenever i run ezupgrade (php ezupgrade), I get&#13;
+&lt;code&gt;&#13;
+Warning: require_once(ezc/Base/base.php): failed to open stream: No such file or directory in /root/tools/ezupgrade/lib/ezcopy/classes/ezcomponents.php on line 3&#13;
+&#13;
+Fatal error: require_once(): Failed opening required 'ezc/Base/base.php' (include_path='.:/usr/share/php:/usr/share/pear:lib/ezcopy/lib/phpseclib0.1.5') in /root/tools/ezupgrade/lib/ezcopy/classes/ezcomponents.php on line 3&#13;
+R&#13;
+&lt;/code&gt;&#13;
+&#13;
+What makes me wonder: No matter, if i download ezc from the website or if i copy it over from ez 4.4, there is no "base.php" withing the "Base" folder. It's in "Base/src"...&#13;
+I moved the "ezc" folder around, but ezcomponents.php does not find the required base.php file.&#13;
+&#13;
+So...&#13;
+- do i really need ezcopy (or ezcomponents) for ezupgrade, when i do not need a "remote" server access?&#13;
+- if i need it, what the catch with installing ezcomponents?&#13;
+&#13;
+Thanks in advance for you help!</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/ezcopy_ezc_installation_ezc_base_base_php</guid>
+      <pubDate>Sat, 30 Oct 2010 14:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 8 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/8</link>
+      <description>Fixed the issue with broken distro links and cleaned up some upgrade functions for 4.4.0.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/8</guid>
+      <pubDate>Thu, 28 Oct 2010 07:05:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to upgrade from 3.10.1</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_1</link>
+      <description>Hi Brendan,&#13;
+&#13;
+You are correct sir! They messed up our ini files. We are currently working on fixing the urls, and will provide the new settings today.&#13;
+&#13;
+I will try to commit the changes in one hour or so, please check back during the day :-)</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1/re_unable_to_upgrade_from_3_10_1</guid>
+      <pubDate>Thu, 28 Oct 2010 06:59:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to upgrade from 3.10.1</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1</link>
+      <description>I think with ez changing their download structures may of messed things up somewhat.  I'm trying to upgrade from 3.10.1 to 4.0.1 but the script isn't download 4.0.1.  Further more the script isn't able to jump from 3.10.1 to 4.0.7.&#13;
+&#13;
+Any advice please?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/unable_to_upgrade_from_3_10_1</guid>
+      <pubDate>Thu, 28 Oct 2010 03:52:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Parse error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error3</link>
+      <description>You need php5 to run eZ Upgrade, but if you are gonna upgrade an version of eZ running on php4 you might need a path to php4 as well.&#13;
+&#13;
+You define both of them in ini files. Just remeber to use php5-cli when running ezupgrade.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error3</guid>
+      <pubDate>Wed, 27 Oct 2010 08:18:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Parse error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error2</link>
+      <description>Thank you Anders, I knew it would be something obvious. So I need PHP5 to upgrade and PHP4 to run eZ Publish (at least up to 3.10.1)?&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error2</guid>
+      <pubDate>Wed, 27 Oct 2010 08:11:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Parse error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error</link>
+      <description>Hi Cliffp,&#13;
+&#13;
+You need to run eZ Upgrade from an php 5 cli. I guess that is why you get the error.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/parse_error/re_parse_error</guid>
+      <pubDate>Wed, 27 Oct 2010 06:32:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parse error</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/parse_error</link>
+      <description>I'm getting a parse error as follows when I try to run eZUpgrade:&#13;
+&lt;code&gt;&#13;
+root@ak-lan-intranet-mig-01:/data/www/ezpublish/ezupgrade# /usr/local/apache2.2.8/php/bin/php ezupgrade user1&#13;
+PHP Parse error:  syntax error, unexpected ')', expecting '(' in /data/www/ezpublish/ezupgrade/classes/ezupgrade.php on line 716&#13;
+&lt;/code&gt;&#13;
+&#13;
+PHP is as follows:&#13;
+&lt;code&gt;&#13;
+root@ak-lan-intranet-mig-01:/data/www/ezpublish/ezupgrade# /usr/local/apache2.2.8/php/bin/php --version&#13;
+PHP 4.4.7 (cli) (built: Feb 27 2009 14:58:57)&#13;
+Copyright (c) 1997-2007 The PHP Group&#13;
+Zend Engine v1.3.0, Copyright (c) 1998-2004 Zend Technologies&#13;
+    with eAccelerator v0.9.5, Copyright (c) 2004-2006 eAccelerator, by eAccelerator&#13;
+&lt;/code&gt;&#13;
+&#13;
+Any ideas what I'm doing wrong? The code is exactly as I checked it out. No modifications other than those in the install instructions.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/parse_error</guid>
+      <pubDate>Wed, 27 Oct 2010 05:28:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrading 3.3.x &gt; 4.4.0 ?</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrading_3_3_x_4_4_0/re_upgrading_3_3_x_4_4_0</link>
+      <description>Hi Ekkehard,&#13;
+&#13;
+No, we probably won't add any older versions than 3.5. Sorry.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrading_3_3_x_4_4_0/re_upgrading_3_3_x_4_4_0</guid>
+      <pubDate>Tue, 19 Oct 2010 09:37:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrading 3.3.x &gt; 4.4.0 ?</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrading_3_3_x_4_4_0</link>
+      <description>Hi,&#13;
+&#13;
+first thanks for this cool stuff, are there any plans for supporting older versions?&#13;
+&#13;
+Thanks and Greetings, ekke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrading_3_3_x_4_4_0</guid>
+      <pubDate>Tue, 19 Oct 2010 09:33:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Failure to run correctxmlalign.php</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php3</link>
+      <description>That I will, of course.&#13;
+&#13;
+Regarding ezwebin; we are currently not using ezwebin that much, so I don`t have any task to do this in the nearby future. &#13;
+&#13;
+Feel free to contribute, if you like :-)</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php3</guid>
+      <pubDate>Tue, 12 Oct 2010 10:52:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Failure to run correctxmlalign.php</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php2</link>
+      <description>Thanks Anders&#13;
+&#13;
+Please let me know what you discover.  Looks like ezupgrade is a wonderful time-saver - thanks heaps :)&#13;
+&#13;
+Any plans on dealing with other tiresome upgrades like ezwebin?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php2</guid>
+      <pubDate>Tue, 12 Oct 2010 07:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Failure to run correctxmlalign.php</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php</link>
+      <description>Hi Brendan,&#13;
+Thanks for you feedback.&#13;
+&#13;
+I can`t remember to have seen this problem before, so I need to investigate in the code to see what this could be. &#13;
+&#13;
+Regarding other scripts; we have runned the eZ Upgrade on a lot of customer sites now and we have no feedback on problems after the final upgrade. The oldest site we have upgraded with eZ Upgrade is an 3.5.0 installation.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php/re_failure_to_run_correctxmlalign_php</guid>
+      <pubDate>Tue, 12 Oct 2010 06:39:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Failure to run correctxmlalign.php</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php</link>
+      <description>After using ezupgrade on a site from 4.0.1 to 4.4.0 I noticed images lost their alignment in XML content.  I then manually applied update/common/scripts/4.1/correctxmlalign.php, cleared the cache and instantly the images correct alignment was restored.&#13;
+&#13;
+I checked the upgrade documentation for 4.1 and it is there, http://doc.ez.no/eZ-Publish/Upgrading/Upgrading-to-4.1/4.0.x-to-4.1.y#eztoc102745_7&#13;
+&#13;
+So I assume this therefore means that ezupgrade failed to run correctxmlalign.php.  This makes me wonder what other scripts it may be failing to run but are not getting noticed?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/failure_to_run_correctxmlalign_php</guid>
+      <pubDate>Tue, 12 Oct 2010 06:13:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/7</link>
+      <description>Upgrade support to eZ Publish Fuji (4.4) Community edition</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/7</guid>
+      <pubDate>Fri, 01 Oct 2010 07:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrading from 4.07 to 4.3.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_04</link>
+      <description>It should work from 4.0.7 directly to 4.3.0. &#13;
+I thin Jérôme is into something. &#13;
+&#13;
+Note: We haven`t tried every upgrade senarios, so there might be some fault in the version order ;)&#13;
+&#13;
+Thanks for nice feedback!</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_04</guid>
+      <pubDate>Tue, 21 Sep 2010 13:16:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrading from 4.07 to 4.3.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_03</link>
+      <description>Hi Lars&#13;
+&#13;
+There are some issues in the upgrade versions order. Take a look in &lt;b&gt;settings/ezupgrade.ini&lt;/b&gt; and eventually alter the order :&#13;
+&lt;code&gt;&#13;
+# 30.03.2010&#13;
+Versions[]=4.3.0&#13;
+# 29.10.2009&#13;
+Versions[]=4.2.0&#13;
+# 29.09.2009&#13;
+Versions[]=4.1.4&#13;
+#  29.09.2009 - maintance&#13;
+Versions[]=4.0.7&#13;
+# 08.06.2009&#13;
+Versions[]=4.1.3&#13;
+# 08.06.2009 - maintance&#13;
+Versions[]=4.0.6&#13;
+# 26.05.2009&#13;
+Versions[]=4.1.2&#13;
+# 26.05.2009 - maintance&#13;
+Versions[]=4.0.5&#13;
+# 05.05.2009&#13;
+Versions[]=4.1.1&#13;
+# 05.05.2009 - maintance&#13;
+Versions[]=4.0.4&#13;
+# 19.03.2009&#13;
+Versions[]=4.1.0&#13;
+# 11.02.2009&#13;
+Versions[]=4.0.3&#13;
+# 03.02.2009&#13;
+Versions[]=4.0.2&#13;
+# 20.08.2008&#13;
+Versions[]=4.0.1&#13;
+&lt;/code&gt;&#13;
+&#13;
+May be this instead :&#13;
+&lt;code&gt;&#13;
+# 30.03.2010&#13;
+Versions[]=4.3.0&#13;
+# 29.10.2009&#13;
+Versions[]=4.2.0&#13;
+# 29.09.2009&#13;
+Versions[]=4.1.4&#13;
+# 08.06.2009&#13;
+Versions[]=4.1.3&#13;
+# 26.05.2009&#13;
+Versions[]=4.1.2&#13;
+# 05.05.2009&#13;
+Versions[]=4.1.1&#13;
+# 19.03.2009&#13;
+Versions[]=4.1.0&#13;
+#  29.09.2009 - maintance&#13;
+Versions[]=4.0.7&#13;
+# 08.06.2009 - maintance&#13;
+Versions[]=4.0.6&#13;
+# 26.05.2009 - maintance&#13;
+Versions[]=4.0.5&#13;
+# 05.05.2009 - maintance&#13;
+Versions[]=4.0.4&#13;
+# 11.02.2009&#13;
+Versions[]=4.0.3&#13;
+# 03.02.2009&#13;
+Versions[]=4.0.2&#13;
+# 20.08.2008&#13;
+Versions[]=4.0.1&#13;
+&lt;/code&gt;&#13;
+&#13;
+This order should work ;-)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_03</guid>
+      <pubDate>Tue, 21 Sep 2010 12:50:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrading from 4.07 to 4.3.0</title>
+      <link>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_02</link>
+      <description>Yes i did try the upgrade in one go..&#13;
+Perhaps i have been missing out on some in the doc?&#13;
+&#13;
+Note: I actually try to do this the manual way at the moment (non-ezupgrade) moving from 4.0.7 to 4.1 and apparantly there are a bunch of instructions already performed on this installation, so i keep on having to comment out some of the files in the db files in the distro.. &#13;
+&#13;
+By the way i really like the ezupgrade contribution. Just hoping i manage to get this to work.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezupgrade/forum/general/upgrading_from_4_07_to_4_3_0/re_upgrading_from_4_07_to_4_3_02</guid>
+      <pubDate>Tue, 21 Sep 2010 11:59:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

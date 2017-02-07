@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / admin2pp / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23186" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>admin2pp rev. 154 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/154</link>
+      <description>Improved admin2ppPreviewDialog to be more flexible
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/154</guid>
+      <pubDate>Fri, 22 Jul 2011 21:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 153 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/153</link>
+      <description>CS: trying to stick to http://javascript.crockford.com/code.html
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/153</guid>
+      <pubDate>Tue, 19 Jul 2011 20:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 152 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/152</link>
+      <description>Fixed a template error
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/152</guid>
+      <pubDate>Tue, 19 Jul 2011 18:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 151 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/151</link>
+      <description>Fixed a buggy template comment
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/151</guid>
+      <pubDate>Tue, 19 Jul 2011 14:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 150 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/150</link>
+      <description>Added some comments to Apache configuration
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/150</guid>
+      <pubDate>Mon, 18 Jul 2011 21:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 149 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/149</link>
+      <description>Implemented: no more page refresh when enabling node tabs
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/149</guid>
+      <pubDate>Mon, 18 Jul 2011 10:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 148 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/148</link>
+      <description>Commented out useless part of yui_menu.css
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/148</guid>
+      <pubDate>Mon, 18 Jul 2011 10:21:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 146 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/146</link>
+      <description>Optimized the new icons sprite image
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/146</guid>
+      <pubDate>Mon, 18 Jul 2011 10:02:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 145 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/145</link>
+      <description>Added trash and invert selection icons to the icons sprite
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/145</guid>
+      <pubDate>Mon, 18 Jul 2011 10:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 144 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/144</link>
+      <description>Synchronized JavaScript file with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/144</guid>
+      <pubDate>Sat, 16 Jul 2011 14:25:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 143 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/143</link>
+      <description>Synchronized templates with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/143</guid>
+      <pubDate>Sat, 16 Jul 2011 14:02:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 142 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/142</link>
+      <description>Synchronized with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/142</guid>
+      <pubDate>Sat, 16 Jul 2011 13:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 141 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/141</link>
+      <description>Simplified selector used to improve input text and textarea since IE6 is not
+a target anymore
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/141</guid>
+      <pubDate>Tue, 21 Dec 2010 20:31:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 140 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/140</link>
+      <description>Added rounded corners and yellow background on focus on order input of object
+relation list datatype
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/140</guid>
+      <pubDate>Tue, 21 Dec 2010 15:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 139 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/139</link>
+      <description>Small clean up of autocomplete code
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/139</guid>
+      <pubDate>Mon, 20 Dec 2010 20:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 138 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/138</link>
+      <description>Added autocomplete feature in ezkeyword edit template
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/138</guid>
+      <pubDate>Mon, 20 Dec 2010 19:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 137 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/137</link>
+      <description>Additionnal fix for issue #017772: IE8 Issue with background color of
+fieldsets in admin2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/137</guid>
+      <pubDate>Mon, 20 Dec 2010 19:21:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 136 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/136</link>
+      <description>Removed empty override dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/136</guid>
+      <pubDate>Mon, 20 Dec 2010 10:01:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 135 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/135</link>
+      <description>Bumped version number for future dev
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/135</guid>
+      <pubDate>Mon, 20 Dec 2010 09:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 134 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/134</link>
+      <description>Created tag for 0.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/134</guid>
+      <pubDate>Fri, 17 Dec 2010 14:01:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 133 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/133</link>
+      <description>Set version number for 0.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/133</guid>
+      <pubDate>Fri, 17 Dec 2010 14:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 132 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/132</link>
+      <description>Added README file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/132</guid>
+      <pubDate>Fri, 17 Dec 2010 13:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 131 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/131</link>
+      <description>Update copyright on PHP files
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/131</guid>
+      <pubDate>Fri, 17 Dec 2010 08:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 130 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/130</link>
+      <description>Fixed margin of preview options fieldset in IE8
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/130</guid>
+      <pubDate>Thu, 16 Dec 2010 21:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 129 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/129</link>
+      <description>Fixed #017772: IE8 Issue with background color of fieldsets in admin2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/129</guid>
+      <pubDate>Thu, 16 Dec 2010 21:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 128 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/128</link>
+      <description>Fixed : edit and copy buttons do not work when loading preview from the node id
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/128</guid>
+      <pubDate>Thu, 16 Dec 2010 16:51:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 127 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/127</link>
+      <description>Fixed a template error
+Added preloading of ezoe JavaScript files as well
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/127</guid>
+      <pubDate>Thu, 16 Dec 2010 15:41:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 126 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/126</link>
+      <description>Added missing translations for the new preview system
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/126</guid>
+      <pubDate>Wed, 15 Dec 2010 16:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 125 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/125</link>
+      <description>Added extension.xml and update ezinfo.php to reflect upgrade to jQueryUI
+1.8.6 and to prepare future release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/125</guid>
+      <pubDate>Tue, 14 Dec 2010 14:41:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 124 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/124</link>
+      <description>Replaced new Array() by []
+Created a custom template for preloading
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/124</guid>
+      <pubDate>Tue, 14 Dec 2010 13:41:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 123 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/123</link>
+      <description>Added some images to the preload list
+Implemented preloading of JavaScript files used by ezoe and subitems
+datatable
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/123</guid>
+      <pubDate>Tue, 14 Dec 2010 11:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 122 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/122</link>
+      <description>Removed unused settings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/122</guid>
+      <pubDate>Tue, 14 Dec 2010 09:41:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 121 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/121</link>
+      <description>Fixed small issue with the font size of disabled buttons in preview
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/121</guid>
+      <pubDate>Mon, 13 Dec 2010 13:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 120 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/120</link>
+      <description>Added preview link the popup menu of the content structure items
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/120</guid>
+      <pubDate>Mon, 13 Dec 2010 13:21:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 119 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/119</link>
+      <description>Fixed preview to work with new popmenu
+Changed preview to use the content/versionview module to preview in front
+siteaccess
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/119</guid>
+      <pubDate>Mon, 13 Dec 2010 12:51:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 118 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/118</link>
+      <description>Optimized the icon sprite
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/118</guid>
+      <pubDate>Mon, 06 Dec 2010 22:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 117 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/117</link>
+      <description>Replaced icons used in the YUI2 database by an icon sprite
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/117</guid>
+      <pubDate>Mon, 06 Dec 2010 22:41:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 116 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/116</link>
+      <description>Made sure to use the same JavaScript pack over all pages
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/116</guid>
+      <pubDate>Mon, 06 Dec 2010 09:01:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 115 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/115</link>
+      <description>Made use of gradient-to-darker.png incorporated in sprites
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/115</guid>
+      <pubDate>Sun, 05 Dec 2010 14:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 114 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/114</link>
+      <description>Added missing stylesheets and images to implement data URI transformation in
+stylesheets
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/114</guid>
+      <pubDate>Sat, 04 Dec 2010 16:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 113 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/113</link>
+      <description>Optimized PNG from jQueryUI
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/113</guid>
+      <pubDate>Sat, 04 Dec 2010 15:46:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 112 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/112</link>
+      <description>Synchronized stylesheets with eZ Publish 4.4
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/112</guid>
+      <pubDate>Sat, 04 Dec 2010 15:16:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 111 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/111</link>
+      <description>Overiden children.tpl to not load YUI3 loader which is not used anymore
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/111</guid>
+      <pubDate>Fri, 03 Dec 2010 13:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 110 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/110</link>
+      <description>Removed CSS for removed features (resizable object info, drag'n drop in child
+elements list)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/110</guid>
+      <pubDate>Fri, 03 Dec 2010 12:46:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 109 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/109</link>
+      <description>Changed the background used on title of popup menu according to new style
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/109</guid>
+      <pubDate>Fri, 03 Dec 2010 12:16:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 108 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/108</link>
+      <description>Updated settings to use jQueryUI 1.8.6 javascript file and to preload images
+from the new theme
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/108</guid>
+      <pubDate>Fri, 03 Dec 2010 06:31:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 107 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/107</link>
+      <description>Synchronized loginpagelayout.tpl
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/107</guid>
+      <pubDate>Thu, 02 Dec 2010 22:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 106 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/106</link>
+      <description>Synchronized pagelayout.tpl (and really removed resizable object info)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/106</guid>
+      <pubDate>Thu, 02 Dec 2010 22:16:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 105 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/105</link>
+      <description>Removed resizable object info feature
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/105</guid>
+      <pubDate>Thu, 02 Dec 2010 21:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 103 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/103</link>
+      <description>Upgraded to jQueryUI 1.8.6
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/103</guid>
+      <pubDate>Thu, 02 Dec 2010 21:45:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

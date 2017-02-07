@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / silver-post / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:04:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:04:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45710" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Very Good Extension</title>
+      <link>http://projects.ez.no/silver_post/reviews/very_good_extension</link>
+      <description>This is very helpful extension to post articles using RESTful method.&#13;
+Easy, Simple and Efficient.&#13;
+Thank you very much.</description>
+      <author>community@ez.no (Kinjalgiri Goswami)</author>
+      <guid>http://projects.ez.no/silver_post/reviews/very_good_extension</guid>
+      <pubDate>Sat, 27 Apr 2013 06:11:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great idea</title>
+      <link>http://projects.ez.no/silver_post/reviews/great_idea</link>
+      <description> </description>
+      <author>community@ez.no (David Hohl)</author>
+      <guid>http://projects.ez.no/silver_post/reviews/great_idea</guid>
+      <pubDate>Mon, 12 Mar 2012 10:14:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

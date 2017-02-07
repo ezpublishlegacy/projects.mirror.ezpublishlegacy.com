@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / exam</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:04:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:04:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47741" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/303d6ed044153e0784b0a48dce825999e2d6c1a5</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ README
++ autoloads/examenoperator.php
++ autoloads/eztemplateautoload.php
++ classes/examanswer.php
++ classes/examelement.php
++ classes/examen.php
++ classes/examresult.php
++ content/examenhandler.php
++ datatypes/examen/examentype.php
++ design/standard/images/certificate.png
++ design/standard/images/correct.png
++ design/standard/images/facebook_image_default.png
++ design/standard/images/ic-web20-facebook.png
++ design/standard/images/ic-web20-hyves.png
++ design/standard/images/ic-web20-twitter.png
++ design/standard/images/incorrect.png
++ design/standard/images/surveybar.gif
++ design/standard/override/templates/full/exam.tpl
++ design/standard/override/templates/line/exam.tpl
++ design/standard/override/templates/line/result.tpl
++ design/standard/stylesheets/examen-edit.css
++ design/standard/stylesheets/examen.css
++ design/standard/templates/content/datatype/edit/examen.tpl
++ design/standard/templates/content/datatype/edit/eztext.tpl
++ design/standard/templates/content/datatype/view/examen.tpl
++ design/standard/templates/content/datatype/view/eztext.tpl
++ design/standard/templates/examen/admin/exam.tpl
++ design/standard/templates/examen/admin/overview.tpl
++ design/standard/templates/examen/edit/group.tpl
++ design/standard/templates/examen/edit/pagebreak.tpl
++ design/standard/templates/examen/edit/question.tpl
++ design/standard/templates/examen/edit/text.tpl
++ design/standard/templates/examen/results/default.tpl
++ design/standard/templates/examen/results/default/facebook.tpl
++ design/standard/templates/examen/results/default/hyves.tpl
++ design/standard/templates/examen/results/default/result.tpl
++ design/standard/templates/examen/results/default/twitter.tpl
++ design/standard/templates/examen/results/nice/result.tpl
++ design/standard/templates/examen/results/question.tpl
++ design/standard/templates/examen/results/result.tpl
++ design/standard/templates/examen/results/socialmedia.tpl
++ design/standard/templates/examen/view/element.tpl
++ design/standard/templates/examen/view/error.tpl
++ design/standard/templates/examen/view/group.tpl
++ design/standard/templates/examen/view/question.tpl
++ design/standard/templates/examen/view/text.tpl
++ doc/CHANGELOG
++ doc/INSTALL
++ doc/user_guide.pdf
++ exam_class-1.0-1.ezpkg
++ extension.xml
++ ezinfo.php
++ modules/examen/download.php
++ modules/examen/exam.php
++ modules/examen/function_definition.php
++ modules/examen/module.php
++ modules/examen/result.php
++ modules/examen/send.php
++ modules/examen/statistics.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/examen.ini.append.php
++ settings/menu.ini.append.php
++ settings/module.ini.append.php
++ settings/site.ini.append.php
++ settings/siteaccess/debug
++ settings/siteaccess/dut
++ settings/siteaccess/eng/override.ini.append.php
++ sql/mysql.sql
++ translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Init public repo.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/303d6ed044153e0784b0a48dce825999e2d6c1a5</guid>
+      <pubDate>Thu, 06 Sep 2012 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/eed8153dafbf4c370be7531c5a445530b19cef3e</link>
+      <description>
+      &lt;pre&gt;m modules/examen/result.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed = to == in ifelse that was always setting passed to true&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/eed8153dafbf4c370be7531c5a445530b19cef3e</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/0b38bdc44bde9f7fdc297e7550c201035582014c</link>
+      <description>
+      &lt;pre&gt;m modules/examen/result.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added fifth paramenter to the reverse related fetch to remove error message.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/0b38bdc44bde9f7fdc297e7550c201035582014c</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/5e38788eca189e04ac1d5503945327a7191c3b57</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/examen/results/default/result.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added code to only execute result code for questions in the show correct loop.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/5e38788eca189e04ac1d5503945327a7191c3b57</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/6f7ddb91b0e6c950428d3cb6566dfe7506f1cfae</link>
+      <description>
+      &lt;pre&gt;m modules/examen/result.php
+m modules/examen/send.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Getting rid of array_key_exists error for nonexistent option array.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/6f7ddb91b0e6c950428d3cb6566dfe7506f1cfae</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/aa98907ef42dfafa328d586fdf046f39080faad9</link>
+      <description>
+      &lt;pre&gt;m modules/examen/download.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/aa98907ef42dfafa328d586fdf046f39080faad9</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/b46064055319a7a09557ed5942a6a75065286cbb</link>
+      <description>
+      &lt;pre&gt;m modules/examen/result.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved variables out of if that should still be available even if statistics
+are not gathered (like to generate the certificate)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/b46064055319a7a09557ed5942a6a75065286cbb</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/83f352e33b634b4bb29ccf7effbc4d57cd913d9d</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/examen/results/default/result.tpl
+m modules/examen/exam.php
+m modules/examen/result.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed the results not showing if they come from a session because save_results is turned off.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/83f352e33b634b4bb29ccf7effbc4d57cd913d9d</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/ce2776753db0f914c81a776bb7d63bdff7bb77f9</link>
+      <description>
+      &lt;pre&gt;m modules/examen/exam.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixes to the = ifs for the conditional switch in handle results.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/ce2776753db0f914c81a776bb7d63bdff7bb77f9</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/05cb6639e784b4b10e7f39fbb183278423a2f080</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/examen/view/question.tpl
+m modules/examen/exam.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added hidden field to always send an answer, otherwise the count goes off and
+fixed the logic of the if that sends the page to results.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/05cb6639e784b4b10e7f39fbb183278423a2f080</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/0abcd072540aa75a39fb912c9673443fe385e76d</link>
+      <description>
+      &lt;pre&gt;m modules/examen/result.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed superfluous semi-colon.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/0abcd072540aa75a39fb912c9673443fe385e76d</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/f2b8a0bf7755441313111ac38945c8059784548b</link>
+      <description>
+      &lt;pre&gt;m design/standard/override/templates/full/exam.tpl
+m design/standard/stylesheets/examen.css
+m design/standard/templates/examen/results/default/hyves.tpl
+m design/standard/templates/examen/results/default/result.tpl
+m design/standard/templates/examen/results/default/twitter.tpl
+m design/standard/templates/examen/view/element.tpl
+m design/standard/templates/examen/view/error.tpl
+m exam_class-1.0-1.ezpkg
+m modules/examen/module.php
+m translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Sync with live&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/f2b8a0bf7755441313111ac38945c8059784548b</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/b06735db7ff100d45e135b56f220a8179cc7012b</link>
+      <description>
+      &lt;pre&gt;+ design/standard/images/facebook_image_default.png
+m design/standard/override/templates/full/exam.tpl
+m design/standard/templates/examen/results/default/result.tpl
+m design/standard/templates/examen/results/socialmedia.tpl
+m modules/examen/send.php
+m settings/content.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding social media changes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/b06735db7ff100d45e135b56f220a8179cc7012b</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/44c91c48e908e2cef244991dc10a0bf678b93547</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/examen/results/default/result.tpl
+m design/standard/templates/examen/results/default/twitter.tpl
+m design/standard/templates/examen/results/socialmedia.tpl
+m modules/examen/result.php
+m modules/examen/send.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bugfixes for sending original examid on retest with a different object and social media tweaks.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/44c91c48e908e2cef244991dc10a0bf678b93547</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/4355070021c11199ad9197f3527b933136be5006</link>
+      <description>
+      &lt;pre&gt;m classes/examen.php
+m design/standard/templates/examen/admin/overview.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;bug fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/4355070021c11199ad9197f3527b933136be5006</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/54dc79ae25342e6bee4c96e8a9ac4e203a505d0b</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ autoloads/examenoperator.php
++ autoloads/eztemplateautoload.php
++ classes/examanswer.php
+m classes/examelement.php
++ classes/examen.php
++ classes/examresult.php
++ content/examenhandler.php
+m datatypes/examen/examentype.php
++ design/standard/images/certificate.png
++ design/standard/images/correct.png
++ design/standard/images/ic-web20-facebook.png
++ design/standard/images/ic-web20-hyves.png
++ design/standard/images/ic-web20-twitter.png
++ design/standard/images/incorrect.png
++ design/standard/images/surveybar.gif
++ design/standard/override/templates/full/exam.tpl
++ design/standard/override/templates/line/exam.tpl
++ design/standard/override/templates/line/result.tpl
++ design/standard/stylesheets/examen-edit.css
++ design/standard/stylesheets/examen.css
++ design/standard/templates/content/datatype/edit/examen.tpl
++ design/standard/templates/content/datatype/edit/eztext.tpl
++ design/standard/templates/content/datatype/view/examen.tpl
++ design/standard/templates/content/datatype/view/eztext.tpl
++ design/standard/templates/examen/admin/exam.tpl
++ design/standard/templates/examen/admin/overview.tpl
++ design/standard/templates/examen/edit/group.tpl
++ design/standard/templates/examen/edit/pagebreak.tpl
+m design/standard/templates/examen/edit/question.tpl
++ design/standard/templates/examen/edit/text.tpl
++ design/standard/templates/examen/results/default.tpl
++ design/standard/templates/examen/results/default/facebook.tpl
++ design/standard/templates/examen/results/default/hyves.tpl
+m design/standard/templates/examen/results/default/result.tpl
++ design/standard/templates/examen/results/default/twitter.tpl
++ design/standard/templates/examen/results/nice/result.tpl
+m design/standard/templates/examen/results/question.tpl
++ design/standard/templates/examen/results/result.tpl
++ design/standard/templates/examen/results/socialmedia.tpl
+m design/standard/templates/examen/view/element.tpl
++ design/standard/templates/examen/view/error.tpl
+m design/standard/templates/examen/view/group.tpl
+m design/standard/templates/examen/view/question.tpl
+m design/standard/templates/examen/view/text.tpl
++ doc/CHANGELOG
++ doc/INSTALL
++ doc/README
++ doc/user_guide.pdf
++ exam_class-1.0-1.ezpkg
++ extension.xml
++ ezinfo.php
++ modules/examen/download.php
+m modules/examen/exam.php
++ modules/examen/function_definition.php
++ modules/examen/module.php
++ modules/examen/result.php
++ modules/examen/send.php
++ modules/examen/statistics.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/examen.ini.append.php
+m settings/menu.ini.append.php
++ settings/module.ini.append.php
++ settings/site.ini.append.php
++ settings/siteaccess/debug
++ settings/siteaccess/eng/override.ini.append.php
++ sql/mysql.sql
+m translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Lots of changes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/54dc79ae25342e6bee4c96e8a9ac4e203a505d0b</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/fec8f4785c867a9b0bf4457a479522d8e2765f7c</link>
+      <description>
+      &lt;pre&gt;m classes/examen.php
+m design/standard/override/templates/full/exam.tpl
+m modules/examen/exam.php
+m modules/examen/result.php
+m translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bug fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/fec8f4785c867a9b0bf4457a479522d8e2765f7c</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/be2c3c22cfc9bdcca80b83c0b41a1b0e466178e8</link>
+      <description>
+      &lt;pre&gt;m datatypes/examen/examentype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added error message for when answers are set correct but there is no pass threshold&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/be2c3c22cfc9bdcca80b83c0b41a1b0e466178e8</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/e376a33dad6e36bc39a431c1aca22ce09e335cc0</link>
+      <description>
+      &lt;pre&gt;m classes/examresult.php
+m modules/examen/result.php
+m translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed poll score when multiple polls are displayed at once, added error message for when answers are set correct but there is no pass threshold, added translations for the php files.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/e376a33dad6e36bc39a431c1aca22ce09e335cc0</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/fe6155e5fa7629291b9841a12194a911f4b3b23c</link>
+      <description>
+      &lt;pre&gt;+ README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved README.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/fe6155e5fa7629291b9841a12194a911f4b3b23c</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/exam/source/4f275f2bf1392676b68fc4234b57ff64e615b166</link>
+      <description>
+      &lt;pre&gt;m modules/examen/exam.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Stopped saving the pagebreaks as question results.  Sigh.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/exam/source/4f275f2bf1392676b68fc4234b57ff64e615b166</guid>
+      <pubDate>Fri, 24 Aug 2012 06:11:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

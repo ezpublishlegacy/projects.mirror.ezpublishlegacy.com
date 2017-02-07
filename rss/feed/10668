@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nusoap / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:31:29 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:31:29 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10668" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nusoap rev. 1423 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1423</link>
+      <description>- eZ Publish 4 compatibility</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1423</guid>
+      <pubDate>Tue, 24 Feb 2009 09:50:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1422 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1422</link>
+      <description>- Removing samples dir, they are only taking up space</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1422</guid>
+      <pubDate>Tue, 24 Feb 2009 09:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1421 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1421</link>
+      <description>- Corrected NuSOAP library version info
+- Mention applied patches to NuSOAP library</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1421</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1419 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1419</link>
+      <description>- Added proper charset handling (only IS0-8859-1 and UTF-8)
+- Added HTTP Authentication login code
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1419</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1420 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1420</link>
+      <description>Slightly updated NuSOAP lib (2006-02-02)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1420</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1413 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1413</link>
+      <description>Bash install script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1413</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1416 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1416</link>
+      <description>Added package install script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1416</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1417 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1417</link>
+      <description>Added hello world test step</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1417</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1373 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1373</link>
+      <description>extension info file for eZ publish 3.9</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1373</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 1377 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/1377</link>
+      <description>- Moved ini file to install dir
+- Fixed: SOAP request is shown instead of SOAP response with option
+--show-response
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/1377</guid>
+      <pubDate>Tue, 24 Feb 2009 09:13:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 978 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/978</link>
+      <description>- Some documentation + license</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/978</guid>
+      <pubDate>Tue, 24 Feb 2009 09:12:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>nusoap rev. 936 by Kristof Coomans</title>
+      <link>http://projects.ez.no/nusoap/subversion/936</link>
+      <description>- NuSOAP extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nusoap/subversion/936</guid>
+      <pubDate>Tue, 24 Feb 2009 09:12:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

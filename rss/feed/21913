@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / csmemcacheblock</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:10:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:10:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21913" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Any benchmarks?</title>
+      <link>http://projects.ez.no/csmemcacheblock/forum/general/any_benchmarks/re_any_benchmarks</link>
+      <description>Hi,&#13;
+&#13;
+During test i did not noticed any boost performance boost. Testing was done just with default ezwebin installation and it's cache block. Currently there are three.&#13;
+&#13;
+Some data collected.&#13;
+Operation system: Centos&#13;
+PHP: 5.3&#13;
+Apc&#13;
+Memcache&#13;
+CPCU - Pentium(R) Dual-Core  CPU      E6500  @ 2.93GHz&#13;
+RAM - 2gb&#13;
+&#13;
+&lt;code&gt;&#13;
+This is ApacheBench, Version 2.0.40-dev &lt;$Revision: 1.146 $&gt; apache-2.0&#13;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/&#13;
+Copyright 2006 The Apache Software Foundation, http://www.apache.org/&#13;
+&#13;
+Benchmarking ez4.din.lt (be patient)&#13;
+Completed 100 requests&#13;
+Completed 200 requests&#13;
+Completed 300 requests&#13;
+Completed 400 requests&#13;
+Finished 500 requests&#13;
+&#13;
+&#13;
+Server Software:        lighttpd/1.4.22&#13;
+Server Hostname:        ez4.din.lt&#13;
+Server Port:            80&#13;
+&#13;
+Document Path:          /&#13;
+Document Length:        19356 bytes&#13;
+&#13;
+Concurrency Level:      5&#13;
+Time taken for tests:   14.614033 seconds&#13;
+Complete requests:      500&#13;
+Failed requests:        0&#13;
+Write errors:           0&#13;
+Total transferred:      9886615 bytes&#13;
+HTML transferred:       9678000 bytes&#13;
+Requests per second:    34.21 [#/sec] (mean)&#13;
+Time per request:       146.140 [ms] (mean)&#13;
+Time per request:       29.228 [ms] (mean, across all concurrent requests)&#13;
+Transfer rate:          660.60 [Kbytes/sec] received&#13;
+&#13;
+Connection Times (ms)&#13;
+              min  mean[+/-sd] median   max&#13;
+Connect:        0    0   1.1      0      14&#13;
+Processing:    26  145 475.0     68    6730&#13;
+Waiting:       24  141 475.0     59    6726&#13;
+Total:         26  145 475.8     68    6744&#13;
+&#13;
+Percentage of the requests served within a certain time (ms)&#13;
+  50%     68&#13;
+  66%    109&#13;
+  75%    118&#13;
+  80%    135&#13;
+  90%    200&#13;
+  95%    342&#13;
+  98%    627&#13;
+  99%   1341&#13;
+ 100%   6744 (longest request)&#13;
+&#13;
+&lt;/code&gt;&#13;
+APC memcache block&#13;
+&lt;code&gt;&#13;
+[root@remdex examples]# ab -n 500 -c 5 http://ez4.din.lt/&#13;
+This is ApacheBench, Version 2.0.40-dev &lt;$Revision: 1.146 $&gt; apache-2.0&#13;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/&#13;
+Copyright 2006 The Apache Software Foundation, http://www.apache.org/&#13;
+&#13;
+Benchmarking ez4.din.lt (be patient)&#13;
+Completed 100 requests&#13;
+Completed 200 requests&#13;
+Completed 300 requests&#13;
+Completed 400 requests&#13;
+Finished 500 requests&#13;
+&#13;
+&#13;
+Server Software:        lighttpd/1.4.22&#13;
+Server Hostname:        ez4.din.lt&#13;
+Server Port:            80&#13;
+&#13;
+Document Path:          /&#13;
+Document Length:        19354 bytes&#13;
+&#13;
+Concurrency Level:      5&#13;
+Time taken for tests:   15.811858 seconds&#13;
+Complete requests:      500&#13;
+Failed requests:        0&#13;
+Write errors:           0&#13;
+Total transferred:      9885569 bytes&#13;
+HTML transferred:       9677000 bytes&#13;
+Requests per second:    31.62 [#/sec] (mean)&#13;
+Time per request:       158.119 [ms] (mean)&#13;
+Time per request:       31.624 [ms] (mean, across all concurrent requests)&#13;
+Transfer rate:          610.49 [Kbytes/sec] received&#13;
+&#13;
+Connection Times (ms)&#13;
+              min  mean[+/-sd] median   max&#13;
+Connect:        0    0   1.4      0      23&#13;
+Processing:    28  156 690.5     88   12443&#13;
+Waiting:       26  150 690.7     82   12441&#13;
+Total:         28  156 690.5     88   12443&#13;
+&#13;
+Percentage of the requests served within a certain time (ms)&#13;
+  50%     88&#13;
+  66%    112&#13;
+  75%    130&#13;
+  80%    155&#13;
+  90%    193&#13;
+  95%    238&#13;
+  98%    315&#13;
+  99%    702&#13;
+ 100%  12443 (longest request)&#13;
+&lt;/code&gt;&#13;
+Memcache block &#13;
+&lt;code&gt;&#13;
+[root@remdex examples]# ab -n 500 -c 5 http://ez4.din.lt/&#13;
+This is ApacheBench, Version 2.0.40-dev &lt;$Revision: 1.146 $&gt; apache-2.0&#13;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/&#13;
+Copyright 2006 The Apache Software Foundation, http://www.apache.org/&#13;
+&#13;
+Benchmarking ez4.din.lt (be patient)&#13;
+Completed 100 requests&#13;
+Completed 200 requests&#13;
+Completed 300 requests&#13;
+Completed 400 requests&#13;
+Finished 500 requests&#13;
+&#13;
+&#13;
+Server Software:        lighttpd/1.4.22&#13;
+Server Hostname:        ez4.din.lt&#13;
+Server Port:            80&#13;
+&#13;
+Document Path:          /&#13;
+Document Length:        19354 bytes&#13;
+&#13;
+Concurrency Level:      5&#13;
+Time taken for tests:   16.637811 seconds&#13;
+Complete requests:      500&#13;
+Failed requests:        0&#13;
+Write errors:           0&#13;
+Total transferred:      9885569 bytes&#13;
+HTML transferred:       9677000 bytes&#13;
+Requests per second:    30.05 [#/sec] (mean)&#13;
+Time per request:       166.378 [ms] (mean)&#13;
+Time per request:       33.276 [ms] (mean, across all concurrent requests)&#13;
+Transfer rate:          580.18 [Kbytes/sec] received&#13;
+&#13;
+Connection Times (ms)&#13;
+              min  mean[+/-sd] median   max&#13;
+Connect:        0    0   0.6      0       7&#13;
+Processing:    29  165 232.1     61    2113&#13;
+Waiting:       26  159 231.6     58    2109&#13;
+Total:         29  165 232.3     61    2119&#13;
+&#13;
+Percentage of the requests served within a certain time (ms)&#13;
+  50%     61&#13;
+  66%    164&#13;
+  75%    214&#13;
+  80%    260&#13;
+  90%    378&#13;
+  95%    511&#13;
+  98%    895&#13;
+  99%   1357&#13;
+ 100%   2119 (longest request)&#13;
+&lt;/code&gt;&#13;
+It's not dedicated server for this site. So results changes approximately around 2 or 3 #/s. Anyway using apc or memcache advantage is you reduce disk calls :) And perhaps some overhead was added by using ez Components implementation. Just need more testing :)&#13;
+&#13;
+</description>
+      <author>community@ez.no (Remigijus Kiminas)</author>
+      <guid>http://projects.ez.no/csmemcacheblock/forum/general/any_benchmarks/re_any_benchmarks</guid>
+      <pubDate>Wed, 27 Jan 2010 14:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Any benchmarks?</title>
+      <link>http://projects.ez.no/csmemcacheblock/forum/general/any_benchmarks</link>
+      <description>Hi!&#13;
+&#13;
+Interesting extension, do you have any benchmarks or numbers to showcase how much it improves performance compared to regular cache-block's?&#13;
+And how many cache-block's do you use (root blocks, not nested childs)?&#13;
+And what platform? ;)&#13;
+&#13;
+André</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/csmemcacheblock/forum/general/any_benchmarks</guid>
+      <pubDate>Mon, 18 Jan 2010 08:59:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>CS Memcacheblock</title>
+      <link>http://projects.ez.no/csmemcacheblock/downloads/cs_memcacheblock</link>
+      <description>&lt;p&gt;Initial version of memcacheblock&lt;/p&gt;</description>
+      <author>community@ez.no (Remigijus Kiminas)</author>
+      <guid>http://projects.ez.no/csmemcacheblock/downloads/cs_memcacheblock</guid>
+      <pubDate>Mon, 28 Dec 2009 10:58:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / fezmetadata / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:58:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:58:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11879" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>First Beta Release</title>
+      <link>http://projects.ez.no/fezmetadata/news/first_beta_release</link>
+      <description> &lt;p&gt;I released the first beta version of feZ Meta Data, a new extension providing meta data managment.&lt;/p&gt;</description>
+      <author>community@ez.no (Frédéric DAVID)</author>
+      <guid>http://projects.ez.no/fezmetadata/news/first_beta_release</guid>
+      <pubDate>Sat, 25 Oct 2008 17:08:39 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

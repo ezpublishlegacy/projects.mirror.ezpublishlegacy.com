@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgithub</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:51:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:51:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45714" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/4ea7a948d68de50836690939669322997c378ec9</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/content/datatype/view/ezxmltags/gist.tpl
++ settings/content.ini.append.php
++ settings/ezoe_attributes.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from lolautruche/gistCustomTag
+
+Implemented eZOE custom tag for gists&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/4ea7a948d68de50836690939669322997c378ec9</guid>
+      <pubDate>Thu, 15 Mar 2012 21:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/4914546c585489d99060e26d53e83e1bce3988c5</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated README.md to have some nice code highlighting :-)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/4914546c585489d99060e26d53e83e1bce3988c5</guid>
+      <pubDate>Thu, 15 Mar 2012 21:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/4dc0bb9576a178afe9dc45581dae94d2b271cbb2</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/4dc0bb9576a178afe9dc45581dae94d2b271cbb2</guid>
+      <pubDate>Thu, 15 Mar 2012 21:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/6a0ab7999cee027b074a74b26b52136d0007afc5</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/content/datatype/view/ezxmltags/gist.tpl
++ settings/content.ini.append.php
++ settings/ezoe_attributes.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented eZOE custom tag allowing to embed gists in rich XML blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/6a0ab7999cee027b074a74b26b52136d0007afc5</guid>
+      <pubDate>Thu, 15 Mar 2012 21:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/9545c3d18309f8aa9f6fa355ff459a201eee16ca</link>
+      <description>
+      &lt;pre&gt;m README.md
++ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from lolautruche/extensionXml
+
+Added extension.xml + updated README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/9545c3d18309f8aa9f6fa355ff459a201eee16ca</guid>
+      <pubDate>Thu, 15 Mar 2012 21:41:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/2708f5ee424fc9e6e0e0a6d828e4c14b4545b65f</link>
+      <description>
+      &lt;pre&gt;m classes/eZGists.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;It's better when datas are usable from the template…
+
+If false : the elements are not accessible from the templates.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/2708f5ee424fc9e6e0e0a6d828e4c14b4545b65f</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/4e8c54a83b01ce20bd490fe7e92576faf9d247ea</link>
+      <description>
+      &lt;pre&gt;m classes/eZGists.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Get the list of all the gists for a given username.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/4e8c54a83b01ce20bd490fe7e92576faf9d247ea</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/eebf91f71643371b6f8f5af955c715ea450e7b0b</link>
+      <description>
+      &lt;pre&gt;+ README.md
++ classes/eZGists.php
++ modules/gists/function_definition.php
++ settings/ezgithub.ini.append.php
++ settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;First commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/eebf91f71643371b6f8f5af955c715ea450e7b0b</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/f6f5eb07449a104d627a72cc20e8616d6a596c5a</link>
+      <description>
+      &lt;pre&gt;m README.md
++ classes/eZGithubUser.php
++ design/standard/templates/github-user/show.tpl
+m modules/github-project/front/show.php
+m modules/github-project/module.php
++ modules/github-user/front/show.php
++ modules/github-user/function_definition.php
++ modules/github-user/module.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added fetch for user's informations.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/f6f5eb07449a104d627a72cc20e8616d6a596c5a</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/cc977e03da30907a7b759728f6c35f6ad8170e57</link>
+      <description>
+      &lt;pre&gt;m README.md
++ classes/eZGithubProject.php
+m design/standard/templates/gist/show.tpl
++ design/standard/templates/github-project/list.tpl
++ design/standard/templates/github-project/show.tpl
++ modules/github-project/front/list.php
++ modules/github-project/front/show.php
++ modules/github-project/function_definition.php
++ modules/github-project/module.php
+m settings/module.ini.append.php
+m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Access to repositories added.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/cc977e03da30907a7b759728f6c35f6ad8170e57</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/35660c2748040bbaa12818e399710d784a36def5</link>
+      <description>
+      &lt;pre&gt;m README.md
++ settings/site.ini.append.php
++ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation added for /gist/show/&lt;id&gt;.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/35660c2748040bbaa12818e399710d784a36def5</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/2343e5fdba49e00050da02a6ab3dc48c93cdc337</link>
+      <description>
+      &lt;pre&gt;m classes/eZGists.php
++ design/standard/templates/gist/show.tpl
++ modules/gist/front/show.php
+m modules/gist/function_definition.php
++ modules/gist/module.php
++ settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Display gist data with a particular URL
+
+Added a module view to display gist's information /gist/show/&lt;id&gt;.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/2343e5fdba49e00050da02a6ab3dc48c93cdc337</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgithub/source/79d0bf4e18260a738fb5868e7f8f3d09126836d9</link>
+      <description>
+      &lt;pre&gt;+ modules/gist/function_definition.php
+m settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed module gists to gist
+
+"gists" became a reserved word and as I need "Gists" for my we bite, I
+renamed the module.
+But the URL will finally be nicer because we could use something like :
+/gist/show/&lt;id&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgithub/source/79d0bf4e18260a738fb5868e7f8f3d09126836d9</guid>
+      <pubDate>Mon, 12 Mar 2012 10:21:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

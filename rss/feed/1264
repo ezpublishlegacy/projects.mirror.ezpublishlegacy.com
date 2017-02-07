@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / birthday / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:59:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:59:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1264" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>birthday rev. 19 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/19</link>
+      <description>- fix PHPDOM error http://projects.ez.no/birthday/forum/general/removed_ezdomdocument_dependency#msg21580</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/19</guid>
+      <pubDate>Tue, 27 Mar 2012 09:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 18 by Georg Franz</title>
+      <link>http://projects.ez.no/birthday/subversion/18</link>
+      <description>replaced i18n with ezpI18n::tr to be compatible with ez 4.4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/18</guid>
+      <pubDate>Mon, 26 Mar 2012 14:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 17 by Damien Pobel</title>
+      <link>http://projects.ez.no/birthday/subversion/17</link>
+      <description>Added fromString() and toString() support
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/17</guid>
+      <pubDate>Thu, 10 Dec 2009 17:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 16 by Damien Pobel</title>
+      <link>http://projects.ez.no/birthday/subversion/16</link>
+      <description>Replaced ereg() by preg_match() to be PHP 5.3 compliant
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/16</guid>
+      <pubDate>Tue, 01 Dec 2009 12:46:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 15 by Damien Pobel</title>
+      <link>http://projects.ez.no/birthday/subversion/15</link>
+      <description>Fixed minor coding standard issues
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/15</guid>
+      <pubDate>Tue, 01 Dec 2009 12:46:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 14 by Damien Pobel</title>
+      <link>http://projects.ez.no/birthday/subversion/14</link>
+      <description>Added french translation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/14</guid>
+      <pubDate>Tue, 01 Dec 2009 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 13 by Georg Franz</title>
+      <link>http://projects.ez.no/birthday/subversion/13</link>
+      <description>- removed unneeded includes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/13</guid>
+      <pubDate>Thu, 08 Jan 2009 22:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 12 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/12</link>
+      <description>- code cleanup at ini files
+- added parser for csv export extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/12</guid>
+      <pubDate>Wed, 09 Jul 2008 19:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 11 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/11</link>
+      <description>- added error message for non valid dates
+- added age calculation
+- translated some strings to german</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/11</guid>
+      <pubDate>Fri, 11 Apr 2008 16:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 10 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/10</link>
+      <description>- const bugfix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/10</guid>
+      <pubDate>Thu, 20 Mar 2008 17:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 9 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/9</link>
+      <description>- repaired strict warning</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/9</guid>
+      <pubDate>Wed, 19 Mar 2008 15:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 8 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/8</link>
+      <description>- update for ez 4.0.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/8</guid>
+      <pubDate>Tue, 18 Mar 2008 16:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 6 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/6</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/6</guid>
+      <pubDate>Tue, 18 Mar 2008 16:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 7 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/7</link>
+      <description>- release for ez 3.x
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/7</guid>
+      <pubDate>Tue, 18 Mar 2008 16:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 5 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/5</link>
+      <description>prepare 1.0 / ez 3.x release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/5</guid>
+      <pubDate>Tue, 18 Mar 2008 16:40:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 3 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/3</link>
+      <description>- removed invalid option tag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 4 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/4</link>
+      <description>corrected german translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 1 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/1</link>
+      <description>- imported birthday datatype from eZ extensions repo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>birthday rev. 2 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/birthday/subversion/2</link>
+      <description>- code cleanup, removed tabs by gwf</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/birthday/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

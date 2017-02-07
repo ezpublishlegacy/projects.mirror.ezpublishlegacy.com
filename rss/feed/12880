@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggsysinfo / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12880" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Great</title>
+      <link>http://projects.ez.no/ggsysinfo/reviews/great</link>
+      <description>great extension which is good to know your hardware status,information ....</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/ggsysinfo/reviews/great</guid>
+      <pubDate>Thu, 04 Dec 2008 21:21:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

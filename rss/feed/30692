@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ptagenda</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:27:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:27:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30692" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ptagenda/news/changelog</link>
+      <description>&lt;p&gt;
+0.2 - use of ezini( 'Toolbar_right', 'agenda_node',&lt;br /&gt;
+ 'toolbar.ini' ) in agenda.tpl and agenda_list.tpl to access parent&lt;br /&gt;
+ node. &lt;br /&gt;
+ - Changed the name of the variable from event_node to agenda_node,&lt;br /&gt;
+ which is what it really is.&lt;br /&gt;
+ - updated README to refer to a valid template for agenda full&lt;br /&gt;
+ view&lt;br /&gt; 0.1 initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Patrice Fortin)</author>
+      <guid>http://projects.ez.no/ptagenda/news/changelog</guid>
+      <pubDate>Thu, 09 Nov 2006 18:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ptagenda-extension-0.2.bz2</title>
+      <link>http://projects.ez.no/ptagenda/downloads/ptagenda_extension_0_2_bz2</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ptagenda/downloads/ptagenda_extension_0_2_bz2</guid>
+      <pubDate>Thu, 09 Nov 2006 18:29:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

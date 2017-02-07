@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezextensionbuilder / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/20249" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/998180d0a8ff2cf6b8b1b15cc21c50c5f48f1729</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update docs; do not create automatically .sql upgrade files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/998180d0a8ff2cf6b8b1b15cc21c50c5f48f1729</guid>
+      <pubDate>Sat, 30 Nov 2013 21:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/373febb5407cd84c7bc846bca977902fce2b24ac</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: avoid packing phpdoc cache along with docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/373febb5407cd84c7bc846bca977902fce2b24ac</guid>
+      <pubDate>Sat, 30 Nov 2013 19:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/3711e3ba1d44031c827cf694735bacd15c97178f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added task display-previous-release; more warnings for task generate-changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/3711e3ba1d44031c827cf694735bacd15c97178f</guid>
+      <pubDate>Sat, 30 Nov 2013 19:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/2b408f50d7d3bdafc8edc985ea5a9e1485960d17</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a new pake task&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/2b408f50d7d3bdafc8edc985ea5a9e1485960d17</guid>
+      <pubDate>Sat, 30 Nov 2013 19:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/c1a7d917c318b52de37be5069377cb34d466aaad</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: run-jenkins-build5 broken in last commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/c1a7d917c318b52de37be5069377cb34d466aaad</guid>
+      <pubDate>Sat, 30 Nov 2013 19:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/73bfbbbbb50deb394758aabca5743e7a3e37e36e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add new task aimed at detecting when db/update instructions are necessary&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/73bfbbbbb50deb394758aabca5743e7a3e37e36e</guid>
+      <pubDate>Sat, 30 Nov 2013 19:10:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/5c104c338a7dec60160c884b905aae90a2e6160e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update todo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/5c104c338a7dec60160c884b905aae90a2e6160e</guid>
+      <pubDate>Tue, 19 Nov 2013 17:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/b82f99ff3186ccc00e45a4b9c10ca50db9b2b8e8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix tasks for generation of docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/b82f99ff3186ccc00e45a4b9c10ca50db9b2b8e8</guid>
+      <pubDate>Wed, 13 Nov 2013 01:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/c24765157c64ef364ff99eedcff6abc0323cf268</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix method declaration for tasks (have to be static); improve docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/c24765157c64ef364ff99eedcff6abc0323cf268</guid>
+      <pubDate>Tue, 05 Nov 2013 17:50:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/3318310649c400b5ebbac8e72aa9c13d1716030a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More shuffling stuff around&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/3318310649c400b5ebbac8e72aa9c13d1716030a</guid>
+      <pubDate>Tue, 05 Nov 2013 17:50:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/d2eb5106da5c87fd1324d16162c3938ddebaa3d8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move to composer-based setup :-D&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/d2eb5106da5c87fd1324d16162c3938ddebaa3d8</guid>
+      <pubDate>Tue, 05 Nov 2013 17:50:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/19b502a97d47af4a498cd729ba875455b951786e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve generation of changelogs; remove some cli options; fix namespace usage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/19b502a97d47af4a498cd729ba875455b951786e</guid>
+      <pubDate>Tue, 05 Nov 2013 17:50:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/810e375fb2655ced073f82742d549702fe96befa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: exclusion of directories when generating docs with phpdoc2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/810e375fb2655ced073f82742d549702fe96befa</guid>
+      <pubDate>Fri, 25 Oct 2013 10:30:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/ad2ba63a285c73dbca8b762b9678bd3e10da0033</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change naming schema to include a 0 in minor version number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/ad2ba63a285c73dbca8b762b9678bd3e10da0033</guid>
+      <pubDate>Thu, 24 Oct 2013 15:10:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/0fb7461d89eb4ce5560e3e12e832f949dd3b293a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;When updating sources from github, do not forget to fetch the tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/0fb7461d89eb4ce5560e3e12e832f949dd3b293a</guid>
+      <pubDate>Thu, 24 Oct 2013 15:10:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/344cca40e4fe57486f8a98b79120c320383ec2a4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Exclude from NS doc generation vendor/incenteev&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/344cca40e4fe57486f8a98b79120c320383ec2a4</guid>
+      <pubDate>Thu, 24 Oct 2013 15:10:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/ff37ed7c3451b63aea685c4b5c94fd584461a79c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow git tags to be different from version name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/ff37ed7c3451b63aea685c4b5c94fd584461a79c</guid>
+      <pubDate>Thu, 24 Oct 2013 15:10:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/7dbada82c42a0eaaea4095569628de384fc38266</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: check when building "4X" for a file which existed in 3.X distributions, to allow building docs for them as well&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/7dbada82c42a0eaaea4095569628de384fc38266</guid>
+      <pubDate>Tue, 15 Oct 2013 13:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/14ae5f6524c935ccddd7e234577bff78595441e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;use correct options for phpdoc2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/14ae5f6524c935ccddd7e234577bff78595441e4</guid>
+      <pubDate>Tue, 10 Sep 2013 22:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/fe88a67a88677728b4e7f07bed51ca1129d6c0e9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow to specify path to tools used&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/fe88a67a88677728b4e7f07bed51ca1129d6c0e9</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/de764e0ab5f36701fb2b8323d64f81b2054d1819</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve exclusion list for doc generation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/de764e0ab5f36701fb2b8323d64f81b2054d1819</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/d856940e86f8ee268e99051414b54859479e170c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Upgrade pake to 1.7.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/d856940e86f8ee268e99051414b54859479e170c</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/7ed77ce0917540a5699ca281cf84e78c6b1594d4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;be more tolerant to old git versions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/7ed77ce0917540a5699ca281cf84e78c6b1594d4</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/ff829d0a7ea2f26f05c5f667a3b2b4ea4d0087e0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/ff829d0a7ea2f26f05c5f667a3b2b4ea4d0087e0</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/7ee288c09b75da68130f996086417a7dcb328114</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixes for latest changes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/7ee288c09b75da68130f996086417a7dcb328114</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/03617ffc182e0aa41051ccdf42562f930978124a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: typo in generated doxyfile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/03617ffc182e0aa41051ccdf42562f930978124a</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/177eae09a2409dceb5f97d8b8b7ba34b4a55a88e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More flexibility for output dirs for docs; remove dead code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/177eae09a2409dceb5f97d8b8b7ba34b4a55a88e</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/400964ef11466ab572177c4d67ce778a05854e0c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix last commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/400964ef11466ab572177c4d67ce778a05854e0c</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/3b05660a8d64e19fec6119bb78a5b295ac52e875</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: allow cli switch to turn on generation of doxyfile sources&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/3b05660a8d64e19fec6119bb78a5b295ac52e875</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/76456ec661e77c5a607d4fa5c6983be6edc3dc42</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add possibility to skin the sami docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/76456ec661e77c5a607d4fa5c6983be6edc3dc42</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/d495e19e7d01bfa1b765c6f372cbbc8683aa77c9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;revert config file to std version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/d495e19e7d01bfa1b765c6f372cbbc8683aa77c9</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/0a83b6d2312a5dec37fa98c8aafe8b58d0085657</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;minor fix in phpdoc calls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/0a83b6d2312a5dec37fa98c8aafe8b58d0085657</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/031bab7af1e37c71f121244f76bd626a516e0c10</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;make user-config-file flexible&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/031bab7af1e37c71f121244f76bd626a516e0c10</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/4f7b92ac4f60ba830bfc653b44a9bf6a8f22878e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ignore phpstorm&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/4f7b92ac4f60ba830bfc653b44a9bf6a8f22878e</guid>
+      <pubDate>Mon, 09 Sep 2013 22:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/2ff803cd4d6219d19d63802f63c602c78fe9cb96</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Generate sami docs before docblox; fix creation of names for files and doc titles&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/2ff803cd4d6219d19d63802f63c602c78fe9cb96</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/b0f2a43c8b2d8f8f7269b03cba1985bbbf1991c9</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More flexibility in doc generation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/b0f2a43c8b2d8f8f7269b03cba1985bbbf1991c9</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/8a8076d031d022197febd514b9c818bd8f47f0af</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert changes to tar command (broke windows); Fix generation of tarballs for docs; increase memory for docblox&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/8a8076d031d022197febd514b9c818bd8f47f0af</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/481d714d03fb168bd0422941a484b70f30dc93eb</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Minor fixes in handling calls to TAR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/481d714d03fb168bd0422941a484b70f30dc93eb</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/fd58b131e9797f0353d0e2f328be2fdb1a57c38c</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove further traces of Zeta Components&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/fd58b131e9797f0353d0e2f328be2fdb1a57c38c</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/bd7123a411e56fdbd771174a8f514d7766ace506</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unused options from config file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/bd7123a411e56fdbd771174a8f514d7766ace506</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/10e2155931d367e9677ecfa36e01adb98f865a75</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow more options overriding on command line; better scan for sources when generating docs if given on command-line&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/10e2155931d367e9677ecfa36e01adb98f865a75</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/a98f90e12a432e9ff04fb33a1cf311d3ecabf613</link>
+      <description>
+      &lt;pre&gt;m pake/INSTALL
+m pake/README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/a98f90e12a432e9ff04fb33a1cf311d3ecabf613</guid>
+      <pubDate>Fri, 26 Apr 2013 14:21:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/d33ebf12a94c5c94fea7170e7ffc5fe4444a693f</link>
+      <description>
+      &lt;pre&gt;+ pake/doc/changelogs/CHANGELOG-0.3.1-to-0.4
+m pake/doc/todo
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update todo; add changelog and bump up rev number to 0.4&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/d33ebf12a94c5c94fea7170e7ffc5fe4444a693f</guid>
+      <pubDate>Wed, 24 Apr 2013 16:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/184b8a91adb968562b738b95ca62000be71cf373</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;make sure we generate different tarballs for LS and NS&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/184b8a91adb968562b738b95ca62000be71cf373</guid>
+      <pubDate>Wed, 24 Apr 2013 15:40:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/09661077436d0135bd3720d36a3b03c0f700c9d1</link>
+      <description>
+      &lt;pre&gt;m pake/doxyfile_master
+m pake/options-ezpublish.yaml
++ pake/samicfg_master.php
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for sami&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/09661077436d0135bd3720d36a3b03c0f700c9d1</guid>
+      <pubDate>Wed, 24 Apr 2013 15:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/1844371b7bc8de9b29520a29ee4548f34313427f</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow user to specify alternate config file; better help text; make generation of tarballs actually work&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/1844371b7bc8de9b29520a29ee4548f34313427f</guid>
+      <pubDate>Wed, 24 Apr 2013 15:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/a5a71ce0de0a425f7fcf67117d207ff2bc91d8e3</link>
+      <description>
+      &lt;pre&gt;m pake/samicfg_master.php
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move sami cache to better place&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/a5a71ce0de0a425f7fcf67117d207ff2bc91d8e3</guid>
+      <pubDate>Wed, 24 Apr 2013 15:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/9d69d3fc70762978ba2be47d5ba1648c5e6784cc</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix: tarballs for sami overwrite doxygen ones&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/9d69d3fc70762978ba2be47d5ba1648c5e6784cc</guid>
+      <pubDate>Wed, 24 Apr 2013 15:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/7f736d171e22f31287f243f49c38bd07fa0a1a01</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Clean up comments; finish previous commits; give more ram to docblox&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/7f736d171e22f31287f243f49c38bd07fa0a1a01</guid>
+      <pubDate>Wed, 24 Apr 2013 15:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezextensionbuilder/subversion/4861e728a04a79b97f6e338e09690edfc61b73cf</link>
+      <description>
+      &lt;pre&gt;m pake/doxyfile_master
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improvements to doc generation task (work to be finished)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezextensionbuilder/subversion/4861e728a04a79b97f6e338e09690edfc61b73cf</guid>
+      <pubDate>Tue, 23 Apr 2013 17:30:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

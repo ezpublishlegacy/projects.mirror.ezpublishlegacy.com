@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezforms-bundle / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:45:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:45:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/51709" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ed87feeb76fcdcd4a4e355d4bc60b83077ba90b4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from sdaoudi/master
+
+Fixed typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ed87feeb76fcdcd4a4e355d4bc60b83077ba90b4</guid>
+      <pubDate>Wed, 23 Sep 2015 16:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/51dccc8692954fd2dc2e80ee809e5021f7909ec9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/51dccc8692954fd2dc2e80ee809e5021f7909ec9</guid>
+      <pubDate>Wed, 23 Sep 2015 16:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/29985eb55bd904da487fc538730de0e49bb94a7c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from heliopsis/contentTypeMap
+
+Update doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/29985eb55bd904da487fc538730de0e49bb94a7c</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/b762012747f994f0204467e4022daa639153b51e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/b762012747f994f0204467e4022daa639153b51e</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/f22c25a44255538040675876693facf64173af2a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;version bump : 1.2.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/f22c25a44255538040675876693facf64173af2a</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/61e28db030f1afc739f5ed5c8525d088ac2332db</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Rename ChainHandler to Multiplexer handler to avoid confusion with new chain providers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/61e28db030f1afc739f5ed5c8525d088ac2332db</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/f6c9a295022ac1c5a988f697f87b403fc49a9006</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from bricebroussolle/contentTypeMap
+
+New form and handler providers : ContentTypeIdentifierMap and Chain&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/f6c9a295022ac1c5a988f697f87b403fc49a9006</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/f039b421f6e98b4e2a4a83bf63251c6c53dea6ec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update of test </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/f039b421f6e98b4e2a4a83bf63251c6c53dea6ec</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/417f5f12452bf010697de2e0c8c2576e40ef1167</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update installation instructions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/417f5f12452bf010697de2e0c8c2576e40ef1167</guid>
+      <pubDate>Fri, 24 Apr 2015 13:02:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ecfa4b9301f7736d18913566c8074863d250613d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix #8 : update controller test with new constructor signature&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ecfa4b9301f7736d18913566c8074863d250613d</guid>
+      <pubDate>Wed, 22 Apr 2015 10:02:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/648c8b659396561563ce61fe75a9bc5eaf600e3b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from sdaoudi/master
+
+Fixed minor PHPDocs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/648c8b659396561563ce61fe75a9bc5eaf600e3b</guid>
+      <pubDate>Mon, 17 Nov 2014 09:53:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/6c87e3a6af64080dce04f9b3880b93fe64531aeb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed minor PHPDocs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/6c87e3a6af64080dce04f9b3880b93fe64531aeb</guid>
+      <pubDate>Mon, 17 Nov 2014 09:53:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/bf512bdb6f9831d0ce0381cbe94dd5608e574854</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Refactor doc and document recently added classes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/bf512bdb6f9831d0ce0381cbe94dd5608e574854</guid>
+      <pubDate>Wed, 09 Jul 2014 14:03:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/7c83443e2cb4c023998cfff9d048f010e9b11356</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from harmstyler/patch-1
+
+Updates ezforms-bundle version listed in readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/7c83443e2cb4c023998cfff9d048f010e9b11356</guid>
+      <pubDate>Wed, 09 Jul 2014 08:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/6c59a58f32332e4e783a7a5b4ec616ce7f95b204</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updates ezforms-bundle version listed in readme
+
+It looks like there is a newer version released and the readme hasn't been updated yet.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/6c59a58f32332e4e783a7a5b4ec616ce7f95b204</guid>
+      <pubDate>Wed, 09 Jul 2014 08:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/a50d12b007c45f6925c97411a98c1d9d8b2b4da1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;eZPublish ViewController now depends on Security Context&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/a50d12b007c45f6925c97411a98c1d9d8b2b4da1</guid>
+      <pubDate>Mon, 05 May 2014 17:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/4f77117e8d3e1a38f53d4136363b7e5ff5324b88</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;do not force to define a handler provider&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/4f77117e8d3e1a38f53d4136363b7e5ff5324b88</guid>
+      <pubDate>Mon, 05 May 2014 17:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/97664a8ac087cce4241edf0da63d1d3943b2e27d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;parameters to help instanciating to classes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/97664a8ac087cce4241edf0da63d1d3943b2e27d</guid>
+      <pubDate>Mon, 05 May 2014 16:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ebd524e752c2534755f042aaf4989d0f16135b63</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move provider tests to subfolders&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ebd524e752c2534755f042aaf4989d0f16135b63</guid>
+      <pubDate>Fri, 02 May 2014 15:33:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/4d627d4ba5b9e8060d22c08b6359e39cdb4f9200</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved documentation to Resources/doc folder&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/4d627d4ba5b9e8060d22c08b6359e39cdb4f9200</guid>
+      <pubDate>Fri, 02 May 2014 15:33:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ad9b7aa2961e90790571643a0c83c00d54e15b70</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Centralized content injection in the controller&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ad9b7aa2961e90790571643a0c83c00d54e15b70</guid>
+      <pubDate>Fri, 02 May 2014 15:33:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ff946f9c1629ef59da00c7132751420e02adc4f7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix main doc link&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ff946f9c1629ef59da00c7132751420e02adc4f7</guid>
+      <pubDate>Fri, 02 May 2014 15:33:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/49d1ae4e52ff43483b5a2dca73e649e4a2058f3e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;abstract swiftmailer handler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/49d1ae4e52ff43483b5a2dca73e649e4a2058f3e</guid>
+      <pubDate>Fri, 02 May 2014 15:33:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/1d0363121f825fd30b31c583dca207412ee8a00a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Content RemoteId Map providers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/1d0363121f825fd30b31c583dca207412ee8a00a</guid>
+      <pubDate>Fri, 02 May 2014 15:33:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/8c3b6219f10a464aa8c1b1f4a656f0132a393c56</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;single handler provider now plays nice with content or location ware handlers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/8c3b6219f10a464aa8c1b1f4a656f0132a393c56</guid>
+      <pubDate>Fri, 28 Feb 2014 17:33:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/7160bec1bab3594ff541d28ed8edaab254bc9170</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;introducing the single handler provider&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/7160bec1bab3594ff541d28ed8edaab254bc9170</guid>
+      <pubDate>Fri, 28 Feb 2014 14:13:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/7abf7f9204c10052c16822fce4748664f2d77014</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Missing semicolon&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/7abf7f9204c10052c16822fce4748664f2d77014</guid>
+      <pubDate>Mon, 24 Feb 2014 08:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/3baa95511c2562de6ef6d50e84d2063f746bf67e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from SylvainGuittard/master
+
+Missing semicolon&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/3baa95511c2562de6ef6d50e84d2063f746bf67e</guid>
+      <pubDate>Mon, 24 Feb 2014 08:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/3f19dfa318cd723142432e804f01c2b040bc14b7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CS fixes and a bit of doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/3f19dfa318cd723142432e804f01c2b040bc14b7</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/fc85d40c0b9e62e8e975893360451004e71655b1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;cleaning up&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/fc85d40c0b9e62e8e975893360451004e71655b1</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/e8dfeea29b965a32e73d0e86515352b323f23748</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;controller unit tests&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/e8dfeea29b965a32e73d0e86515352b323f23748</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ac49442ce74add8edc1e7b807c94467d8b6cee08</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CS fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ac49442ce74add8edc1e7b807c94467d8b6cee08</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/76339dd36f2b6c65c2b44091c8b6c83ede207825</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Unit tests&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/76339dd36f2b6c65c2b44091c8b6c83ede207825</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/df46f57fc1cce3e10dc826ebe5ade129f30f0f46</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;test suite configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/df46f57fc1cce3e10dc826ebe5ade129f30f0f46</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/7c6918dc5f8dc7e153d69ebd1a493abfa7ff71fe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;license header (proprietary for the time being)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/7c6918dc5f8dc7e153d69ebd1a493abfa7ff71fe</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/f20109bc437054aba41a3224b6dcaeb154d0a2f1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ignore dev files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/f20109bc437054aba41a3224b6dcaeb154d0a2f1</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/c68a15970ca061eb05c2364c952bcafab7955a00</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix links in Readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/c68a15970ca061eb05c2364c952bcafab7955a00</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/be056225d9effff40c1bc2f6b7ac4a86c62316cd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update copyright and license information&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/be056225d9effff40c1bc2f6b7ac4a86c62316cd</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/5c482da49d0cc1d24389f09257f30a03518663a7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing code comments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/5c482da49d0cc1d24389f09257f30a03518663a7</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/1c2f1980329ab42b43874242ef151e51e21ae2f2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;finalizing readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/1c2f1980329ab42b43874242ef151e51e21ae2f2</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/8848e72f612f8225fb8f09d7f98b22a1eebe545d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;example for ContentAwareHandler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/8848e72f612f8225fb8f09d7f98b22a1eebe545d</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/167e401fcab3300389dc6d09b38419c71d4829f4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;more interesting example of form handler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/167e401fcab3300389dc6d09b38419c71d4829f4</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/7defeb5f11caf26a177b0c98ed05ead565eaacda</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;some doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/7defeb5f11caf26a177b0c98ed05ead565eaacda</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/e9a875f1ea5000fecedc39b9fbcc2925cd537d35</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from pborreli/patch-1
+
+Fixed typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/e9a875f1ea5000fecedc39b9fbcc2925cd537d35</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/b2466128676caf45fe9657706e35af56082ca101</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/b2466128676caf45fe9657706e35af56082ca101</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/b450ba4c0933549735b83f49398cf0146b581323</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Typo in composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/b450ba4c0933549735b83f49398cf0146b581323</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/ee30b06ae4bfb18b667f30152ccd7bc71c23e166</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change repo URL&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/ee30b06ae4bfb18b667f30152ccd7bc71c23e166</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezforms_bundle/source/47338a4c0848a97bf90d8ae5d025390d53f4e33c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;use twig formatting in readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezforms_bundle/source/47338a4c0848a97bf90d8ae5d025390d53f4e33c</guid>
+      <pubDate>Thu, 20 Feb 2014 20:13:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

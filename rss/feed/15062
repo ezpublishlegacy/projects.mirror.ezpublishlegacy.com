@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgoogletranslate / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15062" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Google Translate 0.2 released</title>
+      <link>http://projects.ez.no/ezgoogletranslate/news/ez_google_translate_0_2_released</link>
+      <description>&lt;p&gt;A major update!&lt;/p&gt;&lt;p&gt;Since GoogleTranslate has been a pay-for service for a while, version 0.2 of the extension provides support for alternative, free translation services:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Microsoft Translator&lt;/li&gt;
+
+&lt;li&gt;Frengly&lt;/li&gt;
+
+&lt;li&gt;MyMemory&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;It also comes with templates that will work out of the box (i.e. show) when editing content in "translation mode", e.g. when adding a language to an existing content.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgoogletranslate/news/ez_google_translate_0_2_released</guid>
+      <pubDate>Tue, 17 Apr 2012 19:07:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

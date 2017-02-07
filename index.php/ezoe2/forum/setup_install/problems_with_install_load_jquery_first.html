@@ -1,0 +1,663 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezoe2/forum/setup_install/problems_with_install_load_jquery_first by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:10:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            problems with install (load jQuery first!)     /         Setup / Install     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezoe2/forum/general', 'Setup / Install', '/ezoe2/forum/setup_install', 'Feature requests', '/ezoe2/forum/feature_requests'];
+menu[4] = ['Leaders', '/ezoe2/team/leaders', 'Members', '/ezoe2/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../ezoe2.html" onmouseover="switchSubMenu( this );">eZ Publish Online Editor &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../ezoe2/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../ezoe2/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../ezoe2/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../ezoe2/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../ezoe2/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../ezoe2/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../ezoe2/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+    
+    <li ><a href="../../../../ezoe2/forum/general.html">General</a></li>
+
+                
+            
+    <li class="current"><a href="../../../../ezoe2/forum/setup_install.html">Setup / Install</a></li>
+
+                        
+    
+    <li class="last"><a href="../../../../ezoe2/forum/feature_requests.html">Feature requests</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezoe2.html">ezoe</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../setup_install.html">setup / install</a>
+        
+                        /
+                                        problems with install (load...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>problems with install (load jQuery first!)</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg41805">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kirk_evenson.html">Kirk Evenson</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 June 2011</p>
+        <p class="posts">Posts: 3</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 11 June 2011 8:35:40 pm</p>
+
+        <div class="attribute-long">We have version 4.4.0 of eZPublish that I upgraded from 4.0.3 using eZUpgrade. It appears that everything is working as we expect it to except for the editor which - even though the enable / disable editor button appears - doesn't allow us to instantiate the editor. Instead we get a popup message that says &quot;Load jQuery first!&quot;.<br />
+<br />
+I used FireBug in FireFox to step through the JavaScript and found that the message is coming from line 397 of tiny_mce.jquery.js. And that what is happening is that jQuery is never instantiated within &quot;window&quot; in the DOM. Thus &quot;window.jQuery&quot; has a value of &quot;undefined&quot;.<br />
+<br />
+It appears that the initialization of &quot;window.tinyMCE&quot; / &quot;window.tinymce&quot; is successful within lines 1 to 390 of tiny_mce_jquery.js, but that the initialization of &quot;window.jQuery&quot; fails.<br />
+<br />
+I tried reinstalling the ezoe extension and faithfully followed the install directions step by step. Our System Admin setup the rewrite rules exactly as specified for a virtual host (<a href="http://doc.ez.no/eZ-Publish/Technical-manual/4.4/Installation/Virtual-host-setup)" title="http://doc.ez.no/eZ-Publish/Technical-manual/4.4/Installation/Virtual-host-setup)">http://doc.ez.no/eZ-Publish/Techn...4.4/Installation/Virtual-host-setup)</a>.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">RewriteEngine On</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">RewriteRule ^/([^/]+/)?content/treemenu.* /index_treemenu\.php [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/var/([^/]+/)?storage/images(-versioned)?/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/var/([^/]+/)?cache/(texttoimage|public)/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/design/[^/]+/(stylesheets|images|javascript)/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/share/icons/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/extension/[^/]+/design/[^/]+/(stylesheets|flash|images|lib|javascripts?)/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/packages/styles/.+/(stylesheets|images|javascript)/[^/]+/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/packages/styles/.+/thumbnail/.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/var/storage/packages/.* - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;Makes it possible to place your favicon at the root of your</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;eZ Publish instance. It will then be served directly.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/favicon\.ico - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Uncomment the line below if you want your favicon to be served</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# from the standard design. You can customize the path to</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# favicon.ico by changing /design/standard/images/favicon\.ico</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#RewriteRule ^/favicon\.ico /design/standard/images/favicon\.ico [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/design/standard/images/favicon\.ico - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Give direct access to robots.txt for use by crawlers (Google,</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Bing, Spammers..)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/robots\.txt - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Platform for Privacy Preferences Project ( P3P ) related files</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# for Internet Explorer</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# More info here : <a href="http://en.wikipedia.org/wiki/P3p" title="http://en.wikipedia.org/wiki/P3p">http://en.wikipedia.org/wiki/P3p</a></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule ^/w3c/p3p\.xml - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Uncomment the following lines when using popup style debug</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# RewriteRule ^/var/cache/debug\.html.* - [L]</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# RewriteRule ^/var/[^/]+/cache/debug\.html.* - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RewriteRule .* /index\.php</span>
+
+<span class="line">&lt;/VirtualHost&gt;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+<br />
+The only thing left for me to check is one of the rewrite rules which you specify in your install instructions as being the following for a virtual host which is what we are hosting eZPublish on.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">RewriteRule ^/var/([^/]+/)?cache/public/.* - [L]</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+<br />
+One final clue to this puzzle is that I tried switching back to the previous editor, ezdhtml, by turning its extension on, turning ezoe's extension off, clearing the cache, etc and that editor doesn't work either.<br />
+<br />
+Any insights you can provide will be greatly appreciated. I've already spent a few days working on this and am running out of areas to explore. Thanks!<br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg41809">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 12 June 2011 2:04:48 pm</p>
+
+        <div class="attribute-long">Some possible options:<br />
+* Using rewrite rules doc.ez.no: <a href="http://doc.ez.no/eZ-Publish/Technical-manual/4.5/Installation/Virtual-host-setup" title="http://doc.ez.no/eZ-Publish/Technical-manual/4.5/Installation/Virtual-host-setup">http://doc.ez.no/eZ-Publish/Techn.../4.5/Installation/Virtual-host-setup</a><br />
+* Grab newer version of ezoe form one of the recent builds of eZ Publish (Community version or not)
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg41869">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kirk_evenson.html">Kirk Evenson</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 June 2011</p>
+        <p class="posts">Posts: 3</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 15 June 2011 5:38:42 am</p>
+
+        <div class="attribute-long">Andre, when I looked further into this I found that jQuery is part of the extension ezjscore. When I checked the extensions (in &quot;Setup/Extensions&quot; in the admin interface) I found that the ezjscore extension had not been selected and activated. Once I activated it then jQuery was instantiated and the tiny_mce editor worked.<br />
+<br />
+I would like to recommend that you change your popup message from &quot;Load jQuery first!&quot; to something more useful, such as: &quot;Be sure to install the extension ezjscore so that jQuery will be instantiated. Extensions can be installed from the Admin interface by selecting Setup and then selecting Extensions&quot;.<br />
+<br />
+Thanks for all your work on this. It is certainly appreciated.<br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg41999">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 27 June 2011 1:44:13 pm</p>
+
+        <div class="attribute-long">This is an alert from TinyMCE, so not something I can do anything about unless I hack it, something I have no plans on starting doing as it will lead to more overhead on maintaining it.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg46420">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/eric_handy.html">Eric Handy</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />16 April 2012</p>
+        <p class="posts">Posts: 1</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 16 April 2012 9:41:00 pm</p>
+
+        <div class="attribute-long">Thanks Kirk for your solution. I too recieved the error, and was going through my configuration looking for problems. Luckily, I choose to do a quick search for the issue and found this posting. This saved me from at least 1 reload.   
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezoe2/forum/setup_install/problems_with_install_load_jquery_first by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:10:50 GMT -->
+</html>

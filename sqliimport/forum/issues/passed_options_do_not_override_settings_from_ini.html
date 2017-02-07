@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:09:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Passed options do not override settings from INI     /         Issues     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/sqliimport/forum/general', 'Issues', '/sqliimport/forum/issues'];
+menu[4] = ['Leaders', '/sqliimport/team/leaders', 'Members', '/sqliimport/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../sqliimport.html" onmouseover="switchSubMenu( this );">SQLi Import &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+    
+    <li ><a href="../general.html">General</a></li>
+
+                        
+            
+    <li class="last current"><a href="../issues.html">Issues</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../sqliimport.html">sqliimport</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../issues.html">issues</a>
+        
+                        /
+                                        passed options do not overr...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Passed options do not override settings from INI</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg38770">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/petar_marovic.html">Petar Marovic</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/petar_marovic/73502-3-eng-GB/petar_marovic_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 June 2009</p>
+        <p class="posts">Posts: 2</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 19 November 2010 8:22:09 am</p>
+
+        <div class="attribute-long">Hi Jérôme,<br />
+<br />
+I believe I've found a conceptual error in the way the extension works. Namely, one can not set parameters to his source handler in options, and have them override the &quot;defaults&quot; which are configured in the ini settings of a handler (sqliimport.ini.append.php file).<br />
+<br />
+So, for instance, if I invoke this in the command line:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">php extension/sqliimport/bin/php/sqlidoimport.php --source-handlers=rssimporthandler --options=&quot;rssimporthandler::DefaultParentNodeID=65,RSSFeed=<a href="http://someotherblog.com/rss"" title="http://someotherblog.com/rss&quot;">http://someotherblog.com/rss&quot;</a></span>
+
+<span class="line"></span></pre><br />
+<br />
+The SQLIRSSImportHandler will still use the RSSFeed url from your blog, and will still place new objects under the node defined in ini settings (your handler used just as an example, this is also true for any custom developed handler which uses that one's code as it's base/inspiration).<br />
+<br />
+Or, it's more accurate to say that such a thing <b>is</b> possible, but it has to be expected and explicitly handled in the handler; for example like this (code from sqlirssimporthandler.php, function process($row) ):<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">$parentNodeID = isset( $this-&gt;options['DefaultParentNodeID'] ) ? $this-&gt;options['DefaultParentNodeID'] : $this-&gt;handlerConfArray['DefaultParentNodeID'];</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">$content-&gt;addLocation( SQLILocation::fromNodeID( $parentNodeID ) );</span>
+
+<span class="line"></span></pre><br />
+<br />
+After examining the code, I believe I can also suggest a solution: the handler class should have the $handlerConfArray and the $options arrays &quot;mashed&quot; together (in order: first global defaults, then INI settings, then any passed options from the invocation), so that in actual usage (custom handler code) one only has to use the $this-&gt;options['something'] to get at all the handler's options. <br />
+From my investigation of the code I believe the actual &quot;mashing&quot; process needs to be carried out in the SQLIImportFactory class. But PHP is really not my language, don't know it's associative array idioms and don't consider myself qualified to suggest the actual code for this.<br />
+<br />
+Thanks for your time, best regards<br />
+Petar
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg38976">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 29 November 2010 5:05:01 pm</p>
+
+        <div class="attribute-long">Hi Petar<br />
+<br />
+Actually, this kind of options are not meant to override INI settings. They are made to help you add on-the-fly options for your handler. They are passed to the import handler constructor.<br />
+So if you want the RSS handler to support them, you should extend it and add these options support to it ;-)
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg39135">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/petar_marovic.html">Petar Marovic</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/petar_marovic/73502-3-eng-GB/petar_marovic_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 June 2009</p>
+        <p class="posts">Posts: 2</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 02 December 2010 11:16:03 am</p>
+
+        <div class="attribute-long">Hi Jérôme, thanks for your reply.<br />
+<br />
+Sorry, but I don't quite understand what you mean. What would be a valid &quot;on-the-fly option&quot; for an import handler? Can you give an example of such a thing for your RSS handler?<br />
+<br />
+I ask because to me it seems quite logical and even required by the usability imperative to have the basic handler options (such as the DefaultParentNodeID for your handler) be settable at the handler invocation (either in command line interface or in the admin siteaccess). However, in the extension's current state a user needs to change these options in the INI settings for his import job - and potentially do so for every import job he runs).<br />
+That's what I meant when I claimed to have found a &quot;conceptual error&quot; in the way the extension functions now (and BTW that carried absolutely no disrespect for your work, I hope that was understood).<br />
+<br />
+Yes you are right, the handler can be made to support the functionality I'm asking for. But that introduces a need for in-code checks at every use of any option, like I wrote in the original post (pseudocode here):<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">$my_x_setting = isset( options[the_x] ? options[the_x] : handlerConfArray[the_x]);</span>
+
+<span class="line"></span></pre><br />
+This I think is very clunky and error-prone; it would be much simpler and more usable to have a single &quot;options&quot; or &quot;settings&quot; array which includes every config item for the handler, from both the INI and user's invocation (and with the invocation-time settings overriding the INI ones, as would be expected).<br />
+<br />
+Thanks for your time, best regards<br />
+Petar
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:09:26 GMT -->
+</html>

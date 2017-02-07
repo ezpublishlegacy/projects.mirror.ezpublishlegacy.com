@@ -1,0 +1,73 @@
+Index: lib/eztemplate/classes/eztemplateattributeoperator.php
+===================================================================
+--- lib/eztemplate/classes/eztemplateattributeoperator.php	(revision 10937)
++++ lib/eztemplate/classes/eztemplateattributeoperator.php	(working copy)
+@@ -156,11 +156,30 @@
+                     $itemValue = "'" . $item . "'";
+                 if ( $as_html )
+                 {
+-                    $spacing = str_repeat( ">", $cur_level );
++                    $formattedType = $type;
++                    $formattedValue = $value;
++                    switch ( $type )
++                    {
++                        case "string":
++                            $formattedType = '<span style="color: #DD0000;">' . $type . '</span>';
++                            $formattedValue = '<span style="color: #DD0000;">' . $itemValue . '</span>';
++                        break;
++                        case "array":
++                            $formattedType = '<span style="color: #007700;">' . $type . '</span>';
++                            $formattedValue = '<span style="color: #007700;">' . $itemValue . '</span>';
++                        break;
++                        case "boolean":
++                            $formattedType = '<span style="color: #0000BB;">' . $type . '</span>';
++                            $formattedValue = '<span style="color: #0000BB;">' . $itemValue . '</span>';
++                        break;
++                    }
++
++                    $space = str_repeat( "|&nbsp;&nbsp;", $cur_level );
++                    $space1 = str_repeat( "&nbsp;&nbsp;", $cur_level );
+                     if ( $show_values )
+-                        $txt .= "<tr><td>$spacing$key</td>\n<td>$type</td>\n<td>$itemValue</td>\n</tr>\n";
++                        $txt .= "<tr><td>$space$key</td>\n<td>$space1$formattedType</td>\n<td>$space1$formattedValue</td>\n</tr>\n";
+                     else
+-                        $txt .= "<tr><td>$spacing$key</td>\n<td>$type</td>\n</tr>\n";
++                        $txt .= "<tr><td>$space$key</td>\n<td>$space1$formattedType</td>\n</tr>\n";
+                 }
+                 else
+                 {
+@@ -197,11 +216,31 @@
+                     $itemValue = "'" . $item . "'";
+                 if ( $as_html )
+                 {
+-                    $spacing = str_repeat( ">", $cur_level );
++                    $formattedType = $type;
++                    $formattedValue = $itemValue;
++
++                    switch ( $type )
++                    {
++                        case "string":
++                            $formattedType = '<span style="color: #DD0000;">' . $type . '</span>';
++                        $formattedValue = '<span style="color: #DD0000;">' . $itemValue . '</span>';
++                        break;
++                        case "array":
++                            $formattedType = '<span style="color: #007700;">' . $type . '</span>';
++                        $formattedValue = '<span style="color: #007700;">' . $itemValue . '</span>';
++                        break;
++                        case "boolean":
++                            $formattedType = '<span style="color: #0000BB;">' . $type . '</span>';
++                            $formattedValue = '<span style="color: #0000BB;">' . $itemValue . '</span>';
++                        break;
++                    }
++
++                    $space = str_repeat( "|&nbsp;&nbsp;", $cur_level );
++                    $space1 = str_repeat( "&nbsp;&nbsp;", $cur_level );
+                     if ( $show_values )
+-                        $txt .= "<tr><td>$spacing$key</td>\n<td>$type</td>\n<td>$itemValue</td>\n</tr>\n";
++                        $txt .= "<tr><td>$space$key</td>\n<td>$space1$formattedType</td>\n<td>$space1$formattedValue</td>\n</tr>\n";
+                     else
+-                        $txt .= "<tr><td>$spacing$key</td>\n<td>$type</td>\n</tr>\n";
++                        $txt .= "<tr><td>$space$key</td>\n<td>$space1$formattedType</td>\n</tr>\n";
+                 }
+                 else
+                 {

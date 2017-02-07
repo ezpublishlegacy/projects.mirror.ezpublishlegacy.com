@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezwebsitetoolbar</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:45:12 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:45:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15934" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/2d428257f6913a60b4e63b16e1742db2e6bcd91e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-25531 - replaced 'eZContentCacheManager::clearContentCache()' with 'eZContentCacheManager::clearContentCacheIfNeeded()'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/2d428257f6913a60b4e63b16e1742db2e6bcd91e</guid>
+      <pubDate>Tue, 08 Mar 2016 10:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/debca54608cdabd7a0ff9d9fdd4bc092ee23e551</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from nunofcnoliveira/EZP-25531_clearContentCacheIfNeeded
+
+Fix EZP-25531: Replaced 'clearContentCache()' with 'clearContentCacheIfNeeded()'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/debca54608cdabd7a0ff9d9fdd4bc092ee23e551</guid>
+      <pubDate>Tue, 08 Mar 2016 10:30:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/c86ce909e4e9dd3e2badff74d674f180bca70d5f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-23478: redirection after publish form fields&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/c86ce909e4e9dd3e2badff74d674f180bca70d5f</guid>
+      <pubDate>Thu, 27 Nov 2014 14:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/419038642dc69ce041b21c04ea9fa1e9fbef0a2f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #15 from ezsystems/EZP-23478-website_toolbar_redirection
+
+EZP-23478: redirection after publish form fields&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/419038642dc69ce041b21c04ea9fa1e9fbef0a2f</guid>
+      <pubDate>Thu, 27 Nov 2014 14:20:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/872d5b01e9a6c069e652785d32dc4bbfe08863fe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/872d5b01e9a6c069e652785d32dc4bbfe08863fe</guid>
+      <pubDate>Mon, 03 Nov 2014 14:50:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/b3f0fd75b206cfa4dbfc090c8e6e0f60607a1cb7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/b3f0fd75b206cfa4dbfc090c8e6e0f60607a1cb7</guid>
+      <pubDate>Tue, 20 May 2014 20:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/ca5a08989ac050f42d425ef7bc7a26b187b553eb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated legacy extension package name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/ca5a08989ac050f42d425ef7bc7a26b187b553eb</guid>
+      <pubDate>Thu, 15 May 2014 09:50:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/fd4b7947c7701125fce620cb1f4751e7209d77a5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/fd4b7947c7701125fce620cb1f4751e7209d77a5</guid>
+      <pubDate>Thu, 15 May 2014 09:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/268463496f29c0a753ad0b93694403f861e52c13</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed composer package to ezwt-ls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/268463496f29c0a753ad0b93694403f861e52c13</guid>
+      <pubDate>Wed, 14 May 2014 16:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/b94ef8693c39994e44e7ab364036820bd8c58ceb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added standalone extension's composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/b94ef8693c39994e44e7ab364036820bd8c58ceb</guid>
+      <pubDate>Wed, 14 May 2014 12:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/697607bacd6ea57bdcdb5a2f23262e6707100814</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/697607bacd6ea57bdcdb5a2f23262e6707100814</guid>
+      <pubDate>Tue, 13 May 2014 21:40:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/bf9557872ebee5a2066a341ba025a309909e0c58</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from ezsystems/EZP-22193-website_toolbar_callback
+
+Fetch user instead of using $current_user&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/bf9557872ebee5a2066a341ba025a309909e0c58</guid>
+      <pubDate>Mon, 14 Apr 2014 15:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/53bd42adfba07a5b10fab6b9d818dd573765f94d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fetch current user instead of using a global variable
+
+Fixes regression in EZP-22193, where $current_user isn't set in legacy callbacks.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/53bd42adfba07a5b10fab6b9d818dd573765f94d</guid>
+      <pubDate>Mon, 14 Apr 2014 15:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/forum/general/problem</link>
+      <description>I have been working in my first Ez installation and deployment, and despite my efforts I have not could install the site toolbar.&#13;
+&#13;
+I did a fresh installation of the latest community Ez version: eZ Publish Community Project 2013.05, and I have added an user role policy permissions to 'use' the ezwt's 'websitetoolbar' extension module, but nothing seems to work.&#13;
+&#13;
+Can you teach me how should I do in order to activate that function?&#13;
+&#13;
+Thanks for all you valuable and information help.&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (Freddy Rodriguez)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/forum/general/problem</guid>
+      <pubDate>Thu, 06 Jun 2013 16:50:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/9c1e36d0d06c38d3e4176fc3fc5a08fafd66b17e</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/cat-ES/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/chi-CN/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/chi-TW/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/cro-HR/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/cze-CZ/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/dan-DK/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/dut-NL/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/esl-ES/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/fin-FI/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/fre-FR/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/ger-DE/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/ita-IT/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/jpn-JP/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/nor-NO/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/pol-PL/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/por-BR/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/ser-SR/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/swe-SE/translation.ts
+m packages/ezwt_extension/ezextension/ezwt/translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translation strings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/9c1e36d0d06c38d3e4176fc3fc5a08fafd66b17e</guid>
+      <pubDate>Fri, 12 Apr 2013 13:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/9c1ce02f1ad11563206e7ffd91375858f2bf78c9</link>
+      <description>
+      &lt;pre&gt;+ packages/ezwt_extension/ezextension/ezwt/design/ezdemo/templates/content/datatype/edit/ezdate.tpl
++ packages/ezwt_extension/ezextension/ezwt/design/ezdemo/templates/content/datatype/edit/ezdatetime.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved templates from ezdemo extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/9c1ce02f1ad11563206e7ffd91375858f2bf78c9</guid>
+      <pubDate>Fri, 15 Mar 2013 15:10:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/233c6b9b411ff1b95db5742406a2a7dd88498394</link>
+      <description>
+      &lt;pre&gt;+ packages/ezwt_extension/ezextension/ezwt/translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Cro translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/233c6b9b411ff1b95db5742406a2a7dd88498394</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/69efb6be2b283c0b9e22c049184867e7b91a7133</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from SylvainGuittard/master
+
+French translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/69efb6be2b283c0b9e22c049184867e7b91a7133</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/f385d01534935d6372f5bfd302c6b4e44fd52f18</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation finished&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/f385d01534935d6372f5bfd302c6b4e44fd52f18</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/6e72338b44126665e702bae7277e7c419db061c5</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/settings/websitetoolbar.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Reverted pull-request #9 now that the underlying causes of #19107 were
+fixed.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/6e72338b44126665e702bae7277e7c419db061c5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/e3d995bcce463279fd55db397e638385a9519392</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/settings/websitetoolbar.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from nfrp/19107_dependency_on_load_order
+
+Fixed #019107: Website Toolbar creates dependency on extensions load order : not all website toolbar extensions are shown&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/e3d995bcce463279fd55db397e638385a9519392</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/cc10a96726bd77c10982c0aaa4a7d9fe36551335</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/settings/websitetoolbar.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #019107: Website Toolbar creates dependency on extensions load
+order : not all website toolbar extensions are shown&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/cc10a96726bd77c10982c0aaa4a7d9fe36551335</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/bcee0c8b0d1777181814fd15c6dc849a8527093c</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/design/standard/templates/parts/websitetoolbar/floating_toolbar.tpl
+m packages/ezwt_extension/ezextension/ezwt/design/standard/templates/parts/websitetoolbar/sort.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from jdespatis/clean-wrappers
+
+Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/bcee0c8b0d1777181814fd15c6dc849a8527093c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/c5c69d1b0f155a5284be3e7a190a95308a74a4d5</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/design/standard/templates/parts/websitetoolbar/floating_toolbar.tpl
+m packages/ezwt_extension/ezextension/ezwt/design/standard/templates/parts/websitetoolbar/sort.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/c5c69d1b0f155a5284be3e7a190a95308a74a4d5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/58e0ec5a61754603862fb00dbf589bc4e4dc9004</link>
+      <description>
+      &lt;pre&gt;+ packages/ezwt_extension/ezextension/ezwt/translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from vjeran/cro_HR
+
+Add Cro translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/58e0ec5a61754603862fb00dbf589bc4e4dc9004</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/1bede2aa6ca8ef3e38ace5c00ec70f1f4af828d1</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/autoloads/ezcreateclasslistgroups.php
+m packages/ezwt_extension/ezextension/ezwt/autoloads/eztemplateautoload.php
+m packages/ezwt_extension/ezextension/ezwt/classes/ezwtservercallfunctions.php
+m packages/ezwt_extension/ezextension/ezwt/extension.xml
+m packages/ezwt_extension/ezextension/ezwt/ezinfo.php
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/module.php
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/sort.php
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/websitetoolbar.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/1bede2aa6ca8ef3e38ace5c00ec70f1f4af828d1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/00c9e7f311eb9cc61bd3ce12d8ed2eb252cb258f</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from thiagocamposviana/master
+
+finalized pt-BR translation - 4.7 translation sprint&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/00c9e7f311eb9cc61bd3ce12d8ed2eb252cb258f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/6403ed167c8aa4c4ef2e191812fc0f880e52baff</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finalized pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/6403ed167c8aa4c4ef2e191812fc0f880e52baff</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/933cf76cec7b67b6164d32ef7007573591f35da7</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/settings/websitetoolbar.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from nfrp/19107_dependency_on_load_order
+
+Reverted pull-request #9 now that the underlying causes of #19107 were fixed.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/933cf76cec7b67b6164d32ef7007573591f35da7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/d6e9601799b98cf81924049e25d696522b81901d</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-export.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-import.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-replace.png
++ packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-oo-logo.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/stylesheets/websitetoolbar.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed icons to fit on the dark background&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/d6e9601799b98cf81924049e25d696522b81901d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/0d4920da2298556b90777282c689ff867afdef9f</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/design/standard/stylesheets/websitetoolbar.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;minor corrections to the styling of text buttons&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/0d4920da2298556b90777282c689ff867afdef9f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/6f7046cc3cda8e2d9ae6b69cc3da89913eaed630</link>
+      <description>
+      &lt;pre&gt;+ packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/dark_back.png
++ packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/diagonal_pattern.png
++ packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ez_logo_white_full.png
++ packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ez_logo_white_long.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-admin.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-create.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-edit.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-locations-disabled.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-locations.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-move.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-preview.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-remove.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-sort.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-translation-disabled.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-translation.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-url.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-icon-versions.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/images/websitetoolbar/ezwt-logo.png
+m packages/ezwt_extension/ezextension/ezwt/design/standard/stylesheets/websitetoolbar.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;styling bar in soft skin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/6f7046cc3cda8e2d9ae6b69cc3da89913eaed630</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/23735924be03ef352d78b65ce7182afa4277152f</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/extension.xml
+- packages/ezwt_extension/ezextension/ezwt/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x stack extensions
+to make it clear what is running on Legacy vs Symfony stack of 5.0.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/23735924be03ef352d78b65ce7182afa4277152f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/c756b24f076e635ff1b29512766e93d48a102474</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from netbliss/master
+
+Italian translation updated - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/c756b24f076e635ff1b29512766e93d48a102474</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/54a94a4c5b163492626b6302efff4cf59927a731</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Italian translation updated
+
+Updated italian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/54a94a4c5b163492626b6302efff4cf59927a731</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/742b18c2353499167fb2c8ad57e828a60a1060d1</link>
+      <description>
+      &lt;pre&gt;m packages/ezwt_extension/ezextension/ezwt/autoloads/ezcreateclasslistgroups.php
+m packages/ezwt_extension/ezextension/ezwt/autoloads/eztemplateautoload.php
+m packages/ezwt_extension/ezextension/ezwt/classes/ezwtservercallfunctions.php
+m packages/ezwt_extension/ezextension/ezwt/extension.xml
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/module.php
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/sort.php
+m packages/ezwt_extension/ezextension/ezwt/modules/websitetoolbar/websitetoolbar.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/742b18c2353499167fb2c8ad57e828a60a1060d1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 42 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/42</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/42</guid>
+      <pubDate>Wed, 27 Oct 2010 14:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 41 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/41</link>
+      <description>- Added user permission check
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/41</guid>
+      <pubDate>Fri, 15 Oct 2010 13:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 40 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/40</link>
+      <description>- Added user permission check
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/40</guid>
+      <pubDate>Fri, 15 Oct 2010 13:40:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 39 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/39</link>
+      <description>- Added check for user permissions
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/39</guid>
+      <pubDate>Fri, 15 Oct 2010 13:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 38 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/38</link>
+      <description>- Tagged version/1.2.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/38</guid>
+      <pubDate>Fri, 15 Oct 2010 08:35:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 37 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/37</link>
+      <description>- Created stable branch
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/37</guid>
+      <pubDate>Fri, 15 Oct 2010 08:30:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 36 by André R</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/36</link>
+      <description>- Change use of old templateInit()/ezi18n() api and use class based api's introduced in 4.3 instead</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/36</guid>
+      <pubDate>Wed, 13 Oct 2010 14:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 35 by André R</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/35</link>
+      <description>- missing license header</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/35</guid>
+      <pubDate>Fri, 24 Sep 2010 13:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 34 by André R</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/34</link>
+      <description>- Rename base ini files to *.ini  so settings/view is able to list it in drop down</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/34</guid>
+      <pubDate>Mon, 05 Jul 2010 09:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZCreateClassListGroups missing</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/forum/general/ezcreateclasslistgroups_missing/re_ezcreateclasslistgroups_missing3</link>
+      <description>Hum... &#13;
+it seems that the autoload is still missing so the operator cannot be registered. &#13;
+I needed to add : &#13;
+&#13;
+&lt;code&gt;&#13;
+##http://projects.ez.no/ezwebsitetoolbar/forum/general/ezcreateclasslistgroups_missing&#13;
+$eZTemplateOperatorArray[] = array( 'script' =&gt; 'extension/ezwebin/autoloads/ezcreateclasslistgroups.php',&#13;
+                                                'class' =&gt; 'eZCreateClassListGroups',&#13;
+                                                'operator_names' =&gt; array( 'ezcreateclasslistgroups' ) );&#13;
+&lt;/code&gt;&#13;
+&#13;
+as the operator is still owned by ezwebin. &#13;
+&#13;
+Do you confirm ? </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/forum/general/ezcreateclasslistgroups_missing/re_ezcreateclasslistgroups_missing3</guid>
+      <pubDate>Mon, 21 Jun 2010 08:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 33 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/33</link>
+      <description>- Updated: string spelling error
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/33</guid>
+      <pubDate>Fri, 21 May 2010 10:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 32 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/32</link>
+      <description>- Fixed copyright year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/32</guid>
+      <pubDate>Wed, 24 Mar 2010 17:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 31 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/31</link>
+      <description>--Spanish and Catalan translations updated, credits go to Microblau, http://www.microblau.net/</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/31</guid>
+      <pubDate>Wed, 10 Mar 2010 12:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebsitetoolbar rev. 30 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezwebsitetoolbar/subversion/30</link>
+      <description>--Brazilian translation updated, credits go to Renan Leme</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebsitetoolbar/subversion/30</guid>
+      <pubDate>Wed, 10 Mar 2010 12:00:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

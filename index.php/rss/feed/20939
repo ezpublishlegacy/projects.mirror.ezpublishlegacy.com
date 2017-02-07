@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgenerate / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 23:41:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 23:41:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/20939" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bugs</title>
+      <link>http://projects.ez.no/ezgenerate/forum/general/bugs</link>
+      <description>Please, post here if you find a bug.</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezgenerate/forum/general/bugs</guid>
+      <pubDate>Tue, 10 Nov 2009 10:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Documentation</title>
+      <link>http://projects.ez.no/ezgenerate/forum/general/documentation/re_documentation2</link>
+      <description>Done</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezgenerate/forum/general/documentation/re_documentation2</guid>
+      <pubDate>Tue, 10 Nov 2009 10:09:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Documentation</title>
+      <link>http://projects.ez.no/ezgenerate/forum/general/documentation/re_documentation</link>
+      <description>Thanks.&#13;
+&#13;
+I've created a readme, I will commit it today.</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezgenerate/forum/general/documentation/re_documentation</guid>
+      <pubDate>Tue, 10 Nov 2009 09:37:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>http://projects.ez.no/ezgenerate/forum/general/documentation</link>
+      <description>Hi, &#13;
+first, thx for this extension :)&#13;
+&#13;
+As i'm a recent user of eZPublish, it took me time to figure out how to use it :/&#13;
+it would be nice to add at least a readme file with the command line to execute to run it :)&#13;
+&#13;
+thx.&#13;
+&#13;
+</description>
+      <author>community@ez.no (emmanuelle gouleau)</author>
+      <guid>http://projects.ez.no/ezgenerate/forum/general/documentation</guid>
+      <pubDate>Tue, 10 Nov 2009 09:02:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Please post</title>
+      <link>http://projects.ez.no/ezgenerate/forum/general/please_post</link>
+      <description>Don't be shy if you have any question.</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezgenerate/forum/general/please_post</guid>
+      <pubDate>Mon, 09 Nov 2009 15:18:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcodensiffer / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13632" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test7</link>
+      <description>I think we should stick to the original goal of providing an 'ezpublish standard' sniffer.&#13;
+Sniffers for ezc / new standards are welcome but not primary goal at the moment.&#13;
+Wrt the discussion on the ezextensionbuilder forum, I think we can try to come up with:&#13;
+&#13;
+- a set of sniffer rules for templates (even though it's not php, it should be doable)&#13;
+&#13;
+- a set of sniffer rules for ini files&#13;
+&#13;
+- some broader set of scripts that implements guidelines such as described here: http://share.ez.no/forums/general/ez-publish-check-is-out</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test7</guid>
+      <pubDate>Mon, 19 Apr 2010 13:06:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A EZC standard available?</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available/re_a_ezc_standard_available2</link>
+      <description>At long last, it was unhearted and published at http://pear.xplib.de/get/&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available/re_a_ezc_standard_available2</guid>
+      <pubDate>Mon, 19 Apr 2010 13:02:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A EZC standard available?</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available/re_a_ezc_standard_available</link>
+      <description>Same question here...</description>
+      <author>community@ez.no (Piotr Karaś)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available/re_a_ezc_standard_available</guid>
+      <pubDate>Mon, 05 Apr 2010 15:42:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test6</link>
+      <description>With eZ Publish 4.3, some officials extentions have a new coding standard closer than PEAR... This projects is deprecated... I think we would must wait...&#13;
+&#13;
+http://projects.ez.no/content/view/full/20257</description>
+      <author>community@ez.no (Guillaume Kulakowski)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test6</guid>
+      <pubDate>Thu, 25 Feb 2010 08:44:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>A EZC standard available?</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available</link>
+      <description>Hello,&#13;
+&#13;
+I'd like to improve my current Codesniffer standard for eZ (more dedicated to extensions), and I was wondering about the availability of a standard for eZ Components which would be, I guess, a better start than the current pear.&#13;
+Indeed this also seems to have been discussed on a thread ( http://share.ez.no/forums/developer/php-codesniffer-vs-ez-publish ).&#13;
+&#13;
+I've noticed that a dedicated standard ( EZC ) seems to be available as it's called in PHPUndercontrol build templates ( http://svn.ezcomponents.org/viewvc.cgi/scripts/phpundercontrol/templates/build.xml.tpl?revision=10017</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/a_ezc_standard_available</guid>
+      <pubDate>Fri, 13 Nov 2009 10:37:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test5</link>
+      <description>Other tests:&#13;
+- not using functions that are not available or not working on all platforms (win, solaris, linux), such as strptime or glob&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test5</guid>
+      <pubDate>Tue, 03 Nov 2009 10:59:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test4</link>
+      <description>- There should be some tests that apply to extensions, other to kernel code, some to both&#13;
+- for extensions, usage of mysql_, mysqli_ or oci_ functions should be flagged as warning (it is acceptable only for db-handler extensions)&#13;
+- spacing in function calls, the 'ezp' way</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test4</guid>
+      <pubDate>Wed, 30 Sep 2009 12:54:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test3</link>
+      <description>OK.&#13;
+&#13;
+TODO :&#13;
+ - Check doxygen comment instead phpDoc&#13;
+ - Check eZ Publish files and classes comment&#13;
+ - Better test about for ControlStructures&#13;
+ - Move some error on warning...&#13;
+&#13;
+Any idea ?</description>
+      <author>community@ez.no (Guillaume Kulakowski)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test3</guid>
+      <pubDate>Wed, 30 Sep 2009 11:32:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test2</link>
+      <description>Ps: starting with the pear standard is the way to go - 1st goal is fixing it so that it does not spit out 10.000 warnings on ezp code</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test2</guid>
+      <pubDate>Wed, 30 Sep 2009 08:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test</link>
+      <description>Thanks - I moved your code around in the svn repo, trying to conform to a more 'standard' eZ naming (we still have to make up our minds about the official standard, but there are at least a couple of known variants). Gonna check it as soon as I have a few spare minutes</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test/re_first_test</guid>
+      <pubDate>Wed, 30 Sep 2009 08:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>First test</title>
+      <link>http://projects.ez.no/ezcodensiffer/forum/general/first_test</link>
+      <description>Hi,&#13;
+&#13;
+Thank for accept me in this team ;-).&#13;
+&#13;
+I have commited a first test in http://svn.projects.ez.no/ezcodensiffer/branches/sandboxes/llaumgui/&#13;
+&#13;
+ - I use Generic and PEAR coding standard.&#13;
+ - I remove some PEAR standard&#13;
+ - I modify some other...</description>
+      <author>community@ez.no (Guillaume Kulakowski)</author>
+      <guid>http://projects.ez.no/ezcodensiffer/forum/general/first_test</guid>
+      <pubDate>Wed, 30 Sep 2009 08:30:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

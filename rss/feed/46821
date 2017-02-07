@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdebug_helper / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:03:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:03:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46821" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>0.60 released - nicer and more accessible messages, SQL syntax highlighting</title>
+      <link>http://projects.ez.no/ezdebug_helper/news/0_60_released_nicer_and_more_accessible_messages_sql_syntax_highlighting</link>
+      <description>&lt;p&gt;Way in which&amp;nbsp;messages are displayed was modified to make them render faster, feel better (expand/collapse animations) and allow copying text from message body without collapsing it.&lt;/p&gt;&lt;p&gt;Debug messages with SQL queries are now being distinguished from other messages&amp;nbsp;making them easy to filter. SQL syntax is&amp;nbsp;highlighted&amp;nbsp;using &lt;a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_self"&gt;SytnaxHighlighter&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/news/0_60_released_nicer_and_more_accessible_messages_sql_syntax_highlighting</guid>
+      <pubDate>Wed, 11 Jul 2012 10:53:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>0.50 released - settings page, address bar icon</title>
+      <link>http://projects.ez.no/ezdebug_helper/news/0_50_released_settings_page_address_bar_icon</link>
+      <description>&lt;p&gt;New version of eZDebug Helper was released today. This version features:&lt;/p&gt;&lt;p&gt;- settings page that allows to customize the extension&lt;/p&gt;&lt;p&gt;- address bar icon indicating that eZDebug was found on page and extension is active&lt;/p&gt;</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/news/0_50_released_settings_page_address_bar_icon</guid>
+      <pubDate>Fri, 18 May 2012 16:59:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / all2egoogleweather / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:06:57 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:06:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10755" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Merging with the "weather" extension</title>
+      <link>http://projects.ez.no/all2egoogleweather/forum/general/merging_with_the_weather_extension</link>
+      <description>Why not merge the two extensions together?&#13;
+&#13;
+- make the weather provider configurable via ini&#13;
+- provide:&#13;
+  . fetch functions&#13;
+  . datatype&#13;
+  . ezflow block</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/all2egoogleweather/forum/general/merging_with_the_weather_extension</guid>
+      <pubDate>Wed, 08 Feb 2012 10:23:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: missing lib/ezxml/classes/ezxml.php</title>
+      <link>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php/re_missing_lib_ezxml_classes_ezxml_php2</link>
+      <description>"lib/ezxml/classes/ezxml.php" is an old class. It isn't in the actual ez version. But you can copy it from an older version. I'm not sure, but i think 3.x.</description>
+      <author>community@ez.no (Sven Rill)</author>
+      <guid>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php/re_missing_lib_ezxml_classes_ezxml_php2</guid>
+      <pubDate>Thu, 16 Dec 2010 20:14:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: missing lib/ezxml/classes/ezxml.php</title>
+      <link>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php/re_missing_lib_ezxml_classes_ezxml_php</link>
+      <description>Have the same problem, has someone found the solution?</description>
+      <author>community@ez.no (Christian Paredes)</author>
+      <guid>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php/re_missing_lib_ezxml_classes_ezxml_php</guid>
+      <pubDate>Sat, 25 Sep 2010 12:46:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>missing lib/ezxml/classes/ezxml.php</title>
+      <link>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php</link>
+      <description>heloo  i tried to install this extension by downloading .......&#13;
+but when i tried to add my new class in page it show error that "include_once(lib/ezxml/classes/ezxml.php): failed to open stream:"&#13;
+is the installation package missing some folder .?&#13;
+please let me know as i need this extension </description>
+      <author>community@ez.no (Akhilesh Singh)</author>
+      <guid>http://projects.ez.no/all2egoogleweather/forum/general/missing_lib_ezxml_classes_ezxml_php</guid>
+      <pubDate>Sat, 19 Jun 2010 06:41:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / googlemaps / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:45:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:45:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9869" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Can it read from another fieldset?</title>
+      <link>http://projects.ez.no/googlemaps/forum/general/can_it_read_from_another_fieldset/re_can_it_read_from_another_fieldset</link>
+      <description>A bit outdated, but there is a fork of this extension where you can do that:&#13;
+http://projects.ez.no/ezgmaplocation&#13;
+&#13;
+You can also do it in the bigger gis extension:&#13;
+http://projects.ez.no/gis</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/googlemaps/forum/general/can_it_read_from_another_fieldset/re_can_it_read_from_another_fieldset</guid>
+      <pubDate>Mon, 10 Aug 2009 16:24:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can it read from another fieldset?</title>
+      <link>http://projects.ez.no/googlemaps/forum/general/can_it_read_from_another_fieldset</link>
+      <description>I have a content class where I would like to store both the lat/long (for gmap plotting), as well as the actual address, in multiple fields (for nice formatting </description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/googlemaps/forum/general/can_it_read_from_another_fieldset</guid>
+      <pubDate>Wed, 28 Jan 2009 18:36:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Google Maps vs GIS</title>
+      <link>http://projects.ez.no/googlemaps/forum/general/google_maps_vs_gis/re_google_maps_vs_gis</link>
+      <description>Actually, this is not a new project, but a port of http://ez.no/developer/contribs/datatypes/google_maps_location_datatype in the contributions.&#13;
+&#13;
+There are similarities with http://projects.ez.no/gis, but some people do only want to store coordinates and do not feel comfortable with creating a new table.&#13;
+&#13;
+Freedom of Choice ;-)</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/googlemaps/forum/general/google_maps_vs_gis/re_google_maps_vs_gis</guid>
+      <pubDate>Wed, 25 Jun 2008 12:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Maps vs GIS</title>
+      <link>http://projects.ez.no/googlemaps/forum/general/google_maps_vs_gis</link>
+      <description>You should take a look at the GIS / GIS operators project.&#13;
+http://projects.ez.no/index.php/gis&#13;
+&#13;
+The project is already larger and also includes stuff like rage search etc... and also has abstraction layers for the geocoder like google and yahoo.&#13;
+A version for ez 3.10 is also availabe but not commited to the SVN.&#13;
+&#13;
+We should join forces here instead of creating new projects.</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/googlemaps/forum/general/google_maps_vs_gis</guid>
+      <pubDate>Wed, 25 Jun 2008 10:38:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

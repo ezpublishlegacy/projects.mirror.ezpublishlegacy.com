@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezrating / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:28:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:28:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/952" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezrating rev. 8 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/8</link>
+      <description>- Stable 1.0 for eZ Publish 3.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/8</guid>
+      <pubDate>Wed, 15 Oct 2008 12:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 7 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/7</link>
+      <description>- Stable sub tree</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/7</guid>
+      <pubDate>Wed, 15 Oct 2008 12:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 6 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/6</link>
+      <description>- Implemented: ezrating for eZ Publish 4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/6</guid>
+      <pubDate>Wed, 03 Sep 2008 07:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 5 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/5</link>
+      <description>- Fixed bug: SQL error on PostgreSQL</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/5</guid>
+      <pubDate>Wed, 03 Sep 2008 07:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 4 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/4</link>
+      <description>- Implemented: ezinfo file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/4</guid>
+      <pubDate>Tue, 29 Jul 2008 10:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/3</link>
+      <description>- Corrected paths to star images
+- Added undef</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:26:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/1</link>
+      <description>- Initial ezrating version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:26:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezrating rev. 2 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezrating/subversion/2</link>
+      <description>- Override template for ezinteger attribute for ratings
+- Very basic readme</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezrating/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:26:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

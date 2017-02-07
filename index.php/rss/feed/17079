@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezclipse</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:18:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:18:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17079" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Difficulty Installing on Vista with JRE 6</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/difficulty_installing_on_vista_with_jre_6</link>
+      <description>Thanks for this extension! I'm having trouble installing it on Vista, though. I'm not getting syntax highlighting for .tpl's, nor anything else eZ Publish-related.&#13;
+&#13;
+Eclipse for PHP Developers 3.6.0 shows, in installation configuration details &gt; configuration, "C:\Program Files\Java\jdk1.6.0_05\bin\..\jre\bin\client\jvm.dll", so I think it is finding Java 6 instead of 5, so that's good. eZclipse 1.0.0 is listed as installed software; also good. But there is no "ch.wess.ezclipse.*" or "eZclipse" in the plug-ins tag of the installation details, nor can I find them when I run Eclipse in console mode with the "ss" command.&#13;
+&#13;
+Note that when I tried installing Smile's Eclipse plug-in, I had similar difficulty (with both the automatic and manual installation methods).&#13;
+&#13;
+I've tried restarting Eclipse and rebooting.&#13;
+&#13;
+Any suggestions?</description>
+      <author>community@ez.no (Greg McAvoy-Jensen)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/difficulty_installing_on_vista_with_jre_6</guid>
+      <pubDate>Mon, 06 Sep 2010 18:09:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: General Feedback</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback20</link>
+      <description>Where can I find documentation? The link does not work.&#13;
+&#13;
+Can I get help for ezclipse configuration?&#13;
+I copied ezclipse to extension folder and activated it in admin panel. In the file settings/override/soap.ini.append.php, I added an entry  [GeneralSettings] EnableSOAP = true and [ExtensionSettings]&#13;
+SOAPExtensions [] = ezclipse. Unfortunately, after entering in the ez publish soap url: localhost /ezpublish /soap.php/[usersite]/ezclipse or localhost/ezpublish/soap.php/[adminsite]/ezclipse I get an error: "Invalid URL"&#13;
+&#13;
+How to activate ezclipse for eclipse? What is the correct SOAP url? I know it was described in "little documentation" but is no longer available from the URL.&#13;
+Thank in advance for helping.</description>
+      <author>community@ez.no (Dariusz Roczniak)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback20</guid>
+      <pubDate>Tue, 27 Oct 2009 14:53:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZclipse doesn't work on Galileo for Mac (C...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c10</link>
+      <description>I'm doing a complete refactoring to downgrade the plug-in in Java 5. I think after that it should work.</description>
+      <author>community@ez.no (Alain Sahli)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c10</guid>
+      <pubDate>Mon, 07 Sep 2009 10:48:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZclipse doesn't work on Galileo for Mac (C...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c9</link>
+      <description>Same thing for me. So I guess the problem comes with the Java version that comes with Mac OS Leopard... Snow Leopard Java is 1.6, full 64bits.&#13;
+&#13;
+But I have a small issue : INI syntax coloring is working well for *.ini files, but *.ini.append.php are still opened with PDT editor :-(</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c9</guid>
+      <pubDate>Mon, 07 Sep 2009 09:16:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZclipse doesn't work on Galileo for Mac (C...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c8</link>
+      <description>Hi,&#13;
+&#13;
+I think that I have a good news, I just upgrade on Snow Leopard and the bug is fixed, the plugins is ok in Eclipse.&#13;
+&#13;
+I havn't to re-install, I just launch Eclipse and everything is ok !&#13;
+&#13;
+&#13;
+Someone can confirm ?&#13;
+&#13;
+Thanks &#13;
+&#13;
+++</description>
+      <author>community@ez.no (Sébastien Morel)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_on_galileo_for_mac_cocoa/re_ezclipse_doesn_t_work_on_galileo_for_mac_c8</guid>
+      <pubDate>Sun, 30 Aug 2009 12:49:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 32 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/32</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/32</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 33 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/33</link>
+      <description>Share project "ezclipse-extension" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/33</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 34 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/34</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/34</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 30 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/30</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/30</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 31 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/31</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/31</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 28 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/28</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/28</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 29 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/29</link>
+      <description>Share project "ch.wess.ezclipse.varbrowser" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/29</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 26 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/26</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/26</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 27 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/27</link>
+      <description>Share project "ch.wess.ezclipse.tpl.tests" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/27</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 25 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/25</link>
+      <description>Share project "ch.wess.ezclipse.tpl.nl1" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/25</guid>
+      <pubDate>Mon, 17 Aug 2009 06:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 23 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/23</link>
+      <description>Share project "ch.wess.ezclipse.tpl" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/23</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 24 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/24</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/24</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 22 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/22</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/22</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 19 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/19</link>
+      <description>Share project "ch.wess.ezclipse.ini.tests" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/19</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 20 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/20</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/20</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 21 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/21</link>
+      <description>Share project "ch.wess.ezclipse.site" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/21</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 17 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/17</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/17</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 18 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/18</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/18</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 16 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/16</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/16</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 15 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/15</link>
+      <description>Share project "ch.wess.ezclipse.ini" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/15</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 12 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/12</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/12</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 13 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/13</link>
+      <description>Share project "ch.wess.ezclipse.core.nl1" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/13</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 14 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/14</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/14</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 11 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/11</link>
+      <description>Share project "ch.wess.ezclipse.core" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/11</guid>
+      <pubDate>Mon, 17 Aug 2009 06:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 10 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/10</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/10</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 8 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/8</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/8</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 9 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/9</link>
+      <description>Share project "ch.wess.ezclipse.communication.tests" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/9</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 6 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/6</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/6</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 7 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/7</link>
+      <description>Share project "ch.wess.ezclipse.communication.nl1" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/7</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 4 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/4</link>
+      <description>Initial import.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/4</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 5 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/5</link>
+      <description>Share project "ch.wess.ezclipse.communication" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/5</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 3 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/3</link>
+      <description>Share project "ch.wess.ezclipse" into "http://svn.projects.ez.no/ezclipse"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/3</guid>
+      <pubDate>Mon, 17 Aug 2009 06:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 2 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/2</guid>
+      <pubDate>Mon, 17 Aug 2009 06:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclipse rev. 1 by Alain Sahli</title>
+      <link>http://projects.ez.no/ezclipse/subversion/1</link>
+      <description>Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclipse/subversion/1</guid>
+      <pubDate>Mon, 17 Aug 2009 06:25:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: General Feedback</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback19</link>
+      <description>Cool that you can develop good eclipse plugins :-)&#13;
+&#13;
+I am looking forward to work with you together :-)&#13;
+&#13;
+&#13;
+...&#13;
+The tpl variable browser problem. &#13;
+The problem is, that every tpl for a complete ez site has other variables (namespaces).&#13;
+&#13;
+May be i have a solution. We can write a new ez operator which works like a breakpoint in tpls. This operator serialize the $tpl data to the filesystem. For every pagerequest we need a unique id we can put to the output of ez. With this debug id we can connect ez (over soap ...) and unserialize the data and do var browsing :-)&#13;
+&#13;
+This var browser should be good for a new firefoxextension ;-).&#13;
+In Eclipse we have the problem to get this unique id for the request. This are some ideas ...&#13;
+Felix&#13;
+&#13;
+Please contact me directly   skype  or telphone or email. &#13;
+http://www.jac-systeme.de/kontakt</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback19</guid>
+      <pubDate>Fri, 14 Aug 2009 09:12:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Node Browser - improvement</title>
+      <link>http://projects.ez.no/ezclipse/forum/features_request/node_browser_improvement</link>
+      <description>- a box where you can set manually the node id&#13;
+- show the used node_id in the view</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/features_request/node_browser_improvement</guid>
+      <pubDate>Fri, 14 Aug 2009 08:59:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>TPL Editor - Code completion with ez help</title>
+      <link>http://projects.ez.no/ezclipse/forum/features_request/tpl_editor_code_completion_with_ez_help</link>
+      <description>...</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/features_request/tpl_editor_code_completion_with_ez_help</guid>
+      <pubDate>Fri, 14 Aug 2009 08:57:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>INI Browser</title>
+      <link>http://projects.ez.no/ezclipse/forum/features_request/ini_browser</link>
+      <description>Browser for ini files.&#13;
+&#13;
+1. get all possible inis from connected sitaccess&#13;
+2. choose ini&#13;
+3. browse ini variables</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/features_request/ini_browser</guid>
+      <pubDate>Fri, 14 Aug 2009 08:56:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Content Class Browser</title>
+      <link>http://projects.ez.no/ezclipse/forum/features_request/content_class_browser</link>
+      <description>To browse the contentclasses of an ez installation</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/features_request/content_class_browser</guid>
+      <pubDate>Fri, 14 Aug 2009 08:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Handle multiple siteaccesses e.g. for different languages</title>
+      <link>http://projects.ez.no/ezclipse/forum/features_request/handle_multiple_siteaccesses_e_g_for_different_languages</link>
+      <description>Connect to different siteaccesses has to be easy as possible. It is only needed for the database related stuff.&#13;
+&#13;
+To use the ez tpl parser, we only need one connect of one of the siteaccesses.</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/features_request/handle_multiple_siteaccesses_e_g_for_different_languages</guid>
+      <pubDate>Fri, 14 Aug 2009 08:54:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: General Feedback</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback18</link>
+      <description>Hi Felix,&#13;
+&#13;
+First of all, thanks for the feedback ;-)&#13;
+&#13;
+Before I started to develop this plug-in I taked a look to the smile and JAC plugins. But I found that the general structure of the plug-in wasn't good enough and this is the reason I started a new TPL editor.&#13;
+&#13;
+Actually I'm working on the autocompletion with integrated help that comes from the reference documentation... It shoud work soon :D&#13;
+&#13;
+&lt;i&gt;1. if you are in the eclipse php projekt explorer from (pdt) and go right mousclick on ezproject =&gt; no entry for SOAP settings is available, but if you do the same from the standard eclipse projekt repository it works :-)&lt;/i&gt;&#13;
+&#13;
+I know this problem, but I haven't found a solution for the moment. Actually I always create a "normal" project.&#13;
+&#13;
+&lt;i&gt;2. The standard colors of your tpl editor are 'to much', if you want you can use my eclipse tpl editor, already integrated in the smile extension (http://ez.no/developer/contribs/3...lipse_plugin_jac_ez_template_editor)&lt;/i&gt;&#13;
+&#13;
+All colors can be customized from the preferences window, so you can choose your own colors ;-)&#13;
+&#13;
+&lt;i&gt;3. the node browser works, after setting the node_id when do right mouse click on a tpl file&#13;
+( i like this kind of browsing )&lt;/i&gt;&#13;
+&#13;
+This feature have to be improved ! Because actually I only show nodes but sometimes theres templates which becomes an object. The main idea I had was to list all the available variables but I don't found a solution on the eZ side to do this :(&#13;
+&#13;
+&lt;i&gt;4. the tpl parser did not work correctly, eclipse validates the tpl file and send the validation request over soap, and soap answer correctly but no error is shown in the error view of eclipse&#13;
+=&gt; the tpl parsing works in the smile extension (http://ez.no/developer/contribs/3...rty/smile_ez_publish_eclipse_plugin)&lt;/i&gt;&#13;
+&#13;
+The eZ Parser is definitly not a good parser ! I think the best thing to do is to develop a Java parser which is able to detect more errors. This solution should be faster and more powerful.&#13;
+&#13;
+&lt;i&gt;1. I /we could help you with developing ( i am not a big java programmer, but i am fit in ez , and i could patch e.g. the templateparser so it gives better results for eclipse and hopefully we get this into the ez kernel )&lt;/i&gt;&#13;
+&#13;
+Good idea :D I have good skills in Eclipse development and I think we could really create a good IDE for eZ Publish.&#13;
+&#13;
+&lt;i&gt;2. when we work together, i would focus to develop an ez tool that can handle an ez installation with several different ez projects ( or siteaccesses ). We for example are using 1 ez installation with at the moment over 50 different ez projekts (dbs). So we need a smart projekt switch in eclipse. The only way i see is to do that by switching the siteaccess.&lt;/i&gt;&#13;
+&#13;
+Ok but the problem is that we should create the plug-in as generic as possible. The IDE should not impose a project structure. For example in my company we are not working in this way ;-)&#13;
+&#13;
+&lt;i&gt;- then we have an eclipse view simelar to the nodeview browser, here we can choose the siteaccess we want to connect, after connect we can do node querys, get ini's, get contentclass definitions, clear the cache ... i have a lot of ideas&lt;/i&gt;&#13;
+&#13;
+I have a lot ideas too ;-) Maybe we should create a post with a list of it.&#13;
+&#13;
+&lt;i&gt;What you are think about that?&lt;/i&gt;&#13;
+&#13;
+I think we should work together to create the best plugin on the world ;-)&#13;
+I'm happy if we can work together to develop a really good Eclipse plugin that offers some nice stuff. But I haven't any experience in open source project management. Thus I dont' know what is the best way to work together.&#13;
+&#13;
+PS: I speak better german than english ;-)</description>
+      <author>community@ez.no (Alain Sahli)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback18</guid>
+      <pubDate>Fri, 14 Aug 2009 07:44:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: General Feedback</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback17</link>
+      <description>Hi Alain,&#13;
+Yesterday i installed your ezclipse extension on ez4.0.1 and eclipse gallileo (pdt) on fedora 11.&#13;
+&#13;
+&lt;b&gt;I had some troubles to get it to work.&lt;/b&gt;&#13;
+&#13;
+1. if you are in the eclipse php projekt explorer from (pdt) and go right mousclick on ezproject =&gt; no entry for SOAP settings is available, but if you do the same from the standard eclipse projekt repository it works :-)&#13;
+&#13;
+2. The standard colors of your tpl editor are 'to much', if you want you can use my eclipse tpl editor, already integrated in the smile extension (http://ez.no/developer/contribs/3rd_party/eclipse_plugin_jac_ez_template_editor)&#13;
+&#13;
+3. the node browser works, after setting the node_id when do right mouse click on a tpl file&#13;
+( i like this kind of browsing )&#13;
+&#13;
+4. the tpl parser did not work correctly, eclipse validates the tpl file and send the validation request over soap, and soap answer correctly but no error is shown in the error view of eclipse &#13;
+=&gt; the tpl parsing works in the smile extension (http://ez.no/developer/contribs/3rd_party/smile_ez_publish_eclipse_plugin)&#13;
+&#13;
+Can you do some more screenshots e.g. tpl parser .... and put it in the gallery? It will be good for all testers. &#13;
+&#13;
+....&#13;
+&#13;
+&lt;b&gt;And now i have some ideas for this project.&lt;/b&gt;&#13;
+1. I /we could help you with developing ( i am not a big java programmer, but i am fit in ez , and i could patch e.g. the templateparser so it gives better results for eclipse and hopefully we get this into the ez kernel )&#13;
+2. when we work together, i would focus to develop an ez tool that can handle an ez installation with several different ez projects ( or siteaccesses ). We for example are using 1 ez installation with at the moment over 50 different ez projekts (dbs). So we need a smart projekt switch in eclipse. The only way i see is to do that by switching the siteaccess.&#13;
+&#13;
+&lt;b&gt;My ideas for setting up the extension would be:&lt;/b&gt;&#13;
+&#13;
+- eclipse project, define an ez server url, this is only use for tpl parsing, and the request for all active siteaccesses on this ezinstallation&#13;
+- then we have an eclipse view simelar to the nodeview browser, here we can choose the siteaccess we want to connect, after connect we can do node querys, get ini's, get contentclass definitions, clear the cache ...  i have a lot of ideas&#13;
+&#13;
+And another thing is why using soap? I think this development extension have to be easy to install, but to setting up soap for a multi project ez installation is not possible without an ez patch at the moment. An other disadvantage is debugging of soap is more difficulty.&#13;
+I think we can do all the requests over the normal ez way like the smile extension will do. The advantage is better debugging, we can use this function for export xml ( e.g. class definitions) or reuse the function for a new ez debug extension ( in admin interface )&#13;
+&#13;
+And of course we should be work on improving the tpl editor. I tried a little bit with code completion but it is not so easy. I know that some german ez partner are interested to have a better eclipse integration and may be spend some money.&#13;
+&#13;
+What you are think about that? &#13;
+&#13;
+A lot of greetings from Stralsund ( North Germany )&#13;
+Felix Woldt&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/general_feedback/re_general_feedback17</guid>
+      <pubDate>Fri, 14 Aug 2009 07:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezclipse doesn't work with SE JDK 5.0 Windo...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo4</link>
+      <description>Alain,&#13;
+&#13;
+Thank you,&#13;
+&#13;
+I'll be trying both features, &#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo4</guid>
+      <pubDate>Thu, 13 Aug 2009 09:59:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezclipse doesn't work with SE JDK 5.0 Windo...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo3</link>
+      <description>Here is the documentation :&#13;
+&#13;
+http://sourceforge.net/docman/index.php?group_id=265369&#13;
+&#13;
+I post it on the project page...</description>
+      <author>community@ez.no (Alain Sahli)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo3</guid>
+      <pubDate>Wed, 12 Aug 2009 10:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezclipse doesn't work with SE JDK 5.0 Windo...</title>
+      <link>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo2</link>
+      <description>Hi,&#13;
+&#13;
+I'm new to Eclipse, after a few days trying Eclipse PDT , I think this is a terrific editor&#13;
+&#13;
+Adding ezpublish support ( like phpedit ) could make it a very competitive choice &#13;
+&#13;
+I understand you are alone,  &#13;
+&#13;
+Right know would be nice a "minimalistic requirement list" , so newbies trying it don't give up before start&#13;
+&#13;
+I have seen the node view, how does it work ?, again a "minimalistic user guide doc", would be nice &#13;
+&#13;
+Thanks for your work!</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezclipse/forum/general/ezclipse_doesn_t_work_with_se_jdk_5_0_windows_vista/re_ezclipse_doesn_t_work_with_se_jdk_5_0_windo2</guid>
+      <pubDate>Wed, 12 Aug 2009 09:47:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

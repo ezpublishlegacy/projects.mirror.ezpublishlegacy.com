@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bccontentdiffnotifications / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:04 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:04 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1196" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/1a069961d04629cc2d0a3e426da99aac9f0ff7f7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Replaced deprecated template init with new 4.3+ eZTemplate class replacement. Added code to test and only generate attribute diff when attribute exists in new version to avoid php warnings/errors&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/1a069961d04629cc2d0a3e426da99aac9f0ff7f7</guid>
+      <pubDate>Fri, 12 Jun 2015 09:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 12 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/12</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bccontentdiffnotifications</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/12</guid>
+      <pubDate>Wed, 30 Nov 2011 03:45:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 11 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/11</link>
+      <description>- changes for eZ Publish 4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/11</guid>
+      <pubDate>Wed, 25 Feb 2009 09:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 10 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/10</link>
+      <description>- less aggressive markup for ins and del elements, as used in the admin interface</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/10</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 7 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/7</link>
+      <description>Added: Installation documentation file doc/INSTALL</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 8 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/8</link>
+      <description>- Some fixes
+- Added a subtree notification template</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 9 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/9</link>
+      <description>- set content_type var for use with patch http://issues.ez.no/11410</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/9</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 5 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/5</link>
+      <description>Added: module settings file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 6 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/6</link>
+      <description>Added: module with template fetch functions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/3</link>
+      <description>- Added command line arguments for sender and receiver e-mail addresses</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 4 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/4</link>
+      <description>- Added some safeguards to prevent fatal errors in case wrong command line arguments are used</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/1</link>
+      <description>Added: Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>bccontentdiffnotifications rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bccontentdiffnotifications/subversion/2</link>
+      <description>Added: License</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bccontentdiffnotifications/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

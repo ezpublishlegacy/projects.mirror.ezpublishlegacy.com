@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowmetadata / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:01:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:01:03 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14351" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mobile Sitemap Update</title>
+      <link>http://projects.ez.no/xrowmetadata/news/mobile_sitemap_update</link>
+      <description>&lt;p&gt;Google has introduced a new way for xml sitemaps for mobile websites.&lt;/p&gt;</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/xrowmetadata/news/mobile_sitemap_update</guid>
+      <pubDate>Tue, 26 Jun 2012 16:59:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mobile sitemap for google</title>
+      <link>http://projects.ez.no/xrowmetadata/news/mobile_sitemap_for_google</link>
+      <description>&lt;p&gt;The extension xrowmetadata got a new feature: Now it's possible to create a specific sitemap for the mobile version of a site.&lt;/p&gt;</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/xrowmetadata/news/mobile_sitemap_for_google</guid>
+      <pubDate>Tue, 27 Sep 2011 19:39:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Update of google sitemap functionallity</title>
+      <link>http://projects.ez.no/xrowmetadata/news/update_of_google_sitemap_functionallity</link>
+      <description>&lt;p&gt;We have done a bigger update of the google sitemap creation. Now you can add items to your google sitemap which doesn't have a xrowmetadatatype included. Moreover you can add items by ini file and gzip the sitemap to reduce traffic.&lt;/p&gt;</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/xrowmetadata/news/update_of_google_sitemap_functionallity</guid>
+      <pubDate>Sun, 17 Jan 2010 17:11:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Added german translation</title>
+      <link>http://projects.ez.no/xrowmetadata/news/added_german_translation</link>
+      <description>&lt;p&gt;We added a german translation for the datatype. We are looking for more translations, who will help us and contribute one?&lt;/p&gt;&lt;p&gt;The metakeywords are now treated like "ezkeywords" and will be additionally stored in the ezkeywords table.&lt;/p&gt;</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/xrowmetadata/news/added_german_translation</guid>
+      <pubDate>Mon, 06 Jul 2009 15:17:46 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpersistentobject_generator / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:12 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:12 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1652" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpersistentobject_generator rev. 10 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/10</link>
+      <description>- Implemented enhancement: use the PHP 5 __construct method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/10</guid>
+      <pubDate>Tue, 09 Dec 2008 08:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 9 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/9</link>
+      <description>- Implemented: support for smallint</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/9</guid>
+      <pubDate>Wed, 21 May 2008 12:30:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 8 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/8</link>
+      <description>- Implemented: support for tinyint</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 6 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/6</link>
+      <description>- Created: 1.0 branch for eZ Publish 3.x compatible version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 7 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/7</link>
+      <description>- Created: 1.0 branch compatible with eZ Publish 3.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 4 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/4</link>
+      <description>- Implemented enhancement: ask for increment_key column
+- Implemented enhancement: ask for key columns</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 5 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/5</link>
+      <description>- Implemented enhancement: eZ Publish 4 compatibility</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 2 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/2</link>
+      <description>- Fixed: php4 errors</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/3</link>
+      <description>- Fixed bug: all tables are taken into account, not only those of the current schema
+- Fixed bug: table names are not escaped in SQL</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_generator rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezpersistentobject_generator/subversion/1</link>
+      <description>- Added: script for MySQL 5.x +</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_generator/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

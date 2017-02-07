@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowcdn / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:01:14 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:01:14 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19044" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xrowcdn rev. 41 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/41</link>
+      <description>removed class</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/41</guid>
+      <pubDate>Tue, 23 Jul 2013 13:15:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 40 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/40</link>
+      <description>exclude cdn hosts</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/40</guid>
+      <pubDate>Wed, 10 Jul 2013 10:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 39 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/39</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/39</guid>
+      <pubDate>Fri, 10 May 2013 21:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 38 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/38</link>
+      <description>setting modified
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/38</guid>
+      <pubDate>Thu, 04 Aug 2011 11:00:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 37 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/37</link>
+      <description>gzip disabled by default</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/37</guid>
+      <pubDate>Thu, 04 Aug 2011 10:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 36 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/36</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/36</guid>
+      <pubDate>Thu, 17 Feb 2011 20:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 35 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/35</link>
+      <description>fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/35</guid>
+      <pubDate>Tue, 14 Dec 2010 23:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 34 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/34</link>
+      <description>- fixed gzip support</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/34</guid>
+      <pubDate>Thu, 10 Sep 2009 18:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 33 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/33</link>
+      <description>- added meta for file upload ( encoding )</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/33</guid>
+      <pubDate>Thu, 10 Sep 2009 16:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 32 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/32</link>
+      <description>- fixed typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/32</guid>
+      <pubDate>Thu, 10 Sep 2009 16:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 31 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/31</link>
+      <description>- Changed ini-File for better reading
+- Moved GZIP setting to global section.
+- Added GZIP suffixes for Distribution Rules</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/31</guid>
+      <pubDate>Thu, 10 Sep 2009 15:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 30 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/30</link>
+      <description>- Added GZIP encoding feature to Rules and output filter
+- Added Varnish extra header information
+- Improved file fetching for distribution files (double entries removed)
+- fixed Database Rule problem (only one rule can apply because of the bucket match)
+- Updated example ini-File</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/30</guid>
+      <pubDate>Thu, 10 Sep 2009 13:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 29 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/29</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/29</guid>
+      <pubDate>Fri, 04 Sep 2009 14:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 28 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/28</link>
+      <description>fix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/28</guid>
+      <pubDate>Fri, 04 Sep 2009 14:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 27 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/27</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/27</guid>
+      <pubDate>Fri, 04 Sep 2009 14:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 26 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/26</link>
+      <description>new site data</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/26</guid>
+      <pubDate>Fri, 04 Sep 2009 13:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 25 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/25</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/25</guid>
+      <pubDate>Fri, 04 Sep 2009 13:00:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 24 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/24</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/24</guid>
+      <pubDate>Fri, 04 Sep 2009 12:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 23 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/23</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/23</guid>
+      <pubDate>Fri, 04 Sep 2009 12:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 22 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/22</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/22</guid>
+      <pubDate>Fri, 04 Sep 2009 11:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 21 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/21</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/21</guid>
+      <pubDate>Thu, 03 Sep 2009 18:45:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 20 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/20</link>
+      <description>- fixed eZSite_data value set
+- fixed time setting in xrowcdn.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/20</guid>
+      <pubDate>Thu, 03 Sep 2009 17:15:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 19 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/19</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/19</guid>
+      <pubDate>Thu, 03 Sep 2009 16:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 18 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/18</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/18</guid>
+      <pubDate>Thu, 03 Sep 2009 13:45:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 17 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/17</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/17</guid>
+      <pubDate>Thu, 03 Sep 2009 12:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 16 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/16</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/16</guid>
+      <pubDate>Thu, 03 Sep 2009 11:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 15 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/15</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/15</guid>
+      <pubDate>Thu, 03 Sep 2009 11:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 14 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/14</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/14</guid>
+      <pubDate>Thu, 03 Sep 2009 11:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 13 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/13</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/13</guid>
+      <pubDate>Thu, 03 Sep 2009 11:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 12 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/12</link>
+      <description>more fixes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/12</guid>
+      <pubDate>Thu, 03 Sep 2009 11:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 11 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/11</link>
+      <description>more fixes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/11</guid>
+      <pubDate>Thu, 03 Sep 2009 10:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 10 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/10</link>
+      <description>update doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/10</guid>
+      <pubDate>Wed, 02 Sep 2009 23:25:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 9 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/9</link>
+      <description>update doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/9</guid>
+      <pubDate>Wed, 02 Sep 2009 23:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 8 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/8</link>
+      <description>save more ram</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/8</guid>
+      <pubDate>Wed, 02 Sep 2009 22:45:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 7 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/7</link>
+      <description>more fixes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/7</guid>
+      <pubDate>Wed, 02 Sep 2009 21:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 6 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/6</link>
+      <description>more fixes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/6</guid>
+      <pubDate>Wed, 02 Sep 2009 21:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 5 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/5</link>
+      <description>force loading of not exits</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/5</guid>
+      <pubDate>Wed, 02 Sep 2009 21:15:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 4 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/4</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/4</guid>
+      <pubDate>Wed, 02 Sep 2009 18:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 3 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/3</link>
+      <description>- fixed new get latest update database
+- fixed new get latest update distribution</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/3</guid>
+      <pubDate>Tue, 01 Sep 2009 14:25:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 2 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/2</link>
+      <description>- updated xrowCDN class, removed unnecessary class
+- updated README.txt
+- added Ditribution flag to xrowcdn.ini
+- wrapped update timestamp function for database and distribution</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/2</guid>
+      <pubDate>Tue, 01 Sep 2009 14:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowcdn rev. 1 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowcdn/subversion/1</link>
+      <description>- initial import of xrowCDN extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowcdn/subversion/1</guid>
+      <pubDate>Tue, 01 Sep 2009 12:10:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

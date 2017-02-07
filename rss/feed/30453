@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / object_content_class_change / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:32:39 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:32:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30453" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/object_content_class_change/news/changelog</link>
+      <description>&lt;p&gt;
+0.61 (ar)&lt;br /&gt;
+ * conversionFunctions::getSimpleConversionArray is using $this so can&lt;br /&gt;
+ not be called statically&lt;br /&gt;
+ * lots of missing is_set / isset checks in map_attribute.php and&lt;br /&gt;
+ map_attribute.tpl on arrays&lt;br /&gt;
+ 0.60 (ar)&lt;br /&gt;
+ * fixed while bug in cli script&lt;br /&gt;
+ * Fixed possible 'mem leak'&lt;br /&gt;
+ + added ezstring / eztext -&gt; ezxml converter (thanks Mauro&lt;br /&gt;
+ Innocenti)&lt;br /&gt;
+ + added ezstring to ezint / ezfloat converter (untested!)&lt;br /&gt;
+ Known bug: Duplicated relations with object relation(s) attributes&lt;br /&gt;
+ 0.51 (ar)&lt;br /&gt;
+ * fixed offset bug&lt;br /&gt;
+ * fixed 3.8.x api bug&lt;br /&gt;
+ + added sub-tree parameter&lt;br /&gt;
+ + added logging capability&lt;br /&gt;
+ 0.50 (ar)&lt;br /&gt;
+ + Added batch converting ability with wizard&lt;br /&gt;
+ * some other small fixes&lt;br /&gt;
+ + added lichens text and ezinfo.php&lt;br /&gt;
+ 0.31&lt;br /&gt;
+ * included patch from Peter Putzer&lt;br /&gt;
+ 0.30&lt;br /&gt;
+ + Added simple conversion - now it's possible to define conversion in&lt;br /&gt;
+ changeclass.ini&lt;br /&gt;
+ [SimpleConversion]&lt;br /&gt;
+ SupportedConversion[]=eztext;ezstring&lt;br /&gt;
+ Above settings will enable mapping between different datatypes when there&lt;br /&gt;
+ is no need to make any changes on attribute content &lt;br /&gt;
+ 0.23 (ar)&lt;br /&gt;
+ + Added possibility to have custom datatype converters, one example is&lt;br /&gt;
+ included where relationslist is converted to a 'relationlistbloc'&lt;br /&gt;
+ witch is a relationlist with dates on each relation.&lt;br /&gt;
+ * Fixed some bugs / warnings&lt;br /&gt;
+ 0.19&lt;br /&gt;
+ * Possibility to change existing object to different content class -&lt;br /&gt;
+ button "Modify object"&lt;br /&gt;
+ 0.1&lt;br /&gt; + Initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/object_content_class_change/news/changelog</guid>
+      <pubDate>Mon, 08 Oct 2007 08:03:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

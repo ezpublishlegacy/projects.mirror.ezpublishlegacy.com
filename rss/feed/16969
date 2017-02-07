@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / objectrelationfilter / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:18 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16969" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Moving objectrelationfilter from contribs</title>
+      <link>http://projects.ez.no/objectrelationfilter/news/moving_objectrelationfilter_from_contribs</link>
+      <description>&lt;p&gt; Moving from &lt;a href="http://ez.no/developer/contribs/template_plugins/objectrelationfilter" target="_self"&gt;http://ez.no/developer/contribs/template_plugins/objectrelationfilter&lt;/a&gt; and taking over maintenance of Marc Boons great work. &lt;/p&gt;&lt;p&gt; First plans are to integrate Kristof and Benjamins additions, and test it against 4.0, 4.1&lt;/p&gt;&lt;p&gt; Best Regards, Norbert&lt;/p&gt;&lt;p&gt;UPDATE: Patches+ merged as of svn rev. 2 in trunk. Thanks André&lt;/p&gt;</description>
+      <author>community@ez.no (Norbert Wagner)</author>
+      <guid>http://projects.ez.no/objectrelationfilter/news/moving_objectrelationfilter_from_contribs</guid>
+      <pubDate>Mon, 15 Jun 2009 09:47:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

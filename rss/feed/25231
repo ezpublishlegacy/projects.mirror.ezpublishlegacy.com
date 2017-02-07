@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezwebservicesapi</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25231" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezwebservicesapi rev. 47 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/47</link>
+      <description>- two typos in comments
+- introduce a js proxy for template code (fetches, persistent objects)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/47</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 46 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/46</link>
+      <description>- tag for release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/46</guid>
+      <pubDate>Sat, 04 Dec 2010 18:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.4 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_4_released</link>
+      <description>&lt;p&gt;Bugfixes galore! More details &lt;a href="http://svn.projects.ez.no/ezwebservicesapi/trunk/extension/ezwebservicesapi/doc/changelogs/CHANGELOG-0.3-to-0.4" target="_self"&gt;in the changelog&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_4_released</guid>
+      <pubDate>Sat, 04 Dec 2010 18:23:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 45 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/45</link>
+      <description>- add dependency file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/45</guid>
+      <pubDate>Sat, 04 Dec 2010 18:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 44 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/44</link>
+      <description>- changelog update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/44</guid>
+      <pubDate>Wed, 01 Dec 2010 22:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 42 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/42</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/42</guid>
+      <pubDate>Sun, 28 Nov 2010 21:07:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 41 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/41</link>
+      <description>- error in fetching some specific pos in ezp::inspect (eg. eZContentObjectAttribute)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/41</guid>
+      <pubDate>Sun, 28 Nov 2010 19:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 40 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/40</link>
+      <description>- docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/40</guid>
+      <pubDate>Sun, 28 Nov 2010 19:19:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 39 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/39</link>
+      <description>- fix perms checking on ezp::inspect called via ezjscore</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/39</guid>
+      <pubDate>Sun, 28 Nov 2010 19:18:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.3 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_3_released</link>
+      <description>&lt;p&gt;A single bugfix: the ezp::inspect() webservice was not working when called using the ezjscore protocol.&lt;/p&gt;&lt;p&gt;Since this webservice is used by the pending new release of the &lt;a href="http://projects.ez.no/ezdebug_template_operator" target="_self"&gt;ezdebug&lt;/a&gt; extension for a drill-down-variable-analysis template operator, the patching was deemed urgent.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_3_released</guid>
+      <pubDate>Sun, 28 Nov 2010 01:26:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi-0.3.zip</title>
+      <link>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_3_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_3_zip</guid>
+      <pubDate>Sun, 28 Nov 2010 01:23:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.2 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_2_released</link>
+      <description>&lt;p&gt;Main new features&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;ezjscore support. Yes! Now you can use your favorite ajax client to invoke all exposed webservices&lt;/li&gt;
+
+&lt;li&gt;support for invoking all existing module operations (what are they? who knows! but they can be executed, so who cares...)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;But also: fix calling eZ Publish views via webservices.&lt;/p&gt;&lt;p&gt;A detailed blog post explaining how this works (or not) is in the works...&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_2_released</guid>
+      <pubDate>Mon, 08 Nov 2010 21:01:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi-0.2.zip</title>
+      <link>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_2_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_2_zip</guid>
+      <pubDate>Mon, 08 Nov 2010 20:58:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 38 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/38</link>
+      <description>- tag after release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/38</guid>
+      <pubDate>Mon, 08 Nov 2010 20:51:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 37 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/37</link>
+      <description>- tag for release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/37</guid>
+      <pubDate>Mon, 08 Nov 2010 20:46:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 36 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/36</link>
+      <description>- fix generation of ws from native apis: comments broke the generated php file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/36</guid>
+      <pubDate>Mon, 08 Nov 2010 20:31:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 35 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/35</link>
+      <description>- improve docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/35</guid>
+      <pubDate>Mon, 08 Nov 2010 20:06:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 34 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/34</link>
+      <description>- update todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/34</guid>
+      <pubDate>Mon, 08 Nov 2010 06:51:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 33 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/33</link>
+      <description>- fix handling of parameters received from ws and passed on to wsapiexecutor: most of them are json-encoded</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/33</guid>
+      <pubDate>Mon, 08 Nov 2010 06:51:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 32 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/32</link>
+      <description>- fix minor incoherence in name and default val of 1st param in ezp.viewall ws method php call</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/32</guid>
+      <pubDate>Mon, 08 Nov 2010 06:51:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 31 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/31</link>
+      <description>- document latest changes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/31</guid>
+      <pubDate>Sun, 07 Nov 2010 20:02:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 30 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/30</link>
+      <description>- fix invocation of ezp.view.*. Unfortunately this is quite an API breakage</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/30</guid>
+      <pubDate>Sun, 07 Nov 2010 20:01:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 29 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/29</link>
+      <description>- speling</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/29</guid>
+      <pubDate>Sun, 07 Nov 2010 20:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 28 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/28</link>
+      <description>- do not crash if ezpersistentobject_inspector is not enabled
+- make ezp.inspect work even when class names are not all lowercase</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/28</guid>
+      <pubDate>Sun, 07 Nov 2010 19:42:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 27 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/27</link>
+      <description>- improve the documentation of available ws if extension ezpersistentobject_inspector is available</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/27</guid>
+      <pubDate>Sun, 07 Nov 2010 18:39:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 26 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/26</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/26</guid>
+      <pubDate>Sun, 07 Nov 2010 18:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 25 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/25</link>
+      <description>- do not create any more new methods in ezwsapijscfunctions: realy on 3 class methods for all fetches/views/operations
+- use a custom policy system instead of relying on ezjscore one, which is not flexible enough (this includes  creating a custom module)
+- update docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/25</guid>
+      <pubDate>Sun, 07 Nov 2010 18:01:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 24 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/24</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/24</guid>
+      <pubDate>Sun, 07 Nov 2010 17:41:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 23 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/23</link>
+      <description>- allow recursive params</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/23</guid>
+      <pubDate>Sun, 07 Nov 2010 17:41:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 22 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/22</link>
+      <description>- remove leftover debug code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/22</guid>
+      <pubDate>Sun, 07 Nov 2010 17:40:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 21 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/21</link>
+      <description>- add to ggws convention the possibility to call module operations
+- add to jsc convention the possibility to call module operations
+- add to jsc convention the possibility to call views, operations and fetches, with one dedicated ws each</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/21</guid>
+      <pubDate>Sun, 07 Nov 2010 17:24:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 20 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/20</link>
+      <description>- update todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/20</guid>
+      <pubDate>Tue, 26 Oct 2010 14:05:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 19 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/19</link>
+      <description>- update info file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/19</guid>
+      <pubDate>Mon, 25 Oct 2010 00:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/18</link>
+      <description>- expose all webservices using all protocols</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/18</guid>
+      <pubDate>Sat, 23 Oct 2010 17:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/17</link>
+      <description>- update docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/17</guid>
+      <pubDate>Sat, 23 Oct 2010 14:05:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/16</link>
+      <description>- update docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/16</guid>
+      <pubDate>Sat, 23 Oct 2010 13:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 15 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/15</link>
+      <description>- add preliminary support for ezjscore
+- add a new ws used to inspect data</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/15</guid>
+      <pubDate>Sat, 23 Oct 2010 13:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 14 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/14</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/14</guid>
+      <pubDate>Sun, 20 Jun 2010 00:20:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/13</link>
+      <description>- fix encoding depth of vars as result of ezp.view.xx: objs in arrays are encoded as deep as objects outside arrays;
+- allow caller to decide the encoding level to be used</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/13</guid>
+      <pubDate>Sun, 20 Jun 2010 00:10:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/12</link>
+      <description>set the default nesting level of object decoding for fetch results to 1, as it is what was in use actually; use the same level whether a single object or an array is returned</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/12</guid>
+      <pubDate>Sun, 20 Jun 2010 00:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/11</link>
+      <description>- remove one message in warning log that appeared under normal conditions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/11</guid>
+      <pubDate>Sat, 19 Jun 2010 22:40:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/10</link>
+      <description>- make sure this extension is enabled as JSONRPC provider, and that it registers webservices for jsonrpc also when RegisterAllProtocolsFunctions=disabled
+- update docs for 0.2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/10</guid>
+      <pubDate>Sat, 19 Jun 2010 20:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.1 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_1_released</link>
+      <description>&lt;p&gt;Not yet quite complete, this release supports:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;invocation of any existing fetch function (including ones from extensions)&lt;/li&gt;
+
+&lt;li&gt;invocation of any existing module view (including ones from extensions)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;via the following webservice protocols:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;jsonrpc&lt;/li&gt;
+
+&lt;li&gt;xmlrpc&lt;/li&gt;
+
+&lt;li&gt;ajax (via jsonrpc)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Fine-grained access control is possible (with limitation at the level of the single view/fetch function)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_1_released</guid>
+      <pubDate>Fri, 18 Jun 2010 13:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi-0.1.zip</title>
+      <link>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_1_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/downloads/ezwebservicesapi_0_1_zip</guid>
+      <pubDate>Fri, 18 Jun 2010 12:59:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/9</link>
+      <description>- update docs;
+- tag for 0.1 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/9</guid>
+      <pubDate>Fri, 18 Jun 2010 12:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/8</link>
+      <description>- remove layout/set view from available ones for ws</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/8</guid>
+      <pubDate>Fri, 18 Jun 2010 11:25:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/7</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/7</guid>
+      <pubDate>Fri, 18 Jun 2010 11:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/6</link>
+      <description>- add doc files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/6</guid>
+      <pubDate>Thu, 17 Jun 2010 16:35:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/5</link>
+      <description>- comment out one useless line</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/5</guid>
+      <pubDate>Thu, 17 Jun 2010 15:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezwebservicesapi rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezwebservicesapi/subversion/4</link>
+      <description>- allow extension's cache to be cleared</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/subversion/4</guid>
+      <pubDate>Tue, 11 May 2010 16:10:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

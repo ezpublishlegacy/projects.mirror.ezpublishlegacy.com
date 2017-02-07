@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdevtools</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:18:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:18:28 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43809" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/5699dabe3d211023bfd4896c5800a047486e45f7</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/5699dabe3d211023bfd4896c5800a047486e45f7</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/67747f03a5203b5533411a118f16cfdf335a3d27</link>
+      <description>
+      &lt;pre&gt;+ classes/models/ezpDevToolsContentModel.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added content model class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/67747f03a5203b5533411a118f16cfdf335a3d27</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/ddb53a7b2948bec27bedc099473436a97e5a48bd</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/ezpDevToolsContent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Refactored content class list controller logic into a new model, to increase reusability&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/ddb53a7b2948bec27bedc099473436a97e5a48bd</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/e1ad4d012da49cfeed2ebb6d094364c4cdf496f6</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/ezpDevToolsContent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed useless Fields response group for classes list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/e1ad4d012da49cfeed2ebb6d094364c4cdf496f6</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/f142500189aca38a05b1d1660e5848e5c881730d</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/f142500189aca38a05b1d1660e5848e5c881730d</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/b32ac13a44897513541d1876732cdea093a3abb6</link>
+      <description>
+      &lt;pre&gt;+ classes/controllers/ezpDevToolsContent.php
++ classes/ezpDeveloperToolsProvider.php
++ settings/rest.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added initial REST structure + service for retrieving content classes information&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/b32ac13a44897513541d1876732cdea093a3abb6</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/33d3e9411896a4d579a1ee08dc7a9d29370a99c2</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/33d3e9411896a4d579a1ee08dc7a9d29370a99c2</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/9d330eb6c4a640e498a81f08430dcfd5c624d943</link>
+      <description>
+      &lt;pre&gt;+ bin/php/router.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented #1 Add a router script for built-in PHP webserver (PHP 5.4)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/9d330eb6c4a640e498a81f08430dcfd5c624d943</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/cc30538e3dded3c6ed53b81cf25e6b3ea6d1b23c</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/ezpDevToolsTemplate.php
+m classes/ezpDeveloperToolsProvider.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Basic template functions list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/cc30538e3dded3c6ed53b81cf25e6b3ea6d1b23c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/9f07472ea1e9617c9aa26df32a557b4c2d8d2e70</link>
+      <description>
+      &lt;pre&gt;m classes/models/ezpDevToolsTemplateModel.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added more information in operator list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/9f07472ea1e9617c9aa26df32a557b4c2d8d2e70</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/a7a561c448c45c0b10421e75fe122ad4e720dcb5</link>
+      <description>
+      &lt;pre&gt;+ classes/controllers/ezpDevToolsTemplate.php
+m classes/ezpDeveloperToolsProvider.php
++ classes/models/ezpDevToolsTemplateModel.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added list of operators + their params&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/a7a561c448c45c0b10421e75fe122ad4e720dcb5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/eec6b554dded17e7ff6224a62692980b430b4634</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/ezpDevToolsContent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed unused class constant in ezpDevToolsContent&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/eec6b554dded17e7ff6224a62692980b430b4634</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/11e943284176ae56d59bd4d1b219d3e0aa15eaa1</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/ezpDevToolsContent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Oops, forgot a save :-P&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/11e943284176ae56d59bd4d1b219d3e0aa15eaa1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/1ef65236ee0415a04b7c83eb589886ebb5c58415</link>
+      <description>
+      &lt;pre&gt;m bin/php/router.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #3 ['CONTENT_LENGTH'] is not set&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/1ef65236ee0415a04b7c83eb589886ebb5c58415</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/ac4bdd872d369cd764425e2faaee9d08088f53e8</link>
+      <description>
+      &lt;pre&gt;m bin/php/router.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Latest PHP 5.4 build now provides SERVER_NAME and SERVER_PORT, no need to tweak them any more&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/ac4bdd872d369cd764425e2faaee9d08088f53e8</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/1e98b9c90bd033f4b996fc643f1329c96129068e</link>
+      <description>
+      &lt;pre&gt;m bin/php/router.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #2 SERVER_ADDR should not equal to REMOTE_ADDR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/1e98b9c90bd033f4b996fc643f1329c96129068e</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdevtools/subversion/b02b6b5b2b4e72015acdf7497b69c4950be4e8b4</link>
+      <description>
+      &lt;pre&gt;m bin/php/router.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added a help message if router script is not launched as a PHP webserver router script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdevtools/subversion/b02b6b5b2b4e72015acdf7497b69c4950be4e8b4</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpublish_translation / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:56:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:56:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23316" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpublish_translation rev. 121 by Georg Franz</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/121</link>
+      <description>Translated missing german strings, corrected some old phrases.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/121</guid>
+      <pubDate>Wed, 23 Mar 2011 13:41:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 120 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/120</link>
+      <description>--Branched trunk (used for the 4.5 cycle) into the stable/4.5-matterhorn branch. The trunk is now ready for 4.6 (Annapurna) translation !
+Thanks a lot for the wonderful job done this cycle again. Next cycle should see great improvements on the localization process, trying to minimize the amount of technical knowledge required to be able to participate (SVN for instance).
+4.5 will be a finely localized version of eZ Publish, every version being enhanced with your contributions. 
+Thanks again and see you in the Annapurna cycle (4.6 !
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/120</guid>
+      <pubDate>Mon, 21 Feb 2011 11:21:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 119 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/119</link>
+      <description>--Merged new string updates from master (https://github.com/ezsystems/ezpublish) into the existing trunk files (the ones which were not touched during the 4.4 localisation cycle)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/119</guid>
+      <pubDate>Mon, 21 Feb 2011 11:01:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 118 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/118</link>
+      <description>--Merged the work done on 4.5 localization with the new string updates from eZ Publish master. 
+Thanks a lot for the wonderful job done this cycle again. Next cycle should see great improvements on the localization process, trying to minimize the amount of technical knowledge required to be able to participate (SVN for instance).
+4.5 will be a finely localized version of eZ Publish, every version being enhanced with your contributions. 
+Thanks again and see you in the Annapurna cycle (4.5) !
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/118</guid>
+      <pubDate>Mon, 21 Feb 2011 10:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 117 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/117</link>
+      <description>--Preparing stable branch for Matterhorn (4.5) release. Will be populated by the content of the trunk immediately.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/117</guid>
+      <pubDate>Mon, 21 Feb 2011 10:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 116 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/116</link>
+      <description>- esl-mx: fix bad percentage completion during setup wizard</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/116</guid>
+      <pubDate>Tue, 08 Feb 2011 14:41:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 115 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/115</link>
+      <description>Type on eZ Publish name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/115</guid>
+      <pubDate>Tue, 11 Jan 2011 09:41:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 114 by Sébastien Morel</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/114</link>
+      <description>- fix a parameter error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/114</guid>
+      <pubDate>Sun, 07 Nov 2010 20:06:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 113 by Sébastien Morel</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/113</link>
+      <description>- end of translation fre-FR, (all lines "unfinished")
+- remove tags "Unfinished" where the line was already translated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/113</guid>
+      <pubDate>Sun, 07 Nov 2010 20:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 112 by Sander van den Akker</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/112</link>
+      <description>Two minor translation errors.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/112</guid>
+      <pubDate>Fri, 08 Oct 2010 09:30:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 111 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/111</link>
+      <description>completing Dutch translation.ts</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/111</guid>
+      <pubDate>Tue, 21 Sep 2010 19:15:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 110 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/110</link>
+      <description>completing Dutch translation.ts</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/110</guid>
+      <pubDate>Sun, 19 Sep 2010 19:25:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 109 by Abdelkader RHOUATI</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/109</link>
+      <description>first version of config Arabic language (ara-SA)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/109</guid>
+      <pubDate>Sat, 18 Sep 2010 23:15:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 108 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/108</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/108</guid>
+      <pubDate>Sat, 18 Sep 2010 20:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 107 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/107</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/107</guid>
+      <pubDate>Wed, 15 Sep 2010 19:45:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 106 by Eric Sagnes</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/106</link>
+      <description>updated japanese translations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/106</guid>
+      <pubDate>Wed, 15 Sep 2010 07:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 105 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/105</link>
+      <description>--Branching trunk into stable/4.4-fuji. We hereby close translation contribution to the 4.4 (Fuji)
+  version of eZ Publish. The trunk is from now on dedicated to 4.5 (Matterhorn).
+  Thanks to all contributors for the fantastic work achieved, and see you next sprint !
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/105</guid>
+      <pubDate>Tue, 14 Sep 2010 16:30:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 104 by Leif-Jöran Olsson</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/104</link>
+      <description>This is how far I got before getting swamped with other stuff. Hopefully it merges well.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/104</guid>
+      <pubDate>Tue, 14 Sep 2010 15:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 103 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/103</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/103</guid>
+      <pubDate>Mon, 13 Sep 2010 19:45:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 102 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/102</link>
+      <description>--Added italian translation for 4.4, thanks to Sandra Parente &lt;sandra [at] netbliss.it&gt;.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/102</guid>
+      <pubDate>Mon, 13 Sep 2010 08:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 101 by Georg Franz</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/101</link>
+      <description>fixed wrong translations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/101</guid>
+      <pubDate>Fri, 10 Sep 2010 18:06:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 100 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/100</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/100</guid>
+      <pubDate>Thu, 09 Sep 2010 19:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 99 by Georg Franz</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/99</link>
+      <description>Changed "Erweiterung" back to "Extension".</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/99</guid>
+      <pubDate>Wed, 08 Sep 2010 19:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 98 by Georg Franz</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/98</link>
+      <description>Added missing strings
+Changed "Erweiterung" back to "Extension".</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/98</guid>
+      <pubDate>Wed, 08 Sep 2010 18:55:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 97 by Vjeran Vlahovic</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/97</link>
+      <description>Added Croatian translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/97</guid>
+      <pubDate>Wed, 08 Sep 2010 00:25:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 96 by Robin Muilwijk</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/96</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/96</guid>
+      <pubDate>Tue, 07 Sep 2010 19:10:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 95 by Sebastian Schoeller</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/95</link>
+      <description>Leere Übersetzungen gefüllt; Kleine Änderungen wie z.B. Identifikator-&gt;Bezeichner, upload-&gt;hochladen, execution timeout-&gt;Laufzeitüberschreitung und Schreibfehler; Nicht offensichtlich falsche Übersetzungen mit Ctrl+Enter in Qt Linguist bestätigt</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/95</guid>
+      <pubDate>Tue, 07 Sep 2010 13:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 94 by Jacobo Quiles</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/94</link>
+      <description>- Added spanish and catalan missing translations.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/94</guid>
+      <pubDate>Fri, 03 Sep 2010 14:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 93 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/93</link>
+      <description>por-BR: Updated strings - missed some strings in the last commit.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/93</guid>
+      <pubDate>Fri, 03 Sep 2010 03:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 92 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/92</link>
+      <description>por-BR: Updated strings.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/92</guid>
+      <pubDate>Fri, 03 Sep 2010 03:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 91 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/91</link>
+      <description>--String drop from engineering. No new string will be added until the Fuji (4.4) release.
+  This means that, although late on the schedule, we can all start translating the new untranslated strings,
+  and/or complete the existing translations. A forum post to come on this topics.
+
+  Happy translation peeps !
+  -- 
+  Nicolas Pastorino
+  Comunity Manager
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/91</guid>
+      <pubDate>Wed, 01 Sep 2010 18:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 90 by Renan Leme</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/90</link>
+      <description>- update installer</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/90</guid>
+      <pubDate>Sat, 17 Jul 2010 20:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 89 by Renan Leme</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/89</link>
+      <description>- updated to 4.3</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/89</guid>
+      <pubDate>Sat, 19 Jun 2010 15:15:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 88 by Renan Leme</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/88</link>
+      <description>- updated strings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/88</guid>
+      <pubDate>Sat, 19 Jun 2010 00:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 87 by Renan Leme</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/87</link>
+      <description>- fix setup wizard spelling</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/87</guid>
+      <pubDate>Mon, 24 May 2010 20:25:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 86 by Leif-Jöran Olsson</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/86</link>
+      <description>swe-SE - some more spelling fixes.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/86</guid>
+      <pubDate>Wed, 28 Apr 2010 16:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 85 by Leif-Jöran Olsson</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/85</link>
+      <description>swe-SE - minor clean-up and spelling fixes.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/85</guid>
+      <pubDate>Wed, 28 Apr 2010 16:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 84 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/84</link>
+      <description>--Added Saudi Arabia locale
+--Added unstranslated Arabic (Saudi Arabia) translation
+ref request : http://share.ez.no/forums/translation/a-new-language-or-locale/arabic-language</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/84</guid>
+      <pubDate>Mon, 26 Apr 2010 13:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 83 by Gunnstein Lye</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/83</link>
+      <description>- Updated norwegian translation (copied from stable/4.3)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/83</guid>
+      <pubDate>Mon, 19 Apr 2010 07:35:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 82 by Gunnstein Lye</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/82</link>
+      <description>- Updated Norwegian translation for 4.3
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/82</guid>
+      <pubDate>Fri, 16 Apr 2010 15:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 81 by Arash Molavi</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/81</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/81</guid>
+      <pubDate>Sat, 10 Apr 2010 02:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 79 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/79</link>
+      <description>- fixed typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/79</guid>
+      <pubDate>Thu, 08 Apr 2010 17:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 80 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/80</link>
+      <description>- another small typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/80</guid>
+      <pubDate>Thu, 08 Apr 2010 17:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 78 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/78</link>
+      <description>- fixed small typos found while developing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/78</guid>
+      <pubDate>Tue, 30 Mar 2010 18:25:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 77 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/77</link>
+      <description>- fixed typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/77</guid>
+      <pubDate>Tue, 30 Mar 2010 18:21:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 76 by Arash Molavi</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/76</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/76</guid>
+      <pubDate>Tue, 30 Mar 2010 11:30:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 75 by Lukasz Klejnberg</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/75</link>
+      <description>update polish translation: change Back words</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/75</guid>
+      <pubDate>Mon, 29 Mar 2010 06:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 74 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/74</link>
+      <description>Fixed small typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/74</guid>
+      <pubDate>Wed, 24 Mar 2010 18:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 73 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/73</link>
+      <description>Spanish country names
+# See http://share.ez.no/forums/translation/spanish-spain/spanish-country-names
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/73</guid>
+      <pubDate>Wed, 24 Mar 2010 11:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish_translation rev. 72 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezpublish_translation/subversion/72</link>
+      <description>--eZ Publish 4.3 translation period is now finished.
+  The 4.4 translation can safely start. Thanks to all involved in 4.3's translation, it worked great!
+  Here is a small changelog of what was achieved during this very little timeframe : 
+	Additions : 
+	* Greek, New-zealand, Belgian and Indonesian locales
+	* Greek, Australian, New-zealand translations
+	
+	Updates :
+	The Polish, German, Catalan, Spanish, French, Dutch, Japanese, Italian translations were updated.
+	
+	Extensions updates:
+	* The Brazilian, Catalan and Spanish translation for most of the certified extensions were provided to me. I pushed them in the respective repositories.
+
+  For the 4.4 cycle, we will make sure everyone has an easy access to translating extensions.
+  Many thanks everyone, and happy 4.4 translating :)
+  -- 
+  Nicolas  
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation/subversion/72</guid>
+      <pubDate>Thu, 11 Mar 2010 12:55:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

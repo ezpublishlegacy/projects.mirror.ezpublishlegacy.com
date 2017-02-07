@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezblueprints</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:57 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42706" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezblueprints rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/12</link>
+      <description>- better README</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/12</guid>
+      <pubDate>Mon, 31 Oct 2011 00:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/13</link>
+      <description>- add licenses, todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/13</guid>
+      <pubDate>Mon, 31 Oct 2011 00:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/11</link>
+      <description>- more comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/11</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/10</link>
+      <description>- coding style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/10</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/9</link>
+      <description>- coding style
+- a bit more info in the event code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/9</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Stub-approach or basic functionality to ill...</title>
+      <link>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate/re_stub_approach_or_basic_functionality_to_ill2</link>
+      <description>I also lean towards having a basic functionality to illustrate the type of extension. It is key to usefulness. &#13;
+&#13;
+The name of the extension will be, for a template operator : &#13;
+&lt;code&gt;ezblueprintstemplateoperator&lt;/code&gt;&#13;
+&#13;
+correct ?&#13;
+&#13;
+Could that not be simplified down to templateoperator ?&#13;
+&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate/re_stub_approach_or_basic_functionality_to_ill2</guid>
+      <pubDate>Tue, 20 Sep 2011 06:30:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 8 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/8</link>
+      <description>created content for ezblueprintsworkflowevent README file.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/8</guid>
+      <pubDate>Sun, 18 Sep 2011 15:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 7 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/7</link>
+      <description>created content for ezblueprintsaction README file, it's working, I was having a problem with extension priority.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/7</guid>
+      <pubDate>Sun, 18 Sep 2011 15:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 6 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/6</link>
+      <description>remove site.ini.append.php from ezblueprintsaction, don't know what's going on with content action extensions, seems to not work anymore.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/6</guid>
+      <pubDate>Sun, 18 Sep 2011 15:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 5 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/5</link>
+      <description>created site.ini.append for the ezblueprintsaction extension, it seems the extension will not work without it.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/5</guid>
+      <pubDate>Sun, 18 Sep 2011 14:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Stub-approach or basic functionality to ill...</title>
+      <link>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate/re_stub_approach_or_basic_functionality_to_ill</link>
+      <description>My take:&#13;
+&#13;
+- naming of extensions: ezblueprintsxxx&#13;
+- in every extension: extension.xml file, readme file with step by step instructions on creating the different files needed&#13;
+- name different things different, eg. a view and its associated access function&#13;
+- use or at least document using code comments every possible feature (eg. access functions with limitations, all params in module.php, etc...)&#13;
+- not a lot of business logic in each extension, to keep user focused, but still a little bit, or extensions will make no sense&#13;
+- I propose to use as common case for template operators and views some functionality related to filesystem manipulation:&#13;
+  . fetch function to get list of files in a directory (params, limit, offset, sort_by)&#13;
+  . tpl operators to get filemtime given filename (no params), filesize given filename (one param: output format)&#13;
+  . views that list all files in a given dir (without using fetch function)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate/re_stub_approach_or_basic_functionality_to_ill</guid>
+      <pubDate>Fri, 16 Sep 2011 11:35:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stub-approach or basic functionality to illustrate ?</title>
+      <link>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate</link>
+      <description>Excellent initiative Gaetano, much useful to beginners (and ex-beginners too, given the diversity of extension points on eZ Publish !). &#13;
+&#13;
+Question : &#13;
+is the intent to write stubs only, with no business logic inside it, or to add a basic, illustrating functionality within the stub ?&#13;
+&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezblueprints/forum/general/stub_approach_or_basic_functionality_to_illustrate</guid>
+      <pubDate>Fri, 16 Sep 2011 09:17:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>WIll help beginners learn eZ Publish more quickly. </title>
+      <link>http://projects.ez.no/ezblueprints/reviews/will_help_beginners_learn_ez_publish_more_quickly</link>
+      <description>A vast and ambitious work, but i like it a lot. </description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezblueprints/reviews/will_help_beginners_learn_ez_publish_more_quickly</guid>
+      <pubDate>Fri, 16 Sep 2011 09:09:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 4 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/4</link>
+      <description>added action extension sample, needs documentation.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/4</guid>
+      <pubDate>Thu, 15 Sep 2011 20:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 3 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/3</link>
+      <description>fixing my last commit, there was an error when I commit, I created an action extension folder and it commited to the workflow event sample, strange.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/3</guid>
+      <pubDate>Thu, 15 Sep 2011 20:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 2 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/2</link>
+      <description>Added content action extension sample, needs docummentation.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/2</guid>
+      <pubDate>Thu, 15 Sep 2011 20:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/1</link>
+      <description>- initial folder structure creation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/1</guid>
+      <pubDate>Thu, 15 Sep 2011 19:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Much needed</title>
+      <link>http://projects.ez.no/ezblueprints/reviews/much_needed</link>
+      <description>I like it already.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezblueprints/reviews/much_needed</guid>
+      <pubDate>Wed, 14 Sep 2011 23:13:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

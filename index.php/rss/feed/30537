@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_newsletter / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:00:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30537" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog </title>
+      <link>http://projects.ez.no/ez_newsletter/news/changelog2</link>
+      <description>&lt;p&gt;
+﻿Changelog eZ Newsletter 1.5.2 -&gt; 1.6.0&lt;br /&gt;
+&amp;nbsp;----------------------------------------------------------&lt;br /&gt;
+&amp;nbsp;-Admin2 Design&lt;br /&gt;
+&amp;nbsp;-Fix Bouncemanagment bugs&lt;br /&gt;&amp;nbsp;-General bug fixes&lt;/p&gt;</description>
+      <author>community@ez.no (Yakup Göktürk)</author>
+      <guid>http://projects.ez.no/ez_newsletter/news/changelog2</guid>
+      <pubDate>Tue, 21 Dec 2010 16:17:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ez_newsletter/news/changelog</link>
+      <description>&lt;p&gt;
+Changelog eZ Newsletter 1.5.1 -&gt; 1.5.2&lt;br /&gt;
+ -----------------------------------------------------------&lt;br /&gt;
+ - Problems with the URLs in the newsletter send-outs when eZ&lt;br /&gt;
+ Newsletter was installed in a subdirectory of the Apache document&lt;br /&gt;
+ root (non-virtualhost mode)&lt;br /&gt;
+ - Some stylesheet and HTML fixes for Internet Explorer&lt;br /&gt;
+ - Bugfixes and improvements to the CSV subscriber import&lt;br /&gt;
+ Changelog eZ Newsletter 1.0.0 -&gt; 1.5.1&lt;br /&gt;
+ --------------------------------------------------------&lt;br /&gt;
+ - Ability to set up most common configuration options via the&lt;br /&gt;
+ Administration Interface (override dir)&lt;br /&gt;
+ - Default templates for newsletter and front pages&lt;br /&gt;
+ - Streamlined template code&lt;br /&gt;
+ - Improved sendout scripts&lt;br /&gt;
+ - Improved interface and better data validation&lt;br /&gt;
+ - General bug fixes (including all reported bugs)&lt;br /&gt;
+ Changelog Newsletter 0.1.0 Beta -&gt; 1.0.0 Stable&lt;br /&gt;
+ ------------------------------------------------------------------&lt;br /&gt;
+ Bugs:&lt;br /&gt;
+ -removed non RFC linebreaks bug in email generation&lt;br /&gt;
+ -fixed css bug with Internet Explorer and div block&lt;br /&gt;
+ -removed code for missing unsubscribe.php&lt;br /&gt;
+ -removed transaction error on create newsletter&lt;br /&gt;
+ -changed XML parser handling for pretext/posttext (changed XML API in&lt;br /&gt;
+ &gt;3.8)&lt;br /&gt;
+ -removing whitespaces in filepath of attachment files&lt;br /&gt;
+ Design:&lt;br /&gt;
+ -removed multiple topmenus for newsletter extension, only one newsletter&lt;br /&gt;
+ topmenu&lt;br /&gt;
+ -added left sidemenu with main newsletter functions&lt;br /&gt;
+ -added submenu for each newslettertype with different statuses of&lt;br /&gt;
+ newsletter and a link to inbox&lt;br /&gt;
+ Fetures:&lt;br /&gt;
+ -setting envelope return path parameter for MTA in ini file&lt;br /&gt;
+ -define name of embedded attachment file in global-scope block &lt;br /&gt;
+ -SMS outputformat included, custom transport class for provider&lt;br /&gt;
+ required&lt;br /&gt;
+ -subscribe/unsubscribe via email added&lt;br /&gt;
+ -added firstname, mobile phone fields to profile&lt;br /&gt;
+ -personalization by mobile phone, firstname added&lt;br /&gt;
+ -improved user profile page, selecting outputformat and unsubscribing possible&lt;br /&gt;
+ &lt;br /&gt;
+ -extended csv import (firstname, mobile phone fields)&lt;br /&gt;
+ -new feature search subscriber and directly modify/remove profile&lt;br /&gt;
+ -added pretext/posttext definition in newslettertype&lt;br /&gt;
+ -added pretext/posttext mapping to newsletter contentobject&lt;br /&gt;
+ -added possibility of adding newsletter design extensions and selecting&lt;br /&gt;
+ allowed designs in newslettertype&lt;br /&gt;
+ -newsletter design selection while editing with preview image&lt;br /&gt;
+ -one default design included&lt;br /&gt;
+ -added newsletter recurrence on frontend and a cronjob for copy and archive&lt;br /&gt;
+ newsletter&lt;br /&gt;
+ -preview newsletter in target design/outpuformat while editing&lt;br /&gt;
+ -send preview via email/SMS&lt;br /&gt;
+ -senddate modifier definition in newslettertype&lt;br /&gt;
+ -added File transport class for emails/SMS, enables pregeneration of&lt;br /&gt;
+ newsletters and creates a file for each one&lt;br /&gt;
+ Performance:&lt;br /&gt;
+ -splitted newsletter sendout cronjobs&lt;br /&gt;
+ [build_list+send_newsletter+send_sms+cluster_send]&lt;br /&gt;
+ -added support for sendout with several SMTP servers (round robin&lt;br /&gt;
+ method)&lt;br /&gt;
+ -added index to database tables&lt;br /&gt;
+ -possibility of pregenerating sending lists and newsletters/SMS with&lt;br /&gt;
+ '-pregeneration' on build_list/send_newsletter cronjob&lt;br /&gt;
+ -possibility of control newsettertypes directly via cronjob with&lt;br /&gt;
+ '-type ' on build_list/send_newsletter cronjob&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Tobias Struckmeier)</author>
+      <guid>http://projects.ez.no/ez_newsletter/news/changelog</guid>
+      <pubDate>Mon, 18 Jun 2007 07:11:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / directebanking</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:56:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:56:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15909" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>directebanking rev. 7 by Georg Franz</title>
+      <link>http://projects.ez.no/directebanking/subversion/7</link>
+      <description>renamed pdf</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/7</guid>
+      <pubDate>Fri, 10 Jun 2011 17:21:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 6 by Georg Franz</title>
+      <link>http://projects.ez.no/directebanking/subversion/6</link>
+      <description>Fixed deprecated code.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/6</guid>
+      <pubDate>Fri, 10 Jun 2011 17:21:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>DIRECTebanking.com gateway certified</title>
+      <link>http://projects.ez.no/directebanking/news/directebanking_com_gateway_certified</link>
+      <description>&lt;p&gt;DIRECTebanking.com payment gateway were certified by the provider.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.payment-network.com/de/vendor/sofortueberweisung-installation-a-shopsysteme.html?shop=181" target="_self"&gt;https://www.payment-network.com/de/vendor/sofortueberweisung-installation-a-shopsysteme.html?shop=181&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/directebanking/news/directebanking_com_gateway_certified</guid>
+      <pubDate>Mon, 24 Aug 2009 11:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>sofortüberweisung.de - Paycode Gateway</title>
+      <link>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_paycode_gateway</link>
+      <description></description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_paycode_gateway</guid>
+      <pubDate>Wed, 19 Aug 2009 20:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>sofortüberweisung.de Gateway</title>
+      <link>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_gateway</link>
+      <description></description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_gateway</guid>
+      <pubDate>Wed, 19 Aug 2009 20:51:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>sofortüberweisung.de Handbuch</title>
+      <link>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_handbuch</link>
+      <description></description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/directebanking/downloads/sofortueberweisung_de_handbuch</guid>
+      <pubDate>Wed, 19 Aug 2009 20:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>DIRECTebanking v2.0</title>
+      <link>http://projects.ez.no/directebanking/news/directebanking_v2_0</link>
+      <description>&lt;p&gt;DIRECTebanking v2.0 and DIRECTebanking-com - Paycode v1.0 are out now.&lt;/p&gt;&lt;p&gt;Security issues are fixed in this version. New features like 1-Click-Installation and XML Interface were added.&lt;/p&gt;&lt;p&gt;New Gateway DIRECTebanking.com - Paycode added&lt;/p&gt;</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/directebanking/news/directebanking_v2_0</guid>
+      <pubDate>Mon, 17 Aug 2009 09:39:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 5 by Max Keil</title>
+      <link>http://projects.ez.no/directebanking/subversion/5</link>
+      <description>- Version 2.0 directebanking extension
+  - added 1-Click-Installation
+  - added XML-Interface
+- Version 1.0 directebanking paycode extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/5</guid>
+      <pubDate>Mon, 17 Aug 2009 09:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 4 by Max Keil</title>
+      <link>http://projects.ez.no/directebanking/subversion/4</link>
+      <description>- Security bug removed, because the project-password were submitted as URL</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/4</guid>
+      <pubDate>Tue, 28 Jul 2009 10:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 3 by Norman Leutner</title>
+      <link>http://projects.ez.no/directebanking/subversion/3</link>
+      <description>Added german documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/3</guid>
+      <pubDate>Mon, 04 May 2009 10:55:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 2 by Norman Leutner</title>
+      <link>http://projects.ez.no/directebanking/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/2</guid>
+      <pubDate>Mon, 04 May 2009 09:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>directebanking rev. 1 by Norman Leutner</title>
+      <link>http://projects.ez.no/directebanking/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/directebanking/subversion/1</guid>
+      <pubDate>Mon, 04 May 2009 08:10:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

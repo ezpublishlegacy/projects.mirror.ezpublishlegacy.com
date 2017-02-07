@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / saedithanlders / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:41 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/28872" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>saedithandlers rev. 20 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/20</link>
+      <description>- fixed some smaller bugs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/20</guid>
+      <pubDate>Fri, 19 Aug 2011 02:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 19 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/19</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/19</guid>
+      <pubDate>Fri, 19 Aug 2011 01:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 18 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/18</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/18</guid>
+      <pubDate>Fri, 19 Aug 2011 01:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 17 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/17</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/17</guid>
+      <pubDate>Thu, 18 Aug 2011 14:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 16 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/16</link>
+      <description>- added cronjob script for updating attribute meta data
+- fixed bug in classes/saattributemeta.php
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/16</guid>
+      <pubDate>Thu, 18 Aug 2011 14:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 15 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/15</link>
+      <description>- added the attribute meta edit handler
+   - stores additional data about attributes of published object, usefull for fast filtering on this data
+   - currently stores only has_content data
+
+- created saEditHandlersBase class</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/15</guid>
+      <pubDate>Tue, 16 Aug 2011 03:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 14 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/14</link>
+      <description>- started the development of general NL subscribe feature</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/14</guid>
+      <pubDate>Mon, 15 Aug 2011 19:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 13 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/13</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/13</guid>
+      <pubDate>Fri, 22 Jul 2011 14:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 11 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/11</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/11</guid>
+      <pubDate>Wed, 29 Jun 2011 21:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 12 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/12</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/12</guid>
+      <pubDate>Wed, 29 Jun 2011 21:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 10 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/10</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/10</guid>
+      <pubDate>Fri, 27 May 2011 09:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 9 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/9</link>
+      <description>- fixed some warnings about missing ini settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/9</guid>
+      <pubDate>Wed, 18 May 2011 19:01:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 8 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/8</link>
+      <description>- sets published date after doing empty date attribute check
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/8</guid>
+      <pubDate>Fri, 13 May 2011 09:42:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 7 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/7</link>
+      <description>- fixed some missing INI variables notices</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/7</guid>
+      <pubDate>Thu, 12 May 2011 20:02:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 6 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/6</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/6</guid>
+      <pubDate>Thu, 16 Dec 2010 21:11:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 5 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/5</link>
+      <description>- added event duration handler (automatically fills date_to attribute when it's left empty)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/5</guid>
+      <pubDate>Wed, 08 Dec 2010 18:11:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 4 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/4</link>
+      <description>- global - added object name adjustment after handlers execution (configurable via INI, enabled by dedault)
+- relatecreator - added the possibility to store creator's username into object attribute of published object
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/4</guid>
+      <pubDate>Sat, 20 Nov 2010 11:46:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 3 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/3</link>
+      <description>Added setting:
+
+[PublishDateSettings]
+UseAllClasses=false
+
+to settings/sapublishdate.ini.append.php. When set to true, the publish date handler matches all classes and ignores DateClasses[] setting.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/3</guid>
+      <pubDate>Sun, 07 Nov 2010 17:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 2 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/2</guid>
+      <pubDate>Sun, 07 Nov 2010 17:10:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>saedithandlers rev. 1 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saedithandlers/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saedithandlers/subversion/1</guid>
+      <pubDate>Wed, 06 Oct 2010 18:09:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

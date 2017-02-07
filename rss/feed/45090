@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcontentstaging / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45090" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/18ffa737e0bce21998457c4c24d1105e9a7dca7a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update gitignore, rename readme, add composer.json (we settle for a different composer package name than the official one from ez)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/18ffa737e0bce21998457c4c24d1105e9a7dca7a</guid>
+      <pubDate>Mon, 09 Mar 2015 23:11:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/717a7ba7317c0877fe01d7f3e92395fdac974451</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add more docs, esp. about underlying problems&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/717a7ba7317c0877fe01d7f3e92395fdac974451</guid>
+      <pubDate>Fri, 05 Sep 2014 14:02:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/7285447de0a76a585d2812015a30380c30c7a3f3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ezcontentstaging&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/7285447de0a76a585d2812015a30380c30c7a3f3</guid>
+      <pubDate>Fri, 05 Sep 2014 14:02:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/37142aa9949a94bc807f20e0f8d6e7c40aa6bbde</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix issue #8 - fatal error due to typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/37142aa9949a94bc807f20e0f8d6e7c40aa6bbde</guid>
+      <pubDate>Tue, 18 Mar 2014 18:01:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/274e7d697ad7e7c6e94febacdd887595c5dc79df</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for object-level relations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/274e7d697ad7e7c6e94febacdd887595c5dc79df</guid>
+      <pubDate>Mon, 21 Oct 2013 20:21:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/43bcd8da4337a01975fde8928251fe49d84bc54c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More CS&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/43bcd8da4337a01975fde8928251fe49d84bc54c</guid>
+      <pubDate>Mon, 21 Oct 2013 20:01:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/0ce3c83a8856d11e2319bbe01e5f7fc35b4ff932</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;more CS&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/0ce3c83a8856d11e2319bbe01e5f7fc35b4ff932</guid>
+      <pubDate>Mon, 21 Oct 2013 16:31:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/8f7c773465823d8193650217be53abd5973756ae</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finish support for "restore from trash"; fix 2 bugs; more formatting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/8f7c773465823d8193650217be53abd5973756ae</guid>
+      <pubDate>Mon, 21 Oct 2013 15:21:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/662dd5f329f43c3d72f276247e388fb918c912ec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow to sync objects restored from trash&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/662dd5f329f43c3d72f276247e388fb918c912ec</guid>
+      <pubDate>Mon, 21 Oct 2013 15:21:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/a37b065f85fe451da36dbe358f8c1860673fc0de</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Whitespace and formatting; allow target-side not to choke when status is checked for objects w. rich text; add to unlockevents cli script a delay option&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/a37b065f85fe451da36dbe358f8c1860673fc0de</guid>
+      <pubDate>Mon, 21 Oct 2013 14:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/4bdd7d4e70f24203535582cd77f8c7dcca5b760e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove one @todo annotation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/4bdd7d4e70f24203535582cd77f8c7dcca5b760e</guid>
+      <pubDate>Mon, 21 Oct 2013 14:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/f0dc6fcd9853908f5e818ef29d5c4e1b128d78eb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bump up version nr. after tagging&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/f0dc6fcd9853908f5e818ef29d5c4e1b128d78eb</guid>
+      <pubDate>Mon, 21 Oct 2013 14:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/bd0eccb087c618236b07d5fa4e33b6befb6b3ced</link>
+      <description>
+      &lt;pre&gt;m doc/changelogs/changelog-0.1-to-1.1
+m doc/changelogs/changelog-1.0-EE-to-1.1
+m extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update version numbers and changelog info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/bd0eccb087c618236b07d5fa4e33b6befb6b3ced</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/34b6e649cd0c70654b699d2ff0f6682cf5484969</link>
+      <description>
+      &lt;pre&gt;m bin/php/checknode.php
+m bin/php/checktargets.php
+m bin/php/initsync.php
+m bin/php/synctargets.php
+m bin/php/unlockevents.php
+m classes/ezsnmpdezcontentstaginghandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More cleanups of phpdoc headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/34b6e649cd0c70654b699d2ff0f6682cf5484969</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/3da2d76276798fee6aaff9a6186a9409c9f62e76</link>
+      <description>
+      &lt;pre&gt;- classes/private/ezrestclient.php
+- classes/private/ezrestrequest.php
+- classes/private/ezrestresponse.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove classes which were added by error in commit 7a73f8439fa1f2e7b279a226cade78c2cc36f159 (15/3/2012)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/3da2d76276798fee6aaff9a6186a9409c9f62e76</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/629f3b2d794830fb0bf9817006dea09303fbdca7</link>
+      <description>
+      &lt;pre&gt;m bin/php/checknode.php
+m bin/php/checktargets.php
+m bin/php/initsync.php
+m bin/php/synctargets.php
+m classes/auth/styles/session_auth.php
+m classes/controllers/base.php
+m classes/controllers/content.php
+m classes/controllers/location.php
+m classes/controllers/restprovideping.php
+m classes/controllers/restprovideranalyzer.php
+m classes/created_http_response.php
+m classes/ezbasestagingtransport.php
+m classes/ezcontenstagingtarget.php
+m classes/ezcontentstagingevent.php
+m classes/ezcontentstagingeventcreationloggingfilter.php
+m classes/ezcontentstagingghostintheshellfieldfilter.php
+m classes/ezcontentstagingjscorefunctions.php
+m classes/ezcontentstaginglocalasremoteidgenerator.php
+m classes/ezcontentstagingsameremoteidgenerator.php
+m classes/eznullstagingtransport.php
+m classes/ezrestapiggwsclientstagingtransport.php
+m classes/ezsnmpdezcontentstaginghandler.php
+m classes/filters/prevent_errors_filter.php
+m classes/filters/prevent_warnings_filter.php
+m classes/models/base.php
+m classes/models/content.php
+m classes/models/field.php
+m classes/models/location.php
+m classes/rest_provider.php
+m classes/routes/inspectablerailsroute.php
+m classes/routes/inspectableversionedroute.php
+m cronjobs/staging_sync.php
+m eventtypes/event/ezstageaddlocation/ezstageaddlocationtype.php
+m eventtypes/event/ezstagedelete/ezstagedeletetype.php
+m eventtypes/event/ezstagehide/ezstagehidetype.php
+m eventtypes/event/ezstagemove/ezstagemovetype.php
+m eventtypes/event/ezstagepublish/ezstagepublishtype.php
+m eventtypes/event/ezstageremovelocation/ezstageremovelocationtype.php
+m eventtypes/event/ezstageremovetranslation/ezstageremovetranslationtype.php
+m eventtypes/event/ezstagesort/ezstagesorttype.php
+m eventtypes/event/ezstageswap/ezstageswaptype.php
+m eventtypes/event/ezstageupdatealwaysavailable/ezstageupdatealwaysavailabletype.php
+m eventtypes/event/ezstageupdateinitiallanguage/ezstageupdateinitiallanguagetype.php
+m eventtypes/event/ezstageupdatemainassignment/ezstageupdatemainassignmenttype.php
+m eventtypes/event/ezstageupdateobjectstate/ezstageupdateobjectstatetype.php
+m eventtypes/event/ezstageupdatepriority/ezstageupdateprioritytype.php
+m eventtypes/event/ezstageupdatesection/ezstageupdatesectiontype.php
+m interfaces/ezcontentstagingeventcreationfilter.php
+m interfaces/ezcontentstagingfieldfilter.php
+m interfaces/ezcontentstagingremoteidgenerator.php
+m interfaces/ezcontentstagingtransport.php
+m interfaces/inspectableroute.php
+m modules/contentstaging/checkfeed.php
+m modules/contentstaging/checknode.php
+m modules/contentstaging/ezcontentstagingfunctioncollection.php
+m modules/contentstaging/feed.php
+m modules/contentstaging/feeds.php
+m modules/contentstaging/function_definition.php
+m modules/contentstaging/module.php
+m modules/contentstaging/syncevents.php
+m modules/contentstaging/syncnode.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update copyright year to 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/629f3b2d794830fb0bf9817006dea09303fbdca7</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/cf04e6b84812988f6e615123eb2bcd701f225a6c</link>
+      <description>
+      &lt;pre&gt;m classes/ezcontenstagingtarget.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix for issue #20358: clear object cache to avoid using all server memory while running checktargets.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/cf04e6b84812988f6e615123eb2bcd701f225a6c</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/0b68a3debcdde4ca7eeddad4b330d740116e1052</link>
+      <description>
+      &lt;pre&gt;m .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add more backup file extensions to gitignore list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/0b68a3debcdde4ca7eeddad4b330d740116e1052</guid>
+      <pubDate>Thu, 24 Jan 2013 11:51:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/c674836ad6de083897632dbca4d86647bd79c3dc</link>
+      <description>
+      &lt;pre&gt;m INSTALL
++ doc/FAQ.txt
+m doc/changelogs/changelog-0.1-to-1.1
+m doc/known_bugs.txt
+m doc/todo.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/c674836ad6de083897632dbca4d86647bd79c3dc</guid>
+      <pubDate>Thu, 24 Jan 2013 00:41:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/4df02bc3fb594af04fd00014b577f1416fb483ad</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/tabs/content/contentstaging.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Display on tooltip of status icon the begin date for events in pending status; also change tooltip for events not syncing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/4df02bc3fb594af04fd00014b577f1416fb483ad</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/77ad37dc242bafaa1f76e4bba77b7e6aa92e0de0</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/contentstaging/feed.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Display on tooltip of status icon the begin date for events in pending status; also change tooltip for events not syncing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/77ad37dc242bafaa1f76e4bba77b7e6aa92e0de0</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/a12724f23180bd5e13c945656eabfdc5d9b0ac65</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/contentstaging/feed.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Display event ids in feed page (making it easier to relate to event-sync messages&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/a12724f23180bd5e13c945656eabfdc5d9b0ac65</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/62ff7339db4e0413c33fa9e838f5b402e2910bbe</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/contentstaging/feed.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Try to stay on same feed page (paginated) when POSTing to sync some events&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/62ff7339db4e0413c33fa9e838f5b402e2910bbe</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/e90582e81f844b9d67b737cd0fbad6567e3adb34</link>
+      <description>
+      &lt;pre&gt;m classes/ezcontentstagingevent.php
+m design/standard/templates/contentstaging/feed.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;* In feed page, show with appropriate trash icon + link those events whose nodes are in trash (as opposed to fully delete)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/e90582e81f844b9d67b737cd0fbad6567e3adb34</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/148d39892bf59dc1121fba5537c072a480da13d4</link>
+      <description>
+      &lt;pre&gt;m classes/ezcontentstagingevent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix for issue 019373&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/148d39892bf59dc1121fba5537c072a480da13d4</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/1c4170e69ef13a3ec9d01cca966d1a423932dbca</link>
+      <description>
+      &lt;pre&gt;+ bin/php/unlockevents.php
+m classes/ezcontentstagingevent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a cli script to unlock events which are in sync mode&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/1c4170e69ef13a3ec9d01cca966d1a423932dbca</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/9f7851a8882b8712957f2fd6279e3612cb4bfc0a</link>
+      <description>
+      &lt;pre&gt;m bin/php/checktargets.php
+m classes/ezcontenstagingtarget.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Refactor checktargets cli script so that it can check only nodes which are tied to pending events and/or only list nodes with differences; also display node status one by one instead of waiting for all results to be gathered&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/9f7851a8882b8712957f2fd6279e3612cb4bfc0a</guid>
+      <pubDate>Wed, 23 Jan 2013 15:22:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/a2a04878a4fd6ed6bc1565acd0d5ac39f4374ec4</link>
+      <description>
+      &lt;pre&gt;m bin/php/checknode.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix license tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/a2a04878a4fd6ed6bc1565acd0d5ac39f4374ec4</guid>
+      <pubDate>Fri, 18 Jan 2013 23:21:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/56544ee09db4c0cf0957d7d20bdbf995766f91e0</link>
+      <description>
+      &lt;pre&gt;m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/56544ee09db4c0cf0957d7d20bdbf995766f91e0</guid>
+      <pubDate>Fri, 18 Jan 2013 23:01:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/10efa034612228d6a47c58dbe0bebb1d52785912</link>
+      <description>
+      &lt;pre&gt;m classes/models/content.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix issue 20328: can not sync content with attribute infocollector+mandatory if its value is not filled in&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/10efa034612228d6a47c58dbe0bebb1d52785912</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/14a2d7417b57ff4b12312e6f03de96e7a7aeff8a</link>
+      <description>
+      &lt;pre&gt;m classes/ezbasestagingtransport.php
+m classes/ezrestapiggwsclientstagingtransport.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix issue 20331: differences in node sort order are neither calculated nor displayed properly&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/14a2d7417b57ff4b12312e6f03de96e7a7aeff8a</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/8e14b3905708fbedb97471fe36dfd4531ed9f137</link>
+      <description>
+      &lt;pre&gt;+ bin/php/checknode.php
+m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added a new php script: checknode, to check the status of a single node on all target feeds&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/8e14b3905708fbedb97471fe36dfd4531ed9f137</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/b9ab305c3c2c55668514428d5af59c6c75d8c662</link>
+      <description>
+      &lt;pre&gt;m bin/php/checktargets.php
+m classes/ezcontenstagingtarget.php
+m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve the checktargets script: print status updates while executing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/b9ab305c3c2c55668514428d5af59c6c75d8c662</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/c2c740ac55f99e51b45567210f5028512c4f786b</link>
+      <description>
+      &lt;pre&gt;m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/c2c740ac55f99e51b45567210f5028512c4f786b</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/f63a3bd99557d39bcbe43dcbea8db09f6a4fc93b</link>
+      <description>
+      &lt;pre&gt;m classes/models/field.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix issue 20333: alternative text not synchronized for ezimage datatype&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/f63a3bd99557d39bcbe43dcbea8db09f6a4fc93b</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/a181fee77dd83e2ac86965f1cbee34676fc69c89</link>
+      <description>
+      &lt;pre&gt;m bin/php/checknode.php
+m bin/php/checktargets.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve output of checknode and checktarget scripts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/a181fee77dd83e2ac86965f1cbee34676fc69c89</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/4943ce9b7e44aa74a5eecee36a7b0740eaac2205</link>
+      <description>
+      &lt;pre&gt;m classes/ezcontentstagingevent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix for issue 20332: ezcontentstagingevent::fetchbynode and ezcontentstagingevent::fetchbynodegroupedbytarget are broken&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/4943ce9b7e44aa74a5eecee36a7b0740eaac2205</guid>
+      <pubDate>Fri, 18 Jan 2013 22:51:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/54ef8d466a6c397c1ce9f3b0fc12717b71478385</link>
+      <description>
+      &lt;pre&gt;+ classes/controllers/restprovideping.php
+m classes/rest_provider.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support to interact properly with ezp enterprise version of the extension (answer pong to ping calls)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/54ef8d466a6c397c1ce9f3b0fc12717b71478385</guid>
+      <pubDate>Fri, 18 Jan 2013 11:41:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/6a3f677b0647adaee3993249671cff8ec816880c</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/contentstaging/feeds.tpl
+m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Two typos in comments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/6a3f677b0647adaee3993249671cff8ec816880c</guid>
+      <pubDate>Fri, 28 Sep 2012 08:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/0598e3275c98d39ee0630306b34a92f1cbe01d28</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/contentstaging/feeds.tpl
+m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;an informative text is displayed in the admin interface if no feeds are defined&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/0598e3275c98d39ee0630306b34a92f1cbe01d28</guid>
+      <pubDate>Fri, 28 Sep 2012 08:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/fb1eac54a71c550b795502620a437859b4dba0ea</link>
+      <description>
+      &lt;pre&gt;+ classes/ezphpdocparser.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add class forgotten in last commits&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/fb1eac54a71c550b795502620a437859b4dba0ea</guid>
+      <pubDate>Fri, 28 Sep 2012 08:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/de81ab2527ced3db1b799f75a5061b987a8743e9</link>
+      <description>
+      &lt;pre&gt;m eventtypes/event/ezstagemove/ezstagemovetype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge a86b42719129cca94290efc6a032c175652a5ca2 from Ent. branch: Fixed: wrong use of includesNodeByPath()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/de81ab2527ced3db1b799f75a5061b987a8743e9</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/fef0e0a3307ef902483010f6595c755795051eeb</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/base.php
+m classes/rest_provider.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ezcontentstaging&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/fef0e0a3307ef902483010f6595c755795051eeb</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/8f682a0049de5520ccff1f7f36de88c54d2357b4</link>
+      <description>
+      &lt;pre&gt;m LICENSE
+m bin/php/checktargets.php
+m classes/controllers/content.php
+m classes/created_http_response.php
+m classes/ezbasestagingtransport.php
+m classes/ezcontenstagingtarget.php
+m classes/ezcontentstagingevent.php
+m classes/ezcontentstagingjscorefunctions.php
+m classes/ezcontentstagingsameremoteidgenerator.php
+m classes/filters/prevent_errors_filter.php
+m classes/models/content.php
+m classes/models/field.php
+m classes/models/location.php
+m classes/private/ezrestrequest.php
+m classes/private/ezrestresponse.php
+m classes/rest_provider.php
++ doc/changelogs/changelog-1.0-EE-to-1.1
+m eventtypes/event/ezstagedelete/ezstagedeletetype.php
+m eventtypes/event/ezstagehide/ezstagehidetype.php
+m eventtypes/event/ezstagepublish/ezstagepublishtype.php
+m eventtypes/event/ezstageremovelocation/ezstageremovelocationtype.php
+m eventtypes/event/ezstagesort/ezstagesorttype.php
+m eventtypes/event/ezstageupdateobjectstate/ezstageupdateobjectstatetype.php
+m extension.xml
+m interfaces/ezcontentstagingremoteidgenerator.php
+m modules/contentstaging/ezcontentstagingfunctioncollection.php
+m modules/contentstaging/feed.php
+m modules/contentstaging/feeds.php
+m modules/contentstaging/syncevents.php
+m modules/contentstaging/syncnode.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Formatting changes to get extension as close as possible to EE release 1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/8f682a0049de5520ccff1f7f36de88c54d2357b4</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/fb8dce03c59ecf9725800b95ea0b3ac0cc66b83b</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezcontentstaging.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Prepare build script for release of 1.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/fb8dce03c59ecf9725800b95ea0b3ac0cc66b83b</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/04abfc64db144df10ce027b3592343a4576dafe1</link>
+      <description>
+      &lt;pre&gt;m doc/changelogs/changelog-0.1-to-1.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Rename changelog file for next version (0.2 will never be released)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/04abfc64db144df10ce027b3592343a4576dafe1</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/c5097d7cff4556dcf9b4568a2b8e3117f5a9beff</link>
+      <description>
+      &lt;pre&gt;m doc/known_bugs.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Speling&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/c5097d7cff4556dcf9b4568a2b8e3117f5a9beff</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/36df61d99281d5b3ef6b4f90d722844b6b7befa6</link>
+      <description>
+      &lt;pre&gt;m classes/controllers/content.php
+m classes/controllers/restprovideranalyzer.php
+m classes/rest_provider.php
+m classes/routes/inspectablerailsroute.php
+m doc/changelogs/changelog-0.1-to-1.1
+m interfaces/inspectableroute.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move auto-generated docs closer to mashery/iodocs standard
+Whitespaces / comments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/36df61d99281d5b3ef6b4f90d722844b6b7befa6</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/77d7bb2dcb07d3fdfb02d522e5a88ddd58e70c84</link>
+      <description>
+      &lt;pre&gt;m README
+m classes/controllers/location.php
+m classes/ezcontentstagingevent.php
+m classes/ezrestapiggwsclientstagingtransport.php
+m classes/models/location.php
+m classes/rest_provider.php
+m doc/changelogs/changelog-0.1-to-1.1
+m doc/changelogs/changelog-1.0-EE-to-1.1
+m doc/todo.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge from EE commit 46d11d202b310b1689126d0ae05673a5c7908947: Implement swap node operation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/77d7bb2dcb07d3fdfb02d522e5a88ddd58e70c84</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcontentstaging/source/752ce123b97c70c9dbd7bb27b340f1bfef2210af</link>
+      <description>
+      &lt;pre&gt;m classes/models/field.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge commit 2e8516b0cf61100755995cac5d2aaa231ae0dff7 from EE: Implemented EZPNEXT-435: Implement Multi-option2 datatype in ezcontentstaging&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/source/752ce123b97c70c9dbd7bb27b340f1bfef2210af</guid>
+      <pubDate>Sun, 26 Aug 2012 22:11:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

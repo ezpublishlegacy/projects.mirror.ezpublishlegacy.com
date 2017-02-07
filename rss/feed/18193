@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgmaplocation / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18193" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>1.0beta1</title>
+      <link>http://projects.ez.no/ezgmaplocation/downloads/1_0beta1</link>
+      <description>&lt;p&gt;First version of ezgmaplocation, changelog from the gmaplocation (v0.5) datatype:&lt;/p&gt;&lt;p&gt;
+* code cleanup&lt;br /&gt;
+* bigger map in edit view and normal view&lt;br /&gt;
+* button to grab current location (from bcgmapslocation)&lt;br /&gt;
+* PHPDoc inline documentation added where applicable&lt;br /&gt;
+* Address is now stored&lt;br /&gt;
+* Datatype can now be used as a name pattern component (address)&lt;br /&gt;
+* Datatype is now searchable (by address)&lt;br /&gt;
+* Datatype is now sortable (by address)&lt;br /&gt;
+* Store data in external table to be able to filter on it&lt;br /&gt;
+* Added Extended attribute filter to fetch list / tree by cordinates and distance&lt;br /&gt;
+* Added support for sorting by distance when using Extended attribute filter&lt;br /&gt;
+* Added support for arccosine and pythagorean distance algorithm in distance&lt;br /&gt; calculation in the Extended attribute filter in addition to bounding box&lt;/p&gt;&lt;p&gt;See &lt;a href="http://svn.projects.ez.no/ezgmaplocation/trunk/packages/ezgmaplocation_extension/ezextension/ezgmaplocation/README.txt" target="_blank"&gt;README.txt&lt;/a&gt; for installation and use( incl editing and fetching w/ filtering &amp; sorting on location ).&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/downloads/1_0beta1</guid>
+      <pubDate>Wed, 19 Aug 2009 09:00:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

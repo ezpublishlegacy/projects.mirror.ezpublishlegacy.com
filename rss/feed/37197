@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / peter's_random_anti-spam_image / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:34:23 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:34:23 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/37197" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/peter_s_random_anti_spam_image/news/changelog</link>
+      <description>&lt;p&gt;
+1.1&lt;br /&gt;
+ - Massive code overhaul to be more in line with proper eZ Publish&lt;br /&gt;
+ extension conventions.&lt;br /&gt;
+ - Added an audio anti-spam feature so that if you click on the word,&lt;br /&gt;
+ an mp3 is generated to spell out the letters in the word.&lt;br /&gt;
+ 1.0 &lt;br /&gt; - First public release&lt;/p&gt;</description>
+      <author>community@ez.no (Peter Keung)</author>
+      <guid>http://projects.ez.no/peter_s_random_anti_spam_image/news/changelog</guid>
+      <pubDate>Fri, 18 Jan 2008 23:21:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / russian_translation_for_3.8_branch</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:21:56 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:21:56 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/34904" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/russian_translation_for_3_8_branch/news/changelog</link>
+      <description>&lt;p&gt;
+v3.8.6 - Updated translation to be compatible with eZ&lt;br /&gt;
+ publish 3.8.6 and eZ Online Editor 4.1.4&lt;br /&gt;
+ v3.8.3 - Updated translation to be compatible with eZ publish 3.8.3 and eZ&lt;br /&gt;
+ Online Editor 4.1.2&lt;br /&gt;
+ v3.8.1 - Updated translation to be compatible with eZ publish 3.8.1 release&lt;br /&gt;
+ with GPLed eZ Online Editor extension 4.1.1, which was also&lt;br /&gt;
+ translated&lt;br /&gt;
+ v3.8.0 - Initial russian tanslation, eZ publish 3.8.0rc1 compatible&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Vladimir Makarov)</author>
+      <guid>http://projects.ez.no/russian_translation_for_3_8_branch/news/changelog</guid>
+      <pubDate>Sun, 12 Nov 2006 01:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish-3.8.6-rus-RU.zip</title>
+      <link>http://projects.ez.no/russian_translation_for_3_8_branch/downloads/ezpublish_3_8_6_rus_ru_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/russian_translation_for_3_8_branch/downloads/ezpublish_3_8_6_rus_ru_zip</guid>
+      <pubDate>Sun, 12 Nov 2006 01:31:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

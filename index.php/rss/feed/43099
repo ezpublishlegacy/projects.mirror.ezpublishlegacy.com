@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qhjsiniloader</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:45:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:45:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43099" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>qhjsiniloader v1.2 (tar.gz)</title>
+      <link>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_2_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_2_tar_gz</guid>
+      <pubDate>Thu, 08 Mar 2012 14:44:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>V1.2 is out</title>
+      <link>http://projects.ez.no/qhjsiniloader/news/v1_2_is_out</link>
+      <description>&lt;p&gt;To Gaetano suggestion, I've added the ability to load an eZ INI file into JSON format&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/news/v1_2_is_out</guid>
+      <pubDate>Thu, 08 Mar 2012 14:31:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhjsiniloader v1.2</title>
+      <link>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_2</link>
+      <description>&lt;p&gt;Ability to load an eZ INI file&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_2</guid>
+      <pubDate>Thu, 08 Mar 2012 14:30:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhjsiniloader v1.2</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/be5c701cde1ae96252e9ff1c8e1c9e87842f0e1f</link>
+      <description>
+      &lt;pre&gt;m classes/qhjsiniloaderserverfunctions.php
+m design/standard/javascript/qhjsiniloader.js
+m settings/qhjsiniloader.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/be5c701cde1ae96252e9ff1c8e1c9e87842f0e1f</guid>
+      <pubDate>Thu, 08 Mar 2012 14:10:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhjsiniloader v1.2</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/7656d65f97e020520a537bafa0cde47fe7c5279e</link>
+      <description>
+      &lt;pre&gt;m classes/qhjsiniloaderserverfunctions.php
+m doc/INSTALL
+m settings/qhjsiniloader.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implementing Gaetano suggestion&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/7656d65f97e020520a537bafa0cde47fe7c5279e</guid>
+      <pubDate>Thu, 08 Mar 2012 14:10:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: sample code in INSTALL file</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/sample_code_in_install_file/re_sample_code_in_install_file</link>
+      <description>You raised a good point.&#13;
+Thanks</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/sample_code_in_install_file/re_sample_code_in_install_file</guid>
+      <pubDate>Tue, 28 Feb 2012 14:24:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Using the extension to load all ini settings</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/using_the_extension_to_load_all_ini_settings/re_using_the_extension_to_load_all_ini_settings</link>
+      <description>I like the idea!&#13;
+Will implement it in a next version.&#13;
+&#13;
+Thanks Gaetano.</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/using_the_extension_to_load_all_ini_settings/re_using_the_extension_to_load_all_ini_settings</guid>
+      <pubDate>Tue, 28 Feb 2012 14:23:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using the extension to load all ini settings</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/using_the_extension_to_load_all_ini_settings</link>
+      <description>I am not sure I understand fully the way the extension is set up to work. Can it only load settings from qhjsiniloader.ini?&#13;
+&#13;
+If so, I find it a bit clumsy.&#13;
+&#13;
+What about letting it instead load ini settings from ANY ini file (where the dev has set the setting/block/file to be accessible)?&#13;
+&#13;
+In qhjsiniloader.ini, there could be something like this:&#13;
+&#13;
+[QHJSINILoaderSettings]&#13;
+AvailableParameters[]&#13;
+AvailableParameters[]=design.ini&#13;
+AvailableParameters[]=site.ini/RegionalSettings&#13;
+AvailableParameters[]=site.ini/RegionalSettings/DatabaseSettings/Charset&#13;
+AvailableParameters[]=site.ini/Cache_*&#13;
+&#13;
+And with a single ajax call all the settings could be loaded, including&#13;
+- complete ini files&#13;
+- a single block&#13;
+- a single value&#13;
+- a set of blocks within a file using wildcard&#13;
+- a set of values within a block using wildcard&#13;
+&#13;
+To make it even more flexible, different sets could be defined, which include each something like mentioned above:&#13;
+&#13;
+[QHJSINILoaderSettings]&#13;
+AvailableSets[]=my_stuff&#13;
+&#13;
+Set_my_stuff[]=design.ini&#13;
+Set_my_stuff[]=etc...&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/using_the_extension_to_load_all_ini_settings</guid>
+      <pubDate>Mon, 27 Feb 2012 18:23:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>sample code in INSTALL file</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/sample_code_in_install_file</link>
+      <description>I would add a | wash() after the |i18n call, or at least warn the users: often the translation files assume to be used in an html context. This means that characters like double quotes or ampersand might give trouble when used in a json context...&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/sample_code_in_install_file</guid>
+      <pubDate>Mon, 27 Feb 2012 18:14:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/can_provide_zips_of_extension_beside_package_for_install</link>
+      <description>Having the package imho makes more sense for having a combo download. For a single extension, the zip is most likely faster to install (and diff/verify)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/can_provide_zips_of_extension_beside_package_for_install</guid>
+      <pubDate>Mon, 27 Feb 2012 18:12:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/d05253b7e55547483fb65051971b5dc20772bdc1</link>
+      <description>
+      &lt;pre&gt;m classes/qhjsiniloaderserverfunctions.php
++ design/standard/templates/qhjsiniloader/my_project_i18n.tpl
+m settings/qhjsiniloader.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;few adjustments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/d05253b7e55547483fb65051971b5dc20772bdc1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/17f8fa0dc8dee07ab005d4711f49f9da62dc0a66</link>
+      <description>
+      &lt;pre&gt;m classes/qhjsiniloaderserverfunctions.php
++ design/standard/templates/qhjsiniloader/my_project_locales.tpl
+m settings/qhjsiniloader.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ability to load translatable texts for JS&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/17f8fa0dc8dee07ab005d4711f49f9da62dc0a66</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/878b1de5e356f11cddc27c58923ab1a230deb14e</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;updated ezinfo.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/878b1de5e356f11cddc27c58923ab1a230deb14e</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/692f9c408ba970b7390e1e22ffe8f2aa18d9a57b</link>
+      <description>
+      &lt;pre&gt;+ classes/qhjsiniloaderserverfunctions.php
++ design/standard/javascript/qhjsiniloader.js
++ extension.xml
++ ezinfo.php
++ settings/design.ini.append.php
++ settings/ezjscore.ini.append.php
++ settings/qhjsiniloader.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/692f9c408ba970b7390e1e22ffe8f2aa18d9a57b</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/82fc5288251d9af45a4ceff9e449d49b635f9b5c</link>
+      <description>
+      &lt;pre&gt;+ doc/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;INSTALL file in Markdown format&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/82fc5288251d9af45a4ceff9e449d49b635f9b5c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/1aa477718a1dadc54a38319eb8f8a7b07ad95b05</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;updated version number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/1aa477718a1dadc54a38319eb8f8a7b07ad95b05</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>can provide zips of extension beside package for install?</title>
+      <link>http://projects.ez.no/qhjsiniloader/subversion/60c3ae0907b8f7ebbeb5f5e19ad695f8054435d9</link>
+      <description>
+      &lt;pre&gt;m classes/qhjsiniloaderserverfunctions.php
+m design/standard/templates/qhjsiniloader/my_project_i18n.tpl
+- design/standard/templates/qhjsiniloader/my_project_locales.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;the i18n tpl was not JSON compliant&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/subversion/60c3ae0907b8f7ebbeb5f5e19ad695f8054435d9</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Repository</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/repository/re_repository2</link>
+      <description>Wonderful.</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/repository/re_repository2</guid>
+      <pubDate>Mon, 07 Nov 2011 11:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Repository</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/repository/re_repository</link>
+      <description>Thanks for the reminder.&#13;
+&#13;
+Also added a doc/INSTALL file</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/repository/re_repository</guid>
+      <pubDate>Mon, 31 Oct 2011 20:18:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhjsiniloader v1.1</title>
+      <link>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_1</link>
+      <description>&lt;p&gt;Can now load translated texts for Javascript projects&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_1</guid>
+      <pubDate>Mon, 31 Oct 2011 20:17:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Repository</title>
+      <link>http://projects.ez.no/qhjsiniloader/forum/general/repository</link>
+      <description>Hi, &#13;
+&#13;
+Good one, nicely complimenting http://projects.ez.no/qhautosave .&#13;
+I'd recommend adding a link to the github.com repository in the homepage object (dedicated field : External Url) as well as in the project description.&#13;
+&#13;
+Cheers and keep-up,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/forum/general/repository</guid>
+      <pubDate>Mon, 31 Oct 2011 11:13:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhjsiniloader v1.0</title>
+      <link>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_0</link>
+      <description></description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/downloads/qhjsiniloader_v1_0</guid>
+      <pubDate>Fri, 28 Oct 2011 17:59:46 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

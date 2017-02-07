@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdisqus / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45044" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/5ee91ef513ae2b3e2295891ca3a1cfedad8470e4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Converted README file to markdown&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/5ee91ef513ae2b3e2295891ca3a1cfedad8470e4</guid>
+      <pubDate>Thu, 18 Sep 2014 07:41:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/e9f75a93af61688f2e3405aaa8f5123580514b3c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed package name in composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/e9f75a93af61688f2e3405aaa8f5123580514b3c</guid>
+      <pubDate>Thu, 18 Sep 2014 07:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/dce5e98c34dc4f9ab1ac68d600a557df191192fb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed project URL to Github&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/dce5e98c34dc4f9ab1ac68d600a557df191192fb</guid>
+      <pubDate>Thu, 18 Sep 2014 07:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/4eb17ffaf9acb57de0df502fc27bce208d3be60e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/4eb17ffaf9acb57de0df502fc27bce208d3be60e</guid>
+      <pubDate>Thu, 18 Sep 2014 07:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/fb85cbebc206267925994e7660491ffe41edc0aa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #37 from SylvainGuittard/master
+
+Fix JS error if the title contains single quote&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/fb85cbebc206267925994e7660491ffe41edc0aa</guid>
+      <pubDate>Thu, 18 Sep 2014 07:11:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/235fafc5fe5f8e67fcd1840e857b672485254704</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix JS error if the title contains single quote&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/235fafc5fe5f8e67fcd1840e857b672485254704</guid>
+      <pubDate>Thu, 18 Sep 2014 07:11:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/999427ded38620be3d11e1ecd16b7f0e3b252b78</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.rst&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/999427ded38620be3d11e1ecd16b7f0e3b252b78</guid>
+      <pubDate>Fri, 20 Jun 2014 10:41:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/a18c8b66cc256cd126a61b7b4fa2a9c703ad2b84</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Inconsequential syntax change&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/a18c8b66cc256cd126a61b7b4fa2a9c703ad2b84</guid>
+      <pubDate>Sat, 23 Nov 2013 15:31:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/3aab3bb5cc2241352f5d38fe87a15d00c20dba57</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Store false/unchecked value of attribute as well
+
+The value was only stored when the field key was present in $_POST, i.e.
+when the checkbox was checked. This caused the attribute value to be 'locked'
+as true if it was ever stored as true/checked.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/3aab3bb5cc2241352f5d38fe87a15d00c20dba57</guid>
+      <pubDate>Sat, 23 Nov 2013 15:31:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/9163b7c6f09c0a0406b794da93c1e5b971ae97f1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #34 from jjmmkk/master
+
+Store false/unchecked value of attribute as well&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/9163b7c6f09c0a0406b794da93c1e5b971ae97f1</guid>
+      <pubDate>Sat, 23 Nov 2013 15:31:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/07f655505780fca92544902c13f6ebe3da91f3c8</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/disqus_top_commenters.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;"Top commenters" widget
+
+- add top commenters template
+- add parameters in disqus.ini&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/07f655505780fca92544902c13f6ebe3da91f3c8</guid>
+      <pubDate>Thu, 23 Feb 2012 06:51:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/a9b796629b6aea7b878c00621e24e75398ccda12</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/disqus_recent_comments.tpl
++ design/standard/templates/disqus_top_commenters.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #32 from SylvainGuittard/master
+
+"Top commenters" widget integration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/a9b796629b6aea7b878c00621e24e75398ccda12</guid>
+      <pubDate>Thu, 23 Feb 2012 06:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/6456df0a1177cbe125eef1c0f7a129a475fcebb3</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/disqus_recent_comments.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Recent comments widget integration
+
+-  add recent comments template
+-  add parameters in disqus.ini
+
+closes #14&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/6456df0a1177cbe125eef1c0f7a129a475fcebb3</guid>
+      <pubDate>Thu, 23 Feb 2012 06:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/b813784233cce6039cf5a5e85cef3d716fac0794</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/disqus_top_commenters.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Documentation revision&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/b813784233cce6039cf5a5e85cef3d716fac0794</guid>
+      <pubDate>Thu, 23 Feb 2012 06:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/f211b0906186e9095bfa29113f63ca4994605786</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/disqus_threads.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Corrections for threads widget
+
+- adding whitespace after # in disqus.ini
+- adding num_items (include parameter)
+- adding documentation for include parameters
+
+closes #15&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/f211b0906186e9095bfa29113f63ca4994605786</guid>
+      <pubDate>Sun, 19 Feb 2012 13:30:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/3b9903fca402f765d2ac84357dc85b691070db16</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/disqus_threads.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add widget popular threads
+
+- add parameter in disqus.ini
+- add template for popular threads
+
+closes #15&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/3b9903fca402f765d2ac84357dc85b691070db16</guid>
+      <pubDate>Sun, 19 Feb 2012 13:30:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/425ac29e529fcff1f5993e1211b899fb0ba1a2a3</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/disqus_threads.tpl
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #31 from SylvainGuittard/master
+
+Popular widget&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/425ac29e529fcff1f5993e1211b899fb0ba1a2a3</guid>
+      <pubDate>Sun, 19 Feb 2012 13:30:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/47e2d2b03b4769e01ce618f4dad7c4e17e188c07</link>
+      <description>
+      &lt;pre&gt;m bin/php/export.php
+m classes/Disqus/Export/Exporter/EzComments.php
+m classes/Disqus/Export/ExporterInterface.php
+m classes/Disqus/Export/Formatter/DisqusWXR.php
+m classes/Disqus/Export/FormatterInterface.php
+m classes/Disqus/Export/Processor.php
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #22 Export system: Generic export script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/47e2d2b03b4769e01ce618f4dad7c4e17e188c07</guid>
+      <pubDate>Tue, 14 Feb 2012 22:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/a8f1d2c291206c7202de52925006e2bdfdd82804</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Formatter/DisqusWXR.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed forgotten var_dump()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/a8f1d2c291206c7202de52925006e2bdfdd82804</guid>
+      <pubDate>Mon, 13 Feb 2012 22:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/961eb3e4c47774e5f83833e3f9e2b41d4f59f428</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Formatter/DisqusWXR.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #20: Provide an XML splitter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/961eb3e4c47774e5f83833e3f9e2b41d4f59f428</guid>
+      <pubDate>Mon, 13 Feb 2012 22:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/b7f552b6ae967f6ecefe9e12072786f9b693dd0d</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/FormatterInterface.php
+m classes/Disqus/Export/Processor.php
++ classes/Disqus/Export/SplittedData.php
++ classes/Disqus/Export/SplitterInterface.php
+m settings/disqus.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #20 Provide an XML splitter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/b7f552b6ae967f6ecefe9e12072786f9b693dd0d</guid>
+      <pubDate>Mon, 13 Feb 2012 22:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/fa80413b284fab9419cc873752799bfddb6608cd</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #18 French translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/fa80413b284fab9419cc873752799bfddb6608cd</guid>
+      <pubDate>Mon, 13 Feb 2012 20:11:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/fb180b19db3b89f33872b7e37b362587da5d9147</link>
+      <description>
+      &lt;pre&gt;+ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #17: Generate translation base file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/fb180b19db3b89f33872b7e37b362587da5d9147</guid>
+      <pubDate>Mon, 13 Feb 2012 20:11:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/5ceb84fc39e6360821a2a33c6ad5f032df02046d</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/tabs/disqus/comments_header.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed useless title attribute in admin content tab&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/5ceb84fc39e6360821a2a33c6ad5f032df02046d</guid>
+      <pubDate>Mon, 13 Feb 2012 20:11:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/9b59a9b3ec3a4aafb019e4a32a837bc429ba6ffc</link>
+      <description>
+      &lt;pre&gt;+ LICENCE
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added LICENCE&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/9b59a9b3ec3a4aafb019e4a32a837bc429ba6ffc</guid>
+      <pubDate>Mon, 13 Feb 2012 17:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/ff51a0d044c436c96b2a7a1383a379f746b57c63</link>
+      <description>
+      &lt;pre&gt;m README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Closed #13 Provide basic documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/ff51a0d044c436c96b2a7a1383a379f746b57c63</guid>
+      <pubDate>Mon, 13 Feb 2012 17:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/618beae57f0fd16cddb90abda03ca339dc9e3197</link>
+      <description>
+      &lt;pre&gt;+ classes/Disqus/Export/Comment.php
++ classes/Disqus/Export/ExporterInterface.php
++ classes/Disqus/Export/Processor.php
++ classes/Disqus/Export/Thread.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Basic objects and interface for exporting into Disqus&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/618beae57f0fd16cddb90abda03ca339dc9e3197</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/973d48e67077169b0e84f4427511539a6aff61b7</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Formatter/DisqusWXR.php
+m classes/Disqus/Export/FormatterInterface.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added getData() and renderString() methods to FormatterInterface&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/973d48e67077169b0e84f4427511539a6aff61b7</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/e0184808532ca840dc9a667a94c814f7181bbdf8</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/ExporterInterface.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed ExporterInterface phpdoc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/e0184808532ca840dc9a667a94c814f7181bbdf8</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/b44d9a099205d96d1d7ff942ba8724af8d1a425c</link>
+      <description>
+      &lt;pre&gt;+ classes/Disqus/Export/Formatter/DisqusWXR.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added Disqus WXR formatter
+
+Ref #6, #12&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/b44d9a099205d96d1d7ff942ba8724af8d1a425c</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/0d5dddfc06d05a717842d70bf1bc5a8ac71b9b32</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Comment.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added missing  to Comment class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/0d5dddfc06d05a717842d70bf1bc5a8ac71b9b32</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/ccf2876747c15009a389c8c4aa320dcd86508362</link>
+      <description>
+      &lt;pre&gt;+ classes/Disqus/Export/FormatterInterface.php
+m classes/Disqus/Export/Processor.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added interface for export formatters
+
+Ref #6, #12&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/ccf2876747c15009a389c8c4aa320dcd86508362</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/aae771310614b8c4ad31f6da5898e12d089c6cc0</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/FormatterInterface.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed FormatterInterface was wrongly defined as a class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/aae771310614b8c4ad31f6da5898e12d089c6cc0</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/93f5ba5454bcc0c3a53940d26c51ef211a86a3f6</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Formatter/DisqusWXR.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;XML formatter: Added potential html tag protection&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/93f5ba5454bcc0c3a53940d26c51ef211a86a3f6</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/d5cb56d9aaee5217fd6392862870dd15cf39c567</link>
+      <description>
+      &lt;pre&gt;+ bin/php/export.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added small export test script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/d5cb56d9aaee5217fd6392862870dd15cf39c567</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/d2da113f703fe89bf08e2fc20f4f538f76596e2a</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;eZComments exporter
+
+ref #12&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/d2da113f703fe89bf08e2fc20f4f538f76596e2a</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/57302aa17d285635464091ee6dca06065d94bf56</link>
+      <description>
+      &lt;pre&gt;+ classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Ref #12: Added class skeleton for eZComments exporter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/57302aa17d285635464091ee6dca06065d94bf56</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/a894a8a5aebcd7a5b5cff2f025db48c63862dfee</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Processor.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added basic export to the export processor + rendering and formatted
+data object getter
+
+ref #6, #12&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/a894a8a5aebcd7a5b5cff2f025db48c63862dfee</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/2f76994b7dd5a0a440ef7a712577728ad979b8f9</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Ref #12: Absolute thread link generation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/2f76994b7dd5a0a440ef7a712577728ad979b8f9</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/025922db9e1f6057c728528afb76a920b0fff960</link>
+      <description>
+      &lt;pre&gt;m bin/php/export.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Debug script with debug activated for fomatting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/025922db9e1f6057c728528afb76a920b0fff960</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/6d0408d7f3082e9d52758483802cb73913b66a03</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Formatter/DisqusWXR.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added debug param in DisqusWXR formatter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/6d0408d7f3082e9d52758483802cb73913b66a03</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/64e966855847b8e0d99ea1c04cfc2c541b197dd4</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added missing $portString for absolute links using SSLZones in
+EzComments exporter
+
+ref #12&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/64e966855847b8e0d99ea1c04cfc2c541b197dd4</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/453733414bb50f492a5739552db31d805ba10563</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Ref #12: Fixed issue with 'commentsEnabled' property&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/453733414bb50f492a5739552db31d805ba10563</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/61cbd353f4a4c4fea7060520a2a1af9e67077e7d</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Ref #12: Fixed DateTime object construction with timestamp&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/61cbd353f4a4c4fea7060520a2a1af9e67077e7d</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/d6ad8d7fc639cd658f7f916105a7378777e76c04</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed variable typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/d6ad8d7fc639cd658f7f916105a7378777e76c04</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/ab6cdf4453f3ec18159b3c933d876b4c750ad639</link>
+      <description>
+      &lt;pre&gt;m classes/Disqus/Export/Exporter/EzComments.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Ref #12: Correct distinct selection in ezcomment table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/ab6cdf4453f3ec18159b3c933d876b4c750ad639</guid>
+      <pubDate>Mon, 13 Feb 2012 14:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/ae1f16b5be4ed62a37b9541661338f3d5fa10739</link>
+      <description>
+      &lt;pre&gt;+ README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed README to README.rst (yeah, I don't like the default markdown format, so what? :-P)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/ae1f16b5be4ed62a37b9541661338f3d5fa10739</guid>
+      <pubDate>Mon, 13 Feb 2012 11:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/15ed13831baeb1c9f675c870c042471b54d4ba4a</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved version to 1.0-dev in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/15ed13831baeb1c9f675c870c042471b54d4ba4a</guid>
+      <pubDate>Sun, 12 Feb 2012 21:40:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/9594954108f133ea67c5bc4d81518940dd5ce8c1</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/dashboard/disquscombination.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed 'Powered by Disqus' from dashboard widget&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/9594954108f133ea67c5bc4d81518940dd5ce8c1</guid>
+      <pubDate>Tue, 07 Feb 2012 18:30:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezdisqus/source/5454259932d854ef9cf9e2b8f56c5eae22da94d4</link>
+      <description>
+      &lt;pre&gt;+ design/admin2/templates/dashboard/disquscombination.tpl
++ settings/dashboard.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented #3 Dashboard widget&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezdisqus/source/5454259932d854ef9cf9e2b8f56c5eae22da94d4</guid>
+      <pubDate>Tue, 07 Feb 2012 18:30:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

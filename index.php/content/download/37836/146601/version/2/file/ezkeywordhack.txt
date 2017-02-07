@@ -1,0 +1,341 @@
+Hi,
+
+the current method to get "related objects" by keywords has some lack of features. So I've improved it.
+
+Features / changelog:
+-----------------------------------
+-) Add a "read permission check".
+
+-) Add a var to limit the results (e.g. very important if you have many objects with the same keywords)
+
+-) Add a "sorting" of the result. The result can be sorted by 
+   frequency (rank words higher, if they have more keywords in common)
+   section id
+   object name
+   node depth
+   published
+   modified
+   Multiple options can be choosen.
+
+-) Add a "prefer own section" parameter
+   Fetch first objects which are in the same section as the current object, second
+   fetch object from other sections.
+
+Update 2004-04-20
+   Make work with 3.4alpha3
+   $accessResult = $currentUser->hasAccessTo( 'content', 'read', $accessList );
+   
+Update 2004-04-27   
+	Improved query
+	New: If "prefer own section" is true
+    -) also sort the result by the main path
+    -) only one query is needed instead of two to get the results
+    
+
+Kind regards,
+Emil.
+
+Installation:
+--------------------------------------
+Dirty, but quick way:
+Replace the "function &relatedObjects" in ezkeyword.php with my code below.
+
+Good, but very slow way: 
+Create an own "ezkeyword"-datatype in your extension dir. and take my code below.
+
+Add following settings to your site.ini.append (example):
+
+[ContentSettings]
+# max amount of results
+keywordRelatedObjectLimit=20
+# keyword order by: section|published|modified|name|frequency|depth
+keywordRelatedObjectSortOrder[]
+keywordRelatedObjectSortOrder[]=frequency
+keywordRelatedObjectSortOrder[]=depth
+keywordRelatedObjectSortOrder[]=published
+# selecting first the related objects of the current section
+# true|false
+keywordRelatedObjectPreferOwnSection=true
+
+
+    function &relatedObjects($limit = array ( "offset" => 0, "limit" => 20 ) )
+    {
+        $return = false;
+        if ( $this->ObjectAttributeID )
+        {
+            // Fetch words
+            $db =& eZDB::instance();
+
+            $wordArray =& $db->arrayQuery( "SELECT * FROM ezkeyword_attribute_link
+                                    WHERE objectattribute_id='" . $this->ObjectAttributeID ."' " );
+
+            $keywordIDArray = array();
+            // Fetch the objects which have one of these words
+            foreach ( $wordArray as $word )
+            {
+                $keywordIDArray[] = $word['keyword_id'];
+            }
+
+            $keywordString = implode( ", ", $keywordIDArray );
+
+            if ( count( $keywordIDArray ) > 0 )
+            {
+                $ini =& eZINI::instance();
+                if ( $ini->hasVariable( "ContentSettings", "keywordRelatedObjectLimit" ) )
+                	$limit['limit'] =& $ini->variable( "ContentSettings", "keywordRelatedObjectLimit" );
+                
+                $sqlSortBy = "";
+                $sqlDistinct = " DISTINCT ";
+                $sqlGroupBy = "";
+                $sqlCountFrom = "";
+                
+                if ( $ini->hasVariable( "ContentSettings", "keywordRelatedObjectSortOrder" ) )
+                {
+                	$sortOrder = $ini->variable( "ContentSettings", "keywordRelatedObjectSortOrder" );
+                	$sqlSortBy = " ORDER BY ";
+                	foreach ( array_keys ( $sortOrder ) as $sortKey )
+                	{
+                		$sortItem =& $sortOrder[$sortKey];
+                		
+	                	switch ( $sortItem )
+	                	{
+	                		// frequency: rank objects higher which have more keyword-hits
+	                		case "frequency" : 
+	                		{
+	                			$sqlDistinct = ""; 
+	                			$sqlCountFrom = " COUNT(ezcontentobject.id) as counter, ";
+	                			$sqlGroupBy = " GROUP BY ezcontentobject.id ";
+	                			$sqlSortBy .= " counter DESC, ";
+	                		} 
+	                		break;
+	                		case "published" : 
+	                		{
+	                			$sqlSortBy .= " ezcontentobject.published DESC, "; 
+	                		}
+	                		break;
+	                		case "modified"  : 
+	                		{
+	                			$sqlSortBy .= " ezcontentobject.modified DESC, "; 
+	                		}
+	                		break;
+	                		case "name"      : 
+	                		{ 
+	                			$sqlSortBy .= " ezcontentobject.name ASC, "; 
+	                		}
+	                		break;
+	                		case "section"   : 
+	                		{
+	                			$sqlSortBy .= " ezcontentobject.section_id ASC, "; 
+	                		}
+	                		break;
+	                		case "depth" :
+	                		{
+	                			$sqlSortBy .= " ezcontentobject_tree.depth ASC, "; 
+	                		}
+	                		break;
+	                	}
+	                }
+	                if ( strpos ( $sqlSortBy, ", " ) !== false )
+	                	$sqlSortBy = substr ( $sqlSortBy, 0, strlen ( $sqlSortBy ) - 2 );
+	                else
+	                	$sqlSortBy = "";
+	                
+                }
+                
+				// prefer own section:
+                // Get first objects of the current section
+                // than objects from the other sections
+                $preferSection = false;                
+                if ( $ini->hasVariable( "ContentSettings", "keywordRelatedObjectPreferOwnSection" ) )
+                {
+                	$preferSection = ( $ini->Variable( "ContentSettings", "keywordRelatedObjectPreferOwnSection" ) == "true" ? true : false );
+                }
+                
+                $sectionID = false;
+                if ( $preferSection )
+                {
+                	$id = $this->ObjectAttributeID;
+                	$sql = "SELECT 
+                				ezcontentobject.section_id,
+                				ezcontentobject_tree.path_string
+                			FROM
+                				ezcontentobject,
+                				ezcontentobject_attribute,
+                				ezcontentobject_tree
+                			WHERE
+                				ezcontentobject_attribute.id = '$id'
+                				AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id
+                				AND ezcontentobject_tree.contentobject_id = ezcontentobject.id
+                			GROUP BY ezcontentobject.id
+                			";
+                	$result =& $db->arrayQuery ( $sql );
+                	if ( count ( $result ) == 1 )
+                	{
+                		$sectionID = $result[0]['section_id'];
+                		$pathString = trim ( $result[0]['path_string'], "/");
+                		$pathArray = explode ( "/", $pathString );
+                		if ( count ( $pathArray ) > 2 )
+                		{
+                			$sqlPathString = "/";
+                			for ( $i=0; $i < 3; $i++ )
+                			{
+                				$sqlPathString .= $pathArray[$i] . "/";
+                			}	
+                		}
+                		$subString = $db->subString( 'ezcontentobject_tree.path_string', 1, strlen( $sqlPathString ) );
+						$sqlSubTree = "$subString = '$sqlPathString'";
+                	}
+                }
+                
+                
+                // check read permission	
+                include_once( "kernel/classes/datatypes/ezuser/ezuser.php" );
+                $limitationList = array();
+                if ( isset( $GLOBALS['ezpolicylimitation_list']['content']['read'] ) )
+		        {
+		            $limitationList =& $GLOBALS['ezpolicylimitation_list']['content']['read'];
+		        }
+		        else
+		        {
+		            $currentUser =& eZUser::currentUser();
+		            $accessResult = $currentUser->hasAccessTo( 'content', 'read', $accessList );
+		            if ( $accessResult['accessWord'] == 'limited' )
+		            {
+		                $params['Limitation'] =& $accessResult['policies'];
+		                $limitationList =& $params['Limitation'];
+		                $GLOBALS['ezpolicylimitation_list']['content']['read'] =& $params['Limitation'];
+		            }
+		        }
+		        $sqlPermissionCheckingString = "";
+		        if ( count( $limitationList) > 0 )
+		        {
+		            $sqlParts = array();
+		            $addTree = "";
+		            foreach( $limitationList as $limitationArray )
+		            {
+		                $sqlPartPart = array();
+		                $hasNodeLimitation = false;
+		                foreach ( array_keys( $limitationArray ) as $ident )
+		                {
+		                    switch( $ident )
+		                    {
+		                        case 'Class':
+		                        {
+		                            $sqlPartPart[] = 'ezcontentobject.contentclass_id in (' . implode( ', ', $limitationArray[$ident] ) . ')';
+		                        } break;
+		
+		                        case 'Section':
+		                        {
+		                            $sqlPartPart[] = 'ezcontentobject.section_id in (' . implode( ', ', $limitationArray[$ident] ) . ')';
+		                        } break;
+		
+		                        case 'Owner':
+		                        {
+		                            $user =& eZUser::currentUser();
+		                            $userID = $user->attribute( 'contentobject_id' );
+		                            $sqlPartPart[] = "ezcontentobject.owner_id = '" . $db->escapeString( $userID ) . "'";
+		                        } break;
+		
+		                        case 'Node':
+		                        {
+		                            $sqlPartPart[] = 'ezcontentobject_tree.node_id in (' . implode( ', ', $limitationArray[$ident] ) . ')';
+		                            $hasNodeLimitation = true;
+		                        } break;
+		
+		                        case 'Subtree':
+		                        {
+		                            $pathArray =& $limitationArray[$ident];
+		                            $sqlPartPartPart = array();
+		                            foreach ( $pathArray as $limitationPathString )
+		                            {
+		                                $sqlPartPartPart[] = "ezcontentobject_tree.path_string like '$limitationPathString%'";
+		                            }
+		                            $sqlPartPart[] = implode( ' OR ', $sqlPartPartPart );
+		                        } break;
+		                    }
+		                }
+		                if ( $hasNodeLimitation )
+		                    $sqlParts[] = implode( ' OR ', $sqlPartPart );
+		                else
+		                    $sqlParts[] = implode( ' AND ', $sqlPartPart );
+		            }
+		            $sqlPermissionCheckingString = ' AND ((' . implode( ') or (', $sqlParts ) . ')) ';
+                }	
+                
+                if ( $preferSection === false or $sectionID === false )
+                {
+	                $sql = "SELECT $sqlDistinct $sqlCountFrom
+	                			ezcontentobject.*,
+	                            ezcontentobject_tree.*,
+	                            ezcontentclass.name as class_name
+	                		FROM 
+	                			ezkeyword_attribute_link, 
+	                			ezcontentobject_attribute,
+	                			ezcontentobject,
+	                			ezcontentobject_tree,
+	                			ezcontentclass
+	                        WHERE 
+	                        	keyword_id IN ( $keywordString ) 
+	                            AND ezcontentobject_attribute.id = ezkeyword_attribute_link.objectattribute_id 
+	                            AND objectattribute_id <> '" . $this->ObjectAttributeID ."'
+	                            AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id 
+	                            AND ezcontentobject.status = '" . EZ_CONTENT_OBJECT_STATUS_PUBLISHED . "' 
+	                            AND ezcontentobject.id = ezcontentobject_tree.contentobject_id 
+	                            AND ezcontentclass.id = ezcontentobject.contentclass_id 
+	                            AND ezcontentclass.version = '0'
+	                            AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
+	                            $sqlPermissionCheckingString
+	                	    $sqlGroupBy
+	                	    $sqlSortBy";
+	               	
+	               	$objectArray =& $db->arrayQuery( $sql, $limit );
+                }
+                else
+                {
+					// prefer the objects with the same section id
+					$sqlSectionWhereIf = ", IF(ezcontentobject.section_id='$sectionID',0,1) as sectionorder ";
+					// prefer the objects in the same main path
+					$sqlPathWhereIf = ", IF($sqlSubTree,0,1) as pathorder ";
+					$sqlSortBy = str_replace ( "ORDER BY ", "ORDER BY pathorder ASC, sectionorder ASC, ", $sqlSortBy );
+					
+					// First get only the objects which are in the same section
+					$sql = "SELECT $sqlDistinct $sqlCountFrom
+	                			ezcontentobject.*,
+	                            ezcontentobject_tree.*,
+	                            ezcontentclass.name as class_name
+	                            $sqlPathWhereIf
+	                            $sqlSectionWhereIf
+	                		FROM 
+	                			ezkeyword_attribute_link, 
+	                			ezcontentobject_attribute,
+	                			ezcontentobject,
+	                			ezcontentobject_tree,
+	                			ezcontentclass
+	                        WHERE 
+	                        	keyword_id IN ( $keywordString ) 
+	                            AND ezcontentobject_attribute.id = ezkeyword_attribute_link.objectattribute_id 
+	                            AND objectattribute_id <> '" . $this->ObjectAttributeID ."'
+	                            AND ezcontentobject_attribute.contentobject_id = ezcontentobject.id 
+	                            AND ezcontentobject.status = '" . EZ_CONTENT_OBJECT_STATUS_PUBLISHED . "' 
+	                            AND ezcontentobject.id = ezcontentobject_tree.contentobject_id 
+	                            AND ezcontentclass.id = ezcontentobject.contentclass_id 
+	                            AND ezcontentclass.version = '0'
+	                            AND ezcontentobject_tree.main_node_id = ezcontentobject_tree.node_id
+	                            $sqlPermissionCheckingString
+	                	    $sqlGroupBy
+	                	    $sqlSortBy";
+	               	
+	               	// yes, i like this query string! :-)
+	               	$objectArray =& $db->arrayQuery( $sql, $limit );
+	               
+				}
+				if ( count ( $objectArray ) > 0 )
+				{
+					return eZContentObjectTreeNode::makeObjectsArray( $objectArray );
+				}
+				else
+					return false;
+            }
+        }
+        return $return;
+    }

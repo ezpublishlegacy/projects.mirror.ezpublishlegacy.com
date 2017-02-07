@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezperformancelogger / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:22:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:22:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/38349" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZPerformanceLogger 0.12 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_12_released</link>
+      <description>&lt;p&gt;A couple minor bugfixes. Added possibility to trace time spent sending mails and extracting text from binary files for the search engine.&lt;/p&gt;&lt;p&gt;Release notes available at https://github.com/gggeek/ezperformancelogger/releases/tag/0.12.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_12_released</guid>
+      <pubDate>Thu, 18 Sep 2014 09:54:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.11 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_11_released</link>
+      <description>&lt;p&gt;Some new features as well as minor bugfixes this time around.&lt;/p&gt;&lt;p&gt;Notable features:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;It is now easier to properly trace the web pages which end up with redirects, without hacking the kernel&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace the eZ User id of the current user&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace all variables from the $_SERVER superglobal.&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace the resources used by publication events when using asynchronous publishing&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Notable bugfixes:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;the javascript loading in frontend design for xhprof-measurement is disabled by default, as it can break some sites&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Check out the changelog for a complete list&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_11_released</guid>
+      <pubDate>Sun, 20 Jul 2014 17:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezperformancelogger 0.10.1 bugfix release</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_1_bugfix_release</link>
+      <description>&lt;p&gt;&lt;b&gt;IMPORTANT&lt;/b&gt;: since version 0.8, enabling this extension has a negative impact on viewcache management.&lt;/p&gt;&lt;p&gt;All users are urged to upgrade&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_1_bugfix_release</guid>
+      <pubDate>Wed, 27 Nov 2013 12:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.10 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_released</link>
+      <description>&lt;p&gt;Major new functionality: works with oracle (including cluster) for eZPublish 5.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_released</guid>
+      <pubDate>Tue, 27 Aug 2013 07:37:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.9.1 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_9_1_released</link>
+      <description>&lt;p&gt;A bugfix release coming on the heels of version 0.9.&lt;/p&gt;&lt;p&gt;The biggest change: works much better with statsd/graphite&lt;/p&gt;&lt;p&gt;Get it at http://projects.ez.no/ezperformancelogger/downloads/ezperformancelogger_0_9_1_zip&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_9_1_released</guid>
+      <pubDate>Sun, 28 Jul 2013 19:06:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Performance Logger 0.8 released - works with eZ Publish 5.0!</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_8_released_works_with_ez_publish_5_0</link>
+      <description>&lt;p&gt;A release which brings some nice new features, making this swiss-army-knife of performance measurement more useful than ever:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;support for eZP 5 (when running the Legacy Stack)&lt;/li&gt;
+
+&lt;li&gt;can trace events from the event subsystem, such as cache clearing and image-alias generation&lt;/li&gt;
+
+&lt;li&gt;now has full support for tracing database operations and cluster operations - with debug mode off - for all eZ versions from 4.5 to 5.0&lt;/li&gt;
+
+&lt;li&gt;supports tracing time spent while generating images with imagemagick as well&lt;/li&gt;
+
+&lt;li&gt;adds (experimental) support for sending data directly to a Pinba server&lt;/li&gt;
+
+&lt;li&gt;last but not least, it fixes the only known bug ;-)&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_8_released_works_with_ez_publish_5_0</guid>
+      <pubDate>Wed, 12 Dec 2012 20:43:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Performance Logger 0.7 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_7_released</link>
+      <description>&lt;p&gt;A release I am particularly proud of, it brings a whole new world to eZ monitoring: out-of-the box integration with Munin to display graphs!&lt;/p&gt;&lt;p&gt;Read on after the break for more details...&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_7_released</guid>
+      <pubDate>Tue, 17 Jul 2012 21:40:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez Performance Logger 0.5 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_5_released</link>
+      <description>&lt;p&gt;
+* New features&lt;br /&gt;
+. performance metrics can be logged to syslog&lt;br /&gt;
+. filters can be added to only log performance data when specific conditions apply.&lt;br /&gt;
+&amp;nbsp; This allows to e.g. replicate the equivalent of the mysql slow query log&lt;br /&gt;
+* Bugfixes&lt;br /&gt;. make the record_value template operator actually do something&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_5_released</guid>
+      <pubDate>Sat, 19 May 2012 21:27:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez Performance Logger 0.4 released - with XHProf support</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_4_released_with_xhprof_support</link>
+      <description>&lt;p&gt;A big improvement in this version: besides tracing performance counters, we now support real profiling of webpage execution, via the XHProf.&lt;/p&gt;&lt;p&gt;Tthis means giving developers an easy to use profiling GUI, which you can see in action &lt;a href="http://projects.ez.no/ezperformancelogger/gallery/xhprof_interface" target="_self"&gt;here&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_4_released_with_xhprof_support</guid>
+      <pubDate>Fri, 18 May 2012 08:08:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez Performance Logger 0.3 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_3_released</link>
+      <description>&lt;p&gt;A huge amount of new features in this version:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;can log any custom variable set by the developer besides the standard ones&lt;/li&gt;
+
+&lt;li&gt;can parse the Apache acces logs and extract the performance data to csv format&lt;/li&gt;
+
+&lt;li&gt;can log to a file formatted just like the Apache access log even when used from other webservers or in fastcgi mode&lt;/li&gt;
+
+&lt;li&gt;can log directly to a csv file&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ez_performance_logger_0_3_released</guid>
+      <pubDate>Tue, 17 Apr 2012 17:01:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version 0.2 is out</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/version_0_2_is_out</link>
+      <description>&lt;p&gt;This version adds support for logging the number of database queries executed, besides total memory and execution time, but also allows logging performance data directly to piwik or google analytics instead of the apache log&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/version_0_2_is_out</guid>
+      <pubDate>Sat, 01 Oct 2011 00:06:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ntags / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17622" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Update that supports eZ publish 4.3 and later</title>
+      <link>http://projects.ez.no/ntags/news/update_that_supports_ez_publish_4_3_and_later</link>
+      <description>&lt;p&gt;nTags didn't play well with the newish "admin2" interface, had bugs, and had languished for years without a release. This update fixes all that!&lt;/p&gt;&lt;p&gt;If you need a simple drop-in extension for keywords that lets you predefine tags for easy tagging, or tag masses of items at a time, &lt;a href="http://projects.ez.no/ntags/downloads" target="_self"&gt;try it out&lt;/a&gt; or &lt;a href="https://github.com/lastorset/nTags" target="_self"&gt;fork it on GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/news/update_that_supports_ez_publish_4_3_and_later</guid>
+      <pubDate>Thu, 09 Feb 2012 23:03:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha release</title>
+      <link>http://projects.ez.no/ntags/news/alpha_release</link>
+      <description>&lt;p&gt;The first alpha release is out. Check it out at &lt;a href="http://projects.ez.no/ntags/downloads/" target="_self"&gt;the download page&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;nTags extends eZ publish's keyword feature. Instead of a simple text box you get checkboxes for predefined tags (keywords), and an additional text box for free tags. You may also mass apply tags in content view.&lt;/p&gt;</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/news/alpha_release</guid>
+      <pubDate>Thu, 23 Jul 2009 15:20:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezvlogin / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:56:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:56:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11856" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezvlogin rev. 37 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/37</link>
+      <description>- removed duplicate vlogin.ini file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/37</guid>
+      <pubDate>Thu, 30 Sep 2010 20:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 36 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/36</link>
+      <description>- Rename base ini files to *.ini  so settings/view is able to list it in drop down</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/36</guid>
+      <pubDate>Mon, 05 Jul 2010 09:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 35 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/35</link>
+      <description>- Implemented: Add cacheable vlogin/profile view for user profiles</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/35</guid>
+      <pubDate>Sat, 22 Aug 2009 14:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 34 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/34</link>
+      <description>Reverted some of changes from Rev. 32/33 (new view comming instead for profile)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/34</guid>
+      <pubDate>Sat, 22 Aug 2009 13:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 33 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/33</link>
+      <description>Sync with 4.2 (added public_profile variable)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/33</guid>
+      <pubDate>Sat, 22 Aug 2009 11:35:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 32 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/32</link>
+      <description>Sync with 4.2 (added public_profile variable)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/32</guid>
+      <pubDate>Sat, 22 Aug 2009 11:35:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 31 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/31</link>
+      <description>fix  "?</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/31</guid>
+      <pubDate>Thu, 30 Apr 2009 14:35:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 30 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/30</link>
+      <description>Correctly delete cookies set by remote server to be deleted instead of setting it with value 'deleted'.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/30</guid>
+      <pubDate>Thu, 30 Apr 2009 13:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 29 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/29</link>
+      <description>Allow session id to be reset from other server</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/29</guid>
+      <pubDate>Thu, 30 Apr 2009 08:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 28 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/28</link>
+      <description>+ Synced vlogin with user module in 4.1, merging #14301 and #9275 and updated copyright headers</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/28</guid>
+      <pubDate>Tue, 28 Apr 2009 09:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 27 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/27</link>
+      <description>* Added support for inter server sso (when several servers run on same domain behind load balancer)
+#changed logic to only do sso call if part of sso group (list)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/27</guid>
+      <pubDate>Mon, 27 Apr 2009 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 26 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/26</link>
+      <description>* Added support for inter server sso (when several servers run on same domain behind load balancer)
+* Bumped version to 1.2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/26</guid>
+      <pubDate>Mon, 27 Apr 2009 16:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 25 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/25</link>
+      <description>give access denied instead of object not available if usere is annonymus and no id is given</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/25</guid>
+      <pubDate>Sun, 26 Apr 2009 12:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 24 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/24</link>
+      <description>+ Fixed redirection to user/register in vlogin/login</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/24</guid>
+      <pubDate>Sun, 26 Apr 2009 12:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 23 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/23</link>
+      <description>Added siteaccess to template parameters in case needed in view</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/23</guid>
+      <pubDate>Fri, 24 Apr 2009 13:35:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 22 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/22</link>
+      <description>+ Added support for view_parameters in vlogin/edit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/22</guid>
+      <pubDate>Thu, 26 Mar 2009 17:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 21 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/21</link>
+      <description>improve ini comment for CookieName</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/21</guid>
+      <pubDate>Tue, 10 Mar 2009 10:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 20 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/20</link>
+      <description>:retab</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/20</guid>
+      <pubDate>Thu, 19 Feb 2009 10:40:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 19 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/19</link>
+      <description>- removed file as I did not upload the correct one...
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/19</guid>
+      <pubDate>Mon, 16 Feb 2009 10:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 18 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/18</link>
+      <description>ezdebug 'vuser' -&gt; vlogin</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/18</guid>
+      <pubDate>Thu, 29 Jan 2009 09:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 17 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/17</link>
+      <description>- added missing CHANGELOG
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/17</guid>
+      <pubDate>Thu, 29 Jan 2009 09:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 16 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/16</link>
+      <description>- releasing 1.1 version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/16</guid>
+      <pubDate>Thu, 29 Jan 2009 08:35:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 15 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/15</link>
+      <description>Added eZ Publish 4.1 support (look for 'eZSession' class)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/15</guid>
+      <pubDate>Mon, 12 Jan 2009 14:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 14 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/14</link>
+      <description>* rawurldecode / rawurlencode user name and password to avoid SSO breaking on user name with whitespace
+* Set cache-control to avoid proxy caching login / logout ( shoudl probably have a setting for this )</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/14</guid>
+      <pubDate>Wed, 17 Dec 2008 19:50:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 13 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/13</link>
+      <description>Mark Cache User Group Mapping as (optional)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/13</guid>
+      <pubDate>Thu, 04 Dec 2008 11:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 12 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/12</link>
+      <description>clerify GET parameters and fasCGI setup (it should work on vhost setup)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/12</guid>
+      <pubDate>Thu, 04 Dec 2008 11:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 11 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/11</link>
+      <description>- added VCL example</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/11</guid>
+      <pubDate>Wed, 03 Dec 2008 10:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 10 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/10</link>
+      <description>- updated Copyright info, added ar and jr emails</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/10</guid>
+      <pubDate>Sat, 22 Nov 2008 10:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 9 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/9</link>
+      <description>- fix wrong folder, release go in tags, not in branches, need some sleep../..</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/9</guid>
+      <pubDate>Wed, 29 Oct 2008 10:55:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 8 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/8</link>
+      <description>-released 1.0 version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/8</guid>
+      <pubDate>Wed, 29 Oct 2008 10:50:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 7 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/7</link>
+      <description>- fixed wrong class name</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/7</guid>
+      <pubDate>Wed, 29 Oct 2008 10:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 6 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/6</link>
+      <description>Added ezinfo.php, dist.sh and LICENSE files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/6</guid>
+      <pubDate>Mon, 13 Oct 2008 21:40:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 5 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/5</link>
+      <description>* Added optional cookie for user name (for your ajax / aggressive reverse proxy cache needs..)
+* Added optional cookie to indicate the user is plain member (logged in user that we can cache)
+* Added SSO support using http redirect loop
+
+Changes:
+* Set cookie name to same as used in 4.1 by default
+* Set value to false on logout to properly delete the cookie
+* Disabled templates by default (commented out design.ini settings)
+* Simplified vlogin.ini settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/5</guid>
+      <pubDate>Mon, 13 Oct 2008 20:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 4 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/4</link>
+      <description>Set ModuleList setting to avoid automatic url_alias from using module url</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/4</guid>
+      <pubDate>Mon, 13 Oct 2008 20:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 3 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/3</link>
+      <description>Added cache friendly user/edit view from trunk (doesn't need user id as parameter)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/3</guid>
+      <pubDate>Mon, 13 Oct 2008 20:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 2 by André R</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/2</link>
+      <description>Added user/login template for ezwebin</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/2</guid>
+      <pubDate>Mon, 13 Oct 2008 20:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezvlogin rev. 1 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezvlogin/subversion/1</link>
+      <description>-initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezvlogin/subversion/1</guid>
+      <pubDate>Mon, 13 Oct 2008 06:00:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

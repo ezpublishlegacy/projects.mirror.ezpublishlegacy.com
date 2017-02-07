@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_category_selection__ezp4.3+_</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:15:39 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:15:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31292" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ez_category_selection_ezp4_3/news/changelog</link>
+      <description>&lt;p&gt;
+Change Log&lt;br /&gt;
+ 1.0&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - First public release&lt;br /&gt;
+ 1.1&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Display option id for category selection option&lt;br /&gt;
+ - Display option id for selection option&lt;br /&gt;
+ 1.2&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Category filtering support for category_options() operator&lt;br /&gt;
+ - Add simple_category_options() operator&lt;br /&gt;
+ 1.3&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Change category binding information for content class edit&lt;br /&gt;
+ template&lt;br /&gt;
+ - Enhance ezcategoryselection type to support binding categories&lt;br /&gt;
+ defined in other class (this is called 'cross class')&lt;br /&gt;
+ - A new attribute named "cross class" is introduced. When editing an&lt;br /&gt;
+ ezcategoryselection field, if you select "yes" for "cross class", you&lt;br /&gt;
+ can bind an option to categories defined in&lt;br /&gt;
+ other classes. The 'cross class' mode is useful if you want to connect an&lt;br /&gt;
+ option to categories defined in external classes. This is useful for&lt;br /&gt;
+ defining complicated logic. ( A good example is zquestionnaire&lt;br /&gt;
+ extension, we used the 'cross class' mode to define the result&lt;br /&gt;
+ decision table for a questionnaire )&lt;br /&gt;
+ 1.4&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Add has_related_category_selections() operator&lt;br /&gt;
+ 1.5&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Fix bugs in function category_options()&lt;br /&gt;
+ - Add comments all functions and operators&lt;br /&gt;
+ - Chang isEmptyCategory() to is_empty_category() and export it as an&lt;br /&gt;
+ operator&lt;br /&gt;
+ - Change generateCategoryString() to generate_category_string() and&lt;br /&gt;
+ export it as an operator&lt;br /&gt;
+ - rewrite function category_options() and use&lt;br /&gt;
+ contentclassattribute-&gt;attribute('content') directly&lt;br /&gt;
+ - Add category_option_simiple_array() function to replace the&lt;br /&gt;
+ simple_category_options() function.&lt;br /&gt;
+ - Add thresholds() operator&lt;br /&gt;
+ - Remove simple_category_options() function&lt;br /&gt;
+ - Fix a bug reported by Linh Vu - bug in object name pattern. Thanks&lt;br /&gt;
+ for Linh's help on fixing this bug.&lt;br /&gt;
+ - Add 'description' for ezcategoryselection data type&lt;br /&gt;
+ - Add 'threshold' for ezcategoryselection data type&lt;br /&gt;
+ - Add category_option_array() function&lt;br /&gt;
+ - Implement category filtering with javascript, the 'load category'&lt;br /&gt;
+ button is removed and all sub categories can be loaded&lt;br /&gt;
+ automatically&lt;br /&gt;
+ - Implement information collector templates&lt;br /&gt;
+ - Change has_related_category_selections() to&lt;br /&gt;
+ has_related_category_options()&lt;br /&gt;
+ - Implement 'move up/down' functions for ezcategoryselection options.&lt;br /&gt;
+ You can change the order of options for ezcategoryselection.&lt;br /&gt;
+ 1.5.1&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Add checks for array [for ... in] loop, because the ezmultioption&lt;br /&gt;
+ data type in eZ publish 3.10 has added some prototype functions for&lt;br /&gt;
+ Array object. The added prototype functions will be listed in [for&lt;br /&gt;
+ ... in] loop and will cause javascript errors for ezcategoryselection&lt;br /&gt;
+ information collection form.&lt;br /&gt;
+ 1.5.2&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Change the snapshot of Illustration 1: how to bind&lt;br /&gt;
+ categories&lt;br /&gt;
+ with ezcategoryselection &lt;br /&gt;
+ 1.6.0&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Revised code base to support eZ Publish 4.0 and PHP5&lt;br /&gt;
+ - Revised JavaScript to support Internet Explorer 6.x and 7.0 because&lt;br /&gt;
+ IE does not support 'display:none' on option element; I have revised&lt;br /&gt;
+ the JavaScript code to "remove" options from the ezcategoryselection&lt;br /&gt;
+ select element. When refreshing option list, options will be added&lt;br /&gt;
+ back to select element.&lt;br /&gt;
+ - Revised object structure so that 'for ... in' loop will not be used&lt;br /&gt;
+ for Array; It also fixed an issue on Internet Explorer because&lt;br /&gt;
+ for ... in loop on select.options&lt;br /&gt;
+ on IE is not working as expected&lt;br /&gt;
+ - Revised category_option_array() template operator so that it&lt;br /&gt;
+ includes option_name as well. In the previous release, it only&lt;br /&gt;
+ includes option_id and category information &lt;br /&gt;
+ 1.6.1&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ - Revise code base to support eZ publish 4.0.1&lt;br /&gt;
+ * Fix issues in code base to remove the PHP strict errors&lt;br /&gt;
+ * Revised the function definition in ezcategoryselectiontype.php&lt;br /&gt;
+ according to its parent&lt;br /&gt;
+ class&lt;br /&gt;
+ * Revised some pass-by-references to pass-by-value&lt;br /&gt;
+ * Changed some non-static functions to static functions&lt;br /&gt;
+ * Changed constants to ::const&lt;br /&gt;
+ * Changed reference to constants to ::const&lt;br /&gt;
+ - Fix issues in code base to remove the duplicated variable&lt;br /&gt;
+ definitions&lt;br /&gt;
+ * Revised category.tpl to use {foreach} and {if} instead of&lt;br /&gt;
+ {section}&lt;br /&gt;
+ * Fixed a bug in category.tpl that may cause empty category dropdown&lt;br /&gt;
+ list&lt;br /&gt;
+ 1.7.0&lt;br /&gt;
+ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/&lt;br /&gt;
+ * Change DOM API&lt;br /&gt;
+ * Support eZ Publish 4.3+&lt;br /&gt;
+ * Don't know if it works with eZ Publish 4.1.x :), please test and&lt;br /&gt; send me your feed backs.&lt;/p&gt;</description>
+      <author>community@ez.no (Michael Lee)</author>
+      <guid>http://projects.ez.no/ez_category_selection_ezp4_3/news/changelog</guid>
+      <pubDate>Sun, 04 Jul 2010 16:13:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcategoryselection.1.7.0.tgz</title>
+      <link>http://projects.ez.no/ez_category_selection_ezp4_3/downloads/ezcategoryselection_1_7_0_tgz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ez_category_selection_ezp4_3/downloads/ezcategoryselection_1_7_0_tgz</guid>
+      <pubDate>Sun, 04 Jul 2010 16:13:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsqlquery / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:06:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:06:28 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48645" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Awesome </title>
+      <link>http://projects.ez.no/ezsqlquery/reviews/awesome_easy</link>
+      <description>We use this on http://mokopuna.com and have found it really useful for storing custom data.  The custom views make accessing particular data really easy.  &#13;
+&#13;
+The only downside is that each template call to this datatype results in plenty of DB calls (if you use lots of views), so best to set the results to a local variable and just access that.&#13;
+&#13;
+Thanks for a great extension!</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezsqlquery/reviews/awesome_easy</guid>
+      <pubDate>Wed, 20 Feb 2013 04:53:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

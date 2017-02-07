@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / subtreelocation / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:03 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40750" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>subtreelocation rev. 12 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/12</link>
+      <description>Release 0.2 beta
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/12</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 10 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/10</link>
+      <description>Verify if a script is not already scheduled in ezscriptmonitor with the same nodes before scheduling a new one</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/10</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 11 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/11</link>
+      <description>Add INSTALL file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/11</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 9 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/9</link>
+      <description>add ezscriptmonitor connector</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/9</guid>
+      <pubDate>Sat, 02 Apr 2011 22:21:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 8 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/8</link>
+      <description>add php script to execute subtree location from command line or crontab</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/8</guid>
+      <pubDate>Sat, 02 Apr 2011 17:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 7 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/7</link>
+      <description>add svn:ignore .project</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/7</guid>
+      <pubDate>Fri, 01 Apr 2011 22:22:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 6 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/6</link>
+      <description>fix "Unknown content object action" warning in error.log</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/6</guid>
+      <pubDate>Fri, 01 Apr 2011 22:22:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 5 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/5</link>
+      <description>Add 0.1-b release tag
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/5</guid>
+      <pubDate>Fri, 01 Apr 2011 21:41:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 3 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/3</link>
+      <description>delete .project file and add ezinfo file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/3</guid>
+      <pubDate>Fri, 01 Apr 2011 21:21:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 4 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/4</link>
+      <description>Add comment in algo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/4</guid>
+      <pubDate>Fri, 01 Apr 2011 21:21:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 2 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/2</link>
+      <description>send to svn current development state</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/2</guid>
+      <pubDate>Fri, 01 Apr 2011 19:42:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 1 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/1</link>
+      <description>Init svn repository
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/1</guid>
+      <pubDate>Fri, 01 Apr 2011 19:42:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

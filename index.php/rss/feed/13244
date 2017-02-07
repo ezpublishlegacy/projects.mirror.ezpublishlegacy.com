@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezenhanceddebug / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:11:14 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:11:14 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13244" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>More and newer versions at GITHUB</title>
+      <link>http://projects.ez.no/ezenhanceddebug/forum/general/more_and_newer_versions_at_github</link>
+      <description>just look here:&#13;
+&#13;
+http://github.com/jeromer/ezenhanceddebug&#13;
+&#13;
+Greetings, eke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/forum/general/more_and_newer_versions_at_github</guid>
+      <pubDate>Fri, 16 Apr 2010 21:27:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Support for eZ Publish 4.0.1 (Patches)</title>
+      <link>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches3</link>
+      <description>Heath, &#13;
+&#13;
+can you please try thoses patches please ?&#13;
+&#13;
+http://svn.projects.ez.no/ezenhanceddebug/trunk/ezenhanceddebug/patch/4.0.1/&#13;
+&#13;
+Thanks in advance.&#13;
+&#13;
+:)</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches3</guid>
+      <pubDate>Wed, 07 Jan 2009 16:47:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Support for eZ Publish 4.0.1 (Patches)</title>
+      <link>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches2</link>
+      <description>Ha I forgot the other patch.&#13;
+Indeed this one : &#13;
+http://svn.projects.ez.no/ezenhanceddebug/trunk/ezenhanceddebug/patch/content_structure_menu_dynamic.diff&#13;
+&#13;
+Does not work with 4.0.1&#13;
+&#13;
+&lt;code&gt;&#13;
+17:15 jr@ezjr ~/work/www/php5/ezpublish/ezpublish-4.0.1% patch --dry-run -p0 &lt; extension/ezenhanceddebug/patch/content_structure_menu_dynamic.diff &#13;
+patching file design/admin/templates/contentstructuremenu/content_structure_menu_dynamic.tpl&#13;
+Hunk #1 FAILED at 62.&#13;
+Hunk #2 succeeded at 517 (offset -38 lines).&#13;
+Hunk #3 FAILED at 534.&#13;
+2 out of 3 hunks FAILED -- saving rejects to file design/admin/templates/contentstructuremenu/content_structure_menu_dynamic.tpl.rej&#13;
+&lt;/code&gt;&#13;
+&#13;
+I will try to provide a patch for this as soon as possible, however this is not the easiest thing to do as the current patch actually fixes some bugs in the current template parser.</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches2</guid>
+      <pubDate>Wed, 07 Jan 2009 16:27:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Support for eZ Publish 4.0.1 (Patches)</title>
+      <link>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches</link>
+      <description>Hello Heath.&#13;
+&#13;
+I tried to apply the following patch : &#13;
+&#13;
+http://svn.projects.ez.no/ezenhanceddebug/trunk/ezenhanceddebug/patch/ezenhanceddebug.ezpublish4.0.diff&#13;
+&#13;
+On a 4.0.1 version : &#13;
+&lt;code&gt;&#13;
+17:12 jr@ezjr ~/work/www/php5/ezpublish/ezpublish-4.0.1% more lib/version.php&#13;
+[...]&#13;
+const VERSION_MAJOR = 4;&#13;
+const VERSION_MINOR = 0;&#13;
+const VERSION_RELEASE = 1;&#13;
+&lt;/code&gt;&#13;
+&#13;
+And it seems everything is OK :&#13;
+&#13;
+&lt;code&gt;&#13;
+17:15 jr@ezjr ~/work/www/php5/ezpublish/ezpublish-4.0.1% patch --dry-run -p0 &lt; extension/ezenhanceddebug/patch/ezenhanceddebug.ezpublish4.0.diff                &#13;
+patching file lib/eztemplate/classes/eztemplatedofunction.php&#13;
+Hunk #1 succeeded at 145 (offset 1 line).&#13;
+Hunk #2 succeeded at 160 (offset 1 line).&#13;
+patching file lib/eztemplate/classes/eztemplateforeachfunction.php&#13;
+Hunk #1 succeeded at 297 (offset 1 line).&#13;
+Hunk #2 succeeded at 390 (offset 1 line).&#13;
+patching file lib/eztemplate/classes/eztemplateforfunction.php&#13;
+Hunk #1 succeeded at 198 (offset 1 line).&#13;
+Hunk #2 succeeded at 226 (offset 1 line).&#13;
+patching file lib/eztemplate/classes/eztemplatewhilefunction.php&#13;
+Hunk #1 succeeded at 145 (offset 1 line).&#13;
+Hunk #2 succeeded at 160 (offset 1 line).&#13;
+patching file lib/eztemplate/classes/eztemplateexecuteoperator.php&#13;
+Hunk #1 succeeded at 346 (offset -9 lines).&#13;
+patching file lib/ezutils/classes/ezdebug.php&#13;
+Hunk #3 succeeded at 1780 (offset 12 lines).&#13;
+Hunk #4 succeeded at 1905 (offset 12 lines).&#13;
+patching file lib/eztemplate/classes/eztemplate.php&#13;
+Hunk #2 succeeded at 376 (offset 2 lines).&#13;
+Hunk #3 succeeded at 680 (offset 2 lines).&#13;
+Hunk #4 succeeded at 1401 (offset 2 lines).&#13;
+Hunk #5 succeeded at 2669 (offset 2 lines).&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches/re_support_for_ez_publish_4_0_1_patches</guid>
+      <pubDate>Wed, 07 Jan 2009 16:24:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Support for eZ Publish 4.0.1 (Patches)</title>
+      <link>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches</link>
+      <description>Hello Jérôme,&#13;
+&#13;
+I attempted to test this extension over the holiday&#13;
+and encountered problems applying the available&#13;
+patches.&#13;
+&#13;
+It seems I was using the latest stable eZ Publish 4.0.1,&#13;
+but the patches were created for 4.0. When I applied&#13;
+the available patches I encountered at least one hunk&#13;
+fail per patch.&#13;
+&lt;i&gt;http://svn.projects.ez.no/ezenhanceddebug/trunk/ezenhanceddebug/patch/&lt;i&gt;&#13;
+&#13;
+Could you create patches against / for the latest&#13;
+stable release of eZ Publish (4.0.1) &#13;
+which could be applied without errors.&#13;
+&#13;
+Respectfully,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches</guid>
+      <pubDate>Mon, 05 Jan 2009 13:27:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezworkflowcollection / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:14 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:14 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24383" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Using Subtree Multiplexer</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/using_subtree_multiplexer</link>
+      <description>Hi,&#13;
+&#13;
+I am using the subtreemultiplexer for the following situation:&#13;
+&#13;
+EditorXY publishes article in subtreeXY and approverXY gets an approve message. &#13;
+EditorABC publishes article in subtreeABC and approverABC gets an approve message. &#13;
+&#13;
+Works until approver approves article. After that the approver gets a second message to approve the same article. Only then the article is published.&#13;
+&#13;
+&#13;
+Also the dropdown in adminbackend-&gt;workflowediting-&gt;subtreemultiplexer seems to be broken. I have 3 workflows in the dropdown available. I configured the 2. entry, but everytime i want to edit, the dropdown the system chooses the first entry&#13;
+&#13;
+In adminbackend-&gt;workflow-&gt;view i can see, that there are two workflows to trigger, but i only configured one.&#13;
+&#13;
+Am I doing something wrong?&#13;
+&#13;
+I am using ez4.7&#13;
+</description>
+      <author>community@ez.no (René Frenzl)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/using_subtree_multiplexer</guid>
+      <pubDate>Tue, 06 May 2014 14:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wrong link</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link/re_wrong_link</link>
+      <description>You are right. It seems I migth have lost the original 0.5 zip file, but now 0.6 is available</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link/re_wrong_link</guid>
+      <pubDate>Wed, 24 Jul 2013 10:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wrong link</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+I think you got the wrong link for the last download, you are proposing ezperformancelogger-0.5.0.zip.&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Best regards,&#13;
+&#13;
+Jean-Luc.</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link</guid>
+      <pubDate>Wed, 04 Jul 2012 14:48:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>A small patch</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/a_small_patch</link>
+      <description>Here's a small patch for 2 template files, fixing a URL typo, adding i18n for My menu items, and slight English tweaks.  Feel free to add to the project.&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+Index: extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl&#13;
+===================================================================&#13;
+--- extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl	(revision 45)&#13;
++++ extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl	(working copy)&#13;
+@@ -17,7 +17,7 @@&#13;
+ &lt;div class="context-block"&gt;&#13;
+ &#13;
+ {* DESIGN: Header START *}&lt;div class="box-header"&gt;&lt;div class="box-tc"&gt;&lt;div class="box-ml"&gt;&lt;div class="box-mr"&gt;&lt;div class="box-tl"&gt;&lt;div class="box-tr"&gt;&#13;
+-&lt;h1 class="context-title"&gt;{"Contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt; [{$list_count}]&lt;/h1&gt;&#13;
++&lt;h1 class="context-title"&gt;{"Content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt; [{$list_count}]&lt;/h1&gt;&#13;
+ &#13;
+ &#13;
+ {* DESIGN: Mainline *}&lt;div class="header-mainline"&gt;&lt;/div&gt;&#13;
+@@ -54,7 +54,7 @@&#13;
+     &lt;/p&gt;&#13;
+ &lt;/div&gt;&#13;
+ &#13;
+-&lt;div class="right"&gt; {"List contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} :&#13;
++&lt;div class="right"&gt; {"List content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} :&#13;
+ 	&lt;select name="State" onChange="submit()"&gt;&#13;
+ 	{foreach $state.group.states as $element}&#13;
+ 		&lt;option value="{$element.id}"{if $element.id|eq($state.id)} selected="selected"{/if}&gt;{$element.current_translation.name}&lt;/option&gt;&#13;
+@@ -92,7 +92,7 @@&#13;
+ &lt;/table&gt;&#13;
+ {section-else}&#13;
+ &lt;div class="block"&gt;&#13;
+-&lt;p&gt;{"There is no contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt;&lt;/p&gt;&#13;
++&lt;p&gt;{"There is no content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt;&lt;/p&gt;&#13;
+ &lt;/div&gt;&#13;
+ {/section}&#13;
+ &#13;
+Index: extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl&#13;
+===================================================================&#13;
+--- extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl	(revision 45)&#13;
++++ extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl	(working copy)&#13;
+@@ -11,11 +11,11 @@&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/content/pendinglist/'|ezurl}&gt;{'My pending items'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {if fetch( 'user', 'has_access_to', hash( 'module',   'collaboration',&#13;
+              'function', 'view', 'user_id',  $current_user.contentobject_id ) )}&#13;
+-    &lt;li&gt;&lt;div&gt;&lt;a href={'/collaboration/view/summary'|ezurl}&gt;Contenus en attente de validation&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
++    &lt;li&gt;&lt;div&gt;&lt;a href={'/collaboration/view/summary'|ezurl}&gt;{"Content awaiting approval"|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {/if}&#13;
+     {if fetch( 'user', 'has_access_to', hash( 'module',   'updatestate',&#13;
+              'function', 'list', 'user_id',  $current_user.contentobject_id ) )}&#13;
+-    &lt;li&gt;&lt;div&gt;&lt;a href={'/etats/list'|ezurl}&gt;Contenus en attente de publication&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
++    &lt;li&gt;&lt;div&gt;&lt;a href={'/updatestate/list'|ezurl}&gt;{"Content awaiting review"|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {/if}&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/notification/settings/'|ezurl}&gt;{'My notification settings'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/content/bookmark/'|ezurl}&gt;{'My bookmarks'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/a_small_patch</guid>
+      <pubDate>Thu, 28 Jul 2011 02:28:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

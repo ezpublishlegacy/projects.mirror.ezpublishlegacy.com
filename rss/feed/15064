@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgoogletranslate / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15064" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Does not work with 4.2</title>
+      <link>http://projects.ez.no/ezgoogletranslate/forum/general/does_not_work_with_4_2/re_does_not_work_with_4_2</link>
+      <description>I realise to be 4 years late, but the new version actually does add the "translate this" links</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezgoogletranslate/forum/general/does_not_work_with_4_2/re_does_not_work_with_4_2</guid>
+      <pubDate>Tue, 17 Apr 2012 19:08:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does not work with 4.2</title>
+      <link>http://projects.ez.no/ezgoogletranslate/forum/general/does_not_work_with_4_2</link>
+      <description>I tried this extension with ezPublish 4.2. It is not working. I realised, that it adds javascript function translate(), but there is no code to call this function.</description>
+      <author>community@ez.no (XXXX YYYYY)</author>
+      <guid>http://projects.ez.no/ezgoogletranslate/forum/general/does_not_work_with_4_2</guid>
+      <pubDate>Sun, 21 Feb 2010 17:34:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem with ezjaxx</title>
+      <link>http://projects.ez.no/ezgoogletranslate/forum/general/problem_with_ezjaxx/re_problem_with_ezjaxx</link>
+      <description>Hi Dominik,&#13;
+&#13;
+First. Thank you :)&#13;
+&#13;
+This extension http://ez.no/developer/contribs/applications/google_translate_in_backend is not yet moved to this project.&#13;
+&#13;
+But we can already talk in this forum :)&#13;
+&#13;
+So can you send some logs ezjaxx, a possible error message, and when this error occurs - at which event?&#13;
+&#13;
+Regards,&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/ezgoogletranslate/forum/general/problem_with_ezjaxx/re_problem_with_ezjaxx</guid>
+      <pubDate>Thu, 18 Jun 2009 12:45:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem with ezjaxx</title>
+      <link>http://projects.ez.no/ezgoogletranslate/forum/general/problem_with_ezjaxx</link>
+      <description>Hi, thanks for this great application.&#13;
+&#13;
+I managed to install it successfully, however ezjaxx reports error (confilct ?). It seems to come from the file prototype.js&#13;
+&#13;
+Any idea how to solve this ?</description>
+      <author>community@ez.no (Dominik LEE)</author>
+      <guid>http://projects.ez.no/ezgoogletranslate/forum/general/problem_with_ezjaxx</guid>
+      <pubDate>Thu, 18 Jun 2009 10:38:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

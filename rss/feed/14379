@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsnmpd / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14379" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release 0.6 of eZ SNMPd is available</title>
+      <link>http://projects.ez.no/ezsnmpd/news/release_0_6_of_ez_snmpd_is_available</link>
+      <description>&lt;p&gt;Lots of goodies in this new version:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;counting of pending notification events&lt;/li&gt;
+
+&lt;li&gt;counting of objects pending indexation&lt;/li&gt;
+
+&lt;li&gt;counting of all asynchronous publishing events&lt;/li&gt;
+
+&lt;li&gt;last but not least: ezfind monitoring (solr availability and solr indexed documents number)&lt;/li&gt;
+
+&lt;li&gt;made it easier to add new handlers for specific extensions&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;And a couple of bugfixes for bonus: counting of sessions when those are not stored in db now returns -1; status of cluster db connection for ezdfs setups&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/release_0_6_of_ez_snmpd_is_available</guid>
+      <pubDate>Tue, 03 Apr 2012 21:23:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZSNMPd moves to github</title>
+      <link>http://projects.ez.no/ezsnmpd/news/ezsnmpd_moves_to_github</link>
+      <description>&lt;p&gt;Source code now available at https://github.com/gggeek/ezsnmpd.git&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/ezsnmpd_moves_to_github</guid>
+      <pubDate>Wed, 28 Mar 2012 10:42:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 0.4 of eZ SNMPd is available</title>
+      <link>http://projects.ez.no/ezsnmpd/news/release_0_4_of_ez_snmpd_is_available</link>
+      <description>&lt;p&gt;Highlights:&lt;/p&gt;&lt;p&gt;
+- added 2 template fetch functions to allow usage of snmpget and nmpwalk operations in templates&lt;br /&gt;
+- fix: the mib generated via the graphical interface had a stray 'END' tag&lt;br /&gt;- fix: snmpwalk called on the root OID would not work &lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/release_0_4_of_ez_snmpd_is_available</guid>
+      <pubDate>Sun, 24 Jan 2010 22:50:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 0.3 of eZSNMPd availabe</title>
+      <link>http://projects.ez.no/ezsnmpd/news/release_0_3_of_ezsnmpd_availabe</link>
+      <description>&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;two new module views, 'walk' and 'set' bringing http access on par with cli and snmp access&lt;/li&gt;
+
+&lt;li&gt;bugfixes to the 'status' monitoring handler, including getting correct answers when database is down and correct number of files in some cache directories&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/release_0_3_of_ezsnmpd_availabe</guid>
+      <pubDate>Fri, 15 Jan 2010 23:34:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 0.2 of ezSNMPd is available</title>
+      <link>http://projects.ez.no/ezsnmpd/news/release_0_2_of_ezsnmpd_is_available</link>
+      <description>&lt;p&gt;Highlights:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;storage dirs are now analyzed for total size and file count&lt;/li&gt;
+
+&lt;li&gt;same for all cache types&lt;/li&gt;
+
+&lt;li&gt;orders in the shop are also monitored&lt;/li&gt;
+
+&lt;li&gt;the cli script has got a couple of new options to be more friendly than ever&lt;/li&gt;
+
+&lt;li&gt;for the first time, a plugin for a monitoring tool is included: PRTG&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/release_0_2_of_ezsnmpd_is_available</guid>
+      <pubDate>Thu, 26 Nov 2009 17:55:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 0.1 of ezSNMPd is available</title>
+      <link>http://projects.ez.no/ezsnmpd/news/release_0_1_of_ezsnmpd_is_available</link>
+      <description>&lt;p&gt; This is the first release deeemed "working enough" to be fit for user consumption. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; snmpget, snmpgetnext and snmpwalk commands are functional. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Support for tabular values in OIDs is missing, and lot of polish can be added - also some internal workings might be changed in future releases to solve known problems (see the todo file for more details. &lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsnmpd/news/release_0_1_of_ezsnmpd_is_available</guid>
+      <pubDate>Thu, 10 Sep 2009 12:19:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

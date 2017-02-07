@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ajax_treemenu_on_demand_tree_menu by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 17:45:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                
+<title>
+            [ajax-treemenu]_on_demand_tree_menu     /         eZ Projects        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+<link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu" href="rss/feed/32888" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / Downloads" href="rss/feed/32890" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / Forum" href="rss/feed/32891" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / Forum / General" href="rss/feed/32892" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / News" href="rss/feed/32889" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / Reviews" href="rss/feed/32898" /><link rel="alternate" type="application/rss+xml" title="eZ Projects / [ajax-treemenu]_on_demand_tree_menu / Subversion" href="rss/feed/32896" />
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+        
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ajax_treemenu_on_demand_tree_menu/forum/general'];
+menu[4] = ['Leaders', '/ajax_treemenu_on_demand_tree_menu/team/leaders', 'Members', '/ajax_treemenu_on_demand_tree_menu/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="ajax_treemenu_on_demand_tree_menu.html" onmouseover="switchSubMenu( this );">[AJAX-TreeMenu] On demand tree menu &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="ajax_treemenu_on_demand_tree_menu/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="ajax_treemenu_on_demand_tree_menu/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li ><a href="ajax_treemenu_on_demand_tree_menu/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="ajax_treemenu_on_demand_tree_menu/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="ajax_treemenu_on_demand_tree_menu/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="ajax_treemenu_on_demand_tree_menu/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="ajax_treemenu_on_demand_tree_menu/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+    
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="content/view/full/2.html">ez projects</a>
+                    
+                        /
+                                        [ajax-treemenu]_on_demand_t...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-normal">
+<div class="template-module content-view-full">
+<div class="template-object class-project">
+
+
+<div class="attribute-heading">
+    <h1>[AJAX-TreeMenu] On demand tree menu</h1>
+</div>
+
+
+<div class="attribute-byline float-break">
+    <p class="date">Last updated: Sunday 30 April 2006 15:09</p>
+</div>
+
+
+<table class="list nohighlight" cellspacing="0">
+<tr>
+    <th>UNIX name</th>
+    <th>Owner</th>
+    <th>Status</th>
+    <th>Version</th>
+    <th>Compatible with</th>
+</tr>
+<tr class="bglight">
+    <td>[ajax-treemenu]_on_demand_tree_menu</td>
+    <td><a href="users/community/daniel_beyer.html">Daniel Beyer</a></td>
+        <td>        planning
+    </td>
+        <td>
+            1.0.7 (latest stable)
+        </td>
+    <td>
+            3.6.1 and up
+        </td>
+</tr>
+</table>
+
+    <div class="attribute-short">
+        <br />
+			This extensions allows using the very helpful tree menu in eZ publish<br />
+			(admin and user site) with thousands of content objects. Menu entries<br />
+			are loaded dynamically without reloading the page. If the browser<br />
+			doesn't support AJAX or if JavaScript is disabled, loading times will<br />
+			still be considerably reduced due to a fallback solution which loads<br />
+			only the subtree needed.<br />
+<br />
+ 
+
+    </div>
+    <div class="attribute-long">
+        
+<p>
+ The JS-enabled tree menu which came up with eZ publish 3.5 has improved<br />
+ the usability of content browsing enormously. Howewer, having 1000+<br />
+ objects in the menu results in a considerably lower performance due<br />
+ to two reasons: First, eZ publish is slowed down while generating<br />
+ pages, second, slower computers show inacceptable ressource<br />
+ consumption while processsing the JavaScript. We tested it with<br />
+ approximately 1000 objects on a Dual Xeon/2GB RAM on the server's<br />
+ side and a PII 300MhZ on the client's side which took 15 seconds to<br />
+ generate the tree and about the same time for the JavaScript to<br />
+ determine which nodes to open and which to close.<br />
+ We specified the guidelines for a new AJAX-based tree menu as<br />
+ follows:<br />
+ Goals:<br />
+ - Load the subtree only as far as needed<br />
+ - Full integration of all functionalities which the standard tree menu<br />
+ offers<br />
+ - Do NOT alter the eZ publish source but make a PnP extension<br />
+ instead<br />
+ - Provide a fallback for browsers that do not support AJAX or<br />
+ JavaScript<br />
+ - Avoid triggering redundant XML-HTTP-Requests. If a subtree is closed<br />
+ and opened again, no new request should be necessary. The content<br />
+ already loaded should be cached somewhere.<br />
+ Method of resolution:<br />
+ AJAX combines JavaScript and a server-based operation (here: PHP) in<br />
+ order to eliminate the need to reload a complete page for displaying<br />
+ new content. Therefore it is possible to load the tree menu only as<br />
+ far as displayed. Opening a subtree only triggers loading the object<br />
+ titles below the specific node which in most cases will take no<br />
+ longer than 1 second.<br />
+ Source of information:<br />
+ -: Lots of information about the XMLHttpRequest<br />
+ -<br />
+ Features:<br />
+ - Full replacement of the existing tree menu without any cut back<br />
+ - Handle an unlimited number of objects <br />
+ - Fallback to a smart solution even if JavaScript is disabled or if<br />
+ the browser lacks a proper AJAX implementation<br />
+ - Heavily tested and in productive use on some large customer<br />
+ installations since September 2005 <br />
+ - Can be integrated outside the admin interface, too (eg. a public<br />
+ website)<br />
+ Additional feature:<br />
+ The standard tree menu offers the possibilty of selecting displayed<br />
+ objects by their classes. As we were forced to establish various new<br />
+ classes in order to meet customer needs, we needed the possibility of<br />
+ excluding specific classes in the tree. So even if the use of AJAX is<br />
+ not desired, the possibility of negatively determining the objects<br />
+ displayed could be useful for people implementing the content<br />
+ tree.<br />
+ Setup notes:<br />
+ There is a file &quot;INSTALL&quot; coming with this contribution, containing<br />
+ instructions how to install the extension.<br />
+ Translations:<br />
+ This contribution makes use of the translation engine of eZ publish.<br />
+ Current translations are:<br />
+ -Dutch (dut-NL)<br />
+ -English (eng-GB, eng-US)<br />
+ -French (fre-FR, fre-CA)<br />
+ -German (ger-DE)<br />
+ -Norwegian (nor-NO)<br />
+ -Polish (pol-PL) <br />
+ -Portuguese (por-PT)<br />
+ -Spanish (esl-ES)<br />
+ If someone knows what &quot;Please wait...&quot; means in other languages, just<br />
+ give feedback - it will merge in future versions.<br />
+ Feedback:<br />
+ There is a forum thread at ez.no were you can report any notes, bugs,<br />
+ translations, suggestions, etc.:<br />
+ Development:<br />
+ This extension can be found on pubsvn.ez.no (see external url above). On<br />
+ this page right here you will always find the last stable version. On<br />
+ pubsvn the current development version is placed (which might be kind<br />
+ of unstable).<br />
+ Daniel Beyer<br />
+ _________________________________<br />
+ Young Media Concepts GmbH<br />
+ Taegerwilen, Switzerland<br /> www.ymc.ch</p>    </div>
+    <h2>Screenshot</h2>
+    <div class="attribute-image">
+        
+
+    
+        
+    
+    <a href=var/plain_site/storage/images/ajax_treemenu_on_demand_tree_menu/132207-2-eng-GB/ajax_treemenu_on_demand_tree_menu.gif target="_blank"><img src="var/plain_site/storage/images/ajax_treemenu_on_demand_tree_menu/132207-2-eng-GB/ajax_treemenu_on_demand_tree_menu_smallbanner.gif" width="279" height="449"  border="0" alt="" title="" /></a>
+    
+    
+        </div>
+    
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="template-design area-sidebar-normal">
+<div class="template-module content-view-sidebar">
+<div class="template-object class-project">
+
+<div class="attribute-heading">
+    <h2 class="bullet"><a href="ajax_treemenu_on_demand_tree_menu/news.html">Latest news</a></h2>
+</div>
+<ul class="linklist"><li>
+
+
+
+<div class="content-view-list">
+<div class="class-comment">
+
+<h3><a title="Changelog" href="ajax_treemenu_on_demand_tree_menu/news/changelog.html">Changelog</a></h3>
+    <div class="attribute-byline float-break">
+        <p class="date">Sunday 30 April 2006 15:09</p>
+        <p class="author"><a href="users/community/daniel_beyer.html">Daniel Beyer</a></p>
+    </div>
+</div>
+</div>
+</li></ul>
+
+</div>
+</div>
+</div>
+
+
+<div class="template-design area-sidebar-normal">
+<div class="template-module content-view-sidebar">
+<div class="template-object class-project">
+
+<div class="attribute-heading">
+    <h2 class="bullet"><a href="ajax_treemenu_on_demand_tree_menu/reviews.html">Latest reviews</a></h2>
+</div>
+
+    <p>This project has no reviews yet. <a href="ajax_treemenu_on_demand_tree_menu/reviews.html">Be the first one to review it!</a></p>
+
+</div>
+</div>
+</div>
+
+<div class="template-design area-sidebar-normal">
+<div class="template-module content-view-sidebar">
+<div class="template-object class-project">
+
+<div class="attribute-heading">
+    <h2 class="bullet"><a href="ajax_treemenu_on_demand_tree_menu/forum.html">Latest forum activity</a></h2>
+</div>
+<p>No forum messages yet.</p>
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ajax_treemenu_on_demand_tree_menu by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 17:45:52 GMT -->
+</html>

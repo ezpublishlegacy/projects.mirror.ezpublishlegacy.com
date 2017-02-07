@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / zend_download_server_extension / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:03:25 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:03:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29493" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/zend_download_server_extension/news/changelog</link>
+      <description>&lt;p&gt;
+2.5.1&lt;br /&gt;
+ - comtatible to Zend Platform 3.6.x&lt;br /&gt;
+ - compatible to eZ Publih 4.1.x (older version my work too)&lt;br /&gt;
+ 2.5.0 &lt;br /&gt;
+ - comtatible to Zend Platform 3.6.x&lt;br /&gt;
+ - compatible to eZ Publih 4.0.x (older version my work too)&lt;br /&gt;
+ - expanded by the support for downloading image alias&lt;br /&gt;
+ - feature to set up minimun filessize&lt;br /&gt;
+ - Bugfixing&lt;br /&gt;
+ 2.0.0 &lt;br /&gt;
+ - comtatible to Zend Platform 3.6.x&lt;br /&gt;
+ - compatible to eZ Publih 4.0.x&lt;br /&gt;
+ - Bugfixing&lt;br /&gt;
+ 1.1.0 &lt;br /&gt;
+ - compatible to ZDS 1.5 / Zend Platform 3.5&lt;br /&gt;
+ 1.0.0 inital release&lt;br /&gt; - compatible to ZDS 1.0.x / Zend Platform 3.0.x&lt;/p&gt;</description>
+      <author>community@ez.no (Björn Köster)</author>
+      <guid>http://projects.ez.no/zend_download_server_extension/news/changelog</guid>
+      <pubDate>Thu, 23 Apr 2009 07:30:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

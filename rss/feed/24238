@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / abpdfcatalogue / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:29:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:29:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24238" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nice idea</title>
+      <link>http://projects.ez.no/abpdfcatalogue/reviews/nice_idea</link>
+      <description>This is a neat bit of programming. &#13;
+&#13;
+My only reservation is it seems that maybe you are falling into the 'solution looking for a problem' trap. Programmers are great at coming up with clever systems, but often not so good at getting the end users enthusiastic about their great ideas. Without a few real world examples it's a bit hard for editors or users to see the potential of your extension. &#13;
+&#13;
+Here's a couple of ideas: &#13;
+&#13;
+If one were to develop a website to support a cookbook your extension could be utilised to allow visitors to drag off and print a selection of recipes. I'm not sure about others, but I much prefer to use a throwaway printout of a recipe in my rather messy kitchen than an expensive cookbook. You could, of course, use eZ user registration to only allow people who had bought the book access.&#13;
+&#13;
+A conference organiser with a bunch of speakers presenting papers could let attendees download a selection of papers.&#13;
+&#13;
+An academic running a personal website of self-published papers could offer and easy way of printing off a selection of their work. (I have a client in who fits into this category, and she loves eZ Publish - the only thing she'd really love would be a well implemented footnoting/citation extension).&#13;
+&#13;
+&#13;
+Hope that helps&#13;
+&#13;
+Paul B&#13;
+&#13;
+</description>
+      <author>community@ez.no (paul bolger)</author>
+      <guid>http://projects.ez.no/abpdfcatalogue/reviews/nice_idea</guid>
+      <pubDate>Sat, 20 Nov 2010 20:09:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Excelent idea</title>
+      <link>http://projects.ez.no/abpdfcatalogue/reviews/excelent_idea</link>
+      <description>This extension is really interesting and useful. Very intuitive and easy to use.</description>
+      <author>community@ez.no (Hugo Sandoval)</author>
+      <guid>http://projects.ez.no/abpdfcatalogue/reviews/excelent_idea</guid>
+      <pubDate>Mon, 05 Apr 2010 18:40:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

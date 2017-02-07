@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / yubico_yubikey_otp_extension_for_ez_publish</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:45:25 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:45:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29468" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/1cda19fcc2c654b3e5e32763847254ddbc8e152f</link>
+      <description>
+      &lt;pre&gt;+ design/standard/javascript/disable_enter.js
+- design/standard/templates/content/datatype/edit/ezyubikeyotp.tpl
+m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Re-enable disabling enter key while editing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/1cda19fcc2c654b3e5e32763847254ddbc8e152f</guid>
+      <pubDate>Tue, 13 Mar 2012 16:10:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/cfb658ff72cfcd3fabf44695919e5c13e1aacfb4</link>
+      <description>
+      &lt;pre&gt;m modules/ybuser/login.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replacing deprecated ezi18n() with ezpI18n::tr()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/cfb658ff72cfcd3fabf44695919e5c13e1aacfb4</guid>
+      <pubDate>Tue, 13 Mar 2012 15:50:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/d291895b1b315464c64de272406eae7d5431b967</link>
+      <description>
+      &lt;pre&gt;- datatypes/ezyubikeyotp/ezyubikeyotptype.php
+m doc/CHANGES.txt
+m doc/INSTALL.txt
+m ezinfo.php
+m login_handler/ezyubikeyloginuser.php
+- settings/content.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;support for unlimited YubiKeys&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/d291895b1b315464c64de272406eae7d5431b967</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/3122b402bc1e5d809d4c87bf96c18481f742bbd6</link>
+      <description>
+      &lt;pre&gt;+ classes/AuthYubico/Modhex.php
++ classes/AuthYubico/Modhex_Calculator.php
++ classes/AuthYubico/README
++ classes/AuthYubico/Yubico.php
++ classes/AuthYubico/admin.php
++ classes/AuthYubico/authenticate.php
++ classes/AuthYubico/config.php
++ classes/AuthYubico/db.sql
++ classes/AuthYubico/debug.php
++ classes/AuthYubico/demo.php
++ classes/AuthYubico/index.html
++ classes/AuthYubico/one_factor.php
++ classes/AuthYubico/package.xml
++ classes/AuthYubico/style.css
++ classes/AuthYubico/two_factor.php
++ classes/AuthYubico/two_factor_legacy.php
++ datatypes/ezyubikeyotp/ezyubikeyotptype.php
++ design/admin/override/templates/user/login.tpl
++ design/ezwebin/override/templates/user/login.tpl
++ design/standard/images/bg.jpg
++ design/standard/images/greenBG.jpg
++ design/standard/images/greenGraphic.jpg
++ design/standard/images/img_press.jpg
++ design/standard/images/logo.jpg
++ design/standard/images/yubicoLogo.gif
++ design/standard/images/yubicoLogo.jpg
++ design/standard/images/yubikey.jpg
++ design/standard/images/yubiright_16x16.gif
++ design/standard/override/templates/user/login.tpl
++ design/standard/stylesheets/yubikey.css
++ design/standard/templates/content/datatype/edit/ezyubikeyotp.tpl
++ doc/CHANGES.txt
++ doc/INSTALL.txt
++ doc/README.txt
++ ezinfo.php
++ login_handler/ezyubikeyloginuser.php
++ modules/ybuser/login.php
++ modules/ybuser/module.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/override.ini.append.php
++ settings/qhyubikey.ini
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/3122b402bc1e5d809d4c87bf96c18481f742bbd6</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/ac71827d5e411993233f98a383a35cee4201c984</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL.txt
+m login_handler/ezyubikeyloginuser.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed bug preventing login when updating from beta2 to 1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/subversion/ac71827d5e411993233f98a383a35cee4201c984</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>QH YubiKey extension 1.0 beta 3</title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/downloads/qh_yubikey_extension_1_0_beta_3</link>
+      <description>&lt;p&gt;- fix bug where pressing the YubiKey generates and types in the OTP but also submit the form. Need to disable the enter key when editing the user. This happens since admin2&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/downloads/qh_yubikey_extension_1_0_beta_3</guid>
+      <pubDate>Fri, 28 Jan 2011 00:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/news/changelog</link>
+      <description>&lt;p&gt;
+1.0beta2:&lt;br /&gt;
+ - added support for a secondary (backup) Yubikey per account&lt;br /&gt;
+ 1.0beta1:&lt;br /&gt;
+ - use of Yubico PHP Authentication client&lt;br /&gt;
+ - custom datatype&lt;br /&gt;
+ - custom user/login view&lt;br /&gt;
+ - custom login handler&lt;br /&gt; - custom login/edit templates&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/news/changelog</guid>
+      <pubDate>Fri, 16 Apr 2010 09:54:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>qhyubikey1_0beta2-1.0beta2-1.ezpkg</title>
+      <link>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/downloads/qhyubikey1_0beta2_1_0beta2_1_ezpkg</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/yubico_yubikey_otp_extension_for_ez_publish/downloads/qhyubikey1_0beta2_1_0beta2_1_ezpkg</guid>
+      <pubDate>Fri, 16 Apr 2010 09:54:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

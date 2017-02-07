@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cplot / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27075" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CPlot 0.1beta released</title>
+      <link>http://projects.ez.no/cplot/news/cplot_0_1beta_released</link>
+      <description>&lt;p&gt;Changed cplot fetch function to template operator. Now supports flash, svg, and png. Can plot line, bar, pie,and radar charts as flash, svg, and png, but can only display candle charts as flash.&lt;/p&gt;&lt;p&gt;A sample can be found at "site_admin_url/cplot/test. Be aware, svg files is not supported by IE.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.ez.no/cplot/downloads" target="_self"&gt;http://projects.ez.no/cplot/downloads&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/cplot/news/cplot_0_1beta_released</guid>
+      <pubDate>Wed, 28 Jul 2010 19:07:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPlot - Chart Extension 0.1alpha released!</title>
+      <link>http://projects.ez.no/cplot/news/cplot_chart_extension_0_1alpha_released</link>
+      <description>&lt;p&gt;Chart template operator extension.&lt;/p&gt;</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/cplot/news/cplot_chart_extension_0_1alpha_released</guid>
+      <pubDate>Wed, 21 Jul 2010 18:54:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

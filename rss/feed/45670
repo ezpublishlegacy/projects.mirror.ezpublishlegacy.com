@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / imexporter</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:03:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:03:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45670" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/576a1243b234814345df650da5a0659d97af0e41</link>
+      <description>
+      &lt;pre&gt;m bin/loadstructure.php
+m classes/imexporter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed calling of structureLoader in bin-script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/576a1243b234814345df650da5a0659d97af0e41</guid>
+      <pubDate>Mon, 12 Mar 2012 20:01:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/e1dedb9e923035c9e333467f58eafa4dcfd94448</link>
+      <description>
+      &lt;pre&gt;m classes/lib/imexporterdatabasehandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed bug regarding mysql escaping&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/e1dedb9e923035c9e333467f58eafa4dcfd94448</guid>
+      <pubDate>Mon, 12 Mar 2012 14:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/cccf6d4598334676aa1c2831bc16c354989e8e01</link>
+      <description>
+      &lt;pre&gt;m README.md
+m bin/export.php
+m bin/import.php
+m classes/lib/imexportercompressor.php
+m classes/lib/imexporterdatabasehandler.php
+m classes/lib/imexporterdumpgenerator.php
+m classes/lib/imexporterdumpimporter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added import feature&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/cccf6d4598334676aa1c2831bc16c354989e8e01</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/2969f750d3c18fb058ccc03499b5266f4d90cd97</link>
+      <description>
+      &lt;pre&gt;+ README.md
++ bin/export.php
++ bin/import.php
++ classes/entity/imexporterdatabase.php
++ classes/entity/imexporterrow.php
++ classes/entity/imexportertable.php
++ classes/imexporter.php
++ classes/interface/imexporterdatabaseinterface.php
++ classes/interface/imexporterrowinterface.php
++ classes/interface/imexportertableinterface.php
++ classes/lib/imexportercompressor.php
++ classes/lib/imexporterdatabasegenerator.php
++ classes/lib/imexporterdatabasehandler.php
++ classes/lib/imexporterdumpgenerator.php
++ classes/lib/imexporterdumpimporter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit / import not working yet&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/2969f750d3c18fb058ccc03499b5266f4d90cd97</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/d2b6ec36a33949371cc9047d56735aaaad73caea</link>
+      <description>
+      &lt;pre&gt;m classes/lib/imexporterdatabasehandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added transactions / fixed wrong call on execute&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/d2b6ec36a33949371cc9047d56735aaaad73caea</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/f181e4c1cd039435d49f33e172b7711666552bc0</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/f181e4c1cd039435d49f33e172b7711666552bc0</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/9c1f57a9a8ae458fec7ded3429831cfb0091209c</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/9c1f57a9a8ae458fec7ded3429831cfb0091209c</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/bcd6f31e4cb46a96d42dc6870abdd5607f4d25f8</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/bcd6f31e4cb46a96d42dc6870abdd5607f4d25f8</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/df3190c7d969cc366f0605231b158bd6623280db</link>
+      <description>
+      &lt;pre&gt;m README.md
+m bin/export.php
+m bin/import.php
+m classes/lib/imexportercompressor.php
+m classes/lib/imexporterdatabasehandler.php
+m classes/lib/imexporterdumpgenerator.php
+m classes/lib/imexporterdumpimporter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/df3190c7d969cc366f0605231b158bd6623280db</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/4863a11d23c8d4578de102061894f05769348e9c</link>
+      <description>
+      &lt;pre&gt;m README.md
+m classes/lib/imexportercompressor.php
++ classes/lib/imexporterhelper.php
+m classes/lib/imexportersettingshandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added imexporterhelper / optimized settingshandler / added exceptions for better debuging / added information to readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/4863a11d23c8d4578de102061894f05769348e9c</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/50691a29c55dd4c9da2ead57daaa462d07ffd8f3</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added detailed installation information&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/50691a29c55dd4c9da2ead57daaa462d07ffd8f3</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/698ff24a5f50f0352b25cc20e3b9772d03ac0463</link>
+      <description>
+      &lt;pre&gt;m classes/lib/imexporterdatabasehandler.php
+m classes/lib/imexportersettingshandler.php
+m settings/imexporter.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;externalized settings / fixed db connect bug for database settings not in siteaccess or overrite&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/698ff24a5f50f0352b25cc20e3b9772d03ac0463</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/573b271627986059696b51f87dda25fd456aa476</link>
+      <description>
+      &lt;pre&gt;m bin/export.php
+m bin/import.php
+m classes/lib/imexportercompressor.php
+m classes/lib/imexporterdatabasehandler.php
+m classes/lib/imexporterdumpgenerator.php
+m classes/lib/imexporterdumpimporter.php
++ classes/lib/imexportersettingshandler.php
++ settings/imexporter.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;unstable&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/573b271627986059696b51f87dda25fd456aa476</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/35c6ec9f08e434a2aa694dd2cd3260b3a4ce115b</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;modified readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/35c6ec9f08e434a2aa694dd2cd3260b3a4ce115b</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/5b4533c9b37719373bc95e3a04a3759f25e0da83</link>
+      <description>
+      &lt;pre&gt;m README.md
++ bin/loadstructure.php
+m classes/imexporter.php
+m classes/lib/imexporterdatabasehandler.php
+m classes/lib/imexporterhelper.php
+m classes/lib/imexportersettingshandler.php
++ classes/lib/imexportersqldumpparser.php
++ classes/lib/imexporterstructureloader.php
+m settings/imexporter.ini
++ structure/dump.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added structureloader feature&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/5b4533c9b37719373bc95e3a04a3759f25e0da83</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/eaaf09e54aa40e1d6d560093b5059595d07729c9</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed typos / structure&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/eaaf09e54aa40e1d6d560093b5059595d07729c9</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/1de604a9a9529e544c29e1eed5def6cc0b30f544</link>
+      <description>
+      &lt;pre&gt;m README.md
+m bin/export.php
+m bin/import.php
+m classes/imexporter.php
+m classes/lib/imexporterdumpgenerator.php
+m classes/lib/imexporterdumpimporter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;implementend multi-snapshot feature&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/1de604a9a9529e544c29e1eed5def6cc0b30f544</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/imexporter/source/7a29b53bd9085e9290caaf3cc16c1fb1ab6b42da</link>
+      <description>
+      &lt;pre&gt;m README.md
+m bin/export.php
+m bin/import.php
+m classes/lib/imexporterdumpgenerator.php
+m classes/lib/imexporterdumpimporter.php
+m classes/lib/imexportersettingshandler.php
+m settings/imexporter.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;changed naming of exports to snapshots globally&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/imexporter/source/7a29b53bd9085e9290caaf3cc16c1fb1ab6b42da</guid>
+      <pubDate>Mon, 12 Mar 2012 08:51:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

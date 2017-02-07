@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezxmlexport / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22049" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/6362599d40400243e2d933baa193a4923a588b64</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #EZP-24031 - Wrong icon in ezxmlexport extension.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/6362599d40400243e2d933baa193a4923a588b64</guid>
+      <pubDate>Wed, 18 Feb 2015 09:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/51206646eebbe6d60208aa63d6496e7ae7576c55</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from eeree/EZP-24031
+
+Fixed #EZP-24031 - Wrong icon in ezxmlexport extension.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/51206646eebbe6d60208aa63d6496e7ae7576c55</guid>
+      <pubDate>Wed, 18 Feb 2015 09:50:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/a89f3c3f58a56eeb41c8e21b0cf5a5b95852f595</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/a89f3c3f58a56eeb41c8e21b0cf5a5b95852f595</guid>
+      <pubDate>Wed, 05 Nov 2014 16:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/100874cfdb92f2d041d603809a01e29871b22648</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from ezsystems/ezp-23350_remamed_admin2
+
+EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/100874cfdb92f2d041d603809a01e29871b22648</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/673608330e027ce6885a312d19d4f6c4abfa9406</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/673608330e027ce6885a312d19d4f6c4abfa9406</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/5a163e307164c43fcfc380c97c57242ffe6b3d3f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Create composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/5a163e307164c43fcfc380c97c57242ffe6b3d3f</guid>
+      <pubDate>Fri, 16 May 2014 23:50:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/9181ead00e714ced7000203ce570fc8d3c2eea3c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/9181ead00e714ced7000203ce570fc8d3c2eea3c</guid>
+      <pubDate>Thu, 15 May 2014 09:10:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/5957a13e72931332b346462a8aaf3da9f407dcef</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/5957a13e72931332b346462a8aaf3da9f407dcef</guid>
+      <pubDate>Thu, 15 May 2014 09:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/ab113b744fab9484b16683928ccf61d0aac9b7af</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/ab113b744fab9484b16683928ccf61d0aac9b7af</guid>
+      <pubDate>Tue, 13 May 2014 21:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/e5cc745437fee5379936d69cc2aa8c2f9caa4037</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/e5cc745437fee5379936d69cc2aa8c2f9caa4037</guid>
+      <pubDate>Mon, 28 Oct 2013 15:20:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/df26c3915fd582bddaf9ca6a488efe6972cf60bc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20038/EZSA-2013-001: XSS attack possible in content/browse
+
+http://share.ez.no/community-project/security-advisories/ezsa-2013-001-xss-attack-possible-in-content-browse&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/df26c3915fd582bddaf9ca6a488efe6972cf60bc</guid>
+      <pubDate>Thu, 08 Aug 2013 12:50:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/8c1de4c36c7ce06310e6fda8cd1db692361b6330</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update translations/fre-FR/translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/8c1de4c36c7ce06310e6fda8cd1db692361b6330</guid>
+      <pubDate>Mon, 18 Feb 2013 14:51:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/f997650588a18dfb3271a76695b54320fbca7c1a</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from daisiez/patch-1
+
+Update translations/fre-FR/translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/f997650588a18dfb3271a76695b54320fbca7c1a</guid>
+      <pubDate>Mon, 18 Feb 2013 14:51:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/17a0df8e1260dc444286a9026c3a25e4b1c7424c</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from daisiez/master
+
+Translation fre-FR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/17a0df8e1260dc444286a9026c3a25e4b1c7424c</guid>
+      <pubDate>Mon, 18 Feb 2013 13:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/7a9551c390961f7410585a0ecbcca3f8507f01ea</link>
+      <description>
+      &lt;pre&gt;+ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;translate fre-fr
+
+not complete&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/7a9551c390961f7410585a0ecbcca3f8507f01ea</guid>
+      <pubDate>Mon, 18 Feb 2013 13:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/5993517141a9ed8de9b658b38ef15a9c7254338c</link>
+      <description>
+      &lt;pre&gt;m design/admin/javascript/ezxmlexport_contentclasses.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added form token support on FTP testing and XML export availability ajax calls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/5993517141a9ed8de9b658b38ef15a9c7254338c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/c3c61e4c5c24db58e2255e86dbdbcab241ac38b2</link>
+      <description>
+      &lt;pre&gt;m modules/xmlexport/edit.php
+m modules/xmlexport/menu.php
+m modules/xmlexport/runningexports.php
+m modules/xmlexport/test.php
+m modules/xmlexport/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replaced deprecated templateInit() calls by eZTemplate::factory() calls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/c3c61e4c5c24db58e2255e86dbdbcab241ac38b2</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/d688fdb59bf42a8d9770534e20d24fe1e2a6ffc3</link>
+      <description>
+      &lt;pre&gt;m classes/datatypes/ezbinaryfile/ezbinaryfilexmlexport.php
+m classes/datatypes/ezimage/ezimagexmlexport.php
+m settings/ezxmlexport.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from Synap/media-handling
+
+Explicitly ask to use remote files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/d688fdb59bf42a8d9770534e20d24fe1e2a6ffc3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/4d57084fc521398603d920b5cf294f23971930ec</link>
+      <description>
+      &lt;pre&gt;m settings/ezxmlexport.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Documentation about UseRemoteFiles setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/4d57084fc521398603d920b5cf294f23971930ec</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/6e52a7cea2d9f16f57ec23868d7aa22ab5f62124</link>
+      <description>
+      &lt;pre&gt;m classes/datatypes/ezbinaryfile/ezbinaryfilexmlexport.php
+m classes/datatypes/ezimage/ezimagexmlexport.php
+m settings/ezxmlexport.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;If files are copied from site1 to site2 (eg: by rsync), paths should not start with "http://site1.com/"&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/6e52a7cea2d9f16f57ec23868d7aa22ab5f62124</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/ae556717cf58e189a1cdaf45a6f298c46897c982</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/class/edit.tpl
+m design/admin2/templates/class/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #019240: Editing a class for xml export (ezxmlexport) is not stored&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/ae556717cf58e189a1cdaf45a6f298c46897c982</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/b4b19857797fc97729db4319fd3d31db81e8f389</link>
+      <description>
+      &lt;pre&gt;+ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Annapurna (4.6) beta1 strings update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/b4b19857797fc97729db4319fd3d31db81e8f389</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/617b460446d89ef9cf949d2b34a432efa5a85fd0</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/class/view.tpl
+m design/admin/templates/xmlexport/edit/export.tpl
+m design/admin/templates/xmlexport/view/export.tpl
+m design/admin2/templates/class/view.tpl
+m design/admin2/templates/xmlexport/edit/export.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed invalid i18n parameters&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/617b460446d89ef9cf949d2b34a432efa5a85fd0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/a4c1067a0f806befb4fc67c3fb916a345917322f</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/class/view.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Typo fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/a4c1067a0f806befb4fc67c3fb916a345917322f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/e735e654a7325b6844b6d3783f414b11c543f2c9</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/e735e654a7325b6844b6d3783f414b11c543f2c9</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/2fd7b89af2c26a95ee7036ff0f1df811978b89c5</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/class/edit.tpl
+m design/admin2/templates/class/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from jjCavalleri/19556
+
+Fixed #19556: Class and Attribute identifier duplications&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/2fd7b89af2c26a95ee7036ff0f1df811978b89c5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/05256eac922d0c338b0d1a2b3eef3f0c47b44acc</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/class/edit.tpl
+m design/admin2/templates/class/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19556: Class and Attribute identifier duplications&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/05256eac922d0c338b0d1a2b3eef3f0c47b44acc</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/ad150e8445b3d35e27430a6dcc846be58ff23d47</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/class/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from jjCavalleri/19459
+
+Fixed issue #019459: eZ XML Export extension disables UP and DOWN class ...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/ad150e8445b3d35e27430a6dcc846be58ff23d47</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/62e3d071bb344a65b6394143547eb6b000441170</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/class/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed issue #019459: eZ XML Export extension disables UP and DOWN class attribute re-order buttons&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/62e3d071bb344a65b6394143547eb6b000441170</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/4b43291cf3b9416bc042c0ed7982842f25f5c3d0</link>
+      <description>
+      &lt;pre&gt;m classes/datatypes/ezauthor/ezauthorxmlexport.php
+m classes/datatypes/ezbinaryfile/ezbinaryfilexmlexport.php
+m classes/datatypes/ezboolean/ezbooleanxmlexport.php
+m classes/datatypes/ezcountry/ezcountryxmlexport.php
+m classes/datatypes/ezdate/ezdatexmlexport.php
+m classes/datatypes/ezdatetime/ezdatetimexmlexport.php
+m classes/datatypes/ezemail/ezemailxmlexport.php
+m classes/datatypes/ezenum/ezenumxmlexport.php
+m classes/datatypes/ezfloat/ezfloatxmlexport.php
+m classes/datatypes/ezidentifier/ezidentifierxmlexport.php
+m classes/datatypes/ezimage/ezimagexmlexport.php
+m classes/datatypes/ezinteger/ezintegerxmlexport.php
+m classes/datatypes/ezisbn/ezisbnxmlexport.php
+m classes/datatypes/ezkeyword/ezkeywordxmlexport.php
+m classes/datatypes/ezmatrix/ezmatrixxmlexport.php
+m classes/datatypes/ezmedia/ezmediaxmlexport.php
+m classes/datatypes/ezobjectrelation/ezobjectrelationxmlexport.php
+m classes/datatypes/ezobjectrelationlist/ezobjectrelationlistxmlexport.php
+m classes/datatypes/ezselection/ezselectionxmlexport.php
+m classes/datatypes/ezstring/ezstringxmlexport.php
+m classes/datatypes/eztext/eztextxmlexport.php
+m classes/datatypes/eztime/eztimexmlexport.php
+m classes/datatypes/ezurl/ezurlxmlexport.php
+m classes/datatypes/ezxmltext/ezxmltextxmlexport.php
+m classes/exporter/ezxmlexportexporter.php
+m classes/filehandlers/ezxmlexportfilehandler.php
+m classes/filehandlers/ftp/ezxmlexportftpfilehandler.php
+m classes/helpers/ezxmlexporthelpers.php
+m classes/logger/ezxmlexportxmllogger.php
+m classes/persistenobjects/ezxmlexportprocesslog.php
+m extension.xml
+m ezinfo.php
+m tests/ezxmlexportavailablecontentclassattributes_test.php
+m tests/ezxmlexportavailablecontentclasses_test.php
+m tests/ezxmlexportcustomers_test.php
+m tests/ezxmlexportexporter_test.php
+m tests/ezxmlexportexports_test.php
+m tests/ezxmlexportftpfilehandler_test.php
+m tests/ezxmlexportprocesslog_test.php
+m tests/ezxmltextxmlexport_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/4b43291cf3b9416bc042c0ed7982842f25f5c3d0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/7b39f26f4c6bf18cd079111335749cd500a96acb</link>
+      <description>
+      &lt;pre&gt;m classes/datatypes/ezauthor/ezauthorxmlexport.php
+m classes/datatypes/ezbinaryfile/ezbinaryfilexmlexport.php
+m classes/datatypes/ezboolean/ezbooleanxmlexport.php
+m classes/datatypes/ezcountry/ezcountryxmlexport.php
+m classes/datatypes/ezdate/ezdatexmlexport.php
+m classes/datatypes/ezdatetime/ezdatetimexmlexport.php
+m classes/datatypes/ezemail/ezemailxmlexport.php
+m classes/datatypes/ezenum/ezenumxmlexport.php
+m classes/datatypes/ezfloat/ezfloatxmlexport.php
+m classes/datatypes/ezidentifier/ezidentifierxmlexport.php
+m classes/datatypes/ezimage/ezimagexmlexport.php
+m classes/datatypes/ezinteger/ezintegerxmlexport.php
+m classes/datatypes/ezisbn/ezisbnxmlexport.php
+m classes/datatypes/ezkeyword/ezkeywordxmlexport.php
+m classes/datatypes/ezmatrix/ezmatrixxmlexport.php
+m classes/datatypes/ezmedia/ezmediaxmlexport.php
+m classes/datatypes/ezobjectrelation/ezobjectrelationxmlexport.php
+m classes/datatypes/ezobjectrelationlist/ezobjectrelationlistxmlexport.php
+m classes/datatypes/ezselection/ezselectionxmlexport.php
+m classes/datatypes/ezstring/ezstringxmlexport.php
+m classes/datatypes/eztext/eztextxmlexport.php
+m classes/datatypes/eztime/eztimexmlexport.php
+m classes/datatypes/ezurl/ezurlxmlexport.php
+m classes/datatypes/ezxmltext/ezxmltextxmlexport.php
+m classes/exporter/ezxmlexportexporter.php
+m classes/filehandlers/ezxmlexportfilehandler.php
+m classes/filehandlers/ftp/ezxmlexportftpfilehandler.php
+m classes/helpers/ezxmlexporthelpers.php
+m classes/logger/ezxmlexportxmllogger.php
+m classes/persistenobjects/ezxmlexportprocesslog.php
+m extension.xml
+m ezinfo.php
+m tests/ezxmlexportavailablecontentclassattributes_test.php
+m tests/ezxmlexportavailablecontentclasses_test.php
+m tests/ezxmlexportcustomers_test.php
+m tests/ezxmlexportexporter_test.php
+m tests/ezxmlexportexports_test.php
+m tests/ezxmlexportftpfilehandler_test.php
+m tests/ezxmlexportprocesslog_test.php
+m tests/ezxmltextxmlexport_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/7b39f26f4c6bf18cd079111335749cd500a96acb</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/2dd36b3a73b1c74b64838dfbd6e3045d8d05bcd0</link>
+      <description>
+      &lt;pre&gt;m classes/exporter/ezxmlexportexporter.php
+m functions/functions.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: replaced deprecated calls of eZFile::getContents()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/2dd36b3a73b1c74b64838dfbd6e3045d8d05bcd0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/fd37e399ef5e3e8589a0e8959f6fa0bdada53f55</link>
+      <description>
+      &lt;pre&gt;m modules/xmlexport/delete.php
+m modules/xmlexport/edit.php
+m modules/xmlexport/menu.php
+m modules/xmlexport/relaunchftptransfert.php
+m modules/xmlexport/runningexports.php
+m modules/xmlexport/test.php
+m modules/xmlexport/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/fd37e399ef5e3e8589a0e8959f6fa0bdada53f55</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/3166749efe3f9546235b87d41405511e68a1a930</link>
+      <description>
+      &lt;pre&gt;m share/db_schema.dba
+m sql/mysql/schema.sql
+m sql/oracle/schema.sql
+m sql/postgresql/schema.sql
++ update/database/mysql/5.0/dbupdate-1.5-to-5.0.sql
++ update/database/oracle/5.0/dbupdate-1.5-to-5.0.sql
++ update/database/postgresql/5.0/dbupdate-1.5-to-5.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #9465: ezxmlexport: inconsistency between db_schema.dba and schema.sql&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/3166749efe3f9546235b87d41405511e68a1a930</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/68fdce28557c84669a6da2436037d8183b299a12</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/68fdce28557c84669a6da2436037d8183b299a12</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 44 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/44</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/44</guid>
+      <pubDate>Wed, 27 Oct 2010 14:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 43 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/43</link>
+      <description>Translations export doc : missing "Translations export" title</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/43</guid>
+      <pubDate>Tue, 31 Aug 2010 08:15:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 42 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/42</link>
+      <description>Added documentation for translations export</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/42</guid>
+      <pubDate>Tue, 31 Aug 2010 08:15:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 41 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/41</link>
+      <description>Move SQL update script to update/database/mysql/1.2.0 instead of 1.1.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/41</guid>
+      <pubDate>Tue, 31 Aug 2010 08:10:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 40 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/40</link>
+      <description>Translation exporter now only exports translations selected in admin (or all translations if none selected)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/40</guid>
+      <pubDate>Mon, 30 Aug 2010 16:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 39 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/39</link>
+      <description>eZXMLExportExports =&gt; Add new attribute for translations to export</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/39</guid>
+      <pubDate>Mon, 30 Aug 2010 15:05:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 38 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/38</link>
+      <description>added translations/untranslated/translation.ts</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/38</guid>
+      <pubDate>Mon, 30 Aug 2010 15:05:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 37 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/37</link>
+      <description>Admin interface : Choose which language to export</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/37</guid>
+      <pubDate>Mon, 30 Aug 2010 14:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 36 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/36</link>
+      <description>Export all translations for each content object with cronjob 'ezxmlexporttranslations.php'</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/36</guid>
+      <pubDate>Mon, 30 Aug 2010 11:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 35 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/35</link>
+      <description>Change exporter properties/functions visibility (private =&gt; protected)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/35</guid>
+      <pubDate>Mon, 30 Aug 2010 11:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 34 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/34</link>
+      <description>Copy trunk =&gt; branches/experimental/export_translations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/34</guid>
+      <pubDate>Fri, 27 Aug 2010 13:15:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 33 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/33</link>
+      <description>Experimental branch creation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/33</guid>
+      <pubDate>Fri, 27 Aug 2010 13:15:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 32 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/32</link>
+      <description>bad experimental branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/32</guid>
+      <pubDate>Fri, 27 Aug 2010 13:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 31 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/31</link>
+      <description>Experimental branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/31</guid>
+      <pubDate>Fri, 27 Aug 2010 13:10:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezxmlexport rev. 30 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezxmlexport/subversion/30</link>
+      <description>Added: 'UseCDATA' configuration to control whether the export of ezxmlstring should be encapsulated into a CDATA or not</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezxmlexport/subversion/30</guid>
+      <pubDate>Tue, 13 Apr 2010 13:50:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

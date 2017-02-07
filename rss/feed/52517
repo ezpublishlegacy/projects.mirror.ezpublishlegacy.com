@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezecosystem</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/52517" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/d59e71f1c51679e66c655be5172880b43c84be9a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added granithorizon.com blog atom feed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/d59e71f1c51679e66c655be5172880b43c84be9a</guid>
+      <pubDate>Sun, 05 Feb 2017 10:53:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/071ba3563e8dad6b6aae0cb2c9de53eb613b5118</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added bcmixedcontentpreventionfilter extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/071ba3563e8dad6b6aae0cb2c9de53eb613b5118</guid>
+      <pubDate>Thu, 02 Feb 2017 09:23:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/a69168d6c2a86dabd531840f948bf2dba0b3d42c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added youtube atom feed import support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/a69168d6c2a86dabd531840f948bf2dba0b3d42c</guid>
+      <pubDate>Thu, 02 Feb 2017 06:13:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/c348b7ae1b55ceb5e46d06eac2c2b8949eecbfe6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added several youtube playlists and channel attom feed sources regarding ezpublish&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/c348b7ae1b55ceb5e46d06eac2c2b8949eecbfe6</guid>
+      <pubDate>Thu, 02 Feb 2017 06:13:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/8b4f57ab0c9dfe09eb6b10df2d733d4e7715f917</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:brookinsconsulting/ezecosystem&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/8b4f57ab0c9dfe09eb6b10df2d733d4e7715f917</guid>
+      <pubDate>Thu, 02 Feb 2017 06:13:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/59614b5123ac30d51190b9f4ed50902cb7e92cee</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ssl settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/59614b5123ac30d51190b9f4ed50902cb7e92cee</guid>
+      <pubDate>Wed, 01 Feb 2017 15:24:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/d70762af2665b7091b2cf21a3555255e9d0d4e5a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added ezecosystem github feed to atom import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/d70762af2665b7091b2cf21a3555255e9d0d4e5a</guid>
+      <pubDate>Wed, 01 Feb 2017 12:13:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/ff7abdc848c45474ccbb0c26d40f210cbff641bd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor content2 list and list_count fetch to ensure language mask is omitted for database performance&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/ff7abdc848c45474ccbb0c26d40f210cbff641bd</guid>
+      <pubDate>Sun, 29 Jan 2017 22:13:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/0176fd30e5f5c234c8b575b80e8da9f1d673e1b0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Disabled search engine php stats logging&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/0176fd30e5f5c234c8b575b80e8da9f1d673e1b0</guid>
+      <pubDate>Sun, 29 Jan 2017 22:13:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/2ab1bad3ba4dd04d5b211dc1d19152973669ce64</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated hfpfetchrandom extension to latest branch master version to include needed php bugfixes to prevent php warnings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/2ab1bad3ba4dd04d5b211dc1d19152973669ce64</guid>
+      <pubDate>Sun, 29 Jan 2017 22:13:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/533da95b691a6f809834c41d70a54c4386e4285d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refined debug output comment&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/533da95b691a6f809834c41d70a54c4386e4285d</guid>
+      <pubDate>Sun, 29 Jan 2017 11:53:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/9c8f295b69d6621c8a33db43b4554a4271ea1484</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added small script to fix objects with missing attributes from issues.ez.no issue tracker ticket #14307&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/9c8f295b69d6621c8a33db43b4554a4271ea1484</guid>
+      <pubDate>Sun, 29 Jan 2017 11:03:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/8a7697b8c02d77d31cb6d599f9f63246e0bed9e2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added static replace for specific blog with long urls used for remote id conflicting due to protocol and hostname reducing total remote id length uniqueness&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/8a7697b8c02d77d31cb6d599f9f63246e0bed9e2</guid>
+      <pubDate>Sun, 29 Jan 2017 10:43:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/0670b827ae50887ac01e13477010270a7ba10999</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added SectionID settings block settings and replaced ezpublish for ezplatform keyword for tweet display&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/0670b827ae50887ac01e13477010270a7ba10999</guid>
+      <pubDate>Sun, 29 Jan 2017 07:53:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/9197d7495777dedc9df8d083303d6869e2c996be</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added bcdatetimefilter and hfpfetchrandom extensions to submodules&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/9197d7495777dedc9df8d083303d6869e2c996be</guid>
+      <pubDate>Sun, 29 Jan 2017 07:53:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/7bdfbae534763da31e265e5c26553cd8fc836678</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Enabled bcdatetimefilter extension and hfpfetchrandom extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/7bdfbae534763da31e265e5c26553cd8fc836678</guid>
+      <pubDate>Sun, 29 Jan 2017 07:53:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/0d21700ff5989cf68b2b7d12f3608eab7b82d905</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added sectionID settings, replaced tabs, reformatted tpl code indentation, added extended_attribute_filter on homepage and added cache-block usage for template code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/0d21700ff5989cf68b2b7d12f3608eab7b82d905</guid>
+      <pubDate>Sun, 29 Jan 2017 07:53:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/83fcb875b045cf855e8abc67bb9bc4ac42b84c34</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added php configuration overrides to allow for large file uploads&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/83fcb875b045cf855e8abc67bb9bc4ac42b84c34</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/2f72e29a1aec026c23f11f4e05f2a35a20e760ff</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Minor improvements to virtual host configuration required&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/2f72e29a1aec026c23f11f4e05f2a35a20e760ff</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/f3402582de9c4cec298f72892bac22a0eade389e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Configure eZecosystem.org Database Settings, enabled eZFind and configured HostMatchMapItems for replacement hosting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/f3402582de9c4cec298f72892bac22a0eade389e</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/61ded83b5659c4b1b0e95032deeb4a5aee2bd62f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Upgrade eZFind Legacy to 5.3.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/61ded83b5659c4b1b0e95032deeb4a5aee2bd62f</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/e034a913dbbe3a8ed24d49d1b8675256f3559335</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Configure eZFind Service Settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/e034a913dbbe3a8ed24d49d1b8675256f3559335</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/c42d925fc301c2907a63b7c3f4f152893d632db8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Upgrade eZFind Legacy to 5.3.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/c42d925fc301c2907a63b7c3f4f152893d632db8</guid>
+      <pubDate>Mon, 09 Jan 2017 20:03:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/93b16aa28a7dfc28264308b0d9badf5901fc36ad</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Normalize config file line ending to linux and added comment blocks for static cache configuration blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/93b16aa28a7dfc28264308b0d9badf5901fc36ad</guid>
+      <pubDate>Fri, 06 Jan 2017 22:03:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/59d3c36c62831267b5c089ec5e2e191f7229c483</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Example AWS + Varnish + Apache + Static Cache + ModRewrite Virtual Host configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/59d3c36c62831267b5c089ec5e2e191f7229c483</guid>
+      <pubDate>Fri, 06 Jan 2017 21:53:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/a4d421648d316ce3b87f3b8912bac2a0daf72696</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: robots_disallow.txt configuration (was global, now local)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/a4d421648d316ce3b87f3b8912bac2a0daf72696</guid>
+      <pubDate>Fri, 06 Jan 2017 21:53:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/e92efc522d62ed3b54a5806edd62a29b3bb6e091</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Extended forum content templates to solve stackoverflow related content display bugs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/e92efc522d62ed3b54a5806edd62a29b3bb6e091</guid>
+      <pubDate>Sat, 16 May 2015 22:53:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/51036d4aec96b305467577cca850241ff6f693da</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor stackoverflow specific template support to exclude forum and forums class content and refactor forum message output to detect and support stack html content display&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/51036d4aec96b305467577cca850241ff6f693da</guid>
+      <pubDate>Wed, 29 Apr 2015 02:03:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/1f0d2b721f36eb341b581595516f9fba7ad96033</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor templates to bugfix thus restoring individual /mirror forum browsing thread display, pagintation and refactor forum thread templates to better support stackoverflow author input&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/1f0d2b721f36eb341b581595516f9fba7ad96033</guid>
+      <pubDate>Wed, 29 Apr 2015 01:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/20387ebe20a5848a691ff6b64f0b5f7b9eda5ec3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor stackoverflow atom import handler to link author name to stackoverflow author profile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/20387ebe20a5848a691ff6b64f0b5f7b9eda5ec3</guid>
+      <pubDate>Wed, 29 Apr 2015 00:43:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/dcf354111d2abd833ef77eb76f0e398a2c25fc58</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added new atom sqliimport source handlers, added two new atom import sources, refactored atom import shell script parameter storage and usage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/dcf354111d2abd833ef77eb76f0e398a2c25fc58</guid>
+      <pubDate>Tue, 28 Apr 2015 22:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/1da19a846a650ba8c9e9912f387c5f791f9a20aa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Increased rss import script timeout to 380 seconds to address early execution termination problems in production. This is a test change&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/1da19a846a650ba8c9e9912f387c5f791f9a20aa</guid>
+      <pubDate>Tue, 21 Apr 2015 21:03:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/fcd1e6b61d86ad0c754d61e8740acee8bc0a042a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Reset default cronjob script exection to remove undesired scripts from being executed like rssimport which conflicts with ezerssimport. This configuration is used when runcronjobs command is run without cronjob part arguments in the default ezpublish crontab configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/fcd1e6b61d86ad0c754d61e8740acee8bc0a042a</guid>
+      <pubDate>Fri, 27 Feb 2015 05:53:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/347b52e38eeb14e8889a47d962b1b159a7b321d8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added script to clear sqliimport ezsite_data status record from failed imports. Added this new script to default shell script for atom content import using sqliimport to ensure this status record is removed after an import attempt regardless of success. This is a temporary work around hack and should not be needed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/347b52e38eeb14e8889a47d962b1b159a7b321d8</guid>
+      <pubDate>Fri, 27 Feb 2015 05:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/4e6a3985e7dafcd9038d0633bb3b4509283d8d8b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added Forums Homepage to static cache configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/4e6a3985e7dafcd9038d0633bb3b4509283d8d8b</guid>
+      <pubDate>Thu, 20 Nov 2014 04:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/2c22c70b7a3e68f51aa3e8cc34c952b4487f4e4b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Revised view cache rules for forum_topic&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/2c22c70b7a3e68f51aa3e8cc34c952b4487f4e4b</guid>
+      <pubDate>Thu, 20 Nov 2014 04:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/96e218eb402807cffd6670b73f130c16d5e86317</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Excluded forum content from default homepage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/96e218eb402807cffd6670b73f130c16d5e86317</guid>
+      <pubDate>Thu, 20 Nov 2014 03:03:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/6bf69423ab5f4cfb5c1a126d5a64bd416d88f34a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Forums homepage template support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/6bf69423ab5f4cfb5c1a126d5a64bd416d88f34a</guid>
+      <pubDate>Thu, 20 Nov 2014 02:43:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/d4b62bdaeceae56e966d2ab6926a85b354dbbfcc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: forum_topic line template syntax error bugfix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/d4b62bdaeceae56e966d2ab6926a85b354dbbfcc</guid>
+      <pubDate>Thu, 20 Nov 2014 02:43:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/23a3b76c5a654f1571b19fad738f6c51e7cf589f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added script to generate all static cache recursively&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/23a3b76c5a654f1571b19fad738f6c51e7cf589f</guid>
+      <pubDate>Sat, 01 Nov 2014 05:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/343b2c7a6297a886f80f34b1ec0ce4994efe47ed</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added Edi Modrić GitHub Activity Feed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/343b2c7a6297a886f80f34b1ec0ce4994efe47ed</guid>
+      <pubDate>Fri, 31 Oct 2014 21:43:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/c208c61e529b22c1c5d171cd9091786ce4adbca7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added additional GitHub Activity Feeds&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/c208c61e529b22c1c5d171cd9091786ce4adbca7</guid>
+      <pubDate>Fri, 31 Oct 2014 21:23:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/8b75a650ca776c561fd96535fb0ecf689f83f33f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added Gunnstein Lye GitHub Activity Feed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/8b75a650ca776c561fd96535fb0ecf689f83f33f</guid>
+      <pubDate>Fri, 31 Oct 2014 18:13:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/05f99d734170d606250ed3b708ca823c965dc8d3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added João Inácio GitHub Activity Feed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/05f99d734170d606250ed3b708ca823c965dc8d3</guid>
+      <pubDate>Fri, 31 Oct 2014 17:53:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/0b098a0cb3ca34c681528259aa22defa8bbcc087</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Bringing bcgeneratestaticcache extension current with latest branch&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/0b098a0cb3ca34c681528259aa22defa8bbcc087</guid>
+      <pubDate>Fri, 31 Oct 2014 05:53:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/eb8283175c67512929e754f3c7143d853eeafcce</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added additional max-level parameter to support full site static cache creation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/eb8283175c67512929e754f3c7143d853eeafcce</guid>
+      <pubDate>Fri, 31 Oct 2014 05:53:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/882e4cb3c4bb8dc0dfc9b16110ee0fd0c9fea06e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Swapped cache clear worker scripts to use api directly and use recursive more effectively&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/882e4cb3c4bb8dc0dfc9b16110ee0fd0c9fea06e</guid>
+      <pubDate>Fri, 31 Oct 2014 04:53:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/3ca603f116b1117f6c553fbb518a6a0940fbe62f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added support for background static cache creation and logging partially using nl_cronjobs extension internals duplicated&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/3ca603f116b1117f6c553fbb518a6a0940fbe62f</guid>
+      <pubDate>Mon, 27 Oct 2014 00:33:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/aa82cfaf8cf06c1b8395200cbf29a0da3967ea17</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Replaced view count href to solve link target bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/aa82cfaf8cf06c1b8395200cbf29a0da3967ea17</guid>
+      <pubDate>Mon, 27 Oct 2014 00:33:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezecosystem/source/1403f1ed8a4f5ed74ea156f7fc72210be643f71e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Added static cronjob parts to execute view count reset scripts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezecosystem/source/1403f1ed8a4f5ed74ea156f7fc72210be643f71e</guid>
+      <pubDate>Sat, 25 Oct 2014 21:23:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

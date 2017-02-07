@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / arh_jdebug / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:06:04 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:06:04 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25335" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Planning some changes</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/planning_some_changes</link>
+      <description>As new member in the project, I's like to discuss some ideas before committing them:&#13;
+&#13;
+1. use pure-js based loading. This beacuse you can not guarantee that the debug_toolbar.tpl is loaded at all times (I generally have it disabled)&#13;
+&#13;
+2. use design.ini to enable/disable the extension instead of providing a custom param in debugjquery.ini&#13;
+&#13;
+3. rename images so that they use lowercase, english filenames&#13;
+&#13;
+4. rename the module name and ini file name so that they're consistent with the extension&#13;
+&#13;
+5. if possible, do away completely with the custom fetch functions&#13;
+&#13;
+Comments?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/planning_some_changes</guid>
+      <pubDate>Tue, 03 Apr 2012 11:29:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: add debug.css</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css/re_add_debug_css</link>
+      <description>Hi Matthieu,&#13;
+&#13;
+The use of the extension ezjscore to call js and css  files, is part of the priority adjustments, that we will do.&#13;
+&#13;
+You're right it's interesting to store the state in ezpreference, I will do it.&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css/re_add_debug_css</guid>
+      <pubDate>Thu, 29 Apr 2010 14:28:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>add debug.css</title>
+      <link>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css</link>
+      <description>Hello Abdelkader,&#13;
+&#13;
+Thank you for this extension that's really usefull !&#13;
+&#13;
+I just have a problem a presentation because I don't load debug.css in my front office. What do you think of using the ezcss_require template operator to load your 'debugjquery.css' and add loading of ez 'debug.css'.&#13;
+&#13;
+Something like :&#13;
+{ezcss_require( array( 'debug.css', 'debugjquery.css' ) )}&#13;
+&#13;
+Cheers !&#13;
+&#13;
+PS : Another great feature would be to store the state of the debug bar ( i.e. open / close ) in ezpreference and this way we could just open the debug bar when we want. If you are interested and want help just tell me ;)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/arh_jdebug/forum/general/add_debug_css</guid>
+      <pubDate>Thu, 29 Apr 2010 12:48:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

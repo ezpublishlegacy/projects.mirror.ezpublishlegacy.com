@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / jvamf / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:18:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:18:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16480" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>jvAMF 1.0.2</title>
+      <link>http://projects.ez.no/jvamf/downloads/jvamf_1_0_2</link>
+      <description></description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/jvamf/downloads/jvamf_1_0_2</guid>
+      <pubDate>Thu, 18 Jun 2009 17:04:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

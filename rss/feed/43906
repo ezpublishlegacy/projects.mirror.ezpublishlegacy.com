@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcmemberofrole / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:34:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:34:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43906" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcmemberofrole/subversion/f5ef22101fa91a1eeacec8783deb24343df4a819</link>
+      <description>
+      &lt;pre&gt;+ classes/bcmemberofroleoperators.php
++ doc/changelogs/CHANGELOG-0.1.8
++ settings/bcmemberofrole.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Renamed extension to bcmemberofrole. Simplified extension naming convention. Re-factored extension internals, documentation and distribution&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcmemberofrole/subversion/f5ef22101fa91a1eeacec8783deb24343df4a819</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcmemberofrole/subversion/b2cd29812e5fde598b6a5569584711c7d9ab23c4</link>
+      <description>
+      &lt;pre&gt;+ autoloads/eztemplateautoload.php
++ classes/bcmemberofrolebyuseroperator.php
++ doc/LICENSE
++ doc/README
++ doc/USAGE
++ doc/changelogs/CHANGELOG-0.1.7
++ extension.xml
++ ezinfo.php
++ settings/bcmemberofrolebyuser.ini.append.php
++ settings/owsimpleoperator.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Initial import of extension bcmemberofrolebyuser solution based on Brookins Consulting Gist Sources of version 0.1.4, https://gist.github.com/1361427&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcmemberofrole/subversion/b2cd29812e5fde598b6a5569584711c7d9ab23c4</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcmemberofrole/subversion/de55f8587b9ed0283bc6a87d5443f256ab1c906a</link>
+      <description>
+      &lt;pre&gt;m doc/README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Minor documentation clarification on extension activation settings required.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcmemberofrole/subversion/de55f8587b9ed0283bc6a87d5443f256ab1c906a</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcmemberofrole/subversion/21812af11a3de9a2093aa92a663ba16ace23aa4e</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/bcmemberofroleoperators.php
+m doc/README
+m doc/USAGE
++ doc/changelogs/CHANGELOG-0.1.7
+m doc/changelogs/CHANGELOG-0.1.8
+m extension.xml
+m ezinfo.php
+m settings/bcmemberofrole.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Renamed extension to bcmemberofrole. Simplified extension naming convention. Re-factored extension internals, documentation and distribution&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcmemberofrole/subversion/21812af11a3de9a2093aa92a663ba16ace23aa4e</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

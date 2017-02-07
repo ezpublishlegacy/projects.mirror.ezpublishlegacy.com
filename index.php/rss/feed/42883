@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owsimpleoperator / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:37:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:37:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42883" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t6</link>
+      <description>Hi Thomas,&#13;
+I had no problem with your extension, my operator is alreary working. As I wrote it took me only a few minutes following your tutorial.&#13;
+&#13;
+My bad luck was that I initially tried altering another extension (http://www.seeds.no/eng/ez-publish/downloads/swark-for-ez-publish-4), which didn't work out that well, but after that I found your extension, and it was a breeze.&#13;
+&#13;
+And thanks for the simplification hints, I updated my code.</description>
+      <author>community@ez.no (Reinhard Hutter)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t6</guid>
+      <pubDate>Fri, 08 Mar 2013 19:27:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t5</link>
+      <description>Hi Reinhard!&#13;
+&#13;
+Thank you for the compliments.&#13;
+It's very important for me that the community like this project.&#13;
+&#13;
+Did you follow the Readme tutrial ? https://github.com/Open-Wide/OWSimpleOperator#step-1--install&#13;
+In other words, did you register your operator ini your autoloads/eztemplateautoload.php extension file ?&#13;
+&#13;
+By the way, you can easily simplify your code. &#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+class FirstTrueOperator extends OWSimpleOperator&#13;
+{&#13;
+    &#13;
+   public function first_true( )&#13;
+   {&#13;
+      foreach( func_get_args() as $arg ) {&#13;
+         if ( $arg ) {&#13;
+            return $arg;&#13;
+         } &#13;
+      }&#13;
+   }&#13;
+    &#13;
+}&#13;
+?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+See you,&#13;
+Thomas.</description>
+      <author>community@ez.no (Thomas ZILLIOX)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t5</guid>
+      <pubDate>Fri, 08 Mar 2013 15:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t4</link>
+      <description>Thanks for this extension, helped me a lot. I just wished I would have found this extension before I wasted some hours trying to derive my own operator from other template extensions. With your basis it has been a matter of minutes.&#13;
+&#13;
+So simple, yet I failed deriving this from the SwarkTemplate extension :(&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+&#13;
+class FirstTrueOperator extends OWSimpleOperator&#13;
+{&#13;
+    &#13;
+    public function first_true( $value1, $value2, $value3, $value4, $value5, $value6, $value7, $value8, $value9, $value10 )&#13;
+    {&#13;
+        $arg_list = func_get_args();&#13;
+		for ($i = 0; $i &lt; func_num_args(); $i++) {&#13;
+			if ($arg_list[$i]) {&#13;
+				return $arg_list[$i];&#13;
+			} &#13;
+		}&#13;
+    }&#13;
+    &#13;
+}&#13;
+?&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Reinhard Hutter)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t4</guid>
+      <pubDate>Thu, 07 Mar 2013 22:34:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t3</link>
+      <description>Hi Lars !&#13;
+&#13;
+Thank you for the note.&#13;
+I hope this extension will be useful for the ez community.&#13;
+&#13;
+See you,&#13;
+Thomas.</description>
+      <author>community@ez.no (Thomas ZILLIOX)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t3</guid>
+      <pubDate>Tue, 11 Oct 2011 07:19:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t2</link>
+      <description>Hi Heath !&#13;
+&#13;
+I really like your enthousiasm.&#13;
+Thank you for this encouraging note.&#13;
+&#13;
+See you,&#13;
+Thomas</description>
+      <author>community@ez.no (Thomas ZILLIOX)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t2</guid>
+      <pubDate>Tue, 11 Oct 2011 07:16:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fantastic solution! Simple and functional t...</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t</link>
+      <description>This looks like a really nice way of handling operators. &#13;
+I particularly like the fact that you have a base class which we can extend from:)&#13;
+&#13;
+Good work!</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use/re_fantastic_solution_simple_and_functional_t</guid>
+      <pubDate>Fri, 07 Oct 2011 10:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fantastic solution! Simple and functional to use</title>
+      <link>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use</link>
+      <description>Hello Thomas,&#13;
+&#13;
+Thank you very much for publishing your complete extension here on projects.ez.no&#13;
+&#13;
+I really believe this extension will extend an amazingly powerful influence for good to each of it's users. It's rare that I am really impressed with a new extension, today I was with yours.&#13;
+&#13;
+eZ Publish developers looking to more quickly expose more powerful PHP user defined functions as an eZ Publish Template operator. Folks are always looking for ways to call PHP operators which require more than one parameter (limitation) in eZ Publish Templates, I think this extension can really help users realize these goals quickly with little trouble. New eZ Publish developers, get your copy while it's fresh, this is the best!&#13;
+&#13;
+Also a personal thank you for licensing your extension under the GNU GPL. A lot of people really believe in the value it shares to all who come into contact with it.&#13;
+&#13;
+I can't wait to see what you create with eZ Publish next! :)&#13;
+&#13;
+Best wishes&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/forum/general/fantastic_solution_simple_and_functional_to_use</guid>
+      <pubDate>Fri, 07 Oct 2011 00:33:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

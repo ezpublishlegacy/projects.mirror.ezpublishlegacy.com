@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xsendfilehandler / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:36 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12056" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xsendfilehandler rev. 5 by Kristof Coomans</title>
+      <link>http://projects.ez.no/xsendfilehandler/subversion/5</link>
+      <description>- Fixed bug #13783: Flash Player 10 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/subversion/5</guid>
+      <pubDate>Mon, 02 Feb 2009 09:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>xsendfilehandler rev. 4 by Xavier Dutoit</title>
+      <link>http://projects.ez.no/xsendfilehandler/subversion/4</link>
+      <description>Works with lighttpd vs. 1.4
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/subversion/4</guid>
+      <pubDate>Sun, 25 Jan 2009 14:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xsendfilehandler rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/xsendfilehandler/subversion/3</link>
+      <description>- add license, info files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/subversion/3</guid>
+      <pubDate>Tue, 20 Jan 2009 13:35:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>xsendfilehandler rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/xsendfilehandler/subversion/2</link>
+      <description>- add support for x-accel-redirect headers (for Nginx webserver)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/subversion/2</guid>
+      <pubDate>Tue, 20 Jan 2009 13:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>xsendfilehandler rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/xsendfilehandler/subversion/1</link>
+      <description>- Implemented: X-SendFile binary file download handler</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/subversion/1</guid>
+      <pubDate>Fri, 24 Oct 2008 08:45:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / epie / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:39:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:39:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21139" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/125ebb32ce8ab6b841f279b9247d9b3775e25c19</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/125ebb32ce8ab6b841f279b9247d9b3775e25c19</guid>
+      <pubDate>Mon, 03 Nov 2014 14:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/54f3232fcc32135b57fb6ad563c145b9de87575d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/54f3232fcc32135b57fb6ad563c145b9de87575d</guid>
+      <pubDate>Tue, 20 May 2014 20:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/660988a743196c052c44e4e7243ce9e4d5b41d22</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/660988a743196c052c44e4e7243ce9e4d5b41d22</guid>
+      <pubDate>Tue, 20 May 2014 19:50:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/9690ba153aa090aaa05ec8b0bdb7c900ddd513ea</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/9690ba153aa090aaa05ec8b0bdb7c900ddd513ea</guid>
+      <pubDate>Tue, 20 May 2014 19:50:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/9b025d9c2d74c3f3fafe99b45f3afe56f96d9539</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Re add original external copyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/9b025d9c2d74c3f3fafe99b45f3afe56f96d9539</guid>
+      <pubDate>Thu, 15 May 2014 09:50:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/055668807ee2a4e9225c167edab96d1ff7e8e452</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/055668807ee2a4e9225c167edab96d1ff7e8e452</guid>
+      <pubDate>Thu, 15 May 2014 09:00:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/c106d0b73b75752f6ef84cf08bd6bbea96cb81b8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/c106d0b73b75752f6ef84cf08bd6bbea96cb81b8</guid>
+      <pubDate>Tue, 13 May 2014 21:30:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/d1ad86cb3136eda91f5624d158e0c0882e4a30ff</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #19 from Heliopsis-HQ/ext-name-config
+
+EZP-22038 : Allow alternative legacy extension name in package configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/d1ad86cb3136eda91f5624d158e0c0882e4a30ff</guid>
+      <pubDate>Mon, 02 Dec 2013 14:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/c2f83b9772141b48a5282e1d1cc77e1320ff65f2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Configure extension name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/c2f83b9772141b48a5282e1d1cc77e1320ff65f2</guid>
+      <pubDate>Mon, 02 Dec 2013 14:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/ab482ef7c5965e2aed155d1da53e5f06cf389d45</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #18 from ezsystems/fix/EZP-22025-ezie_tmp_files_scope
+
+Fix EZP-22025: use a real cluster file scope&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/ab482ef7c5965e2aed155d1da53e5f06cf389d45</guid>
+      <pubDate>Fri, 29 Nov 2013 16:20:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/2df395a7bd0e8a9d817f1cf3e2cd90d9c640d427</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22025: use a real cluster file scope
+
+'true' was passed as the scope when storing the file to cluster.
+The scope is now set to image, so that expired cache files can
+easily be purged with system scripts.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/2df395a7bd0e8a9d817f1cf3e2cd90d9c640d427</guid>
+      <pubDate>Fri, 29 Nov 2013 16:20:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/9db5f9430f68757e543d6ca1ef018e2cd3aec000</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/9db5f9430f68757e543d6ca1ef018e2cd3aec000</guid>
+      <pubDate>Fri, 07 Jun 2013 10:10:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/107b03fba05d3ba03dba241af7d19feefe199857</link>
+      <description>
+      &lt;pre&gt;- design/standard/javascript/jquery-migrate-1.1.1.min.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved the jquery migrate plugin to ezjscore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/107b03fba05d3ba03dba241af7d19feefe199857</guid>
+      <pubDate>Wed, 03 Apr 2013 11:50:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/0351f093e9e4304b3cd8ae3ebf9f21e179bb4993</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezie.gui.js
++ design/standard/javascript/jquery-migrate-1.1.1.min.js
+m design/standard/templates/ezie/gui.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from ezsystems/ezp-20572_jquery_migration_plugin
+
+Fix EZP-20572: Image editor stopped working after jQuery update to 1.9.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/0351f093e9e4304b3cd8ae3ebf9f21e179bb4993</guid>
+      <pubDate>Wed, 03 Apr 2013 10:21:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/3f312d80716cf8c0c50083cc359b6f431f6821be</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezie.gui.js
++ design/standard/javascript/jquery-migrate-1.1.1.min.js
+m design/standard/templates/ezie/gui.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-20572: Image editor stopped working after jQuery update to 1.9.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/3f312d80716cf8c0c50083cc359b6f431f6821be</guid>
+      <pubDate>Wed, 03 Apr 2013 10:21:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/222a9b37c43b576657be688e042596cd25695700</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/ezie/gui.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added a missing quote&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/222a9b37c43b576657be688e042596cd25695700</guid>
+      <pubDate>Thu, 21 Mar 2013 13:01:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/e245d6b74aec0bb32037475dd9039aaac33b00da</link>
+      <description>
+      &lt;pre&gt;m translations/ger-DE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Annapurna (4.6) beta1 strings update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/e245d6b74aec0bb32037475dd9039aaac33b00da</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/32bd38deba4d7272573b086d6cc851e3bd71b6d1</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/jquery.hotkeys.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #18734: Unable to drag/resize image editor&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/32bd38deba4d7272573b086d6cc851e3bd71b6d1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/607ba0891cfa0a2214cff04933b88eda9eec23ef</link>
+      <description>
+      &lt;pre&gt;m classes/handlers/gd.php
+m classes/handlers/magick.php
+m classes/image_action.php
+m classes/image_analyzer.php
+m classes/image_converter.php
+m classes/image_filter_brightness.php
+m classes/image_filter_bw.php
+m classes/image_filter_contrast.php
+m classes/image_filter_sepia.php
+m classes/image_pre_action.php
+m classes/image_tool_crop.php
+m classes/image_tool_flip_horizontally.php
+m classes/image_tool_flip_vertically.php
+m classes/image_tool_pixelate.php
+m classes/image_tool_resize.php
+m classes/image_tool_rotation.php
+m classes/image_tool_watermark.php
+m classes/interfaces/conversions.php
+m design/standard/javascript/ezie.ezconnect.complete_default.js
+m design/standard/javascript/ezie.ezconnect.connect.js
+m design/standard/javascript/ezie.ezconnect.failure_default.js
+m design/standard/javascript/ezie.ezconnect.prepare.js
+m design/standard/javascript/ezie.ezconnect.success_default.js
+m design/standard/javascript/ezie.gui.config.action.load_image.js
+m design/standard/javascript/ezie.gui.config.bind.filter_black_and_white.js
+m design/standard/javascript/ezie.gui.config.bind.filter_brightness.js
+m design/standard/javascript/ezie.gui.config.bind.filter_contrast.js
+m design/standard/javascript/ezie.gui.config.bind.filter_sepia.js
+m design/standard/javascript/ezie.gui.config.bind.menu_close_without_saving.js
+m design/standard/javascript/ezie.gui.config.bind.menu_save_and_close.js
+m design/standard/javascript/ezie.gui.config.bind.opts_attach.js
+m design/standard/javascript/ezie.gui.config.bind.opts_detach.js
+m design/standard/javascript/ezie.gui.config.bind.tool_crop.js
+m design/standard/javascript/ezie.gui.config.bind.tool_flip_hor.js
+m design/standard/javascript/ezie.gui.config.bind.tool_flip_ver.js
+m design/standard/javascript/ezie.gui.config.bind.tool_pixelate.js
+m design/standard/javascript/ezie.gui.config.bind.tool_redo.js
+m design/standard/javascript/ezie.gui.config.bind.tool_rotation.js
+m design/standard/javascript/ezie.gui.config.bind.tool_select.js
+m design/standard/javascript/ezie.gui.config.bind.tool_undo.js
+m design/standard/javascript/ezie.gui.config.bind.tool_watermark.js
+m design/standard/javascript/ezie.gui.config.bind.tool_zoom.js
+m design/standard/javascript/ezie.gui.config.bindings.main_window.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_items_buttons.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_items_sliders.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_window.js
+m design/standard/javascript/ezie.gui.config.bindings.tools_window.js
+m design/standard/javascript/ezie.gui.config.bindings.variations_bar.js
+m design/standard/javascript/ezie.gui.config.zoom.js
+m design/standard/javascript/ezie.gui.js
+m design/standard/javascript/ezie.gui.main_window.js
+m design/standard/javascript/ezie.gui.opts_window.js
+m design/standard/javascript/ezie.gui.selection.js
+m design/standard/javascript/ezie.gui.tools_window.js
+m design/standard/javascript/ezie.gui.variations_bar.js
+m design/standard/javascript/ezie.history.js
+m design/standard/javascript/ezie.js
+m design/standard/javascript/ezie.namespaces.js
+m design/standard/javascript/jquery.ezie.js
+m design/standard/javascript/wait.js
+m extension.xml
+m modules/ezie/filter_blur.php
+m modules/ezie/filter_brightness.php
+m modules/ezie/filter_bw.php
+m modules/ezie/filter_contrast.php
+m modules/ezie/filter_sepia.php
+m modules/ezie/module.php
+m modules/ezie/no_save_and_quit.php
+m modules/ezie/prepare.php
+m modules/ezie/save_and_quit.php
+m modules/ezie/tool_crop.php
+m modules/ezie/tool_flip_hor.php
+m modules/ezie/tool_flip_ver.php
+m modules/ezie/tool_pixelate.php
+m modules/ezie/tool_rotation.php
+m modules/ezie/tool_saturation.php
+m modules/ezie/tool_watermark.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/607ba0891cfa0a2214cff04933b88eda9eec23ef</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/f9e4d42b74a55c74673ac7394b951bd2a5c33a71</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/f9e4d42b74a55c74673ac7394b951bd2a5c33a71</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/cd65a087b601411dba910c6207d88c82149c2209</link>
+      <description>
+      &lt;pre&gt;+ translations/pol-PL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: added pol-PL translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/cd65a087b601411dba910c6207d88c82149c2209</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/9f808d7552b7131842fa4e9896d28bc7ad90421d</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from thiagocamposviana/master
+
+Added pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/9f808d7552b7131842fa4e9896d28bc7ad90421d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/a810d0aa0e5a33ba00e1679769791b0fa037ca31</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/a810d0aa0e5a33ba00e1679769791b0fa037ca31</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/23767c67e52b30f657242c0245c307b2e1531369</link>
+      <description>
+      &lt;pre&gt;m classes/image_tool_resize.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #018796: eZIE resize width </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/23767c67e52b30f657242c0245c307b2e1531369</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/c730b5e6480bc63f2466b5f48f7f2689f2f8962f</link>
+      <description>
+      &lt;pre&gt;+ translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from netbliss/master
+
+Italian translation created - Etna ( 4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/c730b5e6480bc63f2466b5f48f7f2689f2f8962f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/347789103f4862a29563a7fae30b2a0a7ddce1ae</link>
+      <description>
+      &lt;pre&gt;+ translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Italian translation created
+
+Created italian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/347789103f4862a29563a7fae30b2a0a7ddce1ae</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/f09232ae5f8d943fbc5bdb4e02fa62fd82638b0f</link>
+      <description>
+      &lt;pre&gt;+ translations/ell-GR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #13 from ptheo/localization-ezie
+
+localization: added ell-GR translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/f09232ae5f8d943fbc5bdb4e02fa62fd82638b0f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/459e218a77abd41766d64cacddf18095da6350ac</link>
+      <description>
+      &lt;pre&gt;+ translations/ell-GR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: added ell-GR translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/459e218a77abd41766d64cacddf18095da6350ac</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/c6ccf6efbbf1de4b113b841e9db01c45e4aca1fe</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from emodric/cro_HR
+
+Add Croatian translation - 4.7 (Etna) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/c6ccf6efbbf1de4b113b841e9db01c45e4aca1fe</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/f186d17f948fff2e0d29b692b287605d672c4698</link>
+      <description>
+      &lt;pre&gt;m translations/ell-GR/translation.ts
+m translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/f186d17f948fff2e0d29b692b287605d672c4698</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/e854f3f11faff871c7fce9fd387dfa5965f0ce2f</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/e854f3f11faff871c7fce9fd387dfa5965f0ce2f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/0b008022cc4636298c3fa2b738936df59065f294</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+m classes/image_converter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #15 from pbek/master
+
+Fixed #019314: File permission problem in image_converter.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/0b008022cc4636298c3fa2b738936df59065f294</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/215d8781193e078aa187bb3c6ef7ff1745433c0d</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+m classes/image_converter.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing the file permissions after the image was stored&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/215d8781193e078aa187bb3c6ef7ff1745433c0d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/07be70129f2d184fc999caefc37a9908d6cf2609</link>
+      <description>
+      &lt;pre&gt;m design/standard/stylesheets/ezie/ezie.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed title alignment in demo design&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/07be70129f2d184fc999caefc37a9908d6cf2609</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/fc4a90a9e40f76246b050f48a4a7cca6cc554d27</link>
+      <description>
+      &lt;pre&gt;m modules/ezie/no_save_and_quit.php
+m modules/ezie/save_and_quit.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/fc4a90a9e40f76246b050f48a4a7cca6cc554d27</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/epie/subversion/3ab6f612e08fa9aa7282d0cf663c6f4a4d698225</link>
+      <description>
+      &lt;pre&gt;m classes/handlers/gd.php
+m classes/handlers/magick.php
+m classes/image_action.php
+m classes/image_analyzer.php
+m classes/image_converter.php
+m classes/image_filter_brightness.php
+m classes/image_filter_bw.php
+m classes/image_filter_contrast.php
+m classes/image_filter_sepia.php
+m classes/image_pre_action.php
+m classes/image_tool_crop.php
+m classes/image_tool_flip_horizontally.php
+m classes/image_tool_flip_vertically.php
+m classes/image_tool_pixelate.php
+m classes/image_tool_resize.php
+m classes/image_tool_rotation.php
+m classes/image_tool_watermark.php
+m classes/interfaces/conversions.php
+m design/standard/javascript/ezie.ezconnect.complete_default.js
+m design/standard/javascript/ezie.ezconnect.connect.js
+m design/standard/javascript/ezie.ezconnect.failure_default.js
+m design/standard/javascript/ezie.ezconnect.prepare.js
+m design/standard/javascript/ezie.ezconnect.success_default.js
+m design/standard/javascript/ezie.gui.config.action.load_image.js
+m design/standard/javascript/ezie.gui.config.bind.filter_black_and_white.js
+m design/standard/javascript/ezie.gui.config.bind.filter_brightness.js
+m design/standard/javascript/ezie.gui.config.bind.filter_contrast.js
+m design/standard/javascript/ezie.gui.config.bind.filter_sepia.js
+m design/standard/javascript/ezie.gui.config.bind.menu_close_without_saving.js
+m design/standard/javascript/ezie.gui.config.bind.menu_save_and_close.js
+m design/standard/javascript/ezie.gui.config.bind.opts_attach.js
+m design/standard/javascript/ezie.gui.config.bind.opts_detach.js
+m design/standard/javascript/ezie.gui.config.bind.tool_crop.js
+m design/standard/javascript/ezie.gui.config.bind.tool_flip_hor.js
+m design/standard/javascript/ezie.gui.config.bind.tool_flip_ver.js
+m design/standard/javascript/ezie.gui.config.bind.tool_pixelate.js
+m design/standard/javascript/ezie.gui.config.bind.tool_redo.js
+m design/standard/javascript/ezie.gui.config.bind.tool_rotation.js
+m design/standard/javascript/ezie.gui.config.bind.tool_select.js
+m design/standard/javascript/ezie.gui.config.bind.tool_undo.js
+m design/standard/javascript/ezie.gui.config.bind.tool_watermark.js
+m design/standard/javascript/ezie.gui.config.bind.tool_zoom.js
+m design/standard/javascript/ezie.gui.config.bindings.main_window.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_items_buttons.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_items_sliders.js
+m design/standard/javascript/ezie.gui.config.bindings.opts_window.js
+m design/standard/javascript/ezie.gui.config.bindings.tools_window.js
+m design/standard/javascript/ezie.gui.config.bindings.variations_bar.js
+m design/standard/javascript/ezie.gui.config.zoom.js
+m design/standard/javascript/ezie.gui.js
+m design/standard/javascript/ezie.gui.main_window.js
+m design/standard/javascript/ezie.gui.opts_window.js
+m design/standard/javascript/ezie.gui.selection.js
+m design/standard/javascript/ezie.gui.tools_window.js
+m design/standard/javascript/ezie.gui.variations_bar.js
+m design/standard/javascript/ezie.history.js
+m design/standard/javascript/ezie.js
+m design/standard/javascript/ezie.namespaces.js
+m design/standard/javascript/jquery.ezie.js
+m design/standard/javascript/wait.js
+m extension.xml
+m modules/ezie/filter_blur.php
+m modules/ezie/filter_brightness.php
+m modules/ezie/filter_bw.php
+m modules/ezie/filter_contrast.php
+m modules/ezie/filter_sepia.php
+m modules/ezie/module.php
+m modules/ezie/no_save_and_quit.php
+m modules/ezie/prepare.php
+m modules/ezie/save_and_quit.php
+m modules/ezie/tool_crop.php
+m modules/ezie/tool_flip_hor.php
+m modules/ezie/tool_flip_ver.php
+m modules/ezie/tool_pixelate.php
+m modules/ezie/tool_rotation.php
+m modules/ezie/tool_saturation.php
+m modules/ezie/tool_watermark.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/3ab6f612e08fa9aa7282d0cf663c6f4a4d698225</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 109 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/epie/subversion/109</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/109</guid>
+      <pubDate>Wed, 27 Oct 2010 13:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 108 by André R</title>
+      <link>http://projects.ez.no/epie/subversion/108</link>
+      <description>Remove unused template autoload setting and folder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/108</guid>
+      <pubDate>Mon, 11 Oct 2010 10:40:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 107 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/epie/subversion/107</link>
+      <description>- Updated: Inserted tokens into extensions.xml</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/107</guid>
+      <pubDate>Fri, 24 Sep 2010 13:05:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 106 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/106</link>
+      <description>- Fixed bug #017297: ezie on 4.3.0 JS Conflict
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/106</guid>
+      <pubDate>Mon, 20 Sep 2010 07:35:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 105 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/105</link>
+      <description>Cleaned text
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/105</guid>
+      <pubDate>Thu, 16 Sep 2010 08:35:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 104 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/104</link>
+      <description>Cleared unused images
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/104</guid>
+      <pubDate>Wed, 15 Sep 2010 20:40:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 103 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/103</link>
+      <description>Cleared empty folder
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/103</guid>
+      <pubDate>Wed, 15 Sep 2010 20:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 102 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/102</link>
+      <description>Cleared developement mode settings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/102</guid>
+      <pubDate>Wed, 15 Sep 2010 20:20:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 101 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/epie/subversion/101</link>
+      <description>- Updated: Corrected copyright year headers.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/101</guid>
+      <pubDate>Wed, 15 Sep 2010 14:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 100 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/100</link>
+      <description>- Fixed bug #017218: ezie fails to open on Opera
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/100</guid>
+      <pubDate>Tue, 07 Sep 2010 10:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 99 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/99</link>
+      <description>Modified: Added block to toolbar links to make the whole "button" clickable
+[by cpg]
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/99</guid>
+      <pubDate>Mon, 06 Sep 2010 14:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 98 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/98</link>
+      <description>- Fixed bug 16802: ezie gives warning when object with ezimage attribute is edited - Error: eZTemplate:elementValue
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/98</guid>
+      <pubDate>Fri, 14 May 2010 10:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 97 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/epie/subversion/97</link>
+      <description>- Updated: updated css</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/97</guid>
+      <pubDate>Tue, 11 May 2010 12:00:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>epie rev. 96 by Bertrand Dunogier</title>
+      <link>http://projects.ez.no/epie/subversion/96</link>
+      <description>Replaced ezinfo.php + loading.php with extension.xml
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/epie/subversion/96</guid>
+      <pubDate>Mon, 10 May 2010 10:15:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

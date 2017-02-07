@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez-deploy / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:21:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:21:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13594" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Slower than desired development</title>
+      <link>http://projects.ez.no/ez_deploy/news/slower_than_desired_development</link>
+      <description>&lt;p&gt;I haven't worked on ezdeploy for some months while a bunch of other projects took presidence&lt;/p&gt;</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ez_deploy/news/slower_than_desired_development</guid>
+      <pubDate>Thu, 18 Mar 2010 01:14:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha version coming soon</title>
+      <link>http://projects.ez.no/ez_deploy/news/alpha_version_coming_soon</link>
+      <description>&lt;p&gt;Refactored all code into a single ezpublish extension.&lt;/p&gt;</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ez_deploy/news/alpha_version_coming_soon</guid>
+      <pubDate>Tue, 10 Mar 2009 02:07:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

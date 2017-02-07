@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qcfeaturedtags</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:01:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:01:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15123" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Available for download</title>
+      <link>http://projects.ez.no/qcfeaturedtags/forum/general/available_for_download</link>
+      <description>Hello Andrew!&#13;
+&#13;
+Is this extension/project available for download? I have some sites that use a modified version of webmin tagcloud, but this would be a good alternative and would like to test it with 4.11 if possible...&#13;
+&#13;
+Greetings,&#13;
+Andreas</description>
+      <author>community@ez.no (Andreas Kaiser)</author>
+      <guid>http://projects.ez.no/qcfeaturedtags/forum/general/available_for_download</guid>
+      <pubDate>Tue, 12 May 2009 11:43:55 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

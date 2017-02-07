@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / google_maps_version_3 / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:15:23 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:15:23 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31284" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Updated Google Maps API v3 and Extension Fix</title>
+      <link>http://projects.ez.no/google_maps_version_3/forum/general/updated_google_maps_api_v3_and_extension_fix</link>
+      <description>Since august GMaps updated the api, the backend part of the module has stopped working (marker set map) so i made an upgrade for the extension.&#13;
+You could find it here:&#13;
+&#13;
+https://github.com/jonathanargentiero/eZpublish/tree/master/extensions/googlemapv3&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (Jonathan Argentiero)</author>
+      <guid>http://projects.ez.no/google_maps_version_3/forum/general/updated_google_maps_api_v3_and_extension_fix</guid>
+      <pubDate>Wed, 05 Sep 2012 13:56:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / opaudioplayer</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:05:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:05:36 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/28706" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>opaudioplayer rev. 5 by Olivier Portier</title>
+      <link>http://projects.ez.no/opaudioplayer/subversion/5</link>
+      <description>And now support Google Reader Player</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/opaudioplayer/subversion/5</guid>
+      <pubDate>Tue, 05 Oct 2010 16:25:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>opaudioplayer rev. 4 by Olivier Portier</title>
+      <link>http://projects.ez.no/opaudioplayer/subversion/4</link>
+      <description>Add support of Yahoo Media Player</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/opaudioplayer/subversion/4</guid>
+      <pubDate>Tue, 05 Oct 2010 16:10:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>opaudioplayer rev. 3 by Olivier Portier</title>
+      <link>http://projects.ez.no/opaudioplayer/subversion/3</link>
+      <description>Fix admin full view issue, fixed by creating a override.ini file for ezflow_site siteaccess</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/opaudioplayer/subversion/3</guid>
+      <pubDate>Sun, 03 Oct 2010 15:35:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>opaudioplayer rev. 2 by Olivier Portier</title>
+      <link>http://projects.ez.no/opaudioplayer/subversion/2</link>
+      <description>Add override.ini file for full view tamplate for ezflow_site</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/opaudioplayer/subversion/2</guid>
+      <pubDate>Sun, 03 Oct 2010 15:35:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>opAudioPlayer.0.1.tar.gz</title>
+      <link>http://projects.ez.no/opaudioplayer/downloads/opaudioplayer_0_1/opaudioplayer_0_1_tar_gz</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Include last bug fix about full view template override in administration interface. &lt;/p&gt;</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/opaudioplayer/downloads/opaudioplayer_0_1/opaudioplayer_0_1_tar_gz</guid>
+      <pubDate>Fri, 01 Oct 2010 15:49:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>opAudioPlayer.0.1.zip</title>
+      <link>http://projects.ez.no/opaudioplayer/downloads/opaudioplayer_0_1/opaudioplayer_0_1_zip</link>
+      <description>&lt;p&gt;Include last bug fix about full view template override in administration interface.&lt;/p&gt;</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/opaudioplayer/downloads/opaudioplayer_0_1/opaudioplayer_0_1_zip</guid>
+      <pubDate>Fri, 01 Oct 2010 15:48:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>opaudioplayer rev. 1 by Olivier Portier</title>
+      <link>http://projects.ez.no/opaudioplayer/subversion/1</link>
+      <description>First release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/opaudioplayer/subversion/1</guid>
+      <pubDate>Fri, 01 Oct 2010 15:45:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpdfviewer</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18479" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Issues with swftools-0.8.1.</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/issues_with_swftools_0_8_1</link>
+      <description>I just found out that the flash files generated with swftools-0.8.1(included with the redhad 5) don't include the navigation buttons as it does with swftools-0.9.0.&#13;
+I had to make a fix for a client. If anybody needs it, let me know....&#13;
+&#13;
+Best regards, &#13;
+&#13;
+Jey</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/issues_with_swftools_0_8_1</guid>
+      <pubDate>Thu, 20 Aug 2009 11:24:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 6 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/6</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/6</guid>
+      <pubDate>Thu, 20 Aug 2009 00:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 5 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/5</guid>
+      <pubDate>Thu, 20 Aug 2009 00:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPDFViewer 2.0 stable is out</title>
+      <link>http://projects.ez.no/ezpdfviewer/news/ezpdfviewer_2_0_stable_is_out</link>
+      <description>&lt;p&gt;
+What is eZPDFViewer?&lt;br /&gt;
+--------------------------------&lt;br /&gt;eZPDFViewer is an ezpublish extension that allows pdf to be transformed as flash files for visualisation without downloading the whole pdf file .&lt;/p&gt;&lt;p&gt;
+eZPDFViewer uses an executable binary pdf2swf provided by swftools (http://www.swftools.org/). You will have to install it on your server&lt;br /&gt;and set the path to the pdf2swf binary in eZPDFViewer.ini&lt;/p&gt;&lt;p&gt;
+eZPDFViewer features&lt;br /&gt;
+-------------------&lt;br /&gt;
+ - When a pdf file is uploaded the contributor can generate a flash viewer for it&lt;br /&gt; - Redefines the ezbinaryfile.tpl (edit mode) to allow users to store pdf files and generate flash previewer.&lt;/p&gt;</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/news/ezpdfviewer_2_0_stable_is_out</guid>
+      <pubDate>Thu, 20 Aug 2009 00:04:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 4 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/4</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/4</guid>
+      <pubDate>Thu, 20 Aug 2009 00:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 3 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/3</guid>
+      <pubDate>Tue, 11 Aug 2009 19:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome3</link>
+      <description>Well, does one very specific use case count!?&#13;
+&#13;
+I have a client who wants to have scaled down image previews of pdf newsletters we generate with paradoxpdf. I was going to try ghostscript/imagemagick but might have a look at this instead when I have time.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome3</guid>
+      <pubDate>Mon, 10 Aug 2009 16:14:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome2</link>
+      <description>Hi, &#13;
+I have been thinking about it but was not able to figure out if it would be usefull ...&#13;
+&#13;
+But it would really be funny !&#13;
+&#13;
+You could have a shop site -&gt; generate the pdf of all products (via paradox) and -&gt;generate a flash version of it (via ezpdfviewer) ...&#13;
+&#13;
+If somebody can think of a way it could be usefull just let me know !!&#13;
+&#13;
+Jey&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome2</guid>
+      <pubDate>Mon, 10 Aug 2009 15:54:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome</link>
+      <description>Hi,&#13;
+&#13;
+Looks good, will check it out.&#13;
+&#13;
+I wonder if it could be extended to work in conjunction with the paradoxpdf extension to create swfs of any content?...</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome</guid>
+      <pubDate>Mon, 10 Aug 2009 15:44:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome</link>
+      <description>Feel free to make any suggestions !</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome</guid>
+      <pubDate>Sun, 09 Aug 2009 20:08:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ezpdfviewer 2.0</title>
+      <link>http://projects.ez.no/ezpdfviewer/downloads/ezpdfviewer_2_0</link>
+      <description>&lt;p&gt;Change logs:&lt;/p&gt;&lt;p&gt;
+V 2.0 :&lt;br /&gt;
+------&lt;br /&gt;
+ * rewrited all the code trying to respect ez coding standards &lt;br /&gt;
+ * created a class to handle pdf to flash conversion&lt;br /&gt;
+ * added a context parameter to handle edit mode or view mode . &lt;br /&gt;
+ * added a fullscreen parameter to handle edit mode or view mode .To&lt;br /&gt;
+ display viewer in fullscreen with no pagelayout if needed &lt;br /&gt;
+ * the extension does not open new windows anymore on flashviewer in create/view mode&lt;br /&gt;
+ * the width and height of the swfapplet is now configured from&lt;br /&gt;
+ ezpdfviewer.ini&lt;br /&gt; * errors handled properly, logging the pdf2swf tools error in log file&lt;/p&gt;</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/downloads/ezpdfviewer_2_0</guid>
+      <pubDate>Sun, 09 Aug 2009 20:05:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 2 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/2</guid>
+      <pubDate>Sun, 09 Aug 2009 19:45:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpdfviewer rev. 1 by Jean-Yves Zinsou</title>
+      <link>http://projects.ez.no/ezpdfviewer/subversion/1</link>
+      <description>Created directory 'trunk'.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/subversion/1</guid>
+      <pubDate>Sun, 09 Aug 2009 19:40:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

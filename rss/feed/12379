@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztika</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:24:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:24:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12379" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Packaging of tika 1.0</title>
+      <link>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0/re_packaging_of_tika_1_02</link>
+      <description>Time passes - we're now at 1.4 :-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0/re_packaging_of_tika_1_02</guid>
+      <pubDate>Tue, 22 Oct 2013 09:03:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two bug : mktime() and fread()</title>
+      <link>http://projects.ez.no/eztika/forum/general/two_bug_mktime_and_fread</link>
+      <description>Hi,&#13;
+&#13;
+    The mktime() used into parseFile of the eZMultiParser [1] throw a notice. The two calls to mktime() can be replaced by time() [2].&#13;
+&#13;
+    In the same function, the fread() throw a notice if the file length is null. A simple test can be added to avoid it :&#13;
+    if ($fileSize &gt; 0)&#13;
+        $metaData = fread( $fp, $fileSize );&#13;
+    else&#13;
+        $metaData = '';&#13;
+&#13;
+Gwen&#13;
+&#13;
+[1] classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php&#13;
+[2] http://php.net/manual/en/function.mktime.php</description>
+      <author>community@ez.no (Gwenael Saint-Genest)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/two_bug_mktime_and_fread</guid>
+      <pubDate>Wed, 06 Mar 2013 16:21:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem when indexing document</title>
+      <link>http://projects.ez.no/eztika/forum/general/problem_when_indexing_document/re_problem_when_indexing_document</link>
+      <description>Hi,&#13;
+&#13;
+    The $startTime variable is also used at the end of the method to compute the duration ($seconds = $endTime - $startTime). A better place for your addon is into the md5() call :&#13;
+md5( $startTime . $fileName )&#13;
+</description>
+      <author>community@ez.no (Gwenael Saint-Genest)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/problem_when_indexing_document/re_problem_when_indexing_document</guid>
+      <pubDate>Wed, 06 Mar 2013 16:12:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem when indexing document</title>
+      <link>http://projects.ez.no/eztika/forum/general/problem_when_indexing_document</link>
+      <description>Hi,&#13;
+&#13;
+I just discovered a bug in the extension eZTika when launching a multi-threaded indexing, creates temporary files of type "eztika_xxxxxxx.txt" are no longer unique because only the "mktime" is used. Here is a very simple patch.&#13;
+&#13;
+--- extension/eztika/classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php	(revision 6f065690d0479117eddc307c5759fa93f3738c5c)&#13;
++++ extension/eztika/classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php	(revision )&#13;
+@@ -67,7 +67,7 @@&#13;
+         $binaryINI = eZINI::instance( 'binaryfile.ini' );&#13;
+         $textExtractionTool = $binaryINI-&gt;variable( 'MultiHandlerSettings', 'TextExtractionTool' );&#13;
+ &#13;
+-        $startTime = mktime();&#13;
++        $startTime = mktime() + $fileName;&#13;
+ &#13;
+         $tmpName = eZSys::cacheDirectory() . eZSys::fileSeparator(). 'eztika_'. md5( $startTime ) . '.txt';&#13;
+         $handle = fopen( $tmpName, "w" );</description>
+      <author>community@ez.no (Ghandri Hamza)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/problem_when_indexing_document</guid>
+      <pubDate>Wed, 20 Feb 2013 09:36:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Packaging of tika 1.0</title>
+      <link>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0/re_packaging_of_tika_1_0</link>
+      <description>One more year, one more Xmas.&#13;
+And we could now package Tika 1.2...&#13;
+:-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0/re_packaging_of_tika_1_0</guid>
+      <pubDate>Tue, 30 Oct 2012 11:03:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Packaging of tika 1.0</title>
+      <link>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0</link>
+      <description>can it be a gift under the xmas tree?&#13;
+&#13;
+ciao&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/packaging_of_tika_1_0</guid>
+      <pubDate>Sun, 18 Dec 2011 22:57:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.5 released (binary file indexing)</title>
+      <link>http://projects.ez.no/eztika/news/ez_tika_1_5_released_binary_file_indexing</link>
+      <description>&lt;p&gt;This version of eZ Tika incorporates contributions from &lt;a href="http://www.cjw-network.com/" target="_blank"&gt;Felix Woldt (CJW Network)&lt;/a&gt; and an updated tika.jar.&lt;/p&gt;&lt;p&gt;The main new feature is that the extension will work simply by activating it. No need to copy and modify files around your server if you don't need to (typically a server hosting just one installation of eZ Publish).&lt;/p&gt;&lt;p&gt;Besides the zero-config option, it is now possible to activate a dedicated eztika debugging setting that will log the text extraction success or failure status and also optionally keeps the temporary file containing the extracted text itself.&lt;/p&gt;&lt;p&gt;Downloads and more: &lt;a href="http://projects.ez.no/eztika" target="_self"&gt;http://projects.ez.no/eztika&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Happy indexing!&lt;/p&gt;&lt;p&gt;Paul&lt;/p&gt;</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/news/ez_tika_1_5_released_binary_file_indexing</guid>
+      <pubDate>Thu, 15 Sep 2011 08:27:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.5</title>
+      <link>http://projects.ez.no/eztika/downloads/ez_tika_1_5</link>
+      <description></description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/downloads/ez_tika_1_5</guid>
+      <pubDate>Thu, 15 Sep 2011 08:16:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 30 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/30</link>
+      <description>- Updated tika.jar to 1.0-dev rev 1169702</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/30</guid>
+      <pubDate>Thu, 15 Sep 2011 08:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improvements</title>
+      <link>http://projects.ez.no/eztika/forum/general/improvements</link>
+      <description>Hi Paul,&#13;
+&#13;
+i improved eztika a little. &#13;
+- Now there is no need to use/modify/move the file bin/eztika it will not be used anymore. &#13;
+- binary tika.jar can stay in extension, no need to move while installation&#13;
+&#13;
+I think this is better if you have to move from dev to staging to live servers. Now you only have to modify the java executable path in the setting.&#13;
+&#13;
+Maybe you want to use it:&#13;
+&#13;
+[MultiHandlerSettings]&#13;
+#TextExtractionTool=/opt/local/bin/eztika&#13;
+JavaExecutable=/usr/bin/java&#13;
+&#13;
+&#13;
+&lt;code&gt;&#13;
+ diff -urN eztika_org//bin/eztika eztika/bin/eztika&#13;
+--- eztika_org//bin/eztika	2011-09-14 19:21:58.226052724 +0200&#13;
++++ eztika/bin/eztika	1970-01-01 01:00:00.000000000 +0100&#13;
+@@ -1,4 +0,0 @@&#13;
+-#!/bin/sh&#13;
+-JAVA=/usr/bin/java&#13;
+-TIKA_JAR=/usr/local/bin/tika.jar&#13;
+-$JAVA -jar $TIKA_JAR --text  --encoding=utf8 $1&#13;
+diff -urN eztika_org//classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php eztika/classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php&#13;
+--- eztika_org//classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php	2011-09-14 17:48:41.000000000 +0200&#13;
++++ eztika/classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php	2011-09-14 19:20:22.000000000 +0200&#13;
+@@ -41,14 +41,14 @@&#13;
+     {&#13;
+         $binaryINI = eZINI::instance( 'binaryfile.ini' );&#13;
+ &#13;
+-        $textExtractionTool = $binaryINI-&gt;variable( 'MultiHandlerSettings', 'TextExtractionTool' );&#13;
++        $java = $binaryINI-&gt;variable( 'MultiHandlerSettings', 'JavaExecutable' );&#13;
+ &#13;
+         $tmpName = "var/cache/" . md5( time() ) . '.txt';&#13;
+         $handle = fopen( $tmpName, "w" );&#13;
+         fclose( $handle );&#13;
+         chmod( $tmpName, 0777 );&#13;
+ &#13;
+-        exec( "$textExtractionTool $fileName &gt; $tmpName", $ret );&#13;
++        exec( "$java -jar extension/eztika/bin/tika.jar --text --encoding=utf8 $fileName &gt; $tmpName", $ret );&#13;
+ &#13;
+         $metaData = "";&#13;
+         if ( file_exists( $tmpName ) )&#13;
+diff -urN eztika_org//settings/binaryfile.ini.append.php eztika/settings/binaryfile.ini.append.php&#13;
+--- eztika_org//settings/binaryfile.ini.append.php	2011-09-14 19:25:00.074954795 +0200&#13;
++++ eztika/settings/binaryfile.ini.append.php	2011-09-14 19:25:01.514962052 +0200&#13;
+@@ -27,8 +27,8 @@&#13;
+ MetaDataExtractor[application/octet-stream]=ezmulti&#13;
+ [MultiHandlerSettings]&#13;
+ &#13;
+-#Change the path to the eztika shell script, which probably needs editing as well&#13;
+-TextExtractionTool=/opt/local/bin/eztika&#13;
++#Change the path to the java executable&#13;
++JavaExecutable=/usr/bin/java&#13;
+ &#13;
+  */&#13;
+ ?&gt;&#13;
+&#13;
+ &lt;/code&gt;</description>
+      <author>community@ez.no (Danny Niedziella)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/improvements</guid>
+      <pubDate>Wed, 14 Sep 2011 17:34:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 29 by Felix Woldt</title>
+      <link>http://projects.ez.no/eztika/subversion/29</link>
+      <description>delete .project file which was a mistake to commit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/29</guid>
+      <pubDate>Fri, 26 Aug 2011 09:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 28 by Felix Woldt</title>
+      <link>http://projects.ez.no/eztika/subversion/28</link>
+      <description>eztika version build 1.5.0.201108261043
+
+- adding extension.xml file
+- update binaryfile.ini.append.php to use eztika executeable in eztika extension by default
+- new ini eztika.ini with new debug setting
+
+    [DebugSettings]
+    # Debug=enabled|disabled
+    # if enabled
+    # - write Debug Messages to eztika.log
+    #
+    # Note: an error message to error.log is always written
+    # if eztika can not extract any content from binaryfile
+    Debug=disabled
+
+    # KeepTempFiles=enabled|disabled
+    # if enabled var/cache/ eztika_xxx.txt tmp files are not unlinked
+    # to debug metadata which is extracted from the binaryfile
+    # The setting is only active if Debug=enabled
+    KeepTempFiles=disabled
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/28</guid>
+      <pubDate>Fri, 26 Aug 2011 09:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.4 released (binary file indexing)</title>
+      <link>http://projects.ez.no/eztika/news/ez_tika_1_4_released_binary_file_indexing</link>
+      <description>&lt;p&gt;Besides many bugfixes, new file types are supported as well: iWork, chm&lt;/p&gt;&lt;p&gt;Check out &lt;a href="http://projects.ez.no/eztika" target="_self"&gt;http://projects.ez.no/eztika&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/news/ez_tika_1_4_released_binary_file_indexing</guid>
+      <pubDate>Wed, 10 Aug 2011 10:58:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.4</title>
+      <link>http://projects.ez.no/eztika/downloads/ez_tika_1_4</link>
+      <description></description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/downloads/ez_tika_1_4</guid>
+      <pubDate>Wed, 10 Aug 2011 10:48:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 27 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/27</link>
+      <description>- Updated tika.jar to 1.0-dev rev 1156078</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/27</guid>
+      <pubDate>Wed, 10 Aug 2011 10:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: There is a new pdfbox lib version</title>
+      <link>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version/re_there_is_a_new_pdfbox_lib_version2</link>
+      <description>Version 0/9 of tika is now out (I'm sure you know already), it has one bugfix in pdf parsing...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version/re_there_is_a_new_pdfbox_lib_version2</guid>
+      <pubDate>Thu, 17 Mar 2011 13:06:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.3 released (binary file indexing)</title>
+      <link>http://projects.ez.no/eztika/news/ez_tika_1_3_released_binary_file_indexing</link>
+      <description>&lt;p&gt;Many bug fixes and quality enhancements to existing converters, most notably CJK pdf documents are now correctly converted to UTF-8 code.&lt;/p&gt;</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/news/ez_tika_1_3_released_binary_file_indexing</guid>
+      <pubDate>Tue, 18 May 2010 21:46:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.3</title>
+      <link>http://projects.ez.no/eztika/downloads/ez_tika_1_3</link>
+      <description></description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/downloads/ez_tika_1_3</guid>
+      <pubDate>Tue, 18 May 2010 21:42:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 26 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/26</link>
+      <description>- comitted new jar, finally doing all test pdfs correctly,  preparing tar ball for 1.3</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/26</guid>
+      <pubDate>Tue, 18 May 2010 21:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 25 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/25</link>
+      <description>- minor cleanup in changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/25</guid>
+      <pubDate>Thu, 04 Feb 2010 10:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 24 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/24</link>
+      <description>- added more spaces for 3rd party version and license, otherwise it gets overwritten by the main version info by the extension builder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/24</guid>
+      <pubDate>Tue, 19 Jan 2010 15:25:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.2 released ( binary file indexing)</title>
+      <link>http://projects.ez.no/eztika/news/ez_tika_1_2_released_binary_file_indexing</link>
+      <description>&lt;p&gt;eZ Tika 1.2, based on Apache Tika 0.6-dev, carries a lot of under the hood improvements and is capable of converting most binary file types to plain text for sub-sequent indexing by any search plugin, most notably eZ Find.&lt;/p&gt;</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/news/ez_tika_1_2_released_binary_file_indexing</guid>
+      <pubDate>Sun, 17 Jan 2010 22:28:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.2</title>
+      <link>http://projects.ez.no/eztika/downloads/ez_tika_1_2</link>
+      <description></description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/downloads/ez_tika_1_2</guid>
+      <pubDate>Sun, 17 Jan 2010 22:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 23 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/23</link>
+      <description>- fixing another ant build bug (compliance with eZ QA requirements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/23</guid>
+      <pubDate>Sun, 17 Jan 2010 21:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 22 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/22</link>
+      <description>- fixing another ant build bug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/22</guid>
+      <pubDate>Sun, 17 Jan 2010 21:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 21 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/21</link>
+      <description>- fixing ant build bug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/21</guid>
+      <pubDate>Sun, 17 Jan 2010 21:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 20 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/20</link>
+      <description>- comitted release log (release numbers versus subversion commit rev)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/20</guid>
+      <pubDate>Sun, 17 Jan 2010 21:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 19 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/19</link>
+      <description>- fixing small typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/19</guid>
+      <pubDate>Sun, 17 Jan 2010 20:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 18 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/18</link>
+      <description>- updated meta info and changelog, preparing for 1.2 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/18</guid>
+      <pubDate>Sun, 17 Jan 2010 20:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 17 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/17</link>
+      <description>- updating tika.jar to tika-app-0.6-SNAPSHOT.jar svn rev 897576</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/17</guid>
+      <pubDate>Sun, 17 Jan 2010 18:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: There is a new pdfbox lib version</title>
+      <link>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version/re_there_is_a_new_pdfbox_lib_version</link>
+      <description>Hey Ivo&#13;
+&#13;
+yes, I know, I have an updated tika.jar including it locally since weeks (I'll commit this and more before the winter conf)&#13;
+&#13;
+But unfortunately, it still does not solve the asian text extraction properly&#13;
+&#13;
+So, in general use eztika for anything but pdf, and still use xpdf for pdf&#13;
+&#13;
+Cheers&#13;
+Paul</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version/re_there_is_a_new_pdfbox_lib_version</guid>
+      <pubDate>Sat, 16 Jan 2010 23:26:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>There is a new pdfbox lib version</title>
+      <link>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version</link>
+      <description>0.8.0.  http://pdfbox.apache.org/download.html&#13;
+&#13;
+with a lot of bugfixes :)</description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/there_is_a_new_pdfbox_lib_version</guid>
+      <pubDate>Fri, 15 Jan 2010 14:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 16 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/16</link>
+      <description>- updated tika.jar to 0.6-dev and eztika to force utf8 encoding in all cases</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/16</guid>
+      <pubDate>Mon, 21 Dec 2009 20:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tika 1.1</title>
+      <link>http://projects.ez.no/eztika/downloads/ez_tika_1_1</link>
+      <description></description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/eztika/downloads/ez_tika_1_1</guid>
+      <pubDate>Tue, 22 Sep 2009 14:55:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 15 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/15</link>
+      <description>- added option to force removal of page feeds (which causes invalid XML when indexing with eZ Find/Solr) (via Fabien Mas)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/15</guid>
+      <pubDate>Tue, 22 Sep 2009 14:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 14 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/14</link>
+      <description>- added steps in INSTALL.txt for using xpdf alonf eztika</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/14</guid>
+      <pubDate>Sun, 13 Sep 2009 15:50:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 13 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/13</link>
+      <description>-added setting and stub/wrapper script for using pdftotext (pdf text extraction can be troublesome with asian charsets)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/13</guid>
+      <pubDate>Sun, 13 Sep 2009 15:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 12 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/12</link>
+      <description>- updated meta info, preparing packaging 1.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/12</guid>
+      <pubDate>Sat, 12 Sep 2009 19:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 11 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/11</link>
+      <description>- updated eztika to version 1.1, adding MS Office XML formats explicitely and updating the tika jar to 1.5-dev</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/11</guid>
+      <pubDate>Sat, 12 Sep 2009 19:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 10 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/10</link>
+      <description>- Cosmetics</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/10</guid>
+      <pubDate>Wed, 22 Jul 2009 14:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 9 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/9</link>
+      <description>- A more Antish and generic build script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/9</guid>
+      <pubDate>Wed, 22 Jul 2009 10:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 8 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/8</link>
+      <description>- housecleaning</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/8</guid>
+      <pubDate>Mon, 20 Jul 2009 15:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 6 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/6</link>
+      <description>- Fixed wrong project name and wrong properties description</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/6</guid>
+      <pubDate>Mon, 20 Jul 2009 15:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 7 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/7</link>
+      <description>- Updated with latest version numbers</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/7</guid>
+      <pubDate>Mon, 20 Jul 2009 15:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 5 by Jérôme Renard</title>
+      <link>http://projects.ez.no/eztika/subversion/5</link>
+      <description>- Added Ant build files
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/5</guid>
+      <pubDate>Mon, 20 Jul 2009 15:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to configure UTF8 encoding with tika</title>
+      <link>http://projects.ez.no/eztika/forum/general/how_to_configure_utf8_encoding_with_tika/re_how_to_configure_utf8_encoding_with_tika</link>
+      <description>Having the same problem found this:&#13;
+http://osdir.com/ml/tika-user.lucene.apache.org/2009-04/msg00010.html</description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/how_to_configure_utf8_encoding_with_tika/re_how_to_configure_utf8_encoding_with_tika</guid>
+      <pubDate>Tue, 02 Jun 2009 14:29:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>2 notes for using eztika on ez 4.1.*</title>
+      <link>http://projects.ez.no/eztika/forum/general/2_notes_for_using_eztika_on_ez_4_1</link>
+      <description>1. file attribute in file class is not searchable (don't loose time like I did)&#13;
+&#13;
+2. filename is not indexed, this needs some tweaking </description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/2_notes_for_using_eztika_on_ez_4_1</guid>
+      <pubDate>Tue, 02 Jun 2009 13:56:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to configure UTF8 encoding with tika</title>
+      <link>http://projects.ez.no/eztika/forum/general/how_to_configure_utf8_encoding_with_tika</link>
+      <description>Hi,&#13;
+&#13;
+I use this extension on a french web site and I would like to configure the UTF8 encoding to index my PPT and XLS document.&#13;
+How can I do it ?&#13;
+&#13;
+Regards &#13;
+Johann</description>
+      <author>community@ez.no (Johann Lemaitre)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/how_to_configure_utf8_encoding_with_tika</guid>
+      <pubDate>Thu, 30 Apr 2009 12:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apache Tika 0.3</title>
+      <link>http://projects.ez.no/eztika/forum/general/apache_tika_0_3</link>
+      <description>First of all thanks for this great extension! You should do promote it more on ez.no site :)&#13;
+&#13;
+I've found that eztika-1.0.zip is probably based on Apache Tika version 0.2 . Recently version 0.3 has been released with MS Office 2007 file format support. I've managed to compile Tika sources with Maven2, and got a working jar file, but results of ripping .docx is not perfect. 20% of txt file is a xml rubish. Have you tried new Tika version ? Is only my example .docx file problem or general Tika problem?&#13;
+&#13;
+When do you plan to update eZTika extension with new Tika version?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/eztika/forum/general/apache_tika_0_3</guid>
+      <pubDate>Wed, 22 Apr 2009 13:07:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztika rev. 4 by Paul Borgermans</title>
+      <link>http://projects.ez.no/eztika/subversion/4</link>
+      <description>- removed strip tags, as tika takes care of that (or encodes them)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztika/subversion/4</guid>
+      <pubDate>Fri, 12 Dec 2008 14:15:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

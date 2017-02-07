@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / youtube</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:38:14 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:38:14 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1310" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Need to fetch items</title>
+      <link>http://projects.ez.no/youtube/forum/general/need_to_fetch_items</link>
+      <description>Hi, &#13;
+&#13;
+I am very interested in this project. Despite my poor knowledge in programming, I managed to adapt the script to the new youtube API version (see migration guide : http://code.google.com/intl/fr-FR/apis/youtube/1.0/migration.html )&#13;
+&#13;
+However, the output is limited. It would be great to be able to fetch variables and use them as attributes.&#13;
+Any help would be greatly appreciated.&#13;
+&#13;
+&#13;
+Here is the code I changed in youtube_tag_search.php&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+&#13;
+class YoutubeTagSearch&#13;
+{&#13;
+    /*!&#13;
+     Constructor&#13;
+    */&#13;
+    function YoutubeTagSearch()&#13;
+    {&#13;
+        $this-&gt;Operators = array( 'youtube_tag_search');&#13;
+    }&#13;
+&#13;
+    /*!&#13;
+     Returns the operators in this class.&#13;
+    */&#13;
+    function &operatorList()
+    {
+        return $this->Operators;&#13;
+    }&#13;
+&#13;
+    /*!&#13;
+     \return true to tell the template engine that the parameter list&#13;
+    exists per operator type, this is needed for operator classes&#13;
+    that have multiple operators.&#13;
+    */&#13;
+    function namedParameterPerOperator()&#13;
+    {&#13;
+        return true;&#13;
+    }&#13;
+&#13;
+    /*!&#13;
+     The first operator has two parameters, the other has none.&#13;
+     See eZTemplateOperator::namedParameterList()&#13;
+    */&#13;
+    function namedParameterList()&#13;
+    {&#13;
+        return array(                      &#13;
+                      'youtube_tag_search' =&gt; array('q' =&gt; array( 'type' =&gt; 'string',&#13;
+                                                                     'required' =&gt; true,&#13;
+                                                                     'default' =&gt; '' ),&#13;
+                                                'startindex' =&gt; array( 'type' =&gt; 'string',&#13;
+                                                                     'required' =&gt; true,&#13;
+                                                                     'default' =&gt; '' ),&#13;
+                                                'maxresults' =&gt; array( 'type' =&gt; 'string',&#13;
+                                                                     'required' =&gt; true,&#13;
+                                                                     'default' =&gt; '' )&#13;
+                                            ) );&#13;
+    }&#13;
+&#13;
+&#13;
+    /*!&#13;
+     Executes the needed operator(s).&#13;
+     Checks operator names, and calls the appropriate functions.&#13;
+    */&#13;
+    function modify( &$tpl, &$operatorName, &$operatorParameters, &$rootNamespace,
+                     &$currentNamespace, &$operatorValue, &$namedParameters )
+    {
+        switch ( $operatorName )
+        {
+            case 'youtube_tag_search':
+            {
+                $operatorValue = $this->youtube_tag_search( $namedParameters['q'], 
+                                                        $namedParameters['startindex'], 
+                                                        $namedParameters['maxresults']);&#13;
+            } break;&#13;
+        }&#13;
+    }&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+function youtube_parse_xml($data) {&#13;
+$xml_parser = xml_parser_create();&#13;
+&#13;
+&#13;
+xml_parse_into_struct($xml_parser, $data, $vals, $index);&#13;
+xml_parser_free($xml_parser);&#13;
+&#13;
+  $videos_array = array();&#13;
+  $video_array = null;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+  foreach ($vals as $elem) {    &#13;
+&#13;
+    if ($elem['tag'] == 'ENTRY' & $elem['type'] == 'open') {
+      $video_array = array();&#13;
+    } else if ($elem['tag'] == 'ENTRY' & $elem['type'] == 'close') {
+      if ($video_array != null) {
+        $videos_array[$video_array['id']] = $video_array;&#13;
+      }&#13;
+      $video_array = null; &#13;
+    } else if ($elem['tag'] == 'ID') {&#13;
+      $video_array['id'] = $elem['value'];&#13;
+    } else if ($elem['tag'] == 'MEDIA:THUMBNAIL') {   &#13;
+     foreach ($elem['attributes'] as $attr =&gt; $d) { &#13;
+        if( $attr == 'URL') {  &#13;
+        if( $elem['attributes']['HEIGHT'] == '240') { &#13;
+        $video_array['thumbnail_url'] = $d;  } } }&#13;
+    } else if ($elem['tag'] == 'MEDIA:PLAYER') {&#13;
+        foreach ($elem['attributes'] as $attr) {&#13;
+        $video_array['url'] = $attr; }&#13;
+    } else if ($elem['tag'] == 'MEDIA:DESCRIPTION') {&#13;
+      $video_array['description'] = $elem['value'];&#13;
+    } else if ($elem['tag'] == 'TITLE') {&#13;
+      $video_array['title'] = $elem['value'];&#13;
+    } else if ($elem['tag'] == 'MEDIA:KEYWORDS') {&#13;
+      $video_array['tags'] = $elem['value'];&#13;
+    } else if ($elem['tag'] == 'PUBLISHED') {&#13;
+      $video_array['upload_time'] = $elem['value'];&#13;
+    } else if ($elem['tag'] == 'YT:STATISTICS') { &#13;
+     foreach ($elem['attributes'] as $attr =&gt; $d) {&#13;
+        if( $attr == 'VIEWCOUNT') {&#13;
+        $video_array['view_count'] = $d;   } }&#13;
+      } else if ($elem['tag'] == 'GD:RATING') {&#13;
+        foreach ($elem['attributes'] as $attr =&gt; $d) {&#13;
+        if( $attr == 'AVERAGE') {&#13;
+        $video_array['rating_avg'] = $d;   }&#13;
+        else if( $attr == 'NUMRATERS') {&#13;
+        $video_array['rating_count'] = $d;   } }&#13;
+    &#13;
+    } else if ($elem['tag'] == 'YT:DURATION') {&#13;
+    foreach ($elem['attributes'] as $attr =&gt; $d) {&#13;
+        if( $attr == 'SECONDS') {&#13;
+        $video_array['length_seconds'] = $d;   } }&#13;
+ &#13;
+    } else {&#13;
+    //  print_r($elem);&#13;
+&#13;
+    }&#13;
+  }&#13;
+  return $videos_array;&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+    function youtube_tag_search( $q, $startindex, $maxresults  )&#13;
+    { &#13;
+        $params = array(&#13;
+	          'q'	=&gt; $q,&#13;
+	          'start-index'	=&gt; $startindex,&#13;
+                  'max-results'	=&gt; $maxresults,&#13;
+                  );&#13;
+&#13;
+        $encoded_params = array();&#13;
+&#13;
+        foreach ($params as $k =&gt; $v){&#13;
+            $encoded_params[] = urlencode($k).'='.urlencode($v);&#13;
+        }&#13;
+&#13;
+        $url = "http://gdata.youtube.com/feeds/api/videos?" .implode('&', $encoded_params);&#13;
+&#13;
+        $rsp = file_get_contents($url);&#13;
+&#13;
+        $rsp_obj = $this-&gt;youtube_parse_xml($rsp);&#13;
+&#13;
+        $result = '&lt;ul&gt;';&#13;
+&#13;
+        &#13;
+&#13;
+        foreach ($rsp_obj as $k =&gt; $v){&#13;
+&#13;
+            $key = $k;&#13;
+            $thumb_url = $rsp_obj[$key]['thumbnail_url'];&#13;
+            $youtube_url = $rsp_obj[$key]['url'];&#13;
+&#13;
+&#13;
+            $result .= '&lt;li&gt;&lt;a href="' . $youtube_url . '" target="_blank"&gt;&lt;img src="' . $thumb_url . '" alt="' . $rsp_obj[$key]['title'] . '" title="' . $rsp_obj[$key]['title'] . '" height="90px" width="120px"/&gt;&lt;/a&gt;&#13;
+&lt;br/&gt;' . $rsp_obj[$key]['view_count'] . ' vues &lt;/li&gt;';&#13;
+        }&#13;
+    $result .= '&lt;/ul&gt;';&#13;
+&#13;
+    return $result;&#13;
+}&#13;
+&#13;
+    /// \privatesection&#13;
+    var $Operators;&#13;
+}&#13;
+&#13;
+?&gt;&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Dominik LEE)</author>
+      <guid>http://projects.ez.no/youtube/forum/general/need_to_fetch_items</guid>
+      <pubDate>Fri, 22 May 2009 17:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where can we get Youtube Api Extension?</title>
+      <link>http://projects.ez.no/youtube/forum/general/where_can_we_get_youtube_api_extension</link>
+      <description>I am already using Youtube extension to display the youtube movies in my project. &#13;
+&#13;
+But I try to search the extension to get youtube api for my ezpublish project.&#13;
+&#13;
+Where can we get Youtube Api Extension?&#13;
+&#13;
+I could not find the extension.. &#13;
+&#13;
+&#13;
+Please help me to download and use it in my project.&#13;
+&#13;
+Thanking you.&#13;
+A. Thirunavukkarasu&#13;
+</description>
+      <author>community@ez.no (Thirunavukkrasu Arumugam)</author>
+      <guid>http://projects.ez.no/youtube/forum/general/where_can_we_get_youtube_api_extension</guid>
+      <pubDate>Mon, 16 Mar 2009 06:51:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

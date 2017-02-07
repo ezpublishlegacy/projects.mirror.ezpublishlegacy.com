@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qhjsiniloader / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:45:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:45:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43100" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>V1.2 is out</title>
+      <link>http://projects.ez.no/qhjsiniloader/news/v1_2_is_out</link>
+      <description>&lt;p&gt;To Gaetano suggestion, I've added the ability to load an eZ INI file into JSON format&lt;/p&gt;</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/qhjsiniloader/news/v1_2_is_out</guid>
+      <pubDate>Thu, 08 Mar 2012 14:31:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / logicalogs / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:24:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:24:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47929" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>functionality is very similar to ggsysinfo...</title>
+      <link>http://projects.ez.no/logicalogs/forum/general/functionality_is_very_similar_to_ggsysinfo</link>
+      <description>...which already has a log viewer&#13;
+&#13;
+Maybe we could merge the effort and work on a unified solution?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/logicalogs/forum/general/functionality_is_very_similar_to_ggsysinfo</guid>
+      <pubDate>Mon, 01 Oct 2012 08:45:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

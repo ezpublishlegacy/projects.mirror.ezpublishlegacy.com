@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggwebservices / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13621" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header7</link>
+      <description>Sorry for my missing answer, looks good!&#13;
+&#13;
+Thanks for your great work.</description>
+      <author>community@ez.no (Stephan Scholz)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header7</guid>
+      <pubDate>Tue, 14 Jan 2014 08:47:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header6</link>
+      <description>ps: I implemented both changes, currently in github.&#13;
+&#13;
+Can you test the git master version, before I package it as rev. 0.14?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header6</guid>
+      <pubDate>Mon, 15 Apr 2013 13:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header5</link>
+      <description>Thanks for the tip with the ezsys class, I found that note in there:&#13;
+&#13;
+Note: X-Forwarded-For is transformed by PHP into $_SERVER['HTTP_X_FORWARDED_FOR']&#13;
+&#13;
+So I can use this to check for a valid IP in your execute.php.</description>
+      <author>community@ez.no (Stephan Scholz)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header5</guid>
+      <pubDate>Wed, 03 Apr 2013 15:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header4</link>
+      <description>Ah ok I see better now - you do not want to parse headers by hand but have ValidateClientIP work when behind a proxy.&#13;
+&#13;
+This is also doable, but in a different place.&#13;
+&#13;
+So now I have 2 feature requests on my hand ;-)&#13;
+&#13;
+The fix would be to change the way that client IP validation is done, in file modules/webservices/execute.php&#13;
+&#13;
+Note that ezsys class from eZ kernel has already a method to give you the client IP even when behind a proxy, starting with ezp 4.5</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header4</guid>
+      <pubDate>Wed, 03 Apr 2013 14:27:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header3</link>
+      <description>Thanks for your fast answer, but I am not sure if response is the correct location.&#13;
+&#13;
+You have the ability to use "ValidateClientIPs" and "ValidClientIPs", to secure the access to the webservices, if your site is behind a loadbalancer the client ip will always be the loadbalancer ip. So you have to check the "x-forwarded-for" header instead of the ip from incomming request. &#13;
+My quick fix would be a check for that header in my initialize.php jsonrpc extension, on every method call.&#13;
+&#13;
+I hope my problem will be more clearly now, sorry for any confusion.&#13;
+&#13;
+Regards,&#13;
+Stephan</description>
+      <author>community@ez.no (Stephan Scholz)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header3</guid>
+      <pubDate>Wed, 03 Apr 2013 14:18:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header2</link>
+      <description>ps: it seems that is not very difficult.&#13;
+&#13;
+While you wait for next release, you can patch the code as follows:&#13;
+&#13;
+. patch the ggJSONRPCResponse::decodeStream method. http headers are its 3rd param. Save them to a member variable of the object&#13;
+&#13;
+. add method ggJSONRPCResponse::responseHeaders which gives you back that variable&#13;
+&#13;
+All in all, 4 lines of code :-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header2</guid>
+      <pubDate>Wed, 03 Apr 2013 08:52:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header</link>
+      <description>I will look into this when I have a bit of spare time...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header/re_request_header</guid>
+      <pubDate>Wed, 03 Apr 2013 08:45:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Request Header</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/request_header</link>
+      <description>Hi,&#13;
+&#13;
+thanks for sharing ggwebservice with the community, great work.&#13;
+&#13;
+My current problem: I need information about the header of a webservice request, is there a way to process header information with ggwebservice? I am using a jsonrpc webservice and need the value of the "x-forwarded-for" header.&#13;
+&#13;
+I would be appreciative for any advice, thanks.&#13;
+&#13;
+Regards,&#13;
+Stephan</description>
+      <author>community@ez.no (Stephan Scholz)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/request_header</guid>
+      <pubDate>Wed, 03 Apr 2013 08:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How do i use gg Webservices?</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/how_do_i_use_gg_webservices/re_how_do_i_use_gg_webservices</link>
+      <description>There is better documentation in version 0.13, look in the doc/ folder folr a file named "usage".&#13;
+&#13;
+There is also a short tutorial at http://share.ez.no/blogs/gaetano-giunta/easy-mashups-with-ezpublish-adding-weather-data-to-your-pages</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/how_do_i_use_gg_webservices/re_how_do_i_use_gg_webservices</guid>
+      <pubDate>Tue, 25 Sep 2012 14:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: processing xml response</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response4</link>
+      <description>@bernd your problems should be fixed with svn rev. 406, which you are welcome to try (or just wait for release 0.10, which is coming soon... )</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response4</guid>
+      <pubDate>Sun, 30 Oct 2011 17:04:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: processing xml response</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response3</link>
+      <description>@abdelkader: this should now be fixed. Can you try using the code from svn revision 405?&#13;
+If you have a public server I can test, this is also fine</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response3</guid>
+      <pubDate>Sun, 30 Oct 2011 00:47:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: processing xml response</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response2</link>
+      <description>Hi,&#13;
+&#13;
+I have a same problem with WebServices using SOAP protocol.&#13;
+&#13;
+This is my case :&#13;
+&#13;
+1- I define my server provider in file "wsproviders.ini.append.php"&#13;
+&lt;code&gt;&#13;
+[AuthentificationServer]&#13;
+providerType=PhpSOAP&#13;
+providerUri=&#13;
+WSDL=http://mywebserver/authentication/server_wsdl.php&#13;
+&lt;/code&gt;&#13;
+&#13;
+2- Then i access to my ws in template using this code :&#13;
+&lt;code&gt;&#13;
+{def $return = fetch( 'webservices', 'call' , hash('server','Authentification','method', 'login', 'parameters', array(...))) }&#13;
+&lt;/code&gt;&#13;
+&#13;
+but i dont have any information, the return variable is empty&#13;
+&#13;
+When i investigate i find that in file extension/ggwebservices/classes/ggezwebservicesclient.php in a call method, the return is an stdclass :&#13;
+&lt;code&gt;&#13;
+array&#13;
+  'result' =&gt; &#13;
+    object(stdClass)&#13;
+      public 'data' =&gt; .....&#13;
+&lt;/code&gt;&#13;
+&#13;
+I think we must have a maping function to convert this object to an object that template can read.&#13;
+&#13;
+Tks&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response2</guid>
+      <pubDate>Tue, 27 Sep 2011 16:58:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: processing xml response</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response</link>
+      <description>In fact this is a known missing feature of the extension - one that I have known for a long time and for which I still have not made up my mind as to what is the correct solution...&#13;
+&#13;
+The problem is that the objects that you access in templates are either nested php arrays, or objects of a specific kind of php classes. But xml has a much richer content model than this:&#13;
+- attributes vs. elements&#13;
+- namespaces&#13;
+- entities&#13;
+&#13;
+This begs the question: how to map a rich xml object into a more simple eZ template object? I could make it simple and throw away every attribute and namespace, but I am sure that would not fit a lot of cases. Or I could make attributes and child elements in the xml all attributes of the template object... Any suggestions are welcome!</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response/re_processing_xml_response</guid>
+      <pubDate>Tue, 26 Jul 2011 08:28:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>processing xml response</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response</link>
+      <description>Hi GG,&#13;
+&#13;
+I'm evaluating ggwebservices and want to process a xml response of a REST request.&#13;
+It works very nice using your examples, which process json responses, but not with xml responses.&#13;
+&#13;
+In the webservice.log I can see, that correct xml results comes back, but I cannot process the results in templates.&#13;
+How to access the XML Content?&#13;
+Are there problems with namespaces or mixed namespaces?&#13;
+&#13;
+Here is an example using a public xml service: http://www.predic8.com/rest-demo.htm .&#13;
+&#13;
+My context: PHP 5.2.10, ggwebservice 0.9.1, SimpleXML 1.151, ezPublish 4.1.4&#13;
+&#13;
+wsproviders.ini:&#13;
+&lt;code&gt;&#13;
+[test]&#13;
+providerType=REST&#13;
+providerUri=http://www.thomas-bayer.com/sqlrest/CUSTOMER/&#13;
+&lt;/code&gt;&#13;
+&#13;
+Template:&#13;
+&lt;code&gt;&#13;
+{def $results = fetch('webservices', 'call',&#13;
+                         hash('server', 'test',&#13;
+                              'method', '',&#13;
+                              'parameters', hash()))}&#13;
+{$results}&#13;
+{$results|attribute(show)}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Output: &#13;
+{$results} =&gt; Object(SimpleXMLElement) &#13;
+{$results|attribute(show)} =&gt; Attribute 	Type 	Value&#13;
+&#13;
+&#13;
+webservice.log:&#13;
+&lt;code&gt; &#13;
+2011-07-26 08:30:01 : Connecting to: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  via REST &#13;
+2011-07-26 08:30:01 : Sent: GET /sqlrest/CUSTOMER/ HTTP/1.0&#13;
+Host: www.thomas-bayer.com&#13;
+Accept: application/json, text/xml; q=0.5&#13;
+User-Agent: gg eZ REST client&#13;
+Accept-Encoding: gzip, deflate&#13;
+&#13;
+&#13;
+2011-07-26 08:30:01 : Received: HTTP/1.1 200 OK&#13;
+Server: Apache-Coyote/1.1&#13;
+Content-Type: application/xml&#13;
+Date: Tue, 26 Jul 2011 06:30:01 GMT&#13;
+Connection: close&#13;
+Content-Length: 39441&#13;
+&#13;
+&lt;?xml version='1.0' encoding='UTF-8'?&gt;&lt;CUSTOMERList xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&#13;
+    &lt;CUSTOMER xlink:href="http://www.thomas-bayer.com/sqlrest/CUSTOMER/-9999/"&gt;-9999&lt;/CUSTOMER&gt;&#13;
+    &lt;CUSTOMER xlink:href="http://www.thomas-bayer.com/sqlrest/CUSTOMER/-999/"&gt;-999&lt;/CUSTOMER&gt;&#13;
+    .......&#13;
+    &lt;CUSTOMER xlink:href="http://www.thomas-bayer.com/sqlrest/CUSTOMER/1999999999/"&gt;1999999999&lt;/CUSTOMER&gt;&#13;
+&lt;/CUSTOMERList&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Thanx for your help!&#13;
+Bernd&#13;
+</description>
+      <author>community@ez.no (Bernd Uttenweiler)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/processing_xml_response</guid>
+      <pubDate>Tue, 26 Jul 2011 06:56:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>How do i use gg Webservices?</title>
+      <link>http://projects.ez.no/ggwebservices/forum/general/how_do_i_use_gg_webservices</link>
+      <description>Hi,&#13;
+&#13;
+I have downloaded gg Webservices 0.3 version and copied in /extension folder.&#13;
+&#13;
+I activated it from setup tab.&#13;
+&#13;
+Now, i want to use it from code, can you please suggest me how do i use gg Webwservices in template file or php file?</description>
+      <author>community@ez.no (Dhaval Panchal)</author>
+      <guid>http://projects.ez.no/ggwebservices/forum/general/how_do_i_use_gg_webservices</guid>
+      <pubDate>Mon, 01 Nov 2010 10:18:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezflashtagcloud / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:23:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:23:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17762" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Flash tag cloud v1.1 : security update</title>
+      <link>http://projects.ez.no/ezflashtagcloud/forum/general/flash_tag_cloud_v1_1_security_update</link>
+      <description>A XSS vulnerability has been corrected. Please update.&#13;
+XSS vulnerability has been corrected in WP Cumulus v1.23.&#13;
+&#13;
+You can download the new file, or at least, update tagcloud.tpl AND tagcloud.swf.&#13;
+If you don't update tpl, links will be disabled (they must have full path to works now).</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezflashtagcloud/forum/general/flash_tag_cloud_v1_1_security_update</guid>
+      <pubDate>Mon, 12 Sep 2011 10:55:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bugs ? Features ?</title>
+      <link>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features3</link>
+      <description>Hello,&#13;
+&#13;
+I suggest to manage a single quote issue on the $tag['tag'] value in extension/ezflashtagcloud/design/standard/templates/flashtagcloud/tagcloud.tpl :&#13;
+&#13;
+$tag['tag'] may be replaced by $tag['tag']|explode("'")|implode("´"). This would avoid javascript bug in the case the tag value contains a singlequote, such as in "aujourd'hui"&#13;
+&#13;
+</description>
+      <author>community@ez.no (Ronan Guilloux)</author>
+      <guid>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features3</guid>
+      <pubDate>Thu, 01 Jul 2010 09:03:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bugs ? Features ?</title>
+      <link>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features2</link>
+      <description>Hi Jean-Yves,&#13;
+&#13;
+Sorry for answering so late, but that was holidays :)&#13;
+&#13;
+No problem, you can link this extension.</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features2</guid>
+      <pubDate>Tue, 25 Aug 2009 08:52:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bugs ? Features ?</title>
+      <link>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features</link>
+      <description>I had submitted a (quick and dirty) contribution :&#13;
+http://ez.no/developer/contribs/applications/ezcumulus&#13;
+&#13;
+Don't you mind if i make a link to your projects as it is a better integration to ezpublish than mine ?&#13;
+&#13;
+Jean-yves</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features/re_bugs_features</guid>
+      <pubDate>Sun, 09 Aug 2009 19:58:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bugs ? Features ?</title>
+      <link>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features</link>
+      <description>Don't hesitate to post a comment.</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezflashtagcloud/forum/general/bugs_features</guid>
+      <pubDate>Thu, 16 Jul 2009 00:03:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

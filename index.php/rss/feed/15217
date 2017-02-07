@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / lacalendar / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:05:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:05:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15217" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LaCalendar V2</title>
+      <link>http://projects.ez.no/lacalendar/downloads/lacalendar_v2</link>
+      <description>&lt;p&gt;add second if USE_SECONDS_FIELD configed in class attribute&lt;/p&gt;</description>
+      <author>community@ez.no (Bin LIU)</author>
+      <guid>http://projects.ez.no/lacalendar/downloads/lacalendar_v2</guid>
+      <pubDate>Sun, 06 Dec 2009 14:57:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>lacalendar V1</title>
+      <link>http://projects.ez.no/lacalendar/downloads/lacalendar_v1</link>
+      <description></description>
+      <author>community@ez.no (Bin LIU)</author>
+      <guid>http://projects.ez.no/lacalendar/downloads/lacalendar_v1</guid>
+      <pubDate>Tue, 31 Mar 2009 09:54:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgmaplocation / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:16:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:16:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18195" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: create a location within an object which do...</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/create_a_location_within_an_object_which_doesn_t_exist_yet/re_create_a_location_within_an_object_which_do</link>
+      <description>I found my way :)&#13;
+&#13;
+&lt;code&gt;$attributesData['location'] = "1|#lat|#lng|#addr";&lt;/code&gt;&#13;
+&#13;
+works fine.&#13;
+&#13;
+example : &lt;code&gt;$attributesData['location'] = "1|#46.487561|#23.45784|#an address";&lt;/code&gt;</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/create_a_location_within_an_object_which_doesn_t_exist_yet/re_create_a_location_within_an_object_which_do</guid>
+      <pubDate>Wed, 07 Sep 2011 16:42:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update to Google Maps API V3</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/update_to_google_maps_api_v3/re_update_to_google_maps_api_v3</link>
+      <description>You should keep the version number when you call the js file from google :&#13;
+for exemple &lt;code&gt;&lt;script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5 ...&lt;/code&gt;&#13;
+You don't know how the API evolves. If a v4 is released, you don't know if your script will be ok with the new one.&#13;
+</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/update_to_google_maps_api_v3/re_update_to_google_maps_api_v3</guid>
+      <pubDate>Tue, 06 Sep 2011 15:17:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>create a location within an object which doesn't exist yet</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/create_a_location_within_an_object_which_doesn_t_exist_yet</link>
+      <description>Hi,&#13;
+&#13;
+I'm trying to create a new object with a ezgmaplocation datatype, but I don't know how to initiate it. Could some one show me the tricks ?&#13;
+&#13;
+Here a part from source code :&#13;
+&#13;
+$params = array();&#13;
+$params['class_identifier'] = 'implantation';&#13;
+$params['creator_id'] = $user-&gt;attribute( 'contentobject_id' );					$params['parent_node_id'] = $parentNodeId-&gt;attribute( 'node_id' );&#13;
+...&#13;
+&#13;
+$attributesData = array ( ) ;&#13;
+$attributesData['name'] = "name of implantation";&#13;
+...&#13;
+$attributesData['location'] = ???? :/&#13;
+$params['attributes'] = $attributesData;&#13;
+	 &#13;
+$contentObject = eZContentFunctions::createAndPublishObject( $params );&#13;
+&#13;
+thank you</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/create_a_location_within_an_object_which_doesn_t_exist_yet</guid>
+      <pubDate>Tue, 06 Sep 2011 15:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Update to Google Maps API V3</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/update_to_google_maps_api_v3</link>
+      <description>Hi,&#13;
+I updated the extension to use the Google Maps Api v3.&#13;
+It's easy, you have to override the  file : /templates/content/datatype/view/ezgmaplocation.tpl and change the begining. &#13;
+&#13;
+&lt;b&gt;Replace :&lt;/b&gt;&#13;
+&#13;
+&lt;code&gt;&#13;
+{run-once}&#13;
+&lt;script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={ezini('SiteSettings','GMapsKey')}" type="text/javascript"&gt;&lt;/script&gt;&#13;
+&lt;script type="text/javascript"&gt;&#13;
+{literal}&#13;
+function eZGmapLocation_MapView( attributeId, latitude, longitude )&#13;
+{&#13;
+    if (GBrowserIsCompatible()) &#13;
+    {&#13;
+        if( latitude & longitude )
+            var startPoint = new GLatLng( latitude, longitude ), zoom = 13;&#13;
+        else&#13;
+            var startPoint = new GLatLng( 0, 0 ), zoom = 0;&#13;
+&#13;
+        var map = new GMap2( document.getElementById( 'ezgml-map-' + attributeId ) );&#13;
+        map.addControl( new GSmallMapControl() );&#13;
+        map.setCenter( startPoint, zoom );&#13;
+        map.addOverlay( new GMarker(startPoint) );&#13;
+    }&#13;
+}&#13;
+{/literal}&#13;
+&lt;/script&gt;&#13;
+{/run-once}&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;b&gt;By : &lt;/b&gt;&#13;
+&#13;
+&lt;code&gt;&#13;
+{run-once}&#13;
+&lt;script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false"></script>
+<script type="text/javascript">
+{literal}
+function eZGmapLocation_MapView( attributeId, latitude, longitude )
+{
+       
+        if( latitude && longitude ){
+	        var latlng = new google.maps.LatLng(latitude,longitude);&#13;
+		    &#13;
+		} else {&#13;
+			var latlng = new google.maps.LatLng(0,0);&#13;
+		}&#13;
+		&#13;
+		var myOptions = {&#13;
+		      zoom: 12,&#13;
+		      center: latlng,&#13;
+		      mapTypeId: google.maps.MapTypeId.ROADMAP&#13;
+		    };&#13;
+		    &#13;
+	    map = new google.maps.Map(document.getElementById( 'ezgml-map-' + attributeId ), myOptions);&#13;
+	        &#13;
+	     var marker = new google.maps.Marker({&#13;
+		      position: latlng&#13;
+		  });&#13;
+		  &#13;
+		  // To add the marker to the map, call setMap();&#13;
+		  marker.setMap(map);&#13;
+    &#13;
+}&#13;
+{/literal}&#13;
+&lt;/script&gt;&#13;
+{/run-once}&#13;
+&lt;/code&gt;&#13;
+&#13;
+You  no longer need the API key ! &#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/update_to_google_maps_api_v3</guid>
+      <pubDate>Fri, 22 Jul 2011 09:19:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Question about legacy</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/question_about_legacy</link>
+      <description>Hi,&#13;
+I'm very fan of this extension that allow to easy find GPS coordinate, but I'm wondering if you respect the google map terms by registering GPS coordinate in ez publish database.&#13;
+&#13;
+I am working on a commercial site that would use your extension but only if it respect google map terms.&#13;
+&#13;
+So, could you confirm that I can use the extension for commercial usage, without risk anything from google?&#13;
+&#13;
+&#13;
+I paste here a extract of the terms and the source :&#13;
+10. License Restrictions. Except as expressly permitted under the Terms, or unless you have received prior written authorization from Google (or, as applicable, from the provider of particular Content), Google's licenses above are subject to your adherence to all of the restrictions below. Except as explicitly permitted in Section 7 or the Maps APIs Documentation, you must not (nor may you permit anyone else to): &#13;
+10.3 pre-fetch, cache, or store any Content, except that you may store limited amounts of Content for the purpose of improving the performance of your Maps API Implementation if you do so temporarily, securely, and in a manner that does not permit use of the Content outside of the Service;&#13;
+&#13;
+Sources : http://code.google.com/intl/fr/apis/maps/terms.html#section_10&#13;
+&#13;
+Thank you for your work and answers,&#13;
+&#13;
+JB Crestot&#13;
+www.les-clefs-du-net.com</description>
+      <author>community@ez.no (Jean-Baptiste Crestot)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/question_about_legacy</guid>
+      <pubDate>Fri, 15 Apr 2011 14:12:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does not work in Firefox 3.5</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/does_not_work_in_firefox_3_5/re_does_not_work_in_firefox_3_5</link>
+      <description>This seems to work ok on FF 3.6 as is, but I had a problem when trying to run it in tandem with Jqueryui accordion. The solution was as above: put the external link in the head of the document. &#13;
+&#13;
+As this appears to not just be a one-off problem (ie: Sander had it too...) it'd be good to work out a way of solving it. I'm not convinced by the idea of overriding page_head.tpl - that could mean trouble in the future if the original template is altered, also it'd mean that JS link appearing in all pages.&#13;
+&#13;
+I had a look at adding it to the persistent variable array, but the sticking point is working out how to get it included without having to modify pagelayout.tpl. Maybe someone with a bit more programming ability could suggest a more elegant solution.</description>
+      <author>community@ez.no (paul bolger)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/does_not_work_in_firefox_3_5/re_does_not_work_in_firefox_3_5</guid>
+      <pubDate>Sat, 20 Nov 2010 03:30:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Object copy is impossible</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/object_copy_is_impossible</link>
+      <description>Object copy with eZGmapLocation attribute error:&#13;
+&#13;
+&lt;code&gt;&#13;
+Error: error executing query: SELECT contentobject_attribute_id, contentobject_version, latitude, longitude, address&#13;
+                    FROM   ezgmaplocation&#13;
+WHERE  contentobject_attribute_id='' AND contentobject_version='4' BŁĄD:  invalid input syntax for integer: ""&#13;
+&lt;/code&gt;&#13;
+&#13;
+(PostgreSQL)&#13;
+&#13;
+Error, probably, is related to line 209 in ezgmaplocationtype.php:&#13;
+&lt;code&gt;&#13;
+if ( $contentObjectAttribute-&gt;attribute( 'data_int' ) != 0 )&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Dariusz Zbikowski)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/object_copy_is_impossible</guid>
+      <pubDate>Mon, 12 Apr 2010 13:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Allow multiple gmaps keys (one per domain)</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/allow_multiple_gmaps_keys_one_per_domain</link>
+      <description>Hi. Currently only one google maps key can be defined in ini file. It could be nice to have the posibility to define several keys, one for each (sub)domain involved in your project. &#13;
+&#13;
+this could be nice for having gmaps working in development and production domains. Also it could be good for sites having multihost acces type and having subdomains like spanish.mysite.com and english.mysite.com, for example. &#13;
+&#13;
+&#13;
+Probably we could define these keys in each siteaccess, but i suggest to define an array of keys like &#13;
+&#13;
+&lt;code&gt;&#13;
+GMapsKey[sub1.domain.com]=...&#13;
+GMapsKey[sub2.domain.com]=...&#13;
+GMapsKey[www.domain2.com]=...&#13;
+...&#13;
+&lt;/code&gt;&#13;
+&#13;
+and then in templates work with ezsys like&#13;
+&lt;code&gt;&#13;
+{def $keys = ezini('SiteSettings','GMapsKey')}&#13;
+&lt;script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={$keys[ezsys( 'hostname' )]}&amp;sensor=true" type="text/javascript"&gt;&lt;/script&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Best wishes</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/allow_multiple_gmaps_keys_one_per_domain</guid>
+      <pubDate>Mon, 05 Apr 2010 17:06:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: multiple nodes</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes/re_multiple_nodes2</link>
+      <description>thanks vjeran! i'll check that file! gilles guirand also pointed me to the gmap.tpl from the 'old' googlemaps extension. i guess these two templates make a good starting point..</description>
+      <author>community@ez.no (andre müller)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes/re_multiple_nodes2</guid>
+      <pubDate>Fri, 12 Mar 2010 23:04:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: multiple nodes</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes/re_multiple_nodes</link>
+      <description>Hi Andre,&#13;
+there is an ezflow block (Google Map Items) which shows multiple nodes on a single map:&#13;
+&#13;
+extension/ezflow/design/ezflow/override/templates/block/geo_located_content.tpl&#13;
+&#13;
+If you are not using ezflow, use the code from this template as a starting point.&#13;
+&#13;
+Vjeran&#13;
+&#13;
+ </description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes/re_multiple_nodes</guid>
+      <pubDate>Fri, 12 Mar 2010 22:47:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>multiple nodes</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes</link>
+      <description>Compared to the good old googlemaps extension the documentation on this one is a bit sparse. Anyone can help me how i can display multiple nodes from a fetch on one map?&#13;
+</description>
+      <author>community@ez.no (andre müller)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/multiple_nodes</guid>
+      <pubDate>Fri, 12 Mar 2010 16:53:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does not work in Firefox 3.5</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/does_not_work_in_firefox_3_5</link>
+      <description>Loading the maps script inside the body doesn't seem to work in FF 3.5. When I move this line into the head of the page, it works.&#13;
+&#13;
+Maybe this extension should come with it's own page_head.tpl, or even better: load it with ezjscore's ezscript_require. I'm not sure if ezjscore accepts strings/code as input instead of a filename reference though.</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/does_not_work_in_firefox_3_5</guid>
+      <pubDate>Wed, 24 Feb 2010 08:49:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhancement suggestion</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/enhancement_suggestion</link>
+      <description>It would be nice if the datatype also remembers the zoom level of the map.</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/enhancement_suggestion</guid>
+      <pubDate>Wed, 24 Feb 2010 08:37:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from older gmaplocation versions (v...</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v4</link>
+      <description>Hi Anita,&#13;
+I just posted step-by-step instructions and simple php script we developed to migrate data between this two datatype versions, you can find it here:&#13;
+&#13;
+http://ez.no/developer/contribs/hacks/ezgmaplocation_upgrade_from_v0_5_to_v1_0&#13;
+&#13;
+I hope you will find this helpful,&#13;
+Vjeran&#13;
+</description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v4</guid>
+      <pubDate>Sat, 30 Jan 2010 20:48:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from older gmaplocation versions (v...</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v3</link>
+      <description>Hi Vjeran,&#13;
+I just upgraded ezPublish from 4.0.1 to 4.2, yet my gmaplocation does not work anymore.&#13;
+I created a CLASS using gmaplocation and don't have a clou how to update now the user CLASS using gmaplocation onto ezgmap bundled in ezPublish 4.2.&#13;
+&#13;
+Can you help please?&#13;
+Thx&#13;
+Anita</description>
+      <author>community@ez.no (Anita  H)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v3</guid>
+      <pubDate>Sat, 30 Jan 2010 18:26:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from older gmaplocation versions (v...</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v2</link>
+      <description>Hi, perhaps most interesting to use drag and drop on map&#13;
+just replace javascript code in edit template&#13;
+&lt;code&gt;&#13;
+var map = new GMap2( document.getElementById( mapid ) );&#13;
+map.addControl( new GSmallMapControl() );&#13;
+map.addControl( new GMapTypeControl() );&#13;
+map.setCenter( startPoint, zoom );&#13;
+map.addOverlay( new GMarker( startPoint ) );&#13;
+geocoder = new GClientGeocoder();&#13;
+GEvent.addListener( map, "click", function( newmarker, point )&#13;
+ {&#13;
+ map.clearOverlays();&#13;
+ map.addOverlay( new GMarker( point ) );&#13;
+ map.panTo( point );&#13;
+ // updateLatLngFields(point);&#13;
+ document.getElementById( addressid ).value= '';&#13;
+            });&#13;
+&lt;/code&gt;&#13;
+by&#13;
+&lt;code&gt;&#13;
+     var map = new GMap2( document.getElementById( mapid ) );&#13;
+     map.addControl( new GSmallMapControl() );&#13;
+     map.addControl( new GMapTypeControl() );&#13;
+     map.setCenter( startPoint, zoom );&#13;
+     marker = new GMarker( startPoint,{draggable: true} )&#13;
+     GEvent.addListener(marker, "dragend", function(point) {&#13;
+                    updateLatLngFields(point);&#13;
+                    document.getElementById( addressid ).value= '';&#13;
+                    });&#13;
+ &lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Yannick Komotir)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v2</guid>
+      <pubDate>Tue, 29 Sep 2009 16:58:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade from older gmaplocation versions (v...</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v</link>
+      <description>We made an upgrade scipt for ezgmapslocation from 0.5 to 1.0, I'll share it soon</description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0/re_upgrade_from_older_gmaplocation_versions_v</guid>
+      <pubDate>Tue, 22 Sep 2009 15:49:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.0.x</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x2</link>
+      <description>I just tested it with ez 4.1 and it works (didn't test extended attribute filter yet).</description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x2</guid>
+      <pubDate>Tue, 22 Sep 2009 15:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.0.x</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x</link>
+      <description>Changed that now, there is nothing that I know of that keeps you from using it on any 4.x version.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x</guid>
+      <pubDate>Tue, 22 Sep 2009 15:34:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compatibility with ez 4.0.x</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x</link>
+      <description>Hello,&#13;
+&#13;
+Is this extension compatible with 4.0.x version of ez ?&#13;
+&#13;
+Why this extension is marked as 4.2 ? which features of 4.2 the extension is using which are not compatible with the previous ones ?&#13;
+&#13;
+Thanks for the information !</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_0_x</guid>
+      <pubDate>Thu, 17 Sep 2009 14:41:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrade from older gmaplocation versions (v0.5 - v1.0)</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0</link>
+      <description>Hi Łukasz,&#13;
+I just tested eZ Publish 4.2 beta and really like the idea of including important extensions (such as this) inside installation process.&#13;
+&#13;
+Can you please provide some tips about upgrading this extension and migrating data to a new external table?&#13;
+&#13;
+</description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/upgrade_from_older_gmaplocation_versions_v0_5_v1_0</guid>
+      <pubDate>Sat, 12 Sep 2009 21:14:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.1?</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_14</link>
+      <description>Yes I have updated the autoload array by command line:&#13;
+&#13;
+php bin/php/ezpgenerateautoloads.php -e&#13;
+&#13;
+and from admin interface.&#13;
+&#13;
+If I look inside file var\autoload\ezp_extension.php I can see this lines:&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+'eZGmapLocation'                 =&gt; 'extension/ezgmaplocation/classes/ezgmaplocation.php',&#13;
+      'eZGmapLocationInfo'             =&gt; 'extension/ezgmaplocation/ezinfo.php',&#13;
+      'eZGmapLocationType'             =&gt; 'extension/ezgmaplocation/datatypes/ezgmaplocation/ezgmaplocationtype.php',&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+The strange think it's that I have tried another datatype extension and also this not showed on datatypes list.</description>
+      <author>community@ez.no (Daniele Nocentini)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_14</guid>
+      <pubDate>Fri, 04 Sep 2009 07:27:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.1?</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_13</link>
+      <description>Have you updated the autoload array for extensions?</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_13</guid>
+      <pubDate>Fri, 04 Sep 2009 07:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.1?</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_12</link>
+      <description>I try extension on a ez 4.1.1 and works but in another installation but version 4.1.3 not works, when I edit or create a new class I don't find a Gmap Location datatype.&#13;
+I have disabled all cache but without success, this is strange.</description>
+      <author>community@ez.no (Daniele Nocentini)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_12</guid>
+      <pubDate>Tue, 01 Sep 2009 13:12:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with ez 4.1?</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_1</link>
+      <description>Hi,&#13;
+&#13;
+It works OK with 4.1.3</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1/re_compatibility_with_ez_4_1</guid>
+      <pubDate>Tue, 01 Sep 2009 11:44:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compatibility with ez 4.1?</title>
+      <link>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1</link>
+      <description>I try to active this extension on ez 4.1 but if I edit a class I don't see any new gmaps datatype available, this extension work with ez 4.1 or only with 4.2?</description>
+      <author>community@ez.no (Daniele Nocentini)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/forum/general/compatibility_with_ez_4_1</guid>
+      <pubDate>Tue, 01 Sep 2009 08:57:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

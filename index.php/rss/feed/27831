@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sqliimport / Forum / Issues</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:53:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:53:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27831" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel7</link>
+      <description>Hello Fraser&#13;
+&#13;
+Do you have database Master/slave configured in eZ Publish ? If so, this certainly comes from here... I just resolved a similar case by doing so.&#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel7</guid>
+      <pubDate>Tue, 17 Jan 2012 15:01:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue with isNew() method in sqlicontent</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_isnew_method_in_sqlicontent</link>
+      <description>Hi,&#13;
+&#13;
+I think there is an issue with the isNew() method of SQLIContent class when objects are in trash. &#13;
+Indeed, the is New() method check if version is 1 and status is draft but when there is an object in the trash with version 1 the status is archived, so isNew() return false.&#13;
+&#13;
+Thus, when calling SQLIContent::addLocation() with this object the SQLIContentpublisher is called but there is no node mapped with the object (as the object is in trash) and an exception is thrown "Cannot directly add a location to a not-yet-published content.".&#13;
+&#13;
+Maybe status archived should be considered when defining an object as new&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_isnew_method_in_sqlicontent</guid>
+      <pubDate>Thu, 02 Dec 2010 14:49:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Passed options do not override settings fro...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini/re_passed_options_do_not_override_settings_fro2</link>
+      <description>Hi Jérôme, thanks for your reply.&#13;
+&#13;
+Sorry, but I don't quite understand what you mean. What would be a valid "on-the-fly option" for an import handler? Can you give an example of such a thing for your RSS handler?&#13;
+&#13;
+I ask because to me it seems quite logical and even required by the usability imperative to have the basic handler options (such as the DefaultParentNodeID for your handler) be settable at the handler invocation (either in command line interface or in the admin siteaccess). However, in the extension's current state a user needs to change these options in the INI settings for his import job - and potentially do so for every import job he runs).&#13;
+That's what I meant when I claimed to have found a "conceptual error" in the way the extension functions now (and BTW that carried absolutely no disrespect for your work, I hope that was understood).&#13;
+&#13;
+Yes you are right, the handler can be made to support the functionality I'm asking for. But that introduces a need for in-code checks at every use of any option, like I wrote in the original post (pseudocode here):&#13;
+&lt;code&gt;&#13;
+$my_x_setting = isset( options[the_x] ? options[the_x] : handlerConfArray[the_x]);&#13;
+&lt;/code&gt;&#13;
+This I think is very clunky and error-prone; it would be much simpler and more usable to have a single "options" or "settings" array which includes every config item for the handler, from both the INI and user's invocation (and with the invocation-time settings overriding the INI ones, as would be expected).&#13;
+&#13;
+Thanks for your time, best regards&#13;
+Petar</description>
+      <author>community@ez.no (Petar Marovic)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini/re_passed_options_do_not_override_settings_fro2</guid>
+      <pubDate>Thu, 02 Dec 2010 10:16:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel6</link>
+      <description>Hi Solène&#13;
+&#13;
+Sorry for the delay of my response...&#13;
+Can you please give us a code snippet causing the error (XML + PHP handler) ? &#13;
+Is your XML UTF8 encoded ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel6</guid>
+      <pubDate>Mon, 29 Nov 2010 16:07:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Passed options do not override settings fro...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini/re_passed_options_do_not_override_settings_fro</link>
+      <description>Hi Petar&#13;
+&#13;
+Actually, this kind of options are not meant to override INI settings. They are made to help you add on-the-fly options for your handler. They are passed to the import handler constructor.&#13;
+So if you want the RSS handler to support them, you should extend it and add these options support to it ;-)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini/re_passed_options_do_not_override_settings_fro</guid>
+      <pubDate>Mon, 29 Nov 2010 16:05:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: two little thing</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/two_little_thing/re_two_little_thing</link>
+      <description>Thanks Jean-Luc for your report !&#13;
+&#13;
+1/ Fixed in trunk, rev 33&#13;
+2/ Fixed in trunk, rev 34</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/two_little_thing/re_two_little_thing</guid>
+      <pubDate>Mon, 29 Nov 2010 15:24:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Using $this in a non object context in sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/using_this_in_a_non_object_context_in_sqlilocation/re_using_this_in_a_non_object_context_in_sqli</link>
+      <description>Wow ! Good catch :)&#13;
+Fixed in trunk r31</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/using_this_in_a_non_object_context_in_sqlilocation/re_using_this_in_a_non_object_context_in_sqli</guid>
+      <pubDate>Fri, 26 Nov 2010 13:11:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using $this in a non object context in sqlilocation</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/using_this_in_a_non_object_context_in_sqlilocation</link>
+      <description>Found that issue and I don't know If you've fixed it yet.&#13;
+well here it is in sqlilocation&#13;
+&#13;
+&lt;code&gt;&#13;
+public static function fromNodeID( $nodeID )&#13;
+    {&#13;
+        $node = eZContentObjectTreeNode::fetch( $nodeID );&#13;
+        if ( !$node instanceof eZContentObjectTreeNode )&#13;
+            throw new SQLILocationException( "Unable to find eZContentObjectTreeNode with NodeID #$this-&gt;nodeID" );&#13;
+        &#13;
+        $location = self::fromNode( $node );&#13;
+        return $location;&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/using_this_in_a_non_object_context_in_sqlilocation</guid>
+      <pubDate>Thu, 25 Nov 2010 21:23:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Passed options do not override settings from INI</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini</link>
+      <description>Hi Jérôme,&#13;
+&#13;
+I believe I've found a conceptual error in the way the extension works. Namely, one can not set parameters to his source handler in options, and have them override the "defaults" which are configured in the ini settings of a handler (sqliimport.ini.append.php file).&#13;
+&#13;
+So, for instance, if I invoke this in the command line:&#13;
+&lt;code&gt;&#13;
+php extension/sqliimport/bin/php/sqlidoimport.php --source-handlers=rssimporthandler --options="rssimporthandler::DefaultParentNodeID=65,RSSFeed=http://someotherblog.com/rss"&#13;
+&lt;/code&gt;&#13;
+&#13;
+The SQLIRSSImportHandler will still use the RSSFeed url from your blog, and will still place new objects under the node defined in ini settings (your handler used just as an example, this is also true for any custom developed handler which uses that one's code as it's base/inspiration).&#13;
+&#13;
+Or, it's more accurate to say that such a thing &lt;b&gt;is&lt;/b&gt; possible, but it has to be expected and explicitly handled in the handler; for example like this (code from sqlirssimporthandler.php, function process($row) ):&#13;
+&lt;code&gt;&#13;
+$parentNodeID = isset( $this-&gt;options['DefaultParentNodeID'] ) ? $this-&gt;options['DefaultParentNodeID'] : $this-&gt;handlerConfArray['DefaultParentNodeID'];&#13;
+&#13;
+$content-&gt;addLocation( SQLILocation::fromNodeID( $parentNodeID ) );&#13;
+&lt;/code&gt;&#13;
+&#13;
+After examining the code, I believe I can also suggest a solution: the handler class should have the $handlerConfArray and the $options arrays "mashed" together (in order: first global defaults, then INI settings, then any passed options from the invocation), so that in actual usage (custom handler code) one only has to use the $this-&gt;options['something'] to get at all the handler's options. &#13;
+From my investigation of the code I believe the actual "mashing" process needs to be carried out in the SQLIImportFactory class. But PHP is really not my language, don't know it's associative array idioms and don't consider myself qualified to suggest the actual code for this.&#13;
+&#13;
+Thanks for your time, best regards&#13;
+Petar</description>
+      <author>community@ez.no (Petar Marovic)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/passed_options_do_not_override_settings_from_ini</guid>
+      <pubDate>Fri, 19 Nov 2010 07:22:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>two little thing</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/two_little_thing</link>
+      <description>Hy,&#13;
+&#13;
+Well just two simple issues :&#13;
+&#13;
+1 / in the publish method, when you're dealing with the attributes, you check if the fromString method exists in the datatype declaration class. The problem is that all datatype classes extend the ezDataType class witch implements the fromString method who does nothing. So if the specific datatype class doesn't have it's own fromString method, the attribute won't be set !&#13;
+&#13;
+2/ A documentation for the publish options would be helpful.&#13;
+&#13;
+that's all, beside does little problems, the extension is really useful.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/two_little_thing</guid>
+      <pubDate>Wed, 17 Nov 2010 13:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel5</link>
+      <description>Hello&#13;
+I have the same message and I found that the problem is... the accents ! When I remove them the script run without error...&#13;
+I tried utf8_encode, html_entities, htmlspecialchars, etc... and nothing works !!!&#13;
+Any idea ?&#13;
+Tahnks</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel5</guid>
+      <pubDate>Wed, 10 Nov 2010 10:07:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to use options in IHM </title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/how_to_use_options_in_ihm</link>
+      <description>could you transform your rss handker to a generci rss handler with use of the IHM ....</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/how_to_use_options_in_ihm</guid>
+      <pubDate>Mon, 04 Oct 2010 12:42:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with csv import</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import/re_issue_with_csv_import2</link>
+      <description>Fixed in trunk, rev 29</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import/re_issue_with_csv_import2</guid>
+      <pubDate>Mon, 04 Oct 2010 09:16:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with csv import</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import/re_issue_with_csv_import</link>
+      <description>Hi Michael&#13;
+&#13;
+Actually, the CSV example in the &lt;i&gt;stubs&lt;/i&gt; directory is not an import handler, but an example of how to manage your CSV source.&#13;
+However, I found a difference between the XML parser and the CSV parser : In the CSV parser, the &lt;i&gt;parse()&lt;/i&gt; method does not return the CSVDoc object.&#13;
+&#13;
+So, in your import handler, in the &lt;b&gt;initialize()&lt;/b&gt; method, you may do something like this :&#13;
+&lt;code&gt;&#13;
+    public function initialize()&#13;
+    {&#13;
+        $csvPath = $this-&gt;handlerConfArray['CSVPath']; // Assume that you have a CSVPath config in your sqliimport.ini section&#13;
+        $csvOptions = new SQLICSVOptions( array(&#13;
+            'csv_path'      =&gt; $csvPath,&#13;
+            'xml_parser'    =&gt; '"'&#13;
+        ) );&#13;
+        $csvDoc = new SQLICSVDoc( $csvOptions );&#13;
+        $csvDoc-&gt;parse();&#13;
+        $this-&gt;dataSource = $csvDoc;&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+I'll fix the non-returned object in the &lt;b&gt;SQLICSVDoc::parse()&lt;/b&gt; method :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import/re_issue_with_csv_import</guid>
+      <pubDate>Mon, 04 Oct 2010 09:13:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations9</link>
+      <description>Hi Lars&#13;
+&#13;
+I think I found something, but I'm not sure if this is also affects you...&#13;
+Can you please try to manually set your &lt;i&gt;activeLanguage&lt;/i&gt; ?&#13;
+&#13;
+&lt;code&gt;&#13;
+$myContent-&gt;setActiveLanguage( 'nor-NO' ); // Place here your problematic locale&#13;
+&lt;/code&gt;&#13;
+&#13;
+Of course, repeat this operation for each children if you have ones</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations9</guid>
+      <pubDate>Mon, 04 Oct 2010 08:57:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue with csv import</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import</link>
+      <description>Hi, &#13;
+thanks for the extension.&#13;
+I work with the data_import extension and would like to replace it with sqliimport.&#13;
+&#13;
+The CSV files in the stubs directory I have found. But, I get it not to work.&#13;
+&#13;
+The existing RSSimport is an XML example.&#13;
+Maybe, can you create a new csv example for beginners like me.&#13;
+e.g new sqlifolderimporthandler.php&#13;
+&#13;
+Greetings!&#13;
+Michael</description>
+      <author>community@ez.no (Michael L.)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_csv_import</guid>
+      <pubDate>Tue, 28 Sep 2010 15:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel4</link>
+      <description>The SQLIImport log just has the same message, that the field is invalid.  The error.log file just has a bunch of template override errors (can't find the template file) but I don't think that's related.&#13;
+&#13;
+I didn't try the script indicated in the post as I had a bit of trouble getting it to run (autoload error).  But I did install the ezscriptmonitor extension mentioned as a fix for the same issue.  It successfully ran the class synchronization on all the classes I've tried to import too but it didn't help.  I'll try to install a clean version of the extension and try the example again.  One thing I have discovered is that the non object error seems to go away after clearing all the caches.&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Fraser</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel4</guid>
+      <pubDate>Tue, 28 Sep 2010 08:26:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel3</link>
+      <description>Hmm, this is really strange... What do your logs say (error.log, sqliimport-error.log) ?&#13;
+Did you try the script attached to issue I indicated ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel3</guid>
+      <pubDate>Mon, 27 Sep 2010 21:32:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel2</link>
+      <description>Hi Jerome,&#13;
+&#13;
+Thanks for the suggestions. Unfortunately I'm still having problems.  I installed ezscriptmonitor, edited the class and ran ezscriptmonitor to synchronize the attributes.  Now I'm getting an error:  Call to member function attribute() on a non-object.  I get this error or the invalid field error every time, even for the example rssimporthandler.  Yesterday I did get the example working, but then it stopped for some reason.  I tried synching the attributes on the article class and still no luck.  When it did work for the example it was awesome!  I'd really love to get this working because I need a quick way to upload a lot of content objects.  Any other suggestions?&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Fraser</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel2</guid>
+      <pubDate>Mon, 27 Sep 2010 21:13:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Scheduled imports - schedule is shifting</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/scheduled_imports_schedule_is_shifting/re_scheduled_imports_schedule_is_shifting</link>
+      <description>Fixed in trunk, rev 24</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/scheduled_imports_schedule_is_shifting/re_scheduled_imports_schedule_is_shifting</guid>
+      <pubDate>Mon, 27 Sep 2010 11:59:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Editing a scheduled import may add empty op...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/editing_a_scheduled_import_may_add_empty_options/re_editing_a_scheduled_import_may_add_empty_op</link>
+      <description>Fixed in trunk, rev 25</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/editing_a_scheduled_import_may_add_empty_options/re_editing_a_scheduled_import_may_add_empty_op</guid>
+      <pubDate>Mon, 27 Sep 2010 11:58:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editing a scheduled import may add empty options</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/editing_a_scheduled_import_may_add_empty_options</link>
+      <description>Issue reminder&#13;
+&#13;
+When editing an existing scheduled import through admin interface, &lt;i&gt;ghost&lt;/i&gt; options may appear once form validated.&#13;
+To reproduce this issue, your scheduled import should already have registered options</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/editing_a_scheduled_import_may_add_empty_options</guid>
+      <pubDate>Mon, 27 Sep 2010 11:50:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scheduled imports - schedule is shifting</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/scheduled_imports_schedule_is_shifting</link>
+      <description>Issue reminder topic&#13;
+&#13;
+When using scheduled imports, schedule may shift as next import date is calculated after import process. Next import date is thus always altered depending on process time.</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/scheduled_imports_schedule_is_shifting</guid>
+      <pubDate>Mon, 27 Sep 2010 11:43:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error: invalid "countryname" fiel...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel</link>
+      <description>Hi Fraser&#13;
+&#13;
+This error actually comes from an exception thrown when you want to access to an invalid content field (not present in the content object data map).&#13;
+I can see 2 causes for your problem :&#13;
+  - You misspelled the attribute identifier (&lt;i&gt;countryname&lt;/i&gt;), but you tell me that you double-checked this&#13;
+  - You might have de-synchronized objects from their content classes (see issue #14307 - http://issues.ez.no/IssueView.php?Id=14307).&#13;
+&#13;
+If your are sure that the attribute identifier is correct, try to check for missing object attributes as described in the issue above.</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent/re_error_invalid_countryname_fiel</guid>
+      <pubDate>Sun, 26 Sep 2010 19:19:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error: invalid "countryname" field for current SQLIContent.</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent</link>
+      <description>I've created a custom class to hold ISO country names and codes and I'm trying to import an xml file with the data.  I've tried a lot of different things to debug but I keep getting an error: &#13;
+&#13;
+&lt;code&gt;&#13;
+An error occurred during "countryimporthandler" import process : invalid "countryname" field for current SQLIContent.&#13;
+&lt;/code&gt;&#13;
+&#13;
+Country name is just a standard ez text line and I've checked and rechecked to ensure that I haven't misspelled any identifier names.  I even tried using the article class instead and putting country name in the title but that didn't work either.  Also from the print line I can see that the xml is being parsed correctly.&#13;
+&#13;
+I'd be really grateful for any help debugging.  When this input handler is working I think it might be a good example because it imports the ISO country code list which is handy if you don't want to use the country datatype and would rather use objectrelation.&#13;
+&#13;
+Thanks!&#13;
+&#13;
+Fraser&#13;
+&#13;
+The XML File (sample)&#13;
+&lt;code&gt;&#13;
+&lt;ISO3166List xml:lang="en"&gt;&#13;
+   &lt;ISO3166Entry&gt;&#13;
+      &lt;CountryName&gt;AFGHANISTAN&lt;/CountryName&gt;&#13;
+      &lt;ISO3166Alpha2Code&gt;AF&lt;/ISO3166Alpha2Code&gt;&#13;
+   &lt;/ISO3166Entry&gt;&#13;
+   &lt;ISO3166Entry&gt;&#13;
+      &lt;CountryName&gt;ÅLAND ISLANDS&lt;/CountryName&gt;&#13;
+      &lt;ISO3166Alpha2Code&gt;AX&lt;/ISO3166Alpha2Code&gt;&#13;
+   &lt;/ISO3166Entry&gt;&#13;
+   &lt;ISO3166Entry&gt;&#13;
+      &lt;CountryName&gt;ALBANIA&lt;/CountryName&gt;&#13;
+      &lt;ISO3166Alpha2Code&gt;AL&lt;/ISO3166Alpha2Code&gt;&#13;
+   &lt;/ISO3166Entry&gt;&#13;
+&lt;/ISO3166List&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+The INI Override&#13;
+&lt;code&gt;&#13;
+[ImportSettings]&#13;
+AvailableSourceHandlers[]=countryimporthandler&#13;
+&#13;
+[countryimporthandler-HandlerSettings]&#13;
+Enabled=true&#13;
+Name=Country XML Import Handler&#13;
+ClassName=SQLICountryImportHandler&#13;
+Debug=enabled&#13;
+DefaultParentNodeID=469&#13;
+StreamTimeout=&#13;
+xmlFile=C:/&lt;ezRoot&gt;/extension/issat/stubs/iso3166list.xml&#13;
+&lt;/code&gt;&#13;
+&#13;
+The Import Handler&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+/**&#13;
+ * File containing demo import handler SQLIRSSImportHandler&#13;
+ * @copyright Copyright (C) 2010 - SQLi Agency. All rights reserved&#13;
+ * @licence http://www.gnu.org/licenses/gpl-2.0.txt GNU GPLv2&#13;
+ * @author Jerome Vieilledent&#13;
+ * @version 1.1.0&#13;
+ * @package sqliimport&#13;
+ * @subpackage sourcehandlers&#13;
+ */&#13;
+&#13;
+class SQLICountryImportHandler extends SQLIImportAbstractHandler implements ISQLIImportHandler&#13;
+{&#13;
+    protected $rowIndex = 0;&#13;
+    &#13;
+    protected $rowCount;&#13;
+    &#13;
+    protected $currentGUID;&#13;
+    &#13;
+    /**&#13;
+     * Constructor&#13;
+     */&#13;
+    public function __construct( SQLIImportHandlerOptions $options = null )&#13;
+    {&#13;
+        parent::__construct( $options );&#13;
+        $this-&gt;remoteIDPrefix = $this-&gt;getHandlerIdentifier().'-';&#13;
+        $this-&gt;currentRemoteIDPrefix = $this-&gt;remoteIDPrefix;&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::initialize()&#13;
+     */&#13;
+    public function initialize()&#13;
+    {&#13;
+        $xmlFile = $this-&gt;handlerConfArray['xmlFile'];&#13;
+        $xmlOptions = new SQLIXMLOptions( array(&#13;
+            'xml_path'      =&gt; $xmlFile,&#13;
+            'xml_parser'    =&gt; 'simplexml'&#13;
+        ) );&#13;
+        $xmlParser = new SQLIXMLParser( $xmlOptions );&#13;
+        $this-&gt;dataSource = $xmlParser-&gt;parse();&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getProcessLength()&#13;
+     */&#13;
+    public function getProcessLength()&#13;
+    {&#13;
+        if( !isset( $this-&gt;rowCount ) )&#13;
+        {&#13;
+            $this-&gt;rowCount = count( $this-&gt;dataSource-&gt;ISO3166Entry );&#13;
+        }&#13;
+        return $this-&gt;rowCount;&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getNextRow()&#13;
+     */&#13;
+    public function getNextRow()&#13;
+    {&#13;
+        if( $this-&gt;rowIndex &lt; $this-&gt;rowCount )&#13;
+        {&#13;
+            $row = $this-&gt;dataSource-&gt;ISO3166Entry[$this-&gt;rowIndex];&#13;
+            $this-&gt;rowIndex++;&#13;
+        }&#13;
+        else&#13;
+        {&#13;
+            $row = false; // We must return false if we already processed all rows&#13;
+        }&#13;
+        &#13;
+        return $row;&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::process()&#13;
+     */&#13;
+    public function process( $row )&#13;
+    {&#13;
+        // $row is a SimpleXMLElement object&#13;
+        $this-&gt;currentGUID = $row-&gt;ISO3166Alpha2Code;&#13;
+        $contentOptions = new SQLIContentOptions( array(&#13;
+            'class_identifier'      =&gt; 'isocountryentry',&#13;
+            'remote_id'             =&gt; (string)$row-&gt;ISO3166Alpha2Code&#13;
+        ) );&#13;
+        &#13;
+        print (string)$row-&gt;CountryName;&#13;
+&#13;
+        $content = SQLIContent::create( $contentOptions );&#13;
+        $content-&gt;fields-&gt;countryname = (string)$row-&gt;CountryName;&#13;
+        $content-&gt;fields-&gt;alpha2code = (string)$row-&gt;ISO3166Alpha2Code;&#13;
+        &#13;
+        // Now publish content&#13;
+        $content-&gt;addLocation( SQLILocation::fromNodeID( $this-&gt;handlerConfArray['DefaultParentNodeID'] ) );&#13;
+        $publisher = SQLIContentPublisher::getInstance();&#13;
+        $publisher-&gt;publish( $content );&#13;
+        &#13;
+        // Free some memory. Internal methods eZContentObject::clearCache() and eZContentObject::resetDataMap() will be called&#13;
+        // @see SQLIContent::__destruct()&#13;
+        unset( $content );&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::cleanup()&#13;
+     */&#13;
+    public function cleanup()&#13;
+    {&#13;
+        // Nothing to clean up&#13;
+        return;&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getHandlerName()&#13;
+     */&#13;
+    public function getHandlerName()&#13;
+    {&#13;
+        return 'Country Import Handler';&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getHandlerIdentifier()&#13;
+     */&#13;
+    public function getHandlerIdentifier()&#13;
+    {&#13;
+        return 'countryimporthandler';&#13;
+    }&#13;
+    &#13;
+    /**&#13;
+     * (non-PHPdoc)&#13;
+     * @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getProgressionNotes()&#13;
+     */&#13;
+    public function getProgressionNotes()&#13;
+    {&#13;
+        return 'Currently importing : '.$this-&gt;currentGUID;&#13;
+    }&#13;
+}&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent</guid>
+      <pubDate>Sun, 26 Sep 2010 14:57:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Imports are blocked after a transaction error</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/imports_are_blocked_after_a_transaction_error/re_imports_are_blocked_after_a_transaction_error</link>
+      <description>Fixed in trunk, rev 19</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/imports_are_blocked_after_a_transaction_error/re_imports_are_blocked_after_a_transaction_error</guid>
+      <pubDate>Fri, 24 Sep 2010 23:49:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Imports are blocked after a transaction error</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/imports_are_blocked_after_a_transaction_error</link>
+      <description>Reminder topic for this issue.&#13;
+&#13;
+It seems to be because provided fatal error handler is not sufficient in case of a transaction error (see &lt;b&gt;eZDBInterface::reportError()&lt;/b&gt; =&gt; exits silently).&#13;
+&#13;
+A solution would be to implement an cleanup handler in addition to the fatal error handler :&#13;
+&lt;code&gt;&#13;
+function SQLIImportCleanupHandler&#13;
+{&#13;
+    // Check if import cleanup is necessary&#13;
+    $db = eZDB::instance();&#13;
+    if( $db-&gt;errorNumber() &gt; 0 & SQLIImportToken::isRunning() )
+    {
+        SQLIImportToken::cleanAll();&#13;
+        $factory = SQLIImportFactory::instance();&#13;
+        $currentItem = $factory-&gt;getCurrentImportItem();&#13;
+        $currentItem-&gt;setAttribute( 'status', SQLIImportItem::STATUS_FAILED );&#13;
+        $currentItem-&gt;store();&#13;
+    }&#13;
+}&#13;
+&#13;
+eZExecution::addCleanupHandler( 'SQLIImportCleanupHandler' );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/imports_are_blocked_after_a_transaction_error</guid>
+      <pubDate>Thu, 23 Sep 2010 20:16:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with section assignement on new sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli5</link>
+      <description>Fixed in trunk, rev 15</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli5</guid>
+      <pubDate>Thu, 09 Sep 2010 14:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with section assignement on new sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli4</link>
+      <description>Sorry for my late answer, yes it works fine :)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli4</guid>
+      <pubDate>Thu, 09 Sep 2010 14:14:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with section assignement on new sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli3</link>
+      <description>Great !&#13;
+&#13;
+Is it also OK with standard content ? (no parent section id)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli3</guid>
+      <pubDate>Wed, 08 Sep 2010 11:28:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with section assignement on new sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli2</link>
+      <description>Works great with 0 by default !&#13;
+&#13;
+Thanks Jérome :)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli2</guid>
+      <pubDate>Wed, 08 Sep 2010 10:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with section assignement on new sqli...</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli</link>
+      <description>Hi Matthieu&#13;
+&#13;
+Interesting point here...&#13;
+The problem is that at the time of creation, there is no notion of &lt;i&gt;parent object&lt;/i&gt;. I'd rather modify the default &lt;b&gt;section_id&lt;/b&gt; in &lt;i&gt;SQLIContentOptions&lt;/i&gt;.&#13;
+&#13;
+Would you please try to change this default value from &lt;i&gt;1&lt;/i&gt; to &lt;b&gt;0&lt;/b&gt; and tell me if it fixes your issue ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object/re_issue_with_section_assignement_on_new_sqli</guid>
+      <pubDate>Wed, 08 Sep 2010 10:11:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue with section assignement on new sqli content object</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object</link>
+      <description>Hi Jérome !&#13;
+&#13;
+I have recently been importing data in a location with a section different than the standard one and I just saw that objects imported with sqliimport are always mapped with standard section even if in a location with a different section.&#13;
+&#13;
+I think that in sqlicontent::create() you should add $sectionID = $parentObject-&gt;attribute( 'section_id' ); when there is no section_id defined in sqlicontentoption&#13;
+&#13;
+What do you think ?&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issue_with_section_assignement_on_new_sqli_content_object</guid>
+      <pubDate>Wed, 08 Sep 2010 09:45:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations8</link>
+      <description>Lars&#13;
+&#13;
+I tried with languages that are not present in my SiteLanguageList (I retried with nor-NO just in case). But of course, you will need to add it to your system (Setup =&gt; Languages).&#13;
+Can you please show me an extract of your code, so I can see what may be wrong ?&#13;
+&#13;
+You can also try this snippet : http://pastebin.com/bz6Vd7wm . Save this snippet in the &lt;i&gt;stubs/&lt;/i&gt; directory of the extension and run it with a non-default language (you might alter the snippet for that of course :)).&#13;
+&#13;
+My guess is that with all your past fatal errors, you introduced corrupted content objects in the database. Do you use remoteID ? Because if this is the case, this might be the origin of your problem as the content API would fetch the corrupted objects in the DB with the remoteID instead of creating new ones.</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations8</guid>
+      <pubDate>Sun, 05 Sep 2010 22:22:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations7</link>
+      <description>I updated the sqlcontent class as well as following your example.&#13;
+However as long as my "non-default" language is not in the default siteaccess i get the same problems.&#13;
+By adding the language it seems to work fine.&#13;
+&#13;
+Have you verified that your test works when not having english present in the siteLanguageList in site.ini.append.php?&#13;
+&#13;
+Just to let you know.. as this is in my case an example which is only for importing new content once, this is not a problem, with regards to scheduling on a live site, this will however be something that should be resolved.. just to make the product even better of course..&#13;
+&#13;
+BTW adding new dates by following your example works nicely:)&#13;
+Thanks for making this a better extension once again.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations7</guid>
+      <pubDate>Sun, 05 Sep 2010 12:38:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations6</link>
+      <description>Lars&#13;
+&#13;
+I'm glad you enjoy the extension :).&#13;
+Here's the snippet I used to track the issue (my default language was fre-FR) :&#13;
+&lt;code&gt;&#13;
+$cli-&gt;notice( 'Creating parent folder' );&#13;
+$options = new SQLIContentOptions( array(&#13;
+    'class_identifier'      =&gt; 'folder',&#13;
+    'remote_id'             =&gt; 'folder_remote_id',&#13;
+    'language'              =&gt; 'eng-GB' // Different language than default one (fre-FR)&#13;
+) );&#13;
+$folder = SQLIContent::create( $options );&#13;
+$folder-&gt;fields-&gt;name = 'English subject';&#13;
+&#13;
+$folder-&gt;addLocation( SQLILocation::fromNodeID( 43 ) );&#13;
+&#13;
+$publisher = SQLIContentPublisher::getInstance();&#13;
+$publisher-&gt;publish( $folder );&#13;
+&#13;
+$cli-&gt;notice( 'Creating children' );&#13;
+$commentOptions = new SQLIContentOptions( array(&#13;
+    'class_identifier'      =&gt; 'comment',&#13;
+    'language'              =&gt; 'eng-GB'&#13;
+) );&#13;
+$folderLocation = $folder-&gt;defaultLocation;&#13;
+$comment1 = SQLIContent::create( $commentOptions );&#13;
+$comment1-&gt;fields-&gt;subject = 'Test 1';&#13;
+$comment1-&gt;fields-&gt;author = 'Author 1';&#13;
+$comment1-&gt;fields-&gt;message = 'Test message 1';&#13;
+$comment1-&gt;addLocation( $folderLocation );&#13;
+$publisher-&gt;publish( $comment1 );&#13;
+&#13;
+$comment2 = SQLIContent::create( $commentOptions );&#13;
+$comment2-&gt;fields-&gt;subject = 'Test 2';&#13;
+$comment2-&gt;fields-&gt;author = 'Author 2';&#13;
+$comment2-&gt;fields-&gt;message = 'Test message 2';&#13;
+$comment2-&gt;addLocation( $folderLocation );&#13;
+$publisher-&gt;publish( $comment2 );&#13;
+&lt;/code&gt;&#13;
+&#13;
+The error message you mentionned comes from an SQLILocationException thrown from SQLILocation class when you're trying to create a location with an invalid node ID (node cannot be fetched).&#13;
+Can you please show your snippet ? Can you also give a stack trace (with XDebug for example) ?&#13;
+&#13;
+By the way, I commited 3 classes (&lt;b&gt;SQLIContentFieldsetHolder&lt;/b&gt;, &lt;b&gt;SQLIContent&lt;/b&gt; and &lt;b&gt;SQLIContentPublisher&lt;/b&gt;). Can you please try with the whole v1.0.1 ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations6</guid>
+      <pubDate>Sat, 04 Sep 2010 23:11:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations5</link>
+      <description>Thanks for really helping out and making this extension better. It really is a pleasure to work with.&#13;
+&#13;
+I did download the lateste php class version of the contentholder as well as the publisher.&#13;
+This did not resolv my problem.&#13;
+I get the following issue when i try to import the subnodes&#13;
+An error occurred during "myimporthandler" import process : Unable to find eZContentObjectTreeNode with NodeID # 2393&#13;
+&#13;
+It could be that i am doing something wrong, but i would really appreciate if you could include your process example where you add a node with its subnodes in a non-default language.&#13;
+&#13;
+I have to admit that i have not donwloaded version 1.01 but instead manually updated the classes you indicate in your reply to my post here:)</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations5</guid>
+      <pubDate>Sat, 04 Sep 2010 19:53:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations4</link>
+      <description>Fixed in trunk, rev 8 - http://bit.ly/8Yqg0G&#13;
+Changes happen in SQLIContentFieldsetHolder&#13;
+&#13;
+I also fixed another issue with SQLIContentPublisher (see rev 9) - http://bit.ly/97MeKx</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations4</guid>
+      <pubDate>Sat, 04 Sep 2010 18:31:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations3</link>
+      <description>Sure no problem :).&#13;
+I think I found the problem : in &lt;b&gt;SQLIContentFieldsetHolder&lt;/b&gt; on line 162, I make use of &lt;i&gt;$object-&gt;availableLanguages()&lt;/i&gt; and the problem with this method is that it returns langs in your SiteLanguageList (site.ini).&#13;
+I'm currently trying &lt;i&gt;$object-&gt;allLanguages()&lt;/i&gt; instead, but there is no in-memory cache for that, so it might make the content creation less efficient...&#13;
+&#13;
+About your other question, here's a tip : With &lt;b&gt;SQLIContent&lt;/b&gt;, you can use all eZContentObject &lt;i&gt;attributes&lt;/i&gt; as virtual properties (this is also the case for &lt;b&gt;SQLILocation&lt;/b&gt; and eZContentObjectTreeNode) :&#13;
+&#13;
+&lt;code&gt;&#13;
+// $myContent is an SQLIContent object&#13;
+// This modification should be done AFTER publication&#13;
+$myContent-&gt;published = $myCreationDateTimestamp;&#13;
+$myContent-&gt;modified = $myModificationDateTimestamp;&#13;
+$myContent-&gt;store( array( 'published', 'modified' ) );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations3</guid>
+      <pubDate>Sat, 04 Sep 2010 07:10:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations2</link>
+      <description>fantastic!&#13;
+Please let me know once you have this fixed.&#13;
+I will then fetch it from you trunk and try to merge it into my project.&#13;
+Also would you bee so keen as to briefly indicate where you made the changes?&#13;
+&#13;
+One more questions:&#13;
+Is there an easy way to set the date for the content when i import it?&#13;
+It currently only uses the day of the import, not the date which i would like to be able to set from the datasource xml.. &#13;
+&#13;
+Have a good day in France:)</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations2</guid>
+      <pubDate>Sat, 04 Sep 2010 06:49:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations</link>
+      <description>Hi Lars&#13;
+&#13;
+Thank you for reporting this issue.&#13;
+I'm enable reproduced it and am working on a fix :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations/re_issues_with_translatations</guid>
+      <pubDate>Sat, 04 Sep 2010 06:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>issues with translatations</title>
+      <link>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations</link>
+      <description>Hi.&#13;
+Your extension is really great, however i have experienced some issues when i do the following:&#13;
+&#13;
+Could you please verify that the following works:&#13;
+create a new node $mynode in a non-default language (based on site.ini)&#13;
+IN the same run please add some new subnodes in the same language as $mynode&#13;
+Are you able to do this sucessfully?&#13;
+$mynode should then have two children.&#13;
+&#13;
+&#13;
+Can you verify that this works?&#13;
+I get some errors saying that "attributes()" function is not correctly instantiated because the variable is not an object.&#13;
+&#13;
+This does work if it is trying to import in the default language.&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/issues/issues_with_translatations</guid>
+      <pubDate>Fri, 03 Sep 2010 20:28:40 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

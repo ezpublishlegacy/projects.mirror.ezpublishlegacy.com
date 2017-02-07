@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztestbrowser</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18547" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eztestbrowser rev. 132 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/132</link>
+      <description>Fix bug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/132</guid>
+      <pubDate>Thu, 12 Jan 2012 10:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 131 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/131</link>
+      <description>Made getFixturesHash protected</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/131</guid>
+      <pubDate>Thu, 07 Apr 2011 16:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 130 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/130</link>
+      <description>Added loding of attribute data_text1..5 and data_int1 values</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/130</guid>
+      <pubDate>Mon, 14 Feb 2011 16:03:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 129 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/129</link>
+      <description>Added again the main method to bypass ezptestrunner</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/129</guid>
+      <pubDate>Fri, 04 Feb 2011 11:01:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 128 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/128</link>
+      <description>Fixed build</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/128</guid>
+      <pubDate>Wed, 24 Nov 2010 09:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 127 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/127</link>
+      <description>Added bootstrap to use in runtest</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/127</guid>
+      <pubDate>Thu, 11 Nov 2010 16:26:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 126 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/126</link>
+      <description>Added initObjects method to add objects after loading fixtures</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/126</guid>
+      <pubDate>Fri, 29 Oct 2010 17:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 125 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/125</link>
+      <description>Added functionalities to add ezsimpleselection functionalities</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/125</guid>
+      <pubDate>Tue, 26 Oct 2010 15:35:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 124 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/124</link>
+      <description>Initialized array_object parameter into idObjectRepository</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/124</guid>
+      <pubDate>Tue, 26 Oct 2010 10:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 123 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/123</link>
+      <description>Added ezpage to the idattributes available.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/123</guid>
+      <pubDate>Mon, 25 Oct 2010 07:55:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 122 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/122</link>
+      <description>Reverted back attribute storing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/122</guid>
+      <pubDate>Fri, 22 Oct 2010 10:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 121 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/121</link>
+      <description>fixed ezselection saving</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/121</guid>
+      <pubDate>Fri, 22 Oct 2010 09:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 120 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/120</link>
+      <description>Changed constructor functionalities to idObjectRepository</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/120</guid>
+      <pubDate>Thu, 21 Oct 2010 08:05:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 119 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/119</link>
+      <description>Added some methods on idObjectRepository</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/119</guid>
+      <pubDate>Wed, 20 Oct 2010 07:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 118 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/118</link>
+      <description>Added getParentObject method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/118</guid>
+      <pubDate>Wed, 06 Oct 2010 11:55:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 117 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/117</link>
+      <description>Added symfony crawler on ez test browser</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/117</guid>
+      <pubDate>Tue, 17 Aug 2010 12:05:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 116 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/116</link>
+      <description>Added test for complex fixtures about ezselection datatype</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/116</guid>
+      <pubDate>Tue, 03 Aug 2010 11:15:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 115 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/115</link>
+      <description>Now is possible to add emnbedded related objects</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/115</guid>
+      <pubDate>Thu, 08 Jul 2010 10:40:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 114 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/114</link>
+      <description>Added loadData method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/114</guid>
+      <pubDate>Mon, 05 Jul 2010 14:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 113 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/113</link>
+      <description>Closing connection to database in teardown method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/113</guid>
+      <pubDate>Thu, 01 Jul 2010 17:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 112 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/112</link>
+      <description>added exception if sql files are not valid</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/112</guid>
+      <pubDate>Tue, 15 Jun 2010 15:40:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 111 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/111</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/111</guid>
+      <pubDate>Fri, 11 Jun 2010 15:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 110 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/110</link>
+      <description>Fix bug on buildObject method when default language is not eng-GB</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/110</guid>
+      <pubDate>Mon, 07 Jun 2010 17:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 109 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/109</link>
+      <description>added test for addNode</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/109</guid>
+      <pubDate>Mon, 07 Jun 2010 14:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 108 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/108</link>
+      <description>Now catch excetpion and debug itsvn st</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/108</guid>
+      <pubDate>Mon, 07 Jun 2010 10:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 107 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/107</link>
+      <description>added capability to specify class group</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/107</guid>
+      <pubDate>Thu, 03 Jun 2010 17:10:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 106 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/106</link>
+      <description>Fix bug on data_map setting</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/106</guid>
+      <pubDate>Thu, 03 Jun 2010 14:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 105 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/105</link>
+      <description>modified debug method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/105</guid>
+      <pubDate>Tue, 01 Jun 2010 15:05:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 104 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/104</link>
+      <description>removed comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/104</guid>
+      <pubDate>Thu, 27 May 2010 09:50:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 103 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/103</link>
+      <description>Add bootstrap and matchFieldName methods</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/103</guid>
+      <pubDate>Thu, 20 May 2010 16:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 102 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/102</link>
+      <description>added debug method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/102</guid>
+      <pubDate>Tue, 18 May 2010 17:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 101 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/101</link>
+      <description>Add test for eZTestBrowser</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/101</guid>
+      <pubDate>Tue, 18 May 2010 08:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 100 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/100</link>
+      <description>modification of setuop function to fix a problem when not loading the database</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/100</guid>
+      <pubDate>Tue, 18 May 2010 08:20:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 99 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/99</link>
+      <description>Fix bug on fixture multiple loading</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/99</guid>
+      <pubDate>Mon, 03 May 2010 14:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 98 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/98</link>
+      <description>See #4564</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/98</guid>
+      <pubDate>Mon, 03 May 2010 14:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 97 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/97</link>
+      <description>Added method addObject() and removeObject()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/97</guid>
+      <pubDate>Mon, 26 Apr 2010 14:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 96 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/96</link>
+      <description>Fix bug on variable name</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/96</guid>
+      <pubDate>Mon, 26 Apr 2010 12:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 95 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/95</link>
+      <description>Move database creation in method insertSql()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/95</guid>
+      <pubDate>Mon, 26 Apr 2010 12:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 94 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/94</link>
+      <description>Fixed #4520</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/94</guid>
+      <pubDate>Fri, 23 Apr 2010 11:16:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 93 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/93</link>
+      <description>added possibility to retrieve objects using idObjectRepository::retrieveByClassIdentifier</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/93</guid>
+      <pubDate>Wed, 21 Apr 2010 15:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 92 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/92</link>
+      <description>Added the possibility to pass the argument --site-access=... to runtest</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/92</guid>
+      <pubDate>Wed, 14 Apr 2010 15:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 91 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/91</link>
+      <description>Creation of stable eztestbrowser extension for eZ Publish 4.1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/91</guid>
+      <pubDate>Wed, 14 Apr 2010 11:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 89 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/89</link>
+      <description>Removing branch ezp42
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/89</guid>
+      <pubDate>Wed, 14 Apr 2010 11:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 90 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/90</link>
+      <description>Creation of stable tag for eztestbrowser extension for eZ Publish 4.2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/90</guid>
+      <pubDate>Wed, 14 Apr 2010 11:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 88 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/88</link>
+      <description>removing useless eZContentClassAttribute override</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/88</guid>
+      <pubDate>Wed, 14 Apr 2010 09:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 87 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/87</link>
+      <description>Merged branch ezp42 into trunk</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/87</guid>
+      <pubDate>Wed, 14 Apr 2010 09:35:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 86 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/86</link>
+      <description>adding classes/vendor/yaml folder as external repository</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/86</guid>
+      <pubDate>Wed, 14 Apr 2010 09:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 85 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/85</link>
+      <description>Merge -r73:76 trunk in branch ezp42</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/85</guid>
+      <pubDate>Wed, 14 Apr 2010 09:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 84 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/84</link>
+      <description>fixed tests and merged trunk into ezp42 branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/84</guid>
+      <pubDate>Tue, 13 Apr 2010 16:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztestbrowser rev. 83 by Filippo De Santis</title>
+      <link>http://projects.ez.no/eztestbrowser/subversion/83</link>
+      <description>adding benchmarks</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztestbrowser/subversion/83</guid>
+      <pubDate>Wed, 07 Apr 2010 17:30:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

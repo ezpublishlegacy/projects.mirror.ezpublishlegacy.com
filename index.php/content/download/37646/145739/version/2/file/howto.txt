@@ -1,0 +1,83 @@
+OE SETTING (add "pop" in the view list)
+
+extensions/ezdhtml/settings/site.ini.append :
+
+
+[EmbedViewModeSettings]
+AvailableViewModes[]=pop
+
+======================================================
+
+SITE ACCESS SETTING (declare which template to use in a view pop case)
+
+settings/siteaccess/yoursiteaccess/override.ini.append.php
+
+[image_pop]
+Source=content/view/pop.tpl
+MatchFile=pop/image.tpl
+Subdir=templates
+Match[class_identifier]=image
+
+======================================================
+
+CSS (show/hide the "big" image)
+
+/* POP */
+
+div.pop
+{
+	position:relative;
+}
+
+
+a div.big
+{
+	display: none;
+}
+
+a:hover div.big
+{
+	display: block;
+	position:absolute;
+	top:-200px;
+	left:116px;
+}
+
+div.big
+{
+	border:1px solid #CCCCCC;
+	background-color:#FFFFFF;
+	padding:5px 5px 3px 5px;
+}
+
+div.small
+{
+	border-right:1px solid;
+	padding-right:15px;
+}
+
+======================================================
+
+DESIGN
+
+
+yoursitedesign/override/templates/pop : image.tpl
+
+
+<div class="content-view-pop">
+<div class="class-image">
+
+<div class="attribute-image">
+<p>
+	<div class="pop">
+	<a href="#">
+		<div class="big">{attribute_view_gui image_class=large attribute=$object.data_map.image}</div>
+		<div class="small">{attribute_view_gui image_class=small attribute=$object.data_map.image}</div>
+	</a>
+	</div>
+</p>
+</div>
+
+</div>
+</div>
+

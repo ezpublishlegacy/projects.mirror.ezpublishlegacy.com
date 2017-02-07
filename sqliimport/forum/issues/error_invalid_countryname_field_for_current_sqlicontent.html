@@ -1,0 +1,1105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:09:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Error: invalid &quot;countryname&quot; field for current SQLIContent.     /         Issues     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/sqliimport/forum/general', 'Issues', '/sqliimport/forum/issues'];
+menu[4] = ['Leaders', '/sqliimport/team/leaders', 'Members', '/sqliimport/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../sqliimport.html" onmouseover="switchSubMenu( this );">SQLi Import &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+    
+    <li ><a href="../general.html">General</a></li>
+
+                        
+            
+    <li class="last current"><a href="../issues.html">Issues</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../sqliimport.html">sqliimport</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../issues.html">issues</a>
+        
+                        /
+                                        error: invalid &quot;countryname...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Error: invalid &quot;countryname&quot; field for current SQLIContent.</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg28561">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/fraser_hore.html">Fraser Hore</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/fraser_hore/25683-5-eng-GB/fraser_hore_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 December 2003</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 26 September 2010 4:57:33 pm</p>
+
+        <div class="attribute-long">I've created a custom class to hold ISO country names and codes and I'm trying to import an xml file with the data.  I've tried a lot of different things to debug but I keep getting an error: <br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">An error occurred during &quot;countryimporthandler&quot; import process : invalid &quot;countryname&quot; field for current SQLIContent.</span>
+
+<span class="line"></span></pre><br />
+<br />
+Country name is just a standard ez text line and I've checked and rechecked to ensure that I haven't misspelled any identifier names.  I even tried using the article class instead and putting country name in the title but that didn't work either.  Also from the print line I can see that the xml is being parsed correctly.<br />
+<br />
+I'd be really grateful for any help debugging.  When this input handler is working I think it might be a good example because it imports the ISO country code list which is handy if you don't want to use the country datatype and would rather use objectrelation.<br />
+<br />
+Thanks!<br />
+<br />
+Fraser<br />
+<br />
+The XML File (sample)<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;ISO3166List xml:lang=&quot;en&quot;&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;ISO3166Entry&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;CountryName&gt;AFGHANISTAN&lt;/CountryName&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ISO3166Alpha2Code&gt;AF&lt;/ISO3166Alpha2Code&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;/ISO3166Entry&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;ISO3166Entry&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;CountryName&gt;ÅLAND ISLANDS&lt;/CountryName&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ISO3166Alpha2Code&gt;AX&lt;/ISO3166Alpha2Code&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;/ISO3166Entry&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;ISO3166Entry&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;CountryName&gt;ALBANIA&lt;/CountryName&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ISO3166Alpha2Code&gt;AL&lt;/ISO3166Alpha2Code&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&lt;/ISO3166Entry&gt;</span>
+
+<span class="line">&lt;/ISO3166List&gt;</span>
+
+<span class="line"></span></pre><br />
+<br />
+The INI Override<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[ImportSettings]</span>
+
+<span class="line">AvailableSourceHandlers[]=countryimporthandler</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">[countryimporthandler-HandlerSettings]</span>
+
+<span class="line">Enabled=true</span>
+
+<span class="line">Name=Country XML Import Handler</span>
+
+<span class="line">ClassName=SQLICountryImportHandler</span>
+
+<span class="line">Debug=enabled</span>
+
+<span class="line">DefaultParentNodeID=469</span>
+
+<span class="line">StreamTimeout=</span>
+
+<span class="line">xmlFile=C:/&lt;ezRoot&gt;/extension/issat/stubs/iso3166list.xml</span>
+
+<span class="line"></span></pre><br />
+<br />
+The Import Handler<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;?php</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* File containing demo import handler SQLIRSSImportHandler</span>
+
+<span class="line">&nbsp;* @copyright Copyright (C) 2010 - SQLi Agency. All rights reserved</span>
+
+<span class="line">&nbsp;* @licence <a href="http://www.gnu.org/licenses/gpl-2.0.txt" title="http://www.gnu.org/licenses/gpl-2.0.txt">http://www.gnu.org/licenses/gpl-2.0.txt</a> GNU GPLv2</span>
+
+<span class="line">&nbsp;* @author Jerome Vieilledent</span>
+
+<span class="line">&nbsp;* @version 1.1.0</span>
+
+<span class="line">&nbsp;* @package sqliimport</span>
+
+<span class="line">&nbsp;* @subpackage sourcehandlers</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">class SQLICountryImportHandler extends SQLIImportAbstractHandler implements ISQLIImportHandler</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;protected $rowIndex = 0;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;protected $rowCount;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;protected $currentGUID;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* Constructor</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function __construct( SQLIImportHandlerOptions $options = null )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parent::__construct( $options );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;remoteIDPrefix = $this-&gt;getHandlerIdentifier().'-';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;currentRemoteIDPrefix = $this-&gt;remoteIDPrefix;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::initialize()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function initialize()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$xmlFile = $this-&gt;handlerConfArray['xmlFile'];</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$xmlOptions = new SQLIXMLOptions( array(</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'xml_path'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt; $xmlFile,</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'xml_parser'&nbsp;&nbsp;&nbsp;=&gt; 'simplexml'</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$xmlParser = new SQLIXMLParser( $xmlOptions );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;dataSource = $xmlParser-&gt;parse();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getProcessLength()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function getProcessLength()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if( !isset( $this-&gt;rowCount ) )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;rowCount = count( $this-&gt;dataSource-&gt;ISO3166Entry );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $this-&gt;rowCount;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getNextRow()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function getNextRow()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if( $this-&gt;rowIndex &lt; $this-&gt;rowCount )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$row = $this-&gt;dataSource-&gt;ISO3166Entry[$this-&gt;rowIndex];</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;rowIndex++;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$row = false; // We must return false if we already processed all rows</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $row;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::process()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function process( $row )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// $row is a SimpleXMLElement object</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$this-&gt;currentGUID = $row-&gt;ISO3166Alpha2Code;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$contentOptions = new SQLIContentOptions( array(</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'class_identifier'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt; 'isocountryentry',</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'remote_id'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt; (string)$row-&gt;ISO3166Alpha2Code</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print (string)$row-&gt;CountryName;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$content = SQLIContent::create( $contentOptions );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$content-&gt;fields-&gt;countryname = (string)$row-&gt;CountryName;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$content-&gt;fields-&gt;alpha2code = (string)$row-&gt;ISO3166Alpha2Code;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Now publish content</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$content-&gt;addLocation( SQLILocation::fromNodeID( $this-&gt;handlerConfArray['DefaultParentNodeID'] ) );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$publisher = SQLIContentPublisher::getInstance();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$publisher-&gt;publish( $content );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Free some memory. Internal methods eZContentObject::clearCache() and eZContentObject::resetDataMap() will be called</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// @see SQLIContent::__destruct()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unset( $content );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::cleanup()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function cleanup()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Nothing to clean up</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getHandlerName()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function getHandlerName()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 'Country Import Handler';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getHandlerIdentifier()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function getHandlerIdentifier()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 'countryimporthandler';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;/**</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* (non-PHPdoc)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;* @see extension/sqliimport/classes/sourcehandlers/ISQLIImportHandler::getProgressionNotes()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;*/</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;public function getProgressionNotes()</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 'Currently importing : '.$this-&gt;currentGUID;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg28563">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 26 September 2010 9:19:48 pm</p>
+
+        <div class="attribute-long">Hi Fraser<br />
+<br />
+This error actually comes from an exception thrown when you want to access to an invalid content field (not present in the content object data map).<br />
+I can see 2 causes for your problem :<br />
+  - You misspelled the attribute identifier (<i>countryname</i>), but you tell me that you double-checked this<br />
+  - You might have de-synchronized objects from their content classes (see issue #14307 - <a href="http://issues.ez.no/IssueView.php?Id=14307)" title="http://issues.ez.no/IssueView.php?Id=14307)">http://issues.ez.no/IssueView.php?Id=14307)</a>.<br />
+<br />
+If your are sure that the attribute identifier is correct, try to check for missing object attributes as described in the issue above.
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg28606">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/fraser_hore.html">Fraser Hore</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/fraser_hore/25683-5-eng-GB/fraser_hore_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 December 2003</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 27 September 2010 11:13:58 pm</p>
+
+        <div class="attribute-long">Hi Jerome,<br />
+<br />
+Thanks for the suggestions. Unfortunately I'm still having problems.  I installed ezscriptmonitor, edited the class and ran ezscriptmonitor to synchronize the attributes.  Now I'm getting an error:  Call to member function attribute() on a non-object.  I get this error or the invalid field error every time, even for the example rssimporthandler.  Yesterday I did get the example working, but then it stopped for some reason.  I tried synching the attributes on the article class and still no luck.  When it did work for the example it was awesome!  I'd really love to get this working because I need a quick way to upload a lot of content objects.  Any other suggestions?<br />
+<br />
+Cheers,<br />
+<br />
+Fraser
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg28607">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 27 September 2010 11:32:02 pm</p>
+
+        <div class="attribute-long">Hmm, this is really strange... What do your logs say (error.log, sqliimport-error.log) ?<br />
+Did you try the script attached to issue I indicated ?
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg28618">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/fraser_hore.html">Fraser Hore</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/fraser_hore/25683-5-eng-GB/fraser_hore_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 December 2003</p>
+        <p class="posts">Posts: 13</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 28 September 2010 10:26:17 am</p>
+
+        <div class="attribute-long">The SQLIImport log just has the same message, that the field is invalid.  The error.log file just has a bunch of template override errors (can't find the template file) but I don't think that's related.<br />
+<br />
+I didn't try the script indicated in the post as I had a bit of trouble getting it to run (autoload error).  But I did install the ezscriptmonitor extension mentioned as a fix for the same issue.  It successfully ran the class synchronization on all the classes I've tried to import too but it didn't help.  I'll try to install a clean version of the extension and try the example again.  One thing I have discovered is that the non object error seems to go away after clearing all the caches.<br />
+<br />
+Thanks,<br />
+<br />
+Fraser
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg38616">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/solene_guillot.html">Solène Guillot</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/solene_guillot/16903-9-eng-GB/solene_guillot_small.jpg" width="100" height="65"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 January 2007</p>
+        <p class="posts">Posts: 8</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 10 November 2010 11:07:06 am</p>
+
+        <div class="attribute-long">Hello<br />
+I have the same message and I found that the problem is... the accents ! When I remove them the script run without error...<br />
+I tried utf8_encode, html_entities, htmlspecialchars, etc... and nothing works !!!<br />
+Any idea ?<br />
+Tahnks
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg38977">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 29 November 2010 5:07:45 pm</p>
+
+        <div class="attribute-long">Hi Solène<br />
+<br />
+Sorry for the delay of my response...<br />
+Can you please give us a code snippet causing the error (XML + PHP handler) ? <br />
+Is your XML UTF8 encoded ?<br />
+<br />
+Thanks
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg44935">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jerome_vieilledent2.html">Jérôme Vieilledent</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/ggsysinfo/team/members/jerome_vieilledent/23863-17-eng-GB/jerome_vieilledent_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 98</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 17 January 2012 4:01:24 pm</p>
+
+        <div class="attribute-long">Hello Fraser<br />
+<br />
+Do you have database Master/slave configured in eZ Publish ? If so, this certainly comes from here... I just resolved a similar case by doing so.<br />
+<br />
+Cheers !
+</div>
+                    <div class="attribute-signature">
+            <p>My Blog (french) : <a href="http://www.lolart.net/" title="http://www.lolart.net">http://www.lolart.net</a><br />
+---<br />
+SQLi Import : <a href="../../../sqliimport.html" title="http://projects.ez.no/sqliimport">http://projects.ez.no/sqliimport</a><br />
+SQLi Geoloc : <a href="../../../sqligeoloc.html" title="http://projects.ez.no/sqligeoloc">http://projects.ez.no/sqligeoloc</a><br />
+Noven INI Update : <a href="../../../noveniniupdate.html" title="http://projects.ez.no/noveniniupdate">http://projects.ez.no/noveniniupdate</a><br />
+jvMonitoring : <a href="../../../jvmonitoring.html" title="http://projects.ez.no/jvmonitoring">http://projects.ez.no/jvmonitoring</a><br />
+jvAmazonAdvertising : <a href="../../../jvamazonadvertising.html" title="http://projects.ez.no/jvamazonadvertising">http://projects.ez.no/jvamazonadvertising</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/sqliimport/forum/issues/error_invalid_countryname_field_for_current_sqlicontent by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:09:26 GMT -->
+</html>

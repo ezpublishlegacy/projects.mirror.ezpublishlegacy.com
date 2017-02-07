@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / dbi_readverification / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:58:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:58:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1763" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>dbi_readverification rev. 4 by Brendan Pike</title>
+      <link>http://projects.ez.no/dbi_readverification/subversion/4</link>
+      <description>fixed caching issue</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dbi_readverification/subversion/4</guid>
+      <pubDate>Thu, 08 Oct 2009 02:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>dbi_readverification rev. 3 by Brendan Pike</title>
+      <link>http://projects.ez.no/dbi_readverification/subversion/3</link>
+      <description>Template now checks roles before showing the readverification link</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dbi_readverification/subversion/3</guid>
+      <pubDate>Tue, 24 Jun 2008 05:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>dbi_readverification rev. 2 by Brendan Pike</title>
+      <link>http://projects.ez.no/dbi_readverification/subversion/2</link>
+      <description>Added user sensitive cache-block to Mark as read button</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dbi_readverification/subversion/2</guid>
+      <pubDate>Thu, 06 Mar 2008 02:25:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>dbi_readverification rev. 1 by Brendan Pike</title>
+      <link>http://projects.ez.no/dbi_readverification/subversion/1</link>
+      <description>initial import of dbi_readverification v1.0.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dbi_readverification/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

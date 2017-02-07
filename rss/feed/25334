@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / arh_jdebug / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25334" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>arh_jdebug 0.3</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_3</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Add features : &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; - Call js and css files using extension ezjscore (a template operator ezscript_require and ezcss_require)&lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_3</guid>
+      <pubDate>Mon, 23 Aug 2010 02:08:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug 0.2</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_2</link>
+      <description>&lt;p&gt;Add features :&lt;/p&gt;&lt;p&gt;- The default location is manageable in the configuration file.&lt;/p&gt;&lt;p&gt;- The state of the debug bar (closed / opened) is stored in preferences of the current user &lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_2</guid>
+      <pubDate>Wed, 12 May 2010 00:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>arh_jdebug 0.1</title>
+      <link>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_1</link>
+      <description>&lt;p&gt;Version 0.1 of the extension is a prototype to see exactly what it will look like, now we must define the requirements and functionalities that can be included in the extension&lt;/p&gt;</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/downloads/arh_jdebug_0_1</guid>
+      <pubDate>Wed, 28 Apr 2010 23:36:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

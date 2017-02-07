@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / doc / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:32:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:32:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17665" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>New Community Documentation initiative</title>
+      <link>http://projects.ez.no/doc/news/new_community_documentation_initiative</link>
+      <description>&lt;p&gt;
+A new Community Documentation initiative has been started, the idea is to&lt;br /&gt;
+better coordinate documentation efforts in the community for eZ Publish on&lt;br /&gt;
+eZPedia.org, API, ez.no/doc, articles and future FAQ / Getting started section&lt;br /&gt;on upcoming community portal.&lt;/p&gt;&lt;p&gt;
+Based on feedback we have received from the eZ Community we see a &lt;br /&gt;strong demand for a documentation for new users. So this is your chance to really contribute and make a difference, no matter what your knowledge level is.&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/doc/news/new_community_documentation_initiative</guid>
+      <pubDate>Thu, 09 Jul 2009 10:43:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

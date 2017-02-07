@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcontentstaging / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45086" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields9</link>
+      <description>Hello&#13;
+&#13;
+How did you finally settle this problem&#13;
+&#13;
+eZDebug :: writeWarning ("Node {$ item [ 'node_id']} not found for staging export of ezpage an attribute, block&#13;
+&#13;
+I had the same concern, the following message:&#13;
+&#13;
+Response received from server is not valid json. Decoding error: 4&#13;
+&#13;
+I thank you in advance.&#13;
+&#13;
+cordially</description>
+      <author>community@ez.no (BOUDAR EL MADANI)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields9</guid>
+      <pubDate>Sun, 22 May 2016 10:28:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is eZ Content Staging ready for live sites?</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites/re_is_ez_content_staging_ready_for_live_sites2</link>
+      <description>Great, thank you!</description>
+      <author>community@ez.no (Lara Nordahl)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites/re_is_ez_content_staging_ready_for_live_sites2</guid>
+      <pubDate>Tue, 11 Jun 2013 23:16:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is eZ Content Staging ready for live sites?</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites/re_is_ez_content_staging_ready_for_live_sites</link>
+      <description>I think it is.&#13;
+&#13;
+Some paying customers of eZ do use it (the enterprise version).&#13;
+&#13;
+In fact a few bugs have been found and fixed thanks to their usage.&#13;
+&#13;
+The shortcoming being that I have no more personal time to dedicate to the open-source version, the two diverged a bit; I'd suggest to go for enterprise.&#13;
+&#13;
+Pull reqs are still welcome.</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites/re_is_ez_content_staging_ready_for_live_sites</guid>
+      <pubDate>Tue, 11 Jun 2013 23:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is eZ Content Staging ready for live sites?</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites</link>
+      <description>Hi,&#13;
+I was wondering if ezcontent staging is in use on production sites or how far is it from being ready for such? &#13;
+Thanks,&#13;
+Lara</description>
+      <author>community@ez.no (Lara Nordahl)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/is_ez_content_staging_ready_for_live_sites</guid>
+      <pubDate>Tue, 11 Jun 2013 17:38:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcontentstaging </title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport3</link>
+      <description>Yes, you're right, the 3rd example is actually working.&#13;
+I made a mistake the first time I tried it, so the error was due to something else.&#13;
+Thanks for the replies!</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport3</guid>
+      <pubDate>Fri, 05 Apr 2013 12:18:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcontentstaging </title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport2</link>
+      <description>ps: I guess the code of the extension thinks that for every version of an object, only one language can be added - this is how it happens if you work via the GUI anyway.&#13;
+&#13;
+So your 2nd example might be doomed to fail, but the 3rd one should wrk...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport2</guid>
+      <pubDate>Thu, 04 Apr 2013 18:07:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcontentstaging </title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport</link>
+      <description>Nopes, never tried using the two extensions together.&#13;
+&#13;
+I will try do ahve a look when I have time - but I can not guarantee anything... ;-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport/re_ezcontentstaging_sqliimport</guid>
+      <pubDate>Thu, 04 Apr 2013 18:04:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcontentstaging </title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+Have you ever tried ezcontentstaging with content imported with the sqliimport extension?&#13;
+I'm using sqliimport to import some contents, so the classes "SQLIContent" and "SQLIContentPublisher" are used to publish the contents.&#13;
+It works fine if I use the default language, but if I add another language the content cannot be sync.&#13;
+So this is working:&#13;
+&lt;code&gt;&#13;
+$contentOptions = new SQLIContentOptions( array(&#13;
+	'class_identifier'      =&gt; self::CLASSIDENTIFIER,&#13;
+	'remote_id'             =&gt; $contentRemoteID&#13;
+) );&#13;
+&#13;
+$content = SQLIContent::create( $contentOptions );&#13;
+&#13;
+$content-&gt;fields-&gt;title = 'TEST';&#13;
+$content-&gt;fields-&gt;description = 'TEST';&#13;
+&#13;
+$content-&gt;addLocation( SQLILocation::fromNodeID( $nodeId ) );&#13;
+$publisher = SQLIContentPublisher::getInstance();&#13;
+$publisher-&gt;publish( $content );&#13;
+&lt;/code&gt;&#13;
+&#13;
+And this fails:&#13;
+&lt;code&gt;&#13;
+$contentOptions = new SQLIContentOptions( array(&#13;
+	'class_identifier'      =&gt; self::CLASSIDENTIFIER,&#13;
+	'remote_id'             =&gt; $contentRemoteID&#13;
+) );&#13;
+&#13;
+$content = SQLIContent::create( $contentOptions );&#13;
+&#13;
+$content-&gt;fields-&gt;title = 'TEST';&#13;
+$content-&gt;fields-&gt;description = 'TEST';&#13;
+&#13;
+$content-&gt;addTranslation( 'eng-GB' );&#13;
+$content-&gt;fields['eng-GB']-&gt;id = 'TEST';&#13;
+$content-&gt;fields['eng-GB']-&gt;ref = 'TEST';&#13;
+&#13;
+$content-&gt;addLocation( SQLILocation::fromNodeID( $nodeId ) );&#13;
+$publisher = SQLIContentPublisher::getInstance();&#13;
+$publisher-&gt;publish( $content );&#13;
+&lt;/code&gt;&#13;
+&#13;
+I also try this, but it fails too:&#13;
+&lt;code&gt;&#13;
+$contentOptions = new SQLIContentOptions( array(&#13;
+	'class_identifier'      =&gt; self::CLASSIDENTIFIER,&#13;
+	'remote_id'             =&gt; $contentRemoteID&#13;
+) );&#13;
+&#13;
+$content = SQLIContent::create( $contentOptions );&#13;
+&#13;
+$content-&gt;fields-&gt;title = 'TEST';&#13;
+$content-&gt;fields-&gt;description = 'TEST';&#13;
+&#13;
+$content-&gt;addLocation( SQLILocation::fromNodeID( $nodeId ) );&#13;
+$publisher = SQLIContentPublisher::getInstance();&#13;
+$publisher-&gt;publish( $content );&#13;
+&#13;
+$content-&gt;addTranslation( 'eng-GB' );&#13;
+$content-&gt;fields['eng-GB']-&gt;id = 'TEST';&#13;
+$content-&gt;fields['eng-GB']-&gt;ref = 'TEST';&#13;
+&#13;
+$publisher-&gt;publish( $content );&#13;
+&lt;/code&gt;&#13;
+&#13;
+I hope you have an idea where it could come from.&#13;
+Thanks.&#13;
+&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezcontentstaging_sqliimport</guid>
+      <pubDate>Thu, 04 Apr 2013 16:08:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields8</link>
+      <description>Second: https://jira.ez.no/browse/EZP-20506. Pull-request will wait a bit longer, though</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields8</guid>
+      <pubDate>Tue, 26 Feb 2013 10:08:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields7</link>
+      <description>First: https://jira.ez.no/browse/EZP-20505</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields7</guid>
+      <pubDate>Tue, 26 Feb 2013 10:06:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields6</link>
+      <description>Ok, line 1128 definitely has a (small) bug.&#13;
+&#13;
+The correct code for building the error msg is:&#13;
+&lt;code&gt;"Node " . $item-&gt;attribute( 'node_id' ) . " not found for staging export of an ezpage attribute, block "&lt;/code&gt;&#13;
+&#13;
+This error msg is only generated when an ezflow block points to a node which does not exist anymore. I'm not 100% sure whether this condition is normal (eg. it could happen if you add a node to a manual block, then delete the node), or if ezflow should be smart enough to never have in block definitions the ids of nodes which do not exist anymore...&#13;
+&#13;
+In any case, what should happen is that the block gets ync'ed, but without the now-inexisting node in it. It is imho the more rational choice.&#13;
+&#13;
+As for difference checking: you're right. When testing the layout attribute server-side, the ridGenerator is not injected, and a fatal error will probably ensue.&#13;
+&#13;
+Guess I'll head over to Jira and open 2 bug reports...&#13;
+&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields6</guid>
+      <pubDate>Tue, 26 Feb 2013 09:57:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields5</link>
+      <description>Hi,&#13;
+&#13;
+I have this line 1128:&#13;
+&lt;code&gt;&#13;
+eZDebug::writeWarning( "Node {$item['node_id']} not found for staging export of an ezpage attribute, block " . $block-&gt;attribute( 'id' ), __METHOD__ );&#13;
+&lt;/code&gt;&#13;
+I get this error on the source server when I try to sync an event with an ezflow layout field (but I don't always get the error...).&#13;
+When I try to check the differences between the node on the source and on the target server (from the source server), I have:&#13;
+&lt;code&gt;&#13;
+Error while checking differences&#13;
+Response received from server is not valid json. Decoding error: 4&#13;
+&lt;/code&gt;&#13;
+This is due to the "$ridGenerator" variable that is null on the target server.&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields5</guid>
+      <pubDate>Tue, 26 Feb 2013 09:18:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields4</link>
+      <description>It seems that when objects are sent, the ridgenerator is passed to the field by eZRestApiEmbeddedClientStagingTransport::encodeObject(), and as such should not be null.&#13;
+&#13;
+Do you get that error souce-server side or target-server side?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields4</guid>
+      <pubDate>Mon, 25 Feb 2013 11:24:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields3</link>
+      <description>ps: what do you have exactly at line 1128?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields3</guid>
+      <pubDate>Mon, 25 Feb 2013 11:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields2</link>
+      <description>The ridGenerator is supposed to be an object which takes care of generating remote-remoteId knowing local-id+local-remoteid.&#13;
+&#13;
+This is needed because we have two possible configurations:&#13;
+- same remote-id on both sides&#13;
+- remote-ids are different (useful for syncing content to same server or complex cases)&#13;
+&#13;
+You are right in that it seems that the code currently does not pass a valid ridGenerator to that field constructor.&#13;
+Will check out if it ever worked in the past...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields2</guid>
+      <pubDate>Mon, 25 Feb 2013 11:19:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields</link>
+      <description>And when I try to sync a node with a layout field, I sometimes get this error:&#13;
+&lt;code&gt;&#13;
+Fatal error: Cannot use object of type eZPageBlockItem as array in extension/ezcontentstaging/classes/models/field.php on line 1128&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields/re_ezflow_fields</guid>
+      <pubDate>Thu, 21 Feb 2013 14:59:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZFlow fields</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields</link>
+      <description>Hi,&#13;
+I have some issues with ezflow layout fields.&#13;
+In the model "field.php":&#13;
+&lt;code&gt;&#13;
+// 2.2.1 if block type is manual, we need to transport over its items&#13;
+if ( $ini-&gt;hasVariable( $blockType, 'ManualAddingOfItems' ) & $ini->variable( $blockType, 'ManualAddingOfItems' ) == 'enabled' )
+{
+	/// q: shall we also encode archived nodes?
+	$blockItems[$block->attribute( 'id' )] = array(
+		'valid' => self::transformBlockItemsToRemote( $block->attribute( 'valid' ), $ridGenerator ),
+		'waiting' => self::transformBlockItemsToRemote( $block->attribute( 'waiting' ), $ridGenerator )
+	);&#13;
+	$manual = true;&#13;
+}&#13;
+&lt;/code&gt;&#13;
+What is the purpose of $ridGenerator?&#13;
+Because, in my case, its value is null.&#13;
+And in "transformBlockItemsToRemote", the "buildRemoteId" function of this variable is used. But the script is crashing because $ridGenerator is null.&#13;
+Thanks,&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/ezflow_fields</guid>
+      <pubDate>Thu, 21 Feb 2013 14:33:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Targets with same node</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node4</link>
+      <description>It works fine now.&#13;
+Thanks a lot !&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node4</guid>
+      <pubDate>Tue, 12 Feb 2013 10:29:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Targets with same node</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node3</link>
+      <description>I checked on my machine, and the interface check works.&#13;
+&#13;
+Then I read better the online docs for php, and found out that the support for doing this was added in php 5.3.7.&#13;
+&#13;
+So you should replace&#13;
+&lt;code&gt;&#13;
+!is_subclass_of( $filterClass, 'eZContentStagingEventCreationFilter' )&#13;
+&lt;/code&gt;&#13;
+with&#13;
+&lt;code&gt;&#13;
+!in_array( 'eZContentStagingEventCreationFilter', class_implements( $filterClass ) )&#13;
+&lt;/code&gt;&#13;
+&#13;
+I will create a bug in the public tracker and file a pull request for this</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node3</guid>
+      <pubDate>Tue, 12 Feb 2013 10:08:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Targets with same node</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node2</link>
+      <description>Hi Gaetano,&#13;
+Thanks for the answer.&#13;
+I tried to add a new filter but I have an issue.&#13;
+I created the class "eZContentStagingEventCreationCPFilter" in the "classes" folder of the ezcontentstaging extension.&#13;
+I just copied the "eZContentStagingEventCreationLoggingFilter" to create my class.&#13;
+I added then the param "EventCreationFilters[]=eZContentStagingEventCreationCPFilter" at the "low" target.&#13;
+Than I clear the cache, regenerate the autoloads, ...&#13;
+But when a staging event is created, I have the following error:&#13;
+&lt;code&gt;&#13;
+[ Feb 11 2013 17:22:58 ] [10.33.76.79] eZContentStagingEvent::addEvent:&#13;
+Class eZContentStagingEventCreationCPFilter not found or not exposing correct interface, can not use as event creation filter&#13;
+&lt;/code&gt;&#13;
+I checked the code and it is actually the "!is_subclass_of( $filterClass, 'eZContentStagingEventCreationFilter' )" test that fails, and I don't understand why...&#13;
+Have you an idea where it could come from?&#13;
+Thanks,&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node2</guid>
+      <pubDate>Mon, 11 Feb 2013 16:47:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Targets with same node</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node</link>
+      <description>Hello.&#13;
+&#13;
+I do not think that creating 2 overlapping feed definitions from the same target to the same server is going to work. At least for all cases.&#13;
+&#13;
+Imagine that the node in question is edited: an event will be added to both feeds, and the change will be synchronized twice. Depening on exact scheduling, maybe feed 1 will sync the change first, maybe feed 2 will.&#13;
+As long as you only publish new versions of that node, nothing should break, but if you try f.e. to move it or delete it, then only one of the two events will work, the other one will stay pending forever.&#13;
+&#13;
+The first workaround which comes to my mind is: use the "filter" feature (EventCreationFilters[] in contentstagingsource.ini) so that any event which relates only to the node in question is not added to the queue of the "slow" feed</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node/re_targets_with_same_node</guid>
+      <pubDate>Mon, 11 Feb 2013 11:25:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Targets with same node</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node</link>
+      <description>Hi,&#13;
+&#13;
+I have a sync between 2 ezpublish instances for all the contents:&#13;
+&lt;code&gt;&#13;
+[Target_AllContents]&#13;
+Subtrees[]=2&#13;
+Subtrees[]=43&#13;
+Subtrees[]=5&#13;
+RemoteSubtrees[]=2&#13;
+RemoteSubtrees[]=43&#13;
+RemoteSubtrees[]=5&#13;
+&lt;/code&gt;&#13;
+A cronjob executed every 5 minutes is used to sync this target.&#13;
+&#13;
+Some contents published in a specific node need to be sync more quickly.&#13;
+So I thought to add a new target with this specific node and to sync this one with another cronjob exectuted every minutes:&#13;
+&lt;code&gt;&#13;
+[Target_SpecificContent]&#13;
+Subtrees[]=SpecificNodeID&#13;
+RemoteSubtrees[]=SpecificNodeID&#13;
+&lt;/code&gt;&#13;
+My question is ; should I have to exclude this specific node from the target "AllContents"?&#13;
+Or is it OK to have the same node included in both targets?&#13;
+Or maybe there's even an other way to do what I need?&#13;
+Thanks,&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/targets_with_same_node</guid>
+      <pubDate>Mon, 11 Feb 2013 09:28:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Image issue</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue4</link>
+      <description>PS: after a deeper analysis, it seems that the enterprise version of the extension has been stripped out of the possibility to log the full http communication.&#13;
+This means that currently the only way to debug the process is to use an http sniffer.&#13;
+Adding to wsproviders.ini the parameter I mentioned is going to be useless</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue4</guid>
+      <pubDate>Fri, 18 Jan 2013 09:49:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Image issue</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue3</link>
+      <description>You are right - the extension in fact includes a stripped-down version of the ggwebservices extension to implement the transport layer - but omits to document the ini file....&#13;
+&#13;
+Here's the original with inline docs: https://github.com/gggeek/ggwebservices/blob/master/settings/wsproviders.ini&#13;
+&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue3</guid>
+      <pubDate>Wed, 09 Jan 2013 18:52:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Image issue</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue2</link>
+      <description>How should I set up the wsprodivers.ini file to get more logs ?&#13;
+I can't find any doc about this config file.&#13;
+Thanks,&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue2</guid>
+      <pubDate>Wed, 09 Jan 2013 17:47:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Image issue</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue</link>
+      <description>1. do you also have DFS set up on the dev servers or only in prod?&#13;
+&#13;
+2. I recommend enabling maximum debug logging in wsproviders.ini.append.php and checking logs of http traffic found in var/log/&lt;siteaccess&gt;/webservices.log&#13;
+&#13;
+3.if point 2 does not work, could you test using a small image and use a network sniffer such as wireshark to capture the http communication?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/image_issue/re_image_issue</guid>
+      <pubDate>Wed, 09 Jan 2013 17:19:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Image issue</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/image_issue</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+I'm working on a website made with eZ Publish Enterprise 4.7, eZ Content Staging 1.0.0 (found on support.ez.no) and a DFS cluster. We have 2 differents eZ Publish on 2 differents servers.&#13;
+And we have set the staging of all the contents (content, media and users) between those 2 servers.&#13;
+&#13;
+The issue is that some datatypes are not synchronized. It is the case for the matrix and the image datatypes (maybe some others that I have not tested). On our test environment, the images were synchronized, so maybe it is related to our servers configurations.&#13;
+&#13;
+I made some tests, and it seems that when the content has an image datatype that is required, the sync of the event fails because of an HTTP error 400 (Bad request).&#13;
+When a content has an image datatype not required, the sync is working but the image attribute is empty on the destination server. I meen that the attribute has no value (so not even an image file that is not found on the server).&#13;
+&#13;
+I hope you have an idea of where it could come from.&#13;
+Thanks,&#13;
+&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/image_issue</guid>
+      <pubDate>Wed, 09 Jan 2013 16:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Spelling mistake</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/spelling_mistake/re_spelling_mistake</link>
+      <description>Thanks - fixed in github</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/spelling_mistake/re_spelling_mistake</guid>
+      <pubDate>Tue, 10 Apr 2012 16:14:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spelling mistake</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/spelling_mistake</link>
+      <description>Hi,&#13;
+&#13;
+there's a small spelling mistake in your package. You named your extension "ezcontenstaging" instead of "ezcontentstaging".&#13;
+&#13;
+Cheers&#13;
+&#13;
+Ly</description>
+      <author>community@ez.no (Ly Lo)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/spelling_mistake</guid>
+      <pubDate>Tue, 10 Apr 2012 15:36:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: using ezcontentstaging on a signle eZP inst...</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/using_ezcontentstaging_on_a_signle_ezp_installation/re_using_ezcontentstaging_on_a_signle_ezp_inst</link>
+      <description>It was one of the goals, yes.&#13;
+&#13;
+You will have to use the "eZContentStagingLocalAsRemoteIdGenerator" class that allows proper sync of content using remote-ids even when on a local server.&#13;
+&#13;
+The only drwaback is that currently the server will still make a rest call to itself to copy the content, which is not optimal for performance nor for configuration hassles.&#13;
+&#13;
+If you want to contribute the patch that does local-copying without going via rest, you're welcome</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/using_ezcontentstaging_on_a_signle_ezp_installation/re_using_ezcontentstaging_on_a_signle_ezp_inst</guid>
+      <pubDate>Wed, 28 Mar 2012 11:02:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>using ezcontentstaging on a signle eZP installation</title>
+      <link>http://projects.ez.no/ezcontentstaging/forum/general/using_ezcontentstaging_on_a_signle_ezp_installation</link>
+      <description>Can this extension be used on only one eZP installation. So that you prepare content in one folder, and then sync it with another folder?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezcontentstaging/forum/general/using_ezcontentstaging_on_a_signle_ezp_installation</guid>
+      <pubDate>Tue, 06 Mar 2012 18:17:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

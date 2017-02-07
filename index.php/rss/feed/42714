@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezblueprints / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42714" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezblueprints rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/12</link>
+      <description>- better README</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/12</guid>
+      <pubDate>Mon, 31 Oct 2011 00:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/13</link>
+      <description>- add licenses, todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/13</guid>
+      <pubDate>Mon, 31 Oct 2011 00:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/11</link>
+      <description>- more comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/11</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/10</link>
+      <description>- coding style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/10</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/9</link>
+      <description>- coding style
+- a bit more info in the event code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/9</guid>
+      <pubDate>Sun, 30 Oct 2011 23:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 8 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/8</link>
+      <description>created content for ezblueprintsworkflowevent README file.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/8</guid>
+      <pubDate>Sun, 18 Sep 2011 15:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 7 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/7</link>
+      <description>created content for ezblueprintsaction README file, it's working, I was having a problem with extension priority.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/7</guid>
+      <pubDate>Sun, 18 Sep 2011 15:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 6 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/6</link>
+      <description>remove site.ini.append.php from ezblueprintsaction, don't know what's going on with content action extensions, seems to not work anymore.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/6</guid>
+      <pubDate>Sun, 18 Sep 2011 15:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 5 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/5</link>
+      <description>created site.ini.append for the ezblueprintsaction extension, it seems the extension will not work without it.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/5</guid>
+      <pubDate>Sun, 18 Sep 2011 14:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 4 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/4</link>
+      <description>added action extension sample, needs documentation.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/4</guid>
+      <pubDate>Thu, 15 Sep 2011 20:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 3 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/3</link>
+      <description>fixing my last commit, there was an error when I commit, I created an action extension folder and it commited to the workflow event sample, strange.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/3</guid>
+      <pubDate>Thu, 15 Sep 2011 20:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 2 by Thiago Campos Viana</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/2</link>
+      <description>Added content action extension sample, needs docummentation.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/2</guid>
+      <pubDate>Thu, 15 Sep 2011 20:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezblueprints rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezblueprints/subversion/1</link>
+      <description>- initial folder structure creation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezblueprints/subversion/1</guid>
+      <pubDate>Thu, 15 Sep 2011 19:45:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

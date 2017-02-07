@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / mzcategoryselection</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:10:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:10:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18239" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZXML not found</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found/re_ezxml_not_found2</link>
+      <description>It works much better !&#13;
+Thanks&#13;
+JN</description>
+      <author>community@ez.no (Jean Nicolas)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found/re_ezxml_not_found2</guid>
+      <pubDate>Wed, 13 Jan 2010 18:32:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZXML not found</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found/re_ezxml_not_found</link>
+      <description>Hi,&#13;
+&#13;
+Have you downloaded this extension at http://projects.ez.no/mzcategoryselection/downloads ?&#13;
+&#13;
+You will need it if you want to use mzcategoryselection attribute with ezpublish 4.1+ ?&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found/re_ezxml_not_found</guid>
+      <pubDate>Wed, 13 Jan 2010 14:18:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZXML not found</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found</link>
+      <description>I have got an error message when adding an attribute 'ezcategoryselection'&#13;
+&#13;
+Here is the debug output &#13;
+Any suggestion ?&#13;
+Thanks&#13;
+JN&#13;
+&#13;
+Fatal error: Class 'eZXML' not found in C:\EasyPHP\www\wedito\extension\ezcategoryselection\datatypes\ezcategoryselection\ezcategoryselectiontype.php on line 776&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+eZ debug&#13;
+&#13;
+Script start&#13;
+&#13;
+Debug: eZMySQLDB::query(0.000 ms) query number per page:0 	Jan 13 2010 12:32:03&#13;
+&#13;
+SET NAMES 'utf8'&#13;
+&#13;
+Timing: 	Jan 13 2010 12:32:03&#13;
+&#13;
+Module start 'class'&#13;
+&#13;
+Warning: PHP: E_WARNING 	Jan 13 2010 12:32:03&#13;
+&#13;
+include_once(lib/ezxml/classes/ezxml.php) [&lt;a href='function.include-once'&gt;function.include-once&lt;/a&gt;]: failed to open stream: No such file or directory in C:\EasyPHP\www\wedito\extension\ezcategoryselection\datatypes\ezcategoryselection\ezcategoryselectiontype.php on line 39&#13;
+&#13;
+Warning: PHP: E_WARNING 	Jan 13 2010 12:32:03&#13;
+&#13;
+include_once() [&lt;a href='function.include'&gt;function.include&lt;/a&gt;]: Failed opening 'lib/ezxml/classes/ezxml.php' for inclusion (include_path='./lib/ezc;.;C:\php5\pear;C:/EasyPHP/www/wedito/') in C:\EasyPHP\www\wedito\extension\ezcategoryselection\datatypes\ezcategoryselection\ezcategoryselectiontype.php on line 39&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jean Nicolas)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/ezxml_not_found</guid>
+      <pubDate>Wed, 13 Jan 2010 11:44:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: missing downloads..</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads/re_missing_downloads2</link>
+      <description>Hi,&#13;
+&#13;
+The download is now there&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads/re_missing_downloads2</guid>
+      <pubDate>Tue, 29 Sep 2009 18:28:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>mzcategoryselection.zip</title>
+      <link>http://projects.ez.no/mzcategoryselection/downloads/mzcategoryselection_zip</link>
+      <description></description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/downloads/mzcategoryselection_zip</guid>
+      <pubDate>Tue, 29 Sep 2009 18:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: missing downloads..</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads/re_missing_downloads</link>
+      <description>Sure enough. Almost 2 months and no sign of code - either in svn or zip format...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads/re_missing_downloads</guid>
+      <pubDate>Fri, 25 Sep 2009 17:13:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>missing downloads..</title>
+      <link>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads</link>
+      <description>going to be released soon?&#13;
+would be nice...best regards</description>
+      <author>community@ez.no (andre müller)</author>
+      <guid>http://projects.ez.no/mzcategoryselection/forum/general/missing_downloads</guid>
+      <pubDate>Sun, 30 Aug 2009 22:00:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

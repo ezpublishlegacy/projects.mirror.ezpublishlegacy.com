@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ca_glossary / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:10:08 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:10:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18578" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ca_glossary rev. 9 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/9</link>
+      <description>Tagging trunk : 1.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/9</guid>
+      <pubDate>Fri, 14 Aug 2009 07:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 8 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/8</link>
+      <description>refactaoring using a callback function to avoid recursive matching of word</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/8</guid>
+      <pubDate>Fri, 14 Aug 2009 07:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 7 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/7</link>
+      <description>update of regexp : now the matching word can't be in tag (usefull for title in img)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/7</guid>
+      <pubDate>Tue, 11 Aug 2009 14:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 6 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/6</link>
+      <description>Tag of 1.0 version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/6</guid>
+      <pubDate>Tue, 11 Aug 2009 12:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 5 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/5</link>
+      <description>[Netbeans SVN client generated message: create a new folder for the copy]: '
+Tag of version 1.0
+'</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/5</guid>
+      <pubDate>Tue, 11 Aug 2009 12:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 4 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/4</link>
+      <description>update install steps</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/4</guid>
+      <pubDate>Tue, 11 Aug 2009 12:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 3 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/3</link>
+      <description>update license</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/3</guid>
+      <pubDate>Tue, 11 Aug 2009 12:50:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 2 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/2</link>
+      <description>Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/2</guid>
+      <pubDate>Tue, 11 Aug 2009 12:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_glossary rev. 1 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_glossary/subversion/1</link>
+      <description>Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_glossary/subversion/1</guid>
+      <pubDate>Tue, 11 Aug 2009 12:50:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

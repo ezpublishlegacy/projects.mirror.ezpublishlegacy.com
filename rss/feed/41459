@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nmcontent / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:08:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:08:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41459" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nmcontent rev. 8 by Fredrik Tidemann</title>
+      <link>http://projects.ez.no/nmcontent/subversion/8</link>
+      <description>Import of class groups</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/8</guid>
+      <pubDate>Mon, 25 Jun 2012 10:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 7 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/7</link>
+      <description>HTML entity decoding to allow Norwegian characters in object names.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/7</guid>
+      <pubDate>Mon, 24 Oct 2011 12:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 6 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/6</link>
+      <description>Better handling if a class has no attributes.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/6</guid>
+      <pubDate>Thu, 06 Oct 2011 14:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 5 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/5</link>
+      <description>Added support for importing attribute descriptions.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/5</guid>
+      <pubDate>Wed, 05 Oct 2011 19:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 4 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/4</link>
+      <description>Added more detail to the class list</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/4</guid>
+      <pubDate>Wed, 14 Sep 2011 16:45:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 3 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/3</link>
+      <description>View for producing a class list.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/3</guid>
+      <pubDate>Tue, 13 Sep 2011 19:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 2 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/2</link>
+      <description>View for producing a class list.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/2</guid>
+      <pubDate>Tue, 13 Sep 2011 19:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmcontent rev. 1 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/nmcontent/subversion/1</link>
+      <description>1st version (earlier nmcontentclass).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nmcontent/subversion/1</guid>
+      <pubDate>Mon, 16 May 2011 09:23:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

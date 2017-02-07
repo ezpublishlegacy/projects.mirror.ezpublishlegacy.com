@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / mobilebrowserdetect / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:13:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:13:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42146" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Really strange problem</title>
+      <link>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem/re_really_strange_problem2</link>
+      <description>Thanks for your reply.&#13;
+I don't believe this is a ini-issue as it is working on another server with the exact same ini-files.&#13;
+As I said, all code is identical on the servers. The only thing that differs is the behaviour :)&#13;
+I'll have to debug this at some time, for now we chose to solve it by not using the extension and use javascript instead.&#13;
+Thanks any way.</description>
+      <author>community@ez.no (Daniel Bigenius)</author>
+      <guid>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem/re_really_strange_problem2</guid>
+      <pubDate>Tue, 22 Nov 2011 22:39:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Really strange problem</title>
+      <link>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem/re_really_strange_problem</link>
+      <description>Hello Daniel,&#13;
+&#13;
+I think you might want to check your siteaccess and override (global) ini settings.&#13;
+&#13;
+If the settings expected by the extension/workflow event are not properly assigned and available when the workflow event is triggered, it does nothing at all by default.&#13;
+&#13;
+Which seems to match the use case you described.&#13;
+&#13;
+Just read the rather simplistic and basic PHP involved here in the workflow event in question (it's dead simple to understand), http://svn.projects.ez.no/mobilebrowserdetect/eventtypes/event/mobilebrowserdetect/mobilebrowserdetecttype.php&#13;
+&#13;
+&#13;
+From what I could tell reading the extension, it has no code which differentiates between one host and another (at all), let alone any code that tells the difference between servers it runs on.&#13;
+&#13;
+Alternatively you should also consider debugging the workflow event PHP execution (add a die before the return in the execute method, and use php debugging skills to test line by line where your error is occurring). I do this all the time and it's a brease to solve problems like this ... &#13;
+&#13;
+I hope this helps ...&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem/re_really_strange_problem</guid>
+      <pubDate>Thu, 17 Nov 2011 00:21:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Really strange problem</title>
+      <link>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem</link>
+      <description>Hello.&#13;
+&#13;
+We are currently trying out your extension and have come across a little problem. Here's our setup.&#13;
+We have several developers who check out the project (Community Project 2011.8) from our subversion server. &#13;
+All developers have Apache on their local machines and are developing on this.&#13;
+All developers share the same database and var/-directories (except cache).&#13;
+All developers commits their code to a Subversion-server, which is then automatically deployed to our test-server.&#13;
+&#13;
+Here is the problem, your extension only works on the developers machines, not on the test-server. We've added a few debug-writes to mobilebrowserdetecttype.php and it is showing fine on the developer machines, but not on the test-server.&#13;
+&#13;
+The developers machines are Ubuntu with PHP 5.3.6 on Apache 2.2.20.&#13;
+The test-server is running CentOS 5.5 with PHP 5.3.8 on Apache 2.2.3&#13;
+&#13;
+I cannot understand why it won't work on the test-server as it is the same code, the same database and the same var/-dir.&#13;
+&#13;
+Any help would be much appreciated.&#13;
+&#13;
+Thanks &#13;
+Daniel&#13;
+</description>
+      <author>community@ez.no (Daniel Bigenius)</author>
+      <guid>http://projects.ez.no/mobilebrowserdetect/forum/general/really_strange_problem</guid>
+      <pubDate>Wed, 16 Nov 2011 15:57:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

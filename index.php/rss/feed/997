@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / easyadmin / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:09:51 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:09:51 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/997" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>new "set section" feature</title>
+      <link>http://projects.ez.no/easyadmin/news/new_set_section_feature</link>
+      <description> &lt;p&gt;Easyadmin provides now a more advanced solution for the approval workflows:&lt;/p&gt; 
+&lt;ul&gt;
+ 
+&lt;li&gt; as many admins as you want &lt;/li&gt;
+ 
+&lt;li&gt; you can modify the content before approving it &lt;/li&gt;
+ 
+&lt;li&gt; Offer a perfect preview of the content to be approved &lt;/li&gt;
+ 
+&lt;/ul&gt;
+&lt;p&gt;All of that easy to install and configure &lt;/p&gt;</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/easyadmin/news/new_set_section_feature</guid>
+      <pubDate>Wed, 27 Jun 2007 13:37:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

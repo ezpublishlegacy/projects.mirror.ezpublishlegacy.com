@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpublish-translation-fre-fr / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19689" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpublish-translation-fre-fr rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/5</guid>
+      <pubDate>Fri, 11 Feb 2011 21:22:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish-translation-fre-fr rev. 4 by Jérémy Poulain</title>
+      <link>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/4</link>
+      <description>Current version in 4.1.3 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/4</guid>
+      <pubDate>Fri, 02 Oct 2009 09:05:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish-translation-fre-fr rev. 3 by Bertrand Dunogier</title>
+      <link>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/3</link>
+      <description>- Updated translation.ts to latest version from Pascal Boyer (20090924)
+- Copied 4.2 translation to trunk</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/3</guid>
+      <pubDate>Sat, 26 Sep 2009 12:30:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish-translation-fre-fr rev. 1 by Bertrand Dunogier</title>
+      <link>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/1</link>
+      <description>- Created directory structure
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/1</guid>
+      <pubDate>Fri, 25 Sep 2009 10:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublish-translation-fre-fr rev. 2 by Bertrand Dunogier</title>
+      <link>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/2</link>
+      <description>- Added current stable/4.2 translation.ts from svn.ez.no.
+  An updated version should be provided by pascal soon.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublish_translation_fre_fr/subversion/2</guid>
+      <pubDate>Fri, 25 Sep 2009 10:15:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

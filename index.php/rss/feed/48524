@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / autocreateobject / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:30:56 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:30:56 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48524" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/479b9b995ebc749d0ef9c719d565548d48cbe609</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from rmdev/master
+
+readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/479b9b995ebc749d0ef9c719d565548d48cbe609</guid>
+      <pubDate>Tue, 02 Apr 2013 07:43:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/09d9495ad87a3001c0e0bc0659a3e318e3f913a9</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;tiny readme addition&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/09d9495ad87a3001c0e0bc0659a3e318e3f913a9</guid>
+      <pubDate>Tue, 02 Apr 2013 07:43:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/b30cd058cced5bf054be3a4e02659bada1010d1f</link>
+      <description>
+      &lt;pre&gt;m .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;gitignore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/b30cd058cced5bf054be3a4e02659bada1010d1f</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/7a00071c802fc52730b81cd06d1b36b8df6e5636</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;.gitignore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/7a00071c802fc52730b81cd06d1b36b8df6e5636</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/1efa4a089253da02ca6486a51c807d3682722ae6</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;test&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/1efa4a089253da02ca6486a51c807d3682722ae6</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/d58dec736c69fbbf11f673736f9cc04991ebf128</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/d58dec736c69fbbf11f673736f9cc04991ebf128</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autocreateobject/source/24c10f410b2a149ae3d896eff1eddd5654471ad1</link>
+      <description>
+      &lt;pre&gt;+ autocreate/README.txt
++ autocreate/eventtypes/event/autocreateobject/autocreateobjecttype.php
++ autocreate/ezinfo.php
++ autocreate/settings/autocreateobject.ini.append.php
++ autocreate/settings/workflow.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autocreateobject/source/24c10f410b2a149ae3d896eff1eddd5654471ad1</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

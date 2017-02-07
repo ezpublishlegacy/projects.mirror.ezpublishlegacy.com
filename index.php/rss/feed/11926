@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / all2eiclear</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:09:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:09:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11926" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>all2eiclear rev. 2 by Max Keil</title>
+      <link>http://projects.ez.no/all2eiclear/subversion/2</link>
+      <description>- completed iclear payment gateway
+- provides view for shop register
+- implemented after checkout workflow for automatic order processing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2eiclear/subversion/2</guid>
+      <pubDate>Mon, 29 Dec 2008 12:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2eiclear rev. 1 by Norman Leutner</title>
+      <link>http://projects.ez.no/all2eiclear/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2eiclear/subversion/1</guid>
+      <pubDate>Wed, 10 Dec 2008 09:20:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

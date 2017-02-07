@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/cjw_contexthelp/forum/general/how_can_we_test_this_extension by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 13:12:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            How can we test this extension     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/cjw_contexthelp/forum/general'];
+menu[4] = ['Leaders', '/cjw_contexthelp/team/leaders', 'Members', '/cjw_contexthelp/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../cjw_contexthelp.html" onmouseover="switchSubMenu( this );">Context Sensitive Help in Frontside Editing &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../cjw_contexthelp.html">cjw_contexthelp</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        how can we test this extension
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>How can we test this extension</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg10426">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/alexandre_sebbane.html">Alexandre SEBBANE</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/alexandre_sebbane/24108-12-eng-GB/alexandre_sebbane_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />08 September 2007</p>
+        <p class="posts">Posts: 19</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 19 July 2008 10:36:22 pm</p>
+
+        <div class="attribute-long">hello, <br />
+<br />
+your extension seems to be great but where can we get it ?<br />
+<br />
+<br />
+thanks for your answers<br />
+<br />
+<br />
+Alex
+</div>
+                    <div class="attribute-signature">
+            <p>Paris, France</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg10430">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/donat_fritschy.html">Donat Fritschy</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/donat_fritschy/9898-13-eng-GB/donat_fritschy_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />08 June 2006</p>
+        <p class="posts">Posts: 10</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 20 July 2008 8:14:04 pm</p>
+
+        <div class="attribute-long">Hi Alex<br />
+<br />
+unfortunately putting together all the stuff for this extension has been delayed by a custom project. But we will provide a download within the next days.<br />
+<br />
+Thanks for your patience!<br />
+Donat
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.webmanufaktur.ch/" title="http://www.webmanufaktur.ch">http://www.webmanufaktur.ch</a> - Developers united in eZ Publish: <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg10555">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/felix_woldt.html">Felix Woldt</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/felix_woldt/29233-27-eng-GB/felix_woldt_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />17 February 2006</p>
+        <p class="posts">Posts: 75</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 28 July 2008 7:59:15 pm</p>
+
+        <div class="attribute-long">I put a zip package for version 2.0.0 to the download section.<br />
+<br />
+<a href="../../downloads/cjw_contexthelp_2_0_0_zip.html" title="http://projects.ez.no/cjw_contexthelp/downloads/cjw_contexthelp_2_0_0_zip">http://projects.ez.no/cjw_context.../downloads/cjw_contexthelp_2_0_0_zip</a><br />
+<br />
+Have fun. <br />
+If something doesn't work, please post to this forum.<br />
+<br />
+If you find this extension usefull, please write a Review <a href="../../reviews.html" title="http://projects.ez.no/cjw_contexthelp/reviews">http://projects.ez.no/cjw_contexthelp/reviews</a><br />
+<br />
+Thank's
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.jac-systeme.de/" title="http://www.jac-systeme.de">http://www.jac-systeme.de</a> - Developers united in eZ Publish: <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a><br />
+sponsor of <a href="http://ezsummercamp.com/" title="http://ezsummercamp.com/">http://ezsummercamp.com/</a><br />
+<br />
+CJW Blog: <a href="http://www.cjw-network.com/en/blog" title="http://www.cjw-network.com/en/blog">http://www.cjw-network.com/en/blog</a><br />
+cjwpublish1411 - eZ Publish MultiSiteSetup - <a href="https://github.com/cjw-network/cjwpublish1411" title="https://github.com/cjw-network/cjwpublish1411">https://github.com/cjw-network/cjwpublish1411</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14053">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jorge_estevez2.html">Jorge estévez</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 9</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 08 February 2009 5:33:29 am</p>
+
+        <div class="attribute-long">Hello<br />
+<br />
+I cannot understand the following:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">In the administration interface, define a Context Help Container using the &quot;CJW Contexthelp Container&quot;.&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+Where in the admin interfase?<br />
+Using &quot;CJW Contexthelp Container&quot;? Is this a class? Just cant find where to create it.<br />
+<br />
+It seems once I create it all will go nicely.<br />
+<br />
+thanks
+</div>
+                    <div class="attribute-signature">
+            <p>Diseño Web Cuba<br />
+www.elfosgrafica.com<br />
+Web Design Cuba</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14055">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/felix_woldt.html">Felix Woldt</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/felix_woldt/29233-27-eng-GB/felix_woldt_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />17 February 2006</p>
+        <p class="posts">Posts: 75</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 08 February 2009 11:09:44 am</p>
+
+        <div class="attribute-long">Hi Jorge,<br />
+<br />
+The 'CJW Contexthelp Container' is a new ez class. In the extension their is an ez package which install 3 new classes.<br />
+<br />
+The container class is only just a folder.<br />
+In the container you can create new  contexthelp class help objects and under class help object - attribute help objects.<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">context_help_container</span>
+
+<span class="line">- class_help_object1</span>
+
+<span class="line">-- attribute_help_11</span>
+
+<span class="line">-- attribute_help_12</span>
+
+<span class="line">- class_help_object2</span>
+
+<span class="line">-- attribute_help_21</span>
+
+<span class="line">- class_help_object3</span>
+
+<span class="line"></span></pre><br />
+<br />
+Was this your question?<br />
+You can place the conainer anywhere in the ez system. The operator will fetch these object and ignoring visibilty and the right system of ez.<br />
+<br />
+Best regards<br />
+Felix
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.jac-systeme.de/" title="http://www.jac-systeme.de">http://www.jac-systeme.de</a> - Developers united in eZ Publish: <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a><br />
+sponsor of <a href="http://ezsummercamp.com/" title="http://ezsummercamp.com/">http://ezsummercamp.com/</a><br />
+<br />
+CJW Blog: <a href="http://www.cjw-network.com/en/blog" title="http://www.cjw-network.com/en/blog">http://www.cjw-network.com/en/blog</a><br />
+cjwpublish1411 - eZ Publish MultiSiteSetup - <a href="https://github.com/cjw-network/cjwpublish1411" title="https://github.com/cjw-network/cjwpublish1411">https://github.com/cjw-network/cjwpublish1411</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14057">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jorge_estevez2.html">Jorge estévez</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 9</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 08 February 2009 2:09:26 pm</p>
+
+        <div class="attribute-long">Thanks, I didn't notice it.
+</div>
+                    <div class="attribute-signature">
+            <p>Diseño Web Cuba<br />
+www.elfosgrafica.com<br />
+Web Design Cuba</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg14058">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/jorge_estevez2.html">Jorge estévez</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 9</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 08 February 2009 3:18:37 pm</p>
+
+        <div class="attribute-long">Sorry, Im back again...<br />
+<br />
+I just installed the packadge, whent to my tree root:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;Home</span>
+
+<span class="line">&nbsp;Products</span>
+
+<span class="line">&nbsp;Solutions</span>
+
+<span class="line">&nbsp;Training</span>
+
+<span class="line">&nbsp;Support</span>
+
+<span class="line">...</span>
+
+<span class="line">Also my new custom folders are here</span>
+
+<span class="line"></span></pre><br />
+<br />
+and made a help folder item, inside I stated to make a instance of &quot;CJW Contexthelp Container&quot; for a custom class, and within this instance item several &quot;CJW Contexthelp Class&quot; for each attribute. All fine.<br />
+<br />
+I then edited a class object  (associated with the contexthelp, of course) already made a few days ago to see if the icon that shows the help appeared. But sitill something is wrong as nothing appears at all.<br />
+<br />
+I do not know if it has to do with the location of the CJW Contexthelp Container. Looking up at the description you made I noticed &quot;For every class you want to define help for, add a &quot;CJW Contexthelp Class&quot; object below&quot;, Below what?<br />
+<br />
+Can you specify more, please...<br />
+<br />
+thanks
+</div>
+                    <div class="attribute-signature">
+            <p>Diseño Web Cuba<br />
+www.elfosgrafica.com<br />
+Web Design Cuba</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg14061">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/donat_fritschy.html">Donat Fritschy</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/donat_fritschy/9898-13-eng-GB/donat_fritschy_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />08 June 2006</p>
+        <p class="posts">Posts: 10</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 08 February 2009 5:48:22 pm</p>
+
+        <div class="attribute-long">Hi Jorge<br />
+<br />
+You need to define one Context Help Container using the &quot;CJW Contexthelp Container Class&quot;. You can put it anywhere you like. See <a href="../../gallery/screenshots/administrative_interface_help_class_container_structure.html" title="http://projects.ez.no/cjw_contexthelp/gallery/screenshots/administrative_interface_help_class_container_structure">http://projects.ez.no/cjw_context...rface_help_class_container_structure</a>.<br />
+<br />
+Within this Container, add a &quot;CJW Contexthelp Class&quot; object for every class you want to have this feature enabled. You can define a global help text for this class, see <a href="../../gallery/screenshots/administrative_interface_global_help_for_a_class.html" title="http://projects.ez.no/cjw_contexthelp/gallery/screenshots/administrative_interface_global_help_for_a_class">http://projects.ez.no/cjw_context...ve_interface_global_help_for_a_class</a>.<br />
+<br />
+Finally, you need to define a &quot;CJW Contexthelp Class Attribute&quot; object for every attribute you want to provide help on. You have to define these as children of the corresponding CJW Contexthelp Class object, see <a href="../../gallery/screenshots/administrative_interface_help_for_a_single_attribute.html" title="http://projects.ez.no/cjw_contexthelp/gallery/screenshots/administrative_interface_help_for_a_single_attribute">http://projects.ez.no/cjw_context...nterface_help_for_a_single_attribute</a>.<br />
+<br />
+You will not see any difference in the class definition in the backend. It's effect is in the frontside editing, see <a href="../../gallery/screenshots/context_sensitive_help_in_frontside_editing.html" title="http://projects.ez.no/cjw_contexthelp/gallery/screenshots/context_sensitive_help_in_frontside_editing">http://projects.ez.no/cjw_context..._sensitive_help_in_frontside_editing</a>.<br />
+<br />
+It relies on the modified edit template being installed (extension/cjw_contexthelp/design/standard/templates/content/edit_attribute.tpl). Please check this.<br />
+<br />
+Regards<br />
+Donat
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.webmanufaktur.ch/" title="http://www.webmanufaktur.ch">http://www.webmanufaktur.ch</a> - Developers united in eZ Publish: <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/cjw_contexthelp/forum/general/how_can_we_test_this_extension by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 13:12:44 GMT -->
+</html>

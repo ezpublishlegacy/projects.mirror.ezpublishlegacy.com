@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / simpleforum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:01:34 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:01:34 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47319" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/4267a028b7959f9d1231c0077a9178d9048b7a16</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumresponse.php
+m design/admin2/templates/topic/view.tpl
+m design/admin2/templates/topic/view/line.tpl
+m design/admin2/templates/topic/view/list.tpl
+m design/standard/templates/topic/view.tpl
+m design/standard/templates/topic/view/line.tpl
+m design/standard/templates/topic/view/list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;use topic url_alias in template&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/4267a028b7959f9d1231c0077a9178d9048b7a16</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/72a2d8c81391791d1ca9cd786acc53fb8821f14c</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumtopic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix url alias if topic with the same name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/72a2d8c81391791d1ca9cd786acc53fb8821f14c</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/2971b453d2bda0aa27de10574426877da6a81382</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumtopic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;generate url_alias for topic&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/2971b453d2bda0aa27de10574426877da6a81382</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/19dbbf4c8d57e22aeb5b8c671db63103cb2a3d43</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumtopic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix generate urlalias&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/19dbbf4c8d57e22aeb5b8c671db63103cb2a3d43</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/488a4c675fba08272a11fadd93f5775d285787ef</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumresponse.php
+m classes/simpleforumtools.php
+m classes/simpleforumtopic.php
++ ezinfo.php
+m search/plugins/simpleforumsolr/simpleforumsolr.php
+m xmlinstallerhandler/simpleforumalwaysavailable.php
+m xmlinstallerhandler/simpleforumcreatesection.php
+m xmlinstallerhandler/simpleforumsetsettings.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add comment to code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/488a4c675fba08272a11fadd93f5775d285787ef</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/f938eef11f65586b84b57f220d9ef9934d44a70f</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m bin/php/simpleforumupdatesearchindex.php
+m classes/search/simpleforumresponsesearch.php
+m classes/search/simpleforumsearch.php
+m classes/search/simpleforumtopicsearch.php
+m classes/simpleforumcollection.php
+- classes/simpleforumimage.php
+m classes/simpleforumresponse.php
+m classes/simpleforumtools.php
+m classes/simpleforumtopic.php
+- classes/simpleforumupload.php
+m modules/response/delete.php
+m modules/response/function_definition.php
+m modules/response/module.php
+m modules/response/new.php
+m modules/response/rate.php
+m modules/response/state.php
+m modules/topic/delete.php
+m modules/topic/function_definition.php
+m modules/topic/inc_view_count.php
+m modules/topic/list.php
+m modules/topic/module.php
+m modules/topic/new.php
+m modules/topic/state.php
+m modules/topic/view.php
+m search/plugins/simpleforumsolr/simpleforumsolr.php
+m settings/admininterface.ini.append.php
+m settings/content.ini.append.php
+m settings/content.ini.append.php.back
+m settings/contentstructuremenu.ini.append.php
+m settings/contentstructuremenu.ini.append.php.back
+m settings/design.ini.append.php
+m settings/forum.ini.append.php
+- settings/image.ini.append.php
+m settings/menu.ini.append.php
+m settings/menu.ini.append.php.back
+m settings/module.ini.append.php
+m settings/site.ini.append.php
+m settings/solr.ini.append.php
+m settings/xmlinstaller.ini.append.php
+m xmlinstallerhandler/simpleforumalwaysavailable.php
+m xmlinstallerhandler/simpleforumcreatesection.php
+m xmlinstallerhandler/simpleforumsetsettings.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add comment&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/f938eef11f65586b84b57f220d9ef9934d44a70f</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/2797365457439bf352352dc76532b2bd915f9233</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/topic/list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;change button and pagination order in backend&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/2797365457439bf352352dc76532b2bd915f9233</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/2238d54b9bbf664c9f7b7586dc1e30307025111a</link>
+      <description>
+      &lt;pre&gt;m design/admin2/javascript/forum.js
+m design/admin2/templates/topic/list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add checkall button to topic list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/2238d54b9bbf664c9f7b7586dc1e30307025111a</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/b3dadbae9c09311360eec311f0c7ac29f8f35718</link>
+      <description>
+      &lt;pre&gt;+ doc/doxygen/Doxyfile
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add doxygen config file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/b3dadbae9c09311360eec311f0c7ac29f8f35718</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/0fc2c9e28097229b4d32d1340cd371ac6a033670</link>
+      <description>
+      &lt;pre&gt;m classes/search/simpleforumresponsesearch.php
+m classes/search/simpleforumsearch.php
+m classes/search/simpleforumtopicsearch.php
+m classes/simpleforumcachemanager.php
+m classes/simpleforumcollection.php
+m classes/simpleforumresponse.php
+m classes/simpleforumtools.php
+m classes/simpleforumtopic.php
+m sql/mysql/schema.sql
+m xmlinstallerhandler/simpleforumalwaysavailable.php
+m xmlinstallerhandler/simpleforumcreatesection.php
+m xmlinstallerhandler/simpleforumsetsettings.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update comment in classes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/0fc2c9e28097229b4d32d1340cd371ac6a033670</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/8552c078bc126613c17b420bad7e2dbcba0ad326</link>
+      <description>
+      &lt;pre&gt;+ classes/simpleforumcachemanager.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;configure the cache manager&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/8552c078bc126613c17b420bad7e2dbcba0ad326</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/6daaca63e59d400276fcb5411e07acff45309ba4</link>
+      <description>
+      &lt;pre&gt;m install/installer.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add fre-Fr translations to installer script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/6daaca63e59d400276fcb5411e07acff45309ba4</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/e14f409488d42423f8cf4716248f02f1b67b785f</link>
+      <description>
+      &lt;pre&gt;m design/admin2/templates/response/view/list.tpl
+m design/admin2/templates/topic/view/line.tpl
+m design/admin2/templates/topic/view/list.tpl
+m modules/response/new.php
+m modules/topic/new.php
+m modules/topic/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add htmlentities&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/e14f409488d42423f8cf4716248f02f1b67b785f</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/e82def1f3a3ef940aa7d59caf60281e6f07ff6b6</link>
+      <description>
+      &lt;pre&gt;m sql/mysql/schema.sql
++ sql/oracle/schema.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add oracle database schema&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/e82def1f3a3ef940aa7d59caf60281e6f07ff6b6</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/f8395bdae8b3c60b70bf1450103a1a14e6341620</link>
+      <description>
+      &lt;pre&gt;m bin/php/simpleforumupdatesearchindex.php
+m classes/simpleforumtopic.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;index differential forum data according to the date of the last
+indexation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/f8395bdae8b3c60b70bf1450103a1a14e6341620</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/9f63be4845740d7dc7385944a9661567ad59fea3</link>
+      <description>
+      &lt;pre&gt;m README
++ extension.xml
+m settings/content.ini.append.php
+- settings/content.ini.append.php.back
+m settings/contentstructuremenu.ini.append.php
+- settings/contentstructuremenu.ini.append.php.back
+m settings/menu.ini.append.php
+- settings/menu.ini.append.php.back
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;prepare for first delivery&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/9f63be4845740d7dc7385944a9661567ad59fea3</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/e02bcf1a50b86b48f4b39980ff77133dff7586c3</link>
+      <description>
+      &lt;pre&gt;m modules/response/delete.php
+m modules/response/new.php
+m modules/response/rate.php
+m modules/response/state.php
+m modules/topic/delete.php
+m modules/topic/list.php
+m modules/topic/new.php
+m modules/topic/state.php
+m modules/topic/view.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow enabling/disabling simple forum custom cache settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/e02bcf1a50b86b48f4b39980ff77133dff7586c3</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/a096bcc200ce3cb77f1d3817c7aa28d8bcd63b0e</link>
+      <description>
+      &lt;pre&gt;m modules/topic/delete.php
+m modules/topic/list.php
+m modules/topic/new.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;clear topic list cache when acting on topic items&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/a096bcc200ce3cb77f1d3817c7aa28d8bcd63b0e</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/8783eb00b01064d50be88a91cb792c689c6f8c96</link>
+      <description>
+      &lt;pre&gt;m modules/response/delete.php
+m modules/response/new.php
+m modules/response/rate.php
+m modules/response/state.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;clear topic view cache when acting on response&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/8783eb00b01064d50be88a91cb792c689c6f8c96</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/simpleforum/source/6c1034604705fab9ad383285ab9b988b2fb10439</link>
+      <description>
+      &lt;pre&gt;m classes/simpleforumcachemanager.php
+m design/admin2/javascript/forum.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;purge cache in forum&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/simpleforum/source/6c1034604705fab9ad383285ab9b988b2fb10439</guid>
+      <pubDate>Mon, 02 Jul 2012 18:11:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

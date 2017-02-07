@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / teamspeakdisplay</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:21:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:21:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13896" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>teamspeakdisplay v1.0</title>
+      <link>http://projects.ez.no/teamspeakdisplay/downloads/teamspeakdisplay_v1_0</link>
+      <description> &lt;p&gt;teamspeakdisplay extension&lt;/p&gt; &lt;p&gt;extract using "tar -xzf teamspeakdisplay.tar.gz&lt;/p&gt; &lt;p&gt;then follow the install steps from the included doc/readme.txt&lt;/p&gt;</description>
+      <author>community@ez.no (Mark Simon OLD)</author>
+      <guid>http://projects.ez.no/teamspeakdisplay/downloads/teamspeakdisplay_v1_0</guid>
+      <pubDate>Tue, 03 Feb 2009 10:28:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>teamspeakdisplay availible</title>
+      <link>http://projects.ez.no/teamspeakdisplay/news/teamspeakdisplay_availible</link>
+      <description> &lt;p&gt;teamspeakdisplay is an extension to show an info overview of a TeamSpeak2 Server.&lt;/p&gt; &lt;p&gt;Take a Look at the &lt;a href="http://projects.ez.no/teamspeakdisplay/gallery/screenshots_of_version_1_0/overview" target="_self"&gt;Screenshot&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;You can download this Extension via &lt;a href="http://projects.ez.no/teamspeakdisplay/subversion" target="_self"&gt;SVN&lt;/a&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Mark Simon OLD)</author>
+      <guid>http://projects.ez.no/teamspeakdisplay/news/teamspeakdisplay_availible</guid>
+      <pubDate>Mon, 02 Feb 2009 12:32:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>teamspeakdisplay rev. 1 by Mark Simon OLD</title>
+      <link>http://projects.ez.no/teamspeakdisplay/subversion/1</link>
+      <description>first upload</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/teamspeakdisplay/subversion/1</guid>
+      <pubDate>Mon, 02 Feb 2009 12:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finally ;)</title>
+      <link>http://projects.ez.no/teamspeakdisplay/reviews/finally</link>
+      <description>I'll give this extension a try later, but as a long time user of teamspeak, I had to review it positively. I'm not sure I would have used the content object approach here, but I'm sure it works fine. It might be very interesting to provide proper templates to implement the features in an ezflow block or a ezwebin embeded template ;)</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/teamspeakdisplay/reviews/finally</guid>
+      <pubDate>Mon, 02 Feb 2009 08:48:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

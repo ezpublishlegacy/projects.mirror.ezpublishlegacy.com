@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owezflow</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:28:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:28:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42407" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>owezflow rev. 5 by Simon Boyer</title>
+      <link>http://projects.ez.no/owezflow/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owezflow/subversion/5</guid>
+      <pubDate>Mon, 22 Aug 2011 14:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>owEZFlow 0.3</title>
+      <link>http://projects.ez.no/owezflow/downloads/owezflow_0_3</link>
+      <description></description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/owezflow/downloads/owezflow_0_3</guid>
+      <pubDate>Mon, 22 Aug 2011 14:06:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>owezflow rev. 4 by Simon Boyer</title>
+      <link>http://projects.ez.no/owezflow/subversion/4</link>
+      <description>Add view cache workflow</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owezflow/subversion/4</guid>
+      <pubDate>Mon, 22 Aug 2011 13:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>owezflow rev. 3 by Simon Boyer</title>
+      <link>http://projects.ez.no/owezflow/subversion/3</link>
+      <description>Display url alias instead of name in content obect custom attribute</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owezflow/subversion/3</guid>
+      <pubDate>Fri, 05 Aug 2011 13:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>owezflow rev. 2 by Simon Boyer</title>
+      <link>http://projects.ez.no/owezflow/subversion/2</link>
+      <description>Correction BrowseMode bug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owezflow/subversion/2</guid>
+      <pubDate>Tue, 26 Jul 2011 10:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>owEZFlow 0.2</title>
+      <link>http://projects.ez.no/owezflow/downloads/owezflow_0_2</link>
+      <description>&lt;p&gt;BrowseMode bug fixed&lt;/p&gt;</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/owezflow/downloads/owezflow_0_2</guid>
+      <pubDate>Tue, 26 Jul 2011 09:57:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>owezflow rev. 1 by Simon Boyer</title>
+      <link>http://projects.ez.no/owezflow/subversion/1</link>
+      <description>First release : owezflow 0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owezflow/subversion/1</guid>
+      <pubDate>Mon, 25 Jul 2011 08:30:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

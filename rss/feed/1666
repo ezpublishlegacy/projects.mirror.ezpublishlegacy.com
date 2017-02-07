@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowecommerce / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:09 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1666" rel="self" type="application/rss+xml"/>
+    <item>
+      <title> Needing advise of payment gateway for my webstore</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/needing_advise_of_payment_gateway_for_my_webstore</link>
+      <description>Hello guys:&#13;
+&#13;
+I am so sorry if this has been asked elsewhere but I could not find the exact answer I was looking for.  I have set up the test shop on a ecommerce platform and only ticked the PayPal option. But some errors occured when using paypal. Well, the detail is, my client wants to use the full features of PayPal, i.e. customers can pay by credit card through the PayPal checkout or use their PayPal account. Am I overlooking something or does the webstore PayPal option mean just that, PayPal account only and for credit card payments it has to be another payment gateway? That would upset me . I am sure I am doing something wrong? Who can help me?On the other hand, many clients have emailed me to ask me to provide another payment options like bitcoin or other digital currency since some of them live in Non-Paypal accepted countries, and a large part of them introduce the epay global payment to my website since it's free to pay and get paid, what's more, almost all the countries are available to use it----far better than paypal would be in this point. I have heard of it before buy haven't tryied yet, does it mean that i need to connect epay payment gateway? I can't find futher details on their website http://www.epay.com about the api. Any suggestions here?   &#13;
+</description>
+      <author>community@ez.no (sylvially Brant)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/needing_advise_of_payment_gateway_for_my_webstore</guid>
+      <pubDate>Thu, 27 Aug 2015 05:55:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec6</link>
+      <description> Correct typo: was "xrowcountry"&#13;
+&#13;
+extension/xrowecommerce/settings&#13;
+&#13;
+content.ini.apend.php&#13;
+&#13;
+&lt;code&gt;&#13;
+     [DataTypeSettings]&#13;
+AvailableDataTypes[]=xrowCountry&#13;
+ &lt;/code&gt;</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec6</guid>
+      <pubDate>Mon, 29 Apr 2013 14:56:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Install xrowecommerce on eZ Publish Communi...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_on_ez_publish_community_project_2012_8/re_install_xrowecommerce_on_ez_publish_communi</link>
+      <description>I think the SVN have a problem.&#13;
+&#13;
+I don't understand to open package of the extension. When i launch the install from the admin, this proccess during more 10 hours and the application don't success to open the archive.&#13;
+&#13;
+Have you a correct archive of the extension ?&#13;
+&#13;
+It is possible to use the native module SHOP of ezpublish in eZ Publish Community Project 2012.8  ?</description>
+      <author>community@ez.no (Johann Roche)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_on_ez_publish_community_project_2012_8/re_install_xrowecommerce_on_ez_publish_communi</guid>
+      <pubDate>Wed, 17 Apr 2013 09:28:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Install xrowecommerce on eZ Publish Community Project 2012.8</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_on_ez_publish_community_project_2012_8</link>
+      <description>Hi,&#13;
+&#13;
+I'm try to install xrowecommerce an existing plain site eZ Publish Community Project 2012.8.&#13;
+&#13;
+I execute insctruction on the post : http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn &#13;
+&#13;
+but i have 2 problems :&#13;
+&#13;
+At the point : "insert sql into database" -&gt; Where is the SQL DATABASE&#13;
+&#13;
+At the point install xrowecommerce_classes.ezpkg from extension/xrowecommerce/packages -&gt; When i try to install this package i have an error.&#13;
+&#13;
+&#13;
+Thanks &#13;
+</description>
+      <author>community@ez.no (Johann Roche)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_on_ez_publish_community_project_2012_8</guid>
+      <pubDate>Tue, 16 Apr 2013 15:26:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anyone using coupons functionality?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/anyone_using_coupons_functionality</link>
+      <description>I am using xrowecommerce (build 979), but can't work out how to make the coupons function work.  It doesn't seem to work in the demo site either - does anyone have any experience in making this work?&#13;
+&#13;
+Thanks&#13;
+&#13;
+Howard</description>
+      <author>community@ez.no (Howard Rawlings)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/anyone_using_coupons_functionality</guid>
+      <pubDate>Mon, 11 Feb 2013 20:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec5</link>
+      <description>Hi Daniele,&#13;
+&#13;
+I haven't tried with 2012.8, but have you tried increasing the max_execution_time setting by either changing in your:&#13;
+&#13;
+1. php.ini file </description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec5</guid>
+      <pubDate>Sat, 22 Dec 2012 23:47:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec4</link>
+      <description>Hi,&#13;
+&#13;
+I'm try to install and test xrowecommerce but I have problem with install the packages because the php script go out of max execution time (240 seconds) when I try to import the package "xrowecommerce-1.0-1.ezpkg" into my ezpublish (20012.8).&#13;
+</description>
+      <author>community@ez.no (Daniele Nocentini)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec4</guid>
+      <pubDate>Mon, 10 Dec 2012 11:31:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec3</link>
+      <description>@Siniša - yes, my tips are for new installs, not existing.  I'd follow Piotr's setup advice for existing installations.&#13;
+&#13;
+@Piotr - and I'd add that you need to clear the cache </description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec3</guid>
+      <pubDate>Tue, 06 Nov 2012 21:08:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changing vat values upon user's country</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/changing_vat_values_upon_user_s_country</link>
+      <description>in xrowecommerce Vat is bounded to product, i'd like to set Vat value when users log in, assigning automatically vat value upon user's country. It is possible?&#13;
+&#13;
+Thank you,&#13;
+Greg</description>
+      <author>community@ez.no (Gregorio Vacirca)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/changing_vat_values_upon_user_s_country</guid>
+      <pubDate>Mon, 05 Nov 2012 16:41:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec2</link>
+      <description>Xrowecommerce install on existing ezpublish site 2012.8 with ezflow extension (testsite)&#13;
+&#13;
+Copy xrowecommerce into /extension directory&#13;
+&#13;
+set permissions for /extension/xrowecommerce/settings&#13;
+&#13;
+insert sql into database&#13;
+&#13;
+install xrowecommerce_classes.ezpkg from extension/xrowecommerce/packages&#13;
+&#13;
+activate extension xrowecommerce&#13;
+&#13;
+activate webshop tab in admin top menu&#13;
+&#13;
+add to /settings/siteaccess/site :&#13;
+&#13;
+content.ini.append.php&#13;
+&#13;
+ &lt;code&gt;&#13;
+     [VersionView]&#13;
+AvailableSiteDesignList[]=xrowecommerce&#13;
+ &lt;/code&gt;&#13;
+&#13;
+design.ini.append.php&#13;
+&#13;
+  &lt;code&gt; &#13;
+[StylesheetSettings]&#13;
+CSSFileList[]=xrowecommerce.css&#13;
+CSSFileList[]=../lib/yui/2.8.2/build/calendar/assets/calendar.css&#13;
+CSSFileList[]=../lib/yui/2.8.2/build/calendar/assets/skins/sam/calendar-skin.css&#13;
+&#13;
+[JavaScriptSettings]&#13;
+JavaScriptList[]=ezjsc::yui3&#13;
+JavaScriptList[]=ezjsc::yui3io&#13;
+JavaScriptList[]=../lib/yui/2.8.2/build/yahoo-dom-event/yahoo-dom-event.js&#13;
+JavaScriptList[]=../lib/yui/2.8.2/build/calendar/calendar-min.js&#13;
+JavaScriptList[]=ezdatepicker.js&#13;
+JavaScriptList[]=insertmedia.js&#13;
+JavaScriptList[]=xrowecommerce.js&#13;
+JavaScriptList[]=xrowproductvariation.js&#13;
+&lt;/code&gt;&#13;
+&#13;
+override.ini.append.php&#13;
+&#13;
+&lt;code&gt;&#13;
+[xrow_client_edit]&#13;
+Source=content/edit.tpl&#13;
+MatchFile=edit/user.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=client&#13;
+&#13;
+[xrow_manufacturer_full]&#13;
+Source=node/view/full.tpl&#13;
+MatchFile=full/xrow_manufacturer.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=manufacturer&#13;
+&#13;
+[xrow_manufacturer_line]&#13;
+Source=node/view/line.tpl&#13;
+MatchFile=line/xrow_manufacturer.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=manufacturer&#13;
+&#13;
+[edit_xrow_product_review]&#13;
+Source=content/edit.tpl&#13;
+MatchFile=edit/xrow_product_review.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product_review&#13;
+&#13;
+[line_xrow_product_category]&#13;
+Source=node/view/line.tpl&#13;
+MatchFile=line/xrow_product_category.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product_category&#13;
+&#13;
+[embed_xrow_product_category]&#13;
+Source=content/view/embed.tpl&#13;
+MatchFile=embed/xrow_product_category.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product_category&#13;
+&#13;
+[full_xrow_product_category]&#13;
+Source=node/view/full.tpl&#13;
+MatchFile=full/xrow_product_category.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product_category&#13;
+&#13;
+[full_xrow_product]&#13;
+Source=node/view/full.tpl&#13;
+MatchFile=full/xrow_product.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product&#13;
+&#13;
+[embed_xrow_product]&#13;
+Source=content/view/embed.tpl&#13;
+MatchFile=embed/xrow_product.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product&#13;
+&#13;
+[line_xrow_product]&#13;
+Source=node/view/line.tpl&#13;
+MatchFile=line/xrow_product.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=xrow_product&#13;
+&lt;/code&gt;&#13;
+&#13;
+site.ini.append.php&#13;
+&#13;
+&lt;code&gt;&#13;
+[DesignSettings]&#13;
+SiteDesign=xrowecommerce&#13;
+AdditionalSiteDesignList[]&#13;
+AdditionalSiteDesignList[]=ezflow&#13;
+AdditionalSiteDesignList[]=ezwebin&#13;
+AdditionalSiteDesignList[]=base&#13;
+AdditionalSiteDesignList[]=standard&#13;
+ &lt;/code&gt;&#13;
+&#13;
+shop.ini.append.php&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;?php /* #?ini charset="utf-8"?&#13;
+&#13;
+[VATSettings]&#13;
+UserCountryAttribute=country&#13;
+&#13;
+[CurrencySettings]&#13;
+PreferredCurrency=AUD&#13;
+*/ ?&gt;&#13;
+ &lt;/code&gt;&#13;
+&#13;
+Did not fully tested as yet but it seems function ok.&#13;
+Would be good to insert basket into global zone without harcoding the template&#13;
+&#13;
+Hope it helps&#13;
+Peter</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec2</guid>
+      <pubDate>Mon, 15 Oct 2012 10:36:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to install the latest version of xrowec...</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec</link>
+      <description>Hi Geoff!&#13;
+&#13;
+Is it possible to install xrowecommerce on existing ezpublish site (2012.8)?&#13;
+&#13;
+What do you mean by "Run the eZ Publish setup wizard"?&#13;
+Does it mean that I have to change [SiteAccessSettings]CheckValidity=true to start new installation? If I do that will it remove my existing siteaccesses and settings?&#13;
+&#13;
+Best regards,&#13;
+Sinisa</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn/re_how_to_install_the_latest_version_of_xrowec</guid>
+      <pubDate>Wed, 03 Oct 2012 09:23:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to install the latest version of xrowecommerce from SVN</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn</link>
+      <description>If you want to install the latest version of xrowecommerce, a quick way is to:&#13;
+&#13;
+1. Download the latest code from the SVN repository&#13;
+&lt;code&gt;svn checkout http://svn.projects.ez.no/xrowecommerce&lt;/code&gt;&#13;
+&#13;
+2. Make a new folder called "local" in the var/storage/packages/ directory in your eZ Publish install &#13;
+&#13;
+3. Copy the contents of the xrowecommerce/packages directory into var/storage/packages/local&#13;
+&#13;
+4. Run the eZ Publish setup wizard - it will detect and install these packages, as well as downloading any dependencies&#13;
+&#13;
+&#13;
+If you want to &lt;i&gt;build&lt;/i&gt; your own snapshot of xrowecommerce, you'll need to install Apache Ant, http://ant-contrib.sourceforge.net/tasks/tasks/propertycopy.html , and update build file settings to match local paths.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/how_to_install_the_latest_version_of_xrowecommerce_from_svn</guid>
+      <pubDate>Mon, 24 Sep 2012 04:25:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Credit cards payment gateway..?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/credit_cards_payment_gateway/re_credit_cards_payment_gateway</link>
+      <description>I think you should download the latest version from svn depository&#13;
+svn checkout http://svn.projects.ez.no/xrowecommerce&#13;
+&#13;
+and just replace your extension with downloaded one&#13;
+hope it helps&#13;
+Peter</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/credit_cards_payment_gateway/re_credit_cards_payment_gateway</guid>
+      <pubDate>Thu, 26 Apr 2012 09:42:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Credit cards payment gateway..?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/credit_cards_payment_gateway</link>
+      <description>Hello,&#13;
+&#13;
+I am trying to use extension on an existing ezpublish installation 2012.1 (manual, including ezflow, ezwebin, ezjscore latest stable versions). I have run into multiple issues with it, including errors in many classes, but managed to fixed them. I have downloaded extension as package from http://packages.xrow.com/xrowecommerce/latest/ as suggested in extension home page here, and imported it normally, but i am now facing the puzzling error of not being able to use payment methods listed as built-in for this extension - more specially the credit card payment gateway - no such gateway in extension???&#13;
+&#13;
+Is it the correct version (the one that i downloaded) I am using? Going through entire process of order - add to cart, proceed to checkout, shipping and billing, confirm, and so on until the page where i should be selecting the payment method - and funny, the three payment gateways as they appear in default ini file (direct, pay on delivery, advanced - ONLY those three and gods only know what happened with the credit and debit card methods described as built in) - and then whichever method I select, nothing happens - I just go to the same page (module xrowecommerce, view checkout) with no content, and I get an email with my order details. Do I have to create MY OWN gateway for cards, and if so why did you listed this feature as built in??&#13;
+&#13;
+I use xrow product class, but i have my own custom user class (not the standard user), which does not contain the ezcreditcard datatype attribute (not that I see it has to do with the payment methods that should be available) - is that a problem? Settings are changed to match this class instead of the xrow client class.&#13;
+&#13;
+Also, I do not see any orders listed in admin Shop tab. I can see them placed in ezorder table, but mysteriously they do not show up anywhere in my administration...&#13;
+&#13;
+&#13;
+Any help will be appreciated asap! Thanks!&#13;
+&#13;
+Deni</description>
+      <author>community@ez.no (Denitsa M)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/credit_cards_payment_gateway</guid>
+      <pubDate>Mon, 23 Apr 2012 14:36:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>shopping fo anonymous user</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shopping_fo_anonymous_user</link>
+      <description>Does xrowecommerce extension allow anonymous user to do shopping?&#13;
+&#13;
+Something like this:&#13;
+&#13;
+- user comes to the shop site without registering&#13;
+- does some shopping&#13;
+- goes to the basket, enters its email address and confirms the order&#13;
+- email with the order is sent to the user's email address, and to site admin&#13;
+&#13;
+</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shopping_fo_anonymous_user</guid>
+      <pubDate>Fri, 27 Jan 2012 17:24:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Shipping costs in cart?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart4</link>
+      <description>Hi Björn,&#13;
+I have the same problem.&#13;
+In my cart the shipping cost are always 0!&#13;
+&#13;
+I read shop.ini files and I don't find the shipping handler.&#13;
+&#13;
+Can you help me with a step by step guide to activate the shipping interface?&#13;
+&#13;
+Thank you.</description>
+      <author>community@ez.no (Domenico Garozzo)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart4</guid>
+      <pubDate>Fri, 02 Dec 2011 14:19:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outdated code in package repository</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/outdated_code_in_package_repository</link>
+      <description>Hello,&#13;
+&#13;
+Very impressive extension and adds a lot of functionality ezP was deserving for long. However, I encountered some problems...&#13;
+&#13;
+I just installed ezp 2011.10 with xrow package, as instructed on project page. Then I encountered multiple errors (VAT handler, registration, etc). According to the forum, these bugs are cleared in SVN. So my question is: how to upgrade installed xrow e-commerce with SVN? I simply downloaded code from SVN and copied it over my existing code. Unfortunately, ezPublish site is not displaying anything now....&#13;
+&#13;
+As a suggestion, it would be good to upgrade xrow package content to the newest code version.&#13;
+&#13;
+Next point: there is a lot of inquiries on documentation, but no single reply. Is there any documentation?&#13;
+&#13;
+Regards</description>
+      <author>community@ez.no (XXXX YYYYY)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/outdated_code_in_package_repository</guid>
+      <pubDate>Sat, 19 Nov 2011 14:14:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product bundles </title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/product_bundles_multiple_shipping_options</link>
+      <description>Hey, you guys are powering ahead with this extension - keep the good work up!&#13;
+&#13;
+Just wondering whether the extension has the following features:&#13;
+&#13;
+&lt;b&gt;Product bundles&lt;/b&gt; - multiple SKUs in a single "Product bundle".&#13;
+&lt;b&gt;Shipping options&lt;/b&gt; - ability to set up multiple shipping options, e.g air, freight, courier etc, or &lt;i&gt;even better&lt;/i&gt;, multiple shipping options based on locale.&#13;
+&lt;b&gt;Shipping confirmation email&lt;/b&gt; - a trigger to send a confirmation email to the purchaser once the order has shipped&#13;
+&#13;
+Many thanks in advance!&#13;
+&#13;
+Geoff</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/product_bundles_multiple_shipping_options</guid>
+      <pubDate>Wed, 31 Aug 2011 22:29:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Packer, translation, nopic_95.gif, kernelpatch</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/packer_translation_nopic_95_gif_kernelpatch/re_packer_translation_nopic_95_gif_kernelpatch</link>
+      <description>&lt;b&gt;Problem ezjscPacker::packFiles: [solved]&lt;/b&gt; - for community eZ4.4 default&#13;
+The solution is so simple that I feel something hit my head. The path must be adjusted in the following files:&#13;
+&lt;i&gt;&#13;
+.../settings/siteaccess/your_user access/design.ini.append.php&#13;
+.../settings/siteaccess/eng/design.ini.append.php&#13;
+.../settings/siteaccess/your language access/design.ini.append.php&#13;
+&lt;/i&gt; &#13;
+simply "/ 2.7.0 /" with "/ 2.8.1 /" replace &lt;code&gt; &lt;?php /* #?ini charset="utf-8"?&#13;
+&#13;
+[StylesheetSettings]&#13;
+SiteCSS=var/storage/packages/eZ-systems/ezwebin_design_gray/files/default/file/site-colors.css&#13;
+ClassesCSS=var/storage/packages/eZ-systems/ezwebin_design_gray/files/default/file/classes-colors.css&#13;
+CSSFileList[]=xrowecommerce.css&#13;
+CSSFileList[]=../lib/yui/2.8.1/build/calendar/assets/calendar.css&#13;
+CSSFileList[]=../lib/yui/2.8.1/build/calendar/assets/skins/sam/calendar-skin.css&#13;
+&#13;
+[JavaScriptSettings]&#13;
+JavaScriptList[]=ezjsc::yui3&#13;
+JavaScriptList[]=ezjsc::yui3io&#13;
+JavaScriptList[]=../lib/yui/2.8.1/build/yahoo-dom-event/yahoo-dom-event.js&#13;
+JavaScriptList[]=../lib/yui/2.8.1/build/calendar/calendar-min.js&#13;
+JavaScriptList[]=ezdatepicker.js&#13;
+JavaScriptList[]=insertmedia.js&#13;
+JavaScriptList[]=xrowecommerce.js&#13;
+JavaScriptList[]=xrowproductvariation.js&#13;
+*/ ?&gt; &lt;/code&gt;&#13;
+The path is already specified in the installation file.:&#13;
+&lt;i&gt;.../var/storage/packeges/eZ-System/xrowecommerce_seite/settings/xrowecommerceinstaller.php&lt;/i&gt;&#13;
+&lt;code&gt; function siteDesignINISettings()&#13;
+   ...&#13;
+       ...&#13;
+                        ...&#13;
+                        '../lib/yui/2.8.1/build/yahoo-dom-event/yahoo-dom-event.js' ,&#13;
+                        '../lib/yui/2.8.1/build/calendar/calendar-min.js' ,&#13;
+                        ...&#13;
+                    ...&#13;
+                        ...&#13;
+                        '../lib/yui/2.8.1/build/calendar/assets/calendar.css' ,&#13;
+                        '../lib/yui/2.8.1/build/calendar/assets/skins/sam/calendar-skin.css'&#13;
+                    )&#13;
+                )&#13;
+            )&#13;
+        );&#13;
+        return $settings;&lt;/code&gt;</description>
+      <author>community@ez.no (Falkmar Fischer)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/packer_translation_nopic_95_gif_kernelpatch/re_packer_translation_nopic_95_gif_kernelpatch</guid>
+      <pubDate>Mon, 27 Jun 2011 15:17:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Packer, translation, nopic_95.gif, kernelpatch</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/packer_translation_nopic_95_gif_kernelpatch</link>
+      <description>Hi,&#13;
+for a private project I need eZ Publish and a shop-extension. The module from eZ unfortunately provides not the desired functionality. Therefore I have for testing installed xrowcommerce in my eZ 4.4. eZ is new to me.&#13;
+&#13;
+The shop works (checkout and user are not tested), but there are many error messages.&#13;
+&#13;
+&lt;b&gt;General questions:&lt;/b&gt;&#13;
+&lt;b&gt;- Is the xrowcommerce developed in future?&lt;/b&gt;&#13;
+&lt;b&gt;- Is it still a real Open Source project?&lt;/b&gt;&#13;
+&#13;
+&#13;
+&lt;b&gt;My idea: &lt;/b&gt;&#13;
+(create an upgrad-enabled extension)&#13;
+1. Finishing the installation error-free.&#13;
+2. System upgrade to date.&#13;
+3. Shop exporting as an extensions-pack.&#13;
+As already mentioned, everything is new to me.&#13;
+&lt;b&gt;- Is this idea quite useful?&lt;/b&gt;&#13;
+&#13;
+&#13;
+&lt;b&gt;Problem ezjscPacker::packFiles:&lt;/b&gt;&#13;
+&lt;i&gt;[ Jun 27 2011 11:08:18 ] [10.0.0.9] ezjscPacker::packFiles:&#13;
+Could not find: stylesheets/../lib/yui/2.7.0/build/calendar/assets/calendar.css&#13;
+[ Jun 27 2011 11:08:18 ] [10.0.0.9] ezjscPacker::packFiles:&#13;
+Could not find: stylesheets/../lib/yui/2.7.0/build/calendar/assets/skins/sam/calendar-skin.css&#13;
+[ Jun 27 2011 11:08:19 ] [10.0.0.9] ezjscPacker::packFiles:&#13;
+Could not find: javascript/../lib/yui/2.7.0/build/yahoo-dom-event/yahoo-dom-event.js&#13;
+[ Jun 27 2011 11:08:19 ] [10.0.0.9] ezjscPacker::packFiles:&#13;
+Could not find: javascript/../lib/yui/2.7.0/build/calendar/calendar-min.js&lt;/i&gt;&#13;
+In a parallel installation with ezflow It's all configured according to the following link&#13;
+http://doc.ez.no/Extensions/eZ-Publish-extensions/eZ-JS-Core/Installation (6.)&#13;
+Therefore I have the following as a global override in the ezjscore.ini.append.php registered: &lt;code&gt;[eZJSCore]&#13;
+LoadFromCDN = enabled &lt;/code&gt; und &#13;
+&lt;code&gt; [eZJSCore]&#13;
+LoadFromCDN = disabled&#13;
+Packer=disabled &lt;/code&gt;  It do not work. The correct path is for instance, is:&#13;
+&lt;i&gt;stylesheets/../lib/yui/2.8.1/build/calendar/assets/calendar.css&lt;/i&gt;&#13;
+  or  &#13;
+&lt;i&gt;javascript/../lib/yui/2.8.1/build/yahoo-dom-event/yahoo-dom-event.js&lt;/i&gt;&#13;
+&lt;b&gt;Where can I find the source of the wrong path ?&lt;/b&gt;&#13;
+&#13;
+&#13;
+&lt;b&gt;Problems: (not installed language) [solved]&lt;/b&gt;&#13;
+The class "Product (xrow)" contains the language Austria.&#13;
+Solution if the language is not used.&#13;
+1. Deleting the translation (empty array in the pulldown) in the class "Product (xrow)"&#13;
+2. Delete the language under "Available languages​​"&#13;
+&#13;
+&#13;
+&lt;b&gt;Translation problems:&lt;/b&gt;&#13;
+The extension of the tranlations.ts according to the debug.log is no problem. Only the data type "Option 2" is a problem. The context does not work.&#13;
+&lt;i&gt;ezoption2type.php&lt;/i&gt;&#13;
+ &lt;code&gt;    $this-&gt;eZDataType( self::OPTION2, ezpI18n::tr( 'kernel/classes/datatypes', "Option2", 'Datatype name' ), array( 'serialize_supported' =&gt; true ) ); &lt;/code&gt;log-datas&#13;
+&lt;i&gt;[ Jun 24 2011 11:16:58 ] [10.0.0.9] Timing Point: Module start 'setup'&#13;
+[ Jun 24 2011 11:16:58 ] [10.0.0.9] eZTSTranslator::handleMessageNode:&#13;
+No source name found, skipping message&#13;
+[ Jun 24 2011 12:12:15:21 ] [10.0.0.9] ezpI18n::translateText:&#13;
+Missing translation for message in context: 'kernel/classes/datatypes' with comment: 'Datatype name'. The untranslated message is: 'Option2'&lt;/i&gt;&#13;
+To test the function I have changed the message (Option xrow). The message is displayed correctly. I've additional check the following context.&#13;
+- extension/xrowecommerce/datatypes&#13;
+- extension/xrowecommerce/datatypes/ezoption2&#13;
+It does not work. Connecting I've entered the data type in the &#13;
+&lt;i&gt;datatype.ini.append.php.&lt;/i&gt;&#13;
+ &lt;code&gt;    [EditSettings]&#13;
+GroupedInput[]=ezoption2 &lt;/code&gt;It does not work.&#13;
+&lt;b&gt;- What is the right context, or the solution ?&lt;/b&gt;&#13;
+&#13;
+&#13;
+&lt;b&gt;Missing file&lt;/b&gt;&#13;
+&lt;i&gt;[ Jun 24 2011 12:12:31 ] [10.0.0.9] Timing Point: Module start 'content'&#13;
+[ Jun 24 2011 12:12:31 ] [10.0.0.9] eZTemplate:ezimage:&#13;
+Image 'nopic_95.gif' does not exist in any design&lt;/i&gt;&#13;
+&lt;b&gt;- Can I create the file by my self or download ?&lt;/b&gt;&#13;
+&#13;
+&#13;
+&lt;b&gt;Alerts&lt;/b&gt;&#13;
+&lt;i&gt;[ Jun 24 2011 12:15:25 ] [10.0.0.9] eZTemplate:def @ extension/xrowecommerce/design/xrowecommerce/templates/toolbar/full/product_list.tpl:10[4]:&#13;
+Variable 'current_user' is already defined.&lt;/i&gt;&#13;
+ &lt;code&gt; &lt;div class="toolbar-item {$placement}"&gt;&#13;
+    {if or($show_subtree|count_chars()|eq(0),&#13;
+                     fetch(content, node, hash( node_id, $module_result.node_id ) ).path_string|contains( concat( '/', $show_subtree, '/' ) ),&#13;
+                     $requested_uri_string|begins_with( $show_subtree ))}&#13;
+    {def $current_user=fetch('user','current_user')}&#13;
+    {cache-block keys=array($tool_id, $current_user.role_id_list|implode( ',' ), $current_user.limited_assignment_value_list|implode( ',' ))} &lt;/code&gt; &lt;i&gt;[ Jun 24 2011 12:15:25 ] [10.0.0.9] eZTemplate:def @ extension/xrowecommerce/design/standard/templates/toolbar/full/poll.tpl:21[12]:&#13;
+Variable 'attribute' is already defined.&#13;
+Variable 'contentobject_attribute_id' is already defined.&#13;
+Variable 'contentobject_attribute' is already defined.&#13;
+Variable 'total_count' is already defined.&#13;
+Variable 'item_counts' is already defined.&#13;
+Variable 'attribute' is already defined.&#13;
+Variable 'contentobject_attribute_id' is already defined.&#13;
+Variable 'contentobject_attribute' is already defined.&#13;
+Variable 'total_count' is already defined.&#13;
+Variable 'item_counts' is already defined.&lt;/i&gt;&#13;
+ &lt;code&gt;{foreach $node.object.contentobject_attributes as $contentobject_attribute_item}&#13;
+            {def  $attribute=$contentobject_attribute_item&#13;
+                  $contentobject_attribute_id=cond( $attribute|get_class|eq( 'ezinformationcollectionattribute' ),$attribute.contentobject_attribute_id,&#13;
+                                                   $attribute|get_class|eq( 'ezcontentobjectattribute' ),$attribute.id )&#13;
+                  $contentobject_attribute=cond( $attribute|get_class|eq( 'ezinformationcollectionattribute' ),$attribute.contentobject_attribute,&#13;
+                                                $attribute|get_class|eq( 'ezcontentobjectattribute' ),$attribute )&#13;
+                  $total_count=fetch( 'content', 'collected_info_count', hash( 'object_attribute_id', $contentobject_attribute_id ) )&#13;
+                  $item_counts=fetch( 'content', 'collected_info_count_list', hash( 'object_attribute_id', $contentobject_attribute_id  ) )}&lt;/code&gt;&lt;b&gt;- What can I understand by these messages ?&lt;/b&gt;&#13;
+&#13;
+&lt;b&gt;Kernelpatch&lt;/b&gt;&#13;
+&lt;b&gt;- Can I use the kernel patch as a overwriting (config.php in root from eZ) ?&lt;/b&gt;&#13;
+&lt;b&gt;- What is a slideprice (Staffelpreis?) ?&lt;/b&gt;&#13;
+&#13;
+I hope there are not too many questions.&#13;
+Greetings Falkmar</description>
+      <author>community@ez.no (Falkmar Fischer)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/packer_translation_nopic_95_gif_kernelpatch</guid>
+      <pubDate>Fri, 24 Jun 2011 17:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Country: Input required</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/country_input_required/re_country_input_required2</link>
+      <description>I've changed Client class attribute Country [country] to Country[text line]&#13;
+&#13;
+I could register new user through but name of the country for example Australia &#13;
+is recorded  as AUS and state New South Wales is recorded as number 02&#13;
+&#13;
+Thanks&#13;
+Peter</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/country_input_required/re_country_input_required2</guid>
+      <pubDate>Sun, 05 Dec 2010 03:20:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Country: Input required</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/country_input_required/re_country_input_required</link>
+      <description>Input field Country do not accept input from scrolling country selection list.&#13;
+Any hint how to solve this?&#13;
+&#13;
+Thanks&#13;
+Peter</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/country_input_required/re_country_input_required</guid>
+      <pubDate>Wed, 01 Dec 2010 09:39:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Country: Input required</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/country_input_required</link>
+      <description>I tried to test the extension, and first thing I tried to register new user which failed and getting this error message:&#13;
+&#13;
+Input did not validate&#13;
+&#13;
+    * Land: Input required.&#13;
+&#13;
+Any hint where is the problem? &#13;
+May locale is eng_AU and selected Australia as a country.&#13;
+&#13;
+Thanks&#13;
+Peter</description>
+      <author>community@ez.no (Piotr  Dabrowski)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/country_input_required</guid>
+      <pubDate>Thu, 25 Nov 2010 13:01:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>pricing and inventory</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/pricing_and_inventory</link>
+      <description>hello&#13;
+&#13;
+I was looking at the summary of this extension, inventory is listed there. How would I access these features?&#13;
+also, the price import and export to csv options. Is that operational?&#13;
+&#13;
+thanks&#13;
+Luis </description>
+      <author>community@ez.no (Luis dos Santos)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/pricing_and_inventory</guid>
+      <pubDate>Wed, 25 Aug 2010 18:29:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout5</link>
+      <description>http://packages.xrow.com/xrowecommerce/latest/&#13;
+&#13;
+check here my last update was just on the day of my last post.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout5</guid>
+      <pubDate>Fri, 20 Aug 2010 15:58:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout4</link>
+      <description>So, when I install eZ Publish with your extension one more time, it will be fixed? Remember, that I did my previous installation about one week ago, so it is pretty new.</description>
+      <author>community@ez.no (Sebastian Gęsior)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout4</guid>
+      <pubDate>Wed, 18 Aug 2010 08:14:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Multiple products into shopping basket?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/multiple_products_into_shopping_basket/re_multiple_products_into_shopping_basket</link>
+      <description>Yes it does...</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/multiple_products_into_shopping_basket/re_multiple_products_into_shopping_basket</guid>
+      <pubDate>Tue, 17 Aug 2010 18:10:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout3</link>
+      <description>Hi,&#13;
+&#13;
+we did a new build it is fixed now in the new build.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout3</guid>
+      <pubDate>Tue, 17 Aug 2010 18:09:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiple products into shopping basket?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/multiple_products_into_shopping_basket</link>
+      <description>Hi Bjorn,&#13;
+&#13;
+Does this support similar functionality to your very old kernel hack to add multiple products into the cart? &#13;
+&#13;
+</description>
+      <author>community@ez.no (Richard Lundberg)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/multiple_products_into_shopping_basket</guid>
+      <pubDate>Mon, 16 Aug 2010 12:27:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout2</link>
+      <description>Hello,&#13;
+I'm experiencing the same problem - fatal error on checkout. I see that the solution is to get the latest version from SVN. But... to be honest I don't know hot to do it:( I know that it seems to be a bit silly but what can I say - this will be my first time.&#13;
+Could you please show me the way?</description>
+      <author>community@ez.no (Sebastian Gęsior)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout2</guid>
+      <pubDate>Mon, 16 Aug 2010 12:15:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Shipping costs in cart?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart3</link>
+      <description>There is a shipping workflow under setup-&gt;workflows that needs to get setup.&#13;
+&#13;
+Else the dependand code can be found in extension\xrowecommerce\classes\shipping and extension\xrowecommerce\eventtypes\event\ezshippinginterface.&#13;
+&#13;
+This one was missing in the earlier versions of the installer.&#13;
+&#13;
+I updated the installer again. Please have a try, if it works now out of the box.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart3</guid>
+      <pubDate>Mon, 09 Aug 2010 11:29:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Shipping costs in cart?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart2</link>
+      <description>"Shipping costs are handled over a plug-in interface"&#13;
+&#13;
+Could you explain how to get to this interface? I really don't get it.&#13;
+&#13;
+And one more thing - while userregistering I still get message "Shipping method is not allowed for destination". I guess it id connected with shipping handler, but how can I set it up?</description>
+      <author>community@ez.no (Bartek Olewiński)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart2</guid>
+      <pubDate>Tue, 27 Jul 2010 13:52:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout</link>
+      <description>This is related to the buggy shipping inface in hte current realease. As said before it is fixed in SVN.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout/re_fatal_error_on_checkout</guid>
+      <pubDate>Mon, 05 Jul 2010 09:49:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Shipping costs in cart?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart</link>
+      <description>This part might be buggy in the current release. Though they are fixed in SVN.&#13;
+&#13;
+Shipping costs are handled over a plug-in interface.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart/re_shipping_costs_in_cart</guid>
+      <pubDate>Mon, 05 Jul 2010 09:48:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Install xrowecommerce after ezpublish install</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_after_ezpublish_install/re_install_xrowecommerce_after_ezpublish_install</link>
+      <description>Hi,&#13;
+&#13;
+so far we do not plan to have this kind of tutorial.&#13;
+&#13;
+All the install logic is described in the installer.&#13;
+&#13;
+http://svn.projects.ez.no/xrowecommerce/trunk/packages/xrowecommerce_site/settings/xrowecommerceinstaller.php</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_after_ezpublish_install/re_install_xrowecommerce_after_ezpublish_install</guid>
+      <pubDate>Mon, 05 Jul 2010 09:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error on checkout</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout</link>
+      <description>Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended. Contact website owner with current url and what you did, and owner will be able to debug the issue further.&#13;
+&#13;
+Debug shows:&#13;
+&#13;
+Error: eZINI  	&#13;
+Undefined variable: 'eZoption2ProductVariations' in group 'Settings' in shipping.ini</description>
+      <author>community@ez.no (snorri s)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/fatal_error_on_checkout</guid>
+      <pubDate>Tue, 29 Jun 2010 14:15:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shipping costs in cart?</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart</link>
+      <description>Hi,&#13;
+really great extension.&#13;
+I wonder how shipping costs are handled.&#13;
+The example products class has a price attribute and an option attribute with "additional price". If I check the "Freight Item" checkbox, nothing changes in the shopping cart.("Free Shipping and Handling" stays unchecked, off course)&#13;
+"Price" and "additional price" are summed up in the item list, but the shipping cost stays '0'.&#13;
+How can I make the checkout cart sum up shipping costs and where are they to be edited? &#13;
+ </description>
+      <author>community@ez.no (snorri s)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/shipping_costs_in_cart</guid>
+      <pubDate>Mon, 28 Jun 2010 14:39:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems10</link>
+      <description>Hi,&#13;
+&#13;
+Just to inform you that I gave up my project for some personal and professional reasons (nothing bad :-) ) Maybe I will restart this project in few years. &#13;
+&#13;
+I keep this extension in my "bookmarks"&#13;
+&#13;
+Thank you for yours answers!&#13;
+Guillaume</description>
+      <author>community@ez.no (Guillaume HH)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems10</guid>
+      <pubDate>Sun, 06 Jun 2010 12:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Install xrowecommerce after ezpublish install</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_after_ezpublish_install</link>
+      <description>Hi,&#13;
+I'm trying to install the xrowecommerce extension on an existing ez Publish website.&#13;
+&#13;
+What I did so far:&#13;
+- I added the following packages through "setup -&gt; packages":&#13;
+    - xrowecommerce_extension.ezpkg&#13;
+    -  xrowecommerce_classes.ezpkg&#13;
+- I regenerted the autoloads&#13;
+- I cleared the cache&#13;
+&#13;
+But I'm not sure if there are other steps... For example, I found kernelpatches.txt in extension/zroeecommerce/doc/... Do I have to make some changes to some kernel files?&#13;
+&#13;
+Would it be possible to get install instructions for an existing ez publish websites?&#13;
+&#13;
+Thanks in advance,&#13;
+&#13;
+Saad</description>
+      <author>community@ez.no (Michael Barlow)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/install_xrowecommerce_after_ezpublish_install</guid>
+      <pubDate>Mon, 31 May 2010 19:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems9</link>
+      <description>- fixed xrowecommerce\datatypes\ezoption2\ezoptionmultiprice.php&#13;
+&#13;
+- 4.2 support might come we are plannign on it. About 4 hours of work.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems9</guid>
+      <pubDate>Tue, 18 May 2010 04:13:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems8</link>
+      <description>I think I found the reasom of problem about &lt;i&gt;PHP Fatal error: Class 'eZOptionMultiPrice' not found in /srv/www/htdocs/ezpublish-4.2/extension/xrowecommerce/datatypes/ezoption2/ezoption.php on line 231&lt;/i&gt;. In the beginning of file &lt;b&gt;xrowecommerce\datatypes\ezoption2\ezoptionmultiprice.php&lt;/b&gt; we have&#13;
+&lt;code&gt;&#13;
+&lt;?&#13;
+&lt;/code&gt;&#13;
+instead of&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+&lt;/code&gt;&#13;
+&#13;
+After this fix, this error gone. I use XAMPP version 1.7.3 on Windows XP SP3.</description>
+      <author>community@ez.no (Yuriy Cherniavsky)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems8</guid>
+      <pubDate>Wed, 12 May 2010 20:19:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems7</link>
+      <description>hey Björn, great work!&#13;
+isn't it possible to get this work in ez4.2?</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems7</guid>
+      <pubDate>Fri, 26 Mar 2010 14:37:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Documentation - Needs to be added</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/documentation_needs_to_be_added/re_documentation_needs_to_be_added</link>
+      <description>Documentation might come. We do not promise it. We have written the installer to that people to not need to such docuemntatoin to get it going.&#13;
+&#13;
+The issue issue with the "no prices" is kown it is a issue with the package import system.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/documentation_needs_to_be_added/re_documentation_needs_to_be_added</guid>
+      <pubDate>Mon, 15 Mar 2010 13:33:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Documentation - Needs to be added</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/documentation_needs_to_be_added</link>
+      <description>Hi.&#13;
+Just downloaded and installed this fantastic extension. I had som issues with getting prices to show up.&#13;
+&#13;
+There should be some documentation about the following:&#13;
+Default Testproducts have been set up to include pounds, dollars as well as Euro.&#13;
+if these do not exist as currencies no prices show up on the front.&#13;
+Adding these currencies took care of the problem.&#13;
+&#13;
+- Lars Eirik Ronning</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/documentation_needs_to_be_added</guid>
+      <pubDate>Fri, 12 Mar 2010 13:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems6</link>
+      <description>Hello again,&#13;
+&#13;
+some news ...&#13;
+&#13;
+I think I'll give up for now ...&#13;
+&#13;
+Obviously SVN version is very particular ... eg. it's missing lot of things in /share folder extension, configuration (installation wizard check config). And I think that I don't find every missing stuff.&#13;
+&#13;
+Anyway I can't locate problems with unstable ez and potentiel problems from xrowcommerce.&#13;
+&#13;
+I guess that when ez will be (more) stable it will be easier to locate problem (if problem remains). So I'm waiting that ez be stable before retrying to install your module until then I work on my project's other parts.&#13;
+&#13;
+So thank you for your answer and I think we will discuss about xrowcommerce in few days/weeks ;-)&#13;
+&#13;
+regards,&#13;
+Guillaume</description>
+      <author>community@ez.no (Guillaume HH)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems6</guid>
+      <pubDate>Wed, 03 Mar 2010 20:55:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems5</link>
+      <description>Hi,&#13;
+&#13;
+First of all thanks for your quick answer!&#13;
+&#13;
+&#13;
+&lt;i&gt;PHP Fatal error: Class 'eZOptionMultiPrice' not found in /srv/www/htdocs/ezpublish-4.2/extension/xrowecommerce/datatypes/ezoption2/ezoption.php on line 231&#13;
+&#13;
+can`t reproduce&lt;/i&gt;&#13;
+&#13;
+maybe a side effect. I had this error every time I installed xrow. I'll see this evening.&#13;
+&#13;
+&#13;
+&lt;i&gt;'fre' siteaccess&#13;
+&#13;
+That is the siteaccess installed by default depending on what languages you choose.&#13;
+&#13;
+consider this as your default siteaccess... xrowecommerce_site is the translation site access &lt;/i&gt;&#13;
+&#13;
+Ok! I'm not sure to understand what a 'translation site' is but I'll see when I'll use xrowcommerce. Thanks.&#13;
+&#13;
+&lt;i&gt;&#13;
+Hi,&#13;
+feel free to contact me. Maybe we can find a way of collaboration. &lt;/i&gt;&#13;
+&#13;
+I will !&#13;
+&#13;
+I'll retry installation this evening. Next feedback after that ;)&#13;
+Thanks!&#13;
+&#13;
+Guillaume</description>
+      <author>community@ez.no (Guillaume HH)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems5</guid>
+      <pubDate>Wed, 03 Mar 2010 15:24:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems4</link>
+      <description>*ezjscore&#13;
+&#13;
+is shipped with 4.3 by default</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems4</guid>
+      <pubDate>Wed, 03 Mar 2010 14:58:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems3</link>
+      <description>"I'm really interrested in this extension that fill 90% of my next project."&#13;
+&#13;
+Hi, &#13;
+feel free to contact me. Maybe we can find a way of collaboration.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems3</guid>
+      <pubDate>Wed, 03 Mar 2010 14:57:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems2</link>
+      <description>*PHP Fatal error: Class 'eZOptionMultiPrice' not found in /srv/www/htdocs/ezpublish-4.2/extension/xrowecommerce/datatypes/ezoption2/ezoption.php on line 231&#13;
+&#13;
+can`t reproduce&#13;
+&#13;
+*Custom match file: path 'tiny_image.tpl' not found in any resource. Check the template settings in settings/override.ini&#13;
+&#13;
+do not now where this comes from... i see it in the override.ini, but it is not defined in the installer&#13;
+&#13;
+'fre' siteaccess&#13;
+&#13;
+That is the siteaccess installed by default depending on what languages you choose.&#13;
+&#13;
+consider this as your default siteaccess... xrowecommerce_site is the translation site access</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems2</guid>
+      <pubDate>Wed, 03 Mar 2010 14:56:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: installation problems</title>
+      <link>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems</link>
+      <description>Hi Guillaume,&#13;
+&#13;
+Thanks for your valueable information.&#13;
+&#13;
+You will definitly need eZ Publish 4.3 for this to work. Please do not use any alpha or beta of the 4.3 that have been released now.&#13;
+&#13;
+At the moment your only option is to install it with trunk or  the next eZ publish 4.3 beta release.&#13;
+&#13;
+Concerning this error &#13;
+/srv/www/htdocs/ezpublish-4.2/lib/ezc/Archive/src/file/block_file.php on line 636&#13;
+&#13;
+Please remove var/storage/packages and start over. Sometimes it seems eZ doesn`t download that stuff correctly.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowecommerce/forum/general/installation_problems/re_installation_problems</guid>
+      <pubDate>Wed, 03 Mar 2010 14:24:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

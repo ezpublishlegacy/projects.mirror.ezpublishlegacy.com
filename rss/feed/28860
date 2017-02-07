@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / saarchive / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/28860" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>saarchive rev. 4 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saarchive/subversion/4</link>
+      <description>- added the sql for section index
+- implemented list_recursive fetching
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saarchive/subversion/4</guid>
+      <pubDate>Tue, 18 Jan 2011 02:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>saarchive rev. 3 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saarchive/subversion/3</link>
+      <description>- added some settings comments
+- first (untested) implementation of list_recursive fetch
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saarchive/subversion/3</guid>
+      <pubDate>Mon, 17 Jan 2011 16:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>saarchive rev. 2 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saarchive/subversion/2</link>
+      <description>- started impl?ementation of list_recursive fetch type
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saarchive/subversion/2</guid>
+      <pubDate>Mon, 17 Jan 2011 10:12:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>saarchive rev. 1 by Mavko Žmak - Žmale</title>
+      <link>http://projects.ez.no/saarchive/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/saarchive/subversion/1</guid>
+      <pubDate>Wed, 06 Oct 2010 18:00:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

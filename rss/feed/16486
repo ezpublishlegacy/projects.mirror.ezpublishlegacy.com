@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / jvamf / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:18:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:18:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16486" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>jvamf rev. 19 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/19</link>
+      <description>- Value Objects for content objects, nodes and users (to be completed)
+- Base service class for fetches
+- Content handler to simplify eZContentObjectTreeNode and eZContentObject objects returned by ez API (greatly inspired by ezjscAjaxContent::simplify(), with content attribute handlers to "format" content)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/19</guid>
+      <pubDate>Thu, 14 Jan 2010 16:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 18 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/18</link>
+      <description>ZendAMF Service browser support
+http://www.zamfbrowser.org/</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/18</guid>
+      <pubDate>Thu, 14 Jan 2010 16:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 16 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/16</link>
+      <description>1.0 branch creation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/16</guid>
+      <pubDate>Wed, 13 Jan 2010 09:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 17 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/17</link>
+      <description>Tag version 1.0.2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/17</guid>
+      <pubDate>Wed, 13 Jan 2010 09:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 15 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/15</link>
+      <description>updated changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/15</guid>
+      <pubDate>Wed, 13 Jan 2010 09:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 14 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/14</link>
+      <description>doc in pdf</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/14</guid>
+      <pubDate>Wed, 13 Jan 2010 09:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 13 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/13</link>
+      <description>Updated and RST formatted doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/13</guid>
+      <pubDate>Wed, 13 Jan 2010 09:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 12 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/12</link>
+      <description>error in ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/12</guid>
+      <pubDate>Tue, 12 Jan 2010 13:20:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 11 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/11</link>
+      <description>Avoid debug to appear in jvAMF endpoint</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/11</guid>
+      <pubDate>Tue, 12 Jan 2010 13:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 10 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/10</link>
+      <description>Update to ZF 1.9.7</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/10</guid>
+      <pubDate>Tue, 12 Jan 2010 13:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 9 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/9</link>
+      <description>Update ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/9</guid>
+      <pubDate>Sat, 10 Oct 2009 13:45:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 8 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/8</link>
+      <description>Add Zend_AMF required dependencies</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/8</guid>
+      <pubDate>Wed, 30 Sep 2009 08:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/7</link>
+      <description>Upgrade to Zend_AMF 1.9.3
+Update licence headers
+Update ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/7</guid>
+      <pubDate>Wed, 30 Sep 2009 08:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 6 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/6</link>
+      <description>ant script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/6</guid>
+      <pubDate>Wed, 30 Sep 2009 08:35:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 5 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/5</link>
+      <description>Addendum to the README doc file =&gt; Configuration of the Flex service endpoint</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/5</guid>
+      <pubDate>Fri, 19 Jun 2009 08:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 4 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/4</link>
+      <description>Initial release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/4</guid>
+      <pubDate>Thu, 18 Jun 2009 17:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 2 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/2</guid>
+      <pubDate>Thu, 18 Jun 2009 16:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 3 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/3</guid>
+      <pubDate>Thu, 18 Jun 2009 16:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>jvamf rev. 1 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/jvamf/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/jvamf/subversion/1</guid>
+      <pubDate>Thu, 18 Jun 2009 16:50:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

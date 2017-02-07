@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezphpfreechat / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:44:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:44:07 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41683" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback5</link>
+      <description>thanks thiago,&#13;
+&#13;
+errors are gone and works like a charm now! :-)&#13;
+also the translation is working perfect.&#13;
+&#13;
+still a couple of things:&#13;
+&#13;
+1) these 2 smileys are not working: :"( AND :-\&#13;
+2) could you use the "object/user name" instead of the "login name" ? is more secure and gives us more chance to influence that.&#13;
+3) is there any chance to be able to dismiss or ban player from the chat room? couldnt find that option yet.&#13;
+4) any chance to let the text stop before the "dot" at the end of each line? at the moment it is overflowing and hard to read.. looks strange..&#13;
+5) any chance to delete the chat history?</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback5</guid>
+      <pubDate>Mon, 06 Jun 2011 13:58:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback4</link>
+      <description>Hi Robert, I've just uploaded a new version, please try again.</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback4</guid>
+      <pubDate>Mon, 06 Jun 2011 12:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback3</link>
+      <description>Oh, I tested on another server and I'm getting those errors too. I will work a little more on this extension and fix all errors.</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback3</guid>
+      <pubDate>Mon, 06 Jun 2011 11:53:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback2</link>
+      <description>hi,&#13;
+&#13;
+thanks for the reply.&#13;
+i just downloaded your new version but im not sure what can i do with it..&#13;
+you uploaded something strange!? doesnt look like a working extension to me anymore.. or do you hack the system now big time?&#13;
+&#13;
+p.s. your testchat worked fine for me.. which permissions do you use there? 777 on extension? or somewhere else too?</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback2</guid>
+      <pubDate>Mon, 06 Jun 2011 08:14:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback</link>
+      <description>oh well.. It worked for me: http://crm.mzo.com.br/sapraassessoria//index.php/chat/main&#13;
+&#13;
+My plan is to integrate this extension with dappsocial, then I will translate and create more options, like a chat datatype, or a chat template operator, or an ez flow block. Anyway, I think I need do some more tests because I don't know what's causing your chmod error.&#13;
+&#13;
+Edite: Fixed the language problem.</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback/re_feedback</guid>
+      <pubDate>Sun, 05 Jun 2011 22:38:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>feedback</title>
+      <link>http://projects.ez.no/ezphpfreechat/forum/general/feedback</link>
+      <description>hi,&#13;
+&#13;
+that looks like a great extension, thanks for that first of all.&#13;
+i tried to install it on a eZ 4.4 and discovered a problem.. i followed all your steps also did chmod 777 (see my permissions:&#13;
+&#13;
+ 672020700 4 -rwxrwxrwx  1 lineage psacln 1721 May 29 17:44 chat.php&#13;
+ 738304682 0 drwxrwxrwx  3 lineage psacln   21 Jun  3 13:20 design&#13;
+1011765482 0 drwxrwxrwx  3 lineage psacln   17 Jun  3 13:20 extension&#13;
+ 943871758 4 drwxrwxrwx  9 lineage psacln 4096 Jun  3 13:25 lib&#13;
+  68565366 0 drwxrwxrwx  3 lineage psacln   17 Jun  3 13:25 modules&#13;
+ 203606487 0 drwxrwxrwx  2 lineage psacln  103 Jun  3 13:25 settings&#13;
+&#13;
+)&#13;
+&#13;
+but when i try to access the URL "/chat/main" then nothing happends its written:&#13;
+&#13;
+"Iniciando Chat...&#13;
+Por favor aguarde " (i guess it means, chat is loading please be patient or something)&#13;
+&#13;
+debug tells me many times:&#13;
+&#13;
+chmod(): Operation not permitted in [...]/httpdocs/extension/chat/lib/src/pfctools.php on line 180&#13;
+&#13;
+did i do something wrong?&#13;
+&#13;
+also my question, are you willling to translate your extension into english? thanks.&#13;
+&#13;
+best wishes.&#13;
+</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/ezphpfreechat/forum/general/feedback</guid>
+      <pubDate>Fri, 03 Jun 2011 11:51:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

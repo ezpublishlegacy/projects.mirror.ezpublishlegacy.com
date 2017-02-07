@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / fmg_mollom</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:13:19 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:13:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/44938" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/fmg_mollom/source/02237d5588ef5eaa505a353086b7c099909a963e</link>
+      <description>
+      &lt;pre&gt;- classes/ezcontentobjectmollom.php
+m classes/ezmollom.php
+m classes/ezmollomoperationcollection.php
+- design/standard/templates/blacklist.tpl
+m design/standard/templates/dashboard/ezmollom.tpl
+- design/standard/templates/editblacklist.tpl
+- design/standard/templates/editwhitelist.tpl
+m design/standard/templates/status.tpl
+- design/standard/templates/whitelist.tpl
+m doc/INSTALL
+m extension.xml
+m ezinfo.php
+- modules/ezmollom/blacklist.php
+- modules/ezmollom/editblacklist.php
+- modules/ezmollom/editwhitelist.php
+m modules/ezmollom/module.php
+m modules/ezmollom/operation_definition.php
+- modules/ezmollom/whitelist.php
+m settings/ezmollom.ini
+m settings/ezmollomconfig.ini
+m settings/ezmollomconfig.ini.bak
+m settings/module.ini.append.php
+m settings/workflow.ini.append.php
+m workflowtypes/event/ezmollom/ezmollomtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Commit xml-rpc handler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/fmg_mollom/source/02237d5588ef5eaa505a353086b7c099909a963e</guid>
+      <pubDate>Fri, 16 Mar 2012 15:18:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mollom extension version 0.0</title>
+      <link>http://projects.ez.no/fmg_mollom/downloads/mollom_extension_version_0_0</link>
+      <description></description>
+      <author>community@ez.no (S V)</author>
+      <guid>http://projects.ez.no/fmg_mollom/downloads/mollom_extension_version_0_0</guid>
+      <pubDate>Thu, 19 Jan 2012 10:28:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mollom extension version 0.0</title>
+      <link>http://projects.ez.no/fmg_mollom/source/1242c864b7401ff00d69730d090fa91424a5f466</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed text in readme doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/fmg_mollom/source/1242c864b7401ff00d69730d090fa91424a5f466</guid>
+      <pubDate>Wed, 18 Jan 2012 09:10:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mollom extension version 0.0</title>
+      <link>http://projects.ez.no/fmg_mollom/source/7bb17328194760260b94477093504977b94599b4</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ README
++ classes/ezcontentobjectmollom.php
++ classes/ezmollom.php
++ classes/ezmollomoperationcollection.php
++ design/standard/flash/mollom-captcha-player.swf
++ design/standard/images/powered-by-mollom-1.gif
++ design/standard/images/powered-by-mollom-2.gif
++ design/standard/templates/blacklist.tpl
++ design/standard/templates/dashboard/ezmollom.tpl
++ design/standard/templates/editblacklist.tpl
++ design/standard/templates/editwhitelist.tpl
++ design/standard/templates/status.tpl
++ design/standard/templates/whitelist.tpl
++ doc/INSTALL
++ extension.xml
++ ezinfo.php
++ lib/LICENSE-GPL.txt
++ lib/LICENSE-MIT.txt
++ lib/README.txt
++ lib/mollom.php
++ modules/ezmollom/blacklist.php
++ modules/ezmollom/editblacklist.php
++ modules/ezmollom/editwhitelist.php
++ modules/ezmollom/module.php
++ modules/ezmollom/operation_definition.php
++ modules/ezmollom/whitelist.php
++ settings/dashboard.ini.append.php
++ settings/design.ini.append.php
++ settings/ezmollom.ini
++ settings/ezmollomconfig.ini
++ settings/ezmollomconfig.ini.bak
++ settings/module.ini.append.php
++ settings/site.ini.append.php
++ settings/workflow.ini.append.php
++ workflowtypes/event/ezmollom/ezmollomtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;first import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/fmg_mollom/source/7bb17328194760260b94477093504977b94599b4</guid>
+      <pubDate>Wed, 18 Jan 2012 09:10:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mollom extension version 0.0</title>
+      <link>http://projects.ez.no/fmg_mollom/source/2704649861ef3a8f91c6cdac39078ec39a096c24</link>
+      <description>
+      &lt;pre&gt;m README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed text&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/fmg_mollom/source/2704649861ef3a8f91c6cdac39078ec39a096c24</guid>
+      <pubDate>Wed, 18 Jan 2012 09:10:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

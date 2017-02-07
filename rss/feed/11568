@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdebug_template_operator / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11568" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>version 0.6 of the "eZDebug template operator" extension released</title>
+      <link>http://projects.ez.no/ezdebug_template_operator/news/version_0_6_of_the_ezdebug_template_operator_extension_released</link>
+      <description>&lt;p&gt;Nothing too exciting: two bugfixes, including the numQueries template operator which was previously broken&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdebug_template_operator/news/version_0_6_of_the_ezdebug_template_operator_extension_released</guid>
+      <pubDate>Tue, 05 Jun 2012 21:56:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>version 0.5 of the "eZDebug template operator" extension released</title>
+      <link>http://projects.ez.no/ezdebug_template_operator/news/version_0_5_of_the_ezdebug_template_operator_extension_released</link>
+      <description>&lt;p&gt;It includes a new operator: getDefinedVars().&lt;/p&gt;&lt;p&gt;Idea taken from the show_variables extension&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdebug_template_operator/news/version_0_5_of_the_ezdebug_template_operator_extension_released</guid>
+      <pubDate>Mon, 28 Feb 2011 15:34:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>version 0.4 of the "eZDebug template operator" extension released</title>
+      <link>http://projects.ez.no/ezdebug_template_operator/news/version_0_4_of_the_ezdebug_template_operator_extension_released</link>
+      <description>&lt;p&gt;The allmighty objInspect() template operator has landed.&lt;/p&gt;&lt;p&gt;&lt;a href="http://twitpic.com/2v7zbx" target="_self"&gt;See it in action&lt;/a&gt;&lt;/p&gt;&lt;p&gt;It provides drill-down debug of any variable in a template, be it a string, a boolean, an array, a hash or a template object.&lt;/p&gt;&lt;p&gt;If you prefer to have your debug info out of the way and keep your html layout cherry, it can accommodate your needs too, by sending its display in the standard debug output.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdebug_template_operator/news/version_0_4_of_the_ezdebug_template_operator_extension_released</guid>
+      <pubDate>Sat, 04 Dec 2010 18:03:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>version 0.3 released of the "eZDebug template operator" extension</title>
+      <link>http://projects.ez.no/ezdebug_template_operator/news/version_0_3_released_of_the_ezdebug_template_operator_extension</link>
+      <description>&lt;p&gt;Two useful new template operators are present in this new release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;addTimingPoint - adds a custom timing point that will be part of debug info&lt;/li&gt;
+
+&lt;li&gt;numQueries - returns the number of queries executed so far (either in main db or the cluster db)&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdebug_template_operator/news/version_0_3_released_of_the_ezdebug_template_operator_extension</guid>
+      <pubDate>Thu, 17 Jun 2010 13:24:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>version 0.2 released of the "eZDebug template operator" extension</title>
+      <link>http://projects.ez.no/ezdebug_template_operator/news/version_0_2_released_of_the_ezdebug_template_operator_extension</link>
+      <description>&lt;p&gt;- fixes one php harmless warning&lt;/p&gt;&lt;p&gt;- adds optionals labels for debug messages&lt;/p&gt;&lt;p&gt;- adds a new template operator that writes in the debug log the same info as the standard 'attribute()' operator&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdebug_template_operator/news/version_0_2_released_of_the_ezdebug_template_operator_extension</guid>
+      <pubDate>Tue, 20 Oct 2009 13:51:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

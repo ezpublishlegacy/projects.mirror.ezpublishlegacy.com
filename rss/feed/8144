@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / starrating</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8144" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>oracle/postgres compat</title>
+      <link>http://projects.ez.no/starrating/forum/general/oracle_postgres_compat</link>
+      <description>The sql function to calculate standard deviation is different depending on db type.&#13;
+&#13;
+Use this code to fix:&#13;
+&lt;code&gt;&#13;
+  static function stats($ContentObjectAttributeID)&#13;
+  {&#13;
+    if (isset($GLOBALS['ratings']['stats'][$ContentObjectAttributeID]))&#13;
+    {&#13;
+      $return =& $GLOBALS['ratings']['stats'][$ContentObjectAttributeID];&#13;
+    }&#13;
+    else&#13;
+    {&#13;
+      // G. Giunta: use different std deviation function depending on db type&#13;
+      $db = eZDB::instance();&#13;
+      $type = $db-&gt;databaseName();&#13;
+      if ( $type == 'mysql' )&#13;
+      {&#13;
+          $stddev = 'std';&#13;
+      }&#13;
+      else&#13;
+      {&#13;
+        $stddev = 'stddev';&#13;
+      }&#13;
+      $custom = array( array( 'operation' =&gt; 'count( id )',&#13;
+                              'name'      =&gt; 'count' ) ,&#13;
+                       array( 'operation' =&gt; 'avg( rating )',&#13;
+                              'name'      =&gt; 'average' ),&#13;
+                       array( 'operation' =&gt; $stddev . '( rating )',&#13;
+                              'name'      =&gt; 'std' ));&#13;
+      $cond=array( 'contentobject_attribute_id' =&gt; $ContentObjectAttributeID );&#13;
+      $return = starrating::fetchObjectList(starrating::definition(), array(), $cond, null, null, false, false, $custom );&#13;
+      if (is_array($return))&#13;
+        $return = $return[0];&#13;
+      $GLOBALS['ratings']['stats'][$ContentObjectAttributeID] =& $return;&#13;
+    }&#13;
+    return $return;&#13;
+  }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/starrating/forum/general/oracle_postgres_compat</guid>
+      <pubDate>Thu, 18 Jun 2009 08:23:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't get it to work with xajax</title>
+      <link>http://projects.ez.no/starrating/forum/general/can_t_get_it_to_work_with_xajax</link>
+      <description>Please see my post in the xajax forum http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1&#13;
+&#13;
+I'm using eZ 4.0.1 and the starrating extension from here: http://ez.no/content/download/225582/1517082/file/starrating1.0.tgz&#13;
+&#13;
+Without xajax it works perfectly, but when I enable xajax, I get errors from xajax:&#13;
+&#13;
+Fatal error: Cannot redeclare class xajaxRequestPlugin in C:\ws\myproject\extension\xajax\lib\xajax\xajax_core\xajaxPlugin.inc.php on line 102&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&#13;
+It looks more like a xajax problem to me, but maybe I'm doing something wrong with this extension?&#13;
+&#13;
+What version of xajax should be used for starrating? &#13;
+&#13;
+Any ideas on this?&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Nabil Imran)</author>
+      <guid>http://projects.ez.no/starrating/forum/general/can_t_get_it_to_work_with_xajax</guid>
+      <pubDate>Tue, 19 May 2009 13:16:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>does not survive packaging</title>
+      <link>http://projects.ez.no/starrating/forum/general/does_not_survive_packaging</link>
+      <description>That datatype gets missing from class during class package export import.&#13;
+</description>
+      <author>community@ez.no (zurgutt -)</author>
+      <guid>http://projects.ez.no/starrating/forum/general/does_not_survive_packaging</guid>
+      <pubDate>Tue, 20 Jan 2009 14:17:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

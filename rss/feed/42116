@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sortobjectsoperators</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:07:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:07:41 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42116" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Additional code</title>
+      <link>http://projects.ez.no/sortobjectsoperators/forum/general/additional_code/re_additional_code</link>
+      <description>I think you were talking about "typed" sorting, right? Maybe it is worth to add attribute value's type specificator. Will think how to manage that.&#13;
+&#13;
+Thanks for idea :)</description>
+      <author>community@ez.no (Alex Kozeka)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/forum/general/additional_code/re_additional_code</guid>
+      <pubDate>Thu, 09 Feb 2012 07:38:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Additional code</title>
+      <link>http://projects.ez.no/sortobjectsoperators/forum/general/additional_code</link>
+      <description>Hey, great extension, thank you very much!&#13;
+Arne Bakkebø is right with extended_sort I think, but I like this one =)&#13;
+&#13;
+Maybe you are interested to add my little extension to yours to sort by price:&#13;
+ &lt;code&gt;&#13;
+                case 'sort_key':&#13;
+                    $objectA = self::getObjectAttributeSortKey( $objectA, $attributeName );&#13;
+                    $objectB = self::getObjectAttributeSortKey( $objectB, $attributeName );&#13;
+&#13;
+                    $objectAAttributeValue = '';&#13;
+                    $objectBAttributeValue = '';&#13;
+&#13;
+		      // if price is gt... (sort_key_int)&#13;
+                    if ( $objectA &gt; $objectB ) {&#13;
+                        // Making ObjectA to be less than ObjectB&#13;
+                        // Jumping to comparing function&#13;
+			   $objectAAttributeValue = 'a';&#13;
+                        $objectBAttributeValue = 'b';&#13;
+                    } else {&#13;
+			   $objectAAttributeValue = 'b';&#13;
+                        $objectBAttributeValue = 'a';&#13;
+		      }&#13;
+                    break;&#13;
+ &lt;/code&gt;&#13;
+ &lt;code&gt;&#13;
+    public static function getObjectAttributeSortKey( $object, $attributeName ) {&#13;
+        $attribute = self::getObjectAttribute( $object, $attributeName );&#13;
+&#13;
+        //sort_key_int sometimes has a difference from 1, maybe a bug...&#13;
+        //return $attribute-&gt;SortKeyInt;&#13;
+	 $Price = sprintf ( '%01.2f', $attribute-&gt;DataFloat );&#13;
+	 $PriceInt = (int) str_replace(',','',str_replace('.','',str_replace(' ','',$Price)));  &#13;
+&#13;
+        return $PriceInt;&#13;
+    }&#13;
+ &lt;/code&gt;&#13;
+ &lt;code&gt;&#13;
+{def $sorted_children = get_sorted_objects( $children_arr, array(&#13;
+    array(&#13;
+        false(),&#13;
+        array( 'sort_key', 'price' )&#13;
+    )&#13;
+))}&#13;
+ &lt;/code&gt;&#13;
+&#13;
+best regards&#13;
+scrieler</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/forum/general/additional_code</guid>
+      <pubDate>Wed, 08 Feb 2012 23:09:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>SQL-sorting</title>
+      <link>http://projects.ez.no/sortobjectsoperators/forum/general/sql_sorting</link>
+      <description>Not to remove the usefullness of this extension. However, I would recommend sorting in sql instead of in template, if possible. It's in general a lot faster and cleaner.&#13;
+&#13;
+Ref.: http://ezpedia.org/ez/extended_sort</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/forum/general/sql_sorting</guid>
+      <pubDate>Mon, 11 Jul 2011 08:25:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Initial version was added</title>
+      <link>http://projects.ez.no/sortobjectsoperators/news/initial_version_was_added</link>
+      <description>&lt;p&gt;Initial version was added&lt;/p&gt;</description>
+      <author>community@ez.no (Alex Kozeka)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/news/initial_version_was_added</guid>
+      <pubDate>Tue, 05 Jul 2011 10:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>sortobjectsoperators rev. 1 by Alex Kozeka</title>
+      <link>http://projects.ez.no/sortobjectsoperators/subversion/1</link>
+      <description>Imported initial version.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/subversion/1</guid>
+      <pubDate>Tue, 05 Jul 2011 10:01:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>sortobjectsoperators-1.0</title>
+      <link>http://projects.ez.no/sortobjectsoperators/downloads/sortobjectsoperators_1_0</link>
+      <description></description>
+      <author>community@ez.no (Alex Kozeka)</author>
+      <guid>http://projects.ez.no/sortobjectsoperators/downloads/sortobjectsoperators_1_0</guid>
+      <pubDate>Tue, 05 Jul 2011 10:01:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

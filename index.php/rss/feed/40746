@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / subtreelocation / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40746" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subtree refresh</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/subtree_refresh</link>
+      <description>Is there a way to refresh the sub items for a location link created with this without destroying and recreating the subtree location. I have this setup for a repository of products but when i add a new product to the folder I want it to inherit the location. Thanks</description>
+      <author>community@ez.no (Luke Konecki)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/subtree_refresh</guid>
+      <pubDate>Thu, 10 Jan 2013 15:39:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: GREAT idea</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/great_idea/re_great_idea</link>
+      <description>Thanks,&#13;
+&#13;
+I am currently working to add some functions like integration with ezscriptmonitor and the possibility to define depth of the operation or filter by classes. The integration with ezscriptmonitor is in the repository, i will release a version 0.2 with this functionnality this weekend.&#13;
+&#13;
+Do not hesitate to post any remarks, bug or other things to help me make this extension the best possible.&#13;
+</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/great_idea/re_great_idea</guid>
+      <pubDate>Thu, 07 Apr 2011 08:48:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GREAT idea</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/great_idea</link>
+      <description>Been waiting for years for somebody to do this!&#13;
+&#13;
+I'd just change the name to "add secondary location to subtree" ;-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/great_idea</guid>
+      <pubDate>Mon, 04 Apr 2011 08:53:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

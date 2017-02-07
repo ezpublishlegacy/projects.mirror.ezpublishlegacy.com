@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezevent / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:34:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:34:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21788" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Download is empty</title>
+      <link>http://projects.ez.no/ezevent/forum/general/download_is_empty/re_download_is_empty</link>
+      <description>You must use a SVN client to get the source code because the code as not been yet released as an archive.&#13;
+&#13;
+If you are under Windows, you could use TortoiseSVN ( http://tortoisesvn.tigris.org ).&#13;
+&#13;
+For further informations, go to the Subversion TAB of the project.&#13;
+&#13;
+&#13;
+&#13;
+Damien</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezevent/forum/general/download_is_empty/re_download_is_empty</guid>
+      <pubDate>Mon, 11 Jan 2010 09:28:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Download is empty</title>
+      <link>http://projects.ez.no/ezevent/forum/general/download_is_empty</link>
+      <description>Hi !&#13;
+&#13;
+Where can I find the download file for ezevent?&#13;
+&#13;
+Thanks a lot&#13;
+Heiner</description>
+      <author>community@ez.no (Heiner Wurbs)</author>
+      <guid>http://projects.ez.no/ezevent/forum/general/download_is_empty</guid>
+      <pubDate>Sat, 09 Jan 2010 13:09:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

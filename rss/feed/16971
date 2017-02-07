@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / objectrelationfilter / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:18 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16971" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Errors during installation</title>
+      <link>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation3</link>
+      <description>Thats good news, indeed!&#13;
+Please report further problems here!&#13;
+&#13;
+As soon as possible I'll release a new stable version, hopefully tested against 4.1 too.&#13;
+&#13;
+Thanks again,&#13;
+Norbert</description>
+      <author>community@ez.no (Norbert Wagner)</author>
+      <guid>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation3</guid>
+      <pubDate>Fri, 19 Jun 2009 20:36:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Errors during installation</title>
+      <link>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation2</link>
+      <description>Norbert, I just saw that in the docs - didn't realize it wasn't 4.1-tested yet.  The good news is it seems to be working fine (I used trunk, not stable) and it even works with an attribute of type ObjectRelationBrowse (http://projects.ez.no/objectrelationbrowse)&#13;
+&#13;
+Thanks,&#13;
+Jordan</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation2</guid>
+      <pubDate>Fri, 19 Jun 2009 20:31:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Errors during installation</title>
+      <link>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation</link>
+      <description>Hi Jordan,&#13;
+thank you for reporting, as soon as I have some time I'll look into this.&#13;
+Testing against 4.1 is one of the next steps on my todo list.&#13;
+If you are willing to investigate further, feel free to do so!&#13;
+&#13;
+Norbert&#13;
+&#13;
+</description>
+      <author>community@ez.no (Norbert Wagner)</author>
+      <guid>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation/re_errors_during_installation</guid>
+      <pubDate>Fri, 19 Jun 2009 20:29:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Errors during installation</title>
+      <link>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation</link>
+      <description>I'm trying to use this extension on an eZ 4.1.1 site and get the following errors when I activate the extension:&#13;
+&#13;
+Problems detected during autoload generation:&#13;
+&#13;
+    * Class eZOOConverter in file extension/ezodf/modules/ezodf/ezooconverter.php is already defined in:&#13;
+      extension/ezodf/classes/ezooconverter.php (var/autoload/ezp_extension.php)&#13;
+      This class was not added to the autoload array.&#13;
+&#13;
+    * Class eZOOGenerator in file extension/ezodf/modules/ezodf/ezoogenerator.php is already defined in:&#13;
+      extension/ezodf/classes/ezoogenerator.php (var/autoload/ezp_extension.php)&#13;
+      This class was not added to the autoload array.&#13;
+&#13;
+    * Class eZOOImport in file extension/ezodf/modules/ezodf/ezooimport.php is already defined in:&#13;
+      extension/ezodf/classes/ezooimport.php (var/autoload/ezp_extension.php)&#13;
+      This class was not added to the autoload array.&#13;
+&#13;
+Any ideas how to proceed?  Thank you.</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/objectrelationfilter/forum/general/errors_during_installation</guid>
+      <pubDate>Fri, 19 Jun 2009 18:38:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezjscore2/forum/general/question_about_ezscript_require by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:40:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Question about ezscript_require      /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezjscore2/forum/general'];
+menu[4] = ['Leaders', '/ezjscore2/team/leaders', 'Members', '/ezjscore2/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezjscore2.html" onmouseover="switchSubMenu( this );">eZ JSCore &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezjscore2.html">ezjscore</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        question about ezscript_req...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Question about ezscript_require </h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg19112">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 11:32:26 am</p>
+
+        <div class="attribute-long">Hi. I'm starting with ezjscore because i'm using ezstarrating.<br />
+<br />
+Previously, i was usign jquery for another custom extensions we need for this project. <br />
+so, in one of my design.ini.append.php, i had something like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[JavaScriptSettings]</span>
+
+<span class="line">JavaScriptList[]=jquery-1.3.2.min.js</span>
+
+<span class="line">JavaScriptList[]=jquery-ui-1.7.2.custom.min.js</span>
+
+<span class="line"></span></pre><br />
+<br />
+Having it like that, if i try to use ezstarrating i get a javascript error if i try to vote something. <br />
+<br />
+Error is like 'jQuery.ez is not a function'.<br />
+<br />
+If a comment out jquery in my javascript settings, this is like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[JavaScriptSettings]</span>
+
+<span class="line">#JavaScriptList[]=jquery-1.3.2.min.js</span>
+
+<span class="line">JavaScriptList[]=jquery-ui-1.7.2.custom.min.js</span>
+
+<span class="line"></span></pre><br />
+<br />
+i can vote perfectly again, but then i cannot use jquery in my other custom extension... <br />
+<br />
+so, which could be the best way to solve this? <br />
+<br />
+should i add <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezscript_require(array( concat( 'ezjsc::jquery'),&nbsp;concat( 'ezjsc::jqueryio' ) ) )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+to all templates of my other extensions, or maybe just move this line to my pagelayout? <br />
+<br />
+Thank you.<br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg19122">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 1:47:29 pm</p>
+
+        <div class="attribute-long">I guess you only have this issue in admin?<br />
+<br />
+One solution could be to remove (override and remove) this code block in 'design/admin/templates/pagelayout.tpl':<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{section name=JavaScript loop=ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) }</span>
+
+<span class="line">&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot; src={concat( 'javascript/',$:item )|ezdesign}&gt;&lt;/script&gt;</span>
+
+<span class="line">{/section}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And change (override and change) 'extension/ezjscore/design/admin/templates/page_head.tpl':<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{* Load JavaScript dependencys *}</span>
+
+<span class="line">{ezscript_load()}</span>
+
+<span class="line"></span></pre><br />
+<br />
+To<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{* Load JavaScript dependencys + JavaScriptList *}</span>
+
+<span class="line">{ezscript_load( ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+And change:<br />
+JavaScriptList[]=jquery-1.3.2.min.js<br />
+<br />
+to<br />
+JavaScriptList[]=ezjsc::jquery<br />
+<br />
+<br />
+The other way is to start to use this everywhere you need jquery code:<br />
+{ezscript_require('ezjsc::jquery')}<br />
+<br />
+<br />
+BTW: where did you get the 'concat' from? Thats not needed when your not actually concating strings.<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19125">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 2:05:49 pm</p>
+
+        <div class="attribute-long">Sorry about the concat. it was my fault. <br />
+just rests of the test i did related to <br />
+<a href="../../../ezstarrating/forum/general/jquery_code_for_voting.html#msg19068" title="http://projects.ez.no/ezstarrating/forum/general/jquery_code_for_voting#msg19068">http://projects.ez.no/ezstarratin...eral/jquery_code_for_voting#msg19068</a><br />
+<br />
+there we talked about choosing yui3 or jquery. <br />
+<br />
+Your solution seems to work. Thank you again.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19127">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 2:10:27 pm</p>
+
+        <div class="attribute-long">Ok, nop :)<br />
+<br />
+Which of the solutions?
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19129">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 2:21:08 pm</p>
+
+        <div class="attribute-long">First one. Seems to be more elegant than having to add that piece of code if we need more extensions in the future<br />
+Best Regards.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19133">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 3:34:47 pm</p>
+
+        <div class="attribute-long">Ok, thanks for testing :)<br />
+Will try to get the need changes to 4.2 pagelayout templates so this doesn't happen there.<br />
+<br />
+BTW: bundled jquery-1.3.2.min now.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19151">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 10:43:22 am</p>
+
+        <div class="attribute-long">Hi again. <br />
+<br />
+Following with my question, now i have another issue. After testing your solution my design.ini.append.php looks like<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[JavaScriptSettings]</span>
+
+<span class="line">..</span>
+
+<span class="line">JavaScriptList[]=ezjsc::jquery</span>
+
+<span class="line">..</span>
+
+<span class="line"></span></pre><br />
+<br />
+But now i'm trying to work with another extension. i need a jquery plugin for it. it's called treeview, and there's a script called jquery.treeview.min.js needed to work (Btw, it converts a nested list in a nice treeview). I only need this script for this specific part of my project, so i tried to load it from this template and not for entire the admin zone. <br />
+<br />
+So, in my template i have <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezscript_require( array('jquery.treeview.min.js', 'jquery.cookie.js') )}</span>
+
+<span class="line"></span></pre><br />
+(jquery.cookie is used for remember the last state of the tree). <br />
+<br />
+Now, i'm getting javascript error. I think is because these scripts are added to the packed file before jquery. error looks like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">jQuery is not defined</span>
+
+<span class="line"></span></pre><br />
+<br />
+I set DeveloptmentMode to enable to see what happens and this is what i get in my &lt;head&gt;<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot; src=&quot;/extension/filtros/design/standard/javascript/jquery.treeview.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span>
+
+<span class="line">&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot; src=&quot;/extension/filtros/design/standard/javascript/jquery.cookie.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span>
+
+<span class="line">&lt;script language=&quot;javascript&quot; type=&quot;text/javascript&quot; src=&quot;/extension/ezjscore/design/standard/javascript/jquery-1.3.2.min.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span>
+
+<span class="line">---</span>
+
+<span class="line"></span></pre><br />
+<br />
+I don't know if we can find a way to force jquery to be added first to the packed files or something... <br />
+<br />
+Best Regards.<br />
+Carlos.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19156">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 1:02:14 pm</p>
+
+        <div class="attribute-long">What if you do it like:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezscript_require( array('ezjsc::jquery', 'jquery.treeview.min.js', 'jquery.cookie.js') )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+If you instead want them on all pages, do something like:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">[JavaScriptSettings]</span>
+
+<span class="line">JavaScriptList[]=ezjsc::jquery</span>
+
+<span class="line">JavaScriptList[]=jquery.treeview.min.js</span>
+
+<span class="line">JavaScriptList[]=jquery.cookie.js</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19157">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 1:17:07 pm</p>
+
+        <div class="attribute-long">Yeah. Both forms work, but:<br />
+- The first one requires me to add jquery in every templates where i need jquery<br />
+- The second one will load jquery.treeview and jquery.cookie.js in every 'page', even i don't need them...<br />
+<br />
+Would be too hard change the way that files are added to the packed one? I mean, it seems that actually, ezscript_require calls in templates are readed before JavaScriptSettings in ini files... <br />
+If this could be changed to &quot;read ini files first and then add all what templates need&quot;, all will be ok for me. <br />
+<br />
+But i'm afraid this is not an easy one... <br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19161">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 2:21:39 pm</p>
+
+        <div class="attribute-long">I can do that, but I got the impression that you had to add the code* you mentioned anywhere you used it anyway.<br />
+<br />
+<br />
+*<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezscript_require( array('jquery.treeview.min.js', 'jquery.cookie.js') )}</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19162">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 2:32:27 pm</p>
+
+        <div class="attribute-long">Sorry. Would you mean i will have to add this line of code everywhere or only everywhere where i need those scripts?<br />
+i mean this line<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{ezscript_require( array('jquery.treeview.min.js', 'jquery.cookie.js') )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+If only where i need that's what i need... <br />
+<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19163">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 2:53:36 pm</p>
+
+        <div class="attribute-long">Forget it, to many lost in translation threads today, I'll just fix it.<br />
+<br />
+UPDATE: Fixed in svn, please test.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19174">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 04 September 2009 4:47:23 pm</p>
+
+        <div class="attribute-long">It works like a charm! <br />
+<br />
+Thanks a lot. <br />
+Carlos.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19255">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 08 September 2009 8:12:13 pm</p>
+
+        <div class="attribute-long">Hi!<br />
+<br />
+Small update: Fix for the issue you had earlier in admin design where &quot;JavaScriptList&quot; files would override scripts from &quot;ezscript_require&quot; is now fixed in eZ Publish 4.2:<br />
+<a href="http://issues.ez.no/IssueView.php?Id=15440&amp;" title="http://issues.ez.no/IssueView.php?Id=15440&amp;">http://issues.ez.no/IssueView.php?Id=15440&amp;</a><br />
+<br />
+Additionally it's now possible to use ezcss_require() for both admin and webin design out of the box (So we for instance don't have to load css with javascript in ezstarrating) ;-)
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezjscore2/forum/general/question_about_ezscript_require by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:40:43 GMT -->
+</html>

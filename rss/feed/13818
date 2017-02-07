@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsi / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:49 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13818" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsi 1.1</title>
+      <link>http://projects.ez.no/ezsi/downloads/ezsi_1_1</link>
+      <description>&lt;p&gt;1.1 version of the extension&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/downloads/ezsi_1_1</guid>
+      <pubDate>Tue, 09 Jun 2009 14:38:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi1.0</title>
+      <link>http://projects.ez.no/ezsi/downloads/ezsi1_0</link>
+      <description>&lt;p&gt;1.0 stable is out.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/downloads/ezsi1_0</guid>
+      <pubDate>Thu, 02 Apr 2009 12:16:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi-1.0alpha</title>
+      <link>http://projects.ez.no/ezsi/downloads/ezsi_1_0alpha</link>
+      <description> &lt;p&gt;First alpha version of ezsi for PHP5&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/downloads/ezsi_1_0alpha</guid>
+      <pubDate>Fri, 30 Jan 2009 15:25:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

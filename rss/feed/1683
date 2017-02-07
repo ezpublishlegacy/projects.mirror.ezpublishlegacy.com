@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezftp / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:45:23 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:45:23 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1683" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezftp rev. 24 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/24</link>
+      <description>added missing .ini settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/24</guid>
+      <pubDate>Fri, 05 Jun 2009 12:05:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 23 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/23</link>
+      <description>some clean up</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/23</guid>
+      <pubDate>Thu, 10 Jul 2008 22:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 22 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/22</link>
+      <description>moved $GLOBALS['eZFTPDataPortPool']</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/22</guid>
+      <pubDate>Thu, 10 Jul 2008 22:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 21 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/21</link>
+      <description>fixed INSTALL.txt</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/21</guid>
+      <pubDate>Wed, 09 Jul 2008 20:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 20 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/20</link>
+      <description>fixed INSTALL.txt</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/20</guid>
+      <pubDate>Wed, 09 Jul 2008 20:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 18 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/18</link>
+      <description>-- added support for RNFR and RNTO (renaming only)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/18</guid>
+      <pubDate>Sun, 06 Jul 2008 12:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 19 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/19</link>
+      <description>changed milestone (now 0.0.3)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/19</guid>
+      <pubDate>Sun, 06 Jul 2008 12:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 17 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/17</link>
+      <description>- released 0.0.2 (unstable)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/17</guid>
+      <pubDate>Sun, 06 Jul 2008 11:15:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 15 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/15</link>
+      <description>- changed milestone</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/15</guid>
+      <pubDate>Sun, 06 Jul 2008 11:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 16 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/16</link>
+      <description>- released 0.0.2 (unstable)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/16</guid>
+      <pubDate>Sun, 06 Jul 2008 11:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 14 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/14</link>
+      <description>- changed milestone</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/14</guid>
+      <pubDate>Sun, 06 Jul 2008 11:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 13 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/13</link>
+      <description>- some cleaning in code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/13</guid>
+      <pubDate>Sat, 05 Jul 2008 20:45:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 11 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/11</link>
+      <description>- some cleaning in code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/11</guid>
+      <pubDate>Sat, 05 Jul 2008 20:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 12 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/12</link>
+      <description>- some cleaning in code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/12</guid>
+      <pubDate>Sat, 05 Jul 2008 20:35:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 10 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/10</link>
+      <description>-- added support of RMD command</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/10</guid>
+      <pubDate>Sat, 05 Jul 2008 14:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 9 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/9</link>
+      <description>back to rev. 4 (binding socket on every available IPs) does'nt work</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/9</guid>
+      <pubDate>Sat, 05 Jul 2008 13:45:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 8 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/8</link>
+      <description>-- fixed bug http://projects.ez.no/ezftp/forum/bug_report/bug_with_cwd_command_utf8_mode_not_enabled</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/8</guid>
+      <pubDate>Sat, 05 Jul 2008 12:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 7 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/7</link>
+      <description>By default bind sockets on every avalaible IPs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/7</guid>
+      <pubDate>Fri, 04 Jul 2008 08:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 6 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/6</link>
+      <description>-- added support for RMD command</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/6</guid>
+      <pubDate>Thu, 03 Jul 2008 20:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 5 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/5</link>
+      <description>-- added support for DELE command</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/5</guid>
+      <pubDate>Thu, 03 Jul 2008 20:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 4 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/4</link>
+      <description>standard value for ListenAdress in ezftp.ini</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/4</guid>
+      <pubDate>Thu, 03 Jul 2008 19:15:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 3 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/3</link>
+      <description>firt import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/3</guid>
+      <pubDate>Thu, 03 Jul 2008 19:00:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 2 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/2</link>
+      <description>created base tree</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/2</guid>
+      <pubDate>Thu, 03 Jul 2008 18:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezftp rev. 1 by Damien Pitard</title>
+      <link>http://projects.ez.no/ezftp/subversion/1</link>
+      <description>created base tree</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezftp/subversion/1</guid>
+      <pubDate>Thu, 03 Jul 2008 18:50:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

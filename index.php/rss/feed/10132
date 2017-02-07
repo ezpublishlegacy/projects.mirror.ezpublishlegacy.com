@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezftp / Forum / Bug report</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:22:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:22:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10132" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: How do multiclient download at the same time?</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time/re_how_do_multiclient_download_at_the_same_time2</link>
+      <description>Hi,&#13;
+&#13;
+I'm researching about FTP server, sockets programming and found out your code randomly. I'm trying to learn more about multithreading because my knownledge is still limited.&#13;
+&#13;
+Thank you for answering. &#13;
+&#13;
+Nghia Nguyen&#13;
+&#13;
+</description>
+      <author>community@ez.no (Nghia Nguyen)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time/re_how_do_multiclient_download_at_the_same_time2</guid>
+      <pubDate>Thu, 11 Jun 2009 02:43:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How do multiclient download at the same time?</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time/re_how_do_multiclient_download_at_the_same_time</link>
+      <description>Hi Nghia, &#13;
+&#13;
+eZFTP still is unstable and needs a lot of work until it can be considered stable.&#13;
+Unfortunately I don't have enough time to work on it for now.&#13;
+&#13;
+If you plan to improve this extension by yourself, I'll enjoy to commit your code on the SVN.&#13;
+&#13;
+Damien</description>
+      <author>community@ez.no (Damien Pitard)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time/re_how_do_multiclient_download_at_the_same_time</guid>
+      <pubDate>Wed, 10 Jun 2009 12:12:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>How do multiclient download at the same time?</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time</link>
+      <description>Hi,&#13;
+&#13;
+Your software is very good. However, when there are many client (&gt;1) download at the same time, they have to queue to wait, it take a long time.&#13;
+&#13;
+This seem not support multithread to help multiclient can download at the same time. For example to fork a process for multi client download at the same time.&#13;
+&#13;
+Can you help me to do that.&#13;
+&#13;
+Thank you so much.</description>
+      <author>community@ez.no (Nghia Nguyen)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/how_do_multiclient_download_at_the_same_time</guid>
+      <pubDate>Wed, 10 Jun 2009 03:13:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Missing default .ini settings</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/missing_default_ini_settings/re_missing_default_ini_settings</link>
+      <description>Thanks Bard,&#13;
+Now fixed in rev. 24</description>
+      <author>community@ez.no (Damien Pitard)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/missing_default_ini_settings/re_missing_default_ini_settings</guid>
+      <pubDate>Fri, 05 Jun 2009 12:03:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missing default .ini settings</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/missing_default_ini_settings</link>
+      <description>Just tested revision 23 with eZ Publish 4.1.1 and it works quite well. Tested under OSX with Transmit as ftp client.&#13;
+&#13;
+There was a few missing .ini settings and the FolderSettings ini block definition. Add the following to ezftp.ini:&#13;
+&lt;code&gt;&#13;
+[FolderSettings]&#13;
+FolderClassID=1&#13;
+NameAttribute=name&lt;/code&gt;&#13;
+&#13;
+--bård</description>
+      <author>community@ez.no (Bård Farstad)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/missing_default_ini_settings</guid>
+      <pubDate>Wed, 27 May 2009 20:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: bug with CWD command (UTF8 mode not enabled)</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/bug_with_cwd_command_utf8_mode_not_enabled/re_bug_with_cwd_command_utf8_mode_not_enabled</link>
+      <description>Fixed in rev. 8</description>
+      <author>community@ez.no (Damien Pitard)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/bug_with_cwd_command_utf8_mode_not_enabled/re_bug_with_cwd_command_utf8_mode_not_enabled</guid>
+      <pubDate>Sat, 05 Jul 2008 12:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>bug with CWD command (UTF8 mode not enabled)</title>
+      <link>http://projects.ez.no/ezftp/forum/bug_report/bug_with_cwd_command_utf8_mode_not_enabled</link>
+      <description>UTF8 mode not enabled :&#13;
+&#13;
+Command:        CWD /fre/Content/&#13;
+Answer:            250 Ok. Current directory is /fre/Content&#13;
+Command:        PWD&#13;
+Answer:            257 "/fre/Content" is current your location&#13;
+Command:        TYPE A&#13;
+Answer:            200 TYPE is now ASCII mode&#13;
+Command:        PASV&#13;
+Answer:            227 Entering Passive Mode (192,168,1,2,58,153)&#13;
+Command:        LIST&#13;
+Answer:            150 Opening data connection&#13;
+Trace :	dr-xr-x--- 1 ezpublish      ezpublish      0         Jun 27 19:51 ééé&#13;
+Command:        CWD ééé&#13;
+Answer:            550 Can't change directory to /fre/Content/ééé: No such file or directory&#13;
+&#13;
+It work with UTF8 mode enabled...</description>
+      <author>community@ez.no (Damien Pitard)</author>
+      <guid>http://projects.ez.no/ezftp/forum/bug_report/bug_with_cwd_command_utf8_mode_not_enabled</guid>
+      <pubDate>Thu, 03 Jul 2008 20:25:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

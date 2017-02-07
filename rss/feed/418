@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsurvey / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:25 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:25 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/418" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsurvey rev. 8 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/8</link>
+      <description>ezsurvey: fixed checkbox design</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 6 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/6</link>
+      <description>- improved layout
+- created new package for 3.8</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 7 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/7</link>
+      <description>- Improved XHTML and style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 4 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/4</link>
+      <description>- commit changes for 3.8
+- reference fixes
+- interface improvements </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 5 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/5</link>
+      <description>- Improved XHTML and style</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 2 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/2</link>
+      <description>v. 1.1 http://ez.no/community/contribs/applications/ez_survey__1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/3</link>
+      <description>PHP 4.4 fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsurvey/subversion/1</link>
+      <description>Initial trunk (v. 1.0 http://ez.no/community/contribs/applications/ez_survey)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

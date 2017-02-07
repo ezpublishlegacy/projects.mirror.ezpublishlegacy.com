@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezapprove2 / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:41:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:41:04 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/7209" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezapprove2 rev. 2508 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2508</link>
+      <description>- Fixed bug: several strict warnings in ezapprove2collaborationhandler</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2508</guid>
+      <pubDate>Fri, 18 Jul 2008 09:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2507 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2507</link>
+      <description>- Fixed bug: there is trailing whitespace in the source code
+- Update license headers to eZ Systems with big S and to year 2008 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2507</guid>
+      <pubDate>Thu, 05 Jun 2008 16:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2506 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2506</link>
+      <description>- Updated links to 4.0 documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2506</guid>
+      <pubDate>Thu, 05 Jun 2008 16:40:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2504 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2504</link>
+      <description>Fixed method definitions to match eZCollaborationItemHandler to stop strict messages
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2504</guid>
+      <pubDate>Tue, 04 Mar 2008 08:05:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2505 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2505</link>
+      <description>Fix for placement of a previously unpublished object that is edited
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2505</guid>
+      <pubDate>Tue, 04 Mar 2008 08:05:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2502 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2502</link>
+      <description>Typo in const
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2502</guid>
+      <pubDate>Tue, 04 Mar 2008 08:05:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2503 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2503</link>
+      <description>Corrected typo in const for role approver
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2503</guid>
+      <pubDate>Tue, 04 Mar 2008 08:05:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2501 by Bruce Morrison</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2501</link>
+      <description>fixed "Placed in:" for items previously unpublished
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2501</guid>
+      <pubDate>Tue, 04 Mar 2008 08:05:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2500 by Thomas Weustenfeld</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2500</link>
+      <description>- Fixed missing static in ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2500</guid>
+      <pubDate>Mon, 25 Feb 2008 14:24:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2487 by Thomas Weustenfeld</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2487</link>
+      <description>- Added eZ Approve 2 for eZ Publish 4 (PHP5 port)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2487</guid>
+      <pubDate>Mon, 25 Feb 2008 14:24:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2458 by Dirk Schmedding</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2458</link>
+      <description>- Added ez publish 4 branch.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2458</guid>
+      <pubDate>Mon, 25 Feb 2008 14:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 2089 by Vidar Langseid</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/2089</link>
+      <description>- Fixed checkout problem:
+  ezapprove2/share/ was removed in rev 1186, while it was linked with svn:externals to ezapprove2/releases/0.4/extension/ezapprove2/ and ezapprove2/releases/0.5/extension/ezapprove2/. This caused error (Not Found) on checkout
+  Fixed this in the following way:
+  - Removed svn:externals in ezapprove2/releases/0.4/extension/ezapprove2 and ezapprove2/releases/0.5/extension/ezapprove2
+  - Copied content of ezapprove2/share/translations (from rev 1185) to releases/0.4/extension/ezapprove2/translations and releases/0.4/extension/ezapprove2/translations   
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/2089</guid>
+      <pubDate>Mon, 25 Feb 2008 14:24:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1425 by Sergiy Pushchin</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1425</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1425</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1424 by Sergiy Pushchin</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1424</link>
+      <description>- Enhanced multioption datatype.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1424</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1225 by Tobias Struckmeier</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1225</link>
+      <description>- Added norwegian translation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1225</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1187 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1187</link>
+      <description>- Added translations.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1187</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1186 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1186</link>
+      <description>- Moved translations from share to trunk.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1186</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1171 by Tobias Struckmeier</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1171</link>
+      <description>- Added some norwegian strings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1171</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 1036 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/1036</link>
+      <description>- Minor update to sql scema.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/1036</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 802 by Tobias Struckmeier</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/802</link>
+      <description>-Moved stable to releases
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/802</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 815 by Tobias Struckmeier</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/815</link>
+      <description>-Reverted change
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/815</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 626 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/626</link>
+      <description>- Added extension info.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/626</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 627 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/627</link>
+      <description>- Added extension information files.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/627</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 462 by Adri Rots</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/462</link>
+      <description>moved jaxx folder to standard design
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/462</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 235 by Kristian Hole</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/235</link>
+      <description>- Improved the readme with examples on how to use the extension
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/235</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 232 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/232</link>
+      <description>- Added stable 0.6 release.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/232</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 233 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/233</link>
+      <description>- Added upgrade and changelogs.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/233</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 227 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/227</link>
+      <description>- Added 0.5 release.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/227</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 231 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/231</link>
+      <description>- Objects are now available in drafts list if the user aborts the publishing procedure while
+  selecting approvers.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/231</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 224 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/224</link>
+      <description>- updated translations.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/224</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 226 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/226</link>
+      <description>- Fixed bug when using the multiplexer. See also: http://ez.no/bugs/view/7898
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/226</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 222 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/222</link>
+      <description>- Updated translations context.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/222</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 223 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/223</link>
+      <description>- Added norwegian translation.
+- Updated translations context.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/223</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 220 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/220</link>
+      <description>- Added stable 0.4 release.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/220</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 221 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/221</link>
+      <description>- Updated changelog.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/221</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 217 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/217</link>
+      <description>*Features:
+- Added setting for ezapprove2 as translation extension.
+- Added german translation.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/217</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 218 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/218</link>
+      <description>- Added translation as svn external.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/218</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 219 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/219</link>
+      <description>- Added 0.3 to 0.4 upgrade file.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/219</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 215 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/215</link>
+      <description>- Fixed so settings for predefined approval setup does not interfere with 
+  user defined approver option.
+- Added support for allowing user to decide number of required approvers.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/215</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 216 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/216</link>
+      <description>- Added stable 0.3 release.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/216</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 213 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/213</link>
+      <description>- Added 0.2-0.3 changelog.
+- Fixed several minor issues.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/213</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 214 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/214</link>
+      <description>- Removed rollbacking rejected to draft status.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/214</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 211 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/211</link>
+      <description>- Fixed bug explained here: http://ez.no/community/forum/developer/ezapprove2_cannot_reject_changes/
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/211</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 212 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/212</link>
+      <description>- Fixed so approvers do not need to get their content approved.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/212</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 206 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/206</link>
+      <description>- Experimental: Added support for temporary node creation on draft creation.
+- Experimental: Added support for related object locking.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/206</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 207 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/207</link>
+      <description>- Moved files.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/207</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 208 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/208</link>
+      <description>- Branched of stable 0.2 branch.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/208</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 204 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/204</link>
+      <description>- Replaced license headers.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/204</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 205 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/205</link>
+      <description>- Added changelogs
+- Added support for custom users and user groups.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/205</guid>
+      <pubDate>Mon, 25 Feb 2008 14:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezapprove2 rev. 202 by Kåre  Køhler Høvik</title>
+      <link>http://projects.ez.no/ezapprove2/subversion/202</link>
+      <description>- Added ezapprove2 extension.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezapprove2/subversion/202</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

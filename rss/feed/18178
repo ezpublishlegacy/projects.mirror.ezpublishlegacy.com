@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezjscore / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18178" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZJSCore 1.2.0</title>
+      <link>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_2_0</link>
+      <description></description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_2_0</guid>
+      <pubDate>Mon, 04 Oct 2010 12:02:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZJSCore 1.1.0</title>
+      <link>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_1_0</link>
+      <description>&lt;p&gt;Third stable release of eZ JS Core, this extension is bundled with eZ Publish 4.3 and used by eZ Publish, ezstarrating, ezwebin, ezoe and ezflow.&lt;/p&gt;&lt;p&gt; Included: &lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Yui 2.7.0&lt;/li&gt;
+
+&lt;li&gt;Yui 3.0.0&lt;/li&gt;
+
+&lt;li&gt;jQuery 1.4.2&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;a name="eztoc106417_0_0_0_0_0_1" id="eztoc106417_0_0_0_0_0_1"&gt;&lt;/a&gt; 
+&lt;h6&gt;Changes:&lt;/h6&gt;&lt;p&gt;NB: There is an regression on DFS cluster setups, for more info and patch look &lt;a href="http://issues.ez.no/IssueView.php?Id=16669&amp;activeItem=29" target="_blank"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Access rights have been improved to support more advance policy setups, this benefits both the has_access_to_limitation template operator and the ezjscore/call ajax calls.&lt;/p&gt;&lt;p&gt;Y.io.ez() have been enhanced so second parameter support things Y.io support, like c.method to force GET request, and c.arguments to be able to pass arguments to c.on.success call. Additionally eZ Publish root url is exposed in Y.io.ez.root_url.&lt;/p&gt;&lt;p&gt;jQuery.ez() have also been enhanced slightly, post parameter can now be false to force GET request, serializeArray() format to be able to pass directly from forms and object format like before. Additionally eZ Publish root url is exposed in jQuery.ez.root_url.&lt;/p&gt;&lt;p&gt;css/js packer now has a setting (in ezjscore.ini) to enable adding modified time to name of the cached file, thus allowing CDN's and other http cache solutions to be setup with more agressive caching.&lt;/p&gt;&lt;p&gt;Thanks to xrow it is now possible to set your own error_text strings in ajax calls using exceptions, further info / enhancements can be suggested &lt;a href="http://projects.ez.no/ezjscore/forum/general/how_to_feed_data_error_text#msg25066" target="_blank"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;It's now possible to clear packer files from admin interface and cli, but make sure you clear template block cache as well when you do it, so you don't risk that none existing files are referred to in your html output.&lt;/p&gt;&lt;p&gt;eZ Publish requirement has been increased to 4.1, but will work on 4.0.x also if you don't use ezjsc::search (ezflow 2.1 uses it, and next version of ezoe, 5.2)&lt;/p&gt;&lt;p&gt;For full list, see &lt;a href="http://svn.projects.ez.no/ezjscore/versions/1.1.0/packages/ezjscore_extension/ezextension/ezjscore/CHANGELOG" target="_blank"&gt;CHANGELOG&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_1_0</guid>
+      <pubDate>Tue, 20 Apr 2010 14:31:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezjscore_demo 1.0.0</title>
+      <link>http://projects.ez.no/ezjscore2/downloads/archive/ezjscore_demo_1_0_0</link>
+      <description>&lt;p&gt;A Demo extension to show off simple use of ezjscore, this is the one being used as example in the ezjscore article (eta 22. december 2009).&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/downloads/archive/ezjscore_demo_1_0_0</guid>
+      <pubDate>Mon, 21 Dec 2009 12:26:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZJSCore 1.0.1</title>
+      <link>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_0_1</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Second stable release of eZ JS Core, this extension is bundled with eZ Publish 4.2 and used by ezstarrating, ezwebin and ezflow. In the future it will also be used by Online Editor (5.1) and eZ Publish(4.3) as well. &lt;/p&gt;&lt;p&gt;Included: &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Yui 2.7.0&lt;/li&gt;
+
+&lt;li&gt;Yui 3.0.0&lt;/li&gt;
+
+&lt;li&gt;jQuery 1.3.2&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Update to YUI 2.8.x will have to wait until a &lt;a href="http://yuilibrary.com/projects/yui2/ticket/2528488" target="_blank"&gt;regression&lt;/a&gt; affecting ezflow is fixed.&lt;/p&gt;&lt;p&gt;
+ &lt;br /&gt;Fixes from 1.0.0 (Inlcuded in eZ Publish 4.2.0):&lt;/p&gt;&lt;p&gt;
+- Fixed bug: ie6 issue with Y.io.ez&lt;br /&gt;
+- Updated YUI 3.0.0 to GA&lt;br /&gt;- Fixed bug #15606: Admin Content Tree images not found&lt;/p&gt;&lt;p&gt;Fixes from 1.0.0rc2 (previous uploaded package):&lt;/p&gt;&lt;p&gt;
+- Added FAQ and CHANGELOG&lt;br /&gt;- Moved [eZJSCore]Packer=disabled from site.ini to ezjscore.ini to comply with eZ Network certification&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_0_1</guid>
+      <pubDate>Thu, 01 Oct 2009 16:27:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZJSCore 1.0.0</title>
+      <link>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_0_0</link>
+      <description>&lt;p&gt;First stable release of eZ JS Core, this extension is bundled with eZ Publish 4.2 and used by ezstarrating, ezwebin and ezflow. In the future it will also be used by Online Editor (5.1) and eZ Publish(4.3) as well.&lt;/p&gt;&lt;p&gt;Included:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Yui 2.7.0&lt;/li&gt;
+
+&lt;li&gt;Yui 3.0.0 beta1&lt;/li&gt;
+
+&lt;li&gt;jQuery 1.3.2&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;A new version with Yui 2.8.0 will most likely come out as soon as 3.0.0 GA is out as well, and we have done testing to make sure it doesn't break anything in ezstarrating, ezwebin and ezflow.&lt;/p&gt;&lt;p&gt;UPDATE: file updated 22.09.09 with minor fixes from svn (from rev. 41 to 47)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/downloads/ezjscore_1_0_0</guid>
+      <pubDate>Thu, 17 Sep 2009 16:34:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

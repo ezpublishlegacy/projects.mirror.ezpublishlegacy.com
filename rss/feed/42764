@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpublishbuilder</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42764" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/749d87685ab4ab9ac24080e3984383efdb5d25e6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix doc generation w. samy, take 1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/749d87685ab4ab9ac24080e3984383efdb5d25e6</guid>
+      <pubDate>Wed, 13 Nov 2013 02:31:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/f1f71deb277af1c2c743e5095955d181b3dd1952</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Split off ms-wpi task to separate class; fix tasks relying on talking to jenkins; building ms-wpi is not part of standard build anymore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/f1f71deb277af1c2c743e5095955d181b3dd1952</guid>
+      <pubDate>Wed, 06 Nov 2013 17:21:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/e0b5b02f40d5ca82b54fe021aadeee50eeecdd4a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix one warning when using update-ci-repo --skip-update-ci-repo-source;
+Fix update-ci-repo task for Pake &gt;= 1.7.2
+Make update-ci-repo task a bit more intelligent: check if there already in the ci repo a patch file for current changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/e0b5b02f40d5ca82b54fe021aadeee50eeecdd4a</guid>
+      <pubDate>Wed, 06 Nov 2013 17:21:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/a0f2b8ffeb3b41c9a71352e4364b3fd39d786561</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve changelog generation: trust more jira than commit messages in issue categorization&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/a0f2b8ffeb3b41c9a71352e4364b3fd39d786561</guid>
+      <pubDate>Wed, 06 Nov 2013 17:21:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/e16a6c96ad5dec780242bdc2bbadeb5141d48d8a</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;typo fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/e16a6c96ad5dec780242bdc2bbadeb5141d48d8a</guid>
+      <pubDate>Wed, 24 Apr 2013 15:41:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/ebd31571917f57de37608dd945e43d20636ae8b0</link>
+      <description>
+      &lt;pre&gt;m pake/doxyfile_master
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update doxyfile to rev. 1.8.3 of doxygen&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/ebd31571917f57de37608dd945e43d20636ae8b0</guid>
+      <pubDate>Wed, 17 Apr 2013 14:11:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/18</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/18</guid>
+      <pubDate>Mon, 30 Jul 2012 14:15:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/dde2033944c80ef0618c20b396b7ab5ce6200912</link>
+      <description>
+      &lt;pre&gt;m pake/doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update todo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/dde2033944c80ef0618c20b396b7ab5ce6200912</guid>
+      <pubDate>Fri, 01 Jun 2012 09:03:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/bc77ba447bac29d84cb0f988b056c0cef2a47f07</link>
+      <description>
+      &lt;pre&gt;m pake/doc/changelogs/CHANGELOG-0.1-to-0.2
++ pake/doc/changelogs/CHANGELOG-0.2-to-0.3
+m pake/src/bin/pake.php
+m pake/src/lib/pake/init.php
+m pake/src/lib/pake/pakeApp.class.php
+m pake/src/lib/pake/pakeFinder.class.php
+m pake/src/lib/pake/pakeFunction.php
+m pake/src/lib/pake/pakeMercurial.class.php
++ pake/src/lib/pake/pakePHPDoc.class.php
+m pake/src/lib/pake/pakeRSync.class.php
+m pake/src/lib/pake/pakeSSH.class.php
+m pake/src/lib/pake/pakeSubversion.class.php
+m pake/src/lib/pake/pakeTask.class.php
+m pake/src/lib/pake/tasks/pakePearTask.class.php
+m pake/src/lib/pake/tasks/pakePhpExtensionTask.class.php
+m pake/src/lib/pake/tasks/pakeSimpletestTask.class.php
+m pake/src/options.yaml
+m pake/src/package.xml.tmpl
+m pake/src/pakefile.php
+m pake/src/phar-stub.php
+m pake/src/test/pakeFinderTest.php
+m pake/src/test/pakeGetoptTest.php
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;* Upgrade pake to vertsion 1.6.3
+* Update changelogs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/bc77ba447bac29d84cb0f988b056c0cef2a47f07</guid>
+      <pubDate>Tue, 03 Apr 2012 12:28:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/e44f931d4fd3d4de03bc503ac2047d066117a51c</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pake/src/lib/pake/pakeFunction.php
+m pake/src/lib/pake/pakeGit.class.php
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve usage of pake_which on windows;
+Allow to find git command in different paths;
+Fixes (not yet 100% working) to the task to update the build config in the ci github repo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/e44f931d4fd3d4de03bc503ac2047d066117a51c</guid>
+      <pubDate>Thu, 29 Mar 2012 16:50:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/17</link>
+      <description>Release vesrion 0.2 of the eZPublishbuilder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/17</guid>
+      <pubDate>Mon, 06 Feb 2012 13:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/f04017ed000043e162e7ad2d61a17ed41fa2a377</link>
+      <description>
+      &lt;pre&gt;m pake/doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More todos&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/f04017ed000043e162e7ad2d61a17ed41fa2a377</guid>
+      <pubDate>Fri, 03 Feb 2012 18:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/2c6a8a3386fd6fb05953116053f6663c477924b0</link>
+      <description>
+      &lt;pre&gt;+ pake/INSTALL
+m pake/README
+m pake/doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/2c6a8a3386fd6fb05953116053f6663c477924b0</guid>
+      <pubDate>Fri, 03 Feb 2012 17:20:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/05ee56191735f82d658c0717563d3437c24f02c0</link>
+      <description>
+      &lt;pre&gt;m pake/README
+m pake/doc/todo
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add new task: download tarball of a build from jenkins&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/05ee56191735f82d658c0717563d3437c24f02c0</guid>
+      <pubDate>Fri, 03 Feb 2012 16:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/5fcd46aacfa4d094ec2e5bf6dee7cff0bdbb49df</link>
+      <description>
+      &lt;pre&gt;m pake/doc/todo
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix task "update-ci-repo": name of new diff file is now correctly generated&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/5fcd46aacfa4d094ec2e5bf6dee7cff0bdbb49df</guid>
+      <pubDate>Fri, 03 Feb 2012 16:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/da17c47d1e243a8e88b2c0e5e452e9b4e4518409</link>
+      <description>
+      &lt;pre&gt;m pake/doc/changelogs/CHANGELOG-0.1-to-0.2
+m pake/doc/todo
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Big overhaul&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/da17c47d1e243a8e88b2c0e5e452e9b4e4518409</guid>
+      <pubDate>Fri, 03 Feb 2012 16:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/df3227ae7f4b19606cefe61ac369dd83aee6a54c</link>
+      <description>
+      &lt;pre&gt;m pake/README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Clarify the usecase for this build script: it is definitely not a self-contained tool that generates the CP tarball from github sources&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/df3227ae7f4b19606cefe61ac369dd83aee6a54c</guid>
+      <pubDate>Fri, 03 Feb 2012 16:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/bdc49ee7906c17be05830ae3dfd01a2d2d5433ee</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitignore file to avoid committing build and dist directories&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/bdc49ee7906c17be05830ae3dfd01a2d2d5433ee</guid>
+      <pubDate>Fri, 03 Feb 2012 16:50:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/16</link>
+      <description>- add shutdown notice to repo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/16</guid>
+      <pubDate>Fri, 03 Feb 2012 09:30:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/f06c32bd8b3df98dbfc9720c258188b6d233c7b3</link>
+      <description>
+      &lt;pre&gt;m pake/doc/todo
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow builder to ini git repo and generate changelog file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/f06c32bd8b3df98dbfc9720c258188b6d233c7b3</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/4e3ec4529b47a6debea8dfa7f752ad66b0a7f7b8</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezpublish.yaml
+m pake/src/lib/pake/pakeGit.class.php
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updates in making the updating of the ci repo work
+Remove dead code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/4e3ec4529b47a6debea8dfa7f752ad66b0a7f7b8</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/4ee9e3b39753c3e41fb6920ec8e2714c7102ef27</link>
+      <description>
+      &lt;pre&gt;m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix changelog filename generation (inverted to and from versionns)
+One bugfix in changelog commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/4ee9e3b39753c3e41fb6920ec8e2714c7102ef27</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/933a9a58e28add7bf7122efd82beb7e0a4c866f8</link>
+      <description>
+      &lt;pre&gt;m pake/README
++ pake/doc/changelogs/CHANGELOG-0.1-to-0.2
+m pake/doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/933a9a58e28add7bf7122efd82beb7e0a4c866f8</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/105844f303fe9a4e4240b771d4ab015cb267596d</link>
+      <description>
+      &lt;pre&gt;+ pake/wpifiles/Web.config
++ pake/wpifiles/ezpcpmswpifeed.xml
++ pake/wpifiles/install.sql
++ pake/wpifiles/kickstart.ini
++ pake/wpifiles/manifest.xml
++ pake/wpifiles/parameters.xml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move wpi-related files to a dedicated subdir&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/105844f303fe9a4e4240b771d4ab015cb267596d</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/6235f802fb92f97df1f794f595e400d9c0e8c269</link>
+      <description>
+      &lt;pre&gt;m pake/doc/todo
+m pake/options-ezpublish.yaml
+m pakefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finish jobs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/6235f802fb92f97df1f794f595e400d9c0e8c269</guid>
+      <pubDate>Fri, 03 Feb 2012 00:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPublishBuilder moved to github</title>
+      <link>http://projects.ez.no/ezpublishbuilder/news/ezpublishbuilder_moved_to_github</link>
+      <description>&lt;p&gt;Here is the new source repo address: &lt;a href="https://github.com/gggeek/ezpublishbuilder" target="_self"&gt;https://github.com/gggeek/ezpublishbuilder&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/news/ezpublishbuilder_moved_to_github</guid>
+      <pubDate>Thu, 02 Feb 2012 12:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 15 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/15</link>
+      <description>- Fix size of generated package file in the feed xml (was not dividing by 1024)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/15</guid>
+      <pubDate>Mon, 05 Dec 2011 18:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version 0.1 of the ezpublishbuilder script is available</title>
+      <link>http://projects.ez.no/ezpublishbuilder/news/version_0_1_of_the_ezpublishbuilder_script_is_available</link>
+      <description>&lt;p&gt;All it can build so far is the eZ Publish Community Project package suitable for the MS Web Installer tool, starting from an existing eZ Publish installation. An exciting first step! (note: no zip is available for download, read more for how to install this tool...)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/news/version_0_1_of_the_ezpublishbuilder_script_is_available</guid>
+      <pubDate>Tue, 25 Oct 2011 18:41:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/13</link>
+      <description>- fix version nr. in bundled pake lib</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/13</guid>
+      <pubDate>Sun, 23 Oct 2011 16:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 14 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/14</link>
+      <description>- release 0.1. tah-dahn!!!</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/14</guid>
+      <pubDate>Sun, 23 Oct 2011 16:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/11</link>
+      <description>- add a check in the "build" process that user copied eZ in the right folder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/11</guid>
+      <pubDate>Sun, 23 Oct 2011 16:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/12</link>
+      <description>- changelog update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/12</guid>
+      <pubDate>Sun, 23 Oct 2011 16:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/10</link>
+      <description>- correct url for the xml feed describing the package</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/10</guid>
+      <pubDate>Sun, 23 Oct 2011 16:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/9</link>
+      <description>- more help messages for the user
+- rename main class, since this tool is aimed at the Community Project</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/9</guid>
+      <pubDate>Sun, 23 Oct 2011 15:45:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/7</link>
+      <description>- change url used to bootstrap</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/7</guid>
+      <pubDate>Sun, 23 Oct 2011 15:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/8</link>
+      <description>- add to svn the bootstrap files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/8</guid>
+      <pubDate>Sun, 23 Oct 2011 15:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/6</link>
+      <description>- added a readme file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/6</guid>
+      <pubDate>Sun, 23 Oct 2011 15:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/5</link>
+      <description>- replace in src dir the custom pakefile with the original one</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/5</guid>
+      <pubDate>Sun, 23 Oct 2011 15:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/4</link>
+      <description>- add files needed for ms wpi package build</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/4</guid>
+      <pubDate>Tue, 27 Sep 2011 14:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/2</link>
+      <description>- add full pake sources</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/2</guid>
+      <pubDate>Tue, 27 Sep 2011 14:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/3</link>
+      <description>- ignore build, dist dirs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/3</guid>
+      <pubDate>Tue, 27 Sep 2011 14:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpublishbuilder rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpublishbuilder/subversion/1</link>
+      <description>- 1st content upload</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpublishbuilder/subversion/1</guid>
+      <pubDate>Tue, 27 Sep 2011 14:15:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

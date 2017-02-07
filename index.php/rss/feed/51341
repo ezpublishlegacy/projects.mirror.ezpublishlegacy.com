@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / tuteibasebundle / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:03:59 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:03:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/51341" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/59aca0668e6f55830850e65ea5aa751e4dbbe45f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #25 from rantoniazzi/master
+
+added doctrine db connection&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/59aca0668e6f55830850e65ea5aa751e4dbbe45f</guid>
+      <pubDate>Thu, 11 Sep 2014 15:13:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/b5a952f4540accbe56958bd0632a7096fc67e306</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;change github repository&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/b5a952f4540accbe56958bd0632a7096fc67e306</guid>
+      <pubDate>Thu, 11 Sep 2014 15:13:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/e3d8842f1fe4bdd4ecba9660681cb5f4931b95ee</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added doctrine connection
+
+needed to work properly with last versions of ezp community edition&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/e3d8842f1fe4bdd4ecba9660681cb5f4931b95ee</guid>
+      <pubDate>Thu, 11 Sep 2014 15:13:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/91f6cb9d27c7d9fa44a88f4cf6db8cbca2cb4e71</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update ezinstall.sh&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/91f6cb9d27c7d9fa44a88f4cf6db8cbca2cb4e71</guid>
+      <pubDate>Thu, 11 Sep 2014 15:13:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/81d6c3f0a9ee7218e4bec04a3727b8077148f714</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Fixing image variations for front_end group&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/81d6c3f0a9ee7218e4bec04a3727b8077148f714</guid>
+      <pubDate>Fri, 03 Jan 2014 18:13:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/be6f81d59cc2d408932de0629e4f9259dc23b530</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Adding support to content.tree_root.location_id setting, now top menu, side menu and breadcrumb work properly with the chosen root node&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/be6f81d59cc2d408932de0629e4f9259dc23b530</guid>
+      <pubDate>Thu, 02 Jan 2014 02:52:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/8f7b74875d82d9d44728b7d72e91a94f7d3abe09</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Small bug fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/8f7b74875d82d9d44728b7d72e91a94f7d3abe09</guid>
+      <pubDate>Wed, 01 Jan 2014 14:03:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/269b0a83aec24f5d88bce71b037753035fb9eae2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Fixing multilanguage support, using new twig helpers.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/269b0a83aec24f5d88bce71b037753035fb9eae2</guid>
+      <pubDate>Wed, 01 Jan 2014 03:33:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/9bbf5501467a0dec9a7b8379c522c74b6904098b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Fixing siteaccess locale&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/9bbf5501467a0dec9a7b8379c522c74b6904098b</guid>
+      <pubDate>Tue, 31 Dec 2013 12:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/38def59acb0ae16300557a5c0dcbc5cfe520c722</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Removing unused variable&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/38def59acb0ae16300557a5c0dcbc5cfe520c722</guid>
+      <pubDate>Tue, 31 Dec 2013 12:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/cae6831cd384a6a1174b0f6c0c7894543d5a6f8d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Added locale listener&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/cae6831cd384a6a1174b0f6c0c7894543d5a6f8d</guid>
+      <pubDate>Tue, 31 Dec 2013 12:03:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/b648b07751e0ed9d16db4da1442c2bd54dd6dd29</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Improving extensibility&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/b648b07751e0ed9d16db4da1442c2bd54dd6dd29</guid>
+      <pubDate>Sat, 28 Dec 2013 17:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/f584830195e553c37dc574d7681ff127677e986d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Small extensibility fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/f584830195e553c37dc574d7681ff127677e986d</guid>
+      <pubDate>Sat, 28 Dec 2013 17:33:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/bd9c63a6ad964e18bd0613e98039e88242bbdcb8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixing pagelayout&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/bd9c63a6ad964e18bd0613e98039e88242bbdcb8</guid>
+      <pubDate>Sat, 28 Dec 2013 12:43:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/ed8f16b52f6d1adae1fc6fd4d1bd56471fa29900</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Improving bundle extensibility by allowing some css, js and images override by other bundles&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/ed8f16b52f6d1adae1fc6fd4d1bd56471fa29900</guid>
+      <pubDate>Sat, 28 Dec 2013 12:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/2144ffdf33905d5bd86b54816576a8cf061b3207</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Creating pagelayout blocks to improve extensability&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/2144ffdf33905d5bd86b54816576a8cf061b3207</guid>
+      <pubDate>Sat, 28 Dec 2013 12:33:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/5f4d154fe8b22b7baae4f98f40c963cc9d82e90d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added readme note about version 2.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/5f4d154fe8b22b7baae4f98f40c963cc9d82e90d</guid>
+      <pubDate>Fri, 27 Dec 2013 14:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/97d6506cf6d33c591bc02c0f0945e2909007bb09</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Formatting twig templates, following coding standards&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/97d6506cf6d33c591bc02c0f0945e2909007bb09</guid>
+      <pubDate>Fri, 27 Dec 2013 14:12:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/4d002a594b1988cc9a39e244a77a6ca67b485095</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added default theme link to style switcher&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/4d002a594b1988cc9a39e244a77a6ca67b485095</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/9c7a6d306a34d5a1855d44692dd5cf61780ed53b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Created style switcher&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/9c7a6d306a34d5a1855d44692dd5cf61780ed53b</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/d97b67855ef6f8df34b07f038e8ac075e97d02c4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Not using geocities in pagelayout&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/d97b67855ef6f8df34b07f038e8ac075e97d02c4</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/c6f73fbb56a69b260af16fd96f95a84e6bac168d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixing gepcities theme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/c6f73fbb56a69b260af16fd96f95a84e6bac168d</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/abb0f0e7e0671a8d81c3789f664cf433ecc14000</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added several themes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/abb0f0e7e0671a8d81c3789f664cf433ecc14000</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/f548bd37ee3a639d8d00234781481df443d17332</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improving accessibility, fixing print css&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/f548bd37ee3a639d8d00234781481df443d17332</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/b316cd7f7ed95349130b87034c45fa5a4190ab81</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Implementing micro-format tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/b316cd7f7ed95349130b87034c45fa5a4190ab81</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/71455249a8bdcce4e7516daf997d0661f08a1e94</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Fixing themes, missing fonts and images&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/71455249a8bdcce4e7516daf997d0661f08a1e94</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/d53a4718898c95a53fe6444cab2fdeb57f0a7d0d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Formated project.js code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/d53a4718898c95a53fe6444cab2fdeb57f0a7d0d</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/a10ecf7eb1ff659ef2d3fad4393562c564d7e6bb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding access keys&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/a10ecf7eb1ff659ef2d3fad4393562c564d7e6bb</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/17df808a9d91ae5c779d7568a550d5e89b1ea587</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixing side menu style&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/17df808a9d91ae5c779d7568a550d5e89b1ea587</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/4693c07852636678bb03c073b2e375a00d55932b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Fixing block css&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/4693c07852636678bb03c073b2e375a00d55932b</guid>
+      <pubDate>Fri, 27 Dec 2013 13:23:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/d4d9ce39dbabbe638ae99b67b209d0d5f8e62601</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improving page semantics, adding basic usability&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/d4d9ce39dbabbe638ae99b67b209d0d5f8e62601</guid>
+      <pubDate>Tue, 24 Dec 2013 22:13:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/9445cdd02de5d72295d36c4613b0613e7ffa1712</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding twig blank meta blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/9445cdd02de5d72295d36c4613b0613e7ffa1712</guid>
+      <pubDate>Tue, 24 Dec 2013 22:12:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/4a0452202ca44416ea84c99e3c18c5bcef403b5f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added source support to blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/4a0452202ca44416ea84c99e3c18c5bcef403b5f</guid>
+      <pubDate>Sun, 22 Dec 2013 18:32:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/6cda5589601add6b2bdbb14bbf662d19ff8176b8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed unused images&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/6cda5589601add6b2bdbb14bbf662d19ff8176b8</guid>
+      <pubDate>Sun, 22 Dec 2013 18:32:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/dd11b66f529f8ba918fd0bb9f7cb0e742f4907f7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added print css, sample site logo, and sample site favicon&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/dd11b66f529f8ba918fd0bb9f7cb0e742f4907f7</guid>
+      <pubDate>Sun, 22 Dec 2013 16:13:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/852c228e44785a99d6c37a276bb0d4bb2f073029</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Now using 3 different css files for the project: core ( html default tag styles override ), pagelayout ( css for the general page layout ), content ( specific css for the content area )&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/852c228e44785a99d6c37a276bb0d4bb2f073029</guid>
+      <pubDate>Sun, 22 Dec 2013 16:13:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/c7fc9457963fae6b96ccbcb671fcac603af61625</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improving page semantics&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/c7fc9457963fae6b96ccbcb671fcac603af61625</guid>
+      <pubDate>Sat, 21 Dec 2013 21:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/e7866ebfcb61dcbdca1abdff9d4ea1e6c52113db</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Addding links support to banners&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/e7866ebfcb61dcbdca1abdff9d4ea1e6c52113db</guid>
+      <pubDate>Sat, 21 Dec 2013 18:33:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/6604e056f19ab08c4fc7130a35f0e3fab4ec1fad</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added login dropdown form&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/6604e056f19ab08c4fc7130a35f0e3fab4ec1fad</guid>
+      <pubDate>Sat, 21 Dec 2013 18:33:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/141904ae8d044f436f2b89313fd2fb7e5bbf6242</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added dropdown search form&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/141904ae8d044f436f2b89313fd2fb7e5bbf6242</guid>
+      <pubDate>Sat, 21 Dec 2013 18:33:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/a08dfd911da4c561bee7d1c2baa713bf9057779d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixing small issues with w3c validator&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/a08dfd911da4c561bee7d1c2baa713bf9057779d</guid>
+      <pubDate>Sat, 21 Dec 2013 14:43:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/6088d212b63fcce5382e6049ba8e9ee04dfca3a0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added topmenu dropdown&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/6088d212b63fcce5382e6049ba8e9ee04dfca3a0</guid>
+      <pubDate>Sat, 21 Dec 2013 14:43:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/6e18d0ff22d6d4166b6dc37587e703572c689469</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding text to infoboxes, adding more items to side menus&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/6e18d0ff22d6d4166b6dc37587e703572c689469</guid>
+      <pubDate>Fri, 20 Dec 2013 20:43:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/a46afb2306f3e75eb36bc7fc18fdb47cdfb3b3fb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding text to infoboxes, adding more items to side menus&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/a46afb2306f3e75eb36bc7fc18fdb47cdfb3b3fb</guid>
+      <pubDate>Fri, 20 Dec 2013 20:43:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/6a90733df59b67c2bfa3a1bc643461aed0a21397</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;making phpcs ignore build folder&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/6a90733df59b67c2bfa3a1bc643461aed0a21397</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/11c72304d1e97c492c1a48a61047d6f498ec71f4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing installer script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/11c72304d1e97c492c1a48a61047d6f498ec71f4</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/0c70a43609fcd6bceb8bd880b27163e06df694a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Running tests if site dir is localhost&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/0c70a43609fcd6bceb8bd880b27163e06df694a6</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/28b5d3a156bbb331f8c4105b7c5a0687171b6b1d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Created test cases&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/28b5d3a156bbb331f8c4105b7c5a0687171b6b1d</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/bbcf1b385c3acf40f91e5900230365b43a3a34d4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;creating ezpublish_test.yml file on install&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/bbcf1b385c3acf40f91e5900230365b43a3a34d4</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tuteibasebundle/source/726851bdbefd2874250bb463304eb891f5f1d1d1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;creating ezpublish_test.yml file on install&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tuteibasebundle/source/726851bdbefd2874250bb463304eb891f5f1d1d1</guid>
+      <pubDate>Fri, 20 Dec 2013 18:23:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

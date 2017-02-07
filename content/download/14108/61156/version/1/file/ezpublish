@@ -1,0 +1,101 @@
+#!/bin/sh
+# 
+# Plugin to monitor the number various eZ Publish statistics
+#
+# Usage: Link or copy into /etc/munin/<plugin-directory>/
+# After that you can configure the plugin by editing
+# your munin configuration file located here (on Debian)
+#
+# /etc/munin/plugin-conf.d/munin-node
+# 
+# and add the following lines : 
+# [ezpublish]
+# env.dbusername <dbusername>
+# env.dbpassword <dbpassword>
+# env.dbname <ezpublishdbname>
+#
+# and restart munin-node after that :
+#
+# sudo /etc/init.d/munin-node restart
+#
+#
+
+MYSQL_BIN="$(which mysql)"
+MYSQL_USER=$dbusername
+MYSQL_PASSWORD=$dbpassword
+EZPUBLISH_DATABASENAME=$dbname
+
+MYSQL="${MYSQL_BIN} -u "${MYSQL_USER}" -p"${MYSQL_PASSWORD}" "${EZPUBLISH_DATABASENAME}""
+
+USER_COUNT_SQL_QUERY='SELECT COUNT(contentobject_id) FROM ezuser;'
+CONTENT_OBJECT_COUNT_SQL_QUERY='SELECT COUNT(id) FROM ezcontentobject'
+CONTENT_OBJECT_ATTRIBUTE_COUNT_SQL_QUERY='SELECT COUNT(id) FROM ezcontentobject_attribute'
+
+# testing if everything is OK
+# in the configuration of this plugin
+if [ "$1" = "autoconf" ]; then
+	echo "yes"
+  	exit 0
+fi
+
+# If run with the "config"-parameter, give out information on how the
+# graphs should look. 
+ 
+if [ "$1" = "config" ]; then
+
+	echo 'graph_title eZ Publish statistics'
+
+	echo 'graph_args --base 1000'
+	echo 'graph_vlabel Values'
+	echo 'graph_scale no'
+
+	echo 'graph_category eZ Publish'
+
+# {{{ eZ Publish contentobjects
+	echo 'content_objects_count.label Content objects'
+	echo 'content_objects_count.info Total contentobjects (eZUsers included)'
+# }}}
+
+# {{{ eZ Publish contentobject attributes
+	echo 'content_object_attributes_count.label Content object attributes'
+	echo 'content_object_attributes_count.info Total contentobject attributes (eZUsers attributes included)'
+# }}}
+
+# {{{ eZ Publish users
+	echo 'user_count.label Users'
+	echo 'user_count.info Total users'
+# }}}
+
+	echo 'graph_info Statistics for an eZ Publish instance'
+
+	exit 0
+fi
+
+# {{{ Total content objects
+sql_result="$(${MYSQL} -e "${CONTENT_OBJECT_COUNT_SQL_QUERY}")"
+
+# The result looks like this :
+# COUNT(id) 159203
+echo -n "content_objects_count.value "
+echo $sql_result | cut -d' ' -f 2
+# }}}
+
+# {{{ Total content object attributes
+sql_result="$(${MYSQL} -e "${CONTENT_OBJECT_ATTRIBUTE_COUNT_SQL_QUERY}")"
+
+# The result looks like this :
+# COUNT(id) 153324
+echo -n "content_object_attributes_count.value "
+echo $sql_result | cut -d' ' -f 2
+# }}}
+
+# {{{ Total users
+sql_result="$(${MYSQL} -e "${USER_COUNT_SQL_QUERY}")"
+
+# The result looks like this :
+# COUNT(contentobject_id) 5366
+echo -n "user_count.value "
+echo $sql_result | cut -d' ' -f 2
+# }}}
+
+# vim: set fdm=marker:

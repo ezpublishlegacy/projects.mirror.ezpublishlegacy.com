@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cryptemail</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:00:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:00:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8993" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>cryptemail rev. 11 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/11</link>
+      <description>crypemail fixed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/11</guid>
+      <pubDate>Fri, 18 May 2012 15:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 10 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/10</link>
+      <description>- changed to frontend javascript</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/10</guid>
+      <pubDate>Thu, 24 Nov 2011 18:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 9 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/9</link>
+      <description>nofollow rel tag added to link to avoid broken links in webmastertools</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/9</guid>
+      <pubDate>Tue, 16 Aug 2011 12:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 8 by Kristina Ebel</title>
+      <link>http://projects.ez.no/cryptemail/subversion/8</link>
+      <description>added mailtonospamfilter for emails in email templates</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/8</guid>
+      <pubDate>Mon, 29 Nov 2010 11:14:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 7 by Christian @ xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/7</link>
+      <description>Added customtag feature</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/7</guid>
+      <pubDate>Wed, 08 Jul 2009 12:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 6 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/6</link>
+      <description>minor bug fix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/6</guid>
+      <pubDate>Tue, 24 Feb 2009 17:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 5 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/5</guid>
+      <pubDate>Tue, 16 Dec 2008 12:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 4 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/4</link>
+      <description>bugfix IE7</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/4</guid>
+      <pubDate>Mon, 10 Nov 2008 12:15:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 3 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/3</link>
+      <description>change for php5</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/3</guid>
+      <pubDate>Mon, 13 Oct 2008 15:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 2 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/2</link>
+      <description>- changes for eZ 4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/2</guid>
+      <pubDate>Fri, 09 May 2008 13:40:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>cryptemail rev. 1 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/cryptemail/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cryptemail/subversion/1</guid>
+      <pubDate>Fri, 09 May 2008 13:30:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

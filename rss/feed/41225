@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpearserver / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41225" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpearserver rev. 25 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/25</link>
+      <description>- mark some elements optionals, after finding in the wild packages without them
+- added definition for a couple of elements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/25</guid>
+      <pubDate>Sun, 08 May 2011 16:41:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 24 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/24</link>
+      <description>- fix definitions for ezpearinstaller package</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/24</guid>
+      <pubDate>Sun, 08 May 2011 16:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 23 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/23</link>
+      <description>- docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/23</guid>
+      <pubDate>Sun, 08 May 2011 15:41:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 21 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/21</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/21</guid>
+      <pubDate>Sun, 08 May 2011 15:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 22 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/22</link>
+      <description>- add 1st task: ezupgradescript</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/22</guid>
+      <pubDate>Sun, 08 May 2011 15:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 20 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/20</link>
+      <description>- better definition of ezp pear package</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/20</guid>
+      <pubDate>Sun, 08 May 2011 14:22:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 19 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/19</link>
+      <description>- ignore temp dir</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/19</guid>
+      <pubDate>Sun, 08 May 2011 13:42:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/18</link>
+      <description>- comments
+- fix tpl to build package.xml
+- more docs
+- add 3 "build files" to build pear packages</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/18</guid>
+      <pubDate>Sun, 08 May 2011 13:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/17</link>
+      <description>- when wrapping an ezp package to a pear package, produce the filelist for the pear package</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/17</guid>
+      <pubDate>Sat, 07 May 2011 23:01:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/16</link>
+      <description>- add license file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/16</guid>
+      <pubDate>Sat, 07 May 2011 22:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 15 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/15</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/15</guid>
+      <pubDate>Sat, 07 May 2011 22:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 14 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/14</link>
+      <description>- update todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/14</guid>
+      <pubDate>Sat, 07 May 2011 17:01:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/13</link>
+      <description>- make package installer actually do something</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/13</guid>
+      <pubDate>Sat, 07 May 2011 16:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/12</link>
+      <description>- 1st test: attempt at role usage</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/12</guid>
+      <pubDate>Sat, 07 May 2011 15:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/11</link>
+      <description>- improve templates to generate package xml files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/11</guid>
+      <pubDate>Sat, 07 May 2011 15:42:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/10</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/10</guid>
+      <pubDate>Tue, 03 May 2011 00:01:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/8</link>
+      <description>- bugfix: make convert script actually run</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/8</guid>
+      <pubDate>Tue, 03 May 2011 00:01:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/9</link>
+      <description>- bugfixes in package template</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/9</guid>
+      <pubDate>Tue, 03 May 2011 00:01:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/7</link>
+      <description>- rename for better pear compliance</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/7</guid>
+      <pubDate>Mon, 02 May 2011 22:01:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/4</link>
+      <description>- rename a badly-named template file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/4</guid>
+      <pubDate>Mon, 02 May 2011 22:01:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/5</link>
+      <description>- comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/5</guid>
+      <pubDate>Mon, 02 May 2011 22:01:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/6</link>
+      <description>- big improvements in package template
+- add pear post-install task for package installation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/6</guid>
+      <pubDate>Mon, 02 May 2011 22:01:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/3</link>
+      <description>- rename package conversion script (make it more generic)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/3</guid>
+      <pubDate>Mon, 02 May 2011 22:01:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/2</link>
+      <description>- use unisgnedInt for timestamps
+- proper license notice for email regexp source</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/2</guid>
+      <pubDate>Mon, 02 May 2011 11:02:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpearserver rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpearserver/subversion/1</link>
+      <description>- initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpearserver/subversion/1</guid>
+      <pubDate>Mon, 02 May 2011 11:02:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

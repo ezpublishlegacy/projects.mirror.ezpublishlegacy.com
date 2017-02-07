@@ -1,0 +1,1823 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezkeyword_autocomplete/forum/general/version_with_prototype_js by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 15:33:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            version with prototype.js     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezkeyword_autocomplete/forum/general'];
+menu[4] = ['Leaders', '/ezkeyword_autocomplete/team/leaders', 'Members', '/ezkeyword_autocomplete/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezkeyword_autocomplete.html" onmouseover="switchSubMenu( this );">eZKeyword Autocomplete &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezkeyword_autocomplete.html">ezkeyword_autocomplete</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        version with prototype.js
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>version with prototype.js</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg10653">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bin_liu2.html">Bin LIU</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bin_liu2/20888-25-eng-GB/bin_liu_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 May 2007</p>
+        <p class="posts">Posts: 15</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 01 August 2008 4:14:07 pm</p>
+
+        <div class="attribute-long">Hi, It's useful your extension. Thanks.<br />
+<br />
+But my BO is done with prototype.js<br />
+<br />
+so i did a version with prototype. <br />
+if it's useful for anyone, override the template like this : <br />
+<br />
+design/admin/stylesheets/autocompelete/autocompletion.css<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">div.autocomplete {</span>
+
+<span class="line">&nbsp;position:absolute;</span>
+
+<span class="line">&nbsp;width:250px;</span>
+
+<span class="line">&nbsp;background-color:white;</span>
+
+<span class="line">&nbsp;border:1px solid #888;</span>
+
+<span class="line">&nbsp;margin:0px;</span>
+
+<span class="line">&nbsp;padding:0px;</span>
+
+<span class="line">}</span>
+
+<span class="line">div.autocomplete ul {</span>
+
+<span class="line">&nbsp;list-style-type:none;</span>
+
+<span class="line">&nbsp;margin:0px;</span>
+
+<span class="line">&nbsp;padding:0px;</span>
+
+<span class="line">}</span>
+
+<span class="line">div.autocomplete ul li.selected { background-color: #eee;}</span>
+
+<span class="line">div.autocomplete ul li {</span>
+
+<span class="line">&nbsp;list-style-type:none;</span>
+
+<span class="line">&nbsp;display:block;</span>
+
+<span class="line">&nbsp;margin:0;</span>
+
+<span class="line">&nbsp;padding:1px;</span>
+
+<span class="line">&nbsp;height:17px;</span>
+
+<span class="line">&nbsp;cursor:pointer;</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre><br />
+<br />
+design/admin/templates/content/datatype/edit/ezkeywords.tpl<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;!--version prototype by LIU Bin <a href='mailto:bin.liu@lagardere-active.com'>bin.liu@lagardere-active.com</a> --&gt;</span>
+
+<span class="line">&lt;script src={&quot;javascript/prototype.js&quot;|ezdesign()} type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span>
+
+<span class="line">&lt;script src={&quot;javascript/scriptaculous.js&quot;|ezdesign()} type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span>
+
+<span class="line">&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href={'stylesheets/autocomplete/autocompletion.css'|ezdesign}&gt;</span>
+
+<span class="line">{set-block variable=$input_id}ezcoa-{if ne( $attribute_base, 'ContentObjectAttribute' )}{$attribute_base}-{/if}{$attribute.contentclassattribute_id}_{$attribute.contentclass_attribute_identifier}{/set-block}</span>
+
+<span class="line">{set-block variable=$container_id}{$attribute_base}_ezkeyword_data_text_{$attribute.id}_AutoComplete{/set-block}</span>
+
+<span class="line">&lt;div class=&quot;yui-skin-ez&quot;&gt;</span>
+
+<span class="line">{default attribute_base=ContentObjectAttribute}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id=&quot;{$input_id}&quot; class=&quot;box ezcc-{$attribute.object.content_class.identifier} ezcca-{$attribute.object.content_class.identifier}_{$attribute.contentclass_attribute_identifier}&quot; type=&quot;text&quot; size=&quot;70&quot; name=&quot;{$attribute_base}_ezkeyword_data_text_{$attribute.id}&quot; value=&quot;{$attribute.content.keyword_string|wash(xhtml)}&quot;&nbsp;/&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span id=&quot;indicator1&quot; style=&quot;display: none&quot;&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src={&quot;ajax-loader.gif&quot;|ezimage} alt=&quot;Loading ... &quot; /&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/span&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id=&quot;{$container_id}&quot; class=&quot;autocomplete&quot;&gt;&lt;/div&gt;</span>
+
+<span class="line">{/default}</span>
+
+<span class="line">&lt;/div&gt;</span>
+
+<span class="line">{def $max_autocomplete_results = ezini( 'eZKeywordSettings', 'MaxAutocompleteResults', 'datatype.ini',, true() )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $autocomplete_per_content_class = false()}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">{if eq( ezini( 'eZKeywordSettings', 'AutocompleteKeywordsPerContentClass', 'datatype.ini',, true() ), 'enabled' )}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{set $autocomplete_per_content_class = true()}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{def $content_class_id = $attribute.object.contentclass_id}</span>
+
+<span class="line">{else}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{set $autocomplete_per_content_class = false()}</span>
+
+<span class="line">{/if}&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">{set-block variable=$ajax_back_end_url}{'/ajaxbackend/autocomplete_ezkeywords_prototype/'|ezurl( 'no', 'relative' )}{if $autocomplete_per_content_class}/(class_id)/{$content_class_id}{/if}{/set-block}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new Ajax.Autocompleter('{$input_id}','{$container_id}','{$ajax_back_end_url}', {ldelim} paramName : 'keyword', minChars: 2 ,indicator: 'indicator1', afterUpdateElement : getSelectionId, tokens: ','{rdelim} );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{literal}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function getSelectionId(text, li) {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var keywords=text.value.split(&quot;,&quot;);</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var new_keywords = new Array();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var new_keyword = li.innerHTML.strip();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var counter = 0;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var keyword = &quot;&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var n=0;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (var i=0; i&lt;keywords.length; i++)&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keyword = keywords[i].strip();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if( new_keyword == keyword)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter++;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if( counter &lt; 2 )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new_keywords[n] = keyword;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n++;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new_keywords[n] = keyword;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n++;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//new Effect.Shake({/literal}$('{$input_id}'){/literal}, {distance:2});</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(counter &gt; 1)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new Effect.Highlight({/literal}$('{$input_id}'){/literal}, { startcolor: '#fe5500',endcolor: '#ffffff' });</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{/literal}$('{$input_id}'){/literal}.value = new_keywords.join(',');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{/literal}</span>
+
+<span class="line">&lt;/script&gt;</span>
+
+<span class="line"></span></pre><br />
+<br />
+modules/ajaxbackend/module.php<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">//add this</span>
+
+<span class="line">$ViewList[&quot;autocomplete_ezkeywords_prototype&quot;] = array(</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&quot;script&quot; =&gt; &quot;autocomplete_ezkeywords_prototype.php&quot;,</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;'functions' =&gt; array( 'autocomplete_ezkeywords' ),</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;'unordered_params' =&gt; array( 'class_id' =&gt; 'ClassID' )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;);</span>
+
+<span class="line"></span></pre><br />
+<br />
+modules/ajaxbackend/autocomplete_ezkeywords_prototype.php<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;?php</span>
+
+<span class="line">$http = eZHTTPTool::instance();</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">$classID = ( is_numeric( $Params['ClassID'] ) ) ? trim( $Params['ClassID'] ) : false ;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">$datatypeIni = eZINI::instance( 'datatype.ini' );</span>
+
+<span class="line">$maxAutocompleteResults = $datatypeIni-&gt;hasVariable( 'eZKeywordSettings', 'MaxAutocompleteResults' ) ? $datatypeIni-&gt;variable( 'eZKeywordSettings', 'MaxAutocompleteResults' ) : 20 ;</span>
+
+<span class="line">if ( $http-&gt;hasPostVariable( &quot;keyword&quot; ) )</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;$autocompleteString = $http-&gt;postVariable( &quot;keyword&quot; );</span>
+
+<span class="line">}</span>
+
+<span class="line">else</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eZExecution::cleanExit();</span>
+
+<span class="line">}</span>
+
+<span class="line">// @TODO : implement some cache system in order to alleviate the fetch overload in case of large keyword databases</span>
+
+<span class="line">$db = eZDB::instance();</span>
+
+<span class="line">$query = &quot;SELECT DISTINCT( ezkeyword.keyword ) FROM ezkeyword WHERE keyword LIKE '&quot; . $db-&gt;escapeString( $autocompleteString ) . '%' . &quot;' &quot;;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">if ( $classID )</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;$query .= ' AND class_id=' . $classID . ' ';</span>
+
+<span class="line">}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">$query .= &quot;LIMIT $maxAutocompleteResults&quot;;</span>
+
+<span class="line">$wordArray = $db-&gt;arrayQuery( $query );</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">// build the response array</span>
+
+<span class="line">$reponseArray = array();</span>
+
+<span class="line">echo &quot;&lt;ul&gt;&quot;;</span>
+
+<span class="line">foreach ( $wordArray as $resultItem )</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;echo &quot;&lt;li&gt;&quot;.$resultItem['keyword'].&quot;&lt;/li&gt;&quot;;</span>
+
+<span class="line">}</span>
+
+<span class="line">echo &quot;&lt;/ul&gt;&quot;;</span>
+
+<span class="line">eZExecution::cleanExit();</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">?&gt;</span></pre><br />
+<br />
+it's ok for the person use prototype.js<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>=== Freelance Expert Ezpublish ===</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg10654">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bin_liu2.html">Bin LIU</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bin_liu2/20888-25-eng-GB/bin_liu_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 May 2007</p>
+        <p class="posts">Posts: 15</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 01 August 2008 4:18:44 pm</p>
+
+        <div class="attribute-long">And i saw <br />
+// @TODO : add other reponse type handler :<br />
+//         * XML<br />
+//         * flat file<br />
+<br />
+in the autocompete_ezkeywords.php<br />
+<br />
+I wait the version with the handler flat file, beacause I should only override the template with my prototype.js, but not change the module.php
+</div>
+                    <div class="attribute-signature">
+            <p>=== Freelance Expert Ezpublish ===</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg10676">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/nicolas_pastorino.html">Nicolas Pastorino</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 September 2005</p>
+        <p class="posts">Posts: 60</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 04 August 2008 10:14:06 am</p>
+
+        <div class="attribute-long">Hi !<br />
+<br />
+Thanks for your feedback.<br />
+I have a question though : are the prototype libraries colliding with the YUI ones ? Or did you just want not to load several frameworks ?<br />
+<br />
+Concerning the other TODOed back endhandlers : i thought i'd set up a real, INI based, back end system, loading the right handler automatically. Please do not hesitate to throw some specs around here.<br />
+Even better, become a member of this projects, and let's start off a short and brief specification document, placed somewhere in the SVN.<br />
+<br />
+Let me know, <br />
+-- <br />
+Nicolas Pastorino<br />
+eZ Systems
+</div>
+                    <div class="attribute-signature">
+            <p>-- <br />
+Nicolas Pastorino<br />
+VP Product, Marketing and Customer Service - TEA - The Ebook Alternative<br />
+<br />
+L: <a href="http://fr.linkedin.com/in/nicolaspastorino" title="http://fr.linkedin.com/in/nicolaspastorino">http://fr.linkedin.com/in/nicolaspastorino</a> <br />
+t : <a href="http://twitter.com/jeanvoye" title="http://twitter.com/jeanvoye">http://twitter.com/jeanvoye</a> <br />
+G+ : <a href="http://google.com/+NicolasPastorino" title="http://google.com/+NicolasPastorino">http://google.com/+NicolasPastorino</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg10775">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bin_liu2.html">Bin LIU</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bin_liu2/20888-25-eng-GB/bin_liu_small.jpg" width="100" height="75"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />11 May 2007</p>
+        <p class="posts">Posts: 15</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 05 August 2008 3:50:46 pm</p>
+
+        <div class="attribute-long">Hi, I don't  want to load several frameworks and sometime there is conflit between them (just sometime).<br />
+<br />
+for the endhandlers, your can add the OutputType in the ini<br />
+<br />
+you see, my solution is flat file, and it works for php4 beacause no json.<br />
+<br />
+you can use this, then it works for PHP4<br />
+<br />
+Finally I am glad to join with you for the project.<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">if function_exists('json_encode')</span>
+
+<span class="line">{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;include_once( 'lib/json.php' );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;function json_encode($var)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$json = new Services_JSON();</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $json-&gt;encode($var);</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">}</span>
+
+<span class="line"></span></pre><br />
+and add a json librarie <br />
+<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;&lt;?php</span>
+
+<span class="line">/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Converts to and from JSON format.</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* JSON (JavaScript Object Notation) is a lightweight data-interchange</span>
+
+<span class="line">&nbsp;* format. It is easy for humans to read and write. It is easy for machines</span>
+
+<span class="line">&nbsp;* to parse and generate. It is based on a subset of the JavaScript</span>
+
+<span class="line">&nbsp;* Programming Language, Standard ECMA-262 3rd Edition - December 1999.</span>
+
+<span class="line">&nbsp;* This feature can also be found in&nbsp;Python. JSON is a text format that is</span>
+
+<span class="line">&nbsp;* completely language independent but uses conventions that are familiar</span>
+
+<span class="line">&nbsp;* to programmers of the C-family of languages, including C, C++, C#, Java,</span>
+
+<span class="line">&nbsp;* JavaScript, Perl, TCL, and many others. These properties make JSON an</span>
+
+<span class="line">&nbsp;* ideal data-interchange language.</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* This package provides a simple encoder and decoder for JSON notation. It</span>
+
+<span class="line">&nbsp;* is intended for use with client-side Javascript applications that make</span>
+
+<span class="line">&nbsp;* use of HTTPRequest to perform server communication functions - data can</span>
+
+<span class="line">&nbsp;* be encoded into JSON notation for use in a client-side javascript, or</span>
+
+<span class="line">&nbsp;* decoded from incoming Javascript requests. JSON format is native to</span>
+
+<span class="line">&nbsp;* Javascript, and can be directly eval()'ed with no further parsing</span>
+
+<span class="line">&nbsp;* overhead</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* All strings should be in ASCII or UTF-8 format!</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* LICENSE: Redistribution and use in source and binary forms, with or</span>
+
+<span class="line">&nbsp;* without modification, are permitted provided that the following</span>
+
+<span class="line">&nbsp;* conditions are met: Redistributions of source code must retain the</span>
+
+<span class="line">&nbsp;* above copyright notice, this list of conditions and the following</span>
+
+<span class="line">&nbsp;* disclaimer. Redistributions in binary form must reproduce the above</span>
+
+<span class="line">&nbsp;* copyright notice, this list of conditions and the following disclaimer</span>
+
+<span class="line">&nbsp;* in the documentation and/or other materials provided with the</span>
+
+<span class="line">&nbsp;* distribution.</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED</span>
+
+<span class="line">&nbsp;* WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF</span>
+
+<span class="line">&nbsp;* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN</span>
+
+<span class="line">&nbsp;* NO EVENT SHALL CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,</span>
+
+<span class="line">&nbsp;* INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,</span>
+
+<span class="line">&nbsp;* BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS</span>
+
+<span class="line">&nbsp;* OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND</span>
+
+<span class="line">&nbsp;* ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR</span>
+
+<span class="line">&nbsp;* TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE</span>
+
+<span class="line">&nbsp;* USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH</span>
+
+<span class="line">&nbsp;* DAMAGE.</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* @category</span>
+
+<span class="line">&nbsp;* @package&nbsp;&nbsp;&nbsp;&nbsp;Services_JSON</span>
+
+<span class="line">&nbsp;* @author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michal Migurski &lt;<a href='mailto:mike-json@teczno.com'>mike-json@teczno.com</a>&gt;</span>
+
+<span class="line">&nbsp;* @author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matt Knapp &lt;mdknapp[at]gmail[dot]com&gt;</span>
+
+<span class="line">&nbsp;* @author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brett Stimmerman &lt;brettstimmerman[at]gmail[dot]com&gt;</span>
+
+<span class="line">&nbsp;* @copyright&nbsp;&nbsp;2005 Michal Migurski</span>
+
+<span class="line">&nbsp;* @version&nbsp;&nbsp;&nbsp;&nbsp;CVS: $Id: JSON.php,v 1.30 2006/03/08 16:10:20 migurski Exp $</span>
+
+<span class="line">&nbsp;* @license&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.opensource.org/licenses/bsd-license.php" title="http://www.opensource.org/licenses/bsd-license.php">http://www.opensource.org/licenses/bsd-license.php</a></span>
+
+<span class="line">&nbsp;* @link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://pear.php.net/pepr/pepr-proposal-show.php?id=198" title="http://pear.php.net/pepr/pepr-proposal-show.php?id=198">http://pear.php.net/pepr/pepr-proposal-show.php?id=198</a></span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Marker constant for Services_JSON::decode(), used to flag stack state</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_SLICE',&nbsp;&nbsp;1);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Marker constant for Services_JSON::decode(), used to flag stack state</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_IN_STR',&nbsp;2);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Marker constant for Services_JSON::decode(), used to flag stack state</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_IN_ARR',&nbsp;3);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Marker constant for Services_JSON::decode(), used to flag stack state</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_IN_OBJ',&nbsp;4);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Marker constant for Services_JSON::decode(), used to flag stack state</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_IN_CMT', 5);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Behavior switch for Services_JSON::decode()</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_LOOSE_TYPE', 16);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Behavior switch for Services_JSON::decode()</span>
+
+<span class="line">&nbsp;*/</span>
+
+<span class="line">define('SERVICES_JSON_SUPPRESS_ERRORS', 32);</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">/**</span>
+
+<span class="line">&nbsp;* Converts to and from JSON format.</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* Brief example of use:</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* &lt;code&gt;</span>
+
+<span class="line">&nbsp;* // create a new instance of Services_JSON</span>
+
+<span class="line">&nbsp;* $json = new Services_JSON();</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* // convert a complexe value to JSON notation, and send it to the browser</span>
+
+<span class="line">&nbsp;* $value = array('foo', 'bar', array(1, 2, 'baz'), array(3, array(4)));</span>
+
+<span class="line">&nbsp;* $output = $json-&gt;encode($value);</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* print($output);</span>
+
+<span class="line">&nbsp;* // prints: [&quot;foo&quot;,&quot;bar&quot;,[1,2,&quot;baz&quot;],[3,[4]]]</span>
+
+<span class="line">&nbsp;*</span>
+
+<span class="line">&nbsp;* // accept incoming POST data, assumed to be in JSON notation</span>
+
+<span class="line">&nbsp;* $input = file_get_contents('php://input', 1000000);</span>
+
+<span class="line">&nbsp;* $value = $json-&gt;decode($input);</span>
+
+<span class="line">&nbsp;* </span></pre><br />
+ */<br />
+class Services_JSON<br />
+{<br />
+   /**<br />
+    * constructs a new JSON instance<br />
+    *<br />
+    * @param    int     $use    object behavior flags; combine with boolean-OR<br />
+    *<br />
+    *                           possible values:<br />
+    *                           - SERVICES_JSON_LOOSE_TYPE:  loose typing.<br />
+    *                                   &quot;{...}&quot; syntax creates associative arrays<br />
+    *                                   instead of objects in decode().<br />
+    *                           - SERVICES_JSON_SUPPRESS_ERRORS:  error suppression.<br />
+    *                                   Values which can't be encoded (e.g. resources)<br />
+    *                                   appear as NULL instead of throwing errors.<br />
+    *                                   By default, a deeply-nested resource will<br />
+    *                                   bubble up with an error, so all return values<br />
+    *                                   from encode() should be checked with isError()<br />
+    */<br />
+    function Services_JSON($use = 0)<br />
+    {<br />
+        $this-&gt;use = $use;<br />
+    }<br />
+<br />
+   /**<br />
+    * convert a string from one UTF-16 char to one UTF-8 char<br />
+    *<br />
+    * Normally should be handled by mb_convert_encoding, but<br />
+    * provides a slower PHP-only method for installations<br />
+    * that lack the multibye string extension.<br />
+    *<br />
+    * @param    string  $utf16  UTF-16 character<br />
+    * @return   string  UTF-8 character<br />
+    * @access   private<br />
+    */<br />
+    function utf162utf8($utf16)<br />
+    {<br />
+        // oh please oh please oh please oh please oh please<br />
+        if(function_exists('mb_convert_encoding')) {<br />
+            return mb_convert_encoding($utf16, 'UTF-8', 'UTF-16');<br />
+        }<br />
+<br />
+        $bytes = (ord($utf16{0}) &lt;&lt; 8) | ord($utf16{1});<br />
+<br />
+        switch(true) {<br />
+            case ((0x7F &amp; $bytes) == $bytes):<br />
+                // this case should never be reached, because we are in ASCII range<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return chr(0x7F &amp; $bytes);<br />
+<br />
+            case (0x07FF &amp; $bytes) == $bytes:<br />
+                // return a 2-byte UTF-8 character<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return chr(0xC0 | (($bytes &gt;&gt; 6) &amp; 0x1F))<br />
+                     . chr(0x80 | ($bytes &amp; 0x3F));<br />
+<br />
+            case (0xFFFF &amp; $bytes) == $bytes:<br />
+                // return a 3-byte UTF-8 character<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return chr(0xE0 | (($bytes &gt;&gt; 12) &amp; 0x0F))<br />
+                     . chr(0x80 | (($bytes &gt;&gt; 6) &amp; 0x3F))<br />
+                     . chr(0x80 | ($bytes &amp; 0x3F));<br />
+        }<br />
+<br />
+        // ignoring UTF-32 for now, sorry<br />
+        return '';<br />
+    }<br />
+<br />
+   /**<br />
+    * convert a string from one UTF-8 char to one UTF-16 char<br />
+    *<br />
+    * Normally should be handled by mb_convert_encoding, but<br />
+    * provides a slower PHP-only method for installations<br />
+    * that lack the multibye string extension.<br />
+    *<br />
+    * @param    string  $utf8   UTF-8 character<br />
+    * @return   string  UTF-16 character<br />
+    * @access   private<br />
+    */<br />
+    function utf82utf16($utf8)<br />
+    {<br />
+        // oh please oh please oh please oh please oh please<br />
+        if(function_exists('mb_convert_encoding')) {<br />
+            return mb_convert_encoding($utf8, 'UTF-16', 'UTF-8');<br />
+        }<br />
+<br />
+        switch(strlen($utf8)) {<br />
+            case 1:<br />
+                // this case should never be reached, because we are in ASCII range<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return $utf8;<br />
+<br />
+            case 2:<br />
+                // return a UTF-16 character from a 2-byte UTF-8 char<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return chr(0x07 &amp; (ord($utf8{0}) &gt;&gt; 2))<br />
+                     . chr((0xC0 &amp; (ord($utf8{0}) &lt;&lt; 6))<br />
+                         | (0x3F &amp; ord($utf8{1})));<br />
+<br />
+            case 3:<br />
+                // return a UTF-16 character from a 3-byte UTF-8 char<br />
+                // see: <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                return chr((0xF0 &amp; (ord($utf8{0}) &lt;&lt; 4))<br />
+                         | (0x0F &amp; (ord($utf8{1}) &gt;&gt; 2)))<br />
+                     . chr((0xC0 &amp; (ord($utf8{1}) &lt;&lt; 6))<br />
+                         | (0x7F &amp; ord($utf8{2})));<br />
+        }<br />
+<br />
+        // ignoring UTF-32 for now, sorry<br />
+        return '';<br />
+    }<br />
+<br />
+   /**<br />
+    * encodes an arbitrary variable into JSON format<br />
+    *<br />
+    * @param    mixed   $var    any number, boolean, string, array, or object to be encoded.<br />
+    *                           see argument 1 to Services_JSON() above for array-parsing behavior.<br />
+    *                           if var is a strng, note that encode() always expects it<br />
+    *                           to be in ASCII or UTF-8 format!<br />
+    *<br />
+    * @return   mixed   JSON string representation of input var or an error if a problem occurs<br />
+    * @access   public<br />
+    */<br />
+    function encode($var)<br />
+    {<br />
+        switch (gettype($var)) {<br />
+            case 'boolean':<br />
+                return $var ? 'true' : 'false';<br />
+<br />
+            case 'NULL':<br />
+                return 'null';<br />
+<br />
+            case 'integer':<br />
+                return (int) $var;<br />
+<br />
+            case 'double':<br />
+            case 'float':<br />
+                return (float) $var;<br />
+<br />
+            case 'string':<br />
+                // STRINGS ARE EXPECTED TO BE IN ASCII OR UTF-8 FORMAT<br />
+                $ascii = '';<br />
+                $strlen_var = strlen($var);<br />
+<br />
+               /*<br />
+                * Iterate over every character in the string,<br />
+                * escaping with a slash or encoding to UTF-8 where necessary<br />
+                */<br />
+                for ($c = 0; $c &lt; $strlen_var; ++$c) {<br />
+<br />
+                    $ord_var_c = ord($var{$c});<br />
+<br />
+                    switch (true) {<br />
+                        case $ord_var_c == 0x08:<br />
+                            $ascii .= '\b';<br />
+                            break;<br />
+                        case $ord_var_c == 0x09:<br />
+                            $ascii .= '\t';<br />
+                            break;<br />
+                        case $ord_var_c == 0x0A:<br />
+                            $ascii .= '\n';<br />
+                            break;<br />
+                        case $ord_var_c == 0x0C:<br />
+                            $ascii .= '\f';<br />
+                            break;<br />
+                        case $ord_var_c == 0x0D:<br />
+                            $ascii .= '\r';<br />
+                            break;<br />
+<br />
+                        case $ord_var_c == 0x22:<br />
+                        case $ord_var_c == 0x2F:<br />
+                        case $ord_var_c == 0x5C:<br />
+                            // double quote, slash, slosh<br />
+                            $ascii .= '\\'.$var{$c};<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &gt;= 0x20) &amp;&amp; ($ord_var_c &lt;= 0x7F)):<br />
+                            // characters U-00000000 - U-0000007F (same as ASCII)<br />
+                            $ascii .= $var{$c};<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &amp; 0xE0) == 0xC0):<br />
+                            // characters U-00000080 - U-000007FF, mask 110XXXXX<br />
+                            // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                            $char = pack('C*', $ord_var_c, ord($var{$c + 1}));<br />
+                            $c += 1;<br />
+                            $utf16 = $this-&gt;utf82utf16($char);<br />
+                            $ascii .= sprintf('\u%04s', bin2hex($utf16));<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &amp; 0xF0) == 0xE0):<br />
+                            // characters U-00000800 - U-0000FFFF, mask 1110XXXX<br />
+                            // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                            $char = pack('C*', $ord_var_c,<br />
+                                         ord($var{$c + 1}),<br />
+                                         ord($var{$c + 2}));<br />
+                            $c += 2;<br />
+                            $utf16 = $this-&gt;utf82utf16($char);<br />
+                            $ascii .= sprintf('\u%04s', bin2hex($utf16));<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &amp; 0xF8) == 0xF0):<br />
+                            // characters U-00010000 - U-001FFFFF, mask 11110XXX<br />
+                            // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                            $char = pack('C*', $ord_var_c,<br />
+                                         ord($var{$c + 1}),<br />
+                                         ord($var{$c + 2}),<br />
+                                         ord($var{$c + 3}));<br />
+                            $c += 3;<br />
+                            $utf16 = $this-&gt;utf82utf16($char);<br />
+                            $ascii .= sprintf('\u%04s', bin2hex($utf16));<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &amp; 0xFC) == 0xF8):<br />
+                            // characters U-00200000 - U-03FFFFFF, mask 111110XX<br />
+                            // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                            $char = pack('C*', $ord_var_c,<br />
+                                         ord($var{$c + 1}),<br />
+                                         ord($var{$c + 2}),<br />
+                                         ord($var{$c + 3}),<br />
+                                         ord($var{$c + 4}));<br />
+                            $c += 4;<br />
+                            $utf16 = $this-&gt;utf82utf16($char);<br />
+                            $ascii .= sprintf('\u%04s', bin2hex($utf16));<br />
+                            break;<br />
+<br />
+                        case (($ord_var_c &amp; 0xFE) == 0xFC):<br />
+                            // characters U-04000000 - U-7FFFFFFF, mask 1111110X<br />
+                            // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                            $char = pack('C*', $ord_var_c,<br />
+                                         ord($var{$c + 1}),<br />
+                                         ord($var{$c + 2}),<br />
+                                         ord($var{$c + 3}),<br />
+                                         ord($var{$c + 4}),<br />
+                                         ord($var{$c + 5}));<br />
+                            $c += 5;<br />
+                            $utf16 = $this-&gt;utf82utf16($char);<br />
+                            $ascii .= sprintf('\u%04s', bin2hex($utf16));<br />
+                            break;<br />
+                    }<br />
+                }<br />
+<br />
+                return '&quot;'.$ascii.'&quot;';<br />
+<br />
+            case 'array':<br />
+               /*<br />
+                * As per JSON spec if any array key is not an integer<br />
+                * we must treat the the whole array as an object. We<br />
+                * also try to catch a sparsely populated associative<br />
+                * array with numeric keys here because some JS engines<br />
+                * will create an array with empty indexes up to<br />
+                * max_index which can cause memory issues and because<br />
+                * the keys, which may be relevant, will be remapped<br />
+                * otherwise.<br />
+                *<br />
+                * As per the ECMA and JSON specification an object may<br />
+                * have any string as a property. Unfortunately due to<br />
+                * a hole in the ECMA specification if the key is a<br />
+                * ECMA reserved word or starts with a digit the<br />
+                * parameter is only accessible using ECMAScript's<br />
+                * bracket notation.<br />
+                */<br />
+<br />
+                // treat as a JSON object<br />
+                if (is_array($var) &amp;&amp; count($var) &amp;&amp; (array_keys($var) !== range(0, sizeof($var) - 1))) {<br />
+                    $properties = array_map(array($this, 'name_value'),<br />
+                                            array_keys($var),<br />
+                                            array_values($var));<br />
+<br />
+                    foreach($properties as $property) {<br />
+                        if(Services_JSON::isError($property)) {<br />
+                            return $property;<br />
+                        }<br />
+                    }<br />
+<br />
+                    return '{' . join(',', $properties) . '}';<br />
+                }<br />
+<br />
+                // treat it like a regular array<br />
+                $elements = array_map(array($this, 'encode'), $var);<br />
+<br />
+                foreach($elements as $element) {<br />
+                    if(Services_JSON::isError($element)) {<br />
+                        return $element;<br />
+                    }<br />
+                }<br />
+<br />
+                return '[' . join(',', $elements) . ']';<br />
+<br />
+            case 'object':<br />
+                $vars = get_object_vars($var);<br />
+<br />
+                $properties = array_map(array($this, 'name_value'),<br />
+                                        array_keys($vars),<br />
+                                        array_values($vars));<br />
+<br />
+                foreach($properties as $property) {<br />
+                    if(Services_JSON::isError($property)) {<br />
+                        return $property;<br />
+                    }<br />
+                }<br />
+<br />
+                return '{' . join(',', $properties) . '}';<br />
+<br />
+            default:<br />
+                return ($this-&gt;use &amp; SERVICES_JSON_SUPPRESS_ERRORS)<br />
+                    ? 'null'<br />
+                    : new Services_JSON_Error(gettype($var).&quot; can not be encoded as JSON string&quot;);<br />
+        }<br />
+    }<br />
+<br />
+   /**<br />
+    * array-walking function for use in generating JSON-formatted name-value pairs<br />
+    *<br />
+    * @param    string  $name   name of key to use<br />
+    * @param    mixed   $value  reference to an array element to be encoded<br />
+    *<br />
+    * @return   string  JSON-formatted name-value pair, like '&quot;name&quot;:value'<br />
+    * @access   private<br />
+    */<br />
+    function name_value($name, $value)<br />
+    {<br />
+        $encoded_value = $this-&gt;encode($value);<br />
+<br />
+        if(Services_JSON::isError($encoded_value)) {<br />
+            return $encoded_value;<br />
+        }<br />
+<br />
+        return $this-&gt;encode(strval($name)) . ':' . $encoded_value;<br />
+    }<br />
+<br />
+   /**<br />
+    * reduce a string by removing leading and trailing comments and whitespace<br />
+    *<br />
+    * @param    $str    string      string value to strip of comments and whitespace<br />
+    *<br />
+    * @return   string  string value stripped of comments and whitespace<br />
+    * @access   private<br />
+    */<br />
+    function reduce_string($str)<br />
+    {<br />
+        $str = preg_replace(array(<br />
+<br />
+                // eliminate single line comments in '// ...' form<br />
+                '#^\s*//(.+)$#m',<br />
+<br />
+                // eliminate multi-line comments in '/* ... */' form, at start of string<br />
+                '#^\s*/\*(.+)\*/#Us',<br />
+<br />
+                // eliminate multi-line comments in '/* ... */' form, at end of string<br />
+                '#/\*(.+)\*/\s*$#Us'<br />
+<br />
+            ), '', $str);<br />
+<br />
+        // eliminate extraneous space<br />
+        return trim($str);<br />
+    }<br />
+<br />
+   /**<br />
+    * decodes a JSON string into appropriate variable<br />
+    *<br />
+    * @param    string  $str    JSON-formatted string<br />
+    *<br />
+    * @return   mixed   number, boolean, string, array, or object<br />
+    *                   corresponding to given JSON input string.<br />
+    *                   See argument 1 to Services_JSON() above for object-output behavior.<br />
+    *                   Note that decode() always returns strings<br />
+    *                   in ASCII or UTF-8 format!<br />
+    * @access   public<br />
+    */<br />
+    function decode($str)<br />
+    {<br />
+        $str = $this-&gt;reduce_string($str);<br />
+<br />
+        switch (strtolower($str)) {<br />
+            case 'true':<br />
+                return true;<br />
+<br />
+            case 'false':<br />
+                return false;<br />
+<br />
+            case 'null':<br />
+                return null;<br />
+<br />
+            default:<br />
+                $m = array();<br />
+<br />
+                if (is_numeric($str)) {<br />
+                    // Lookie-loo, it's a number<br />
+<br />
+                    // This would work on its own, but I'm trying to be<br />
+                    // good about returning integers where appropriate:<br />
+                    // return (float)$str;<br />
+<br />
+                    // Return float or int, as appropriate<br />
+                    return ((float)$str == (integer)$str)<br />
+                        ? (integer)$str<br />
+                        : (float)$str;<br />
+<br />
+                } elseif (preg_match('/^(&quot;|\').*(\1)$/s', $str, $m) &amp;&amp; $m[1] == $m[2]) {<br />
+                    // STRINGS RETURNED IN UTF-8 FORMAT<br />
+                    $delim = substr($str, 0, 1);<br />
+                    $chrs = substr($str, 1, -1);<br />
+                    $utf8 = '';<br />
+                    $strlen_chrs = strlen($chrs);<br />
+<br />
+                    for ($c = 0; $c &lt; $strlen_chrs; ++$c) {<br />
+<br />
+                        $substr_chrs_c_2 = substr($chrs, $c, 2);<br />
+                        $ord_chrs_c = ord($chrs{$c});<br />
+<br />
+                        switch (true) {<br />
+                            case $substr_chrs_c_2 == '\b':<br />
+                                $utf8 .= chr(0x08);<br />
+                                ++$c;<br />
+                                break;<br />
+                            case $substr_chrs_c_2 == '\t':<br />
+                                $utf8 .= chr(0x09);<br />
+                                ++$c;<br />
+                                break;<br />
+                            case $substr_chrs_c_2 == '\n':<br />
+                                $utf8 .= chr(0x0A);<br />
+                                ++$c;<br />
+                                break;<br />
+                            case $substr_chrs_c_2 == '\f':<br />
+                                $utf8 .= chr(0x0C);<br />
+                                ++$c;<br />
+                                break;<br />
+                            case $substr_chrs_c_2 == '\r':<br />
+                                $utf8 .= chr(0x0D);<br />
+                                ++$c;<br />
+                                break;<br />
+<br />
+                            case $substr_chrs_c_2 == '\\&quot;':<br />
+                            case $substr_chrs_c_2 == '\\\'':<br />
+                            case $substr_chrs_c_2 == '\\\\':<br />
+                            case $substr_chrs_c_2 == '\\/':<br />
+                                if (($delim == '&quot;' &amp;&amp; $substr_chrs_c_2 != '\\\'') ||<br />
+                                   ($delim == &quot;'&quot; &amp;&amp; $substr_chrs_c_2 != '\\&quot;')) {<br />
+                                    $utf8 .= $chrs{++$c};<br />
+                                }<br />
+                                break;<br />
+<br />
+                            case preg_match('/\\\u[0-9A-F]{4}/i', substr($chrs, $c, 6)):<br />
+                                // single, escaped unicode character<br />
+                                $utf16 = chr(hexdec(substr($chrs, ($c + 2), 2)))<br />
+                                       . chr(hexdec(substr($chrs, ($c + 4), 2)));<br />
+                                $utf8 .= $this-&gt;utf162utf8($utf16);<br />
+                                $c += 5;<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &gt;= 0x20) &amp;&amp; ($ord_chrs_c &lt;= 0x7F):<br />
+                                $utf8 .= $chrs{$c};<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &amp; 0xE0) == 0xC0:<br />
+                                // characters U-00000080 - U-000007FF, mask 110XXXXX<br />
+                                //see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                                $utf8 .= substr($chrs, $c, 2);<br />
+                                ++$c;<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &amp; 0xF0) == 0xE0:<br />
+                                // characters U-00000800 - U-0000FFFF, mask 1110XXXX<br />
+                                // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                                $utf8 .= substr($chrs, $c, 3);<br />
+                                $c += 2;<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &amp; 0xF8) == 0xF0:<br />
+                                // characters U-00010000 - U-001FFFFF, mask 11110XXX<br />
+                                // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                                $utf8 .= substr($chrs, $c, 4);<br />
+                                $c += 3;<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &amp; 0xFC) == 0xF8:<br />
+                                // characters U-00200000 - U-03FFFFFF, mask 111110XX<br />
+                                // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                                $utf8 .= substr($chrs, $c, 5);<br />
+                                $c += 4;<br />
+                                break;<br />
+<br />
+                            case ($ord_chrs_c &amp; 0xFE) == 0xFC:<br />
+                                // characters U-04000000 - U-7FFFFFFF, mask 1111110X<br />
+                                // see <a href="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8" title="http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8">http://www.cl.cam.ac.uk/~mgk25/unicode.html#utf-8</a><br />
+                                $utf8 .= substr($chrs, $c, 6);<br />
+                                $c += 5;<br />
+                                break;<br />
+<br />
+                        }<br />
+<br />
+                    }<br />
+<br />
+                    return $utf8;<br />
+<br />
+                } elseif (preg_match('/^\[.*\]$/s', $str) || preg_match('/^\{.*\}$/s', $str)) {<br />
+                    // array, or object notation<br />
+<br />
+                    if ($str{0} == '[') {<br />
+                        $stk = array(SERVICES_JSON_IN_ARR);<br />
+                        $arr = array();<br />
+                    } else {<br />
+                        if ($this-&gt;use &amp; SERVICES_JSON_LOOSE_TYPE) {<br />
+                            $stk = array(SERVICES_JSON_IN_OBJ);<br />
+                            $obj = array();<br />
+                        } else {<br />
+                            $stk = array(SERVICES_JSON_IN_OBJ);<br />
+                            $obj = new stdClass();<br />
+                        }<br />
+                    }<br />
+<br />
+                    array_push($stk, array('what'  =&gt; SERVICES_JSON_SLICE,<br />
+                                           'where' =&gt; 0,<br />
+                                           'delim' =&gt; false));<br />
+<br />
+                    $chrs = substr($str, 1, -1);<br />
+                    $chrs = $this-&gt;reduce_string($chrs);<br />
+<br />
+                    if ($chrs == '') {<br />
+                        if (reset($stk) == SERVICES_JSON_IN_ARR) {<br />
+                            return $arr;<br />
+<br />
+                        } else {<br />
+                            return $obj;<br />
+<br />
+                        }<br />
+                    }<br />
+<br />
+                    //print(&quot;\nparsing {$chrs}\n&quot;);<br />
+<br />
+                    $strlen_chrs = strlen($chrs);<br />
+<br />
+                    for ($c = 0; $c &lt;= $strlen_chrs; ++$c) {<br />
+<br />
+                        $top = end($stk);<br />
+                        $substr_chrs_c_2 = substr($chrs, $c, 2);<br />
+<br />
+                        if (($c == $strlen_chrs) || (($chrs{$c} == ',') &amp;&amp; ($top['what'] == SERVICES_JSON_SLICE))) {<br />
+                            // found a comma that is not inside a string, array, etc.,<br />
+                            // OR we've reached the end of the character list<br />
+                            $slice = substr($chrs, $top['where'], ($c - $top['where']));<br />
+                            array_push($stk, array('what' =&gt; SERVICES_JSON_SLICE, 'where' =&gt; ($c + 1), 'delim' =&gt; false));<br />
+                            //print(&quot;Found split at {$c}: &quot;.substr($chrs, $top['where'], (1 + $c - $top['where'])).&quot;\n&quot;);<br />
+<br />
+                            if (reset($stk) == SERVICES_JSON_IN_ARR) {<br />
+                                // we are in an array, so just push an element onto the stack<br />
+                                array_push($arr, $this-&gt;decode($slice));<br />
+<br />
+                            } elseif (reset($stk) == SERVICES_JSON_IN_OBJ) {<br />
+                                // we are in an object, so figure<br />
+                                // out the property name and set an<br />
+                                // element in an associative array,<br />
+                                // for now<br />
+                                $parts = array();<br />
+                               <br />
+                                if (preg_match('/^\s*([&quot;\'].*[^\\\][&quot;\'])\s*:\s*(\S.*),?$/Uis', $slice, $parts)) {<br />
+                                    // &quot;name&quot;:value pair<br />
+                                    $key = $this-&gt;decode($parts[1]);<br />
+                                    $val = $this-&gt;decode($parts[2]);<br />
+<br />
+                                    if ($this-&gt;use &amp; SERVICES_JSON_LOOSE_TYPE) {<br />
+                                        $obj[$key] = $val;<br />
+                                    } else {<br />
+                                        $obj-&gt;$key = $val;<br />
+                                    }<br />
+                                } elseif (preg_match('/^\s*(\w+)\s*:\s*(\S.*),?$/Uis', $slice, $parts)) {<br />
+                                    // name:value pair, where name is unquoted<br />
+                                    $key = $parts[1];<br />
+                                    $val = $this-&gt;decode($parts[2]);<br />
+<br />
+                                    if ($this-&gt;use &amp; SERVICES_JSON_LOOSE_TYPE) {<br />
+                                        $obj[$key] = $val;<br />
+                                    } else {<br />
+                                        $obj-&gt;$key = $val;<br />
+                                    }<br />
+                                }<br />
+<br />
+                            }<br />
+<br />
+                        } elseif ((($chrs{$c} == '&quot;') || ($chrs{$c} == &quot;'&quot;)) &amp;&amp; ($top['what'] != SERVICES_JSON_IN_STR)) {<br />
+                            // found a quote, and we are not inside a string<br />
+                            array_push($stk, array('what' =&gt; SERVICES_JSON_IN_STR, 'where' =&gt; $c, 'delim' =&gt; $chrs{$c}));<br />
+                            //print(&quot;Found start of string at {$c}\n&quot;);<br />
+<br />
+                        } elseif (($chrs{$c} == $top['delim']) &amp;&amp;<br />
+                                 ($top['what'] == SERVICES_JSON_IN_STR) &amp;&amp;<br />
+                                 (($chrs{$c - 1} != '\\') ||<br />
+                                 ($chrs{$c - 1} == '\\' &amp;&amp; $chrs{$c - 2} == '\\'))) {<br />
+                            // found a quote, we're in a string, and it's not escaped<br />
+                            array_pop($stk);<br />
+                            //print(&quot;Found end of string at {$c}: &quot;.substr($chrs, $top['where'], (1 + 1 + $c - $top['where'])).&quot;\n&quot;);<br />
+<br />
+                        } elseif (($chrs{$c} == '[') &amp;&amp;<br />
+                                 in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {<br />
+                            // found a left-bracket, and we are in an array, object, or slice<br />
+                            array_push($stk, array('what' =&gt; SERVICES_JSON_IN_ARR, 'where' =&gt; $c, 'delim' =&gt; false));<br />
+                            //print(&quot;Found start of array at {$c}\n&quot;);<br />
+<br />
+                        } elseif (($chrs{$c} == ']') &amp;&amp; ($top['what'] == SERVICES_JSON_IN_ARR)) {<br />
+                            // found a right-bracket, and we're in an array<br />
+                            array_pop($stk);<br />
+                            //print(&quot;Found end of array at {$c}: &quot;.substr($chrs, $top['where'], (1 + $c - $top['where'])).&quot;\n&quot;);<br />
+<br />
+                        } elseif (($chrs{$c} == '{') &amp;&amp;<br />
+                                 in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {<br />
+                            // found a left-brace, and we are in an array, object, or slice<br />
+                            array_push($stk, array('what' =&gt; SERVICES_JSON_IN_OBJ, 'where' =&gt; $c, 'delim' =&gt; false));<br />
+                            //print(&quot;Found start of object at {$c}\n&quot;);<br />
+<br />
+                        } elseif (($chrs{$c} == '}') &amp;&amp; ($top['what'] == SERVICES_JSON_IN_OBJ)) {<br />
+                            // found a right-brace, and we're in an object<br />
+                            array_pop($stk);<br />
+                            //print(&quot;Found end of object at {$c}: &quot;.substr($chrs, $top['where'], (1 + $c - $top['where'])).&quot;\n&quot;);<br />
+<br />
+                        } elseif (($substr_chrs_c_2 == '/*') &amp;&amp;<br />
+                                 in_array($top['what'], array(SERVICES_JSON_SLICE, SERVICES_JSON_IN_ARR, SERVICES_JSON_IN_OBJ))) {<br />
+                            // found a comment start, and we are in an array, object, or slice<br />
+                            array_push($stk, array('what' =&gt; SERVICES_JSON_IN_CMT, 'where' =&gt; $c, 'delim' =&gt; false));<br />
+                            $c++;<br />
+                            //print(&quot;Found start of comment at {$c}\n&quot;);<br />
+<br />
+                        } elseif (($substr_chrs_c_2 == '*/') &amp;&amp; ($top['what'] == SERVICES_JSON_IN_CMT)) {<br />
+                            // found a comment end, and we're in one now<br />
+                            array_pop($stk);<br />
+                            $c++;<br />
+<br />
+                            for ($i = $top['where']; $i &lt;= $c; ++$i)<br />
+                                $chrs = substr_replace($chrs, ' ', $i, 1);<br />
+<br />
+                            //print(&quot;Found end of comment at {$c}: &quot;.substr($chrs, $top['where'], (1 + $c - $top['where'])).&quot;\n&quot;);<br />
+<br />
+                        }<br />
+<br />
+                    }<br />
+<br />
+                    if (reset($stk) == SERVICES_JSON_IN_ARR) {<br />
+                        return $arr;<br />
+<br />
+                    } elseif (reset($stk) == SERVICES_JSON_IN_OBJ) {<br />
+                        return $obj;<br />
+<br />
+                    }<br />
+<br />
+                }<br />
+        }<br />
+    }<br />
+<br />
+    /**<br />
+     * @todo Ultimately, this should just call PEAR::isError()<br />
+     */<br />
+    function isError($data, $code = null)<br />
+    {<br />
+        if (class_exists('pear')) {<br />
+            return PEAR::isError($data, $code);<br />
+        } elseif (is_object($data) &amp;&amp; (get_class($data) == 'services_json_error' ||<br />
+                                 is_subclass_of($data, 'services_json_error'))) {<br />
+            return true;<br />
+        }<br />
+<br />
+        return false;<br />
+    }<br />
+}<br />
+<br />
+if (class_exists('PEAR_Error')) {<br />
+<br />
+    class Services_JSON_Error extends PEAR_Error<br />
+    {<br />
+        function Services_JSON_Error($message = 'unknown error', $code = null,<br />
+                                     $mode = null, $options = null, $userinfo = null)<br />
+        {<br />
+            parent::PEAR_Error($message, $code, $mode, $options, $userinfo);<br />
+        }<br />
+    }<br />
+<br />
+} else {<br />
+<br />
+    /**<br />
+     * @todo Ultimately, this class shall be descended from PEAR_Error<br />
+     */<br />
+    class Services_JSON_Error<br />
+    {<br />
+        function Services_JSON_Error($message = 'unknown error', $code = null,<br />
+                                     $mode = null, $options = null, $userinfo = null)<br />
+        {<br />
+<br />
+        }<br />
+    }<br />
+<br />
+}<br />
+   <br />
+?&gt;<br />
+ <br />
+<br />
+ 
+</div>
+                    <div class="attribute-signature">
+            <p>=== Freelance Expert Ezpublish ===</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg10785">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/nicolas_pastorino.html">Nicolas Pastorino</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 September 2005</p>
+        <p class="posts">Posts: 60</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 06 August 2008 10:10:17 am</p>
+
+        <div class="attribute-long">Ok, this solution looks thorough, and should be integrated eventually. <br />
+<br />
+I'm glad to welcome you aboard, please join us here : <a href="../../team/members.html" title="http://projects.ez.no/ezkeyword_autocomplete/team/members">http://projects.ez.no/ezkeyword_autocomplete/team/members</a><br />
+<br />
+Thanks,<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>-- <br />
+Nicolas Pastorino<br />
+VP Product, Marketing and Customer Service - TEA - The Ebook Alternative<br />
+<br />
+L: <a href="http://fr.linkedin.com/in/nicolaspastorino" title="http://fr.linkedin.com/in/nicolaspastorino">http://fr.linkedin.com/in/nicolaspastorino</a> <br />
+t : <a href="http://twitter.com/jeanvoye" title="http://twitter.com/jeanvoye">http://twitter.com/jeanvoye</a> <br />
+G+ : <a href="http://google.com/+NicolasPastorino" title="http://google.com/+NicolasPastorino">http://google.com/+NicolasPastorino</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezkeyword_autocomplete/forum/general/version_with_prototype_js by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 15:33:10 GMT -->
+</html>

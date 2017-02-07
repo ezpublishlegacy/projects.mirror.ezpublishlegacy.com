@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owtranslate</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:20:43 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:20:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48772" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/e966dc3d406633da27fc87b4df5fb423c5631956</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;translation.ts overrided by the extension OWTranslate_user&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/e966dc3d406633da27fc87b4df5fb423c5631956</guid>
+      <pubDate>Wed, 06 May 2015 12:32:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/3250c35e6336682249580f8430b008e945d0c64b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Separate module function, function generation move to edit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/3250c35e6336682249580f8430b008e945d0c64b</guid>
+      <pubDate>Tue, 22 Oct 2013 14:12:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/4f9f70e9a5388d6fd77c8e68ab15b3ae65eca7c0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from nniewiadomski/master
+
+Correction add message in existing context&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/4f9f70e9a5388d6fd77c8e68ab15b3ae65eca7c0</guid>
+      <pubDate>Mon, 26 Aug 2013 13:43:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/3e1fe8dd598fa6acf0a95741627fd6efd33fd438</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CSS corrections&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/3e1fe8dd598fa6acf0a95741627fd6efd33fd438</guid>
+      <pubDate>Tue, 23 Jul 2013 09:22:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/5dd4d327a3fd66f6436c7e778da344739366b6df</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- Html special chars supported during file generation
+- Spaces inside the I18n tpl call function are supported&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/5dd4d327a3fd66f6436c7e778da344739366b6df</guid>
+      <pubDate>Fri, 19 Jul 2013 13:52:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/f54a144a9fcd4bc945f02f84309c182312994f99</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from nniewiadomski/master
+
+Html special chars + I18n spaces support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/f54a144a9fcd4bc945f02f84309c182312994f99</guid>
+      <pubDate>Fri, 19 Jul 2013 13:52:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/79dbe69283c3ccbacf80fcc2383bde174ac8dff3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add policy limit for the menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/79dbe69283c3ccbacf80fcc2383bde174ac8dff3</guid>
+      <pubDate>Mon, 08 Jul 2013 07:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owtranslate/source/6158f1920a05f665479e49d120434b0d9b3ce3a1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Warning correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/6158f1920a05f665479e49d120434b0d9b3ce3a1</guid>
+      <pubDate>Tue, 02 Jul 2013 09:52:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Like it.</title>
+      <link>http://projects.ez.no/owtranslate/forum/general/like_it/re_like_it</link>
+      <description>Very cool extension (in principle).  Will be interesting to compare it with http://projects.ez.no/addicted , which I've found to be buggy when it comes to translating HTML entities.&#13;
+&#13;
+&lt;i&gt;Update: tried out the extension, and indeed, it fails when using HTML entities in strings.&lt;/i&gt;</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/owtranslate/forum/general/like_it/re_like_it</guid>
+      <pubDate>Sat, 12 Jan 2013 21:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/forum/general/like_it</link>
+      <description>Cool extension, it complements my tstranslate nicely.&#13;
+&#13;
+I borrowed a couple lines of xml handling code from you, hope that's ok. :)</description>
+      <author>community@ez.no (Arne Bakkebo)</author>
+      <guid>http://projects.ez.no/owtranslate/forum/general/like_it</guid>
+      <pubDate>Wed, 09 Jan 2013 16:02:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/3d5bc166b2b473e9a219ed011d657295e45f90ed</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+m design/admin/templates/translate/list.tpl
+- design/admin/templates/translate/pagination.tpl
+m design/admin/templates/translate/toptoolbar.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Pagination correction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/3d5bc166b2b473e9a219ed011d657295e45f90ed</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/63185d7114df56b8e915ab43733102adf8ad8df3</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslateparsefile.php
+m classes/owtranslatetranslationfilegenerator.php
+m design/admin/templates/translate/list.tpl
+m design/admin/templates/translate/searchtranslation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix Bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/63185d7114df56b8e915ab43733102adf8ad8df3</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/6a5d39ed53dab05a0f2285dbf0260fd9ba0d9a02</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatetranslationfilegenerator.php
+m design/admin/templates/translate/generation.tpl
+m design/admin/templates/translate/pagination.tpl
+m design/admin/templates/translate/toptoolbar.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/6a5d39ed53dab05a0f2285dbf0260fd9ba0d9a02</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/86848c9f85923637436d1905540bb76d26411a51</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+m design/admin/templates/translate/list.tpl
+m design/admin/templates/translate/pagination.tpl
+m design/admin/templates/translate/toptoolbar.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/86848c9f85923637436d1905540bb76d26411a51</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/0ccaddd644a11683e72213389755a2f44696bcbc</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslateparsefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Sort context search&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/0ccaddd644a11683e72213389755a2f44696bcbc</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/769a95e261772e383ba66b0ed6d68eae948c9776</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Increase default page limit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/769a95e261772e383ba66b0ed6d68eae948c9776</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/e3babbca444b797666a816ead063cc740c2d57fd</link>
+      <description>
+      &lt;pre&gt;m design/admin/javascript/owtranslate.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow js submit on blur&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/e3babbca444b797666a816ead063cc740c2d57fd</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/a46165df94ed2fa05156d8b87bbc55dc24341ad3</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslateparsefile.php
+m classes/owtranslatetranslationfilegenerator.php
+m doc/INSTALL
+m settings/owtranslate.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add locale override settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/a46165df94ed2fa05156d8b87bbc55dc24341ad3</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/ba6f2da21616b0ceb4effda36beb1aa3e32cc49a</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/translate/generation.tpl
+m design/admin/templates/translate/list.tpl
+- design/admin/templates/translate/translation.tpl
+m modules/translate/module.php
+- modules/translate/translation.php
+m settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Enhanced home&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/ba6f2da21616b0ceb4effda36beb1aa3e32cc49a</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/8421319526e16e240866831ff494725e97fe1679</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m design/admin/javascript/owtranslate.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow set empty values&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/8421319526e16e240866831ff494725e97fe1679</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/69dee8b534a989575f939b20a148ef99b6e015e0</link>
+      <description>
+      &lt;pre&gt;m .gitignore
++ translations/eng-GB/translation.ts
++ translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add french translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/69dee8b534a989575f939b20a148ef99b6e015e0</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/3f238cfe12a965f744547028c2f0b9565060fa22</link>
+      <description>
+      &lt;pre&gt;m README
+m doc/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/3f238cfe12a965f744547028c2f0b9565060fa22</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/d76900f4019cebd3c85dbc053bb89a0ebe344ce1</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+m design/admin/templates/translate/list.tpl
++ design/admin/templates/translate/search.tpl
+m design/admin/templates/translate/searchtranslationform.tpl
+m design/admin/templates/translate/toptoolbar.tpl
++ design/admin/templates/translate/translationline.tpl
++ design/admin/templates/translate/translationtable.tpl
+m modules/translate/module.php
++ modules/translate/search.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Conflicts resolution&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/d76900f4019cebd3c85dbc053bb89a0ebe344ce1</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/3aca103bae60233085d750aa6ace974c8a302d40</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/translate/leftmenu.tpl
+m design/admin/templates/translate/list.tpl
+m design/admin/templates/translate/searchtranslation.tpl
+m doc/INSTALL
+m settings/owtranslate.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc and text corrections&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/3aca103bae60233085d750aa6ace974c8a302d40</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/5381769b605a47fef726444071d6eb5d282af76a</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+m design/admin/templates/translate/list.tpl
++ design/admin/templates/translate/search.tpl
+m design/admin/templates/translate/searchtranslationform.tpl
+m design/admin/templates/translate/toptoolbar.tpl
++ design/admin/templates/translate/translationline.tpl
++ design/admin/templates/translate/translationtable.tpl
+m modules/translate/module.php
++ modules/translate/search.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix bug + Factorization&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/5381769b605a47fef726444071d6eb5d282af76a</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/33e47b32c564315e3fe1cdb0a4e3d70f837da659</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/translate/list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix empty search bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/33e47b32c564315e3fe1cdb0a4e3d70f837da659</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/d2fc32245720e7fefd62ecae9c4355b401fd7fa6</link>
+      <description>
+      &lt;pre&gt;m README
+m doc/INSTALL
++ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Release v1.2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/d2fc32245720e7fefd62ecae9c4355b401fd7fa6</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/cbb63525532c4b250106d931a77eb2d259d7a714</link>
+      <description>
+      &lt;pre&gt;m settings/owtranslate.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Set default ini limit values&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/cbb63525532c4b250106d931a77eb2d259d7a714</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/d3db123475cdaf166672c06ecb6a5e7ba11d532d</link>
+      <description>
+      &lt;pre&gt;m classes/owtranslatemoduleview.php
+m classes/owtranslateparsefile.php
+m design/admin/templates/translate/toptoolbar.tpl
+m settings/owtranslate.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add default limit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/d3db123475cdaf166672c06ecb6a5e7ba11d532d</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Like it.</title>
+      <link>http://projects.ez.no/owtranslate/source/04e5808c53e85741a0c16c8636f60460d92e6b81</link>
+      <description>
+      &lt;pre&gt;m settings/owtranslate.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owtranslate/source/04e5808c53e85741a0c16c8636f60460d92e6b81</guid>
+      <pubDate>Tue, 08 Jan 2013 14:52:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

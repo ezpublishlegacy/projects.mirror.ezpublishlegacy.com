@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_cmis_client</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19828" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to Install</title>
+      <link>http://projects.ez.no/nxc_cmis_client/forum/general/how_to_install</link>
+      <description>Hi,&#13;
+&#13;
+Can you provide me directions for installing the nxc_cmis_client ?&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Ajaz</description>
+      <author>community@ez.no (Ajaz Rana)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/forum/general/how_to_install</guid>
+      <pubDate>Sun, 22 Apr 2012 06:34:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 48 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/48</link>
+      <description>- Added extension.xml file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/48</guid>
+      <pubDate>Thu, 10 Nov 2011 15:30:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 47 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/47</link>
+      <description>- Upgraded client to run with eZ 4.5</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/47</guid>
+      <pubDate>Thu, 10 Nov 2011 09:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 46 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/46</link>
+      <description>- Fixed ezoe in 4.4.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/46</guid>
+      <pubDate>Wed, 02 Nov 2011 11:15:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 45 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/45</link>
+      <description>- Fixing editing the objects
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/45</guid>
+      <pubDate>Sat, 01 Oct 2011 12:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 44 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/44</link>
+      <description>- Fixed NEXUO
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/44</guid>
+      <pubDate>Sat, 01 Oct 2011 11:45:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 43 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/43</link>
+      <description>- Fixed adding content in Alfresco
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/43</guid>
+      <pubDate>Sat, 01 Oct 2011 10:45:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 42 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/42</link>
+      <description>- Fixed image view
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/42</guid>
+      <pubDate>Mon, 08 Feb 2010 15:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 41 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/41</link>
+      <description>- Added image preview
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/41</guid>
+      <pubDate>Mon, 08 Feb 2010 11:45:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmisclient-1.0.tar.gz</title>
+      <link>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_1_0_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_1_0_tar_gz</guid>
+      <pubDate>Tue, 22 Dec 2009 11:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 40 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/40</link>
+      <description>- Increased version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/40</guid>
+      <pubDate>Fri, 18 Dec 2009 13:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 39 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/39</link>
+      <description>- Fixed content stream file name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/39</guid>
+      <pubDate>Wed, 02 Dec 2009 15:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 38 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/38</link>
+      <description>- Fixed bug: Wrong root folder info
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/38</guid>
+      <pubDate>Sun, 29 Nov 2009 09:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 37 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/37</link>
+      <description>- Fixed bug with paging in ezoe
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/37</guid>
+      <pubDate>Sat, 28 Nov 2009 18:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 36 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/36</link>
+      <description>- Fixed BC
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/36</guid>
+      <pubDate>Sat, 28 Nov 2009 13:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 35 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/35</link>
+      <description>- Added 1.0 supported version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/35</guid>
+      <pubDate>Sat, 28 Nov 2009 12:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 34 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/34</link>
+      <description>- Added new branch
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/34</guid>
+      <pubDate>Fri, 27 Nov 2009 10:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 33 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/33</link>
+      <description>- Added branches folder
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/33</guid>
+      <pubDate>Fri, 27 Nov 2009 10:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 32 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/32</link>
+      <description>- Fixed company name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/32</guid>
+      <pubDate>Mon, 09 Nov 2009 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 31 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/31</link>
+      <description>- Fixed static method
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/31</guid>
+      <pubDate>Thu, 29 Oct 2009 09:10:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 30 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/30</link>
+      <description>- Changed version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/30</guid>
+      <pubDate>Thu, 29 Oct 2009 09:00:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmisclient-0.4.tar.gz</title>
+      <link>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_0_4_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_0_4_tar_gz</guid>
+      <pubDate>Thu, 29 Oct 2009 08:56:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 29 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/29</link>
+      <description>- Improved errors handling
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/29</guid>
+      <pubDate>Thu, 29 Oct 2009 08:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 28 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/28</link>
+      <description>- Fixed forgotten div
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/28</guid>
+      <pubDate>Tue, 20 Oct 2009 14:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 27 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/27</link>
+      <description>- Fixed args
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/27</guid>
+      <pubDate>Tue, 20 Oct 2009 14:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 26 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/26</link>
+      <description>- Fixed wrong html
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/26</guid>
+      <pubDate>Tue, 20 Oct 2009 13:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 25 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/25</link>
+      <description>- Removed unneeded div
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/25</guid>
+      <pubDate>Tue, 20 Oct 2009 13:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 24 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/24</link>
+      <description>- Fixed bug: with stored default user name in session
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/24</guid>
+      <pubDate>Tue, 20 Oct 2009 13:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 23 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/23</link>
+      <description>- Minor fixes with loggining 
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/23</guid>
+      <pubDate>Tue, 20 Oct 2009 08:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 22 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/22</link>
+      <description>- Doc cleanup
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/22</guid>
+      <pubDate>Mon, 19 Oct 2009 06:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 21 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/21</link>
+      <description>- Changed version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/21</guid>
+      <pubDate>Mon, 19 Oct 2009 06:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 20 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/20</link>
+      <description>- Minor changes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/20</guid>
+      <pubDate>Mon, 19 Oct 2009 06:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmisclient-0.3.tar.gz</title>
+      <link>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_0_3_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/downloads/nxc_cmisclient_0_3_tar_gz</guid>
+      <pubDate>Mon, 19 Oct 2009 06:04:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 19 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/19</link>
+      <description>- Fixed bug: When unneeded amps exist in xml
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/19</guid>
+      <pubDate>Fri, 16 Oct 2009 07:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 18 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/18</link>
+      <description>- Updated by default login
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/18</guid>
+      <pubDate>Thu, 15 Oct 2009 13:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 17 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/17</link>
+      <description>- Fixed bug: amps are not escaped
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/17</guid>
+      <pubDate>Thu, 15 Oct 2009 13:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 16 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/16</link>
+      <description>- Updated next version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/16</guid>
+      <pubDate>Thu, 15 Oct 2009 13:05:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 15 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/15</link>
+      <description>- Updated OVERVIEW
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/15</guid>
+      <pubDate>Thu, 15 Oct 2009 13:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 14 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/14</link>
+      <description>- Fixed bug: Have to login before using objects
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/14</guid>
+      <pubDate>Thu, 15 Oct 2009 12:45:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 13 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/13</link>
+      <description>- Fixed php seg fault
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/13</guid>
+      <pubDate>Thu, 15 Oct 2009 08:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 12 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/12</link>
+      <description>- Minor cleanup
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/12</guid>
+      <pubDate>Thu, 08 Oct 2009 09:35:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 11 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/11</link>
+      <description>- Fixed bug with viewing content
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/11</guid>
+      <pubDate>Wed, 07 Oct 2009 14:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 10 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/10</link>
+      <description>- Fixed byg with getting value
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/10</guid>
+      <pubDate>Wed, 07 Oct 2009 13:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 9 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/9</link>
+      <description>- Fixed several bugs with 0.61 and 0.62
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/9</guid>
+      <pubDate>Wed, 07 Oct 2009 13:25:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 8 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/8</link>
+      <description>- Minor cleanup
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/8</guid>
+      <pubDate>Tue, 06 Oct 2009 14:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 7 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/7</link>
+      <description>- Added NUXEO supporting
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/7</guid>
+      <pubDate>Tue, 06 Oct 2009 14:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 6 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/6</link>
+      <description>- Fixed wrong module names
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/6</guid>
+      <pubDate>Mon, 05 Oct 2009 13:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 5 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/5</link>
+      <description>- Changed module name to prevent name conflicts
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/5</guid>
+      <pubDate>Mon, 05 Oct 2009 12:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 4 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/4</link>
+      <description>- Fixed bug: when host contains no port, worng host will returned
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/4</guid>
+      <pubDate>Fri, 02 Oct 2009 12:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_client rev. 3 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_client/subversion/3</link>
+      <description>- Added new version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_client/subversion/3</guid>
+      <pubDate>Fri, 02 Oct 2009 10:45:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

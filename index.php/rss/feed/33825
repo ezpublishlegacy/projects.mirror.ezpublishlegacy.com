@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xmlimport / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:59:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:59:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33825" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/xmlimport/news/changelog</link>
+      <description>&lt;p&gt;
+ImportXMLData 1.0 - 1.4.2&lt;br /&gt;
+ ----&lt;br /&gt;
+ first Version Olivier Pierret&lt;br /&gt;
+ XMLImport 1.5&lt;br /&gt;
+ -----&lt;br /&gt;
+ - complete rewrite &lt;br /&gt;
+ XMLImport 1.6&lt;br /&gt;
+ -----&lt;br /&gt;
+ - added author datatype&lt;br /&gt;
+ - added image/binary datatype&lt;br /&gt;
+ - added objectrelation datatype&lt;br /&gt;
+ XMLImport 1.9&lt;br /&gt;
+ -----&lt;br /&gt;
+ - implemented memorylimit :-(&lt;br /&gt;
+ - released&lt;br /&gt;
+ XMLImport 2.0&lt;br /&gt;
+ -----&lt;br /&gt;
+ - code cleanup. probably added some typoos.&lt;br /&gt;
+ XMLImport 2.1&lt;br /&gt;
+ -----&lt;br /&gt;
+ - added examples for all datatypes&lt;br /&gt;
+ XMLImport 2.2&lt;br /&gt;
+ -----&lt;br /&gt;
+ - removed leftover svn conflict in XMLImportFunctionCollection.php :-(&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (*- pike)</author>
+      <guid>http://projects.ez.no/xmlimport/news/changelog</guid>
+      <pubDate>Fri, 14 Sep 2007 09:32:31 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

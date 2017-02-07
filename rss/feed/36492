@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / weather / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:36:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:36:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/36492" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Merge with all2egoogleweather extension</title>
+      <link>http://projects.ez.no/weather/forum/general/merge_with_all2egoogleweather_extension</link>
+      <description>Why not merge the two extensions together?&#13;
+&#13;
+- make the weather provider configurable via ini&#13;
+- provide:&#13;
+  . fetch functions&#13;
+  . datatype&#13;
+  . ezflow block</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/weather/forum/general/merge_with_all2egoogleweather_extension</guid>
+      <pubDate>Wed, 08 Feb 2012 10:24:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

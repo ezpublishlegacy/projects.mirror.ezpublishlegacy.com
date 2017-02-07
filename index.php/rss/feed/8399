@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggxmlview / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:47:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:47:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8399" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Invalid JSON</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/invalid_json/re_invalid_json</link>
+      <description>Wonder why I did not get this notification?&#13;
+&#13;
+Anyway, back from the grave: fixed and moved to github</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/invalid_json/re_invalid_json</guid>
+      <pubDate>Tue, 13 May 2014 21:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Invalid JSON</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/invalid_json</link>
+      <description>Hi Gaetano!&#13;
+&#13;
+I'm using this great extension to produce JSON to be consumed by mobile apps. I found a few typos, I think.&#13;
+&#13;
+In the templates /design/standard/templates/node/view/json.tpl and the override for it, there are a bunch of "=" where there should have been ":". Also a "," is missing after the "sort_field" row.&#13;
+&#13;
+Another ting is that the {attribute_view_gui view=json attribute=$item} is not working. I returns nada, for any datatype. Any advice here?&#13;
+&#13;
+Cheers&#13;
+Felix&#13;
+&#13;
+</description>
+      <author>community@ez.no (Felix Laate)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/invalid_json</guid>
+      <pubDate>Fri, 19 Aug 2011 12:17:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools6</link>
+      <description>About caching: set&#13;
+&#13;
+[ContentSettings]&#13;
+CachedViewModes=full;sitemap;pdf;search;xmlmap&#13;
+ComplexDisplayViewModes=sitemap;xmlmap&#13;
+&#13;
+in an override of site.ini&#13;
+&#13;
+About the bad format error:&#13;
+&#13;
+the xmlmap format produced by default by the extension is NOT the format expected by google, as far as I know. I hope that you have customized your xmlmap templates to produce the output in the correct format.&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools6</guid>
+      <pubDate>Tue, 05 Apr 2011 20:45:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools5</link>
+      <description>hummm... Google still sends me an uncompatible format error.</description>
+      <author>community@ez.no (Luis D Garcia)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools5</guid>
+      <pubDate>Tue, 05 Apr 2011 20:24:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools4</link>
+      <description>:)&#13;
+I have extended execution times and finally works...&#13;
+&#13;
+How could I make the view mode cached for this??? All site is cached how can I specify it for only this one?</description>
+      <author>community@ez.no (Luis D Garcia)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools4</guid>
+      <pubDate>Tue, 05 Apr 2011 19:51:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools3</link>
+      <description>I tried a slightly different url: http://www.quadratin.com.mx/layout/set/xml/content/view/xmlmap/111&#13;
+&#13;
+This one works, but it takes a few seconds to generate - it's a level 2 node.&#13;
+&#13;
+So I guess the xmlmap for node number 2 takes just too long to generate because of the quantity of content in the site.&#13;
+&#13;
+You can try to work aorund this by:&#13;
+. increasing php max_execution_time (it still stops at 30 secs)&#13;
+. make sure that view mode is cached (it does not seem so, as page reload takes again a dozen seconds)&#13;
+. have a cronjob that uses wget or curl to make sure the view cache for that page is warmed when google comes to it&#13;
+&#13;
+Or just use a dedicated extension for the google sitemap, not based on templates :-(&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools3</guid>
+      <pubDate>Tue, 05 Apr 2011 19:42:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools2</link>
+      <description>Gaetano,&#13;
+&#13;
+Thank you so much for your reply.&#13;
+I do have a public URL you can check, thank you!:&#13;
+&#13;
+http://www.quadratin.com.mx/layout/set/xml/content/view/xmlmap/2&#13;
+&#13;
+That would be for our main sitemap...&#13;
+&#13;
+Today I checked again the SiteMap but found a new error... the server timed out after 30 seconds...&#13;
+ Maximum execution time of 30 seconds exceeded in /kernel/classes/ezpersistentobject.php&#13;
+&#13;
+Im expanding the waiting time to 120 seconds to see what happens.&#13;
+&#13;
+The first time I began with the sitemap creation an XML didn't appear in the browser Window (I use almost all browsers from Explorer to Opera just to check :) ) BUT it did appear in the source code of the page...&#13;
+&#13;
+When subsribing the map to Google Webtools it will spend around an hour with the little clock (like checking) but then sent me an error saying  the sitema was not complying with their XML standards...</description>
+      <author>community@ez.no (Luis D Garcia)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools2</guid>
+      <pubDate>Tue, 05 Apr 2011 19:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools</link>
+      <description>If you cannot see the xml in your browser, it's most likely because of the wrong content-type header.&#13;
+You need to use an url like http://mysite/layout/set/xml/node/view/xml/$nodeid to get both proper template and content-type header.&#13;
+To debug http headers received along with the page, I recommend using the firebug plugin in firefox. Firefox will also complain loudly if your xml is not valid, so it's a good way to check if there are any problems with it.&#13;
+&#13;
+About page size: if the page is big, eZ will use a lot of resources to generate it; I recommend altering the setting CachedViewModes in file site.ini to make sure your xml view is cacehd in the view cache. You will find an example with some more comments about this in file settings/site.ini.append.php in the etension itself.&#13;
+&#13;
+If you have a public url, I can also check out if everything is right with your xml / json pages&#13;
+&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools/re_not_recognized_by_google_webmaster_tools</guid>
+      <pubDate>Mon, 04 Apr 2011 08:20:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not recognized by Google Webmaster Tools</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools</link>
+      <description>Hi Gaetano...&#13;
+Im having some problems. I installed your project (thanks BTW)...&#13;
+Its great as it has nothing to configure about but... I'm not having success with google recognizing the XML format... right now Im trying to convince Google with JSON hope it does well... the problem is My site is pretty big, its a news site. We have everyday more than a hundred new notes. Im not sure if the XML may be too big or what... in fact I cant see it in my Browser, wont open BUT I can see the code in it (by right clicking see code in Explorer).&#13;
+What could be wrong?&#13;
+I have separate URL for users and Admin... the apache configuration is somehow stiff when talking about URL's but there is no error shown...&#13;
+Should I wait 24 hrs?&#13;
+&#13;
+In the other hand we need to URGENTLY list our news in Google News feeds. So a news feed xml map with Google compliance would be a great addition to your contribution.&#13;
+&#13;
+Thank you.</description>
+      <author>community@ez.no (Luis D Garcia)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/not_recognized_by_google_webmaster_tools</guid>
+      <pubDate>Sun, 03 Apr 2011 07:06:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: XML results</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/xml_results/re_xml_results</link>
+      <description>Thanks for sharing your results.&#13;
+&#13;
+1. bug with "object relation" attribute in xml views: fixed (and release"d version 0.3 of the library, btw)&#13;
+&#13;
+2. access to the "xml/xsd" is only available to authenticated users who have had sufficient permissions granted, as there is too much information in there for every anon user of the website.&#13;
+You did not follow carefully install instructions ;-)&#13;
+So either you try to browse to it as administrator, or you give the correct access policy to the user of your choice&#13;
+&#13;
+3. about links to other objects in ezxmltext: apparently you do not want neither 'full alias' urls nor object ids. I guess you want the node id, so that you can later request the full object in itself. This is not hard to do, but there is one caveat: by default an object relation points to an object, which can have many nodes linked to it. Is it ok to display the main_node of the related object, or do you want to show the complete list of nodes?&#13;
+&#13;
+Please note that we could also set up an 'object' view to access a single object instead of a node...&#13;
+&#13;
+4. showing the content of an ezxmltext attribute as html instead of xml: not too hard. Just set up in your main site design this template:&#13;
+design\&lt;yourdesign&gt;\templates\content\datatype\view\xml\ezxmltext.tpl&#13;
+&#13;
+with the following content:&#13;
+&lt;code&gt;&#13;
+&lt;{$attribute.contentclass_attribute_identifier} datatypestring="{$attribute.data_type_string|washxml}"&gt;{$attribute.content.output_text|washxml}&lt;/{$attribute.contentclass_attribute_identifier}&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+bye&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/xml_results/re_xml_results</guid>
+      <pubDate>Thu, 16 Dec 2010 21:42:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>XML results</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/xml_results</link>
+      <description>Hi, thanks for this useful extension.&#13;
+&#13;
+I've played with it a bit and this is my feedback. I have installed 4.4 Fuji version, and created 2 folders. Inside of first folder I've created one article. Then I've started proceeding your INSTALL file. Here are results:&#13;
+&#13;
+&lt;b&gt;layout/set/xml/content/view/xml/59&lt;/b&gt;&#13;
+When I go through ID of folders, it works perfect - I got XML with folder informations. But when I try to view &lt;b&gt;article&lt;/b&gt;, then I got XML error:&#13;
+&lt;code&gt;&#13;
+&lt;b&gt;XML Parsing Error: mismatched tag. Expected: &lt;/image&gt;.&#13;
+&lt;/code&gt; &#13;
+When I look into XML code, I can see that right before article closing tag is &lt;b&gt;image datatypestring="ezobjectrelation"&lt;/b&gt; tag opened and it is not closed (this object has no relations). The rest of the tags is closed properly.&#13;
+&#13;
+Additionally, embed links to images and another objects are returned like: &#13;
+&lt;code&gt;&#13;
+&lt;embed size="medium" href="ezobject://60" /&gt;&#13;
+&lt;/code&gt;&#13;
+So if I get this result, I can't use it directly, especially when I want to put this content somewhere as raw HTML.&#13;
+&#13;
+&#13;
+&lt;b&gt;layout/set/json/content/view/json/61&lt;/b&gt;&#13;
+The same article in JSON is returned properly, and all embedded images are returned with full paths, so can be used directly. But when content contains link to another article, it is returned with nice url. It means that if I want to catch this link and ask for content in JSON, I don't know it's ID.&#13;
+&#13;
+&lt;b&gt;/xml/xsd&lt;/b&gt; &#13;
+This link opens webpage with default design and Access Denied information&#13;
+&#13;
+&lt;b&gt;layout/set/xml/content/view/xmlmap/2&lt;/b&gt;&#13;
+The same problem with non-closed tag of image &#13;
+&lt;code&gt;&#13;
+&lt;image datatypestring="ezobjectrelation"&gt;&#13;
+    &lt;/article&gt;&#13;
+&#13;
+  &lt;/object&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;b&gt;layout/set/json/content/view/jsonmap/2&lt;/b&gt;&#13;
+It returns map and nested nodes as expected, with the same nice urls inside content.&#13;
+&#13;
+Best regards&#13;
+Aleksy Goroszko</description>
+      <author>community@ez.no (Aleksy Goroszko)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/xml_results</guid>
+      <pubDate>Wed, 15 Dec 2010 15:14:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error in xml/xsd (module/view), line 15</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/fatal_error_in_xml_xsd_module_view_line_15/re_fatal_error_in_xml_xsd_module_view_line_15</link>
+      <description>Merci.&#13;
+&#13;
+fixed in svn rev. 13</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/fatal_error_in_xml_xsd_module_view_line_15/re_fatal_error_in_xml_xsd_module_view_line_15</guid>
+      <pubDate>Tue, 15 Jun 2010 20:53:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error in xml/xsd (module/view), line 15</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/fatal_error_in_xml_xsd_module_view_line_15</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+Their is an error in xml/xsd module view. Here is the message :&#13;
+&#13;
+Fatal error: Call to undefined function templateInit() in.../extension/ggxmlview/modules/xml/xsd.php on line 15 Fatal error: eZ Publish did not finish its request  The execution of eZ Publish was abruptly ended, debug information can be found in the log files normally placed in var/log/*&#13;
+&#13;
+The 'kernel/common/template.php' script is not loaded, just add this line at the beggining of the view xsd.php to fix this :&#13;
+&#13;
+include_once( 'kernel/common/template.php' );&#13;
+&#13;
+Regards&#13;
+Olivier&#13;
+</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/fatal_error_in_xml_xsd_module_view_line_15</guid>
+      <pubDate>Thu, 10 Jun 2010 15:31:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: XML Design Extension</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/xml_design_extension/re_xml_design_extension</link>
+      <description>Thanks for pointing those out!&#13;
+&#13;
+Main differences I spotted (in a 30 secs review) between ggxmlview and ezxmldesign:&#13;
+&#13;
+- ggxmlview also supports json, ezxmldesign does not&#13;
+- ggxmlview does not provide a new design, just custom content views, so you do not need to create a new siteaccess to use it (and currently content urls look nicer with ezxmldesign)&#13;
+- ggxmlview provides an automatically generated XSD file to validate the produced xml against; ezxmldesign provides a (static) DTD&#13;
+- ezxmldesign allows the user to choose a custom namespace, ggxmlview does not (yet)&#13;
+- ezxmldesign has both line and full views of content, ggxmlview does not (yet)&#13;
+&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/xml_design_extension/re_xml_design_extension</guid>
+      <pubDate>Fri, 14 Mar 2008 09:07:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>XML Design Extension</title>
+      <link>http://projects.ez.no/ggxmlview/forum/general/xml_design_extension</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+http://svn.ez.no/svn/extensions/ezxmldesign/&#13;
+http://svn.ez.no/svn/extensions/ezxmltoolbar/&#13;
+&#13;
+there is another extension which can help you (hopefully)&#13;
+&#13;
+&#13;
+Greetings ekke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ggxmlview/forum/general/xml_design_extension</guid>
+      <pubDate>Fri, 07 Mar 2008 15:45:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

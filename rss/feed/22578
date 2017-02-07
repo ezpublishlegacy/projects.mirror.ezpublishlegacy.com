@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / strip_except / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:10:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:10:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22578" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Undefined property error + fix</title>
+      <link>http://projects.ez.no/strip_except/forum/general/undefined_property_error_fix</link>
+      <description>The function stripexceptOperator is missing a property assignment, causing an undefined property warning. To fix it, add an AttributeName property as below:&#13;
+&#13;
+&lt;code&gt;&#13;
+class stripexceptOperator&#13;
+{&#13;
+    function stripexceptOperator( $name = "strip_except" )&#13;
+    {&#13;
+	$this-&gt;AttributeName = $name;  // &lt;- add this&#13;
+	$this-&gt;Operators = array( $name );&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Daniel A. Øien)</author>
+      <guid>http://projects.ez.no/strip_except/forum/general/undefined_property_error_fix</guid>
+      <pubDate>Tue, 12 Feb 2013 20:59:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

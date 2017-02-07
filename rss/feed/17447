@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezfeedparse / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:55:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:55:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17447" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release of eZ Feed Parse 0.2</title>
+      <link>http://projects.ez.no/ezfeedparse/news/release_of_ez_feed_parse_0_2</link>
+      <description>&lt;p&gt;&lt;a href="http://projects.ez.no/ezfeedparse/downloads/ez_feed_parse_0_2" target="_self"&gt;eZ Feed Parse 0.2&lt;/a&gt; has been released. This new version brings &lt;a href="http://projects.ez.no/ezfeedparse/forum/general/how_gettimestamp_of_an_entry" target="_self"&gt;a small bug fix on date handling of feed items&lt;/a&gt;. Thanks to Francesco Trucchia for the patch.&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezfeedparse/news/release_of_ez_feed_parse_0_2</guid>
+      <pubDate>Fri, 23 Oct 2009 21:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>First release of eZ Feed Parse extension</title>
+      <link>http://projects.ez.no/ezfeedparse/news/first_release_of_ez_feed_parse_extension</link>
+      <description>&lt;p&gt;&lt;a href="http://projects.ez.no/ezfeedparse" target="_self"&gt;eZ Feed Parse&lt;/a&gt; provides a template fetch function allowing to access to data published in any RSS or ATOM feed. It uses &lt;a href="http://ezcomponents.org/docs/api/trunk/classtrees_Feed.html" target="_self"&gt;eZ Component Feed&lt;/a&gt;, so the fetch function is able to access to all supported format by ezcFeed.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.ez.no/ezfeedparse/downloads/ez_feed_parse_0_1" target="_self"&gt;Download eZ Feed Parse 0.1&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezfeedparse/news/first_release_of_ez_feed_parse_extension</guid>
+      <pubDate>Tue, 30 Jun 2009 21:38:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

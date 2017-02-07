@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcopy / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:08:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:08:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22378" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Remote source database case</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/remote_source_database_case/re_remote_source_database_case</link>
+      <description>&lt;b&gt;+1&lt;/b&gt; on this patch. &#13;
+Had to patch locally when upgrading share.ez.no.&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/remote_source_database_case/re_remote_source_database_case</guid>
+      <pubDate>Thu, 19 May 2011 07:27:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote source database case</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/remote_source_database_case</link>
+      <description>Hi,&#13;
+&#13;
+I'm using your application with ezupgrade and it works perfectly when files and database of the source installation are on the same server.&#13;
+However, I've an eZ Publish source instance with a remote MySQL database. In this environment, ezcopy breaks with a database connection problem.&#13;
+I suggest these 2 patches.&#13;
+&#13;
+&lt;b&gt;File : classes/ezcopy.php&lt;/b&gt;&#13;
+&lt;code&gt;&#13;
+17a18&#13;
+&gt; 	var $dbHost;&#13;
+37c38,40&#13;
+&lt; 		&#13;
+---&#13;
+&gt; &#13;
+&gt; 		$this-&gt;dbHost = $this-&gt;cfg-&gt;getSetting('ezcopy', 'DBRoot', 'host');&#13;
+&gt; &#13;
+842c845,853&#13;
+&lt; 		$cmd = "-u " . $this-&gt;dbRootUser;&#13;
+---&#13;
+&gt; &#13;
+&gt; 		$cmd = "";&#13;
+&gt; 		&#13;
+&gt; 		if($this-&gt;dbHost != '')&#13;
+&gt; 		{&#13;
+&gt; 			$cmd .= "-h " . $this-&gt;dbHost;&#13;
+&gt; 		}&#13;
+&gt; &#13;
+&gt; 		$cmd .= " -u " . $this-&gt;dbRootUser;&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;b&gt;File : settings/ezcopy_temmplate.ini&lt;/b&gt;&#13;
+&lt;code&gt;&#13;
+	30a31&#13;
+	&gt; host=&#13;
+&lt;/code&gt;&#13;
+&#13;
+Hope it's useful.&#13;
+Thank you for your application.</description>
+      <author>community@ez.no (Gilles Rosenbaum)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/remote_source_database_case</guid>
+      <pubDate>Thu, 24 Mar 2011 15:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy ssh issues</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues4</link>
+      <description>Hi. &#13;
+Could you please let me know how much ram you typically need to allocate in php.ini to have ezcopy do its magic without failing because of ram limitation&#13;
+&#13;
+After doing some adjustments on the server it does indeeed manage to login and find the files and create an archive , however my local computer seems to shut down as it does not have enough memory. I have tried to boost it, but still does not work.&#13;
+&#13;
+Will let you know if this is resolved.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues4</guid>
+      <pubDate>Wed, 10 Nov 2010 07:19:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy ssh issues</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues3</link>
+      <description>Hi. &#13;
+I know for a fact that the code terminates before it reaches the sftp process so the problem has to be related to the actual login to the server.&#13;
+it is running ssh 4.2 and i have also tried with ssh1 and it also denied login.&#13;
+I emailed webdeal to ask whether they emply multifactor authentication.. as this is what the latest relase of the SSH2 php file indicates to be the potential problem.&#13;
+When logging in to the environement the following is indicated: [SSH] Protocol Version 2 (OpenSSH_4.2)&#13;
+</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues3</guid>
+      <pubDate>Mon, 08 Nov 2010 11:39:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy ssh issues</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues2</link>
+      <description>Hi Lars Eirik,&#13;
+&#13;
+As the installation documentation for eZ Copy states, it requires SSH2 and SFTPv3 access on the remote server. Are you sure you've got those?</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues2</guid>
+      <pubDate>Mon, 08 Nov 2010 11:31:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in svn of ezcopy?</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy/re_error_in_svn_of_ezcopy2</link>
+      <description>As Anders said, I think this is an eZ Components issue. Depending on the way you install eZC (PEAR or SVN) the installation paths will be slightly different. Just update the path to reflect your installation method of eZC, and you should be good to go.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy/re_error_in_svn_of_ezcopy2</guid>
+      <pubDate>Mon, 08 Nov 2010 11:28:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcopy ssh issues</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues</link>
+      <description>We are using it with ssh on our servers, and it works perfeclty :-)&#13;
+Have not tested on webdeals servers.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues/re_ezcopy_ssh_issues</guid>
+      <pubDate>Mon, 08 Nov 2010 11:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in svn of ezcopy?</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy/re_error_in_svn_of_ezcopy</link>
+      <description>Hi,&#13;
+&#13;
+I think this is on how you have installed the eZ Components. On my Mac base.php is in ezc/Base/base.php. I don`t know if there has been any changes in the last month in eZ Components, but installing ezc with pear gave that structure.</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy/re_error_in_svn_of_ezcopy</guid>
+      <pubDate>Mon, 08 Nov 2010 11:18:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy ssh issues</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues</link>
+      <description>hi.&#13;
+Has  anyone used this successfully with ssh? .I try to login to the remote  server but although i have the proper credentials it refuses to log me in. Downloading a more recent version of the ssh library states that this login does only work if non - multifactor authentication is enabled on the server. &#13;
+&#13;
+Anyone tested to make sure it can be used with professional webhosts such as webdeal for instance?</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/ezcopy_ssh_issues</guid>
+      <pubDate>Mon, 08 Nov 2010 08:41:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error in svn of ezcopy?</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy</link>
+      <description>The topic "ezcopy/ezc installation: 'ezc/Base/base.php'" in the forum for "ezupgrade" appears to be caused by an error in the SVN version of "ezcopy".&#13;
+&#13;
+The problem is that the file 'ezc/Base/base.php'  is actually to be found at 'ezc/Base/src/base.php'.&#13;
+&#13;
+I can't find a way of logging this problem, so I'm raising it here.&#13;
+&#13;
+I obtained a copy of 'ezcopy' from SVN (for 'ezupgrade'), and installed both 'ezupgrade' and 'ezcopy' as described in the install documents. I got the error as described in the 'ezupgrade' forum article. &#13;
+&#13;
+I changed the path in 'ezcopy/classes/ezcomponents.php' by adding the intermediate 'src' directory and 'ezupgrade' and 'ezcopy' work fine.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Cliff</description>
+      <author>community@ez.no (cliffp pratt)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/error_in_svn_of_ezcopy</guid>
+      <pubDate>Sat, 06 Nov 2010 23:20:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem with local path</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path/re_problem_with_local_path2</link>
+      <description>Hi Matthieu,&#13;
+&#13;
+Thanks for your feedback.&#13;
+This is not an app made for making db dumps, this is just a part of the app. The main goal with this app is to download and set up one entire eZ installation locally.&#13;
+&#13;
+The reason for appending the ssh_user is to separate the installations on the local computer.&#13;
+&#13;
+Lets say you have set your document root:&#13;
+&#13;
+&lt;code&gt;&#13;
+$this-&gt;data['document_roort'] = '/var/www/';&#13;
+&lt;/code&gt;&#13;
+&#13;
+Then the system will set up the installation for you on /var/www/&lt;username&gt;.&#13;
+Thats the main reason for this.&#13;
+&#13;
+The problem with emptying the cache have we now fixed. This started as a bug when we created ezupgrade. ezupgrade needs ezcopy to work, so we needed to do some adjustments. This should now work.&#13;
+&#13;
+It now sends inn a path to the eZ installation:&#13;
+&#13;
+&lt;code&gt;&#13;
+$this-&gt;clearLocalCache( $this-&gt;data['document_root'] . $this-&gt;data['ssh_user'] );&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;code&gt;&#13;
+function clearLocalCache($path)&#13;
+	{&#13;
+		$this-&gt;log("Clearing cache ");&#13;
+		exec("cd " . $path . ";".$this-&gt;getPathToPHP()." bin/php/ezcache.php --clear-all --purge");&#13;
+		$this-&gt;log("OK\n", 'ok');&#13;
+	}&#13;
+&lt;/code&gt;&#13;
+&#13;
+</description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path/re_problem_with_local_path2</guid>
+      <pubDate>Thu, 18 Mar 2010 08:42:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem with local path</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path/re_problem_with_local_path</link>
+      <description>There also a problem with clearing local cache :&#13;
+&#13;
+this line : exec("cd " . $this-&gt;data['new_distro_folder_name'] . ";php bin/php/ezcache.php --clear-all --purge");&#13;
+&#13;
+The variable $this-&gt;data['new_distro_folder_name'] doesn't exist;&#13;
+&#13;
+I think it should be document_root</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path/re_problem_with_local_path</guid>
+      <pubDate>Tue, 16 Mar 2010 14:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem with local path</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path</link>
+      <description>Hello,&#13;
+&#13;
+I'm giving a try at your extension but I have some problem with local path.&#13;
+&#13;
+You always append ssh_user to document_root :&#13;
+&#13;
+$this-&gt;data['document_root'] . $this-&gt;data['ssh_user']&#13;
+&#13;
+Why that ?&#13;
+&#13;
+In my case I want for example to copy the dump to /var/www/'my_project'/_bddump&#13;
+&#13;
+But I can't because of this ssh_user &#13;
+&#13;
+Did I miss something ?&#13;
+&#13;
+&#13;
+PS : Except that it works perfectly for db dump, nice" job !</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/problem_with_local_path</guid>
+      <pubDate>Tue, 16 Mar 2010 13:55:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Production usage</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/production_usage/re_production_usage2</link>
+      <description>Hallo Eirik, &#13;
+&#13;
+That should work then. &#13;
+Thanks for the reply!&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/production_usage/re_production_usage2</guid>
+      <pubDate>Tue, 19 Jan 2010 22:27:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Production usage</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/production_usage/re_production_usage</link>
+      <description>Hi Nicolas,&#13;
+&#13;
+If you're thinking of moving sites from a test server to a live/deployment server, then the answer is no.&#13;
+&#13;
+We do, however, use it regulary (weekly) to move sites down from deployment servers and onto our local development environments.&#13;
+&#13;
+That being said, I don't see any reason why this wouldn't work as long as your source and target servers match the specified requirements.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/production_usage/re_production_usage</guid>
+      <pubDate>Tue, 19 Jan 2010 14:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Production usage</title>
+      <link>http://projects.ez.no/ezcopy/forum/general/production_usage</link>
+      <description>Hi !&#13;
+&#13;
+This looks promising :)&#13;
+Have you used it for industrial deployment ?&#13;
+&#13;
+Cheers, &#13;
+-- &#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezcopy/forum/general/production_usage</guid>
+      <pubDate>Tue, 19 Jan 2010 14:11:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgoogleanalytics / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:39:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:39:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17032" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Interface ID ?</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id/re_interface_id2</link>
+      <description>I have the same question after 3 year : )&#13;
+&#13;
+where can I find the GoogleAdminInterfaceID? its the same for TrackerID? or GoogleAdminInterfaceID is an API Key?&#13;
+&#13;
+&#13;
+[AnalyticsSettings]&#13;
+# The username </description>
+      <author>community@ez.no (ari glez)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id/re_interface_id2</guid>
+      <pubDate>Fri, 25 May 2012 03:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unknow error : An unexpected error has occu...</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred/re_unknow_error_an_unexpected_error_has_occu2</link>
+      <description>Yes the problem was curl ! It did not support https.&#13;
+You have to compile again PHP with curl and https support or use a new package.&#13;
+&#13;
+On a Red Hat Entreprise server curl did support https, so i could do my tests.&#13;
+On Mac OS,  use mac port to install your packages :&#13;
+sudo port install curl +ssl&#13;
+&#13;
+For more information : http://www.macports.org/ &#13;
+&#13;
+Regards&#13;
+Olivier</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred/re_unknow_error_an_unexpected_error_has_occu2</guid>
+      <pubDate>Wed, 28 Oct 2009 13:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unknow error : An unexpected error has occu...</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred/re_unknow_error_an_unexpected_error_has_occu</link>
+      <description>Hello,&#13;
+&#13;
+I see your post, ans I have the same problem. Do you find solution(s) ?&#13;
+&#13;
+Thanks in advanced,</description>
+      <author>community@ez.no (Anne MARTINET)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred/re_unknow_error_an_unexpected_error_has_occu</guid>
+      <pubDate>Wed, 14 Oct 2009 13:17:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto login failed !!</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/auto_login_failed</link>
+      <description>Too bad, Google changed the login form.&#13;
+No news for the moment, we will stay tuned to find a way to get the AutoLogin work again.&#13;
+http://www.google.com/support/forum/p/Google+Analytics/thread?tid=48291281d7866bde</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/auto_login_failed</guid>
+      <pubDate>Thu, 08 Oct 2009 14:19:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Interface ID ?</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id/re_interface_id</link>
+      <description>When you login to google analytiics, you get a list of your accounts. When you select one of them, an ID shows up in the URL, the scid parameter. It usually is a number with 6 digits. it will also be repeated in the UA-XXXXXXX-YY code you will see for each tracker.</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id/re_interface_id</guid>
+      <pubDate>Tue, 06 Oct 2009 13:37:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interface ID ?</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id</link>
+      <description>Hello,&#13;
+I want to know what is the interface ID in the settings of your extension&#13;
+Thanks a lot</description>
+      <author>community@ez.no (Florent Hache)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/interface_id</guid>
+      <pubDate>Tue, 06 Oct 2009 10:03:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unknow error : An unexpected error has occurred...</title>
+      <link>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred</link>
+      <description>Hi Bertrand,&#13;
+&#13;
+I installed and configured your extension on a local machine (MacOS).&#13;
+I created the tables like mentioned in the file doc/pagedata.sql&#13;
+&#13;
+I launched the script pagedata.php from command line :&#13;
+&lt;i&gt;php bin/php/ezexec.php extension/ezgoogleanalytics/bin/php/pagedata.php&lt;/i&gt;&#13;
+&#13;
+At first exec i had these errors :&#13;
+&lt;code&gt;&#13;
+PHP Fatal error:  Class 'eZGoogleAnalytics' not found in /opt/local/apache2/htdocs/jnto/extension/ezgoogleanalytics/bin/php/pagedata.php on line 114&#13;
+&#13;
+Fatal error: Class 'eZGoogleAnalytics' not found in /opt/local/apache2/htdocs/jnto/extension/ezgoogleanalytics/bin/php/pagedata.php on line 114&#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&lt;/code&gt;&#13;
+&#13;
+So i refreshed the autoloads :&#13;
+&lt;i&gt;php bin/php/ezpgenerateautoloads.php&lt;/i&gt;&#13;
+&#13;
+And then refreshed the cashes :&#13;
+&lt;i&gt;php bin/php/ezcache.php --clear-all&lt;/i&gt;&#13;
+&#13;
+After all, the exec of the command bin/php/pagedata.php return this :&#13;
+An unexpected error has occurred. Please contact the webmaster.&#13;
+&#13;
+Have you got any idea ?&#13;
+Thanks for your help.&#13;
+Olivier&#13;
+</description>
+      <author>community@ez.no (Olivier Portier)</author>
+      <guid>http://projects.ez.no/ezgoogleanalytics/forum/general/unknow_error_an_unexpected_error_has_occurred</guid>
+      <pubDate>Thu, 23 Jul 2009 10:10:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

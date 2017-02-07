@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ca_countrylist / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:07:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:07:31 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23417" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ca_countrylist rev. 24 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/24</link>
+      <description>Allow to init select with other value than current locale</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/24</guid>
+      <pubDate>Fri, 11 Jan 2013 10:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 23 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/23</link>
+      <description>Adding country selector with default value empty
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/23</guid>
+      <pubDate>Tue, 24 Jan 2012 13:15:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 22 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/22</link>
+      <description>refs #390 : unset choice on country selector in page contact</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/22</guid>
+      <pubDate>Thu, 19 Jan 2012 16:00:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 21 by Julien Femia</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/21</link>
+      <description>get selected option value when errors on form submit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/21</guid>
+      <pubDate>Mon, 12 Dec 2011 10:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 20 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/20</link>
+      <description>Pass current language as a parameter instead of relying on the country info</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/20</guid>
+      <pubDate>Fri, 01 Jul 2011 13:02:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 19 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/19</link>
+      <description>add empty value and validation rules</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/19</guid>
+      <pubDate>Mon, 14 Feb 2011 17:01:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 18 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/18</link>
+      <description>Add fromString() method
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/18</guid>
+      <pubDate>Fri, 10 Dec 2010 17:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 17 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/17</link>
+      <description>if no country selected select country bind with current language</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/17</guid>
+      <pubDate>Wed, 07 Jul 2010 08:55:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 16 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/16</link>
+      <description>if no country selected select country bind with current language</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/16</guid>
+      <pubDate>Wed, 07 Jul 2010 08:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 15 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/15</link>
+      <description>refactoring for fetch persistent objects</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/15</guid>
+      <pubDate>Thu, 08 Apr 2010 09:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 14 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/14</link>
+      <description>view should only show selected country</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/14</guid>
+      <pubDate>Wed, 17 Mar 2010 15:30:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 12 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/12</link>
+      <description>add id on select</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/12</guid>
+      <pubDate>Fri, 12 Mar 2010 11:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 13 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/13</link>
+      <description>add id on select</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/13</guid>
+      <pubDate>Fri, 12 Mar 2010 11:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 11 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/11</link>
+      <description>update datatype view</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/11</guid>
+      <pubDate>Fri, 12 Mar 2010 09:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 10 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/10</link>
+      <description>Add doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/10</guid>
+      <pubDate>Tue, 23 Feb 2010 09:35:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 9 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/9</link>
+      <description>implement information collection related stuff</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/9</guid>
+      <pubDate>Mon, 22 Feb 2010 16:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 8 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/8</link>
+      <description>implements datatype store country / display country # select stored country in select box</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/8</guid>
+      <pubDate>Fri, 19 Feb 2010 15:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 7 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/7</link>
+      <description>implements datatype store country / display country</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/7</guid>
+      <pubDate>Fri, 19 Feb 2010 15:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 6 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/6</link>
+      <description>add eZCountryTranslation persistant object
+add fetch_country_list operator
+start to implement datatype templates</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/6</guid>
+      <pubDate>Thu, 18 Feb 2010 17:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 5 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/5</link>
+      <description>add datatype view and edit templates</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/5</guid>
+      <pubDate>Thu, 18 Feb 2010 14:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 4 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/4</link>
+      <description>add wscountryinfo class to deal with webservice
+update country list on publish</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/4</guid>
+      <pubDate>Thu, 18 Feb 2010 14:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 2 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/2</link>
+      <description>add ignore properties</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/2</guid>
+      <pubDate>Thu, 18 Feb 2010 11:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 3 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/3</link>
+      <description>initial import : empty datatype created / ezcountryinfo persistant object created</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/3</guid>
+      <pubDate>Thu, 18 Feb 2010 11:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ca_countrylist rev. 1 by Matthieu  Sévère</title>
+      <link>http://projects.ez.no/ca_countrylist/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ca_countrylist/subversion/1</guid>
+      <pubDate>Thu, 18 Feb 2010 11:10:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

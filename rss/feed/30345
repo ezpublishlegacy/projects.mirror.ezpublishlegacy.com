@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_human_captcha / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:50:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:50:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30345" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ez_human_captcha/news/changelog</link>
+      <description>&lt;p&gt;
+# vX, public, unreleased&lt;br /&gt;
+ - Additional token image filters (use eZ Components).&lt;br /&gt;
+ # v1.8 stable, public, 2008.05.26&lt;br /&gt;
+ + Additional dictionary mode, next to random generation of&lt;br /&gt;
+ tokens.&lt;br /&gt;
+ # v1.7 stable, public, 2008.02.11&lt;br /&gt;
+ + Strict 'require attribute' option to make it impossible to omit&lt;br /&gt;
+ attribute&lt;br /&gt;
+ in the edit mode.&lt;br /&gt;
+ # v1.6 stable, public, 2008.02.09&lt;br /&gt;
+ + Bypass for logged in users on specific class attributes (datatype&lt;br /&gt;
+ mode).&lt;br /&gt;
+ + Additional template operator for bypass hashing (secure&lt;br /&gt;
+ bypass).&lt;br /&gt;
+ # v1.5 stable, public, 2008.01.01&lt;br /&gt;
+ + Bug fix/enhancement: proper token invalidation to prevent&lt;br /&gt;
+ re-submitting.&lt;br /&gt;
+ # v1.4 stable, public, 2007.12.31&lt;br /&gt;
+ + Bug fix: validation problems in template/module mode when using&lt;br /&gt;
+ siteaccess&lt;br /&gt;
+ or user bypasses.&lt;br /&gt;
+ # v1.3 stable, public, 2007.12.14&lt;br /&gt;
+ + Readme cleanup.&lt;br /&gt;
+ # v1.2 stable, public, 2007.12.13&lt;br /&gt;
+ + Possible to bypass token validation for given siteaccess and/or&lt;br /&gt;
+ userID&lt;br /&gt;
+ # v1.1 stable, public, 2007.12.12&lt;br /&gt;
+ + Bug/compatibility fix: call_user_func syntax not compatible with PHP&lt;br /&gt;
+ 5.2.2&lt;br /&gt;
+ and earlier - a version sensitive patch applied.&lt;br /&gt;
+ # v1.0 stable, public, 2007.12.11&lt;br /&gt;
+ + Salt string for token encryption&lt;br /&gt;
+ # v0.4 beta, public, 2007.12.09&lt;br /&gt;
+ + Test/sample module and view: ezhumancaptcha/test&lt;br /&gt;
+ # v0.3 beta, public, 2007.12.08&lt;br /&gt;
+ + Add logging/debugging for critical areas.&lt;br /&gt;
+ + Use eZ Publish methods instead of native PHP functions where&lt;br /&gt;
+ possible.&lt;br /&gt;
+ + Default token image filter needs general improvements and&lt;br /&gt;
+ corrections ;)&lt;br /&gt;
+ # v0.2 beta, public, 2007.12.08&lt;br /&gt;
+ + Add instructions on how to add custom filters.&lt;br /&gt;
+ + Fix: token image cleanup function missing.&lt;br /&gt;
+ + Cronjob for token image cleanup function.&lt;br /&gt;
+ + Minor readme improvements and corrections.&lt;br /&gt;
+ # v0.1 alpha, public, 2007.12.08&lt;br /&gt;
+ + First almost fully working version, still for testing purposes only,&lt;br /&gt;
+ does not&lt;br /&gt;
+ provide mechanism for cleaning up uncaught token image garbage. &lt;br /&gt;
+ # v0.0 alpha, local, 2007.12.06&lt;br /&gt;
+ + Start.&lt;br /&gt;
+ /+/ complete&lt;br /&gt; /-/ plan or in progress&lt;/p&gt;</description>
+      <author>community@ez.no (Piotr Karaś)</author>
+      <guid>http://projects.ez.no/ez_human_captcha/news/changelog</guid>
+      <pubDate>Thu, 29 May 2008 04:14:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

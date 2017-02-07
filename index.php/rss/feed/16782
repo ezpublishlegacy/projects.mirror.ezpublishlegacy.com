@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezyui / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:58:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:58:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16782" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezyui rev. 27 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/27</link>
+      <description>cs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/27</guid>
+      <pubDate>Tue, 28 Jul 2009 15:35:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 26 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/26</link>
+      <description>- Implemented: use JSON as transport format</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/26</guid>
+      <pubDate>Tue, 28 Jul 2009 15:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 25 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/25</link>
+      <description>remove latin1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/25</guid>
+      <pubDate>Tue, 28 Jul 2009 13:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 23 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/23</link>
+      <description>typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/23</guid>
+      <pubDate>Mon, 27 Jul 2009 15:35:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 24 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/24</link>
+      <description>typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/24</guid>
+      <pubDate>Mon, 27 Jul 2009 15:35:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 22 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/22</link>
+      <description>Corrected lisence data</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/22</guid>
+      <pubDate>Mon, 27 Jul 2009 15:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 21 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/21</link>
+      <description>- Implement: permission support for eZYuiServerCalls
+# Also split out keyword and rating into seperate classes, for permission sake and to make it easier to move to their own extensions later..</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/21</guid>
+      <pubDate>Mon, 27 Jul 2009 15:15:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 20 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezyui/subversion/20</link>
+      <description>- added Workaround for path issue
+- added charset parameter to operators</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/20</guid>
+      <pubDate>Fri, 24 Jul 2009 03:15:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 19 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/ezyui/subversion/19</link>
+      <description>- Fixed BUG: Workaround for serving from the same host name by prepending "/index_yui.php"(/ezyui/hello) and using virtual host setup.
+- Fix needed to serve all content from one SSL domain.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/19</guid>
+      <pubDate>Thu, 23 Jul 2009 01:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 18 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/18</link>
+      <description>Fixed {} template parser error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/18</guid>
+      <pubDate>Mon, 20 Jul 2009 22:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 17 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezyui/subversion/17</link>
+      <description>- Define empty YUI3_config as object
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/17</guid>
+      <pubDate>Mon, 20 Jul 2009 15:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 16 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezyui/subversion/16</link>
+      <description>- Added YUI 2.7.0
+- Removed CDN INI
+  (100k JS is a way to much, yui-min.js is enught and load rest on demand)
+- Added support for YUILoader for YUI 2.x.x
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/16</guid>
+      <pubDate>Thu, 16 Jul 2009 08:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 15 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/15</link>
+      <description>- Merged rating from ezcore, added annonymus user support (pr session)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/15</guid>
+      <pubDate>Fri, 10 Jul 2009 08:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 14 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezyui/subversion/14</link>
+      <description>- Updated version to 3.0.0b1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/14</guid>
+      <pubDate>Mon, 06 Jul 2009 10:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 13 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/13</link>
+      <description>- Use global config object to make local loading work correctly</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/13</guid>
+      <pubDate>Mon, 29 Jun 2009 10:45:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 12 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/12</link>
+      <description>- Update yui to 3.0beta1
+# part 3 of 2 ( fixing keyword code for changes in yui code )</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/12</guid>
+      <pubDate>Mon, 29 Jun 2009 09:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 11 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/11</link>
+      <description>- Update yui to 3.0beta1
+# part 2 of 2 (adding local beta1 files)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/11</guid>
+      <pubDate>Mon, 29 Jun 2009 08:31:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 10 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/10</link>
+      <description>- Update yui to 3.0beta1
+# part 2 of 2 (adding local beta1 files)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/10</guid>
+      <pubDate>Mon, 29 Jun 2009 08:31:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 8 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/8</link>
+      <description>- Update yui to 3.0beta1
+# part 2 of 2 (adding local beta1 files)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/8</guid>
+      <pubDate>Mon, 29 Jun 2009 08:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 9 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/9</link>
+      <description>- Update yui to 3.0beta1
+# part 2 of 2 (adding local beta1 files)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/9</guid>
+      <pubDate>Mon, 29 Jun 2009 08:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 7 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/7</link>
+      <description>- Update yui to 3.0beta1
+# part 1 of 2 (deleting pr2 files)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/7</guid>
+      <pubDate>Mon, 29 Jun 2009 08:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 6 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezyui/subversion/6</link>
+      <description>- Fixed problem with nested double quotes in yui_config
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/6</guid>
+      <pubDate>Fri, 19 Jun 2009 10:55:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 5 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezyui/subversion/5</link>
+      <description>- Moved yui from javascript to the lib folder
+- Added initial draft for the doc
+- Updated page_head_script.tpl and page_head.tpl in order to respect new path
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/5</guid>
+      <pubDate>Fri, 19 Jun 2009 10:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 3 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/3</link>
+      <description>Added setting to load yui from local server</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/3</guid>
+      <pubDate>Mon, 08 Jun 2009 12:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 4 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/4</link>
+      <description>removed php version of json_encode, so requriment is now PHP 5.2 or PHP 5.1 with json extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/4</guid>
+      <pubDate>Mon, 08 Jun 2009 12:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 2 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/2</link>
+      <description>missing locale version of yui</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/2</guid>
+      <pubDate>Mon, 08 Jun 2009 11:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezyui rev. 1 by André R</title>
+      <link>http://projects.ez.no/ezyui/subversion/1</link>
+      <description>intial commit</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezyui/subversion/1</guid>
+      <pubDate>Mon, 08 Jun 2009 11:25:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

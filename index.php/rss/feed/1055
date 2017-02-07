@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezclasslists / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:00:43 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:00:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1055" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Title not changed when class listed from left dropdown</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/title_not_changed_when_class_listed_from_left_dropdown</link>
+      <description>When I click on the "List by class" tab in the admin, the listing for first class (in my case Article) is displayed, and in the title I get something like this:&#13;
+&#13;
+Article objects / List by content class&#13;
+&#13;
+And when I select some other class from the left dropdown, the class listing is changed but the title stays the same, whie it should change according to selected class.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/title_not_changed_when_class_listed_from_left_dropdown</guid>
+      <pubDate>Sun, 28 Aug 2011 11:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: popup_menu.tpl placment override</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/popup_menu_tpl_placment_override/re_popup_menu_tpl_placment_override</link>
+      <description>Hi André,&#13;
+&#13;
+I quickly viewed this new feature. Good to a see a new type of extension :) It's quite related to this issue http://issues.ez.no/14998&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/popup_menu_tpl_placment_override/re_popup_menu_tpl_placment_override</guid>
+      <pubDate>Tue, 15 Dec 2009 08:32:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>popup_menu.tpl placment override</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/popup_menu_tpl_placment_override</link>
+      <description>Hi!&#13;
+&#13;
+Committed support for extending class / bookmark / advance menu now in "admin2", so you'll be able to extend it cleanly in next version.&#13;
+&#13;
+If anyone knows of other places where you frequently need override template, speak up! ;) (already fixed left menu in setup and other tabs a couple of months ago)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/popup_menu_tpl_placment_override</guid>
+      <pubDate>Mon, 14 Dec 2009 12:51:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem in 'View objects of this class' link</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link/re_problem_in_view_objects_of_this_class_link2</link>
+      <description>If the logic is changed(using id internally instead of string), then you could use:&#13;
+&lt;code&gt;&#13;
+$classID = eZContentObjectTreeNode::classIDByIdentifier( $classIdentifier );&#13;
+&lt;/code&gt;&#13;
+on both 4.0 and 4.1.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link/re_problem_in_view_objects_of_this_class_link2</guid>
+      <pubDate>Mon, 10 Aug 2009 08:47:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem in 'View objects of this class' link</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link/re_problem_in_view_objects_of_this_class_link</link>
+      <description>Hi,&#13;
+&#13;
+I'm writing again, because I think that my previous post was not well-founded. I found out that this new release of the extension is compatible with the 4.1 version, however, I'm trying to implement it in 4.0. The solution that I posted previously works fine for 4.0 for now, so probably I could use it until the migration to version 4.1.</description>
+      <author>community@ez.no (Elena Stoycheva)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link/re_problem_in_view_objects_of_this_class_link</guid>
+      <pubDate>Mon, 08 Jun 2009 13:51:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem in 'View objects of this class' link</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link</link>
+      <description>Hi, Mr. Pobel,&#13;
+&#13;
+Many thanks for sharing the new release of that great extension. I have already implemented it and tested its new features. However, in my opinion, there is one problem related to the 'View objects of this class' link in the popup menu in the nodes view full. The url of the link takes the numeric class ID of the current object and then the filtration of the objects of that class is made by that ID. I checked the source code of link.php and I saw that in it you check the class identifier value and if it is numeric you converted it this way:&#13;
+&#13;
+if ( is_numeric( $classIdentifier ) )&#13;
+{&#13;
+    $classIdentifier = eZContentClass::classIdentifierByID( $classIdentifier );&#13;
+}&#13;
+&#13;
+but the problem is that this function 'classIdentifierByID' is non-existing in the eZContentClass, at least I didn't find it. So, I added my custom fix as first I fetch the current class by it's numeric ID and then I take the value of the attribute Identifier of that class this way: &#13;
+&#13;
+if ( is_numeric( $classIdentifier ) )&#13;
+{&#13;
+    $class = eZContentClass::fetch( $classIdentifier, true, 0 );&#13;
+    $classIdentifier = $class-&gt;attribute( 'identifier' );&#13;
+}&#13;
+&#13;
+This is my solution, although it might not be the best, but in my case it works for fine for now. I hope you could help my with the key to this problem. I'm looking forward to your reply!&#13;
+&#13;
+Best regards!</description>
+      <author>community@ez.no (Elena Stoycheva)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/problem_in_view_objects_of_this_class_link</guid>
+      <pubDate>Thu, 04 Jun 2009 09:54:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Old link on home page</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/old_link_on_home_page/re_old_link_on_home_page</link>
+      <description>Hi,&#13;
+&#13;
+I updated the homepage of the project, thanks for the report. :)</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/old_link_on_home_page/re_old_link_on_home_page</guid>
+      <pubDate>Sat, 30 May 2009 09:27:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Old link on home page</title>
+      <link>http://projects.ez.no/ezclasslists/forum/general/old_link_on_home_page</link>
+      <description>The link on the home page leads to version 0.2. It should probably rather point to all downloads.</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ezclasslists/forum/general/old_link_on_home_page</guid>
+      <pubDate>Sat, 20 Dec 2008 20:16:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

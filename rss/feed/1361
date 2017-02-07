@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / gis</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1361" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>visitor map using GIS?</title>
+      <link>http://projects.ez.no/gis/forum/general/visitor_map_using_gis</link>
+      <description>Hi;&#13;
+&#13;
+I'd like to create a google visitor map showing visitors of my site based on IP. Is it possible with this extension?</description>
+      <author>community@ez.no (Noicokuna Niemoge)</author>
+      <guid>http://projects.ez.no/gis/forum/general/visitor_map_using_gis</guid>
+      <pubDate>Mon, 16 Mar 2009 12:55:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tip for a multi-siteaccess </title>
+      <link>http://projects.ez.no/gis/forum/general/tip_for_a_multi_siteaccess_virtual_hosted_installation</link>
+      <description>Purpose : &#13;
+&#13;
+How I used this extension in a multi-siteaccess & virtual hosts installation, by example for a http://admin.mysite.com + http://www.mysite.com, http://de.mysite.com, all running on a single eZ instance.
+
+The fact is that multi-siteaccess with virtual host installation require multi API keys, one for each domain (http://admin., http://www., http://de., http://it., http://es., etc.) (well, at least for googlemap API).
+
+In the PHP code and in tpl files, the ezini calls are written like this :
+
+<code>
+$gisini = eZINI::instance( "gis.ini" );                          &#13;
+$key = $gisini-&gt;variable( "Google", "ApplicationID" );&#13;
+$url = $gisini-&gt;variable( "Google", "Url" );&#13;
+&lt;/code&gt;&#13;
+&#13;
+or &#13;
+&#13;
+&lt;code&gt;&#13;
+{ezini("Google", "ApplicationID", "gis.ini")}&#13;
+&lt;/code&gt;&#13;
+&#13;
+So after having generated your Gmap keys, you have to re-organize the original gis.ini like this :&#13;
+&#13;
+* copy the original gis.ini in ../settings/override/ &#13;
+* rename the original ../extension/gis/settings/gis.ini in gis.ini.memo&#13;
+* then create an empty gis.ini in each of your virtual hosted siteaccess&#13;
+* in the ../settings/override/gis.ini, just comment the ApplicationID=XXX line&#13;
+* copy the [Google] line and this ApplicationID= line in each of your siteaccess site.ini : in the ../settings/siteaccess/admin/gis.ini, in the ../settings/siteaccess/www/gis.ini, etc., then complete this line with the google map api key for your current virtual hosted siteaccess.&#13;
+&#13;
+Here you are !&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Ronan Guilloux)</author>
+      <guid>http://projects.ez.no/gis/forum/general/tip_for_a_multi_siteaccess_virtual_hosted_installation</guid>
+      <pubDate>Mon, 26 Jan 2009 09:52:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Link to download?</title>
+      <link>http://projects.ez.no/gis/forum/general/link_to_download</link>
+      <description>there is no link to download a package ?&#13;
+&#13;
+ok, found in Subversion ..</description>
+      <author>community@ez.no (Stephane Cottin)</author>
+      <guid>http://projects.ez.no/gis/forum/general/link_to_download</guid>
+      <pubDate>Thu, 20 Nov 2008 21:14:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Custom match file: path 'full/gis.tpl' not found</title>
+      <link>http://projects.ez.no/gis/forum/general/custom_match_file_path_full_gis_tpl_not_found</link>
+      <description>&lt;code&gt;&#13;
+Custom match file: path 'full/gis.tpl' not found in any resource.&#13;
+&lt;/code&gt;&#13;
+This warning shows up multiple times in the administration interface.&#13;
+&#13;
+The problem is that this template only exists in the ezwebin design inside the extension, and the admin interface normally does not use this design.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/gis/forum/general/custom_match_file_path_full_gis_tpl_not_found</guid>
+      <pubDate>Mon, 27 Oct 2008 08:51:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Undefined attribute 'content', cannot set</title>
+      <link>http://projects.ez.no/gis/forum/general/undefined_attribute_content_cannot_set</link>
+      <description>Hi&#13;
+&#13;
+There are errors logged, when ezgistype::initializeObjectAttribute() is called:&#13;
+&lt;code&gt;&#13;
+Undefined attribute 'content', cannot set&#13;
+&lt;/code&gt;&#13;
+The problem are the calls like&#13;
+&lt;code&gt;&#13;
+$contentObjectAttribute-&gt;setAttribute( "content", ... );&#13;
+&lt;/code&gt;&#13;
+You need to use this instead:&#13;
+&lt;code&gt;&#13;
+$contentObjectAttribute-&gt;setContent( ... );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/gis/forum/general/undefined_attribute_content_cannot_set</guid>
+      <pubDate>Fri, 17 Oct 2008 07:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Version compatability</title>
+      <link>http://projects.ez.no/gis/forum/general/version_compatability/re_version_compatability</link>
+      <description>Hi,&#13;
+&#13;
+the current SVN only includes the version for eZ 4.&#13;
+We'll backport the current version within the next two weeks so it'll be available for eZ 3.10 also.</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/gis/forum/general/version_compatability/re_version_compatability</guid>
+      <pubDate>Tue, 18 Mar 2008 11:05:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version compatability</title>
+      <link>http://projects.ez.no/gis/forum/general/version_compatability</link>
+      <description>I saw in an earlier version a screen shot of this extension running on 3.7.  Does is still work on 3.10.x ?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/gis/forum/general/version_compatability</guid>
+      <pubDate>Tue, 18 Mar 2008 02:49:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Check if Attribute is required!</title>
+      <link>http://projects.ez.no/gis/forum/general/check_if_attribute_is_required</link>
+      <description>Hi there, ezgistype.php does not recognize if the attribute is required or not.</description>
+      <author>community@ez.no (Andreas Adelsberger)</author>
+      <guid>http://projects.ez.no/gis/forum/general/check_if_attribute_is_required</guid>
+      <pubDate>Tue, 19 Feb 2008 12:55:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

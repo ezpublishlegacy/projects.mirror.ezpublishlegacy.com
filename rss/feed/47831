@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owmultisite / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:28:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:28:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47831" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use5</link>
+      <description>Hi Brendan,&#13;
+&#13;
+Thanks for your feedback.&#13;
+&#13;
+If you want to optimize your template, you can replace &#13;
+&lt;code&gt;{$node.node_id|owurl()}&lt;/code&gt;&#13;
+by&#13;
+&lt;code&gt;{$node|owurl()}&lt;/code&gt;&#13;
+&#13;
+You will avoid a SQL request ;)</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use5</guid>
+      <pubDate>Wed, 15 May 2013 07:34:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use4</link>
+      <description>HI Simon, just some feedback as requested. We used the following in our templates/content/datatype/view/ezxmltags/link.tpl&#13;
+&#13;
+ &lt;code&gt;{def $node=fetch( 'content', 'node', hash( 'node_path', $href ) )}&#13;
+&lt;a href={if is_object($node)}{$node.node_id|owurl()}{else}{$href|ezurl}{/if}&#13;
+   {if $id} id="{$id}"{/if}&#13;
+   {if $title} title="{$title}"{/if}&#13;
+   {if $target} target="{$target}"{/if}&#13;
+   {if $classification} class="{$classification|wash}"{/if}&#13;
+   {if and(is_set( $hreflang ), $hreflang)} hreflang="{$hreflang|wash}"{/if}&gt;{$content}&lt;/a&gt;&lt;/code&gt;&#13;
+&#13;
+It appears to work, I have noticed sometimes the node can not be set but this hasn't happened on cross siteaccess links to hasn't been an issue.  You could always test and if you feel its suitable perhaps include an override template in your extension.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use4</guid>
+      <pubDate>Wed, 15 May 2013 06:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use3</link>
+      <description>Maybe it can work !&#13;
+&#13;
+Keep me informed :)&#13;
+&#13;
+Have a good day</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use3</guid>
+      <pubDate>Tue, 14 May 2013 07:27:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use2</link>
+      <description>Thanks Simon, &#13;
+&#13;
+Presumably overriding templates/content/datatype/view/ezxmltags/link.tpl and adding &#13;
+{def $node=fetch( 'content', 'node', hash( 'node_path', $href ) )}&#13;
+to the top would achieve the same thing right?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use2</guid>
+      <pubDate>Tue, 14 May 2013 04:04:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use</link>
+      <description>Hi Brendan,&#13;
+&#13;
+The ezxmltags/link.tpl is provided by ezoe extension. By default, ezoe sadly doesn't provide $node variables in this templates&#13;
+&#13;
+In ezxmltags/link.tpl, you can access to $object_id and $node_id variables if you enable this in datatype file :&#13;
+&#13;
+You can do that :&#13;
+&#13;
+&lt;b&gt;1. In kernel/datatypes/ezxmltext/handlers/output/ezxhtmlxmloutput.php&lt;/b&gt;&#13;
+&#13;
+In $OutputTags['link'] definition at top of file, replace &#13;
+&lt;code&gt;&#13;
+'object_id' =&gt; false,&#13;
+'node_id' =&gt; false,&#13;
+&lt;/code&gt;&#13;
+by&#13;
+&lt;code&gt;&#13;
+'object_id' =&gt; 'object_id',&#13;
+'node_id' =&gt; 'node_id',&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;b&gt;2. In your link.tpl :&lt;/b&gt;&#13;
+&lt;code&gt;&#13;
+{if first_set($node_id, false())}&#13;
+	{def $url = $node_id|owurl()}&#13;
+{elseif first_set($object_id, false())}&#13;
+	{def $url = fetch('content', 'object', hash('object_id', $object_id)).main_node|owurl()}&#13;
+{else}&#13;
+	{def $url = $href|ezurl(no,full)}&#13;
+{/if}&#13;
+&lt;a href="{$url}"{if $id} id="{$id}"{/if}{if $title} title="{$title}"{/if}{if $target} target="{$target}"{/if}{if $classification} class="{$classification|wash}"{/if}{if and(is_set( $hreflang ), $hreflang)} hreflang="{$hreflang|wash}"{/if}&gt;{$content}&lt;/a&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;b&gt;3. Clear caches&lt;/b&gt;&#13;
+&#13;
+So, if you don't want modify kernel, you can properly override this in an extension :&#13;
+http://share.ez.no/forums/developer/override-kernel-classes&#13;
+http://www.ezpedia.org/solution/overriding_kernel_classes_within_an_extension</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use/re_example_use</guid>
+      <pubDate>Mon, 13 May 2013 08:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Example use</title>
+      <link>http://projects.ez.no/owmultisite/forum/general/example_use</link>
+      <description>Hi Simon&#13;
+&#13;
+Are you able to supply a basic example of use.  I keep getting "Node not found. Please verify your input type or your SiteLanguageList settings".  I had assumed that I was meant to override design/standard/templates/content/datatype/view/ezxmltags/link.tpl and use the owurl in there, but $node isn't available?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/owmultisite/forum/general/example_use</guid>
+      <pubDate>Tue, 07 May 2013 02:47:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

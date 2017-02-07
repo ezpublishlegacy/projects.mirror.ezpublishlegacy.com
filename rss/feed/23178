@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / admin2pp</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23178" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work2</link>
+      <description>And I found what was the problem...&#13;
+&#13;
+The admin2pp in it's ezjscore.ini.append.php includes jquery-ui-1.8.6.min.js which causes problem because is already loaded by ezie extension.&#13;
+&#13;
+The problem is actually in ezie, I'm making a pull request...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work2</guid>
+      <pubDate>Mon, 24 Oct 2011 01:17:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo5</link>
+      <description>EDIT: this was posted in the wrong thread</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo5</guid>
+      <pubDate>Mon, 24 Oct 2011 00:39:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work</link>
+      <description>P.S. This was tested with the latest admin2pp from the trunk.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work</guid>
+      <pubDate>Fri, 21 Oct 2011 16:32:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work</link>
+      <description>When admin2pp is enabled on eZP4.4, the ezie doesn't work.&#13;
+&#13;
+Firebug reports this:&#13;
+&#13;
+"NetworkError: 404 Not Found - http://ez44.kultura.hr/extension/ezie/design/standard/stylesheets/ezie/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"&#13;
+&#13;
+and when I click on the image load button, I get the following JS error:&#13;
+&#13;
+this._mouseInit is not a function&#13;
+[Break On This Error] labelsObj=labels;createGroups=groups;c...tion(){$(".ezieEditButton").ezie();}) &#13;
+&#13;
+&#13;
+If I disable admin2pp everything works fine...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work</guid>
+      <pubDate>Fri, 21 Oct 2011 16:22:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo4</link>
+      <description>Any chances to have this fixed?&#13;
+&#13;
+I would propose a fix, but I have no idea where to start...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo4</guid>
+      <pubDate>Fri, 21 Oct 2011 15:54:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo3</link>
+      <description>Hi Marko,&#13;
+&#13;
+I haven't checked in detail yet but it's more an admin2pp issue that comes from a change of behavior in TinyMCE/Online Editor. If I remember correctly, in earlier versions, preloading the JavaScript files in the login page did not generate any issue, it seems like now something is wrongly executed.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo3</guid>
+      <pubDate>Tue, 13 Sep 2011 09:12:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo2</link>
+      <description>Is this a bug in admin2pp or a bug in ezoe?&#13;
+&#13;
+From where is this large string generated?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo2</guid>
+      <pubDate>Tue, 13 Sep 2011 08:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo</link>
+      <description>Hi Marko,&#13;
+&#13;
+&lt;i&gt;When this extension is enabled and you go to the admin interface without being logged in (the user/login page is presented), a lot of unneeded .js files are loaded.&lt;/i&gt;&#13;
+&#13;
+this is done on purpose. The idea is to asynchronously fill the browser's cache while the user is filling the login form (or trying to remember his password :-)) to speed up the admin interface page loadings.&#13;
+&#13;
+&lt;i&gt;Among them also the .js files for OE are loaded and one of them causes a "Request-URI too large" error response. On some servers this triggers security mechanisms that block access from the user's computer.&lt;/i&gt;&#13;
+&#13;
+yeah I noticed this issue too, as a workaround, you can remove the guilty JavaScript file from [PreloadSettings]/OEJavaScriptFiles[] array in admin2pp.ini&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo</guid>
+      <pubDate>Thu, 08 Sep 2011 14:55:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>causes a bug in admin interface when not logged in</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in</link>
+      <description>When this extension is enabled and you go to the admin interface without being logged in (the user/login page is presented), a lot of unneeded .js files are loaded.&#13;
+Among them also the .js files for OE are loaded and one of them causes a "Request-URI too large" error response. On some servers this triggers security mechanisms that block access from the user's computer.&#13;
+&#13;
+This issue is also described here:&#13;
+&#13;
+http://issues.ez.no/IssueView.php?Id=18628</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in</guid>
+      <pubDate>Thu, 08 Sep 2011 09:18:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 154 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/154</link>
+      <description>Improved admin2ppPreviewDialog to be more flexible
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/154</guid>
+      <pubDate>Fri, 22 Jul 2011 21:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 153 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/153</link>
+      <description>CS: trying to stick to http://javascript.crockford.com/code.html
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/153</guid>
+      <pubDate>Tue, 19 Jul 2011 20:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 152 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/152</link>
+      <description>Fixed a template error
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/152</guid>
+      <pubDate>Tue, 19 Jul 2011 18:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 151 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/151</link>
+      <description>Fixed a buggy template comment
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/151</guid>
+      <pubDate>Tue, 19 Jul 2011 14:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 150 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/150</link>
+      <description>Added some comments to Apache configuration
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/150</guid>
+      <pubDate>Mon, 18 Jul 2011 21:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in6</link>
+      <description>this is more or less the case of a lot of files in the extension (override with some minor changes) because I started this extension before being an eZ Systems employee and before the ability to easily provide contributions to eZ via github.&#13;
+&#13;
+Btw, some of the changes made in earlier version of admin2pp had been reintegrated in eZ and like the icons-sprite.png use in this style sheet.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in6</guid>
+      <pubDate>Mon, 18 Jul 2011 12:12:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in5</link>
+      <description>If it improves performance, then why not push it in the admin2?&#13;
+&#13;
+I mean, using and maintaining two different versions of the same file is pretty much nonoptimal...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in5</guid>
+      <pubDate>Mon, 18 Jul 2011 10:55:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 149 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/149</link>
+      <description>Implemented: no more page refresh when enabling node tabs
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/149</guid>
+      <pubDate>Mon, 18 Jul 2011 10:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in4</link>
+      <description>Hi Marko,&#13;
+&#13;
+I fixed this issue and some others with the last versions of eZ Publish.&#13;
+&#13;
+The reason to embed yui_menu.css is because the version from admin2pp brings some performance improvements (sprites, remove useless parth, ...)&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in4</guid>
+      <pubDate>Mon, 18 Jul 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 148 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/148</link>
+      <description>Commented out useless part of yui_menu.css
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/148</guid>
+      <pubDate>Mon, 18 Jul 2011 10:21:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 146 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/146</link>
+      <description>Optimized the new icons sprite image
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/146</guid>
+      <pubDate>Mon, 18 Jul 2011 10:02:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 145 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/145</link>
+      <description>Added trash and invert selection icons to the icons sprite
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/145</guid>
+      <pubDate>Mon, 18 Jul 2011 10:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 144 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/144</link>
+      <description>Synchronized JavaScript file with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/144</guid>
+      <pubDate>Sat, 16 Jul 2011 14:25:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 143 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/143</link>
+      <description>Synchronized templates with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/143</guid>
+      <pubDate>Sat, 16 Jul 2011 14:02:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 142 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/142</link>
+      <description>Synchronized with eZ Publish master
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/142</guid>
+      <pubDate>Sat, 16 Jul 2011 13:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in3</link>
+      <description>Why is yui_menu.css even included in admin2pp? Couldn't we just remove it and let it use the default one from the admin2?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in3</guid>
+      <pubDate>Thu, 30 Jun 2011 10:42:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in2</link>
+      <description>Ok, did it.&#13;
+</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in2</guid>
+      <pubDate>Wed, 29 Jun 2011 22:09:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in</link>
+      <description>HI Marko,&#13;
+&#13;
+Thanks for the report. (We definitively need of the bug tracker per project!)&#13;
+&#13;
+I know admin2++ has some issues with the latest eZ Publish versions...  I'm currently in a general movement to update my extensions to make them fully compatible with the latest eZ Publish versions. I released eZ Class Lists 1.2 some weeks ago, I'm working hard on autostatus (I hope to release it before the next week) and admin2pp is the next one on my TODO list...&#13;
+&#13;
+In the mean time, you can also apply to be member of the project and fix it yourself (I think it's just a matter of synchronizing the CSS in admin2++ with the default one).&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in</guid>
+      <pubDate>Wed, 29 Jun 2011 18:06:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>this extension disables the fix commited in eZP 2011.6</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6</link>
+      <description>Since this extension includes yui_menu.css, it disables the quickfix made for the create menu in this commit:&#13;
+&#13;
+https://github.com/ezsystems/ezpublish/commit/ab49b8a8e0f9c6462bcbdcc184e70a65ffc1e479&#13;
+&#13;
+Any chances to fix it?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6</guid>
+      <pubDate>Wed, 29 Jun 2011 16:02:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 141 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/141</link>
+      <description>Simplified selector used to improve input text and textarea since IE6 is not
+a target anymore
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/141</guid>
+      <pubDate>Tue, 21 Dec 2010 20:31:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 140 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/140</link>
+      <description>Added rounded corners and yellow background on focus on order input of object
+relation list datatype
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/140</guid>
+      <pubDate>Tue, 21 Dec 2010 15:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 139 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/139</link>
+      <description>Small clean up of autocomplete code
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/139</guid>
+      <pubDate>Mon, 20 Dec 2010 20:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 138 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/138</link>
+      <description>Added autocomplete feature in ezkeyword edit template
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/138</guid>
+      <pubDate>Mon, 20 Dec 2010 19:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 137 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/137</link>
+      <description>Additionnal fix for issue #017772: IE8 Issue with background color of
+fieldsets in admin2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/137</guid>
+      <pubDate>Mon, 20 Dec 2010 19:21:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 136 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/136</link>
+      <description>Removed empty override dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/136</guid>
+      <pubDate>Mon, 20 Dec 2010 10:01:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 135 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/135</link>
+      <description>Bumped version number for future dev
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/135</guid>
+      <pubDate>Mon, 20 Dec 2010 09:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2++ 0.2</title>
+      <link>http://projects.ez.no/admin2pp/downloads/admin2_0_2</link>
+      <description></description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/downloads/admin2_0_2</guid>
+      <pubDate>Fri, 17 Dec 2010 14:12:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 134 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/134</link>
+      <description>Created tag for 0.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/134</guid>
+      <pubDate>Fri, 17 Dec 2010 14:01:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 133 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/133</link>
+      <description>Set version number for 0.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/133</guid>
+      <pubDate>Fri, 17 Dec 2010 14:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 132 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/132</link>
+      <description>Added README file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/132</guid>
+      <pubDate>Fri, 17 Dec 2010 13:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 131 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/131</link>
+      <description>Update copyright on PHP files
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/131</guid>
+      <pubDate>Fri, 17 Dec 2010 08:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 130 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/130</link>
+      <description>Fixed margin of preview options fieldset in IE8
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/130</guid>
+      <pubDate>Thu, 16 Dec 2010 21:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 129 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/129</link>
+      <description>Fixed #017772: IE8 Issue with background color of fieldsets in admin2
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/129</guid>
+      <pubDate>Thu, 16 Dec 2010 21:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 128 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/128</link>
+      <description>Fixed : edit and copy buttons do not work when loading preview from the node id
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/128</guid>
+      <pubDate>Thu, 16 Dec 2010 16:51:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 127 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/127</link>
+      <description>Fixed a template error
+Added preloading of ezoe JavaScript files as well
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/127</guid>
+      <pubDate>Thu, 16 Dec 2010 15:41:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 126 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/126</link>
+      <description>Added missing translations for the new preview system
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/126</guid>
+      <pubDate>Wed, 15 Dec 2010 16:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 125 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/125</link>
+      <description>Added extension.xml and update ezinfo.php to reflect upgrade to jQueryUI
+1.8.6 and to prepare future release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/125</guid>
+      <pubDate>Tue, 14 Dec 2010 14:41:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 124 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/124</link>
+      <description>Replaced new Array() by []
+Created a custom template for preloading
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/124</guid>
+      <pubDate>Tue, 14 Dec 2010 13:41:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 123 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/123</link>
+      <description>Added some images to the preload list
+Implemented preloading of JavaScript files used by ezoe and subitems
+datatable
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/123</guid>
+      <pubDate>Tue, 14 Dec 2010 11:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 122 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/122</link>
+      <description>Removed unused settings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/122</guid>
+      <pubDate>Tue, 14 Dec 2010 09:41:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>admin2pp rev. 121 by Damien Pobel</title>
+      <link>http://projects.ez.no/admin2pp/subversion/121</link>
+      <description>Fixed small issue with the font size of disabled buttons in preview
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/admin2pp/subversion/121</guid>
+      <pubDate>Mon, 13 Dec 2010 13:21:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

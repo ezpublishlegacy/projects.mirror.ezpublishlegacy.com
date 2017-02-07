@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / la_fetch_random / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:11:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:11:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/6980" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of hfpfetchrandom aka la_fetch_random on GitHub!</title>
+      <link>http://projects.ez.no/la_fetch_random/forum/general/mirror_of_hfpfetchrandom_aka_la_fetch_random_on_github</link>
+      <description>Hello eZ Community using hfpfetchrandom extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/hfpfetchrandom&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r10 | scouzinier | 2008-05-02 11:24:02 -0600 (Fri, 2 May 2008).&#13;
+&#13;
+We have also have incorporated the 4.5 compatibility improvement as shared by David, http://projects.ez.no/la_fetch_random/reviews/ez_publish_4_5&#13;
+&#13;
+This should mean the solution is ready to use with eZ Publish 4.5 and specifically php-mysqli&#13;
+&#13;
+We have taken care to create the following version specific branches ezp4.5+, ezp4.x, ezp3.x within the git/GitHub repository.&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting&#13;
+</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/la_fetch_random/forum/general/mirror_of_hfpfetchrandom_aka_la_fetch_random_on_github</guid>
+      <pubDate>Thu, 05 Apr 2012 19:34:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

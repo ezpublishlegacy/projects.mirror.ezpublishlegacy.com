@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsi / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:49 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:49 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13817" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsi 1.1 released</title>
+      <link>http://projects.ez.no/ezsi/news/ezsi_1_1_released</link>
+      <description>&lt;p&gt;It was actually released in june, anywhow...&lt;/p&gt;&lt;p&gt;Changes:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;rev. 19 : Updated keyIsValid and ttlIsValid visibility&lt;/li&gt;
+
+&lt;li&gt;rev. 20 : Added PHPUnit tests&lt;/li&gt;
+
+&lt;li&gt;rev. 21 : Delete si module&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/news/ezsi_1_1_released</guid>
+      <pubDate>Mon, 09 Nov 2009 18:35:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi 1.0 released</title>
+      <link>http://projects.ez.no/ezsi/news/ezsi_1_0_released</link>
+      <description>&lt;p&gt;eZSI 1.0 stable is available.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/news/ezsi_1_0_released</guid>
+      <pubDate>Thu, 02 Apr 2009 12:23:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha 1.0</title>
+      <link>http://projects.ez.no/ezsi/news/alpha_1_0</link>
+      <description>&lt;p&gt;This is the first alpha version of eZSI.&lt;/p&gt;&lt;p&gt;Even though this extension has been working fine on production for one year or so I decided to gave an alpha status and wait for your feedback.&lt;/p&gt;&lt;p&gt;If it is good then I will release a real stable version&lt;/p&gt;&lt;p&gt;You can &lt;a href="http://projects.ez.no/ezsi/downloads/ezsi_1_0alpha" target="_blank"&gt;dowload the extension&lt;/a&gt; in the &lt;a href="http://projects.ez.no/ezsi/downloads" target="_blank"&gt;download section&lt;/a&gt; of this project&lt;/p&gt;&lt;p&gt;Any comment welcome.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/news/alpha_1_0</guid>
+      <pubDate>Fri, 30 Jan 2009 15:44:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

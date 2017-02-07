@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowcoupon</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:00:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:00:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1551" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Could you add brief install doc?</title>
+      <link>http://projects.ez.no/xrowcoupon/forum/general/could_you_add_brief_install_doc/re_could_you_add_brief_install_doc</link>
+      <description>This contribution seems really interesting.&#13;
+I was able to install the class and enable the extension but I can't run  workflow event.&#13;
+Someone would have it some explanations of this extension?&#13;
+Thank you</description>
+      <author>community@ez.no (fagnou jérôme)</author>
+      <guid>http://projects.ez.no/xrowcoupon/forum/general/could_you_add_brief_install_doc/re_could_you_add_brief_install_doc</guid>
+      <pubDate>Tue, 26 Jul 2011 12:43:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bugs</title>
+      <link>http://projects.ez.no/xrowcoupon/forum/general/bugs</link>
+      <description>[15-Oct-2009 12:18:36] PHP Fatal error:  Undefined class constant 'COUPON_DISCOUNT_TYPE_PERCENT' in /var/www/test_ezwebin/extension/coupon/datatypes/ezcoupon/ezcoupontype.php on line 122&#13;
+</description>
+      <author>community@ez.no (zurgutt -)</author>
+      <guid>http://projects.ez.no/xrowcoupon/forum/general/bugs</guid>
+      <pubDate>Thu, 15 Oct 2009 10:39:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Could you add brief install doc?</title>
+      <link>http://projects.ez.no/xrowcoupon/forum/general/could_you_add_brief_install_doc</link>
+      <description>Thanks for contribution, it sounds to be what i need.&#13;
+&#13;
+However there is absolutely no docs whatsoever.  Could use at least simple install instructions - I guess it needs to mention you have to import and install package, perhaps configure something in ini, maybe there is urls..</description>
+      <author>community@ez.no (zurgutt -)</author>
+      <guid>http://projects.ez.no/xrowcoupon/forum/general/could_you_add_brief_install_doc</guid>
+      <pubDate>Thu, 15 Oct 2009 09:50:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

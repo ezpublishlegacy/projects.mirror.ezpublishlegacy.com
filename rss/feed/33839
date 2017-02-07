@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / easy_administration / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:10:12 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:10:12 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33839" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Idea brought onto the 4.x generation?</title>
+      <link>http://projects.ez.no/easy_administration/forum/general/idea_brought_onto_the_4_x_generation</link>
+      <description>Hi Xavier,&#13;
+&#13;
+I think this extension addresses a valid problem, namely the process of quickly setting up dummy data to get a content structure going.&#13;
+&#13;
+As this extensions is fairly old, and said to be valid for 3.6 and 3.7, I was wondering if you've ever made any effort to update it to eZ Publish 4.x. The reason why I'm asking is that we plan to create something similar ourselves.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/easy_administration/forum/general/idea_brought_onto_the_4_x_generation</guid>
+      <pubDate>Mon, 01 Nov 2010 18:35:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

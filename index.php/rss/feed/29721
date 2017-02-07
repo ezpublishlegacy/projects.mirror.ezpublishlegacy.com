@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / extension_ezsvn___pubsvn__ / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:02:17 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:02:17 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29721" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/extension_ezsvn_pubsvn/news/changelog</link>
+      <description>&lt;p&gt;
+13-10-2005 - Added a webinterface for manual updates&lt;br /&gt;
+ 19-04-2005 - updated documentation and updated contentobject package&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/extension_ezsvn_pubsvn/news/changelog</guid>
+      <pubDate>Thu, 13 Oct 2005 02:14:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

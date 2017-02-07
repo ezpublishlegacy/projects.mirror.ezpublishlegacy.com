@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / spnego</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/351" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of entire spnego extension repository on GitHub!</title>
+      <link>http://projects.ez.no/spnego/forum/general/mirror_of_entire_spnego_extension_repository_on_github</link>
+      <description>Hello eZ Community using spnego extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/spnego&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future. &#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r1 | cyberwolf | 2007-04-04 05:23:57 -0500 (Wed, 04 Apr 2007).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting&#13;
+</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/mirror_of_entire_spnego_extension_repository_on_github</guid>
+      <pubDate>Sat, 24 Mar 2012 23:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>SPNEGO Not working with version 4.2.0 of eZ Publish</title>
+      <link>http://projects.ez.no/spnego/forum/general/spnego_not_working_with_version_4_2_0_of_ez_publish</link>
+      <description>Hi, Kristof,&#13;
+&#13;
+Can you let me know how to make spnego work with version 4.2.0 of eZ Publish?&#13;
+&#13;
+Thanking you in advance.</description>
+      <author>community@ez.no (Hamadou BABA)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/spnego_not_working_with_version_4_2_0_of_ez_publish</guid>
+      <pubDate>Sat, 29 Jan 2011 12:40:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help to improve a new authentication p...</title>
+      <link>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process/re_need_help_to_improve_a_new_authentication_p2</link>
+      <description>Hi Kristof, all we need is authenticate against an external database instead of using the eZ database users.&#13;
+&#13;
+We don't want to map the users on the eZ database because there are thousands of users managed with other external tools.&#13;
+&#13;
+We need to assign eZ users groups to our users for using roles, sections, etc.&#13;
+&#13;
+I don't know if overwritting some methods of eZUser is enough to manage the users sessions.&#13;
+&#13;
+Is possible to manage the user info using session variables?&#13;
+&#13;
+Thank you very much indeed!</description>
+      <author>community@ez.no (Das Briaj)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process/re_need_help_to_improve_a_new_authentication_p2</guid>
+      <pubDate>Tue, 28 Apr 2009 08:17:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Kerberos not working</title>
+      <link>http://projects.ez.no/spnego/forum/general/kerberos_not_working/re_kerberos_not_working</link>
+      <description>Sorry Xavier, no idea what's going wrong. Long ago as well that I had to do a setup like this, I don't have any Windows Active Directory environment to try it on anymore.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/kerberos_not_working/re_kerberos_not_working</guid>
+      <pubDate>Mon, 27 Apr 2009 15:59:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Need help to improve a new authentication p...</title>
+      <link>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process/re_need_help_to_improve_a_new_authentication_p</link>
+      <description>Hi&#13;
+&#13;
+I believe your question is a bit off-topic in this forum, but I will try to answer it anyway.&#13;
+&#13;
+What exactly do you want to accomplish? You want to check another database when users are trying to log in on your eZ Publish website and if the user exists in the external database, then create it on your eZ Publish site and log him in?</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process/re_need_help_to_improve_a_new_authentication_p</guid>
+      <pubDate>Mon, 27 Apr 2009 15:58:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Need help to improve a new authentication process</title>
+      <link>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process</link>
+      <description>Hello, can you explain me how can I authenticate users in a external database? Should I inherit eZUser and overwrite methods or anything more?&#13;
+&#13;
+Thank you very much indeed!</description>
+      <author>community@ez.no (Das Briaj)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/need_help_to_improve_a_new_authentication_process</guid>
+      <pubDate>Mon, 27 Apr 2009 14:05:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kerberos not working</title>
+      <link>http://projects.ez.no/spnego/forum/general/kerberos_not_working</link>
+      <description>Hi Kristof,&#13;
+&#13;
+I have troubles making Kerberos working, even with the tutorial you gave (at grolmsnet.de).&#13;
+&#13;
+I'm stopped at paragraph 6.c), Kerberos tells that the name given is nt found in the Kerberos Database. I'm sure that the computer's account exists in the Active Directory (HTTP/my.computer.machin.corp@MACHIN.CORP), but apparently Kerberos can't retrive a ticket for it.&#13;
+&#13;
+The paragraph 5 works fine with kinit, I can retrieve a user ticket, so it's not a problem in the IP configuration between servers...&#13;
+&#13;
+Had ever got this problem ? Do you know a little detail I haven't in the tutorial ?&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Xavier</description>
+      <author>community@ez.no (Xavier Gouley)</author>
+      <guid>http://projects.ez.no/spnego/forum/general/kerberos_not_working</guid>
+      <pubDate>Fri, 08 Aug 2008 10:36:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

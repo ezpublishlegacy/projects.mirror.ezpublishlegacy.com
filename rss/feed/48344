@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owmobile</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:07:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:07:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48344" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/73c61e7010a6a5da007448d3f3867be2860592ed</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix syntax error on "useragent" property calls.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/73c61e7010a6a5da007448d3f3867be2860592ed</guid>
+      <pubDate>Fri, 11 Sep 2015 13:52:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/82b9b8acb8a337eb18e333d35c320b1586b053b0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More fixes in README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/82b9b8acb8a337eb18e333d35c320b1586b053b0</guid>
+      <pubDate>Thu, 23 Jul 2015 15:32:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/4e6d0c8750d30159b4da38a29d5acc65fc4004b1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Reformatting Markdown README&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/4e6d0c8750d30159b4da38a29d5acc65fc4004b1</guid>
+      <pubDate>Thu, 23 Jul 2015 15:22:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/d25c7b43b6ca63928a6d312f618be0aed0fcfd2f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Rename README to use MarkDown syntax&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/d25c7b43b6ca63928a6d312f618be0aed0fcfd2f</guid>
+      <pubDate>Thu, 23 Jul 2015 15:22:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/2c4cf3fa99afa4033d8013f538cd5666e7840f4d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update mobile detection regex&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/2c4cf3fa99afa4033d8013f538cd5666e7840f4d</guid>
+      <pubDate>Thu, 19 Mar 2015 10:12:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/e2754345314b0b59b031b5594c4bfb5a835307c8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Insertion du script "redirection_mobile.js" avant éxécution de la redirection&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/e2754345314b0b59b031b5594c4bfb5a835307c8</guid>
+      <pubDate>Tue, 21 May 2013 15:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/ad79a8ccfe59de1c682fe560d8ae59daeca7ab2f</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m modules/mobileredirection/redirection.php
+m modules/mobileredirection/setsessionredirection.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renommage et refactoring&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/ad79a8ccfe59de1c682fe560d8ae59daeca7ab2f</guid>
+      <pubDate>Wed, 24 Oct 2012 09:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/b0258bab22161a39419161ba70cff28a82b3bb92</link>
+      <description>
+      &lt;pre&gt;- settings/mobileredirection.ini
++ settings/owmobile.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renommage du fichier de configuration initial de l'extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/b0258bab22161a39419161ba70cff28a82b3bb92</guid>
+      <pubDate>Wed, 24 Oct 2012 09:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/ff30b720bb7f300fa470413d8ee865d84cef7103</link>
+      <description>
+      &lt;pre&gt;- autoloads/mobiledetection.php
++ autoloads/owmobiledetection.php
+- classes/mobileutils.php
++ classes/owmobileutils.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renommage des classes et refactoring entre les opérateurs EZ et les classes custom OW&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/ff30b720bb7f300fa470413d8ee865d84cef7103</guid>
+      <pubDate>Wed, 24 Oct 2012 09:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/3fbb4c5f7ae46dc6c07a53c570a6a20bd10f8d09</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ README
+- README.md
++ doc/CHANGELOG
+m doc/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Mise à jour de la documentation de l'extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/3fbb4c5f7ae46dc6c07a53c570a6a20bd10f8d09</guid>
+      <pubDate>Wed, 24 Oct 2012 09:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/0483214deee24abe6a90c5ebb84fedaf9c82630e</link>
+      <description>
+      &lt;pre&gt;+ design/standard/javascript/redirection_mobile.js
++ design/standard/templates/redirection_mobile.tpl
++ settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Mise en place des ressources de design et du script pour la méthode full JS de redirection.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/0483214deee24abe6a90c5ebb84fedaf9c82630e</guid>
+      <pubDate>Wed, 24 Oct 2012 09:42:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/515e17751e234e4247abcbb7ff39657c2d15d852</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;First commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/515e17751e234e4247abcbb7ff39657c2d15d852</guid>
+      <pubDate>Mon, 15 Oct 2012 15:12:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owmobile/source/5c247ee19dcf3fb6ca59ba121307662a797b3143</link>
+      <description>
+      &lt;pre&gt;m README.md
++ autoloads/eztemplateautoload.php
++ autoloads/mobiledetection.php
++ classes/mobileutils.php
++ doc/Licence
++ doc/changelog
++ doc/install
++ extension.xml
++ modules/mobileredirection/module.php
++ modules/mobileredirection/redirection.php
++ modules/mobileredirection/setsessionredirection.php
++ settings/mobileredirection.ini
++ settings/module.ini.append.php
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;release v1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owmobile/source/5c247ee19dcf3fb6ca59ba121307662a797b3143</guid>
+      <pubDate>Mon, 15 Oct 2012 15:12:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

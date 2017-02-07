@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcsoapsearch / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1183" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>bcsoapsearch rev. 16 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/16</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bcsoapsearch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/16</guid>
+      <pubDate>Wed, 30 Nov 2011 04:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 15 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/15</link>
+      <description>- Fixed bug: strict PHP warning "Non-static method wikidesignInfo::info() cannot be called statically" when accessing ezinfo/about</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/15</guid>
+      <pubDate>Fri, 06 Mar 2009 18:40:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 14 by Kristof Coomans</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/14</link>
+      <description>- Upgrade for eZ Publish 4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/14</guid>
+      <pubDate>Wed, 25 Feb 2009 08:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 13 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/13</link>
+      <description>Updated: Extension Documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/13</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 11 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/11</link>
+      <description>Updated: Cleanup, Testing and Re-factoring Improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/11</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 12 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/12</link>
+      <description>Updated: nusoap service auto detection settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/12</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 9 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/9</link>
+      <description>Updated: Separated soap and search methods</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/9</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 10 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/10</link>
+      <description>Updated: README Documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/10</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 7 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/7</link>
+      <description>Added: Settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 8 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/8</link>
+      <description>Updated: Added search methods</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/8</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 5 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/5</link>
+      <description>Added: Test script to run as cronjob for local search testing of methods</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 6 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/6</link>
+      <description>Added: README documentation with draft examples of usage</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 3 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/3</link>
+      <description>Added: Simple test client</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 4 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/4</link>
+      <description>Updated: switched from static test to search ez test</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/1</link>
+      <description>Added: Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsoapsearch rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsoapsearch/subversion/2</link>
+      <description>Added: settings examples</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsoapsearch/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:19:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

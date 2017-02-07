@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcomments</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21474" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/54269ffd84cdd9f8f2f50828b8b358165733f84b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/54269ffd84cdd9f8f2f50828b8b358165733f84b</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/013391267690d2201111302d4368873e7cc728b6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #37 from ezsystems/ezp-23350_remamed_admin2
+
+EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/013391267690d2201111302d4368873e7cc728b6</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/54d2a3db4792f544f3366a0a32c0546299533075</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed syntax error in composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/54d2a3db4792f544f3366a0a32c0546299533075</guid>
+      <pubDate>Thu, 15 May 2014 09:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/c168c197f733fbd61b254b47255d5134c6205ac6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json for ls-extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/c168c197f733fbd61b254b47255d5134c6205ac6</guid>
+      <pubDate>Thu, 15 May 2014 09:40:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/233984e0396b3e47e75584c3b6ada1de6e078ecd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/233984e0396b3e47e75584c3b6ada1de6e078ecd</guid>
+      <pubDate>Thu, 15 May 2014 09:10:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/a6d7bc1dd8287d75261ae5e5913149224fe935ad</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/a6d7bc1dd8287d75261ae5e5913149224fe935ad</guid>
+      <pubDate>Tue, 13 May 2014 21:40:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezcomments/subversion/fcfe2db56cb79e162e2fcef7ca074afad4cb092a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-22539: added missing wash statements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/fcfe2db56cb79e162e2fcef7ca074afad4cb092a</guid>
+      <pubDate>Wed, 07 May 2014 15:30:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions/re_can_t_set_permissions</link>
+      <description>Nevermind - I fixed it; filesystem permissions were set to 600/700, so the web user was not allowed to browse the extension directory.&#13;
+&#13;
+Best regards,&#13;
+Markus</description>
+      <author>community@ez.no (Markus Mahner)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions/re_can_t_set_permissions</guid>
+      <pubDate>Fri, 13 Dec 2013 12:12:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions</link>
+      <description>Hi,&#13;
+&#13;
+I installed ezcomments extension according to the INSTALL instructions:&#13;
+* copied ezcomments folder to ezpublish_legacy/extension/ folder&#13;
+* applied the schema.sql script to my database; the tables and indexes were generated&#13;
+* added ActiveExtensions[]=ezcomments to settings/override/site.ini.append.php; extension is marked as active in the admin backend&#13;
+* ran 'php bin/php/ezpgenerateautoloads.php' in ezpublish_legacy/ directory; 'ezpublish_legacy/var/autoload/ezp_extension.php' array includes the correct paths to ezcomments module classes&#13;
+* cleared all caches&#13;
+&#13;
+But when I want to set the permissions for Anonymous user, the comments module doesn't show up in the "New policy" module list... Did I miss something? What can I do to help with debugging this issue?&#13;
+&#13;
+Some more information about my site:&#13;
+* eZ Publish Community Project 2013.9&#13;
+* Postgres 9.2&#13;
+* eZ Comments module downloaded today from Github&#13;
+&#13;
+Best regards,&#13;
+Markus</description>
+      <author>community@ez.no (Markus Mahner)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions</guid>
+      <pubDate>Fri, 13 Dec 2013 11:32:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/388f966946ce3ef1d74aa7f6fe1c95bc4d3111b2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert " Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows"
+
+This reverts commit 5d35d3c039ce3e818b48d4272a5a54bcab5d3604.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/388f966946ce3ef1d74aa7f6fe1c95bc4d3111b2</guid>
+      <pubDate>Mon, 02 Sep 2013 12:41:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/2cb512fcb6580058fbaaef2a84c218cbbaa3e13a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #33 from jeromegamez/EZP-21434_fixtures
+
+EZP-21434: Fixed file names for fixtures&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/2cb512fcb6580058fbaaef2a84c218cbbaa3e13a</guid>
+      <pubDate>Thu, 29 Aug 2013 18:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/cda9025a67bcd04e104e3719cd847582fe0d4069</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update ezcomfunctioncollection.php
+
+As requested: "cs: should be space between the end paragraphs"&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/cda9025a67bcd04e104e3719cd847582fe0d4069</guid>
+      <pubDate>Wed, 28 Aug 2013 07:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/28ba4554d8513c846e19026de54bb4b017b0e0c5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #36 from mikaelcom/patch-2
+
+Fixed EZP-21449: (ctd) Captcha not loaded from HTTPS when it is required&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/28ba4554d8513c846e19026de54bb4b017b0e0c5</guid>
+      <pubDate>Wed, 28 Aug 2013 07:30:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/41a552361e745a5265bc7d624392eac508522aca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #32 from jeromegamez/EZP-21432_wrong_assertions
+
+EZP-21432: Fixed wrong assertions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/41a552361e745a5265bc7d624392eac508522aca</guid>
+      <pubDate>Tue, 27 Aug 2013 16:10:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/edac414e8bea1a010e8f35205459ee7489b9fab0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #34 from mikaelcom/patch-1
+
+Fixed EZP-21449: Captcha not loaded from HTTPS when it is required&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/edac414e8bea1a010e8f35205459ee7489b9fab0</guid>
+      <pubDate>Tue, 27 Aug 2013 08:20:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/ca87e99c3b62290ef6940da5f8d0555de9124fae</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix call to recaptcha_get_html() from ezcomFunctionCollection::fetchRecaptchaHTML()
+
+The parenthesis was in the wrong place, isn't it ?&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/ca87e99c3b62290ef6940da5f8d0555de9124fae</guid>
+      <pubDate>Tue, 27 Aug 2013 08:20:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/5d35d3c039ce3e818b48d4272a5a54bcab5d3604</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/5d35d3c039ce3e818b48d4272a5a54bcab5d3604</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/subversion/a67b6aba0e1ceeed550a1d6b27b0f822d68e88a0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #31 from crevillo/EZP-19411
+
+ Implemented EZP-19411: Avoid file_exists and include calls for register...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/a67b6aba0e1ceeed550a1d6b27b0f822d68e88a0</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>reCaptha </title>
+      <link>http://projects.ez.no/ezcomments/forum/general/recaptha</link>
+      <description>Has anyone else found that the reCaptha is now ineffective.  Sadly I'm forced to stop using ez Comment.  It really needs to support work-flow and notifications so users have options and deterrents because relying on recaptcha lone isn't good enough any more.&#13;
+&#13;
+Until this is address eZ Comments is a spammers paradise.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/recaptha</guid>
+      <pubDate>Tue, 16 Jul 2013 03:20:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply/re_can_this_extension_support_reply</link>
+      <description>Not at the moment it can't.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply/re_can_this_extension_support_reply</guid>
+      <pubDate>Tue, 16 Jul 2013 03:15:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply</link>
+      <description>Reply for other's comment, like“threaded” comments.</description>
+      <author>community@ez.no (zhong tian)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply</guid>
+      <pubDate>Mon, 24 Jun 2013 06:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/2cdf323bcf514cd5dd59100e5894865028bdf5b1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replaced assertType() with assertInternalType() and assertInstanceOf()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/2cdf323bcf514cd5dd59100e5894865028bdf5b1</guid>
+      <pubDate>Mon, 10 Jun 2013 22:10:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/6bb0b1f9533de7278134e30fdbbd085ee23f46b9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #30 from jeromegamez/EZP-21008_phpunit_assertinternaltype
+
+EZP-21008: Replaced assertType() with assertInternalType()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/6bb0b1f9533de7278134e30fdbbd085ee23f46b9</guid>
+      <pubDate>Mon, 10 Jun 2013 22:10:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/66e4838e8a052594137506d620a5618046d5d50b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change comments menu to in content left menu instead of top
+
+This change removed the eZ Comments top menu as it is waste of space to have it's own top menu.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/66e4838e8a052594137506d620a5618046d5d50b</guid>
+      <pubDate>Wed, 05 Jun 2013 10:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/d5523f4f7621699c366e51ae60384370ef15e8b4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #29 from ezsystems/left_content_menu
+
+Implement EZP-20849: Move eZ Comments menu from top menu to left content menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/d5523f4f7621699c366e51ae60384370ef15e8b4</guid>
+      <pubDate>Wed, 05 Jun 2013 10:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/16fb68bbc65422fbfb7560c4ed427dfd233606b6</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/translations/ger-DE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update translation.ts
+
+Translation added.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/16fb68bbc65422fbfb7560c4ed427dfd233606b6</guid>
+      <pubDate>Fri, 22 Mar 2013 11:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/0d602b2d2ffe249fc5c4a17672e8d03db8be7614</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/translations/ger-DE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #28 from kenny136/patch-1
+
+Update translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/0d602b2d2ffe249fc5c4a17672e8d03db8be7614</guid>
+      <pubDate>Fri, 22 Mar 2013 11:10:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/20b1e656d0170d883d48c58a43dab6392d4eb1a3</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix variable issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/20b1e656d0170d883d48c58a43dab6392d4eb1a3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/0788a46bafc3c82cd1fe5a2f2de1a9f0879889b3</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #19 from llaumgui/translation
+
+Fixed spelling issue in french translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/0788a46bafc3c82cd1fe5a2f2de1a9f0879889b3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/4c80b1cfea68e641ed762325e11b89d1dc841a9c</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/share/db_schema.dba
+m packages/ezcomments_extension/ezextension/ezcomments/sql/mysql/mysql.sql
++ packages/ezcomments_extension/ezextension/ezcomments/update/database/mysql/1.5/dbupdate-1.4.0-to-1.5.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19418: Postgres issue with ezcomment table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/4c80b1cfea68e641ed762325e11b89d1dc841a9c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/808d9542e77c9353f5d87b7ce61bf79fd031d495</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/class/datatype/edit/ezcomcomments.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/extension.xml
+m packages/ezcomments_extension/ezextension/ezcomments/ezinfo.php
+m packages/ezcomments_extension/ezextension/ezcomments/settings/ezcomments.ini.append.php
+m packages/ezcomments_extension/ezextension/ezcomments/translations/cat-ES/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/chi-CN/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/cro-HR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/esl-ES/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/fre-FR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/ger-DE/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/ita-IT/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/jpn-JP/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/por-BR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #23 from jjCavalleri/19508
+
+Fixed bug #019508: recaptcha remote url have changed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/808d9542e77c9353f5d87b7ce61bf79fd031d495</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/600a0047a195871b895ef2afe412efde66897bb5</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/class/datatype/edit/ezcomcomments.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/extension.xml
+m packages/ezcomments_extension/ezextension/ezcomments/ezinfo.php
+m packages/ezcomments_extension/ezextension/ezcomments/settings/ezcomments.ini.append.php
+m packages/ezcomments_extension/ezextension/ezcomments/translations/cat-ES/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/chi-CN/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/cro-HR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/esl-ES/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/fre-FR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/ger-DE/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/ita-IT/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/jpn-JP/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/por-BR/translation.ts
+m packages/ezcomments_extension/ezextension/ezcomments/translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed bug #019508: recaptcha remote url have changed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/600a0047a195871b895ef2afe412efde66897bb5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/680a0063024b598be312476f2339c97acabdc680</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed bug #019388: eZComments proxy support for captcha&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/680a0063024b598be312476f2339c97acabdc680</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/ef6c828df814a254d96b76d375cec81f380c68b7</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #20 from llaumgui/translation
+
+Fixed translation variable issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/ef6c828df814a254d96b76d375cec81f380c68b7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/432246a79caaf1743e630123938614641ecfb29a</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #24 from iosolinf/19538
+
+Fixed 19538: use ini Language setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/432246a79caaf1743e630123938614641ecfb29a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/6201dd5850145dd14ace8779c73fbf68578f4954</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/extension.xml
+- packages/ezcomments_extension/ezextension/ezcomments/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x stack extensions
+to make it clear what is running on Legacy vs Symfony stack of 5.0.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/6201dd5850145dd14ace8779c73fbf68578f4954</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/db00ab4bbb2e56a4daf9a571896ec507a11943cf</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed 19538: use ini Language setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/db00ab4bbb2e56a4daf9a571896ec507a11943cf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/f95273643220b8a0666016e9e8fe7dd7610d2266</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: copyright inconsistency for reCAPTCHA&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/f95273643220b8a0666016e9e8fe7dd7610d2266</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/e7e441d4cdc645803d2e0103f18103460f2e9952</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/recaptchalib.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #22 from jjCavalleri/19388
+
+Fixed bug #019388: eZComments proxy support for captcha&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/e7e441d4cdc645803d2e0103f18103460f2e9952</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/68e6988b5f82aa544961002d0554182b2b84d1e6</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/activate.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/add.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/add_comment.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/delete.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed Issue EZP-20156: eZ Comments - Full URL in "RedirectURI" blocked by security rules&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/68e6988b5f82aa544961002d0554182b2b84d1e6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/d4662699d2156f1a15f528c52834e9ce5eb34bdd</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomaddcommenttool.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomcomment.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomcommentcommonmanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomcommentmanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomcookiemanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomeditcommenttool.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomformtool.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomfunctioncollection.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomnotifcationmanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomnotification.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomnotificationemailmanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcompermission.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomposthelper.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomserverfunctions.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomsubscriber.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomsubscription.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomsubscriptionmanager.php
+m packages/ezcomments_extension/ezextension/ezcomments/classes/ezcomutility.php
+m packages/ezcomments_extension/ezextension/ezcomments/cronjobs/ezcomcleanupsubscription.php
+m packages/ezcomments_extension/ezextension/ezcomments/cronjobs/ezcomhandlenotification.php
+m packages/ezcomments_extension/ezextension/ezcomments/datatypes/ezcomcomments/ezcomcommentstype.php
+m packages/ezcomments_extension/ezextension/ezcomments/extension.xml
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/activate.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/add.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/delete.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/edit.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/function_definition.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/list.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/module.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/removecomments.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/setting.php
+m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/view.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomcomment_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomcommentmanager_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomnotification_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomnotificationmanager_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomsubscriber_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomsubscription_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomsubscriptionmanager_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/ezcomutility_test.php
+m packages/ezcomments_extension/ezextension/ezcomments/tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/d4662699d2156f1a15f528c52834e9ce5eb34bdd</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/e172bc42b025122a424d033debb754f5170ae729</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/share/db_schema.dba
+m packages/ezcomments_extension/ezextension/ezcomments/sql/mysql/mysql.sql
+m packages/ezcomments_extension/ezextension/ezcomments/sql/oracle/oracle.sql
+m packages/ezcomments_extension/ezextension/ezcomments/sql/postgresql/postgresql.sql
+- packages/ezcomments_extension/ezextension/ezcomments/update/database/mysql/1.5/dbupdate-1.4.0-to-1.5.0.sql
++ packages/ezcomments_extension/ezextension/ezcomments/update/database/mysql/5.0/dbupdate-1.4.0-to-5.0.0.sql
++ packages/ezcomments_extension/ezextension/ezcomments/update/database/oracle/5.0/dbupdate-1.4.0-to-5.0.0.sql
++ packages/ezcomments_extension/ezextension/ezcomments/update/database/postgresql/5.0/dbupdate-1.4.0-to-5.0.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-19883: Unable to add a comment as anonymous user with Oracle&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/e172bc42b025122a424d033debb754f5170ae729</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/e666f8cf6e7259f7fc660d0dfb730430e1038228</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/list.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #26 from harmstyler/patch-1
+
+Updates the $viewParameters of the list script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/e666f8cf6e7259f7fc660d0dfb730430e1038228</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/f823ce5a813329d0606a2a9b7ef932dc52109ab2</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/list.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updates the $viewParameters of the list script
+
+The existing view parameters are unable to handle custom user view parameters. This update allows for users to send custom view parameters to the comment/list script in the same way that the eZ Publish kernel works.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/f823ce5a813329d0606a2a9b7ef932dc52109ab2</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/1f1a8b05b99101ad3e4615ecccbf5befdf56dad0</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/modules/comment/add.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: replaced usage of deprecated getSessionKey()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/1f1a8b05b99101ad3e4615ecccbf5befdf56dad0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/21327a51d0593581733259e2094416448957117c</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/activate.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/add.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/add_comment.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/delete.tpl
+m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/edit.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #27 from joaoinacio/EZP-20156
+
+Fixed Issue EZP-20156: eZ Comments - Full URL in "RedirectURI" blocked b...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/21327a51d0593581733259e2094416448957117c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/subversion/13d17a5a4639e5a4a8aa05a2b27484791bf8d304</link>
+      <description>
+      &lt;pre&gt;m packages/ezcomments_extension/ezextension/ezcomments/design/standard/templates/comment/add.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed template typo.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcomments/subversion/13d17a5a4639e5a4a8aa05a2b27484791bf8d304</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Give a mark to a comment</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/give_a_mark_to_a_comment</link>
+      <description>Hello, &#13;
+&#13;
+I d'like to know if it's possible to give a mark to a comment, like the Facebook "like" button" ?</description>
+      <author>community@ez.no (Jerome Guillemain)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/give_a_mark_to_a_comment</guid>
+      <pubDate>Fri, 10 Feb 2012 16:23:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Filtering comment_list</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list2</link>
+      <description>Thanks for  the reply, it's the two ways I have considered. I think the template approach sounds better.</description>
+      <author>community@ez.no (Frédéric SCHARLY)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list2</guid>
+      <pubDate>Fri, 27 Jan 2012 14:59:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Filtering comment_list</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list</link>
+      <description>Hello Frederic,&#13;
+&#13;
+Currently there is no template level efficient API for that. There are 2 approaches for this:&#13;
+&#13;
+1) get contentobject id array first and then fetch comment list by content list. But if the content is huge there might be performance issue(cache block might help in this).&#13;
+&#13;
+http://doc.ez.no/Extensions/eZ-Publish-extensions/eZ-Comments/Setup-and-user-guide-1.2/Template-fetch-functions/comment_list_by_content_list&#13;
+&#13;
+2) write your own template.&#13;
+&#13;
+Ref: &#13;
+database schema: &#13;
+https://github.com/ezsystems/ezcomments/blob/master/sql/mysql/schema.sql , see ezcomment table&#13;
+&#13;
+&#13;
+Example of fetching comment list: https://github.com/ezsystems/ezcomments/blob/master/classes/ezcomcomment.php&#13;
+&#13;
+Hopefully it helps.&#13;
+&#13;
+Best&#13;
+Chen&#13;
+</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list</guid>
+      <pubDate>Fri, 27 Jan 2012 14:36:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

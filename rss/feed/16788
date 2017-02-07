@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cscommentno / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:22:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:22:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16788" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Information</title>
+      <link>http://projects.ez.no/cscommentno/nyheter/information</link>
+      <description>&lt;p&gt; Comments module with sharding feature. &lt;/p&gt;&lt;p&gt; It's fully working comments module, witch do not depend on eZPublish internal database structure. It is written completely as extension. &lt;/p&gt;</description>
+      <author>community@ez.no (Marius Pettersen)</author>
+      <guid>http://projects.ez.no/cscommentno/nyheter/information</guid>
+      <pubDate>Thu, 11 Jun 2009 13:05:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,731 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 18:19:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            any known issue with Zend Core for Oracle ?     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezoracle/forum/general'];
+menu[4] = ['Leaders', '/ezoracle/team/leaders', 'Members', '/ezoracle/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../ezoracle.html" onmouseover="switchSubMenu( this );">eZ Publish Extension for Oracle® Database &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../ezoracle/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../ezoracle/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../ezoracle/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../ezoracle/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../ezoracle/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../ezoracle/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../ezoracle/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../ezoracle/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezoracle.html">ezoracle</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        any known issue with zend c...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>any known issue with Zend Core for Oracle ?</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg18397">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/lazaro_ferreira.html">Lazaro Ferreira</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 18</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 August 2009 11:05:26 am</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+I would like to install ezpublish/ezoracle with Zend Core for Oracle , <br />
+<br />
+is there any known issue with this setup ?<br />
+<br />
+Regards<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Lazaro<br />
+<a href="http://www.mzbusiness.com/" title="http://www.mzbusiness.com">http://www.mzbusiness.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg18400">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 August 2009 12:36:48 pm</p>
+
+        <div class="attribute-long">Not that I know of
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18407">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/lazaro_ferreira.html">Lazaro Ferreira</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 18</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 August 2009 6:03:24 pm</p>
+
+        <div class="attribute-long">Gaetano<br />
+<br />
+Thanks, <br />
+<br />
+Another question, have you installed ezpublish with Oracle Application Server  ( Oracle HTTP Server ) ?
+</div>
+                    <div class="attribute-signature">
+            <p>Lazaro<br />
+<a href="http://www.mzbusiness.com/" title="http://www.mzbusiness.com">http://www.mzbusiness.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18420">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 12:20:48 pm</p>
+
+        <div class="attribute-long">Never.<br />
+<br />
+I personally tend to compile my apache+php installs by hand on linux, and most hosting environments either do the same or use the stock versions that come with the os.<br />
+<br />
+eZPublish uses the oci libs linked from php to connect to the db, so there would be no gain, afaict, in using the http server coming from Oracle, as you would not be using the mod_oc*** modules that are added in that server anyway.<br />
+<br />
+Otoh you could get (paid for) support from Oracle, as long as you use the php module that is already included in the oracle application server: according to this doc: <a href="http://www.oracle.com/technology/products/ias/ohs/htdocs/ohs-101310-faq.pdf" title="http://www.oracle.com/technology/products/ias/ohs/htdocs/ohs-101310-faq.pdf">http://www.oracle.com/technology/...ts/ias/ohs/htdocs/ohs-101310-faq.pdf</a>, you would be getting by default apache 1.3.34 and php 5.1.2.<br />
+Unluckily that would limit you to eZ Publish 4.0, as 4.1 and later need php version 5.2...<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18429">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/lazaro_ferreira.html">Lazaro Ferreira</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 18</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 4:13:42 pm</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+What about the scenario where you already have OAS ( with Oracle HTTP Server ) running other applications on the server ?
+</div>
+                    <div class="attribute-signature">
+            <p>Lazaro<br />
+<a href="http://www.mzbusiness.com/" title="http://www.mzbusiness.com">http://www.mzbusiness.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18430">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 4:23:51 pm</p>
+
+        <div class="attribute-long">As I stated before, it boils down to the versions of php you need.<br />
+<br />
+You can compile php 5.2 as a module for oracle http server and use it instead of the native mod_php. You will loose oracle support for that part, but not for the rest of the OAS-hosted apps - but should you call oracle for support, they would ask you to reproduce the bug with the custom-built mod_php disabled as first thing. And you would have to check all existing php applications for compatibility with php 5.2.<br />
+<br />
+Or you can stay with php 5.1. Either run eZP 4.0 in a supported configuration, or install eZP 4.1 and hack it to work in an unsupported config - there is a blog post by Kristof Coomans with detailed instructions on how to do that: <a href="http://blog.coomanskristof.be/2009/07/15/ez-publish-4-1-3-on-php-5-1-2/" title="http://blog.coomanskristof.be/2009/07/15/ez-publish-4-1-3-on-php-5-1-2/">http://blog.coomanskristof.be/2009/07/15/ez-publish-4-1-3-on-php-5-1-2/</a><br />
+<br />
+In any case, eZ Publish requires some php.ini configurations that might be slightly different from the ones used by other php applications. If you are already running php apps in OAS, you might want to set up separate virtual hosts to have per-app different values for those configurations.
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg18436">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/lazaro_ferreira.html">Lazaro Ferreira</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 18</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 August 2009 7:26:38 pm</p>
+
+        <div class="attribute-long">I understand your points,<br />
+<br />
+Our constrains are :<br />
+<br />
+1) ezpublish 4.1 ( because object states )<br />
+2) running ezp on the same server running OAS <br />
+3) running the OAS Applications ( Java ) without problems derived of ezp installation<br />
+<br />
+Note: hacking ezp 4.1 for php 5.1.x isn't an option
+</div>
+                    <div class="attribute-signature">
+            <p>Lazaro<br />
+<a href="http://www.mzbusiness.com/" title="http://www.mzbusiness.com">http://www.mzbusiness.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg18458">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 07 August 2009 3:24:35 pm</p>
+
+        <div class="attribute-long">If the memory usage is not the biggest problem for you (esp. during traffic spikes), I'd go for a completely separate http server then. Less chances for finger-pointing when something goes wrong in any of the two applications...
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezoracle/forum/general/any_known_issue_with_zend_core_for_oracle by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 18:19:43 GMT -->
+</html>

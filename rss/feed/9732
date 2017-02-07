@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / gwutils</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:09:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:09:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9732" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of the gwutils extension on GitHub!</title>
+      <link>http://projects.ez.no/gwutils/forum/general/mirror_of_the_gwutils_extension_on_github</link>
+      <description>Hello eZ Community using gwutils extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a complete mirror import of the project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/gwutils&#13;
+&#13;
+We continue strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r6 | Bjørn Reiten | 10/06/2011 8:32 pm&#13;
+&#13;
+The GitHub version provides a new feature within the repository itself, the extension internals are stored within the root of the repository itself making it easier to install and use right after checkout in one git clone command.&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/mirror_of_the_gwutils_extension_on_github</guid>
+      <pubDate>Wed, 17 Sep 2014 10:38:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attribute 'workflow_id' does not exist</title>
+      <link>http://projects.ez.no/gwutils/forum/general/attribute_workflow_id_does_not_exist</link>
+      <description>Hi,&#13;
+&#13;
+I have setup my environment following the configuration steps, but when I publish an article with its date set in the future I receive the following error (in the log - there is no error appearing on the front end):&#13;
+&#13;
+[ Jun 16 2014 11:12:09 ] [83.244.129.66] eZWorkflow::attribute:&#13;
+Attribute 'workflow_id' does not exist&#13;
+&#13;
+How can I fix this? &#13;
+&#13;
+Also, the article is not published when the cron runs.&#13;
+&#13;
+Thank you so much for your support.</description>
+      <author>community@ez.no (Olivier Lebon)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/attribute_workflow_id_does_not_exist</guid>
+      <pubDate>Mon, 16 Jun 2014 12:52:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Event/Update hidden field has no attributes</title>
+      <link>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes3</link>
+      <description>It should work both when you edit and publish new content. Based on what you have configured as the publish and unpublish event in the workflow.&#13;
+&#13;
+Do you have other workflows when you publish an article? What eZ Publish version are you trying to run the extension on?</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes3</guid>
+      <pubDate>Thu, 05 Jun 2014 15:24:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Event/Update hidden field has no attributes</title>
+      <link>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes2</link>
+      <description>Hi,&#13;
+thank you so much for your prompt reply. I have followed your advice but no luck. It appears to only be the case with my local environment though. As when I pushed it to the staging server it was all working fine.&#13;
+&#13;
+Could I confirm that the way your extension works is that only NEW articles are set to hidden whilst existing articles that are set to be published in the future do not get hidden?&#13;
+&#13;
+Thanks again</description>
+      <author>community@ez.no (Olivier Lebon)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes2</guid>
+      <pubDate>Thu, 05 Jun 2014 15:09:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Event/Update hidden field has no attributes</title>
+      <link>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes</link>
+      <description>Have you tried:&#13;
+&#13;
+- clear all cache.&#13;
+- run script for generate autoloads?&#13;
+- Do you have attributes with type of date and time on an article, folder etc. ?</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes/re_event_update_hidden_field_has_no_attributes</guid>
+      <pubDate>Tue, 03 Jun 2014 20:02:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Event/Update hidden field has no attributes</title>
+      <link>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes</link>
+      <description>Hello,&#13;
+&#13;
+I have installed GWUtils and followed the setup steps, but when I get to the point of setting a new event Event/Update hidden field, I only get an "Additional information" field and there is no way for me to select which attributes of my classes.&#13;
+&#13;
+I tried to proceed as is, the automatic publishing works, but my articles are not set to hidden, but continue to go to the pending list.&#13;
+&#13;
+Could you advise me on this?&#13;
+&#13;
+Thank you very much</description>
+      <author>community@ez.no (Olivier Lebon)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/event_update_hidden_field_has_no_attributes</guid>
+      <pubDate>Tue, 03 Jun 2014 13:53:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 6 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/6</link>
+      <description>- Added translation function to be compatible with eZ Publish 4.5 (and and still backwardscompatible with 4.0).
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/6</guid>
+      <pubDate>Fri, 10 Jun 2011 18:41:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error when creating a new workflow wi...</title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5/re_fatal_error_when_creating_a_new_workflow_wi2</link>
+      <description>Thanks!&#13;
+&#13;
+I've updated the svn version with the fix and with a check if the method exists (which will still make it compatible with 4.0, which does not have this method).</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5/re_fatal_error_when_creating_a_new_workflow_wi2</guid>
+      <pubDate>Fri, 10 Jun 2011 18:34:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error when creating a new workflow wi...</title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5/re_fatal_error_when_creating_a_new_workflow_wi</link>
+      <description>Great tip! Thanks you.</description>
+      <author>community@ez.no (Ugo Giacalone)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5/re_fatal_error_when_creating_a_new_workflow_wi</guid>
+      <pubDate>Fri, 10 Jun 2011 13:54:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error when creating a new workflow with eZ 4.5</title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5</link>
+      <description>Hello,&#13;
+&#13;
+I use eZ4.5 Entreprise.&#13;
+&#13;
+When I try to create a new workflow I get this following error :&#13;
+&lt;code&gt;&#13;
+PHP Fatal error:  Call to undefined function ezi18n() in /ez_publish/extension/gwutils/eventtypes/event/gwupdatehidden/gwupdatehiddentype.php on line 64, referer: http://admin.domain.com/workflow/workflowlist/2&lt;/code&gt;&#13;
+&#13;
+So in &lt;i&gt;/extension/gwutils/eventtypes/event/gwupdatehidden/gwupdatehiddentype.php&lt;/i&gt; at line &lt;b&gt;64&lt;/b&gt; I replaced&#13;
+&lt;code&gt;ezi18n&lt;/code&gt;&#13;
+by&#13;
+&lt;code&gt;ezpI18n::tr&lt;/code&gt;&#13;
+and it works !</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_when_creating_a_new_workflow_with_ez_4_5</guid>
+      <pubDate>Wed, 01 Jun 2011 14:58:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: fatal error in gwupdatehiddentype.php </title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php/re_fatal_error_in_gwupdatehiddentype_php2</link>
+      <description>Thanks for your reply bjorn!</description>
+      <author>community@ez.no (Seb gaillard)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php/re_fatal_error_in_gwupdatehiddentype_php2</guid>
+      <pubDate>Tue, 05 Jan 2010 11:47:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 5 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/5</link>
+      <description>- Added more robust checking for version.
+  http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/5</guid>
+      <pubDate>Mon, 04 Jan 2010 14:25:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: fatal error in gwupdatehiddentype.php </title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php/re_fatal_error_in_gwupdatehiddentype_php</link>
+      <description>Looks good for me. Have added the extra check to the svn version (rev. 5). Thanks for the patch.&#13;
+&#13;
+Cheers, Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php/re_fatal_error_in_gwupdatehiddentype_php</guid>
+      <pubDate>Mon, 04 Jan 2010 14:22:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>fatal error in gwupdatehiddentype.php </title>
+      <link>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php</link>
+      <description>Hi,&#13;
+&#13;
+My workflow doesn't work because I've a problem with the version numbers&#13;
+in some eZ objects.&#13;
+We have limited the number of versions to 2.&#13;
+So, I've a fatal error in line 88&#13;
+&lt;code&gt;&#13;
+        // if a newer object is the current version, abort this workflow.&#13;
+        $currentVersion = $object-&gt;attribute( 'current_version' );&#13;
+        $version = $object-&gt;version( $parameters['version'] );&#13;
+&#13;
+        if ( $currentVersion != $version-&gt;attribute( 'version' ) )&#13;
+        {&#13;
+            return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+For exemple :&#13;
+$currentVersion = 7 and $parameters['version'] = 2. So $version = false&#13;
+because only the last 2 versions of the object remain in the database.&#13;
+&#13;
+For fixing this bug, I had added these lines:&#13;
+&lt;code&gt;&#13;
+        // if a newer object is the current version, abort this workflow.&#13;
+        $currentVersion = $object-&gt;attribute( 'current_version' );&#13;
+        $version = $object-&gt;version( $parameters['version'] );&#13;
+&#13;
+        if(!$version)&#13;
+        {&#13;
+            eZDebugSetting::writeError(&#13;
+'extension-workflow-updatehidden','The version of object with ID ' .&#13;
+$parameters['object_id'] . ' does not exist.',&#13;
+'GWUpdateHiddenType::execute() object is unavailable' );&#13;
+            return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;&#13;
+        }&#13;
+        elseif ( $currentVersion != $version-&gt;attribute( 'version' ) )&#13;
+        {&#13;
+            return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+Now, it seems to work.&#13;
+Does anyone know if this solution could cause damages elsewhere ?</description>
+      <author>community@ez.no (Seb gaillard)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/fatal_error_in_gwupdatehiddentype_php</guid>
+      <pubDate>Wed, 30 Dec 2009 10:29:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: limit in data_text1, data_text2, data_text3...</title>
+      <link>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text33</link>
+      <description>Seems to be fixed in trunk for the next version of eZ Publish. (http://issues.ez.no/IssueView.php?Id=8123)</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text33</guid>
+      <pubDate>Mon, 27 Jul 2009 10:13:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: limit in data_text1, data_text2, data_text3...</title>
+      <link>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text32</link>
+      <description>Create a bug report on ez.no about this issue.&#13;
+I think this has to be fixed in ez directly.&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text32</guid>
+      <pubDate>Mon, 27 Jul 2009 10:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: limit in data_text1, data_text2, data_text3...</title>
+      <link>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text3</link>
+      <description>yes, I think that should solve your problem, or even set it to longtext to be safe.</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4/re_limit_in_data_text1_data_text2_data_text3</guid>
+      <pubDate>Mon, 27 Jul 2009 09:11:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>limit in data_text1, data_text2, data_text3 and data_text4</title>
+      <link>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4</link>
+      <description>Hi,&#13;
+&#13;
+When I had a lot of attribute in the workflow event, I loose some of them because   data_text1, data_text2, data_text3 and data_text4 fields of the ezworkflow_event table are in varchar(50).&#13;
+Is it possible to upgrade this value to varchar(255) for exemple?</description>
+      <author>community@ez.no (Seb gaillard)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/limit_in_data_text1_data_text2_data_text3_and_data_text4</guid>
+      <pubDate>Mon, 20 Jul 2009 15:35:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem creating workflow</title>
+      <link>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow/re_problem_creating_workflow2</link>
+      <description>Hi Björn,&#13;
+&#13;
+thanks for the advice... seems to be working now!&#13;
+&#13;
+Arno.</description>
+      <author>community@ez.no (Arno Schumacher)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow/re_problem_creating_workflow2</guid>
+      <pubDate>Thu, 23 Apr 2009 10:17:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem creating workflow</title>
+      <link>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow/re_problem_creating_workflow</link>
+      <description>Hi,&#13;
+&#13;
+You need to regenerate the autoload arrays for eZ Publish. You can do that by running the script:&#13;
+&#13;
+&lt;code&gt;&#13;
+php bin/php/ezpgenerateautoloads.php -e&#13;
+&lt;/code&gt;&#13;
+&#13;
+You need to have eZ Components installed on your server to be able to run this script, and is explained here: http://ezcomponents.org/docs/install</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow/re_problem_creating_workflow</guid>
+      <pubDate>Wed, 22 Apr 2009 16:13:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem creating workflow</title>
+      <link>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow</link>
+      <description>Hi Björn,&#13;
+&#13;
+so I activated your extension, but I run into troubles creating a new workflow.&#13;
+As soon as I select 'Event/Update hidden field' from event selection drop-down and click 'Add event' I get a white page with the following message from ezPublish:&#13;
+&#13;
+------------------------------------------------------------&#13;
+Fatal error: Class 'GWUpdateHidden' not found in /data/files/www/ezpublish-dev/extension/gwutils/eventtypes/event/gwupdatehidden/gwupdatehiddentype.php on line 287&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+------------------------------------------------------------&#13;
+&#13;
+We are running&#13;
+Version:  4.0.0 (4.0.0)&#13;
+SVN revision: 19785&#13;
+of eZPublish&#13;
+&#13;
+Any help would be really appreciated.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Arno.</description>
+      <author>community@ez.no (Arno Schumacher)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/problem_creating_workflow</guid>
+      <pubDate>Wed, 22 Apr 2009 16:03:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 4 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/4</link>
+      <description>- Added code for removing contentcache.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/4</guid>
+      <pubDate>Fri, 12 Dec 2008 16:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: for staticcache system</title>
+      <link>http://projects.ez.no/gwutils/forum/general/for_staticcache_system/re_for_staticcache_system</link>
+      <description>Hi,&#13;
+&#13;
+Thanks for the contribution, however I'm not Andre :)&#13;
+&#13;
+I've added your lines to the svn repository here: http://svn.projects.ez.no/gwutils/trunk/extension/gwutils/</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/for_staticcache_system/re_for_staticcache_system</guid>
+      <pubDate>Fri, 12 Dec 2008 16:14:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 2 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/2</link>
+      <description>- Added extension.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/2</guid>
+      <pubDate>Fri, 12 Dec 2008 16:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 3 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/3</link>
+      <description>- Added extension gwutils.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/3</guid>
+      <pubDate>Fri, 12 Dec 2008 16:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>gwutils rev. 1 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/gwutils/subversion/1</link>
+      <description>- Added trunk.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/gwutils/subversion/1</guid>
+      <pubDate>Fri, 12 Dec 2008 16:00:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>for staticcache system</title>
+      <link>http://projects.ez.no/gwutils/forum/general/for_staticcache_system</link>
+      <description>Hi André, thanks for your extension.&#13;
+It's very useful.&#13;
+&#13;
+I added 3 lines in gwupdatehiddentype.php before  if ( $currentTime &lt; $publishTimestamp )&#13;
+&#13;
+&lt;code&gt;&#13;
+eZContentCacheManager::clearContentCache( $object-&gt;attribute('id') );&#13;
+eZContentCacheManager::generateObjectViewCache( $object-&gt;attribute('id') );&#13;
+eZStaticCache::executeActions();&#13;
+&lt;/code&gt;&#13;
+&#13;
+It clear the object's view cache and push the action static_store in table ezpending_list for the project with staticcache activing. &#13;
+&#13;
+</description>
+      <author>community@ez.no (Bin LIU)</author>
+      <guid>http://projects.ez.no/gwutils/forum/general/for_staticcache_system</guid>
+      <pubDate>Fri, 12 Dec 2008 15:34:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GWUtils 1.0 (zip)</title>
+      <link>http://projects.ez.no/gwutils/downloads/1_0/gwutils_1_0_zip</link>
+      <description></description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/downloads/1_0/gwutils_1_0_zip</guid>
+      <pubDate>Tue, 10 Jun 2008 14:37:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>GWUtils 1.0 (tar.gz)</title>
+      <link>http://projects.ez.no/gwutils/downloads/1_0/gwutils_1_0_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/gwutils/downloads/1_0/gwutils_1_0_tar_gz</guid>
+      <pubDate>Tue, 10 Jun 2008 14:36:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

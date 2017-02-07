@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sitelink / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47045" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/563188b7364bc162df40fc7d612357257202343c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;use strict comparison for self linking check&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/563188b7364bc162df40fc7d612357257202343c</guid>
+      <pubDate>Wed, 22 Apr 2015 16:01:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/175e55df1e67130b6c48bb8ffca3a6f09be979e7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;reduce weight on admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/175e55df1e67130b6c48bb8ffca3a6f09be979e7</guid>
+      <pubDate>Wed, 15 Apr 2015 17:02:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/8d8c62e4c2e3a981820d6fda8ef557502cdd541b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;sitelink_siteaccess operator&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/8d8c62e4c2e3a981820d6fda8ef557502cdd541b</guid>
+      <pubDate>Tue, 14 Apr 2015 15:22:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/64cc190564d3c074d0542550483d888251ffb6af</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix for default siteaccess on 5.x sites&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/64cc190564d3c074d0542550483d888251ffb6af</guid>
+      <pubDate>Thu, 11 Jul 2013 14:22:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/9d9ee67e5ea485366b17c62cfc15260615a00150</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;new sitelink_roots operator and fix for non-standard settings/siteaccess dir&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/9d9ee67e5ea485366b17c62cfc15260615a00150</guid>
+      <pubDate>Fri, 14 Sep 2012 14:02:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/67e9c41c573a844e50ade0c4d5cc27841575ca09</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow for prioritized siteaccess ini variable&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/67e9c41c573a844e50ade0c4d5cc27841575ca09</guid>
+      <pubDate>Thu, 19 Jul 2012 19:01:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/ff982089ab039a75a45c2cbad26e1b145b86b318</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;switch siteaccess if node does not exist for current siteaccess  translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/ff982089ab039a75a45c2cbad26e1b145b86b318</guid>
+      <pubDate>Thu, 19 Jul 2012 18:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/7fed4d1c13c24ad9b1a115d7dace250b8022aa84</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed #11560&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/7fed4d1c13c24ad9b1a115d7dace250b8022aa84</guid>
+      <pubDate>Thu, 07 Jun 2012 20:02:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/ee9082b3dba876f7c41ced570e8617363dddfb82</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;only process content objects if a node is found&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/ee9082b3dba876f7c41ced570e8617363dddfb82</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/9e7d256a27bc94aae88d3c02cac9996ea6be5f05</link>
+      <description>
+      &lt;pre&gt;&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:ThinkCreative/sitelink&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/9e7d256a27bc94aae88d3c02cac9996ea6be5f05</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/fb59fe526511ea9c43a2d0a58671d6a206eed725</link>
+      <description>
+      &lt;pre&gt;+ doc/index.html
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add documentation file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/fb59fe526511ea9c43a2d0a58671d6a206eed725</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/af19caf5996f5c351cde2d8efa8e40a7a087586c</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink/sitelinkbinaryfile.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;prevent spaces in dowload filenames&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/af19caf5996f5c351cde2d8efa8e40a7a087586c</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/6eb777c5f370ff1526b6cea41ec181d344ad3696</link>
+      <description>
+      &lt;pre&gt;m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix for running in script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/6eb777c5f370ff1526b6cea41ec181d344ad3696</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/48f6cf4d6adf380823353031ed18eb50839afbfc</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix bug where when linking to the homepage of site access results in the wrong path prefix being used&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/48f6cf4d6adf380823353031ed18eb50839afbfc</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/2de84a4468e16369a6693111db770f9d01c83fd1</link>
+      <description>
+      &lt;pre&gt;m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;relinking issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/2de84a4468e16369a6693111db770f9d01c83fd1</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/8913d2efc04b7306665afd443b5709b9080b6728</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow sub pages to have site access within file name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/8913d2efc04b7306665afd443b5709b9080b6728</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/5ddcc0c67d117f62b8e6ee8b9f92493819e331d6</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink/sitelinkbinaryfile.class.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix relinking process and url encoding of filenames&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/5ddcc0c67d117f62b8e6ee8b9f92493819e331d6</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/bfef8e3ea83c61947a2160928313817bb1347707</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix bug in siteaccess detection&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/bfef8e3ea83c61947a2160928313817bb1347707</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/803167ee61a4b411e025b2c6fc3c68b4503edaf5</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;same siteaccess relative url fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/803167ee61a4b411e025b2c6fc3c68b4503edaf5</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/5448c596de0a403f802f42c7d3620280ce05aa53</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:ThinkCreative/sitelink&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/5448c596de0a403f802f42c7d3620280ce05aa53</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/25b8c6dfa95aa7031bd71b88952602b206ad8c68</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;siteaccess in url bug fix - 10542&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/25b8c6dfa95aa7031bd71b88952602b206ad8c68</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/b741f43473eb21b994833c80bae244c0868ab2c5</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;remove debug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/b741f43473eb21b994833c80bae244c0868ab2c5</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/f44020c86432c388281d813f8eaf5d0d0d3984f8</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;typo fix from last commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/f44020c86432c388281d813f8eaf5d0d0d3984f8</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/07cda1f0e2d18c5a06040ca8dba2fb1e718490c4</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;sitelink fix for related object visibility - 10459&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/07cda1f0e2d18c5a06040ca8dba2fb1e718490c4</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/201e57698807575b9c7b50b6e4956c6da954a735</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed 11551&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/201e57698807575b9c7b50b6e4956c6da954a735</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/e1bd70d029c732f079f03a1d629c2f5875e216fb</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;prevent fatal error for non-object node assignment&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/e1bd70d029c732f079f03a1d629c2f5875e216fb</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/31c629686a18e3535f70706ece34a8115b3f828d</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;add more robust check for node id&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/31c629686a18e3535f70706ece34a8115b3f828d</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/sitelink/source/596ed4a79a66151a27db215286933dbc387de3f1</link>
+      <description>
+      &lt;pre&gt;m classes/sitelink.class.php
+m operators/sitelinkoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;better fix than the last one&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sitelink/source/596ed4a79a66151a27db215286933dbc387de3f1</guid>
+      <pubDate>Fri, 01 Jun 2012 09:40:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

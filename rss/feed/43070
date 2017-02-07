@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_captcha</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:30:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:30:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43070" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/f6a0d5de51a77fe9c817a1002682ade5e43cd393</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;HTTP cache fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/f6a0d5de51a77fe9c817a1002682ade5e43cd393</guid>
+      <pubDate>Tue, 01 Jul 2014 19:21:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/18362c8a95fc2825a0b9539415e98709268dced8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ini fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/18362c8a95fc2825a0b9539415e98709268dced8</guid>
+      <pubDate>Tue, 01 Jul 2014 19:21:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/71fa7f31ff6b5a0c4a658f32bafe090eba285d78</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix to prevent XSS&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/71fa7f31ff6b5a0c4a658f32bafe090eba285d78</guid>
+      <pubDate>Thu, 27 Mar 2014 12:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/3ce88c5331767e1fb1e0da4d58abeef9402c4a42</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from svda/master
+
+Solved bug where captcha wouldn't display. Function name should correspo...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/3ce88c5331767e1fb1e0da4d58abeef9402c4a42</guid>
+      <pubDate>Tue, 04 Mar 2014 12:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/6102d597fbe63df3939fe5aec0ccfc4815242648</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Solved bug where captcha wouldn't display. Function name should correspond with name in .&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/6102d597fbe63df3939fe5aec0ccfc4815242648</guid>
+      <pubDate>Tue, 04 Mar 2014 12:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/5aacd40673ed9e9296426ebb532ecc21e8a5226a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from davidsayre/master
+
+Update module/get.php to access settings/nxc_captcha.ini.append.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/5aacd40673ed9e9296426ebb532ecc21e8a5226a</guid>
+      <pubDate>Mon, 10 Feb 2014 08:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/7c2e79ad2ed44175cd1e808babd9b5d2c1acd0c1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update module/get.php to access settings/nxc_captcha.ini.append.php
+
+Passing an attributeID '-1' ( /nxc_captcha/get/-1/&lt;session_key&gt;/(regen&gt; ) will allow an image to be created using only the defaults.
+
+This is useful for expanding the NXC Captcha usage beyond object
+attributes and into a general captcha form validator.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/7c2e79ad2ed44175cd1e808babd9b5d2c1acd0c1</guid>
+      <pubDate>Mon, 10 Feb 2014 08:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/f1f8066e67843ab1ab04fa744852d745cc96da8d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bypass if not required
+
+There is a case for having the NXC captcha validate if the form renders
+the input, but be optional if the input is not included. The nxccaptcha
+required property is now checked.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/f1f8066e67843ab1ab04fa744852d745cc96da8d</guid>
+      <pubDate>Tue, 04 Feb 2014 22:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/5c98d7bae24290a0998031270779b30a65e20c27</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from davidsayre/master
+
+Bypass if not required&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/5c98d7bae24290a0998031270779b30a65e20c27</guid>
+      <pubDate>Tue, 04 Feb 2014 22:11:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/79595c7d0218d0fe3a3248b495f3fd1439d36ed2</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/nxc.captcha.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update design/standard/javascript/nxc.captcha.js
+
+Beautify the code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/79595c7d0218d0fe3a3248b495f3fd1439d36ed2</guid>
+      <pubDate>Thu, 07 Mar 2013 10:51:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/934435614308e2a5438d966d355f113d3a3901b7</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/nxc.captcha.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from gserg/master
+
+Beautify the code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/934435614308e2a5438d966d355f113d3a3901b7</guid>
+      <pubDate>Thu, 07 Mar 2013 10:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/d61683d6b6164931234c391e2bba5dd779539ed1</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/content/datatype/edit/nxccaptcha.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update design/standard/templates/content/datatype/edit/nxccaptcha.tpl
+
+Fixed closing tag mismatch&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/d61683d6b6164931234c391e2bba5dd779539ed1</guid>
+      <pubDate>Thu, 07 Feb 2013 19:11:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/35afd351e937c7f5a433dfacaa799b3bce24ef43</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/content/datatype/edit/nxccaptcha.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from gserg/master
+
+Fixed closing tag mismatch&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/35afd351e937c7f5a433dfacaa799b3bce24ef43</guid>
+      <pubDate>Thu, 07 Feb 2013 19:11:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/ad52667b24c41562a791ed9429dab9d49ae45b4b</link>
+      <description>
+      &lt;pre&gt;m readme.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/ad52667b24c41562a791ed9429dab9d49ae45b4b</guid>
+      <pubDate>Wed, 06 Feb 2013 13:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/2c75af604bbfc64998410a6065185d014b753603</link>
+      <description>
+      &lt;pre&gt;+ readme.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/2c75af604bbfc64998410a6065185d014b753603</guid>
+      <pubDate>Wed, 06 Feb 2013 13:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can we display captcha only for  agiven rol...</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group/re_can_we_display_captcha_only_for_agiven_rol</link>
+      <description>Hi,&#13;
+Actually this functionallity is already implemented. There is "skip roles", for content class captcha attribute.&#13;
+Please checkout the last version from GIT</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group/re_can_we_display_captcha_only_for_agiven_rol</guid>
+      <pubDate>Wed, 21 Mar 2012 08:14:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can we display captcha only for  agiven role/group?</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group</link>
+      <description>It would be nice to eb able to assign a role/group permissions not to need to enter captcha at all...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group</guid>
+      <pubDate>Wed, 14 Mar 2012 17:17:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exclude characters option is added</title>
+      <link>http://projects.ez.no/nxc_captcha/news/exclude_characters_option_is_added</link>
+      <description>&lt;p&gt;Now you can easily specify, which characters should not ever apear in the captcha secure code (default value is&amp;nbsp;0,o,O,l,I,i).&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/news/exclude_characters_option_is_added</guid>
+      <pubDate>Sun, 04 Mar 2012 14:17:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exclude characters option is added</title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/c624d2027b73d613668e73b4fe5cc752bfbecbbe</link>
+      <description>
+      &lt;pre&gt;m classes/captcha.php
+m datatypes/nxccaptcha/nxccaptchatype.php
+m design/standard/templates/class/datatype/edit/nxccaptcha.tpl
+m design/standard/templates/class/datatype/view/nxccaptcha.tpl
+m modules/nxc_captcha/get.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Exclude characters added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/c624d2027b73d613668e73b4fe5cc752bfbecbbe</guid>
+      <pubDate>Sun, 04 Mar 2012 14:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Source code is available at github</title>
+      <link>http://projects.ez.no/nxc_captcha/news/source_code_is_available_at_github</link>
+      <description>&lt;p&gt;Fork it:&amp;nbsp;&lt;a href="https://github.com/nxc/nxc_captcha" target="_self"&gt;https://github.com/nxc/nxc_captcha&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/news/source_code_is_available_at_github</guid>
+      <pubDate>Sun, 04 Mar 2012 11:54:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Source code is available at github</title>
+      <link>http://projects.ez.no/nxc_captcha/subversion/36d5040441af794aec4eef7f14fa597730914590</link>
+      <description>
+      &lt;pre&gt;+ autoload/autoload.php
++ classes/captcha.php
++ datatypes/nxccaptcha/nxccaptchatype.php
++ design/standard/fonts/captcha_font.ttf
++ design/standard/images/colorpicker/blank.gif
++ design/standard/images/colorpicker/colorpicker_background.png
++ design/standard/images/colorpicker/colorpicker_hex.png
++ design/standard/images/colorpicker/colorpicker_hsb_b.png
++ design/standard/images/colorpicker/colorpicker_hsb_h.png
++ design/standard/images/colorpicker/colorpicker_hsb_s.png
++ design/standard/images/colorpicker/colorpicker_indic.gif
++ design/standard/images/colorpicker/colorpicker_overlay.png
++ design/standard/images/colorpicker/colorpicker_rgb_b.png
++ design/standard/images/colorpicker/colorpicker_rgb_g.png
++ design/standard/images/colorpicker/colorpicker_rgb_r.png
++ design/standard/images/colorpicker/colorpicker_select.gif
++ design/standard/images/colorpicker/colorpicker_submit.png
++ design/standard/images/colorpicker/custom_background.png
++ design/standard/images/colorpicker/custom_hex.png
++ design/standard/images/colorpicker/custom_hsb_b.png
++ design/standard/images/colorpicker/custom_hsb_h.png
++ design/standard/images/colorpicker/custom_hsb_s.png
++ design/standard/images/colorpicker/custom_indic.gif
++ design/standard/images/colorpicker/custom_rgb_b.png
++ design/standard/images/colorpicker/custom_rgb_g.png
++ design/standard/images/colorpicker/custom_rgb_r.png
++ design/standard/images/colorpicker/custom_submit.png
++ design/standard/images/colorpicker/select.png
++ design/standard/images/colorpicker/select2.png
++ design/standard/images/colorpicker/slider.png
++ design/standard/javascript/colorpicker/colorpicker.js
++ design/standard/javascript/colorpicker/eye.js
++ design/standard/javascript/colorpicker/layout.js
++ design/standard/javascript/colorpicker/utils.js
++ design/standard/javascript/jquery-ui-1.8.16.custom.min.js
++ design/standard/javascript/nxc.captcha.js
++ design/standard/stylesheets/colorpicker.css
++ design/standard/stylesheets/nxc.captcha.css
++ design/standard/templates/class/datatype/edit/nxccaptcha.tpl
++ design/standard/templates/class/datatype/view/nxccaptcha.tpl
++ design/standard/templates/content/datatype/collect/nxccaptcha.tpl
++ design/standard/templates/content/datatype/diff/nxccaptcha.tpl
++ design/standard/templates/content/datatype/edit/nxccaptcha.tpl
++ design/standard/templates/content/datatype/pdf/nxccaptcha.tpl
++ design/standard/templates/content/datatype/result/info/nxccaptcha.tpl
++ design/standard/templates/content/datatype/view/nxccaptcha.tpl
++ ezinfo.php
++ modules/nxc_captcha/get.php
++ modules/nxc_captcha/module.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_captcha/subversion/36d5040441af794aec4eef7f14fa597730914590</guid>
+      <pubDate>Sun, 04 Mar 2012 11:50:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display7</link>
+      <description>the template in use was extension/ezwebin/design/ezwebin/override/templates/full/feedback_form.tpl template:&#13;
+&#13;
+adding &#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;h4&gt;{$node.data_map.nxc_captcha.contentclass_attribute.name}&lt;/h4&gt;&#13;
+        &lt;div class="attribute-message"&gt;&#13;
+                {attribute_view_gui attribute=$node.data_map.nxc_captcha}&#13;
+        &lt;/div&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+so you create your custom override template to contain captcha attribute code.&#13;
+&#13;
+Many thanks Serhey for your quick responses to my query.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display7</guid>
+      <pubDate>Mon, 27 Feb 2012 21:31:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display6</link>
+      <description>You can select Numeric or Alphabetic captcha type (not Alphanumeric). Also i plan to add exclude characters in the future. Also you can use some custom font.</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display6</guid>
+      <pubDate>Mon, 27 Feb 2012 13:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display5</link>
+      <description>thank you for the template code. It is working. &#13;
+&#13;
+My first two attempts at inputting an alpha-numeric code were incorrect, presumably because several zeros may have been the letter O and vice versa. Do you have any suggestions which would minimise user frustration?</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display5</guid>
+      <pubDate>Mon, 27 Feb 2012 11:18:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display4</link>
+      <description>sent by email</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display4</guid>
+      <pubDate>Mon, 27 Feb 2012 10:36:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display3</link>
+      <description>Captcha template is not included to the feedback form at all. Can you please send me accces to the back end to check feedback class (sd@nxc.no)? </description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display3</guid>
+      <pubDate>Mon, 27 Feb 2012 10:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display2</link>
+      <description>staging site address provided</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display2</guid>
+      <pubDate>Mon, 27 Feb 2012 10:27:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display</link>
+      <description>Hi John,&#13;
+Can you please send an URL to the feedback form, to I be able to test?</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display</guid>
+      <pubDate>Mon, 27 Feb 2012 10:19:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display</link>
+      <description>Installed on eZ Publish Community Project 2011.11, php5 debian squeeze ezwebin theme&#13;
+&#13;
+For information I do not see any sliders, only fields.&#13;
+&#13;
+I do not see the captcha displayed on a feedback form after adding it using the settings in your examples. I have tried both as an Information Collector (example 2 in your Gallery) and not (Example 1).&#13;
+&#13;
+The feedback form displays neither the captcha code nor its input field. &#13;
+&#13;
+The template the ezwebin_site feedback form uses is /node/view/full.tpl&#13;
+&#13;
+I have not made any changes to templates. &#13;
+&#13;
+I have cleared site cache, browser cache, republished the feedback form, and also tried viewing in a different browser. I am not logged in to the front end. Editing the contact form object in the back end displays "Secure code is allready entered" which is OK as Administrator and named Administrator are excluded.&#13;
+&#13;
+Attempting to submit a form in the front end without the Captcha displayed produces a NXC Security token missing error.&#13;
+&#13;
+Do you have any suggestions on what to try and which is the correct setting for Information Collection?&#13;
+&#13;
+Thank you in anticipation of your help and for producing an important contribution.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display</guid>
+      <pubDate>Mon, 27 Feb 2012 10:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot2</link>
+      <description>Hello Serhey,&#13;
+&#13;
+Fantastic!&#13;
+&#13;
+Great screenshots :)&#13;
+&#13;
+Thanks again&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot2</guid>
+      <pubDate>Fri, 28 Oct 2011 13:23:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot</link>
+      <description>Hi Heath,&#13;
+I`ve uploaded a couple of exmaples at http://projects.ez.no/nxc_captcha/gallery/exmaples&#13;
+Thanks for your advice!</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot</guid>
+      <pubDate>Fri, 28 Oct 2011 08:13:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot</link>
+      <description>Hello Serhey,&#13;
+&#13;
+Congratulations on your recent project release.&#13;
+&#13;
+One request came to mind when reading the project description and release article.&#13;
+&#13;
+Could you publish screenshot(s) of the captcha in action on a user siteaccess.&#13;
+&#13;
+I'm curious just how all this looks when presented to the users viewing the site.&#13;
+&#13;
+I also think having these kinds of screenshots can also help encourage use of your extension as simple examples of usage seem to help convince new users to try your extension.&#13;
+&#13;
+Thank again&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot</guid>
+      <pubDate>Thu, 27 Oct 2011 20:03:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Initial release</title>
+      <link>http://projects.ez.no/nxc_captcha/news/initial_release</link>
+      <description>&lt;p&gt;New more flexible and&amp;nbsp;convenient anti-spam captcha is released.&lt;/p&gt;&lt;p&gt;Examples gallery is available at&amp;nbsp;&lt;a href="http://projects.ez.no/nxc_captcha/gallery/exmaples" target="_self"&gt;http://projects.ez.no/nxc_captcha/gallery/exmaples&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.ez.no/nxc_captcha" target="_self"&gt;More details&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/news/initial_release</guid>
+      <pubDate>Thu, 27 Oct 2011 18:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_captcha.zip</title>
+      <link>http://projects.ez.no/nxc_captcha/downloads/nxc_captcha_zip</link>
+      <description></description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/downloads/nxc_captcha_zip</guid>
+      <pubDate>Thu, 27 Oct 2011 18:11:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

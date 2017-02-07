@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsurvey_ezp4 / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8201" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/616259fff7fc0f3f7d7d695775f9e00a76b80d68</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/616259fff7fc0f3f7d7d695775f9e00a76b80d68</guid>
+      <pubDate>Mon, 03 Nov 2014 15:03:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/aa16c1689dfba544aed7346ba4deca0c6e426986</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #22 from ezsystems/ezp-23350_remamed_admin2
+
+EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/aa16c1689dfba544aed7346ba4deca0c6e426986</guid>
+      <pubDate>Thu, 18 Sep 2014 13:23:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/3ed6353cf9cfea9db9192b33187ca674d7d73daf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/3ed6353cf9cfea9db9192b33187ca674d7d73daf</guid>
+      <pubDate>Thu, 18 Sep 2014 13:23:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/7704fc88ef27a1a9fd7aab317ac485ab1504c53e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #21 from gggeek/EZP-23257
+
+Fix EZP-23257: fatal when instantiating a "related object" survey question&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/7704fc88ef27a1a9fd7aab317ac485ab1504c53e</guid>
+      <pubDate>Mon, 25 Aug 2014 13:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/1d5fb6d6453a1c739dadc7d05c93446bf5a129ec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23257: fatal error when instantiating a "related object" survey question from cli / rest context&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/1d5fb6d6453a1c739dadc7d05c93446bf5a129ec</guid>
+      <pubDate>Mon, 25 Aug 2014 13:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/ce517cc72870866b11603a6bd20f22aaffcc5db4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-20455: removing calls to deprecated isLoggedIn() method&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/ce517cc72870866b11603a6bd20f22aaffcc5db4</guid>
+      <pubDate>Tue, 12 Aug 2014 07:43:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/aaefcf4a4dff538f0973ee4b9408d736b7371f43</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #20 from guillaumelecerf/EZP-20455
+
+EZP-20455: removing calls to deprecated isLoggedIn() method&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/aaefcf4a4dff538f0973ee4b9408d736b7371f43</guid>
+      <pubDate>Tue, 12 Aug 2014 07:43:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/bf5fbd3e07fb6a41fdd040af1860075f9263a761</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/bf5fbd3e07fb6a41fdd040af1860075f9263a761</guid>
+      <pubDate>Tue, 20 May 2014 19:53:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/5f1eef1ef0c2f739a8db73eb9dd191caf283166f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/5f1eef1ef0c2f739a8db73eb9dd191caf283166f</guid>
+      <pubDate>Thu, 15 May 2014 09:13:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/4ac0246a1956c068f8f1db3320a558c8a7c89f99</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/4ac0246a1956c068f8f1db3320a558c8a7c89f99</guid>
+      <pubDate>Thu, 15 May 2014 09:03:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/cfebcaf30c9d587e2d4c4f88f138c1fc91dd6603</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-22128: More license changes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/cfebcaf30c9d587e2d4c4f88f138c1fc91dd6603</guid>
+      <pubDate>Wed, 14 May 2014 12:03:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/2d6f43659d5608ddf1a5d955bb5b9c15277ef491</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/2d6f43659d5608ddf1a5d955bb5b9c15277ef491</guid>
+      <pubDate>Tue, 13 May 2014 21:43:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/da64f3353a91b04219189db46426d566682ca70f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-22539: added missing wash statements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/da64f3353a91b04219189db46426d566682ca70f</guid>
+      <pubDate>Wed, 07 May 2014 14:23:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/fedc7b6b33dd078b6ee1c67c43adb9151ead1e71</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #18 from guillaumelecerf/add_composer_json
+
+Add composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/fedc7b6b33dd078b6ee1c67c43adb9151ead1e71</guid>
+      <pubDate>Tue, 17 Dec 2013 16:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/1b3894cc6b5249f5721f9cbedea96193a5fd0687</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/1b3894cc6b5249f5721f9cbedea96193a5fd0687</guid>
+      <pubDate>Tue, 17 Dec 2013 16:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/83e35ae8934378dbb7271d6ab43d174016ff2981</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveywizard.php
+m update/database/mysql/2.1/dbupdate-1.0.0-to-2.1.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from patrickallaert/EZP-20600
+
+Fixed EZP-20600: Mysql5.5 : Importing the ezsurvey tables using ezsurvey setup wizard ends with database transaction error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/83e35ae8934378dbb7271d6ab43d174016ff2981</guid>
+      <pubDate>Wed, 20 Mar 2013 16:46:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/6dd59bab74fe755422578a5a70219864fa7aa7e7</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveywizard.php
+m update/database/mysql/2.1/dbupdate-1.0.0-to-2.1.0.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed EZP-20600: Mysql5.5 : Importing the ezsurvey tables using ezsurvey setup wizard ends with database transaction error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/6dd59bab74fe755422578a5a70219864fa7aa7e7</guid>
+      <pubDate>Wed, 20 Mar 2013 16:46:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/7e548be509ee170f5fabe246e384b98c3bd9e8ab</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization fre-FR : added and updated with ezlupdate translation file from Pascal Boyer&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/7e548be509ee170f5fabe246e384b98c3bd9e8ab</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/dfc13dd2fcd586a9aa301f6646cfb146a45cc6fe</link>
+      <description>
+      &lt;pre&gt;m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization: updated base translations.ts file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/dfc13dd2fcd586a9aa301f6646cfb146a45cc6fe</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/f127cdb4099c8dbb81de004f52ede9e38c3d0362</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/f127cdb4099c8dbb81de004f52ede9e38c3d0362</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/dedbf94ae69f3cf339d5e4060fe1a3c9e18ad99a</link>
+      <description>
+      &lt;pre&gt;m translations/cat-ES/translation.ts
+m translations/eng-GB/translation.ts
+m translations/esl-ES/translation.ts
+m translations/fin-FI/translation.ts
+m translations/fre-FR/translation.ts
+m translations/ger-DE/translation.ts
+m translations/jpn-JP/translation.ts
+m translations/nor-NO/translation.ts
+m translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: updated strings for the ezpublish 4.5 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/dedbf94ae69f3cf339d5e4060fe1a3c9e18ad99a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/12bcf448df06ca1d54e62f206a9707513912c123</link>
+      <description>
+      &lt;pre&gt;m sql/mysql/schema.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #018189: mysql db creation script broken for mysql 5.5&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/12bcf448df06ca1d54e62f206a9707513912c123</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/b5c4a283be1fae2da15e5463899dd0801b6c2724</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization fre-FR : removed unnecessary type attribute&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/b5c4a283be1fae2da15e5463899dd0801b6c2724</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/a865701e4b17429fbdd1f3652d5c1c6a32915322</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization fre-FR : fixed typos in translation tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/a865701e4b17429fbdd1f3652d5c1c6a32915322</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/9a195df0d74ac76e071a0581d33226055000e9d5</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Localization fre-FR : added missing translations, fixed various
+inconsistencies and mistakes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/9a195df0d74ac76e071a0581d33226055000e9d5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/2d8c2e0f9440af3475b5f2f84bb1cc04217c81b3</link>
+      <description>
+      &lt;pre&gt;+ translations/swe-SE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from ljo/master
+
+Added Swedish, swe-SE, translation for ezsurvey. - 4.7 ( Etna) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/2d8c2e0f9440af3475b5f2f84bb1cc04217c81b3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/448a558b67eb8968efb0658f2ad54733940fb534</link>
+      <description>
+      &lt;pre&gt;+ translations/swe-SE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added Swedish, swe-SE, translation for ezsurvey.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/448a558b67eb8968efb0658f2ad54733940fb534</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/06bc8a58662b036635c073fe5a3b9f15fd21fc03</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from emodric/cro_HR
+
+Add Croatian translation - 4.7 (Etna) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/06bc8a58662b036635c073fe5a3b9f15fd21fc03</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/d5a53903d899c7d3e1715bb1a53c8636a934d8f5</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/d5a53903d899c7d3e1715bb1a53c8636a934d8f5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/b8b58ca9db0f91c22c77a40492e4981eb15b7ad7</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m bin/php/ezsqldumpsurveydata.php
+m datatypes/ezsurvey/ezsurveytype.php
+m extension.xml
+m ezinfo.php
+m modules/survey/action.php
+m modules/survey/classes/ezsurvey.php
+m modules/survey/classes/ezsurveyemailentry.php
+m modules/survey/classes/ezsurveyentry.php
+m modules/survey/classes/ezsurveyformattedparagraph.php
+m modules/survey/classes/ezsurveymetadata.php
+m modules/survey/classes/ezsurveymultiplechoice.php
+m modules/survey/classes/ezsurveynumberentry.php
+m modules/survey/classes/ezsurveyoperators.php
+m modules/survey/classes/ezsurveyparagraph.php
+m modules/survey/classes/ezsurveyquestion.php
+m modules/survey/classes/ezsurveyquestionmetadata.php
+m modules/survey/classes/ezsurveyquestionresult.php
+m modules/survey/classes/ezsurveyquestions.php
+m modules/survey/classes/ezsurveyreceiver.php
+m modules/survey/classes/ezsurveyrelatedconfig.php
+m modules/survey/classes/ezsurveyrelatedobject.php
+m modules/survey/classes/ezsurveyresult.php
+m modules/survey/classes/ezsurveysectionheader.php
+m modules/survey/classes/ezsurveytextentry.php
+m modules/survey/copy.php
+m modules/survey/edit.php
+m modules/survey/export.php
+m modules/survey/function_definition.php
+m modules/survey/list.php
+m modules/survey/module.php
+m modules/survey/preview.php
+m modules/survey/relatedobjectconfig.php
+m modules/survey/remove.php
+m modules/survey/result.php
+m modules/survey/result_edit.php
+m modules/survey/result_list.php
+m modules/survey/rremove.php
+m modules/survey/rview.php
+m modules/survey/view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/b8b58ca9db0f91c22c77a40492e4981eb15b7ad7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/51d73ac4c066c9512dd3d5b79f1cd96f1e41258b</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezsurvey/ezsurveytype.php
+m modules/survey/classes/ezsurveyrelatedobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from patrickallaert/EZP-19526
+
+Fixed EZP-19526: (tc-54)(eZ Survey) Adding a 'related object' attributa ...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/51d73ac4c066c9512dd3d5b79f1cd96f1e41258b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/9b37e13fde44ff9537a708e0ab2290e6b5c087f5</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezsurvey/ezsurveytype.php
+m modules/survey/classes/ezsurveyrelatedobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed EZP-19526: (tc-54)(eZ Survey) Adding a 'related object' attributa to a survey raises a fatal error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/9b37e13fde44ff9537a708e0ab2290e6b5c087f5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/6190b8076bb5508f9d5fd0691ce4552cdd7633f8</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezsurvey/ezsurveytype.php
+m modules/survey/action.php
+m modules/survey/classes/ezsurveyfeedbackfield.php
+m modules/survey/edit.php
+m modules/survey/list.php
+m modules/survey/preview.php
+m modules/survey/relatedobjectconfig.php
+m modules/survey/remove.php
+m modules/survey/result.php
+m modules/survey/result_edit.php
+m modules/survey/result_list.php
+m modules/survey/rview.php
+m modules/survey/view.php
+m modules/survey/wizard.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/6190b8076bb5508f9d5fd0691ce4552cdd7633f8</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/6fb8adc9623951782062b15e430e6fe54be21fd7</link>
+      <description>
+      &lt;pre&gt;m translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/6fb8adc9623951782062b15e430e6fe54be21fd7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/730a89b0ba3650766436cfe7d1a5fe532373a4e4</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/730a89b0ba3650766436cfe7d1a5fe532373a4e4</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/a00ae752791cac6a260059a65ee92b68c47503b9</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveyfeedbackfield.php
+m modules/survey/classes/ezsurveywizard.php
+m modules/survey/wizard.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed: copyright header&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/a00ae752791cac6a260059a65ee92b68c47503b9</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/643d6debfa3c2335fbd79e610e59df1308d8cb8b</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m bin/php/ezsqldumpsurveydata.php
+m datatypes/ezsurvey/ezsurveytype.php
+m extension.xml
+m ezinfo.php
+m modules/survey/action.php
+m modules/survey/classes/ezsurvey.php
+m modules/survey/classes/ezsurveyemailentry.php
+m modules/survey/classes/ezsurveyentry.php
+m modules/survey/classes/ezsurveyfeedbackfield.php
+m modules/survey/classes/ezsurveyformattedparagraph.php
+m modules/survey/classes/ezsurveymetadata.php
+m modules/survey/classes/ezsurveymultiplechoice.php
+m modules/survey/classes/ezsurveynumberentry.php
+m modules/survey/classes/ezsurveyoperators.php
+m modules/survey/classes/ezsurveyparagraph.php
+m modules/survey/classes/ezsurveyquestion.php
+m modules/survey/classes/ezsurveyquestionmetadata.php
+m modules/survey/classes/ezsurveyquestionresult.php
+m modules/survey/classes/ezsurveyquestions.php
+m modules/survey/classes/ezsurveyreceiver.php
+m modules/survey/classes/ezsurveyrelatedconfig.php
+m modules/survey/classes/ezsurveyrelatedobject.php
+m modules/survey/classes/ezsurveyresult.php
+m modules/survey/classes/ezsurveysectionheader.php
+m modules/survey/classes/ezsurveytextentry.php
+m modules/survey/classes/ezsurveywizard.php
+m modules/survey/copy.php
+m modules/survey/edit.php
+m modules/survey/export.php
+m modules/survey/function_definition.php
+m modules/survey/list.php
+m modules/survey/module.php
+m modules/survey/preview.php
+m modules/survey/relatedobjectconfig.php
+m modules/survey/remove.php
+m modules/survey/result.php
+m modules/survey/result_edit.php
+m modules/survey/result_list.php
+m modules/survey/rremove.php
+m modules/survey/rview.php
+m modules/survey/view.php
+m modules/survey/wizard.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/643d6debfa3c2335fbd79e610e59df1308d8cb8b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:44:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 106 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/106</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/106</guid>
+      <pubDate>Wed, 27 Oct 2010 14:15:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 105 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/105</link>
+      <description>- Fixed bug on re-editing multichoice fields.
+- Fixed bug with email template for multichoice.
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/105</guid>
+      <pubDate>Mon, 30 Aug 2010 10:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 104 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/104</link>
+      <description>- merging changes from Grenland Web</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/104</guid>
+      <pubDate>Tue, 24 Aug 2010 13:45:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 103 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/103</link>
+      <description>- Added translation to "All evaluations".
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/103</guid>
+      <pubDate>Thu, 05 Aug 2010 10:00:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 102 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/102</link>
+      <description>- Fixed sort definition of classes.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/102</guid>
+      <pubDate>Tue, 03 Aug 2010 13:15:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 101 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/101</link>
+      <description>- Added new survey branch with updates from Grenland Web.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/101</guid>
+      <pubDate>Mon, 02 Aug 2010 12:55:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 100 by Bjørn Reiten</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/100</link>
+      <description>- Added own branch for GW updates.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/100</guid>
+      <pubDate>Mon, 02 Aug 2010 12:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 99 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/99</link>
+      <description>- renamed the file containing the db tables definition to the standard db_schema.dba</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/99</guid>
+      <pubDate>Wed, 21 Apr 2010 13:55:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 98 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/98</link>
+      <description>- add release date to changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/98</guid>
+      <pubDate>Wed, 21 Apr 2010 13:50:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 96 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/96</link>
+      <description>- Fixed #16516: Oracle error when creating a survey object
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/96</guid>
+      <pubDate>Fri, 16 Apr 2010 15:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 97 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/97</link>
+      <description>- Corrected Oracle schema error: index name longer than 30
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/97</guid>
+      <pubDate>Fri, 16 Apr 2010 15:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 95 by Chen Xiongjie</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/95</link>
+      <description>- Made eZSurvey wizard work on PostgreSql and Oracle
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/95</guid>
+      <pubDate>Fri, 16 Apr 2010 15:05:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsurvey_ezp4 rev. 94 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/subversion/94</link>
+      <description>- Added fre-FR translation.
+
+# Many thanks Pascal Boyer
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/subversion/94</guid>
+      <pubDate>Fri, 02 Apr 2010 11:10:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezevent / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:12 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:12 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21792" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/aa08c3e6b173a7fbd6069d86fefa7ac6a0736c36</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezevent/ezeventtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed a fatal error when installing ezteamroom&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/aa08c3e6b173a7fbd6069d86fefa7ac6a0736c36</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/10466336a44d12ec08e3b4446f4e245856b417f9</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezevent.js
+m design/standard/templates/content/datatype/edit/ezevent.tpl
+m modules/ezajax/module.php
++ modules/ezajax/node.php
+m modules/ezajax/subtree.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bugfixes aus dem Verbandsportal übernommen.
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@115 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/10466336a44d12ec08e3b4446f4e245856b417f9</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/75107b2435f32ee055a7a2547c2ee2467a547274</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/content/datatype/edit/ezevent.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Änderungen aus dem Verbandsportal übernommen.
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@110 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/75107b2435f32ee055a7a2547c2ee2467a547274</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/b39d7e961fffdbf851ddfa0033eebfa829b6375e</link>
+      <description>
+      &lt;pre&gt;m classes/ezevent.php
+m classes/ezicalevent.php
+m classes/json_content.php
+m datatypes/ezevent/ezeventtype.php
+m eventtypes/event/ezeventcheckpermission/ezeventcheckpermissiontype.php
+m eventtypes/event/updateevents/updateeventstype.php
+m ezinfo.php
+m modules/event/edit.php
+m modules/event/ezeventfunctioncollection.php
+m modules/event/forward.php
+m modules/event/function_definition.php
+m modules/event/ical.php
+m modules/event/module.php
+m modules/ezajax/module.php
+m modules/ezajax/search.php
+m modules/ezajax/subtree.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/b39d7e961fffdbf851ddfa0033eebfa829b6375e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/738e79e501fa5e64cbd3a0b2550615126103e88e</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from emodric/cro_HR
+
+Add Croatian translation - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/738e79e501fa5e64cbd3a0b2550615126103e88e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/b71f3d0fed1ac7a21f70722ae312870a8582c26d</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/b71f3d0fed1ac7a21f70722ae312870a8582c26d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/5995428754419ea9b751fbbef83e368745c0b863</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/content/datatype/edit/ezevent.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- FIX: js keeps enddate when changing mode
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@251 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/5995428754419ea9b751fbbef83e368745c0b863</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/4a9da1f565fd6e1eea6cb7330b24be5e70f68243</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezevent/ezeventtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- FIX: event validation: enddate can be before startdate
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@249 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/4a9da1f565fd6e1eea6cb7330b24be5e70f68243</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/631fe5f2b3531de97665136a024983a421320185</link>
+      <description>
+      &lt;pre&gt;m classes/ezevent.php
+m datatypes/ezevent/ezeventtype.php
+m design/standard/javascript/ezevent.js
+m design/standard/stylesheets/ezevent.css
+m design/standard/templates/content/datatype/edit/ezevent.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- FIX #777: ezevent: switch beetween repeat date and multiple days
+- FIX #764: ezevent: events without enddate not possible (normal and repeat)
+
+
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@242 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/631fe5f2b3531de97665136a024983a421320185</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/cc938f17629ec6b8050374130c15ecfc38ecb3da</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezevent.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- FIX: PHP variable $if_cond2['description'] does not exist, cannot fetch the value.
+- FIX #751: Event: cannot assign Users to an event
+
+
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@216 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/cc938f17629ec6b8050374130c15ecfc38ecb3da</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/07ebeb0e8d078dc5d0f65d874e786e2e42dac05a</link>
+      <description>
+      &lt;pre&gt;m classes/ezevent.php
+m classes/ezicalevent.php
+m datatypes/ezevent/ezeventtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;create event mode
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@152 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/07ebeb0e8d078dc5d0f65d874e786e2e42dac05a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/b82ca1c1b469ac1bee1aa0b256cdf8d10f4f3f20</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezevent.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Debug Ausgabe entfernt
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@116 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/b82ca1c1b469ac1bee1aa0b256cdf8d10f4f3f20</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/19053bbc1616f74ea758ba5481d041b83f7deb98</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Traductioin FR&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/19053bbc1616f74ea758ba5481d041b83f7deb98</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/efb085ecbe4b7fcc763d45a292c2d89c7dde7ad5</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/efb085ecbe4b7fcc763d45a292c2d89c7dde7ad5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/fa58a99136a1757e9417a31fee3120813b7a62d0</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed version number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/fa58a99136a1757e9417a31fee3120813b7a62d0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/96a71e0c8af2cda2ffbf24473bb88c08bf5a961b</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- update ezinfo to 1.4
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@315 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/96a71e0c8af2cda2ffbf24473bb88c08bf5a961b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/b3204a52f3ea8fd07aa77fc2c730c26f6eca669d</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/content/datatype/edit/ezevent.tpl
+m translations/fre-FR/translation.ts
+m translations/ger-DE/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- update translation
+
+git-svn-id: http://svn.ezservice.de/svn/circit/Extensions/ezevent/trunk@285 b055900d-e7fb-4479-9051-199c62356f13&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/b3204a52f3ea8fd07aa77fc2c730c26f6eca669d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/2509b4024b9cfa64bcb588c0598df21f9457ef3d</link>
+      <description>
+      &lt;pre&gt;m classes/ezevent.php
+m classes/ezicalevent.php
+m classes/json_content.php
+m datatypes/ezevent/ezeventtype.php
+m eventtypes/event/ezeventcheckpermission/ezeventcheckpermissiontype.php
+m eventtypes/event/updateevents/updateeventstype.php
+m extension.xml
+m ezinfo.php
+m modules/event/edit.php
+m modules/event/ezeventfunctioncollection.php
+m modules/event/forward.php
+m modules/event/function_definition.php
+m modules/event/ical.php
+m modules/event/module.php
+m modules/ezajax/module.php
+m modules/ezajax/search.php
+m modules/ezajax/subtree.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/2509b4024b9cfa64bcb588c0598df21f9457ef3d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/e26ad3e2d164fd0515b4a1c8931b981afd07e657</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/e26ad3e2d164fd0515b4a1c8931b981afd07e657</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezevent/subversion/bc865bbd6603aa3c8cb1aa703ce1364ec5780c26</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from npanau/47transFR
+
+Traduction FR - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/bc865bbd6603aa3c8cb1aa703ce1364ec5780c26</guid>
+      <pubDate>Tue, 12 Feb 2013 12:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 18 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezevent/subversion/18</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/18</guid>
+      <pubDate>Wed, 27 Oct 2010 13:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 17 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezevent/subversion/17</link>
+      <description>- Removed date pickers, the one from standard design in ezp will be used
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/17</guid>
+      <pubDate>Fri, 24 Sep 2010 09:50:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 16 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/ezevent/subversion/16</link>
+      <description>An experimental branch with extended functionality</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/16</guid>
+      <pubDate>Thu, 09 Sep 2010 07:45:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 15 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/15</link>
+      <description>- Fixed argument ordering mismatch in fromString method of eZEventType</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/15</guid>
+      <pubDate>Wed, 08 Sep 2010 15:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 14 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/14</link>
+      <description>- Fixed tinyint type</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/14</guid>
+      <pubDate>Thu, 25 Mar 2010 09:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 13 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/13</link>
+      <description>- Added schema.db</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/13</guid>
+      <pubDate>Thu, 25 Mar 2010 09:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 12 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/12</link>
+      <description>- preparing final builds</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/12</guid>
+      <pubDate>Wed, 24 Mar 2010 16:35:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 11 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/11</link>
+      <description>- Updated copyright notice with current year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/11</guid>
+      <pubDate>Wed, 24 Mar 2010 10:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 10 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezevent/subversion/10</link>
+      <description>- Merged: with commercial repository -r {2009-12-21}:55302</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/10</guid>
+      <pubDate>Mon, 08 Mar 2010 10:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 9 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezevent/subversion/9</link>
+      <description>- Fixed bug #016134: ezevent has a db schema which is not supported by our schema classes
+# adding required extra newlines at end of schema</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/9</guid>
+      <pubDate>Mon, 08 Mar 2010 09:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 7 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/7</link>
+      <description>- Updated MySQL schema</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/7</guid>
+      <pubDate>Mon, 01 Mar 2010 14:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 8 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/8</link>
+      <description>- Added Postgresql schema</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/8</guid>
+      <pubDate>Mon, 01 Mar 2010 14:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 6 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezevent/subversion/6</link>
+      <description>- Renamed schema file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/6</guid>
+      <pubDate>Mon, 01 Mar 2010 14:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 5 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/5</link>
+      <description>- ensure compatibility with new i18n in ez publish 4.3</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/5</guid>
+      <pubDate>Mon, 22 Feb 2010 13:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 4 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/4</link>
+      <description>- preparing beta1 build</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/4</guid>
+      <pubDate>Fri, 19 Feb 2010 09:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 3 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/3</link>
+      <description>- corrected qa requirements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/3</guid>
+      <pubDate>Mon, 08 Feb 2010 22:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 2 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/2</link>
+      <description>- adding ant config</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/2</guid>
+      <pubDate>Mon, 08 Feb 2010 21:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezevent rev. 1 by Paul Borgermans</title>
+      <link>http://projects.ez.no/ezevent/subversion/1</link>
+      <description>- initial upload of ezevent extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezevent/subversion/1</guid>
+      <pubDate>Mon, 21 Dec 2009 14:35:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

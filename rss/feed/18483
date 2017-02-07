@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpdfviewer / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18483" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Issues with swftools-0.8.1.</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/issues_with_swftools_0_8_1</link>
+      <description>I just found out that the flash files generated with swftools-0.8.1(included with the redhad 5) don't include the navigation buttons as it does with swftools-0.9.0.&#13;
+I had to make a fix for a client. If anybody needs it, let me know....&#13;
+&#13;
+Best regards, &#13;
+&#13;
+Jey</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/issues_with_swftools_0_8_1</guid>
+      <pubDate>Thu, 20 Aug 2009 11:24:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome3</link>
+      <description>Well, does one very specific use case count!?&#13;
+&#13;
+I have a client who wants to have scaled down image previews of pdf newsletters we generate with paradoxpdf. I was going to try ghostscript/imagemagick but might have a look at this instead when I have time.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome3</guid>
+      <pubDate>Mon, 10 Aug 2009 16:14:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome2</link>
+      <description>Hi, &#13;
+I have been thinking about it but was not able to figure out if it would be usefull ...&#13;
+&#13;
+But it would really be funny !&#13;
+&#13;
+You could have a shop site -&gt; generate the pdf of all products (via paradox) and -&gt;generate a flash version of it (via ezpdfviewer) ...&#13;
+&#13;
+If somebody can think of a way it could be usefull just let me know !!&#13;
+&#13;
+Jey&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome2</guid>
+      <pubDate>Mon, 10 Aug 2009 15:54:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome</link>
+      <description>Hi,&#13;
+&#13;
+Looks good, will check it out.&#13;
+&#13;
+I wonder if it could be extended to work in conjunction with the paradoxpdf extension to create swfs of any content?...</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome/re_any_suggestions_welcome</guid>
+      <pubDate>Mon, 10 Aug 2009 15:44:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Any suggestions welcome !</title>
+      <link>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome</link>
+      <description>Feel free to make any suggestions !</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/forum/general/any_suggestions_welcome</guid>
+      <pubDate>Sun, 09 Aug 2009 20:08:01 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

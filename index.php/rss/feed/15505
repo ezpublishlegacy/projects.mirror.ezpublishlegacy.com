@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / paradoxpdf / Forum / Issues</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:03:16 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:03:16 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15505" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Paradoxpdf and 'svg' image format</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format3</link>
+      <description>Hello Elena,&#13;
+&#13;
+My time is limited and I've not worked with this extension before but ..&#13;
+&#13;
+If you take the time to write out detailed step by step instructions on how I can reproduce this error your getting from installation of extension to getting the error then I will try to reproduce it myself and find the true cause of the error.&#13;
+&#13;
+Then I should be able to make good recommendations on how we can go about implementing support for svg or at least which part of the solutions software needs this support.&#13;
+&#13;
+What do you think?&#13;
+&#13;
+UPDATE: I did some searching on this topic and it seems that you are not alone. Many people are having trouble with the underlying library (flying saucer) having less than great svg support build in:&#13;
+&#13;
+https://www.google.com/webhp?sourceid=chrome-instant</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format3</guid>
+      <pubDate>Tue, 04 Nov 2014 10:23:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Paradoxpdf and 'svg' image format</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format2</link>
+      <description>Hi, and thanks for the reply!&#13;
+&#13;
+Yes this is a possible workaround which I already applied, but I just need to know if such option exists( or could be implemented ), because '.svg' image format popularity and usage is growing up these days...&#13;
+&#13;
+Greetings, Eli </description>
+      <author>community@ez.no (Elena Stoycheva)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format2</guid>
+      <pubDate>Tue, 04 Nov 2014 08:54:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Paradoxpdf and 'svg' image format</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format</link>
+      <description>Hello Elena,&#13;
+&#13;
+Apologies for my late reply.&#13;
+&#13;
+I know that some applications / solutions do not support svg image format. I don't know this extension's internals well enough to know the exact nature of the problem but ...&#13;
+&#13;
+My one suggestion would be to save your svg image as a png and use the png version of the image instead as a way to get around this error message / problem.&#13;
+&#13;
+I hope this helps...&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format/re_paradoxpdf_and_svg_image_format</guid>
+      <pubDate>Sat, 01 Nov 2014 06:22:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paradoxpdf and 'svg' image format</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format</link>
+      <description>Hi, there!&#13;
+&#13;
+Congratulations for the great extension and the useful packed functionality. Sorry, but now I've got an issue here. I need to show an image of '.svg' format in my pdfs. Unfortunately, in paradoxpdf debug log I'm receiving a message that this image format is not recognized. I suppose this specific image type is not supported yet, or? I've tried to apply the image directly through the &lt;img /&gt; tag and as a background image through a css style but both methods were unsuccessful. Any suggestions?&#13;
+&#13;
+Thanks in advance!&#13;
+&#13;
+Greatings, Eli</description>
+      <author>community@ez.no (Elena Stoycheva)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format</guid>
+      <pubDate>Mon, 27 Oct 2014 15:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge12</link>
+      <description>Use any third party PDF file repair tool to repair and recover inaccessible PDF file from your computer and fix any type of malware. The tool sport with all version of Windows OS and Adobe PDF reader. &#13;
+&#13;
+Visit this blog and follow the Steps : http://datarecoverysoftware.over-blog.com/article-rectify-pdf-related-issues-61018934.html&#13;
+</description>
+      <author>community@ez.no (Bert Leen)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge12</guid>
+      <pubDate>Mon, 30 Dec 2013 10:52:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https12</link>
+      <description>OK, thanks. Your last code also works.</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https12</guid>
+      <pubDate>Mon, 22 Apr 2013 14:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https11</link>
+      <description>have you tried my last code ?&#13;
+it's not an issue, but the pdf may be cached in any reverse proxy or in search engines caches ...(google)</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https11</guid>
+      <pubDate>Mon, 22 Apr 2013 14:47:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https10</link>
+      <description>if I use &lt;code&gt;header("Pragma: public");&lt;/code&gt; in the standard version 2.2 it works. Is this a security problem?&#13;
+</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https10</guid>
+      <pubDate>Mon, 22 Apr 2013 14:38:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https9</link>
+      <description>Ok thanks for your feed back, it appears that settings any cache related header causes problems. eZ Publish has fixed this problem on content/download view.&#13;
+&#13;
+It shoud work with this&#13;
+&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+    public function flushPDF($data, $pdf_file_name = 'file', $size, $mtime= false, $expiry = false)&#13;
+    {&#13;
+&#13;
+        // sanitize pdf_file_name to prevent file donwload injection attacks&#13;
+        $pdf_file_name = self::sanitize($pdf_file_name);&#13;
+&#13;
+        ob_clean();&#13;
+&#13;
+        header('X-Powered-By: eZ Publish - ParadoxPDF');&#13;
+        // Fixes problems with IE when opening a file directly&#13;
+        header( "Pragma: " );&#13;
+        header( "Cache-Control: " );&#13;
+        // Last-Modified header cannot be set, otherwise browser like FF will fail while resuming a paused download&#13;
+        // because it compares the value of Last-Modified headers between requests.&#13;
+        header( "Last-Modified: " );&#13;
+        /* Set cache time out to 10 minutes, this should be good enough to work  around an IE bug */&#13;
+        header( "Expires: ". gmdate( 'D, d M Y H:i:s', time() + 600 ) . ' GMT' );&#13;
+        header('Content-Type: application/pdf');&#13;
+        header('Content-Disposition: attachment; filename="' . $pdf_file_name . '"');&#13;
+        header('Content-Length: ' . $size);&#13;
+        header( 'Content-Transfer-Encoding: binary' );&#13;
+        header( 'Accept-Ranges: bytes' );&#13;
+&#13;
+        ob_end_clean();&#13;
+&#13;
+        echo $data;&#13;
+&#13;
+        eZExecution::cleanExit();&#13;
+    }&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https9</guid>
+      <pubDate>Mon, 22 Apr 2013 14:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https8</link>
+      <description>does not work...&#13;
+i´ve been tested both posted functions and I´m using version 2.2.&#13;
+original:&#13;
+&lt;code&gt;&#13;
+public function flushPDF($data, $pdf_file_name = 'file', $size, $mtime, $expiry)&#13;
+    {&#13;
+&#13;
+        //Fixing https issues by forcing file download&#13;
+        $contentType = 'application/octet-stream';&#13;
+        $userAgent = eZSys::serverVariable('HTTP_USER_AGENT');&#13;
+&#13;
+        if (preg_match('%Opera(/| )([0-9].[0-9]{1,2})%', $userAgent)) {&#13;
+            $contentType = 'application/octetstream';&#13;
+        } elseif (preg_match('/MSIE ([0-9].[0-9]{1,2})/', $userAgent)) {&#13;
+            $contentType = 'application/force-download';&#13;
+&#13;
+        }&#13;
+&#13;
+        // sanitize pdf_file_name to prevent file donwload injection attacks&#13;
+        $pdf_file_name = self::sanitize($pdf_file_name);&#13;
+&#13;
+        ob_clean();&#13;
+&#13;
+        header('X-Powered-By: eZ Publish - ParadoxPDF');&#13;
+        header('Content-Type: ' . $contentType);&#13;
+        header('Expires: Sat, 03 Jan 1970 00:00:00 GMT');&#13;
+        header('Cache-Control: private');&#13;
+        header('Pragma: private', false);&#13;
+        header('Content-Disposition: attachment; filename="' . $pdf_file_name . '.pdf"');&#13;
+        header('Content-Length: ' . $size);&#13;
+        header('Content-Transfer-Encoding: binary');&#13;
+        header('Accept-Ranges: bytes');&#13;
+        header('Connection: close');&#13;
+&#13;
+        ob_end_clean();&#13;
+&#13;
+        echo $data;&#13;
+&#13;
+        eZExecution::cleanExit();&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https8</guid>
+      <pubDate>Mon, 22 Apr 2013 14:17:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https7</link>
+      <description>Sorry, i forgot the most important header&#13;
+&#13;
+&lt;code&gt;&#13;
+    public function flushPDF($data, $pdf_file_name = 'file', $size, $mtime= false, $expiry = false)&#13;
+    {&#13;
+&#13;
+        // sanitize pdf_file_name to prevent file donwload injection attacks&#13;
+        $pdf_file_name = self::sanitize($pdf_file_name);&#13;
+&#13;
+        ob_clean();&#13;
+&#13;
+        header('X-Powered-By: eZ Publish - ParadoxPDF');&#13;
+        header('Content-Type: application/pdf');&#13;
+        header('Cache-Control: no-store, max-age=0, must-revalidate');        &#13;
+        header('Content-Disposition: attachment; filename="' . $pdf_file_name . '"');&#13;
+        /* Set cache time out to 10 seconds, this should be good enough to work around an IE bug */&#13;
+        header( "Expires: ". gmdate( 'D, d M Y H:i:s', time() + 10 ) . ' GMT' );&#13;
+        header('Content-Length: ' . $size);&#13;
+        header( 'Content-Transfer-Encoding: binary' );&#13;
+        header( 'Accept-Ranges: bytes' );&#13;
+&#13;
+        ob_end_clean();&#13;
+&#13;
+        echo $data;&#13;
+&#13;
+        eZExecution::cleanExit();&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Or Last chance&#13;
+&#13;
+&lt;code&gt;&#13;
+public function flushPDF($data, $pdf_file_name = 'file', $size, $mtime= false, $expiry = false)&#13;
+    {&#13;
+&#13;
+        // sanitize pdf_file_name to prevent file donwload injection attacks&#13;
+        $pdf_file_name = self::sanitize($pdf_file_name);&#13;
+&#13;
+        ob_clean();&#13;
+&#13;
+        header('X-Powered-By: eZ Publish - ParadoxPDF');&#13;
+        /* Set cache time out to 10 seconds, this should be good enough to work around an IE bug */&#13;
+        header('Cache-Control: private, max-age=10, must-revalidate');&#13;
+        header('Content-Type: application/pdf');&#13;
+        header('Content-Disposition: attachment; filename="' . $pdf_file_name . '"');&#13;
+        header('Content-Length: ' . $size);&#13;
+        header( 'Content-Transfer-Encoding: binary' );&#13;
+        header( 'Accept-Ranges: bytes' );&#13;
+&#13;
+        ob_end_clean();&#13;
+&#13;
+        echo $data;&#13;
+&#13;
+        eZExecution::cleanExit();&#13;
+    }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https7</guid>
+      <pubDate>Mon, 22 Apr 2013 14:05:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https6</link>
+      <description>Unfortunately, no change...</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https6</guid>
+      <pubDate>Mon, 22 Apr 2013 13:48:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https5</link>
+      <description>Hi Marius&#13;
+&#13;
+Could you please replace th flush method with  folowing, and tell me if this fix the issue ?&#13;
+&#13;
+&lt;code&gt;&#13;
+    public function flushPDF($data, $pdf_file_name = 'file', $size, $mtime= false, $expiry = false)&#13;
+    {&#13;
+&#13;
+        // sanitize pdf_file_name to prevent file donwload injection attacks&#13;
+        $pdf_file_name = self::sanitize($pdf_file_name);&#13;
+&#13;
+        ob_clean();&#13;
+&#13;
+        header('X-Powered-By: eZ Publish - ParadoxPDF');&#13;
+        header('Content-Type: application/pdf');&#13;
+        header('Cache-Control: no-store,max-age=0,must-revalidate');&#13;
+        header('Content-Disposition: attachment; filename="' . $pdf_file_name . '.pdf"');&#13;
+        header('Content-Length: ' . $size);&#13;
+        header( 'Content-Transfer-Encoding: binary' );&#13;
+        header( 'Accept-Ranges: bytes' );&#13;
+&#13;
+        ob_end_clean();&#13;
+&#13;
+        echo $data;&#13;
+&#13;
+        eZExecution::cleanExit();&#13;
+    }&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https5</guid>
+      <pubDate>Fri, 19 Apr 2013 14:39:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https4</link>
+      <description>I´ve the same problem in IE7 over https.</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https4</guid>
+      <pubDate>Fri, 19 Apr 2013 13:12:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: no css and images loaded</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded/re_no_css_and_images_loaded2</link>
+      <description>Thanks for your reply Steven, but I´ve already sovled it by my self. That was exactly the problem you´ve been described.&#13;
+&#13;
+Great work Mohamed! It works realy fine!!!&#13;
+&#13;
+Best &#13;
+Marius</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded/re_no_css_and_images_loaded2</guid>
+      <pubDate>Fri, 19 Apr 2013 12:41:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: no css and images loaded</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded/re_no_css_and_images_loaded</link>
+      <description>Hellos Marius, &#13;
+&#13;
+I recently had a smiliar problem using pardoxpdf with an SSL certificate on one of my ez websites.&#13;
+I had to add the SSL certificate as trusted in the java keystore of my webserver to get the css and images working agin.&#13;
+You can find a a lot of articles on the web explaining how to that, but I think it would be a good idea to add some details about this particular configuration in paradoxpdf documentation, even if it's actually not directly related to paradoxpdf, but rather to flyingsaucer and java.</description>
+      <author>community@ez.no (Steven Bressey)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded/re_no_css_and_images_loaded</guid>
+      <pubDate>Fri, 19 Apr 2013 09:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>no css and images loaded</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded</link>
+      <description>Hi,&#13;
+&#13;
+I´ve the problem, that my css and my images didn´t loaded. I´m using a green Certificate (VeriSign, Inc.) and the server is behind a nginx.&#13;
+&#13;
+Link zu my CSS: &#13;
+&lt;code&gt;&lt;link rel="stylesheet" type="text/css" href="https://{ezsys('hostname')}{"stylesheets/print-core.css"|ezdesign(no)}" media="print,screen"&gt;&lt;/link&gt;&lt;/code&gt;&#13;
+&#13;
+But I didn´t get any error´s: &#13;
+&lt;code&gt;ParadoxPDF : PDF conversion successful: /usr/bin/java -Djava.awt.headless=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/xxx/paradoxpdf/5f65b32cfe2613dc4f24519d01d8b1e1.xhtml var/xxx/paradoxpdf/5f65b32cfe2613dc4f24519d01d8b1e1.pdf  2&gt;</description>
+      <author>community@ez.no (Marius Kuntke)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/no_css_and_images_loaded</guid>
+      <pubDate>Wed, 17 Apr 2013 18:37:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge11</link>
+      <description>Thanks all, i have updated source code with fixes.</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge11</guid>
+      <pubDate>Sat, 02 Mar 2013 18:46:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge10</link>
+      <description>Hello Mohamed&#13;
+Great extension.&#13;
+&#13;
+I have the same problem, the solution of Franck Grenier & Thierry Clément works for me !
+It's a bug in the handler of eZClusterFile.
+
+This extension works fine ;)</description>
+      <author>community@ez.no (Arnaud Chasseux)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge10</guid>
+      <pubDate>Sun, 24 Feb 2013 22:38:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using bootstrap.css crashes PDF generation</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/using_bootstrap_css_crashes_pdf_generation</link>
+      <description>Hi there,&#13;
+&#13;
+as soon as I'm using linking to the bootstrap.css , that is used with the new ezdemo design, the PDF generation crashes.&#13;
+&#13;
+I try to load the same CSS Configuration as with the "web view" to have a PDF file, that looks very much as "on screen".&#13;
+&#13;
+If i skip bootstrap.css, the display of e.g. image gallery blocks and blockquotes are messed up.&#13;
+&#13;
+This is what's logged:&#13;
+&lt;code&gt;&#13;
+Exception in thread "main" java.lang.ClassCastException: org.xhtmlrenderer.render.BlockBox cannot be cast to org.xhtmlrenderer.newtable.TableBox&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:127)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:139)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:139)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:139)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:139)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:139)&#13;
+	at org.xhtmlrenderer.layout.BoxCollector.collect(BoxCollector.java:46)&#13;
+	at org.xhtmlrenderer.layout.Layer.paint(Layer.java:314)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.paintPage(ITextRenderer.java:384)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.writePDF(ITextRenderer.java:348)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.createPDF(ITextRenderer.java:315)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.createPDF(ITextRenderer.java:246)&#13;
+	at com.tricinty.ParadoxPDF.export(ParadoxPDF.java:123)&#13;
+	at com.tricinty.ParadoxPDF.main(ParadoxPDF.java:59)&#13;
+&lt;/code&gt;&#13;
+&#13;
+The error seems to be in flying-saucer and seems to fixed with a 1 line bugfix:&#13;
+http://code.google.com/p/flying-saucer/issues/detail?id=144&#13;
+https://github.com/philcali/flyingsaucer/commit/e653850a67b06a08364030a51e5ae4a855213016&#13;
+&#13;
+Can you provide a new jar file with the fixed flying saucer "engine" and with the bug fixed?&#13;
+&#13;
+Thanks a lot!&#13;
+&#13;
+Marco&#13;
+</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/using_bootstrap_css_crashes_pdf_generation</guid>
+      <pubDate>Sun, 20 Jan 2013 18:10:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Java error: Path cannot be found/Le chemin...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/java_error_path_cannot_be_found_le_chemin_d_acces_spe/re_java_error_path_cannot_be_found_le_chemin</link>
+      <description>Ok, i found sort of a "fix", thanks to my own help -_-' *sorry about the bitterness*&#13;
+&#13;
+Line 6 of the paradoxpdf.ini, the setting JavaExecutable has a default path. Quiet oddly, it stopped working on my machine. So i just put the full path to the executable and the magic did the rest.&#13;
+&#13;
+Unfortunately, i'm afraid it's not good enough for staging / production environment, so i'll have to deal with that specific matter with someone more qualified than me where i work. But at least, it's the most decent trail i got since dealing with that issue. I'll post more if there's anything usable for you guys in the future.&#13;
+&#13;
+A last note : make sure your xhtml's fully compliant and validated. If not, you might crash the extension.</description>
+      <author>community@ez.no (Thomas Seillan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/java_error_path_cannot_be_found_le_chemin_d_acces_spe/re_java_error_path_cannot_be_found_le_chemin</guid>
+      <pubDate>Fri, 02 Mar 2012 16:08:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java error: Path cannot be found/Le chemin d'accès spé...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/java_error_path_cannot_be_found_le_chemin_d_acces_spe</link>
+      <description>Hello,&#13;
+&#13;
+I'm having issues using paradoxpdf.&#13;
+&#13;
+The xhtml file is properly generated without any mistakes (full w3c validation) yet no pdf can be created.&#13;
+&#13;
+The paradoxpdf.log prints this out:&#13;
+&#13;
+[ Feb 28 2012 11:04:39 ] Failed executing command : /usr/local/java/bin/java -Djava.awt.headless=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/ezflow_site/paradoxpdf/9fef0f621a2317a8e0f3f61b48552fc9.xhtml var/ezflow_site/paradoxpdf/9fef0f621a2317a8e0f3f61b48552fc9.pdf  2&gt;</description>
+      <author>community@ez.no (Thomas Seillan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/java_error_path_cannot_be_found_le_chemin_d_acces_spe</guid>
+      <pubDate>Tue, 28 Feb 2012 10:29:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ParadoxPDF and HTML5</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_html5</link>
+      <description>Hello,&#13;
+&#13;
+It's seems ParadoxPDF is not compatible with HTML5.&#13;
+&#13;
+I got this kind of error :&#13;
+&lt;code&gt;&#13;
+Exception in thread "main" org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 37; columnNumber: 211; The element type "img" must be terminated by the matching end-tag "&lt;/img&gt;"&#13;
+&lt;/code&gt;&#13;
+&#13;
+or&#13;
+&lt;code&gt;&#13;
+Exception in thread "main" org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException; lineNumber: 45; columnNumber: 9; The end-tag for element type "th" must end with a '&gt;' delimiter.&#13;
+&lt;/code&gt;&#13;
+&#13;
+Could you confirm I can't use ParadoxPDF in my case ?&#13;
+&#13;
+Thanks&#13;
+&#13;
+Guillaume</description>
+      <author>community@ez.no (Guillaume Bourreau)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_html5</guid>
+      <pubDate>Thu, 12 Jan 2012 17:22:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't export article class, class folder is working</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/can_t_export_article_class_class_folder_is_working</link>
+      <description>Hi there,&#13;
+&#13;
+thanks for this great extension. It works great on folder class, but when i want to export some other class, it show blank screen. &#13;
+I'm using eZ 4.4 with java version "1.6.0_24"&#13;
+&#13;
+In var/log/paradoxpdf.log i have this&#13;
+&lt;code&gt;&#13;
+[ Apr 06 2011 12:34:04 ] Failed executing command : /usr/bin/java -Djava.awt.headless=true -Dxr.util-logging.loggingEnabled=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/plain_site/paradoxpdf/de6c45cc4bd4b814f93d39246c0a40ed.xhtml var/plain_site/paradoxpdf/de6c45cc4bd4b814f93d39246c0a40ed.pdf  2&gt;</description>
+      <author>community@ez.no (Branislav Jeremic)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/can_t_export_article_class_class_folder_is_working</guid>
+      <pubDate>Wed, 06 Apr 2011 10:37:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge9</link>
+      <description>Hello,&#13;
+indeed, paradoxpdf.php is bugged on line 117 : &#13;
+&lt;code&gt;&#13;
+$size  = $handler-&gt;size();&#13;
+$mtime = $handler-&gt;mtime();&#13;
+&lt;/code&gt;&#13;
+&#13;
+If cache is empty $handler-&gt;size() and $handler-&gt;mtime() are null. If cache is already created, it's ok, the handler gets all information.&#13;
+&#13;
+Here is my fix because the previous from Thierry Clément does not get the right size when cache is already created :&#13;
+&#13;
+&lt;code&gt;&#13;
+// if no cache&#13;
+if ($data instanceof eZClusterFileFailure || $handler-&gt;size () == 0) {&#13;
+    $data = $this-&gt;generatePDF ( $xhtml );&#13;
+				&#13;
+    // check if error occurred during pdf generation&#13;
+    if ($data === false) {&#13;
+        return;&#13;
+    }&#13;
+&#13;
+    $handler-&gt;storeCache ( array ('scope' =&gt; 'template-block', 'binarydata' =&gt; $data ) );&#13;
+    $size = strlen ( $data );&#13;
+}&#13;
+// if cache&#13;
+else {&#13;
+    $size = $handler-&gt;size();&#13;
+}&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge9</guid>
+      <pubDate>Wed, 26 Jan 2011 16:17:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not enough memory?</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/not_enough_memory</link>
+      <description>Thank u very much Karnichi Mohamed, it's a great extension!&#13;
+&#13;
+I  had problems at the beginning to get it work because it did not have enough memory...&#13;
+I solved this with adding -Xmx128m to the shell command (line 173) in paradoxpdf.php class.&#13;
+&#13;
+hope it will help anybody.&#13;
+&#13;
+&#13;
+&#13;
+best regards&#13;
+scrieler</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/not_enough_memory</guid>
+      <pubDate>Mon, 06 Dec 2010 08:10:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Css width over 800px doesn't fit in PDF page</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/css_width_over_800px_doesn_t_fit_in_pdf_page</link>
+      <description>Hi, &#13;
+&#13;
+I am currently working with your extension (which, by the way, is really great and very useful !) on a new website.&#13;
+I would like to use the same css and template for the pdf and a preview page on the website.&#13;
+In my css, I have the following code : &#13;
+&lt;code&gt;&#13;
+@page {&#13;
+    size: a4 portrait;&#13;
+    margin: 0px;&#13;
+}&#13;
+&#13;
+#container {&#13;
+	width: 980px;&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+In the template, I use a &lt;div id="container"&gt; which contains all the html elements of the page.&#13;
+When I preview the page in my browser it works great, but in the PDF some elements on the right are cropped. &#13;
+The only way to have all the elements to fit into the PDF page is to change the width of my container div down to 800px.&#13;
+&#13;
+I don't understand why the renderer can't make any width pixel value fit into the page, as a PDF should'nt worry about a pixel width normally.&#13;
+&#13;
+Am I missing something here ?&#13;
+Do you have any solution in order to have a page width larger than 800px and not having my elements cropped in the PDF ?&#13;
+&#13;
+Thank you for your answer.</description>
+      <author>community@ez.no (Steven Bressey)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/css_width_over_800px_doesn_t_fit_in_pdf_page</guid>
+      <pubDate>Fri, 26 Nov 2010 14:55:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extending your extension is hard</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/extending_your_extension_is_hard</link>
+      <description>Hello Mohammed,&#13;
+I'm using your extension, and it works really great!&#13;
+Nevertheless, I needed some extra features: get the pdf filesize and save generated pdfs in a folder. Since your extension seemed a good basis to me, I decided to write my own extension and to extend your classes in it, and I had many problems with the ParadoxPDF class.&#13;
+Consider the following piece of code :&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+class A&#13;
+{&#13;
+	private $a;&#13;
+	public function __construct()&#13;
+	{&#13;
+		$this-&gt;a = "foo\n";&#13;
+	}&#13;
+	&#13;
+	public function test()&#13;
+	{&#13;
+		echo $this-&gt;a;&#13;
+	}&#13;
+}&#13;
+class B extends A&#13;
+{&#13;
+	private $a;//was not inherited&#13;
+&#13;
+	public function __construct()&#13;
+	{&#13;
+		parent::__construct();&#13;
+		$this-&gt;a = "bar\n";&#13;
+	}&#13;
+}&#13;
+$b = new B();&#13;
+$b-&gt;test();&#13;
+var_dump($b);&#13;
+&lt;/code&gt;&#13;
+The output of this code is:&#13;
+&lt;code&gt;&#13;
+&gt; php test.php &#13;
+foo&#13;
+object(B)#1 (2) {&#13;
+  ["a":"B":private]=&gt;&#13;
+  string(4) "bar&#13;
+"&#13;
+  ["a":"A":private]=&gt;&#13;
+  string(4) "foo&#13;
+"&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+As you can see, $b seems to have two distinct private members 'a' : one to be used in methods inherited from A, the other to be used in methods written in B.&#13;
+&#13;
+This means that if I want to get the same behaviour in my class as in ParadoxPDF:&#13;
+* I have to copy/paste private methods&#13;
+* I have to copy/paste private members&#13;
+* I have to copy/paste every method which makes use of a private member.&#13;
+&#13;
+A good solution would be to replace every occurence of 'private' with 'protected' in your code.&#13;
+&#13;
+Regards,&#13;
+greg0ire </description>
+      <author>community@ez.no (Grégoire Paris)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/extending_your_extension_is_hard</guid>
+      <pubDate>Tue, 05 Oct 2010 08:13:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge8</link>
+      <description>Hello,&#13;
+&#13;
+I am a new user of the "paradoxPDF" extension and I experienced the same pb. as described :&#13;
+In my case, the generation was working OK with PDFCache=disabled ; and - if set to "enabled", the first invocation of PDF generator would always provide an error like "format error : not a PDF or corrupted" in the browser&#13;
+In fact, a good PDF file is generated in the var/sitename/log directory.&#13;
+&#13;
+I think I found the cause of the problem, which still remains in 2.1.5 version of paradoxPDF :&#13;
+in classes/paradoxpdf.php, the computed size of the document is not returned in $handler-&gt;size(); at line 117 and so the http result is 0 bytes.&#13;
+I changed the value of $size in that case with strlen($data) which I set inside the block  beginning with&#13;
+if ($data instanceof eZClusterFileFailure || $handler-&gt;size() == 0) {&#13;
+&#13;
+Could Mohamed Karnichi verify if this correction seems OK ? (I could send my modified source by email if necessary)&#13;
+&#13;
+Thierry&#13;
+</description>
+      <author>community@ez.no (Thierry Clément)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge8</guid>
+      <pubDate>Tue, 11 May 2010 16:16:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge7</link>
+      <description>Hi guys&#13;
+&#13;
+Sorry for the delay. My work does not leave me much time... &#13;
+I've fixed this bug is in 2.1.5  version&#13;
+&#13;
+Enjoy</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge7</guid>
+      <pubDate>Sun, 11 Apr 2010 13:13:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge6</link>
+      <description>Hello,&#13;
+&#13;
+I'm having the same problems too. /var/paradoxpdf/ contains xhtml files and related pdf files with empty size. Second click gives you the right pdf files..&#13;
+&#13;
+Regards&#13;
+&#13;
+Gwen</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge6</guid>
+      <pubDate>Thu, 18 Feb 2010 17:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge5</link>
+      <description>Hi,&#13;
+&#13;
+i'm using the latest version from trunk and when pdf caching is turned on it paradoxpdf.ini i have the following problem:&#13;
+&#13;
+On first pdf creation i get a 0 byte-PDF File on MAC and PC. On a linux client it works fine (although this does not make sense to me, but it's a fact).&#13;
+&#13;
+All future calls to the pdf file work fine (pdf file returned from cache then).&#13;
+&#13;
+When caching is turned off in paradoxpdf.ini everything works fine. So that's why i think this issue is related to the one mentioned above.&#13;
+&#13;
+regards</description>
+      <author>community@ez.no (Rene Hrdina)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge5</guid>
+      <pubDate>Tue, 26 Jan 2010 14:49:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge4</link>
+      <description>Hi Rene,&#13;
+&#13;
+Could you please checkout code on the trunk. And tell me if the issue is fixed ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge4</guid>
+      <pubDate>Thu, 21 Jan 2010 23:19:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error: Call to undefined function is_...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/fatal_error_call_to_undefined_function_is_set/re_fatal_error_call_to_undefined_function_is</link>
+      <description>My  bad, that's what happens when we try to do things fast... &#13;
+Next time i will  take time needed for testing code before release.&#13;
+It's fixed now in v 2.1.4</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/fatal_error_call_to_undefined_function_is_set/re_fatal_error_call_to_undefined_function_is</guid>
+      <pubDate>Thu, 21 Jan 2010 23:07:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge3</link>
+      <description>Hi,&#13;
+&#13;
+i have the same problem.&#13;
+&#13;
+Mohamed, did you already find out what causes the problem?&#13;
+It only happens when pdfCache is enabled, by the way. My guess is that the files are not purged properly and therefore Paradoxpdf thinks the file has already been cached. Then it sends out the 0-Byte File to the Browser which causes an error.&#13;
+&#13;
+regards&#13;
+René Hrdina</description>
+      <author>community@ez.no (Rene Hrdina)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge3</guid>
+      <pubDate>Thu, 21 Jan 2010 15:43:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error: Call to undefined function is_set()</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/fatal_error_call_to_undefined_function_is_set</link>
+      <description>Fatal error: Call to undefined function is_set() in paradoxpdf/classes/paradoxpdf.php on line 99 Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+Changing is_set() to isset() fixes the problem.&#13;
+&#13;
+regards</description>
+      <author>community@ez.no (Rene Hrdina)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/fatal_error_call_to_undefined_function_is_set</guid>
+      <pubDate>Thu, 21 Jan 2010 15:32:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wrong Caching-lifetime if subtree_expiry is...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/wrong_caching_lifetime_if_subtree_expiry_is_set/re_wrong_caching_lifetime_if_subtree_expiry_is</link>
+      <description>Hi Alex ,&#13;
+&#13;
+Thank you for the report. &#13;
+I managed to make paradoxpdf having the same behaviour than the template-cache-block: so if subtree-expiry is set then ignore_content_expiry will always be set to true. &#13;
+&#13;
+I've fixed it in v2.1.3. So documentation still valid&#13;
+&#13;
+Thanks&#13;
+</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/wrong_caching_lifetime_if_subtree_expiry_is_set/re_wrong_caching_lifetime_if_subtree_expiry_is</guid>
+      <pubDate>Tue, 19 Jan 2010 17:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wrong Caching-lifetime if subtree_expiry is set</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/wrong_caching_lifetime_if_subtree_expiry_is_set</link>
+      <description>The documentation for the paradoxpdf-operator says:&#13;
+&gt; Note: Combining all parameters have no sens : for example, when you set subtree_expiry &#13;
+&gt; parameter the ignore_content_expiry parameter well be automatically set to true by the &#13;
+&gt; system, so you dont have to set it&#13;
+&#13;
+However, ignore_content_expiry is still false if subtree_expire is set which leads to a caching&#13;
+lifetime of the default lifetime value of a cache-object which is only 60 seconds.&#13;
+&#13;
+Therefore ignore_content_expiry should be set to true in the paradoxpdf-operator.&#13;
+</description>
+      <author>community@ez.no (Alex Yes)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/wrong_caching_lifetime_if_subtree_expiry_is_set</guid>
+      <pubDate>Tue, 19 Jan 2010 15:54:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge2</link>
+      <description>No, as I said, when clearing the cache without purging, everything works perfect. The problem arises only when clearing caches from command line with the --purge option.&#13;
+&#13;
+It's not a really big deal, as I didn't heard from the client since he tested the PDF generation, however there is still a real bug in your extension. Very specific, but still present.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge2</guid>
+      <pubDate>Tue, 10 Nov 2009 15:26:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge</link>
+      <description>Hi Benjamin,&#13;
+&#13;
+Do you encounter the same problem when clearing cache from admin interface ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge/re_empty_pdf_file_after_cache_purge</guid>
+      <pubDate>Wed, 28 Oct 2009 11:57:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Empty PDF file after cache purge</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge</link>
+      <description>Hello,&#13;
+&#13;
+I'm having a problem with paradoxPDF juster after purging the cache with the CLI command &#13;
+&lt;code&gt;php bin/php/ezcache.php --clear-all --purge&lt;/code&gt;&#13;
+&#13;
+If I request a PDF creation, the downloaded file is empty, thus unreadable. But if I request the same PDF creation (with PDFCache=enabled), the new downloaded file is correct.&#13;
+&#13;
+I checked the paradoxpdf.log, but the conversion went well, which would explain the correct file on the second try.&#13;
+&#13;
+I also tried without PDFCache enabled, it works fine every time, even after a cache purge.&#13;
+&#13;
+Last but not least, I tried to clean the caches without purging, and again it works fine, even with PDFCache enabled.&#13;
+&#13;
+The problem is pretty specific, but I thought it would be worth mentioning it, just in case.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/empty_pdf_file_after_cache_purge</guid>
+      <pubDate>Tue, 27 Oct 2009 10:35:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: typo in paradoxpdf.php</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/typo_in_paradoxpdf_php/re_typo_in_paradoxpdf_php</link>
+      <description>Thanks zurgutt,&#13;
+It is now on the trunk</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/typo_in_paradoxpdf_php/re_typo_in_paradoxpdf_php</guid>
+      <pubDate>Wed, 01 Jul 2009 16:56:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>typo in paradoxpdf.php</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/typo_in_paradoxpdf_php</link>
+      <description>paradoxpdf.php, line 168&#13;
+&#13;
+$pdfConent = '';&#13;
+</description>
+      <author>community@ez.no (zurgutt -)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/typo_in_paradoxpdf_php</guid>
+      <pubDate>Wed, 01 Jul 2009 16:49:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Type-O in paradoxpdf.ini?</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/type_o_in_paradoxpdf_ini/re_type_o_in_paradoxpdf_ini</link>
+      <description>Hi Børge&#13;
+&#13;
+thanks  for your report. &#13;
+&#13;
+Mohamed</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/type_o_in_paradoxpdf_ini/re_type_o_in_paradoxpdf_ini</guid>
+      <pubDate>Fri, 12 Jun 2009 00:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Type-O in paradoxpdf.ini?</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/type_o_in_paradoxpdf_ini</link>
+      <description>This is what is says: &#13;
+&#13;
+[DebugSettings]&#13;
+DebugPDF=disabed&#13;
+&#13;
+disabed should probably be "disabled"</description>
+      <author>community@ez.no (Børge Warvik)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/type_o_in_paradoxpdf_ini</guid>
+      <pubDate>Thu, 11 Jun 2009 21:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https3</link>
+      <description>Hi Tero,&#13;
+&#13;
+I've updated the flushPDF methode, it's now on repository : Could you check if this fixed the issue on both paradoxpdf caching modes ?&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https3</guid>
+      <pubDate>Fri, 05 Jun 2009 15:47:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https2</link>
+      <description>In Safari it works if I disable caching. IE7 still fails.</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https2</guid>
+      <pubDate>Thu, 04 Jun 2009 08:18:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https</link>
+      <description>Hi Tero,&#13;
+&#13;
+Thanks for reporting the issue. I've googled "pdf over ssh" and found mutiple issues of pdf over ssh.&#13;
+Some of topics reported the issue is produced when  PDF returned by the web server contains HTTP headers to disable caching.&#13;
+&#13;
+Just could you tell me if this problem comes when you enable paradoxpdf cache?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https/re_issue_with_https</guid>
+      <pubDate>Wed, 03 Jun 2009 19:40:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue with https</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https</link>
+      <description>There seems to be some problems with Safari and IE7 over secured https connections.&#13;
+Browser tries to open pdf file but somehow it gets corrupted.&#13;
+&#13;
+Brilliant extension anyway :)</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/issue_with_https</guid>
+      <pubDate>Wed, 03 Jun 2009 19:00:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error with correct html while convert to PDF.</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/issues/error_with_correct_html_while_convert_to_pdf/re_error_with_correct_html_while_convert_to_pdf2</link>
+      <description>We corrected some errors, and the PDF was generated. :)&#13;
+&#13;
+Thanks.</description>
+      <author>community@ez.no (Wei Dai)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/issues/error_with_correct_html_while_convert_to_pdf/re_error_with_correct_html_while_convert_to_pdf2</guid>
+      <pubDate>Wed, 03 Jun 2009 05:55:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

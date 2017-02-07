@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / superuser</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/145" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of entire superuser extension repository on GitHub!</title>
+      <link>http://projects.ez.no/superuser/forum/general/mirror_of_entire_superuser_extension_repository_on_github</link>
+      <description>Hello eZ Community using superuser extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/superuser&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r1449 | Cyberwolf | 2009-05-09 05:26:13 -0500 (Sat, 09 May 2009).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/superuser/forum/general/mirror_of_entire_superuser_extension_repository_on_github</guid>
+      <pubDate>Sun, 25 Mar 2012 02:15:01 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

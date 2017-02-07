@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_user_create_limit</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:51:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:51:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31448" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ez_user_create_limit/news/changelog</link>
+      <description>&lt;p&gt;
+# Consider&lt;br /&gt;
+ - Add draft/trash configuration&lt;br /&gt;
+ - Default limits by user groups &lt;br /&gt;
+ - Cronjob diagnostics&lt;br /&gt;
+ - Turn on/off validation per siteaccess&lt;br /&gt;
+ # v1.0 stable, unreleased&lt;br /&gt;
+ - Confirmation that it works OK ;)&lt;br /&gt;
+ # v0.7 beta, public, unreleased&lt;br /&gt;
+ - Enhanced user search feature (by string or by group or a browseing&lt;br /&gt;
+ tool)&lt;br /&gt;
+ # v0.6 beta, public, 2007.12.27&lt;br /&gt;
+ + Bug fix: links to the limit modifier are invalid.&lt;br /&gt;
+ # v0.5 beta, public, 2007.12.23&lt;br /&gt;
+ + Tests with multiple versions, translations, trash, drafts.&lt;br /&gt;
+ + Improved admin interface with icons and legends.&lt;br /&gt;
+ + Debug mode off by default.&lt;br /&gt;
+ # v0.4 beta, public, 2007.12.21&lt;br /&gt;
+ + Code review, phpdoc.&lt;br /&gt;
+ + Cover everything with translations.&lt;br /&gt;
+ + Better documentation.&lt;br /&gt;
+ + Improved admin interface.&lt;br /&gt;
+ + Development errors fixed.&lt;br /&gt;
+ # v0.3 beta, local, 2007.12.20&lt;br /&gt;
+ + Operations on limits.&lt;br /&gt;
+ + Administration interface tools for easier limit management.&lt;br /&gt;
+ + Use translations.&lt;br /&gt;
+ + Debug mode improved.&lt;br /&gt;
+ # v0.2 beta, public, 2007.12.13&lt;br /&gt;
+ + Better code documentation and cleanup.&lt;br /&gt;
+ + Logging and debugging. &lt;br /&gt;
+ # v0.1 alpha, public, 2007.12.11&lt;br /&gt;
+ + First almost fully working version, the basic elements and&lt;br /&gt;
+ functionality &lt;br /&gt;
+ only, with little info. &lt;br /&gt;
+ # v0.0 alpha, local, 2007.12.11&lt;br /&gt;
+ + Start.&lt;br /&gt;
+ /+/ complete&lt;br /&gt; /-/ plan or in progress&lt;/p&gt;</description>
+      <author>community@ez.no (Piotr Karaś)</author>
+      <guid>http://projects.ez.no/ez_user_create_limit/news/changelog</guid>
+      <pubDate>Thu, 27 Dec 2007 09:15:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezusercreatelimit-0.6-gpl.tar.gz</title>
+      <link>http://projects.ez.no/ez_user_create_limit/downloads/ezusercreatelimit_0_6_gpl_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ez_user_create_limit/downloads/ezusercreatelimit_0_6_gpl_tar_gz</guid>
+      <pubDate>Thu, 27 Dec 2007 09:15:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

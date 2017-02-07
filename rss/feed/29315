@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpersistentobject_inspector</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29315" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpersistentobject_inspector rev. 30 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/30</link>
+      <description>- implemented a cache to speed up method findClassNameGivenLowerCaseName()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/30</guid>
+      <pubDate>Wed, 20 Apr 2011 13:41:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 29 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/29</link>
+      <description>- avoid a php warning in ezp</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/29</guid>
+      <pubDate>Fri, 15 Apr 2011 14:01:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 28 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/28</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/28</guid>
+      <pubDate>Sat, 04 Dec 2010 18:16:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 26 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/26</link>
+      <description>- tag for 0.2 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/26</guid>
+      <pubDate>Sat, 04 Dec 2010 18:16:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 27 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/27</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/27</guid>
+      <pubDate>Sat, 04 Dec 2010 18:16:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPersistentObject Inspector version 0.2 release</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/news/ezpersistentobject_inspector_version_0_2_release</link>
+      <description>&lt;p&gt;First public release of this extension (version 0.1 was somehow never uploaded to projects.ez.no).&lt;/p&gt;&lt;p&gt;It is a prerequisite for the latest &lt;a href="http://projects.ez.no/ezdebug_template_operator" target="_self"&gt;ezdebug &lt;/a&gt;and &lt;a href="http://projects.ez.no/ggsysinfo" target="_self"&gt;ggsysinfo &lt;/a&gt;extensions.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/news/ezpersistentobject_inspector_version_0_2_release</guid>
+      <pubDate>Sat, 04 Dec 2010 18:12:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector-0.2.zip</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/downloads/ezpersistentobject_inspector_0_2_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/downloads/ezpersistentobject_inspector_0_2_zip</guid>
+      <pubDate>Sat, 04 Dec 2010 18:10:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector-0.1.zip</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/downloads/ezpersistentobject_inspector_0_1_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/downloads/ezpersistentobject_inspector_0_1_zip</guid>
+      <pubDate>Sat, 04 Dec 2010 18:10:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 25 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/25</link>
+      <description>- error in ezPOInspector::objInspect when recursively encoding persistent objects</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/25</guid>
+      <pubDate>Sun, 28 Nov 2010 20:57:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 24 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/24</link>
+      <description>- more output messages
+- remove php warnings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/24</guid>
+      <pubDate>Fri, 26 Nov 2010 22:45:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 23 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/23</link>
+      <description>- Initialize array</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/23</guid>
+      <pubDate>Fri, 26 Nov 2010 22:15:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 22 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/22</link>
+      <description>- parse new version of online docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/22</guid>
+      <pubDate>Fri, 26 Nov 2010 22:15:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 21 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/21</link>
+      <description>- update definition of views with latest online manual
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/21</guid>
+      <pubDate>Fri, 26 Nov 2010 22:13:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 20 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/20</link>
+      <description>- update definition of views with latest online manual</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/20</guid>
+      <pubDate>Fri, 26 Nov 2010 22:12:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 19 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/19</link>
+      <description>- fix weird chars in the script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/19</guid>
+      <pubDate>Fri, 26 Nov 2010 21:15:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/18</link>
+      <description>- add tpl operators
+- use ini files for location of docs to be scanned</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/18</guid>
+      <pubDate>Thu, 11 Nov 2010 20:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 17 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/17</link>
+      <description>- fix: mark method as static</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/17</guid>
+      <pubDate>Sun, 07 Nov 2010 19:31:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 16 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/16</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/16</guid>
+      <pubDate>Sun, 07 Nov 2010 18:37:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 15 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/15</link>
+      <description>- more docs
+- add view-doc-scanner class</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/15</guid>
+      <pubDate>Sun, 07 Nov 2010 18:35:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 14 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/14</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/14</guid>
+      <pubDate>Sun, 07 Nov 2010 18:34:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 13 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/13</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/13</guid>
+      <pubDate>Sun, 07 Nov 2010 18:32:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/12</link>
+      <description>- add parsing of online docs for view description</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/12</guid>
+      <pubDate>Sun, 07 Nov 2010 18:31:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/11</link>
+      <description>- speling</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/11</guid>
+      <pubDate>Sun, 07 Nov 2010 18:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/10</link>
+      <description>- add generation of fetch functions definitions in cli script;
+- save fixed version of fetch definitions (types, obligatoriness)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/10</guid>
+      <pubDate>Sun, 07 Nov 2010 18:31:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/9</link>
+      <description>- add doc scanning of fetch function definitions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/9</guid>
+      <pubDate>Sun, 07 Nov 2010 18:30:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/8</link>
+      <description>- update info file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/8</guid>
+      <pubDate>Mon, 25 Oct 2010 00:20:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/7</link>
+      <description>- add missed file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/7</guid>
+      <pubDate>Sat, 23 Oct 2010 14:20:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/6</link>
+      <description>oops in dir struct 3</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/6</guid>
+      <pubDate>Sat, 23 Oct 2010 14:20:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/4</link>
+      <description>oops in dir struct</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/4</guid>
+      <pubDate>Sat, 23 Oct 2010 14:10:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/5</link>
+      <description>oops in dir struct, 2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/5</guid>
+      <pubDate>Sat, 23 Oct 2010 14:10:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/3</link>
+      <description>- improve internal data hiding</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/3</guid>
+      <pubDate>Sat, 23 Oct 2010 14:10:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/2</link>
+      <description>- remove dev file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/2</guid>
+      <pubDate>Sat, 23 Oct 2010 13:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezpersistentobject_inspector rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezpersistentobject_inspector/subversion/1</link>
+      <description>- import current code from ezdebug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpersistentobject_inspector/subversion/1</guid>
+      <pubDate>Sat, 23 Oct 2010 13:00:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

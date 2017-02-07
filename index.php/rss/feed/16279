@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezfire / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:05:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:05:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16279" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Version 2.0 released</title>
+      <link>http://projects.ez.no/ezfire/news/version_2_0_released</link>
+      <description>&lt;p&gt;Version 2.0 of ezfire has been released.&amp;nbsp; This is compatible with 4.2011/4.5.&amp;nbsp; This is an almost total rewrite of the previous version.&amp;nbsp; A test page has been added with some setup debugging, the variable display has been improved and a maximum depth has been added, the lib has been removed from the package and instead of a kernel hack to display errors ezdebug has been extended to also write ezfire output to the debug.log.&lt;/p&gt;</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezfire/news/version_2_0_released</guid>
+      <pubDate>Sat, 07 May 2011 08:18:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

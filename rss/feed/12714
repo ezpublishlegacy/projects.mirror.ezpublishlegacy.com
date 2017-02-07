@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nmsugarsoap / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:08:29 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:08:29 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12714" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: nmsugarsoap: Extension</title>
+      <link>http://projects.ez.no/nmsugarsoap/forum/general/nmsugarsoap_extension/re_nmsugarsoap_extension</link>
+      <description>Hi Anita,&#13;
+&#13;
+I'm Anders' colleague.&#13;
+&#13;
+We currently don't have any plans to further expand the integration with Sugar CRM. Also, what you're looking to do sounds fairly custom, so we probably wouldn't do something like this, even if we were to expand the extension (unless it was a paid project, that is :).&#13;
+</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nmsugarsoap/forum/general/nmsugarsoap_extension/re_nmsugarsoap_extension</guid>
+      <pubDate>Tue, 06 Jan 2009 21:29:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>nmsugarsoap: Extension</title>
+      <link>http://projects.ez.no/nmsugarsoap/forum/general/nmsugarsoap_extension</link>
+      <description>Hi Anders,&#13;
+with the help of ez Publish Forum I found your extension nmsugarsoap and am highly interested. I'm about implementing a website with ez Publish yet would also like to administrate certain data in sugarCRM.&#13;
+&#13;
+What I'd like to achieve:&#13;
+&#13;
+in sugarCRM:&#13;
+1. Create/amend sugar classes (modules), e.g. contacts, create new ones e.g. "products" as&#13;
+    an example&#13;
+2. relate the sugar contacts to the "products" (one-to-many relationship)&#13;
+&#13;
+in ezPublish:&#13;
+3. create custom class "products"&#13;
+4. when creating a new instance of "products" only enter e.g. products - id, save the draft and&#13;
+    while saving the draft fetch (through soap) the data for the product from sugar and display&#13;
+    them in ezPublish-class fields accordingly.&#13;
+&#13;
+As I'm new to ezPublish and also to sugar and not really a php crack my question: do you intend to extend your nmsugarsoap extension? &#13;
+&#13;
+What would be your advise?&#13;
+Thanks a lot&#13;
+Anita&#13;
+</description>
+      <author>community@ez.no (Anita  H)</author>
+      <guid>http://projects.ez.no/nmsugarsoap/forum/general/nmsugarsoap_extension</guid>
+      <pubDate>Tue, 30 Dec 2008 09:29:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cscommentno / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:22:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:22:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16790" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>no: Hvorfor forke for å legge til en enesete .ts fil?</title>
+      <link>http://projects.ez.no/cscommentno/forum/general/no_hvorfor_forke_for_aa_legge_til_en_enesete_ts_fil</link>
+      <description>1. Dette er helt unødvendig så lenge du ikke har planer om å endre selve koden.&#13;
+   Det mest effektive og vanlige er at man enten ber om å bli medlem av ett prosjekt og avtaler at man selv kan legge til oversettelse (via svn), eller sender oversettelse til original utgiver slik at han gjør det.&#13;
+   Om man oppretter eget prosjekt, så legger man i isåfall ut kun oversettelse filen og gjør dette klart i navn og intro på prosjektet at det er oversettelse til ett annet prosjekt.&#13;
+  I alle tilfeller slipper man duplisering av kode på flere steder, mindre å vedlikeholde og mindre forvirring om hvor prosjektet befinner seg. (hint: dette er ikke prosjektet, dette er prosjektet for norsk oversettelse av original prosjektet)&#13;
+&#13;
+2. Og vennligst respekter at dette er ett engelsk nettsted hvor man skriver på Engelsk.&#13;
+eZ/community har egne nettsteder hvor andre språk brukes, både Norsk, Fransk, Russisk, Tysk, Polsk.. Men dette er en engelsk side, så vennligst skriv prosjekt beskrivelse etc på engelsk. De fleste nordmenn har ingen problemer med å forstå Engelsk ;)&#13;
+</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/cscommentno/forum/general/no_hvorfor_forke_for_aa_legge_til_en_enesete_ts_fil</guid>
+      <pubDate>Thu, 11 Jun 2009 14:06:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

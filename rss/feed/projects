@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects - New projects</title>
+    <link>http://projects.ez.no/</link>
+    <description>The latest new projects on eZ Projects.</description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:15:43 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:15:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/projects" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZp Section Content Report</title>
+      <link>http://projects.ez.no/ezpsectioncontentreport</link>
+      <description>eZp Section Content Report is a true eZ Publish module view extension that provides a simple module view to export a basic csv report of all the content under a specified section</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpsectioncontentreport</guid>
+      <pubDate>Wed, 01 Feb 2017 06:45:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Collective Reports Admin</title>
+      <link>http://projects.ez.no/ezpcollectivereportsadmin</link>
+      <description>eZp Collective Reports Admin is a true eZ Publish extension that provides a simple semi-dynamic module view which displays information and links to individual report views available with the system</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpcollectivereportsadmin</guid>
+      <pubDate>Wed, 01 Feb 2017 06:45:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Content Tree Report</title>
+      <link>http://projects.ez.no/ezpcontenttreereport</link>
+      <description>This extension which provides a flexible solution which provides a quick and simple report of content tree content objects content in csv format</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpcontenttreereport</guid>
+      <pubDate>Wed, 01 Feb 2017 06:45:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Order Report</title>
+      <link>http://projects.ez.no/ezporderreport</link>
+      <description>This extension which provides a simple ajax based alternative to the default shop/orderlist module view report</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezporderreport</guid>
+      <pubDate>Wed, 01 Feb 2017 04:16:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Member Report</title>
+      <link>http://projects.ez.no/ezpmemberreport</link>
+      <description>eZp Member Report is a true eZ Publish cli script that provides commandline script to find members and generate a csv report</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpmemberreport</guid>
+      <pubDate>Wed, 01 Feb 2017 04:16:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Folders With No Content Report</title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport</link>
+      <description>eZp Folders With No Content Report is a true eZ Publish extension that provides commandline script to find folder objects with no description content and generate a csv report</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Orphaned Image Objects Report</title>
+      <link>http://projects.ez.no/ezporphanedimageobjectsreport</link>
+      <description>eZp Orphaned Image Objects Report is a true eZ Publish cli script that provides commandline script to find orphaned image objects and generate a csv report</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezporphanedimageobjectsreport</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Literal Objects Report</title>
+      <link>http://projects.ez.no/ezpliteralobjectsreport</link>
+      <description>eZp Literal Object CSV Report is a true eZ Publish cli script that provides commandline script to find orphaned image objects and generate a csv report</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpliteralobjectsreport</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>BC Google Video Sitemap</title>
+      <link>http://projects.ez.no/bcgooglevideositemap</link>
+      <description>BC Google Video Sitemap is a true eZ Publish extension that provides a cronjob to create a Google Video Sitemap</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglevideositemap</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>BC User Password Check</title>
+      <link>http://projects.ez.no/bcuserpasswordcheck</link>
+      <description>BC User Password Check is a true eZ Publish extension that provides a login handler, module view replacement for user/login to provide for additional login user management rule enforcement.</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcuserpasswordcheck</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Normalize LatLng</title>
+      <link>http://projects.ez.no/ezpnormalizelatlng</link>
+      <description>An eZ Publish script extension which provides a simple example of how to normalize content attribute data / content</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpnormalizelatlng</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Enhanced Link Check</title>
+      <link>http://projects.ez.no/ezpenhancedlinkcheck</link>
+      <description>eZp Enhanced Link Check is a true eZ Publish extension that provides a customized commandline script to test for valid links in content</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpenhancedlinkcheck</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Extended Asort</title>
+      <link>http://projects.ez.no/ezpextendedasort</link>
+      <description>eZp Extended Asort extension implements a basic eZ Publish template operator which provides the following capabilities: Template operator: 'extended_asort()'</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpextendedasort</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZp Fail Over</title>
+      <link>http://projects.ez.no/ezpfailover</link>
+      <description>What is the eZp Failover extension?&#13;
+&#13;
+eZp Failover is a true eZ Publish extension that provides a javascript based failover warning.&#13;
+&#13;
+An eZ Publish extension provides a design which in turn provide javascript and css for the failover warning.&#13;
+&#13;
+The javascript makes an ajax call to the provided module view to determine if a failover warning should be given.</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpfailover</guid>
+      <pubDate>Wed, 01 Feb 2017 04:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>BC DateTime Filter</title>
+      <link>http://projects.ez.no/bcdatetimefilter</link>
+      <description>eZ Publish Legacy extended attribute filter extension which provides a stable and flexible solution which allows for a datetime stamp filtering solution. Provides for greater fetch filtering by date time stamp!</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcdatetimefilter</guid>
+      <pubDate>Sun, 29 Jan 2017 08:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>BcPageDataBundle</title>
+      <link>http://projects.ez.no/bcpagedatabundle</link>
+      <description>This bundle implements a solution to provide request persistent variable storage service. Provides a symfony based replacement for the legacy ezpagedata operator.</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcpagedatabundle</guid>
+      <pubDate>Wed, 11 Jan 2017 14:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>BcDocumentReaderBundle</title>
+      <link>http://projects.ez.no/bcdocumentreaderbundle</link>
+      <description>This bundle implements a solution to detect file download links within XMLBlock content object attribute content and display the document helper applications which the user can use to open the file documents.</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcdocumentreaderbundle</guid>
+      <pubDate>Wed, 11 Jan 2017 14:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>SmileEzFieldTypeGeneratorBundle</title>
+      <link>http://projects.ez.no/ezfieldtypegeneratorbundle</link>
+      <description>Aims to provide generate:fieldtype command to help generating new FieldType by providing FieldType bundle structure for eZ Platform context</description>
+      <author>community@ez.no (Emmanuel Drouet)</author>
+      <guid>http://projects.ez.no/ezfieldtypegeneratorbundle</guid>
+      <pubDate>Wed, 12 Oct 2016 08:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>EdgarEzTFABundle</title>
+      <link>http://projects.ez.no/edgareztfabundle</link>
+      <description>This bundle provider Two Factor Authentication for your siteaccess&#13;
+</description>
+      <author>community@ez.no (Emmanuel Drouet)</author>
+      <guid>http://projects.ez.no/edgareztfabundle</guid>
+      <pubDate>Mon, 05 Sep 2016 12:45:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>SmileEzSiteBuilderBundle</title>
+      <link>http://projects.ez.no/edgarezsitebuilderbundle</link>
+      <description>This bundle aims to provide a webFactory tool in eZ Platform context.</description>
+      <author>community@ez.no (Emmanuel Drouet)</author>
+      <guid>http://projects.ez.no/edgarezsitebuilderbundle</guid>
+      <pubDate>Tue, 30 Aug 2016 09:30:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

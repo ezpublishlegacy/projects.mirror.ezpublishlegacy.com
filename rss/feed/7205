@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezapprove2 / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:19:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:19:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/7205" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZ Approve 3 ?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/ez_approve_3/re_ez_approve_3</link>
+      <description>an eZ Approve 3 sounds good since this projects seems to have been largely neglected.&#13;
+&#13;
+Since no one has spoken up I would suggest you just fork and create a new project here called eZ Approve 3 and provides links and credit back to eZ Approve 2.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/ez_approve_3/re_ez_approve_3</guid>
+      <pubDate>Fri, 29 Oct 2010 01:55:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Approve 3 ?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/ez_approve_3</link>
+      <description>Hello,&#13;
+&#13;
+I've also sent this post to the general Ez forum, here it might be more appropriated.&#13;
+&#13;
+Following our recent conversations about eZ Approve 2, I have installed the extension on my Ezp4, and it was successfull, I'm quite happy.&#13;
+&#13;
+However, my needs are not totally "satisfied", then I inspected the ezapprove2 code, and I would feel comfortable to improve ezapprove2 to... ezapprove3 (why not!) with some new features.&#13;
+&#13;
+I think I will work on this new code within the next few weeks. I don't have any SVN repository or whatever... who could I send the new package, to make accessible for more people if interested ?&#13;
+&#13;
+Thanks, </description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/ez_approve_3</guid>
+      <pubDate>Thu, 21 Oct 2010 16:23:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow6</link>
+      <description>Hi Lars,&#13;
+&#13;
+Look at my answer here:&#13;
+http://share.ez.no/forums/setup-design/beeing-able-to-edit-other-user-s-draft/</description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow6</guid>
+      <pubDate>Thu, 21 Oct 2010 16:21:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow5</link>
+      <description>Hi Sam or any one else:)&#13;
+Regarding your question on the policy needed i believe you have to give the user the right to run the colloboration module. &#13;
+&#13;
+One breif question to you. Did you manage to get other more than one person to view the draft. I am unable to figure out how to configure this. I was hoping that the draft would somehow show up or allow me to edit it if an already existing draft does exist.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow5</guid>
+      <pubDate>Thu, 21 Oct 2010 06:59:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow4</link>
+      <description>I found the solution.&#13;
+There is a bug in the "affected section" template.&#13;
+The solution is here:&#13;
+http://projects.ez.no/ezapprove2/forum/general/problem_saving_affected_sections&#13;
+&#13;
+&#13;
+Now, I'm facing another issue.&#13;
+If I select "Users select approvers themselves" parameter in my event/approve2.&#13;
+When an editor modifies a content, as soon as he sends article for publication, there is an interface asking him to select users.... and when clicks on "select users", there is a kernel_error: not authorized to access this page.&#13;
+&#13;
+What rule/policy do I have to activate to give them access ?&#13;
+&#13;
+Thank you.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow4</guid>
+      <pubDate>Tue, 12 Oct 2010 13:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow3</link>
+      <description>Hi,&#13;
+&#13;
+I get back to my previous post.&#13;
+Actually, eZApprove2 still doesn't work with eZp4.&#13;
+&#13;
+Here is below the bug I'm facing:&#13;
+&#13;
+Workflow creation:&#13;
+. I create a new workflow --&gt; OK;&#13;
+. And then, for this workflow, I add a new event "event/approve2" --&gt; OK;&#13;
+&#13;
+When I try to configure the event:&#13;
+. I can add pre-selected approvers (users and/or groups) --&gt; OK;&#13;
+. I can configure "Users select approvers themselves" parameters --&gt; OK;&#13;
+. Whatever the selected section(s) in the "Affected sections" area, they ARE NOT saved in the config... I save the workflow and I get back to it, the selected sections are losed !*&#13;
+&#13;
+&#13;
+Please help.&#13;
+Thanks,</description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow3</guid>
+      <pubDate>Tue, 12 Oct 2010 09:04:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow2</link>
+      <description>Hello Lars,&#13;
+&#13;
+I confirm I'm running the eZApprove2 for eZp4, I downloaded it from here:&#13;
+http://svn.projects.ez.no/ezapprove2/ezapprove2/ezp4/trunk/extension/ezapprove2/&#13;
+&#13;
+In the meanwhile, I have regenerated the autoload array:&#13;
+Setup &gt; Extensions &gt; Regenerate autoload arrays for extensions&#13;
+&#13;
+And now the eZApprove2 extension seems to work (for config).&#13;
+&#13;
+---&#13;
+&#13;
+However, I have some other questions.&#13;
+I'm not really sure eZApprove2 will meet my requirements...&#13;
+&#13;
+Here are below my requirements. I need a 2 steps validation process:&#13;
+. first group of editors create/edit/modify content, and send request for approval;&#13;
+. second group of editors are notified from the first group, can (re)edit the content if uncorrect, and then send request for approval;&#13;
+. and then, a third group is able to approve/reject it for publishing.&#13;
+&#13;
+&#13;
+Thanks,&#13;
+</description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow2</guid>
+      <pubDate>Mon, 11 Oct 2010 11:20:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow</link>
+      <description>hi Samuel.&#13;
+I have not used this extension myself, but would like to just ask you if you are running the ezapprove for ezp4 and not the original one which only works on ezP 3.x.&#13;
+If you look at the svn tree you will find that there is a designated folder for the ezpv4.&#13;
+&#13;
+Hope you get this to work and good luck with your project.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow/re_problem_to_setup_a_new_workflow</guid>
+      <pubDate>Mon, 11 Oct 2010 11:07:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem to setup a new workflow</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow</link>
+      <description>Hello,&#13;
+&#13;
+I've just installed the extension eZ Approve 2 on my eZpublish 4.3.0&#13;
+&#13;
+I meet some troubles to set up a new workflow.&#13;
+I followed the INSTALL.TXT instructions:&#13;
+5. Select "Event/Approve2" and click "Add event"&#13;
+&#13;
+And here is the crash:&#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended. Contact website owner with current url and what you did, and owner will be able to debug the issue further.&#13;
+&#13;
+&#13;
+Any idea ?&#13;
+Thank you for your reply.&#13;
+</description>
+      <author>community@ez.no (Samuel Torton)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_to_setup_a_new_workflow</guid>
+      <pubDate>Mon, 11 Oct 2010 10:45:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Editing a pending item sends it back to the...</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author/re_editing_a_pending_item_sends_it_back_to_the2</link>
+      <description>Hi,&#13;
+I made some modifications to ezapprove2:&#13;
+&#13;
+1) when you deny an object it is sent back to the author as a draft&#13;
+2) exclusion groups are applied even when you let your users select their approvers&#13;
+3) when an approver edits an item it is immediately published&#13;
+4) Italian translation&#13;
+&#13;
+code here: git://git.e-moka.net/approve2.git&#13;
+&#13;
+git-web: https://git.e-moka.net/?p=approve2.git;a=summary</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author/re_editing_a_pending_item_sends_it_back_to_the2</guid>
+      <pubDate>Mon, 20 Jul 2009 14:32:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Editing a pending item sends it back to the...</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author/re_editing_a_pending_item_sends_it_back_to_the</link>
+      <description>Hello Jordan,&#13;
+&#13;
+We have implemented this functionality&#13;
+for other eZ Partner(s) projects&#13;
+which leveraged ezapprove2&#13;
+as a result of our our recommendation&#13;
+to do so.&#13;
+&#13;
+Good luck. Everything's possible! `smile`&#13;
+&#13;
+If I remember the fix we used correctly &#13;
+to address this issue directly, yet&#13;
+my gut seems to be reminding&#13;
+me*, that this was not quite directly&#13;
+apparent, your `results may vary`.&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author/re_editing_a_pending_item_sends_it_back_to_the</guid>
+      <pubDate>Thu, 16 Jul 2009 14:27:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editing a pending item sends it back to the author...</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author</link>
+      <description>I feel like it shouldn't.  I.e. if an author creates an item and sends for publishing, then the approver should be able to edit the item and publish immediately with the new edits.  Having the item get sent back to the author and having its workflow status reset seems counterintuitive to me.  Is this the correct behavior?  Is there any way around this?&#13;
+&#13;
+Thank you.</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/editing_a_pending_item_sends_it_back_to_the_author</guid>
+      <pubDate>Thu, 09 Jul 2009 18:06:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bug in 4.1?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/bug_in_4_1/re_bug_in_4_1</link>
+      <description>Hello Jordan,&#13;
+&#13;
+I also encountered that very same issue when&#13;
+working with the software.&#13;
+&#13;
+Thank you for sharing / confirming the solution.&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/bug_in_4_1/re_bug_in_4_1</guid>
+      <pubDate>Thu, 09 Jul 2009 13:13:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug in 4.1?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/bug_in_4_1</link>
+      <description>Hello,&#13;
+&#13;
+I'm using eZ 4.1.1 and I just installed eZ Approve 2 from http://svn.projects.ez.no/ezapprove2/ezapprove2/ezp4/trunk/extension/ezapprove2/ .  I followed the directions in INSTALL.txt, but when I run the cronjob script, I get an error:&#13;
+&#13;
+&lt;code&gt;&#13;
+$ php runcronjobs.php workflow&#13;
+Running cronjob part 'workflow'&#13;
+Running cronjobs/workflow.php&#13;
+Checking for workflow processes&#13;
+&#13;
+Fatal error: Call to a member function attribute() on a non-object in /var/www/informs/public/kernel/content/ezcontentoperationcollection.php on line 258&#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&lt;/code&gt;&#13;
+&#13;
+I don't currently have any items awaiting workflow, but that shouldn't make it error out, right?  I tried enabling --sql to see what queries were being run, but there was no output.  Changing the siteaccess did not work either.&#13;
+&#13;
+I would appreciate any ideas you might have!  Thank you.&#13;
+&#13;
++=+=+=+=+=+=+=+=+=+=+=+=+=&#13;
+&#13;
+UPDATE:  Turns out I had some items in a workflow process that referred to workflows (and content) that no longer existed.  Clearing out the ezworkflow_process table did the trick.</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/bug_in_4_1</guid>
+      <pubDate>Mon, 06 Jul 2009 17:26:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x6</link>
+      <description>Hi Anja,&#13;
+&#13;
+yes,&#13;
+&#13;
+http://ez.no/doc/ez_publish/upgrading/upgrading_to_4_0/important_notes&#13;
+&#13;
+and this might help you to migrate your extensions:&#13;
+&#13;
+http://projects.ez.no/ezp3toezp4migration&#13;
+&#13;
+Greetings, ekke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x6</guid>
+      <pubDate>Sun, 21 Jun 2009 18:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x5</link>
+      <description>Yes that was it! I can not recall doing this in 3.x-installations. Is this something that came with eZ 4? I'm new to eZ 4...&#13;
+&#13;
+Thank you!</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x5</guid>
+      <pubDate>Wed, 18 Mar 2009 13:44:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x4</link>
+      <description>Hi Anja&#13;
+&#13;
+Have you recreated the extension autoload?&#13;
+&#13;
+Setup -&gt; Extensions -&gt; Regenerate autoload arrays for extensions &#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x4</guid>
+      <pubDate>Wed, 18 Mar 2009 13:29:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x3</link>
+      <description>I get at fatal error when trying to create a new workflow in eZ Publish 4.0.1 and ezapprove2 for eZ 4:&#13;
+&#13;
+Fatal error: Class 'eZApprove2Event' not found in /extension/ezapprove2/eventtypes/event/ezapprove2/ezapprove2type.php on line 552&#13;
+&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+Are there any problems with approval in 4.0 or are there any conflicts between extensions like ezcore?</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x3</guid>
+      <pubDate>Wed, 18 Mar 2009 13:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x2</link>
+      <description>Thank you very much for the quickest reply in history! :-)</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x2</guid>
+      <pubDate>Wed, 18 Mar 2009 10:34:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x</link>
+      <description>Hi Anja&#13;
+&#13;
+A eZ4 version can be found in svn here: http://svn.projects.ez.no/ezapprove2/ezapprove2/ezp4/trunk/&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x/re_compatibility_with_ez_4_0_x</guid>
+      <pubDate>Wed, 18 Mar 2009 10:31:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compatibility with eZ 4.0.x?</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x</link>
+      <description>Hi!&#13;
+Thank you for a great extension!&#13;
+&#13;
+I wonder if this extension has compatibility with eZ 4.0.x? We use it in 3.x sites and it has great functionalities with editing the pending objects that we also need to have in 4.0.x sites.&#13;
+&#13;
+Best regards!&#13;
+&#13;
+Anja Lundin, Novitell AB, Sweden</description>
+      <author>community@ez.no (Anja Lundin)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez_4_0_x</guid>
+      <pubDate>Wed, 18 Mar 2009 10:24:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Class Include - Exclude Options</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/class_include_exclude_options</link>
+      <description>Hi all,&#13;
+&#13;
+I just add the class include -  exclude functionality using a ini file, it was pretty easy but was not implemented...&#13;
+&#13;
+In the evente type file (extension\ezapprove2\eventtypes\event\ezapprove2\ezapprove2type.php line 207)&#13;
+&#13;
+Original&#13;
+&lt;code&gt;&#13;
+   switch( $eventData-&gt;attribute( 'approve_type' ) )&#13;
+        {&#13;
+            case eZApprove2Event::ApproveTypeUser:&#13;
+            {&#13;
+                $inExcludeGroups = false;&#13;
+                $userIsEditor = false;&#13;
+            } break;&#13;
+&#13;
+            default:&#13;
+            case eZApprove2Event::ApproveTypePredefined:&#13;
+            {&#13;
+                $inExcludeGroups = count( array_intersect( $userGroups, $workflowGroups ) ) != 0;&#13;
+                $userIsEditor = ( in_array( $user-&gt;id(), $editors ) ||&#13;
+                                  count( array_intersect( $userGroups, $approveGroups ) ) != 0 );&#13;
+            } break;&#13;
+        } &#13;
+&#13;
+/* HERE YOU MUST ADD THE EXTRA CODE*/&#13;
+&#13;
+	if ( !$inExcludeGroups &
+             !$userIsEditor &&
+             $correctSection && $class_include)
+        {
+			
+            switch( $eventData->attribute( 'approve_type' ) )
+            {
+                case eZApprove2Event::ApproveTypeUser:       
+
+</code>
+
+You must add the following lines:
+(Don't forget to update the final if sentence)
+<code>
+		$ini_approve = eZINI::instance('ezapprove2.ini');&#13;
+		$class_include_type = $ini_approve-&gt; variable('ApproveClasses','IncludeType');&#13;
+		$class_array = $ini_approve-&gt; variable('ApproveClasses','ClassIdentifierList');&#13;
+		$class_include=true;&#13;
+		if (count($class_array) & is_array($class_array))
+		{		
+			$object_class_identifier = $object-> contentClassIdentifier ();&#13;
+			if (count(array_intersect($class_array, array($object_class_identifier))))&#13;
+			{&#13;
+				if ($class_include_type == 'include')&#13;
+				{&#13;
+					$class_include=true;		&#13;
+				}elseif ($class_include_type == 'exclude')&#13;
+				{&#13;
+					$class_include=false;&#13;
+				}&#13;
+			}else&#13;
+			{&#13;
+				if ($class_include_type == 'include')&#13;
+				{&#13;
+					$class_include=false;		&#13;
+				}elseif ($class_include_type == 'exclude')&#13;
+				{&#13;
+					$class_include=true;&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+		if ( !$inExcludeGroups </description>
+      <author>community@ez.no (Felipe Jaramillo)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/class_include_exclude_options</guid>
+      <pubDate>Tue, 03 Mar 2009 14:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem saving 'affected sections'</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/problem_saving_affected_sections</link>
+      <description>Hi. We use this extension for one of our projects. We're having problems with the affected sections. No matter what section you choose. Next time you want to edit the workflow, all the sections appears as selected. &#13;
+&#13;
+i think the problem came in the template. &#13;
+this line&#13;
+&lt;code&gt;&#13;
+&lt;option value="{$section.value}" {cond( $eventData.selected_section_list|contains( $section.value ), 'selected="selected"', '')}&gt;{$section.name|wash}&lt;/option&gt;&#13;
+&lt;/code&gt;&#13;
+should be changed to &#13;
+&lt;code&gt;&#13;
+&lt;option value="{$section.id}" {cond( $eventData.selected_section_list|contains( $section.id), 'selected="selected"', '')}&gt;{$section.name|wash}&lt;/option&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+just because the php file you have&#13;
+&lt;code&gt;&#13;
+$sections = eZSection::fetchList( false );&#13;
+foreach ( array_keys( $sections ) as $key )&#13;
+        {&#13;
+           $section = $sections[$key];&#13;
+           $section['Name'] = $section['name'];&#13;
+          $section['value'] = $section['id'];&#13;
+        &#13;
+        }&#13;
+		&#13;
+return $sections;&#13;
+&lt;/code&gt;&#13;
+&#13;
+I mean, you get the Section List and then there is a for but sections is not modified and you don't have the index "value" in each element... &#13;
+&#13;
+Maybe it could be also changed by something like&#13;
+&lt;code&gt;&#13;
+$sectionsList = eZSection::fetchList( false );&#13;
+$sections = array();&#13;
+foreach ( array_keys( $sectionsList ) as $key  =&gt; $section)&#13;
+        {&#13;
+           $item = $sectionsList[$key];&#13;
+          $sections[]['name'] =  $section['name'];&#13;
+          $sections[]['value'] = $section['id'];&#13;
+&#13;
+        }&#13;
+		&#13;
+return $sections;&#13;
+&lt;/code&gt;&#13;
+this way you won't need to change the template...&#13;
+&#13;
+I don't know if this has been reported befored... Sorry for that.</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/problem_saving_affected_sections</guid>
+      <pubDate>Tue, 10 Feb 2009 12:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ3.10</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_104</link>
+      <description>Hi Kristof&#13;
+&#13;
+Has there been any feedback from eZ systems about supporting Approve2?  It would be really helpful to know as we plan future projects.&#13;
+&#13;
+Thanks&#13;
+Brendan</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_104</guid>
+      <pubDate>Thu, 05 Jun 2008 07:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: cache-block cache doesn't expire after appr...</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/cache_block_cache_doesn_t_expire_after_approving/re_cache_block_cache_doesn_t_expire_after_appr</link>
+      <description>This seems to be an ez bug, not an approve bug.&#13;
+http://issues.ez.no/IssueView.php?Id=12175</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/cache_block_cache_doesn_t_expire_after_approving/re_cache_block_cache_doesn_t_expire_after_appr</guid>
+      <pubDate>Tue, 13 May 2008 15:29:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>cache-block cache doesn't expire after approving</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/cache_block_cache_doesn_t_expire_after_approving</link>
+      <description>Hi,&#13;
+&#13;
+subject says it all. If I approve an object, the cache-block cache doesn't expire.&#13;
+&#13;
+Best wishes,&#13;
+Georg.</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/cache_block_cache_doesn_t_expire_after_approving</guid>
+      <pubDate>Mon, 12 May 2008 12:08:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>hard coded content class</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/hard_coded_content_class</link>
+      <description>Hi,&#13;
+&#13;
+extension\ezapprove2\eventtypes\event\ezapprove2\ezapprove2type.php&#13;
+&#13;
+Line 308:&#13;
+// #HACK#&#13;
+                                        if ( $object-&gt;attribute( 'contentclass_id' ) == 17 ) // 17 == newsletter_issue&#13;
+                                        {&#13;
+                                            foreach( $object-&gt;relatedContentObjectList( $approveStatus-&gt;attribute( 'active_version' ), false, false ) as $relatedObject )&#13;
+                                            {&#13;
+                                                $relatedObject-&gt;setAttribute( 'flags', $relatedObject-&gt;attribute( 'flags' ) ^ EZ_CONTENT_OBJECT_FLAG_LOCK_EDIT ^ EZ_CONTENT_OBJECT_FLAG_LOCK_REMOVE );&#13;
+                                                $relatedObject-&gt;sync();&#13;
+                                            }&#13;
+                                        }&#13;
+&#13;
+-&gt; that should not be there&#13;
+&#13;
+Best wishes,&#13;
+Georg.</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/hard_coded_content_class</guid>
+      <pubDate>Mon, 12 May 2008 12:07:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ3.10</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_103</link>
+      <description>Thanks Kristof&#13;
+&#13;
+This is a good extension that adds a few basic essentials like pre-approval editing, so hopefully eZ will take it under its wing.  I've often wondered why eZ hasn't just replaced ezapprove with ezapprove2 really.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_103</guid>
+      <pubDate>Wed, 16 Apr 2008 13:23:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ3.10</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_102</link>
+      <description>Hi Brendan&#13;
+&#13;
+Kåre is not working any longer for eZ Systems. Not sure if he will still be active as a community member.&#13;
+I will take a look to see what's possible to further support ezapprove2 from inside eZ Systems.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_102</guid>
+      <pubDate>Wed, 16 Apr 2008 12:44:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatibility with eZ3.10</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_10</link>
+      <description>I tried ezapprove2 0.8 with ezpublish 3.10.1 and can confirm it does not work.  &#13;
+&#13;
+Kåre any chance you can let us know the status of things and what your intentions are with future support?&#13;
+&#13;
+Many thanks&#13;
+Brendan</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10/re_compatibility_with_ez3_10</guid>
+      <pubDate>Wed, 16 Apr 2008 12:37:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compatibility with eZ3.10</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10</link>
+      <description>This is a great job!&#13;
+We tried to make it work with the last version of eZ-3.10 but we get no objects in "Pending Items" when someone publishes something.&#13;
+&#13;
+If it is a compatibility issue with 3.10, could you help us diagnose the problem? &#13;
+Could we help with this? If this is so, please point us in the right direction, where the incompatibility could be and some guide about where it should be fixed.&#13;
+We will of course contribute back with the code as soon as we has something new.&#13;
+&#13;
+Regards,&#13;
+&#13;
+</description>
+      <author>community@ez.no (Esteban Rodriguez)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/compatibility_with_ez3_10</guid>
+      <pubDate>Wed, 19 Mar 2008 02:43:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Code review of eZ4/php5 version </title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches4</link>
+      <description>Typo in Constant&#13;
+&lt;code&gt;Index: eventtypes/event/ezapprove2/ezapprove2type.php&#13;
+===================================================================&#13;
+--- eventtypes/event/ezapprove2/ezapprove2type.php      (revision 2500)&#13;
++++ eventtypes/event/ezapprove2/ezapprove2type.php      (working copy)&#13;
+@@ -128,7 +128,7 @@&#13;
+         if ( !$object )&#13;
+         {&#13;
+             eZDebugSetting::writeError( 'kernel-workflow-approve', $parameters['object_id'], 'eZApprove2Type::execute' );&#13;
+-            return eZWorkflowType::STATUS_WORKFLOW_CANCELED;&#13;
++            return eZWorkflowType::STATUS_WORKFLOW_CANCELLED;&#13;
+         }&#13;
+&#13;
+         /*&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches4</guid>
+      <pubDate>Thu, 28 Feb 2008 04:25:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Code review of eZ4/php5 version </title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches3</link>
+      <description>I suspect this is related the the previous  item and possibility may be a an eZ issue.  When an item is displayed in a collaboration preview using the plain view the location ("Placed in") is blank.  You have to use the conten_version and not the content_object to get these to display.&#13;
+&#13;
+I've added this to the extension but maybe it should go in the main eZ dist as it's most probably an issue with the shipped approve workflow&#13;
+&#13;
+&lt;code&gt;Index: design/standard/templates/node/view/plain.tpl&#13;
+===================================================================&#13;
+--- design/standard/templates/node/view/plain.tpl       (revision 0)&#13;
++++ design/standard/templates/node/view/plain.tpl       (revision 0)&#13;
+@@ -0,0 +1,45 @@&#13;
++{* DO NOT EDIT THIS FILE! Use an override template instead. *}&#13;
++{* Default object view template for read-only views&#13;
++   Displays object content only with no buttons or children *}&#13;
++{default content_object=$node.object&#13;
++         content_version=$node.contentobject_version_object&#13;
++         node_name=$node.name|wash}&#13;
++&#13;
++&lt;div class="objectheader"&gt;&#13;
++&lt;h2&gt;Default object view. &lt;a class="menuheadlink" href={"/setup/templateview/node/view/plain.tpl"|ezurl}&gt;Click to create a custom template&lt;/a&gt;&lt;/h2&gt;&#13;
++&lt;/div&gt;&#13;
++&#13;
++&lt;div class="object"&gt;&#13;
++    &lt;h1&gt;{$node_name}&lt;/h1&gt;&#13;
++    &lt;input type="hidden" name="TopLevelNode" value="{$content_object.main_node_id}" /&gt;&#13;
++&#13;
++    {section name=ContentObjectAttribute loop=$content_version.contentobject_attributes}&#13;
++    &lt;div class="block"&gt;&#13;
++        &lt;label&gt;{$ContentObjectAttribute:item.contentclass_attribute.name|wash}&lt;/label&gt;&#13;
++      &lt;p class="box"&gt;{attribute_view_gui attribute=$ContentObjectAttribute:item}&lt;/p&gt;&#13;
++    &lt;/div&gt;&#13;
++    {/section}&#13;
++&#13;
++    &lt;h3&gt;{'Placed in'|i18n('design/standard/node/view')}&lt;/h3&gt;&#13;
++    {section name=Parent loop=$content_version.parent_nodes}&#13;
++        {let parent_node=fetch(content,node,hash(node_id,$:item.parent_node))}&#13;
++        {section name=Path loop=$:parent_node.path}&#13;
++            {node_view_gui view=text_linked content_node=$:item} /&#13;
++        {/section}&#13;
++        {node_view_gui view=text_linked content_node=$:parent_node}&lt;br/&gt;&#13;
++        {/let}&#13;
++    {/section}&#13;
++&lt;/div&gt;&#13;
++&#13;
++    {let name=Object related_objects=$content_version.related_contentobject_array}&#13;
++&#13;
++      {section name=ContentObject  loop=$Object:related_objects show=$Object:related_objects  sequence=array(bglight,bgdark)}&#13;
++&#13;
++        &lt;div class="block"&gt;&#13;
++        {content_view_gui view=text_linked content_object=$Object:ContentObject:item}&#13;
++        &lt;/div&gt;&#13;
++&#13;
++      {/section}&#13;
++    {/let}&#13;
++&#13;
++{/default}&lt;/code&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches3</guid>
+      <pubDate>Thu, 28 Feb 2008 01:09:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Code review of eZ4/php5 version </title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches2</link>
+      <description>When an item is first created and caught by the workflow and is editied by the approver, the approver is prompted to place the item after publishing.  This can be impossible as there is no information as to where the object was created.  &#13;
+&#13;
+I tracked this down to  when the new draft is created from the original that the node assignments are note copied because they have a remote_id of 0 (I suspect because it's not been published) &#13;
+&#13;
+The following patch manually copies the node assignments if the item has not been published and this "fixes' the issue.&#13;
+&#13;
+&lt;code&gt;Index: collaboration/ezapprove2/ezapprove2collaborationhandler.php&#13;
+===================================================================&#13;
+--- collaboration/ezapprove2/ezapprove2collaborationhandler.php (revision 2500)&#13;
++++ collaboration/ezapprove2/ezapprove2collaborationhandler.php (working copy)&#13;
+ @@ -345,6 +345,24 @@&#13;
+&#13;
+             // 2. Create new version based in the pending one.&#13;
+             $newVersion = $contentObject-&gt;createNewVersion( $approveStatus-&gt;attribute( 'active_version' ) );&#13;
++            // If the Object has never been published we have to copy the node&#13;
++            // assignment(s) acorss from the initial version to avoid the user&#13;
++            // being prompted for a location when publishing.&#13;
++            //&#13;
++            // It would appear that isn't done in the model for non published items.&#13;
++            if ($contentObject-&gt;attribute('published') == 0)&#13;
++            {&#13;
++              $version = $contentObject-&gt;attribute('current');&#13;
++              $nodeAssignmentList = $version-&gt;attribute( 'node_assignments' );&#13;
++              $contentObjectID = $contentObject-&gt;attribute('id');&#13;
++              $newVersionNumber = $newVersion-&gt;attribute('version');&#13;
++              foreach ( array_keys( $nodeAssignmentList ) as $key )&#13;
++              {&#13;
++                  $nodeAssignment = $nodeAssignmentList[$key];&#13;
++                  $clonedAssignment = $nodeAssignment-&gt;cloneNodeAssignment( $newVersionNumber, $contentObjectID );&#13;
++                  $clonedAssignment-&gt;store();&#13;
++              }&#13;
++            }&#13;
+&#13;
+             // 3. Set pending version to rejected.&#13;
+             $oldVersion = $approveStatus-&gt;attribute( 'object_version' );&lt;/code&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches2</guid>
+      <pubDate>Thu, 28 Feb 2008 01:01:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Code review of eZ4/php5 version </title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches</link>
+      <description>Minor changes to method definitions get rid of strict warnings:&#13;
+&lt;code&gt;Index: collaboration/ezapprove2/ezapprove2collaborationhandler.php&#13;
+===================================================================&#13;
+--- collaboration/ezapprove2/ezapprove2collaborationhandler.php (revision 2500)&#13;
++++ collaboration/ezapprove2/ezapprove2collaborationhandler.php (working copy)&#13;
+@@ -103,7 +103,7 @@&#13;
+     /*!&#13;
+      \reimp&#13;
+     */&#13;
+-    function title( $collaborationItem )&#13;
++    function title( &$collaborationItem )
+     {
+         return ezi18n( 'kernel/classes', 'Approval v.2' );&#13;
+     }&#13;
+@@ -156,7 +156,7 @@&#13;
+      \reimp&#13;
+      \return the number of messages for the approve item.&#13;
+     */&#13;
+-    function messageCount( $collaborationItem )&#13;
++    function messageCount( &$collaborationItem )
+     {
+         return eZCollaborationItemMessageLink::fetchItemCount( array( 'item_id' => $collaborationItem->attribute( 'id' ) ) );&#13;
+     }&#13;
+@@ -165,7 +165,7 @@&#13;
+      \reimp&#13;
+      \return the number of unread messages for the approve item.&#13;
+     */&#13;
+-    function unreadMessageCount( $collaborationItem )&#13;
++    function unreadMessageCount( &$collaborationItem )
+     {
+         $lastRead = 0;&#13;
+         $status = $collaborationItem-&gt;attribute( 'user_status' );&#13;
+@@ -271,7 +271,7 @@&#13;
+      \reimp&#13;
+      Adds a new comment, approves the item or denies the item.&#13;
+     */&#13;
+-    function handleCustomAction( $module, $collaborationItem )&#13;
++    function handleCustomAction( &$module, &$collaborationItem )
+     {
+         $redirectView = 'item';&#13;
+         $redirectParameters = array( 'full', $collaborationItem-&gt;attribute( 'id' ) );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches/re_code_review_of_ez4_php5_version_patches</guid>
+      <pubDate>Thu, 28 Feb 2008 00:55:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug in eZ4.0.0</title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/bug_in_ez4_0_0</link>
+      <description>Found a bug in eZ4.0. if there are multiple collaboration notifications then the last will be listed for all.  It's a simple reference issue.  Details </description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/bug_in_ez4_0_0</guid>
+      <pubDate>Thu, 28 Feb 2008 00:48:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code review of eZ4/php5 version </title>
+      <link>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches</link>
+      <description>Howdy&#13;
+&#13;
+I've  installed the eZ4 /php5 version and am doing a code review as we are going to use this in a project.&#13;
+&#13;
+Will provide patches/commits (if  added as a member)...here's  the first one&#13;
+&lt;code&gt;Index: classes/ezxapprovestatususerlink.php&#13;
+===================================================================&#13;
+--- classes/ezxapprovestatususerlink.php        (revision 2500)&#13;
++++ classes/ezxapprovestatususerlink.php        (working copy)&#13;
+@@ -52,7 +52,7 @@&#13;
+ class eZXApproveStatusUserLink extends eZPersistentObject&#13;
+ {&#13;
+     const RoleCreator = 0;&#13;
+-    const RoleApprover = 0;&#13;
++    const RoleApprover = 1;&#13;
+&#13;
+     const StatusNone = 0;&#13;
+     const StatusApproved = 1;&lt;/code&gt;&#13;
+&#13;
+Looks as if the RoleApprover was incorrectly assigned 0 when it from moved to a class constant.&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezapprove2/forum/general/code_review_of_ez4_php5_version_patches</guid>
+      <pubDate>Wed, 27 Feb 2008 01:30:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / redirect_operators</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:37:17 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:37:17 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/36896" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Error 500 in Community Project 2011.5</title>
+      <link>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5/re_error_500_in_community_project_2011_52</link>
+      <description>FYI, I've set up a GitHub repository with these changes applied at https://github.com/gbentley/redirectoperators</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5/re_error_500_in_community_project_2011_52</guid>
+      <pubDate>Tue, 15 May 2012 10:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error 500 in Community Project 2011.5</title>
+      <link>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5/re_error_500_in_community_project_2011_5</link>
+      <description>Thanks a lot Frank!&#13;
+Sorry I didn't find the resolution on share.ez.no before posting my question...</description>
+      <author>community@ez.no (sarah duhamel)</author>
+      <guid>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5/re_error_500_in_community_project_2011_5</guid>
+      <pubDate>Thu, 09 Feb 2012 10:25:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error 500 in Community Project 2011.5</title>
+      <link>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5</link>
+      <description>Hi, &#13;
+&#13;
+took me some time to figure this out, after I found the solution, I saw it was already solved (doh!):&#13;
+&#13;
+http://share.ez.no/forums/extensions/redirectoperators-on-ez-4.5#comment70662&#13;
+&#13;
+In short: &#13;
+&#13;
+replace &#13;
+&lt;code&gt;&#13;
+exit();&#13;
+&lt;/code&gt;&#13;
+&#13;
+with:&#13;
+&lt;code&gt;&#13;
+eZExecution::cleanExit();&#13;
+&lt;/code&gt;&#13;
+&#13;
+(Madness: no mention of this error in Apache logs...)&#13;
+&#13;
+Cheers,&#13;
+&#13;
+frank&#13;
+&#13;
+</description>
+      <author>community@ez.no (frank b)</author>
+      <guid>http://projects.ez.no/redirect_operators/forum/general/error_500_in_community_project_2011_5</guid>
+      <pubDate>Wed, 08 Feb 2012 16:02:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>parser error using redirectAbsolute()</title>
+      <link>http://projects.ez.no/redirect_operators/forum/general/parser_error_using_redirectabsolute</link>
+      <description>Hi there,&#13;
+&#13;
+thanks a lot for your extension!&#13;
+I've been following the install steps (unzip in extensions directory, activating the extension in settings/override/site.ini.append.php, clear caches)&#13;
+But when I use the fonction redirectAbsolute('url'), I've got a parser error in return : &#13;
+&#13;
+       parser error @ extension/mytemplate.tpl:28[17]&#13;
+       Extra characters found, should have been a whitespace or the end of the expression&#13;
+       Characters: '('$url')'&#13;
+&#13;
+In my template, I call the fonction this way :&#13;
+	{redirectAbsolute('$url')}&#13;
+    &#13;
+Same happens with :&#13;
+        {redirectAbsolute('http://www.google.com')}&#13;
+&#13;
+Sorry for posting this but i'm kindda desperate now...&#13;
+Your extension seems so easy to use and I can't manage to have it working :(&#13;
+&#13;
+Thanks a lot&#13;
+Sarah</description>
+      <author>community@ez.no (sarah duhamel)</author>
+      <guid>http://projects.ez.no/redirect_operators/forum/general/parser_error_using_redirectabsolute</guid>
+      <pubDate>Mon, 03 Oct 2011 14:09:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simple and so useful !</title>
+      <link>http://projects.ez.no/redirect_operators/reviews/simple_and_so_useful</link>
+      <description>Thanks for contribution and for updates as well :-)</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/redirect_operators/reviews/simple_and_so_useful</guid>
+      <pubDate>Mon, 26 Sep 2011 18:42:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Correction of autoload path</title>
+      <link>http://projects.ez.no/redirect_operators/reviews/correction_of_autoload_path</link>
+      <description>Corrected autoload path suggested by ezdebug in eZ Publish 4.5:&#13;
+&#13;
+site.ini:&#13;
+[TemplateSettings]&#13;
+AutoloadPathList[]=extension/RedirectOperators/autoloads/</description>
+      <author>community@ez.no (Niko Goers)</author>
+      <guid>http://projects.ez.no/redirect_operators/reviews/correction_of_autoload_path</guid>
+      <pubDate>Tue, 12 Jul 2011 08:37:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nice one...should be Part of the Kernel</title>
+      <link>http://projects.ez.no/redirect_operators/reviews/nice_one_should_be_part_of_the_kernel</link>
+      <description>Nice one, it just needs a fix in new eZPublish Versions like 4.4:&#13;
+&#13;
+extension/RedirectOperators/autoloads/redirectoperators.php&#13;
+&#13;
+Replace&#13;
+&#13;
+exit();&#13;
+by&#13;
+eZExecution::cleanExit();&#13;
+&#13;
+greetz Andi</description>
+      <author>community@ez.no (Andreas Adelsberger)</author>
+      <guid>http://projects.ez.no/redirect_operators/reviews/nice_one_should_be_part_of_the_kernel</guid>
+      <pubDate>Wed, 27 Apr 2011 12:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>RedirectOperators.zip</title>
+      <link>http://projects.ez.no/redirect_operators/downloads/redirectoperators_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/redirect_operators/downloads/redirectoperators_zip</guid>
+      <pubDate>Thu, 22 Jul 2004 19:20:31 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezadmin / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:50:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:50:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9053" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility8</link>
+      <description>Tested on ez 4.2011 (4.5) and it works fine, although you do need to change line 3 of modules/admin/changeuser.php to be:&#13;
+include_once(  'extension/ezadmin/classes/ezuseraddition.php' );&#13;
+since the ext_class() function was deprecated in 4.3.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility8</guid>
+      <pubDate>Tue, 10 May 2011 05:04:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility7</link>
+      <description>Hi Brendan,&#13;
+&#13;
+Adding &lt;code&gt;ModuleList[]=admin&lt;/code&gt; to module.ini did the trick for me. In addition I had a conflict because my siteaccess was called 'admin' and I was using URI hostmatching.&#13;
+&#13;
+I think everything worked after that on 4.2.</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility7</guid>
+      <pubDate>Mon, 21 Dec 2009 12:38:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility6</link>
+      <description>@ STEVO +&#13;
+Did you get it working successfully under 4.1.3?  I seem to experience the same permissions problem when trying to change users and module.ini.append.php is present.&#13;
+&#13;
+Anything else you did to get it working?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility6</guid>
+      <pubDate>Mon, 21 Dec 2009 05:44:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility5</link>
+      <description>just got round to looking at this again.&#13;
+&#13;
+module.ini.append.php is missing:&#13;
+&lt;code&gt;ModuleList[]=admin&lt;/code&gt;</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility5</guid>
+      <pubDate>Sat, 07 Nov 2009 21:12:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility4</link>
+      <description>hmm,&#13;
+&#13;
+http://svn.projects.ez.no/ezadmin/trunk/extension/ezadmin still seems to be at revision 11, and the problem remains for me...&#13;
+&#13;
+thanks tho</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility4</guid>
+      <pubDate>Wed, 19 Aug 2009 19:37:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility3</link>
+      <description>@ STEVO +&#13;
+&#13;
+Fixed in the latest version of svn trunk!&#13;
+I tested this myself.&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility3</guid>
+      <pubDate>Sun, 16 Aug 2009 07:59:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility2</link>
+      <description>Hi,&#13;
+&#13;
+I am getting "The system is unable to display the requested page because of security issues." for many of the modules (eg. /admin/sqlquery) with 4.1.3 (user with * permissions)&#13;
+&#13;
+any ideas? thanks!&#13;
+&#13;
+</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility2</guid>
+      <pubDate>Mon, 10 Aug 2009 16:04:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility</link>
+      <description>it is ready for eZ 4 use trunk.</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility/re_ez_publish_4_compatibility</guid>
+      <pubDate>Wed, 14 Jan 2009 13:42:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ publish 4 compatibility</title>
+      <link>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility</link>
+      <description>Hi Björn&#13;
+&#13;
+Just wondering if / when you might be updating the extension for ez 4?&#13;
+&#13;
+Thanks for a great contribution.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezadmin/forum/general/ez_publish_4_compatibility</guid>
+      <pubDate>Mon, 16 Jun 2008 03:13:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

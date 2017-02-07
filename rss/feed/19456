@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / novenimagecropper / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:18:16 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:18:16 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19456" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag6</link>
+      <description>Original images canbe succssfully [url=http://www.rasteredge.com/how-to/csharp-imaging/crop-image/]cropped[/url] by the new version,.many thanks for the feature.&#13;
+</description>
+      <author>community@ez.no (nesca fo)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag6</guid>
+      <pubDate>Thu, 06 Jun 2013 07:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in upload image with uppercase extension</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension/re_error_in_upload_image_with_uppercase_extension</link>
+      <description>Thanks Ugo for your issue report.&#13;
+Fixed in trunk, rev 54</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension/re_error_in_upload_image_with_uppercase_extension</guid>
+      <pubDate>Sun, 29 Aug 2010 17:01:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error in upload image with uppercase extension</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension</link>
+      <description>Noven Image Cropper do not support images with uppercase extension. &#13;
+We suggest a solution like this: change row 65 in file novenimagecropper/design/standard/javascript/novenimagecropper.js&#13;
+&#13;
+Old code:&#13;
+&#13;
+if (! (ext </description>
+      <author>community@ez.no (Ugo Giacalone)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension</guid>
+      <pubDate>Tue, 24 Aug 2010 09:53:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag5</link>
+      <description>Hello !&#13;
+&#13;
+Felix, this looks like more or less what I've described. Is it hosted on project.ez.no ?&#13;
+&#13;
+A merge with novenimagecropper would be indeed interested if it's doable.&#13;
+&#13;
+Cheers !&#13;
+</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag5</guid>
+      <pubDate>Fri, 30 Apr 2010 15:03:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag4</link>
+      <description>Thanks Felix&#13;
+I will thing about it for next version :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag4</guid>
+      <pubDate>Fri, 30 Apr 2010 13:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag3</link>
+      <description>Hello Jerome,&#13;
+&#13;
+1. in tpl get crop value with js in relation to the original&#13;
+2. store these information somewhere ( i did this in the original file name )&#13;
+3. create a new imagehandler  which handels a crop filter&#13;
+&#13;
+[ImageMagick]&#13;
+Handler=JacImageManipulationEzImageShellFactory&#13;
+&#13;
+   This crop filter reads the image information&#13;
+    you need a new image alias &#13;
+&lt;code&gt;&#13;
+[crop_reference]&#13;
+Reference=original&#13;
+Filters[]&#13;
+Filters[]=jacimagemanipulation/crop=&#13;
+&lt;/code&gt;&#13;
+this alias you can use to create other aliases&#13;
+&#13;
+The crop algorithm is in JacImageManipulationEzImageShellFactory and is running every time the image alias is rebuild.&#13;
+&#13;
+Our solution only works for imagemagick at the moment.</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag3</guid>
+      <pubDate>Fri, 30 Apr 2010 10:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag2</link>
+      <description>Hi Matthieu&#13;
+&#13;
+Your idea is really interesting indeed.&#13;
+&#13;
+@Felix : Can you describe more precisely what you made for your extension please ? Maybe I can integrate it :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag2</guid>
+      <pubDate>Fri, 30 Apr 2010 09:27:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag</link>
+      <description>Hello Matthieu,&#13;
+&#13;
+for this use case we developed an extension.&#13;
+&#13;
+You can define an aspect ratio for the image e.g. 3:4 and than you have a rectangle to choose the image extract.&#13;
+Then you have the original and the original_crop as an reference image. On top of these you can create cropped or non cropped image variations.&#13;
+&#13;
+Is this what you want?</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag</guid>
+      <pubDate>Fri, 30 Apr 2010 05:37:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>[New feature] Do not crop the original image but an alias</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias</link>
+      <description>Hello Jerome,&#13;
+&#13;
+What do you think of this proposal : add a way to crop an alias of the image and not the original.&#13;
+&#13;
+Use case example :&#13;
+Add an image to an article (you want this image not cropped).&#13;
+You link a carousel to a bunch of articles and you want to extract a cropped version of each article images to display in the carousel.&#13;
+It would be great to have to possibility to select the zone in the image to create the cropped version.&#13;
+&#13;
+Do you understand what I mean ?</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias</guid>
+      <pubDate>Thu, 29 Apr 2010 12:22:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Issue : new ezcImageFilter wants only integ...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/issue_new_ezcimagefilter_wants_only_integer_value/re_issue_new_ezcimagefilter_wants_only_integ</link>
+      <description>Hi Sébastien and thanks for your feedback.&#13;
+Indeed, &lt;i&gt;ezcImageFilter&lt;/i&gt; only accepts integer values. I casted the posted values (classes/novimgcropserverfunctions.php, lines 121 to 124), but I simply forgot that a ratio is then applied (lines 133 to 136).&#13;
+&#13;
+This is now fixed in trunk (rev 26). I simply cast &lt;i&gt;ezcImageFilter&lt;/i&gt; params as integer.&#13;
+&#13;
+About the &lt;i&gt;crop.php&lt;/i&gt; file, it was obsolete because now &lt;b&gt;ezjscore&lt;/b&gt; server functions are used. Obsolete module files has been deleted.&#13;
+&#13;
+I also updated the zip package to version 1.0.5.&#13;
+&#13;
+Thank you !&#13;
+&#13;
+PS : I you have other issues to ask for, please make your post in the &lt;i&gt;issues forum&lt;/i&gt; (http://projects.ez.no/novenimagecropper/forum/issues).</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/issue_new_ezcimagefilter_wants_only_integer_value/re_issue_new_ezcimagefilter_wants_only_integ</guid>
+      <pubDate>Sun, 04 Oct 2009 13:13:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue : new ezcImageFilter wants only integer value</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/issue_new_ezcimagefilter_wants_only_integer_value</link>
+      <description>Hi, &#13;
+&#13;
+I just install your very great extension but I had an error  &#13;
+&lt;code&gt;[ Oct 03 2009 21:14:36 ] [192.168.32.1] NovenImageCropper:&#13;
+The value '630.4' that you were trying to assign to setting 'x' is invalid. Allowed values are: int.&lt;/code&gt;&#13;
+&#13;
+After some debug,  I have chane two file in my extension : crop.php and in novimgcropserverfunctions.php in crop function &#13;
+&#13;
+&#13;
+&lt;code&gt;$filters = array( &#13;
+		new ezcImageFilter( &#13;
+			'crop',&#13;
+			array( &#13;
+				'x'			=&gt; intval($xRef),&#13;
+				'y'			=&gt; intval($yRef),&#13;
+				'width'		=&gt; intval($wRef),&#13;
+				'height'	=&gt; intval($hRef)&#13;
+			)&#13;
+		),&#13;
+	);&lt;/code&gt;&#13;
+&#13;
+&#13;
+Are you ok with this change ?&#13;
+&#13;
+&#13;
+++</description>
+      <author>community@ez.no (Sébastien Morel)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/issue_new_ezcimagefilter_wants_only_integer_value</guid>
+      <pubDate>Sat, 03 Oct 2009 19:23:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No need for news items for every minor rele...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele5</link>
+      <description>lol OK, I'll make a new post for the 1.0.4 I just released :-p&#13;
+&#13;
+I need feedback to improve this extension. Don't hesitate to make a review or suggestions :-)&#13;
+And again, translations are welcome !</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele5</guid>
+      <pubDate>Sat, 03 Oct 2009 10:59:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No need for news items for every minor rele...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele4</link>
+      <description>Jérôme,&#13;
+&#13;
+I  agree with André's 2nd post. The reason why we only see news about your extension is not that you're posting too much. It's that most of us don't post enough :-)</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele4</guid>
+      <pubDate>Sat, 03 Oct 2009 10:39:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No need for news items for every minor rele...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele3</link>
+      <description>Hi André&#13;
+&#13;
+I totally understand your first post. It's right that I have a high tempo these days in developping this extension, and it's not over, but this site is about eZ Projects, not only &lt;b&gt;Noven Image Cropper&lt;/b&gt; ;-). So maybe I should not always post a news each time I release a minor version.&#13;
+&#13;
+Thing is that it's currently the only solution I have to communicate on the extension evolution. Anyway, I'll make more commits and less maintenance releases (with more bugfixes in)&#13;
+&#13;
+I already have plans for a 1.1 version with a new feature that might interest ez developpers (override of the &lt;i&gt;ezobjectrelationlist&lt;/i&gt; template to allow to "transfer" an image from a relationned object)&#13;
+&#13;
+Any way, I'm pleased that you like it and thanx for your encouragements !</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele3</guid>
+      <pubDate>Fri, 02 Oct 2009 21:09:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No need for news items for every minor rele...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele2</link>
+      <description>Actually ignore the above..&#13;
+When I think about it, we all do want an active community. So I guess it's a matter of getting everyone to post more about what they are working on then complaining about someone actually sharing.&#13;
+So, basically, screw what I just said! :)&#13;
+&#13;
+I'll try to get more sharing my self, and hopefully the size (number of entries) for latest community news should be increased so it's possible to catch news of personal interest.&#13;
+&#13;
+Keep up the good work, it's looking really good!</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele2</guid>
+      <pubDate>Fri, 02 Oct 2009 17:16:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No need for news items for every minor rele...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele</link>
+      <description>Hum... All right, sorry :-)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release/re_no_need_for_news_items_for_every_minor_rele</guid>
+      <pubDate>Fri, 02 Oct 2009 14:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>No need for news items for every minor release ;)</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release</link>
+      <description>With the tempo you have, there will only be news about novenimagecropper on ez.no/developer.. :)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/no_need_for_news_items_for_every_minor_release</guid>
+      <pubDate>Fri, 02 Oct 2009 14:32:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: translations - helping translators</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/translations_helping_translators/re_translations_helping_translators</link>
+      <description>Hi Gaetano !&#13;
+&#13;
+Thanks for this report. I just fixed this in trunk :)&#13;
+Would you translate it in italian ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/translations_helping_translators/re_translations_helping_translators</guid>
+      <pubDate>Fri, 25 Sep 2009 13:13:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>translations - helping translators</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/translations_helping_translators</link>
+      <description>You should always provide an 'untranslated' master file as a basis, to help translators.&#13;
+&#13;
+Just take your french version, replace all translations with "unfinished" ones and save it in directory 'untranslated'&#13;
+&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/translations_helping_translators</guid>
+      <pubDate>Fri, 25 Sep 2009 10:21:39 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

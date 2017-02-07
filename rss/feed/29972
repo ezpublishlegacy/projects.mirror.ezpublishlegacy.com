@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / customedit</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29972" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Very useful</title>
+      <link>http://projects.ez.no/customedit/reviews/very_useful</link>
+      <description>Thanks a lot for this contrib which let me let my users manage content without using back-office or toolbar.&#13;
+&#13;
+It is well documented and the demo is very illustrative.&#13;
+&#13;
+I combined it with http://projects.ez.no/redirect_operators to redirect to new node just after its creation.&#13;
+&#13;
+To solve role/policy issues, I had to add ModuleList[]=customedit in module.ini.append.php</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/customedit/reviews/very_useful</guid>
+      <pubDate>Mon, 26 Sep 2011 23:49:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>2011 update?</title>
+      <link>http://projects.ez.no/customedit/forum/general/2011_update</link>
+      <description>Hi&#13;
+I'm back to EZ dev after a 2 year break&#13;
+=&gt; is this extension still the best/unique way to have my visitors creating nodes directly from a simple form submit (without using back-office or ezwebin) ?&#13;
+&#13;
+Thanks in advance for your help :-)&#13;
+&#13;
+Mickael</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/customedit/forum/general/2011_update</guid>
+      <pubDate>Thu, 22 Sep 2011 12:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/customedit/news/changelog</link>
+      <description>&lt;p&gt;
+-------------------------- &lt;br /&gt;
+ CHANGELOG&lt;br /&gt;
+ - 20080908 0.8.0 *pike added objectrelationlist&lt;br /&gt;
+ - 20081210 0.7.1 *pike added binary and media&lt;br /&gt;
+ - 20081209 0.7.0 *pike added image support and more demo's&lt;br /&gt;
+ - 20080606 0.6.1 *pike removed language permission checks (dont&lt;br /&gt;
+ work?)&lt;br /&gt;
+ - 20080606 0.6.0 *pike changed http fieldnames, implemented basic&lt;br /&gt;
+ datatypes&lt;br /&gt;
+ - 20080523 0.5.6 *pike improving docs&lt;br /&gt;
+ - 20080523 0.5.5 *pike first draft&lt;br /&gt;
+ Any help is appreciated.&lt;br /&gt;
+ -------------------------- &lt;br /&gt;
+ TODO&lt;br /&gt;
+ - add more datatypes&lt;br /&gt;
+ - check if more cache clearing is needed in the code:&lt;br /&gt; - on move, the content tab doesnt seem to update ?&lt;/p&gt;</description>
+      <author>community@ez.no (*- pike)</author>
+      <guid>http://projects.ez.no/customedit/news/changelog</guid>
+      <pubDate>Tue, 01 Sep 2009 17:17:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>customedit-0.8.tgz</title>
+      <link>http://projects.ez.no/customedit/downloads/customedit_0_8_tgz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/customedit/downloads/customedit_0_8_tgz</guid>
+      <pubDate>Tue, 01 Sep 2009 17:17:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

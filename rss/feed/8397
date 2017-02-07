@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggxmlview / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:22:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:22:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8397" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ggxmlview 0.3 released</title>
+      <link>http://projects.ez.no/ggxmlview/news/ggxmlview_0_3_released</link>
+      <description>&lt;p&gt;A single fix: invalid xml generated of 'object relation' attributes&lt;/p&gt;&lt;p&gt;Improved the encoding of ezpersistentobject descendant classes (eg. ezcontentobjectreenode as returned by fetch content/list): now the proper type is enforced for scalar attributes&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/news/ggxmlview_0_3_released</guid>
+      <pubDate>Fri, 17 Dec 2010 10:20:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview 0.2.1 released</title>
+      <link>http://projects.ez.no/ggxmlview/news/ggxmlview_0_2_1_released</link>
+      <description>&lt;p&gt;A single fix: fatal error in the view xml/xsd (was not including the required template.php file)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/news/ggxmlview_0_2_1_released</guid>
+      <pubDate>Thu, 17 Jun 2010 13:41:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview 0.2 released</title>
+      <link>http://projects.ez.no/ggxmlview/news/ggxmlview_0_2_released</link>
+      <description>&lt;p&gt;
+Added a template operator: $obj | to_array( $level=2, $attributes=array() )&lt;br /&gt;
+It allows encoding to php array any ezpersistentobject (ie. all the 'objects' in&lt;br /&gt;
+the online manual http://ez.no/doc/ez_publish/technical_manual/4_x/reference/objects)&lt;br /&gt;
+It is useful for data export as well as using json_encode / xml_encode from ezjscore.&lt;br /&gt;
+example usage: {json_encode($current_user|to_array(1))}&lt;br /&gt;
+The 1st param is the nesting level used for sub-objects (same as |attribute() does).&lt;br /&gt;
+The 2nd param, if non empty, is a filter on the attributes of $obj that will be&lt;br /&gt;returned (note: it is not applied recursively).&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/news/ggxmlview_0_2_released</guid>
+      <pubDate>Sat, 20 Mar 2010 00:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggxmlview 0.1 released</title>
+      <link>http://projects.ez.no/ggxmlview/news/ggxmlview_0_1_released</link>
+      <description>&lt;p&gt;The initial version provides templates to build json and xml views of your content.&lt;/p&gt;&lt;p&gt;A "single-node" and a "recursive node-tree" template are provided for both protocols.&lt;/p&gt;&lt;p&gt;Most datatypes (but not all yet) have the proper templates, too.&lt;/p&gt;&lt;p&gt;Generation of the xsd definition corresponding to the existing content classes works, with some datatypes (but not all) supported.&lt;/p&gt;&lt;p&gt;Usage of the layout/set module to get the proper "contet-type" header is not necessary, as a template operator that sends http headers is included. This means that the override system can be used to get a json or xml representation as defualt view of a node.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggxmlview/news/ggxmlview_0_1_released</guid>
+      <pubDate>Fri, 15 May 2009 13:34:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

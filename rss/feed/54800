@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpfolderswithnocontentreport</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:21:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:21:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/54800" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport/source/e60f67e3db4c0b0c66d81a2bb8bd287e5cb38f73</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added php script parameter code and example ini settings to exclude content from parent node ids content tree paths from report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport/source/e60f67e3db4c0b0c66d81a2bb8bd287e5cb38f73</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport/source/902befa791f129bf80d0127a3b18d481dcc1be44</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update: Added code to ensure only current versions of objects are reported&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport/source/902befa791f129bf80d0127a3b18d481dcc1be44</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport/source/82239972177cdf064b63bd5813c13efbd540fd97</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Initial import of ezpfolderswithnocontentreport extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport/source/82239972177cdf064b63bd5813c13efbd540fd97</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport/source/94a587cf856b572e037dfd0935f5d9c43b8a50a7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Bugfix. Added missing settings block section text&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport/source/94a587cf856b572e037dfd0935f5d9c43b8a50a7</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpfolderswithnocontentreport/source/c986ad3cb1d4f65ec5f7a652fea3da9ab547352e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added new features to include node visibility in report results, added feature to exclude objects with attribute show_children checked disabled by default, added feature to exclude objects from report which any object in the node path tree which contains the attribute show_children checked disabled by default, minor module view bug fixes, added jquery excel report import instructions to module view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpfolderswithnocontentreport/source/c986ad3cb1d4f65ec5f7a652fea3da9ab547352e</guid>
+      <pubDate>Wed, 01 Feb 2017 04:24:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

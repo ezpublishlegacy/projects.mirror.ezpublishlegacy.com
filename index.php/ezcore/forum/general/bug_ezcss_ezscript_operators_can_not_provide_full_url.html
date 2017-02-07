@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezcore/forum/general/bug_ezcss_ezscript_operators_can_not_provide_full_url by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 19:40:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            [BUG] ezcss &amp; ezscript operators can not provide full Url     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezcore/forum/general'];
+menu[4] = ['Leaders', '/ezcore/team/leaders', 'Members', '/ezcore/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../ezcore.html" onmouseover="switchSubMenu( this );">eZ Core &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../ezcore/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../ezcore/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../ezcore/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../ezcore/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../ezcore/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../ezcore/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../ezcore/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../ezcore/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezcore.html">ezcore</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        [bug] ezcss &amp; ezscript oper...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>[BUG] ezcss &amp; ezscript operators can not provide full Url</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg14078">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/damien_pitard.html">Damien Pitard</a></p>
+
+
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 19</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 09 February 2009 4:28:57 pm</p>
+
+        <div class="attribute-long">When using ezcss and ezscript in a custom layout context (layout/set/...) with <i>UseFullUrl</i> set to <i>true</i> in layout.ini, url of the css or js files are not absolute.<br />
+<br />
+---------------------------------<br />
+<br />
+To reproduce the bug :<br />
+<br />
+* override layout.ini and paste the following code in : <br />
+[ezcore]<br />
+PageLayout=ezcore_pagelayout.tpl<br />
+ContentType=text/html<br />
+UseAccessPass=false<br />
+#UseFullUrl=true<br />
+<br />
+* in a new file design/yoursiteaccess/templates/ezcore_pagelayout.tpl, paste the following code :<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;html&gt;</span>
+
+<span class="line">&lt;head&gt;</span>
+
+<span class="line">&lt;title&gt;ezcore test&lt;/title&gt;</span>
+
+<span class="line">{ezcss( array( ezini( 'StylesheetSettings', 'CSSFileList', 'design.ini' ) ) )}</span>
+
+<span class="line">{ezscript( array( ezini( 'JavaScriptSettings', 'JavaScriptList', 'design.ini' ) ) )}</span>
+
+<span class="line">&lt;/head&gt;</span>
+
+<span class="line">&lt;body&gt;</span>
+
+<span class="line">&lt;a href={'mylink'|ezurl()}&gt;url test&lt;/a&gt;</span>
+
+<span class="line">&lt;/body&gt;</span>
+
+<span class="line"></span></pre><br />
+<br />
+* clear your cache<br />
+<br />
+* load <a href="http://yourdomain/layout/set/ezcore/content/view/full/2" title="http://yourdomain/layout/set/ezcore/content/view/full/2">http://yourdomain/layout/set/ezcore/content/view/full/2</a> and look at the url provided by ezcss, ezscript and ezurl  : all urls are relative<br />
+<br />
+* now enable the full Url Mode (uncomment #UseFullUrl=true in your layout.ini)<br />
+<br />
+* re-load <a href="http://yourdomain/layout/set/ezcore/content/view/full/2" title="http://yourdomain/layout/set/ezcore/content/view/full/2">http://yourdomain/layout/set/ezcore/content/view/full/2</a> and look at the url provided by ezcss, ezscript and ezurl : ezurl provide a well absolute url but not ezcss and ezscript<br />
+<br />
+------------------------<br />
+<br />
+Here's a patch fixing this bug :<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">Index: extension/ezcore/classes/ezpacker.php</span>
+
+<span class="line">===================================================================</span>
+
+<span class="line">--- extension/ezcore/classes/ezpacker.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(revision 2370)</span>
+
+<span class="line">+++ extension/ezcore/classes/ezpacker.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(working copy)</span>
+
+<span class="line">@@ -72,12 +72,23 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret = '';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( !$lang ) $lang = '';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else $lang = ' language=&quot;' . $lang . '&quot;';</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFiles = eZPacker::packFiles( $scriptFiles, 'javascript/', '.js', $packLevel, $wwwInCacheHash );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFiles = eZPacker::packFiles( $scriptFiles, 'javascript/', '.js', $packLevel, $wwwInCacheHash );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$http = eZHTTPTool::instance();</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$useFullUrl = ( isset( $http-&gt;UseFullUrl ) and $http-&gt;UseFullUrl );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach ( $packedFiles as $packedFile )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Is this a js file or js content?</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $packedFile{4} ) &amp;&amp; strripos( $packedFile, '.js' ) === ( strlen( $packedFile ) -3 ) )</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .=&nbsp;$packedFile ? &quot;&lt;script$lang type=\&quot;$type\&quot; src=\&quot;$packedFile\&quot;&gt;&lt;/script&gt;\r\n&quot; : '';</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $packedFile{4} ) &amp;&amp; strripos( $packedFile, '.js' ) === ( strlen( $packedFile ) -3 ) )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $packedFile )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $useFullUrl )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFile = $http-&gt;createRedirectUrl( $packedFile, array( 'pre_url' =&gt; false ) );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .= &quot;&lt;script$lang type=\&quot;$type\&quot; src=\&quot;$packedFile\&quot;&gt;&lt;/script&gt;\r\n&quot;;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .=&nbsp;$packedFile ? &quot;&lt;script$lang type=\&quot;$type\&quot;&gt;\r\n$packedFile\r\n&lt;/script&gt;\r\n&quot; : '';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">@@ -88,12 +99,23 @@</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;static function buildStylesheetTag( $cssFiles, $media, $type, $rel, $packLevel = 3, $wwwInCacheHash = true )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret = '';</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFiles = eZPacker::packFiles( $cssFiles, 'stylesheets/', '_' . $media . '.css', $packLevel, $wwwInCacheHash );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFiles = eZPacker::packFiles( $cssFiles, 'stylesheets/', '_' . $media . '.css', $packLevel, $wwwInCacheHash );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$http = eZHTTPTool::instance();</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$useFullUrl = ( isset( $http-&gt;UseFullUrl ) and $http-&gt;UseFullUrl );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foreach ( $packedFiles as $packedFile )</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Is this a css file or css content?</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $packedFile{5} ) &amp;&amp; strripos( $packedFile, '.css' ) === ( strlen( $packedFile ) -4 ) )</span>
+
+<span class="line">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .= $packedFile ? &quot;&lt;link rel=\&quot;$rel\&quot; type=\&quot;$type\&quot; href=\&quot;$packedFile\&quot; media=\&quot;$media\&quot; /&gt;\r\n&quot; : '';</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( isset( $packedFile{5} ) &amp;&amp; strripos( $packedFile, '.css' ) === ( strlen( $packedFile ) -4 ) )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $packedFile )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( $useFullUrl )</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$packedFile = $http-&gt;createRedirectUrl( $packedFile, array( 'pre_url' =&gt; false ) );</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .= &quot;&lt;link rel=\&quot;$rel\&quot; type=\&quot;$type\&quot; href=\&quot;$packedFile\&quot; media=\&quot;$media\&quot; /&gt;\r\n&quot;;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$ret .= $packedFile ? &quot;&lt;style rel=\&quot;$rel\&quot; type=\&quot;$type\&quot; media=\&quot;$media\&quot;&gt;\r\n$packedFile\r\n&lt;/style&gt;\r\n&quot; : '';</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line"></span></pre><br />
+<br />
+Damien<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg14784">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 15 March 2009 10:38:19 pm</p>
+
+        <div class="attribute-long">Sorry for not noticing this before, fixed as of rev. 54, thanks for the patch.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezcore/forum/general/bug_ezcss_ezscript_operators_can_not_provide_full_url by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 19:40:04 GMT -->
+</html>

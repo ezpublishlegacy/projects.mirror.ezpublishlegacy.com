@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / automated_user_placment</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:09:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:09:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/37316" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/automated_user_placment/news/changelog</link>
+      <description>&lt;p&gt;
+1.01: Removed some debug messages&lt;br /&gt;
+ 1.02: Added setting of trigger type in the constructor (i.e.&lt;br /&gt;
+ $this-&gt;setTriggerTypes( array( 'content' =&gt; array( 'publish'&lt;br /&gt; =&gt; array( 'after' ) ) ) );)&lt;/p&gt;</description>
+      <author>community@ez.no (oldcontribs_import oldcontribs_import)</author>
+      <guid>http://projects.ez.no/automated_user_placment/news/changelog</guid>
+      <pubDate>Wed, 19 Jul 2006 08:38:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>placeusers.zip</title>
+      <link>http://projects.ez.no/automated_user_placment/downloads/placeusers_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/automated_user_placment/downloads/placeusers_zip</guid>
+      <pubDate>Wed, 19 Jul 2006 08:38:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

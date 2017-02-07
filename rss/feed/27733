@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sqliimport / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:47:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:47:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27733" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: How to remove an ezmatrix line ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/how_to_remove_an_ezmatrix_line/re_how_to_remove_an_ezmatrix_line</link>
+      <description>Hi Solène and sorry for the late reply...&#13;
+This is due to how eZMatrix datatype handles strings input.&#13;
+&#13;
+&lt;i&gt;kernel/classes/datatypes/ezmatrix/ezmatrixtype.php&lt;/i&gt;&#13;
+&lt;code&gt;&#13;
+    function fromString( $contentObjectAttribute, $string )&#13;
+    {&#13;
+        if ( $string != '' )&#13;
+        {&#13;
+            $matrix = $contentObjectAttribute-&gt;attribute( 'content' );&#13;
+            $matrixRowsList = eZStringUtils::explodeStr( $string, "&" );&#13;
+            $cells = array();&#13;
+            $matrix-&gt;Matrix['rows']['sequential'] = array();&#13;
+            $matrix-&gt;NumRows = 0;&#13;
+&#13;
+            foreach( $matrixRowsList as $key =&gt; $value )&#13;
+            {&#13;
+                $newCells = eZStringUtils::explodeStr( $value, '|' );&#13;
+                $matrixArray[] = $newCells;&#13;
+                $cells = array_merge( $cells, $newCells );&#13;
+&#13;
+                $newRow['columns'] = $newCells;&#13;
+                $newRow['identifier'] =  'row_' . ( $matrix-&gt;NumRows + 1 );&#13;
+                $newRow['name'] = 'Row_' . ( $matrix-&gt;NumRows + 1 );&#13;
+                $matrix-&gt;NumRows++;&#13;
+&#13;
+&#13;
+                $matrix-&gt;Matrix['rows']['sequential'][] = $newRow;&#13;
+            }&#13;
+            $matrix-&gt;Cells = $cells;&#13;
+        }&#13;
+        return true;&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Unfortunately, this implementation forces you to always have a line :-(.&#13;
+Maybe you should open an issue in eZPublish issue tracker and make a pull request ? ;-)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/how_to_remove_an_ezmatrix_line/re_how_to_remove_an_ezmatrix_line</guid>
+      <pubDate>Wed, 15 Feb 2012 13:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to remove an ezmatrix line ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/how_to_remove_an_ezmatrix_line</link>
+      <description>Hello Jérôme,&#13;
+&#13;
+I import some data in an ezmatrix datatype. But if the ezmatrix is empty in the new import, the old value stay... I tried &#13;
+&lt;code&gt;&#13;
+$content-&gt;fields-&gt;dates_ouverture = " ";&#13;
+&lt;/code&gt;&#13;
+but it creates an empty line in my ezmatrix field (and in my website it display some empty data...)&#13;
+&#13;
+Do you know how to owerite the value of a ezmatrix field ???&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/how_to_remove_an_ezmatrix_line</guid>
+      <pubDate>Thu, 02 Feb 2012 16:10:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to handle "Import already running</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/how_to_handle_import_already_running/re_how_to_handle_import_already_running</link>
+      <description>Hello&#13;
+&#13;
+First, you don't need to kill an import script. You can interrupt à running script from the "Import management" in the admin interface.&#13;
+In order to unlock your import run script, you need to remove entries from &lt;b&gt;ezsite_data&lt;/b&gt; table in your database that relates to sqliimport status. &#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/how_to_handle_import_already_running/re_how_to_handle_import_already_running</guid>
+      <pubDate>Wed, 01 Feb 2012 23:24:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to handle "Import already running" ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/how_to_handle_import_already_running</link>
+      <description>Hello Jérôme,&#13;
+&#13;
+I am having a problem with a wedged import which i had to quit with "kill".&#13;
+&#13;
+Now i can't import anything i have this message : "An error has occurred : Another import is already running. Aborting..."&#13;
+&#13;
+What is the good way to handle this ?&#13;
+&#13;
+How can i unlock the importRun process and cleanup the mess ?&#13;
+&#13;
+Thank you,&#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (H-Works Agency)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/how_to_handle_import_already_running</guid>
+      <pubDate>Wed, 01 Feb 2012 18:24:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezselection import + content class</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/ezselection_import_content_class</link>
+      <description>Hello,&#13;
+&#13;
+That's a great extension, nice job!&#13;
+&#13;
+I'm looking into the extension because it's so much deeper than my own import extension but if I understand it correctly, the object class must be predefined before importing datas, because a specific handler has to be written for a specific import. Concerning the number of attributes, it's quite fine but for instance if you have several ezselection attributes, the options  have to exist in the class prior to the import, could it be possible to modify the class, creating/modifying options on the fly while importing datas?&#13;
+&#13;
+I know it can be coded in the handler but as far as there are a lot of interesting sqliimport classes, is it already planned somewhere (and i missed it), the general purpose being to allow imports to modify content class on the fly in addition to create/update contents? &#13;
+&#13;
+I think dealing with options and its multilingual versions can be tricky too..&#13;
+&#13;
+Gwen</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/ezselection_import_content_class</guid>
+      <pubDate>Fri, 26 Aug 2011 09:26:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Import images from an URL ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/import_images_from_an_url</link>
+      <description>Hi,&#13;
+I would like to import images from another server. I have an URL to do this but it doesn't work. For the moment, I copy the images on my server and I give the local path to my script.&#13;
+&lt;code&gt;&#13;
+$contentOptionsImage = new SQLIContentOptions( array(&#13;
+	            	'class_identifier'      =&gt; 'image',&#13;
+	            	'remote_id' =&gt; md5($pathtoimage)&#13;
+		        ) );&#13;
+$contentImage = SQLIContent::create( $contentOptionsImage );&#13;
+$contentImage-&gt;addLocation( $folderLocation );	&#13;
+&#13;
+$contentImage-&gt;fields-&gt;name = $row-&gt;title;      	&#13;
+$contentImage-&gt;fields-&gt;image = "/data/http/my_site/extension/sqliimport/".$pathtoimage;&#13;
+&#13;
+$publisher = SQLIContentPublisher::getInstance();&#13;
+$publisher-&gt;publish( $contentImage );	    &#13;
+unset( $contentImage );	        &#13;
+&lt;/code&gt;&#13;
+Is it possible to give an URL like this :&#13;
+&lt;code&gt;&#13;
+$contentImage-&gt;fields-&gt;image = "http://www.anothersite.com/".$pathtoimage;&#13;
+&lt;/code&gt;&#13;
+&#13;
+???&#13;
+&#13;
+Thank you</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/import_images_from_an_url</guid>
+      <pubDate>Fri, 19 Aug 2011 08:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Handler for ezcsvexport ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/handler_for_ezcsvexport/re_handler_for_ezcsvexport</link>
+      <description>Hello&#13;
+&#13;
+No, but this could be a nice addition :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/handler_for_ezcsvexport/re_handler_for_ezcsvexport</guid>
+      <pubDate>Wed, 06 Jul 2011 08:30:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Handler for ezcsvexport ?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/handler_for_ezcsvexport</link>
+      <description>Hi,&#13;
+&#13;
+Is there an import handler for a generic ezcsvexport available ?&#13;
+&#13;
+Regards&#13;
+Lazaro</description>
+      <author>community@ez.no (Lazaro Ferreira)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/handler_for_ezcsvexport</guid>
+      <pubDate>Wed, 06 Jul 2011 08:02:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cronjob</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob3</link>
+      <description>Yes I know. The &lt;i&gt;sqliimport_cleanup&lt;/i&gt; is for convenience (when developing).&#13;
+And yes the main one launches the others :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob3</guid>
+      <pubDate>Thu, 09 Jun 2011 13:01:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cronjob</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob2</link>
+      <description>ok, thanks:)&#13;
+There are two different cront parts in the cronjob.ini file of your though, but i guess the first one includes the latter one.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob2</guid>
+      <pubDate>Thu, 09 Jun 2011 12:57:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cronjob</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob</link>
+      <description>Hello&#13;
+&#13;
+My recommendation is to set the cronjob to run every 5 minutes. Then, SQLIImport let you program your imports to be run hourly from the admin interface (scheduled imports). &#13;
+And there is only one cronjob to setup : &lt;b&gt;sqliimport_run&lt;/b&gt;. It will run the cleanup and index_content once the import job done :).</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/cronjob/re_cronjob</guid>
+      <pubDate>Thu, 09 Jun 2011 12:52:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cronjob</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/cronjob</link>
+      <description>Hi.&#13;
+Based on your experience how do you configure your sqliimport_run and sqliimport_cleanup scripts to run?&#13;
+&#13;
+We need to execute one script (scheduled) hourly and this will not be run unless our crontab has been configrued properly i know. Would you recomend that we set the cronjob to run hourly for this to fully work or should it be run somewhat later than the sceduled job, for instance 5 minutes past the hour? If the latter is the case will this make sure that all "pased" scheduled items will be run as well?&#13;
+&#13;
+hope you understand what i am asking you.&#13;
+</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/cronjob</guid>
+      <pubDate>Thu, 09 Jun 2011 12:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sequence</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/sequence/re_sequence2</link>
+      <description>thanks for the answer.&#13;
+That was just what i was looking for!</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/sequence/re_sequence2</guid>
+      <pubDate>Tue, 07 Jun 2011 09:13:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sequence</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/sequence/re_sequence</link>
+      <description>Hi Lars Eirik&#13;
+&#13;
+Yes, the default behaviour is that all imports run sequentially. Parallel import is not implemented (yet)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/sequence/re_sequence</guid>
+      <pubDate>Tue, 07 Jun 2011 07:43:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sequence</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/sequence</link>
+      <description>Hi.&#13;
+One question.&#13;
+We have two different handles that should run, but handler number 2 in the defined sequence in the admin interface should not run in paralell to the number 1. Is this the default behaviour with sqliimport?&#13;
+&#13;
+basically job1 updates lots of fields and job2 depends on the first job to be finished before it starts.</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/sequence</guid>
+      <pubDate>Tue, 07 Jun 2011 07:23:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can i change the log file ERRORLOG_FILE?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/can_i_change_the_log_file_errorlog_file/re_can_i_change_the_log_file_errorlog_file</link>
+      <description>Hello&#13;
+&#13;
+It depends. If it is for internal errors (i.e. parsing exceptions, caught by the import framework and not by your handler), this is not possible.&#13;
+However you can of course write your own logs in your handler via &lt;b&gt;eZLog&lt;/b&gt; :&#13;
+&lt;code&gt;&#13;
+eZLog::write( 'My error message', 'error_2011_05_26.log', 'var/myproject/logs/myimport' );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/can_i_change_the_log_file_errorlog_file/re_can_i_change_the_log_file_errorlog_file</guid>
+      <pubDate>Thu, 26 May 2011 09:49:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can i change the log file ERRORLOG_FILE?</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/can_i_change_the_log_file_errorlog_file</link>
+      <description>Hello,&#13;
+I want to change the location and file name error.&#13;
+example:&#13;
+var / log / sqliimport-error.log to var/myproject/logs/myimport/error_2011_05_26.log&#13;
+Thank you</description>
+      <author>community@ez.no (Anis KOSSENTINI)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/can_i_change_the_log_file_errorlog_file</guid>
+      <pubDate>Thu, 26 May 2011 09:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Import email</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/import_email</link>
+      <description>Has anyone created source and import handlers to import email?  &#13;
+&#13;
+Looking at the ez components code for retrieving mail using IMAP, it doesn't look like it would be too difficult.  Unfortunately I don't know php very well at all so I'm not sure exactly how to go about it, but I would be keen to collaborate with someone on it.</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/import_email</guid>
+      <pubDate>Wed, 12 Jan 2011 17:44:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Generic Import Handler with Mapping Setting...</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file/re_generic_import_handler_with_mapping_setting2</link>
+      <description>Hi Jérôme,&#13;
+&#13;
+Sorry for the long delay in getting back to you on this.  Basically the import handler needs to know four things:&#13;
+&#13;
+1) the xml file to import&#13;
+2) the elements within the xml that represent the "rows" of data that should become ez Content Objects&#13;
+3) which ez Content Class to use to create new Content Objects for each "row"&#13;
+3) how the elements within the "rows" map to the Class Attributes&#13;
+&#13;
+This information could be defined in a settings file, and set using an controls in the admin interface.  This way it would be very easy to import any xml instance.  Just navigate to the file to define the path.  Enter the path to the repeating elements (rows).  Select one of the available content classes. Map row elements to class attributes.  &#13;
+&#13;
+Being able to do this in the admin interface would make it accessible for all the users who don't know PHP and don't want to mess around adding files to the file system.  They could do it all very quickly in the admin interface, just like setting up an RSS import.  Except that you would have the advantage of importing any xml structure.&#13;
+&#13;
+For xml structures that are in a tree hierarcy, the handler code could be recursive, grabbing the rows within rows and creating content objects with a location set to the id of the object created for the parent row.  Users could even set a depth variable to control how deep in the hierarchy the code would run.&#13;
+&#13;
+I hope this clarifies what I had in mind.&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Fraser</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file/re_generic_import_handler_with_mapping_setting2</guid>
+      <pubDate>Wed, 12 Jan 2011 17:39:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Import image in attribute block XML</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/import_image_in_attribute_block_xml</link>
+      <description>Hi, &#13;
+&#13;
+I want to import an HTML code to an attribute Block Xml. The HTML contains several images, like this : &lt;img src="../images/an_image_test.jpg" /&gt;&#13;
+&#13;
+The function SQLIContentUtils::getRichContent() don't allows this, and it delete the img tag.&#13;
+&#13;
+It will be a great if you can integrate this feature in sqliimport.&#13;
+&#13;
+How : &#13;
+    1- Browse the html code, and recover img tags,&#13;
+    2- Creating images in BO&#13;
+    3- Add an attribute id to img tag, like this "eZObject_ [contentobject_id of object image]" OR "eZNode_ [node_id of node image]"&#13;
+&#13;
+TKS</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/import_image_in_attribute_block_xml</guid>
+      <pubDate>Fri, 29 Oct 2010 10:10:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Updating by Node ID and Iterating through f...</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/updating_by_node_id_and_iterating_through_fields/re_updating_by_node_id_and_iterating_through_f</link>
+      <description>Hi Jani&#13;
+&#13;
+&lt;code&gt;&#13;
+- Use the content publisher to modify a specified node by ID&#13;
+&lt;/code&gt;&#13;
+&#13;
+Actually you can initiate an &lt;b&gt;SQLIContent&lt;/b&gt; object from an &lt;i&gt;eZContentObject&lt;/i&gt;, &lt;i&gt;eZContentObjectTreeNode&lt;/i&gt;, a NodeID, a ContentObjectID, and of course a RemoteID.&#13;
+&#13;
+&lt;code&gt;&#13;
+// Assume that $myFetchedNode is an eZContentObjectTreeNode object previously fetched&#13;
+$mySQLIContent = SQLIContent::fromNode( $myFetchedNode );&#13;
+&lt;/code&gt;&#13;
+Et voilà !&#13;
+Take a look in the API doc, you'll see other fromXXX methods ;-)&#13;
+&#13;
+&lt;code&gt;&#13;
+Loop through all the fields of the row and push the to a string for importing&#13;
+&lt;/code&gt;&#13;
+&lt;b&gt;SQLCSVRow&lt;/b&gt; does implement &lt;b&gt;Iterator&lt;/b&gt; interface, so you can smoothly loop against its fields with a &lt;i&gt;foreach&lt;/i&gt; loop :&#13;
+&lt;code&gt;&#13;
+foreach( $myCSVRow as $fieldName =&gt; $field )&#13;
+{&#13;
+    // Do stuffs with your field&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Hope this helps :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/updating_by_node_id_and_iterating_through_fields/re_updating_by_node_id_and_iterating_through_f</guid>
+      <pubDate>Fri, 15 Oct 2010 08:19:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updating by Node ID and Iterating through fields</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/updating_by_node_id_and_iterating_through_fields</link>
+      <description>I had a use case where the CSV row contains a value that that is used to match to a value of a certain attribute (I did this with a normal fetch). I needed to update a matrix in the content object using all the values in the CSV (separate files with different number of columns).&#13;
+&#13;
+I did not find a reasonable method to do the following:&#13;
+&#13;
+ - Use the content publisher to modify a specified node by ID&#13;
+ - Loop through all the fields of the row and push the to a string for importing&#13;
+&#13;
+Should these be possible?</description>
+      <author>community@ez.no (Jani Tarvainen)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/updating_by_node_id_and_iterating_through_fields</guid>
+      <pubDate>Fri, 15 Oct 2010 06:44:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Generic Import Handler with Mapping Setting...</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file/re_generic_import_handler_with_mapping_setting</link>
+      <description>Hi Fraser&#13;
+&#13;
+Your request is interesting, but quite difficult to implement I guess.&#13;
+If I understand you well, you'd like a feature like in &lt;b&gt;data_import&lt;/b&gt;, but more flexible don't you ?&#13;
+&#13;
+I'm not a fan of defining this kind of settings directly in the admin interface. I'd rather prefer to use a config file, where you could do the mapping.&#13;
+Moreover, I'm not sure &lt;i&gt;Xpath&lt;/i&gt; would be the best choice as you can have many issues when your XML has namespaces for example.&#13;
+&#13;
+Your idea is really interesting, but I can hardly imagine how to implement it. Could you precise your need a bit please ? Maybe you already have an idea :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file/re_generic_import_handler_with_mapping_setting</guid>
+      <pubDate>Thu, 14 Oct 2010 07:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generic Import Handler with Mapping Settings File</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file</link>
+      <description>This may be part of the longer term plan but it would be great if it was possible to have a feature in the admin interface where you could create import mapping settings for classes. &#13;
+&#13;
+In the settings one would define:&#13;
+- an existing class (browse to and select)&#13;
+- the location of an xml or csv file (browse to and select)&#13;
+- the path (xpath?) for the xml element(s) which represents the container of what will become a class object&#13;
+- mappings for each class attribute to an xml atomic value (using xpath statement?)&#13;
+&#13;
+Taking it one step further, it would be great if the import could be able to import an xml hierarchy of elements and preserve the hierarchy of the newly created class objects in the node tree.&#13;
+&#13;
+How difficult would this be to implement? Is anything like this planned?&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Fraser&#13;
+&#13;
+</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/generic_import_handler_with_mapping_settings_file</guid>
+      <pubDate>Wed, 13 Oct 2010 22:11:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Resuming after failure</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/resuming_after_failure/re_resuming_after_failure</link>
+      <description>Thanks Nicolas for your feedback :)&#13;
+&#13;
+This is a very interesting idea. I'll think about it for next release (maybe v2)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/resuming_after_failure/re_resuming_after_failure</guid>
+      <pubDate>Tue, 05 Oct 2010 16:10:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resuming after failure</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/resuming_after_failure</link>
+      <description>Not having studied in depth this nice extension, i have noticed that signals (system-level ones) could be intercepted properly, triggering graceful execution terminations. But i wondered whether, in such case of unexpected terminations, say in the context of a regular import, sqliimport would be able to resume an import where it was stopped ?&#13;
+&#13;
+The next challenge ?&#13;
+Cheers,</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/resuming_after_failure</guid>
+      <pubDate>Tue, 05 Oct 2010 16:08:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Dealing with offset</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset/re_dealing_with_offset2</link>
+      <description>Ok, I see.&#13;
+&#13;
+Thank you :)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset/re_dealing_with_offset2</guid>
+      <pubDate>Fri, 10 Sep 2010 15:08:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Dealing with offset</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset/re_dealing_with_offset</link>
+      <description>Hi Matthieu&#13;
+&#13;
+Actually you can do whatever you want ! :)&#13;
+The main thing is to return the right row in &lt;i&gt;getNextRow()&lt;/i&gt;.&#13;
+&#13;
+What you could do is to make your WS calls in &lt;b&gt;getNextRow()&lt;/b&gt;. I guess that you need to fetch your objects by packets don't you ? Well in that case, you'll just need to handle an internal counter to decrement for example. When it comes to 0, you recall your WS with an updated offset, and so on.&#13;
+When you don't have any more objects returned by your WS, just return false as expected.&#13;
+&#13;
+The only remaining point is the row count. Maybe you can have that count with another WS call ?&#13;
+&#13;
+Hope this helps :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset/re_dealing_with_offset</guid>
+      <pubDate>Fri, 10 Sep 2010 13:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dealing with offset</title>
+      <link>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset</link>
+      <description>Hi Jérome,&#13;
+&#13;
+I'm currently investigating sqliimport to see if I can use it to replace a good old synchronisation script. &#13;
+&#13;
+This script synchronize around 50 000 objects in eZ Publish and fetch the objects by calling a webservice several times and each time with a new offset (so that I don't fetch to 50 000 objects in one time).&#13;
+&#13;
+The problem with your source handler is that you need to fetch all the objects in the initialize() method and process them one by one using getNextRow().&#13;
+&#13;
+Is there is solution to avoid fetch all the objects in the initialize() method ?&#13;
+&#13;
+Thanks for your advises&#13;
+Matthieu</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/sqliimport/forum/general/dealing_with_offset</guid>
+      <pubDate>Fri, 10 Sep 2010 11:20:55 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

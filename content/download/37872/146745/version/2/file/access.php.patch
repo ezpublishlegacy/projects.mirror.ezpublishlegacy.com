@@ -1,0 +1,10 @@
+--- access.php	2003-04-24 15:07:44.000000000 +0200
++++ access.php	2003-06-04 00:54:31.000000000 +0200
+@@ -395,6 +395,7 @@
+     if ( $name == '' )
+     {
+         $name = $ini->variable( 'SiteSettings', 'DefaultAccess' );
++	$access['name'] = $name;
+         if ( accessDebugEnabled() )
+             eZDebug::writeDebug( "Using default site access '$name'", 'access.php' );
+     }

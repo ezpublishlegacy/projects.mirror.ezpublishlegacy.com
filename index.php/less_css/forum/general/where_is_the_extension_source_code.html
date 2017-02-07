@@ -1,0 +1,954 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/less_css/forum/general/where_is_the_extension_source_code by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:10:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Where is the extension source code?     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/less_css/forum/general'];
+menu[4] = ['Leaders', '/less_css/team/leaders', 'Members', '/less_css/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../less_css.html" onmouseover="switchSubMenu( this );">Less CSS &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../less_css/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../less_css/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../less_css/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../less_css/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../less_css/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../less_css/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../less_css/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../less_css/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../less_css.html">less_css</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        where is the extension sour...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Where is the extension source code?</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg42864">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/heath.html">// Heath</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/heath/18733-41-eng-GB/heath_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 March 2007</p>
+        <p class="posts">Posts: 92</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 04 October 2011 2:14:02 am</p>
+
+        <div class="attribute-long">Hello Yannick,<br />
+<br />
+Congratulations on your extension. I'm eager to review it.<br />
+<br />
+Yet there are no downloads or source code in svn.<br />
+You do mention github but do not link to your profile or repository.<br />
+<br />
+Could you share a little more specifics about where your extension is hosted?<br />
+<br />
+Thanks again!<br />
+<br />
+Cheers,<br />
+Heath
+</div>
+                    <div class="attribute-signature">
+            <p>Brookins Consulting | <a href="http://brookinsconsulting.com/" title="http://brookinsconsulting.com/">http://brookinsconsulting.com/</a><br />
+Certified | <a href="http://auth.ez.no/certification/verify/380350" title="http://auth.ez.no/certification/verify/380350">http://auth.ez.no/certification/verify/380350</a><br />
+Solutions | <a href="../../../../users/community/brookins_consulting.html" title="http://projects.ez.no/users/community/brookins_consulting">http://projects.ez.no/users/community/brookins_consulting</a><br />
+GitHub | <a href="https://github.com/brookinsconsulting" title="https://github.com/brookinsconsulting">https://github.com/brookinsconsulting</a><br />
+eZpedia community documentation project | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a><br />
+eZecosystem - eZ Publish Planet | <a href="http://ezecosystem.org/" title="http://ezecosystem.org">http://ezecosystem.org</a><br />
+eZPublishLegacy - eZ Publish Release Mirror | <a href="http://ezpublishlegacy.com/" title="http://ezpublishlegacy.com">http://ezpublishlegacy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg42866">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/thomas_zilliox.html">Thomas ZILLIOX</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />10 January 2011</p>
+        <p class="posts">Posts: 4</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 04 October 2011 4:43:26 pm</p>
+
+        <div class="attribute-long">Hi Yannick !<br />
+<br />
+Add Less CSS to eZ Publish is great idea.<br />
+Can wait to try it :)<br />
+<br />
+@Heath : I found the Github repository. <a href="https://github.com/Yannix/less_css" title="https://github.com/Yannix/less_css">https://github.com/Yannix/less_css</a><br />
+<br />
+See you,<br />
+Thomas.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+Freelance web developer</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg42874">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/heath.html">// Heath</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/heath/18733-41-eng-GB/heath_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 March 2007</p>
+        <p class="posts">Posts: 92</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 05 October 2011 5:12:32 am</p>
+
+        <div class="attribute-long">@ Thomas<br />
+<br />
+Ahh, excellent! Thank you for sharing this find :)<br />
+<br />
+@ Yannick<br />
+<br />
+Please consider linking to your github repository within the projects.ez.no project description to help make it simpler for folks to know about this resource directly.<br />
+<br />
+Cheers,<br />
+Heath
+</div>
+                    <div class="attribute-signature">
+            <p>Brookins Consulting | <a href="http://brookinsconsulting.com/" title="http://brookinsconsulting.com/">http://brookinsconsulting.com/</a><br />
+Certified | <a href="http://auth.ez.no/certification/verify/380350" title="http://auth.ez.no/certification/verify/380350">http://auth.ez.no/certification/verify/380350</a><br />
+Solutions | <a href="../../../../users/community/brookins_consulting.html" title="http://projects.ez.no/users/community/brookins_consulting">http://projects.ez.no/users/community/brookins_consulting</a><br />
+GitHub | <a href="https://github.com/brookinsconsulting" title="https://github.com/brookinsconsulting">https://github.com/brookinsconsulting</a><br />
+eZpedia community documentation project | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a><br />
+eZecosystem - eZ Publish Planet | <a href="http://ezecosystem.org/" title="http://ezecosystem.org">http://ezecosystem.org</a><br />
+eZPublishLegacy - eZ Publish Release Mirror | <a href="http://ezpublishlegacy.com/" title="http://ezpublishlegacy.com">http://ezpublishlegacy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg42895">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/yannick_komotir.html">Yannick Komotir</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 May 2008</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 October 2011 4:24:19 pm</p>
+
+        <div class="attribute-long">Sorry for this. I edited the description. <br />
+<br />
+Thank you for the interest.
+</div>
+                    <div class="attribute-signature">
+            <p>----<br />
+Software Engineer | <a href="http://twitter.com/yannixk" title="http://twitter.com/yannixk">http://twitter.com/yannixk</a><br />
+Zend Certified Engineer PHP 5.3 ( <a href="http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017904" title="http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017904">http://www.zend.com/en/store/educ...hp#show-ClientCandidateID=ZEND017904</a> )</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg42896">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/francis_nart.html">francis Nart</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/francis_nart/25998-11-eng-GB/francis_nart_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />16 March 2004</p>
+        <p class="posts">Posts: 4</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 06 October 2011 4:44:01 pm</p>
+
+        <div class="attribute-long">Thanks for that contribution Yannick but in fact there was already an extension here :<br />
+<a href="http://ezless.org/" title="http://ezless.org/">http://ezless.org/</a><br />
+<br />
+And the code on Github as well.<br />
+It woul be better to contribute on the same repository.<br />
+<br />
+Francis.
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg42898">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/heath.html">// Heath</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/heath/18733-41-eng-GB/heath_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 March 2007</p>
+        <p class="posts">Posts: 92</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 07 October 2011 6:24:33 am</p>
+
+        <div class="attribute-long">Wow,<br />
+<br />
+This sure sounds like an excellent opportunity to collaborate together through github and the power of git! I'm interested to see more of that within community projects.<br />
+<br />
+I like the ezless.org site but it's strange that they did not promote it on projects.ez.no, I've never heard of ezless.org until today.<br />
+<br />
+Cheers,<br />
+Heath
+</div>
+                    <div class="attribute-signature">
+            <p>Brookins Consulting | <a href="http://brookinsconsulting.com/" title="http://brookinsconsulting.com/">http://brookinsconsulting.com/</a><br />
+Certified | <a href="http://auth.ez.no/certification/verify/380350" title="http://auth.ez.no/certification/verify/380350">http://auth.ez.no/certification/verify/380350</a><br />
+Solutions | <a href="../../../../users/community/brookins_consulting.html" title="http://projects.ez.no/users/community/brookins_consulting">http://projects.ez.no/users/community/brookins_consulting</a><br />
+GitHub | <a href="https://github.com/brookinsconsulting" title="https://github.com/brookinsconsulting">https://github.com/brookinsconsulting</a><br />
+eZpedia community documentation project | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a><br />
+eZecosystem - eZ Publish Planet | <a href="http://ezecosystem.org/" title="http://ezecosystem.org">http://ezecosystem.org</a><br />
+eZPublishLegacy - eZ Publish Release Mirror | <a href="http://ezpublishlegacy.com/" title="http://ezpublishlegacy.com">http://ezpublishlegacy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg42899">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/nicolas_pastorino.html">Nicolas Pastorino</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 September 2005</p>
+        <p class="posts">Posts: 60</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 07 October 2011 8:59:20 am</p>
+
+        <div class="attribute-long">Hi Yannick, <br />
+<br />
+Francis has a point here. Getting in touch with Philipp Dornauer &amp; Juan Pablo Stumpf  (cf contact info at the end of this page : <a href="http://ezless.org/" title="http://ezless.org/">http://ezless.org/</a> ) and sharing your respective roadmaps could help move faster on this awesome project.<br />
+<br />
+The less projects around one topic, the faster the evolution, the better the end product, the more useful for your customers.<br />
+<br />
+Cheers and keep-up,
+</div>
+                    <div class="attribute-signature">
+            <p>-- <br />
+Nicolas Pastorino<br />
+VP Product, Marketing and Customer Service - TEA - The Ebook Alternative<br />
+<br />
+L: <a href="http://fr.linkedin.com/in/nicolaspastorino" title="http://fr.linkedin.com/in/nicolaspastorino">http://fr.linkedin.com/in/nicolaspastorino</a> <br />
+t : <a href="http://twitter.com/jeanvoye" title="http://twitter.com/jeanvoye">http://twitter.com/jeanvoye</a> <br />
+G+ : <a href="http://google.com/+NicolasPastorino" title="http://google.com/+NicolasPastorino">http://google.com/+NicolasPastorino</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg42902">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/yannick_komotir.html">Yannick Komotir</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 May 2008</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Friday 07 October 2011 2:50:25 pm</p>
+
+        <div class="attribute-long">Hi all,<br />
+<br />
+Like Heath, i didn't see ezless.org before. I will dive into this projects later today. By initiating this project my first goal was to open a door to the community to make it evolve.<br />
+<br />
+I think it is a good idea to promote ezless.org extension since it is much more advanced.<br />
+<br />
+@Nicolas, Should I mark this project like deprecated ? should I drop it ?<br />
+<br />
+<br />
+Thank you Mr Francis for this great information.
+</div>
+                    <div class="attribute-signature">
+            <p>----<br />
+Software Engineer | <a href="http://twitter.com/yannixk" title="http://twitter.com/yannixk">http://twitter.com/yannixk</a><br />
+Zend Certified Engineer PHP 5.3 ( <a href="http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017904" title="http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND017904">http://www.zend.com/en/store/educ...hp#show-ClientCandidateID=ZEND017904</a> )</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg42904">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/heath.html">// Heath</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/heath/18733-41-eng-GB/heath_small.jpg" width="100" height="95"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />04 March 2007</p>
+        <p class="posts">Posts: 92</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 08 October 2011 8:49:36 pm</p>
+
+        <div class="attribute-long">Hello Yannick,<br />
+<br />
+It may sound a bit silly but ...I would (for now) encourage you to keep this project, it's forums and threads (like this one) online and available as a historical reference to these events / extensions / subject.<br />
+<br />
+As it stands now, in part because of your contribution and work here today, people are talking about this subject with renewed interest, also folks are reading this and linking to both extensions (in short people are tweeting about this and linking to your project, re: <a href="http://twitter.com/#!/namestnik_at/statuses/122632406556622848" title="http://twitter.com/#!/namestnik_at/statuses/122632406556622848">http://twitter.com/#!/namestnik_at/statuses/122632406556622848</a> ).<br />
+<br />
+Best to keep those links valid and working (again as an entry point to this subject). This is what projects.ez.no was designed for. Extension collaboration and yes duplication has always been part of the community.<br />
+<br />
+Perhaps the folks at ezless.org can create their own project on projects.ez.no?<br />
+Also I think it would be fine to simply direct folks in your project description to use instead ezless.org as the greater / preferred choice on this subject?<br />
+<br />
+Thanks again for your continued support!<br />
+<br />
+Cheers,<br />
+Heath<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Brookins Consulting | <a href="http://brookinsconsulting.com/" title="http://brookinsconsulting.com/">http://brookinsconsulting.com/</a><br />
+Certified | <a href="http://auth.ez.no/certification/verify/380350" title="http://auth.ez.no/certification/verify/380350">http://auth.ez.no/certification/verify/380350</a><br />
+Solutions | <a href="../../../../users/community/brookins_consulting.html" title="http://projects.ez.no/users/community/brookins_consulting">http://projects.ez.no/users/community/brookins_consulting</a><br />
+GitHub | <a href="https://github.com/brookinsconsulting" title="https://github.com/brookinsconsulting">https://github.com/brookinsconsulting</a><br />
+eZpedia community documentation project | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a><br />
+eZecosystem - eZ Publish Planet | <a href="http://ezecosystem.org/" title="http://ezecosystem.org">http://ezecosystem.org</a><br />
+eZPublishLegacy - eZ Publish Release Mirror | <a href="http://ezpublishlegacy.com/" title="http://ezpublishlegacy.com">http://ezpublishlegacy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg43933">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/phillip_dornauer.html">Phillip Dornauer</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />26 January 2011</p>
+        <p class="posts">Posts: 1</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 22 November 2011 2:40:37 pm</p>
+
+        <div class="attribute-long">Hi folks,<br />
+<br />
+I am Phillip Dornauer, the co-author from ezless.org.<br />
+<br />
+I tried to publish the ezless extension to the projects.ez.no site, but the ez.no authors rejected it because the extension-name starts with &quot;ez&quot;. <br />
+So if you want to hear news about the extension or download / fork the code follow me on twitter (@phillipdornauer) and/or go to the github repo: <a href="https://github.com/phillipdornauer/ezless" title="https://github.com/phillipdornauer/ezless">https://github.com/phillipdornauer/ezless</a><br />
+<br />
+<br />
+kind regards, phillip
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg43934">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/nicolas_pastorino.html">Nicolas Pastorino</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 September 2005</p>
+        <p class="posts">Posts: 60</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 22 November 2011 2:55:27 pm</p>
+
+        <div class="attribute-long">Hi Phillip , <br />
+<br />
+I did not mean to reject ezless, on the contrary : i warmly applaud your initiative and would love to see it listed here.<br />
+<br />
+The only point concerned the naming of the extension : &quot;ezless&quot;. We tend to reserve the&quot;ez&quot; prefix for extensions built by eZ Systems, for clarity, as explained on the project validation page.<br />
+<br />
+But if it feels impossible to rename ezless to something else (like pdless, matching your initials), or if you think it is a bad idea, we can make an exception.<br />
+<br />
+So please : share this wonderful initiative here on projects.ez.no.<br />
+Feel free to contact me directly : nfrp A ez.no<br />
+<br />
+Best,
+</div>
+                    <div class="attribute-signature">
+            <p>-- <br />
+Nicolas Pastorino<br />
+VP Product, Marketing and Customer Service - TEA - The Ebook Alternative<br />
+<br />
+L: <a href="http://fr.linkedin.com/in/nicolaspastorino" title="http://fr.linkedin.com/in/nicolaspastorino">http://fr.linkedin.com/in/nicolaspastorino</a> <br />
+t : <a href="http://twitter.com/jeanvoye" title="http://twitter.com/jeanvoye">http://twitter.com/jeanvoye</a> <br />
+G+ : <a href="http://google.com/+NicolasPastorino" title="http://google.com/+NicolasPastorino">http://google.com/+NicolasPastorino</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/less_css/forum/general/where_is_the_extension_source_code by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 20:10:53 GMT -->
+</html>

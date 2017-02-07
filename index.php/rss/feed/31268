@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_camtasia</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:15:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:15:32 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31268" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ez_camtasia/news/changelog</link>
+      <description>&lt;p&gt;
+27-Jan-2010 &lt;br /&gt;
+ Updated to identify Camtasia content by object attribute id, also builds&lt;br /&gt;
+ HTML for display when the file is stored. &lt;br /&gt;
+ Improved version control.&lt;br /&gt;
+ 3-Feb-2010 &lt;br /&gt;
+ Implemented error handling, if the content can't be extracted from the submitted&lt;br /&gt;
+ file, the error is logged and the content display indicates an error.&lt;br /&gt;
+ &lt;br /&gt;
+ Updated the admin template to allow download of the original zip file. &lt;br /&gt;
+ Version control improved further to allow full version&lt;br /&gt;
+ management.&lt;br /&gt;
+ 2-Mar-2010&lt;br /&gt;
+ Added an embed template (class level) to allow embedding of the video in&lt;br /&gt;
+ XML blocks. Embedded version is 3/4 original size, and displays only&lt;br /&gt;
+ the video, no text or other data. Be sure to update&lt;br /&gt;
+ extension/ezcamtasia/settings/override.ini.append.php to use the&lt;br /&gt; class name you've created.&lt;/p&gt;</description>
+      <author>community@ez.no (Betsy Gamrat)</author>
+      <guid>http://projects.ez.no/ez_camtasia/news/changelog</guid>
+      <pubDate>Fri, 16 Jul 2010 16:18:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcamtasia.tgz</title>
+      <link>http://projects.ez.no/ez_camtasia/downloads/ezcamtasia_tgz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ez_camtasia/downloads/ezcamtasia_tgz</guid>
+      <pubDate>Fri, 16 Jul 2010 16:18:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<templates>
+	<template abbreviation="eZattribute_view_gui" description="attribute_view_gui" context="HTML" code="{attribute_view_gui attribute=$${attribut}}&#10;${END}" isUserTemplate="true"/>
+	<template abbreviation="ezCacheBlock" description="cache-block" context="HTML" code="{cache-block keys=$${keys}}&#10;&#9;${END}&#10;{/cache-block}" isUserTemplate="true"/>
+	<template abbreviation="eZdef" description="def" context="HTML" code="{def $${var}=${value}}&#10;&#9;${END}&#10;{undef $${var}}" isUserTemplate="true"/>
+	<template abbreviation="eZfetch" description="fetch any" context="HTML" code="{let ${var}=fetch('${module}','${type)', hash( &#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;${END}&#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9; )&#10; &#9;&#9;&#9;)&#10;}&#10;&#9;&#10;{/let}&#10; " isUserTemplate="true"/>
+	<template abbreviation="eZfetch_content_list" description="fetch content list" context="HTML" code=" ${bool}=fetch('content','list', hash( &#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;'parent_node_id', $${parent_node_id},&#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;'limit', $${limit},&#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;'offset',$${offset},&#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;'sort_by', $${array_sort}&#10; &#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9; )&#10; &#9;&#9;&#9;)&#10;${END} " isUserTemplate="true"/>
+	<template abbreviation="eZfetch_content_node" description="fetch content node" context="HTML" code="${node}=fetch( 'content', 'node', hash( 'node_id', $${,node_id} ) )&#10;${END}" isUserTemplate="true"/>
+	<template abbreviation="eZforeach" description="foreach" context="HTML" code="{foreach $${list} as $${child}}&#10;&#9;${END}&#10;{/foreach}" isUserTemplate="true"/>
+	<template abbreviation="eZforeachSequence" description="foreach with sequence" context="HTML" code="{foreach $${objects} as $${key}=&gt;$${object} sequence $${array} as $${seq_value}}&#10;&#9;${END}&#10;{/foreach}&#10;" isUserTemplate="true"/>
+	<template abbreviation="eZhref" description="Node href" context="HTML" code="href={$${node}.url_alias|ezurl()}${END}" isUserTemplate="true"/>
+	<template abbreviation="eZhttp" description="ezhttp" context="HTML" code="ezhttp('${name}','${type})${END}" isUserTemplate="true"/>
+	<template abbreviation="eZi18n" description="i18n texte" context="HTML" code="{&quot;${texte}&quot;|i18n(&quot;${path})}${END}" isUserTemplate="true"/>
+	<template abbreviation="eZif" description="if control structure" context="HTML" code="{if ${cond}}&#10;&#9;${END}&#10;{else}&#10;&#9;&#10;{/if}" isUserTemplate="true"/>
+	<template abbreviation="eZimage" description="ezimage" context="HTML" code="&lt;img src={&quot;${image}&quot;|ezimage} /&gt;${END}" isUserTemplate="true"/>
+	<template abbreviation="eZinclude" description="include" context="HTML" code="{include uri='design:${pathToTpl}.tpl'}&#10;${END}" isUserTemplate="true"/>
+	<template abbreviation="eZini" description="ezini" context="HTML" code="ezini('${section}','${variable}','${fichier}.ini')${END}" isUserTemplate="true"/>
+	<template abbreviation="eZlet" description="let" context="HTML" code="{let ${var}=${instruction}}&#10;    ${END}&#10;{/let}" isUserTemplate="true"/>
+	<template abbreviation="eZsection" description="section" context="HTML" code="{section show=$${bool}}&#10;&#9;${END}&#10;{section-else}&#10;&#9;&#10;{/section} " isUserTemplate="true"/>
+	<template abbreviation="eZsectionLoopSequence" description="section with sequence" context="HTML" code="{section var=${child} loop=$${list_items} sequence=${array_sequence}}&#10;&#9;${END}&#10;&#9;{delimiter modulo=$${modulo}}${delimiter}{/delimiter}&#10;{/section}" isUserTemplate="true"/>
+	<template abbreviation="eZsetblock" description="setblock" context="HTML" code="{set-block scope=root variable=cache_ttl}${int_var}{/set-block}&#10;${END}" isUserTemplate="true"/>
+	<template abbreviation="ezSwitch" description="switch control structure" context="HTML" code="{switch match=$${var}}&#10;    {case match=$${value}} &#10;    {case in=$${array}}&#10;    &#9;${END}&#10;    {/case}&#10;    {case}&#10;    &#9;&#10;    {/case}&#10;{/switch}" isUserTemplate="true"/>
+	<template abbreviation="eZwhile" description="while control structure" context="HTML" code="{while ${condition&gt;}}&#10; &#9;${END}&#10;{/while}" isUserTemplate="true"/>
+</templates>

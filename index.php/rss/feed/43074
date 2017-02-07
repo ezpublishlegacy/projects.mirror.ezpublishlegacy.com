@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_captcha / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:21:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:21:36 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43074" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Can we display captcha only for  agiven rol...</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group/re_can_we_display_captcha_only_for_agiven_rol</link>
+      <description>Hi,&#13;
+Actually this functionallity is already implemented. There is "skip roles", for content class captcha attribute.&#13;
+Please checkout the last version from GIT</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group/re_can_we_display_captcha_only_for_agiven_rol</guid>
+      <pubDate>Wed, 21 Mar 2012 08:14:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can we display captcha only for  agiven role/group?</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group</link>
+      <description>It would be nice to eb able to assign a role/group permissions not to need to enter captcha at all...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/can_we_display_captcha_only_for_agiven_role_group</guid>
+      <pubDate>Wed, 14 Mar 2012 17:17:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display7</link>
+      <description>the template in use was extension/ezwebin/design/ezwebin/override/templates/full/feedback_form.tpl template:&#13;
+&#13;
+adding &#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;h4&gt;{$node.data_map.nxc_captcha.contentclass_attribute.name}&lt;/h4&gt;&#13;
+        &lt;div class="attribute-message"&gt;&#13;
+                {attribute_view_gui attribute=$node.data_map.nxc_captcha}&#13;
+        &lt;/div&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+so you create your custom override template to contain captcha attribute code.&#13;
+&#13;
+Many thanks Serhey for your quick responses to my query.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display7</guid>
+      <pubDate>Mon, 27 Feb 2012 21:31:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display6</link>
+      <description>You can select Numeric or Alphabetic captcha type (not Alphanumeric). Also i plan to add exclude characters in the future. Also you can use some custom font.</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display6</guid>
+      <pubDate>Mon, 27 Feb 2012 13:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display5</link>
+      <description>thank you for the template code. It is working. &#13;
+&#13;
+My first two attempts at inputting an alpha-numeric code were incorrect, presumably because several zeros may have been the letter O and vice versa. Do you have any suggestions which would minimise user frustration?</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display5</guid>
+      <pubDate>Mon, 27 Feb 2012 11:18:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display4</link>
+      <description>sent by email</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display4</guid>
+      <pubDate>Mon, 27 Feb 2012 10:36:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display3</link>
+      <description>Captcha template is not included to the feedback form at all. Can you please send me accces to the back end to check feedback class (sd@nxc.no)? </description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display3</guid>
+      <pubDate>Mon, 27 Feb 2012 10:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display2</link>
+      <description>staging site address provided</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display2</guid>
+      <pubDate>Mon, 27 Feb 2012 10:27:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display</link>
+      <description>Hi John,&#13;
+Can you please send an URL to the feedback form, to I be able to test?</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display/re_captcha_does_not_display</guid>
+      <pubDate>Mon, 27 Feb 2012 10:19:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Captcha does not display</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display</link>
+      <description>Installed on eZ Publish Community Project 2011.11, php5 debian squeeze ezwebin theme&#13;
+&#13;
+For information I do not see any sliders, only fields.&#13;
+&#13;
+I do not see the captcha displayed on a feedback form after adding it using the settings in your examples. I have tried both as an Information Collector (example 2 in your Gallery) and not (Example 1).&#13;
+&#13;
+The feedback form displays neither the captcha code nor its input field. &#13;
+&#13;
+The template the ezwebin_site feedback form uses is /node/view/full.tpl&#13;
+&#13;
+I have not made any changes to templates. &#13;
+&#13;
+I have cleared site cache, browser cache, republished the feedback form, and also tried viewing in a different browser. I am not logged in to the front end. Editing the contact form object in the back end displays "Secure code is allready entered" which is OK as Administrator and named Administrator are excluded.&#13;
+&#13;
+Attempting to submit a form in the front end without the Captcha displayed produces a NXC Security token missing error.&#13;
+&#13;
+Do you have any suggestions on what to try and which is the correct setting for Information Collection?&#13;
+&#13;
+Thank you in anticipation of your help and for producing an important contribution.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/captcha_does_not_display</guid>
+      <pubDate>Mon, 27 Feb 2012 10:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot2</link>
+      <description>Hello Serhey,&#13;
+&#13;
+Fantastic!&#13;
+&#13;
+Great screenshots :)&#13;
+&#13;
+Thanks again&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot2</guid>
+      <pubDate>Fri, 28 Oct 2011 13:23:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot</link>
+      <description>Hi Heath,&#13;
+I`ve uploaded a couple of exmaples at http://projects.ez.no/nxc_captcha/gallery/exmaples&#13;
+Thanks for your advice!</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot/re_request_for_user_siteaccess_screenshot</guid>
+      <pubDate>Fri, 28 Oct 2011 08:13:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Request for user siteaccess screenshot</title>
+      <link>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot</link>
+      <description>Hello Serhey,&#13;
+&#13;
+Congratulations on your recent project release.&#13;
+&#13;
+One request came to mind when reading the project description and release article.&#13;
+&#13;
+Could you publish screenshot(s) of the captcha in action on a user siteaccess.&#13;
+&#13;
+I'm curious just how all this looks when presented to the users viewing the site.&#13;
+&#13;
+I also think having these kinds of screenshots can also help encourage use of your extension as simple examples of usage seem to help convince new users to try your extension.&#13;
+&#13;
+Thank again&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/nxc_captcha/forum/general/request_for_user_siteaccess_screenshot</guid>
+      <pubDate>Thu, 27 Oct 2011 20:03:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

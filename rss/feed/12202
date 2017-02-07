@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezmultiupload</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:45:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:45:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12202" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/d48400f4f3d02fb5fd4a795223ea1bc0fa139130</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-26870: Upgrade ezmultiupload to YUI 3 (#16)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/d48400f4f3d02fb5fd4a795223ea1bc0fa139130</guid>
+      <pubDate>Wed, 25 Jan 2017 10:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/97c87561d1ca6658a448ba0fa4caa2df86c54371</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/97c87561d1ca6658a448ba0fa4caa2df86c54371</guid>
+      <pubDate>Mon, 03 Nov 2014 14:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/af27089284e974f771b71faea476c4fb6d8147e9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/af27089284e974f771b71faea476c4fb6d8147e9</guid>
+      <pubDate>Thu, 15 May 2014 09:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/caed2c0174d0a753925034875f40d7933787a25d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/caed2c0174d0a753925034875f40d7933787a25d</guid>
+      <pubDate>Tue, 13 May 2014 21:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/831f20c9dd95661af4fe1c7e448872818980763e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Handled asynchronous publishing
+
+Fixes EZP-22641
+
+Enables asynchronous publishing in ezmultiupload/upload.php
+
+If the uploaded content's publishing workflow is interrupted,
+either because of approval, asynchronous publishing, or any
+interruption based workflow, there is no node to run node_view_gui on.
+
+If the object has a node, a link to the main node will be used. If it
+doesn't, no link will be made.
+
+Existing overrides of node/view/line_thumbnail.tpl must be updated
+to override content/view/line_thumnail.tpl instead.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/831f20c9dd95661af4fe1c7e448872818980763e</guid>
+      <pubDate>Wed, 23 Apr 2014 10:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/6e93798fd156dc13f37ad9f086c2bbf6d154569c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from ezsystems/EZP-22641-async_publishing
+
+Fixed asynchronous publishing  handling&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/6e93798fd156dc13f37ad9f086c2bbf6d154569c</guid>
+      <pubDate>Wed, 23 Apr 2014 10:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: File Order</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/file_order/re_file_order</link>
+      <description>Hello,&#13;
+&#13;
+I've got the same question as Richard...3 years after! ;)&#13;
+Is anybody have the answer?&#13;
+&#13;
+I don't want to fix it by the template because in eZ 5, the separation between display and model is more advanced.&#13;
+&#13;
+Thanks by advance</description>
+      <author>community@ez.no (Marc Bruschera)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/file_order/re_file_order</guid>
+      <pubDate>Mon, 03 Feb 2014 15:23:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: File Order</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/82a69fa4938b650f76d89d3f64d37fd308f2c644</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from Heliopsis-HQ/ext-name-config
+
+EZP-22038 : Allow alternative legacy extension name in package configuration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/82a69fa4938b650f76d89d3f64d37fd308f2c644</guid>
+      <pubDate>Mon, 02 Dec 2013 14:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: File Order</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/fee71477804b7b33898c4029988f74fbfa36c89f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Configure extension name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/fee71477804b7b33898c4029988f74fbfa36c89f</guid>
+      <pubDate>Mon, 02 Dec 2013 14:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not working with 4.2.0</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/not_working_with_4_2_0/re_not_working_with_4_2_04</link>
+      <description>Hi guys, &#13;
+&#13;
+No One has solved this issue ?&#13;
+&#13;
+I also turned off my PreViewCache but it still is not working!&#13;
+Anyone has a better solution ? what if I upgrade my ezPublish to 4.3 ?</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/not_working_with_4_2_0/re_not_working_with_4_2_04</guid>
+      <pubDate>Mon, 24 Jun 2013 11:27:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/only_one_image_uploaded</link>
+      <description>Hi,&#13;
+&#13;
+My ezmultiupload extension is not working in our Live system.&#13;
+&#13;
+I Select some photos, and click OK then the progress bar fills one by one for all photos but just one of the photos are uploaded correctly and immediately after uploading is finished I would be Logged out from Admin side.&#13;
+&#13;
+I got Nothing in eZ Publish and PHP Error Log.&#13;
+ &#13;
+&#13;
+Any help?</description>
+      <author>community@ez.no (Amir Koklan)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/only_one_image_uploaded</guid>
+      <pubDate>Wed, 12 Jun 2013 13:37:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/74bb277895c65e4d07f966f0177a96b1a75a1760</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/74bb277895c65e4d07f966f0177a96b1a75a1760</guid>
+      <pubDate>Fri, 07 Jun 2013 10:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/734376bf150d1a6b2580013c6d387ec64f29f1f0</link>
+      <description>
+      &lt;pre&gt;+ translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Created italian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/734376bf150d1a6b2580013c6d387ec64f29f1f0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/0868fbcce9c7ba5e51bb0a051f127cebba6df392</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezmultiupload.js
+m design/standard/stylesheets/ezmultiupload.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #18853: Hovering on multiupload file in IE makes them disapear&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/0868fbcce9c7ba5e51bb0a051f127cebba6df392</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/4530df028abdf6dc3177ae0a80068724cad5c389</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/ezmultiupload/upload.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CS: use of Unix end of line&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/4530df028abdf6dc3177ae0a80068724cad5c389</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/6fde0ff280dbbc6a61283170d95d141abbf9ff2a</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/ezmultiupload/upload.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added form token support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/6fde0ff280dbbc6a61283170d95d141abbf9ff2a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/dd9befa742a5901dc277015b10f03a69bdf3056c</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from daisiez/master
+
+Untitled&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/dd9befa742a5901dc277015b10f03a69bdf3056c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/5ab3f1a85c91db6d55f733165be6888c96c9f0e0</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
++ translations/por-BR/translation.ts~
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finalized pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/5ab3f1a85c91db6d55f733165be6888c96c9f0e0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/15f7415aadb48b42ccdb3d0c4a8ee4ba95af91a4</link>
+      <description>
+      &lt;pre&gt;m design/admin/ezmultiupload/upload.tpl
+m design/standard/templates/node/ezmucontextmenu.tpl
+m design/standard/templates/node/ezmusubitemscontextmenu.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from jdespatis/clean-wrappers
+
+Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/15f7415aadb48b42ccdb3d0c4a8ee4ba95af91a4</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/44fb58e48ce2b8b6ae5982a661bf6243af344d43</link>
+      <description>
+      &lt;pre&gt;m design/admin/ezmultiupload/upload.tpl
+m design/standard/templates/node/ezmucontextmenu.tpl
+m design/standard/templates/node/ezmusubitemscontextmenu.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/44fb58e48ce2b8b6ae5982a661bf6243af344d43</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/f9ba39d27235f8dc45fad0b044f45477584d2bde</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from emodric/cro_HR
+
+Croatian translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/f9ba39d27235f8dc45fad0b044f45477584d2bde</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/6dc57034cc1d161387d121a57a3a1b592187600b</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/6dc57034cc1d161387d121a57a3a1b592187600b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/a7bac61b71601775487657c81464172294e62c5f</link>
+      <description>
+      &lt;pre&gt;+ translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from netbliss/master
+
+Translated in italian - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/a7bac61b71601775487657c81464172294e62c5f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/261a932f8dc9e316a851e99b0d666c37913802f2</link>
+      <description>
+      &lt;pre&gt;m settings/ezmultiupload.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed EZPNEXT-538 ezdemodesign: Improve out of the box default settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/261a932f8dc9e316a851e99b0d666c37913802f2</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/545bbc26d5dd7e939384cc1f5d40c61b7dd5ff46</link>
+      <description>
+      &lt;pre&gt;m classes/ezmultiuploadhandler.php
+m classes/ezmultiuploadhandlerinterface.php
+m extension.xml
+m ezinfo.php
+m modules/ezmultiupload/module.php
+m modules/ezmultiupload/upload.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/545bbc26d5dd7e939384cc1f5d40c61b7dd5ff46</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/30267547e7c3edc50424eb8243660ee8da6b5abc</link>
+      <description>
+      &lt;pre&gt;+ translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from thiagocamposviana/master
+
+finalized pt-BR translation - 4.7 translation sprint&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/30267547e7c3edc50424eb8243660ee8da6b5abc</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/3788941650b69bd6cccc857d9c5e2192b0baba0b</link>
+      <description>
+      &lt;pre&gt;- translations/por-BR/translation.ts~
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finalized pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/3788941650b69bd6cccc857d9c5e2192b0baba0b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/4804d364ce3dc5c43d76109145ef38e3fb0d24e5</link>
+      <description>
+      &lt;pre&gt;m classes/ezmultiuploadhandler.php
+m classes/ezmultiuploadhandlerinterface.php
+m extension.xml
+m modules/ezmultiupload/module.php
+m modules/ezmultiupload/upload.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/4804d364ce3dc5c43d76109145ef38e3fb0d24e5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/654609e2cd03b333f71fc07ea659f9bba4ec0bb3</link>
+      <description>
+      &lt;pre&gt;m design/admin/ezmultiupload/upload.tpl
+m design/standard/templates/ezmultiupload/upload.tpl
+m modules/ezmultiupload/upload.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed: use of user session hash which doesn't exist anymore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/654609e2cd03b333f71fc07ea659f9bba4ec0bb3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/069f825222771bab06864fe9b36ccd0719092aff</link>
+      <description>
+      &lt;pre&gt;- ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove ezinfo.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/069f825222771bab06864fe9b36ccd0719092aff</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/89c4440c9f189b9cab654fc78c11222090ae0e0b</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/89c4440c9f189b9cab654fc78c11222090ae0e0b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one image uploaded</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/44f4f6c4ebb452dbe59c213509bc555d1e2e2391</link>
+      <description>
+      &lt;pre&gt;m design/standard/override/templates/line_thumbnail/image.tpl
+m design/standard/stylesheets/ezmultiupload.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed display issue of image thumbnails after uploading&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/44f4f6c4ebb452dbe59c213509bc555d1e2e2391</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adding meta data to all uploaded files during upload</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/adding_meta_data_to_all_uploaded_files_during_upload</link>
+      <description>Has anyone tried to add batch tagging or adding attributes during upload?&#13;
+&#13;
+What I think of is a block with various fields (text, ez tags, dropdowns) right on the multiupload page. &#13;
+First you enter your metadata, then you select the files. During upload, while the objects are created, all meta data is added to the objects (given the upload content classes have such meta data attributes) &#13;
+&#13;
+Jens</description>
+      <author>community@ez.no (Jens Doka)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/adding_meta_data_to_all_uploaded_files_during_upload</guid>
+      <pubDate>Thu, 10 Nov 2011 17:53:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Ez multiupload will make the whole site busy</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/ez_multiupload_will_make_the_whole_site_busy/re_ez_multiupload_will_make_the_whole_site_busy</link>
+      <description>Hi Luis,&#13;
+&#13;
+What would be really handy is if you gave us the specs of your setup:&#13;
+&#13;
+- version of eZ&#13;
+- version of ezmultiupload&#13;
+- type of webserver (e.g Apache v 2.2.17)&#13;
+- version of imagemajick&#13;
+&#13;
+And also what exactly you mean by "crazy". If you're using Unix/Linux and Apache paste the output of:&#13;
+&#13;
+&lt;code&gt;&#13;
+#&gt; ps aux | grep httpd&#13;
+&lt;/code&gt;&#13;
+&#13;
+What may also prove useful is telling us how big the file was you were trying to upload? If it was straight out of a digital camera or phone, it is likely to be many MB in size and you may observe the kinds of behaviour you describe.&#13;
+&#13;
+Cheers&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/ez_multiupload_will_make_the_whole_site_busy/re_ez_multiupload_will_make_the_whole_site_busy</guid>
+      <pubDate>Wed, 19 Oct 2011 19:44:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ez multiupload will make the whole site busy</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/ez_multiupload_will_make_the_whole_site_busy</link>
+      <description>Hi. After uploading pictures with EZ Multiupload server resoruces will go crazy big. The task of uploading pictures makes the server simply unaccessible. what could be wrong?&#13;
+&#13;
+Could it be Imagemagik or some other sort of issue or bug realted to mysql and the way EZ Multiupload indexes or rearranges different sizes of pictures everything at the same time?&#13;
+&#13;
+Hope for help.</description>
+      <author>community@ez.no (Luis D Garcia)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/ez_multiupload_will_make_the_whole_site_busy</guid>
+      <pubDate>Wed, 19 Oct 2011 02:04:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not working with 4.2.0</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/not_working_with_4_2_0/re_not_working_with_4_2_03</link>
+      <description>Hi,&#13;
+&#13;
+Got the same problem now. I never had trouble with this on 4.2 but now, impossible to upload first image. The progress bar is at 100% and stay fixed, no thumbnails appears.&#13;
+&#13;
+As it was working before, I think I've done an incompatible thing while developping.</description>
+      <author>community@ez.no (Thibaut Marin-Cudraz)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/not_working_with_4_2_0/re_not_working_with_4_2_03</guid>
+      <pubDate>Mon, 16 May 2011 07:56:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modify existing files</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/modify_existing_files</link>
+      <description>My question is:&#13;
+If I upload one file called "File1.pdf" in one location and then I upload the same file in the same location this extension create new object for each file. &#13;
+&#13;
+Extension can detect that a file exists with the same name and change it?&#13;
+&#13;
+Thanks!</description>
+      <author>community@ez.no (montse ortega)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/modify_existing_files</guid>
+      <pubDate>Thu, 12 May 2011 07:44:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>File Order</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/file_order</link>
+      <description>When selecting multiple files, the order seems to be completely random, certainly not in the same sort order as the folder from where they are selected. Is there a way to determine the sort order of the upload, or do I need to fix it in the display template?</description>
+      <author>community@ez.no (Richard Lundberg)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/file_order</guid>
+      <pubDate>Tue, 22 Feb 2011 12:27:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Uploading different filetypes</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes/re_uploading_different_filetypes2</link>
+      <description>Perfect, thanks.&#13;
+&#13;
+For reference in upload.ini.append.php in the ezmultiupload extension I added&#13;
+&#13;
+&lt;code&gt;&#13;
+[CreateSettings]&#13;
+MimeClassMap[video/x-flv]=flash_player&#13;
+&#13;
+[flash_player_ClassSettings]&#13;
+FileAttribute=file&#13;
+NameAttribute=name&#13;
+NamePattern=&lt;original_filename_base&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+</description>
+      <author>community@ez.no (Richard Lundberg)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes/re_uploading_different_filetypes2</guid>
+      <pubDate>Tue, 22 Feb 2011 11:32:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Uploading different filetypes</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes/re_uploading_different_filetypes</link>
+      <description>Hi Richard,&#13;
+&#13;
+I think you need to override upload.ini to map mime type with your class. Take a look on CreateSettings section in upload.ini within eZ Publish settings folder.</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes/re_uploading_different_filetypes</guid>
+      <pubDate>Mon, 21 Feb 2011 12:54:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uploading different filetypes</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes</link>
+      <description>Hi,&#13;
+&#13;
+In a site I have developed, I have created a new class called Video, (which is essentially copied from the Flash Player from ezflow extension). The class simply has a Title (Text line), description (xml block) and the video file (Media : Flash)&#13;
+&#13;
+I have been trying to adapt the multiupload extension so that one can upload multiple video files at one.&#13;
+&#13;
+I have created a container class for the videos called video gallery, I have added the following to ezmultiupload.ini&#13;
+&#13;
+&lt;code&gt;&#13;
+[MultiUploadSettings]&#13;
+AvailableClasses[]&#13;
+AvailableClasses[]=video_gallery&#13;
+&#13;
+[FileTypeSettings_video_gallery]&#13;
+FileType[]&#13;
+FileType[]=*.flv&#13;
+&lt;/code&gt;&#13;
+&#13;
+when I inniciated an upload from the "video gallery", the videos are uploaded in class "file" How can I change things so that the content class added is "video"&#13;
+&#13;
+</description>
+      <author>community@ez.no (Richard Lundberg)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/uploading_different_filetypes</guid>
+      <pubDate>Mon, 21 Feb 2011 12:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload datatype</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/ezmultiupload_datatype</link>
+      <description>hi. &#13;
+One feature our customers would like is to have the possibility of using ezmultiupload for relate new objects to a given one. &#13;
+&#13;
+I mean, suppose you have an article with an object relation list datatype. it should be cool having a view for this object relation allowing upload some files from there and automatically relate them to the edited object. &#13;
+&#13;
+what do you think?</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/ezmultiupload_datatype</guid>
+      <pubDate>Tue, 23 Nov 2010 19:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload rev. 113 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/113</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/113</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestion of extension merge</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/suggestion_of_extension_merge/re_suggestion_of_extension_merge</link>
+      <description>Hi,&#13;
+&#13;
+Yes, we are planning to add plupload support under this extension name. It should  be available with the next major eZ Publish release.&#13;
+&#13;
+Ł.</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/suggestion_of_extension_merge/re_suggestion_of_extension_merge</guid>
+      <pubDate>Tue, 19 Oct 2010 09:23:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suggestion of extension merge</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/suggestion_of_extension_merge</link>
+      <description>Hi&#13;
+&#13;
+It would be nice to merge your extension and plupload extension so that it would be possible to upload large files (without server limit).&#13;
+&#13;
+Plupload extension is working great, and is very usefull when you need to upload large files (100-500XX MB)&#13;
+&#13;
+Best regards,&#13;
+Sinisa</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/suggestion_of_extension_merge</guid>
+      <pubDate>Tue, 19 Oct 2010 09:13:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload 1.3.0</title>
+      <link>http://projects.ez.no/ezmultiupload/downloads/ezmultiupload_1_3_0</link>
+      <description>&lt;p&gt;Version bundled with eZ Publish 4.4&lt;/p&gt;&lt;p&gt;New:&lt;/p&gt;&lt;p&gt;- Uses ezjscore which contains updated YUI 2.x, so you should make sure you have latest version of ezjscore as well.&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezmultiupload/downloads/ezmultiupload_1_3_0</guid>
+      <pubDate>Mon, 18 Oct 2010 11:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload rev. 112 by André R</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/112</link>
+      <description>- Change use of old templateInit()/ezi18n() api and use class based api's introduced in 4.3 instead</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/112</guid>
+      <pubDate>Wed, 13 Oct 2010 14:40:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload rev. 111 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/111</link>
+      <description>- Created stable 1.2 branch
+- Created 1.2.0 tag
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/111</guid>
+      <pubDate>Mon, 11 Oct 2010 19:20:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>CSS suggestion</title>
+      <link>http://projects.ez.no/ezmultiupload/forum/general/css_suggestion</link>
+      <description>Great extension, makes life a lot easier. I notice it inherits the text-align: left from the page div in a default install. Without this (if you're building a new style etc), the button doesn't align with the flash overlay so clicking the button does nothing. Maybe add the style into the extension.</description>
+      <author>community@ez.no (Jon  Staines)</author>
+      <guid>http://projects.ez.no/ezmultiupload/forum/general/css_suggestion</guid>
+      <pubDate>Wed, 06 Oct 2010 15:24:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmultiupload rev. 110 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezmultiupload/subversion/110</link>
+      <description>- Created version 1.3.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezmultiupload/subversion/110</guid>
+      <pubDate>Thu, 30 Sep 2010 12:00:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

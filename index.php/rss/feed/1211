@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezxajax / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:08 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1211" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>As easy to use that it is powerful !!!</title>
+      <link>http://projects.ez.no/ezxajax/reviews/as_easy_to_use_that_it_is_powerful</link>
+      <description>A very useful extension, that really worth a try...</description>
+      <author>community@ez.no (Hakim Bouras)</author>
+      <guid>http://projects.ez.no/ezxajax/reviews/as_easy_to_use_that_it_is_powerful</guid>
+      <pubDate>Thu, 17 Apr 2008 13:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very useful extension</title>
+      <link>http://projects.ez.no/ezxajax/reviews/very_useful_extension</link>
+      <description>Thanks to Kristof and Felix</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ezxajax/reviews/very_useful_extension</guid>
+      <pubDate>Sun, 06 Apr 2008 19:09:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Excellent</title>
+      <link>http://projects.ez.no/ezxajax/reviews/excellent</link>
+      <description>Simply way to add ajax functionality to eZ publish.  Depending on what you want to do you might not even have to write a line of javascript!</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezxajax/reviews/excellent</guid>
+      <pubDate>Wed, 27 Feb 2008 02:22:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missing php closing brachets</title>
+      <link>http://projects.ez.no/ezxajax/reviews/missing_php_closing_brachets</link>
+      <description>Most of the php files in this directory lib/xajax/xajax_core/ don't have closing brachets.</description>
+      <author>community@ez.no (Fátima Chapri)</author>
+      <guid>http://projects.ez.no/ezxajax/reviews/missing_php_closing_brachets</guid>
+      <pubDate>Tue, 22 Jan 2008 20:02:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

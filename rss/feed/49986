@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / lisshippingcosts</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:26:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:26:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/49986" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Shop shippingcost support</title>
+      <link>http://projects.ez.no/lisshippingcosts/forum/general/ez_shop_shippingcost_support</link>
+      <description>Not complaining about your workflow solution, which probably works. I'm just informing you that the eZ Shop actually have support for adding shipping cost handlers in the system.&#13;
+&#13;
+You set it up something like this:&#13;
+&#13;
+shop.ini:&#13;
+&#13;
+&lt;code&gt;&#13;
+[ShippingSettings]&#13;
+Handler=standard&#13;
+ExtensionDirectories[]=my_extension&#13;
+&lt;/code&gt;&#13;
+&#13;
+extension/my_extension/shippinghandlers/standardshippinghandler.php:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+&#13;
+class StandardShippingHandler&#13;
+{&#13;
+    function getShippingInfo( $productCollectionID )&#13;
+    {&#13;
+        ...&#13;
+        // Set up shipping cost code&#13;
+        ...&#13;
+&#13;
+        return array(&#13;
+        'description' =&gt; ezi18n( '/shop/gyldendal', 'Postage' ),&#13;
+        'cost' =&gt; $cost,&#13;
+        'management_link' =&gt; '/shop/basket/', // dummy&#13;
+        'vat_value' =&gt; 0,&#13;
+        'is_vat_inc' =&gt; 1&#13;
+        );&#13;
+    }&#13;
+&#13;
+    function purgeShippingInfo( $productCollectionID )&#13;
+    {&#13;
+    }&#13;
+&#13;
+    function updateShippingInfo( $productCollectionID )&#13;
+    {&#13;
+    }&#13;
+}&#13;
+&#13;
+?&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Arne Bakkebo)</author>
+      <guid>http://projects.ez.no/lisshippingcosts/forum/general/ez_shop_shippingcost_support</guid>
+      <pubDate>Fri, 03 May 2013 12:02:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Shop shippingcost support</title>
+      <link>http://projects.ez.no/lisshippingcosts/source/4b47c181dacfd365daab9d6f45b1a5c362eca93a</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
++ LICENSE
+m README.md
++ doc/README.txt
++ eventtypes/event/lisshippingcosts/lisshippingcoststype.php
++ ezinfo.php
++ settings/lisshippingcosts.ini
++ settings/workflow.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lisshippingcosts/source/4b47c181dacfd365daab9d6f45b1a5c362eca93a</guid>
+      <pubDate>Fri, 03 May 2013 04:03:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Shop shippingcost support</title>
+      <link>http://projects.ez.no/lisshippingcosts/source/2ba40aab7d3bfe2397f31545419bc27eae9ed0a2</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lisshippingcosts/source/2ba40aab7d3bfe2397f31545419bc27eae9ed0a2</guid>
+      <pubDate>Fri, 03 May 2013 04:03:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

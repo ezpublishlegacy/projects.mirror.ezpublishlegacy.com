@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezclasslists / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:34:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:34:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1053" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release of eZ Class Lists 1.2</title>
+      <link>http://projects.ez.no/ezclasslists/news/release_of_ez_class_lists_1_2</link>
+      <description>&lt;p&gt;I've just released &lt;a href="http://projects.ez.no/ezclasslists/downloads/ez_class_lists_1_2" target="_self"&gt;eZ Class Lists 1.2&lt;/a&gt;. The main point of this new version is the fix of &lt;a href="http://share.ez.no/forums/extensions/ez-classlists-and-ez-4.5" target="_self"&gt;a fatal error with eZ Publish 4.5&lt;/a&gt; (and all community versions). This version also brings a better integration with the admin2 design and brings back the AJAX loading of the object lists which had been broken for a while...&lt;/p&gt;&lt;p&gt;For those who don't know &lt;a href="http://projects.ez.no/ezclasslists" target="_self"&gt;eZ Class Lists&lt;/a&gt;, it's an eZ Publish extension that adds a new tab in the admin interface where you can list objects by type (content class) instead of using the content tree.&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezclasslists/news/release_of_ez_class_lists_1_2</guid>
+      <pubDate>Wed, 22 Jun 2011 20:56:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release of eZ Class Lists 1.1</title>
+      <link>http://projects.ez.no/ezclasslists/news/release_of_ez_class_lists_1_1</link>
+      <description>&lt;p&gt;This new version adds a better integration with the eZ Publish admin interface with &lt;a href="http://projects.ez.no/ezclasslists/gallery/new_features_of_1_1/link_in_popup_menu" target="_self"&gt;a new entry in the popup menu of the full view of nodes&lt;/a&gt; and &lt;a href="http://projects.ez.no/ezclasslists/gallery/new_features_of_1_1/link_in_class_view" target="_self"&gt;a link on objects count in class/view&lt;/a&gt;. Those ideas are taken from &lt;a href="http://issues.ez.no/14990" target="_self"&gt;enhancement requests #14990&lt;/a&gt; by &lt;a href="http://gggeek.altervista.org/" target="_self"&gt;Gaetano&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="http://projects.ez.no/ezclasslists/downloads/ez_class_lists_1_1" target="_self"&gt;Download eZ Class Lists 1.1&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezclasslists/news/release_of_ez_class_lists_1_1</guid>
+      <pubDate>Sat, 30 May 2009 15:43:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ntags / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17623" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Beta release 1.2</title>
+      <link>http://projects.ez.no/ntags/downloads/beta_release_1_2</link>
+      <description>&lt;a name="eztoc221275_1" id="eztoc221275_1"&gt;&lt;/a&gt;&lt;h2&gt;What's new&lt;/h2&gt;&lt;p&gt;This release revamps multitagging and editing predefined tags in order to work with the "admin2" interface in eZ Publish 4.3 and later. It also includes bug fixes following production experience.&lt;/p&gt;&lt;a name="eztoc221275_2" id="eztoc221275_2"&gt;&lt;/a&gt;&lt;h2&gt;Install notes&amp;nbsp;&lt;/h2&gt;&lt;p&gt;Read the README file when installing or upgrading. Most sites can simply drop in the new files, but you may need to add new permissions.&lt;/p&gt;&lt;a name="eztoc221275_3" id="eztoc221275_3"&gt;&lt;/a&gt;&lt;h2&gt;Known issues:&amp;nbsp;&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;The multitag utility allows tagging objects the user does not own.&lt;/li&gt;
+
+&lt;li&gt;The Tags top-menu item requires "ntags/multitag" permissions to display.&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/downloads/beta_release_1_2</guid>
+      <pubDate>Thu, 09 Feb 2012 22:48:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha release 0.2</title>
+      <link>http://projects.ez.no/ntags/downloads/alpha_release_0_2</link>
+      <description>&lt;p&gt;This release adds support for tag filtering in the admin GUI.&lt;/p&gt;&lt;a name="eztoc78330_1" id="eztoc78330_1"&gt;&lt;/a&gt;&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;The multitagging function (multitag_ajax) does not check permissions for the tagged object. I have not yet figured out how to do this check.&lt;/li&gt;
+
+&lt;li&gt;There are HTML errors in the view ntags/taglist.&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/downloads/alpha_release_0_2</guid>
+      <pubDate>Mon, 27 Jul 2009 13:16:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha release 0.1.2</title>
+      <link>http://projects.ez.no/ntags/downloads/alpha_release_0_1_2</link>
+      <description>&lt;p&gt;This release fixes some non-externalized strings in multitagging view.&lt;/p&gt;</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/downloads/alpha_release_0_1_2</guid>
+      <pubDate>Fri, 24 Jul 2009 14:28:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha release 0.1.1</title>
+      <link>http://projects.ez.no/ntags/downloads/alpha_release_0_1_1</link>
+      <description>&lt;p&gt;This release removes some superfluous files and adds some missing translations.&lt;/p&gt;</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/downloads/alpha_release_0_1_1</guid>
+      <pubDate>Fri, 24 Jul 2009 07:23:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alpha release 0.1</title>
+      <link>http://projects.ez.no/ntags/downloads/alpha_release_0_1</link>
+      <description>&lt;p&gt;This version contains the most important functionality for predefining tags and individual and mass tagging. It does not support multitag permissions on individual nodes.&lt;/p&gt;&lt;a name="eztoc78092_1" id="eztoc78092_1"&gt;&lt;/a&gt;&lt;h2&gt;Tagging GUI&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Checkboxes for predefined tags and free-tagging field automatically fill in attribute field using JavaScript&lt;/li&gt;
+
+&lt;li&gt;Mass add/remove tags using AJAX GUI&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;a name="eztoc78092_2" id="eztoc78092_2"&gt;&lt;/a&gt;&lt;h2&gt;GUI for editing predefined tags&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Top menu tab&lt;/li&gt;
+
+&lt;li&gt;Add/delete predefined tags&lt;/li&gt;
+
+&lt;li&gt;Reorder using AJAX&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;a name="eztoc78092_3" id="eztoc78092_3"&gt;&lt;/a&gt;&lt;h2&gt;Miscellaneous&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Permissions for tagging and administration&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;a name="eztoc78092_4" id="eztoc78092_4"&gt;&lt;/a&gt;&lt;h2&gt;Known issues&lt;/h2&gt;
+&lt;ul&gt;
+
+&lt;li&gt;The multitagging function (multitag_ajax) does not check permissions for the tagged object. I have not yet figured out how to do this check.&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/downloads/alpha_release_0_1</guid>
+      <pubDate>Thu, 23 Jul 2009 15:13:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

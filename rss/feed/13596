@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez-deploy / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:21:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:21:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13596" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Alpha release</title>
+      <link>http://projects.ez.no/ez_deploy/forum/general/alpha_release</link>
+      <description>Hi Russ, I noticed you're running this now on production - congrats!  When do you think you'll release into the wild?&#13;
+&#13;
+Cheers,&#13;
+Geoff</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ez_deploy/forum/general/alpha_release</guid>
+      <pubDate>Mon, 25 Jul 2011 10:18:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / noveniniupdate / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:33 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:33 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16742" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/b8c6a469aa8ce9577c7611a9dce4728659d4a18c</link>
+      <description>
+      &lt;pre&gt;m classes/noveniniupdater.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update classes/noveniniupdater.php
+
+After using explode function on the "\n" char, some chars like "\r" may still be present in the returned array. To cleanup these remaining chars a trim should be used before trying to perform a regular expression match.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/b8c6a469aa8ce9577c7611a9dce4728659d4a18c</guid>
+      <pubDate>Fri, 27 Jul 2012 12:30:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/f8fbf085b85f61db9b1484142217c7eb4002fc40</link>
+      <description>
+      &lt;pre&gt;m classes/noveniniupdater.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from tomahoax/master
+
+Regular expression may not match in some cases whith key/value arrays&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/f8fbf085b85f61db9b1484142217c7eb4002fc40</guid>
+      <pubDate>Fri, 27 Jul 2012 12:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/db3b0e624edf2c773caf7322494c460f91e70e86</link>
+      <description>
+      &lt;pre&gt;m classes/novenconfigupdater.php
+m doc/CHANGELOG
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #1 INI update script doesn't properly define bool constants&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/db3b0e624edf2c773caf7322494c460f91e70e86</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/3c7b80f95e1191b2c1bab97194155a3fa34c83bb</link>
+      <description>
+      &lt;pre&gt;+ README.rst
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved README.rst to extension root for fancy display on Github&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/3c7b80f95e1191b2c1bab97194155a3fa34c83bb</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/d8d8d25be18cb7c406f2c257361ffabe9fd571a5</link>
+      <description>
+      &lt;pre&gt;m classes/novenclusterupdater.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added mysqli dbbackend support for index_cluster.php generation
+
+http://doc.ez.no/eZ-Publish/Upgrading/Upgrading-to-4.5/Upgrading-from-4.4-to-4.5:
+The "Mysql DB/DFS Cluster" database back-end has not yet been deprecated, but it is recommended to use the same driver as the main database driver, so change your "file.ini.append.php" settings in override or siteaccesses to use" eZDFSFileHandlerMySQLiBackend" for DFS Cluster or "eZDBFileHandlerMysqliBackend" for DB Cluster.
+Note: The "index_cluster.php" file should be updated to
+define( 'STORAGE_BACKEND', 'dfsmysqli' )
+If you use DB cluster, remove "dfs" from the string.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/d8d8d25be18cb7c406f2c257361ffabe9fd571a5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/c0fe7ddc1198b31224c0d41f4692465d22165e29</link>
+      <description>
+      &lt;pre&gt;m ant/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added excludes to ANT script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/c0fe7ddc1198b31224c0d41f4692465d22165e29</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/12b2a2dc2e2495f8e275214d84ee4b87ddaf2191</link>
+      <description>
+      &lt;pre&gt;m ant/build.properties
+m ant/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Switch ANT script to Git&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/12b2a2dc2e2495f8e275214d84ee4b87ddaf2191</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/95f420b402b108137dcf655afabf77bb97b7f5a5</link>
+      <description>
+      &lt;pre&gt;m classes/novenclusterupdater.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from chaosversum/master
+
+added mysqli dbbackend support for index_cluster.php generation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/95f420b402b108137dcf655afabf77bb97b7f5a5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:20:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 39 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/39</link>
+      <description>Replaced i18n() by ezpI18n::tr()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/39</guid>
+      <pubDate>Wed, 30 Mar 2011 14:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 40 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/40</link>
+      <description>Added extension.xml to ant parsing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/40</guid>
+      <pubDate>Wed, 30 Mar 2011 14:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 38 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/38</link>
+      <description>Added extension.xml (eZ Publish 4.4+)
+Changed a label in navigation part</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/38</guid>
+      <pubDate>Mon, 25 Oct 2010 17:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 37 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/37</link>
+      <description>Fix version tag for ant</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/37</guid>
+      <pubDate>Mon, 16 Aug 2010 23:20:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 36 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/36</link>
+      <description>Fixed bug with eZDFSFileHandler. Did not work properly and lacked of MountPointPath handling</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/36</guid>
+      <pubDate>Mon, 16 Aug 2010 23:15:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 35 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/35</link>
+      <description>Fixed error in admin tab security policy (in 4.3)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/35</guid>
+      <pubDate>Fri, 07 May 2010 21:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 34 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/34</link>
+      <description>Renamed PDF Doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/34</guid>
+      <pubDate>Sun, 02 May 2010 18:05:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 33 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/33</link>
+      <description>Removed old edit.tpl</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/33</guid>
+      <pubDate>Sun, 02 May 2010 18:05:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 32 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/32</link>
+      <description>Support for security policy for tab display in eZPublish 4.3 admin interface</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/32</guid>
+      <pubDate>Sun, 02 May 2010 12:55:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 31 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/31</link>
+      <description>@@@YEAR@@@ Token in view.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/31</guid>
+      <pubDate>Sun, 02 May 2010 10:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 30 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/30</link>
+      <description>* Updated doc
+* Added a PDF version of doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/30</guid>
+      <pubDate>Sun, 02 May 2010 10:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 29 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/29</link>
+      <description>Deleted obsolete "edit" view</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/29</guid>
+      <pubDate>Sun, 02 May 2010 10:05:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 28 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/28</link>
+      <description>Config files backup support in admin interface</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/28</guid>
+      <pubDate>Sun, 02 May 2010 10:05:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 27 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/27</link>
+      <description>* Added policy limitation support for environments (with dependency on eZJSCore extension)
+* Updated CHANGELOG</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/27</guid>
+      <pubDate>Sun, 02 May 2010 09:55:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 26 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/26</link>
+      <description>Tag version 2.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/26</guid>
+      <pubDate>Sun, 02 May 2010 09:55:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 25 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/25</link>
+      <description>Implemented config.php update support</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/25</guid>
+      <pubDate>Sun, 02 May 2010 09:05:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 24 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/24</link>
+      <description>Fixed design regression in 4.3 : left menu placeholder has reappeared</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/24</guid>
+      <pubDate>Sun, 02 May 2010 08:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 23 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/23</link>
+      <description>Removed useless regional settings in site.ini</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/23</guid>
+      <pubDate>Sun, 02 May 2010 00:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 22 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/22</link>
+      <description>Updated ant build script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/22</guid>
+      <pubDate>Sat, 01 May 2010 15:55:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 21 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/21</link>
+      <description>Added a @@@YEAR@@@ token for ant build script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/21</guid>
+      <pubDate>Sat, 01 May 2010 15:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 20 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/20</link>
+      <description>Implemented backup feature</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/20</guid>
+      <pubDate>Sat, 01 May 2010 15:35:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 19 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/19</link>
+      <description>* Fixed bug with NovenConfigAbstractUpdater::checkIsEnvSupported() =&gt; returned always true
+* Implemented diff feature between current value and "to be applied" value
+* Environment is now stored in *ezsite_data* table </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/19</guid>
+      <pubDate>Fri, 30 Apr 2010 17:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 18 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/18</link>
+      <description>Added support for eZDFSFileHandler</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/18</guid>
+      <pubDate>Fri, 30 Apr 2010 15:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 17 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/17</link>
+      <description>Updated doc about read only settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/17</guid>
+      <pubDate>Fri, 15 Jan 2010 15:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 16 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/16</link>
+      <description>Change readme file name to README.rst</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/16</guid>
+      <pubDate>Thu, 07 Jan 2010 13:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 15 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/15</link>
+      <description>RST formatted doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/15</guid>
+      <pubDate>Thu, 07 Jan 2010 11:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 14 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/14</link>
+      <description>Ant build file didn't exclude the ant/ directory when making the zip archive</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/14</guid>
+      <pubDate>Tue, 25 Aug 2009 10:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 13 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/13</link>
+      <description> </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/13</guid>
+      <pubDate>Tue, 25 Aug 2009 10:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 12 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/12</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/12</guid>
+      <pubDate>Tue, 25 Aug 2009 10:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 10 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/10</link>
+      <description>Adding the changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/10</guid>
+      <pubDate>Wed, 19 Aug 2009 09:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 11 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/11</link>
+      <description>Edition of the ant build script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/11</guid>
+      <pubDate>Wed, 19 Aug 2009 09:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 9 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/9</link>
+      <description>Change of the token for the version because of problem with ant</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/9</guid>
+      <pubDate>Wed, 19 Aug 2009 08:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 8 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/8</link>
+      <description>Commit of version 2.0, with ant build file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/8</guid>
+      <pubDate>Wed, 19 Aug 2009 07:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 6 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/6</link>
+      <description>Moving files in trunk</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/6</guid>
+      <pubDate>Wed, 19 Aug 2009 07:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/7</link>
+      <description>Tag of 1.0 version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/7</guid>
+      <pubDate>Wed, 19 Aug 2009 07:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 5 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/5</link>
+      <description>Project SVN layout</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/5</guid>
+      <pubDate>Wed, 19 Aug 2009 07:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 4 by Jean-Luc Nguyen</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/4</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/4</guid>
+      <pubDate>Thu, 11 Jun 2009 12:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 3 by Jean-Luc Nguyen</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/3</link>
+      <description>Update ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/3</guid>
+      <pubDate>Tue, 09 Jun 2009 10:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 2 by Jean-Luc Nguyen</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/2</link>
+      <description>Update ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/2</guid>
+      <pubDate>Mon, 08 Jun 2009 08:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>noveniniupdate rev. 1 by Jean-Luc Nguyen</title>
+      <link>http://projects.ez.no/noveniniupdate/subversion/1</link>
+      <description>Initial import noveniniupdate</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/noveniniupdate/subversion/1</guid>
+      <pubDate>Fri, 05 Jun 2009 15:45:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

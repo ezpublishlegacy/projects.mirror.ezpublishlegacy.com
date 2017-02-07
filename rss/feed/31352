@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ib_captcha</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:31:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:31:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31352" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: jQuery version</title>
+      <link>http://projects.ez.no/ib_captcha/forum/general/jquery_version/re_jquery_version</link>
+      <description>Hi Philip,&#13;
+Actually i`m working on it right now. I`m not only adapting it to jQuery, but i`m rewriting the whole extensions (php code, templates and so on). Soonly new version will be available :)</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/ib_captcha/forum/general/jquery_version/re_jquery_version</guid>
+      <pubDate>Wed, 14 Sep 2011 06:27:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>jQuery version</title>
+      <link>http://projects.ez.no/ib_captcha/forum/general/jquery_version</link>
+      <description>Hello.&#13;
+&#13;
+Nice extension, works really good.&#13;
+If you are using jquery in your site the captcha code will not be generated sometimes. After clicking the regenerate link a captcha code is shown.&#13;
+&#13;
+I'm using jquery in noConflict() mode.&#13;
+&#13;
+Are there any plans to build a jquery release with this extension?&#13;
+&#13;
+Philip</description>
+      <author>community@ez.no (Philip K.)</author>
+      <guid>http://projects.ez.no/ib_captcha/forum/general/jquery_version</guid>
+      <pubDate>Tue, 22 Mar 2011 14:14:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ib_captcha/news/changelog</link>
+      <description>&lt;p&gt;
+1.0&lt;br /&gt;
+ - First public release&lt;br /&gt;
+ 1.1&lt;br /&gt; - Add ukrainian and russian translations&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/ib_captcha/news/changelog</guid>
+      <pubDate>Mon, 16 Mar 2009 16:07:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBCaptcha-1.1.zip</title>
+      <link>http://projects.ez.no/ib_captcha/downloads/ibcaptcha_1_1_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ib_captcha/downloads/ibcaptcha_1_1_zip</guid>
+      <pubDate>Mon, 16 Mar 2009 16:07:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

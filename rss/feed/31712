@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / personlist_datatype</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:15:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:15:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31712" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/personlist_datatype/news/changelog</link>
+      <description>&lt;p&gt;
+*v1.0&lt;br /&gt;
+ - Initial release&lt;br /&gt;
+ - Release date: Aug 20, 2004&lt;br /&gt;
+ *v1.1&lt;br /&gt;
+ - Added possibility to make the owner of a contentobject the initial&lt;br /&gt;
+ value&lt;br /&gt;
+ of the datatype.&lt;br /&gt; - Release: Sept 21, 2004&lt;/p&gt;</description>
+      <author>community@ez.no (Hans Melis)</author>
+      <guid>http://projects.ez.no/personlist_datatype/news/changelog</guid>
+      <pubDate>Tue, 21 Sep 2004 10:58:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>personlist.tar.gz</title>
+      <link>http://projects.ez.no/personlist_datatype/downloads/personlist_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/personlist_datatype/downloads/personlist_tar_gz</guid>
+      <pubDate>Tue, 21 Sep 2004 10:58:45 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

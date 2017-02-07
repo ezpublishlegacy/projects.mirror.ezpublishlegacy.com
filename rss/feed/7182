@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / recaptcha / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/7182" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Great extension</title>
+      <link>http://projects.ez.no/recaptcha/reviews/great_extension</link>
+      <description>Works perfectly fine with eZ Publish 3.9.3. Easy installation and configuration.</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/recaptcha/reviews/great_extension</guid>
+      <pubDate>Mon, 15 Dec 2008 11:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Checked</title>
+      <link>http://projects.ez.no/recaptcha/reviews/checked</link>
+      <description>Very easy to install and to set up.&#13;
+The reCaptcha get key is very simple to use and I get my keys (development and production keys) in a few moments.&#13;
+If you have a custom edit template, you may add a line like&#13;
+{attribute_edit_gui attribute=$myobject.data_map.myattribute}&#13;
+In order to render the captcha.</description>
+      <author>community@ez.no (Maxime Thomas)</author>
+      <guid>http://projects.ez.no/recaptcha/reviews/checked</guid>
+      <pubDate>Sat, 12 Apr 2008 09:54:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

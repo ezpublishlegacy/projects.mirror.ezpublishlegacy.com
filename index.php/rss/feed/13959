@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / all2evcc</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:03:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:03:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13959" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: progress on content node purge workflow?</title>
+      <link>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow4</link>
+      <description>@Chris the ezworkflowcollection extension provides support for cache PURGE commands via a workflow event as well</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow4</guid>
+      <pubDate>Wed, 07 Mar 2012 14:11:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: progress on content node purge workflow?</title>
+      <link>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow3</link>
+      <description>With a year rolling along.&#13;
+&#13;
+Is there an update?</description>
+      <author>community@ez.no (Chris Williams)</author>
+      <guid>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow3</guid>
+      <pubDate>Wed, 29 Sep 2010 08:14:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: progress on content node purge workflow?</title>
+      <link>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow2</link>
+      <description>Hi Norma,&#13;
+&#13;
+I would like to know if a first public release for testing the purge cache per node of all2evcc is available.&#13;
+&#13;
+Thank's</description>
+      <author>community@ez.no (Mohamed Haimoura)</author>
+      <guid>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow2</guid>
+      <pubDate>Thu, 26 Nov 2009 11:57:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: progress on content node purge workflow?</title>
+      <link>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow</link>
+      <description>Hi Dan,&#13;
+&#13;
+we're currently in the developement process and discussing with ez about implementing the machanism within the kernel.&#13;
+&#13;
+First public release for testing should be available within the next weeks.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow/re_progress_on_content_node_purge_workflow</guid>
+      <pubDate>Mon, 07 Sep 2009 16:57:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>progress on content node purge workflow?</title>
+      <link>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow</link>
+      <description>Hi--&#13;
+&#13;
+Just wondering what the current progress is on the addition of a purge mechanism per edited content node, as referenced in the message from 23 July here:&#13;
+&#13;
+http://ez.no/developer/open_funding/suggestions_for_new_functionality/http_acceleration_with_varnish&#13;
+&#13;
+I just looked in the project svn repository and didn't see any methods that appear to address this. Is it still in the planning phase, or is there code written that just hasn't yet been deemed stable enough?&#13;
+&#13;
+Excited about this feature and would be interested in helping move it forward.&#13;
+&#13;
+Thanks.&#13;
+&#13;
+Dan</description>
+      <author>community@ez.no (Dan Thom)</author>
+      <guid>http://projects.ez.no/all2evcc/forum/general/progress_on_content_node_purge_workflow</guid>
+      <pubDate>Thu, 03 Sep 2009 01:32:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Varnish Control Center is now compatible with 4.1</title>
+      <link>http://projects.ez.no/all2evcc/news/varnish_control_center_is_now_compatible_with_4_1</link>
+      <description>&lt;p&gt;The Varnish Control Center is now compatible with eZ Publish Version 4.1&lt;/p&gt;</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/all2evcc/news/varnish_control_center_is_now_compatible_with_4_1</guid>
+      <pubDate>Mon, 27 Apr 2009 08:47:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2evcc rev. 5 by Norman Leutner</title>
+      <link>http://projects.ez.no/all2evcc/subversion/5</link>
+      <description>Fixed for 4.1
+
+[ModuleSettings]
+ModuleList[]=all2evcc
+ExtensionRepositories[]=all2evcc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2evcc/subversion/5</guid>
+      <pubDate>Mon, 27 Apr 2009 08:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2evcc rev. 4 by Norman Leutner</title>
+      <link>http://projects.ez.no/all2evcc/subversion/4</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2evcc/subversion/4</guid>
+      <pubDate>Mon, 27 Apr 2009 08:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiple Domains Support</title>
+      <link>http://projects.ez.no/all2evcc/news/multiple_domains_support</link>
+      <description>&lt;p&gt;
+Multiple Domains Support added,&lt;br /&gt;the new version is within the SVN&lt;/p&gt;</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/all2evcc/news/multiple_domains_support</guid>
+      <pubDate>Fri, 20 Feb 2009 14:39:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2evcc rev. 3 by Max Keil</title>
+      <link>http://projects.ez.no/all2evcc/subversion/3</link>
+      <description>- Support for multiple domains added
+- varnish functionality description as image</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2evcc/subversion/3</guid>
+      <pubDate>Wed, 18 Feb 2009 12:50:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2evcc rev. 2 by Max Keil</title>
+      <link>http://projects.ez.no/all2evcc/subversion/2</link>
+      <description>- include path in the workflow is false</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2evcc/subversion/2</guid>
+      <pubDate>Fri, 06 Feb 2009 11:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Varnish Control Center</title>
+      <link>http://projects.ez.no/all2evcc/news/varnish_control_center</link>
+      <description> &lt;p&gt;First version of all2evcc is available within the SVN.&lt;/p&gt;</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/all2evcc/news/varnish_control_center</guid>
+      <pubDate>Thu, 05 Feb 2009 12:12:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>all2evcc rev. 1 by Max Keil</title>
+      <link>http://projects.ez.no/all2evcc/subversion/1</link>
+      <description>- Trunk Version of all2evcc.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/all2evcc/subversion/1</guid>
+      <pubDate>Thu, 05 Feb 2009 12:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amazing</title>
+      <link>http://projects.ez.no/all2evcc/reviews/amazing</link>
+      <description>Hi Norman, &#13;
+&#13;
+thanks a lot to you and your team.&#13;
+&#13;
+ekke&#13;
+&#13;
+</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/all2evcc/reviews/amazing</guid>
+      <pubDate>Thu, 05 Feb 2009 00:05:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

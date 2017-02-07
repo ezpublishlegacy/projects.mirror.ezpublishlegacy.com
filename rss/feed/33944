@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / oasis_open_document_extension</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:19:34 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:19:34 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33944" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/oasis_open_document_extension/news/changelog</link>
+      <description>&lt;p&gt;
+Changes from 2.0 beta 1 to 2.0 beta 2&lt;br /&gt;
+ -------------------------------------&lt;br /&gt;
+ - Changed image size calculation to keep images the same after&lt;br /&gt;
+ multiple import/exports&lt;br /&gt;
+ - Added support for matcing OOo styles named "eZCustom mytag" to eZ&lt;br /&gt;
+ publish custom tags&lt;br /&gt;
+ - Fixed proper UTF-8 conversion on export&lt;br /&gt;
+ - Added support for nested lists during import&lt;br /&gt;
+ - Added replace document function&lt;br /&gt;
+ - Fixed not re-importing allready imported images when replacing a&lt;br /&gt;
+ document&lt;br /&gt;
+ - Added sections support when exporting document&lt;br /&gt;
+ - Added support for import of literal text&lt;br /&gt;
+ - Fixed converting to spaces on import&lt;br /&gt;
+ - Fixed proper support for importing bold and italic text&lt;br /&gt;
+ - Fixed cache bug when exporting objects. Scaled images was displayed&lt;br /&gt;
+ with poor image quality&lt;br /&gt;
+ - Fixed generating complete file list in manifest.xml when exporting&lt;br /&gt;
+ objects&lt;br /&gt;
+ Changes from 1.0 stable to 2.0 beta 1&lt;br /&gt;
+ -------------------------------------&lt;br /&gt;
+ - Added WebDAV import support for OpenOffice 2 documents&lt;br /&gt;
+ - Added deamon script and macros for document conversion, so you can&lt;br /&gt;
+ import Word, RTF files etc.&lt;br /&gt;
+ - Added OpenOffice.org export link directly in the popup menu in the&lt;br /&gt;
+ admin interface (3.6+ only)&lt;br /&gt;
+ - Added OpenOffice.org import link directly in the popup menu in the&lt;br /&gt;
+ admin interface (3.6+ only)&lt;br /&gt;
+ - Changed document format from OpenOffice.org Writer 1.x to OASIS&lt;br /&gt;
+ OpenDocument Text format&lt;br /&gt;
+ - Added support for lists in table cells&lt;br /&gt;
+ - Fixed export of table headers&lt;br /&gt;
+ - Fixed import support for numbered-paragraph tag&lt;br /&gt;
+ - Added .ini option to specify the path to the zip command used for&lt;br /&gt; export&lt;/p&gt;</description>
+      <author>community@ez.no (Bård Farstad)</author>
+      <guid>http://projects.ez.no/oasis_open_document_extension/news/changelog</guid>
+      <pubDate>Mon, 19 Sep 2005 07:03:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>openoffice_org_extension-2_0-beta2.tar.gz</title>
+      <link>http://projects.ez.no/oasis_open_document_extension/downloads/openoffice_org_extension_2_0_beta2_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/oasis_open_document_extension/downloads/openoffice_org_extension_2_0_beta2_tar_gz</guid>
+      <pubDate>Mon, 19 Sep 2005 07:03:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

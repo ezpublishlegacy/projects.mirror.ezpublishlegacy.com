@@ -1,0 +1,194 @@
+#!/usr/bin/env php
+<?php
+
+set_time_limit( 0 );
+
+require 'autoload.php';
+
+$cli = eZCLI::instance();
+$endl = $cli->endlineString();
+
+$script = eZScript::instance( array( 'description' => ( "Netgen gmaplocation to ezgmaplocation data migration script.\n\n" ),
+                                     'use-session' => true,
+                                     'use-modules' => true,
+                                     'use-extensions' => true ) );
+
+$script->startup();
+
+$options = $script->getOptions( "[class-id:][old-attribute:][new-attribute:][db-host:][db-user:][db-password:][db-database:][db-type:|db-driver:][sql]",
+                                "",
+                                array( 'class-id' => "Class ID",
+                                       'old-attribute' => "Old attribute identifier",
+                                       'new-attribute' => "New attribute identifier",
+                                       'db-host' => "Database host",
+                                       'db-user' => "Database user",
+                                       'db-password' => "Database password",
+                                       'db-database' => "Database name",
+                                       'db-driver' => "Database driver",
+                                       'db-type' => "Database driver, alias for --db-driver",
+                                       'sql' => "Display sql queries"
+                                       ) );
+$script->initialize();
+
+$script->setIterationData( '.', '~' );
+
+$classID = $options['class-id'] ? $options['class-id'] : false;
+$oldAttribute = $options['old-attribute'] ? $options['old-attribute'] : false;
+$newAttribute = $options['new-attribute'] ? $options['new-attribute'] : false;
+$dbUser = $options['db-user'] ? $options['db-user'] : false;
+$dbPassword = $options['db-password'] ? $options['db-password'] : false;
+$dbHost = $options['db-host'] ? $options['db-host'] : false;
+$dbName = $options['db-database'] ? $options['db-database'] : false;
+$dbImpl = $options['db-driver'] ? $options['db-driver'] : false;
+$showSQL = $options['sql'] ? true : false;
+$siteAccess = $options['siteaccess'] ? $options['siteaccess'] : false;
+
+if ( !$classID || !$oldAttribute || !$newAttribute )
+{
+	print( $endl . "Parameters classid, old-attribute and new-attribute are required. Please restart the script with those parameters included." . $endl );
+
+	$script->shutdown();
+}
+
+if ( $siteAccess )
+{
+    changeSiteAccessSetting( $siteAccess );
+}
+
+function changeSiteAccessSetting( $siteAccess )
+{
+    global $isQuiet;
+    $cli = eZCLI::instance();
+    if ( file_exists( 'settings/siteaccess/' . $siteAccess) )
+    {
+        if ( !$isQuiet )
+            $cli->notice( "Using siteaccess $siteAccess for nice url update" );
+    }
+    else
+    {
+        if ( !$isQuiet )
+            $cli->notice( "Siteaccess $siteAccess does not exist, using default siteaccess" );
+    }
+}
+
+print( "Starting data copy\n" );
+
+eZExecution::registerShutdownHandler();
+$db = eZDB::instance();
+
+if ( $dbHost or $dbName or $dbUser or $dbImpl )
+{
+    $params = array();
+    if ( $dbHost !== false )
+        $params['server'] = $dbHost;
+    if ( $dbUser !== false )
+    {
+        $params['user'] = $dbUser;
+        $params['password'] = '';
+    }
+    if ( $dbPassword !== false )
+        $params['password'] = $dbPassword;
+    if ( $dbName !== false )
+        $params['database'] = $dbName;
+    $db = eZDB::instance( $dbImpl, $params, true );
+    eZDB::setInstance( $db );
+}
+
+$db->setIsSQLOutputEnabled( $showSQL );
+
+$def = eZContentObject::definition();
+
+$conds = array(
+    'status' => eZContentObject::STATUS_PUBLISHED,
+	'contentclass_id' => array(array($classID)));
+
+$count = eZPersistentObject::count( $def, $conds, 'id' );
+
+print( "Number of objects: $count $endl" );
+
+$length = 50;
+$limit = array( 'offset' => 0 , 'length' => $length );
+
+$script->resetIteration( $count );
+
+do
+{
+    eZContentObject::clearCache();
+
+    $objects = eZPersistentObject::fetchObjectList( $def, null, $conds, null, $limit );
+
+	foreach ( $objects as $object )
+	{
+		foreach ( $object->contentObjectAttributes() as $contentObjectAttribute )
+		{
+			if ($contentObjectAttribute->ContentClassAttributeIdentifier == $oldAttribute && $contentObjectAttribute->hasContent())
+			{
+				$dom = new DOMDocument( '1.0', 'utf-8' );
+				$dom->loadXML(utf8_encode($contentObjectAttribute->attribute('data_text')));
+				$location = $dom->getElementsByTagName("ezoldgmaplocation")->item(0);
+				$latitude = $location->getAttribute('latitude');
+				$longitude = $location->getAttribute('longitude');
+
+				if(is_numeric($latitude) && is_numeric($longitude))
+				{
+					/*
+					$address = '';
+					$city = '';
+
+					foreach ( $object->contentObjectAttributes() as $contentObjectAttribute )
+					{
+						if ($contentObjectAttribute->ContentClassAttributeIdentifier == 'address' && $contentObjectAttribute->hasContent())
+						{
+							$address = $contentObjectAttribute->attribute('data_text');
+						}
+					}
+					
+					if(strlen($address) > 0)
+					{
+						foreach ( $object->contentObjectAttributes() as $contentObjectAttribute )
+						{
+							if ($contentObjectAttribute->ContentClassAttributeIdentifier == 'city' && $contentObjectAttribute->hasContent())
+							{
+								$address = $address . ', ' . $contentObjectAttribute->attribute('data_text');
+							}
+						}
+					}
+					*/
+	
+					foreach ( $object->contentObjectAttributes() as $contentObjectAttribute )
+					{
+						if ($contentObjectAttribute->ContentClassAttributeIdentifier == $newAttribute)
+						{	
+							$gp = new eZGmapLocation(
+								array( 
+									'contentobject_attribute_id' => $contentObjectAttribute->attribute('id'),
+									'contentobject_version' => $contentObjectAttribute->attribute('version'),
+									'latitude' => $latitude,
+									'longitude' => $longitude,
+									'address' => ''
+									//'address' => $address
+								)
+							);
+	
+							$contentObjectAttribute->setContent($gp);
+							$contentObjectAttribute->setAttribute('data_int', 1);
+							$contentObjectAttribute->store();
+						}
+					}
+				}
+			}
+		}
+
+		$script->iterate( $cli, true );
+	}
+
+	$limit['offset'] += $length;
+}
+while ( count( $objects ) == $length );
+
+
+print( $endl . "Done!" . $endl );
+
+$script->shutdown();
+
+?>

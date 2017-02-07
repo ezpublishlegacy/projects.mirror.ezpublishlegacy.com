@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / all2einfoexport / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:34:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:34:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16805" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Export date datatype</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/export_date_datatype/re_export_date_datatype</link>
+      <description>Nice, I included this line too.&#13;
+Only one question, is it possible to add a case 'enhancedfile' to show the link to image uploaded with this datatype? I tryied to export collected information with some enhancedbinaryfile type but nothing is showing...&#13;
+&#13;
+Thanks!</description>
+      <author>community@ez.no (Albert Balagueró)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/export_date_datatype/re_export_date_datatype</guid>
+      <pubDate>Tue, 07 Jun 2011 18:49:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Export date datatype</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/export_date_datatype</link>
+      <description>Hi,&#13;
+&#13;
+There is a bug on exporting attribute with date datatype. On file extension/all2einfoexport/classes/all2einfoexportclass.php, I added on line 135:&#13;
+&#13;
+&lt;code&gt;&#13;
+case 'ezdate':&#13;
+$content[$collection-&gt;attribute('id')][$key] = date( "d.m.Y", $attribute-&gt;attribute('data_int') );&#13;
+break;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Hope this will help.&#13;
+&#13;
+BR,</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/export_date_datatype</guid>
+      <pubDate>Tue, 03 May 2011 14:12:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comparison with cie extension?</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension3</link>
+      <description>Just a short addition:&#13;
+&#13;
+The cie extension has focus on exporting the collections based on a cronjob, &#13;
+this one has a focus on the User Interface.&#13;
+&#13;
+(CIE / CIE UI)</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension3</guid>
+      <pubDate>Wed, 17 Jun 2009 15:46:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comparison with cie extension?</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension2</link>
+      <description>Hello,&#13;
+&#13;
+I watched and used the cie extension a bunch off and on.&#13;
+Today I saw this thread and thought to chime in unannounced X)&#13;
+&#13;
+@All&#13;
+&#13;
+I don't slight Norman in the slightest for sharing this extension.&#13;
+I might have done the very same thing, I have before&#13;
+and I prolly will again. It spurs new innovation and ideas.&#13;
+&#13;
+Though I have not used it yet. I expect to at the least check it out.&#13;
+&#13;
+Just look at the other similar to other extensions all2e has released,&#13;
+&lt;i&gt;http://projects.ez.no/users/community/norman_leutner&lt;/i&gt;&#13;
+&#13;
+Though if we all just create our own variations and fail to&#13;
+collaborate, the results would not be as beneficial (I think).&#13;
+&#13;
+This (lack of collaboration) seems to grow increasingly more and &#13;
+becomes more difficult for others as time passes. I don't see any&#13;
+quick fixes for any of that time soon :\&#13;
+&#13;
+@Gaetano Giunta&#13;
+&#13;
+It is good of you to bring up a comparison of the two solutions.&#13;
+&#13;
+@Norman Leutner&#13;
+&#13;
+Nods. Keep contributing.&#13;
+&#13;
+Cheers,&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Kottonmouth Kings - Controlled Substance&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension2</guid>
+      <pubDate>Wed, 17 Jun 2009 14:40:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comparison with cie extension?</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+the goal of the extensions is the same (collected info export).&#13;
+&#13;
+As I'm also one of the leaders of the CIE extension I decided to start this new project for some reasons:&#13;
+&#13;
+- focus on eZ 4&#13;
+- easier export&#13;
+- less code&#13;
+- more performance&#13;
+- export as XML&#13;
+- better user interface with more functions&#13;
+- use of php5&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension/re_comparison_with_cie_extension</guid>
+      <pubDate>Wed, 17 Jun 2009 08:05:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>comparison with cie extension?</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension</link>
+      <description>The goal of both extensions looks the same</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/comparison_with_cie_extension</guid>
+      <pubDate>Wed, 17 Jun 2009 07:34:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: .project files</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/project_files/re_project_files</link>
+      <description>Hi Geoff,&#13;
+&#13;
+thanks for the hint, I didn't even notice that it was sumitted...&#13;
+&#13;
+If you have any recommendation, just let me know.&#13;
+</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/project_files/re_project_files</guid>
+      <pubDate>Thu, 11 Jun 2009 14:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>.project files</title>
+      <link>http://projects.ez.no/all2einfoexport/forum/general/project_files</link>
+      <description>Hi Norman,&#13;
+&#13;
+Great extension - looking forward to using it!&#13;
+&#13;
+If you're using Eclipse to develop, it pays to add .project files (or whatever project files your IDE uses) to your local ignored resources. To add this in, go to Window -&gt; Preferences -&gt; Team -&gt; Ignored Resources -&gt; Add Pattern -&gt; enter ".project".&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Geoff&#13;
+&#13;
+</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/all2einfoexport/forum/general/project_files</guid>
+      <pubDate>Wed, 10 Jun 2009 20:54:39 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

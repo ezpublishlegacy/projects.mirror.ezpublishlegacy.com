@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezclasslists / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1060" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezclasslists rev. 21 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/21</link>
+      <description>Fixed copyright year and version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/21</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 19 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/19</link>
+      <description>Fixed templates to be more compliant with admin2 design
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/19</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 20 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/20</link>
+      <description>Created tag for 1.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/20</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 16 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/16</link>
+      <description>Replaced deprecated templateInit() by eZTemplate::factory()
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/16</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 17 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/17</link>
+      <description>Fixed compatibility with admin2 design
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/17</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 18 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/18</link>
+      <description>Fixed AJAX loading of the page
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/18</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 15 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/15</link>
+      <description>Fixed a fatal error because of ezi18n() not included by default
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/15</guid>
+      <pubDate>Sun, 26 Jun 2011 09:20:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 14 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/14</link>
+      <description>Added Id and HeadURL properties on source files
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/14</guid>
+      <pubDate>Wed, 11 Nov 2009 21:40:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 13 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/13</link>
+      <description>Created tag for 1.1 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/13</guid>
+      <pubDate>Wed, 11 Nov 2009 21:30:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 12 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/12</link>
+      <description>Created tags directory
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/12</guid>
+      <pubDate>Wed, 11 Nov 2009 21:25:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 11 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/11</link>
+      <description>Changed SVN layout
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/11</guid>
+      <pubDate>Wed, 11 Nov 2009 21:25:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 10 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/10</link>
+      <description>Updated copyright and version in header of PHP scripts
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/10</guid>
+      <pubDate>Sat, 30 May 2009 15:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 9 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/9</link>
+      <description>Added ezinfo.php
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/9</guid>
+      <pubDate>Sat, 30 May 2009 15:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 8 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/8</link>
+      <description>Added "View objects of this class" in the class context menu
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/8</guid>
+      <pubDate>Sat, 30 May 2009 10:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 7 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/7</link>
+      <description>Added a link classlists on class/view
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/7</guid>
+      <pubDate>Sat, 30 May 2009 09:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 6 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/6</link>
+      <description>Remove no more used stylesheet
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/6</guid>
+      <pubDate>Mon, 10 Nov 2008 16:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 5 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/5</link>
+      <description>- Stick to eZ coding standards
+- Sorting
+- AJAX
+- Update translation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/5</guid>
+      <pubDate>Mon, 10 Nov 2008 16:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 4 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/4</link>
+      <description>Corrections from Rodolphe Franceschi report
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/4</guid>
+      <pubDate>Tue, 29 Jul 2008 16:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 2 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/2</link>
+      <description>Adding license headers
+Minor corrections
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:18:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 3 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/3</link>
+      <description>- Bugfix in templates (Thanks to daniele nocentini)
+- Bugfix in translation
+- Javascript confirmation (can be disable in settings)
+- Move to trash checkbox (default value can be set in settings)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:18:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezclasslists rev. 1 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezclasslists/subversion/1</link>
+      <description>First import
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasslists/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:18:40 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

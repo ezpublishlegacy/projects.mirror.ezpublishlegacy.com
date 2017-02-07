@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcountry_with_information_collector_support / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:05:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:05:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31485" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ezcountry_with_information_collector_support/news/changelog</link>
+      <description>&lt;p&gt;
+Files ezcountry_options.tpl and&lt;br /&gt;
+ ezcountry_options.with.keys.tpl in&lt;br /&gt;
+ design/standard/templates/content/datatype/edit, now contain two new&lt;br /&gt;
+ country names and their ISO codes: Serbia (RS) and Montenegro (ME),&lt;br /&gt;
+ instead of Yugoslavia (YU). &lt;br /&gt;
+ First line between tags in&lt;br /&gt;
+ ezcountry_options.tpl removed, in order to make Country field&lt;br /&gt; required in web form. &lt;/p&gt;</description>
+      <author>community@ez.no (Zoran Marinkovic)</author>
+      <guid>http://projects.ez.no/ezcountry_with_information_collector_support/news/changelog</guid>
+      <pubDate>Thu, 06 Sep 2007 12:02:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

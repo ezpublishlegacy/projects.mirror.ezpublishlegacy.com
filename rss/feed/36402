@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / wordcut_extension / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:36:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:36:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/36402" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Useful</title>
+      <link>http://projects.ez.no/wordcut_extension/reviews/useful</link>
+      <description>Very good extension.&#13;
+The only thing missing was an optional trailing string.&#13;
+I added by myself and I'd like to share this little modification with the author.</description>
+      <author>community@ez.no (Simone Conti)</author>
+      <guid>http://projects.ez.no/wordcut_extension/reviews/useful</guid>
+      <pubDate>Tue, 28 Feb 2012 17:50:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztidy / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:11:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:11:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12970" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/8bc1d918ed301e5455c3140b4a1d7b6b9f3745a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add eZP version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/8bc1d918ed301e5455c3140b4a1d7b6b9f3745a6</guid>
+      <pubDate>Tue, 04 Mar 2014 15:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/d5f2ffcc8da7da246851886d79e8ec6bc9845a40</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Archive for Legacy Stack&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/d5f2ffcc8da7da246851886d79e8ec6bc9845a40</guid>
+      <pubDate>Tue, 04 Mar 2014 14:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/d4f0769ace3325953f2e9aadb40bb2c9ee94edc3</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Legacy Stack&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/d4f0769ace3325953f2e9aadb40bb2c9ee94edc3</guid>
+      <pubDate>Sun, 28 Apr 2013 10:20:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/32fd0d49b4957e9126e729693adf87f492a754f5</link>
+      <description>
+      &lt;pre&gt;+ doc/logo.xcf
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add logo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/32fd0d49b4957e9126e729693adf87f492a754f5</guid>
+      <pubDate>Tue, 19 Jun 2012 06:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/e8b08f78083b4ef0acdaf72940317696bf9bdccb</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+m README.md
+m autoloads/eztemplateautoload.php
+m classes/eztidy.php
+m classes/eztidyfilter.php
+m classes/eztidytemplateoperators.php
+m extension.xml
++ utils/build/DoxyFile
++ utils/build/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of projects.llaumgui.com:eztidy&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/e8b08f78083b4ef0acdaf72940317696bf9bdccb</guid>
+      <pubDate>Tue, 19 Jun 2012 06:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/67428a8afb004454fc64791d7778b2a29a487e5b</link>
+      <description>
+      &lt;pre&gt;m classes/eztidytemplateoperators.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix jenkins error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/67428a8afb004454fc64791d7778b2a29a487e5b</guid>
+      <pubDate>Thu, 05 Apr 2012 20:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/862de67fb89947babecc9459a200153d3e045450</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/eztidy.php
+m classes/eztidyfilter.php
+m classes/eztidytemplateoperators.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix checkstyle issues&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/862de67fb89947babecc9459a200153d3e045450</guid>
+      <pubDate>Thu, 05 Apr 2012 20:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/4a39ae7c75503fd2c9acd6317f3acc52f790b796</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/4a39ae7c75503fd2c9acd6317f3acc52f790b796</guid>
+      <pubDate>Thu, 05 Apr 2012 20:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/bfd9c788c68097bc8b63d84b547d3422760b29f2</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
++ utils/build/DoxyFile
++ utils/build/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Init Continious Integration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/bfd9c788c68097bc8b63d84b547d3422760b29f2</guid>
+      <pubDate>Thu, 05 Apr 2012 20:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztidy/subversion/f288dae1012dc921e8bff7da3bfe5362333d6e06</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/f288dae1012dc921e8bff7da3bfe5362333d6e06</guid>
+      <pubDate>Thu, 05 Apr 2012 20:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 23 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/23</link>
+      <description>Remove and go to GitHub</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/23</guid>
+      <pubDate>Sat, 10 Sep 2011 16:15:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 22 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/22</link>
+      <description>add tag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/22</guid>
+      <pubDate>Sun, 30 Jan 2011 12:51:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 20 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/20</link>
+      <description>Updat copyright</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/20</guid>
+      <pubDate>Sun, 30 Jan 2011 12:51:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 21 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/21</link>
+      <description>Bad tag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/21</guid>
+      <pubDate>Sun, 30 Jan 2011 12:51:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 19 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/19</link>
+      <description>Rename</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/19</guid>
+      <pubDate>Sun, 30 Jan 2011 12:22:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 18 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/18</link>
+      <description>Tag version 1.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/18</guid>
+      <pubDate>Sun, 30 Jan 2011 12:22:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 16 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/16</link>
+      <description>Remove // EOC</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/16</guid>
+      <pubDate>Sat, 27 Feb 2010 14:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 15 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/15</link>
+      <description>ShowTidyElement disabled by default</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/15</guid>
+      <pubDate>Sat, 27 Feb 2010 14:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 13 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/13</link>
+      <description>version 0.9</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/13</guid>
+      <pubDate>Wed, 22 Jul 2009 09:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 14 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/14</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/14</guid>
+      <pubDate>Wed, 22 Jul 2009 09:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 12 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/12</link>
+      <description>Add outputfilter</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/12</guid>
+      <pubDate>Wed, 01 Jul 2009 09:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 11 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/11</link>
+      <description>Remove clusterfilehandler and write doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/11</guid>
+      <pubDate>Wed, 01 Jul 2009 09:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 9 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/9</link>
+      <description>create tags</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/9</guid>
+      <pubDate>Wed, 01 Jul 2009 08:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 10 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/10</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/10</guid>
+      <pubDate>Wed, 01 Jul 2009 08:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 8 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/8</link>
+      <description>improve debug and other fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/8</guid>
+      <pubDate>Wed, 10 Dec 2008 13:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 7 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/7</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/7</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 5 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/5</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/5</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 6 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/6</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/6</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 3 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/3</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/3</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 4 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/4</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/4</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 1 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/1</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>eztidy rev. 2 by Guillaume Kulakowski</title>
+      <link>http://projects.ez.no/eztidy/subversion/2</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztidy/subversion/2</guid>
+      <pubDate>Mon, 08 Dec 2008 11:20:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

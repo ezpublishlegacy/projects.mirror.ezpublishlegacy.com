@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / autonotifications / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:22:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:22:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25700" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Community Project 2012.8 Compatibility</title>
+      <link>http://projects.ez.no/autonotifications/forum/general/community_project_2012_8_compatibility/re_community_project_2012_8_compatibility</link>
+      <description>Hi Anselme&#13;
+&#13;
+We have fixed this issue and tested that it works on Community 2013.7, so I guess it would also work on 2012.8&#13;
+&#13;
+See https://github.com/eab-dev/autonotifications&#13;
+&#13;
+Andy&#13;
+</description>
+      <author>community@ez.no (Andy Caiger)</author>
+      <guid>http://projects.ez.no/autonotifications/forum/general/community_project_2012_8_compatibility/re_community_project_2012_8_compatibility</guid>
+      <pubDate>Mon, 01 Dec 2014 16:27:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Now on github!</title>
+      <link>http://projects.ez.no/autonotifications/forum/general/now_on_github</link>
+      <description>We needed to update and enhance this extension so I have added it to github:&#13;
+&#13;
+https://github.com/eab-dev/autonotifications&#13;
+&#13;
+We've tested it with eZ Publish 4.3 and eZ Publish Community 2013.7.&#13;
+&#13;
+Enhancements include:&#13;
+&#13;
+* Command line script to update existing users&#13;
+* Can also change user's digest settings&#13;
+* Workflow can be run when a user registers or when a user changes user group&#13;
+&#13;
+I hope this is useful to the community!&#13;
+&#13;
+Andy&#13;
+&#13;
+</description>
+      <author>community@ez.no (Andy Caiger)</author>
+      <guid>http://projects.ez.no/autonotifications/forum/general/now_on_github</guid>
+      <pubDate>Mon, 01 Dec 2014 16:24:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Community Project 2012.8 Compatibility</title>
+      <link>http://projects.ez.no/autonotifications/forum/general/community_project_2012_8_compatibility</link>
+      <description>Is there a new version available for ez Community Project 2012.8 ?&#13;
+&#13;
+with autonotifications v1.0-beta, I get an error on content browsing when adding event to workflow.&#13;
+&#13;
+thank you for your help</description>
+      <author>community@ez.no (Anselme Chorein)</author>
+      <guid>http://projects.ez.no/autonotifications/forum/general/community_project_2012_8_compatibility</guid>
+      <pubDate>Fri, 11 Jan 2013 00:35:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

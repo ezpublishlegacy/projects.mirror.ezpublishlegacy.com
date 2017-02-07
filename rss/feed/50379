@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcgooglesitemaps / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:34:59 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:34:59 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/50379" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release 1.1.3 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt;&amp;nbsp;extension version 1.1.3&amp;nbsp;(&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54645/261405/file/bcgooglesitemaps_1-1-3.tar.bz2" target="_self"&gt;tar.bz2&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/54644/261402/file/bcgooglesitemaps_1-1-3.zip" target="_self"&gt;zip&lt;/a&gt;)&amp;nbsp;Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.3" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt;&amp;nbsp;including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Updated: Added bugfix for cronjob subtree content fetch fetching content in all available languages instead of only in current siteacess language.&lt;/li&gt;
+
+&lt;li&gt;Updated: Refactor cronjob code syntax and comments&lt;/li&gt;
+
+&lt;li&gt;Updated: Added extended and revised ini documentation comments&lt;/li&gt;
+
+&lt;li&gt;Added: Added refactored path ini variable to override sitemap output directory path&lt;/li&gt;
+
+&lt;li&gt;Added: Added sitemap link protocol ini variable&lt;/li&gt;
+
+&lt;li&gt;Updated: Extended multilingual site testing of sitemap generation process and results&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised release documentation making minor improvements&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</guid>
+      <pubDate>Tue, 09 Sep 2014 10:15:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.2 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of &lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt; extension version 1.1.2 (&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/52584/251565/file/bcgooglesitemaps_1-1-2.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52583/251562/file/bcgooglesitemaps_1-1-2.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.2" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&amp;nbsp;Updated: Renamed extension to bcgooglesitemaps&lt;/li&gt;
+
+&lt;li&gt;Added: Added dynamic sitemap generator from googlesitemapgenerator_3_0_0 extension internals&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised extended documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</guid>
+      <pubDate>Sun, 09 Jun 2013 14:17:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / agenda_v.1.0__by_stefano_guandalini__modified_to_start_on_monday_++ / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:16:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:16:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30909" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/agenda_v_1_0_by_stefano_guandalini_modified_to_start_on_monday/news/changelog</link>
+      <description>&lt;p&gt;
+- displays calendar with start: monday&lt;br /&gt;
+ - line_view of event class added&lt;br /&gt; - some bugs fixed&lt;/p&gt;</description>
+      <author>community@ez.no (Per-Espen Kindblad)</author>
+      <guid>http://projects.ez.no/agenda_v_1_0_by_stefano_guandalini_modified_to_start_on_monday/news/changelog</guid>
+      <pubDate>Tue, 24 Jan 2006 08:50:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

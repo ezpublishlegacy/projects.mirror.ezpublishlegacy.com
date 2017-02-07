@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezobjectstatesfilter / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:55:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:55:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15739" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezobjectstatesfilter rev. 7 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/7</link>
+      <description>Added todo from Gaetano's feedback
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/7</guid>
+      <pubDate>Wed, 29 Apr 2009 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 6 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/6</link>
+      <description>Prepared release of 1.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/6</guid>
+      <pubDate>Wed, 22 Apr 2009 10:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 5 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/5</link>
+      <description>Added ezinfo.php file
+Added copyright header to PHP files
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/5</guid>
+      <pubDate>Wed, 22 Apr 2009 10:15:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 4 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/4</link>
+      <description>Added comments
+Added more tests on parameters and writing error if parameters are not right
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/4</guid>
+      <pubDate>Wed, 22 Apr 2009 10:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 3 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/3</link>
+      <description>Added tags subdirectory to SVN repository
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/3</guid>
+      <pubDate>Wed, 22 Apr 2009 09:50:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 2 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/2</link>
+      <description>Changed layout of the SVN repository
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/2</guid>
+      <pubDate>Sun, 19 Apr 2009 20:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezobjectstatesfilter rev. 1 by Damien Pobel</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/subversion/1</link>
+      <description>First import
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/subversion/1</guid>
+      <pubDate>Sun, 19 Apr 2009 20:50:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

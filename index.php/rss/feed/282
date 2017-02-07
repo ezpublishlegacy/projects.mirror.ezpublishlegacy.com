@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xmlwash / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:09:56 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:09:56 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/282" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xmlwash rev. 14 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/14</link>
+      <description>Fixed the addition of an ellipses to the end of a shortened string</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/14</guid>
+      <pubDate>Wed, 17 Dec 2008 17:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 13 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/13</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/13</guid>
+      <pubDate>Sun, 16 Nov 2008 10:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 12 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/12</link>
+      <description>Fix PHP5 warnings
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/12</guid>
+      <pubDate>Sun, 16 Nov 2008 10:40:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 11 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/11</link>
+      <description>Separate 3.x branch
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/11</guid>
+      <pubDate>Sun, 16 Nov 2008 10:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 10 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/10</link>
+      <description>for eZ Publish &lt; 4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/10</guid>
+      <pubDate>Sun, 16 Nov 2008 10:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 9 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/9</link>
+      <description>typo
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/9</guid>
+      <pubDate>Sat, 27 Sep 2008 12:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 8 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/8</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/8</guid>
+      <pubDate>Sat, 27 Sep 2008 12:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 5 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/5</link>
+      <description>only add "..." if necessary</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 6 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/6</link>
+      <description>Don't include partial tags (slightly inefficient implementation)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/6</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 7 by Vathanan Kumarathurai</title>
+      <link>http://projects.ez.no/xmlwash/subversion/7</link>
+      <description>Added operator 'teaser' to operatorList</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/7</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 3 by Xavier Dutoit</title>
+      <link>http://projects.ez.no/xmlwash/subversion/3</link>
+      <description>With claudia code to shorten without counting the chars in the tags
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 4 by Peter Putzer</title>
+      <link>http://projects.ez.no/xmlwash/subversion/4</link>
+      <description>First version of "teaser" operator (including a small bugfix in teaser.php).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 1 by Xavier Dutoit</title>
+      <link>http://projects.ez.no/xmlwash/subversion/1</link>
+      <description>Test
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>xmlwash rev. 2 by Xavier Dutoit</title>
+      <link>http://projects.ez.no/xmlwash/subversion/2</link>
+      <description>Import from pubsvn.ez.no
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xmlwash/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

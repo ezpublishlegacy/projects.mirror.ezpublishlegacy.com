@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpdfviewer / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18480" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZPDFViewer 2.0 stable is out</title>
+      <link>http://projects.ez.no/ezpdfviewer/news/ezpdfviewer_2_0_stable_is_out</link>
+      <description>&lt;p&gt;
+What is eZPDFViewer?&lt;br /&gt;
+--------------------------------&lt;br /&gt;eZPDFViewer is an ezpublish extension that allows pdf to be transformed as flash files for visualisation without downloading the whole pdf file .&lt;/p&gt;&lt;p&gt;
+eZPDFViewer uses an executable binary pdf2swf provided by swftools (http://www.swftools.org/). You will have to install it on your server&lt;br /&gt;and set the path to the pdf2swf binary in eZPDFViewer.ini&lt;/p&gt;&lt;p&gt;
+eZPDFViewer features&lt;br /&gt;
+-------------------&lt;br /&gt;
+ - When a pdf file is uploaded the contributor can generate a flash viewer for it&lt;br /&gt; - Redefines the ezbinaryfile.tpl (edit mode) to allow users to store pdf files and generate flash previewer.&lt;/p&gt;</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/news/ezpdfviewer_2_0_stable_is_out</guid>
+      <pubDate>Thu, 20 Aug 2009 00:04:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

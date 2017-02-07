@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezstarrating</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:51 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18222" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver5</link>
+      <description>The sort for subattr_star_rating___rating_average____f is not possible because it is a multi-valued field (as Peter describes).&#13;
+&#13;
+I'm unsure why the attribute (attr_) code was omitted from the indexing class but here is a simple snippet to add it based on the average value calculation. This will allow sorting.&#13;
+&#13;
+1. As mentioned before, add the "CustomMap[ezsrrating]=ezfSolrDocumentFieldStarRating" to the ezfind.ini.append.php&#13;
+&#13;
+2. Edit esfDocumentFieldStarRating.php&#13;
+line 27-ish in the getData() function just before the return $data;&#13;
+&#13;
+       // DJS @ BFRE - Add attribute during data population to permit sorting&#13;
+       $sAttributeName= parent::getFieldName($contentClassAttribute );&#13;
+       $data[$sAttributeName] = $contentObjectAttribute-&gt;attribute('rating_average');&#13;
+&#13;
+If this is done in a custom extension then ezfind remains unmodified</description>
+      <author>community@ez.no (David Sayre)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver5</guid>
+      <pubDate>Thu, 03 Sep 2015 14:13:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/ecc0610016e09e81f744f0f9e2ad34fb1c61ac8d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/ecc0610016e09e81f744f0f9e2ad34fb1c61ac8d</guid>
+      <pubDate>Mon, 03 Nov 2014 14:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver4</link>
+      <description>In case someone else stumbles across this.&#13;
+&#13;
+Sub-attribute fields are marked as 'multiValued' in Solr's schema.xml that comes with ezfind. Solr cannot sort on multiValued fields, which is why a fetch with sorting by&#13;
+&#13;
+&lt;code&gt;subattr_star_rating___rating_average____f&lt;/code&gt;&#13;
+&#13;
+does not return any results. Solr throws an error citing the multiValued issue:&#13;
+&#13;
+&lt;code&gt;... can not sort on multivalued field: subattr_star_rating___rating_average____f&lt;/code&gt;&#13;
+&#13;
+I'm not sure why even the 'sortable' sint, sfloat etc. field types are marked as multiValued in the schema, but as they're stored that way sorting is not possible.&#13;
+&#13;
+Some options to get sorting when working directly with Solr:&#13;
+&#13;
+- change the field type suffix in your ezfSolrDocumentField ... class to end with a single underscore after the sub-attribute key. So you end up with&#13;
+&#13;
+&lt;code&gt;subattr_star_rating___rating_average_f&lt;/code&gt;&#13;
+&#13;
+or similar. This is stored as a single value, which will allow you to sort based on it.&#13;
+&#13;
+- add a new dynamic sub-attribute field definition to the schema and use that when indexing your fields&#13;
+&#13;
+- change the sub-attribute field definitions in the schema.xml, removing the 'multiValued' property from sint, sfloat etc. (USE AT YOUR OWN RISK)</description>
+      <author>community@ez.no (Benjamin Kroll)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver4</guid>
+      <pubDate>Wed, 15 Oct 2014 04:24:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/50b877b8c31947a1388f54ab8f69253a00e097b5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/50b877b8c31947a1388f54ab8f69253a00e097b5</guid>
+      <pubDate>Tue, 20 May 2014 20:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/036fdff61305f85f0d6b29d95aed743f2a0839f2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated legacy extension package name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/036fdff61305f85f0d6b29d95aed743f2a0839f2</guid>
+      <pubDate>Thu, 15 May 2014 09:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/fc72ce4b2316ec98142b97f5ed707acb3dfecc4d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update to include original author again&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/fc72ce4b2316ec98142b97f5ed707acb3dfecc4d</guid>
+      <pubDate>Thu, 15 May 2014 09:30:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/c94d97710d6adb48748915682b32b4761aac3b93</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/c94d97710d6adb48748915682b32b4761aac3b93</guid>
+      <pubDate>Thu, 15 May 2014 09:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/6b14321b5aa7a7bda2732b0cb7bf7b981e60784b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed composer package to ezstarrating-ls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/6b14321b5aa7a7bda2732b0cb7bf7b981e60784b</guid>
+      <pubDate>Wed, 14 May 2014 16:10:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/b566b9eb91dbfb5eb4d78b3fd7632df018ff9542</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json to ezstarrating extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/b566b9eb91dbfb5eb4d78b3fd7632df018ff9542</guid>
+      <pubDate>Wed, 14 May 2014 15:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/09bfe5fefcb7649f9e9b4780f7ec6ee81713e517</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/09bfe5fefcb7649f9e9b4780f7ec6ee81713e517</guid>
+      <pubDate>Tue, 13 May 2014 21:40:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver3</link>
+      <description>I'm using the same class as well. And it seems to work fine, nodes are indexed properly. &#13;
+&#13;
+I have a problem with using this subattribute as a sorting option though. If I use it for filtering it works great:&#13;
+&#13;
+&lt;code&gt;&#13;
+'filter', 'subattr_star_rating___rating_average____f:[2 TO 4]'&#13;
+&lt;/code&gt;&#13;
+But if I try to use it for sorting I get no results&#13;
+&#13;
+&lt;code&gt;&#13;
+'sort_by', hash('subattr_star_rating___rating_average____f', 'asc')&#13;
+&lt;/code&gt;&#13;
+&#13;
+Any help would be appreciated :)</description>
+      <author>community@ez.no (Bartek Tokarczyk)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver3</guid>
+      <pubDate>Fri, 10 Jan 2014 13:04:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/fc5ffd5f754ea243e6459bdec660e60b37e25272</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from ezsystems/ezp-22095-anonymous_session
+
+Fix EZP-22095: eZ Star Rating does not work for anonymous&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/fc5ffd5f754ea243e6459bdec660e60b37e25272</guid>
+      <pubDate>Thu, 19 Dec 2013 12:40:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/37efb7c07fb103b2ec45991ec8d879ef98f235a0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22095: eZ Star Rating does not work for anonymous&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/37efb7c07fb103b2ec45991ec8d879ef98f235a0</guid>
+      <pubDate>Thu, 19 Dec 2013 12:40:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/03f1c852b8b28ac3e055bf97ec6ded42424bb209</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert " Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows"
+
+This reverts commit 6ca1205afc58480353a232b41eae21b3088b1864.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/03f1c852b8b28ac3e055bf97ec6ded42424bb209</guid>
+      <pubDate>Mon, 02 Sep 2013 12:40:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/sortby_feature/re_sortby_feature5</link>
+      <description>The template operator seems to miss a function_definition ... ? How would you call that ?&#13;
+&#13;
+I got the extended attribute filter working .. just posting an example for future reference. what the filter does is not filter, but add a field that allows 'rating' in the sort_by parameter.&#13;
+&#13;
+&lt;code&gt;&#13;
+$posts	= fetch( 'content', 'list', hash(&#13;
+	'parent_node_id', $node.node_id,&#13;
+	'sort_by',	array(&#13;
+		array('rating', false()),&#13;
+		array('modified_subnode', false()),&#13;
+		array( 'node_id', false() )&#13;
+	),&#13;
+	'extended_attribute_filter',  hash( &#13;
+		'id', 'ezsrRatingFilter',&#13;
+		'params', hash( 'incl_not_rated', true())&#13;
+	)&#13;
+))&#13;
+&lt;/code&gt;&#13;
+&#13;
+$2c,&#13;
+*-pike&#13;
+</description>
+      <author>community@ez.no (*- pike)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/sortby_feature/re_sortby_feature5</guid>
+      <pubDate>Tue, 27 Aug 2013 10:20:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/e92278481c04a265d74f84113265797c8e7aa6fb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #13 from crevillo/EZP-19411
+
+ Implemented EZP-19411: Avoid file_exists and include calls for register...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/e92278481c04a265d74f84113265797c8e7aa6fb</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/6ca1205afc58480353a232b41eae21b3088b1864</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/6ca1205afc58480353a232b41eae21b3088b1864</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/856537e32a961c9b916de5e5c98003adfba01ded</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixes table order in SQL FROM clause, fixes offset
+
+Since "sqlPermissionChecking" and other "FROM" clauses use "INNER JOIN" statement,
+and "ON" statement use "ezcontentobject" table, the declaration of ezcontentobject
+have to be written before other clauses.
+
+Further, the use of "offset" in eZDB::arrayQuery() method return array with
+the same offset in keys, we can not have $row[0]&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/856537e32a961c9b916de5e5c98003adfba01ded</guid>
+      <pubDate>Tue, 26 Feb 2013 07:40:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/310e361cb4f88faa25510e0ed8f5a641ae87382f</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from achasseux/fixes_suggest
+
+Fixed EZP-20503: fetchNodeByRating : Fixes table order in SQL FROM clause, fixes offset&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/310e361cb4f88faa25510e0ed8f5a641ae87382f</guid>
+      <pubDate>Tue, 26 Feb 2013 07:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/a6371dfd45be7bfecf1c72939d3b38c674338047</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;comma should be on the prior line&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/a6371dfd45be7bfecf1c72939d3b38c674338047</guid>
+      <pubDate>Tue, 26 Feb 2013 07:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/edeee8497ebe5b4a62f46810bed1a814edfb11c1</link>
+      <description>
+      &lt;pre&gt;+ packages/ezstarrating_extension/ezextension/ezstarrating/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from netbliss/master
+
+Created italian translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/edeee8497ebe5b4a62f46810bed1a814edfb11c1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/aef2a2958d9a65a72b271e7873c0e2186b2746a0</link>
+      <description>
+      &lt;pre&gt;+ packages/ezstarrating_extension/ezextension/ezstarrating/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Translated in Italian&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/aef2a2958d9a65a72b271e7873c0e2186b2746a0</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/436ec66aa1ab4f8f0a416a1462bdec0c5f54bdec</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/CHANGELOG
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/stylesheets/star_rating.css
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/templates/content/datatype/view/ezsrrating.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from nlescure/master
+
+Adding hReview microformat for rich snippet in google search&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/436ec66aa1ab4f8f0a416a1462bdec0c5f54bdec</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/6375b7e5e9f54c73345d91526a01428ee8b30cef</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/CHANGELOG
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changelog modification (1.3.0 to 1.4.0)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/6375b7e5e9f54c73345d91526a01428ee8b30cef</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/06891bdd9d5a1fd17d4d3367cc9b46f023a0c9a4</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/stylesheets/star_rating.css
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/templates/content/datatype/view/ezsrrating.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding hReview microformat for rich snippet&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/06891bdd9d5a1fd17d4d3367cc9b46f023a0c9a4</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/a08d21d04c4e181eaaab21725f298b13b288ae98</link>
+      <description>
+      &lt;pre&gt;+ packages/ezstarrating_extension/ezextension/ezstarrating/translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #8 from vjeran/cro-HR
+
+Add Croatian translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/a08d21d04c4e181eaaab21725f298b13b288ae98</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/04c37f3ed3473b0cecefe0955d4ec2eb00f8dc78</link>
+      <description>
+      &lt;pre&gt;+ packages/ezstarrating_extension/ezextension/ezstarrating/translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/04c37f3ed3473b0cecefe0955d4ec2eb00f8dc78</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/00620331c41dd60ce9f4c72f4235dcd3d8c68d7f</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/templates/content/datatype/view/ezsrrating.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19216: Incorrectly-formatted floating-point number in eZ Star Rating average score
+
+Added a new 'rating' attribute to eZSrratingObject that is rounded to one digit.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/00620331c41dd60ce9f4c72f4235dcd3d8c68d7f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/77b1e708cb6044bdbd42fd237ed3e8cbced4ca42</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/datatypes/ezsrrating/ezsrratingtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed witespace issues causing parse error in datatype&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/77b1e708cb6044bdbd42fd237ed3e8cbced4ca42</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/e44e7a7f41726398905f03ccfc147725075c662c</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/autoloads/ezsrtemplateoperators.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/autoloads/eztemplateautoload.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingdataobject.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingfilter.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobjecttreenode.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrserverfunctions.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/datatypes/ezsrrating/ezsrratingtype.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/extension.xml
+m packages/ezstarrating_extension/ezextension/ezstarrating/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/e44e7a7f41726398905f03ccfc147725075c662c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/c3d75e1b29cd9efdcec7f56ad06e25b4507991f8</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from thiagocamposviana/master
+
+finalized pt-BR translation - 4.7 translation sprint&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/c3d75e1b29cd9efdcec7f56ad06e25b4507991f8</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/3204e199babded1bb202dd0e643fcaa1e2d5c771</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Finalized pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/3204e199babded1bb202dd0e643fcaa1e2d5c771</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/7f960b49bd9fcc34824ec2113b44f3546cb1e2b3</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/translations/dut-NL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translations&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/7f960b49bd9fcc34824ec2113b44f3546cb1e2b3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/7e0738fa744583938f7fa3f97da48536b555fee7</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/extension.xml
+- packages/ezstarrating_extension/ezextension/ezstarrating/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x stack extensions
+to make it clear what is running on Legacy vs Symfony stack of 5.0.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/7e0738fa744583938f7fa3f97da48536b555fee7</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/9635224247560685dd1ed93b598ab529c4785851</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/javascript/ezstarrating_jquery.js
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/javascript/ezstarrating_yui3.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012 (bis)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/9635224247560685dd1ed93b598ab529c4785851</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/92442b48d37f3cf72d9ffc4e3be1dbc438769b48</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrserverfunctions.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix #018557: eZ Starrating vulnerable to cross site scripting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/92442b48d37f3cf72d9ffc4e3be1dbc438769b48</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/3062f65d375efde5404bbde2cf519015aa8afedc</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #19325: Adding a "Top rated" block raises an error in PostgreSQL&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/3062f65d375efde5404bbde2cf519015aa8afedc</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/a6205e030f911d2c1d9bcf0c3e77fecbb7b6e538</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/sql/postgresql/postgresql.sql
++ packages/ezstarrating_extension/ezextension/ezstarrating/update/database/postgresql/1.5/dbupdate-1.4-to-1.5.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #019337: Database Check Failed after upgrading from Ez Publish 4.6 &gt; 4.7 rc1 with Postgres (ezstarrating part)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/a6205e030f911d2c1d9bcf0c3e77fecbb7b6e538</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/855239f7ce49680724d35979f881593c762fb2c1</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/autoloads/ezsrtemplateoperators.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/autoloads/eztemplateautoload.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingdataobject.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingfilter.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobject.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingobjecttreenode.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrserverfunctions.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/datatypes/ezsrrating/ezsrratingtype.php
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/javascript/ezstarrating_jquery.js
+m packages/ezstarrating_extension/ezextension/ezstarrating/design/standard/javascript/ezstarrating_yui3.js
+m packages/ezstarrating_extension/ezextension/ezstarrating/extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/855239f7ce49680724d35979f881593c762fb2c1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SortBy feature ?</title>
+      <link>http://projects.ez.no/ezstarrating/subversion/2d2a2bc6a5cc3ffeb0f6889410ae44defe9865bc</link>
+      <description>
+      &lt;pre&gt;m packages/ezstarrating_extension/ezextension/ezstarrating/classes/ezsrratingdataobject.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: replaced usage of deprecated getSessionKey()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezstarrating/subversion/2d2a2bc6a5cc3ffeb0f6889410ae44defe9865bc</guid>
+      <pubDate>Tue, 12 Feb 2013 12:41:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezstarrating and ajax loaded content</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/ezstarrating_and_ajax_loaded_content</link>
+      <description>Hi,&#13;
+I have problem with ez starrating and ajax loaded content. I created object matrix with voting, and I have to load some matrix on user click (as xml or json). How to attach and detach ezstarrating events to this content after loading? I have to also detach those events, because some objects could be loaded twice times and would be their's #id's conflict.&#13;
+Regards</description>
+      <author>community@ez.no (Rafał Kostecki)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/ezstarrating_and_ajax_loaded_content</guid>
+      <pubDate>Wed, 17 Oct 2012 09:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem with the storing function on the click event</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/problem_with_the_storing_function_on_the_click_event</link>
+      <description>Hello, &#13;
+&#13;
+I'm installing this project, but I have a strange problem. &#13;
+&#13;
+I'm working on Chrome, Firefox (V8.0.1), and IE (9.0).&#13;
+&#13;
+When I click on a rate with Chrome, there is no problem. The rating is stored. But when I use IE or Firefox (with the same arguments), the function call() returns me another response. &#13;
+&#13;
+You can find below the arguments and the responses sent and retrieved for Chrome and Firefox.&#13;
+&#13;
+Arguments sent to the function call() : &#13;
+&lt;code&gt;ezstarrating::rate::69675::2::4&lt;/code&gt;&#13;
+&#13;
+Response with Chrome : &#13;
+&lt;code&gt;{"error_text":"","content":{"id":"69675","rated":true,"already_rated":true,"stats":{"rating_count":"1","rating_average":"4","rounded_average":4}}}&lt;/code&gt;&#13;
+&#13;
+Response with Firefox : &#13;
+&lt;code&gt;{"error_text":"","content":{"id":"69675","rated":false,"already_rated":false,"stats":false}}&lt;/code&gt;&#13;
+&#13;
+Do you have any idea for solving my problem ?&#13;
+&#13;
+Thanks a lot for your help !</description>
+      <author>community@ez.no (Jerome Guillemain)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/problem_with_the_storing_function_on_the_click_event</guid>
+      <pubDate>Wed, 28 Dec 2011 14:39:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezstarrating for anonymous in 4.4 or 4.5</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_53</link>
+      <description>I was going to suggest using ForceStart for sessions, too. This should work with both filesystem-based and db-based session storage.&#13;
+&#13;
+I do not see it really as a "hack", even though it can have some performance consequences, of course.&#13;
+&#13;
+One workaround could be to have a separate session-starting view to call just before the rating is executed. This way we still could have no sessions for most users but still use one for preventing rating abuse and to show to users the items they have rated on (a very hackish solution: send user to a page that starts a session and redirects him to original page, where rating is triggered... Slightly better: recover session cookie via js call and inject it into browser).&#13;
+&#13;
+Otoh, when we set up sessions for anon users, I do not really see how there is any benefit in security / spam abuse. The rating spammer just has to execute 2 separate GET calls instead of one, passing the cookie he got from the 1st to the 2nd.&#13;
+&#13;
+Maybe we could just add an extra ini parameter that allows rating with no sessions at all...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_53</guid>
+      <pubDate>Sat, 15 Oct 2011 00:29:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezstarrating for anonymous in 4.4 or 4.5</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_52</link>
+      <description>Quick workaround can be enable ForceStart variable in Session group. like this &#13;
+&lt;code&gt;&#13;
+[Session]&#13;
+ForceStart=enabled&#13;
+&lt;/code&gt;&#13;
+&#13;
+it has worked in my test. but as doc says, this a "bc setting" and shouldn't be needed... so probably this can have a better fix. &#13;
+&#13;
+Cheers. &#13;
+</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_52</guid>
+      <pubDate>Thu, 22 Sep 2011 13:49:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezstarrating for anonymous in 4.4 or 4.5</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_5</link>
+      <description>+1 for this. same problem here. it seems this piece of code &#13;
+&#13;
+&lt;code&gt;&#13;
+// Provide extra session protection on 4.1 (not possible on 4.0) by expecting user&#13;
+// to have an existing session (new session = mostlikely a spammer / hacker trying to manipulate rating)&#13;
+if ( class_exists( 'eZSession' ) & eZSession::userHasSessionCookie() !== true )
+    return $ret;&#13;
+&lt;/code&gt;&#13;
+&#13;
+specially the userHasSessionCookie check... &#13;
+&#13;
+EDIT. Corrected the code cause i left brackets there... </description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5/re_use_ezstarrating_for_anonymous_in_4_4_or_4_5</guid>
+      <pubDate>Thu, 22 Sep 2011 13:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Use ezstarrating for anonymous in 4.4 or 4.5</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5</link>
+      <description>Hi,&#13;
+&#13;
+we use this extension for 2 big projects, we want to update these projects to 4.5 but they use ezstarrating extension for anonymous, the clients don't want to change to registration requirement. &#13;
+As i see we can not run ezpublish with file system-based user session if we use this functionality.&#13;
+&#13;
+Anyone have a solution for this problem?&#13;
+&#13;
+Thanks, Fran</description>
+      <author>community@ez.no (Francisca Hernández)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezstarrating_for_anonymous_in_4_4_or_4_5</guid>
+      <pubDate>Thu, 22 Sep 2011 12:51:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Needs an update</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/needs_an_update/re_needs_an_update</link>
+      <description>Hi Maxime, &#13;
+&#13;
+Thanks for the heads-up !&#13;
+This extension is now hosted on github, pull-requests are welcome ! ;)&#13;
+https://github.com/ezsystems/ezstarrating&#13;
+&#13;
+Cheers, &#13;
+-- &#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/needs_an_update/re_needs_an_update</guid>
+      <pubDate>Sun, 24 Jul 2011 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Needs an update</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/needs_an_update</link>
+      <description>Since the last versions 2011.x, this extension does not work due to the deprecate I18N function.&#13;
+ Call to undefined function ezi18n() in /extension/ezstarrating/datatypes/ezsrrating/ezsrratingtype.php on line 36</description>
+      <author>community@ez.no (Maxime Thomas)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/needs_an_update</guid>
+      <pubDate>Sat, 23 Jul 2011 14:35:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sort by rating_count error?</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/sort_by_rating_count_error</link>
+      <description>While sorting by rating_count sort order is not correct. Shouldn't there be:&#13;
+&#13;
+&lt;code&gt;&#13;
+ezstarrating.rating_count as rating_count',&#13;
+&lt;/code&gt;&#13;
+&#13;
+instead&#13;
+&#13;
+&lt;code&gt;&#13;
+SUM( ezstarrating.rating_count ) as rating_count',&#13;
+&lt;/code&gt;&#13;
+&#13;
+On ezsrratingfilter.php on line 80?</description>
+      <author>community@ez.no (Jakub Derdziak)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/sort_by_rating_count_error</guid>
+      <pubDate>Wed, 12 Jan 2011 08:16:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Use ezfind 2.1 capability for indexing aver...</title>
+      <link>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver2</link>
+      <description>You can use subattr_rating___rating_average_f as the facet field. I'm not sure what the proper "identifier" syntax (a la "product/rating/rating_average") is though.&#13;
+&#13;
+Also, you can map it as a float:&#13;
+&#13;
+DatatypeMap[ezsrrating]=sfloat</description>
+      <author>community@ez.no (Peter Keung)</author>
+      <guid>http://projects.ez.no/ezstarrating/forum/general/use_ezfind_2_1_capability_for_indexing_average_score/re_use_ezfind_2_1_capability_for_indexing_aver2</guid>
+      <pubDate>Fri, 26 Nov 2010 00:30:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / enhanced_attribute_operator / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:35:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:35:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/235" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>feat request: send result to debug area</title>
+      <link>http://projects.ez.no/enhanced_attribute_operator/forum/general/feat_request_send_result_to_debug_area</link>
+      <description>just as you can do using show-variables operator.&#13;
+very often attribute|show gets unreadable because of surrounding html/css&#13;
+sending it down to debug where it belongs is a useful feature</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/enhanced_attribute_operator/forum/general/feat_request_send_result_to_debug_area</guid>
+      <pubDate>Mon, 22 Sep 2008 09:34:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

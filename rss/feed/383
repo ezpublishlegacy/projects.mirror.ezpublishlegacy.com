@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsolr</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:18 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/383" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr/re_solr5</link>
+      <description>Hi,&#13;
+&#13;
+Just wanted to let all of you know about a new book on Solr. Administrating Solr by Surendra Mohan. The book is a practical, hands-on guide that will provide readers with step-by-step exercises to help them administrate, monitor, and optimize Solr using Drupal and its associated scripts. It gives good knowledge of Solr and also covers a small part of drools. You can check it out here, http://bit.ly/1cNmREG</description>
+      <author>community@ez.no (tania rana)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr/re_solr5</guid>
+      <pubDate>Mon, 02 Dec 2013 06:48:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr/re_solr4</link>
+      <description>More please :)</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr/re_solr4</guid>
+      <pubDate>Wed, 23 May 2007 09:18:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr/re_solr3</link>
+      <description>Of course... :-)</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr/re_solr3</guid>
+      <pubDate>Mon, 23 Apr 2007 22:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Java vm</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/java_vm/re_java_vm</link>
+      <description>Hi Paul&#13;
+&#13;
+I'm currently using Apache Tomcat, but I believe Paul B has done some testing with Jetty.&#13;
+Haven't used a simple Java vm to do this so far. But getting rid of the PHP to Java Bridge was actually my major point to use Solr instead.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/java_vm/re_java_vm</guid>
+      <pubDate>Mon, 23 Apr 2007 22:22:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java vm</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/java_vm</link>
+      <description>Hi,&#13;
+&#13;
+I believe i heard from Paul B that Solr could run using a simple java vm, which suggests to me using the java-php bridge employed by the lucene extension. But isnt the Solr offering servlet with its web api?&#13;
+&#13;
+Of the various servlet solutions which do you find the best in your experience?&#13;
+&#13;
+Cheers,&#13;
+&#13;
+Paul&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/java_vm</guid>
+      <pubDate>Mon, 23 Apr 2007 15:03:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr/re_solr2</link>
+      <description>I see revision 6 now with more within :)&#13;
+&#13;
+Is there more to come?&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr/re_solr2</guid>
+      <pubDate>Mon, 23 Apr 2007 14:59:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr/re_solr</link>
+      <description>Hi Paul&#13;
+&#13;
+Yes, there's coming more soon.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr/re_solr</guid>
+      <pubDate>Mon, 16 Apr 2007 13:20:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solr</title>
+      <link>http://projects.ez.no/ezsolr/forum/general/solr</link>
+      <description>Nice to see this extension :)&#13;
+&#13;
+I assume from the svn checked in so far that more is on the way?&#13;
+&#13;
+Im starting to use the lucene extension but would prefer to go straight to solr if possible.&#13;
+&#13;
+cheers,&#13;
+&#13;
+paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ezsolr/forum/general/solr</guid>
+      <pubDate>Sun, 15 Apr 2007 23:36:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

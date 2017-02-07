@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nivoslider / Forum / Bugs and Problems</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:04:57 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:04:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41360" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to create Custom template In ez publish 5</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/how_to_create_custom_template_in_ez_publish_5</link>
+      <description>Hi,&#13;
+&#13;
+Here I want to create html template to ez publish 5, so can any one help me about this.&#13;
+&#13;
+from scratch need to customize the new template in ez publish 5.&#13;
+&#13;
+Regards,&#13;
+Veeresh Sabanna</description>
+      <author>community@ez.no (veeresh sabanna)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/how_to_create_custom_template_in_ez_publish_5</guid>
+      <pubDate>Thu, 02 Jan 2014 11:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 3 problems solved</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/3_problems_solved/re_3_problems_solved</link>
+      <description>Hi Mickael, thankyou for your contribute,&#13;
+&#13;
+about problem &#13;
+&#13;
+1 - REMOVE THE TEMPLATE OVERRIDE FOR THE FULL VIEW&#13;
+i did know about that and i was searching a nice workaraund, but unfortunaly i didnt find that, the only way to solve it is to move the code of full view from the override.ini.append of this extentison to override.ini.append.php  in every siteacces (excluding admin siteacces). &#13;
+If someone know how to put an template for a full view in an extension without modify the ini siteacces please let me know, Thanks.&#13;
+&#13;
+2 - TYPO IN THE EMBED TEMPLATE&#13;
+which kind of bug you retrive?&#13;
+&#13;
+3- TYPO IN THE EMBED TEMPLATE&#13;
+i will change this line with the one post ,&#13;
+about your problem, can i know if the url of your website is in that form :&#13;
+&#13;
+www.website.com/&lt;b&gt;INDEX.PHP&lt;/b&gt;/testfolder/..... &#13;
+&#13;
+or is &#13;
+&#13;
+www.website.com/testfolder/..... &#13;
+&#13;
+with out without index.php ? beacuse many people are installing ez without using the correct virtualhost , and so the SiteURL in site.ini is wrong and then the ezurl fuction make some confiuson.&#13;
+&#13;
+&#13;
+thankyou again &#13;
+&#13;
+&#13;
+Stefano</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/3_problems_solved/re_3_problems_solved</guid>
+      <pubDate>Fri, 20 Jan 2012 15:39:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>3 problems solved</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/3_problems_solved</link>
+      <description>First of all, thanks for developing this useful extension :-)&#13;
+Below a few comments on the issues i found and solved during installation on ez&#13;
+&#13;
+1 - REMOVE THE TEMPLATE OVERRIDE FOR THE FULL VIEW&#13;
+Otherwise you won't see the full view in admin...so you won't be able to manage contents !!!&#13;
+&#13;
+2 - TYPO IN THE EMBED TEMPLATE part1&#13;
+{attribute_view_gui attribute=$object.data_map.effect}  seems to cause a bug&#13;
+I personnaly forced one value (slideInLeft) in the template : &#13;
+&lt;code&gt;&#13;
+&lt;script type="text/javascript"&gt;&#13;
+            $(window).load(function() {ldelim}&#13;
+                $('#slider').nivoSlider(&#13;
+                    {ldelim}&#13;
+                    effect : 'slideInLeft',       &#13;
+                    slices : {attribute_view_gui attribute=$object.data_map.slices},&#13;
+&lt;/code&gt;&#13;
+&#13;
+3-  TYPO IN THE EMBED TEMPLATE part2&#13;
+This path to the image did not work for me :&#13;
+&lt;code&gt;&#13;
+"{$child.data_map.image.content[nivoslider_block_item].url|ezurl('no','full')}" &#13;
+&lt;/code&gt;&#13;
+&#13;
+I modified it to : &#13;
+&lt;code&gt;&#13;
+src="{$child.data_map.image.content.nivoslider_embed.full_path}" &#13;
+&lt;/code&gt;&#13;
+&#13;
+&#13;
+Appart from those 3 issues, the extension seem to work like a charm.&#13;
+I hope this will help further versions/installations :-)&#13;
+&#13;
+Mickael</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/3_problems_solved</guid>
+      <pubDate>Fri, 20 Jan 2012 12:16:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Visibility of images</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images3</link>
+      <description>I share the solution....&#13;
+well his problem was the setting SiteURL on Site.ini... &#13;
+his siteurl value was somenthing like that : site.com/index.php&#13;
+this is a problem if you are using the rewriterule which ez publish need for work fine, the correct site.it must be just site.com</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images3</guid>
+      <pubDate>Thu, 24 Nov 2011 16:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Visibility of images</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images2</link>
+      <description>Thank you for reply. I do have nivo slider set as a container and can make nivo slider images child items of a slider. I have sent you an example link to your msn.com account. &#13;
+without /index.php/ before var, you can see the nivoslider image.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images2</guid>
+      <pubDate>Thu, 24 Nov 2011 12:48:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Visibility of images</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images</link>
+      <description>Hello John, so you been not able to insert nivoslider image like child? it can be fault of nivoslider class, if you check when u go to modify the class you will see there is an option called IS CONTAINER, or somenthing like that, can you tell me if this checkbox is checked?&#13;
+&#13;
+If you prefer we can talk on skype (buby3k) or live emssenger (nw125@msn.com).&#13;
+&#13;
+</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images/re_visibility_of_images</guid>
+      <pubDate>Wed, 23 Nov 2011 20:03:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visibility of images</title>
+      <link>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images</link>
+      <description>Thank you for sharing this extension with the community.&#13;
+&#13;
+I am attempting to use nivoslider v0.2 with ezflow on Community Project 2011.10 installation with OE 5.4.0-beta1. Debian squeeze. php5 Non virtual host set up using .htaccess settings recommended by ez documentation. Default language is eng.&#13;
+&#13;
+After realising that the package had only installed the two nivo classes in Italian, I changed them to English, basing them on the Italian set-up.&#13;
+&#13;
+I can see a nivoslider image when it is posted say in a folder and it is called from [base directory]/var/ezflow_site/storage/images/....&#13;
+&#13;
+When I put nivoslider images as child items of a nivoslider, it says the slider is not configured to contain items.&#13;
+&#13;
+When I embed the slider in an xml block, as you would do for a file, the nivoslider caption and skin are visible, and I can see it is trying to rotate images which are not there. The source reveals it is looking for nivoslider images in [base directory]/index.php/var/ezflow_site/storage/images/....&#13;
+&#13;
+Is this a javascript or rewrite problem and do you have any suggestions on how to correct?&#13;
+&#13;
+Many thanks in anticipation.</description>
+      <author>community@ez.no (John Bolton)</author>
+      <guid>http://projects.ez.no/nivoslider/forum/bugs_and_problems/visibility_of_images</guid>
+      <pubDate>Wed, 23 Nov 2011 17:00:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

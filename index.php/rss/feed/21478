@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcomments / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:19:44 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:19:44 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21478" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions/re_can_t_set_permissions</link>
+      <description>Nevermind - I fixed it; filesystem permissions were set to 600/700, so the web user was not allowed to browse the extension directory.&#13;
+&#13;
+Best regards,&#13;
+Markus</description>
+      <author>community@ez.no (Markus Mahner)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions/re_can_t_set_permissions</guid>
+      <pubDate>Fri, 13 Dec 2013 12:12:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't set permissions</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions</link>
+      <description>Hi,&#13;
+&#13;
+I installed ezcomments extension according to the INSTALL instructions:&#13;
+* copied ezcomments folder to ezpublish_legacy/extension/ folder&#13;
+* applied the schema.sql script to my database; the tables and indexes were generated&#13;
+* added ActiveExtensions[]=ezcomments to settings/override/site.ini.append.php; extension is marked as active in the admin backend&#13;
+* ran 'php bin/php/ezpgenerateautoloads.php' in ezpublish_legacy/ directory; 'ezpublish_legacy/var/autoload/ezp_extension.php' array includes the correct paths to ezcomments module classes&#13;
+* cleared all caches&#13;
+&#13;
+But when I want to set the permissions for Anonymous user, the comments module doesn't show up in the "New policy" module list... Did I miss something? What can I do to help with debugging this issue?&#13;
+&#13;
+Some more information about my site:&#13;
+* eZ Publish Community Project 2013.9&#13;
+* Postgres 9.2&#13;
+* eZ Comments module downloaded today from Github&#13;
+&#13;
+Best regards,&#13;
+Markus</description>
+      <author>community@ez.no (Markus Mahner)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_t_set_permissions</guid>
+      <pubDate>Fri, 13 Dec 2013 11:32:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>reCaptha </title>
+      <link>http://projects.ez.no/ezcomments/forum/general/recaptha</link>
+      <description>Has anyone else found that the reCaptha is now ineffective.  Sadly I'm forced to stop using ez Comment.  It really needs to support work-flow and notifications so users have options and deterrents because relying on recaptcha lone isn't good enough any more.&#13;
+&#13;
+Until this is address eZ Comments is a spammers paradise.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/recaptha</guid>
+      <pubDate>Tue, 16 Jul 2013 03:20:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply/re_can_this_extension_support_reply</link>
+      <description>Not at the moment it can't.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply/re_can_this_extension_support_reply</guid>
+      <pubDate>Tue, 16 Jul 2013 03:15:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can this extension support reply?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply</link>
+      <description>Reply for other's comment, like“threaded” comments.</description>
+      <author>community@ez.no (zhong tian)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/can_this_extension_support_reply</guid>
+      <pubDate>Mon, 24 Jun 2013 06:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Give a mark to a comment</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/give_a_mark_to_a_comment</link>
+      <description>Hello, &#13;
+&#13;
+I d'like to know if it's possible to give a mark to a comment, like the Facebook "like" button" ?</description>
+      <author>community@ez.no (Jerome Guillemain)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/give_a_mark_to_a_comment</guid>
+      <pubDate>Fri, 10 Feb 2012 16:23:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Filtering comment_list</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list2</link>
+      <description>Thanks for  the reply, it's the two ways I have considered. I think the template approach sounds better.</description>
+      <author>community@ez.no (Frédéric SCHARLY)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list2</guid>
+      <pubDate>Fri, 27 Jan 2012 14:59:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Filtering comment_list</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list</link>
+      <description>Hello Frederic,&#13;
+&#13;
+Currently there is no template level efficient API for that. There are 2 approaches for this:&#13;
+&#13;
+1) get contentobject id array first and then fetch comment list by content list. But if the content is huge there might be performance issue(cache block might help in this).&#13;
+&#13;
+http://doc.ez.no/Extensions/eZ-Publish-extensions/eZ-Comments/Setup-and-user-guide-1.2/Template-fetch-functions/comment_list_by_content_list&#13;
+&#13;
+2) write your own template.&#13;
+&#13;
+Ref: &#13;
+database schema: &#13;
+https://github.com/ezsystems/ezcomments/blob/master/sql/mysql/schema.sql , see ezcomment table&#13;
+&#13;
+&#13;
+Example of fetching comment list: https://github.com/ezsystems/ezcomments/blob/master/classes/ezcomcomment.php&#13;
+&#13;
+Hopefully it helps.&#13;
+&#13;
+Best&#13;
+Chen&#13;
+</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list/re_filtering_comment_list</guid>
+      <pubDate>Fri, 27 Jan 2012 14:36:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Filtering comment_list</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list</link>
+      <description>Hi,&#13;
+&#13;
+Is it possible to filter a list of comment by class_identifier ?</description>
+      <author>community@ez.no (Frédéric SCHARLY)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/filtering_comment_list</guid>
+      <pubDate>Fri, 27 Jan 2012 12:51:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ez 4.3 required?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required/re_ez_4_3_required2</link>
+      <description>Hi,&#13;
+&#13;
+I meet this problem with :&#13;
+&#13;
+- eZP 4.3&#13;
+- webin 1.7.0 &#13;
+- ezcomments 1.1.0&#13;
+&#13;
+(see this thread: http://share.ez.no/forums/extensions/ezcomments-and-can_edit)&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required/re_ez_4_3_required2</guid>
+      <pubDate>Fri, 17 Dec 2010 14:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Plans for Extension enhancement</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement/re_plans_for_extension_enhancement2</link>
+      <description>The premoderation system is a very good idea!&#13;
+We are waiting for your contributions! :)</description>
+      <author>community@ez.no (Sergiy Gedeon)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement/re_plans_for_extension_enhancement2</guid>
+      <pubDate>Tue, 19 Oct 2010 10:18:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ez 4.4?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ez_4_4/re_ez_4_4</link>
+      <description>Hi, Sao&#13;
+&#13;
+It's available already for 4.4. (ezcomments1.0.0-&gt; ezpublish 4.3.0, ezcomments1.1.0-&gt;ezpublish4.4.0)&#13;
+&#13;
+You can download the separate ezcomments package from http://share.ez.no/blogs/ez/the-base-of-the-community-project-ez-publish-fuji-4.4-released-today.-let-s-launch-the-rocket&#13;
+ or the download link on the top(I just added the same tarball today).&#13;
+&#13;
+If the issue is fixed, normally the fix will be included on ezcomments 1.2.0.&#13;
+&#13;
+Let's discuss the issue in issue tracker: http://issues.ez.no/IssueView.php?Id=17440&#13;
+&#13;
+Thanks for the reporting.</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ez_4_4/re_ez_4_4</guid>
+      <pubDate>Mon, 11 Oct 2010 08:44:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez 4.4?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ez_4_4</link>
+      <description>How soon will a version be av vailable for ez 4.4?&#13;
+&#13;
+For the moment, with your version, I get something like:&#13;
+&#13;
+[error] [client {some_ip}] PHP Fatal error:  Call to a member function mainNode() on a non-object in [..]extension/ezcomments/classes/ezcomposthelper.php on line 71&#13;
+&#13;
+&#13;
+I am sure it is only about a couple of tweaks (as I've done it working myself), but an official 4.4 version would still be nice.</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ez_4_4</guid>
+      <pubDate>Sat, 09 Oct 2010 09:32:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Plans for Extension enhancement</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement/re_plans_for_extension_enhancement</link>
+      <description>Thank you for the fix, can you add issue into out issue tracker and provide the patch in the comment?&#13;
+&#13;
+http://issues.ez.no&#13;
+&#13;
+PS: this is issues related to ezcomments: http://issues.ez.no/IssueList.php?SearchIn=3</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement/re_plans_for_extension_enhancement</guid>
+      <pubDate>Thu, 07 Oct 2010 11:41:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plans for Extension enhancement</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement</link>
+      <description>Hello,&#13;
+&#13;
+I've tested your extension and this reveals some language related issues. I already fixed them, and currently  I'm working in improving your extension to add Pre-Moderation and Comment Reply features. I hope have it ready in three weeks.&#13;
+&#13;
+I want to make it free and share these changes as part of a new extension version. Maybe I have my changes merged with the official code? </description>
+      <author>community@ez.no (Bayron Guevara)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/plans_for_extension_enhancement</guid>
+      <pubDate>Wed, 06 Oct 2010 19:36:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comment validation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation3</link>
+      <description>It's in our backlog. Currently there is no detail plan for when it will be implemented. But personally I would say it's a popular feature, with comments management in admin.&#13;
+&#13;
+Thanks&#13;
+&#13;
+</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation3</guid>
+      <pubDate>Wed, 06 Oct 2010 11:37:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comment validation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation2</link>
+      <description>Moderation seems to be a good feature. Is its development planned for the future? </description>
+      <author>community@ez.no (anthony dardilhac)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation2</guid>
+      <pubDate>Wed, 06 Oct 2010 11:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Better developer documentation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation3</link>
+      <description>Marko, &#13;
+&#13;
+  For those undocumented fetch functions(like function in ezcomFunctionCollection), since they are not public fetch functions, it's not guaranteed that they will work well.&#13;
+&#13;
+- document the attributes of the comments items: good suggestion, it will be done and put on news.&#13;
+&#13;
+  "document the modules an their functions". Let me find a time so that I could post a blog on it. I guess you want to know the mechanism of the add/edit/delete logic and extend them. &#13;
+&#13;
+  For any more suggestion(like what kind of advanced feature to develop), which could help me to gather ideas, please put it here.&#13;
+&#13;
+  Thanks.</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation3</guid>
+      <pubDate>Mon, 04 Oct 2010 15:38:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcomments and cache</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ezcomments_and_cache/re_ezcomments_and_cache</link>
+      <description>Hi Marko,&#13;
+&#13;
+  Currently eZ Comments uses cache-block in displaying comments. It's based on uri, role, and limitation assigned. Eveytime a new comment is put on, it will clear the cache(static cache).&#13;
+&#13;
+- does it follow the SmartCache rules?&#13;
+   It should be configurable. use objectid of object that comments are on.&#13;
+http://doc.ez.no/eZ-Publish/Technical-manual/4.4/Features/View-caching/Smart-view-cache-cleaning&#13;
+&#13;
+- does it clear the template block cache of cache-blocks that have the commented node in it's subtree_expiry?&#13;
+  This is not set up. See code in design/standard/templates/comment/view/view.tpl, override if you need.&#13;
+- does it trigger static cahce cleanup when needed?&#13;
+  yes.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ezcomments_and_cache/re_ezcomments_and_cache</guid>
+      <pubDate>Mon, 04 Oct 2010 15:18:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcomments and cache</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ezcomments_and_cache</link>
+      <description>How does ezcomments behave with the eZ caching mechanism?&#13;
+&#13;
+- does it follow the SmartCache rules?&#13;
+- does it clear the template block cache of cache-blocks that have the commented node in it's subtree_expiry?&#13;
+- does it trigger static cahce cleanup when needed?&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ezcomments_and_cache</guid>
+      <pubDate>Mon, 04 Oct 2010 14:47:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Better developer documentation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation2</link>
+      <description>Here are some suggestions:&#13;
+&#13;
+- document all the fetch functions, and all their parameters (the same way like the fetch functions are documented on eZ docs&#13;
+&#13;
+- document the attributes of the comments items&#13;
+&#13;
+- document the modules an their functions - which one exist, how to use them, what post variables do they accept...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation2</guid>
+      <pubDate>Tue, 28 Sep 2010 15:00:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Better developer documentation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation</link>
+      <description>Hello Marko,&#13;
+&#13;
+    Thank you for the suggestion. Maybe you want some documentations explaining what does one ezcomments template do in detail? If it's possible, could you tell me what kinds of customization you want to do?&#13;
+&#13;
+     This is not so advanced, but might be helpful: http://doc.ez.no/Extensions/eZ-Comments/Setup-and-user-guide-1.1/Template-customization&#13;
+&#13;
+   Thanks&#13;
+--&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation/re_better_developer_documentation</guid>
+      <pubDate>Tue, 28 Sep 2010 12:55:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Translation not working in v1.1</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/translation_not_working_in_v1_1/re_translation_not_working_in_v1_1</link>
+      <description>Hello Javier,&#13;
+&#13;
+Sorry maybe it's a little confusing, but the Language is used for something else:	&#13;
+&#13;
+it is the language of reCAPTCHA when the theme is not 'custom'. &#13;
+&#13;
+from http://doc.ez.no/Extensions/eZ-Comments/Setup-and-user-guide-1.1/ezcomments.ini-settings&#13;
+&#13;
+&#13;
+By default(theme is custom), the language mechanism of recaptcha is the same as ez publish translation, meaning that if you want to use one language, you need to have translation file(translation.ts) in that language and siteaccess is using that language..&#13;
+&#13;
+--&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/translation_not_working_in_v1_1/re_translation_not_working_in_v1_1</guid>
+      <pubDate>Tue, 28 Sep 2010 12:48:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Translation not working in v1.1</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/translation_not_working_in_v1_1</link>
+      <description>Hello.&#13;
+&#13;
+First of all I have to thank for this great project and the new captcha functionality in v1.1.&#13;
+&#13;
+But there is a little issue: the translation is not working. I have set up in the setting the following:&#13;
+&#13;
+&lt;code&gt;&#13;
+[RecaptchaSetting]&#13;
+#Current captcha language: en, nl, fr, de, pt, ru, es, tr&#13;
+Language=es&#13;
+TabIndex=0&#13;
+&lt;/code&gt;&#13;
+&#13;
+Any idea?&#13;
+Cheers,&#13;
+Javier</description>
+      <author>community@ez.no (Kiko Magán)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/translation_not_working_in_v1_1</guid>
+      <pubDate>Mon, 20 Sep 2010 15:48:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better developer documentation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation</link>
+      <description>Just a suggestion...&#13;
+&#13;
+There should be a better documentation for more experienced developers, especially for the templates. For example if I want to customize ezcomments with my own highly customized templates I have to inspect the existing templates and figure it out by myself.&#13;
+&#13;
+having a piece of docs that explains how to make your own custom templates would be really usefull.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/better_developer_documentation</guid>
+      <pubDate>Fri, 17 Sep 2010 12:24:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>support  rich snippets</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/support_rich_snippets</link>
+      <description>To prepare the futur (not so far).&#13;
+default tpl of ezcomments should support rich snippets&#13;
+&#13;
+http://www.google.com/support/webmasters/bin/answer.py?hl=en</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/support_rich_snippets</guid>
+      <pubDate>Thu, 09 Sep 2010 12:33:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: comment validation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation</link>
+      <description>Hi, Guillaume&#13;
+&#13;
+I think your demand is a kind of moderation, which is not supported currently. &#13;
+&#13;
+There is an public issue for moderation: http://issues.ez.no/IssueView.php?Id=16660&#13;
+&#13;
+Thanks&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/comment_validation/re_comment_validation</guid>
+      <pubDate>Wed, 01 Sep 2010 11:30:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>comment validation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/comment_validation</link>
+      <description>Is it possible to show only comment approuved by administrator ? A sort of workflow ?</description>
+      <author>community@ez.no (Guillaume Kulakowski)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/comment_validation</guid>
+      <pubDate>Tue, 31 Aug 2010 09:03:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: missing {/if} in addd_comment.tpl in svn trunk</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/missing_if_in_addd_comment_tpl_in_svn_trunk/re_missing_if_in_addd_comment_tpl_in_svn_trunk</link>
+      <description>Hello Stevo,&#13;
+&#13;
+   Thanks you for the report. It's fixed in r322. You can report similar issue here or in http://issues.ez.no/IssueList.php?ProjectId=3 with title like [ezcomments].&#13;
+&#13;
+Cheers&#13;
+</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/missing_if_in_addd_comment_tpl_in_svn_trunk/re_missing_if_in_addd_comment_tpl_in_svn_trunk</guid>
+      <pubDate>Wed, 28 Jul 2010 12:11:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>missing {/if} in addd_comment.tpl in svn trunk</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/missing_if_in_addd_comment_tpl_in_svn_trunk</link>
+      <description>Just a note to say another {/if} is required in add_comments.tpl as of r321. The submit button currently doesn't show up if recptcha is disabled.&#13;
+&#13;
+Not sure where to post issues about extensions like this.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (STEVO +)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/missing_if_in_addd_comment_tpl_in_svn_trunk</guid>
+      <pubDate>Mon, 19 Jul 2010 15:17:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>A way of developing captcha based on ezcomments 1.0</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/a_way_of_developing_captcha_based_on_ezcomments_1_0</link>
+      <description>Hi,&#13;
+&#13;
+eZ Comments 1.0 doesn't support captcha. But it's possible to extend ezcomments to achieve captcha feature.&#13;
+&#13;
+There is one way which uses API of RECAPTCHA(http://projects.ez.no/recaptcha ), an ez publish extension, to implement the  captcha functionality based on ezcomments.&#13;
+&#13;
+Please click this link to get steps to do and example code: &#13;
+http://issues.ez.no/IssueView.php?Id=16305&#13;
+&#13;
+Feel free to suggest other ways :)&#13;
+&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/a_way_of_developing_captcha_based_on_ezcomments_1_0</guid>
+      <pubDate>Mon, 22 Mar 2010 19:54:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some missing features</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features3</link>
+      <description>Hi,&#13;
+&#13;
+I'm afraid it's late to put this feature to this release. The whole feature is not a short work.&#13;
+&#13;
+But I can assist you to develop this after release if you want.&#13;
+&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features3</guid>
+      <pubDate>Thu, 11 Mar 2010 08:32:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some missing features</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features2</link>
+      <description>HI&#13;
+&#13;
+For the delete feature, yes it's really important. In france, we need to keep track of UGC for legal reason.&#13;
+Of course we can implement it but it's better when everything is integrate in the package. ;-)&#13;
+&#13;
+&#13;
+&#13;
+Stephane</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features2</guid>
+      <pubDate>Tue, 09 Mar 2010 10:14:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: German translation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation3</link>
+      <description>I have added the translation. Think you are in member now.&#13;
+&#13;
+Thanks Georg.&#13;
+&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation3</guid>
+      <pubDate>Wed, 03 Mar 2010 09:03:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: German translation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation2</link>
+      <description>Hi,&#13;
+&#13;
+I can't commit, have no rights at the moment. I've attached the german translation here: http://issues.ez.no/IssueView.php?Id=16276</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation2</guid>
+      <pubDate>Tue, 02 Mar 2010 17:45:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: German translation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation</link>
+      <description>Hi Georg,&#13;
+&#13;
+I was in Oslo last week, still catching up on unread e-mails. I have approved your membership request.</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/german_translation/re_german_translation</guid>
+      <pubDate>Tue, 02 Mar 2010 08:57:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some missing features</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features</link>
+      <description>Hi, Stephane&#13;
+&#13;
+Sorry for the delay reply. Thanks for the feedback.&#13;
+&#13;
+For the ip issue, it's a bug. It will be fixed.&#13;
+&#13;
+The status is intended to meet requirement for hiding or moderating. These features have not been implemented in this release, also for searching comment. &#13;
+&#13;
+The moderation and search feature have been put into roadmap. The delete feature(not delete it completely) is an interesting feature. We will discuss it to put it into roadmap.&#13;
+&#13;
+But if the delete feature is really important, I think basically it  is possible for developer to easily develop that feature based on ezcomment, for short solution.&#13;
+&#13;
+Best regards&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/some_missing_features/re_some_missing_features</guid>
+      <pubDate>Tue, 02 Mar 2010 08:38:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ez 4.3 required?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required/re_ez_4_3_required</link>
+      <description>Hello, Georg.&#13;
+&#13;
+There will be an typical issue in early version. From technical manual: "when a user is granted permission to edit or delete his own comment.  He will be able to see all the edit and delete buttons on the comment list, although he can not edit or delete all the comments."&#13;
+&#13;
+ This issue exists because the view cache in ezpublish is based on role.&#13;
+&#13;
+ If you don't give edit/delete permission to registered user to edit/delete himself's comment, then it will be ok.&#13;
+&#13;
+Chen</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required/re_ez_4_3_required</guid>
+      <pubDate>Tue, 02 Mar 2010 08:17:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez 4.3 required?</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required</link>
+      <description>Hi,&#13;
+&#13;
+whats the reason of requiring at least ez 4.3 for that extension? (Will it work at 4.2?)&#13;
+&#13;
+Best wishes,&#13;
+Georg.</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/ez_4_3_required</guid>
+      <pubDate>Sat, 27 Feb 2010 12:27:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>German translation</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/german_translation</link>
+      <description>Hi Łukasz,&#13;
+&#13;
+I would provide the german translation of ezcomments if you like. I could send it via email or commit it via subversion if you approve the membership.&#13;
+&#13;
+Best wishes,&#13;
+Georg.</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/german_translation</guid>
+      <pubDate>Sat, 27 Feb 2010 12:26:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some missing features</title>
+      <link>http://projects.ez.no/ezcomments/forum/general/some_missing_features</link>
+      <description>Hi&#13;
+maybe these remarks are already in the roadmap or maybe I misse something in the extension. &#13;
+&#13;
+The user IP is not insert in the table (if the web sites in behind a CDN we should track the header  HTTP_X_FORWARDED_FOR )  &#13;
+&#13;
+For specific websites and legal reason, the comment can't be delete we must keep informations about the comment. The status columns should be use to display or not the comment in the front office.&#13;
+&#13;
+&#13;
+&#13;
+For moderation, &#13;
+For specific websites (for kids), we must moderate the comment before is publication. (the status column can be use for this.)&#13;
+It will be useful to be able to search a specific comments (by title/user name/status etc).&#13;
+&#13;
+Stephane&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezcomments/forum/general/some_missing_features</guid>
+      <pubDate>Thu, 25 Feb 2010 15:03:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

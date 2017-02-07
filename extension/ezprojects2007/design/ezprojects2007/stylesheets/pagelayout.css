@@ -1,0 +1,485 @@
+/* PAGELAYOUT CSS - th[eZ]20051205 */
+
+
+/* FULL PAGE */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div#page
+{
+    width: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+div#page-width1, div#page-width2, div#page-width3, div#page-width4, div#page-width5, div#page-width6
+{
+    width: 870px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+div#page-width1
+{
+    position: relative;
+}
+
+
+/* HEADER */
+
+div#header
+{
+    background-image: url(../images/header-bg.gif);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    position: relative;
+}
+
+div#header-insert
+{
+    height: 104px;
+    background-image: url(../images/header-sheets-bg.gif);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+div#logo
+{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    background-image: url(../images/ezprojects-logo.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+div#logo h1
+{
+    margin: 0;
+}
+
+div#logo a
+{
+    color: #000000;
+    height: 40px;
+    width: 640px;
+    text-decoration: none;
+    display: block;
+}
+
+div#searchbox
+{
+    width: 24em;
+    position: absolute;
+    top: 38px; /* 46px; */
+    right: 0;
+    text-align: right;
+}
+
+div#searchbox div.block div.element
+{
+    float: right;
+    padding-right: 0;
+}
+
+div#searchbox div.searchstring
+{
+    margin-right: 0.25em;
+}
+
+input#searchtext
+{
+    font-size: 0.9em;
+    width: 12em;
+    margin-bottom: 0.25em;
+    border: 1px solid;
+    border-color: #1d4662 #7895a7 #7895a7 #1d4662;
+}
+
+input#searchbutton
+{
+    font-size: 0.9em;
+    color: #ffffff;
+    background-color: #8aa1b1;
+    background-image: url(../images/mainbutton-bg.gif);
+    background-repeat: repeat-x;
+    background-position: top;
+    margin-top: 1px;
+    padding: 0 0.5em 0 0.5em;
+    border: 1px solid;
+    border-color: #7895a7 #1d4662 #1d4662 #7895a7;
+}
+
+div#searchbox label.hide
+{
+    display: none;
+}
+
+div#searchbox label
+{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 0 0 0 0.5em;
+    display: inline;
+    vertical-align: middle;
+}
+
+div#searchbox label input, div#searchbox div.section input
+{
+    margin: 0 4px 0 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+div#searchbox div.section input
+{
+    margin-right: 0;
+}
+
+div#searchbox div.section
+{
+    font-size: 1em;
+    display: inline;
+    vertical-align: top;
+}
+
+div#searchbox select
+{
+    color: #ffffff;
+    background-color: #50748c;
+    width: 12.8em;
+    border: 1px solid;
+    border-color: #7895a7 #1d4662 #1d4662 #7895a7;
+}
+
+div#searchbox select option
+{
+}
+
+
+/* USER MENU */
+
+h2#slogan
+{
+    font-weight: normal;
+    color: #728fa4;
+    font-size: 0.85em;
+    margin: 0;
+    padding: 0.25em 0 0.25em 0;
+    float: left;
+}
+
+div#usermenu
+{
+    background-color: #224d6a;
+    border-bottom: 1px solid #1d4662;
+}
+
+div#usermenu ul
+{
+    font-size: 0.85em;
+    margin: 0;
+    padding: 0.25em 0 0.25em 0;
+    text-align: right;
+}
+
+div#usermenu li
+{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin-left: 1em;
+}
+
+div#usermenu li a
+{
+    color: #728fa4;
+    font-weight: normal;
+    padding-left: 12px;
+    background-image: url(../images/usermenu-bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0.35em;
+    text-decoration: none;
+}
+
+div#usermenu li a:hover
+{
+    color: #ffffff;
+}
+
+div#usermenu form
+{
+    display: inline;
+}
+
+div#usermenu form select
+{
+    font-size: 0.85em;
+}
+
+div#usermenu li img
+{
+    vertical-align: middle;
+}
+
+div#usermenu li#language-menu
+{
+    color: #728fa4;
+    padding-left: 10px;
+    background-image: url(../images/usermenu-bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0em 0.35em;
+}
+
+div#usermenu li#language-menu a
+{
+    background-image: none;
+    padding: 0;
+}
+
+div#usermenu li#language-menu a.highlighted
+{
+    color: #ffffff;
+}
+
+
+div#usermenu li#language-menu img
+{
+    padding-right: 2px;
+    padding-left: 4px;
+}
+
+div.dynamicwidth ul#language-menu
+{
+    right: 1.5em;
+}
+
+ul#language-menu li img
+{
+    vertical-align: middle;
+}
+
+li#language-menu li span.disabled
+{
+    color: #536e81;
+    padding: 0.5em;
+}
+
+
+/* MAIN MENU */
+
+div#mainmenu
+{
+    background: url(../images/mainmenu-bg.gif) repeat-x bottom left;
+    background-color: #fdfdfd;
+    position: relative;
+}
+
+div#mainmenu iframe /* Only used for IE 6 */
+{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+div#mainmenu div.dropdownmenu
+{
+    min-width: 10em;
+    position: absolute;
+    top: 1.85em;
+    left: -1px;
+    display: none;
+    z-index: 1;
+}
+
+div#submenu
+{
+    background-color: #f9f9f9;
+    border-bottom: 1px #cacaca solid;
+}
+
+div#mainmenu ul, div#submenu ul
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+div#mainmenu ul ul
+{
+    border: 1px #cacaca;
+    border-style: none solid solid solid;
+}
+
+div#mainmenu li, div#submenu li
+{
+    margin: 0 0 0 -1px;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+div#mainmenu li li
+{
+    margin: 0;
+    float: none;
+}
+
+div#mainmenu a, div#submenu a
+{
+    background: url(../images/mainmenu-tick.gif) no-repeat bottom right;
+}
+
+div#mainmenu li.project a
+{
+    background: none;/*url(../images/mainmenu-bg.gif) repeat-x bottom left;*/
+}
+
+div#mainmenu a, div#submenu a
+{
+    color: #000000;
+    padding: 4px 12px 4px 12px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    position: relative;
+}
+
+div#mainmenu li.project
+{
+    font-weight: bold;
+}
+
+div#mainmenu li.project a:hover
+{
+    color: #ffffff;
+    background-color: green;
+    background-image: none;
+}
+
+div#mainmenu li.last a, div#mainmenu li li a, div#submenu li.last a
+{
+    background-image: none;
+}
+
+div#mainmenu li.current a
+{
+    background: url(../images/mainmenu-selected-bg.gif) repeat-x bottom;
+    background-color: #e3e3e3;
+}
+
+div#mainmenu ul ul, div#mainmenu li.current a.menuhover, div#mainmenu a.menuhover, div#mainmenu li.current li a, div#mainmenu li.current a:hover
+{
+    background-image: none;
+    background-color: #f9f9f9;
+}
+
+div#mainmenu a:hover, div#mainmenu li.current a:hover, div#submenu a:hover, div#mainmenu li.current a.menuhover:hover, div#mainmenu a.menuhover:hover, div#mainmenu li.current li a:hover
+{
+    color: #ffffff;
+    background-color: #f15e22;
+    background-image: none;
+}
+
+
+/* PATH */
+
+div#path
+{
+    margin: 1.5em 0 0.75em 0;
+}
+
+div#path p
+{
+    color: #959fa8;
+    font-size: 0.85em;
+    margin: 0.25em 0 0.25em 0;
+    padding-left: 10px;
+    background-image: url(../images/path-bullet.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0.3em;
+}
+
+div#path a
+{
+    color: #848891;
+    text-decoration: none;
+    border-bottom: 1px solid #d2d4d7;
+}
+
+div#path a:hover
+{
+    color: #000000;
+    border-color: #000000;
+}
+
+
+/* MAIN AREA */
+
+div#main
+{
+    margin: 1em 0 0.5em 0;
+}
+
+div.area-main-normal
+{
+    float: left;
+    clear: left;
+    width: 65%;
+}
+
+div.area-sidebar-normal
+{
+    float: right;
+    clear: right;
+    width: 34%;
+}
+
+div.area-main-full, div.area-main-full-padding
+{
+    width: 100%;
+    clear: both;
+}
+
+div.area-main-left
+{
+    float: left;
+    clear: left;
+    width: 50%;
+}
+
+div.area-main-right
+{
+    float: right;
+    clear: right;
+    width: 49%;
+}
+
+
+/* FOOTER */
+
+div#footer
+{
+    color: #959fa8;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+}
+
+div#footer address
+{
+    font-size: 0.85em;
+    font-style: normal;
+}
+
+div#footer a
+{
+    color: #848891;
+}

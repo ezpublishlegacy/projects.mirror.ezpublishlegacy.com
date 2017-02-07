@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezenhanceddebug / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:58:16 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:58:16 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13248" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezenhanceddebug rev. 5 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezenhanceddebug/subversion/5</link>
+      <description>- Added README explaining the project has moved
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/subversion/5</guid>
+      <pubDate>Sun, 25 Apr 2010 17:35:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezenhanceddebug rev. 4 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezenhanceddebug/subversion/4</link>
+      <description>- Removed the repository as the code moved to github :
+  -&gt; http://github.com/jeromer/ezenhanceddebug
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/subversion/4</guid>
+      <pubDate>Sun, 25 Apr 2010 17:35:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezenhanceddebug rev. 3 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezenhanceddebug/subversion/3</link>
+      <description>- fixed issue reported here : 
+http://projects.ez.no/ezenhanceddebug/forum/general/support_for_ez_publish_4_0_1_patches
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/subversion/3</guid>
+      <pubDate>Wed, 07 Jan 2009 16:50:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezenhanceddebug rev. 2 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezenhanceddebug/subversion/2</link>
+      <description>- release 1.1 version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/subversion/2</guid>
+      <pubDate>Fri, 19 Dec 2008 10:35:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezenhanceddebug rev. 1 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezenhanceddebug/subversion/1</link>
+      <description>-initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezenhanceddebug/subversion/1</guid>
+      <pubDate>Fri, 19 Dec 2008 10:35:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

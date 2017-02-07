@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bfsurveyfile / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:22:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:22:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48604" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/62e02f74a77fe0b868b9cc7caca5b2cf5a50442a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;README.md
+
+renamed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/62e02f74a77fe0b868b9cc7caca5b2cf5a50442a</guid>
+      <pubDate>Thu, 11 Sep 2014 15:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/efd6bba507e3ba0fd98f61fd206c46ba57096845</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Readme troubleshooting ExtensionDirectories[] init
+
+If the bfsurvey extension loads before the ezsurvey extension the 'file'
+may not appear becuase the array is reset.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/efd6bba507e3ba0fd98f61fd206c46ba57096845</guid>
+      <pubDate>Thu, 11 Sep 2014 15:02:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/4286223391fe089e66c38eeefaa1ff9722610019</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of https://git.beaconfire.us/ezextensions/bfsurveyfile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/4286223391fe089e66c38eeefaa1ff9722610019</guid>
+      <pubDate>Fri, 30 May 2014 14:02:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/a837c905e0d329541b448488d96ed9a807d61d91</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;move result/mail/file.tpl correct path&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/a837c905e0d329541b448488d96ed9a807d61d91</guid>
+      <pubDate>Sat, 29 Mar 2014 00:52:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/e96d37d5836fdb2e5475dd8152ac82d3f042c7a5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/e96d37d5836fdb2e5475dd8152ac82d3f042c7a5</guid>
+      <pubDate>Sat, 29 Mar 2014 00:52:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/9ca274a2f3dfb9695187a6f91b3e92bcec6304b6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;rework ezsurveyfile.php to use processviewaction() instead of answer() and leverage  as shared scope for passing the file upload path&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/9ca274a2f3dfb9695187a6f91b3e92bcec6304b6</guid>
+      <pubDate>Sat, 29 Mar 2014 00:52:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/8d8ab2846c1cf500716d2d1f62c53f4d18ae13c8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add result/mail/file.tpl
+
+Email template for file type.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/8d8ab2846c1cf500716d2d1f62c53f4d18ae13c8</guid>
+      <pubDate>Wed, 26 Mar 2014 20:42:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/3c8112b581924de50ab4f449dd65d4544b24749d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix file limits
+
+Uncomment the MaxFileSize so it can be controlled by the siteaccess
+Display the file limits if they are not aligned&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/3c8112b581924de50ab4f449dd65d4544b24749d</guid>
+      <pubDate>Fri, 21 Mar 2014 14:52:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/dd4a9e36743afb3ac4fa5db89490cc7391226dce</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed reference to nonexistent stylesheet&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/dd4a9e36743afb3ac4fa5db89490cc7391226dce</guid>
+      <pubDate>Fri, 21 Mar 2014 14:52:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/2ef36be66a373a622322b39086fc82ff2dd5da20</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix sizeLimit read from ini
+
+set $this-&gt;sizeLimit during contruction&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/2ef36be66a373a622322b39086fc82ff2dd5da20</guid>
+      <pubDate>Thu, 20 Mar 2014 21:02:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/69573182b1e8c338683221b8d7c1e025ac4a7de9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Storage var directory use eZDir to create
+
+eZDir is a wrapper with some smarts around mkdir&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/69573182b1e8c338683221b8d7c1e025ac4a7de9</guid>
+      <pubDate>Thu, 20 Mar 2014 21:02:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/558b8e12eb881fdf56df213aa2e2c402331463ce</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveyfile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;FIX, mandatory check fixed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/558b8e12eb881fdf56df213aa2e2c402331463ce</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/0ab27ddf7df8e80c1304481aefad874913a1efc0</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveyfile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use survey object's content object id, instead of the survey_id for folder name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/0ab27ddf7df8e80c1304481aefad874913a1efc0</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/a23c06e2c65b5c270656019f14c870051b18c0fa</link>
+      <description>
+      &lt;pre&gt;+ classes/eZSurveyFileUploader.php
++ design/standard/templates/survey/edit/file.tpl
++ design/standard/templates/survey/result/item/file.tpl
++ design/standard/templates/survey/result/overview/file.tpl
++ design/standard/templates/survey/view/file.tpl
++ docs/readme.txt
++ ezinfo.php
++ modules/survey/classes/ezsurveyfile.php
++ settings/bfsurveyfile.ini.append.php
++ settings/design.ini.append.php
++ settings/ezsurvey.ini.append.php
++ settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;bfsurveyfile init&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/a23c06e2c65b5c270656019f14c870051b18c0fa</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:36 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/0f83fb57253692c710a751220e27453b07c6834f</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/survey/result/item/file.tpl
+m design/standard/templates/survey/result/overview/file.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;file.tpl open in new window&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/0f83fb57253692c710a751220e27453b07c6834f</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/4e492a1137a683356126a7ff31d881e6265d5343</link>
+      <description>
+      &lt;pre&gt;m docs/readme.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;.htaccess typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/4e492a1137a683356126a7ff31d881e6265d5343</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/3a97898afdd74fa19cc382282034b2cbfb1149aa</link>
+      <description>
+      &lt;pre&gt;m docs/readme.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update readme with installation instructions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/3a97898afdd74fa19cc382282034b2cbfb1149aa</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/efd3e9e8aa582433c0382e9f186cf0d353d7d5a7</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/survey/result/overview/file.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;overview/file, link to source file. requires .htaccess rewrite passthrough&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/efd3e9e8aa582433c0382e9f186cf0d353d7d5a7</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bfsurveyfile/source/8f30ddfcd003f462cc2ac0d643788aa63f51cbb5</link>
+      <description>
+      &lt;pre&gt;m modules/survey/classes/ezsurveyfile.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;change comment on answer() function&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bfsurveyfile/source/8f30ddfcd003f462cc2ac0d643788aa63f51cbb5</guid>
+      <pubDate>Mon, 03 Dec 2012 19:22:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

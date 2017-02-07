@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez-cache-manager / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:59:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:59:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19918" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Cache Manager alpha release</title>
+      <link>http://projects.ez.no/ez_cache_manager/news/ez_cache_manager_alpha_release</link>
+      <description>&lt;p&gt;First alpha release of eZ Cache Manager extension is available. &lt;/p&gt;&lt;p&gt;eZ Cache Manager was made to finetune compiled cache management. eZ Publish only provides full compiled cache flush. It means that it is only possible to delete all the compiled templates or the user info cache file.&lt;/p&gt;&lt;p&gt;First release allows to delete cache file one at a time in the admin siteaccess, no need to flush files with a ftp or ssh connection. jQuery framework is needed with this alpha release.&lt;/p&gt;&lt;p&gt;You can anonymously check out the source code released by this project from its Subversion repository : svn checkout &lt;a href="http://svn.projects.ez.no/ez-cache-manager" target="_self"&gt;http://svn.projects.ez.no/ez-cache-manager&lt;/a&gt;&lt;/p&gt;&lt;p&gt;We are waiting for your feedback.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérémy Poulain)</author>
+      <guid>http://projects.ez.no/ez_cache_manager/news/ez_cache_manager_alpha_release</guid>
+      <pubDate>Tue, 17 Nov 2009 21:28:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

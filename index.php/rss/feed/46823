@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdebug_helper / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Mon, 06 Feb 2017 02:03:47 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2017 02:03:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46823" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: How it actually works?</title>
+      <link>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works/re_how_it_actually_works</link>
+      <description>I saw this bug on share.ez.no to but I didn't associate it with my extension. &#13;
+&#13;
+Generally speaking this extension shouldn't change anything if it doesn't find a #debug div on a website (and even then nothing like this should have happen). That's strange, I'll investigate it ASAP.&#13;
+&#13;
+Thanks for spotting this!&#13;
+&#13;
+UPDATE: I got it, there were CSS files injected, by my mistake, to every page (they are used to style the developer toolbar panels). Fixed version (0.41) is already released (your Chrome will auto-update). Thanks again!</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works/re_how_it_actually_works</guid>
+      <pubDate>Wed, 16 May 2012 12:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>How it actually works?</title>
+      <link>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works</link>
+      <description>I ask because I noticed strange behavior on share.ez.no:&#13;
+https://www.dropbox.com/s/05rtbvj2fryqxdo/zrzut_ekranu.png&#13;
+This has happened only after extension activation.</description>
+      <author>community@ez.no (Karol Radziuk)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works</guid>
+      <pubDate>Wed, 16 May 2012 11:33:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezextensioninstaller</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:50 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40830" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Glad something is finally happening on this...</title>
+      <link>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic/re_glad_something_is_finally_happening_on_this2</link>
+      <description>Dependency info is already available in the extension.xml file - but should probably be updated to include version number and URL.  I'd love to see an eZ Publish equivalent of Drush!</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic/re_glad_something_is_finally_happening_on_this2</guid>
+      <pubDate>Thu, 28 Apr 2011 11:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Glad something is finally happening on this...</title>
+      <link>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic/re_glad_something_is_finally_happening_on_this</link>
+      <description>Hi, &#13;
+&#13;
+For selling platform, I think eZ Market is a start: http://ez.no/market more extensions will be there.</description>
+      <author>community@ez.no (Chen Xiongjie)</author>
+      <guid>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic/re_glad_something_is_finally_happening_on_this</guid>
+      <pubDate>Wed, 27 Apr 2011 12:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Glad something is finally happening on this topic !</title>
+      <link>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic</link>
+      <description>EZ should entirely rebuilt projects.ez.no to enable everyone to distribute and sell contributions like every popular CMS are doing (Magento, Wordpress, Prestashop...)&#13;
+&#13;
+For example i have at least 7 - according to me - good extensions for ezpublish that would surely help the community but i wont publish those on current projects.ez.no :&#13;
+&#13;
+- No enjoying design&#13;
+- Missing download count&#13;
+- No selling possible&#13;
+- No dependency/version checking&#13;
+- No concurrent version distribution&#13;
+- No clean install/uninstall process&#13;
+&#13;
+It is really sad this code contribution system has been buried out when ezpublish conception is so good.&#13;
+&#13;
+Let me know if anyone needs help on this.</description>
+      <author>community@ez.no (H-Works Agency)</author>
+      <guid>http://projects.ez.no/ezextensioninstaller/forum/general/glad_something_is_finally_happening_on_this_topic</guid>
+      <pubDate>Tue, 12 Apr 2011 12:22:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No source code !</title>
+      <link>http://projects.ez.no/ezextensioninstaller/forum/general/no_source_code/re_no_source_code</link>
+      <description>Sure enough!&#13;
+&#13;
+No source code on my pc either - just a bunch of ideas.&#13;
+&#13;
+This extension will be developed in parallel or slightly after the "big-rewrite-of-projects.ez.no", as there is too many missing pieces on the server side right now:&#13;
+&#13;
+- proper "feed" views of latest extensions / all extensions / extensions by feature&#13;
+- an xml/json search view&#13;
+- the concept of different versions of the same extension&#13;
+- the fundamental question: shall we force all extensions to be packaged as packages or not?&#13;
+- etc...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezextensioninstaller/forum/general/no_source_code/re_no_source_code</guid>
+      <pubDate>Tue, 12 Apr 2011 09:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>No source code !</title>
+      <link>http://projects.ez.no/ezextensioninstaller/forum/general/no_source_code</link>
+      <description>There is no source code in the svn repo.</description>
+      <author>community@ez.no (francis Nart)</author>
+      <guid>http://projects.ez.no/ezextensioninstaller/forum/general/no_source_code</guid>
+      <pubDate>Fri, 08 Apr 2011 13:30:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

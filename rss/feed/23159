@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nvnewsletter / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:59:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:59:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23159" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nvnewsletter rev. 10 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/10</link>
+      <description>Preparing for 0.7.1b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/10</guid>
+      <pubDate>Thu, 27 May 2010 07:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 11 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/11</link>
+      <description>Tagging the 0.7.1b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/11</guid>
+      <pubDate>Thu, 27 May 2010 07:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 9 by Tero Auralinna</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/9</link>
+      <description>Fix for URL checking when URL is in newsletter sub node.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/9</guid>
+      <pubDate>Thu, 27 May 2010 06:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 7 by Tero Auralinna</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/7</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/7</guid>
+      <pubDate>Wed, 26 May 2010 08:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 8 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/8</link>
+      <description>Tagging the 0.7b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/8</guid>
+      <pubDate>Wed, 26 May 2010 08:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 6 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/6</link>
+      <description>Ooops, forgot the file :)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/6</guid>
+      <pubDate>Wed, 26 May 2010 07:50:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 5 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/5</link>
+      <description>Added DB update script for engine update
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/5</guid>
+      <pubDate>Wed, 26 May 2010 07:50:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 4 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/4</link>
+      <description>- Replaced some linebreak characters with correct ones (was FUBARed in Linux)
+- Copying a newsletter now correctly copies the whole subtree (including articles etc. under the newsletter)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/4</guid>
+      <pubDate>Wed, 26 May 2010 07:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 3 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/3</link>
+      <description>Fixed wrong DB engine settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/3</guid>
+      <pubDate>Wed, 26 May 2010 06:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 1 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/1</link>
+      <description>Initial directory structure created</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/1</guid>
+      <pubDate>Wed, 26 May 2010 06:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 2 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/2</link>
+      <description>Project added to version control</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/2</guid>
+      <pubDate>Wed, 26 May 2010 06:35:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

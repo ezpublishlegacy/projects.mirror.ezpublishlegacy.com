@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / autostatus</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:04 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/20212" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/1a6ff8556828e679df8aafca73e1dcafe9614503</link>
+      <description>
+      &lt;pre&gt;m classes/autostatussocialnetwork.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: use eZSiteAccess::TYPE_* constants instead of the deprecated ones&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/1a6ff8556828e679df8aafca73e1dcafe9614503</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/0414f66fb270c8001280595fc2ba0921282ec8b1</link>
+      <description>
+      &lt;pre&gt;m classes/autostatussocialnetwork.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: the 4.4 API to handle siteaccess&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/0414f66fb270c8001280595fc2ba0921282ec8b1</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/55acadd4b3487fb80fc4eaca80b734209a4cec0b</link>
+      <description>
+      &lt;pre&gt;m classes/autostatussocialnetwork.php
+m eventtypes/event/autostatus/autostatustype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved substituteFormats method from workflow event to socialNetwork class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/55acadd4b3487fb80fc4eaca80b734209a4cec0b</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/c74f7eee7bd201f42df28b3c6fba9bc5eb581492</link>
+      <description>
+      &lt;pre&gt;m modules/autostatus/log.php
+m modules/autostatus/module.php
+m modules/autostatus/oauth.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added missing headers in PHP files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/c74f7eee7bd201f42df28b3c6fba9bc5eb581492</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/cdd08bdbc6cc462150c71535ebf0011c895f83c2</link>
+      <description>
+      &lt;pre&gt;m classes/autostatusajaxfunctions.php
+m classes/autostatusalwayserror.php
+m classes/autostatusfunctioncollection.php
+m classes/autostatusidentica.php
+m classes/autostatusidenticaclient.php
+m classes/autostatussocialnetwork.php
+m classes/autostatustwitter.php
+m classes/autostatustwitterclient.php
+m classes/statusupdateevent.php
+m cronjobs/clean_events.php
+m design/standard/templates/autostatus/ajax/auth.tpl
+m design/standard/templates/autostatus/event.tpl
+m design/standard/templates/autostatus/log.tpl
+m design/standard/templates/autostatus/menu.tpl
+m design/standard/templates/workflow/eventtype/edit/event_autostatus.tpl
+m design/standard/templates/workflow/eventtype/view/event_autostatus.tpl
+m eventtypes/event/autostatus/autostatustype.php
+m extension.xml
+m ezinfo.php
+m modules/autostatus/function_definition.php
+m modules/autostatus/log.php
+m modules/autostatus/module.php
+m modules/autostatus/oauth.php
+m settings/autostatus.ini.append.php
+m settings/cronjob.ini.append.php
+m settings/design.ini.append.php
+m settings/ezjscore.ini.append.php
+m settings/menu.ini.append.php
+m settings/module.ini.append.php
+m settings/site.ini.append.php
+m settings/workflow.ini.append.php
+m sql/statusupdateevent.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed SVN keywords&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/cdd08bdbc6cc462150c71535ebf0011c895f83c2</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/ceb3fe306f3039c35cbbf2730a67306ab739cd47</link>
+      <description>
+      &lt;pre&gt;m classes/autostatussocialnetwork.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed unnecessary code to handle URL building in CLI&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/ceb3fe306f3039c35cbbf2730a67306ab739cd47</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/4f85651543b3d330aa8031948fd14d24fb79829d</link>
+      <description>
+      &lt;pre&gt;m classes/autostatussocialnetwork.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added support for URL length depending on the URL shortener
+
+Also removed a Twitter specific length calculation of URL in message&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/4f85651543b3d330aa8031948fd14d24fb79829d</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/379270a681b4659d734d9020fa446d253d563024</link>
+      <description>
+      &lt;pre&gt;m eventtypes/event/autostatus/autostatustype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Refactored the code around message building&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/379270a681b4659d734d9020fa446d253d563024</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/a1174336ec3487779b5309337032239bd7113ab2</link>
+      <description>
+      &lt;pre&gt;+ classes/autostatusshortener.php
++ classes/autostatusshortenerservice.php
++ classes/autostatusshortenerserviceisgd.php
+m classes/autostatussocialnetwork.php
+m eventtypes/event/autostatus/autostatustype.php
+m settings/autostatus.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented URL shortening API with is.gd support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/a1174336ec3487779b5309337032239bd7113ab2</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/df3dc68313d9e892e8277e397d2ac06ebdf11442</link>
+      <description>
+      &lt;pre&gt;m TODO
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated TODO now we have an issue tracker&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/df3dc68313d9e892e8277e397d2ac06ebdf11442</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/fd65afe9f7bf34f8290d61512a30d9bf4bea9b8f</link>
+      <description>
+      &lt;pre&gt;m classes/statusupdateevent.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #2 ? is displayed in the Error message column for successful event&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/fd65afe9f7bf34f8290d61512a30d9bf4bea9b8f</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/autostatus/subversion/b449ae3b0012a1ebc0572bb570d453d843af7335</link>
+      <description>
+      &lt;pre&gt;+ classes/autostatusshortenerservicegoogl.php
+m settings/autostatus.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented #10 : Goo.gl shortening support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/b449ae3b0012a1ebc0572bb570d453d843af7335</guid>
+      <pubDate>Sat, 31 Mar 2012 10:50:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Authentication support</title>
+      <link>http://projects.ez.no/autostatus/forum/general/authentication_support/re_authentication_support</link>
+      <description>That seems to be a good idea but that also means that all authenticators should implement the same Interface and have a close system (same method calls/steps)&#13;
+Is it possible given the differences between OAuth 1.0a and 2.0? I don't know OAuth 2.0 enough to answer :-)&#13;
+&#13;
+Another solution would be to have a specific "custom workflow action" depending on the auth mechanism to use on a given social network. Since, this part is loaded with an Ajax request [1], this is quite easy to achieve. I know this is a bit procedural and this also means that a autostatus/oauth2 view will be required. On the other side, this would be very flexible if one day we need to implement another authentication system.&#13;
+&#13;
+In fact, it really depends on the differences between OAuth 1.0a and 2.0. So I'll let you choose the wiser solution :-)&#13;
+&#13;
+[1] https://github.com/dpobel/autostatus/blob/master/classes/autostatusajaxfunctions.php#L29&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/autostatus/forum/general/authentication_support/re_authentication_support</guid>
+      <pubDate>Fri, 08 Jul 2011 21:25:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 77 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/77</link>
+      <description>Added files about move to Github
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/77</guid>
+      <pubDate>Thu, 07 Jul 2011 13:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Authentication support</title>
+      <link>http://projects.ez.no/autostatus/forum/general/authentication_support</link>
+      <description>Hello Damien&#13;
+&#13;
+Now Autostatus supports OAuth authentication for Twitter and identi.ca, that's nice. &#13;
+However, the way it's implemented avoid other authentication methods (like OAuth2 for Facebook). Indeed, in &lt;b&gt;autostatusType::customWorkflowEventHTTPAction()&lt;/b&gt;, you force the use of &lt;i&gt;Zend_Oauth_Consumer&lt;/i&gt; which only supports OAuth 1.&#13;
+&#13;
+A nice thing would be to allow to define an &lt;i&gt;authenticator&lt;/i&gt; per social network. The social network class would define a method returning the right authenticator for instance.&#13;
+&#13;
+What do you think ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/autostatus/forum/general/authentication_support</guid>
+      <pubDate>Thu, 07 Jul 2011 12:51:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 76 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/76</link>
+      <description>Added branches directory to make Github happy (perhaps)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/76</guid>
+      <pubDate>Wed, 06 Jul 2011 19:28:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release of Auto Status 0.2</title>
+      <link>http://projects.ez.no/autostatus/news/release_of_auto_status_0_2</link>
+      <description>&lt;p&gt;&lt;a href="http://projects.ez.no/autostatus/downloads/auto_status_0_2" target="_self"&gt;Auto Status version 0.2&lt;/a&gt; is out! &lt;a href="http://projects.ez.no/autostatus" target="_self"&gt;Auto Status&lt;/a&gt; is an eZ Publish extension that updates your status on different social networks (Twitter and Identi.ca are currently supported) in an automatic or semi automatic way.&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/autostatus/news/release_of_auto_status_0_2</guid>
+      <pubDate>Tue, 05 Jul 2011 18:49:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 75 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/75</link>
+      <description>Created tag for 0.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/75</guid>
+      <pubDate>Tue, 05 Jul 2011 15:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto status 0.2</title>
+      <link>http://projects.ez.no/autostatus/downloads/auto_status_0_2</link>
+      <description>&lt;p&gt;Change Log :&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;OAuth support for Twitter and Identi.ca&lt;/li&gt;
+
+&lt;li&gt;%url can be generated for a specific siteaccess&lt;/li&gt;
+
+&lt;li&gt;Log system in the admin interface&lt;/li&gt;
+
+&lt;li&gt;Retry / Send again from the log&lt;/li&gt;
+
+&lt;li&gt;Localization&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/autostatus/downloads/auto_status_0_2</guid>
+      <pubDate>Tue, 05 Jul 2011 14:53:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 74 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/74</link>
+      <description>Updated version number and copyright year to prepare the next release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/74</guid>
+      <pubDate>Mon, 04 Jul 2011 12:01:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 73 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/73</link>
+      <description>Fixed ezinfo and added extension.xml and CONTRIBUTORS file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/73</guid>
+      <pubDate>Mon, 04 Jul 2011 11:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 72 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/72</link>
+      <description>Added ita-IT translation (Translation by Sandra Parente)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/72</guid>
+      <pubDate>Mon, 04 Jul 2011 09:21:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 71 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/71</link>
+      <description>Fixed AlwaysError social network class to correctly implement the
+autostatusSocialNetwork abstract class
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/71</guid>
+      <pubDate>Mon, 04 Jul 2011 07:21:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 70 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/70</link>
+      <description>Added por-BR translations (Translation by Thiago Campos Viana)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/70</guid>
+      <pubDate>Fri, 01 Jul 2011 16:01:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 69 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/69</link>
+      <description>Added French translation (Translation by Nicolas Panau)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/69</guid>
+      <pubDate>Fri, 01 Jul 2011 15:41:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 68 by Georg Franz</title>
+      <link>http://projects.ez.no/autostatus/subversion/68</link>
+      <description>Added german translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/68</guid>
+      <pubDate>Fri, 01 Jul 2011 14:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 67 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/67</link>
+      <description>Updated TODO
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/67</guid>
+      <pubDate>Fri, 01 Jul 2011 12:21:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 66 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/66</link>
+      <description>Updated fre-FR translation file and added untranslated translation file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/66</guid>
+      <pubDate>Thu, 30 Jun 2011 22:21:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 65 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/65</link>
+      <description>Fixed some sentences
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/65</guid>
+      <pubDate>Thu, 30 Jun 2011 22:21:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 64 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/64</link>
+      <description>Fixed authentication issues with Identi.ca
+Fixed a warning un workflow execution
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/64</guid>
+      <pubDate>Thu, 30 Jun 2011 21:21:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 63 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/63</link>
+      <description>Fixed a typo
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/63</guid>
+      <pubDate>Thu, 30 Jun 2011 20:21:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 62 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/62</link>
+      <description>Added references to content object and author in statusUpdateEvent
+Changed: check status to verify a status results from an error or not
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/62</guid>
+      <pubDate>Thu, 30 Jun 2011 20:01:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 61 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/61</link>
+      <description>Updated TODO
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/61</guid>
+      <pubDate>Thu, 30 Jun 2011 19:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 60 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/60</link>
+      <description>Changed the MaxAge settings to a real/useful value
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/60</guid>
+      <pubDate>Thu, 30 Jun 2011 07:01:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 59 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/59</link>
+      <description>Added a help text on what is displayed in autostatus/log
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/59</guid>
+      <pubDate>Thu, 30 Jun 2011 07:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 58 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/58</link>
+      <description>Improved autostatus/log display and simplified the JS code
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/58</guid>
+      <pubDate>Thu, 30 Jun 2011 06:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 57 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/57</link>
+      <description>Changed Identica settings to reflect last application registration
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/57</guid>
+      <pubDate>Wed, 29 Jun 2011 22:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 56 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/56</link>
+      <description>Fixed URL redirection issue in URI mode after OAuth authorization
+http://projects.ez.no/autostatus/forum/general/bug_redirect_url_after_oauth_authorization_in_uri_mode
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/56</guid>
+      <pubDate>Wed, 29 Jun 2011 21:21:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 55 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/55</link>
+      <description>Updated TODO file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/55</guid>
+      <pubDate>Wed, 29 Jun 2011 20:42:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 54 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/54</link>
+      <description>Added a cronjob scripts to clean old events
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/54</guid>
+      <pubDate>Wed, 29 Jun 2011 20:22:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 53 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/53</link>
+      <description>Fixed a weird JS error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/53</guid>
+      <pubDate>Wed, 29 Jun 2011 10:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 52 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/52</link>
+      <description>Added ability to filter on status of event in autostatus/log
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/52</guid>
+      <pubDate>Wed, 29 Jun 2011 09:24:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 51 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/51</link>
+      <description>Improved autostatus/log display when there's no event
+Fixed an HTML validation issue
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/51</guid>
+      <pubDate>Wed, 29 Jun 2011 07:02:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug: redirect URL after OAuth authorization in URI mode</title>
+      <link>http://projects.ez.no/autostatus/forum/general/bug_redirect_url_after_oauth_authorization_in_uri_mode</link>
+      <description>Bad URL, gives something like http://master.loc/index.php/plain_site_admin/index.php/plain_site_admin/workflow/edit/2&#13;
+&#13;
+Tested with revision 50</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/autostatus/forum/general/bug_redirect_url_after_oauth_authorization_in_uri_mode</guid>
+      <pubDate>Wed, 29 Jun 2011 06:54:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 50 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/50</link>
+      <description>Added policy support for the autostatus tab in admin interface</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/50</guid>
+      <pubDate>Wed, 29 Jun 2011 06:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 48 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/48</link>
+      <description>Updated TODO
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/48</guid>
+      <pubDate>Tue, 28 Jun 2011 21:41:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 49 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/49</link>
+      <description>Fixed a template syntax error
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/49</guid>
+      <pubDate>Tue, 28 Jun 2011 21:41:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 47 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/47</link>
+      <description>Added Status field in statusUpdateEvent persistent object
+Added ability to resend or retry a status update in log
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/47</guid>
+      <pubDate>Tue, 28 Jun 2011 21:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 46 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/46</link>
+      <description>Fixed svn:keywords properties
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/46</guid>
+      <pubDate>Tue, 28 Jun 2011 19:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>autostatus rev. 45 by Damien Pobel</title>
+      <link>http://projects.ez.no/autostatus/subversion/45</link>
+      <description>Updated loader.gif to match the background of fieldset
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/autostatus/subversion/45</guid>
+      <pubDate>Mon, 27 Jun 2011 21:01:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

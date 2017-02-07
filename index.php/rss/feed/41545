@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezmobile / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 23:52:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 23:52:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41545" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Where can I download all the apps?</title>
+      <link>http://projects.ez.no/ezmobile/forum/general/where_can_i_download_all_the_apps/re_where_can_i_download_all_the_apps</link>
+      <description>Hey,&#13;
+&#13;
+Source code seems to be available here, as stated in the project's homepage : &#13;
+https://github.com/ezsystems/ezmobile&#13;
+&#13;
+Big thanks to Lukasz for this promising contribution :-)</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/ezmobile/forum/general/where_can_i_download_all_the_apps/re_where_can_i_download_all_the_apps</guid>
+      <pubDate>Tue, 19 Jul 2011 22:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where can I download all the apps?</title>
+      <link>http://projects.ez.no/ezmobile/forum/general/where_can_i_download_all_the_apps</link>
+      <description>It isn't available at download section neither at svn...</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/ezmobile/forum/general/where_can_i_download_all_the_apps</guid>
+      <pubDate>Fri, 10 Jun 2011 18:31:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

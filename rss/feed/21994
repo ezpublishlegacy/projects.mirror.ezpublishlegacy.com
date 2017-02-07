@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / jvamazonadvertising / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21994" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Version=2011-08-01</title>
+      <link>http://projects.ez.no/jvamazonadvertising/forum/general/version_2011_08_01/re_version_2011_08_01</link>
+      <description>... only a copy and paste mistake, it's wrong in the docu, php and tpl language is mixed ...&#13;
+it has to be&#13;
+&lt;code&gt;&#13;
+{def $amazonItems = fetch('amazonadvertising', 'item_search', hash(&#13;
+'keywords', 'abba',&#13;
+'search_index', 'MP3Downloads',&#13;
+)&#13;
+)}&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/jvamazonadvertising/forum/general/version_2011_08_01/re_version_2011_08_01</guid>
+      <pubDate>Wed, 31 Jul 2013 21:52:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version=2011-08-01</title>
+      <link>http://projects.ez.no/jvamazonadvertising/forum/general/version_2011_08_01</link>
+      <description>Hi, I have added the AssociateTag to the extension to get a result into the cmd with the amazontester.php, but the ez publish fetch still gets no result.&#13;
+&#13;
+I get this tpl parse error:&#13;
+&lt;code&gt;&#13;
+($) expected at [fetch( 'amazonadvertising', 'item_search', hash( 'search_index' =&gt; 'MP3Downloads',&#13;
+'keywords' =&gt; 'abba'&#13;
+)&#13;
+)]&#13;
+&lt;/code&gt;&#13;
+&#13;
+any ideas?</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/jvamazonadvertising/forum/general/version_2011_08_01</guid>
+      <pubDate>Sat, 22 Jun 2013 11:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrating with other extensions</title>
+      <link>http://projects.ez.no/jvamazonadvertising/forum/general/integrating_with_other_extensions</link>
+      <description>what about testing integration with:&#13;
+- ezsnmpd (provide monitoring probes for that one too besides jvmonitoring)&#13;
+- the new pake-based extension builder&#13;
+- ggwebservices for connecting to amazon (instead of doing direct curl calls)&#13;
+&#13;
+ciao&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/jvamazonadvertising/forum/general/integrating_with_other_extensions</guid>
+      <pubDate>Fri, 29 Apr 2011 10:11:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

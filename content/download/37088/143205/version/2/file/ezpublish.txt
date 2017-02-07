@@ -1,0 +1,142 @@
+/L20"eZ Publish Templates" HTML_LANG Nocase Noquote Block Comment On = <!-- Block Comment Off = --> Block Comment On Alt = {* Block Comment Off Alt = *} File Extensions = TPL
+/Delimiters = ~!@$%^&*()+=|\{}[]:;"'<> ,	?
+/Function String = "<form*>"
+/Member String = "$S[ ^t]++=[ ^t&]++new[ ^t]+^([A-Za-z_]+[A-Za-z0-9_]++^)"
+/Variable String = "$S[ ^t]++=[ ^t&]++new[ ^t]+^([A-Za-z_]+[A-Za-z0-9_]++^)"
+/Open Brace Strings =  "{" "(" "[" "<"
+/Close Brace Strings = "}" ")" "]" ">"
+/Open Fold Strings = "{"
+/Close Fold Strings = "}"
+/C1"Tags" STYLE_TAG
+<A </A> <ABBR> <ABBR </ABBR> <ABOVE> <ACRONYM> <ACRONYM </ACRONYM> <ADDRESS> <ADDRESS </ADDRESS>
+<APPLET </APPLET> <AREA </AREA <ARRAY>
+<B> <B </B> <BASE <BASEFONT <BDO> <BDO </BDO> <BGSOUND <BIG> <BIG </BIG> <BLINK> <BLINK </BLINK>
+<BLOCKQUOTE> <BLOCKQUOTE </BLOCKQUOTE> <BODY> <BODY </BODY> <BOX> <BR/> <BR> <BR <BUTTON> </BUTTON>
+<CAPTION> <CAPTION </CAPTION> <CENTER> <CENTER </CENTER> <CITE> <CITE </CITE> <CODE> <CODE </CODE>
+<COL> <COL <COLGROUP> <COLGROUP </COLGROUP> <COMMENT> </COMMENT>
+<DD> <DD </DD> <DEL> <DEL </DEL> <DFN> <DFN </DFN> <DIR> <DIR </DIR> <DIV> <DIV </DIV> <DL> <DL </DL>
+<DT> <DT </DT>
+<EM> <EM </EM> <EMBED
+<FIELDSET> <FIELDSET </FIELDSET> <FIG> <FONT </FONT> <FORM> <FORM </FORM> <FRAME <FRAMESET </FRAMESET>
+<H1> <H1 </H1> <H2> <H2 </H2> <H3> <H3 </H3> <H4> <H4 </H4> <H5> <H5 </H5> <H6> <H6 </H6> <HEAD> <HEAD
+</HEAD> <HR/> <HR> <HR <HTML> <HTML </HTML>
+<I> <I </I> <IFRAME> <IFRAME </IFRAME> <ILAYER> </ILAYER> <IMG <INPUT> <INPUT <INS> <INS </INS> <ISINDEX> <ISINDEX
+<KBD> <KBD </KBD>
+<LABEL> <LABEL </LABEL> <LAYER> <LAYER </LAYER> <LEGEND> <LEGEND </LEGEND> <LI> <LI </LI> <LINK <LISTING>
+</LISTING>
+<MAP </MAP> <MARQUEE </MARQUEE> <MENU> <MENU </MENU> <META <MULTICOL> </MULTICOL>
+<NEXTID <NOBR> </NOBR> <NOFRAMES> </NOFRAMES> <NOLAYER> </NOLAYER> <NOSCRIPT> </NOSCRIPT> <NOTE> </NOTE>
+<OBJECT> <OBJECT </OBJECT> <OL> <OL </OL> <OPTGROUP> <OPTGROUP </OPTGROUP> <OPTION> <OPTION </OPTION>
+<P> <P </P> <PARAM <PRE> <PRE </PRE>
+<Q> <Q </Q> <QUOTE>
+<RANGE> <ROOT>
+<S> <S </S> <SAMP> <SAMP </SAMP> <SCRIPT> <SCRIPT </SCRIPT> <SELECT> <SELECT </SELECT> <SMALL> <SMALL
+</SMALL> <SOUND <SPACER> <SPAN> <SPAN </SPAN> <SQRT> <STRIKE> <STRIKE </STRIKE> <STRONG> <STRONG </STRONG>
+<STYLE> <STYLE </STYLE> <SUB> <SUB </SUB> <SUP> <SUP </SUP>
+<TABLE> <TABLE </TABLE> <TBODY> <TBODY </TBODY> <TD> <TD </TD> <TEXT> <TEXTAREA> <TEXTAREA </TEXTAREA>
+<TFOOT> <TFOOT </TFOOT> <TH> <TH </TH> <THEAD> <THEAD </THEAD> <TITLE> </TITLE> <TR> <TR </TR> <TT>
+<TT </TT>
+<U> <U </U> <UL> <UL </UL>
+<VAR> <VAR </VAR>
+<WBR>
+<XMP> </XMP>
+// />
+>
+/C2"HTML Attributes" STYLE_ATTRIBUTE
+ABBR= ACCEPT-CHARSET= ACCEPT= ACCESSKEY= ACTION= ALIGN= ALINK= ALT= ARCHIVE= AXIS=
+BACKGROUND= BEHAVIOR BEHAVIOR> BELOW BELOW> BGCOLOR= BORDER=
+CELLPADDING= CELLSPACING= CHAR= CHAROFF= CHARSET= CHECKED CHECKED> CITE= CLASS= CLASSID= CLEAR= CODE=
+CODEBASE= CODETYPE= COLOR= COLS= COLSPAN= COMPACT COMPACT> CONTENT= COORDS=
+DATA= DATETIME= DECLARE DECLARE> DEFER DEFER> DIR= DISABLED DISABLED>
+ENCTYPE=
+FACE= FOR= FRAME= FRAMEBORDER= FRAMESPACING=
+HEADERS= HEIGHT= HIDDEN= HREF= HREFLANG= HSPACE= HTTP-EQUIV=
+ID= ISMAP=
+LABEL= LANG= LANGUAGE= LINK= LONGDESC= LOOP=
+MAILTO= MARGINHEIGHT= MARGINWIDTH= MAXLENGTH= MEDIA= METHOD= MULTIPLE MULTIPLE>
+NAME= NOHREF NOHREF> NORESIZE NORESIZE> NOSHADE NOSHADE> NOWRAP NOWRAP>
+OBJECT= ONBLUR= ONCHANGE= ONCLICK= ONDBLCLICK= ONFOCUS= ONKEYDOWN= ONKEYPRESS= ONKEYUP= ONLOAD=
+ONMOUSEDOWN= ONMOUSEMOVE= ONMOUSEOUT= ONMOUSEOVER= ONMOUSEUP= ONRESET= ONSELECT= ONSUBMIT= ONUNLOAD=
+PROFILE= PROMPT=
+READONLY READONLY> REL= REV= ROWS= ROWSPAN= RULES=
+SCHEME= SCOPE= SCROLLING= SELECTED SELECTED> SHAPE= SIZE= SPAN= SRC= STANDBY= START= STYLE= SUMMARY=
+TABINDEX= TARGET= TEXT= TITLE= TOPMARGIN= TYPE=
+URL= USEMAP=
+VALIGN= VALUE= VALUETYPE= VERSION= VLINK= VSPACE=
+WIDTH=
+=
+/C3"Special Characters" STYLE_KEYWORD
+&aacute &acirc &acute &aelig &agrave &alefsym &alpha &amp &and &ang &aring &asymp &atilde &auml
+&bdquo &beta &brvbar &bull
+&cap &ccedil &cedil &cent &chi &circ &clubs &cong &copy &crarr &cup &curren
+&dagger &darr &deg &delta &diams &divide
+&eacute &ecirc &egrave &empty &emsp &ensp &epsilon &equiv &eta &eth &euml &euro &exist
+&fnof &forall &frac12 &frac14 &frac34 &frasl
+&gamma &ge &gt
+&harr &hearts &hellip
+&iacute &icirc &iexcl &igrave &image &infin &int &iota &iquest &isin &iuml
+&kappa
+&lambda &lang &laquo &larr &lceil &ldquo &le &lfloor &lowast &loz &lrm &lsaquo &lsquo &lt
+&macr &mdash &micro &middot &minus &mu
+&nabla &nbsp &ndash &ne &ni &not &notin &nsub &ntilde &nu &oacute &ocirc
+&oelig &ograve &oline &omega &omicron &oplus &or &ordf &ordm &oslash &otilde &otimes &ouml
+&para &part &permil &perp &phi &pi &piv &plusmn &pound &prime &prod &prop &psi
+&quot
+&radic &rang &raquo &rarr &rceil &rdquo &real &reg &rfloor &rho &rlm &rsaquo &rsquo
+&sbquo &scaron &sdot &sect &shy &sigma &sigmaf &sim &spades &sub &sube &sum &sup &sup1 &sup2 &sup3 &supe &szlig
+&tau &there4 &theta &thetasym &thinsp &thorn &tilde &times &trade
+&uacute &uarr &ucirc &ugrave &uml &upsih &upsilon &uuml
+&weierp
+&xi
+&yacute &yen &yuml
+&zeta &zwj &zwnj
+/C4"Built-in Functions" STYLE_FUNCTION
+// /append-block /cache-block /default /ldelim /let /literal /rdelim /run-once /set-block
+abs action_icon append append-block attribute attribute_edit_gui attribute_pdf_gui attribute_result_gui attribute_view_gui autolink
+begins_with break
+cache-block ceil chr class_attribute_edit_gui class_attribute_view_gui class_icon classgroup_icon collaboration_icon collaboration_participation_view collaboration_simple_message_view collaboration_view_gui compare concat contains content_pdf_gui content_structure_tree content_version_view_gui content_view_gui count count_chars count_words crc32 currentdate
+datetime debug_accumulator debug_timing_point debug_trace dec def default div downcase
+ends_with event_edit_gui explode extract extract left extract_right exturl ezdesign ezhttp ezhttp_hasvariable ezimage ezini ezini_hasvariable ezpackage ezpreference ezroot ezsys ezurl
+fetch fetch_alias flag_icon float floor get_class
+get_type gettime
+i18n icon_info image imagefile inc include indent insert int is_array is_boolean is_class is_float is_integer is_null is_numeric is_object is_set is_string is_unset
+l10n ldelim let literal
+makedate maketime max md5 mimetype_icon min mod module_params month_overview mul
+nl2br node_view_gui
+ord
+pad pdf prepend
+rand rdelim related_view_gui remove repeat reverse roman rot13 round run-once
+sequence set set-block shop_account_view_gui shorten si simpletags simplify sub sum
+texttoimage tool_bar topmenu treemenu trim
+undef upcase upfirst upword
+wash wordtoimage wrap
+/C5"eZ Publish Variables"
+** $
+/C6"Logical operations" STYLE_KEYWORD
+and
+choose
+cond
+eq
+false
+first_set
+ge
+gt
+le
+lt
+ne
+not
+null
+or
+true
+/C7"Control Structures" STYLE_KEYWORD
+ /case /delimiter /foreach /if /section /switch
+as
+break
+case continue
+default def do delimiter
+else elseif
+for foreach function
+if include
+section section-else switch
+to
+while

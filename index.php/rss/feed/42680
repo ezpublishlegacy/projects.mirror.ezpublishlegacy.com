@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_string / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:31:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:31:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42680" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Source code is moved to github</title>
+      <link>http://projects.ez.no/nxc_string/news/source_code_is_moved_to_github</link>
+      <description>&lt;p&gt;Source code is moved to github repo:&amp;nbsp;&lt;a href="https://github.com/nxc/nxc_string" target="_self"&gt;https://github.com/nxc/nxc_string&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_string/news/source_code_is_moved_to_github</guid>
+      <pubDate>Tue, 08 May 2012 08:49:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Initial release</title>
+      <link>http://projects.ez.no/nxc_string/news/initial_release</link>
+      <description>&lt;p&gt;Now you can use regular expressions for strings. &lt;a href="http://projects.ez.no/nxc_string" target="_self"&gt;More details&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Serhey Dolgushev)</author>
+      <guid>http://projects.ez.no/nxc_string/news/initial_release</guid>
+      <pubDate>Mon, 12 Sep 2011 19:20:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

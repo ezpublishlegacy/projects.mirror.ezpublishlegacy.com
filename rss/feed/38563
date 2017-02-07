@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / editorder / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:05:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:05:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/38563" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>account_information disappear</title>
+      <link>http://projects.ez.no/editorder/forum/general/account_information_disappear</link>
+      <description>it works great! thank you very much!!!&#13;
+&#13;
+problem in my case: &#13;
+&#13;
+If I edit an order with "editorder", this line in customerorderview.tpl does not work any more: &#13;
+{shop_account_view_gui view=ascii order=$order_list[0]}&#13;
+&#13;
+no account_information data visible in customerorderview&#13;
+&#13;
+( okay, I can do :&#13;
+&#13;
+{$order_list.0.account_name} {$order_list.0.account_information.email} &#13;
+&#13;
+)&#13;
+&#13;
+&#13;
+&#13;
+but what can it be? &#13;
+&#13;
+&#13;
+... &#13;
+S</description>
+      <author>community@ez.no (Martin Ulrich)</author>
+      <guid>http://projects.ez.no/editorder/forum/general/account_information_disappear</guid>
+      <pubDate>Mon, 21 Feb 2011 12:40:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Joint efforts?</title>
+      <link>http://projects.ez.no/editorder/forum/general/joint_efforts/re_joint_efforts</link>
+      <description>Thanks Eirik!&#13;
+I'm pretty new to ez publish, as you can see from my very recent activity. &#13;
+Anyway, I had a look at your extension a while ago, but I needed a very specific thing for the project I'm working on so I choose to do something very granular.&#13;
+And I had to learn how to create an extension too ;)</description>
+      <author>community@ez.no (Monica Giambitto)</author>
+      <guid>http://projects.ez.no/editorder/forum/general/joint_efforts/re_joint_efforts</guid>
+      <pubDate>Thu, 02 Dec 2010 11:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Ué bella, fuori il codice!</title>
+      <link>http://projects.ez.no/editorder/forum/general/ue_bella_fuori_il_codice/re_ue_bella_fuori_il_codice</link>
+      <description>Niubbata totale quella di non caricare il codice :D&#13;
+&#13;
+Grazie Gaetano!</description>
+      <author>community@ez.no (Monica Giambitto)</author>
+      <guid>http://projects.ez.no/editorder/forum/general/ue_bella_fuori_il_codice/re_ue_bella_fuori_il_codice</guid>
+      <pubDate>Thu, 02 Dec 2010 11:05:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Joint efforts?</title>
+      <link>http://projects.ez.no/editorder/forum/general/joint_efforts</link>
+      <description>Thanks for contributing. I just wanted to let you know that http://projects.ez.no/nmcheckout also allows you to edit your orders, in case you wanted to join efforts.</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/editorder/forum/general/joint_efforts</guid>
+      <pubDate>Fri, 12 Nov 2010 13:03:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ué bella, fuori il codice!</title>
+      <link>http://projects.ez.no/editorder/forum/general/ue_bella_fuori_il_codice</link>
+      <description>...e benvenuta nella community :-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/editorder/forum/general/ue_bella_fuori_il_codice</guid>
+      <pubDate>Mon, 08 Nov 2010 21:06:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

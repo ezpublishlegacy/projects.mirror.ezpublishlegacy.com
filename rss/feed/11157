@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / feide / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:09:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:09:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11157" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SimpleSAML_Session object stored as incomplete object</title>
+      <link>http://projects.ez.no/feide/forum/general/simplesaml_session_object_stored_as_incomplete_object</link>
+      <description>Hi.  Thanks very much for this extension.&#13;
+&#13;
+I've installed this on a debian system with php 5.2.0-8, and got the following error when I hit /feide/login :&#13;
+&#13;
+Fatal error: nxcFeide::loginUser() [&lt;a href='function.nxcFeide-loginUser'&gt;function.nxcFeide-loginUser&lt;/a&gt;]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "SimpleSAML_Session" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition in /var/www/htdocs/auth-ezssol.internal.cwa.co.nz/extension/feide/lib/classes/nxcfeide.php on line 69&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&#13;
+The object is being stored in the session correctly but the problem occurs when trying to retrieve the object again in a subsequent request.  I tried to figure out why this is happending but in the end I added the following to the ezpublish autoload.php, at the top of the __autoload() function  :&#13;
+&#13;
+require_once("/var/www/htdocs/ezpublish/SimpleSAML/Session.php");&#13;
+&#13;
+It now works fine.  I'm using phpsession session handler.&#13;
+&#13;
+Cheers&#13;
+Colin.</description>
+      <author>community@ez.no (Colin Igloo)</author>
+      <guid>http://projects.ez.no/feide/forum/general/simplesaml_session_object_stored_as_incomplete_object</guid>
+      <pubDate>Thu, 04 Dec 2008 01:05:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / yuzudisqus / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:28:39 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:28:39 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45229" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yuzudisqus/source/c3d5a164c13bfc4a1a23aa229b2c81cce13464de</link>
+      <description>
+      &lt;pre&gt;+ INSTALL
++ README
++ design/standard/templates/disqus.tpl
++ design/standard/templates/disqus_contributors.tpl
++ design/standard/templates/disqus_count.tpl
++ design/standard/templates/disqus_recent_comments.tpl
++ design/standard/templates/disqus_threads.tpl
++ ezinfo.php
++ settings/design.ini.append.php
++ settings/site.ini.append.php
++ settings/yuzudisqus.ini.append.php
++ translations/fre-FR/translation.ts
++ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;First commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yuzudisqus/source/c3d5a164c13bfc4a1a23aa229b2c81cce13464de</guid>
+      <pubDate>Mon, 06 Feb 2012 21:11:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

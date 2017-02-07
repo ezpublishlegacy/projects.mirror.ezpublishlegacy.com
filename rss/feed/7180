@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / recaptcha / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/7180" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>recaptcha rev. 5 by Bruce Morrison</title>
+      <link>http://projects.ez.no/recaptcha/subversion/5</link>
+      <description>Tagged 1.2 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/recaptcha/subversion/5</guid>
+      <pubDate>Mon, 15 Dec 2008 02:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>recaptcha rev. 4 by Bruce Morrison</title>
+      <link>http://projects.ez.no/recaptcha/subversion/4</link>
+      <description>Updated CHANGELOG </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/recaptcha/subversion/4</guid>
+      <pubDate>Mon, 15 Dec 2008 02:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>recaptcha rev. 3 by Bruce Morrison</title>
+      <link>http://projects.ez.no/recaptcha/subversion/3</link>
+      <description>Fixed JS issues in IE7 thanks to LS
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/recaptcha/subversion/3</guid>
+      <pubDate>Mon, 15 Dec 2008 02:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>recaptcha rev. 2 by Bruce Morrison</title>
+      <link>http://projects.ez.no/recaptcha/subversion/2</link>
+      <description>Tagging 1.1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/recaptcha/subversion/2</guid>
+      <pubDate>Mon, 15 Dec 2008 02:00:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>recaptcha rev. 1 by Bruce Morrison</title>
+      <link>http://projects.ez.no/recaptcha/subversion/1</link>
+      <description>Initial import from local subversion server
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/recaptcha/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:22:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,989 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:31:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Pb using script ezsqlinsertschema.php to install oracle 11g     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezoracle/forum/general'];
+menu[4] = ['Leaders', '/ezoracle/team/leaders', 'Members', '/ezoracle/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezoracle.html" onmouseover="switchSubMenu( this );">eZ Publish Extension for Oracle® Database &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezoracle.html">ezoracle</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        pb using script ezsqlinsert...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Pb using script ezsqlinsertschema.php to install oracle 11g</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg17328">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/dada_mr.html">dada Mr</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />23 June 2009</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 12:24:38 pm</p>
+
+        <div class="attribute-long">Hello,<br />
+<br />
+I'm working on window xp with WAMP 2.0.<br />
+I've installed ezpublish-4.1.3  from scratch with the extension oracle 2.0 ( last one i believe ) . I've followed the manual.<br />
+On this server , running an oracle database 11 g<br />
+<br />
+I do a program's test to control that the connection is ok on the database with php<br />
+It works very good !<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;$oracle_user = &quot;EZPUBLISH&quot;;</span>
+
+<span class="line">&nbsp;$oracle_pwd&nbsp;= &quot;EZPUBLISH&quot;;</span>
+
+<span class="line">&nbsp;$machine&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;&quot;XE11&quot;;</span>
+
+<span class="line">$conn=OCI_CONNECT($oracle_user,$oracle_pwd,$machine);</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (!$conn )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo &quot;pb connexion&quot;;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;die;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo &quot;connecté avec OCI_connect&quot;;</span>
+
+<span class="line">oci_close($conn);</span>
+
+<span class="line"></span></pre><br />
+<br />
+when I launch the php commande <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --us</span>
+
+<span class="line">er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11</span>
+
+<span class="line">Could not initialize database:</span>
+
+<span class="line">* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'</span>
+
+<span class="line">* No database handler was found for 'oracle'</span>
+
+<span class="line"></span></pre><br />
+<br />
+I have some question  <i>No database handler</i> what does it mean ?<br />
+How can we debug the <i>functions</i> and <i>classes</i> in ezpublish?<br />
+<br />
+Thx<br />
+bangkok94<br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg17333">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 3:55:22 pm</p>
+
+        <div class="attribute-long">Are you sure you followed carefully step 8: &quot;Enable the extension&quot;?<br />
+<br />
+you need to<br />
+- have the extension activated<br />
+- have the extensions autoload regenerated<br />
+<br />
+&quot;no database handler was found&quot; means that the php class eZOracleDB was not found by the system when tryng to load it
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg17339">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/dada_mr.html">dada Mr</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />23 June 2009</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 5:46:11 pm</p>
+
+        <div class="attribute-long">Ok you're totally right , I forget this step 8<br />
+Now I have a message.<br />
+<br />
+after launching the regeneration of the extension autoload file :<br />
+<a href="http://localhost/ezpublish-4.1.3/bin/php/ezpgenerateautoloads.php" title="http://localhost/ezpublish-4.1.3/bin/php/ezpgenerateautoloads.php">http://localhost/ezpublish-4.1.3/bin/php/ezpgenerateautoloads.php</a><br />
+<br />
+I have this message below:<br />
+<br />
+<i>Scanning for PHP-files. The directory file 'C:/wamp/www/ezpublish-4.1.3/bin/php/extension' could not be found.<br />
+</i><br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg17340">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 6:07:24 pm</p>
+
+        <div class="attribute-long">You should run that script from php command line, and starting from the ezpublish root directory - it should not be run via web access.<br />
+<br />
+If you prefer to update the autoloads via a GUI, you can do that in the admin interface of eZ Publish, but only after you have installed it successfully (cat-and-tail problem in your case)
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg17341">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/dada_mr.html">dada Mr</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />23 June 2009</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 7:11:03 pm</p>
+
+        <div class="attribute-long">Ok.I run that script from php command <br />
+I have this message <br />
+<i><br />
+Scanning for PHP-files.<br />
+<br />
+Scan complete. Found 52 PHP files.<br />
+<br />
+Searching for classes (tokenizing).<br />
+<br />
+Found 20 classes, added 20 of them to the autoload array.<br />
+</i><br />
+<br />
+=&gt; so the extension are activated<br />
+and the extensions autoload regenerated<br />
+<br />
+<br />
+Next step should be the initialisation of the database.<br />
+<br />
+<i><br />
+C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --us<br />
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11<br />
+Could not initialize database:<br />
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'<br />
+* No database handler was found for 'oracle'<br />
+</i><br />
+<br />
+but I have the same message than before ?<br />
+<br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg17342">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 June 2009 7:25:44 pm</p>
+
+        <div class="attribute-long">Can you verify that:<br />
+<br />
+1 - in settings/override/site.ini.append.php you have this:<br />
+[ExtensionSettings]<br />
+ActiveExtensions[]<br />
+...<br />
+ActiveExtensions[]=ezoracle<br />
+...<br />
+<br />
+2 - in var/autoload/ezp_extension.php you have this:<br />
+...<br />
+      'eZOracleDB'                         =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php',<br />
+...<br />
+<br />
+If point 1 is false, you will have to add that line and rerun ezpgenerateautoloads.php
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg17346">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/dada_mr.html">dada Mr</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />23 June 2009</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 24 June 2009 10:16:21 am</p>
+
+        <div class="attribute-long">Ok tanks for your answer.<br />
+<br />
+My site.ini.append.php is situated i folder <i>settings/override/</i><br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;?php&nbsp;</span>
+
+<span class="line">ExtensionSettings]</span>
+
+<span class="line">ActiveExtensions[]</span>
+
+<span class="line">ActiveExtensions[]=ezoracle</span>
+
+<span class="line">?&gt;</span>
+
+<span class="line"></span></pre><br />
+<br />
+this file contains only 3 lines ??<br />
+<br />
+I run &gt;php bin/php/ezpgenerateautoloads.php<br />
+<br />
+<br />
+I add ( and verify it exists )   'eZOracleDB'                =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php',<br />
+<br />
+in  var/autoload/ezp_extension.php. <br />
+<br />
+I launch <br />
+php bin/php/ezsqlinsertschema.php --type=oracle --us<br />
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11<br />
+Could not initialize database:<br />
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'<br />
+* No database handler was found for 'oracle'<br />
+<br />
+??
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg17347">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/gaetano_giunta.html">Gaetano Giunta</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 269</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 24 June 2009 10:32:13 am</p>
+
+        <div class="attribute-long"><pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;?php</span>
+
+<span class="line">ExtensionSettings]</span>
+
+<span class="line">ActiveExtensions[]</span>
+
+<span class="line">ActiveExtensions[]=ezoracle</span>
+
+<span class="line">?&gt;</span>
+
+<span class="line"></span></pre><br />
+<br />
+Yoi miss an opening bracket in there (unless that was justa  typo when pasting to the web):<br />
+<i>ExtensionSettings] =&gt; [ExtensionSettings]</i><br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Principal Consultant International Business<br />
+Member of the Community Project Board</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg17372">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/dada_mr.html">dada Mr</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />23 June 2009</p>
+        <p class="posts">Posts: 5</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 24 June 2009 10:57:37 am</p>
+
+        <div class="attribute-long">Exact I've done a mistake.thx.<br />
+<br />
+I run again the ezpgenerateautoloads.php<br />
+<br />
+it displays 54 php files instead of 52 <br />
+<br />
+<i><br />
+Scan complete. Found 54 PHP files.<br />
+<br />
+Searching for classes (tokenizing).<br />
+<br />
+Found 22 classes, added 22 of them to the autoload array.<br />
+</i><br />
+<br />
+Now the ezp_extension.php generated is correct :)<br />
+<br />
+&lt;?php<br />
+/**<br />
+ * Autoloader definition for eZ Publish Extension files.<br />
+ *<br />
+ * @copyright Copyright (C) 1999-2009 eZ Systems AS. All rights reserved.<br />
+ * @license <a href="http://ez.no/licenses/gnu_gpl" title="http://ez.no/licenses/gnu_gpl">http://ez.no/licenses/gnu_gpl</a> GNU GPL v2<br />
+ * @version //autogentag//<br />
+ * @package kernel<br />
+ *<br />
+ */<br />
+<br />
+return array(<br />
+      'EnchantSpell'              =&gt; 'extension/ezoe/modules/ezoe/classes/EnchantSpell.php',<br />
+      'GoogleSpell'               =&gt; 'extension/ezoe/modules/ezoe/classes/GoogleSpell.php',<br />
+      'Moxiecode_JSON'            =&gt; 'extension/ezoe/modules/ezoe/classes/utils/mcejson.php',<br />
+      'Moxiecode_JSONReader'      =&gt; 'extension/ezoe/modules/ezoe/classes/utils/mcejson.php',<br />
+      'PSpell'                    =&gt; 'extension/ezoe/modules/ezoe/classes/PSpell.php',<br />
+      'PSpellShell'               =&gt; 'extension/ezoe/modules/ezoe/classes/PSpellShell.php',<br />
+      'SpellChecker'              =&gt; 'extension/ezoe/modules/ezoe/classes/SpellChecker.php',<br />
+      'eZOEAjaxContent'           =&gt; 'extension/ezoe/classes/ezoeajaxcontent.php',<br />
+      'eZOEInputParser'           =&gt; 'extension/ezoe/ezxmltext/handlers/input/ezoeinputparser.php',<br />
+      'eZOEPacker'                =&gt; 'extension/ezoe/autoloads/ezoepacker.php',<br />
+      'eZOEPackerFunctions'       =&gt; 'extension/ezoe/classes/ezoepackerfunctions.php',<br />
+      'eZOETemplateUtils'         =&gt; 'extension/ezoe/autoloads/ezoetemplateutils.php',<br />
+      'eZOEXMLInput'              =&gt; 'extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php',<br />
+      'eZOOConverter'             =&gt; 'extension/ezodf/classes/ezooconverter.php',<br />
+      'eZOOGenerator'             =&gt; 'extension/ezodf/classes/ezoogenerator.php',<br />
+      'eZOOImport'                =&gt; 'extension/ezodf/classes/ezooimport.php',<br />
+      'eZOpenofficeUploadHandler' =&gt; 'extension/ezodf/uploadhandlers/ezopenofficeuploadhandler.php',<br />
+     <i> 'eZOracleDB'                =&gt; 'extension/ezoracle/ezdb/dbms-drivers/ezoracledb.php', </i><br />
+      'eZOracleSchema'            =&gt; 'extension/ezoracle/ezdb/dbms-schema/ezoracleschema.php',<br />
+      'eZRESTODFHandler'          =&gt; 'extension/ezodf/classes/ezrestodfhandler.php',<br />
+      'ezodfInfo'                 =&gt; 'extension/ezodf/ezinfo.php',<br />
+      'ezoeInfo'                  =&gt; 'extension/ezoe/ezinfo.php',<br />
+    );<br />
+<br />
+?&gt;<br />
+<br />
+but the have still the same problem.<br />
+<br />
+C:\wamp\www\ezpublish-4.1.3&gt;php bin/php/ezsqlinsertschema.php --type=oracle --u<br />
+er=EZPUBLISH --password=EZPUBLISH share/db_schema.dba XE11<br />
+Could not initialize database:<br />
+* Tried database 'XE11' locally with user 'EZPUBLISH' and with a 'EZPUBLISH'<br />
+* No database handler was found for 'oracle'<br />
+<br />
+
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg17512">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/vidar_langseid.html">Vidar Langseid</a></p>
+
+
+        
+        <p class="membersince">Member since:<br />11 March 2003</p>
+        <p class="posts">Posts: 3</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 30 June 2009 2:10:07 pm</p>
+
+        <div class="attribute-long">Hi<br />
+<br />
+The actual name of the db handler is ezoracle, not oracle. A temporary fix is available here: <a href="http://issues.ez.no/IssueView.php?Id=15109" title="http://issues.ez.no/IssueView.php?Id=15109">http://issues.ez.no/IssueView.php?Id=15109</a>
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezoracle/forum/general/pb_using_script_ezsqlinsertschema_php_to_install_oracle_11g by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:31:40 GMT -->
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sjsd__real_fckeditor_xmltext_integration_ / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:48:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:48:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30393" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/sjsd_real_fckeditor_xmltext_integration/news/changelog</link>
+      <description>&lt;p&gt;
+2006-May-11 liucougar &lt;br /&gt;
+ 0.3.1 is released:&lt;br /&gt;
+ * Inline tag support in header tag&lt;br /&gt;
+ * added support for embed-inline (fixed bug #1480810)&lt;br /&gt;
+ * fixed issues to support other languages (such as CJK)&lt;br /&gt;
+ * do not transfer unnecessary characters to xhtml entities&lt;br /&gt;
+ * fixed the custom attribute dialog compatibility issue with IE&lt;br /&gt;
+ * various other bug fixes&lt;br /&gt;
+ 2006-May-01 Version 0.3.0 is available:&lt;br /&gt;
+ * Upload new support in embed dialog&lt;br /&gt;
+ * A brand new status bar, current node path is shown and can be&lt;br /&gt;
+ selected&lt;br /&gt;
+ * Full support for custom tags, both inline and block tags, and you&lt;br /&gt;
+ can add custom attributes to them&lt;br /&gt;
+ * Built-in support for following tags: strike, underline, sub, sup,&lt;br /&gt;
+ textred and factbox&lt;br /&gt;
+ * eZ publish 3.8 support&lt;br /&gt;
+ * fixed PHP 4.4/eZ 3.7 compatible issues&lt;br /&gt;
+ * fixed charset auto conversion&lt;br /&gt;
+ 20/Apr/2006 Version 0.2.1&lt;br /&gt;
+ * fixed 3.7 compatible issue&lt;br /&gt;
+ * fixed compatible issue with virtual host setup&lt;br /&gt;
+ * added some simple inline custom tag support&lt;br /&gt;
+ * fixed several other bugs&lt;br /&gt;
+ 12/Apr/2006 Version 0.2.0&lt;br /&gt;
+ * Rewrite server side coversion engine completely to make it clearer&lt;br /&gt;
+ and more flexible&lt;br /&gt;
+ * Added Header (level 1-6) and Literal support&lt;br /&gt;
+ * Fixed IE compatibility and added collapse the toolbar onblur&lt;br /&gt;
+ * Fixed inline style handling&lt;br /&gt;
+ 10/Apr/2006 Version 0.1&lt;br /&gt; Initial release&lt;/p&gt;</description>
+      <author>community@ez.no (liu spider)</author>
+      <guid>http://projects.ez.no/sjsd_real_fckeditor_xmltext_integration/news/changelog</guid>
+      <pubDate>Tue, 08 Jan 2008 10:19:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owlanguageredirect / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:28:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:28:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/41474" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/d66f8d7da3b7406fca62b51e54cbd6de50411636</link>
+      <description>
+      &lt;pre&gt;+ README.md
+m doc/INSTALL.txt
++ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/d66f8d7da3b7406fca62b51e54cbd6de50411636</guid>
+      <pubDate>Wed, 17 Oct 2012 09:10:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/b7ba789471b5a57dfe5f1526ff91e26e6e5371b1</link>
+      <description>
+      &lt;pre&gt;m classes/owlanguageredirect.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add optional HTTP Header&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/b7ba789471b5a57dfe5f1526ff91e26e6e5371b1</guid>
+      <pubDate>Wed, 17 Oct 2012 09:10:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/b83f592bce12e80f325f109344d0ea51ec3764cb</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+- autoloads/languageRedirect.php
+m autoloads/owlanguageredirectoperators.php
++ classes/owlanguageredirect.php
+m classes/owlanguageredirectswitcher.php
+m doc/INSTALL.txt
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Release 1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/b83f592bce12e80f325f109344d0ea51ec3764cb</guid>
+      <pubDate>Wed, 18 Apr 2012 13:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/9a4a89dbbcdc3d65e525ac73542440983f837280</link>
+      <description>
+      &lt;pre&gt;+ INSTALL.txt
++ autoloads/eztemplateautoload.php
++ autoloads/languageRedirect.php
++ autoloads/owlanguageredirect.php
++ classes/owlanguageredirectswitcher.php
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initialisation v0.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/9a4a89dbbcdc3d65e525ac73542440983f837280</guid>
+      <pubDate>Wed, 18 Apr 2012 13:50:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 10 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/10</link>
+      <description>Added informations in installation file.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/10</guid>
+      <pubDate>Mon, 16 May 2011 16:02:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 9 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/9</link>
+      <description>Added informations in installation file.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/9</guid>
+      <pubDate>Mon, 16 May 2011 15:41:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 8 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/8</link>
+      <description>Next release : 0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/8</guid>
+      <pubDate>Mon, 16 May 2011 12:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 7 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/7</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/7</guid>
+      <pubDate>Mon, 16 May 2011 10:42:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 6 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/6</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/6</guid>
+      <pubDate>Mon, 16 May 2011 10:42:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 5 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/5</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/5</guid>
+      <pubDate>Mon, 16 May 2011 10:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 4 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/4</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/4</guid>
+      <pubDate>Mon, 16 May 2011 10:22:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 3 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/3</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/3</guid>
+      <pubDate>Mon, 16 May 2011 10:01:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 2 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/2</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/2</guid>
+      <pubDate>Mon, 16 May 2011 09:23:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>owlanguageredirect rev. 1 by Simon Boyer</title>
+      <link>http://projects.ez.no/owlanguageredirect/subversion/1</link>
+      <description>New version : 0.9 updated</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owlanguageredirect/subversion/1</guid>
+      <pubDate>Mon, 16 May 2011 09:23:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / admin2pp / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:34:43 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:34:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23182" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work2</link>
+      <description>And I found what was the problem...&#13;
+&#13;
+The admin2pp in it's ezjscore.ini.append.php includes jquery-ui-1.8.6.min.js which causes problem because is already loaded by ezie extension.&#13;
+&#13;
+The problem is actually in ezie, I'm making a pull request...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work2</guid>
+      <pubDate>Mon, 24 Oct 2011 01:17:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo5</link>
+      <description>EDIT: this was posted in the wrong thread</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo5</guid>
+      <pubDate>Mon, 24 Oct 2011 00:39:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work</link>
+      <description>P.S. This was tested with the latest admin2pp from the trunk.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work/re_causes_ezie_in_4_4_not_to_work</guid>
+      <pubDate>Fri, 21 Oct 2011 16:32:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>causes ezie in 4.4 not to work</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work</link>
+      <description>When admin2pp is enabled on eZP4.4, the ezie doesn't work.&#13;
+&#13;
+Firebug reports this:&#13;
+&#13;
+"NetworkError: 404 Not Found - http://ez44.kultura.hr/extension/ezie/design/standard/stylesheets/ezie/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"&#13;
+&#13;
+and when I click on the image load button, I get the following JS error:&#13;
+&#13;
+this._mouseInit is not a function&#13;
+[Break On This Error] labelsObj=labels;createGroups=groups;c...tion(){$(".ezieEditButton").ezie();}) &#13;
+&#13;
+&#13;
+If I disable admin2pp everything works fine...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_ezie_in_4_4_not_to_work</guid>
+      <pubDate>Fri, 21 Oct 2011 16:22:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo4</link>
+      <description>Any chances to have this fixed?&#13;
+&#13;
+I would propose a fix, but I have no idea where to start...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo4</guid>
+      <pubDate>Fri, 21 Oct 2011 15:54:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo3</link>
+      <description>Hi Marko,&#13;
+&#13;
+I haven't checked in detail yet but it's more an admin2pp issue that comes from a change of behavior in TinyMCE/Online Editor. If I remember correctly, in earlier versions, preloading the JavaScript files in the login page did not generate any issue, it seems like now something is wrongly executed.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo3</guid>
+      <pubDate>Tue, 13 Sep 2011 09:12:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo2</link>
+      <description>Is this a bug in admin2pp or a bug in ezoe?&#13;
+&#13;
+From where is this large string generated?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo2</guid>
+      <pubDate>Tue, 13 Sep 2011 08:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: causes a bug in admin interface when not lo...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo</link>
+      <description>Hi Marko,&#13;
+&#13;
+&lt;i&gt;When this extension is enabled and you go to the admin interface without being logged in (the user/login page is presented), a lot of unneeded .js files are loaded.&lt;/i&gt;&#13;
+&#13;
+this is done on purpose. The idea is to asynchronously fill the browser's cache while the user is filling the login form (or trying to remember his password :-)) to speed up the admin interface page loadings.&#13;
+&#13;
+&lt;i&gt;Among them also the .js files for OE are loaded and one of them causes a "Request-URI too large" error response. On some servers this triggers security mechanisms that block access from the user's computer.&lt;/i&gt;&#13;
+&#13;
+yeah I noticed this issue too, as a workaround, you can remove the guilty JavaScript file from [PreloadSettings]/OEJavaScriptFiles[] array in admin2pp.ini&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in/re_causes_a_bug_in_admin_interface_when_not_lo</guid>
+      <pubDate>Thu, 08 Sep 2011 14:55:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>causes a bug in admin interface when not logged in</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in</link>
+      <description>When this extension is enabled and you go to the admin interface without being logged in (the user/login page is presented), a lot of unneeded .js files are loaded.&#13;
+Among them also the .js files for OE are loaded and one of them causes a "Request-URI too large" error response. On some servers this triggers security mechanisms that block access from the user's computer.&#13;
+&#13;
+This issue is also described here:&#13;
+&#13;
+http://issues.ez.no/IssueView.php?Id=18628</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/causes_a_bug_in_admin_interface_when_not_logged_in</guid>
+      <pubDate>Thu, 08 Sep 2011 09:18:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in6</link>
+      <description>this is more or less the case of a lot of files in the extension (override with some minor changes) because I started this extension before being an eZ Systems employee and before the ability to easily provide contributions to eZ via github.&#13;
+&#13;
+Btw, some of the changes made in earlier version of admin2pp had been reintegrated in eZ and like the icons-sprite.png use in this style sheet.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in6</guid>
+      <pubDate>Mon, 18 Jul 2011 12:12:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in5</link>
+      <description>If it improves performance, then why not push it in the admin2?&#13;
+&#13;
+I mean, using and maintaining two different versions of the same file is pretty much nonoptimal...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in5</guid>
+      <pubDate>Mon, 18 Jul 2011 10:55:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in4</link>
+      <description>Hi Marko,&#13;
+&#13;
+I fixed this issue and some others with the last versions of eZ Publish.&#13;
+&#13;
+The reason to embed yui_menu.css is because the version from admin2pp brings some performance improvements (sprites, remove useless parth, ...)&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in4</guid>
+      <pubDate>Mon, 18 Jul 2011 10:28:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in3</link>
+      <description>Why is yui_menu.css even included in admin2pp? Couldn't we just remove it and let it use the default one from the admin2?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in3</guid>
+      <pubDate>Thu, 30 Jun 2011 10:42:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in2</link>
+      <description>Ok, did it.&#13;
+</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in2</guid>
+      <pubDate>Wed, 29 Jun 2011 22:09:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: this extension disables the fix commited in...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in</link>
+      <description>HI Marko,&#13;
+&#13;
+Thanks for the report. (We definitively need of the bug tracker per project!)&#13;
+&#13;
+I know admin2++ has some issues with the latest eZ Publish versions...  I'm currently in a general movement to update my extensions to make them fully compatible with the latest eZ Publish versions. I released eZ Class Lists 1.2 some weeks ago, I'm working hard on autostatus (I hope to release it before the next week) and admin2pp is the next one on my TODO list...&#13;
+&#13;
+In the mean time, you can also apply to be member of the project and fix it yourself (I think it's just a matter of synchronizing the CSS in admin2++ with the default one).&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6/re_this_extension_disables_the_fix_commited_in</guid>
+      <pubDate>Wed, 29 Jun 2011 18:06:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>this extension disables the fix commited in eZP 2011.6</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6</link>
+      <description>Since this extension includes yui_menu.css, it disables the quickfix made for the create menu in this commit:&#13;
+&#13;
+https://github.com/ezsystems/ezpublish/commit/ab49b8a8e0f9c6462bcbdcc184e70a65ffc1e479&#13;
+&#13;
+Any chances to fix it?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/this_extension_disables_the_fix_commited_in_ezp_2011_6</guid>
+      <pubDate>Wed, 29 Jun 2011 16:02:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A way to download it</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_way_to_download_it/re_a_way_to_download_it</link>
+      <description>The code is in svn aka subversion. If you a have a svn client you can checkout the code and then export it to get it without the svn files in it. Some clients let you export directly as well.&#13;
+If your on windows, try TortoiseSVN:&#13;
+http://tortoisesvn.net/downloads</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_way_to_download_it/re_a_way_to_download_it</guid>
+      <pubDate>Fri, 02 Jul 2010 07:45:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>A way to download it</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_way_to_download_it</link>
+      <description>Hi&#13;
+I'm looking for this extension, but i can't find a working link to download it. &#13;
+To me the download section is emtpy or i'm blind &#13;
+&#13;
+thanks</description>
+      <author>community@ez.no (olivier ghizzo)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_way_to_download_it</guid>
+      <pubDate>Thu, 01 Jul 2010 07:49:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does not work on my install</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/does_not_work_on_my_install/re_does_not_work_on_my_install</link>
+      <description>ezjscore.ini [eZJSCore]Packer=disabled&#13;
+You most likely are missing rewrite rules for packed js files(see install doc for ezjscore), as for rewrite rules for admin2pp you at least need to enable the once in icons.conf.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/does_not_work_on_my_install/re_does_not_work_on_my_install</guid>
+      <pubDate>Tue, 04 May 2010 08:41:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does not work on my install</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/does_not_work_on_my_install</link>
+      <description>Hi there,&#13;
+&#13;
+This extension looks promising, but I can't get it work on my 4.3 install (on wamp).&#13;
+I can see that some templates are called in the admin2pp extension, I can see the mouse icon when I hover dashboard's blocks, but it seems everything links to JS is not working.&#13;
+&#13;
+I got ezjscore activated, I have cleared cache and regenerate autoads, but still not working.&#13;
+&#13;
+I don't know if the apache.conf changed are mandatory (may be the problem is only here but I doubt).&#13;
+&#13;
+My problem seems to come from this new functionality in 4.3 which create only one JS file, and even after cache clearing and hard delete of the .js the problem is the same. I could I disable this functionality for testing ? I have added development in settings for the admin, but it still there ... Mistery for me.&#13;
+&#13;
+Thanks for your support.&#13;
+&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas OTTAVI)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/does_not_work_on_my_install</guid>
+      <pubDate>Mon, 03 May 2010 07:01:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Drag </title>
+      <link>http://projects.ez.no/admin2pp/forum/general/drag_drop_with_jquery_ui</link>
+      <description>Hello Damien,&#13;
+&#13;
+I was recently playing with sortable from jQuery UI and I met a problem (see http://dev.jqueryui.com/ticket/4920) the drag and drop is not working well when there is float inside the div sortable.&#13;
+&#13;
+Are you aware of this ? Does it means that we can't have float in widget on the dashboard ?&#13;
+&#13;
+Thanks for your answer :)</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/drag_drop_with_jquery_ui</guid>
+      <pubDate>Tue, 13 Apr 2010 16:16:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A touch of details on this promising initia...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia3</link>
+      <description>Damien posted some new info on the details of this project:&#13;
+http://pwet.fr/blog/frontend_performance_enhancements_with_admin2_ez_publish_extension&#13;
+&#13;
+sounds promising!</description>
+      <author>community@ez.no (Mark Marsiglio)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia3</guid>
+      <pubDate>Tue, 23 Mar 2010 23:39:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A touch of details on this promising initia...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia2</link>
+      <description>Hi there. about the calendar maybe you can take a look at the one provided by jquery UI [1]. I'm usign it for my custom extensions. As you probably know, the good thing about ui is that you can download only the components you need for your application, so maybe a "jquery ui for eZ Publish" can be provided with your extension. &#13;
+&#13;
+The "bad" thing about ui is that even you can download only the components you need, probably those components provides more functionality than you really need, an this could increase the javascript size innecesary. &#13;
+&#13;
+Just an idea. Thanks for your extension :). &#13;
+&#13;
+[1] http://www.jqueryui.com</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia2</guid>
+      <pubDate>Sat, 13 Feb 2010 19:26:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A touch of details on this promising initia...</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia</link>
+      <description>Hi Nicolas,&#13;
+&#13;
+In fact, I have a lots of ideas in mind for this project and by the way probably more than I can write myself but as always contributions are very welcomed !&#13;
+&#13;
+And you're right, the first one is to try some optimizations on front end side like the rules I told about at the eZ Winter Conferences but also some others that apply well on an administration interface (like Pre load components for instance [1])&#13;
+&#13;
+In addition, I would like to provide a better UI for some datatypes in a unique extension that will use a unique Javascript Framework (jQuery as admin2 design uses it) and ezjscore for the AJAX stuffs. I have already told of this topic on my blog post [2] about the new admin interface.&#13;
+For instance, you wrote the ezkeyword_autocomplete extension [3] (a great extension!) but it uses a YUI2 widget, so I would like to provide the same kind of feature with jQuery/ezjscore to be as performant and as ergonomic as possible. A javascript calendar would be also very welcomed in the admin interface, and there are probably a lots of others things that could be done.&#13;
+&#13;
+[1] http://developer.yahoo.com/performance/rules.html#preload&#13;
+[2] http://pwet.fr/blog/some_thougths_about_the_admin_interface_refresh_of_ez_publish&#13;
+[3] http://projects.ez.no/ezkeyword_autocomplete&#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative/re_a_touch_of_details_on_this_promising_initia</guid>
+      <pubDate>Fri, 12 Feb 2010 11:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>A touch of details on this promising initiative ?</title>
+      <link>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative</link>
+      <description>hi Damien !&#13;
+&#13;
+The title and short description sound promising, really. I guess this is closely related to your talk at the eZ Winter Conference in Geneva, out there : http://share.ez.no/blogs/ez/wrap-up-and-slides-of-the-2010-ez-winter-conference-in-geneva ("Front-end Performance").&#13;
+&#13;
+Are you planning on implementing something like the first 13 Yahoo! rules, or more than this ?&#13;
+&#13;
+I'm looking forward to knowing more on what's in the back of your head ;)&#13;
+Cheers !</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/admin2pp/forum/general/a_touch_of_details_on_this_promising_initiative</guid>
+      <pubDate>Fri, 12 Feb 2010 09:51:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

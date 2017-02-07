@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / novenimagecropper</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:19 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19452" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag6</link>
+      <description>Original images canbe succssfully [url=http://www.rasteredge.com/how-to/csharp-imaging/crop-image/]cropped[/url] by the new version,.many thanks for the feature.&#13;
+</description>
+      <author>community@ez.no (nesca fo)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag6</guid>
+      <pubDate>Thu, 06 Jun 2013 07:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Image does not show up on Macintosh</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/image_does_not_show_up_on_macintosh</link>
+      <description>The image uploading interface (as viewed when editing or creating a content item from the admin backend interface) refuses to show the image on a Macintosh.  It appears to be a browser-independent problem, confirmed on Safari and Firefox on the Mac.  After you upload the image, in the place where the image should show, a small blue icon with a question mark appears instead.&#13;
+&#13;
+eZ Publish version 4.2, novenimagecropper version 1.0.6.&#13;
+&#13;
+Please help!  Thanks much!</description>
+      <author>community@ez.no (A Fowler)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/image_does_not_show_up_on_macintosh</guid>
+      <pubDate>Tue, 26 Oct 2010 16:57:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 54 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/54</link>
+      <description>Fixed issue with uppercase image file extensions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/54</guid>
+      <pubDate>Sun, 29 Aug 2010 17:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in upload image with uppercase extension</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension/re_error_in_upload_image_with_uppercase_extension</link>
+      <description>Thanks Ugo for your issue report.&#13;
+Fixed in trunk, rev 54</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension/re_error_in_upload_image_with_uppercase_extension</guid>
+      <pubDate>Sun, 29 Aug 2010 17:01:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error in upload image with uppercase extension</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension</link>
+      <description>Noven Image Cropper do not support images with uppercase extension. &#13;
+We suggest a solution like this: change row 65 in file novenimagecropper/design/standard/javascript/novenimagecropper.js&#13;
+&#13;
+Old code:&#13;
+&#13;
+if (! (ext </description>
+      <author>community@ez.no (Ugo Giacalone)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/error_in_upload_image_with_uppercase_extension</guid>
+      <pubDate>Tue, 24 Aug 2010 09:53:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag5</link>
+      <description>Hello !&#13;
+&#13;
+Felix, this looks like more or less what I've described. Is it hosted on project.ez.no ?&#13;
+&#13;
+A merge with novenimagecropper would be indeed interested if it's doable.&#13;
+&#13;
+Cheers !&#13;
+</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag5</guid>
+      <pubDate>Fri, 30 Apr 2010 15:03:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag4</link>
+      <description>Thanks Felix&#13;
+I will thing about it for next version :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag4</guid>
+      <pubDate>Fri, 30 Apr 2010 13:30:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag3</link>
+      <description>Hello Jerome,&#13;
+&#13;
+1. in tpl get crop value with js in relation to the original&#13;
+2. store these information somewhere ( i did this in the original file name )&#13;
+3. create a new imagehandler  which handels a crop filter&#13;
+&#13;
+[ImageMagick]&#13;
+Handler=JacImageManipulationEzImageShellFactory&#13;
+&#13;
+   This crop filter reads the image information&#13;
+    you need a new image alias &#13;
+&lt;code&gt;&#13;
+[crop_reference]&#13;
+Reference=original&#13;
+Filters[]&#13;
+Filters[]=jacimagemanipulation/crop=&#13;
+&lt;/code&gt;&#13;
+this alias you can use to create other aliases&#13;
+&#13;
+The crop algorithm is in JacImageManipulationEzImageShellFactory and is running every time the image alias is rebuild.&#13;
+&#13;
+Our solution only works for imagemagick at the moment.</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag3</guid>
+      <pubDate>Fri, 30 Apr 2010 10:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag2</link>
+      <description>Hi Matthieu&#13;
+&#13;
+Your idea is really interesting indeed.&#13;
+&#13;
+@Felix : Can you describe more precisely what you made for your extension please ? Maybe I can integrate it :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag2</guid>
+      <pubDate>Fri, 30 Apr 2010 09:27:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [New feature] Do not crop the original imag...</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag</link>
+      <description>Hello Matthieu,&#13;
+&#13;
+for this use case we developed an extension.&#13;
+&#13;
+You can define an aspect ratio for the image e.g. 3:4 and than you have a rectangle to choose the image extract.&#13;
+Then you have the original and the original_crop as an reference image. On top of these you can create cropped or non cropped image variations.&#13;
+&#13;
+Is this what you want?</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias/re_new_feature_do_not_crop_the_original_imag</guid>
+      <pubDate>Fri, 30 Apr 2010 05:37:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>[New feature] Do not crop the original image but an alias</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias</link>
+      <description>Hello Jerome,&#13;
+&#13;
+What do you think of this proposal : add a way to crop an alias of the image and not the original.&#13;
+&#13;
+Use case example :&#13;
+Add an image to an article (you want this image not cropped).&#13;
+You link a carousel to a bunch of articles and you want to extract a cropped version of each article images to display in the carousel.&#13;
+It would be great to have to possibility to select the zone in the image to create the cropped version.&#13;
+&#13;
+Do you understand what I mean ?</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/general/new_feature_do_not_crop_the_original_image_but_an_alias</guid>
+      <pubDate>Thu, 29 Apr 2010 12:22:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 53 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/53</link>
+      <description>- added italian translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/53</guid>
+      <pubDate>Tue, 27 Apr 2010 20:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 52 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/52</link>
+      <description>Added spanish translation (thanks Carlos Revillo)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/52</guid>
+      <pubDate>Sun, 25 Apr 2010 09:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 51 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/51</link>
+      <description>Added Norwegian translation (thanks Håvard Bergersen for your contribution !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/51</guid>
+      <pubDate>Wed, 21 Apr 2010 20:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.1.0</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_1_0</link>
+      <description>&lt;p&gt;Noven Image Cropper 1.1.0 is out !&lt;/p&gt;&lt;p&gt;The extension is now fully compatible with eZ Publish 4.3.0 and eZJSCore 1.1. Deprecated code has been removed (i18n and tpl init), but backwards compatibility is maintained (will work in previous 4.x instances).&lt;/p&gt;&lt;p&gt;&lt;a href="http://svn.projects.ez.no/novenimagecropper/trunk/doc/CHANGELOG" target="_self"&gt;Changelog can be found here&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_1_0</guid>
+      <pubDate>Wed, 14 Apr 2010 23:23:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.1.1</title>
+      <link>http://projects.ez.no/novenimagecropper/downloads/noven_image_cropper_1_1_1</link>
+      <description></description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/downloads/noven_image_cropper_1_1_1</guid>
+      <pubDate>Wed, 14 Apr 2010 23:18:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 50 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/50</link>
+      <description>Changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/50</guid>
+      <pubDate>Wed, 14 Apr 2010 23:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 49 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/49</link>
+      <description>Update to eZ Publish 4.3 API :
+  - Use of eZTemplate::factory()
+  - Use of ezpI18n::tr()
+
+Backwards compatibility is maintained (will work on previous eZ Publish 4 versions)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/49</guid>
+      <pubDate>Wed, 14 Apr 2010 23:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 48 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/48</link>
+      <description>AjaxUpload 3.9 + forgotten jquery 1.4.2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/48</guid>
+      <pubDate>Wed, 14 Apr 2010 22:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 47 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/47</link>
+      <description>- Upgrade to jQuery 1.4.2 and jQuery UI 1.8
+- Fixing a small bug with eZ JS Core 1.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/47</guid>
+      <pubDate>Wed, 14 Apr 2010 22:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 46 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/46</link>
+      <description> </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/46</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 44 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/44</link>
+      <description>Doc in RST Format</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/44</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 45 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/45</link>
+      <description>Remove old plain txt doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/45</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 43 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/43</link>
+      <description>fix issue with default width/height for aspect ratio</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/43</guid>
+      <pubDate>Mon, 23 Nov 2009 10:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 42 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/42</link>
+      <description>- test of commit rights: folder for ita trads</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/42</guid>
+      <pubDate>Thu, 29 Oct 2009 13:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nice Extension for some usecases but</title>
+      <link>http://projects.ez.no/novenimagecropper/reviews/nice_extension_for_some_usecases_but</link>
+      <description>Nice easy to use extension if you want to crop the original image file and let the editor choose the aspect ratio.&#13;
+&#13;
+But we have often the use case to only have a cropped version with a special aspect ration for example in lineviews or for gallerythumbnails and for the full view the original aspect ratio.&#13;
+For this usecase we have a crop extension. We define which aspect ratio we want for this a class_image. The editor can't choose the aspect ratio (but it could be possible). We only store the crop information for the original image and have a new crop filter for image.ini. Then we can choose on which imagealias we want to use the crop or not.&#13;
+&#13;
+Best regards&#13;
+Felix Woldt&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/novenimagecropper/reviews/nice_extension_for_some_usecases_but</guid>
+      <pubDate>Tue, 20 Oct 2009 09:43:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0.6</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_6</link>
+      <description>&lt;p&gt;Noven Image Cropper is now in version 1.0.6. Several bug fixes and german translation added.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_6</guid>
+      <pubDate>Mon, 19 Oct 2009 12:17:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Super extension</title>
+      <link>http://projects.ez.no/novenimagecropper/reviews/super_extension</link>
+      <description>Bon boulot, simple et efficace.&#13;
+&#13;
+J'ai néanmoins un petit bug de cache quand je supprime l'image pour en envoyer une autre, c'est la première image qui reste affichée.&#13;
+&#13;
+Merci&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/novenimagecropper/reviews/super_extension</guid>
+      <pubDate>Mon, 19 Oct 2009 10:58:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Really useful but...</title>
+      <link>http://projects.ez.no/novenimagecropper/reviews/really_useful_but</link>
+      <description>Simple and efficient, but we get an error message if ImageMagick has not been set up properly.</description>
+      <author>community@ez.no (Adrien Mogenet)</author>
+      <guid>http://projects.ez.no/novenimagecropper/reviews/really_useful_but</guid>
+      <pubDate>Thu, 15 Oct 2009 09:03:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 41 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/41</link>
+      <description>Added a "novenimagecropper_reference" image alias, used against "reference" alias, not always available</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/41</guid>
+      <pubDate>Fri, 09 Oct 2009 08:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument9</link>
+      <description>Hi Marco&#13;
+&#13;
+You're absolutely right !&#13;
+So I replaced &lt;i&gt;reference&lt;/i&gt; image alias by a new one : &lt;b&gt;novenimagecropper_reference&lt;/b&gt;.&#13;
+&#13;
+Implemented in trunk, rev 41.&#13;
+Can you please confirm it's OK for you ?&#13;
+Thanks :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument9</guid>
+      <pubDate>Fri, 09 Oct 2009 08:27:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument8</link>
+      <description>Thanks, that works great!&#13;
+&#13;
+I think, the "reference" alias definition actually is "removed" by the install wizard, which sets up the different siteaccesses. In each language siteaccess, the list of ImageAliases as cleared and re-defined in the image.ini.append file, but without the "reference" alias. The only exception seems to be ezwebin_site_admin siteaccess (luckyly)&#13;
+&#13;
+What worked for me: create an image.ini.append.php in the settings directory of the novenimagecropper extention with this content:&#13;
+&lt;code&gt;&#13;
+&lt;?php /* #?ini charset="utf-8"?&#13;
+&#13;
+[AliasSettings]&#13;
+AliasList[]=reference&#13;
+&#13;
+[reference]&#13;
+Filters[]&#13;
+Filters[]=geometry/scaledownonly=600;600&#13;
+&#13;
+*/ ?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+One thing, though: I though of the "reference" ImageAlias as a "technical" Alias: You can use it as a base image resolution for creating other (smaller) ImageAliases of your picture. So, i will be the same size or larger than the largest Alias, that is intended to be shown in screen. But images of the "reference" Alias usually are not shown on screen and maybe still be quite large.&#13;
+&#13;
+By using the reference Alias for your popup window, you force the admin to reduce this Alias' size to something reasonably small, because it must fit on the screen AND still have space around it for your GUI elements.&#13;
+&#13;
+So, what don't you define and use your own ImageAlias for your extension? Just name if "novenimagecroppreview" or so ;) and it won't interfere with any other defintion my site may have.&#13;
+I guess, it's a one-line change in line 111&#13;
+&lt;code&gt;&#13;
+$referenceAlias = $imageHandler-&gt;attribute('novenimagecroppreview'); // Cropping UI is based on "novenimagecroppreview" alias&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument8</guid>
+      <pubDate>Thu, 08 Oct 2009 18:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 40 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/40</link>
+      <description>Updated doc about "reference" image filter that must be declared in image.ini (not by default in ezwebin frontend siteaccess)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/40</guid>
+      <pubDate>Thu, 08 Oct 2009 17:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument7</link>
+      <description>Hi&#13;
+&#13;
+I checked the problem with ezwebin frontend editing. In fact this is a problem dealing with declared image aliases in &lt;i&gt;image.ini&lt;/i&gt;. &lt;b&gt;reference&lt;/b&gt; alias is not declared by default in ezwebin frontend siteaccess.&#13;
+&#13;
+So all you have to do is to activate it in your image.ini frontend siteaccess override :&#13;
+&lt;code&gt;&#13;
+    AliasList[]=reference&#13;
+&#13;
+    [reference]&#13;
+    Filters[]&#13;
+    Filters[]=geometry/scaledownonly=600;600&#13;
+&lt;/code&gt;&#13;
+&#13;
+I updated the doc in SVN :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument7</guid>
+      <pubDate>Thu, 08 Oct 2009 17:19:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 38 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/38</link>
+      <description>Implement suggestion by Marco to add more aspect ratio</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/38</guid>
+      <pubDate>Wed, 07 Oct 2009 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 39 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/39</link>
+      <description>Changelog update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/39</guid>
+      <pubDate>Wed, 07 Oct 2009 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 37 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/37</link>
+      <description>German translation updated (thanks Marco Zinn !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/37</guid>
+      <pubDate>Wed, 07 Oct 2009 15:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 36 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/36</link>
+      <description>Updated CHANGELOG (1.0.6)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/36</guid>
+      <pubDate>Wed, 07 Oct 2009 13:15:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 35 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/35</link>
+      <description>Wrong version tag (for ant build)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/35</guid>
+      <pubDate>Wed, 07 Oct 2009 13:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 34 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/34</link>
+      <description>Fix PHP warning in modules/novimagecrop/upload.php. Image content attribute was not passed to eZContentObjectAttribute::store() method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/34</guid>
+      <pubDate>Wed, 07 Oct 2009 12:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument6</link>
+      <description>Hi&#13;
+&#13;
+a) fixed in trunk (rev 33)&#13;
+b) I'll check this one later&#13;
+&#13;
+Please note that I have added a new error message in translation file. Could you translate it in german please ? :-p</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument6</guid>
+      <pubDate>Wed, 07 Oct 2009 12:47:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 33 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/33</link>
+      <description>fix issue with ezcImageConverterSettings if ImageMagick is not present in the system. Now takes into account settings from image.ini
+Added new error message in translation file (when neither ImageMagick nor GD is activated in ez)
+
+See http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/33</guid>
+      <pubDate>Wed, 07 Oct 2009 12:45:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument5</link>
+      <description>Indeed, if ImageMagick is totally out of the system, I manage to reproduce your problem. I'm gonna check in the ezcomponents doc :)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument5</guid>
+      <pubDate>Tue, 06 Oct 2009 22:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 32 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/32</link>
+      <description>Update german translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/32</guid>
+      <pubDate>Tue, 06 Oct 2009 22:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument4</link>
+      <description>Hi,&#13;
+&#13;
+sorry, but&#13;
+&#13;
+a) No, ImageMagick was enabled nowhere.&#13;
+In settings/override.ini, i had&#13;
+&lt;code&gt;&#13;
+[ImageMagick]&#13;
+IsEnabled=false&#13;
+&lt;/code&gt;&#13;
+This was set by the install wizard, as i don't have IM on the server.&#13;
+I tried with adding&#13;
+&lt;code&gt;&#13;
+[ImageConverterSettings]&#13;
+ImageConverters[]&#13;
+ImageConverters[]=GD&#13;
+&lt;/code&gt;&#13;
+to get rid of any reference to IM... but to no avail. Still the same message.&#13;
+&#13;
+b) No... sorry.&#13;
+When i reload the page (F5 or "Reload" icon... Firefox 3 on WinXP), the "popup" window just disappears and i see the "edit image object" screen again.&#13;
+I noticed, that, when i choose an aspect ratio from the dropdown list, there is a small square in the top left corner... seems as the image is just 0x0 pixels wide or so.&#13;
+</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument4</guid>
+      <pubDate>Tue, 06 Oct 2009 22:22:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument3</link>
+      <description>Hi Marco&#13;
+&#13;
+a) I guess you have ImageMagick enabled in one of your image.ini overrides (it's enabled by default with a plain ezwebin install)&#13;
+&#13;
+b) This sometimes happens because of jCrop slowness. When it happens, try to reload the current page with your browser (do not cancel the draft). Does it work ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument3</guid>
+      <pubDate>Tue, 06 Oct 2009 21:56:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument2</link>
+      <description>Solved...&#13;
+I forgot to regenerate the autoloads.&#13;
+Now, this works better.&#13;
+&#13;
+Unfortunately, i now have some other problems:&#13;
+a) Admin siteaccess:&#13;
+After i made my selection of the crop area, and click on "Preview", i get a new message:&#13;
+Handler class "ezcImageImageMagickHandler" not found.&#13;
+ImageMagick not installed or not available in PATH variable.&#13;
+&#13;
+That may be true: We don't use Imagemagick, only GD... Is ImageMagick really required?&#13;
+&#13;
+b) User siteaccess (plain ezwebin 1.5 from ezP 4.2):&#13;
+The popup dialog for doing the crop selection opens and i can see the label and the dropdown for the Aspect ration selection... But there is no picture... and no warning :(&#13;
+No entries in the error.log when i do this.&#13;
+&#13;
+So, i cannot use the extension yet ;)&#13;
+But i see, that i must change some translations for german anyway ;)</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument2</guid>
+      <pubDate>Tue, 06 Oct 2009 20:16:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument</link>
+      <description>Hi Marco&#13;
+&#13;
+This error seems to mean that the server functions of Noven Image Cropper are not registered in ezjscore...&#13;
+Have you tried to purge the caches and to regenerate the autoloads ?&#13;
+&#13;
+If you have ezjscore with 4.2, I guess you installed it with ezwebin, didn't you ?&#13;
+Do you try to use novenimagecropper via front or backoffice editing ?</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument/re_not_a_valid_ezjscserverrouter_argument</guid>
+      <pubDate>Tue, 06 Oct 2009 18:51:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not a valid ezjscServerRouter argument</title>
+      <link>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument</link>
+      <description>Hi,&#13;
+&#13;
+i just tried with the new ez 4.2 release (which has ezjscore bundled and activated).&#13;
+Whenever i try to crop or upload an image, i get this message "Not a valid ezjscServerRouter argument: novimgcrop:ImageReference:somenumbershere" instead of the image.&#13;
+&#13;
+When i disable the extension, uploading and resizing images does work fine, so I don't think, its a permission thing.&#13;
+ez Revision: 19785 , PHP 5.2.6 with GD</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument</guid>
+      <pubDate>Tue, 06 Oct 2009 18:24:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 31 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/31</link>
+      <description>Oups, wrong name for translation and translation file has .xml suffix. Sorry !</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/31</guid>
+      <pubDate>Tue, 06 Oct 2009 18:06:01 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

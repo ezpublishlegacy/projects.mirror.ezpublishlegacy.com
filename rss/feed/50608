@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xoverridefilter / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:20:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:20:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/50608" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/978fffe3c98de76a68a9a15a21f2ef156fbfdfe0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/978fffe3c98de76a68a9a15a21f2ef156fbfdfe0</guid>
+      <pubDate>Thu, 22 May 2014 10:42:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/3b422ae0423a457bce6768a11dc3746e4370b305</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: siteaccess support for template override&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/3b422ae0423a457bce6768a11dc3746e4370b305</guid>
+      <pubDate>Wed, 21 May 2014 19:03:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/79366693a0529a59b65df66ccdc83fd467af316a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed: compatable with 5.2($module will be null in 5.2)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/79366693a0529a59b65df66ccdc83fd467af316a</guid>
+      <pubDate>Wed, 21 May 2014 19:03:05 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/628d8ef8736469b6f700c31fcf5475c0cd5c5e9e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Extension made by Aplia AS - fixed Copyright.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/628d8ef8736469b6f700c31fcf5475c0cd5c5e9e</guid>
+      <pubDate>Fri, 18 Oct 2013 11:42:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/9400e69d1a6cff555530896d4a234dc9606f81f8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/9400e69d1a6cff555530896d4a234dc9606f81f8</guid>
+      <pubDate>Wed, 28 Aug 2013 16:23:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/82cca8160d3f9f970142be3272d3a08b23ac2fc7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: fix Match[attribute_&lt;attribute_identifier&gt;] not working&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/82cca8160d3f9f970142be3272d3a08b23ac2fc7</guid>
+      <pubDate>Wed, 28 Aug 2013 15:33:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/467d54d308d8189c1452ed1a1a961e3b566384ba</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Support Match[attribute_&lt;attribute_identifier&gt;]=&lt;value&gt; in override.ini&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/467d54d308d8189c1452ed1a1a961e3b566384ba</guid>
+      <pubDate>Wed, 28 Aug 2013 15:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/6433b64b9288ae4e6b446a9441152c904ec0a712</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/6433b64b9288ae4e6b446a9441152c904ec0a712</guid>
+      <pubDate>Mon, 29 Jul 2013 12:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/f7a9cb5e4e2b724a8faf97c6398acb59052e7f5e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/f7a9cb5e4e2b724a8faf97c6398acb59052e7f5e</guid>
+      <pubDate>Mon, 29 Jul 2013 12:23:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/4850e476213382af17b138e08018985ea64b6397</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated coding standard&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/4850e476213382af17b138e08018985ea64b6397</guid>
+      <pubDate>Fri, 26 Jul 2013 15:03:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/35058096da8823dc7e47e92344766ca6743739c7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: message&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/35058096da8823dc7e47e92344766ca6743739c7</guid>
+      <pubDate>Fri, 26 Jul 2013 14:23:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/206b91c3c25f4aac9de4c09d25b65d5966e72ea5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: copyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/206b91c3c25f4aac9de4c09d25b65d5966e72ea5</guid>
+      <pubDate>Fri, 26 Jul 2013 14:13:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/4d94a72f460aa7ec8717a2d79779d434bccecebb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/4d94a72f460aa7ec8717a2d79779d434bccecebb</guid>
+      <pubDate>Fri, 26 Jul 2013 14:03:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/17f0c149a7828b53af8aa87c18dffc4d2a5d6971</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/17f0c149a7828b53af8aa87c18dffc4d2a5d6971</guid>
+      <pubDate>Fri, 26 Jul 2013 13:43:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/c7a231e19957b176d3257f6586d12a7ed25d8189</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/c7a231e19957b176d3257f6586d12a7ed25d8189</guid>
+      <pubDate>Fri, 26 Jul 2013 13:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/b9585c8bb47bf7c2b2b5cd9909d73c06bef204cd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/b9585c8bb47bf7c2b2b5cd9909d73c06bef204cd</guid>
+      <pubDate>Fri, 26 Jul 2013 13:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/cd78961187a409feb494c331ab615f978c96d93f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/cd78961187a409feb494c331ab615f978c96d93f</guid>
+      <pubDate>Fri, 26 Jul 2013 13:13:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/b2fbbe85583b3f169fef1e1e81c70588d4049f36</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/b2fbbe85583b3f169fef1e1e81c70588d4049f36</guid>
+      <pubDate>Fri, 26 Jul 2013 13:13:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/50700ddbd770fd5fe801bd72cdf1c52b0102469c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/50700ddbd770fd5fe801bd72cdf1c52b0102469c</guid>
+      <pubDate>Fri, 26 Jul 2013 13:03:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/3a937dfbcb2366852e650b3d5364b8d62dd86c9a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/3a937dfbcb2366852e650b3d5364b8d62dd86c9a</guid>
+      <pubDate>Fri, 26 Jul 2013 13:03:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/ab22edaf6746392a713a895c056145f84719228c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/ab22edaf6746392a713a895c056145f84719228c</guid>
+      <pubDate>Fri, 26 Jul 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/a78bde26da49d5882fcf5efee379873a2afbe6e3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/a78bde26da49d5882fcf5efee379873a2afbe6e3</guid>
+      <pubDate>Fri, 26 Jul 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/74a52e7c215f20038424996f0864c3e7ed2b0130</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/74a52e7c215f20038424996f0864c3e7ed2b0130</guid>
+      <pubDate>Fri, 26 Jul 2013 12:53:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/8bc479a5d635a24049d66e699c6ddadc8fe03472</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added support for eZ Publish 4.2-5.1&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/8bc479a5d635a24049d66e699c6ddadc8fe03472</guid>
+      <pubDate>Fri, 26 Jul 2013 12:43:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/7b3ae922d68bd5493be91542c1b47698c1b4fe3e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/7b3ae922d68bd5493be91542c1b47698c1b4fe3e</guid>
+      <pubDate>Fri, 26 Jul 2013 12:43:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/bf986bbc85576bb373137da6179d1bafa1fed836</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/bf986bbc85576bb373137da6179d1bafa1fed836</guid>
+      <pubDate>Fri, 26 Jul 2013 11:03:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/ea1947f5bba0414dba882761edf98633f8cc393d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/ea1947f5bba0414dba882761edf98633f8cc393d</guid>
+      <pubDate>Fri, 26 Jul 2013 10:13:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/94572135eb459a2af19b9c75fdb21d3834f8d11d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added Roadmap in readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/94572135eb459a2af19b9c75fdb21d3834f8d11d</guid>
+      <pubDate>Fri, 26 Jul 2013 10:13:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/b08450ba9f8325022f34eb2f2c0bc670320411f9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/b08450ba9f8325022f34eb2f2c0bc670320411f9</guid>
+      <pubDate>Fri, 26 Jul 2013 10:13:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/4bc1544eaa7f3035648df05874d09fb2365a2fe2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/4bc1544eaa7f3035648df05874d09fb2365a2fe2</guid>
+      <pubDate>Fri, 26 Jul 2013 10:13:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/ea73e9ad554c37912134964793910c353fac3a9b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added changelog.txt&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/ea73e9ad554c37912134964793910c353fac3a9b</guid>
+      <pubDate>Fri, 26 Jul 2013 09:53:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/6bdeb7ba509bc2ce43a96476e5284a3ea6090dd6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: readmd.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/6bdeb7ba509bc2ce43a96476e5284a3ea6090dd6</guid>
+      <pubDate>Fri, 26 Jul 2013 09:53:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/fb15e58db4209919723a2b1996115f10f4c6b5c5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/fb15e58db4209919723a2b1996115f10f4c6b5c5</guid>
+      <pubDate>Fri, 26 Jul 2013 08:43:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/04ae539eb30bab7741ccbaad561238e0a1a0a079</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated version info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/04ae539eb30bab7741ccbaad561238e0a1a0a079</guid>
+      <pubDate>Fri, 26 Jul 2013 08:33:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/0a79cac8037e4310597564ed08ffd48539b0606a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/0a79cac8037e4310597564ed08ffd48539b0606a</guid>
+      <pubDate>Thu, 25 Jul 2013 19:33:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/774673e392f600148eccc4c9a26ffe13f22296ef</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated coyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/774673e392f600148eccc4c9a26ffe13f22296ef</guid>
+      <pubDate>Thu, 25 Jul 2013 19:33:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/78482038aec33d727490319c3719799a1c5b22a7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/78482038aec33d727490319c3719799a1c5b22a7</guid>
+      <pubDate>Thu, 25 Jul 2013 19:23:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/1a64a1931b1b8c964d866af0e7597a93fe02335e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/1a64a1931b1b8c964d866af0e7597a93fe02335e</guid>
+      <pubDate>Thu, 25 Jul 2013 19:23:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/f9d36760d15e5b0dc874c95f121fdacbfdb1cf2a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/f9d36760d15e5b0dc874c95f121fdacbfdb1cf2a</guid>
+      <pubDate>Thu, 25 Jul 2013 19:23:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/e0dd095b9fa5af8e5538c356130b67ad570a6819</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/e0dd095b9fa5af8e5538c356130b67ad570a6819</guid>
+      <pubDate>Thu, 25 Jul 2013 19:23:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/5a5e9a65eac31d23e6d2489811218e8aa586574e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/5a5e9a65eac31d23e6d2489811218e8aa586574e</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/754cca0a5d5667666c5fb7bb33cbb253b19987cb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/754cca0a5d5667666c5fb7bb33cbb253b19987cb</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/6cf34a144d692f360efb5c14ef9416812d0a0bc8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/6cf34a144d692f360efb5c14ef9416812d0a0bc8</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/8bc2be2b3a897f34824a33227df48be6d950cc81</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/8bc2be2b3a897f34824a33227df48be6d950cc81</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/75923e01217d88950f203910cabbeff54b9ab19c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/75923e01217d88950f203910cabbeff54b9ab19c</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/a2715b9402f884442e77c10b97716ede95a27428</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/a2715b9402f884442e77c10b97716ede95a27428</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/e35c1adf551ea0aea56737b3f86f3038ca547b5b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/e35c1adf551ea0aea56737b3f86f3038ca547b5b</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/604e6e8978b0fce62873d176a719e0d9b3b92af4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/604e6e8978b0fce62873d176a719e0d9b3b92af4</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/e84e666170f2ac783d697820244113fdfe51e70c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/e84e666170f2ac783d697820244113fdfe51e70c</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xoverridefilter/source/4a1c9537be1ed1dc5c2101f3ee38e40fe3d731d8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xoverridefilter/source/4a1c9537be1ed1dc5c2101f3ee38e40fe3d731d8</guid>
+      <pubDate>Thu, 25 Jul 2013 18:43:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

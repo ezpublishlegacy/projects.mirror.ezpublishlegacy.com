@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezfire / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:05:29 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:05:29 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16282" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Test template works, but mine not :(</title>
+      <link>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not/re_test_template_works_but_mine_not2</link>
+      <description>Hey Steven,&#13;
+&#13;
+thanks a million. That works like charm.&#13;
+I replaced the line&#13;
+require_once( 'autoload.php' );&#13;
+with your code and it ran immeditly. My include path was the same as you proposed.&#13;
+BTW: I can confirm, that the /var/autoload/ezp_autoload.php exists and does include some entries for ezfire.&#13;
+&#13;
+One more thing: Where to I "Check the "Click for Variable Viewer" option"?&#13;
+I constantly freeze my Browser (FF 5) on your test page...&#13;
+&#13;
+Edit: Found the "Click for Variable Viewer" in the "Blue Bug" Menu... Much better now.&#13;
+</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not/re_test_template_works_but_mine_not2</guid>
+      <pubDate>Tue, 05 Jul 2011 17:38:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Test template works, but mine not :(</title>
+      <link>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not/re_test_template_works_but_mine_not</link>
+      <description>I've seen this - I'm not sure why it happens since the path to your pear libraries should be in your path... but it fails for some reason - so far randomly.&#13;
+&#13;
+Try adding:&#13;
+&#13;
+if (!class_exists( "FirePHP" ))&#13;
+   require_once ('/usr/share/php/FirePHPCore/FirePHP.class.php');&#13;
+&#13;
+on line 27 (between the comments and the class definition) of extension/ezfire/classes/ezfire.php.  Make sure the require_once is pointing to the correct path.&#13;
+&#13;
+Let me know if that works and I'll add it.&#13;
+&#13;
+Edit: added the "Make sure" part.</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not/re_test_template_works_but_mine_not</guid>
+      <pubDate>Mon, 04 Jul 2011 21:48:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Test template works, but mine not :(</title>
+      <link>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not</link>
+      <description>Hi,&#13;
+&#13;
+I think, i will like this extension a lot... but i can't get it running completly yet.&#13;
+It works very fine, when calling the test test on the admin or on the user site.&#13;
+&#13;
+Then I inserted thid line into my template (flat_left.tpl):&#13;
+{$pagedata.current_menu|ezfire("current_menu")}&#13;
+&#13;
+After i did this and cleared all cached, regenerated Autoloads from Admin Siteaccess, i get a Fatal error when calling any page, that uses the modified template&#13;
+&#13;
+Fatal error: Class 'FirePHP' not found in [docroot]/extension/ezfire/classes/ezfire.php on line 172&#13;
+&#13;
+So, it seems to me, as it would correctly trigger the ezfire template operator and run ezfire.php. But this one cannot fine the FirePHP class. But i can, when i run the test template (eztest.tpl).&#13;
+&#13;
+I don't quite get the difference. &#13;
+&#13;
+The Extension is enabled globally and is the first extension.&#13;
+I don't understand, why my modified template does crash, while the ezfire.tpl does run (in the same siteacess!)&#13;
+&#13;
+Any help is very much appreciated.</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/test_template_works_but_mine_not</guid>
+      <pubDate>Mon, 04 Jul 2011 19:21:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A few remarks</title>
+      <link>http://projects.ez.no/ezfire/forum/general/a_few_remarks/re_a_few_remarks</link>
+      <description>Thanks for the feedback.  I'll try and incorporate the suggestions when I get the chance.</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/a_few_remarks/re_a_few_remarks</guid>
+      <pubDate>Mon, 09 May 2011 11:09:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>A few remarks</title>
+      <link>http://projects.ez.no/ezfire/forum/general/a_few_remarks</link>
+      <description>First, congratulations and thank you for this extension. I have briefly tested it, and I must say I like it :-)&#13;
+&#13;
+Now a few remarks ;-)&#13;
+&#13;
+With XDebug enabled, you get a notice on the undefined variable $new when going to  ezfire/firetest. If you initialize it, you then get an  undefined offset 1 from FirePHP itself.&#13;
+&#13;
+Also, note that the require_once on autoload.php is not required, as it is part of the eZ Publish controller, or the file will never be reached.&#13;
+&#13;
+To conclude, maybe it would be cool to add some text on ezfire/firetest that gives some example of how the extension is used, as it is most likely that this is the first thing people will do when first trying the extension. I know fore sure I did do this.</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/a_few_remarks</guid>
+      <pubDate>Mon, 09 May 2011 08:52:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade needed</title>
+      <link>http://projects.ez.no/ezfire/forum/general/upgrade_needed/re_upgrade_needed</link>
+      <description>Yes.  I wouldn't trust the libs in the extension and in the next version of this I won't be delivering the libs either.&#13;
+&#13;
+The next version should happen sometime that I have a day to look at it - so sometime in the next 10 years or so.</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/upgrade_needed/re_upgrade_needed</guid>
+      <pubDate>Thu, 08 Jul 2010 08:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrade needed</title>
+      <link>http://projects.ez.no/ezfire/forum/general/upgrade_needed</link>
+      <description>To whom it may help: I had some trouble to get output after installing the latest firefox extension. It seemed I had to upgrade the firephp libs in the extension too (no pear installed). Took me a bit to trace this down.</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/upgrade_needed</guid>
+      <pubDate>Fri, 02 Jul 2010 08:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: relation to the fireez extension?</title>
+      <link>http://projects.ez.no/ezfire/forum/general/relation_to_the_fireez_extension/re_relation_to_the_fireez_extension</link>
+      <description>Well, I think that the person doing the fireez extension wanted to use the same method to display stuff as the firephp extension - using the multi-part capabilities of firefox to send additional information to the firebug console in the headers.  Which might be a way to go and maybe even a way to get more precise information (for instance the line number capabilities of firephp will always return the line number where it is being displayed in the ezfire extension).&#13;
+&#13;
+But, I was keenly interested in firephp when it first came out and have been trying it out since then and this extension is the result of  refining that for the past 8 months or so.&#13;
+&#13;
+I saw the fireez extension too when it first came out and was interested in seeing how that would work out, but, as far as I can see nothing was ever developed.  The idea  there was primarily to display ezpublish error message in the console and while I did play around with that I don't find that very useful.  To get template variables in the firephp console has been useful as has the ability to dump output to a file to debug php code without having the debug output mixed in with all the other ezpublish debug messages. &#13;
+&#13;
+</description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/relation_to_the_fireez_extension/re_relation_to_the_fireez_extension</guid>
+      <pubDate>Fri, 15 May 2009 18:18:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>relation to the fireez extension?</title>
+      <link>http://projects.ez.no/ezfire/forum/general/relation_to_the_fireez_extension</link>
+      <description>It would be good to have a little bit of info about the relationship of this extension to the fireez one: are they complementary or similar? could they be merged or is this one already more advanced?&#13;
+&#13;
+thx&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezfire/forum/general/relation_to_the_fireez_extension</guid>
+      <pubDate>Fri, 15 May 2009 09:54:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsearchpro / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:09:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:09:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8961" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: set sort_by parameter properly</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly/re_set_sort_by_parameter_properly2</link>
+      <description>Hi,&#13;
+&#13;
+I just migrated from eZPublish 4.4 to 4.7 following these instructions: http://doc.ez.no/eZ-Publish/Upgrading/Direct-upgrading/Direct-upgrading-to-4.7-from-4.1-4.2-4.3-4.4-and-4.5/Direct-upgrading-from-4.4-to-4.7.&#13;
+&#13;
+the migration worked fine but apparently not for eZ Search engine ++ extension ...&#13;
+&#13;
+I get the error: eZSearchEnginePro::addObject() must be compatible with that of ezpSearchEngine::addObject()&#13;
+&#13;
+I am using eZ Search engine ++ v 1.0.2&#13;
+I'm using a template search with the ranking parameter...&#13;
+&#13;
+Regards,&#13;
+&#13;
+Max&#13;
+</description>
+      <author>community@ez.no (Maxence Dro)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly/re_set_sort_by_parameter_properly2</guid>
+      <pubDate>Thu, 19 Sep 2013 09:48:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: set sort_by parameter properly</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly/re_set_sort_by_parameter_properly</link>
+      <description>Thanks, I'll add it.&#13;
+&#13;
+You can also use several sort_by values like other fetch functions:&#13;
+&lt;code&gt;&#13;
+   {set search=fetch(content,search,&#13;
+                     hash(text,$search_text,&#13;
+                          class_id,$search_class_array,&#13;
+                          sort_by, array( array('ranking',false()), array('published',false())),&#13;
+                          offset,$view_parameters.offset,&#13;
+                          limit,$page_limit))}&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly/re_set_sort_by_parameter_properly</guid>
+      <pubDate>Mon, 28 Jun 2010 06:57:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>set sort_by parameter properly</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly</link>
+      <description>Just a notice...&#13;
+&#13;
+After installing ezsearchpro, you have to set your sort_by parameter to "ranking". For example if you use template search like this:&#13;
+&#13;
+&lt;code&gt;&#13;
+    {set search=fetch(content,search,&#13;
+                      hash(text,$search_text,&#13;
+                           class_id,$search_class_array,&#13;
+                           sort_by,array('published',false()),&#13;
+                           offset,$view_parameters.offset,&#13;
+                           limit,$page_limit))}&#13;
+&lt;/code&gt;&#13;
+&#13;
+you should change it to:&#13;
+&#13;
+&lt;code&gt;&#13;
+    {set search=fetch(content,search,&#13;
+                      hash(text,$search_text,&#13;
+                           class_id,$search_class_array,&#13;
+                           sort_by,array('ranking',false()),&#13;
+                           offset,$view_parameters.offset,&#13;
+                           limit,$page_limit))}&#13;
+&lt;/code&gt;&#13;
+&#13;
+&#13;
+This should be mentioned in the docs, so that people don't have to inspect the code in order to find it out.</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/set_sort_by_parameter_properly</guid>
+      <pubDate>Sun, 27 Jun 2010 11:58:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Works great !</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great3</link>
+      <description>Correct, but I have tried that :)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great3</guid>
+      <pubDate>Wed, 05 May 2010 07:48:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Works great !</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great2</link>
+      <description>Indeed, &#13;
+but ezsearchpro does not require java !!&#13;
+&#13;
+It could just be used in replacement of the standard search engine !!</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great2</guid>
+      <pubDate>Tue, 04 May 2010 08:28:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Works great !</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great</link>
+      <description>ezfind</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/works_great/re_works_great</guid>
+      <pubDate>Tue, 04 May 2010 08:20:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Works great !</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/works_great</link>
+      <description>Thanx a lot man ...&#13;
+&#13;
+Works great, definitely a must have !!&#13;
+&#13;
+I wonder why the ezcrew doesn't merge it to the upstream .....&#13;
+&#13;
+Any clue ?</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/works_great</guid>
+      <pubDate>Thu, 25 Mar 2010 07:41:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug with wrong search result count</title>
+      <link>http://projects.ez.no/ezsearchpro/forum/general/bug_with_wrong_search_result_count</link>
+      <description>Hi André,&#13;
+&#13;
+I think this search plugin also is affected by this issue: http://issues.ez.no/IssueView.php?Id=13983.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezsearchpro/forum/general/bug_with_wrong_search_result_count</guid>
+      <pubDate>Sat, 22 Nov 2008 13:56:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

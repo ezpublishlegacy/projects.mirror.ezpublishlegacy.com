@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / paradoxpdf / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:03:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:03:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15469" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Modern alternatives to paradoxpdf for PDF generation</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/modern_alternatives_to_paradoxpdf_for_pdf_generation</link>
+      <description>Hello,&#13;
+&#13;
+Recently Thiago Campos Viana of mugo.ca blogged on share.ez.no about an exciting new PDF generation solution for eZ Publish developed by mugo.ca! &#13;
+&#13;
+His blog post is titled, "Generate highly customized PDFs with wkhtmltopdf and eZ Publish" and is available here, http://share.ez.no/blogs/thiago-campos-viana/generate-highly-customized-pdfs-with-wkhtmltopdf-and-ez-publish&#13;
+&#13;
+Here is an important snippet from the blog post which is particularly of interest to both existing paradoxpdf users and new users considering using paradoxpdf for pdf creation.&#13;
+&#13;
+"&lt;i&gt;However due to its (paradoxpdf/flying-sauser) lack of HTML5 + CSS3 support and relatively high server load, we decided to look for an alternative solution. We found that wkhtmltopdf does a great job at producing highly styled PDFs, and we were able to integrate it nicely with eZ Publish.&#13;
+&#13;
+Among the downsides of ParadoxPDF are that it is based on the Java application flying-saucer, which has not been updated since 2011. It only supports CSS2, and doesn't support page breaks using CSS for example. wkhtmltopdf uses qtwebkit, which supports HTML5 and CSS3, and is actively maintained.&#13;
+&#13;
+We also ran some performance tests and found that wkhtmltopdf can generate PDFs up to twice as fast as ParadoxPDF.&lt;/i&gt;"&#13;
+&#13;
+We (BC) thinks that this is an extremely important evolution of public pdf generation solutions for eZ Publish that other users should seriously consider. Especially when the ParadoxPDF solution is showing serious signs of age because flying-saucer is not being actively maintained. Here is an example where this recently affected other users, http://projects.ez.no/paradoxpdf/forum/issues/paradoxpdf_and_svg_image_format#msg53124&#13;
+&#13;
+If you would like to try the new mugo_wkhtmltopdf solution out, the source code can be found on GitHub, https://github.com/mugoweb/mugo_wkhtmltopdf/&#13;
+&#13;
+I hope this helps others!&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/modern_alternatives_to_paradoxpdf_for_pdf_generation</guid>
+      <pubDate>Sat, 09 May 2015 13:08:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No template could be loaded for "parad...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad5</link>
+      <description>Hello Tomas,&#13;
+&#13;
+Your very welcome. I'm very happy to help you reach your goal and solve this problem..&#13;
+&#13;
+I'm glad I could help you get the extension installed correctly and working.&#13;
+&#13;
+Enjoy using the paradoxpdf extension :)&#13;
+&#13;
+Cheers,&#13;
+Heath&#13;
+&#13;
+eZ Publish Is Great!</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad5</guid>
+      <pubDate>Sat, 01 Nov 2014 23:18:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No template could be loaded for "parad...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad4</link>
+      <description>Hello, &#13;
+&#13;
+Thanks a lot for patience and support.&#13;
+&#13;
+After changing folder name to&#13;
+ /paradoxpdf/...&#13;
+and cleaning cache extension works perfectly.&#13;
+&#13;
+Tomas</description>
+      <author>community@ez.no (Tomas Kowt)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad4</guid>
+      <pubDate>Sat, 01 Nov 2014 19:38:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No template could be loaded for "parad...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad3</link>
+      <description>Hello Tomas,&#13;
+&#13;
+Thank you for providing more details on what your trying todo.&#13;
+&#13;
+First, the template would not show up in the long ago deprecated templatelist admin ui (don't bother using this feature for anything important) unless the extension was installed correctly.&#13;
+&#13;
+Second, I think I now know the reason your having so much troubles.&#13;
+&#13;
+The extension must be enabled by extension name and the actual extension directory name must be very much exactly 'paradoxpdf' and nothing else will work (because the settings of the extension require this name text string to match for ini, design, template, etc autoloading.&#13;
+&#13;
+Please rename the extension folder name to exactly 'paradoxpdf' (without the single quotes), change the site.ini [ExtensionSettings] ActiveExtensions[]=paradoxpdf, regenerate autoloads and clear all caches.&#13;
+&#13;
+Then to make certain, share your full path to file, 'paradoxpdf_layout.tpl' again here in this forum thread.&#13;
+&#13;
+I hope this helps!&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad3</guid>
+      <pubDate>Tue, 28 Oct 2014 23:26:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No template could be loaded for "parad...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad2</link>
+      <description>Hello, &#13;
+&#13;
+read permissions are set correctly for all extension files. &#13;
+File paradoxpdf_layout.tpl is located inside /paradoxpdf-master 2/design/standard/override/templates.&#13;
+&#13;
+I've reinstalled extension, clear cache and I still can't reach this template. It's not visible even in the admin panel templatelist, where it should be among others. </description>
+      <author>community@ez.no (Tomas Kowt)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad2</guid>
+      <pubDate>Tue, 28 Oct 2014 21:18:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No template could be loaded for "parad...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad</link>
+      <description>Hello Tomas,&#13;
+&#13;
+This is a design template issue which I think comes from an incorrect installation of this extension.  &#13;
+&#13;
+I've not used this extension myself but I do not believe you have installed or configured the extension correctly which is why your getting this error.&#13;
+&#13;
+Be sure to check that the webserver user has full read permissions on all of the paradoxpdf extension files.&#13;
+&#13;
+In short this ini setting (when loaded correctly) tells ezpublish where to find the template in question: https://github.com/paradoxe/paradoxpdf/blob/master/settings/override.ini.append.php&#13;
+&#13;
+Notice that this template is provided by default in the extension: https://github.com/paradoxe/paradoxpdf/blob/master/design/standard/override/templates/paradoxpdf_layout.tpl&#13;
+&#13;
+UPDATE: You may also need to clear all caches!&#13;
+&#13;
+So don't give up just yet. I think this is still a good extension, it just needs to be setup correctly.&#13;
+&#13;
+I hope this helps&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl/re_no_template_could_be_loaded_for_parad</guid>
+      <pubDate>Sat, 25 Oct 2014 19:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>No template could be loaded for "paradoxpdf_layout.tpl"</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl</link>
+      <description>Hello,&#13;
+&#13;
+I'm using paradoxpdf 2.2 and when executing pdf view I'm getting this warning:&#13;
+&#13;
+No template could be loaded for "paradoxpdf_layout.tpl"&#13;
+&#13;
+Is this setup or permission issue?&#13;
+&#13;
+Thanks in advance&#13;
+Tomas&#13;
+</description>
+      <author>community@ez.no (Tomas Kowt)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/no_template_could_be_loaded_for_paradoxpdf_layout_tpl</guid>
+      <pubDate>Sat, 25 Oct 2014 18:54:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters20</link>
+      <description>Hi &#13;
+I am working with grails , and try to generate pdf using rendering plugin. I am using this syntax for import font in css.&#13;
+&#13;
+&lt;style type="text/css"&gt;&#13;
+@font-face {&#13;
+        font-family: philosopher ;&#13;
+        src: url(${grailsApplication.config.grails.serverURL}/images/templateImages/template10/philosopher-regular.eot);&#13;
+        src: url(${grailsApplication.config.grails.serverURL}/images/templateImages/template10/philosopher-regular.eot?#iefix) format('embedded-opentype'),&#13;
+        url(${grailsApplication.config.grails.serverURL}/images/templateImages/template10/philosopher-regular.woff) format('woff'),&#13;
+        url(${grailsApplication.config.grails.serverURL}/images/templateImages/template10/philosopher-regular.ttf) format('truetype');&#13;
+        -fs-pdf-font-embed: embed;&#13;
+        -fs-pdf-font-encoding: cp1250;&#13;
+        -fs-pdf-font-encoding: Identity-H;&#13;
+        font-weight: normal;&#13;
+        font-style: normal;&#13;
+&#13;
+    }&#13;
+body {&#13;
+        font-family: philosopher;&#13;
+        }&#13;
+&lt;/style&gt;&#13;
+&#13;
+But its working for me. I am confused that where I am wrong. Can anybody help me out from this problem.</description>
+      <author>community@ez.no (vivek yadav)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters20</guid>
+      <pubDate>Wed, 05 Jun 2013 11:21:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Page numbers in table of content</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content3</link>
+      <description>Maybe a bit late, but this functionnality does work at this time. It appears that the patch for partial support of leader and target-counter has been backported to ParadoxPDF.&#13;
+&#13;
+I can display a TOC with page numbers, and even links when doing this modification to the code : http://projects.ez.no/paradoxpdf/forum/suggestions/correction_of_links_in_the_toc_to_pages_in_the_pdf</description>
+      <author>community@ez.no (Frédéric Lopez)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content3</guid>
+      <pubDate>Tue, 19 Feb 2013 11:46:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters19</link>
+      <description>Hello everybody,&#13;
+&#13;
+I have a problem with arabic characters, the html is exported but I get the Inverted characters in pdf file.&#13;
+The RTL is respected, the text is written well from right to left.&#13;
+&#13;
+ex:&#13;
+For me, I search this output :  المرأة في عرف المجتمع&#13;
+But, I get this :  عمتجملا فرع يف ةأرملا&#13;
+&#13;
+Best regards,&#13;
+Hassan</description>
+      <author>community@ez.no (Hassan CHAKROUN)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters19</guid>
+      <pubDate>Tue, 10 Apr 2012 12:53:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters18</link>
+      <description>Hi&#13;
+I need too to render some characters typical of balkans countries ( ŠĐČĆŽ and šđčćž etc).&#13;
+&#13;
+I tried adding this (after uploading the times.ttf file in the newly created fonts directory)&#13;
+&#13;
+&lt;code&gt;&#13;
+@font-face &#13;
+{ &#13;
+font-family: "Times New Roman";&#13;
+src: url("../fonts/times.ttf");                                                                          &#13;
+-fs-pdf-font-embed: embed;                                                                               &#13;
+-fs-pdf-font-encoding: Identity-H;&#13;
+}                               &#13;
+                                &#13;
+body{                           &#13;
+                                &#13;
+font-family: "Times New Roman"; &#13;
+        &#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+to my pdf-core.css file but the special chars are not rendered (the xhtml page generated is correct, commenting the paradox operator).&#13;
+The paradox log show&#13;
+&lt;code&gt;&#13;
+&#13;
+Output : Exception in thread "main" java.lang.NullPointerException&#13;
+	at org.xhtmlrenderer.swing.NaiveUserAgent.getBinaryResource(NaiveUserAgent.java:228)&#13;
+	at org.xhtmlrenderer.pdf.ITextFontResolver.importFontFaces(ITextFontResolver.java:97)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:178)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:142)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:138)&#13;
+	at com.tricinty.ParadoxPDF.export(ParadoxPDF.java:121)&#13;
+	at com.tricinty.ParadoxPDF.main(ParadoxPDF.java:59)&#13;
+&lt;/code&gt;&#13;
+&#13;
+Can you help me?&#13;
+&#13;
+roberto</description>
+      <author>community@ez.no (Roberto Antoniazzi)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters18</guid>
+      <pubDate>Mon, 23 Jan 2012 11:01:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Getting malformed XML errors</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/getting_malformed_xml_errors/re_getting_malformed_xml_errors</link>
+      <description>Check if the XHTML output is valid and well-formed. This is indispensable for paradoxPDF to create the PDF output.&#13;
+&#13;
+http://www.w3schools.com/xml/xml_validator.asp&#13;
+http://validator.w3.org/ </description>
+      <author>community@ez.no (Silke Fox)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/getting_malformed_xml_errors/re_getting_malformed_xml_errors</guid>
+      <pubDate>Wed, 18 Jan 2012 10:08:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting malformed XML errors</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/getting_malformed_xml_errors</link>
+      <description>I have installed and configured ParadoxPDF and am looking forward to getting it working properly.  I am able to get the xhtml pages generated, but they fail as they are put through JRE due to this line&#13;
+&#13;
+&lt;C:callStartPageCounter:start:1:identifier:main&gt;&#13;
+&#13;
+reported with this error&#13;
+&#13;
+XML Parsing Error: not well-formed&#13;
+&#13;
+Any suggestions where to start looking to fix this issue?&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul McGrane)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/getting_malformed_xml_errors</guid>
+      <pubDate>Mon, 16 Jan 2012 16:30:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Generation of PDF = no CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/generation_of_pdf_no_css/re_generation_of_pdf_no_css</link>
+      <description>Hi Dominique,&#13;
+&#13;
+are you using media type media="print" when linking to your stylesheet?&#13;
+This is what the paradoxpdf extension needs.&#13;
+&#13;
+Also, if I remember correctly, only linked stylesheets are working, like&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;link rel="stylesheet" type="text/css" href="/extension/paradoxpdf/design/standard/stylesheets/stylesheet.css" media="print,screen" /&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+</description>
+      <author>community@ez.no (Silke Fox)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/generation_of_pdf_no_css/re_generation_of_pdf_no_css</guid>
+      <pubDate>Fri, 09 Dec 2011 09:28:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generation of PDF = no CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/generation_of_pdf_no_css</link>
+      <description>Hi all,&#13;
+&#13;
+Sorry, i'm french, i don't speak english very well.&#13;
+&#13;
+My problem is, when my PDF is generated, the CSS is not taken care.&#13;
+On the other hand, if I show the variable $xhtml directly in the navigator, the CSS is ok.&#13;
+&#13;
+You can help me?</description>
+      <author>community@ez.no (Dominique LEVERBE)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/generation_of_pdf_no_css</guid>
+      <pubDate>Mon, 05 Dec 2011 10:31:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Failed executing command (Ubuntu 10.04)</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/failed_executing_command_ubuntu_10_04</link>
+      <description>hi, i activated paradoxpdf in my ubuntu 10.04 server.&#13;
+&#13;
+im using java:&#13;
+&#13;
+java version "1.6.0_26"&#13;
+Java(TM) SE Runtime Environment (build 1.6.0_26-b03)&#13;
+Java HotSpot(TM) Client VM (build 20.1-b02, mixed mode, sharing)&#13;
+&#13;
+when i try to generate my pdf by ezpublish using navegator i get:&#13;
+&#13;
+&lt;i&gt;&#13;
+Failed executing command : /usr/bin/java -Djava.awt.headless=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/plain_site/paradoxpdf/paradoxpdf.xhtml var/plain_site/paradoxpdf/paradoxpdf.pdf  2&gt;</description>
+      <author>community@ez.no (Eduardo Rodriguez)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/failed_executing_command_ubuntu_10_04</guid>
+      <pubDate>Tue, 22 Nov 2011 10:43:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Page numbers in table of content</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content2</link>
+      <description>Hello&#13;
+Is someone found a sollution to this problem ?&#13;
+I have the same, the page numbers don't appear in the table of content...&#13;
+Thank you</description>
+      <author>community@ez.no (Solène Guillot)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content2</guid>
+      <pubDate>Fri, 14 Oct 2011 13:19:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>fonts found but are not embed</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/fonts_found_but_are_not_embed</link>
+      <description>i've an issue when i try to embed a font (the issue is that the font will not be embeded)&#13;
+the output of pdf-generation don't show an error (this means the font is found, ive tried with wrong paths and then there was an errormessage)&#13;
+&#13;
+in pdf - document properties there isnt the font there is only 3 times "times new roman"&#13;
+&#13;
+my definition of font is :&#13;
+&lt;code&gt;&#13;
+@font-face {&#13;
+	font-family : "Futura"; /*put here font family name example Arial*/&#13;
+	src: url(../font/FuturaLT.ttf);   /*put here relative path to your font*/&#13;
+}&#13;
+h1 {&#13;
+	font-family: "Futura";&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+anyone else had this issue&#13;
+</description>
+      <author>community@ez.no (Roman Hutterer)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/fonts_found_but_are_not_embed</guid>
+      <pubDate>Fri, 14 Oct 2011 11:29:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probleme with image and title ParadoxPDF</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/probleme_with_image_and_title_paradoxpdf</link>
+      <description>Salam&#13;
+&#13;
+I can't display image in the PDF , also  how can i remove the title "ParadoxPDF" at the top of PDF&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+Merci</description>
+      <author>community@ez.no (Amine BETARI)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/probleme_with_image_and_title_paradoxpdf</guid>
+      <pubDate>Tue, 23 Aug 2011 11:24:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters17</link>
+      <description>Hi Emmanuel,&#13;
+&#13;
+You're right, in my case too the problem was that the font I was using doesn't contains japanse chars !&#13;
+&#13;
+I understood this by myself after a lot of lost hours and I forgot to post the solution here !&#13;
+&#13;
+Thank you for responding ;)</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters17</guid>
+      <pubDate>Thu, 21 Jul 2011 12:35:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters16</link>
+      <description>Hi Sébastien,&#13;
+&#13;
+With japanese Characters, I used this font : sazanami-gothic.ttf&#13;
+&#13;
+here is my css code:&#13;
+&#13;
+@font-face{&#13;
+	font-family: "Sazanami Gothic";&#13;
+	src: url(fonts/sazanami-gothic.ttf);&#13;
+	 -fs-pdf-font-embed: embed;&#13;
+	-fs-pdf-font-encoding: Identity-H;&#13;
+}&#13;
+&#13;
+body { &#13;
+       font-family: "Sazanami Gothic";&#13;
+}&#13;
+&#13;
+Best regards,&#13;
+&#13;
+Emmanuel</description>
+      <author>community@ez.no (Emmanuel Delaunay)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters16</guid>
+      <pubDate>Thu, 21 Jul 2011 08:09:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Special characters</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters15</link>
+      <description>Hi Mohamed !&#13;
+&#13;
+First thanks for sharing this very usefull extension !!&#13;
+&#13;
+I have issues with japanese characters too... they do not appear at all in the PDF while they correctly appear in the browser when I replace the output with this :&#13;
+&#13;
+&lt;code&gt;&#13;
+{*paradoxpdf($paradoxpdf_params)*}&#13;
+{$xhtml}&#13;
+&lt;/code&gt;&#13;
+&#13;
+I have disabled CSS loading to avoid potentials bugs in relation with custom fonts and all my templates are endoded in UTF-8.&#13;
+&#13;
+I also added a meta charset instruction in the head :&#13;
+&#13;
+&lt;code&gt;&#13;
+{set-block variable=$xhtml}&#13;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;&#13;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&#13;
+&lt;head&gt;&#13;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+But nothing to do, characters in Japanese doesn't appear in the PDF while french or english characters are present !&#13;
+&#13;
+Thanks in advance for your help !</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/special_characters/re_special_characters15</guid>
+      <pubDate>Mon, 11 Jul 2011 12:44:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: "IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css5</link>
+      <description>I'm experiencing this same problem, I use apache virtuals and not .htaccess files.  I found a dirty workaround, if I put &lt;img src="http://different-server.com/myimage.gif" /&gt; then it works but if I try and load it from its own domain I get the IO error.&#13;
+&#13;
+So I'd still be grateful if someone can share a suitable solutuion?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css5</guid>
+      <pubDate>Mon, 11 Jul 2011 06:08:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pretty content : links, floating images and...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break/re_pretty_content_links_floating_images_and2</link>
+      <description>Hi,&#13;
+&#13;
+To insert page break, you must use the appropriate css style :&#13;
+- page-break-before: always / avoid&#13;
+- page-break-after: always / avoid&#13;
+&#13;
+You can use "page-break-inside: avoid" in order for a block to stay on the same page&#13;
+&#13;
+Cheers,&#13;
+Hakim&#13;
+&#13;
+-------------------&#13;
+Hakim Bouras&#13;
+PRISMALOG - Creation de site Internet</description>
+      <author>community@ez.no (Hakim Bouras)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break/re_pretty_content_links_floating_images_and2</guid>
+      <pubDate>Mon, 28 Mar 2011 12:37:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pretty content : links, floating images and...</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break/re_pretty_content_links_floating_images_and</link>
+      <description>Hi, great extension. &#13;
+&#13;
+I also am wondering about inserting page breaks, is it possible?</description>
+      <author>community@ez.no (Bernt Rosland)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break/re_pretty_content_links_floating_images_and</guid>
+      <pubDate>Fri, 25 Mar 2011 13:27:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Page numbers in table of content</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content</link>
+      <description>I've come across the same problem.  It there any plans to update to R8 please?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content/re_page_numbers_in_table_of_content</guid>
+      <pubDate>Thu, 24 Feb 2011 00:10:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SSL and IE</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/ssl_and_ie/re_ssl_and_ie</link>
+      <description>Please help...</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/ssl_and_ie/re_ssl_and_ie</guid>
+      <pubDate>Thu, 17 Feb 2011 08:55:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>SSL and IE</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/ssl_and_ie</link>
+      <description>Hi,&#13;
+&#13;
+I have an issue with paradoxpdf on my website. The pdf export doesn't work anymore with IE (works fine with firefox).&#13;
+The website has an SSL certificate and I think the issue comes from here.&#13;
+I saw that the 2.1.2 release is suppose to solve an issue like this : "Fixed HTTP headers issue in ssl mode with IE". But I'm using this release so it should work.&#13;
+Where should I have to look to try to solve this issue?&#13;
+Thanks,&#13;
+&#13;
+&#13;
+Nico</description>
+      <author>community@ez.no (Nicolas Gommenginger)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/ssl_and_ie</guid>
+      <pubDate>Tue, 01 Feb 2011 13:37:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Delete the History on Mac?</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/how_to_delete_the_history_on_mac</link>
+      <description>In some applications the use process, many programs have operated or used, modified files will be saved as a historical record and shows in the history list. Down under normal circumstances there is nothing wrong, but if you are a few people share a computer or in Internet cafes and other public places, leaving these historical records may disclose your privacy, to prevent privacy leaks, you have to clear these history.Select http://www.umacos.com/cleanmac/how-delete-history-on-mac.html delete history on mac  can let you do not worry about it every day.&#13;
+&#13;
+The following is the key features of http://www.umacos.com/mac-cleaner.html delete mac history.&#13;
+1.All-in-one utility &#13;
+It can clear all the cache which is stay in your Mac computer .What you have to do is press button.&#13;
+2.Easy to use&#13;
+Clear cache for Mac software makes system maintenance simple with an easy point .with the simple click ,novice can easy to use to keep the system running at its best.&#13;
+3.Safe to operate in your Mac computer&#13;
+The clear cache for Mac is a safe software ,it don’t have the write-perform function when it runs in your Mac computer.&#13;
+4.Clean up the portable device&#13;
+Keep your removable device free from those annoying and unnecessary service files.&#13;
+5.multifunctional feature &#13;
+it can capture the pesky bug when new software operated. &#13;
+6.Optimize the computer system&#13;
+It can improve the Mac computer environment through clear the cache and widget.&#13;
+7.Clear the system cache and cookies and folder cache&#13;
+One of the best features of clear cache for Mac is its ability to easily clear the system cache and cookies and folder cache that affect your computer system.&#13;
+8.To improve the storage space&#13;
+It can access the hidden storage area to clear some widget to improve storage environment.&#13;
+9.To clear plug-in to release disk space&#13;
+Clear cache for Mac software easily erase all the plug-in that stay in your disk space. To finish this just need some simply click.&#13;
+&#13;
+how to delete mac history&#13;
+http://www.umacos.com/images/cleanmac/cleanmac.jpg&#13;
+You can clear history on mac by following steps&#13;
+Instructions&#13;
+Safari&#13;
+Step 1&#13;
+Click "History" on the toolbar.&#13;
+Step 2&#13;
+Scroll to the bottom of the list of history items, and select "Clear History."&#13;
+Step 3&#13;
+Select "Clear" in the dialog box.&#13;
+Firefox&#13;
+Step 1&#13;
+Click "Tools" on the menu bar, and select "Clear Recent History."&#13;
+Step 2&#13;
+Use the arrows to access the drop-down menu next to "Time range to clear." Choose "Everything" if you would like to delete all of your history, or select a specific time frame to delete.&#13;
+Step 3&#13;
+Check the boxes next to the items that you want to delete. If you want to delete all of your browsing history, form and search history, cookies and other information, check all of the boxes.&#13;
+Step 4&#13;
+Click "Clear Now."&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (suxia zhu)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/how_to_delete_the_history_on_mac</guid>
+      <pubDate>Fri, 19 Nov 2010 09:49:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Erase Software for Mac?</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/how_to_erase_software_for_mac</link>
+      <description>install removing software mac with http://www.umacos.com/cleanmac/how-erase-software-mac.html software remove on mac!&#13;
+&#13;
+Why should we install software removing from mac?&#13;
+We usually use the computer in the process, often install some software, but some software may use the frequency is very low, or no longer used once or twice, used,regularly delete unused software can save disk space and improve the systemefficiency.&#13;
+removing software from mac is advanced and professional software which designed for Mac user.&#13;
+&#13;
+Now many computer users due to work and had to download some office software, but not to long-term use of these software, so  http://www.umacos.com/cleanmac/how-erase-software-mac.html removing software from mac can help you easily solve these problems.&#13;
+&#13;
+The following is the key features of http://www.umacos.com/mac-cleaner.html remove software mac.&#13;
+1.All-in-one utility &#13;
+It can clear all the cache which is stay in your Mac computer .What you have to do is press button.&#13;
+2.To clear plug-in to release disk space&#13;
+Clear cache for Mac software easily erase all the plug-in that stay in your disk space. To finish this just need some simply click.&#13;
+3.To improve the storage space&#13;
+It can access the hidden storage area to clear some widget to improve storage environment.&#13;
+4.Clean up the portable device&#13;
+Keep your removable device free from those annoying and unnecessary service files.&#13;
+5.Clear the system cache and cookies and folder cache&#13;
+One of the best features of clear cache for Mac is its ability to easily clear the system cache and cookies and folder cache that affect your computer system.&#13;
+6.Safe to operate in your Mac computer&#13;
+The clear cache for Mac is a safe software ,it don’t have the write-perform function when it runs in your Mac computer.&#13;
+7.Optimize the computer system&#13;
+It can improve the Mac computer environment through clear the cache and widget.&#13;
+8.Easy to use&#13;
+Clear cache for Mac software makes system maintenance simple with an easy point .with the simple click ,novice can easy to use to keep the system running at its best.&#13;
+9.multifunctional feature &#13;
+it can capture the pesky bug when new software operated. &#13;
+&#13;
+How to removing software from mac&#13;
+http://www.umacos.com/images/cleanmac/cleanmac.jpg&#13;
+You can removing software from mac by following steps&#13;
+Instructions&#13;
+Step 1&#13;
+Confirm that the application you wish to remove does not have an uninstaller. If it does, run the uninstaller to properly remove the application.&#13;
+Step 2&#13;
+Open your "Applications" folder and find the application you wish to remove.&#13;
+Step 3&#13;
+Drag the application and any associated folders into the trash.&#13;
+Step 4&#13;
+Open your Home folder, then go into the Library sub-folder and open the Preferences folder to determine if there are preferences files that need to be removed. If you find files or folders with the same name as the application you want to remove, drag them to the trash.&#13;
+Step 5&#13;
+Open your Home folder, then go into the Library sub-folder and open the Application Support folder to determine if there are support files that need to be removed. If you find files or folders with the same name as the application you wish to erase, drag them to the trash.&#13;
+Step 6&#13;
+Drag the Application's icon off the dock with your mouse to remove it from the dock if it is present.&#13;
+Step 7&#13;
+Right-click on the Trash on the dock and select "Empty Trash" to fully remove the files you have dragged there.&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (suxia zhu)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/how_to_erase_software_for_mac</guid>
+      <pubDate>Fri, 19 Nov 2010 09:49:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problems including the Stylesheet</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/problems_including_the_stylesheet</link>
+      <description>Hi,&#13;
+&#13;
+first of all let me say that paradoxpdf seems to be great. &#13;
+But as I tried to modify the stylesheet (including Arial font), it wouldn't work. &#13;
+&#13;
+Here's the debug output:&#13;
+&#13;
+[ Oct 18 2010 13:37:29 ] ParadoxPDF : PDF conversion successful: /usr/bin/java -Djava.awt.headless=true -Dxr.util-logging.loggingEnabled=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/plain_site/paradoxpdf/3153df740c01c70e52e706c114f3131c.xhtml var/plain_site/paradoxpdf/3153df740c01c70e52e706c114f3131c.pdf  2&gt;&1 , 
+ Output : org.xhtmlrenderer.render INFO:: Using CSS implementation from: org.xhtmlrenderer.context.StyleReference
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: SAX XMLReader in use (parser): com.sun.org.apache.xerces.internal.parsers.SAXParser
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: Loaded document in ~255ms
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: TIME: parse stylesheets  94ms
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: media = print
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: Requesting stylesheet: http://DOMAIN/extension/paradoxpdf/design/standard/stylesheets/print-core.css
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (http://DOMAIN/extension/paradoxpdf/design/standard/stylesheets/print-core.css) Found < (other) where one of a hex color, ., [, or : was expected at line 1. Skipping ruleset.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+INFO: Matcher created with 118 selectors
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+Oct 18, 2010 1:37:29 PM org.xhtmlrenderer.util.JDKXRLogger log
+WARNING: (style attribute) Value array is not a recognized identifier at line 1. Skipping declaration.
+
+First I fetched the CSS via https, changed that to http which seemed to work better, but still without custom font. I also tried to change the css to a very basic stylesheet only containging one rule:
+@page {
+    margin: 5in;&#13;
+}&#13;
+But it did not change a thing.&#13;
+&#13;
+Please help!&#13;
+&#13;
+Thank you&#13;
+Florian</description>
+      <author>community@ez.no (Florian Frühstück)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/problems_including_the_stylesheet</guid>
+      <pubDate>Mon, 18 Oct 2010 11:42:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: "IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css4</link>
+      <description>I think I have found the solution.&#13;
+&#13;
+please check if your .htaccess has some authentication like this :&#13;
+&#13;
+AuthName "Acces interdit"&#13;
+AuthType Basic&#13;
+AuthUserFile /...&#13;
+require valid-user&#13;
+&#13;
+&#13;
+When I remove it , it work fine.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Eason Huang)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css4</guid>
+      <pubDate>Mon, 18 Oct 2010 08:27:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: "IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css3</link>
+      <description>Have you fixed this problem? &#13;
+&#13;
+Thanks. &#13;
+&#13;
+Eason</description>
+      <author>community@ez.no (Eason Huang)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css3</guid>
+      <pubDate>Mon, 18 Oct 2010 02:41:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blank pages in module view.</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/blank_pages_in_module_view</link>
+      <description>HI,&#13;
+&#13;
+once again can I add my thanks for such a great extension. &#13;
+&#13;
+I want to use it to create PDF invoices from the webshop. I have created a new view that lays out the necessary data for the invoice. I have commented out the paradoxpdf call in order to finetune the layout in the browser. When I access the view with&#13;
+&#13;
+/layout/set/pdf/shop/invoiceview/33&#13;
+&#13;
+I get an empty screen.&#13;
+&#13;
+If I insert Result['pagelayout'] = 'paradoxpdf_layout.tpl'; into invoiceview.pdf, I get the same screen. (Looking at the page source, all that is present is the comment &lt;!-- DEBUG_REPORT --&gt; )&#13;
+&#13;
+If I look at a node view all is fine, so it seems like the extension has been installed OK.&#13;
+&#13;
+A+&#13;
+&#13;
+Richard&#13;
+</description>
+      <author>community@ez.no (Richard Lundberg)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/blank_pages_in_module_view</guid>
+      <pubDate>Tue, 12 Oct 2010 11:22:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Page numbers in table of content</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content</link>
+      <description>Hi Mohamed,&#13;
+&#13;
+thanks for this cool extension... :)&#13;
+&#13;
+One question regarding page numbers in the TOC:&#13;
+In your example you are using the CSS3 stuff target-counter.&#13;
+Is this supposed to work with the current version of the paradoxpdf?&#13;
+I guess paradoxpdf is based on flying saucer release 7?&#13;
+&#13;
+It looks like support for this was just added in flying saucer release 8, &#13;
+see https://xhtmlrenderer.dev.java.net/:&#13;
+"Implement partial support for leader and target-counter (patch from Karl Tauber)"&#13;
+&#13;
+Page numbers in the TOC are not working for me and I just like to know if they should work...&#13;
+&#13;
+Please let me know...&#13;
+Thanks!&#13;
+Silke</description>
+      <author>community@ez.no (Silke Fox)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/page_numbers_in_table_of_content</guid>
+      <pubDate>Mon, 11 Oct 2010 09:39:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: "IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css2</link>
+      <description>Hi Marco,&#13;
+&#13;
+I am getting the same problem. How did you fix the problem? &#13;
+&#13;
+Thanks&#13;
+Sridhar</description>
+      <author>community@ez.no (Sridhar Teegala)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css2</guid>
+      <pubDate>Mon, 04 Oct 2010 05:40:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: "IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css</link>
+      <description>Hi Marco,&#13;
+&#13;
+I have a same problem, have you fixed it ?&#13;
+&#13;
+Let me know.&#13;
+&#13;
+Tks</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css/re_io_problem_for_images_and_css</guid>
+      <pubDate>Thu, 16 Sep 2010 09:34:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Generation of form fields</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/generation_of_form_fields/re_generation_of_form_fields</link>
+      <description>Hi again,&#13;
+&#13;
+sorry i missed the original message&#13;
+http://projects.ez.no/paradoxpdf/forum/general/can_it_render_form_fields</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/generation_of_form_fields/re_generation_of_form_fields</guid>
+      <pubDate>Wed, 11 Aug 2010 14:32:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generation of form fields</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/generation_of_form_fields</link>
+      <description>Hello,&#13;
+&#13;
+it seems all form fields are not rendered at all, even before any css display conditions. Is there a way to render properly a form even if it's inactive, i'm not sure what would be the most pertinent version of for instance a contact form. Of course one solution would be to prevent generation (not to generate the link but on a page where a form is added via a custom tag, it can be tricky to detect. What would be the most common thing to do?&#13;
+&#13;
+Thanks for the reply,&#13;
+&#13;
+Gwenal</description>
+      <author>community@ez.no (Gwenal Le Bihan)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/generation_of_form_fields</guid>
+      <pubDate>Tue, 10 Aug 2010 16:07:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cache problem with pdf layout method</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/cache_problem_with_pdf_layout_method</link>
+      <description>Hello,&#13;
+I use ParadoxPDF to generate PDF files from search results.&#13;
+&#13;
+I work with PDFcache enabled. The first time I try to generate the file, the PDF is unreadable and viewing its source shows that it's incomplete. Then, every try is successfull.&#13;
+&#13;
+When I disable PDFcache, I do not have this bug.</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/cache_problem_with_pdf_layout_method</guid>
+      <pubDate>Thu, 22 Jul 2010 14:55:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to override paradoxpdf_layout.tpl</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/how_to_override_paradoxpdf_layout_tpl/re_how_to_override_paradoxpdf_layout_tpl</link>
+      <description>Resolved.&#13;
+&#13;
+I put a new override rule in my override folder.</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/how_to_override_paradoxpdf_layout_tpl/re_how_to_override_paradoxpdf_layout_tpl</guid>
+      <pubDate>Fri, 16 Jul 2010 15:03:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to override paradoxpdf_layout.tpl</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/how_to_override_paradoxpdf_layout_tpl</link>
+      <description>Hello,&#13;
+I'm using the last version of paradoxPDF (2.1.5) and I would like to change the "paradoxpdf_layout.tpl".&#13;
+&#13;
+The problem is the override rule set in ParadoxPDF which means I cannot override once more.&#13;
+&#13;
+Is therre a solution to avoid modifying the extension sources ?</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/how_to_override_paradoxpdf_layout_tpl</guid>
+      <pubDate>Fri, 16 Jul 2010 14:33:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pretty content : links, floating images and break</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break</link>
+      <description>Hello,&#13;
+&#13;
+I have three questions regarding content style :&#13;
+• Is there a way to remove the nasty solid border on all hyperlinks of the PDF ?&#13;
+• The PDF does include my images alright, but they don't float anymore. Can the PDF handle float: property?&#13;
+• Is there a way to force the page break of the PDF before h1, h2 or h3 titles?&#13;
+&#13;
+Thanks for any help,&#13;
+&#13;
+M&#13;
+</description>
+      <author>community@ez.no (Marjolaine Weibel)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/pretty_content_links_floating_images_and_break</guid>
+      <pubDate>Tue, 13 Jul 2010 10:19:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: HTML preview of pdf before download</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download/re_html_preview_of_pdf_before_download2</link>
+      <description>Hello Mohamed,&#13;
+&#13;
+Your change works very well, &lt;b&gt;merci beaucoup&lt;/b&gt;!&#13;
+&#13;
+I have one more question, if i may (maybe that should be another thread) : &#13;
+Would you know a way to replace the path &lt;i&gt;/content/view/pdf/node_id&lt;/i&gt; by something like &lt;i&gt;/path/to/my/node_url_alias/pdf&lt;/i&gt; ? I would say Apache or URL Wildcards but i don't know how the association node_id / node_url is made…&#13;
+&#13;
+Thanks for your kind help </description>
+      <author>community@ez.no (Marjolaine Weibel)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download/re_html_preview_of_pdf_before_download2</guid>
+      <pubDate>Tue, 29 Jun 2010 14:21:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: HTML preview of pdf before download</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download/re_html_preview_of_pdf_before_download</link>
+      <description>hello Marjolaine,&#13;
+&#13;
+During template development , just replace the last line in the paradoxpdf_layout.tpl&#13;
+&#13;
+&lt;code&gt;&#13;
+{paradoxpdf($paradoxpdf_params)}&#13;
+&lt;/code&gt;&#13;
+&#13;
+by &#13;
+&#13;
+&lt;code&gt;&#13;
+{*paradoxpdf($paradoxpdf_params)*}&#13;
+{$xhtml}&#13;
+ &lt;/code&gt;&#13;
+&#13;
+So the first line disables the pdf generation and the second line outputs the html to the browser. As an alternative to this, enable debug in paradoxpdf.ini then you will have html files stored in var/paradoxpdf directory&#13;
+&#13;
+hope this will help you</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download/re_html_preview_of_pdf_before_download</guid>
+      <pubDate>Mon, 28 Jun 2010 20:33:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>HTML preview of pdf before download</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download</link>
+      <description>Hi,&#13;
+&#13;
+First allow me to say that I've been craving to find such an extension, thanks!&#13;
+&#13;
+I'd like to customize my PDF template. So i copied &lt;i&gt;paradoxpdf_layout.tpl&lt;/i&gt; to my_extension/design/templates. And I can download the PDF with /content/view/pdf/node_id. But each time i modify my template, i have to download the PDF again.&#13;
+Is there ny any chance an URL where i can get an HTML view of the pdf layout, like /layout/set/print/ does ?&#13;
+&#13;
+Thanks much!&#13;
+</description>
+      <author>community@ez.no (Marjolaine Weibel)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/html_preview_of_pdf_before_download</guid>
+      <pubDate>Mon, 28 Jun 2010 15:59:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>"IO problem" for images and CSS</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css</link>
+      <description>Hi Karnichi,&#13;
+&#13;
+first of all, thanks for your continuous development on ParadoxPDF.&#13;
+It's very nice :)&#13;
+&#13;
+I tried the current (2.1.5) version on a new ezflow site running ez 4.3.&#13;
+&#13;
+PDF creating works fine, but the PDF is missing the images. Also, it does not seem to be able the CSS file of the extension and current and total page numbers are not printed.&#13;
+&#13;
+From the log:&#13;
+&#13;
+&lt;code&gt;&#13;
+org.xhtmlrenderer.load INFO:: Loaded document in ~148ms&#13;
+org.xhtmlrenderer.load INFO:: TIME: parse stylesheets  64ms&#13;
+org.xhtmlrenderer.match INFO:: media = print&#13;
+org.xhtmlrenderer.load INFO:: Requesting stylesheet: http://HOSTNAME/extension/paradoxpdf/design/standard/stylesheets/print-core.css&#13;
+org.xhtmlrenderer.exception WARNING:: IO problem for http://HOSTNAME/extension/paradoxpdf/design/standard/stylesheets/print-core.css&#13;
+org.xhtmlrenderer.css-parse WARNING:: Couldn't parse stylesheet at URI http://HOSTNAME/extension/paradoxpdf/design/standard/stylesheets/print-core.css: Stream closed&#13;
+java.io.IOException: Stream closed&#13;
+        at java.io.BufferedInputStream.getInIfOpen(BufferedInputStream.java:134)&#13;
+        at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)&#13;
+        at java.io.BufferedInputStream.read(BufferedInputStream.java:317)&#13;
+        at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:264)&#13;
+        at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:306)&#13;
+        at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:158)&#13;
+        at java.io.InputStreamReader.read(InputStreamReader.java:167)&#13;
+        at org.xhtmlrenderer.css.parser.Lexer.zzRefill(Lexer.java:1634)&#13;
+        at org.xhtmlrenderer.css.parser.Lexer.yylex(Lexer.java:1865)&#13;
+        at org.xhtmlrenderer.css.parser.CSSParser.next(CSSParser.java:1798)&#13;
+        at org.xhtmlrenderer.css.parser.CSSParser.la(CSSParser.java:1810)&#13;
+        at org.xhtmlrenderer.css.parser.CSSParser.stylesheet(CSSParser.java:159)&#13;
+        at org.xhtmlrenderer.css.parser.CSSParser.parseStylesheet(CSSParser.java:89)&#13;
+        at org.xhtmlrenderer.context.StylesheetFactoryImpl.parse(StylesheetFactoryImpl.java:78)&#13;
+        at org.xhtmlrenderer.context.StylesheetFactoryImpl.parse(StylesheetFactoryImpl.java:95)&#13;
+        at org.xhtmlrenderer.context.StylesheetFactoryImpl.getStylesheet(StylesheetFactoryImpl.java:174)&#13;
+        at org.xhtmlrenderer.context.StyleReference.readAndParseAll(StyleReference.java:123)&#13;
+        at org.xhtmlrenderer.context.StyleReference.setDocumentContext(StyleReference.java:107)&#13;
+        at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:175)&#13;
+        at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:142)&#13;
+        at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:138)&#13;
+        at com.tricinty.ParadoxPDF.export(ParadoxPDF.java:121)&#13;
+        at com.tricinty.ParadoxPDF.main(ParadoxPDF.java:59)&#13;
+org.xhtmlrenderer.match INFO:: Matcher created with 118 selectors&#13;
+org.xhtmlrenderer.exception WARNING:: IO problem for http://HOSTNAME/var/ezflow_site/storage/images/conference/news/video-summary-of-ez-conference-and-awards-2009/284-1-ger-DE/Video-summary-of-eZ-Conference-and-Awards-2009_medium.jpg&#13;
+&lt;/code&gt;&#13;
+&#13;
+The CSS and JPG files do exist. I get open them from the URLs with a webbrowser and also can wget them from a local shell.&#13;
+&#13;
+Any idea?&#13;
+&#13;
+JRE:&#13;
+java version "1.6.0_12"&#13;
+Java(TM) SE Runtime Environment (build 1.6.0_12-b04)&#13;
+&#13;
+eZ 4.3&#13;
+Apache/2.2.9 (Debian) PHP/5.2.6</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/io_problem_for_images_and_css</guid>
+      <pubDate>Fri, 16 Apr 2010 19:53:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error java</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/error_java</link>
+      <description>Bonjour, &#13;
+&#13;
+J'utilise l'extension paradoxPDF, en la reliant à un lien pour faire un export j'obtiens l'erreur suivante:&#13;
+&#13;
+Failed executing command : "C:/Program Files/Java/jre1.6.0_07/bin/java.exe" -Djava.awt.headless=true -jar extension/paradoxpdf/bin/paradoxpdf.jar var/actucci/paradoxpdf/983637a3c5009b78211c9cd6ee3fad8b.xhtml var/actucci/paradoxpdf/983637a3c5009b78211c9cd6ee3fad8b.pdf  2&gt;&1 , 
+ Output : ERREUR :  'The reference to entity "hl" must end with the ';' delimiter.'&#13;
+Exception in thread "main" org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The reference to entity "hl" must end with the ';' delimiter.&#13;
+	at org.xhtmlrenderer.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:191)&#13;
+	at org.xhtmlrenderer.resource.XMLResource.load(XMLResource.java:71)&#13;
+	at org.xhtmlrenderer.swing.NaiveUserAgent.getXMLResource(NaiveUserAgent.java:211)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.loadDocument(ITextRenderer.java:134)&#13;
+	at org.xhtmlrenderer.pdf.ITextRenderer.setDocument(ITextRenderer.java:138)&#13;
+	at com.tricinty.ParadoxPDF.export(ParadoxPDF.java:121)&#13;
+	at com.tricinty.ParadoxPDF.main(ParadoxPDF.java:59)&#13;
+Caused by: javax.xml.transform.TransformerException: org.xml.sax.SAXParseException: The reference to entity "hl" must end with the ';' delimiter.&#13;
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)&#13;
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)&#13;
+	at org.xhtmlrenderer.resource.XMLResource$XMLResourceBuilder.createXMLResource(XMLResource.java:189)&#13;
+	... 6 more&#13;
+Caused by: org.xml.sax.SAXParseException: The reference to entity "hl" must end with the ';' delimiter.&#13;
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)&#13;
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)&#13;
+	... 9 more&#13;
+&#13;
+Es ce que quelqu'un a déjà eu cette erreur.&#13;
+Merci d'avance</description>
+      <author>community@ez.no (nacer messaoudi)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/error_java</guid>
+      <pubDate>Wed, 14 Apr 2010 07:46:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Utiliser paradoxpdf</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/utiliser_paradoxpdf</link>
+      <description>Bonjour Mohamed,&#13;
+&#13;
+Je débute dans ezpublish et je souhaite faire un export pdf.&#13;
+Dans mes recherches je tombe sur ton extension, je tiens déjà à te remercié pour cette extension.&#13;
+Au fait, j'arrive à installer ton extension(je change le chemin de l'exe java) et à l'activer sur le back office.&#13;
+Mais comme j'ai jamais utilisé d'extension, je vois pas trop comme l'utiliser (comment faire un appel à cette extention).&#13;
+Je compte utiliser un lien pour faire mon export pdf cad:&#13;
+&lt;a href="" target="_blank" title=""&gt;exporter_pdf&lt;/a&gt;.&#13;
+&#13;
+Merci d'avance.&#13;
+</description>
+      <author>community@ez.no (nacer messaoudi)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/utiliser_paradoxpdf</guid>
+      <pubDate>Tue, 13 Apr 2010 14:22:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ParadoxPdf and Lightbox</title>
+      <link>http://projects.ez.no/paradoxpdf/forum/general/paradoxpdf_and_lightbox/re_paradoxpdf_and_lightbox3</link>
+      <description>Hi Sandra&#13;
+&#13;
+The issue is resolved in the 2.1.5 version&#13;
+&#13;
+Regards&#13;
+</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/forum/general/paradoxpdf_and_lightbox/re_paradoxpdf_and_lightbox3</guid>
+      <pubDate>Sun, 11 Apr 2010 13:09:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

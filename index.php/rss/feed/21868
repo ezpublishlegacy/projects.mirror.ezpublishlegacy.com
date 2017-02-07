@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bpce_backupbdd / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:23:17 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:23:17 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21868" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: How does this extension work ?</title>
+      <link>http://projects.ez.no/bpce_backupbdd/forum/general/how_does_this_extension_work/re_how_does_this_extension_work</link>
+      <description>Hi,&#13;
+&#13;
+Finally, I did an enhanced version of this useful extension:&#13;
+&#13;
+- All in french,&#13;
+- Works under Linux with .sql.gz extension of the dump files,&#13;
+- As many dump as you want per hour&#13;
+- Some cosmetic enhancements&#13;
+- Some modifications about the presentation of the information.&#13;
+&#13;
+2 archives are available at the end of this french documentation:&#13;
+&#13;
+http://luxpopuli.fr/eZ-Publish/Extensions/eZ-Publish-i-bpce_backupbdd-i-sauvegarde-automatique-de-la-base-de-donnees&#13;
+&#13;
+One archive for PHP4&#13;
+An other one for PHP5&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/bpce_backupbdd/forum/general/how_does_this_extension_work/re_how_does_this_extension_work</guid>
+      <pubDate>Sun, 28 Feb 2010 14:50:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>How does this extension work ?</title>
+      <link>http://projects.ez.no/bpce_backupbdd/forum/general/how_does_this_extension_work</link>
+      <description>Hi Alexandre,&#13;
+&#13;
+Once your extension is installed and activated, what should we do to get a Dump ?&#13;
+&#13;
+I've changed the "savePath" parameter in settings/bpce_backupbdd.ini, cleared the caches and click on "Create DB dump". But nothing happended (I know I have to wait 1 hour).&#13;
+&#13;
+Also, is it possible to reduce the waiting time of an hour before having a dump?&#13;
+&#13;
+At last, is there a log file ? I didn't found anything about this.&#13;
+&#13;
+Thanks for your help.&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/bpce_backupbdd/forum/general/how_does_this_extension_work</guid>
+      <pubDate>Sat, 13 Feb 2010 14:22:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: what about oracle - postgres?</title>
+      <link>http://projects.ez.no/bpce_backupbdd/forum/general/what_about_oracle_postgres/re_what_about_oracle_postgres</link>
+      <description>i think i will put this in the todo list. &#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/bpce_backupbdd/forum/general/what_about_oracle_postgres/re_what_about_oracle_postgres</guid>
+      <pubDate>Mon, 28 Dec 2009 19:42:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>what about oracle - postgres?</title>
+      <link>http://projects.ez.no/bpce_backupbdd/forum/general/what_about_oracle_postgres</link>
+      <description>I guess the extension could do with some extra backup-handlers for different dbs... if you restructure a bit the cronjob to accomodate this, some might be willing to give you the missing code...&#13;
+&#13;
+extra nice idea!</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/bpce_backupbdd/forum/general/what_about_oracle_postgres</guid>
+      <pubDate>Mon, 28 Dec 2009 14:16:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

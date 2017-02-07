@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpm / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:02:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:02:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8541" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xrowforum with pm- / friend system</title>
+      <link>http://projects.ez.no/ezpm/forum/general/xrowforum_with_pm_friend_system</link>
+      <description>hello bartek,&#13;
+&#13;
+i just wanted to let you know that i programmed a pm/friend system as well.&#13;
+i used your extension first but i switched to mine now since i dont know if you still maintain this one. my system provides different features then yours, feel free to copy them into your extension.&#13;
+&#13;
+http://projects.ez.no/xrowforum/forum/general/ez_4_5_ready_pm_and_friendsystem_added&#13;
+&#13;
+greetings.&#13;
+</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/xrowforum_with_pm_friend_system</guid>
+      <pubDate>Sun, 01 May 2011 14:35:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Text length limitation, or "Why are my...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/text_length_limitation_or_why_are_my_messages_truncated/re_text_length_limitation_or_why_are_my</link>
+      <description>Thank you for sharing Benjamin&#13;
+&#13;
+You saved me hours of trouble :)&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/text_length_limitation_or_why_are_my_messages_truncated/re_text_length_limitation_or_why_are_my</guid>
+      <pubDate>Thu, 28 Apr 2011 00:47:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Developement of this extension</title>
+      <link>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension/re_developement_of_this_extension2</link>
+      <description>Hi,&#13;
+&#13;
+is there any news on development of this extension ?</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension/re_developement_of_this_extension2</guid>
+      <pubDate>Thu, 20 Jan 2011 13:44:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Developement of this extension</title>
+      <link>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension/re_developement_of_this_extension</link>
+      <description>Hi Georg,&#13;
+&#13;
+I'm happy that someone found that my extension could be useful. So feel free to contribute your developments. I just want to let you know, that I have never used this extension on production, so it's not well tested, especially its security.&#13;
+&#13;
+Good luck :)</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension/re_developement_of_this_extension</guid>
+      <pubDate>Mon, 26 Apr 2010 11:08:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developement of this extension</title>
+      <link>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension</link>
+      <description>Hi Bartek,&#13;
+&#13;
+I need your extension for one community project and I would like to contribute my developements for your extension. (I've applied the membership)&#13;
+&#13;
+I am working with eZ Publish since 2002 and I know what I am doing ;-)&#13;
+&#13;
+I am also open for suggestions / feature requests...&#13;
+&#13;
+Best wishes,&#13;
+Georg.</description>
+      <author>community@ez.no (Georg Franz)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/developement_of_this_extension</guid>
+      <pubDate>Mon, 26 Apr 2010 10:43:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Text length limitation, or "Why are my messages truncated ?"</title>
+      <link>http://projects.ez.no/ezpm/forum/general/text_length_limitation_or_why_are_my_messages_truncated</link>
+      <description>The "text" column data type is "tinyblob" dy default, which is only 255 characters long.&#13;
+&#13;
+Since no error message is showed when the input text is longer, I had a hard time figuring why all my private messages were truncated.&#13;
+&#13;
+So I changed the data type for "text", which allows up to 65535 characters.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/text_length_limitation_or_why_are_my_messages_truncated</guid>
+      <pubDate>Sun, 30 Aug 2009 16:27:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Policy Compatibility problems with eZ Publi...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi5</link>
+      <description>Like I said in my first post, I found it more simple to comment out the whole list of functions.&#13;
+&#13;
+With this way, you don't have to bother about giving which right to which role, as the module is treated as a whole. Either you have full access to private messaging (reading personal messages, writing new ones, manage blacklist and contact list) or you don't have access at all.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi5</guid>
+      <pubDate>Fri, 22 May 2009 12:57:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Policy Compatibility problems with eZ Publi...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi4</link>
+      <description>Hi,&#13;
+&#13;
+All you have to do to make it working is to add one line with parameter to each view declaration, in example:&#13;
+&#13;
+&lt;code&gt;&#13;
+$ViewList['create'] = array(&#13;
+    'script' =&gt; 'create.php',&#13;
+    'functions' =&gt; array( 'create' ),&#13;
+);&#13;
+&lt;/code&gt;&#13;
+&#13;
+So to see view called "create" you need to have function called "create" :) I hope it helps.&#13;
+&#13;
+&lt;i&gt;Edit: I'm talking about module.php file of course&lt;/i&gt;</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi4</guid>
+      <pubDate>Thu, 21 May 2009 10:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Policy Compatibility problems with eZ Publi...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi3</link>
+      <description>Hello;&#13;
+&#13;
+Did you find a solution for this? I'd like to use this extension in my project.&#13;
+&#13;
+regards!</description>
+      <author>community@ez.no (Noicokuna Niemoge)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi3</guid>
+      <pubDate>Thu, 21 May 2009 08:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Policy Compatibility problems with eZ Publi...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi2</link>
+      <description>I'm pretty new to eZ Projects, but I would be glad to contribute to this project. I will use it heavily for the next months, so I will be able to add some features.&#13;
+&#13;
+Thanks in advance !</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi2</guid>
+      <pubDate>Mon, 30 Mar 2009 10:05:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: how to add notifications?</title>
+      <link>http://projects.ez.no/ezpm/forum/general/how_to_add_notifications/re_how_to_add_notifications</link>
+      <description>Hello,&#13;
+&#13;
+sorry to disappoint you, but notifications are not added yet. I had no need and no time to do it finally.</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/how_to_add_notifications/re_how_to_add_notifications</guid>
+      <pubDate>Mon, 30 Mar 2009 08:29:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Policy Compatibility problems with eZ Publi...</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi</link>
+      <description>Hello Benjamin,&#13;
+&#13;
+You are right about errors. I never had time to finish this extension and make permissions working. As I'm not use this extension at all, it still waiting for some day :)&#13;
+&#13;
+If you would like to contribute to this extesnion, just send tell me, I will add you to this project. I can't promise to finish it by myself in short time.&#13;
+&#13;
+Regards,</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1/re_policy_compatibility_problems_with_ez_publi</guid>
+      <pubDate>Mon, 30 Mar 2009 08:10:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Policy Compatibility problems with eZ Publish 4.1</title>
+      <link>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1</link>
+      <description>Hello,&#13;
+&#13;
+I'm using eZPrivateMessaging for a little time in eZ Publish 4.1, and I had to face many kernel (1) errors when trying to get the Inbox for a non-admin user.&#13;
+&#13;
+I tried to set the permissions on "pm" module, but it wasn't in the module list, I had to add in extension "module.ini.append.php" : &lt;code&gt;[ModuleSettings]&#13;
+ModuleList[]=pm&lt;/code&gt;&#13;
+&#13;
+Then I did set the permissions on "pm" module with no restriction, but that didn't remove the error page. I ran into a full-scale debugging, and here's my conclusions :&#13;
+&#13;
+The extension "module.php" defines a list of functions :&#13;
+&lt;code&gt;$FunctionList['create'] = array( );&#13;
+$FunctionList['list'] = array( );&#13;
+$FunctionList['blacklist'] = array( );&#13;
+$FunctionList['contacts'] = array( );&#13;
+$FunctionList['send_message'] = array( );&#13;
+$FunctionList['add_contact'] = array( );&#13;
+$FunctionList['stats'] = array( );&lt;/code&gt;&#13;
+But they are never used in the $ViewList items above. So eZ Publish knows that the module requires function-based policies, but the module views actually don't. That's this contradiction that confuse it and prevent it to show the page.&#13;
+&#13;
+I did comment out the whole $FunctionList definition as they are nowhere to be used, and it finally worked. I could have put a "functions" parameter to each views to make it works too, but it doesn't make sense, you can either have or not the whole access to private messaging.&#13;
+&#13;
+Hope it helps, great extension otherwise.</description>
+      <author>community@ez.no (Hypolite Petovan)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/policy_compatibility_problems_with_ez_publish_4_1</guid>
+      <pubDate>Sun, 29 Mar 2009 08:21:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>how to add notifications?</title>
+      <link>http://projects.ez.no/ezpm/forum/general/how_to_add_notifications</link>
+      <description>I've noticed that notifications are added to the 0.91 version. Can you tell how to enable it for PM? Notifications otherwise are working fine on my site. Just not able to enable for PM. Is it at the usual place I am missing -&gt; My profile -&gt; notifications -&gt; add folder?&#13;
+&#13;
+Please help.</description>
+      <author>community@ez.no (Ritu Sharma)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/how_to_add_notifications</guid>
+      <pubDate>Tue, 03 Mar 2009 19:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Messages stores in Blog - why?</title>
+      <link>http://projects.ez.no/ezpm/forum/general/messages_stores_in_blog_why/re_messages_stores_in_blog_why</link>
+      <description>Hi Ekke,&#13;
+&#13;
+This extension has been developed for site based on client's functional spec. He requested to have both subject and content in each message. So &lt;i&gt;`text`&lt;/i&gt; is for storing message content.&#13;
+&#13;
+Bartek</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/messages_stores_in_blog_why/re_messages_stores_in_blog_why</guid>
+      <pubDate>Thu, 22 Jan 2009 08:23:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Messages stores in Blog - why?</title>
+      <link>http://projects.ez.no/ezpm/forum/general/messages_stores_in_blog_why</link>
+      <description>Hi Bartek,&#13;
+&#13;
+I took again a deeper look in this nice extension, what is the reason for using &#13;
+&#13;
+&lt;code&gt;&#13;
+  `text` tinyblob NOT NULL,&#13;
+&lt;/code&gt;&#13;
+&#13;
+for storing the messages?&#13;
+&#13;
+Thanks and greetings, ekke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/messages_stores_in_blog_why</guid>
+      <pubDate>Wed, 21 Jan 2009 19:41:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Message Stats Error</title>
+      <link>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error3</link>
+      <description>Hi,&#13;
+&#13;
+Yesterday evening I did some improvements and fixes in this extensions, but finall result was not yet stable so I didn't commit my work. I will do it after your modifications during this weekend.&#13;
+&#13;
+Thanks for your contribution !</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error3</guid>
+      <pubDate>Fri, 28 Mar 2008 08:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Message Stats Error</title>
+      <link>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error2</link>
+      <description>Hi, thank you for this hint.&#13;
+&#13;
+I actually have included the ezpm.php on the top of the function_definition.php - it works, but it's not the way it should. I added a ajax module to your extension, which allows to search for Users, if there are one, you can send a pm to him. And I've made a German translation for it - I needed it because your extension seems only to work from Forums with owner ids. I would like to build it in your create module.&#13;
+</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error2</guid>
+      <pubDate>Fri, 28 Mar 2008 07:44:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Message Stats Error</title>
+      <link>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error</link>
+      <description>Hi Max,&#13;
+&#13;
+Thanks for reporting this bug. eZ Publish 4 needs more changes in my extension than I thought. You can solove this problem editing file autoload/ezp_extension.php in your eZ Publish root directory and adding the following at the end of array:&#13;
+&lt;code&gt;&#13;
+               'eZPm'                      =&gt; 'extension/ezpm/modules/pm/classes/ezpm.php',&#13;
+&lt;/code&gt;&#13;
+This weekend I will commit new version of eZPm extension, so some other bugs will be fixed.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/message_stats_error/re_message_stats_error</guid>
+      <pubDate>Thu, 27 Mar 2008 21:59:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Message Stats Error</title>
+      <link>http://projects.ez.no/ezpm/forum/general/message_stats_error</link>
+      <description>Hi, I get an Error if I try to show my 'inbox' outside the pm module.&#13;
+For example: if i go to '/pm/contacts' my stats are shown correct and when I'm on &#13;
+/ezinfo/about I get this Error:&#13;
+&#13;
+Error: eZModuleFunctionInfo::execute  	Mar 25 2008 09:17:46&#13;
+&#13;
+No class 'eZPm' available for function 'messages_stats' in module 'pm'&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Max Keil)</author>
+      <guid>http://projects.ez.no/ezpm/forum/general/message_stats_error</guid>
+      <pubDate>Tue, 25 Mar 2008 08:31:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

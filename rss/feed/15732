@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezobjectstatesfilter / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:55:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:55:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15732" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release of eZ Object States Filter 1.0</title>
+      <link>http://projects.ez.no/ezobjectstatesfilter/news/release_of_ez_object_states_filter_1_0</link>
+      <description>&lt;p&gt;eZ Object States Filter is an extension providing an &lt;a href="http://ezpedia.org/en/ez/extended_attribute_filter" target="_self"&gt;extended attribute filter&lt;/a&gt; to filter on object states. With this extension, you can filter on object states of content objects when fetching nodes in templates or with the PHP API.&lt;/p&gt;&lt;p&gt;&lt;a href="/../../../../ezobjectstatesfilter/downloads/ez_object_states_filter_1_0" title="Download eZ Content Object States 1.0" target="_self"&gt;Download eZ Object States Filter 1.0&lt;/a&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezobjectstatesfilter/news/release_of_ez_object_states_filter_1_0</guid>
+      <pubDate>Sat, 25 Apr 2009 11:24:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

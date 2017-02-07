@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezspellchecker / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:13:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:13:03 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9429" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Hows it going?</title>
+      <link>http://projects.ez.no/ezspellchecker/forum/general/hows_it_going/re_hows_it_going</link>
+      <description>Nate - you would probably be interested in looking at the TinyMCE-based EZOE extension that André is working on. You can probably add an existing spell checker plugin into the installation if you have the required server-side components for the language lookups. It looks like it would just be a matter of assembling the parts.&#13;
+&#13;
+Some docs on the spellchecker for TinyMCE is here:&#13;
+http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/spellchecker&#13;
+&#13;
+and a discussion of the new ezoe (replacement for ezdhtml) is here:&#13;
+http://ez.no/developer/forum/extensions/call_for_testers_new_online_editor</description>
+      <author>community@ez.no (Mark Marsiglio)</author>
+      <guid>http://projects.ez.no/ezspellchecker/forum/general/hows_it_going/re_hows_it_going</guid>
+      <pubDate>Wed, 27 Aug 2008 05:24:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hows it going?</title>
+      <link>http://projects.ez.no/ezspellchecker/forum/general/hows_it_going</link>
+      <description>This is neat, I would really like some drop in way to provide my users a spell check button in the rich text editor.  Can you provide a bit more of a write up to your work here?&#13;
+&#13;
+Thanks!&#13;
+nate</description>
+      <author>community@ez.no (Nate Parsons)</author>
+      <guid>http://projects.ez.no/ezspellchecker/forum/general/hows_it_going</guid>
+      <pubDate>Tue, 26 Aug 2008 20:11:40 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / fluxml_-_an_export_xml_extension / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:19:17 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:19:17 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33861" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/fluxml_an_export_xml_extension/news/changelog</link>
+      <description>&lt;p&gt;
+A lot of differents corrections:&lt;br /&gt;
+ Now, this extension works even if RewriteRules for remove the index.php&lt;br /&gt;
+ in the url aren't define.&lt;br /&gt;
+ A bug when validate a flux creation with any information in the&lt;br /&gt;
+ form.&lt;br /&gt;
+ I have added Javascript tests in the add/edit action of a flux.&lt;br /&gt;
+ The Rewrite Rules is now : RewriteRule fluxml/syndicate~(.*)$&lt;br /&gt;
+ fluxml/syndicate?id=$1 [PT]&lt;br /&gt;
+ That's all for the moment, it's just the portage to the 3.8, I will add&lt;br /&gt;
+ another param after&lt;br /&gt; ++&lt;/p&gt;</description>
+      <author>community@ez.no (Sébastien Morel)</author>
+      <guid>http://projects.ez.no/fluxml_an_export_xml_extension/news/changelog</guid>
+      <pubDate>Wed, 11 Oct 2006 12:52:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

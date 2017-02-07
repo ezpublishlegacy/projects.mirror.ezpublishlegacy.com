@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / region / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:00:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:00:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8651" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Enhanced version on GitHub</title>
+      <link>http://projects.ez.no/region/forum/general/enhanced_version_on_github</link>
+      <description>The extension has been forked and updated at https://github.com/gbentley/region&#13;
+&#13;
+&lt;b&gt;Features:&lt;/b&gt;&#13;
+- uses existing siteaccess settings to determine URI for regions&#13;
+- works for any web server&#13;
+- automatic redirection&#13;
+- custom regions by country, e.g South America, Europe&#13;
+- template operators&#13;
+&#13;
+This extension doesn't require the PHP GeoIP PECL extension, so can be installed in a shared hosting environment.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/region/forum/general/enhanced_version_on_github</guid>
+      <pubDate>Wed, 28 Nov 2012 09:08:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>SiteUriParts added</title>
+      <link>http://projects.ez.no/region/forum/general/siteuriparts_added</link>
+      <description>Viele Gruesse!  I have a site where the URI mapping does not match the siteaccess name, so in extension/region/modules/region/index.php I've added a check for SiteUriParts (ezp 4.4+) first:&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: modules/region/index.php&#13;
+===================================================================&#13;
+--- modules/region/index.php	(revision 565)&#13;
++++ modules/region/index.php	(revision 594)&#13;
+@@ -7,6 +7,7 @@&#13;
+ &#13;
+ $regionini = eZINI::instance( 'region.ini' );&#13;
+ $contentini = eZINI::instance( "content.ini");&#13;
++$siteini = eZINI::instance( "site.ini");&#13;
+ $regions = $regionini-&gt;groups();&#13;
+ $settings = $regions['Settings'];&#13;
+ unset( $regions['Settings'] );&#13;
+@@ -196,7 +197,14 @@&#13;
+         {&#13;
+             if ( $found )&#13;
+             {&#13;
+-                $accesspath = '/' . $access['name'];&#13;
++                if ( $siteini-&gt;hasVariable('SiteSettings', 'SiteUriParts') )&#13;
++	            {&#13;
++	            	$accesspath = '/' . implode( '/', $siteini-&gt;variable('SiteSettings', 'SiteUriParts') );&#13;
++	            }&#13;
++	            else&#13;
++	            {&#13;
++	            	$accesspath = '/' . $access['name'];&#13;
++	            }&#13;
+             }&#13;
+ &#13;
+             // @TODO we might need language options to properly fetch the correct url.&#13;
+@@ -228,10 +236,15 @@&#13;
+         }&#13;
+         else&#13;
+         {&#13;
+-            if ( array_key_exists( 'name', $access ) )&#13;
+-            {&#13;
+-                $accesspath = '/' . $access['name'];&#13;
+-            }&#13;
++        	&#13;
++                if ( $siteini-&gt;hasVariable('SiteSettings', 'SiteUriParts') )&#13;
++	            {&#13;
++	            	$accesspath = '/' . implode( '/', $siteini-&gt;variable('SiteSettings', 'SiteUriParts') );&#13;
++	            }&#13;
++	            else&#13;
++	            {&#13;
++	            	$accesspath = '/' . $access['name'];&#13;
++	            }&#13;
+ &#13;
+                 if ( strpos( $url, '/' ) === 0 )&#13;
+                 {&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Feel free to add to this to the extension!&#13;
+&#13;
+Cheers,&#13;
+Geoff</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/region/forum/general/siteuriparts_added</guid>
+      <pubDate>Mon, 28 Nov 2011 04:09:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great extension</title>
+      <link>http://projects.ez.no/region/forum/general/great_extension</link>
+      <description>Great extension, and great to see it's been updated over time!</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/region/forum/general/great_extension</guid>
+      <pubDate>Fri, 25 Nov 2011 04:00:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

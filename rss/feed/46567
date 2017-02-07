@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / hwboot</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:04:04 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:04:04 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46567" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/dcea90451d755856416184e91dbf140f62f116ff</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/stylesheets/less/hwboot.less
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed quotes in less file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/dcea90451d755856416184e91dbf140f62f116ff</guid>
+      <pubDate>Fri, 28 Sep 2012 12:01:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/a645cd84927ae39ebee9737a830333ac011668f4</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/page_header_languages.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;logo header fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/a645cd84927ae39ebee9737a830333ac011668f4</guid>
+      <pubDate>Fri, 13 Jul 2012 08:01:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/67809bd5e26f1503154aeadda6c9efcf33e09644</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/override/templates/block/campaign.tpl
+m design/hwboot/override/templates/full/article.tpl
+m design/hwboot/override/templates/full/folder.tpl
+m design/hwboot/override/templates/full/gallery.tpl
+m design/hwboot/stylesheets/less/hwboot.less
++ design/hwboot/templates/content/datatype/view/ezsrrating.tpl
++ design/hwboot/templates/parts/carousel.tpl
+m design/hwboot/templates/parts/extra_info.tpl
++ design/hwboot/templates/parts/metainfo.tpl
+m design/hwboot/templates/secondary_sidebar.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;gallery implementation (carousel), ezdemo full views (article, gallery, folder), star rating first approach (yet disabled the star selection widget), metainfo outsources to parts template (author, created at), several wells removed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/67809bd5e26f1503154aeadda6c9efcf33e09644</guid>
+      <pubDate>Thu, 12 Jul 2012 10:21:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/28d7207590835de1c26571515ec06153449c67ab</link>
+      <description>
+      &lt;pre&gt;+ autoloads/eztemplateautoload.php
++ autoloads/hwboottemplateutils.php
+m design/hwboot/javascript/hwboot.js
++ design/hwboot/override/templates/block/campaign.tpl
++ design/hwboot/override/templates/block/gallery.tpl
+m design/hwboot/override/templates/full/folder.tpl
+m design/hwboot/stylesheets/less/hwboot.less
+m design/hwboot/templates/menu/double_top.tpl
++ design/hwboot/templates/node/view/carousel_item.tpl
+m design/hwboot/templates/page_header.tpl
+m design/hwboot/templates/page_header_languages.tpl
+m design/hwboot/templates/page_mainarea.tpl
+m design/hwboot/templates/pagelayout.tpl
+m design/hwboot/templates/secondary_sidebar.tpl
++ settings/block.ini.append.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;upgraded to bootstrap v2.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/28d7207590835de1c26571515ec06153449c67ab</guid>
+      <pubDate>Mon, 09 Jul 2012 13:01:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/65baaf5fb6aff8b13b22516e164e90b3f5fdafcd</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Arnaud Lafon as contributor - thank you!&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/65baaf5fb6aff8b13b22516e164e90b3f5fdafcd</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/4c7dd43913bfadef40dbbedd9a54ae45aac7f2b5</link>
+      <description>
+      &lt;pre&gt;m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove currently unused js in design.ini.append.php.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/4c7dd43913bfadef40dbbedd9a54ae45aac7f2b5</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/b887f28872be03eb7f0d29a267e88ff06002cd87</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from alafon/double_top_menu
+
+Add bootstrap support for the double top menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/b887f28872be03eb7f0d29a267e88ff06002cd87</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/2c23814248f158c21cb2de3f866b0e3ee87ce372</link>
+      <description>
+      &lt;pre&gt;- design/hwboot/templates/Copy of pagelayout.tpl	
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from alafon/master
+
+Remove unused template&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/2c23814248f158c21cb2de3f866b0e3ee87ce372</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/2826cd8952e6178293340690c6530e4b7a44a127</link>
+      <description>
+      &lt;pre&gt;- design/hwboot/templates/Copy of pagelayout.tpl	
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed unused template&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/2826cd8952e6178293340690c6530e4b7a44a127</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/e458ec87e4cc7c002c960c7438b876895e06f642</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed personal stuf&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/e458ec87e4cc7c002c960c7438b876895e06f642</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/0c63994d3156c6f87fe6f3f436bd365a84899857</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add bootstrap support for the double top menu&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/0c63994d3156c6f87fe6f3f436bd365a84899857</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/4f0cd1a3956223303a79cf0ebebaadd8d147714f</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/parts/blog/extra_info.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #13 from alafon/fix_extra_info
+
+Missing ')' on a is_set call&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/4f0cd1a3956223303a79cf0ebebaadd8d147714f</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/991a9149c3022d26b3f59dbe0ddc209d944b9415</link>
+      <description>
+      &lt;pre&gt;- design/hwboot/templates/link.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unused link.tpl template&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/991a9149c3022d26b3f59dbe0ddc209d944b9415</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/c743510a28272c20e7d33e941d633a1436c50833</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/parts/blog/extra_info.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Missing ')' on a is_set call&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/c743510a28272c20e7d33e941d633a1436c50833</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/eea778aacf3377209ad993f4111db1745bf19190</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from alafon/double_top_menu_fix
+
+Fix double_top_menu: when a folder does not have children, it must be ...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/eea778aacf3377209ad993f4111db1745bf19190</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/f881141e89ef404be2568730bdf41713f06aa86e</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed double_top_menu: when a folder does not have children, it must be clickable (href should not be '#something')&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/f881141e89ef404be2568730bdf41713f06aa86e</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/07a78d133d42d314387b2ab08063aa7dbd0acdfc</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/pagelayout.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Catch a very dodgy template. How did it escape?&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/07a78d133d42d314387b2ab08063aa7dbd0acdfc</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/1bef14b694f44359ebd855112a2330b8742aa2a7</link>
+      <description>
+      &lt;pre&gt;- design/hwboot/templates/canonical_link.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unused template.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/1bef14b694f44359ebd855112a2330b8742aa2a7</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/e933ec6f9cb6aeee6f53477814cc7d7b55407832</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/stylesheets/less/websitetoolbar.less
+m design/hwboot/templates/page_header.tpl
+m design/hwboot/templates/pagelayout.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Quickfix of issue #14: Website Toolbar now moves above meta navigation when double top menu is used.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/e933ec6f9cb6aeee6f53477814cc7d7b55407832</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/01c278e0a603a677f79f4b85df096e841b68cc69</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/override/templates/datatype/ezxmltext/quote.tpl
+m design/hwboot/templates/content/datatype/view/ezxmltags/table.tpl
+m design/hwboot/templates/content/datatype/view/ezxmltags/td.tpl
+m design/hwboot/templates/full/event_view_calendar.tpl
+m design/hwboot/templates/full/event_view_program.tpl
+m design/hwboot/templates/parts/blog/calendar.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove deprecated HTML attributes.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/01c278e0a603a677f79f4b85df096e841b68cc69</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/99c9b8c838beb81d10316cbf81e31d26eba275f4</link>
+      <description>
+      &lt;pre&gt;m README.md
+m design/hwboot/templates/menu/double_top.tpl
+m design/hwboot/templates/parts/blog/extra_info.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:holzweg/hwboot&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/99c9b8c838beb81d10316cbf81e31d26eba275f4</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/be0745facd5b6a1e0056749eaa1efa8a2cd156d8</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #16 from alafon/double_top_menu_fix2
+
+Fixed double_top menu : Caret is displayed only when a folder has some children&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/be0745facd5b6a1e0056749eaa1efa8a2cd156d8</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/30b20ba1bfcc3ceb1b241a132a57cd8215039ab2</link>
+      <description>
+      &lt;pre&gt;m design/hwboot/templates/menu/double_top.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Caret is displayed only when a folder has some children&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/30b20ba1bfcc3ceb1b241a132a57cd8215039ab2</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/hwboot/source/58643bf771104f1e620a79fa412eeed142dc8729</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/hwboot/source/58643bf771104f1e620a79fa412eeed142dc8729</guid>
+      <pubDate>Tue, 24 Apr 2012 10:51:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

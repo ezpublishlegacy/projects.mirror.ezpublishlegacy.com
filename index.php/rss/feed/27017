@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / modelviewer / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:22:09 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:22:09 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27017" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Version 1.0 alpha released</title>
+      <link>http://projects.ez.no/modelviewer/forum/general/version_1_0_alpha_released</link>
+      <description>Download:  http://projects.ez.no/modelviewer/downloads</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/modelviewer/forum/general/version_1_0_alpha_released</guid>
+      <pubDate>Wed, 21 Jul 2010 15:15:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extension almost done</title>
+      <link>http://projects.ez.no/modelviewer/forum/general/extension_almost_done</link>
+      <description>Hello&#13;
+&#13;
+I'm just making some more adjustments, I will release it when it's finished.</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/modelviewer/forum/general/extension_almost_done</guid>
+      <pubDate>Tue, 20 Jul 2010 11:54:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

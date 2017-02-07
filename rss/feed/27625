@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / html5boilerplate</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:58:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:58:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27625" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>html5boilerplate rev. 2 by Jani Tarvainen</title>
+      <link>http://projects.ez.no/html5boilerplate/subversion/2</link>
+      <description>Slight fixes to ini files, moving ezinfo.php into place
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/html5boilerplate/subversion/2</guid>
+      <pubDate>Sun, 22 Aug 2010 19:35:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>First release of html5boilerplate released</title>
+      <link>http://projects.ez.no/html5boilerplate/news/first_release_of_html5boilerplate_released</link>
+      <description>&lt;p&gt;First release of the html5boilerplate eZ Publish design extension released. Support for eZ JSCore minification, Google Analytics, The Canonical meta tag, etc.&lt;/p&gt;&lt;p&gt;Download gzip or export from SVN.&lt;/p&gt;</description>
+      <author>community@ez.no (Jani Tarvainen)</author>
+      <guid>http://projects.ez.no/html5boilerplate/news/first_release_of_html5boilerplate_released</guid>
+      <pubDate>Sun, 22 Aug 2010 12:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>html5boilerplate 1.1</title>
+      <link>http://projects.ez.no/html5boilerplate/downloads/html5boilerplate_1_1</link>
+      <description>&lt;p&gt;First release - using the html5boiler plate updated on 13th of August 2010.&lt;/p&gt;</description>
+      <author>community@ez.no (Jani Tarvainen)</author>
+      <guid>http://projects.ez.no/html5boilerplate/downloads/html5boilerplate_1_1</guid>
+      <pubDate>Sun, 22 Aug 2010 12:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>html5boilerplate rev. 1 by Jani Tarvainen</title>
+      <link>http://projects.ez.no/html5boilerplate/subversion/1</link>
+      <description>Initial import of design extension
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/html5boilerplate/subversion/1</guid>
+      <pubDate>Sun, 22 Aug 2010 12:30:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

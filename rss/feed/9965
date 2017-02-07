@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcore / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:58:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:58:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9965" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>0.96</title>
+      <link>http://projects.ez.no/ezcore/downloads/0_96</link>
+      <description> &lt;p&gt;A new snapshoot of whats in svn (this is rev 22).&lt;/p&gt; &lt;p&gt;Changes include(see svn rev 1-22 history for details):&lt;/p&gt; 
+&lt;ul&gt;
+ 
+&lt;li&gt; improved the 'docs' &lt;/li&gt;
+ 
+&lt;li&gt; cleanup of ezpacker code, now supports using templates as code generators &lt;/li&gt;
+ 
+&lt;li&gt; keyword auto suggest code as example of server call (only php, no gui code) &lt;/li&gt;
+ 
+&lt;li&gt; added index_ajax.php file, a faster ajaxified index.php (~3 times faster) &lt;/li&gt;
+ 
+&lt;li&gt; autoEncode functionality to encode (json/xml/text) content based on request content type &lt;/li&gt;
+ 
+&lt;li&gt; code cleanup and disabled scripts in design.ini by default &lt;/li&gt;
+ 
+&lt;li&gt; ezfind support in ezajaxcontent.php &lt;/li&gt;
+ 
+&lt;li&gt; fixed hide_unhide cronjob issue from ezp tracker #013589 &lt;/li&gt;
+ 
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezcore/downloads/0_96</guid>
+      <pubDate>Tue, 16 Sep 2008 16:27:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>0.90</title>
+      <link>http://projects.ez.no/ezcore/downloads/0_90</link>
+      <description> &lt;p&gt;
+First version, is labled as beta since it needs a bit broader testing.&lt;br /&gt;And some parts ( module views ) could need a bit cleanup, code comments and documentation. &lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezcore/downloads/0_90</guid>
+      <pubDate>Thu, 26 Jun 2008 20:37:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

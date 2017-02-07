@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / topappsoperator</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:22:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:22:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27306" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What about proxies ...</title>
+      <link>http://projects.ez.no/topappsoperator/forum/general/what_about_proxies</link>
+      <description>hello&#13;
+&#13;
+you have written a good extension but why without proxies ...&#13;
+&#13;
+in order to work with proxies try to use :&#13;
+&#13;
+eZHTTPTool::getDataByURL( $url,false,false); instead of  file_get_html()&#13;
+&#13;
+Good job &#13;
+&#13;
+Alex</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/topappsoperator/forum/general/what_about_proxies</guid>
+      <pubDate>Fri, 30 Jul 2010 14:33:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>topapps_1_0.tar.gz</title>
+      <link>http://projects.ez.no/topappsoperator/downloads/topapps_1_0_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/topappsoperator/downloads/topapps_1_0_tar_gz</guid>
+      <pubDate>Fri, 30 Jul 2010 11:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>topapps_1_0.zip</title>
+      <link>http://projects.ez.no/topappsoperator/downloads/topapps_1_0_zip</link>
+      <description></description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/topappsoperator/downloads/topapps_1_0_zip</guid>
+      <pubDate>Fri, 30 Jul 2010 11:51:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpldatatypes / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 23:58:29 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 23:58:29 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8287" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Warning message</title>
+      <link>http://projects.ez.no/ezpldatatypes/forum/general/warning_message/re_warning_message</link>
+      <description>Hi Mariusz&#13;
+&#13;
+The error you are seeing is not a problem as such but the messages can be annoying.  The system is attempting to load specific datatype templates when viewing the content class and none exists.&#13;
+&#13;
+To fix simply create an empty file &#13;
+eznip/design/standard/templates/class/datatype/view/eznip.tpl&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezpldatatypes/forum/general/warning_message/re_warning_message</guid>
+      <pubDate>Tue, 02 Dec 2008 23:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Warning message</title>
+      <link>http://projects.ez.no/ezpldatatypes/forum/general/warning_message</link>
+      <description>Hi&#13;
+I have a warning message in Administration Panel when viewing User Class /class/view/4&#13;
+&#13;
+&lt;code&gt;None of the templates design:class/datatype/view/eznip.tpl, design:class/datatype/view/.tpl could be found&lt;/code&gt;&#13;
+&#13;
+How to solve this?&#13;
+</description>
+      <author>community@ez.no (Mariusz Ściseł)</author>
+      <guid>http://projects.ez.no/ezpldatatypes/forum/general/warning_message</guid>
+      <pubDate>Tue, 02 Dec 2008 20:20:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

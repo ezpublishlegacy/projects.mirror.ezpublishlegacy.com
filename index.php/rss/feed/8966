@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsearchpro / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:26:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:26:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8966" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsearchpro rev. 9 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/9</link>
+      <description>- Added note on sort_by change needed to use relevance sorting if searching from template, and bumped version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/9</guid>
+      <pubDate>Mon, 28 Jun 2010 07:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 8 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/8</link>
+      <description>- Synced with ezsearch engine in trunk merging fixes for:
+#14615: Database errors in search engine logic using PHP 5.2.9
+#008765: changed text normalization in ezsearchengine: to much stripping of content </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/8</guid>
+      <pubDate>Mon, 10 May 2010 22:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 7 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/7</link>
+      <description>- Bumped to ver. 1.0.2, and updated changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/7</guid>
+      <pubDate>Wed, 16 Sep 2009 21:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 6 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/6</link>
+      <description>Sync with ezsearchengine, implementing / fixing #15016, #14187 and #14189 (#013983 was fixed in rev. 4)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/6</guid>
+      <pubDate>Wed, 16 Sep 2009 21:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 5 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/5</link>
+      <description>php 5.3 compat</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/5</guid>
+      <pubDate>Fri, 27 Feb 2009 14:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 4 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/4</link>
+      <description>php 5.3 compat</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/4</guid>
+      <pubDate>Fri, 27 Feb 2009 14:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 3 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/3</link>
+      <description>- Fixed bug #11799: Slave DB: a database transaction in eZ Publish failed
+- Fixed bug #13384: Insert queries that contain "create temporary" in values are executed on MySQL slave
+- Fixed bug #13380: DROP table for temporary tables created on a slave executed on master?
+- Fixed bug #13411: Setting status of a new version is outside of the database transaction
+- Fixed bug #13450: Oracle specific code in ezsearchengine.php
+- Removing includes that were put into comments
+(merged from eZ Publish trunk)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/3</guid>
+      <pubDate>Sat, 22 Nov 2008 11:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 2 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/2</link>
+      <description>* some code cleanup
+* merged patches from eZ Publish
+* added patch from forum:
+http://ez.no/developer/forum/general/resolve_no_result_of_avanced_search_with_search_text_empty#msg166125
+* bumped version to v1.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/2</guid>
+      <pubDate>Mon, 26 May 2008 16:45:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsearchpro rev. 1 by André R</title>
+      <link>http://projects.ez.no/ezsearchpro/subversion/1</link>
+      <description>Version 1.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsearchpro/subversion/1</guid>
+      <pubDate>Fri, 18 Apr 2008 15:10:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

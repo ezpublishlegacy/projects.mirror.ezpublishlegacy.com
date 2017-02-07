@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bctoplevelnode / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:34:33 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:34:33 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43892" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/41639601ac0c57ea2f7e48790ec042a8ed499764</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Correct param name, changed to class-id&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/41639601ac0c57ea2f7e48790ec042a8ed499764</guid>
+      <pubDate>Mon, 09 Jan 2017 00:21:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/e7fb929459136a5a35817b6cbd2b12c08ae10f43</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from Pixy/master
+
+Updated: Correct param name label 'class' to 'class-id'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/e7fb929459136a5a35817b6cbd2b12c08ae10f43</guid>
+      <pubDate>Mon, 09 Jan 2017 00:21:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/c2201c883d29437d4200937e7f77fef3968ede64</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL
+m doc/README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: General documentation refinements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/c2201c883d29437d4200937e7f77fef3968ede64</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/7fbbc51807ade23a4e2c4645c11b7f3632e9361c</link>
+      <description>
+      &lt;pre&gt;m settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added missing level of comment tags to optional related settings example block&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/7fbbc51807ade23a4e2c4645c11b7f3632e9361c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/50706e07340bf2b4420a025672ca7310cca3f225</link>
+      <description>
+      &lt;pre&gt;m bin/php/bctoplevelnodecreate.php
+m bin/php/bctoplevelnodemove.php
+m doc/INSTALL
+m doc/README
++ settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Revised documentation linefeed formatting to meet UNIX standards. Updated scripts to more closely match code standards on space usage. Added example settings/menu.ini.append.php for future top level nodes display to user using admin top menu settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/50706e07340bf2b4420a025672ca7310cca3f225</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/064190075b3a994c67f6e3ae8a6a1bb39f2efa42</link>
+      <description>
+      &lt;pre&gt;m doc/FAQ
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added documentation reference to original related share forum thread request into doc/FAQ&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/064190075b3a994c67f6e3ae8a6a1bb39f2efa42</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bctoplevelnode/subversion/6426f709edecb4bfd4560469ff3d4918b8e297e8</link>
+      <description>
+      &lt;pre&gt;+ bin/php/bctoplevelnodecreate.php
++ bin/php/bctoplevelnodemove.php
++ doc/COPYRIGHT
++ doc/CREDITS
++ doc/FAQ
++ doc/INSTALL
++ doc/LICENSE
++ doc/README
++ doc/TODO
++ doc/changelogs/CHANGELOG-0.0.3
++ extension.xml
++ ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Initial import of bctoplevelnode extension, version 0.0.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bctoplevelnode/subversion/6426f709edecb4bfd4560469ff3d4918b8e297e8</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

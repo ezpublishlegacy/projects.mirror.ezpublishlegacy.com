@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztags / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:13:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:13:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/39935" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Tags 1.2 released</title>
+      <link>http://projects.ez.no/eztags/news/ez_tags_1_2_released</link>
+      <description>&lt;p&gt;We have just released new, 1.2 version of eZ Tags extension.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/eztags/news/ez_tags_1_2_released</guid>
+      <pubDate>Wed, 07 Sep 2011 12:15:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Tags version 1.1 released</title>
+      <link>http://projects.ez.no/eztags/news/ez_tags_version_1_1_released</link>
+      <description>&lt;p&gt;We released a new version of eZ Tags extension bringing the version number up to 1.1. The main focus of this update was to add some fetches which would allow building navigation structures with eZ Tags.&lt;/p&gt;&lt;p&gt;Please read the upgrade instructions are there are couple of braking changes as well as modifications to the database table.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/eztags/news/ez_tags_version_1_1_released</guid>
+      <pubDate>Mon, 13 Jun 2011 09:15:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

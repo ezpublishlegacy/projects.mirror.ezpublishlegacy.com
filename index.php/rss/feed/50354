@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezclasssync / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:07:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:07:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/50354" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/310bad4f6ce496e7ae78980a706120ec459fabd0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from studioartlan/master
+
+Possibility to setup to which extension the classes should be exported&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/310bad4f6ce496e7ae78980a706120ec459fabd0</guid>
+      <pubDate>Mon, 09 Sep 2013 21:22:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/8f79431e968b58b00c355524d9895f75e62e000f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;- added possibility to setup to whic extension the classes should be exported&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/8f79431e968b58b00c355524d9895f75e62e000f</guid>
+      <pubDate>Mon, 09 Sep 2013 21:22:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/8050d5ed9c5737807c6199d5636364bd935f8702</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;zip import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/8050d5ed9c5737807c6199d5636364bd935f8702</guid>
+      <pubDate>Fri, 07 Jun 2013 14:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/abb1bc8d2f61ee8f5288c3919448c15a5c26df53</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;removed previous compare class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/abb1bc8d2f61ee8f5288c3919448c15a5c26df53</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/a581b752cd235dcc21eb0d4044e40fb8f585eae0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;import and export done&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/a581b752cd235dcc21eb0d4044e40fb8f585eae0</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/6879121aa8f79c1319b4c540dc26cb42f885211b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;exporter and some classes to have json/ezcontentclass data in same format&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/6879121aa8f79c1319b4c540dc26cb42f885211b</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/ee913d3125073e67292264f16ee67667e6102bb2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;first working version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/ee913d3125073e67292264f16ee67667e6102bb2</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/55c934d029261a23a96bec4c05290e3b00781807</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;multiple sync/checks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/55c934d029261a23a96bec4c05290e3b00781807</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/7ff448532dde3e8da4fc2a372adb626091200b43</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;exporting directly to extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/7ff448532dde3e8da4fc2a372adb626091200b43</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/c9dac62685ae06f4f845380653cf164de8af5534</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;exporting directly to var/sync&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/c9dac62685ae06f4f845380653cf164de8af5534</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/1137b2a1fe6f1707ae0f470aa22b15222393406e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update button is now working, var_dump removed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/1137b2a1fe6f1707ae0f470aa22b15222393406e</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/c4857594d3fc6beee247892f36f24da41b01b3fa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;readme files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/c4857594d3fc6beee247892f36f24da41b01b3fa</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/3716343cfadc154fba105e6b996229c155a9c903</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;export can be achieved easier, so we don't need that class anymore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/3716343cfadc154fba105e6b996229c155a9c903</guid>
+      <pubDate>Fri, 07 Jun 2013 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/2431d310d0d9a221ba2576666464231cfc61ad95</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;importing json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/2431d310d0d9a221ba2576666464231cfc61ad95</guid>
+      <pubDate>Fri, 07 Jun 2013 11:52:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/47db23e1216c540b49ab49f4b88238e5aac88f25</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;don't display 'no diff' when class will be installed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/47db23e1216c540b49ab49f4b88238e5aac88f25</guid>
+      <pubDate>Fri, 07 Jun 2013 11:52:59 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezclasssync/source/9877a6ab3cf8648d54a1f5347149ede4ac7089dc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;message displaying for export, selecting all checkboxes on dashboard fix&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezclasssync/source/9877a6ab3cf8648d54a1f5347149ede4ac7089dc</guid>
+      <pubDate>Fri, 07 Jun 2013 11:52:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

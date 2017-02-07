@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / adminaid / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:31:35 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:31:35 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27374" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Differences from ezadmin</title>
+      <link>http://projects.ez.no/adminaid/forum/general/differences_from_ezadmin/re_differences_from_ezadmin</link>
+      <description>This is meant for debugging. I frequently had reported problems I couldn't reproduce, so I needed a simple way to switch to the user that reported the problem. Also, while debugging I often needed to find the objects based on a specific class without knowing the content tree structure.&#13;
+&#13;
+So it can be used on both development and production. I wouldn't recommend having it on production permanently though, only when you need it. It should be secure, but better safe than sorry. :)&#13;
+&#13;
+Read the included INSTALL.txt file for more details.</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/adminaid/forum/general/differences_from_ezadmin/re_differences_from_ezadmin</guid>
+      <pubDate>Sun, 08 Aug 2010 12:55:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Differences from ezadmin</title>
+      <link>http://projects.ez.no/adminaid/forum/general/differences_from_ezadmin</link>
+      <description>Sounds interesting, could you elaborate a little on how this differs from ezadmin. Is this meant to be used in a production environment on strictly development stage only?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/adminaid/forum/general/differences_from_ezadmin</guid>
+      <pubDate>Thu, 05 Aug 2010 02:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: No dowload available</title>
+      <link>http://projects.ez.no/adminaid/forum/general/no_dowload_available/re_no_dowload_available</link>
+      <description>Download available! :)</description>
+      <author>community@ez.no (Arne Bakkebø)</author>
+      <guid>http://projects.ez.no/adminaid/forum/general/no_dowload_available/re_no_dowload_available</guid>
+      <pubDate>Tue, 03 Aug 2010 05:42:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>No dowload available</title>
+      <link>http://projects.ez.no/adminaid/forum/general/no_dowload_available</link>
+      <description>It sounds promising, but where is the extension?</description>
+      <author>community@ez.no (Sandra Parente)</author>
+      <guid>http://projects.ez.no/adminaid/forum/general/no_dowload_available</guid>
+      <pubDate>Mon, 02 Aug 2010 08:04:46 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

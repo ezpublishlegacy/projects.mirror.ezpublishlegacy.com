@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / data_import / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:24:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:24:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11119" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/335f7194615365f4f4f3684e4375072bbead08de</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improved HTML import, making sure inbody links get created correctly&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/335f7194615365f4f4f3684e4375072bbead08de</guid>
+      <pubDate>Fri, 20 May 2016 20:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/59ab785211f0d55de8aa2951f781085df1d62852</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Custom fromString logic for the image datatype allowing to set original filename&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/59ab785211f0d55de8aa2951f781085df1d62852</guid>
+      <pubDate>Tue, 29 Mar 2016 09:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/61c9bebdf1544190a1d0d6a3abaefb9e96e65abe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merged with eweek project&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/61c9bebdf1544190a1d0d6a3abaefb9e96e65abe</guid>
+      <pubDate>Thu, 31 Dec 2015 16:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/256b7ddb82abbbfd1c9aa6ec81df9b246e5ca4d5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Export button and first version for upload file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/256b7ddb82abbbfd1c9aa6ec81df9b246e5ca4d5</guid>
+      <pubDate>Fri, 23 Jan 2015 15:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/56f01e57859a8c9d7128ad6e7779c4eb0a756893</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow a field to be silently skipped; fix message typo; fix example typo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/56f01e57859a8c9d7128ad6e7779c4eb0a756893</guid>
+      <pubDate>Fri, 22 Aug 2014 01:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/6b56d807eb7b9e5d6a2314ae43a807b1ff0c889b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix typo on allowed HTML tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/6b56d807eb7b9e5d6a2314ae43a807b1ff0c889b</guid>
+      <pubDate>Sat, 10 May 2014 17:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/2311bab0da28f3a8ae7731e5a99730f9606370b7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;getParentRemoteNodeId replaced with getParentNode&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/2311bab0da28f3a8ae7731e5a99730f9606370b7</guid>
+      <pubDate>Mon, 05 May 2014 17:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/49e794b4cf78b4b08c359ad4ef70c03b67a25749</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;getParentRemoteNodeId replaced with getParentNode -- 2nd commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/49e794b4cf78b4b08c359ad4ef70c03b67a25749</guid>
+      <pubDate>Mon, 05 May 2014 17:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/e872f169c728272f5c4842058f286b0d419f0fa1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;subtreeexport can now handle HTML in attribute values&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/e872f169c728272f5c4842058f286b0d419f0fa1</guid>
+      <pubDate>Fri, 28 Feb 2014 10:20:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/600649b471f84ed4ee3a6d772568dfd3ff181db8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add generic CSV export for objects and attributes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/600649b471f84ed4ee3a6d772568dfd3ff181db8</guid>
+      <pubDate>Tue, 31 Dec 2013 18:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/6a6915ba3c70fc78706701877d41814b893b4db4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;small typo fixed&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/6a6915ba3c70fc78706701877d41814b893b4db4</guid>
+      <pubDate>Thu, 19 Dec 2013 19:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/94e1957796ab4adbd8cebc8eb213fa593d108205</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;revert "un-improvements"&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/94e1957796ab4adbd8cebc8eb213fa593d108205</guid>
+      <pubDate>Mon, 16 Dec 2013 11:50:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/deeb7ca6ba14a3418d91f770258c61d949051aa7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improved image handling in eZXMLHandlerPHP, workaround for buggy ezImageType::fromString&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/deeb7ca6ba14a3418d91f770258c61d949051aa7</guid>
+      <pubDate>Fri, 13 Dec 2013 15:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/c9ef8cf831baa33aa81447f30f7e8e1eb93b4d4f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;cosmetic updates&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/c9ef8cf831baa33aa81447f30f7e8e1eb93b4d4f</guid>
+      <pubDate>Fri, 13 Dec 2013 15:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/a22071c6389c3cb836170c3ab8d19e95dd20539d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:mugoweb/data_import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/a22071c6389c3cb836170c3ab8d19e95dd20539d</guid>
+      <pubDate>Fri, 13 Dec 2013 15:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/cf858cc5fee27b95d8862e0758f7dc6d8c98e88a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;eZ Publish now shows the remote ID, so we don't need to override the Details template&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/cf858cc5fee27b95d8862e0758f7dc6d8c98e88a</guid>
+      <pubDate>Fri, 29 Nov 2013 00:40:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/40b5b404336ad027e5fa600b312bedf3094adee8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Backwards-compatibility for older eZ Publish version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/40b5b404336ad027e5fa600b312bedf3094adee8</guid>
+      <pubDate>Wed, 27 Nov 2013 23:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/d72c55b7bb05dd2a8585f916e8f6921dde7d49d9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix PHP errors and warnings; rename eZXML example source handler so that it won't clash with legacy eZXML class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/d72c55b7bb05dd2a8585f916e8f6921dde7d49d9</guid>
+      <pubDate>Wed, 27 Nov 2013 22:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/22cbeba9799481d7dc63febc5dbabc43581fbbc3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;check if a node needs to move2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/22cbeba9799481d7dc63febc5dbabc43581fbbc3</guid>
+      <pubDate>Tue, 01 Oct 2013 11:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/01ee1fffd5ba82ad7a91f7491d43aa78ac722c9d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;check if a node needs to move&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/01ee1fffd5ba82ad7a91f7491d43aa78ac722c9d</guid>
+      <pubDate>Tue, 01 Oct 2013 11:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/82a27d1f9614a61b3603016e3109a6a9e3e5ad64</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;composer config added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/82a27d1f9614a61b3603016e3109a6a9e3e5ad64</guid>
+      <pubDate>Mon, 24 Jun 2013 10:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/f83c333e05667ace717a071e924a3263c53ef16a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;ezxml output format added&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/f83c333e05667ace717a071e924a3263c53ef16a</guid>
+      <pubDate>Wed, 19 Jun 2013 19:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/d890efe50b6ebd462710f73ab29b4c76943f3b26</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/d890efe50b6ebd462710f73ab29b4c76943f3b26</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/e93e1de84313f5afe2023dd2b1837944fd5daeca</link>
+      <description>
+      &lt;pre&gt;m classes/ImportOperator.php
++ classes/MugoHelpers.php
+m classes/SourceHandler.php
+m classes/importoperators/NoNewVersion.php
+m classes/sourcehandlers/MySQLHandler.php
+m classes/sourcehandlers/XmlHandlerPHP.php
+m classes/sourcehandlers/csvHandler.php
+m classes/sourcehandlers/csvhandlers/CSVFolders.php
+m classes/sourcehandlers/csvhandlers/CSVImages.php
+m classes/sourcehandlers/xmlhandlers/XMLFolders.php
+m classes/sourcehandlers/xmlhandlers/XMLImages.php
+m classes/sourcehandlers/xmlhandlers/XMLMultiLanguages.php
+m scripts/run.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;PHP 5 improvements and other refactoring&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/e93e1de84313f5afe2023dd2b1837944fd5daeca</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/ae7e15c830972dd4939d211aeb60a3e6c1f1cfd3</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/ae7e15c830972dd4939d211aeb60a3e6c1f1cfd3</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/b7f567b5d397a197faadb8c626a5c77971369d77</link>
+      <description>
+      &lt;pre&gt;+ classes/Html2XmlText.php
++ classes/ImportOperator.php
++ classes/SourceHandler.php
++ classes/importoperators/NoNewVersion.php
++ classes/importoperators/others/AddLocation.php
++ classes/importoperators/others/AddLocationFromTo.php
++ classes/importoperators/others/DryRun.php
++ classes/importoperators/others/FromTo.php
++ classes/importoperators/others/KeywordsOperator.php
++ classes/importoperators/others/MultiLocation.php
++ classes/importoperators/others/RePublish.php
++ classes/importoperators/others/RemoveClass.php
++ classes/importoperators/others/RemoveOperator.php
++ classes/importoperators/others/SkipDuplicates.php
++ classes/importoperators/others/SkipUpdates.php
++ classes/importoperators/others/UpdateLinks.php
++ classes/importoperators/others/UpdateLinksFromTo.php
++ classes/importoperators/others/UpdateLocation.php
++ classes/importoperators/others/UpdatePriority.php
++ classes/importoperators/others/UpdatePublished.php
++ classes/importoperators/others/UpdateRelated.php
++ classes/sourcehandlers/MySQLHandler.php
++ classes/sourcehandlers/XmlHandlerPHP.php
++ classes/sourcehandlers/csvHandler.php
++ classes/sourcehandlers/csvhandlers/CSVFolders.php
++ classes/sourcehandlers/csvhandlers/CSVImages.php
++ classes/sourcehandlers/xmlhandlers/XMLFolders.php
++ classes/sourcehandlers/xmlhandlers/XMLImages.php
++ classes/sourcehandlers/xmlhandlers/XMLMultiLanguages.php
++ dataSource/examples/folder_structure.csv
++ dataSource/examples/folder_structure.xml
++ dataSource/examples/images.csv
++ dataSource/examples/images.xml
++ dataSource/examples/images/1.jpg
++ dataSource/examples/images/2.jpg
++ dataSource/examples/images/3.jpg
++ dataSource/examples/images/4.gif
++ dataSource/examples/multilanguages.xml
++ design/admin/templates/details.tpl
++ design/admin/templates/toolbar/full/remote_id.tpl
++ doc/CHANGELOG
++ doc/Importing_HTML.txt
++ doc/MultiLanguageImport.txt
++ doc/README
++ doc/fromString.html
++ doc/fromString.txt
++ ezinfo.php
++ modules/data_import/module.php
++ modules/data_import/remote_id_search.php
++ scripts/run.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/toolbar.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/b7f567b5d397a197faadb8c626a5c77971369d77</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/a351487029c8d91a3accd5b58472499b3f37e7d2</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update copyright info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/a351487029c8d91a3accd5b58472499b3f37e7d2</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/74708a7129eb749ae48ec127dcadb85005586434</link>
+      <description>
+      &lt;pre&gt;m README.md
+m classes/ImportOperator.php
+m classes/importoperators/NoNewVersion.php
+m doc/CHANGELOG
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/74708a7129eb749ae48ec127dcadb85005586434</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/4b033d491d0d9fe0c712442da6a30d341895b76f</link>
+      <description>
+      &lt;pre&gt;m classes/ImportOperator.php
+m classes/SourceHandler.php
+m classes/importoperators/NoNewVersion.php
+m scripts/run.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow to provide parameters to the source handler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/4b033d491d0d9fe0c712442da6a30d341895b76f</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/061f273b2aebac833e2fbc303472aebd19fce0b2</link>
+      <description>
+      &lt;pre&gt;m classes/ImportOperator.php
+m classes/MugoHelpers.php
+m classes/SourceHandler.php
+m classes/importoperators/NoNewVersion.php
+m classes/sourcehandlers/XmlHandlerPHP.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;allow to set object states&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/061f273b2aebac833e2fbc303472aebd19fce0b2</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/9a11c76b4bb5f8c7c12095904a81ee4130591f2a</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:mugoweb/data_import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/9a11c76b4bb5f8c7c12095904a81ee4130591f2a</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/data_import/subversion/fa0102c061603de4fbc576a96792cfd35e49614a</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
++ doc/FAQ
+- doc/Importing_HTML.txt
+- doc/MultiLanguageImport.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;FAQ started&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/fa0102c061603de4fbc576a96792cfd35e49614a</guid>
+      <pubDate>Wed, 24 Apr 2013 08:10:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 8 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/8</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/8</guid>
+      <pubDate>Thu, 28 Jan 2010 07:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 7 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/7</link>
+      <description>version 1.5.1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/7</guid>
+      <pubDate>Thu, 28 Jan 2010 07:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 6 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/6</link>
+      <description>Version 1.5</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/6</guid>
+      <pubDate>Wed, 06 Jan 2010 01:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 5 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/5</guid>
+      <pubDate>Mon, 29 Jun 2009 17:00:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 4 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/4</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/4</guid>
+      <pubDate>Fri, 21 Nov 2008 03:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 3 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/3</guid>
+      <pubDate>Fri, 21 Nov 2008 03:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 2 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/2</link>
+      <description>- create_new_versions flag removed
+- new ImportHandler to NOT create new object versions
+- ability to import content in a given language
+  (sponsored by http://infostrates.com/) 
+- new example for multilanguage import
+- csv image example fixed
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/2</guid>
+      <pubDate>Fri, 21 Nov 2008 02:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>data_import rev. 1 by Philipp Kamps</title>
+      <link>http://projects.ez.no/data_import/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/data_import/subversion/1</guid>
+      <pubDate>Thu, 20 Nov 2008 20:40:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

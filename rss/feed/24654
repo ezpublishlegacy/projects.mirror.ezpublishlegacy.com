@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cjw_newsletter / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:36:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:36:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24654" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Superb three-in-one package</title>
+      <link>http://projects.ez.no/cjw_newsletter/reviews/superb_three_in_one_package</link>
+      <description>Since a few years I volunteer for a NGO called Ingenieure ohne Grenzen e.V. We decided a few years back to settle for eZPublish as our CMS. Most of the times we are very happy with this decision, sometimes it just makes us want to pull our hair out. A while back we were looking for a extension to enable us sending a centralized newsletter. As an NGO we have a very tight budget on non-project expenses. Like us others luckily also work open source and thus there were a few solutions available. We were looking at something, which was first easy to install, second would enable a small team of editors to easily generate content and third simple to handle for the front user. After testing different extension we settled with CJW Newsletter, since it straight forwardly fulfilled all of our three basic demands. Since then we have never looked back. If I wanted to be nagging I could say we had trouble with making the bouncing mechanism work and some other small glitches, but hey: it's open source, which means one has been given it at hand for free and if one wants support one pays for it. It is definitely a superb deal. I believe that the INSTALL file is very straight forward for getting a basic installation to work. The first thing one would stumble across as a non-eZPublish user is the ini-settings mechanism when starting to fine-tune the installation, but it's not a CJW Newsletter issue and there is good background information material available. Once installed the interface speaks for itself. The newsletter tab switches for all newsletter related information as expected. All relevant information is being displayed on the dashboard page. Newsletters are easy to generate and even easier to preview both in browser as per Email in txt/html-Format. Our editors have never even asked a question about how to use the newsletter. We have roundabout 1300 subscribers for a monthly newsletter. The cronjob handles this amount of email very well even on a small virtual machine. So what I want to say short: Thanks very much CJW for publishing this extension open source. We will not be able to contribute to the funding of version 2.0, but we are very glad that the story continues.</description>
+      <author>community@ez.no (Sebastian Schoeller)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/reviews/superb_three_in_one_package</guid>
+      <pubDate>Wed, 30 Nov 2011 08:26:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>good</title>
+      <link>http://projects.ez.no/cjw_newsletter/reviews/good</link>
+      <description>very good system. based and works with eZ-feeling</description>
+      <author>community@ez.no (Martin Ulrich)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/reviews/good</guid>
+      <pubDate>Thu, 30 Jun 2011 10:46:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very grate</title>
+      <link>http://projects.ez.no/cjw_newsletter/reviews/very_grate</link>
+      <description>Thanks !&#13;
+Very grate and usefull extension...&#13;
+&#13;
+I added an analytics feature, and it's perfect !</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/reviews/very_grate</guid>
+      <pubDate>Tue, 17 May 2011 10:11:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not working on 4.3</title>
+      <link>http://projects.ez.no/cjw_newsletter/reviews/not_working_on_4_3</link>
+      <description>Fatal error: Call to a member function unserializeContentClassAttribute() on a non-object in /home/user/public_html/ezpublish-4.3.0/kernel/classes/packagehandlers/ezcontentclass/ezcontentclasspackagehandler.php on line 390&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+The execution of eZ Publish was abruptly ended, debug information can be found in the log files normally placed in var/log/*</description>
+      <author>community@ez.no (H-Works Agency)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/reviews/not_working_on_4_3</guid>
+      <pubDate>Fri, 25 Jun 2010 13:35:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezxajax_classattributes / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:27:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:27:00 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1217" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of ezxajax_classattributes extension on GitHub!</title>
+      <link>http://projects.ez.no/ezxajax_classattributes/forum/general/mirror_of_ezxajax_classattributes_extension_on_github</link>
+      <description>Hello eZ Community using ezxajax_classattributes extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/ezxajax_classattributes&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r1655 | Cyberwolf | 2008-09-03 01:37:26 -0500 (Wed, 03 Sep 2008).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezxajax_classattributes/forum/general/mirror_of_ezxajax_classattributes_extension_on_github</guid>
+      <pubDate>Sun, 25 Mar 2012 00:24:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatible with 4.0.1 ?</title>
+      <link>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_13</link>
+      <description>Oh ! I'm sorry, all was in the ezxajax extension install.txt !&#13;
+&#13;
+Thanks a lot !</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_13</guid>
+      <pubDate>Tue, 09 Dec 2008 14:36:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatible with 4.0.1 ?</title>
+      <link>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_12</link>
+      <description>Hi Kristof,&#13;
+&#13;
+You're right, I have not made this step... Were can I found details about this ?</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_12</guid>
+      <pubDate>Tue, 09 Dec 2008 14:30:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Compatible with 4.0.1 ?</title>
+      <link>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_1</link>
+      <description>Hi Sébastien&#13;
+&#13;
+Did you carefully follow the ezxajax installation instructions? Maybe you forgot to insert the bit of template code in the page layout that's necessary to make it work?</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1/re_compatible_with_4_0_1</guid>
+      <pubDate>Tue, 09 Dec 2008 07:57:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compatible with 4.0.1 ?</title>
+      <link>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1</link>
+      <description>Hi,&#13;
+&#13;
+I have installed and activate the xajax and then the ezxajax_classattributes extension.&#13;
+&#13;
+I have also copied the xajax.ini file into the /settings directory of my eZ Publish instance.&#13;
+&#13;
+When I edit a class, "collapse all" and "expand all" are OK, but when I add an attribute or when I reorder them, the page is totally refreshed... like if nothing js/ajax behavior exists.&#13;
+&#13;
+Is there anything I forgot to do ?&#13;
+&#13;
+PS : when editing a class, ezxajax_classattributes.js is loaded, but no other xajax js are called in the &lt;head&gt;...&#13;
+&#13;
+Thanks in advance !&#13;
+</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/ezxajax_classattributes/forum/general/compatible_with_4_0_1</guid>
+      <pubDate>Mon, 08 Dec 2008 16:53:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

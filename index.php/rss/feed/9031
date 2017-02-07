@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / advancedforum / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:21:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:21:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9031" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to use</title>
+      <link>http://projects.ez.no/advancedforum/forum/general/how_to_use</link>
+      <description>Hey&#13;
+&#13;
+I am a little bit of noob to ezPublish (actually really noob, I am still trying to figure out how to work with it) and I am wondering how to use your script.&#13;
+&#13;
+For the moment I am only interested in importing the users database from a phpBB installation (not so standard, but the main columns should be there). So... I uploaded the content to extensions/advanced forum, I edited the phpbb2ez.php to suit my needs (only change the db name on line 14, commented out line 136 and everything from 153 to 179), I activated the extension from acp and now what? :D&#13;
+&#13;
+I am still learning how ezPublish works, so please don't jump over too many steps at once. I am a developer, but I am not telepathic :D&#13;
+&#13;
+&#13;
+If I try to execute the file as said in the project description (php extension/advancedforum/bin/phpbb2ez.php --type=mysql --database=phpbb_database --host=localhost --user=root --password=), I get this:&#13;
+-------------&#13;
+PHP Fatal error:  Class 'eZDebug' not found in ./kernel/classes/ezscript.php on line 174&#13;
+-------------&#13;
+&#13;
+Thank you very much for your script and time!&#13;
+Octavian&#13;
+&#13;
+&#13;
+Edit: one more thing: at the beginning of the file it states that it is dependent on the import project, but the project has no files ( http://projects.ez.no/import/downloads )</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/advancedforum/forum/general/how_to_use</guid>
+      <pubDate>Sat, 06 Nov 2010 13:53:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>test</title>
+      <link>http://projects.ez.no/advancedforum/forum/general/test</link>
+      <description>test</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/advancedforum/forum/general/test</guid>
+      <pubDate>Thu, 15 May 2008 07:07:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

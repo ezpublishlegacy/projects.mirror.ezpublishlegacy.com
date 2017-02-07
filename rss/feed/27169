@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ngopengraph / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:37:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:37:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27169" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: No output?</title>
+      <link>http://projects.ez.no/ngopengraph/forum/general/no_output/re_no_output</link>
+      <description>Hi Robin!&#13;
+&#13;
+Are there any errors in various logs?&#13;
+&#13;
+The usual problem when no tags are displayed is that there's some required info missing, like facebook app ID, or an image tag or something similar.</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngopengraph/forum/general/no_output/re_no_output</guid>
+      <pubDate>Fri, 20 Mar 2015 12:50:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>No output?</title>
+      <link>http://projects.ez.no/ngopengraph/forum/general/no_output</link>
+      <description>Hello,&#13;
+&#13;
+I have followed installation / configuration instructions in INSTALL.md but I can't get "opengraph" operator to output something... ("language_code" operator works great).&#13;
+&#13;
+I'm on eZ Publish 4.5. I don't use persistent variables.&#13;
+&#13;
+Any help would be greatly appreciated. :)&#13;
+&#13;
+Thx,&#13;
+Robin.</description>
+      <author>community@ez.no (Robin Rangé)</author>
+      <guid>http://projects.ez.no/ngopengraph/forum/general/no_output</guid>
+      <pubDate>Thu, 19 Mar 2015 11:01:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A lil' feedback</title>
+      <link>http://projects.ez.no/ngopengraph/forum/general/a_lil_feedback/re_a_lil_feedback</link>
+      <description>&lt;b&gt;Well commented ini settings and structured code: +1&lt;/b&gt;&#13;
+&#13;
+Thanks :)&#13;
+&#13;
+&lt;b&gt;No |wash() in opengraph.tpl: ahiahiahi...&lt;/b&gt;&#13;
+&#13;
+Whoops! My mistake!&#13;
+&#13;
+&lt;b&gt;Why not make "opengraph" a fetch function instead of an operator? It is more in line with general eZ principles...&lt;/b&gt;&#13;
+&#13;
+Hm, never thought about it. Since fetch function would return all defined tags just as operator I don't really see the point. It would be nothing more than fetch( opengraph, tags ). And it would require creating a module which would be empty, without any views.&#13;
+&#13;
+&lt;b&gt;Last but not least: fetching node, object and attributes in pagelayout is a perf hit. Your default templates should be using the persistent_variable...&lt;/b&gt;&#13;
+&#13;
+Yeah I know. But persistent variable would need to be set in each of the full view templates, which complicates installation. I guess it could be left to choice. Add support for persistent_variable as well as running inside the pagelayout.&#13;
+&#13;
+Thanks for your thoughts Gaetano :)</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngopengraph/forum/general/a_lil_feedback/re_a_lil_feedback</guid>
+      <pubDate>Fri, 22 Jul 2011 15:32:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>A lil' feedback</title>
+      <link>http://projects.ez.no/ngopengraph/forum/general/a_lil_feedback</link>
+      <description>Well commented ini settings and structured code: +1&#13;
+&#13;
+No |wash() in opengraph.tpl: ahiahiahi...&#13;
+&#13;
+Why not make "opengraph" a fetch function instead of an operator? It is more in line with general eZ principles...&#13;
+&#13;
+Last but not least: fetching node, object and attributes in pagelayout is a perf hit. Your default templates should be using the persistent_variable...&#13;
+&#13;
+Keep it up!&#13;
+Gaetano</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ngopengraph/forum/general/a_lil_feedback</guid>
+      <pubDate>Thu, 21 Jul 2011 16:27:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

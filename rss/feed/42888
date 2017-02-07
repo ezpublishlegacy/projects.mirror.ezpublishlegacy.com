@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / owsimpleoperator / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:08:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:08:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42888" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/55f6d86c7ab212921b3ca8f99de8785e9eb9f5c2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from brookinsconsulting/debug-output-optional
+
+Implemented: Added settings and code to provide for ini setting to disable debug output&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/55f6d86c7ab212921b3ca8f99de8785e9eb9f5c2</guid>
+      <pubDate>Mon, 29 Sep 2014 13:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/103107d637ebd1a538d97083a6f06ae4f0e59528</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented: Added settings and code to provide for ini setting to disable debug output&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/103107d637ebd1a538d97083a6f06ae4f0e59528</guid>
+      <pubDate>Mon, 29 Sep 2014 13:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/c6b6265608ff34ec8adceae5a8bb9e63771a995d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Comment operator exemple&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/c6b6265608ff34ec8adceae5a8bb9e63771a995d</guid>
+      <pubDate>Tue, 09 Sep 2014 07:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/ecd3aad9e4eb40282abba1bd838cab8d77688271</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from brookinsconsulting/single_instance_of_eztemplateautoload
+
+Implemented: Single, Global eztemplateautoload.php Include&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/ecd3aad9e4eb40282abba1bd838cab8d77688271</guid>
+      <pubDate>Mon, 08 Sep 2014 07:21:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/9b4ca16b147b9693fcc0d02a977e1ec4291abbd6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented: Single, Global eztemplateautoload.php Include&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/9b4ca16b147b9693fcc0d02a977e1ec4291abbd6</guid>
+      <pubDate>Mon, 08 Sep 2014 07:21:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/96654a0c1829417adad489c43d8ab030f263b1fe</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from brookinsconsulting/settings_based_class_functions_cleanup
+
+Updated: Bugfix for duplicate php function support code being run+&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/96654a0c1829417adad489c43d8ab030f263b1fe</guid>
+      <pubDate>Fri, 05 Sep 2014 14:51:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/a506adaa1a6b89f9772f5741c3f1bedb636adcf2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Copyright year doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/a506adaa1a6b89f9772f5741c3f1bedb636adcf2</guid>
+      <pubDate>Fri, 05 Sep 2014 14:51:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/e9608b7264bf7a51c089fecd34e4d92049dfed4d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Bugfix for duplicate php function support code being run. Documentation improvements.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/e9608b7264bf7a51c089fecd34e4d92049dfed4d</guid>
+      <pubDate>Fri, 05 Sep 2014 14:51:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/f925a59beb3fa4bb80fc48a914ee5584eb31a646</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull-request #2 from @brookinsconsulting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/f925a59beb3fa4bb80fc48a914ee5584eb31a646</guid>
+      <pubDate>Fri, 05 Sep 2014 08:11:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/bfac29c8f627a1102abcd4ed4ad73d8727b753d5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Conflict resolution with pull-request #2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/bfac29c8f627a1102abcd4ed4ad73d8727b753d5</guid>
+      <pubDate>Fri, 05 Sep 2014 08:11:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/406006143e20b809936cb95b02de8bf7b6f460e7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated copyright year&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/406006143e20b809936cb95b02de8bf7b6f460e7</guid>
+      <pubDate>Fri, 05 Sep 2014 07:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/14ed3ec52be6bf2d233fbe1fefb7b9968ac537f5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Removed deprecated settings blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/14ed3ec52be6bf2d233fbe1fefb7b9968ac537f5</guid>
+      <pubDate>Fri, 05 Sep 2014 07:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/5fa207be5bad85c24968f0a402a3b5749c223dc1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merged: Merged upstream master branch changes into feature branch&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/5fa207be5bad85c24968f0a402a3b5749c223dc1</guid>
+      <pubDate>Fri, 05 Sep 2014 07:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/10dd347ee07c6e6616ea0b11d2ba80fcf93604c7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Refactor template operator to php function argument processing to solve fatal errors&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/10dd347ee07c6e6616ea0b11d2ba80fcf93604c7</guid>
+      <pubDate>Fri, 05 Sep 2014 07:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/21d38419c490cf070e6baca1dfd897396f6de2ad</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from brookinsconsulting/php_function_support
+
+PHP Function Support, Extended Documentation and UTF8 Settings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/21d38419c490cf070e6baca1dfd897396f6de2ad</guid>
+      <pubDate>Fri, 05 Sep 2014 07:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/e730173df08633a9f0759a1faab1925a0b9e3719</link>
+      <description>
+      &lt;pre&gt;- design/standard/templates/owsimpleoperator/backoffice_content.tpl
+- design/standard/templates/owsimpleoperator/backoffice_left_menu.tpl
+- design/standard/templates/owsimpleoperator/backoffice_operator_not_found.tpl
+- design/standard/templates/owsimpleoperator/example_sum.tpl
+- modules/OWSimpleOperator/example.php
+- modules/OWSimpleOperator/module.php
+- settings/design.ini.append.php
+- settings/module.ini.append.php
+- settings/owsimpleoperator.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove back-office template operator documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/e730173df08633a9f0759a1faab1925a0b9e3719</guid>
+      <pubDate>Sun, 27 Jan 2013 13:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/b7460f1ce49e282074d03eccc7a0f66ecbb5d4ed</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a link to the official OPEN WIDE website&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/b7460f1ce49e282074d03eccc7a0f66ecbb5d4ed</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/2d42de8a3533941ece3f61c5452bac7b2c560488</link>
+      <description>
+      &lt;pre&gt;m README.md
+m autoloads/owsimpleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:Open-Wide/OWSimpleOperator&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/2d42de8a3533941ece3f61c5452bac7b2c560488</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/f7ad331d0fa00f3937be084182c651c1d9888b4c</link>
+      <description>
+      &lt;pre&gt;- autoloads/.svn/entries
+- autoloads/.svn/prop-base/exampleoperator.php.svn-base
+- autoloads/.svn/prop-base/eztemplateautoload.php.svn-base
+- autoloads/.svn/prop-base/owsimpleoperator.php.svn-base
+- autoloads/.svn/text-base/exampleoperator.php.svn-base
+- autoloads/.svn/text-base/eztemplateautoload.php.svn-base
+- autoloads/.svn/text-base/owsimpleoperator.php.svn-base
+- settings/.svn/entries
+- settings/.svn/prop-base/site.ini.append.php.svn-base
+- settings/.svn/text-base/site.ini.append.php.svn-base
+- settings/LICENSE
+- settings/README.md
+- settings/autoloads/.svn/entries
+- settings/autoloads/.svn/prop-base/exampleoperator.php.svn-base
+- settings/autoloads/.svn/prop-base/eztemplateautoload.php.svn-base
+- settings/autoloads/.svn/prop-base/owsimpleoperator.php.svn-base
+- settings/autoloads/.svn/text-base/exampleoperator.php.svn-base
+- settings/autoloads/.svn/text-base/eztemplateautoload.php.svn-base
+- settings/autoloads/.svn/text-base/owsimpleoperator.php.svn-base
+- settings/autoloads/exampleoperator.php
+- settings/autoloads/eztemplateautoload.php
+- settings/autoloads/owsimpleoperator.php
+- settings/extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove extra files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/f7ad331d0fa00f3937be084182c651c1d9888b4c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/4b731ddbdafa4c5088dbfb89eda2cd57dc256075</link>
+      <description>
+      &lt;pre&gt;m autoloads/owsimpleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add the Copyright and the GPL licence.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/4b731ddbdafa4c5088dbfb89eda2cd57dc256075</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/9357d3264e2ea3d4a5c0e140f0c4e294ab88853f</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add break lines&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/9357d3264e2ea3d4a5c0e140f0c4e294ab88853f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/3fa84047fd62c2383c873cd931fa7cc699ad6b88</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;few corrections&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/3fa84047fd62c2383c873cd931fa7cc699ad6b88</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/14d3461481691ce2f4a7510c7c438a1c118fa725</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ README.md
++ autoloads/.svn/entries
++ autoloads/.svn/prop-base/exampleoperator.php.svn-base
++ autoloads/.svn/prop-base/eztemplateautoload.php.svn-base
++ autoloads/.svn/prop-base/owsimpleoperator.php.svn-base
++ autoloads/.svn/text-base/exampleoperator.php.svn-base
++ autoloads/.svn/text-base/eztemplateautoload.php.svn-base
++ autoloads/.svn/text-base/owsimpleoperator.php.svn-base
++ autoloads/exampleoperator.php
++ autoloads/eztemplateautoload.php
++ autoloads/owsimpleoperator.php
++ extension.xml
++ settings/.svn/entries
++ settings/.svn/prop-base/site.ini.append.php.svn-base
++ settings/.svn/text-base/site.ini.append.php.svn-base
++ settings/LICENSE
++ settings/README.md
++ settings/autoloads/.svn/entries
++ settings/autoloads/.svn/prop-base/exampleoperator.php.svn-base
++ settings/autoloads/.svn/prop-base/eztemplateautoload.php.svn-base
++ settings/autoloads/.svn/prop-base/owsimpleoperator.php.svn-base
++ settings/autoloads/.svn/text-base/exampleoperator.php.svn-base
++ settings/autoloads/.svn/text-base/eztemplateautoload.php.svn-base
++ settings/autoloads/.svn/text-base/owsimpleoperator.php.svn-base
++ settings/autoloads/exampleoperator.php
++ settings/autoloads/eztemplateautoload.php
++ settings/autoloads/owsimpleoperator.php
++ settings/extension.xml
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;first commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/14d3461481691ce2f4a7510c7c438a1c118fa725</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/339832935764f6287dc2c883b35f2fac2fcbe5b6</link>
+      <description>
+      &lt;pre&gt;m autoloads/owsimpleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve the research of operators list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/339832935764f6287dc2c883b35f2fac2fcbe5b6</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/a7f65d4f2f0dbabb9f592f445964fbc2ab417674</link>
+      <description>
+      &lt;pre&gt;+ autoloads/owezpautoloader.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve the research of operators list&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/a7f65d4f2f0dbabb9f592f445964fbc2ab417674</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/9e817beee18434e481297498111339ed2d8bb4ef</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Typo correcting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/9e817beee18434e481297498111339ed2d8bb4ef</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/94069de7073f46d748ba4f9d5091bdc3001b0629</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add the "public" keyword in fornt of operator method&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/94069de7073f46d748ba4f9d5091bdc3001b0629</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/08a2761c00dcd4f0e9f8c7065bc3b0f9ff851900</link>
+      <description>
+      &lt;pre&gt;m autoloads/exampleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove the debug line =/&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/08a2761c00dcd4f0e9f8c7065bc3b0f9ff851900</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/3dfcadd1a2278db1bfc8b77f0682e7339ad7e61f</link>
+      <description>
+      &lt;pre&gt;m autoloads/exampleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "public" keyword in front of the method definition.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/3dfcadd1a2278db1bfc8b77f0682e7339ad7e61f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/8c2c8e90b2f832b3bf9df5016854ecf874eead5a</link>
+      <description>
+      &lt;pre&gt;m autoloads/owsimpleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove the include line.
+Add the "public" or "protected" keyword for the methods.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/8c2c8e90b2f832b3bf9df5016854ecf874eead5a</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/3346c3357adeebc5675a959fef6a1d0f546a60a1</link>
+      <description>
+      &lt;pre&gt;+ design/standard/templates/owsimpleoperator/backoffice_content.tpl
++ design/standard/templates/owsimpleoperator/backoffice_left_menu.tpl
++ design/standard/templates/owsimpleoperator/backoffice_operator_not_found.tpl
++ design/standard/templates/owsimpleoperator/example_sum.tpl
++ modules/OWSimpleOperator/example.php
++ modules/OWSimpleOperator/module.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/owsimpleoperator.ini.append.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add example module&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/3346c3357adeebc5675a959fef6a1d0f546a60a1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/owsimpleoperator/subversion/3a5878736009be056c8fe2ae41739f3df373a4c5</link>
+      <description>
+      &lt;pre&gt;m autoloads/owsimpleoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add automatic debug output when an operator is launch. 
+It could be desactivate by overriding the automatic_debug_output attribute.
+Improve the indentation.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/owsimpleoperator/subversion/3a5878736009be056c8fe2ae41739f3df373a4c5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / recaptcha__ez4_</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:40:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:40:27 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30200" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/recaptcha_ez4/news/changelog</link>
+      <description>&lt;p&gt;
+# v1.0 4 Jan 2008&lt;br /&gt;
+ Initial version&lt;br /&gt;
+ #v1.1 29 Jan 2008&lt;br /&gt;
+ + added ability to have different keys per domain&lt;br /&gt;
+ + added ability to set permissions to bypass captcha&lt;br /&gt;
+ #v1.2 15 Dec 2008&lt;br /&gt;
+ + fixed JS issues reported in IE7 by Lukasz Serwatka @&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/recaptcha_ez4/news/changelog</guid>
+      <pubDate>Mon, 15 Dec 2008 02:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>recaptcha4ez4-gpl-1.2.tgz</title>
+      <link>http://projects.ez.no/recaptcha_ez4/downloads/recaptcha4ez4_gpl_1_2_tgz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/recaptcha_ez4/downloads/recaptcha4ez4_gpl_1_2_tgz</guid>
+      <pubDate>Mon, 15 Dec 2008 02:21:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

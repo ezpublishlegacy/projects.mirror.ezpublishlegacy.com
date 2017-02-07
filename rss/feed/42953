@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qhautosave / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:45:41 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:45:41 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/42953" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Awesome extension, just...</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/awesome_extension_just</link>
+      <description>Hi,&#13;
+&#13;
+First thank you very much for this contribution.&#13;
+I noticed a problem with autosaving pages that contains a "ezobjectrelationlist" datatype, in "browse" mode, the "priority" field that is saved is almost always wrong.&#13;
+Tried after deactivating the autosave extension and it works.&#13;
+Using "Community project 2012.6" with the bundled autosave extension.&#13;
+&#13;
+Have a nice day,&#13;
+&#13;
+Romain Petit.</description>
+      <author>community@ez.no (Romain Petit)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/awesome_extension_just</guid>
+      <pubDate>Tue, 21 Aug 2012 11:12:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not working with frontend editor?</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/not_working_with_frontend_editor</link>
+      <description>In some of my installations, QH AutoSave didn't work out of the box.&#13;
+After investigating it was because jQuery file was loaded after qhautosave.js.&#13;
+&#13;
+The solution is either override the file page_head_script.tpl and load 'ezjsc::jquery', 'ezjsc::jqueryio' from there before the frontend scripts.&#13;
+&#13;
+Or edit extension/qhautosave/settings/design.ini.append.php and add the following lines to the JavaScriptSettings section:&#13;
+FrontendJavaScriptList[]=ezjsc::jquery&#13;
+FrontendJavaScriptList[]=ezjsc::jqueryio&#13;
+</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/not_working_with_frontend_editor</guid>
+      <pubDate>Sat, 26 Nov 2011 15:58:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval10</link>
+      <description>Thanks Heath for doing the support for this extension :-D&#13;
+And yes I confirm that you now need both three extensions.&#13;
+But I've made your life easier by creating a combo package. Just download the most recent combo package and in your eZ Publish back office:&#13;
+ - go in Setup &gt; Packages &gt; Import new package &gt; select your combo package &gt; install package&#13;
+ - go to Setup &gt; Extensions, the three extensions should already be activated, if not then activate them in site.ini&#13;
+ - go to Setup &gt; Extensions and click on the button saying Regenerate autoloads ...&#13;
+ - click on 'Clear all' caches.&#13;
+ - that's it.</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval10</guid>
+      <pubDate>Fri, 04 Nov 2011 21:48:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval9</link>
+      <description>Hello A Fowler,&#13;
+&#13;
+Yes, you must now enable all three of the required extensions within your desired siteaccess or override site.ini.append.php settings as they are required for the functionality of the main extension qhautosave.&#13;
+&#13;
+I hope this helps ...&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval9</guid>
+      <pubDate>Fri, 04 Nov 2011 21:29:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval8</link>
+      <description>Thanks for this excellent extension!  Our editors have been clamoring for this for a long time!&#13;
+&#13;
+About the other extensions-- you are saying we now need to download those and enable those as well in our site.ini?&#13;
+&#13;
+Thanks for clarifying!</description>
+      <author>community@ez.no (A Fowler)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval8</guid>
+      <pubDate>Fri, 04 Nov 2011 21:12:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval7</link>
+      <description>Hi Yassine&#13;
+&#13;
+The GitHub version now handles translations.&#13;
+qhautosave now requires two other extensions qhjsiniloader (used for loading INI and translations) and qhnotifications.&#13;
+&#13;
+Huy</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval7</guid>
+      <pubDate>Fri, 28 Oct 2011 17:53:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed7</link>
+      <description>@nico, I've externalized the notification system as you have suggested in a separate extension using a Stack Overflow similar system.&#13;
+&#13;
+Will be packaging it soon.&#13;
+&#13;
+The current features:&#13;
+ - injects HMTL code to avoid tpl editing&#13;
+ - text close button ( [X] ), will add graphic one later&#13;
+ - you can insert multiple notification messages they will be appended one below the other&#13;
+ - you can add a sticky message that cannot be removed (used by QH AutoSave cuz it's a recurrent one)&#13;
+ - you can assign a notification ID, so it is possible to replace an already displayed message (used by QH AutoSave)&#13;
+ - jQuery animated notification removal (resize)&#13;
+&#13;
+TODO:&#13;
+ - if there are more than two notification messages, only display two and add an 'expand' button at the bottom&#13;
+ - allow the use of cookies to store notification messages for persistent messages&#13;
+ - allow the use cookies to avoid displaying a notification message if the user has already seen it&#13;
+&#13;
+Also implemented and will be packaged later on: externalization of the ezjscore server function to load eZ INI file. This new extension allows all JS projects in eZ Publish to load a configuration from an INI file qhjsiniloader.ini:&#13;
+&lt;code&gt;&#13;
+[QHJSINILoaderSettings]&#13;
+AvailableLoaders[]=my_project&#13;
+&#13;
+[my_project]&#13;
+Parameters[param1_name]=param1_value&#13;
+Parameters[param2_name]=param2_value&#13;
+&lt;/code&gt;&#13;
+&#13;
+To use it, a JS file will include:&#13;
+&lt;code&gt;&#13;
+if( typeof QHJSINILoader != 'undefined' ) {&#13;
+    // Returns the JSON version of eZINI::variable( 'my_project', 'Parameters' )&#13;
+    QHJSINILoader.init( 'my_project', callback_function );&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+This will allow a single Ajax call (per page) to load INI settings for multiple projects.&#13;
+&#13;
+Available on GitHub:&#13;
+https://github.com/quochuy/qhjsiniloader&#13;
+https://github.com/quochuy/qhnotifications&#13;
+</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed7</guid>
+      <pubDate>Thu, 27 Oct 2011 16:35:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed6</link>
+      <description>@Marko, thank you. Google is always a great source of inspiration.&#13;
+@Nico, great idea indeed. I will investigate that and also the bug you mentioned.</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed6</guid>
+      <pubDate>Thu, 27 Oct 2011 08:53:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed5</link>
+      <description>Google documents have a nice way of notifying you about autosaving.&#13;
+&#13;
+You could take the idea from there...</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed5</guid>
+      <pubDate>Tue, 25 Oct 2011 10:23:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed4</link>
+      <description>Hi Huy, &#13;
+&#13;
+The pulsing bar is indeed very discreet, but imho lacks clarity : an editor might not know what this corresponds to, thus not have the increased comfort feeling the auto-save feature brings. I'd make it more visible. &#13;
+&#13;
+I have had issues with the "label" mode on a 2011.8 install : the pulsing bar mode persists no matter what, although the configuration returned by ezjscore is as follows : &#13;
+&#13;
+&lt;code&gt;&#13;
+{"error_text":"","content":"{\"autosave_interval\":15000,\"warn_on_unload\":true,\"notification_method\":\"label\"}"}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Bug or misconfiguration on my side ?&#13;
+&#13;
+Back to the very topic : i love the http://stackoverflow.com notification bar. Visible, yet discreet, close-able. We will soon need on share.ez.no such a visual, front-end notification system and i had initially thought of making it a dedicated project on projects.ez.no : would you consider externalizing this as a portable, universal notification bar with a simple JS api ? I'd obviously step-in on the project to help.&#13;
+&#13;
+Cheers,   </description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed4</guid>
+      <pubDate>Mon, 24 Oct 2011 13:39:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed3</link>
+      <description>Thanks mate</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed3</guid>
+      <pubDate>Thu, 20 Oct 2011 13:47:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed2</link>
+      <description>Hello Quoc Huy,&#13;
+&#13;
+Just a quick note from me today.&#13;
+&#13;
+Thanks for the new release updates.&#13;
+&#13;
+Your really doing a great job! Keep up the great work!&#13;
+&#13;
+Cheers,&#13;
+//kracker&#13;
+&#13;
+&lt;b&gt;Sole: Dispatches From The American Fall: Blood Libel&lt;/b&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed2</guid>
+      <pubDate>Wed, 19 Oct 2011 19:12:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed</link>
+      <description>I've added in v1.0beta3 support to a new notification method, additionally to the text label you can now choose to notify with a 2 pixels pulsing line.</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed/re_notification_bar_ideas_needed</guid>
+      <pubDate>Wed, 19 Oct 2011 11:59:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval6</link>
+      <description>Thanks for the comment thing and suggestions.&#13;
+</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval6</guid>
+      <pubDate>Wed, 19 Oct 2011 11:58:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval5</link>
+      <description>With the same way of using ezjscore, it could be nice to make the extension translatable using translations folder and ts files.</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval5</guid>
+      <pubDate>Tue, 18 Oct 2011 21:59:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval4</link>
+      <description>Awesome!&#13;
+&#13;
+Just change the following comment (ezstarrating) in ezjscore.ini with the right exemple of qhautosave &#13;
+&#13;
+# &lt;root&gt;/ezjscore/call/ezstarrating::rate::&lt;contentobjectattribute_id&gt;::&lt;version&gt;::&lt;rating&gt;&#13;
+&#13;
+Thanks. Keep up the good work.</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval4</guid>
+      <pubDate>Tue, 18 Oct 2011 21:28:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notification bar - ideas needed</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed</link>
+      <description>Currently when the autosave process is completed, there is an orange notification bar appearing on the top of the page and then disappears after couple of seconds.&#13;
+&#13;
+This could annoy certain people that get distracted by blinking coloured items while they are editing.&#13;
+&#13;
+In his review, Nicolas has suggested gmail/docs autosave notification style by adding a text and changing the button label. This could work well on the frontend editor but in the back office with admin2 design, the buttons are at the top and bottom of the page and are not always visible.&#13;
+&#13;
+So I'm launching this topic to gather some ideas.&#13;
+&#13;
+Maybe instead of orange I could do with white and dotted light grey border?</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/notification_bar_ideas_needed</guid>
+      <pubDate>Tue, 18 Oct 2011 19:26:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval3</link>
+      <description>OK, the feature is now available in GitHub:&#13;
+https://github.com/quochuy/qhautosave&#13;
+&#13;
+I will package it later on.</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval3</guid>
+      <pubDate>Tue, 18 Oct 2011 18:51:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval2</link>
+      <description>Thanks guys&#13;
+&#13;
+That is a feature I wanted to add at the beginning but then scoped out for the first beta releases as I need to give more thought on optimising the Ajax call for just retrieving ini settings. So stay tuned as it will be for very soon.&#13;
+&#13;
+Huy</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval2</guid>
+      <pubDate>Tue, 18 Oct 2011 16:15:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval</link>
+      <description>Hello Quoc Huy,&#13;
+&#13;
+Thank you again for creating this solution, you are truly an eZ Publish saint!&#13;
+&#13;
+I agree with Yassine, This was the first area customization I thought could be helpful to others.&#13;
+&#13;
+Keep rockin "Boss" ;)&#13;
+&#13;
+Cheers,&#13;
+//kracker&#13;
+&#13;
+&lt;b&gt;Theme: Rick Ross (Feat. Nicki Minaj) – You The Boss&lt;/b&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval/re_setting_a_autosave_interval</guid>
+      <pubDate>Tue, 18 Oct 2011 15:14:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Setting a autosave Interval</title>
+      <link>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval</link>
+      <description>Hello,&#13;
+&#13;
+It’s a very useful extension. This is a "Must Extension" for eZpublish :)&#13;
+&#13;
+We currently cannot set a autosave Interval ? &#13;
+&#13;
+Maybe you could add this feature by using ezjscore to load this value from an INI file.&#13;
+&#13;
+Thanks&#13;
+</description>
+      <author>community@ez.no (Yassine HANINI)</author>
+      <guid>http://projects.ez.no/ezautosave/forum/general/setting_a_autosave_interval</guid>
+      <pubDate>Tue, 18 Oct 2011 12:55:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

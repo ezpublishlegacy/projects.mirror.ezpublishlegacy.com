@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / all2e1pixeloutmp3flashplayer / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:11:08 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:11:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13183" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Planned upgrades</title>
+      <link>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/planned_upgrades</link>
+      <description>just wondering if there is any on going support for this extension?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/planned_upgrades</guid>
+      <pubDate>Fri, 08 Oct 2010 13:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Layman's example</title>
+      <link>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/layman_s_example</link>
+      <description>Can some provide an example on how they're using this extension?</description>
+      <author>community@ez.no (DeAndre Johnson)</author>
+      <guid>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/layman_s_example</guid>
+      <pubDate>Tue, 13 Oct 2009 11:42:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>htaccess question</title>
+      <link>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/htaccess_question</link>
+      <description>Hi there;&#13;
+&#13;
+Everything would be allright if not the classic ezpublish htaccess... &#13;
+&#13;
+&lt;code&gt;&#13;
+php_value allow_call_time_pass_reference 0&#13;
+php_value magic_quotes_gpc 0&#13;
+&#13;
+&lt;FilesMatch "."&gt;&#13;
+order allow,deny&#13;
+deny from all&#13;
+&lt;/FilesMatch&gt;&#13;
+&#13;
+&lt;FilesMatch "(index\.php|\.(gif|jpe?g|ico|png|swf|mp3|pdf|css|js|html)|var(.+)storage.pdf(.+)\.pdf)$"&gt;&#13;
+order allow,deny&#13;
+allow from all&#13;
+&lt;/FilesMatch&gt;&#13;
+&#13;
+&lt;FilesMatch "\.(swf|mp3|js)$"&gt;&#13;
+order allow,deny&#13;
+allow from all&#13;
+&lt;/FilesMatch&gt;&#13;
+&#13;
+# If you see "Forbidden" when trying to access root page of your site&#13;
+# without 'index.php' appended, uncomment the following "Files" section.&#13;
+# NOTE: replace "ezpublish-3.6.0" with base name of the directory&#13;
+# where your eZ Publish intallation resides.&#13;
+# e.g. base name of "/sites/ezpublish/ezpublish-3.6.0" is "ezpublish-3.6.0".&#13;
+&#13;
+&#13;
+&lt;Files "ezpublish"&gt;&#13;
+order allow,deny  &#13;
+allow from all&#13;
+&lt;/Files&gt;&#13;
+&#13;
+DirectoryIndex index.php&#13;
+&#13;
+Options +FollowSymlinks&#13;
+RewriteEngine On&#13;
+&#13;
+RewriteRule !\.(gif|jpe?g|png|css|js|jar|html)|var(.+)storage.pdf(.+)\.pdf?$ - [C]&#13;
+RewriteCond %{HTTP_HOST} ^webdav\..*&#13;
+RewriteRule ^(.*) webdav.php [L]&#13;
+RewriteCond %{HTTP_HOST} ^soap\..*&#13;
+RewriteRule ^(.*) soap.php [L]&#13;
+RewriteRule ^var/cache/debug.html.* - [L]&#13;
+RewriteRule ^var/[^/]+/cache/debug.html.* - [L]&#13;
+Rewriterule ^var/storage/.* - [L]&#13;
+Rewriterule ^var/[^/]+/storage/.* - [L]&#13;
+RewriteRule ^var/cache/texttoimage/.* - [L]&#13;
+RewriteRule ^var/[^/]+/cache/texttoimage/.* - [L]&#13;
+Rewriterule ^design/[^/]+/(stylesheets|images|javascript)/.* - [L]&#13;
+Rewriterule ^share/icons/.* - [L]&#13;
+Rewriterule ^extension/[^/]+/design/[^/]+/(stylesheets|images|javascripts?)/.* - [L]&#13;
+Rewriterule ^packages/styles/.+/(stylesheets|images|javascript)/[^/]+/.* - [L]&#13;
+RewriteRule .* index.php [L]&#13;
+&lt;/code&gt;&#13;
+&#13;
+Because of htaccess the player doesn't want to show. If I disable htaccess, it normally shows. how to make it accept the player and mp3 file? I have my mp3s located in ez publish root in a custom folder.&#13;
+&#13;
+I had to locate player.swf and mp3 files outside the eZ root to make it work.&#13;
+&#13;
+Besides, the output doesn't validate. I suggest using SWFObject for embedding flash player... can this be done?</description>
+      <author>community@ez.no (Noicokuna Niemoge)</author>
+      <guid>http://projects.ez.no/all2e1pixeloutmp3flashplayer/forum/general/htaccess_question</guid>
+      <pubDate>Mon, 02 Feb 2009 10:15:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

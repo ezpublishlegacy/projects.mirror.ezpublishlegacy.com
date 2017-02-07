@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezmigrationtools / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:12:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:12:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19810" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>looks interesting</title>
+      <link>http://projects.ez.no/ezmigrationtools/forum/general/looks_interesting</link>
+      <description>Thank's for sharing.&#13;
+I will give it a try.&#13;
+&#13;
+It is possible to have specific task for specifik updates?&#13;
+&#13;
+for example for update  401 to 420 directly we rename the db or copy it first ....&#13;
+for minor update not.&#13;
+&#13;
+At the moment i have a shell script and 1 sql where i have all the update code inside.&#13;
+&#13;
+Thank's&#13;
+Greetings from Germany&#13;
+Felix Woldt&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezmigrationtools/forum/general/looks_interesting</guid>
+      <pubDate>Fri, 30 Apr 2010 08:51:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: README.txt translation - French to English</title>
+      <link>http://projects.ez.no/ezmigrationtools/forum/general/readme_txt_translation_french_to_english/re_readme_txt_translation_french_to_english</link>
+      <description>thank you for this translation, I will add it to the source.</description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/ezmigrationtools/forum/general/readme_txt_translation_french_to_english/re_readme_txt_translation_french_to_english</guid>
+      <pubDate>Sat, 07 Nov 2009 07:28:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: What is the minimum version you take into a...</title>
+      <link>http://projects.ez.no/ezmigrationtools/forum/general/what_is_the_minimum_version_you_take_into_account/re_what_is_the_minimum_version_you_take_into_a</link>
+      <description>Actually it takes the migration from 4.0.3 to 4.1.3.&#13;
+&#13;
+I intend to add the scripts for migration to 4.2.&#13;
+&#13;
+But you can add your on migration sequence in the ini configuration file.&#13;
+&#13;
+I will push some updates on that.</description>
+      <author>community@ez.no (Jean-Luc Chassaing)</author>
+      <guid>http://projects.ez.no/ezmigrationtools/forum/general/what_is_the_minimum_version_you_take_into_account/re_what_is_the_minimum_version_you_take_into_a</guid>
+      <pubDate>Sat, 07 Nov 2009 07:26:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is the minimum version you take into account ?</title>
+      <link>http://projects.ez.no/ezmigrationtools/forum/general/what_is_the_minimum_version_you_take_into_account</link>
+      <description>Hi,&#13;
+&#13;
+Thanks for sharing, I'm guessing that's been developed for the french gendarmerie and only works with their configuration initial version.&#13;
+&#13;
+What is the lowest version you take into account ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ezmigrationtools/forum/general/what_is_the_minimum_version_you_take_into_account</guid>
+      <pubDate>Fri, 06 Nov 2009 20:29:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>README.txt translation - French to English</title>
+      <link>http://projects.ez.no/ezmigrationtools/forum/general/readme_txt_translation_french_to_english</link>
+      <description>Via http://translate.google.com&#13;
+=======================&#13;
+&#13;
+################################################## #############################&#13;
+# #&#13;
+# # SHOT OPERATION MIGRATION&#13;
+# #&#13;
+# Migration of eZ Publish 4.0.3 to 4.1.3 #&#13;
+# #&#13;
+################################################## #############################&#13;
+&#13;
+1 / Place the source in a new directory&#13;
+&#13;
+1.1 / Ensure that the sources have been correctly modified:&#13;
+Sql scripts found in update/database/mysql/4.1 / should be&#13;
+modified to comment lines to be applied for&#13;
+earlier version of ezpublish.&#13;
+&#13;
+1.2 / New extensions:&#13;
+Make sure the questions are these new extensions are:&#13;
+- Ezoe (online editor)&#13;
+- Ezwt (toolbar)&#13;
+&#13;
+2 / Copy the directory extension settings and var&#13;
+&#13;
+2.1 / Extensions&#13;
+&#13;
+cp [folderOrig] / extension / gendarmerie [folderDest] / extension&#13;
+cp [folderOrig] / extension / gendarmerie_sec [folderDest] / extension&#13;
+&#13;
+2.2 / Settings&#13;
+&#13;
+cp [folderOrig] / settings / override [folderDest] / settings /&#13;
+cp [folderOrig] / settings / siteaccess [folderDest] / settings /&#13;
+&#13;
+     2.3 / Var&#13;
+     &#13;
+         cp [folderOrig] / var [folderDest] /&#13;
+        &#13;
+3 / Support for new extensions&#13;
+&#13;
+3.1 / Rich Text:&#13;
+ezoe extension replaces the extension ezdhtml&#13;
+&#13;
+file in the "settings / override / site.ini.append.php on line&#13;
+ActiveExtensions [] = ezdhtml replaced by ezdhtml ezoe&#13;
+&#13;
+3.2 / Migration Tool:&#13;
+add the line: ActiveExtensions [] = ezmigrationtools in the file&#13;
+settings / override / site.ini.append.php&#13;
+&#13;
+     3.3 / Tool bar:&#13;
+     replace "ezwebsitetoolbar" in the configuration&#13;
+     changes in all configuration files site.ini.append.php&#13;
+     for this it to use the script updatetoolbar&#13;
+    &#13;
+3.4 / Empty the cache site:&#13;
+     php bin / php / ezcache.php - clear-all - purge&#13;
+    &#13;
+     3.5 / Regenerating autoload:&#13;
+     php bin / php / ezpgenerateautoloads.php&#13;
+    &#13;
+4 / Migrate site&#13;
+&#13;
+4.1 / Configuration file:&#13;
+Ensure that the configuration file migration tool is&#13;
+correct:&#13;
+extension / ezmigrationtools / settings / migration.ini&#13;
+&#13;
+4.2 / Run the migration script:&#13;
+php extension / ezmigrationtools / bin / php / ezversionmigration.php&#13;
+&#13;
+4.3 / Run the script rights correction:&#13;
+check the configuration database in updatepolicies&#13;
+then run:&#13;
+&#13;
+. / extension / ezmigrationtools / bin / linux / updatepolicies&#13;
+&#13;
+&#13;
+&#13;
+5 / Empty the cache site:&#13;
+&#13;
+php bin / php / ezcache.php - clear-all - purge&#13;
+&#13;
+6 / Changing rewrite rules&#13;
+    &#13;
+Add the following rewrite rule:&#13;
+RewriteRule ^ / var /[^/]+/ cache / public / .* - [L]&#13;
+&#13;
+7 / Implementation of new prod sources:&#13;
+&#13;
+- Make a backup of any ancient sources.&#13;
+- Rename the directory of old sources&#13;
+- Rename the directory of new sources of giving the&#13;
+former.&#13;
+&#13;
+8 / Go to website:&#13;
+&#13;
+1 / Test of different access, front, back, edition&#13;
+&#13;
+2 / Update rights in different sub sites for taking&#13;
+load of new extensions. </description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezmigrationtools/forum/general/readme_txt_translation_french_to_english</guid>
+      <pubDate>Tue, 27 Oct 2009 03:42:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

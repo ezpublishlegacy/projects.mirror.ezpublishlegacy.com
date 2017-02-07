@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezstringindexed</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:16:18 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:16:18 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31508" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ezstringindexed/news/changelog</link>
+      <description>&lt;p&gt;
+14/02/07&lt;br /&gt;
+ - Added google navigator-like&lt;br /&gt;
+ - Reduced timer before auto-query and reduced minimum character to&lt;br /&gt;
+ 2&lt;br /&gt;
+ - Added index on ezsitablestructure.sql&lt;br /&gt;
+ - A few CSS changes&lt;br /&gt;
+ 06/02/07 :&lt;br /&gt; - Initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Nabil Alimi)</author>
+      <guid>http://projects.ez.no/ezstringindexed/news/changelog</guid>
+      <pubDate>Wed, 14 Feb 2007 11:14:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezstringindexed.zip</title>
+      <link>http://projects.ez.no/ezstringindexed/downloads/ezstringindexed_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/ezstringindexed/downloads/ezstringindexed_zip</guid>
+      <pubDate>Wed, 14 Feb 2007 11:14:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

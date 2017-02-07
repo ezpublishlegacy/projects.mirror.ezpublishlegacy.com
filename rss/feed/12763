@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcarraysort</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:31:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:31:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12763" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>bcarraysort rev. 4 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcarraysort/subversion/4</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bcarraysort</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcarraysort/subversion/4</guid>
+      <pubDate>Mon, 28 Nov 2011 10:15:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>BC Array Sort sources migrate to GitHub</title>
+      <link>http://projects.ez.no/bcarraysort/news/bc_array_sort_sources_migrate_to_github</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the migration of this&amp;nbsp;&lt;a href="http://projects.ez.no/bcarraysort" target="_self"&gt;project's&lt;/a&gt; source repositories to &lt;a href="https://github.com/brookinsconsulting/bcarraysort" target="_self"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/brookinsconsulting/bcarraysort" target="_self"&gt;https://github.com/brookinsconsulting/bcarraysort&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The BC Array Sort extension remains a projects.ez.no project, only our preferred source control has changed.&lt;/p&gt;&lt;p&gt;Feel free to checkout this extension or any of our other solutions available on projects.ez.ez.no and GitHub.&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcarraysort/news/bc_array_sort_sources_migrate_to_github</guid>
+      <pubDate>Mon, 28 Nov 2011 10:04:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort rev. 3 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcarraysort/subversion/3</link>
+      <description>Added: Initial import of bcarraysort operator extension source code</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcarraysort/subversion/3</guid>
+      <pubDate>Mon, 01 Dec 2008 18:35:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcarraysort/subversion/1</link>
+      <description>Added: Trunk Directory</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcarraysort/subversion/1</guid>
+      <pubDate>Mon, 01 Dec 2008 18:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcarraysort/subversion/2</link>
+      <description>Added: trunk extension directory</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcarraysort/subversion/2</guid>
+      <pubDate>Mon, 01 Dec 2008 18:35:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort.tar.bz2</title>
+      <link>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_tar_bz2</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_tar_bz2</guid>
+      <pubDate>Mon, 01 Dec 2008 18:29:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort.zip</title>
+      <link>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_zip</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_zip</guid>
+      <pubDate>Mon, 01 Dec 2008 18:28:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcarraysort.tar.gz</title>
+      <link>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcarraysort/downloads/releases/1_0_0/bcarraysort_tar_gz</guid>
+      <pubDate>Mon, 01 Dec 2008 18:27:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

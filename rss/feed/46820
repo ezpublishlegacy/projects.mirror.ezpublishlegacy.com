@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdebug_helper</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:03:49 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:03:49 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46820" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>0.60 released - nicer and more accessible messages, SQL syntax highlighting</title>
+      <link>http://projects.ez.no/ezdebug_helper/news/0_60_released_nicer_and_more_accessible_messages_sql_syntax_highlighting</link>
+      <description>&lt;p&gt;Way in which&amp;nbsp;messages are displayed was modified to make them render faster, feel better (expand/collapse animations) and allow copying text from message body without collapsing it.&lt;/p&gt;&lt;p&gt;Debug messages with SQL queries are now being distinguished from other messages&amp;nbsp;making them easy to filter. SQL syntax is&amp;nbsp;highlighted&amp;nbsp;using &lt;a href="http://alexgorbatchev.com/SyntaxHighlighter/" target="_self"&gt;SytnaxHighlighter&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/news/0_60_released_nicer_and_more_accessible_messages_sql_syntax_highlighting</guid>
+      <pubDate>Wed, 11 Jul 2012 10:53:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>0.50 released - settings page, address bar icon</title>
+      <link>http://projects.ez.no/ezdebug_helper/news/0_50_released_settings_page_address_bar_icon</link>
+      <description>&lt;p&gt;New version of eZDebug Helper was released today. This version features:&lt;/p&gt;&lt;p&gt;- settings page that allows to customize the extension&lt;/p&gt;&lt;p&gt;- address bar icon indicating that eZDebug was found on page and extension is active&lt;/p&gt;</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/news/0_50_released_settings_page_address_bar_icon</guid>
+      <pubDate>Fri, 18 May 2012 16:59:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very helpful, clearly speeding-up development !</title>
+      <link>http://projects.ez.no/ezdebug_helper/reviews/very_helpful_clearly_speeding_up_development</link>
+      <description>Very useful, particularly helpful to beginners who still have difficulties identifying the mapping between a portion of the page and a given eZ Publish template.&#13;
+&#13;
+Keep-up !</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/reviews/very_helpful_clearly_speeding_up_development</guid>
+      <pubDate>Fri, 18 May 2012 12:16:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How it actually works?</title>
+      <link>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works/re_how_it_actually_works</link>
+      <description>I saw this bug on share.ez.no to but I didn't associate it with my extension. &#13;
+&#13;
+Generally speaking this extension shouldn't change anything if it doesn't find a #debug div on a website (and even then nothing like this should have happen). That's strange, I'll investigate it ASAP.&#13;
+&#13;
+Thanks for spotting this!&#13;
+&#13;
+UPDATE: I got it, there were CSS files injected, by my mistake, to every page (they are used to style the developer toolbar panels). Fixed version (0.41) is already released (your Chrome will auto-update). Thanks again!</description>
+      <author>community@ez.no (Konrad Dzwinel)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works/re_how_it_actually_works</guid>
+      <pubDate>Wed, 16 May 2012 12:51:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>How it actually works?</title>
+      <link>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works</link>
+      <description>I ask because I noticed strange behavior on share.ez.no:&#13;
+https://www.dropbox.com/s/05rtbvj2fryqxdo/zrzut_ekranu.png&#13;
+This has happened only after extension activation.</description>
+      <author>community@ez.no (Karol Radziuk)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/forum/general/how_it_actually_works</guid>
+      <pubDate>Wed, 16 May 2012 11:33:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Loving it!</title>
+      <link>http://projects.ez.no/ezdebug_helper/reviews/loving_it</link>
+      <description>Nice work Konrad.  My only suggestions are for the eZ Templates tab:&#13;
+&#13;
+- I'd rather see the actual template loaded first up, then click to see the original + details&#13;
+- I would love to customise the background colours for lines&#13;
+&#13;
+Will recommend to other eZ Publish developers.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezdebug_helper/reviews/loving_it</guid>
+      <pubDate>Tue, 15 May 2012 11:24:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

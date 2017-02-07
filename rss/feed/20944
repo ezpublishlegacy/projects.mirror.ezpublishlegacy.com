@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgenerate / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:11:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:11:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/20944" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezgenerate rev. 6 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/6</link>
+      <description>remove some debug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/6</guid>
+      <pubDate>Tue, 10 Nov 2009 10:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgenerate rev. 5 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/5</link>
+      <description>- docs
+- README</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/5</guid>
+      <pubDate>Tue, 10 Nov 2009 10:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgenerate rev. 4 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/4</link>
+      <description>initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/4</guid>
+      <pubDate>Mon, 09 Nov 2009 13:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgenerate rev. 3 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/3</guid>
+      <pubDate>Mon, 09 Nov 2009 12:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgenerate rev. 2 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/2</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/2</guid>
+      <pubDate>Mon, 09 Nov 2009 12:25:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgenerate rev. 1 by Nicolas Lescure</title>
+      <link>http://projects.ez.no/ezgenerate/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgenerate/subversion/1</guid>
+      <pubDate>Mon, 09 Nov 2009 12:25:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

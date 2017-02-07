@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpdfviewer / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:05 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:05 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18481" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ezpdfviewer 2.0</title>
+      <link>http://projects.ez.no/ezpdfviewer/downloads/ezpdfviewer_2_0</link>
+      <description>&lt;p&gt;Change logs:&lt;/p&gt;&lt;p&gt;
+V 2.0 :&lt;br /&gt;
+------&lt;br /&gt;
+ * rewrited all the code trying to respect ez coding standards &lt;br /&gt;
+ * created a class to handle pdf to flash conversion&lt;br /&gt;
+ * added a context parameter to handle edit mode or view mode . &lt;br /&gt;
+ * added a fullscreen parameter to handle edit mode or view mode .To&lt;br /&gt;
+ display viewer in fullscreen with no pagelayout if needed &lt;br /&gt;
+ * the extension does not open new windows anymore on flashviewer in create/view mode&lt;br /&gt;
+ * the width and height of the swfapplet is now configured from&lt;br /&gt;
+ ezpdfviewer.ini&lt;br /&gt; * errors handled properly, logging the pdf2swf tools error in log file&lt;/p&gt;</description>
+      <author>community@ez.no (Jean-Yves Zinsou)</author>
+      <guid>http://projects.ez.no/ezpdfviewer/downloads/ezpdfviewer_2_0</guid>
+      <pubDate>Sun, 09 Aug 2009 20:05:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

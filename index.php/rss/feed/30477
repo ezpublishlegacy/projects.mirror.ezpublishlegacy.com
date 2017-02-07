@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezjaxx_[ajax_extension] / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:57:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:57:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30477" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ezjaxx_ajax_extension/news/changelog</link>
+      <description>&lt;p&gt;
+1.1.2&lt;br /&gt;
+ * Fixed context overwritten by local variable causing expand menu to&lt;br /&gt;
+ give wrong links while in browse mode&lt;br /&gt;
+ * Fold/unfold not translated in expand menu&lt;br /&gt;
+ 1.1.1&lt;br /&gt;
+ * Fixed media / user menu not expanded regression &lt;br /&gt;
+ 1.1.0&lt;br /&gt;
+ * Improved how you can customize the expand menu, for instance for&lt;br /&gt;
+ using it embeded&lt;br /&gt;
+ Hooks: $custom_ui_context (string), $custom_js_callback (string),&lt;br /&gt;
+ $custom_root_node_id (array || int)&lt;br /&gt;
+ - removed un-needed content/edit.tpl override &lt;br /&gt;
+ + Added Cache manager&lt;br /&gt;
+ * Several speed improvments and clean ups to the content structur&lt;br /&gt;
+ menu&lt;br /&gt;
+ * Reworked cache manager to recreate compiled templates in addition to&lt;br /&gt;
+ deleting them ( currently only works on 'current siteaccess')&lt;br /&gt;
+ * fixed javascript menu problem on node names from expand menu&lt;br /&gt;
+ * fixed Quick search header missing&lt;br /&gt;
+ * fixed translation of Please wait...&lt;br /&gt;
+ 1.0.2&lt;br /&gt;
+ * made ini settings more conservative&lt;br /&gt;
+ !!!! you now have to copy the admin settings from&lt;br /&gt;
+ ezjaxx/settings/ezwebin_site_admin&lt;br /&gt;
+ manually if your admin siteaccess is not called ezwebin_site_admin&lt;br /&gt;
+ * Minor tweaks to improve speed of the content structur menu &lt;br /&gt;
+ * Fixed xdebug warning repported by Frode Austvik&lt;br /&gt; Older stuff in changelog.txt&lt;/p&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjaxx_ajax_extension/news/changelog</guid>
+      <pubDate>Wed, 12 Sep 2007 11:36:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

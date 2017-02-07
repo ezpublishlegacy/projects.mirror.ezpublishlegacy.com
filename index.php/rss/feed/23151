@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nvnewsletter</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:55:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:55:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23151" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Subscription during user registration</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/subscription_during_user_registration/re_subscription_during_user_registration</link>
+      <description>I did create a newdatatype which allow subscription to nvneswletter troghout user registration @ admin : if u want integrate this features in the official release just contact me.. i will send you the files.</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/subscription_during_user_registration/re_subscription_during_user_registration</guid>
+      <pubDate>Sun, 07 Aug 2011 11:54:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subscription during user registration</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/subscription_during_user_registration</link>
+      <description>Hi, there is a simple way to do the subscription to newsletter during the user regsitration?</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/subscription_during_user_registration</guid>
+      <pubDate>Wed, 03 Aug 2011 08:56:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezi18n  to ezpI18n</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/ezi18n_to_ezpi18n</link>
+      <description>I try to install this extension to the new version of ez,,, but i had some problem with ezi18n since is decprecated....&#13;
+i did exchange with ezpI18n::tr and nwo is ok...&#13;
+ifu want i can upload the new package... or else jsut use find and replace ..ezi18n =to=&gt; ezpI18n::tr</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/ezi18n_to_ezpi18n</guid>
+      <pubDate>Fri, 29 Jul 2011 11:16:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Newsletter group is missing.</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/newsletter_group_is_missing/re_newsletter_group_is_missing</link>
+      <description>Solved :&#13;
+jsut modify the ini setting&#13;
+&#13;
+SubscribeSettings &gt; GroupsAllowed &#13;
+Add the id of the allowed group newsletter &#13;
+&#13;
+es.&#13;
+=1&#13;
+&#13;
+and change the &#13;
+SubscribeSetting &gt; GroupsSubscribe&#13;
+&#13;
+es.&#13;
+[1]=Test</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/newsletter_group_is_missing/re_newsletter_group_is_missing</guid>
+      <pubDate>Sat, 26 Mar 2011 10:09:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Newsletter group is missing.</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/newsletter_group_is_missing</link>
+      <description>Hello , i am try to get working this extension, i did add in an xml box the custom tag nvnewsletter...&#13;
+but when i try to subscribe to the newsletter i get this message :&#13;
+&#13;
+Newsletter group is missing.&#13;
+&#13;
+so i have look the tpl code and i saw which the group is taked from the ini file...&#13;
+i created an overide of this setting :&#13;
+SubscribeSetting &gt; 	GroupsSubscribe &#13;
+adding this &#13;
+=test&#13;
+&#13;
+obvisuly i alredy created and test group ( id 2)&#13;
+&#13;
+but i still have that message.&#13;
+&#13;
+where is my mistake?&#13;
+</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/newsletter_group_is_missing</guid>
+      <pubDate>Sat, 26 Mar 2011 09:29:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Hash</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/hash/re_hash2</link>
+      <description>a ok ..i suppose was must be an hash code of somenthing... but in real is jsut a random string ... ok thanks...</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/hash/re_hash2</guid>
+      <pubDate>Sat, 26 Mar 2011 09:22:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Hash</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/hash/re_hash</link>
+      <description>Hi Stefano,&#13;
+there's no specific formula to calculate the hash. Just use any hash. The main idea is that they should be unique among different installations. So just go ahead and change some random characters from the hash.</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/hash/re_hash</guid>
+      <pubDate>Sat, 26 Mar 2011 09:14:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hash</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/hash</link>
+      <description>Sorry, maybe this is a dummy question, i have try to install nwnewsletter, reading the INSTALL file there was this step :&#13;
+&#13;
+HashSettings]&#13;
+    ## Hashes used in unsubscribe links and file names. Don't change file hash after newsletter generation.&#13;
+    ## CHANGE THESE PER INSTALLATION&#13;
+    UserHash=ae877fdc0813f6dd65465d4de126bb5811df56dc375b40cec16d5e2a93828161&#13;
+    FileHash=cc2bd8f09bb88b5dd20f9b432631b8caec7def57dec4a30186c02138b6e831f3&#13;
+&#13;
+&#13;
+&#13;
+how to calculate new hash?</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/hash</guid>
+      <pubDate>Sat, 26 Mar 2011 08:24:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: User subscribe</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe/re_user_subscribe2</link>
+      <description>thanks that is great ..i had the same question</description>
+      <author>community@ez.no (Stefano Gattuso)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe/re_user_subscribe2</guid>
+      <pubDate>Fri, 25 Mar 2011 18:18:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvNewsletter 0.8.1b</title>
+      <link>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_8_1b</link>
+      <description>&lt;p&gt;Version 0.8.1b of&amp;nbsp;&lt;a href="http://projects.ez.no/nvnewsletter" target="_self"&gt;nvNewsletter&lt;/a&gt;&amp;nbsp;published.&lt;/p&gt;&lt;p&gt;- added a workaround for a bug in postfix which broke html emails with (at least) MS Exchange servers&lt;/p&gt;&lt;p&gt;&lt;b&gt;NOTE:&lt;/b&gt;&amp;nbsp;This workaround only requires the addition of one line of code. So if you don't want to update your installation, just add the following:&lt;/p&gt;&lt;p&gt;- In line 82 in classes/nvnewslettermailer.php add the following:&lt;/p&gt;&lt;pre class="" style="font-family:monospace;"&gt;ezcMailTools::setLineBreak&lt;span class="br0"&gt;(&lt;/span&gt;"\n"&lt;span class="br0"&gt;)&lt;/span&gt;;&lt;/span&gt;&lt;/pre&gt;
+
+</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_8_1b</guid>
+      <pubDate>Thu, 10 Mar 2011 13:14:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter-0.8.1b</title>
+      <link>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_8_1b</link>
+      <description></description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_8_1b</guid>
+      <pubDate>Thu, 10 Mar 2011 13:09:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Unsubscribe users</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/how_to_unsubscribe_users</link>
+      <description>Hi,&#13;
+&#13;
+First of all, thanks for the extension, I love it!&#13;
+&#13;
+I'm using your extension and it works fine but I didn't undestand how users can unsubscribe.&#13;
+&#13;
+In your README file I read:&#13;
+&#13;
+Unsubscription&#13;
+--------------&#13;
+&#13;
+- Every email has a personal link which could be used for unsubscribe.&#13;
+- Receiver will be removed from all groups by default. There is no configuration option for partial remove at the moment.&#13;
+&#13;
+Where do I find that personal link to provide to users?</description>
+      <author>community@ez.no (Simone D'Amico)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/how_to_unsubscribe_users</guid>
+      <pubDate>Tue, 22 Feb 2011 17:11:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>No {$#node.node_id} in infobox</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/no_node_node_id_in_infobox</link>
+      <description>Hello.&#13;
+&#13;
+First, thanks for the extension; it's great.&#13;
+&#13;
+I'm having problems using the xml tag in an infobox. It seems that the variable  {$#node.node_id} is not available.&#13;
+&#13;
+Any help? &#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Kiko Magán)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/no_node_node_id_in_infobox</guid>
+      <pubDate>Thu, 13 Jan 2011 15:03:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: User subscribe</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe/re_user_subscribe</link>
+      <description>Hello Sébastien.&#13;
+&#13;
+In a xml box just add a cumtom tag. In the lists of available custom tags you sould have one called nvnewslettersubscribe.&#13;
+&#13;
+Hope this helps.</description>
+      <author>community@ez.no (Kiko Magán)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe/re_user_subscribe</guid>
+      <pubDate>Thu, 13 Jan 2011 15:00:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>User subscribe</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe</link>
+      <description>Hello,&#13;
+I am currently testing your extension.&#13;
+I have not found how the user can subscribe by themselves.&#13;
+Sorry for my english and thank's for reply.</description>
+      <author>community@ez.no (Sébastien Vitry)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/user_subscribe</guid>
+      <pubDate>Thu, 13 Jan 2011 13:29:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvNewsletter 0.8b</title>
+      <link>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_8b</link>
+      <description>&lt;p&gt;Version 0.8b of &lt;a href="/index.php/../../../nvnewsletter" target="_self"&gt;nvNewsletter&lt;/a&gt; published.&lt;/p&gt;&lt;p&gt;
+- few bugfixes&lt;br /&gt;
+- more detailed link click tracking etc. (check doc/README for instructions and limitations)&lt;br /&gt;- automated installation using ezxmlinstaller (check doc/INSTALL for instructions)&lt;/p&gt;&lt;p&gt;&lt;b&gt;NOTE&lt;/b&gt; The svn repository in projects.ez.no is no longer being maintained, please use the provided zip - file in Downloads only.&lt;/p&gt;</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_8b</guid>
+      <pubDate>Mon, 10 Jan 2011 09:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter-0.8b.zip</title>
+      <link>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_8b_zip</link>
+      <description></description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_8b_zip</guid>
+      <pubDate>Mon, 10 Jan 2011 09:29:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error for Copy newsletter</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter/re_fatal_error_for_copy_newsletter2</link>
+      <description>Hi, &#13;
+&#13;
+I'm using version 4.1.4. And indeed if the ezi18n function has been deprecated, it's not a good idea to change the trunk.&#13;
+&#13;
+Regards, &#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter/re_fatal_error_for_copy_newsletter2</guid>
+      <pubDate>Wed, 06 Oct 2010 08:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Fatal error for Copy newsletter</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter/re_fatal_error_for_copy_newsletter</link>
+      <description>Hi Nicolas,&#13;
+&#13;
+which version of eZ publish are you using? It seems that ezi18n was deprecated and replaced with ezpI18n in 4.3.0. So I'm a bit hesitant to make the change in the trunk. &#13;
+&#13;
+Regards,&#13;
+Tuomo</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter/re_fatal_error_for_copy_newsletter</guid>
+      <pubDate>Tue, 05 Oct 2010 07:52:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatal error for Copy newsletter</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter</link>
+      <description>Hi, &#13;
+&#13;
+I have a fatal error when I click on copy newsletter. After parsing the code, i found that is "ezpI18n::tr" function which is source of this problem.&#13;
+&#13;
+I replaced "ezpI18n::tr" function by "ezi18n" in copy_newsletter.php and it's working.&#13;
+&#13;
+Best regards, &#13;
+Nicolas&#13;
+</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/fatal_error_for_copy_newsletter</guid>
+      <pubDate>Tue, 21 Sep 2010 14:39:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: NewsletterNodeID and override for template</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template/re_newsletternodeid_and_override_for_template2</link>
+      <description>Newsletter uses node/view/nvnewsletterhtml.tpl and node/view/nvnewslettertext.tpl templates by default. If you want to create your own templates you can override these default templates with following settings.&#13;
+&#13;
+&lt;code&gt;&#13;
+[my_newsletter_html]&#13;
+Source=node/view/nvnewsletterhtml.tpl&#13;
+MatchFile=newsletter/my_newsletter_html.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=my_newsletter&#13;
+&#13;
+[my_newsletter_text]&#13;
+Source=node/view/nvnewslettertext.tpl&#13;
+MatchFile=newsletter/my_newsletter_text.tpl&#13;
+Subdir=templates&#13;
+Match[class_identifier]=my_newsletter&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template/re_newsletternodeid_and_override_for_template2</guid>
+      <pubDate>Sat, 21 Aug 2010 16:18:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error when removing sent newsletters</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/error_when_removing_sent_newsletters/re_error_when_removing_sent_newsletters</link>
+      <description>Hi,&#13;
+you shouldn't remove newsletters from media/newsletter folder. Use newsletter interface instead. You have to remove rows from nvnewsletter_newsletters db table to remove newsletters without node.</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/error_when_removing_sent_newsletters/re_error_when_removing_sent_newsletters</guid>
+      <pubDate>Sat, 21 Aug 2010 16:11:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error when removing sent newsletters</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/error_when_removing_sent_newsletters</link>
+      <description>Hi&#13;
+&#13;
+&#13;
+I removed sent newsletters via the media/newsletter folder. But when I enter Newsletter from top menu and choose sent from Newsletter states, the newsletters are still present there, although without name. When I try to delete them I've got the following error:&#13;
+&#13;
+Fatal error: Call to a member function attribute() on a non-object in /.../extension/nvnewsletter/classes/nvnewsletter.php on line 206.&#13;
+&#13;
+&#13;
+&#13;
+How to solve this problem?&#13;
+&#13;
+&#13;
+Thanks.&#13;
+&#13;
+</description>
+      <author>community@ez.no (P O)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/error_when_removing_sent_newsletters</guid>
+      <pubDate>Thu, 19 Aug 2010 06:49:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: NewsletterNodeID and override for template</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template/re_newsletternodeid_and_override_for_template</link>
+      <description>Ok,, I got it, the Node_ID refers to the folder that was set up in Media.</description>
+      <author>community@ez.no (P O)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template/re_newsletternodeid_and_override_for_template</guid>
+      <pubDate>Wed, 18 Aug 2010 05:36:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>NewsletterNodeID and override for template</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template</link>
+      <description>Hello.&#13;
+&#13;
+&#13;
+What does NewsletterNodeID refer to and could someone explain "Create override for template" in more details?&#13;
+&#13;
+&#13;
+Thanks in advance.</description>
+      <author>community@ez.no (P O)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/newsletternodeid_and_override_for_template</guid>
+      <pubDate>Sun, 15 Aug 2010 20:57:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvNewsletter 0.7.1b</title>
+      <link>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_7_1b</link>
+      <description>&lt;p&gt;Version 0.7.1b of &lt;a href="/index.php/../../../nvnewsletter" target="_self"&gt;nvNewsletter&lt;/a&gt; published.&lt;/p&gt;&lt;p&gt;
+Fixes a bug found in previous release:&lt;br /&gt;- Fix for URL checking when URL is in newsletter sub node.&lt;/p&gt;</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_7_1b</guid>
+      <pubDate>Thu, 27 May 2010 07:29:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter-0.7.1b.zip</title>
+      <link>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_7_1b_zip</link>
+      <description></description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_7_1b_zip</guid>
+      <pubDate>Thu, 27 May 2010 07:28:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 10 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/10</link>
+      <description>Preparing for 0.7.1b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/10</guid>
+      <pubDate>Thu, 27 May 2010 07:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 11 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/11</link>
+      <description>Tagging the 0.7.1b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/11</guid>
+      <pubDate>Thu, 27 May 2010 07:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 9 by Tero Auralinna</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/9</link>
+      <description>Fix for URL checking when URL is in newsletter sub node.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/9</guid>
+      <pubDate>Thu, 27 May 2010 06:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvNewsletter 0.7b</title>
+      <link>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_7b</link>
+      <description>&lt;p&gt;Version 0.7b of &lt;a href="/index.php/../../../nvnewsletter" target="_self"&gt;nvNewsletter&lt;/a&gt; published. This update includes many bug fixes, changes and new features. Check doc/changelogs. &lt;/p&gt;</description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_7b</guid>
+      <pubDate>Wed, 26 May 2010 08:32:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter-0.7b.zip</title>
+      <link>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_7b_zip</link>
+      <description></description>
+      <author>community@ez.no (Tuomo Syvänperä)</author>
+      <guid>http://projects.ez.no/nvnewsletter/downloads/nvnewsletter_0_7b_zip</guid>
+      <pubDate>Wed, 26 May 2010 08:31:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 7 by Tero Auralinna</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/7</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/7</guid>
+      <pubDate>Wed, 26 May 2010 08:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 8 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/8</link>
+      <description>Tagging the 0.7b release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/8</guid>
+      <pubDate>Wed, 26 May 2010 08:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 6 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/6</link>
+      <description>Ooops, forgot the file :)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/6</guid>
+      <pubDate>Wed, 26 May 2010 07:50:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 5 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/5</link>
+      <description>Added DB update script for engine update
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/5</guid>
+      <pubDate>Wed, 26 May 2010 07:50:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 4 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/4</link>
+      <description>- Replaced some linebreak characters with correct ones (was FUBARed in Linux)
+- Copying a newsletter now correctly copies the whole subtree (including articles etc. under the newsletter)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/4</guid>
+      <pubDate>Wed, 26 May 2010 07:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 3 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/3</link>
+      <description>Fixed wrong DB engine settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/3</guid>
+      <pubDate>Wed, 26 May 2010 06:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 1 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/1</link>
+      <description>Initial directory structure created</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/1</guid>
+      <pubDate>Wed, 26 May 2010 06:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvnewsletter rev. 2 by Tuomo Syvänperä</title>
+      <link>http://projects.ez.no/nvnewsletter/subversion/2</link>
+      <description>Project added to version control</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nvnewsletter/subversion/2</guid>
+      <pubDate>Wed, 26 May 2010 06:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs5</link>
+      <description>In the file classes / nvnewslettermailer.php, if the configuration is SMTP and the server does not support SSL must comment out line 112:&#13;
+&#13;
+/ / $ Options-&gt; CONNECTIONTYPE = ezcMailSmtpTransport: CONNECTION_SSL;</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs5</guid>
+      <pubDate>Wed, 05 May 2010 08:38:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs4</link>
+      <description>Add if (! IsQuiet $) to $ cli-&gt; output in the file "nvnewslettermailsender.php" to enable quiet mode.</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs4</guid>
+      <pubDate>Thu, 15 Apr 2010 12:42:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some problems</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_problems/re_some_problems2</link>
+      <description>Hi,&#13;
+&#13;
+do you have hidden field NodeID in subscribe form? Subscribe module fetch a node and redirect user to this node when registered.&#13;
+&#13;
+In newsletter content class you could use any names you like for html and text areas. Just make sure they are same in templates.&#13;
+&#13;
+We'll look other issues in next release.</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_problems/re_some_problems2</guid>
+      <pubDate>Sun, 04 Apr 2010 10:59:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs3</link>
+      <description>In \design\standard\templates\content\datatype\view\ezxmltags, I disabled header.tpl that comes into conflict and that breaks my display out of the newsletter.</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs3</guid>
+      <pubDate>Fri, 02 Apr 2010 12:46:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs2</link>
+      <description>In link.tpl. The link does not work if an internal link. It would add $#nvn_file_url if is internal link&#13;
+&#13;
+{if and( $classification|eq( 'tracker' ), $#nvn_tracker_url )}&#13;
+    &lt;a href="{$#nvn_tracker_url}{$href}" {if $id} id="{$id}"{/if}{if $title} title="{$title}"{/if}{if $target} target="{$target}"{/if}{if $classification} class="{$classification|wash}"{/if}{if and(is_set( $hreflang ), $hreflang)} hreflang="{$hreflang|wash}"{/if}&gt;{$content}&lt;/a&gt;&#13;
+{else}&#13;
+    &lt;a href={$href|ezurl}{if $id} id="{$id}"{/if}{if $title} title="{$title}"{/if}{if $target} target="{$target}"{/if}{if $classification} class="{$classification|wash}"{/if}{if and(is_set( $hreflang ), $hreflang)} hreflang="{$hreflang|wash}"{/if}&gt;{$content}&lt;/a&gt;&#13;
+{/if}</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs2</guid>
+      <pubDate>Thu, 01 Apr 2010 10:52:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs</link>
+      <description>Fatal error when transport is smtp. Work with sendmail.&#13;
+&#13;
+[MailSettings]&#13;
+#Transport=SMTP&#13;
+Transport=sendmail</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs/re_some_bugs</guid>
+      <pubDate>Wed, 31 Mar 2010 12:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some bugs</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_bugs</link>
+      <description>Hi, &#13;
+&#13;
+In content.ini delete AvailableCustomTags[] and IsInline[]&#13;
+&#13;
+[CustomTagSettings]&#13;
+#AvailableCustomTags[]&#13;
+AvailableCustomTags[]=nvnewslettersubscribe&#13;
+#IsInline[]&#13;
+IsInline[nvnewslettersubscribe]=false&#13;
+&#13;
+&#13;
+In subscribe.php add slash on returnURI.&#13;
+&#13;
+if ( eZMail::validate( $email ) ) &#13;
+{&#13;
+    if ( is_array( $groupIDs ) )&#13;
+    {&#13;
+        $user = nvNewsletterReceiver::subscribe( $email, $groupIDs, $groupTypes );&#13;
+        &#13;
+        if ( $user )&#13;
+        {&#13;
+            $returnURI .= "/($returnParameter)/success";&#13;
+        }&#13;
+        else&#13;
+        {&#13;
+            $returnURI .= "/($returnParameter)/failed";&#13;
+        }&#13;
+    }&#13;
+    else&#13;
+    {&#13;
+        $returnURI .= "/($returnParameter)/groupfailed";&#13;
+    }&#13;
+} &#13;
+else &#13;
+{&#13;
+    $returnURI .= "/($returnParameter)/emailfailed";&#13;
+}</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_bugs</guid>
+      <pubDate>Wed, 31 Mar 2010 11:07:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Some problems</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_problems/re_some_problems</link>
+      <description>Hi,&#13;
+&#13;
+i have the same problems with the register in front office. The error message is: &lt;i&gt;Fatal error: Call to a member function urlAlias() on a non-object in /extension/nvnewsletter/modules/nvnewsletter/subscribe.php  on line 22&lt;/i&gt;&#13;
+&#13;
+Yours  truly,&#13;
+Florian </description>
+      <author>community@ez.no (Florian Bottmann)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_problems/re_some_problems</guid>
+      <pubDate>Wed, 31 Mar 2010 06:56:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some problems</title>
+      <link>http://projects.ez.no/nvnewsletter/forum/general/some_problems</link>
+      <description>Hi,&#13;
+&#13;
+I have some problems with the newsletter:&#13;
+&#13;
+- The function "send preview" returns me an error with SMTP and sendmail runs.&#13;
+- How to register for a newsletter side front office? (/nvnewsletter/subscribe?). I have an error!&#13;
+- In the templates for sending newsletters (nvnewsletterhtml.tpl and nvnewslettertext.tpl), the body of the message is plain_text_content in text and description in html, it's normal?&#13;
+- In the Unsubscribe link at the bottom of the message, "__USERCODE__" is not replaced. Furthermore the vhost is not kept, I lost "index.php".&#13;
+&#13;
+Best regards,&#13;
+Nicolas</description>
+      <author>community@ez.no (Nicolas Frey)</author>
+      <guid>http://projects.ez.no/nvnewsletter/forum/general/some_problems</guid>
+      <pubDate>Mon, 29 Mar 2010 14:47:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>nvNewsletter 0.6</title>
+      <link>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_6</link>
+      <description>&lt;p&gt;New version of &lt;a href="http://projects.ez.no/nvnewsletter" target="_self"&gt;nvNewsletter&lt;/a&gt; published. This update includes few bug fixes, changes and new features. Check doc/changelogs.&lt;/p&gt;</description>
+      <author>community@ez.no (Tero Auralinna)</author>
+      <guid>http://projects.ez.no/nvnewsletter/news/nvnewsletter_0_6</guid>
+      <pubDate>Mon, 15 Mar 2010 18:50:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

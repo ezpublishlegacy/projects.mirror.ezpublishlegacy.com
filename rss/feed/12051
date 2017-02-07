@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xsendfilehandler / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:58:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:58:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12051" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of xsendfilehandler extension repository on GitHub!</title>
+      <link>http://projects.ez.no/xsendfilehandler/forum/general/mirror_of_xsendfilehandler_extension_repository_on_github</link>
+      <description>Hello eZ Community using xsendfilehandler extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/xsendfilehandler&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r5 | Cyberwolf | 2009-02-02 03:14:11 -0600 (Mon, 02 Feb 2009).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/forum/general/mirror_of_xsendfilehandler_extension_repository_on_github</guid>
+      <pubDate>Sun, 25 Mar 2012 00:52:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>First ;)</title>
+      <link>http://projects.ez.no/xsendfilehandler/forum/general/first</link>
+      <description>Hi,&#13;
+&#13;
+Great ! That was things we discussed with Liu and other when we where hosting ez on lighttpd.&#13;
+&#13;
+I'm going to try and let you know.</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xsendfilehandler/forum/general/first</guid>
+      <pubDate>Sun, 23 Nov 2008 14:39:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

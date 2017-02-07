@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / lezrss</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46293" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/lezrss/source/0bb63cc8504f34d0169a5a2f8d02946c64dd5936</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Cleanup Legacy&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/0bb63cc8504f34d0169a5a2f8d02946c64dd5936</guid>
+      <pubDate>Tue, 04 Mar 2014 16:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/downloads/stables/lezrss_1_0_0</link>
+      <description>&lt;p&gt;First public release.&lt;/p&gt;</description>
+      <author>community@ez.no (Guillaume Kulakowski)</author>
+      <guid>http://projects.ez.no/lezrss/downloads/stables/lezrss_1_0_0</guid>
+      <pubDate>Wed, 11 Jul 2012 10:46:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/09030b84688dde9e8c578fac110156c9c138c76e</link>
+      <description>
+      &lt;pre&gt;+ logo.xcf
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;?Add logo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/09030b84688dde9e8c578fac110156c9c138c76e</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/b7c4980a69c8a750f2f4cc5bc87961f24b892a13</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/b7c4980a69c8a750f2f4cc5bc87961f24b892a13</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/6f057cfb784f315ee25e9c9f6fbf6c71f897e6f0</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update INSTALL&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/6f057cfb784f315ee25e9c9f6fbf6c71f897e6f0</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/e765d0e1123c2a99b19fbaf70e8639f848341338</link>
+      <description>
+      &lt;pre&gt;m doc/ChangeLog
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/e765d0e1123c2a99b19fbaf70e8639f848341338</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/964d0eb2616db559a326e4edf8b0d1c5383306a7</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change project URL&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/964d0eb2616db559a326e4edf8b0d1c5383306a7</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/5484768d87f672a8259b3ce4fd6728e10fa9fb73</link>
+      <description>
+      &lt;pre&gt;- doc/README
+- logo.xcf
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove old README&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/5484768d87f672a8259b3ce4fd6728e10fa9fb73</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/8da8df660355c3a5cf6079ec6266ebf3a161f2c6</link>
+      <description>
+      &lt;pre&gt;+ doc/logo.xcf
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move logon in doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/8da8df660355c3a5cf6079ec6266ebf3a161f2c6</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/762ab10e16d1034f192826a82d30c9673011cfde</link>
+      <description>
+      &lt;pre&gt;m classes/lezrssexport.php
+m settings/lezrss.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix Jenkins issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/762ab10e16d1034f192826a82d30c9673011cfde</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/556db1d35b610da43288bcef24d3b794d446bf93</link>
+      <description>
+      &lt;pre&gt;m settings/lezrss.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/556db1d35b610da43288bcef24d3b794d446bf93</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/32d6c22bfcb1548189aa3329a11bb4ffe002edff</link>
+      <description>
+      &lt;pre&gt;m classes/lezrssexport.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix an issue in code&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/32d6c22bfcb1548189aa3329a11bb4ffe002edff</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/5d16d47c12d02649b00e712753c845435e39fdb5</link>
+      <description>
+      &lt;pre&gt;m utils/build/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update build.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/5d16d47c12d02649b00e712753c845435e39fdb5</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/22938b587192df985c9f2cd5b4edcedac83eb61d</link>
+      <description>
+      &lt;pre&gt;m modules/rss2/feed.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update to  module eZP 4.77&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/22938b587192df985c9f2cd5b4edcedac83eb61d</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/43ee04c170c8fe7980efcaee00b9a1618114b600</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix version in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/43ee04c170c8fe7980efcaee00b9a1618114b600</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/4c82b65aa85753f35225fff4098fa965ac882e43</link>
+      <description>
+      &lt;pre&gt;m doc/ChangeLog
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changelog for 1.0.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/4c82b65aa85753f35225fff4098fa965ac882e43</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/f830f0f58018dfb1ca4a6ecad8db97c2ecc122ed</link>
+      <description>
+      &lt;pre&gt;m modules/rss2/feed.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix Jenkins issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/f830f0f58018dfb1ca4a6ecad8db97c2ecc122ed</guid>
+      <pubDate>Wed, 11 Jul 2012 10:21:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/116223872f60d2e2c92773d2b984a9284c26d0c1</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move status on Indefero tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/116223872f60d2e2c92773d2b984a9284c26d0c1</guid>
+      <pubDate>Wed, 16 May 2012 12:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/b0c668761d779fbb40ad73033fe123ef5e7dd174</link>
+      <description>
+      &lt;pre&gt;m classes/lezrssexport.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;use eZTemplate::factory()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/b0c668761d779fbb40ad73033fe123ef5e7dd174</guid>
+      <pubDate>Thu, 26 Apr 2012 20:21:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/3a46df32a6c86f8b9f39cfcfcd308e09a82b1b89</link>
+      <description>
+      &lt;pre&gt;m doc/ChangeLog
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/3a46df32a6c86f8b9f39cfcfcd308e09a82b1b89</guid>
+      <pubDate>Thu, 19 Apr 2012 16:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/5ee98fe449c84892c6ee3a2566e143e7633d862a</link>
+      <description>
+      &lt;pre&gt;m modules/rss2/ezrssfunctioncollection.php
+m modules/rss2/function_definition.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow to fetch rss for a specific node_id&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/5ee98fe449c84892c6ee3a2566e143e7633d862a</guid>
+      <pubDate>Thu, 19 Apr 2012 16:21:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/59c2360e585ee5ef76472206d8c15fc16a8f3274</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/59c2360e585ee5ef76472206d8c15fc16a8f3274</guid>
+      <pubDate>Fri, 06 Apr 2012 20:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/2fd661119bc473f2d9e731f38ddab04932ee13b2</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+m classes/lezrssexport.php
+m modules/rss2/ezrssfunctioncollection.php
+m modules/rss2/feed.php
+m modules/rss2/function_definition.php
+m modules/rss2/module.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix checkstyle issues&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/2fd661119bc473f2d9e731f38ddab04932ee13b2</guid>
+      <pubDate>Fri, 06 Apr 2012 20:21:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/36d1dc983073080fd6e8a462cf011808b31232a3</link>
+      <description>
+      &lt;pre&gt;m README.md
++ utils/build/DoxyFile
++ utils/build/build.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Init Continuous integration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/36d1dc983073080fd6e8a462cf011808b31232a3</guid>
+      <pubDate>Thu, 05 Apr 2012 22:21:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/c6bae7dd676e4330a1bf872849335c32fef7525f</link>
+      <description>
+      &lt;pre&gt;+ doc/ChangeLog
++ doc/INSTALL
++ doc/LICENCE
++ doc/README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add doc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/c6bae7dd676e4330a1bf872849335c32fef7525f</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/7f7404ffe1b4d6267d32b72290f295128b70a239</link>
+      <description>
+      &lt;pre&gt;m modules/rss2/feed.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/7f7404ffe1b4d6267d32b72290f295128b70a239</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/2b6113b9bcfb8f68ea386accd12ba49075eb17e0</link>
+      <description>
+      &lt;pre&gt;m classes/lezrssexport.php
++ design/standard/override/templates/rss2/example.tpl
+- design/standard/templates/node/view/rss.tpl
++ design/standard/templates/node/view/rss2.tpl
++ design/standard/templates/rss2/channel.tpl
+- design/standard/templates/rss2/channel_full.tpl
+- design/standard/templates/rss2/rss_pagelayout.tpl
+m modules/rss2/feed.php
++ settings/lezrss.ini.append.php
+m settings/module.ini.append.php
+- settings/rss.ini.append.php
+- settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;leZRSS 1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/2b6113b9bcfb8f68ea386accd12ba49075eb17e0</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/865aaf5310ac9e9f63b1e9b0185e44125eb6ae99</link>
+      <description>
+      &lt;pre&gt;+ classes/lezrssexport.php
++ design/standard/templates/node/view/rss.tpl
++ design/standard/templates/rss2/channel_full.tpl
++ design/standard/templates/rss2/rss_pagelayout.tpl
++ ezinfo.php
++ modules/rss/ezrssfunctioncollection.php
++ modules/rss/function_definition.php
++ modules/rss2/feed.php
++ modules/rss2/module.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/rss.ini.append.php
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/865aaf5310ac9e9f63b1e9b0185e44125eb6ae99</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/a53f0d59f09f4f3c0e48ea30f6937790f50b7fe3</link>
+      <description>
+      &lt;pre&gt;m lezrss/classes/lezrssexport.php
+m lezrss/modules/rss2/feed.php
++ lezrss/settings/rss.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/a53f0d59f09f4f3c0e48ea30f6937790f50b7fe3</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/0315e89abe97c3deb00fb822a3e8ecb1c633d6ff</link>
+      <description>
+      &lt;pre&gt;+ lezrss/classes/lezrssexport.php
++ lezrss/design/standard/templates/node/view/rss.tpl
++ lezrss/design/standard/templates/rss2/channel_full.tpl
++ lezrss/design/standard/templates/rss2/rss_pagelayout.tpl
++ lezrss/ezinfo.php
++ lezrss/modules/rss/ezrssfunctioncollection.php
++ lezrss/modules/rss/function_definition.php
++ lezrss/modules/rss2/feed.php
++ lezrss/modules/rss2/module.php
++ lezrss/settings/design.ini.append.php
++ lezrss/settings/module.ini.append.php
++ lezrss/settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/0315e89abe97c3deb00fb822a3e8ecb1c633d6ff</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/fc90382bdd7b7670e105b64fe886e2950adf6a1b</link>
+      <description>
+      &lt;pre&gt;+ README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add README.md for GitHub&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/fc90382bdd7b7670e105b64fe886e2950adf6a1b</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/a01295380dfa4e9f51455525bac5cd8f471f98c1</link>
+      <description>
+      &lt;pre&gt;- modules/rss/ezrssfunctioncollection.php
+- modules/rss/function_definition.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/a01295380dfa4e9f51455525bac5cd8f471f98c1</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/a4cb46ffe7b761f9ede9d5fa99650894e7cb3476</link>
+      <description>
+      &lt;pre&gt;+ modules/rss2/ezrssfunctioncollection.php
++ modules/rss2/function_definition.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;change for &gt; 4.3 support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/a4cb46ffe7b761f9ede9d5fa99650894e7cb3476</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/fe90c2a093c6fbe19b2367c0b5700000f8e22faf</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update copyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/fe90c2a093c6fbe19b2367c0b5700000f8e22faf</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/48b3d1bc319edba7dd9195bc86917f88aa1b4f91</link>
+      <description>
+      &lt;pre&gt;m classes/lezrssexport.php
+m modules/rss2/feed.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixe url issue&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/48b3d1bc319edba7dd9195bc86917f88aa1b4f91</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>lezrss-1.0.0</title>
+      <link>http://projects.ez.no/lezrss/source/96c1093a037e9c95e3a5cf83c916f0f1c146a283</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+- ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;replace ezinfo.php by extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/lezrss/source/96c1093a037e9c95e3a5cf83c916f0f1c146a283</guid>
+      <pubDate>Wed, 04 Apr 2012 12:51:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

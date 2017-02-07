@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / novenimagecropper / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19453" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Noven Image Cropper 1.1.0</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_1_0</link>
+      <description>&lt;p&gt;Noven Image Cropper 1.1.0 is out !&lt;/p&gt;&lt;p&gt;The extension is now fully compatible with eZ Publish 4.3.0 and eZJSCore 1.1. Deprecated code has been removed (i18n and tpl init), but backwards compatibility is maintained (will work in previous 4.x instances).&lt;/p&gt;&lt;p&gt;&lt;a href="http://svn.projects.ez.no/novenimagecropper/trunk/doc/CHANGELOG" target="_self"&gt;Changelog can be found here&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_1_0</guid>
+      <pubDate>Wed, 14 Apr 2010 23:23:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0.6</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_6</link>
+      <description>&lt;p&gt;Noven Image Cropper is now in version 1.0.6. Several bug fixes and german translation added.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_6</guid>
+      <pubDate>Mon, 19 Oct 2009 12:17:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0.5</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_5</link>
+      <description>&lt;p&gt;Hi ! Noven Image Cropper 1.0.5 has been released with several bugfixes, including &lt;a href="http://projects.ez.no/novenimagecropper/forum/issues/extension_allways_uses_reference_alias_of_the_image" target="_self"&gt;one that can be disturbing&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You're highly encouraged to upgrade to the new version to avoid dimension problems on the new generated images !&lt;/p&gt;&lt;p&gt;See &lt;a href="http://svn.projects.ez.no/novenimagecropper/trunk/doc/CHANGELOG" target="_blank"&gt;Changelog&lt;/a&gt; for more info.&lt;/p&gt;&lt;p&gt;And again, &lt;b&gt;new translations are welcome&lt;/b&gt;, really ! :-)&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_5</guid>
+      <pubDate>Sat, 03 Oct 2009 11:06:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0.3 is out</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_3_is_out</link>
+      <description>&lt;p&gt;Hi !&lt;/p&gt;&lt;p&gt;Maintenance release 1.0.3 has been released. See &lt;a href="http://svn.projects.ez.no/novenimagecropper/trunk/doc/CHANGELOG" target="_self"&gt;changelog&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_3_is_out</guid>
+      <pubDate>Fri, 02 Oct 2009 13:58:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0.2 released</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_2_released</link>
+      <description>&lt;p&gt;Maintenance release 1.0.2 of Noven Image Cropper is out !&lt;/p&gt;&lt;p&gt;Minor issues has been fixed. See &lt;a href="http://svn.projects.ez.no/novenimagecropper/trunk/doc/CHANGELOG" target="_self"&gt;changelog&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_2_released</guid>
+      <pubDate>Thu, 01 Oct 2009 08:37:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0 final released !</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_final_released</link>
+      <description>&lt;p&gt;Version 1.0 has been released. Check it out ! :-)&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_final_released</guid>
+      <pubDate>Sun, 27 Sep 2009 09:18:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Translations</title>
+      <link>http://projects.ez.no/novenimagecropper/news/translations</link>
+      <description>&lt;p&gt;Translation contributions are welcome !&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/translations</guid>
+      <pubDate>Thu, 24 Sep 2009 12:43:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noven Image Cropper 1.0 RC1 released !</title>
+      <link>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_rc1_released</link>
+      <description>&lt;p&gt;Version 1.0 RC1 has been released. Please give feedback :-)&lt;/p&gt;</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/novenimagecropper/news/noven_image_cropper_1_0_rc1_released</guid>
+      <pubDate>Thu, 24 Sep 2009 12:39:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

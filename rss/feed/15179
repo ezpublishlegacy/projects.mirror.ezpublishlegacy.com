@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsphinx</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:09:16 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:09:16 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15179" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsphinx rev. 2 by Remigijus Kiminas</title>
+      <link>http://projects.ez.no/ezsphinx/subversion/2</link>
+      <description>Wrong way imported</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsphinx/subversion/2</guid>
+      <pubDate>Wed, 01 Apr 2009 19:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsphinx rev. 3 by Remigijus Kiminas</title>
+      <link>http://projects.ez.no/ezsphinx/subversion/3</link>
+      <description>Initial import of eZSphinx</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsphinx/subversion/3</guid>
+      <pubDate>Wed, 01 Apr 2009 19:20:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsphinx rev. 1 by Remigijus Kiminas</title>
+      <link>http://projects.ez.no/ezsphinx/subversion/1</link>
+      <description>Initial import of eZSphinx</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsphinx/subversion/1</guid>
+      <pubDate>Wed, 01 Apr 2009 19:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZSphinx 0.1 beta is published</title>
+      <link>http://projects.ez.no/ezsphinx/news/ezsphinx_0_1_beta_is_published</link>
+      <description>&lt;p&gt;Published beta version of the eZSphinx extension.&lt;/p&gt;</description>
+      <author>community@ez.no (Remigijus Kiminas)</author>
+      <guid>http://projects.ez.no/ezsphinx/news/ezsphinx_0_1_beta_is_published</guid>
+      <pubDate>Mon, 30 Mar 2009 14:44:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsphinx-0.1beta.tgz</title>
+      <link>http://projects.ez.no/ezsphinx/downloads/ezsphinx_0_1beta_tgz</link>
+      <description>&lt;p&gt;ezsphinx.-0.1 beta. First release.&lt;/p&gt;</description>
+      <author>community@ez.no (Remigijus Kiminas)</author>
+      <guid>http://projects.ez.no/ezsphinx/downloads/ezsphinx_0_1beta_tgz</guid>
+      <pubDate>Mon, 30 Mar 2009 09:40:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

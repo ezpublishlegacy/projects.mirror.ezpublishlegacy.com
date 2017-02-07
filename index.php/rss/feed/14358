@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowmetadata / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:01:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:01:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14358" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xrowmetadata rev. 80 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/80</link>
+      <description>- fix to avoid duplicates in the url list when using the module in a clustered setup</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/80</guid>
+      <pubDate>Tue, 23 Oct 2012 13:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 79 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/79</link>
+      <description>- fix to avoid duplicates in the url list when using the module in a clustered setup</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/79</guid>
+      <pubDate>Tue, 23 Oct 2012 13:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 78 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/78</link>
+      <description>fix in module sitemaps/index - url list will be now also shown in clustered setups</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/78</guid>
+      <pubDate>Tue, 23 Oct 2012 12:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 77 by Christian @ xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/77</link>
+      <description>bugfix for xrowmetadata</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/77</guid>
+      <pubDate>Fri, 28 Sep 2012 11:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 76 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/76</link>
+      <description>Added keyword check, thanks to Edi Modrić
+http://projects.ez.no/xrowmetadata/forum/general/bug_with_keywords_generation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/76</guid>
+      <pubDate>Tue, 26 Jun 2012 17:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 73 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/73</link>
+      <description>fixed typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/73</guid>
+      <pubDate>Tue, 26 Jun 2012 15:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 74 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/74</link>
+      <description>don't display directories</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/74</guid>
+      <pubDate>Tue, 26 Jun 2012 15:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 75 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/75</link>
+      <description>added doc for alternate links</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/75</guid>
+      <pubDate>Tue, 26 Jun 2012 15:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 72 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/72</link>
+      <description>Added feature to add alternate links to sitemap (for mobile sites)
+Fixed sitemap/index (display sitemaps in subdirs)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/72</guid>
+      <pubDate>Tue, 26 Jun 2012 14:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 71 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/71</link>
+      <description>bugfixing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/71</guid>
+      <pubDate>Tue, 03 Apr 2012 13:00:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 70 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/70</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/70</guid>
+      <pubDate>Fri, 30 Mar 2012 09:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 69 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/69</link>
+      <description>bugfixing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/69</guid>
+      <pubDate>Wed, 28 Mar 2012 08:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 68 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/68</link>
+      <description>bugfixing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/68</guid>
+      <pubDate>Tue, 27 Mar 2012 14:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 67 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/67</link>
+      <description>bugfixing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/67</guid>
+      <pubDate>Tue, 27 Mar 2012 13:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 66 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/66</link>
+      <description>- removed a bom mark</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/66</guid>
+      <pubDate>Thu, 16 Feb 2012 23:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 65 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/65</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/65</guid>
+      <pubDate>Fri, 27 Jan 2012 09:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 64 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/64</link>
+      <description>- dublicate entry removed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/64</guid>
+      <pubDate>Thu, 05 Jan 2012 18:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 63 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/63</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/63</guid>
+      <pubDate>Sun, 01 Jan 2012 21:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 62 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/62</link>
+      <description>- limit adjusted
+- ini bug fixed
+- comma seperation fixed to dot seperation
+- small fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/62</guid>
+      <pubDate>Tue, 06 Dec 2011 14:45:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 61 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/61</link>
+      <description>- improvements in wording and usabilty</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/61</guid>
+      <pubDate>Fri, 02 Dec 2011 11:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 60 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/60</link>
+      <description>- major update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/60</guid>
+      <pubDate>Fri, 02 Dec 2011 09:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 59 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/59</link>
+      <description>- wrong commit reverted</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/59</guid>
+      <pubDate>Wed, 23 Nov 2011 13:15:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 58 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/58</link>
+      <description>- fix for keyword saving problem</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/58</guid>
+      <pubDate>Fri, 04 Nov 2011 13:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 57 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/57</link>
+      <description> - news sitemap pagination added
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/57</guid>
+      <pubDate>Tue, 01 Nov 2011 11:15:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 56 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/56</link>
+      <description>- small bugfix and reimplementation of fetch delay
+- fix for sitemaps/index view if ezdfsfile useses a different database then the default eZ DB.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/56</guid>
+      <pubDate>Thu, 27 Oct 2011 14:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 55 by Kristina Ebel</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/55</link>
+      <description>- added UsedGenre (xrowsitemap.ini, xrowsitemapnewsitem.php, xrowsitemaptools.php) for disabling genre in newssitemap
+- added cdata to xrowsitemaplist.php for name and title
+- added AttributeFilter (xrowsitemap.ini, xrowsitemaptools.php)
+- added Genre for setting genre per class (xrowsitemap.ini, xrowsitemaptools.php)
+- expanded xrowsitemaptools.php: if there are more than 49999 object for the sitemap we get now another xml untill all objects are added to xmls</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/55</guid>
+      <pubDate>Wed, 26 Oct 2011 10:45:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 54 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/54</link>
+      <description>- wordings changed
+- readme updateed
+- replaced the word "google" to avoid confusion
+- serialization and deserialization of datatype added
+- usability enhancement (checkbox added for "more options")
+- commit by Robert Röttger</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/54</guid>
+      <pubDate>Mon, 24 Oct 2011 09:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 53 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/53</link>
+      <description>Added creation of mobile sitemap</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/53</guid>
+      <pubDate>Tue, 27 Sep 2011 19:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 52 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/52</link>
+      <description>Fixed objects are published when tool runs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/52</guid>
+      <pubDate>Mon, 22 Aug 2011 17:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 51 by Georg Franz</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/51</link>
+      <description>replaced ezi18n (deprecated since 4.5) with ezpI18n::tr</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/51</guid>
+      <pubDate>Mon, 16 May 2011 17:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 50 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/50</link>
+      <description>-option added to limit the input</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/50</guid>
+      <pubDate>Mon, 16 May 2011 14:24:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 49 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/49</link>
+      <description>- if clause for pinging added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/49</guid>
+      <pubDate>Fri, 06 May 2011 08:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 48 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/48</link>
+      <description>- if-clause for setting check "RemoveSiteAccessIfDefaultAccess" added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/48</guid>
+      <pubDate>Fri, 18 Mar 2011 19:22:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 47 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/47</link>
+      <description>changes header</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/47</guid>
+      <pubDate>Wed, 12 Jan 2011 19:41:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 46 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/46</link>
+      <description>fix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/46</guid>
+      <pubDate>Tue, 11 Jan 2011 11:21:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 45 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/45</link>
+      <description>fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/45</guid>
+      <pubDate>Tue, 28 Dec 2010 13:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 44 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/44</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/44</guid>
+      <pubDate>Tue, 28 Dec 2010 11:41:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 43 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/43</link>
+      <description>changes and fixes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/43</guid>
+      <pubDate>Thu, 23 Dec 2010 16:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 42 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/42</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/42</guid>
+      <pubDate>Thu, 23 Dec 2010 07:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 41 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/41</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/41</guid>
+      <pubDate>Thu, 23 Dec 2010 06:31:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 40 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/40</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/40</guid>
+      <pubDate>Thu, 23 Dec 2010 06:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 39 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/39</link>
+      <description>- update
+- keywords are now an array
+- added migration tools</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/39</guid>
+      <pubDate>Thu, 23 Dec 2010 06:01:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 38 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/38</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/38</guid>
+      <pubDate>Tue, 21 Dec 2010 16:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 37 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/37</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/37</guid>
+      <pubDate>Thu, 16 Dec 2010 12:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 36 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/36</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/36</guid>
+      <pubDate>Thu, 16 Dec 2010 03:41:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 35 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/35</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/35</guid>
+      <pubDate>Thu, 16 Dec 2010 03:11:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 34 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/34</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/34</guid>
+      <pubDate>Thu, 16 Dec 2010 02:01:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 33 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/33</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/33</guid>
+      <pubDate>Thu, 16 Dec 2010 01:51:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 32 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/32</link>
+      <description>- new code for sitemaps</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/32</guid>
+      <pubDate>Wed, 15 Dec 2010 18:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowmetadata rev. 31 by Björn Dieding@xrow.de</title>
+      <link>http://projects.ez.no/xrowmetadata/subversion/31</link>
+      <description>- several fixes
+- priority, change and activity will be stored via object now, not via translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowmetadata/subversion/31</guid>
+      <pubDate>Fri, 15 Oct 2010 13:45:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

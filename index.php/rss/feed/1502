@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcsimplesubscription / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:36 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:36 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1502" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>bcsimplesubscription rev. 16 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/16</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bcsimplesubscription</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/16</guid>
+      <pubDate>Mon, 28 Nov 2011 06:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 15 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/15</link>
+      <description>Updated: Revised example override.ini settings for more accuracy.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/15</guid>
+      <pubDate>Sun, 07 Mar 2010 05:40:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 14 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/14</link>
+      <description>Reverted: Restored 4.2 compatible template calls. Appologies.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/14</guid>
+      <pubDate>Sun, 07 Mar 2010 05:35:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 13 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/13</link>
+      <description>Updated: Replaced templateInit function calls with 4.3 compatible replacements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/13</guid>
+      <pubDate>Wed, 24 Feb 2010 08:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 12 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/12</link>
+      <description>Updated: Refined 4.2 compat regarding updating of expire attribute.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/12</guid>
+      <pubDate>Sat, 20 Feb 2010 00:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 11 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/11</link>
+      <description>Added: example override for notification templates (disabled by default). Added 4.2 compatiblity for code used by cronjob class.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/11</guid>
+      <pubDate>Fri, 19 Feb 2010 22:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 10 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/10</link>
+      <description>Updated: Added support for eZ Publish 4.x and removed support for eZ Publish 3.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/10</guid>
+      <pubDate>Thu, 18 Feb 2010 07:20:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 9 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/9</link>
+      <description>Added: Creating branch for 3.x version 1.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/9</guid>
+      <pubDate>Fri, 12 Feb 2010 18:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 7 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/7</link>
+      <description>Added: Stable directory. Version 1.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/7</guid>
+      <pubDate>Fri, 12 Feb 2010 18:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 8 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/8</link>
+      <description>Added: extension directory. Version 1.0.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/8</guid>
+      <pubDate>Fri, 12 Feb 2010 18:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 6 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/6</link>
+      <description>Added: Stable directory.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/6</guid>
+      <pubDate>Fri, 12 Feb 2010 18:45:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 5 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/5</link>
+      <description>Updated: Added revised comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/5</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 3 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/3</link>
+      <description>Updated: Documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 4 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/4</link>
+      <description>Updated: Added settings block comment and removed deprecated settings strings.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/4</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/1</link>
+      <description>Added: Initial import of bcsimplesubscription extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcsimplesubscription rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcsimplesubscription/subversion/2</link>
+      <description>Updated: Documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcsimplesubscription/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:20:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

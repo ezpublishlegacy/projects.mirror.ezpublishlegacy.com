@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcopy / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:08:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:08:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/22382" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezcopy rev. 14 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/14</link>
+      <description>Removed uncessesary echoing.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/14</guid>
+      <pubDate>Thu, 16 Aug 2012 17:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 15 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/15</link>
+      <description>Make use of additional arguments, if provided.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/15</guid>
+      <pubDate>Thu, 16 Aug 2012 17:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 13 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/13</link>
+      <description>Removed msg *stdin: is not a tty* which sometimes occurs in command output.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/13</guid>
+      <pubDate>Wed, 30 May 2012 18:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 12 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/12</link>
+      <description>Support for supplying additional arguments from the command line, and respecting a specific tar ball location when performing the install action.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/12</guid>
+      <pubDate>Tue, 22 May 2012 19:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 11 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/11</link>
+      <description>Fixed reference to non-existing variable.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/11</guid>
+      <pubDate>Tue, 22 May 2012 19:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 10 by Helge Silset</title>
+      <link>http://projects.ez.no/ezcopy/subversion/10</link>
+      <description>Add DB handlers and fix instancing of logger objects</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/10</guid>
+      <pubDate>Thu, 29 Mar 2012 14:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 9 by Helge Silset</title>
+      <link>http://projects.ez.no/ezcopy/subversion/9</link>
+      <description>Uncomment account_list</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/9</guid>
+      <pubDate>Tue, 22 Nov 2011 11:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 8 by Fredrik Tidemann</title>
+      <link>http://projects.ez.no/ezcopy/subversion/8</link>
+      <description>Added support for switching between versions of phpseclib</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/8</guid>
+      <pubDate>Mon, 14 Nov 2011 14:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 7 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/7</link>
+      <description>Added support for newer version of SSH/SFTP library, as well as some minor changes to increase the chances of getting the remote file size of the packaged site.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/7</guid>
+      <pubDate>Wed, 26 Oct 2011 08:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 6 by Helge Silset</title>
+      <link>http://projects.ez.no/ezcopy/subversion/6</link>
+      <description>Updates from private repo, and include of classes needed to write to ini files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/6</guid>
+      <pubDate>Tue, 09 Aug 2011 08:46:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 5 by Anders Berre</title>
+      <link>http://projects.ez.no/ezcopy/subversion/5</link>
+      <description>Made som changes to support php5 and php5 versions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/5</guid>
+      <pubDate>Thu, 06 May 2010 14:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 4 by Anders Berre</title>
+      <link>http://projects.ez.no/ezcopy/subversion/4</link>
+      <description>Removed clearing of cache, since in some versions of eZ Publish  this lead to deleting of files outside eZ Publish directory. It seems like there is an security issue in ezcache.php in some eZ Publish versions.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/4</guid>
+      <pubDate>Wed, 24 Mar 2010 15:25:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 3 by Anders Berre</title>
+      <link>http://projects.ez.no/ezcopy/subversion/3</link>
+      <description>Fixed clearing of cache</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/3</guid>
+      <pubDate>Thu, 18 Mar 2010 08:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 2 by Anders Berre</title>
+      <link>http://projects.ez.no/ezcopy/subversion/2</link>
+      <description>Updatet the ezcopy with some new features</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/2</guid>
+      <pubDate>Thu, 18 Mar 2010 08:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcopy rev. 1 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezcopy/subversion/1</link>
+      <description>Initial projects.ez.no release. Enjoy!</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcopy/subversion/1</guid>
+      <pubDate>Tue, 19 Jan 2010 13:30:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

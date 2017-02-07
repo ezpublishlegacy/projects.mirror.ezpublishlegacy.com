@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / integrate / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:16 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:16 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8186" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>integrate rev. 1673 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1673</link>
+      <description>- added the 1.0 branch</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1673</guid>
+      <pubDate>Fri, 02 Oct 2009 10:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1672 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1672</link>
+      <description>- added changelog for 1.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1672</guid>
+      <pubDate>Fri, 02 Oct 2009 10:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1671 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1671</link>
+      <description>- add changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1671</guid>
+      <pubDate>Fri, 02 Oct 2009 09:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1669 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1669</link>
+      <description>- eZP 4 conformance: includes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1669</guid>
+      <pubDate>Fri, 02 Oct 2009 09:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1670 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1670</link>
+      <description>- eZP 4 conformance: fix constant names, pass-by-ref, includes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1670</guid>
+      <pubDate>Fri, 02 Oct 2009 09:55:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1667 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1667</link>
+      <description>- remove unused settings files; move others to utf8</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1667</guid>
+      <pubDate>Fri, 02 Oct 2009 09:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1668 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1668</link>
+      <description>- eZP 4 conformance: fix constant names, pass-by-ref, includes</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1668</guid>
+      <pubDate>Fri, 02 Oct 2009 09:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1665 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1665</link>
+      <description>- added doc folder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1665</guid>
+      <pubDate>Fri, 02 Oct 2009 09:45:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1666 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/integrate/subversion/1666</link>
+      <description>- update info - next release's gonna be 2.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1666</guid>
+      <pubDate>Fri, 02 Oct 2009 09:45:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1663 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1663</link>
+      <description>added information collector for externaloption datatype</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1663</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1664 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1664</link>
+      <description>added ezinfo.php and updated documentation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1664</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1273 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1273</link>
+      <description>ordering results changes, added extended fetch filter</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1273</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1274 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1274</link>
+      <description>added ability to define a default index for externaloption in class</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1274</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1163 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1163</link>
+      <description>add php tags to ini file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1163</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1164 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1164</link>
+      <description>added validation to externaloption</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1164</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 1162 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/1162</link>
+      <description>fixed some issues with metadata method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/1162</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 895 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/895</link>
+      <description>create integrate extension dir</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/895</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>integrate rev. 896 by Bruce Morrison</title>
+      <link>http://projects.ez.no/integrate/subversion/896</link>
+      <description>integrate extension initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/integrate/subversion/896</guid>
+      <pubDate>Fri, 29 Feb 2008 14:47:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

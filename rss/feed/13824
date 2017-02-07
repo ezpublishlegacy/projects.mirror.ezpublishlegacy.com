@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsi / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:50 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:49 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13824" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/ad9e09111e073007ed8fff98ef2d4d3271e93f27</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23651 - EZ Si missing /var/[^]+/cache/public&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/ad9e09111e073007ed8fff98ef2d4d3271e93f27</guid>
+      <pubDate>Mon, 24 Nov 2014 16:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/a53c7ebb771b202342d1863f71d5de9bc9b0be5f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from pedroresende/ezp23651
+
+Fix EZP-23651 - EZ Si missing /var/[^]+/cache/public&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/a53c7ebb771b202342d1863f71d5de9bc9b0be5f</guid>
+      <pubDate>Mon, 24 Nov 2014 16:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/5b8efd66a836b1001b3b6ce0f422070a31a2960d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23511: EZ Si Vhost issues on Apache 2.4
+
+&gt; https://jira.ez.no/browse/EZP-23511&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/5b8efd66a836b1001b3b6ce0f422070a31a2960d</guid>
+      <pubDate>Mon, 17 Nov 2014 09:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/e398ff3eb750dfdd196fc3956ad14463b52ec600</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/e398ff3eb750dfdd196fc3956ad14463b52ec600</guid>
+      <pubDate>Mon, 03 Nov 2014 14:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/486601d0ada86de8b910868866df3c10ad05a761</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/486601d0ada86de8b910868866df3c10ad05a761</guid>
+      <pubDate>Tue, 20 May 2014 20:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/83c06279b9b89062ab294d3be9e6b194c9989a67</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Create composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/83c06279b9b89062ab294d3be9e6b194c9989a67</guid>
+      <pubDate>Fri, 16 May 2014 23:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/8207e1f644eacd21b372a38e4db2261dea14ba28</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/8207e1f644eacd21b372a38e4db2261dea14ba28</guid>
+      <pubDate>Thu, 15 May 2014 09:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/fac962ac521790d37acf7cf16081d3d5f1a81c55</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/fac962ac521790d37acf7cf16081d3d5f1a81c55</guid>
+      <pubDate>Thu, 15 May 2014 09:00:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/fd6cf2b8b1e21586d99e5fbd59d0853115c610dc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/fd6cf2b8b1e21586d99e5fbd59d0853115c610dc</guid>
+      <pubDate>Tue, 13 May 2014 21:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/87d529adae60ce49c14b9aa37ea85283c8dfcc81</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/87d529adae60ce49c14b9aa37ea85283c8dfcc81</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/334cffb3cbe1087ad8321a052d0f63a9d8bd6a5e</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license in ezinfo.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/334cffb3cbe1087ad8321a052d0f63a9d8bd6a5e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/937c09d1f7505bd5af91b4c035ebb9b3258145bb</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated ezinfo.php with proper version number tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/937c09d1f7505bd5af91b4c035ebb9b3258145bb</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/b3acc34e00f68dc51e046b165d324ca5724e8030</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/blockhandlers/esi/ezsiesiblockhandler.php
+m classes/blockhandlers/ezsiblockhandler.php
+m classes/blockhandlers/ssi/ezsissiblockhandler.php
+m classes/ezsiblockfunction.php
+m classes/filehandlers/ezsifilehandler.php
+m classes/filehandlers/fs/ezsifsfilehandler.php
+m classes/filehandlers/ftp/ezsiftpfilehandler.php
+m cronjobs/siblockupdate.php
+m extension.xml
+m ezinfo.php
+m tests/ezsiblockfunction_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/b3acc34e00f68dc51e046b165d324ca5724e8030</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/6a0168de7ede9738f75b0234787bfee7759db1e5</link>
+      <description>
+      &lt;pre&gt;m classes/ezsiblockfunction.php
+m tests/ezsiblockfunction_test.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #018502: Class 'eZSiBlockFunction' should be named 'eZSIBlockFunction'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/6a0168de7ede9738f75b0234787bfee7759db1e5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/0754cbf0a172ef4a13f39be526edcb5c6c9e655c</link>
+      <description>
+      &lt;pre&gt;m tests/ezsiblockfunction_test.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/0754cbf0a172ef4a13f39be526edcb5c6c9e655c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/0b783dee7374e2cbf9acdc21225d724b12f1ac33</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/0b783dee7374e2cbf9acdc21225d724b12f1ac33</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/7784a66d5f66a98ad7bd045de6d9ad19e4d90092</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/blockhandlers/esi/ezsiesiblockhandler.php
+m classes/blockhandlers/ezsiblockhandler.php
+m classes/blockhandlers/ssi/ezsissiblockhandler.php
+m classes/ezsiblockfunction.php
+m classes/filehandlers/ezsifilehandler.php
+m classes/filehandlers/fs/ezsifsfilehandler.php
+m classes/filehandlers/ftp/ezsiftpfilehandler.php
+m cronjobs/siblockupdate.php
+m extension.xml
+m ezinfo.php
+m tests/ezsiblockfunction_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/7784a66d5f66a98ad7bd045de6d9ad19e4d90092</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 73 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezsi/subversion/73</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/73</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 72 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/72</link>
+      <description>test: is this repo closed down?</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/72</guid>
+      <pubDate>Tue, 26 Oct 2010 18:40:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 71 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/71</link>
+      <description>test: is this repo closed down?</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/71</guid>
+      <pubDate>Tue, 26 Oct 2010 18:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 70 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezsi/subversion/70</link>
+      <description>- Fixed: Typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/70</guid>
+      <pubDate>Tue, 28 Sep 2010 12:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 69 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezsi/subversion/69</link>
+      <description>- Updated: Fixed format of ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/69</guid>
+      <pubDate>Tue, 28 Sep 2010 12:20:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 68 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/68</link>
+      <description>- Updated copyright notice with current year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/68</guid>
+      <pubDate>Wed, 24 Mar 2010 09:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 67 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/67</link>
+      <description>- Updated wrong eZ Systems name</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/67</guid>
+      <pubDate>Wed, 24 Mar 2010 09:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 66 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/66</link>
+      <description>- updated CHANGELOG</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/66</guid>
+      <pubDate>Tue, 02 Feb 2010 15:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 65 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/65</link>
+      <description>- Fixed 16015: ezsi race condition gives database transaction error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/65</guid>
+      <pubDate>Tue, 02 Feb 2010 15:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 64 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/64</link>
+      <description>- Removing empty .sql and .dba files
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/64</guid>
+      <pubDate>Wed, 25 Nov 2009 09:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 63 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/63</link>
+      <description>- Added flag to create a tarball for this extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/63</guid>
+      <pubDate>Thu, 12 Nov 2009 13:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 62 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/62</link>
+      <description>- renamed changelog file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/62</guid>
+      <pubDate>Mon, 09 Nov 2009 18:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 61 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/61</link>
+      <description>- spelling improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/61</guid>
+      <pubDate>Mon, 09 Nov 2009 18:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 60 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/60</link>
+      <description>- fix: urlalias column can be empty in table</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/60</guid>
+      <pubDate>Thu, 29 Oct 2009 15:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 59 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/59</link>
+      <description>- fix for commit 57: wrong case in name of class used for autoloading block handlers</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/59</guid>
+      <pubDate>Thu, 29 Oct 2009 15:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 58 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/58</link>
+      <description>- use __METHOD__ constant in ezdebug messages</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/58</guid>
+      <pubDate>Tue, 20 Oct 2009 12:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 57 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/57</link>
+      <description>- use autoload for handler classes; use __METHOD__ constant in ezdebug messages</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/57</guid>
+      <pubDate>Tue, 20 Oct 2009 12:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 56 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/56</link>
+      <description>- remove include calls, as we rely on autoload</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/56</guid>
+      <pubDate>Tue, 20 Oct 2009 11:50:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 55 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/55</link>
+      <description>- added 'oracle support' to changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/55</guid>
+      <pubDate>Tue, 20 Oct 2009 11:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 54 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/54</link>
+      <description>- use single quotes for sql, as oracle likes them better</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/54</guid>
+      <pubDate>Tue, 20 Oct 2009 11:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 53 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/53</link>
+      <description>- fix: invalid sql for oracle</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/53</guid>
+      <pubDate>Tue, 20 Oct 2009 11:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 52 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/52</link>
+      <description>- use INTEGER on oracle instead of INTEGER(x): it is faster and uses the same space anyway, plus it is coherent with rest of db</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/52</guid>
+      <pubDate>Tue, 20 Oct 2009 11:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 51 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/51</link>
+      <description>- Added postgresql files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/51</guid>
+      <pubDate>Fri, 16 Oct 2009 08:35:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 50 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/50</link>
+      <description>- Added cleandata.sql in order not to make the build system rant
+
+The files are empty becasue ezsi does not provide any default data
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/50</guid>
+      <pubDate>Fri, 16 Oct 2009 08:05:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 49 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/49</link>
+      <description>- Added .dba files, take 2 ..</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/49</guid>
+      <pubDate>Fri, 16 Oct 2009 08:05:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 48 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/48</link>
+      <description>- Added .dba files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/48</guid>
+      <pubDate>Fri, 16 Oct 2009 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 47 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/47</link>
+      <description>- added LICENSE and README files</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/47</guid>
+      <pubDate>Fri, 16 Oct 2009 07:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 46 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/46</link>
+      <description>- Updated properties file to use ezextensionbuilder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/46</guid>
+      <pubDate>Fri, 16 Oct 2009 07:10:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 45 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/45</link>
+      <description>- Removed delete.xml, switching to ezextensionbuilder
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/45</guid>
+      <pubDate>Fri, 16 Oct 2009 07:10:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 44 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/44</link>
+      <description>- added a comment: test case will fail on Oracle</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/44</guid>
+      <pubDate>Thu, 15 Oct 2009 16:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 43 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/43</link>
+      <description>- added sql file for oracle</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/43</guid>
+      <pubDate>Thu, 15 Oct 2009 16:35:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 41 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/41</link>
+      <description>- added release dates to changelogs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/41</guid>
+      <pubDate>Thu, 15 Oct 2009 16:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 42 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/42</link>
+      <description>- changed version nr: we are at 1.2-dev</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/42</guid>
+      <pubDate>Thu, 15 Oct 2009 16:30:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / batchtool / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:03:20 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:03:20 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12266" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>batchtool rev. 7 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/batchtool/subversion/7</link>
+      <description>Fixed bug with parameter check
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/batchtool/subversion/7</guid>
+      <pubDate>Tue, 07 Dec 2010 15:42:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>batchtool rev. 6 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/batchtool/subversion/6</link>
+      <description>Fixed nodedelete operation, added support for trash
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/batchtool/subversion/6</guid>
+      <pubDate>Tue, 07 Dec 2010 13:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>batchtool rev. 3 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/batchtool/subversion/3</link>
+      <description>Added operation for setting availability on node,
+and depth parameter on node fetch filter
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/batchtool/subversion/3</guid>
+      <pubDate>Wed, 16 Sep 2009 08:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>batchtool rev. 2 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/batchtool/subversion/2</link>
+      <description>Fixed a couple of bugs on moving nodes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/batchtool/subversion/2</guid>
+      <pubDate>Tue, 02 Dec 2008 16:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>batchtool rev. 1 by Arne Bakkebø</title>
+      <link>http://projects.ez.no/batchtool/subversion/1</link>
+      <description>First version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/batchtool/subversion/1</guid>
+      <pubDate>Thu, 06 Nov 2008 09:55:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

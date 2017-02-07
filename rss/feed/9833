@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezoracle / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:08 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9833" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZOracle 1.8.3 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ezoracle_1_8_3_released</link>
+      <description>&lt;p&gt;The latest bugfix release for eZ Publish versions 4.0.x is out, with over a year worth of changes - too many to list here.&lt;/p&gt;&lt;p&gt;Notable changes include:&lt;/p&gt;&lt;p&gt;
+- vastly improved the consistency checks and the generated corrective sql in the "Setup"/"System upgrade check" page&lt;br /&gt;
+ To take full advantage of the improvements, you should use eZ Publish 4.0.8+&lt;br /&gt;
+ For lower versions in the 4.0 series a patched kernel/setup/systemupgrade.php script&lt;br /&gt; is available in the 'patches' directory of the extension.&lt;/p&gt;&lt;p&gt;
+- new parameters are possible to improve performance of the index_image_oracle.php&lt;br /&gt; script in cluster setups. More details in the README.cluster file&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ezoracle_1_8_3_released</guid>
+      <pubDate>Sun, 17 Oct 2010 20:30:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZOracle 2.1.0 and 2.0.4 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ezoracle_2_1_0_and_2_0_4_released</link>
+      <description>&lt;p&gt;2.1.0 is the same version that you'll find bundled with eZ Publish 4.4.&lt;/p&gt;&lt;p&gt;2.0.4 is the bugfix release for eZ Publish versions 4.1 to 4.3.&lt;/p&gt;&lt;p&gt;Besides bugfixes, the main new thing is support for the eZDFS cluster mode.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ezoracle_2_1_0_and_2_0_4_released</guid>
+      <pubDate>Wed, 29 Sep 2010 20:38:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZOracle 2.0.3 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ezoracle_2_0_3_released</link>
+      <description>&lt;p&gt;Besides the usual slew of bugfixes, this release brings back cluster support to the 4.1 - 4.3 line! (note: ezdfs not supported yet).&lt;/p&gt;&lt;p&gt;To get the full benefits of this version, please note that there is one patched kernel file that should be applied if you're not running eZ Publish 4.3.0 or later&lt;/p&gt;&lt;p&gt;Please note that the update sql scripts for ezpublish 4.3.0 where left out of the build and will be included in release 2.0.4. You can find them here: http://svn.projects.ez.no/ezoracle/trunk/extension/ezoracle/update/database/ezpublish/4.3/&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ezoracle_2_0_3_released</guid>
+      <pubDate>Tue, 13 Apr 2010 12:32:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 2.0.2 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_2_released</link>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; The latest version of the "eZ Publish database extension for Oracle", also known as eZ Oracle, &lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;adds full compatibility for eZ Publish up to 4.2.0&lt;/li&gt;
+
+&lt;li&gt;adds full compatibility for php 5.3&lt;/li&gt;
+
+&lt;li&gt;fixes two bugs related to update/install scripts&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_2_released</guid>
+      <pubDate>Wed, 30 Sep 2009 10:12:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 2.0.1 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_1_released</link>
+      <description>&lt;p&gt;The latest version of the "eZ Publish database extension for Oracle", also known as eZ Oracle,&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;adds the upgrade script for eZ Publish up to 4.1.3&lt;/li&gt;
+
+&lt;li&gt;corrects a couple of bugs, one of which prevented the installation using 'fully manual' mode&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Please note:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;the mechanism used to derive the names of sequences for tables that are created by extensions has been changed in this release (sequences are the oracle-equivalent of self-incrementing fields in mysql). Take care if you are upgrading from a previous version and have installed any extension that uses persistent objects based on custom tables.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_1_released</guid>
+      <pubDate>Tue, 30 Jun 2009 12:51:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 1.8.2 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_1_8_2_released</link>
+      <description>&lt;p&gt;Hot on the heels of the eZ Publish 4.0.4 release, this new version of the "eZ Publish database adapter for oracle" brings:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;a bugfix for transactions that would be committed halfway in some particular cases&lt;/li&gt;
+
+&lt;li&gt;database update scripts to update your eZ Publish installation to 4.0.4&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt; It can be downloaded here: &lt;a href="/ezoracle/downloads/ez_oracle_1_8/ezoracle_1_8_2_zip" target="_self"&gt;ezoracle-1.8.2.zip&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; Enjoy! &lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_1_8_2_released</guid>
+      <pubDate>Wed, 06 May 2009 08:43:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 2.0 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_released</link>
+      <description>&lt;p&gt;The latest version of the "eZ Publish database extension for Oracle", also known as eZ Oracle, adds support for the latest-and-greatest version of the eZ Publish CMS: 4.1&lt;/p&gt;&lt;p&gt;Full upgrade scripts are included for a smooth transition from previous versions.&lt;/p&gt;&lt;p&gt;The eZ Publish cluster mode is not supported with this release, but it will be again in the next one.&lt;/p&gt;&lt;p&gt;It can be downloaded here: &lt;a href="http://projects.ez.no/ezoracle/downloads/ez_oracle_2_0/ezoracle_2_0_zip" target="_self"&gt;http://projects.ez.no/ezoracle/downloads/ez_oracle_2_0/ezoracle_2_0_zip&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Enjoy!&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_2_0_released</guid>
+      <pubDate>Tue, 17 Mar 2009 23:04:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 1.8.1 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_1_8_1_released</link>
+      <description>&lt;p&gt;I am happy to announce the eZ Oracle 1.8.1 release! &lt;/p&gt;&lt;p&gt;5 bugs have been fixed, and compatibility with eZ Publish 4.0.2 and 4.0.3 restored.&lt;/p&gt;&lt;p&gt;Please make sure to read with care the release notes and install/upgrade instructions. &lt;/p&gt;&lt;p&gt;In particular, when running upgrade scripts, use the initurlaliasmlid.php script that comes in the "patches" directory of the extension instead of the one that is part of the standard 4.0.2/4.0.3 installation&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_1_8_1_released</guid>
+      <pubDate>Tue, 10 Mar 2009 10:56:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Oracle 1.6, 1.7 and 1.8 released</title>
+      <link>http://projects.ez.no/ezoracle/news/ez_oracle_1_6_1_7_and_1_8_released</link>
+      <description> &lt;p&gt;I am happy to announce the eZ Oracle Christmas Release!&lt;/p&gt; &lt;p&gt;After more than a year of work, versions of the extension corresponding to eZ Publish 3.9, 3.10 and 4.0 are finally generally available.&lt;/p&gt; &lt;p&gt;Lots of bugs have been fixed and performance has been tweaked to a great extent, too.&lt;/p&gt; &lt;p&gt;Please make sure to read with care the release notes and install/upgrade instructions that come with each version.&lt;/p&gt; &lt;p&gt;In particular:&lt;/p&gt; 
+&lt;ul&gt;
+ 
+&lt;li&gt; eZ Oracle 1.6 is considered a stop-gap measure, as there are known bugs in eZ Publish 3.9.5 running on Oracle, and version 3.9.6 has not been released (it will most likely never be). Please upgrade at least to eZ Publish 3.10.1 if you plan to use an Oracle database with eZ Publish 3. &lt;/li&gt;
+ 
+&lt;li&gt; The "eZ Publish clustering" mode requires some patches to the eZ Publish kernel files for versions 3.10.1 and 4.0.1. All the relevant patches are included within the eZ Oracle extension &lt;/li&gt;
+ 
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezoracle/news/ez_oracle_1_6_1_7_and_1_8_released</guid>
+      <pubDate>Mon, 22 Dec 2008 15:48:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

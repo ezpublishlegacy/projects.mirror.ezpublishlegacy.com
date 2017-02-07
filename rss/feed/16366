@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezwordtoolbar / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 20:22:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 20:22:31 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16366" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Run-time error '9'</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_93</link>
+      <description>Hi Alexandru,&#13;
+&#13;
+Vista SP2 32-bit, Office 2007 SP2. &#13;
+firewall and antivirus are deaktivated, but nothing changes.&#13;
+&#13;
+Maybe it has do do with the following line in vb-script after connect:&#13;
+&lt;code&gt;&#13;
+nodeList = ezPublishWordToolbar.ServerConnection.getTopNodeList()&#13;
+&lt;/code&gt;&#13;
+&#13;
+but my knowledge about VB is something about nothing&#13;
+</description>
+      <author>community@ez.no (Philip K.)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_93</guid>
+      <pubDate>Mon, 20 Jul 2009 10:44:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great extenions : something for word2003?</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/great_extenions_something_for_word2003/re_great_extenions_something_for_word2003</link>
+      <description>I uploaded the sources in the Downloads section (http://projects.ez.no/ezwordtoolbar/downloads/ezwordtoolbar_1_0_src_zip).&#13;
+&#13;
+Some details:&#13;
+- there isn't much documentation (we are planning to add more in a future version)&#13;
+- there are 3 forms (for Open and SaveAs dialogs and for adding a server dialog)&#13;
+- the module ezServerConnection handles the communication between Word and eZ Publish&#13;
+&#13;
+Good luck with the conversion!</description>
+      <author>community@ez.no (Alexandru Stanoi)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/great_extenions_something_for_word2003/re_great_extenions_something_for_word2003</guid>
+      <pubDate>Thu, 16 Jul 2009 10:33:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Run-time error '9'</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_92</link>
+      <description>Could you provide some details about the Windows machine? (OS version, service packs for OS and Office, firewalls, antivirus, other software which might interfere etc)</description>
+      <author>community@ez.no (Alexandru Stanoi)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_92</guid>
+      <pubDate>Thu, 16 Jul 2009 10:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Run-time error '9'</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_9</link>
+      <description>Hi Folks,&#13;
+&#13;
+same runtime Error here. We try it on Debian Lenny, eZ prublish 4.1.1, php 5.2.6 (and  5.3).&#13;
+latest Comonents are also  installed.&#13;
+&#13;
+Any solution?&#13;
+&#13;
+Thanks&#13;
+Guido</description>
+      <author>community@ez.no (Philip K.)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9/re_run_time_error_9</guid>
+      <pubDate>Thu, 16 Jul 2009 09:37:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Run-time error '9'</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9</link>
+      <description>Hi&#13;
+&#13;
+I have followed instructions but on connection I am getting this error:&#13;
+&#13;
+Subscript out of range&#13;
+&#13;
+eZ 4.0.5, ezrest, ezoe, ezwebin extensions are active.&#13;
+&#13;
+Best regards,&#13;
+S.</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/run_time_error_9</guid>
+      <pubDate>Mon, 25 May 2009 13:36:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great extenions : something for word2003?</title>
+      <link>http://projects.ez.no/ezwordtoolbar/forum/general/great_extenions_something_for_word2003</link>
+      <description>when i discovered this extension, i am very haappy  but i have office 2003 : could you give us the macros vbcode because we can't read it in the dotm vbaproject.bin.&#13;
+&#13;
+pehrahps can i try to do this with W2003 ?&#13;
+&#13;
+thanks in advance&#13;
+&#13;
+Alex</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/ezwordtoolbar/forum/general/great_extenions_something_for_word2003</guid>
+      <pubDate>Sun, 24 May 2009 04:40:39 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

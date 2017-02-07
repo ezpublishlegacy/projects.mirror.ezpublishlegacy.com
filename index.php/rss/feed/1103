@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / collectexport / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:29:10 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:29:10 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1103" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release 1.0.9 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_9_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/cie" target="_self"&gt;cie&lt;/a&gt;&amp;nbsp;(collected information export) extension version 1.0.9 (&lt;a href="http://projects.ez.no/content/download/53302/254985/file/bccie_1-0-9.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53303/254988/file/bccie_1-0-9.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53304/254991/file/bccie_1-0-9.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bccie/blob/master/doc/changelogs/CHANGELOG-1.0.9" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bccie/commits/master" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Updated code to move handlers into classes/handlers directory out of module directory&lt;/li&gt;
+
+&lt;li&gt;Reformatted code to match coding standards&lt;/li&gt;
+
+&lt;li&gt;Minor bugfix to parser to use empty strings to represent no content instead of NC string from contributed parser improvements in previous release 1.0.8&lt;/li&gt;
+
+&lt;li&gt;Parser can now handle correctly newly created attributes which do not exist in older collections&lt;/li&gt;
+
+&lt;li&gt;Export header now uses content class attribute names instead of identifiers&lt;/li&gt;
+
+&lt;li&gt;Added bin/runcronjobpartsylk.sh script&lt;/li&gt;
+
+&lt;li&gt;Added compatibility for eztime, ezdate, ezdatetime and ezboolean datatypes&lt;/li&gt;
+
+&lt;li&gt;Removed extra line at end of php files. Replaced tabs with spaces. Reformatted code to match coding standards. Updated copyright notices&lt;/li&gt;
+
+&lt;li&gt;Minor updates to documentation. Updated copyright notices in documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting and Open-Wide!&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53302/254985/file/bccie_1-0-9.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_9_available</guid>
+      <pubDate>Fri, 01 Nov 2013 10:46:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.6 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_6_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/cie" target="_self"&gt;cie&lt;/a&gt;&amp;nbsp;(collected information export) extension version 1.0.6 (&lt;a href="http://projects.ez.no/content/download/52221/250063/file/bccie_1-0-6.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52222/250066/file/bccie_1-0-6.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52223/250069/file/bccie_1-0-6.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bccie/blob/master/doc/changelogs/CHANGELOG-1.0.6" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bccie/commit/22da669078f8d0e31762a4d7c0180b193ef0cb0f" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Replace collectexport old references to bccie&lt;/li&gt;
+
+&lt;li&gt;Update parser.php csv function to fix an excel error&lt;/li&gt;
+
+&lt;li&gt;Update to include current day to the date range&lt;/li&gt;
+
+&lt;li&gt;Fixed an error in the doexport view of the module&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting, tbuljevic, gserg, daisiez and Simounet!&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52221/250063/file/bccie_1-0-6.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_6_available</guid>
+      <pubDate>Sun, 12 May 2013 23:24:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.5 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_5_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="/index.php/../../../cie" target="_self"&gt;cie&lt;/a&gt;&amp;nbsp;(collected information export) extension version 1.0.5 (&lt;a href="http://projects.ez.no/content/download/46814/224198/file/bccie.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/46815/224201/file/bccie.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/46816/224204/file/bccie.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bccie/blob/master/doc/changelogs/CHANGELOG-1.0.5" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bccie/commit/89c3ac6bafde79bfe201dfc2bb11dd9969c3590d" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Upgraded to support eZ Publish 4.3+, 4.4+ (Community Build 2012.02)&lt;/li&gt;
+
+&lt;li&gt;Added eng-US, eng-GB and untranslated translations of the interface&lt;/li&gt;
+
+&lt;li&gt;Additional export handler for ezcountry&lt;/li&gt;
+
+&lt;li&gt;Updated export handler for ezselection&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting!&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/46814/224198/file/bccie.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_5_available</guid>
+      <pubDate>Sun, 18 Mar 2012 07:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CIE project sources migrate to GitHub</title>
+      <link>http://projects.ez.no/cie/news/cie_project_sources_migrate_to_github</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the migration of this &lt;a href="http://projects.ez.no/cie" target="_self"&gt;project's&lt;/a&gt; source repositories to &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;https://github.com/brookinsconsulting/bccie&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The CIE extension remains a projects.ez.no project, only our preferred source control has changed.&lt;/p&gt;&lt;p&gt;A special word to current and past users of CIE extension, with the migration to GitHub complete we hope to return to this extension to see what can be done to update it to support the latest releases of eZ Publish more completely. Thank you for your patience and continued support.&lt;/p&gt;&lt;p&gt;Feel free to checkout this extension or any of our other solutions available on projects.ez.ez.no and GitHub.&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/cie_project_sources_migrate_to_github</guid>
+      <pubDate>Tue, 29 Nov 2011 03:21:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.4 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_4_available</link>
+      <description>&lt;p&gt;Brookins Consulting and Lukaz Klejnberg are proud to announce the release of &lt;a href="/index.php/../../../cie" target="_self"&gt;cie&lt;/a&gt; (collected information export) extension version 1.0.4 (&lt;a href="http://projects.ez.no/content/download/17397/74277/file/collectexport_1-0-4.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/17571/74924/file/collectexport_1-0-4.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/17570/74921/file/collectexport_1-0-4.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's &lt;a href="http://svn.projects.ez.no/cie/trunk/extension/collectexport/doc/changelogs/CHANGELOG-1.0.4" target="_self"&gt;changelog&lt;/a&gt; features a fair number of improvements including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Upgraded to support eZ Publish 4.0.*, 4.1.* (4.0.1, 4.1, 4.1.1)&lt;/li&gt;
+
+&lt;li&gt;Added Polish translation of the interface &lt;/li&gt;
+
+&lt;li&gt;Additional export handler for ezoption (Now you can export for example poll)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from &lt;a href="/index.php/../../../../users/community/lukasz_klejnberg" target="_self"&gt;Lukasz Klejnberg&lt;/a&gt;!&lt;/p&gt;&lt;p&gt;The new version is now available for &lt;a href="/index.php/../../../download/17397/74277/version/4/file/collectexport_1-0-4.tar.gz" target="_self"&gt;download&lt;/a&gt; or &lt;a href="http://svn.projects.ez.no/cie/trunk/extension/collectexport" target="_self"&gt;subversion&lt;/a&gt; checkout or &lt;a href="http://websvn2.projects.ez.no/wsvn/cie/?op=log&amp;rev=0&amp;isdir=1" target="_blank"&gt;websvn&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_4_available</guid>
+      <pubDate>Mon, 15 Jun 2009 21:44:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.3 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_3_available</link>
+      <description> &lt;p&gt;Brookins Consulting is proud to announce the release of &lt;a href="/index.php/../../../cie" target="_self"&gt;cie&lt;/a&gt; (collected information export) extension version &lt;a href="/index.php/../../download/1694/6688/version/1/file/collectexport_1-0-3.tar.gz" target="_self"&gt;1.0.3&lt;/a&gt;. Download it today!&lt;/p&gt; &lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt; &lt;p&gt;This release's &lt;a href="http://svn.projects.ez.no/cie/trunk/extension/collectexport/doc/changelogs/CHANGELOG-1.0.3" target="_self"&gt;changelog&lt;/a&gt; features a fair number of improvements including ...&lt;/p&gt; 
+&lt;ul&gt;
+ 
+&lt;li&gt; Increased cronjob code reuse and other general code improvements &lt;/li&gt;
+ 
+&lt;li&gt; Added feature to limit exported items to the last number of days &lt;/li&gt;
+ 
+&lt;li&gt; Additional export handler for ezboolean &lt;/li&gt;
+ 
+&lt;li&gt; Complete rewrite of all settings &lt;/li&gt;
+ 
+&lt;li&gt; Fixed php warnings and notices &lt;/li&gt;
+ 
+&lt;/ul&gt;
+ &lt;p&gt;This release's development funding sponsored by &lt;a href="http://all2e.com/" target="_self"&gt;all2e&lt;/a&gt;!&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_3_available</guid>
+      <pubDate>Fri, 27 Jul 2007 01:47:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.2 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_2_available</link>
+      <description> &lt;p&gt;Brookins Consulting is proud to announce the release of &lt;a href="http://projects.ez.no/cie" target="_self"&gt;cie&lt;/a&gt; (collected information export) extension version &lt;a href="http://projects.ez.no/content/download/1686/6656/version/2/file/collectexport_1-0-2.tar.gz" target="_self"&gt;1.0.2&lt;/a&gt;. Download it today!&lt;/p&gt; &lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt; &lt;p&gt;This release's &lt;a href="http://svn.projects.ez.no/cie/trunk/extension/collectexport/doc/changelogs/CHANGELOG-1.0.2" target="_self"&gt;changelog&lt;/a&gt; features a fair number of improvements including ...&lt;/p&gt; 
+&lt;ul&gt;
+ 
+&lt;li&gt; 3.9 compatibility &lt;/li&gt;
+ 
+&lt;li&gt; Improved utf8 compatibility &lt;/li&gt;
+ 
+&lt;li&gt; German Translation &lt;/li&gt;
+ 
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_2_available</guid>
+      <pubDate>Thu, 19 Jul 2007 22:20:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

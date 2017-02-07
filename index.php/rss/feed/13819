@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsi / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:11:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:11:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13819" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FilterDeclare SSI / Last modified header</title>
+      <link>http://projects.ez.no/ezsi/forum/general/filterdeclare_ssi_last_modified_header</link>
+      <description>Hi, &#13;
+&#13;
+using the eZSI with SSI configuration:&#13;
+&#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+&lt;/code&gt;&#13;
+&#13;
+we're loosing the "Last-Modified" header. &#13;
+&#13;
+Loosing that header prevents the clients bowser from caching the requested files like images, css, js. So the client requests those files on every single pageview.&#13;
+&#13;
+So get those headers back the following code can be used:&#13;
+&#13;
+Apache higher than 2.2.15:&#13;
+ &#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+    SSILastModified on&#13;
+&lt;/code&gt;&#13;
+&#13;
+below 2.2.15:&#13;
+&#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+    XBitHack full&#13;
+&lt;/code&gt;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/filterdeclare_ssi_last_modified_header</guid>
+      <pubDate>Tue, 16 Aug 2011 11:43:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi add subtree_expiry</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_add_subtree_expiry</link>
+      <description>Salut&#13;
+&#13;
+Like cache-block, it will be cool if ezsi support subtree_expiry. &#13;
+&#13;
+&#13;
+&#13;
+ &#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_add_subtree_expiry</guid>
+      <pubDate>Thu, 16 Sep 2010 08:14:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EZSI files /var/si-blocks/ and ezdbfileclus...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus2</link>
+      <description>More examples of using the cluster-file-handler to store files: look at the bottom of&#13;
+http://svn.projects.ez.no/ggsysinfo/modules/sysinfo/storagechurn.php&#13;
+and&#13;
+http://svn.projects.ez.no/ggsysinfo/modules/sysinfo/logchurn.php&#13;
+or&#13;
+http://svn.projects.ez.no/ezwebservicesapi/trunk/extension/ezwebservicesapi/xmlrpc/initialize.php</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus2</guid>
+      <pubDate>Fri, 04 Jun 2010 11:49:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EZSI files /var/si-blocks/ and ezdbfileclus...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus</link>
+      <description>Hello,&#13;
+&#13;
+&lt;code&gt;Is there a way to store them within the ezdbfile / data tables ?&lt;/code&gt;&#13;
+&#13;
+Yes, you will need to write your own file handler that will use cluster api instead of direct file calls.&#13;
+&#13;
+To achieve this, a class ezsiclusterfilehandler can be written in folder classes/filehandlers/cluster , defining how to store and delete using cluster api. It should contain something like :&#13;
+&#13;
+&lt;code&gt;&#13;
+    public function storeFile( $directory, $fileName, $fileContents )&#13;
+    {&#13;
+        $filePath = 'var/'.$directory.'/'.$fileName;&#13;
+        $clusterFileHandler = eZClusterFileHandler::instance();&#13;
+        $clusterFileHandler-&gt;fileStoreContents( $filePath, $fileContents );&#13;
+&#13;
+        // TODO : Check for a better error handling&#13;
+        return true;&#13;
+    }&#13;
+..&#13;
+    public function removeFile( $directory, $fileName )&#13;
+    {&#13;
+        $filePath = $directory.'/'.$fileName;&#13;
+        eZDebug::writeNotice( 'Removing ' . $filePath, __METHOD__ );&#13;
+        $clusterFileHandler = eZClusterFileHandler::instance( $filePath );&#13;
+        $clusterFileHandler-&gt;delete();&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+This works nice for me. Just check carefully that SI blocks will also be cached by your Varnish as this may strongly increase charge on your database..&#13;
+&#13;
+Enjoy</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus</guid>
+      <pubDate>Fri, 04 Jun 2010 09:26:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>default.vcl reference</title>
+      <link>http://projects.ez.no/ezsi/forum/general/default_vcl_reference</link>
+      <description>&#13;
+Any default.vcl example file for ezpublish ? &#13;
+&#13;
+thanks. </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/default_vcl_reference</guid>
+      <pubDate>Thu, 27 May 2010 09:37:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>EZSI files /var/si-blocks/ and ezdbfilecluster...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster</link>
+      <description>&#13;
+Hello, &#13;
+&#13;
+I got multiple frontend, and a db cluster (ezdbcluster) behind. &#13;
+I noticed the ezsi files are stored on the filesystem : var/si-blocks/ ... of my frontend. &#13;
+&#13;
+Is there a way to store them within the ezdbfile / data tables ? &#13;
+&#13;
+thanks. &#13;
+</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster</guid>
+      <pubDate>Wed, 19 May 2010 14:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: si-blocks are not fetched when using siteac...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac2</link>
+      <description>Super. Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac2</guid>
+      <pubDate>Wed, 21 Apr 2010 12:43:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: si-blocks are not fetched when using siteac...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac</link>
+      <description>Hi Valentin,&#13;
+&#13;
+As I just wrote in thread http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src , it seems for me not possible use as is (because of relative path). You may need a workaround to make it work (as yours).&#13;
+Maybe a bit easier/smart (as the hack is deported), it's also possible to just handle it in your varnish vcl :&#13;
+&lt;code&gt;&#13;
+set bereq.url = "/";&#13;
+esi;&#13;
+&lt;/code&gt;&#13;
+This will change the seen url for Varnish before parsing tags, and then use the given path to generate ESI requests.&#13;
+&#13;
+Good luck</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac</guid>
+      <pubDate>Wed, 21 Apr 2010 12:24:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>An issue with cronjob (eZSIBlockFunction not found)</title>
+      <link>http://projects.ez.no/ezsi/forum/general/an_issue_with_cronjob_ezsiblockfunction_not_found</link>
+      <description>Hi,&#13;
+&#13;
+Just a small mistake in the cronjob file "siblockupdate.php".&#13;
+On line 150 (trunk), in method "removeFileIfNeeded", a static call on class "eZSIBlockFunction" is made :&#13;
+    $fileHandler = eZSIBlockFunction::loadSIFileHandler();&#13;
+&#13;
+But it seems that this class doesn't exist (any more at least) and can't be found, issuing a fatal error.&#13;
+The class may have been renamed to "eZSiBlockFunction" (with a low "i"), but the reference hasn't been updated. As far as tells the svn this has always been the case (since initial import).</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/an_issue_with_cronjob_ezsiblockfunction_not_found</guid>
+      <pubDate>Wed, 21 Apr 2010 12:12:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src8</link>
+      <description>Hi,&#13;
+&#13;
+&lt;code&gt;I do not think it is a problem to have relative path in your ESI src="" attribute. As long as the file is accessible directly by your browser it should be fetched by Varnish as well. If for example, from your browser you can access http://example.com/./path/../to/../file.html then Varnish should be able to access the file as well.&lt;/code&gt;&#13;
+&#13;
+Indeed it may be.. &#13;
+&#13;
+As defined in ESI specs :&#13;
+&lt;code&gt;Relative URIs will be resolved relative to the template.&lt;/code&gt;&#13;
+&#13;
+eZ Publish handles url aliases but as all requests are managed on web root (via index.php redirection), the real interpretation path remains "/".&#13;
+But for Varnish, a slash in url constitutes a new "subfolder" that makes it a new home to be relative to.&#13;
+&#13;
+Then when you play with pathes deeper than one level, the created esi request will be erraneous as it considers the last slash as a basis path.&#13;
+For an ESI block called from a page named "http://example.com/Folder/Subfolder/The-final-content", that kind of uri will be produced : http://example.com/Folder/Subfolder/var/si-blocks/file.htm , which won't be a valid one.&#13;
+&#13;
+Possible workarounds I see :&#13;
+- Hack the FS handler in ezsiblockfunction.php to make the generated "src" absolute from "/" (Valentin's solution)&#13;
+- Add an Apache rewrite rule to strip the folder path from the ESI request, rewriting them relative to "/" (not very smart..)&#13;
+- Add a dedicated rule in Varnish VCL, to reconsider the base path before parsing esi tags :&#13;
+# Parsing ESI tags&#13;
+set bereq.url = "/";&#13;
+esi;&#13;
+&#13;
+But currently it doesn't seem to me possible to use the FS handler in a host configuration context without one of those workarounds?&#13;
+&#13;
+And right with mod_deflate, I've also lost a few hairs with it... thanks Pablo to point it!</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src8</guid>
+      <pubDate>Wed, 21 Apr 2010 10:30:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>si-blocks are not fetched when using siteaccess in URI</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri</link>
+      <description>Hi,&#13;
+I'm trying to install Varnish and eZSI and could not get it work due to I use MathOrder=uri&#13;
+If I visit site like http://host.com/siteaccess/&#13;
+Varnish every time tries to fetch si blocks using siteaccess&#13;
+like http://host.com/siteaccess/var/si-blocks/....&#13;
+&#13;
+This hack resolves it.&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: ezsiblockfunction.php&#13;
+===================================================================&#13;
+--- ezsiblockfunction.php	(revision 54392)&#13;
++++ ezsiblockfunction.php	(working copy)&#13;
+@@ -107,7 +107,7 @@&#13;
+ &#13;
+                     if( $SIFileHandler == 'fs' )&#13;
+                     {&#13;
+-                        $blockFilePathPreprendString = 'var/';&#13;
++                        $blockFilePathPreprendString = '/var/';&#13;
+                     }&#13;
+ &#13;
+                     $filePath = $blockFilePathPreprendString . $cacheDir . '/' . $fileName;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Could you please tip how to configure eZSI or Varnish to get it work without this hack?&#13;
+Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri</guid>
+      <pubDate>Wed, 21 Apr 2010 09:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src7</link>
+      <description>I want to let you know that I needed to unload mod_deflate to make it works&#13;
+as noticed here : http://www.mail-archive.com/varnish-misc@projects.linpro.no/msg02586.html&#13;
+&#13;
+bye</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src7</guid>
+      <pubDate>Tue, 09 Mar 2010 09:04:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src6</link>
+      <description>Thanks Jérome. &#13;
+&#13;
+I damned, I copy/paste your doc... please change the "tll" to "ttl" in the example ... ###!:p &#13;
+there : &#13;
+{si-block key=string $key [tll=integer $ttl]}</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src6</guid>
+      <pubDate>Thu, 25 Feb 2010 18:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>cache problem</title>
+      <link>http://projects.ez.no/ezsi/forum/general/cache_problem</link>
+      <description>Hi,&#13;
+&#13;
+I would like to know if someone have had already this kind of problem.&#13;
+My esi block is correctly display and the cronjob has also a good configuration (it run all 10 minutes).&#13;
+I make this test: I display the current time in my si-block. The first time I watch the web page, I have the good time, but 10minutes, 20minutes or more, the time have not changed.&#13;
+If I look at the file html include in the si-blosk, the time is good. If I look at my web page in an other browser, it's good for the first time.&#13;
+I think it's a client cache problem.&#13;
+&#13;
+Has someone an idea of how to resolve this?&#13;
+&#13;
+Thank's,&#13;
+&#13;
+Seb&#13;
+</description>
+      <author>community@ez.no (Seb gaillard)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/cache_problem</guid>
+      <pubDate>Tue, 23 Feb 2010 11:24:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src5</link>
+      <description>Hi,&#13;
+I'm trying to install Varnish and eZSI and could not get it work due to I use MathOrder=uri&#13;
+and Varnish everytime tries to fetch si blocks using siteaccess&#13;
+like http://host.com/siteaccess/var/si-blocks/....&#13;
+&#13;
+This hack resolves it.&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: ezsiblockfunction.php&#13;
+===================================================================&#13;
+--- ezsiblockfunction.php	(revision 54392)&#13;
++++ ezsiblockfunction.php	(working copy)&#13;
+@@ -107,7 +107,7 @@&#13;
+ &#13;
+                     if( $SIFileHandler == 'fs' )&#13;
+                     {&#13;
+-                        $blockFilePathPreprendString = 'var/';&#13;
++                        $blockFilePathPreprendString = '/var/';&#13;
+                     }&#13;
+ &#13;
+                     $filePath = $blockFilePathPreprendString . $cacheDir . '/' . $fileName;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Could you please tip how to configure eZSI or Varnish to get it work without this hack?&#13;
+Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src5</guid>
+      <pubDate>Mon, 15 Feb 2010 14:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src4</link>
+      <description>Hi Pablo,&#13;
+&#13;
+not sure I understand your question but I'll try to answer :)&#13;
+&#13;
+&lt;code&gt;&#13;
+If -has indicated below- I use the SSI mode, ok it works, but I miss a step : where is varnish ? Ok the EZSI store the content, generate the static html file, and add the include in the html view, so apache mode_filter & mod_include include the html file (which has a right ./var/site-blocks... url).
+</code>
+There is a misunderstanding here. Varnish can not parse SSI tags, but only ESI ones.
+The difference between SSI and ESI is (to sum up) the syntax. For example we could use the following SSI code to include a file:
+<code>
+<!--#include file=path/to/file.html -->
+</code>
+
+And the following ESI code to do the same thing:
+<code>
+<esi:include src="path/to/file.html" ttl="2h" onerror="continue"/>
+</code>
+
+SSI tags can only be parsed by Apache whereas an ESI tag can be parsed by Akamai or Varnish.
+
+<code>
+I noticed here :
+http://varnish.projects.linpro.no/wiki/ESIfeatures
+sub vcl_fetch {
+if (req.url == "/test.html") {
+esi; /* Do ESI processing */&#13;
+set obj.ttl = 24 h;&#13;
+} elseif (req.url == "/cgi-bin/date.cgi") {&#13;
+set obj.ttl = 1m;&#13;
+}&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Varnish does not parse the ttl attribute returned by eZSI so you will have to define the TTL by yourself in your VCL file. As explained in the example, if the user requests the /test.html page then the ESI engine will be turned on, an apply any &lt;esi:include&gt; instruction found.&#13;
+&#13;
+I do not think it is a problem to have relative path in your ESI src="" attribute. As long as the file is accessible directly by your browser it should be fetched by Varnish as well. If for example, from your browser you can access http://example.com/./path/../to/../file.html&#13;
+then Varnish should be able to access the file as well.&#13;
+&#13;
+If not, check your Apache configuration, either something is misconfigured or a RewriteRule is missing.&#13;
+&#13;
+Please also note that using relative path can be a security issue.&#13;
+&#13;
+Best Regards.</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src4</guid>
+      <pubDate>Tue, 12 Jan 2010 12:34:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src3</link>
+      <description>Hello Jérome. (salut !) &#13;
+&#13;
+same question.&#13;
+with the esi mode I generate a link which can't work var/si-blocks... as it is relative. &#13;
+&#13;
+If -has indicated below- I use the SSI mode, ok it works, but I miss a step : where is varnish ? Ok the EZSI store the content, generate the static html file, and add the include in the html view, so apache mode_filter & mod_include  include the html file (which has a right ./var/site-blocks... url). 
+
+So I obviously miss a step : where is varnish there ? 
+If I switched back to ESI Mode => varnish. 
+The link to the var/si-block won't work anymore. 
+What are the rules to put in the varnish vcl config ? 
+
+I noticed here : 
+http://varnish.projects.linpro.no/wiki/ESIfeatures
+sub vcl_fetch {
+    if (req.url == "/test.html") {
+        esi;  /* Do ESI processing */&#13;
+        set obj.ttl = 24 h;&#13;
+    } elseif (req.url == "/cgi-bin/date.cgi") {&#13;
+        set obj.ttl = 1m;&#13;
+    }&#13;
+}&#13;
+&#13;
+Ok I understand well that Varnish should only get the date.cgi but in our case the url is not working (again a relative url var/si-blocks). BTW I'm using URI siteaccess. &#13;
+Thanks for you help, I'd like to quickly validate the Varnish / ESI team. &#13;
+Thanks for your extension. &#13;
+&#13;
+ </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src3</guid>
+      <pubDate>Wed, 06 Jan 2010 15:46:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: move location of generated si-blocks</title>
+      <link>http://projects.ez.no/ezsi/forum/general/feat_request_move_location_of_generated_si_blocks</link>
+      <description>As they are basically cache blocks, I think they should be stored inside the cache dir.&#13;
+&#13;
+Proposed location: var/cache/public/si-blocks, or  var/siteaccess/cache/public/si-blocks</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/feat_request_move_location_of_generated_si_blocks</guid>
+      <pubDate>Mon, 09 Nov 2009 18:07:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: expiring a block on-demand</title>
+      <link>http://projects.ez.no/ezsi/forum/general/feat_request_expiring_a_block_on_demand</link>
+      <description>This could be done via script, or via a nice gui.&#13;
+Taking as input the name of the tpl where the block is defined and its key (and optionally lineno), the code should be able to figure out which lines in the ezsi table are involved and alter their mtime so that they get regenerated on the next pass of the cronjob.&#13;
+&#13;
+Of course having a tab in the admin interface would also be a nice way to keep the evolution of ezsi caches under control...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/feat_request_expiring_a_block_on_demand</guid>
+      <pubDate>Mon, 09 Nov 2009 18:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>errors in docs</title>
+      <link>http://projects.ez.no/ezsi/forum/general/errors_in_docs</link>
+      <description>Despite what the docs say, the urlalias is not taken into account when the id of the block is generated from the keys parameter.&#13;
+This is quite useful, as otherwise a different block  would be generated for every page when you create eg. a footer block included in the pagelayout...&#13;
+The docs need to be fixed though</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/errors_in_docs</guid>
+      <pubDate>Mon, 09 Nov 2009 18:02:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: use eZP classes for http reqs, not of direc...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/use_ezp_classes_for_http_reqs_not_of_directly_curl/re_use_ezp_classes_for_http_reqs_not_of_direc</link>
+      <description>even worse, at places fopen is used to do a GET request!!!</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/use_ezp_classes_for_http_reqs_not_of_directly_curl/re_use_ezp_classes_for_http_reqs_not_of_direc</guid>
+      <pubDate>Mon, 09 Nov 2009 18:01:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>allow usage of https urls in HostMatchMapItems</title>
+      <link>http://projects.ez.no/ezsi/forum/general/allow_usage_of_https_urls_in_hostmatchmapitems</link>
+      <description>(feat request)&#13;
+&#13;
+current code assumes http urls are used all the time</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/allow_usage_of_https_urls_in_hostmatchmapitems</guid>
+      <pubDate>Tue, 20 Oct 2009 12:17:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>use eZP classes for http reqs, not of directly curl</title>
+      <link>http://projects.ez.no/ezsi/forum/general/use_ezp_classes_for_http_reqs_not_of_directly_curl</link>
+      <description>(feat request)&#13;
+&#13;
+- more code reuse&#13;
+- it works even if curl is not installed&#13;
+&#13;
+(currently curl is used directly in callPage() in the cronjob)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/use_ezp_classes_for_http_reqs_not_of_directly_curl</guid>
+      <pubDate>Tue, 20 Oct 2009 12:16:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi 1.1</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_1_1</link>
+      <description>Hi,&#13;
+&#13;
+I see that the extension is available in version 1.1 in the downloads area.&#13;
+Is it stable yet?&#13;
+&#13;
+Cheers&#13;
+Huy</description>
+      <author>community@ez.no (Quoc-Huy NGUYEN DINH)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_1_1</guid>
+      <pubDate>Thu, 20 Aug 2009 14:47:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src2</link>
+      <description>Thanks Jérôme for the fast answer... Now I really now how to proceed with my project...</description>
+      <author>community@ez.no (Andreas Kaiser)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src2</guid>
+      <pubDate>Tue, 28 Apr 2009 18:21:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src</link>
+      <description>Hi Andreas,&#13;
+&lt;code&gt;&#13;
+The main problem is that the blocks are not being showed, perhaps because the src includes is like:&#13;
+&#13;
+&lt;esi:include src="var/si-blocks/dcfd8220424368a90edf6f8b56e9fe61.htm" ttl="1m" onerror="continue"/&gt;&#13;
+&#13;
+Shouldn't it include the domain I have configured in ezsi.ini.append.php?:&#13;
+&#13;
+BlockFilePathPrependString=http://www.example.com/&#13;
+&lt;/code&gt;&#13;
+No, basically, BlockFilePathPreprendString is only used when FileHandler=FTP.&#13;
+Basically it is here to make it possible to use ESI with Akamai and to upload SI blocks on a specific Akamais's FTP server.&#13;
+&#13;
+&lt;code&gt;&#13;
+Also tried with other configurations like "http://www.example.com/var/si-blocks/"&#13;
+&lt;/code&gt;&#13;
+You should leave BlockFilePathPrependString empty, like this&#13;
+&lt;code&gt;&#13;
+BlockFilePathPrependString=&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;code&gt;&#13;
+Anyway when I disable "ActivateSIMarkup" all works (I assume because it loads ez publish template instead of created html files...)&#13;
+&lt;/code&gt;&#13;
+Yes.&#13;
+&#13;
+If ever you want to test, you can also use the SSI driver (BlockHandler=SSI) and let Apache's mod_include fetch si-blocks, it could be useful for testing, the needed configuration is described in the documentation file, in the following directory :&lt;code&gt;extension/ezsi/doc/&lt;/code&gt;&#13;
+&#13;
+Best Regards.</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src</guid>
+      <pubDate>Tue, 28 Apr 2009 18:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src</link>
+      <description>Thanks for the great extension,&#13;
+&#13;
+just trying to make it work with one project (with varnish). In this project I have one webserver with ez publish and a separate varnish server.&#13;
+&#13;
+First the var/si-blocks/---.html files are being created ok.&#13;
+&#13;
+The main problem is that the blocks are not being showed, perhaps because the src includes is like:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;esi:include src="var/si-blocks/dcfd8220424368a90edf6f8b56e9fe61.htm" ttl="1m" onerror="continue"/&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Shouldn't it include the domain I have configured in ezsi.ini.append.php?:&#13;
+&#13;
+&lt;code&gt;&#13;
+BlockFilePathPrependString=http://www.example.com/&#13;
+&lt;/code&gt;&#13;
+&#13;
+Also tried with other configurations like "http://www.example.com/var/si-blocks/"&#13;
+&#13;
+Anyway when I disable "ActivateSIMarkup" all works (I assume because it loads ez publish template instead of created html files...)&#13;
+&#13;
+Perhaps this could be related with varnish... but I really don't see how the "BlockFilePathPrependString" settings affect the esi includes...</description>
+      <author>community@ez.no (Andreas Kaiser)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src</guid>
+      <pubDate>Tue, 28 Apr 2009 17:12:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>tips how/when to use it</title>
+      <link>http://projects.ez.no/ezsi/forum/general/tips_how_when_to_use_it</link>
+      <description>Hi&#13;
+Jerome maybe you have change the doc (I don't check the files). &#13;
+I just give some tips to prevent pb with the ext&#13;
+&#13;
+si-block should not be use if you have a lot of different key.&#13;
+-&gt; the cronjobs will take to much time to update all your block.&#13;
+&#13;
+si-block should not be use to display comments/user informations&#13;
+You will have to build another dedicate extension.&#13;
+You should use si-block "only" for menu/header/footer  &#13;
+&#13;
+Don't use the ext to bypass cache-content issue. &#13;
+&#13;
+like cache-block, it's  not really a good idea to have a very small TTL.&#13;
+&#13;
+Like cache-block, when you move a si-block in a tpl, the ext will create a new file.&#13;
+Check the table create by the ext, and clean unuse information (remove all data)&#13;
+&#13;
+It's stupid to say but never use the extension with dev mode enabled on prod server...&#13;
+it will slow down the website perf.&#13;
+&#13;
+Take care:&#13;
+The cronjob flush the content cache to generate si file. &#13;
+If you use ezkeywords attribute and you have a lot of keyword/content, ou should increase the value of the cachetreshold  (site.ini) &#13;
+if not ezpublish can remove all your content cache each time the cronjob try to generate si-file.&#13;
+more info http://issues.ez.no/IssueView.php?Id=13429</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/tips_how_when_to_use_it</guid>
+      <pubDate>Sat, 31 Jan 2009 12:11:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

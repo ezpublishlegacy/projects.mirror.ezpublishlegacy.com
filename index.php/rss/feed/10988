@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsync</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10988" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>php extension/ezdeploy/bin/sync.php --env=oscar gives error</title>
+      <link>http://projects.ez.no/ezsync/forum/general/php_extension_ezdeploy_bin_sync_php_env_oscar_gives_error</link>
+      <description>Hi,&#13;
+I have installed ezdeploy extension and tried to run above command in eZ-Publish tree root but it is giving error.&#13;
+&#13;
+Command is:&#13;
+php extension/ezdeploy/bin/sync.php --env = oscar&#13;
+&#13;
+It gives below error:&#13;
+An unexpected error has occurred. Please contact the webmaster.&#13;
+&#13;
+Can anyone tell me why it is giving erro?&#13;
+&#13;
+What i have to write in the front of "--env" option.&#13;
+&#13;
+As there is no information available for ezdeploy.&#13;
+&#13;
+Also please tell me what to write in the below block of sync.ini.append.php&#13;
+&#13;
+[DefaultSyncSettings]&#13;
+Host=Ip Address of the server on which i want to put files&#13;
+Dir=path of the directory&#13;
+User=username&#13;
+Port=22&#13;
+Parameters=&#13;
+FileRsyncEclude=extension/ezdeploy/settings/rsync_exclude.txt&#13;
+&#13;
+[ProductionSyncSettings]&#13;
+Dir=&#13;
+&#13;
+what i have to write in above block?</description>
+      <author>community@ez.no (Nehal Shah)</author>
+      <guid>http://projects.ez.no/ezsync/forum/general/php_extension_ezdeploy_bin_sync_php_env_oscar_gives_error</guid>
+      <pubDate>Wed, 24 Apr 2013 06:13:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 17 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/17</link>
+      <description>Fix strict error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/17</guid>
+      <pubDate>Mon, 26 Apr 2010 15:15:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 16 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/16</link>
+      <description>Beautify sync script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/16</guid>
+      <pubDate>Mon, 14 Dec 2009 15:30:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 15 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/15</link>
+      <description>Now it's possible to list the environment parameters</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/15</guid>
+      <pubDate>Wed, 28 Oct 2009 10:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 14 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/14</link>
+      <description>Throw exception if user does not specify valid server directory</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/14</guid>
+      <pubDate>Fri, 14 Aug 2009 14:15:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 13 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/13</link>
+      <description>fixed typo in sync.php </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/13</guid>
+      <pubDate>Mon, 20 Jul 2009 14:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 12 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/12</link>
+      <description>Added bash script to upgrade eZ Publish from 4.0.0 release to 4.0.1.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/12</guid>
+      <pubDate>Tue, 02 Dec 2008 17:45:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 11 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/11</link>
+      <description>Alcune modifiche per aggiungere il  nome al file e alcuni controlli in più</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/11</guid>
+      <pubDate>Fri, 31 Oct 2008 18:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 10 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/10</link>
+      <description>Added exportDiffFile and Test to create patch based on svn diff</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/10</guid>
+      <pubDate>Fri, 24 Oct 2008 16:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 9 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/9</link>
+      <description>Rsync exclude file changed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/9</guid>
+      <pubDate>Fri, 29 Aug 2008 14:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 8 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/8</link>
+      <description>Copy trunk into tag 0.1
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/8</guid>
+      <pubDate>Mon, 25 Aug 2008 14:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Deploy 0.1</title>
+      <link>http://projects.ez.no/ezsync/downloads/ez_deploy_0_1</link>
+      <description></description>
+      <author>community@ez.no (Francesco Trucchia)</author>
+      <guid>http://projects.ez.no/ezsync/downloads/ez_deploy_0_1</guid>
+      <pubDate>Mon, 25 Aug 2008 14:33:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 6 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/6</link>
+      <description>add readme file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/6</guid>
+      <pubDate>Mon, 25 Aug 2008 14:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 7 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/7</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/7</guid>
+      <pubDate>Mon, 25 Aug 2008 14:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 5 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/5</link>
+      <description>Update licence info</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/5</guid>
+      <pubDate>Mon, 25 Aug 2008 14:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 4 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/4</link>
+      <description>Add ez deploy code cource</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/4</guid>
+      <pubDate>Mon, 25 Aug 2008 14:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 3 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/3</link>
+      <description>Make tag dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/3</guid>
+      <pubDate>Mon, 25 Aug 2008 13:40:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 1 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/1</link>
+      <description>Make trunk dir
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/1</guid>
+      <pubDate>Mon, 25 Aug 2008 13:40:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsync rev. 2 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezsync/subversion/2</link>
+      <description>Make branches dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsync/subversion/2</guid>
+      <pubDate>Mon, 25 Aug 2008 13:40:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

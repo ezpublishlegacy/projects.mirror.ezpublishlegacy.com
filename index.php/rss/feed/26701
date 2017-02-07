@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / extendeddate / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:11:56 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:11:56 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26701" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>&lt; 1970 validation</title>
+      <link>http://projects.ez.no/extendeddate/forum/general/1970_validation</link>
+      <description>Hey, thanks for this nice work!&#13;
+&#13;
+btw, if you use the eZDateTimeValidator::validateDate it isn't possible to save the date string before 1970.&#13;
+&#13;
+&#13;
+best regards&#13;
+scrieler</description>
+      <author>community@ez.no (scrieler _)</author>
+      <guid>http://projects.ez.no/extendeddate/forum/general/1970_validation</guid>
+      <pubDate>Wed, 30 Nov 2011 12:58:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Execution time </title>
+      <link>http://projects.ez.no/extendeddate/forum/general/execution_time</link>
+      <description>I was getting an error about execution time exceeded 30sec.&#13;
+&#13;
+The solution for me was to edit extendeddate/design/standard/templates/content/datatyepe/edit/extendeddate.tpl and replace line #9 to #12 with this:&#13;
+&#13;
+&lt;code&gt;&#13;
+					{def $current_year=currentdate()|datetime( 'custom', '%Y')&#13;
+						$max=$attribute.contentclass_attribute.data_int2 &#13;
+						$min=$attribute.contentclass_attribute.data_int3&#13;
+					}&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Olav Frengstad)</author>
+      <guid>http://projects.ez.no/extendeddate/forum/general/execution_time</guid>
+      <pubDate>Sun, 19 Dec 2010 20:44:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>extended datetime</title>
+      <link>http://projects.ez.no/extendeddate/forum/general/extended_datetime</link>
+      <description>will there be an improvment for the datetime datatype ?</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/extendeddate/forum/general/extended_datetime</guid>
+      <pubDate>Thu, 02 Sep 2010 14:17:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Find compatibility</title>
+      <link>http://projects.ez.no/extendeddate/forum/general/ez_find_compatibility</link>
+      <description>Is this compatible with eZ Find?</description>
+      <author>community@ez.no (Jani Tarvainen)</author>
+      <guid>http://projects.ez.no/extendeddate/forum/general/ez_find_compatibility</guid>
+      <pubDate>Thu, 01 Jul 2010 03:47:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezinformation</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:26:56 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:26:56 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10023" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>problem with sending email</title>
+      <link>http://projects.ez.no/ezinformation/forum/general/problem_with_sending_email</link>
+      <description>Hi Lukasz,&#13;
+&#13;
+I have some problem with ezinformation on 4.2 Website Interface. When i set everything like you wrote and after publish article from frontend i don't get any e-mail. So i added in the file ezinformationtype.php:&#13;
+&#13;
+&lt;code&gt;&#13;
+foreach ( $contentClassIDArray as $classID )&#13;
+{&#13;
+ if ( $classID == $object-&gt;attribute( 'contentclass_id' ) )&#13;
+ {&#13;
+   ...&#13;
+   eZDebug::writeNotice('Sending e-mail - test');&#13;
+   ...&#13;
+  }&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+and log is empty.&#13;
+&#13;
+Do you have any idea to solve this problem?&#13;
+&#13;
+Best regards,&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/ezinformation/forum/general/problem_with_sending_email</guid>
+      <pubDate>Mon, 04 Jan 2010 13:28:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 8 by Francesco Trucchia</title>
+      <link>http://projects.ez.no/ezinformation/subversion/8</link>
+      <description>Added possibility to add cc and bcc values on email notification</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/8</guid>
+      <pubDate>Thu, 19 Feb 2009 17:05:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 7 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/7</link>
+      <description>- Added stable 1.0 version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/7</guid>
+      <pubDate>Wed, 03 Sep 2008 18:45:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 6 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/6</link>
+      <description>- Created 1.0 dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/6</guid>
+      <pubDate>Wed, 03 Sep 2008 18:40:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation.tgz (eZ Publish 3.x)</title>
+      <link>http://projects.ez.no/ezinformation/downloads/ezinformation_tgz_ez_publish_3_x</link>
+      <description></description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezinformation/downloads/ezinformation_tgz_ez_publish_3_x</guid>
+      <pubDate>Wed, 03 Sep 2008 18:38:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation.tgz (eZ Publish 4.x)</title>
+      <link>http://projects.ez.no/ezinformation/downloads/ezinformation_tgz_ez_publish_4_x</link>
+      <description></description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/ezinformation/downloads/ezinformation_tgz_ez_publish_4_x</guid>
+      <pubDate>Wed, 03 Sep 2008 18:31:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 5 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/5</link>
+      <description>- Updated ezinfo.php
+- Removed includes
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/5</guid>
+      <pubDate>Wed, 03 Sep 2008 18:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 4 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/4</link>
+      <description>- Added ezinfo.php
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/4</guid>
+      <pubDate>Wed, 02 Jul 2008 12:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 3 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/3</link>
+      <description>- Initial commit
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/3</guid>
+      <pubDate>Wed, 02 Jul 2008 12:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 1 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/1</link>
+      <description>- Created trunk dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/1</guid>
+      <pubDate>Wed, 02 Jul 2008 12:25:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezinformation rev. 2 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezinformation/subversion/2</link>
+      <description>- Created stable dir
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezinformation/subversion/2</guid>
+      <pubDate>Wed, 02 Jul 2008 12:25:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

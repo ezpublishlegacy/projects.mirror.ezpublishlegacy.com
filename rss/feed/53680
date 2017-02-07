@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcrssfeeds / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:35:13 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:35:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/53680" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcrssfeeds/source/d9cf5210276b5f5db90d46997ad07dfd15c206c3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated copyright documentation to fix incorrect copyright year for Brookins Consulting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcrssfeeds/source/d9cf5210276b5f5db90d46997ad07dfd15c206c3</guid>
+      <pubDate>Sat, 13 Jun 2015 07:03:30 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcrssfeeds/source/490cd6341f960662a84f1455e820eb36aa9352c2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Refactor solution from rssfeedoperator extension into bcrssfeeds extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcrssfeeds/source/490cd6341f960662a84f1455e820eb36aa9352c2</guid>
+      <pubDate>Mon, 01 Jun 2015 06:23:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcrssfeeds/source/7c0548fcc5fa730794c46c43c8cc96db5420c174</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Moved extension internals into root of repository&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcrssfeeds/source/7c0548fcc5fa730794c46c43c8cc96db5420c174</guid>
+      <pubDate>Mon, 01 Jun 2015 06:23:31 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/bcrssfeeds/source/bf5b98b0df41ec1c730e54cb8ac3d8467435829c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;-- initial import of version 1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcrssfeeds/source/bf5b98b0df41ec1c730e54cb8ac3d8467435829c</guid>
+      <pubDate>Mon, 01 Jun 2015 06:23:31 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

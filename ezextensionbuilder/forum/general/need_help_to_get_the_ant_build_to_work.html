@@ -1,0 +1,988 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ezextensionbuilder/forum/general/need_help_to_get_the_ant_build_to_work by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:33:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Need help to get the ant build to work.     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezextensionbuilder/forum/general'];
+menu[4] = ['Leaders', '/ezextensionbuilder/team/leaders', 'Members', '/ezextensionbuilder/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ezextensionbuilder.html" onmouseover="switchSubMenu( this );">eZ  Extension Builder &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezextensionbuilder.html">ezextensionbuilder</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        need help to get the ant bu...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Need help to get the ant build to work.</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg23442">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/felix_woldt.html">Felix Woldt</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/felix_woldt/29233-27-eng-GB/felix_woldt_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />17 February 2006</p>
+        <p class="posts">Posts: 75</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 18 February 2010 5:41:08 pm</p>
+
+        <div class="attribute-long">I am trying to get the ezextensionbuilder ant script to work. But i get an build.xml error.<br />
+Do you have any idea what i do wrong?<br />
+Hopefully you can give me a tip.<br />
+I really want to use this script for building my extensions.<br />
+<br />
+Thank's<br />
+<br />
+I have the following test setup using ezflow:<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">svn co <a href="http://svn.ez.no/svn/extensions/ezflow/trunk" title="http://svn.ez.no/svn/extensions/ezflow/trunk">http://svn.ez.no/svn/extensions/ezflow/trunk</a> ezflow</span>
+
+<span class="line">cd ezflow</span>
+
+<span class="line">svn export <a href="http://svn.projects.ez.no/ezextensionbuilder/trunk/bootstrap.xml" title="http://svn.projects.ez.no/ezextensionbuilder/trunk/bootstrap.xml">http://svn.projects.ez.no/ezextensionbuilder/trunk/bootstrap.xml</a></span>
+
+<span class="line"></span></pre><br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">ant -f bootstrap.xml</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">Buildfile: bootstrap.xml</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">ivy-download:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] Getting: <a href="http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar" title="http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar">http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.1.0/ivy-2.1.0.jar</a></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] To: /home/felix/.ant/lib/ivy.jar</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] Not modified - so not downloaded</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">ivy-init:</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">ivy-resolve-dependencies:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] Getting: <a href="http://svn.projects.ez.no/ezextensionbuilder/trunk/ivy.xml" title="http://svn.projects.ez.no/ezextensionbuilder/trunk/ivy.xml">http://svn.projects.ez.no/ezextensionbuilder/trunk/ivy.xml</a></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] To: /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/ivy.xml</span>
+
+<span class="line">[ivy:resolve] :: Ivy 2.1.0 - 20090925235825 :: <a href="http://ant.apache.org/ivy/" title="http://ant.apache.org/ivy/">http://ant.apache.org/ivy/</a> ::</span>
+
+<span class="line">[ivy:resolve] :: loading settings :: url = jar:file:/home/felix/.ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml</span>
+
+<span class="line">[ivy:resolve] :: resolving dependencies :: eZ Systems#build-dependencies;<a href='mailto:working@felix-xen'>working@felix-xen</a></span>
+
+<span class="line">[ivy:resolve] &nbsp;&nbsp;confs: [default]</span>
+
+<span class="line">[ivy:resolve] &nbsp;&nbsp;found ant-contrib#ant-contrib;1.0b3 in public</span>
+
+<span class="line">[ivy:resolve] :: resolution report :: resolve 210ms :: artifacts dl 4ms</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------------</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modules&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;artifacts&nbsp;&nbsp;|</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| number| search|dwnlded|evicted|| number|dwnlded|</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------------</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;1&nbsp;&nbsp;|&nbsp;&nbsp;0&nbsp;&nbsp;|&nbsp;&nbsp;0&nbsp;&nbsp;|&nbsp;&nbsp;0&nbsp;&nbsp;||&nbsp;&nbsp;1&nbsp;&nbsp;|&nbsp;&nbsp;0&nbsp;&nbsp;|</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---------------------------------------------------------------------</span>
+
+<span class="line">[ivy:retrieve] :: retrieving :: eZ Systems#build-dependencies</span>
+
+<span class="line">[ivy:retrieve] &nbsp;confs: [default]</span>
+
+<span class="line">[ivy:retrieve] &nbsp;0 artifacts copied, 1 already retrieved (0kB/7ms)</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">bootstrap:</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] Getting: <a href="http://svn.projects.ez.no/ezextensionbuilder/trunk/build.xml" title="http://svn.projects.ez.no/ezextensionbuilder/trunk/build.xml">http://svn.projects.ez.no/ezextensionbuilder/trunk/build.xml</a></span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[get] To: /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml</span>
+
+<span class="line">&nbsp;&nbsp;[delete] Deleting: /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/ivy.xml</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">BUILD SUCCESSFUL</span>
+
+<span class="line">Total time: 2 seconds</span>
+
+<span class="line"></span></pre><br />
+<br />
+<b>running the ezflow build i am getting an error</b><br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">ant all -Dextension.name=ezflow</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">Buildfile: build.xml</span>
+
+<span class="line">&nbsp;[taskdef] Could not load definitions from resource net/sf/antcontrib/antcontrib.properties. It could not be found.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">BUILD FAILED</span>
+
+<span class="line">/home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml:63: Problem: failed to create task or type propertycopy</span>
+
+<span class="line">Cause: The name is undefined.</span>
+
+<span class="line">Action: Check the spelling.</span>
+
+<span class="line">Action: Check that any custom tasks/types have been declared.</span>
+
+<span class="line">Action: Check that any &lt;presetdef&gt;/&lt;macrodef&gt; declarations have taken place.</span>
+
+<span class="line"></span></pre><br />
+<br />
+the same with more debug output<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">ant all -Dextension.name=ezflow -d</span>
+
+<span class="line"></span></pre><br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">ant all -Dextension.name=ezflow -d</span>
+
+<span class="line">Apache Ant version 1.7.1 compiled on February 23 2009</span>
+
+<span class="line">Buildfile: build.xml</span>
+
+<span class="line">Adding reference: ant.PropertyHelper</span>
+
+<span class="line">Detected Java version: 1.6 in: /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre</span>
+
+<span class="line">Detected OS: Linux</span>
+
+<span class="line">Adding reference: ant.ComponentHelper</span>
+
+<span class="line">Setting ro project property: extension.name -&gt; ezflow</span>
+
+<span class="line">Setting ro project property: ant.file -&gt; /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml</span>
+
+<span class="line">Adding reference: ant.projectHelper</span>
+
+<span class="line">Adding reference: ant.parsing.context</span>
+
+<span class="line">Adding reference: ant.targets</span>
+
+<span class="line">parsing buildfile /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml with URI = file:/home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml</span>
+
+<span class="line">Setting ro project property: ant.project.name -&gt; eZExtensionBuilder</span>
+
+<span class="line">Adding reference: eZExtensionBuilder</span>
+
+<span class="line">Setting ro project property: ant.file.eZExtensionBuilder -&gt; /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml</span>
+
+<span class="line">Project base dir set to: /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow</span>
+
+<span class="line">&nbsp;+Target:&nbsp;</span>
+
+<span class="line">&nbsp;+Target: help</span>
+
+<span class="line">&nbsp;+Target: show-properties</span>
+
+<span class="line">&nbsp;+Target: init</span>
+
+<span class="line">&nbsp;+Target: -purge-file</span>
+
+<span class="line">&nbsp;+Target: build</span>
+
+<span class="line">&nbsp;+Target: clean</span>
+
+<span class="line">&nbsp;+Target: clean-all</span>
+
+<span class="line">&nbsp;+Target: dist</span>
+
+<span class="line">&nbsp;+Target: all</span>
+
+<span class="line">&nbsp;+Target: dist-clean</span>
+
+<span class="line">&nbsp;+Target: update-ezinfo</span>
+
+<span class="line">&nbsp;+Target: update-license-headers</span>
+
+<span class="line">&nbsp;+Target: generate-documentation</span>
+
+<span class="line">&nbsp;+Target: tests</span>
+
+<span class="line">&nbsp;+Target: coding-standards-check</span>
+
+<span class="line">&nbsp;+Target: generate-md5sums</span>
+
+<span class="line">&nbsp;+Target: check-sql-files</span>
+
+<span class="line">&nbsp;+Target: -fail-if-file-empty</span>
+
+<span class="line">&nbsp;+Target: eznetwork-certify</span>
+
+<span class="line">&nbsp;+Target: check-gnu-files</span>
+
+<span class="line">&nbsp;+Target: generate-ezpackage-xml-definition</span>
+
+<span class="line">&nbsp;+Target: update-package-xml</span>
+
+<span class="line">&nbsp;+Target: build-dependencies</span>
+
+<span class="line">&nbsp;+Target: -build-dependency</span>
+
+<span class="line">&nbsp;+Target: create-package-tarballs</span>
+
+<span class="line">&nbsp;+Target: -create-package-tarball</span>
+
+<span class="line">[antlib:org.apache.tools.ant] Could not load definitions from resource org/apache/tools/ant/antlib.xml. It could not be found.</span>
+
+<span class="line">&nbsp;[taskdef] Could not load definitions from resource net/sf/antcontrib/antcontrib.properties. It could not be found.</span>
+
+<span class="line">Setting project property: date.now -&gt; 2010-35-18_05:35:50</span>
+
+<span class="line">Setting project property: date.current.year -&gt; 2010</span>
+
+<span class="line">Setting project property: DSTAMP -&gt; 20100218</span>
+
+<span class="line">Setting project property: TSTAMP -&gt; 1735</span>
+
+<span class="line">Setting project property: TODAY -&gt; February 18 2010</span>
+
+<span class="line">Setting project property: build.dir -&gt; build</span>
+
+<span class="line">&nbsp;[property] Loading /home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/ant/ezflow.properties</span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_classes -&gt; ezflow_classes</span>
+
+<span class="line">Setting project property: ezflow.version.release -&gt; 0alpha1</span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_extension -&gt; ezflow_extension</span>
+
+<span class="line">Setting project property: ezflow.external.dependency.ezwebin.repository -&gt; <a href="http://svn.ez.no/svn/extensions/ezwebin/trunk" title="http://svn.ez.no/svn/extensions/ezwebin/trunk">http://svn.ez.no/svn/extensions/ezwebin/trunk</a></span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_democontent_clean -&gt; ezflow_democontent_clean</span>
+
+<span class="line">Setting project property: ezp.version.minor -&gt; 3</span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_design -&gt; ezflow_design</span>
+
+<span class="line">Setting project property: ezflow.version.minor -&gt; 1</span>
+
+<span class="line">Setting project property: ezp.version.release -&gt; 0alpha1</span>
+
+<span class="line">Setting project property: ezp.version.major -&gt; 4</span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_site -&gt; ezflow_site</span>
+
+<span class="line">Setting project property: ezflow.svn.url -&gt; <a href="http://svn.ez.no/svn/extensions/ezflow/trunk" title="http://svn.ez.no/svn/extensions/ezflow/trunk">http://svn.ez.no/svn/extensions/ezflow/trunk</a></span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_site_clean -&gt; ezflow_site_clean</span>
+
+<span class="line">Setting project property: ezflow.create.tarball -&gt; no</span>
+
+<span class="line">Setting project property: &lt;!-- -&gt; external dependancy properties --&gt;</span>
+
+<span class="line">Setting project property: ezflow.version.major -&gt; 2</span>
+
+<span class="line">Setting project property: ezflow.package.ezflow_democontent -&gt; ezflow_democontent</span>
+
+<span class="line">Adding reference: php.sources</span>
+
+<span class="line">Adding reference: all.sources</span>
+
+<span class="line">Adding reference: rst.sources</span>
+
+<span class="line">Adding reference: package.xml</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">BUILD FAILED</span>
+
+<span class="line">/home/felix/Development/eclipse-3.5-jac/workspace_jac_pdt/ezflow/build.xml:63: Problem: failed to create task or type propertycopy</span>
+
+<span class="line">Cause: The name is undefined.</span>
+
+<span class="line">Action: Check the spelling.</span>
+
+<span class="line">Action: Check that any custom tasks/types have been declared.</span>
+
+<span class="line">Action: Check that any &lt;presetdef&gt;/&lt;macrodef&gt; declarations have taken place.</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.UnknownElement.getNotFoundException(UnknownElement.java:484)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.UnknownElement.makeObject(UnknownElement.java:416)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.UnknownElement.maybeConfigure(UnknownElement.java:160)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.Task.perform(Task.java:347)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.Target.execute(Target.java:357)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.helper.ProjectHelper2.parse(ProjectHelper2.java:142)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.ProjectHelper.configureProject(ProjectHelper.java:93)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.Main.runBuild(Main.java:743)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.Main.startAnt(Main.java:217)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.launch.Launcher.run(Launcher.java:257)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tools.ant.launch.Launcher.main(Launcher.java:104)</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">Total time: 0 seconds</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.jac-systeme.de/" title="http://www.jac-systeme.de">http://www.jac-systeme.de</a> - Developers united in eZ Publish: <a href="http://www.cjw-network.com/" title="http://www.cjw-network.com">http://www.cjw-network.com</a><br />
+sponsor of <a href="http://ezsummercamp.com/" title="http://ezsummercamp.com/">http://ezsummercamp.com/</a><br />
+<br />
+CJW Blog: <a href="http://www.cjw-network.com/en/blog" title="http://www.cjw-network.com/en/blog">http://www.cjw-network.com/en/blog</a><br />
+cjwpublish1411 - eZ Publish MultiSiteSetup - <a href="https://github.com/cjw-network/cjwpublish1411" title="https://github.com/cjw-network/cjwpublish1411">https://github.com/cjw-network/cjwpublish1411</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg23579">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bjoern_dieding_xrow_de.html">Björn Dieding@xrow.de</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bjoern_dieding_xrow_de/26973-23-eng-GB/bjoern_dieding_xrow_de_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 47</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 February 2010 3:24:19 pm</p>
+
+        <div class="attribute-long">you are missing <a href="http://ant-contrib.sourceforge.net/" title="http://ant-contrib.sourceforge.net/">http://ant-contrib.sourceforge.net/</a><br />
+<br />
+I need to find out now how to install it...<br />
+<br />
+the build of ant-contrib is failing for me<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Looking for a new job? <a href="http://www.xrow.com/xrow-GmbH/Jobs" title="http://www.xrow.com/xrow-GmbH/Jobs">http://www.xrow.com/xrow-GmbH/Jobs</a><br />
+Looking for hosting? <a href="http://hostingezpublish.com/" title="http://hostingezpublish.com">http://hostingezpublish.com</a><br />
+-----------------------------------------------------------------------------<br />
+GMT +01:00 Hannover, Germany<br />
+Web: <a href="http://www.xrow.com/" title="http://www.xrow.com/">http://www.xrow.com/</a><br />
+</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg23580">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bjoern_dieding_xrow_de.html">Björn Dieding@xrow.de</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bjoern_dieding_xrow_de/26973-23-eng-GB/bjoern_dieding_xrow_de_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 47</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 February 2010 3:32:16 pm</p>
+
+        <div class="attribute-long">there is also a binary package :-) ... I clicked the source of course<br />
+<br />
+wget <a href="http://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.zip?use_mirror" title="http://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.zip?use_mirror">http://downloads.sourceforge.net/...ant-contrib-1.0b3-bin.zip?use_mirror</a>
+</div>
+                    <div class="attribute-signature">
+            <p>Looking for a new job? <a href="http://www.xrow.com/xrow-GmbH/Jobs" title="http://www.xrow.com/xrow-GmbH/Jobs">http://www.xrow.com/xrow-GmbH/Jobs</a><br />
+Looking for hosting? <a href="http://hostingezpublish.com/" title="http://hostingezpublish.com">http://hostingezpublish.com</a><br />
+-----------------------------------------------------------------------------<br />
+GMT +01:00 Hannover, Germany<br />
+Web: <a href="http://www.xrow.com/" title="http://www.xrow.com/">http://www.xrow.com/</a><br />
+</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg23581">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bjoern_dieding_xrow_de.html">Björn Dieding@xrow.de</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bjoern_dieding_xrow_de/26973-23-eng-GB/bjoern_dieding_xrow_de_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 47</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 February 2010 4:21:42 pm</p>
+
+        <div class="attribute-long">Hi I fixed it by doing this in the build.xml url<br />
+ <pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">-&lt;taskdef resource=&quot;net/sf/antcontrib/antcontrib.properties&quot;/&gt;</span>
+
+<span class="line">+&lt;taskdef resource=&quot;net/sf/antcontrib/antcontrib.properties&quot;&gt;</span>
+
+<span class="line">+ &lt;classpath&gt;</span>
+
+<span class="line">+&nbsp;&nbsp;&nbsp;&lt;pathelement location=&quot;/root/.ant/lib/ant-contrib-1.0b3-jar.jar&quot;/&gt;</span>
+
+<span class="line">+ &lt;/classpath&gt;</span>
+
+<span class="line">+&lt;/taskdef&gt;</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&nbsp;</span></pre><br />
+<br />
+<br />
+maybe an ant bug?<br />
+<br />
+[<a href='mailto:root@localhost'>root@localhost</a> ezflow]# ant -version<br />
+Apache Ant version 1.6.5 compiled on January 6 2007
+</div>
+                    <div class="attribute-signature">
+            <p>Looking for a new job? <a href="http://www.xrow.com/xrow-GmbH/Jobs" title="http://www.xrow.com/xrow-GmbH/Jobs">http://www.xrow.com/xrow-GmbH/Jobs</a><br />
+Looking for hosting? <a href="http://hostingezpublish.com/" title="http://hostingezpublish.com">http://hostingezpublish.com</a><br />
+-----------------------------------------------------------------------------<br />
+GMT +01:00 Hannover, Germany<br />
+Web: <a href="http://www.xrow.com/" title="http://www.xrow.com/">http://www.xrow.com/</a><br />
+</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg23584">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/bjoern_dieding_xrow_de.html">Björn Dieding@xrow.de</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/bjoern_dieding_xrow_de/26973-23-eng-GB/bjoern_dieding_xrow_de_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />07 March 2003</p>
+        <p class="posts">Posts: 47</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 23 February 2010 5:42:24 pm</p>
+
+        <div class="attribute-long">This is more flexible<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">&lt;taskdef resource=&quot;net/sf/antcontrib/antcontrib.properties&quot;&gt;</span>
+
+<span class="line">&nbsp;&lt;classpath&gt;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&lt;pathelement location=&quot;${user.home}/.ant/lib/ant-contrib-1.0b3-jar.jar&quot;/&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&lt;/classpath&gt;</span>
+
+<span class="line">&lt;/taskdef&gt;</span>
+
+<span class="line"></span></pre>
+</div>
+                    <div class="attribute-signature">
+            <p>Looking for a new job? <a href="http://www.xrow.com/xrow-GmbH/Jobs" title="http://www.xrow.com/xrow-GmbH/Jobs">http://www.xrow.com/xrow-GmbH/Jobs</a><br />
+Looking for hosting? <a href="http://hostingezpublish.com/" title="http://hostingezpublish.com">http://hostingezpublish.com</a><br />
+-----------------------------------------------------------------------------<br />
+GMT +01:00 Hannover, Germany<br />
+Web: <a href="http://www.xrow.com/" title="http://www.xrow.com/">http://www.xrow.com/</a><br />
+</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg41854">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kaka_zhu.html">kaka zhu</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />14 June 2011</p>
+        <p class="posts">Posts: 17</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 14 June 2011 5:10:17 am</p>
+
+        <div class="attribute-long">Here is a sort [url=<a href="http://www.pinkoutcall.com/" title="http://www.pinkoutcall.com">http://www.pinkoutcall.com</a>]new york escort[/url] of original song by me , it is inspired by under my thumb by the stones..but there lyric is about dominating the woman , mine is how married men or men in a relationship although [url=<a href="http://www.pinkoutcall.com/" title="http://www.pinkoutcall.com">http://www.pinkoutcall.com</a>]new york escorts[/url] they say differntly to there mates like that a woman controls part of there lives and makes them better men and actually quite like being under her thumb
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ezextensionbuilder/forum/general/need_help_to_get_the_ant_build_to_work by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 12:33:59 GMT -->
+</html>

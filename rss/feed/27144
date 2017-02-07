@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / pm_compress / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:09:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:09:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27144" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Release of version 1.0</title>
+      <link>http://projects.ez.no/pm_compress/news/release_of_version_1_0</link>
+      <description>&lt;p&gt;Display of a web page can be slowered by the loading of static resources, such as stylesheets and javascript files. To optimize those files, we can minify them, by removing unused caracters.&lt;/p&gt;</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/pm_compress/news/release_of_version_1_0</guid>
+      <pubDate>Fri, 23 Jul 2010 10:36:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

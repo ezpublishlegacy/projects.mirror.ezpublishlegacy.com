@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects - All news</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:08:43 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:08:43 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/news" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>binary file datatype collector information Clusturing</title>
+      <link>http://projects.ez.no/ezbinaryfilecollectordatatypeclusturing/news/binary_file_datatype_collector_information_clusturing</link>
+      <description>&lt;p&gt;Allow you to use the binary File datatype as information collector with support Clusturing&lt;/p&gt;</description>
+      <author>community@ez.no (mohammed l'arbi jebari)</author>
+      <guid>http://projects.ez.no/ezbinaryfilecollectordatatypeclusturing/news/binary_file_datatype_collector_information_clusturing</guid>
+      <pubDate>Fri, 12 Dec 2014 07:49:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.12 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_12_released</link>
+      <description>&lt;p&gt;A couple minor bugfixes. Added possibility to trace time spent sending mails and extracting text from binary files for the search engine.&lt;/p&gt;&lt;p&gt;Release notes available at https://github.com/gggeek/ezperformancelogger/releases/tag/0.12.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_12_released</guid>
+      <pubDate>Thu, 18 Sep 2014 09:54:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZecosystem release 0.5.1 now available</title>
+      <link>http://projects.ez.no/ezecosystem/news/ezecosystem_release_0_5_1_now_available</link>
+      <description>&lt;p&gt;eZecosystem is an eZ Publish Community Project Planet dedicated to sharing the source code of our website with the members of the community.&lt;/p&gt;&lt;p&gt;eZecosystem was created on top of eZ Publish Community Project 2012.3, 2013.5, 2014.07 (eZ Publish 5.x+ and PHP 5.3+ or PHP 5.4+)&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezecosystem/news/ezecosystem_release_0_5_1_now_available</guid>
+      <pubDate>Sun, 14 Sep 2014 19:06:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.3 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt;&amp;nbsp;extension version 1.1.3&amp;nbsp;(&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54645/261405/file/bcgooglesitemaps_1-1-3.tar.bz2" target="_self"&gt;tar.bz2&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/54644/261402/file/bcgooglesitemaps_1-1-3.zip" target="_self"&gt;zip&lt;/a&gt;)&amp;nbsp;Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.3" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt;&amp;nbsp;including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Updated: Added bugfix for cronjob subtree content fetch fetching content in all available languages instead of only in current siteacess language.&lt;/li&gt;
+
+&lt;li&gt;Updated: Refactor cronjob code syntax and comments&lt;/li&gt;
+
+&lt;li&gt;Updated: Added extended and revised ini documentation comments&lt;/li&gt;
+
+&lt;li&gt;Added: Added refactored path ini variable to override sitemap output directory path&lt;/li&gt;
+
+&lt;li&gt;Added: Added sitemap link protocol ini variable&lt;/li&gt;
+
+&lt;li&gt;Updated: Extended multilingual site testing of sitemap generation process and results&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised release documentation making minor improvements&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54643/261399/file/bcgooglesitemaps_1-1-3.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_3_available</guid>
+      <pubDate>Tue, 09 Sep 2014 10:15:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>New release (compatible with 2014.07.0) and Twitter API 1.1</title>
+      <link>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2014_07_0_and_twitter_api_1_1</link>
+      <description>&lt;p&gt;If you use this extension or did in the past you should review our new GitHub repository:&amp;nbsp;&lt;/p&gt;&lt;pre class="bash" style="font-family:monospace;"&gt;&lt;span style="color: #c20cb9; font-weight: bold;"&gt;git&lt;/span&gt; clone &lt;span style="color: #c20cb9; font-weight: bold;"&gt;git&lt;/span&gt;&lt;span style="color: #000000; font-weight: bold;"&gt;@&lt;/span&gt;github.com:brookinsconsulting&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;nxc_twitter.git ezpublish_legacy&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;extension&lt;span style="color: #000000; font-weight: bold;"&gt;/&lt;/span&gt;nxc_twitter;&lt;/span&gt;&lt;/pre&gt;
+
+&lt;p&gt;or you may download a package instead&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/54542/260965/file/nxc_twitter_2014.07.tar.gz" target="_self"&gt;nxc_twitter_2014.07.tar.gz&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Warning&lt;/b&gt;: This solution is &lt;i&gt;deprecated&lt;/i&gt;. Please &lt;b&gt;do not use&lt;/b&gt; for new projects. Please use&amp;nbsp;&lt;a href="http://projects.ez.no/nxc_social_networks" title="http://projects.ez.no/nxc_social_networks" target="_self"&gt;http://projects.ez.no/nxc_social_networks&lt;/a&gt;&amp;nbsp;&lt;i&gt;instead&lt;/i&gt;!&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/nxc_twitter/news/new_release_compatible_with_2014_07_0_and_twitter_api_1_1</guid>
+      <pubDate>Sun, 31 Aug 2014 18:10:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ DB Integrity 0.3 released</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_3_released</link>
+      <description>&lt;p&gt;It now allows to add database consistency checks via completely custom sql queries.&lt;/p&gt;&lt;p&gt;A couple custom queries checking nodes, objects and url-aliases are thrown in for good measure.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_3_released</guid>
+      <pubDate>Tue, 22 Jul 2014 21:04:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.11 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_11_released</link>
+      <description>&lt;p&gt;Some new features as well as minor bugfixes this time around.&lt;/p&gt;&lt;p&gt;Notable features:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;It is now easier to properly trace the web pages which end up with redirects, without hacking the kernel&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace the eZ User id of the current user&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace all variables from the $_SERVER superglobal.&lt;/li&gt;
+
+&lt;li&gt;It is now possible to trace the resources used by publication events when using asynchronous publishing&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Notable bugfixes:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;the javascript loading in frontend design for xhprof-measurement is disabled by default, as it can break some sites&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Check out the changelog for a complete list&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_11_released</guid>
+      <pubDate>Sun, 20 Jul 2014 17:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter and eZ Publish 5</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_and_ez_publish_5</link>
+      <description>&lt;p&gt;
+We can confirm that CJW Newsletter is running smoothly in the eZ Publish 5.x Legacy Stack.&lt;br /&gt;
+ &lt;br /&gt; Furthermore we are in the process of porting the newsletter datatype to the Symfony stack. This will allow you to use CJW Newsletter in a pure eZ Publish 5 environment.&lt;/p&gt;</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_and_ez_publish_5</guid>
+      <pubDate>Tue, 08 Jul 2014 09:39:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netgen Class List Datatype released</title>
+      <link>http://projects.ez.no/ngclasslist/news/netgen_class_list_datatype_released</link>
+      <description>&lt;p&gt;First version of Netgen Class List Datatype is released.&lt;/p&gt;&lt;p&gt;This datatype allows you to maintain a selection of content classes in your content object to be used in your code.&lt;/p&gt;&lt;p&gt;The extension is published under GNU GPLv2 license and the source code is available on &lt;a href="https://github.com/netgen/ngclasslist" target="_self"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngclasslist/news/netgen_class_list_datatype_released</guid>
+      <pubDate>Mon, 07 Apr 2014 07:59:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ DB Integrity 0.2 released</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_2_released</link>
+      <description>&lt;p&gt;It can now check your contents as well!&lt;/p&gt;&lt;p&gt;(only a few datatypes supported so far)&lt;/p&gt;&lt;p&gt;https://github.com/gggeek/ezdbintegrity/releases/tag/v0.2.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_2_released</guid>
+      <pubDate>Tue, 11 Mar 2014 12:09:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>ggSysInfo 0.7 released</title>
+      <link>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_7_released</link>
+      <description>&lt;p&gt;New:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;two command-line scripts to generate comprehensive reports about current installation&lt;/li&gt;
+
+&lt;li&gt;new report view: all ini settings&lt;/li&gt;
+
+&lt;li&gt;add support for OpCache and Zend Accelerator Plus infos&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Plus a couple of improvements and bugfixes&lt;/p&gt;&lt;p&gt;Get it from &lt;a href="http://projects.ez.no/ggsysinfo/downloads/ggsysinfo_0_7_0_zip" target="_self"&gt;http://projects.ez.no/ggsysinfo/downloads/ggsysinfo_0_7_0_zip&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggsysinfo/news/ggsysinfo_0_7_released</guid>
+      <pubDate>Mon, 10 Mar 2014 00:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ DB Integrity 0.1 finally available!</title>
+      <link>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_1_finally_available</link>
+      <description>&lt;p&gt;...was it worth the wait?&lt;/p&gt;&lt;p&gt;Anyway, highlights:&lt;/p&gt;&lt;p&gt;- it includes a list of all the known FKs between tables, tested on eZP 4.7&lt;/p&gt;&lt;p&gt;- it can check them via command line&lt;/p&gt;&lt;p&gt;- any FK violation which you think is legit, please report as bug either on projects.ez.no or github&lt;/p&gt;&lt;p&gt;Get it from https://github.com/gggeek/ezdbintegrity&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezdbintegrity/news/ez_db_integrity_0_1_finally_available</guid>
+      <pubDate>Sat, 08 Mar 2014 15:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version 0.1.0 released</title>
+      <link>http://projects.ez.no/googlepluscommentsbundle/news/version_0_1_0_released</link>
+      <description>&lt;p&gt;A first working version has been tagged as 0.1.0.&lt;/p&gt;</description>
+      <author>community@ez.no (Bertrand Dunogier)</author>
+      <guid>http://projects.ez.no/googlepluscommentsbundle/news/version_0_1_0_released</guid>
+      <pubDate>Sat, 08 Feb 2014 21:10:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHPList extension moved to github</title>
+      <link>http://projects.ez.no/phplist/news/phplist_extension_moved_to_github</link>
+      <description>&lt;p&gt;The phplist extension has moved to github&amp;nbsp;&amp;nbsp;&lt;a href="https://github.com/brucem/ezpublish-phplist" target="_self"&gt;https://github.com/brucem/ezpublish-phplist&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Please submit pull requests there for any changes.&lt;/p&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/phplist/news/phplist_extension_moved_to_github</guid>
+      <pubDate>Tue, 14 Jan 2014 07:33:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Integrate extension moved to github</title>
+      <link>http://projects.ez.no/integrate/news/integrate_extension_moved_to_github</link>
+      <description>&lt;p&gt;The integrate extension has moved to github&amp;nbsp;&lt;a href="https://github.com/brucem/ezpublish-integrate" target="_self"&gt;https://github.com/brucem/ezpublish-integrate&lt;/a&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Please submit pull requests there for any changes.&lt;/p&gt;</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/integrate/news/integrate_extension_moved_to_github</guid>
+      <pubDate>Tue, 14 Jan 2014 07:28:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netgen Connect 1.4 released</title>
+      <link>http://projects.ez.no/ngconnect/news/netgen_connect_1_4_released</link>
+      <description>&lt;p&gt;We have released an update to Netgen Connect extension.&lt;/p&gt;&lt;p&gt;This release, with some bug fixes, add couple of new features:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Added Google+ login handler&lt;/li&gt;
+
+&lt;li&gt;Added unlink module view to remove existing connections from current user&lt;/li&gt;
+
+&lt;li&gt;Added a new template to list all connections the user has with possibility to remove them&lt;/li&gt;
+
+&lt;li&gt;Added possiblity to disable account creation by users and linking to existing account&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;You can download the new version in&amp;nbsp;&lt;a href="http://projects.ez.no/ngconnect/downloads/netgen_connect" target="_self"&gt;downloads section&lt;/a&gt;&amp;nbsp;and the source is, as always available on &lt;a href="https://github.com/netgen/ngconnect" target="_self"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/news/netgen_connect_1_4_released</guid>
+      <pubDate>Mon, 13 Jan 2014 11:21:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezperformancelogger 0.10.1 bugfix release</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_1_bugfix_release</link>
+      <description>&lt;p&gt;&lt;b&gt;IMPORTANT&lt;/b&gt;: since version 0.8, enabling this extension has a negative impact on viewcache management.&lt;/p&gt;&lt;p&gt;All users are urged to upgrade&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_1_bugfix_release</guid>
+      <pubDate>Wed, 27 Nov 2013 12:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.9 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_9_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/cie" target="_self"&gt;cie&lt;/a&gt;&amp;nbsp;(collected information export) extension version 1.0.9 (&lt;a href="http://projects.ez.no/content/download/53302/254985/file/bccie_1-0-9.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53303/254988/file/bccie_1-0-9.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53304/254991/file/bccie_1-0-9.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bccie/blob/master/doc/changelogs/CHANGELOG-1.0.9" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bccie/commits/master" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Updated code to move handlers into classes/handlers directory out of module directory&lt;/li&gt;
+
+&lt;li&gt;Reformatted code to match coding standards&lt;/li&gt;
+
+&lt;li&gt;Minor bugfix to parser to use empty strings to represent no content instead of NC string from contributed parser improvements in previous release 1.0.8&lt;/li&gt;
+
+&lt;li&gt;Parser can now handle correctly newly created attributes which do not exist in older collections&lt;/li&gt;
+
+&lt;li&gt;Export header now uses content class attribute names instead of identifiers&lt;/li&gt;
+
+&lt;li&gt;Added bin/runcronjobpartsylk.sh script&lt;/li&gt;
+
+&lt;li&gt;Added compatibility for eztime, ezdate, ezdatetime and ezboolean datatypes&lt;/li&gt;
+
+&lt;li&gt;Removed extra line at end of php files. Replaced tabs with spaces. Reformatted code to match coding standards. Updated copyright notices&lt;/li&gt;
+
+&lt;li&gt;Minor updates to documentation. Updated copyright notices in documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting and Open-Wide!&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/53302/254985/file/bccie_1-0-9.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_9_available</guid>
+      <pubDate>Fri, 01 Nov 2013 10:46:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1 available</title>
+      <link>http://projects.ez.no/ngresponsiveimages/news/release_1_1_available</link>
+      <description>&lt;p&gt;Netgen Responsive Images provides a great solution for creating and using responsive images in eZ Publish.&lt;/p&gt;&lt;p&gt;Extension is updated and extended with additional OverrideImageAlias functionality which allows you to override image alias on each responsive breakpoint (Screen)&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngresponsiveimages/news/release_1_1_available</guid>
+      <pubDate>Thu, 03 Oct 2013 15:40:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.10 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_released</link>
+      <description>&lt;p&gt;Major new functionality: works with oracle (including cluster) for eZPublish 5.0&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_10_released</guid>
+      <pubDate>Tue, 27 Aug 2013 07:37:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZPerformanceLogger 0.9.1 released</title>
+      <link>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_9_1_released</link>
+      <description>&lt;p&gt;A bugfix release coming on the heels of version 0.9.&lt;/p&gt;&lt;p&gt;The biggest change: works much better with statsd/graphite&lt;/p&gt;&lt;p&gt;Get it at http://projects.ez.no/ezperformancelogger/downloads/ezperformancelogger_0_9_1_zip&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezperformancelogger/news/ezperformancelogger_0_9_1_released</guid>
+      <pubDate>Sun, 28 Jul 2013 19:06:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.6 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</link>
+      <description>&lt;p&gt;- adds a new workflow event: add secondary location upon publish based on an object-relation attribute of current object&lt;/p&gt;&lt;p&gt;- tested for compatibility with eZP 5.1&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</guid>
+      <pubDate>Wed, 24 Jul 2013 10:18:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.14 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_14_released</link>
+      <description>&lt;p&gt;The biggest new feature of this release is compatibility with the eZPublish REST v2 API.&lt;/p&gt;&lt;p&gt;This includes the visual debugger - making troubleshooting pesky REST problems nice and easy.&lt;/p&gt;&lt;p&gt;But there's a lot of both bugfices and new features - read on for a detailed changelog&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_14_released</guid>
+      <pubDate>Sat, 20 Jul 2013 21:28:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netgen Push version 1.3 released</title>
+      <link>http://projects.ez.no/ngpush/news/netgen_push_version_1_3_released</link>
+      <description>&lt;p&gt;We released a new 1.3 version of Netgen Push. This release adds support for new Twitter v1.1 authentification API.&lt;/p&gt;&lt;p&gt;The old Twitter 1.0 API is not supported any more as it was shut down by Twitter on June 11th 2013.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngpush/news/netgen_push_version_1_3_released</guid>
+      <pubDate>Wed, 12 Jun 2013 12:05:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netgen Connect 1.3 released</title>
+      <link>http://projects.ez.no/ngconnect/news/netgen_connect_1_3_released</link>
+      <description>&lt;p&gt;We have released an update to Netgen Connect extension. This release migrates Twitter login handler to v1.1 of Twitter authentication mechanism and API.&lt;/p&gt;&lt;p&gt;The old Twitter 1.0 API is not supported any more as it was shut down by Twitter on June 11th 2013.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/news/netgen_connect_1_3_released</guid>
+      <pubDate>Wed, 12 Jun 2013 10:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.1.2 available</title>
+      <link>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of &lt;a href="http://projects.ez.no/bcgooglesitemaps" target="_self"&gt;bcgooglesitemaps&lt;/a&gt; extension version 1.1.2 (&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;, &lt;a href="http://projects.ez.no/content/download/52584/251565/file/bcgooglesitemaps_1-1-2.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52583/251562/file/bcgooglesitemaps_1-1-2.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;BC Google Sitemaps provides a perfect solution for quick and simple export of a sitemap xml file via cronjob or module view.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/blob/master/doc/changelogs/CHANGELOG-1.1.2" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps/commits/master" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&amp;nbsp;Updated: Renamed extension to bcgooglesitemaps&lt;/li&gt;
+
+&lt;li&gt;Added: Added dynamic sitemap generator from googlesitemapgenerator_3_0_0 extension internals&lt;/li&gt;
+
+&lt;li&gt;Updated: Revised extended documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52582/251559/file/bcgooglesitemaps_1-1-2.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bcgooglesitemaps" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/bcgooglesitemaps/news/release_1_1_2_available</guid>
+      <pubDate>Sun, 09 Jun 2013 14:17:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Release 1.0.6 available</title>
+      <link>http://projects.ez.no/cie/news/release_1_0_6_available</link>
+      <description>&lt;p&gt;Brookins Consulting is proud to announce the release of&amp;nbsp;&lt;a href="http://projects.ez.no/cie" target="_self"&gt;cie&lt;/a&gt;&amp;nbsp;(collected information export) extension version 1.0.6 (&lt;a href="http://projects.ez.no/content/download/52221/250063/file/bccie_1-0-6.tar.gz" target="_blank"&gt;tar.gz&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52222/250066/file/bccie_1-0-6.tar.bz2" target="_blank"&gt;tar.bz2&lt;/a&gt;,&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52223/250069/file/bccie_1-0-6.zip" target="_blank"&gt;zip&lt;/a&gt;). Download it today!&lt;/p&gt;&lt;p&gt;CIE provides a perfect solution for quick and simple export of collected information content into csv or sylk (excel) export file formatted files.&lt;/p&gt;&lt;p&gt;This release's&amp;nbsp;&lt;a href="https://github.com/brookinsconsulting/bccie/blob/master/doc/changelogs/CHANGELOG-1.0.6" target="_self"&gt;changelog&lt;/a&gt;&amp;nbsp;features a fair number of &lt;a href="https://github.com/brookinsconsulting/bccie/commit/22da669078f8d0e31762a4d7c0180b193ef0cb0f" target="_self"&gt;improvements&lt;/a&gt; including ...&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Replace collectexport old references to bccie&lt;/li&gt;
+
+&lt;li&gt;Update parser.php csv function to fix an excel error&lt;/li&gt;
+
+&lt;li&gt;Update to include current day to the date range&lt;/li&gt;
+
+&lt;li&gt;Fixed an error in the doexport view of the module&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;This release's primary contributed development from Brookins Consulting, tbuljevic, gserg, daisiez and Simounet!&lt;/p&gt;&lt;p&gt;The new version is now available for&amp;nbsp;&lt;a href="http://projects.ez.no/content/download/52221/250063/file/bccie_1-0-6.tar.gz" target="_self"&gt;download&lt;/a&gt;&amp;nbsp;as packages or via &lt;a href="https://github.com/brookinsconsulting/bccie" target="_self"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/cie/news/release_1_0_6_available</guid>
+      <pubDate>Sun, 12 May 2013 23:24:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paradoxpdf 2.2 released</title>
+      <link>http://projects.ez.no/paradoxpdf/news/paradoxpdf_2_2_released</link>
+      <description>
+&lt;ul&gt;
+
+&lt;li&gt;The source code is now on &lt;a href="https://github.com/paradoxe/paradoxpdf" target="_self"&gt;github&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Updated jar binary to use the latest &lt;a href="https://github.com/flyingsaucerproject/flyingsaucer" target="_self"&gt;flying-saucer&lt;/a&gt; version&lt;/li&gt;
+
+&lt;li&gt;Fixed toc urls links&lt;/li&gt;
+
+&lt;li&gt;Fixed Empty PDF file after cache purge&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/paradoxpdf/news/paradoxpdf_2_2_released</guid>
+      <pubDate>Sat, 02 Mar 2013 18:30:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Publish Fetch is dead long life the Fetch</title>
+      <link>http://projects.ez.no/aw_ezp_fetch_bundle/news/ez_publish_fetch_is_dead_long_life_the_fetch</link>
+      <description>&lt;p&gt;AwEzpFetchBundle brings a content query language for eZ Publish 5.&lt;/p&gt;&lt;p&gt;Any feedbacks are welcome.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/amiralweb/AwEzpFetchBundle" target="_self"&gt;https://github.com/amiralweb/AwEzpFetchBundle&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Karnichi Mohamed)</author>
+      <guid>http://projects.ez.no/aw_ezp_fetch_bundle/news/ez_publish_fetch_is_dead_long_life_the_fetch</guid>
+      <pubDate>Thu, 14 Feb 2013 16:08:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netgen Connect 1.2 released</title>
+      <link>http://projects.ez.no/ngconnect/news/netgen_connect_1_2_released</link>
+      <description>&lt;p&gt;We have released an update to Netgen Connect extension. This release fixes some bugs and migrates Tumblr login handler to v2 of Tumblr authentication mechanism and API.&lt;/p&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/news/netgen_connect_1_2_released</guid>
+      <pubDate>Tue, 12 Feb 2013 13:40:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

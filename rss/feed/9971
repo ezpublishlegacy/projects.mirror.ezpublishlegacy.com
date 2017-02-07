@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezcore / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:58:49 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:58:49 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/9971" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezcore rev. 66 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/66</link>
+      <description>- Updated doc regarding 4.1 feature</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/66</guid>
+      <pubDate>Tue, 08 Sep 2009 18:21:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 65 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/65</link>
+      <description>Removed BOM</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/65</guid>
+      <pubDate>Tue, 01 Sep 2009 13:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 64 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/64</link>
+      <description>* Fixed #15052: An object cannot be browsed when creating a link
+  (Merged from ezoe trunk Rev. 39)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/64</guid>
+      <pubDate>Thu, 11 Jun 2009 18:15:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 63 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/63</link>
+      <description>moved css file to standard design to avoid warnings
+# deleted now unused folder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/63</guid>
+      <pubDate>Tue, 09 Jun 2009 14:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 62 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/62</link>
+      <description>moved css file to standard design to avoid warnings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/62</guid>
+      <pubDate>Tue, 09 Jun 2009 14:50:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 61 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/61</link>
+      <description>Make index_ajax.php work with new regex rules in ezsys</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/61</guid>
+      <pubDate>Fri, 03 Apr 2009 11:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 60 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/60</link>
+      <description>removed note on ajax modules</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/60</guid>
+      <pubDate>Wed, 01 Apr 2009 12:55:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 59 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/59</link>
+      <description>Updated doc text for ajax functions (index_ajax is not as fast as claimed anymore bacause of the added support for access rights).
+I'll probably create a index_ajax_speed.php soon to re introduce a index.php with focus on speed instead of index.php compatibility.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/59</guid>
+      <pubDate>Fri, 27 Mar 2009 09:45:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 58 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/58</link>
+      <description>DEPRECATED ExtensionAjaxRepositories and use normal ExtensionRepositories instead since index_ajax supports access rights now anyway.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/58</guid>
+      <pubDate>Fri, 27 Mar 2009 09:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 57 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/57</link>
+      <description>- Better support for sub folder setup of ezp in index_ajax.php
+- Added hello world module for becnhmark testing</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/57</guid>
+      <pubDate>Sun, 22 Mar 2009 23:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 56 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/56</link>
+      <description>* support for 4.1 (eZSession::start)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/56</guid>
+      <pubDate>Wed, 18 Mar 2009 21:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 55 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/55</link>
+      <description>Do not show suggestions box on when no suggestions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/55</guid>
+      <pubDate>Sun, 15 Mar 2009 21:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 54 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/54</link>
+      <description>Fixed [BUG] ezcss </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/54</guid>
+      <pubDate>Sun, 15 Mar 2009 21:40:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 53 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/53</link>
+      <description>Added override for ezkeyword datatype template with ajax suggestions for typed keywords
+Enable ezcore_admin design in the siteaccesses you want to use it in.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/53</guid>
+      <pubDate>Sat, 14 Mar 2009 15:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 52 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/52</link>
+      <description>use __METHOD__ in debug output to avoid harcoded class / fn name in code (more reusable)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/52</guid>
+      <pubDate>Wed, 11 Mar 2009 13:20:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 51 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/51</link>
+      <description>phph 5.3 compat ( split -&gt; explode)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/51</guid>
+      <pubDate>Fri, 27 Feb 2009 14:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 50 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/50</link>
+      <description>deprecate reverse proxy stuff</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/50</guid>
+      <pubDate>Mon, 16 Feb 2009 16:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 49 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/49</link>
+      <description>support for files from external locations, also https</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/49</guid>
+      <pubDate>Mon, 16 Feb 2009 14:56:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 48 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/48</link>
+      <description>fixd js error in ie for coporate clientes with high security settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/48</guid>
+      <pubDate>Mon, 16 Feb 2009 14:56:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 47 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/47</link>
+      <description>support for files from external locations</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/47</guid>
+      <pubDate>Mon, 16 Feb 2009 14:56:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 46 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/46</link>
+      <description>cs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/46</guid>
+      <pubDate>Mon, 16 Feb 2009 14:55:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 45 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/45</link>
+      <description>* Re formatted some code in eZ Packer to make it more readable
+* Some cleanup in ez_core.js, added ez.int and ez.float for convinience</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/45</guid>
+      <pubDate>Wed, 21 Jan 2009 12:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 44 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/44</link>
+      <description>Misc (totaly unnecesery) php micro optimications..</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/44</guid>
+      <pubDate>Tue, 06 Jan 2009 15:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 43 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/43</link>
+      <description>Small bug if in silent mode, and more verbos output on how many urls got purged when done.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/43</guid>
+      <pubDate>Wed, 17 Dec 2008 15:25:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 42 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/42</link>
+      <description>cs and phpdoc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/42</guid>
+      <pubDate>Sun, 14 Dec 2008 16:35:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 41 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/41</link>
+      <description>Added missing session handler as shutdown handler line.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/41</guid>
+      <pubDate>Sun, 14 Dec 2008 16:35:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 40 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/40</link>
+      <description>comment out old include_once calls</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/40</guid>
+      <pubDate>Fri, 05 Dec 2008 14:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 39 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/39</link>
+      <description>Several improvments to proxy purge:
+* Multisite support with advance path to host name matching
+* Improved error / debug messages
+* Improved doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/39</guid>
+      <pubDate>Thu, 04 Dec 2008 15:40:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 38 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/38</link>
+      <description>CronjobSettings -&gt; CronjobPart</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/38</guid>
+      <pubDate>Wed, 03 Dec 2008 23:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 37 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/37</link>
+      <description>Made it possible to ommit language &lt;script&gt; attribute for xhtml 1.0 strict support (as repported by Peter)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/37</guid>
+      <pubDate>Sat, 29 Nov 2008 00:15:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 36 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/36</link>
+      <description>cs and more debug info</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/36</guid>
+      <pubDate>Thu, 27 Nov 2008 20:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 35 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/35</link>
+      <description>typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/35</guid>
+      <pubDate>Thu, 27 Nov 2008 20:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 34 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/34</link>
+      <description>cs (tabs)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/34</guid>
+      <pubDate>Wed, 26 Nov 2008 10:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 33 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/33</link>
+      <description>merged ezimage code from ezoe</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/33</guid>
+      <pubDate>Tue, 25 Nov 2008 21:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 32 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/32</link>
+      <description>use wwwDir as part of cache name in stylesheets to avoid image path issues when having ezp install with both host matching and uri matching with ezp in sub directory</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/32</guid>
+      <pubDate>Tue, 25 Nov 2008 21:20:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 31 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/31</link>
+      <description>Fixed Undefined index: user-object-required in .../pre_check.php on line 80 repported by Damien Pitard</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/31</guid>
+      <pubDate>Tue, 11 Nov 2008 08:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 30 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/30</link>
+      <description>fixed regression in postData function (unselected radio and checkboxes not filtered out)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/30</guid>
+      <pubDate>Sun, 26 Oct 2008 13:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 29 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/29</link>
+      <description>added comment on how to use ezcore/call from other js libraries instead of the bundeled one.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/29</guid>
+      <pubDate>Sat, 25 Oct 2008 08:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 28 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/28</link>
+      <description>fixed css packer issue on '0 0 0 0' values as reported in forum by Andreas Adelsberger</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/28</guid>
+      <pubDate>Wed, 15 Oct 2008 07:50:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 27 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/27</link>
+      <description>Added test case for '&gt; *' bug from ezoe</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/27</guid>
+      <pubDate>Wed, 01 Oct 2008 10:30:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 26 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/26</link>
+      <description>reworked policy checking to work more like index.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/26</guid>
+      <pubDate>Tue, 30 Sep 2008 12:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 25 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/25</link>
+      <description>* changed rewrite rules and expanded the doc to mention how you could use ezcore/run
+* added performance41.txt with tips on improving performance in eZ Publish 4.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/25</guid>
+      <pubDate>Wed, 24 Sep 2008 10:40:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 24 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/24</link>
+      <description>Added support for AnonymousAccessList and [SiteAccessRules]Rules (disabled modules) in index_ajax.php and ezcore/run</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/24</guid>
+      <pubDate>Wed, 24 Sep 2008 08:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 23 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/23</link>
+      <description>Fixed Undefined group: 'OutputSettings' in site.ini from Damien</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/23</guid>
+      <pubDate>Fri, 19 Sep 2008 07:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 22 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/22</link>
+      <description>cs (variable names and comments)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/22</guid>
+      <pubDate>Tue, 16 Sep 2008 16:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 21 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/21</link>
+      <description>added support for http header settings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/21</guid>
+      <pubDate>Tue, 16 Sep 2008 15:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 20 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/20</link>
+      <description>* Proper view access check in ezcore/run and index_ajax.php
+*</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/20</guid>
+      <pubDate>Tue, 16 Sep 2008 15:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 19 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/19</link>
+      <description>* added support for user parameters in index_ajax.php
+* added ezcore/run, view to run other views</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/19</guid>
+      <pubDate>Sun, 14 Sep 2008 18:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 18 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/18</link>
+      <description>Fix for eZFindResultNode issue when using ezfind</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/18</guid>
+      <pubDate>Sat, 13 Sep 2008 17:45:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcore rev. 17 by André R</title>
+      <link>http://projects.ez.no/ezcore/subversion/17</link>
+      <description>Do not use querySelectorAll (Selectors API) for nth-child and last-child css rules because of ie 8</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezcore/subversion/17</guid>
+      <pubDate>Tue, 09 Sep 2008 08:25:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / usercreator / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:31:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:31:32 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10718" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fatal error and restart import</title>
+      <link>http://projects.ez.no/usercreator/forum/general/fatal_error_and_restart_import</link>
+      <description>Hi,&#13;
+&#13;
+I have problem using this extension with ezP 3.10.&#13;
+Import cause crash due to time out.&#13;
+I reduced the CSV to 200 users, but still crash.&#13;
+&#13;
+If I hit the link again, it imports twice the users (same email, login,...)&#13;
+I remove the temp file storage/application/usercreator/application but noway, it gones on importing the same list.&#13;
+&#13;
+Is there another placement for a temp list ?&#13;
+&#13;
+Best regards.&#13;
+&#13;
+Laurent</description>
+      <author>community@ez.no (laurent le cadet)</author>
+      <guid>http://projects.ez.no/usercreator/forum/general/fatal_error_and_restart_import</guid>
+      <pubDate>Thu, 11 Dec 2008 10:16:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

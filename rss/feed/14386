@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsnmpd / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14386" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/9f341c4afa402910501c1e64265a82bda3af67f3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/9f341c4afa402910501c1e64265a82bda3af67f3</guid>
+      <pubDate>Sat, 02 Nov 2013 22:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/7d0e92669342778ddbb2bd71dff9f0faa45e555f</link>
+      <description>
+      &lt;pre&gt;m doc/FAQ
+m doc/changelogs/0.7/CHANGELOG-0.6-to-0.7
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/7d0e92669342778ddbb2bd71dff9f0faa45e555f</guid>
+      <pubDate>Tue, 17 Jul 2012 23:10:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/8dc750cd63813d1d6458680aaac0ec36ae1b64ce</link>
+      <description>
+      &lt;pre&gt;+ settings/ezperformancelogger.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add forgotten file for ezperlogger integration&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/8dc750cd63813d1d6458680aaac0ec36ae1b64ce</guid>
+      <pubDate>Tue, 17 Jul 2012 23:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/664d271998b73764b5b252230b527dd5c7069c44</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpd.php
+m classes/ezsnmpdperflogger.php
+m doc/todo
+m modules/snmp/function_definition.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed template fetch functions: get, getbyname, walk&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/664d271998b73764b5b252230b527dd5c7069c44</guid>
+      <pubDate>Tue, 17 Jul 2012 23:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/21686f03128a7debd5a6d2386f0a4967fa4c32d5</link>
+      <description>
+      &lt;pre&gt;+ classes/ezsnmpdperflogger.php
+m classes/ezsnmpdtools.php
++ doc/changelogs/0.7/CHANGELOG-0.6-to-0.7
+m doc/todo
+m extension.xml
+m modules/snmp/mib.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Integrate with ezperformancelogger
+Remove warning about templateinit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/21686f03128a7debd5a6d2386f0a4967fa4c32d5</guid>
+      <pubDate>Tue, 17 Jul 2012 23:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/6d97c8a694121ddea758c7c554993d77035d05f5</link>
+      <description>
+      &lt;pre&gt;+ pake/.gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Better gitignore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/6d97c8a694121ddea758c7c554993d77035d05f5</guid>
+      <pubDate>Tue, 17 Apr 2012 19:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/3468cb114e03b2062b360e8c67196a3aa1d4ae56</link>
+      <description>
+      &lt;pre&gt;m doc/changelogs/0.6/CHANGELOG-0.5-to-0.6
+m pake/options-ezsnmpd.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Tag for the build&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/3468cb114e03b2062b360e8c67196a3aa1d4ae56</guid>
+      <pubDate>Tue, 03 Apr 2012 21:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/fda4da9892d225b0df4370ae2884e83532fc8a68</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpdhandler.php
+m classes/ezsnmpdstatushandler.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move one function to the abstract handler class so that all subclasse can reuse it&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/fda4da9892d225b0df4370ae2884e83532fc8a68</guid>
+      <pubDate>Tue, 03 Apr 2012 21:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/e8fbbb51d86111017ffbc23edfb9b5489e3a128c</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpd.php
+m classes/ezsnmpdstatushandler.php
+m doc/changelogs/0.6/CHANGELOG-0.5-to-0.6
+m settings/snmpd.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Always properly sort by OID the mib when shown as array&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/e8fbbb51d86111017ffbc23edfb9b5489e3a128c</guid>
+      <pubDate>Tue, 03 Apr 2012 21:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/48ff097b54612a9178247de304e4624e86a479d8</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpdezfindhandler.php
+m classes/ezsnmpdstatushandler.php
+m doc/changelogs/0.6/CHANGELOG-0.5-to-0.6
+m doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add to "status" mib async publication stats&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/48ff097b54612a9178247de304e4624e86a479d8</guid>
+      <pubDate>Tue, 03 Apr 2012 21:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/88eccc64c2e93d73a3ac2c408ecb7f544cf127fc</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpdezfindhandler.php
+m doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add to ezfind mib the number of objects in the index&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/88eccc64c2e93d73a3ac2c408ecb7f544cf127fc</guid>
+      <pubDate>Tue, 03 Apr 2012 21:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/a70170af99cfd72eb27f6798e188ff4baec94170</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpd.php
++ classes/ezsnmpdezfindhandler.php
++ classes/ezsnmpdflexiblehandler.php
+- doc/changelogs/0.5/CHANGELOG-0.5-to-0.5.1
++ doc/changelogs/0.6/CHANGELOG-0.5-to-0.6
+m extension.xml
+m settings/snmpd.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add ezfind tests
+Bump up rev number for upcoming release to 0.6&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/a70170af99cfd72eb27f6798e188ff4baec94170</guid>
+      <pubDate>Tue, 03 Apr 2012 21:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/255b0f672783a610929a3397867ad90a92a0b212</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpd.php
+m classes/ezsnmpdstatushandler.php
+m doc/changelogs/0.5/CHANGELOG-0.5-to-0.5.1
+m doc/todo
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add 2 more monitoring probes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/255b0f672783a610929a3397867ad90a92a0b212</guid>
+      <pubDate>Tue, 03 Apr 2012 01:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/4209955e3635cad27d96b1298dc786be08895cc6</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpdstatushandler.php
+m doc/changelogs/0.5/CHANGELOG-0.5-to-0.5.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;session-related queries: return -1 if not using db-based storage&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/4209955e3635cad27d96b1298dc786be08895cc6</guid>
+      <pubDate>Tue, 03 Apr 2012 01:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/eba93178fff543dd25ae475075600cff26fd1a04</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezsnmpd.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix link to github in pakefile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/eba93178fff543dd25ae475075600cff26fd1a04</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/6f9f7b69cffeff0809152ced95b7c49025c20c2f</link>
+      <description>
+      &lt;pre&gt;m classes/ezsnmpdstatushandler.php
+m doc/changelogs/0.5/CHANGELOG-0.5-to-0.5.1
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Properly test connection to db for ezdfs clustered setups&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/6f9f7b69cffeff0809152ced95b7c49025c20c2f</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/fde3a7682d10062cae8eefb8e7ab4ea9c3ec19af</link>
+      <description>
+      &lt;pre&gt;m bin/php/ezSNMPagent.php
+m classes/ezmibtree.php
+m classes/ezsnmpd.php
+m classes/ezsnmpdhandler.php
+m classes/ezsnmpdinfohandler.php
+m classes/ezsnmpdsettingshandler.php
+m classes/ezsnmpdstatushandler.php
+m classes/ezsnmpdtesthandler.php
+m classes/ezsnmpdtools.php
+m design/standard/templates/snmp/mib/html.tpl
+m interfaces/ezsnmpdhandlerinterface.php
+m modules/snmp/function_definition.php
+m modules/snmp/get.php
+m modules/snmp/getbyname.php
+m modules/snmp/getnext.php
+m modules/snmp/mib.php
+m modules/snmp/module.php
+m modules/snmp/set.php
+m modules/snmp/walk.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update copyright headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/fde3a7682d10062cae8eefb8e7ab4ea9c3ec19af</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/a48845a70eadb713e232ded18884bd858ae15927</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitignore file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/a48845a70eadb713e232ded18884bd858ae15927</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/4dc3accf5ae417ee1013628e78b1ded2e7a6a0ee</link>
+      <description>
+      &lt;pre&gt;+ doc/changelogs/0.5/CHANGELOG-0.5-to-0.5.1
++ settings/design.ini.append.php
++ settings/menu.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add missing ini files
+Update changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/4dc3accf5ae417ee1013628e78b1ded2e7a6a0ee</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 94 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/94</link>
+      <description>CORE MELTDOWN</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/94</guid>
+      <pubDate>Thu, 15 Mar 2012 09:30:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 92 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/92</link>
+      <description>- Add a way to retrieve oid by name, both via web, cli or ftech function
+- Add extension.xml
+- Update docs
+- tag for release 0.5
+- Add link to download mib file in mib html view
+- Add navigation path in mib html view
+- Add pakefile for builds</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/92</guid>
+      <pubDate>Thu, 15 Mar 2012 09:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 93 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/93</link>
+      <description>Rename license file to be compliant with build tool</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/93</guid>
+      <pubDate>Thu, 15 Mar 2012 09:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 91 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/91</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/91</guid>
+      <pubDate>Tue, 17 May 2011 21:23:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 90 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/90</link>
+      <description>- prevent bugs if we uncomment some code using ezp 4.5 and later</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/90</guid>
+      <pubDate>Tue, 17 May 2011 21:23:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 89 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/89</link>
+      <description>- todo update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/89</guid>
+      <pubDate>Wed, 12 May 2010 15:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 88 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/88</link>
+      <description>- docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/88</guid>
+      <pubDate>Wed, 21 Apr 2010 13:25:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 87 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/87</link>
+      <description>- prepare release 0.5: tag, finish tree/array stuff, update settings mib </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/87</guid>
+      <pubDate>Tue, 16 Feb 2010 14:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 86 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/86</link>
+      <description>- work on getting to work a decent gui with the list of exposed OIDs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/86</guid>
+      <pubDate>Mon, 08 Feb 2010 22:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 85 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/85</link>
+      <description>- the handler functions should now return a tree structure defining the mib they handle, instead of a textual ASN.1 representation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/85</guid>
+      <pubDate>Mon, 08 Feb 2010 11:35:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 84 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/84</link>
+      <description>- fix inverted dates in mib</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/84</guid>
+      <pubDate>Mon, 08 Feb 2010 11:35:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 83 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/83</link>
+      <description>- tag for next version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/83</guid>
+      <pubDate>Mon, 25 Jan 2010 13:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 82 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/82</link>
+      <description>- 1 typo and correct formatting for walk command</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/82</guid>
+      <pubDate>Sun, 24 Jan 2010 22:45:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 81 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/81</link>
+      <description>- tagged for release 0.4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/81</guid>
+      <pubDate>Sun, 24 Jan 2010 22:35:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 80 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/80</link>
+      <description>- move the logic used for 'walk' into the ezsnmpd class;
+- add fetch function definitions for get and walk;
+- change order status oids to a tabular format</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/80</guid>
+      <pubDate>Mon, 18 Jan 2010 10:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 79 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/79</link>
+      <description>- the mib generated via the graphical interface had a stray 'END' tag;
+- snmpwalk called on the root OID would not work</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/79</guid>
+      <pubDate>Sun, 17 Jan 2010 10:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 77 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/77</link>
+      <description>- tag for 0.3 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/77</guid>
+      <pubDate>Fri, 15 Jan 2010 23:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 78 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/78</link>
+      <description>- prepare next release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/78</guid>
+      <pubDate>Fri, 15 Jan 2010 23:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 75 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/75</link>
+      <description>- one more cache in var/cache</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/75</guid>
+      <pubDate>Thu, 14 Jan 2010 14:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 76 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/76</link>
+      <description>- tag for 0.3</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/76</guid>
+      <pubDate>Thu, 14 Jan 2010 14:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 74 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/74</link>
+      <description>- docs update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/74</guid>
+      <pubDate>Thu, 07 Jan 2010 12:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 73 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/73</link>
+      <description>- set daemon mode for pass_persist</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/73</guid>
+      <pubDate>Thu, 07 Jan 2010 12:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 72 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/72</link>
+      <description>- add 2 new php functions for daemon mode</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/72</guid>
+      <pubDate>Thu, 07 Jan 2010 10:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 71 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/71</link>
+      <description>- fix usage of a separate db connection in every case;
+- make sure list of oids is always built before a get;
+- fix the number/size of cache files in global ini cache</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/71</guid>
+      <pubDate>Thu, 07 Jan 2010 10:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 70 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/70</link>
+      <description>- comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/70</guid>
+      <pubDate>Thu, 07 Jan 2010 10:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 68 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/68</link>
+      <description>- add set, walk views;
+- add permissions on get, getnext views</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/68</guid>
+      <pubDate>Thu, 07 Jan 2010 10:45:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 69 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/69</link>
+      <description>- comments</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/69</guid>
+      <pubDate>Thu, 07 Jan 2010 10:45:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 67 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/67</link>
+      <description>- fix slashes for unix version in readme</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/67</guid>
+      <pubDate>Thu, 10 Dec 2009 10:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 66 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/66</link>
+      <description>- fix linux warnings</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/66</guid>
+      <pubDate>Thu, 10 Dec 2009 10:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 65 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/65</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/65</guid>
+      <pubDate>Tue, 08 Dec 2009 10:25:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsnmpd rev. 64 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsnmpd/subversion/64</link>
+      <description>- improve docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsnmpd/subversion/64</guid>
+      <pubDate>Tue, 08 Dec 2009 10:20:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

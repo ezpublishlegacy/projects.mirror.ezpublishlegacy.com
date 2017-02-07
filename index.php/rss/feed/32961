@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / static_cache_with_path_prefix / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:39:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:39:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/32961" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/static_cache_with_path_prefix/news/changelog</link>
+      <description>&lt;p&gt;
+-------------------&lt;br /&gt;
+ Version 1.0.1&lt;br /&gt;
+ -initial public release&lt;br /&gt;
+ -------------------&lt;br /&gt;
+ -------------------&lt;br /&gt;
+ Version 1.1&lt;br /&gt;
+ -dropped need for adding PathPrefix to CachedURLArray.&lt;br /&gt;
+ It's now read driectly from site.ini&lt;br /&gt;
+ -Changed UseVirtualHost to OmitAppendingSiteaccess as is useful to other&lt;br /&gt;
+ types of MatchOrder, too.&lt;br /&gt;
+ Note: Make sure you replace this setting in your configuration! &lt;br /&gt;
+ -------------------&lt;br /&gt;
+ -------------------&lt;br /&gt;
+ Version 2.0&lt;br /&gt;
+ -added method for switching the siteaccess&lt;br /&gt;
+ -smaller code cleanups &lt;br /&gt; -------------------&lt;/p&gt;</description>
+      <author>community@ez.no (Daniel Beyer)</author>
+      <guid>http://projects.ez.no/static_cache_with_path_prefix/news/changelog</guid>
+      <pubDate>Mon, 16 Jan 2006 13:41:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

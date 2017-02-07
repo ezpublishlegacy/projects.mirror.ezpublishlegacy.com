@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpsectioncontentreport / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:21:09 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:21:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/54917" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpsectioncontentreport/source/44e531a514932371bd5f03fb429be3465089c192</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added: Initial import of ezpsectioncontentreport extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpsectioncontentreport/source/44e531a514932371bd5f03fb429be3465089c192</guid>
+      <pubDate>Wed, 01 Feb 2017 06:55:35 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpsectioncontentreport/source/b24df68993aa0967a05941516c54871c9943a779</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added jquery based instructions to import report csv content into excel&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpsectioncontentreport/source/b24df68993aa0967a05941516c54871c9943a779</guid>
+      <pubDate>Wed, 01 Feb 2017 06:55:34 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpsectioncontentreport/source/cb26a9e913cdb999fcca9673f6c2f65b1ac83809</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added optional setting and conditional code to exclude hidden items from section report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpsectioncontentreport/source/cb26a9e913cdb999fcca9673f6c2f65b1ac83809</guid>
+      <pubDate>Wed, 01 Feb 2017 06:55:33 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezpsectioncontentreport/source/370bff550395db97f93f145b1451f53b3ab19b77</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Added content object class / type to report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezpsectioncontentreport/source/370bff550395db97f93f145b1451f53b3ab19b77</guid>
+      <pubDate>Wed, 01 Feb 2017 06:55:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

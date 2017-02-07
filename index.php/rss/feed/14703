@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezflickr / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:05:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:05:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14703" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezflickr rev. 10 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/10</link>
+      <description>Add logout option</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/10</guid>
+      <pubDate>Thu, 07 May 2009 15:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 9 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/9</link>
+      <description>bugfix sur l'import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/9</guid>
+      <pubDate>Thu, 30 Apr 2009 15:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 8 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/8</link>
+      <description>Ajout de ModuleList pour 4.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/8</guid>
+      <pubDate>Thu, 30 Apr 2009 15:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 7 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/7</link>
+      <description>ajout du datatype, page photo, page de connexion</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/7</guid>
+      <pubDate>Thu, 30 Apr 2009 15:05:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 6 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/6</link>
+      <description>import with browse option, empty photo view</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/6</guid>
+      <pubDate>Fri, 13 Mar 2009 17:25:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 5 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/5</link>
+      <description>new connection system</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/5</guid>
+      <pubDate>Fri, 13 Mar 2009 14:15:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 4 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/4</link>
+      <description>ezflickrselection and first import with only photo support</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/4</guid>
+      <pubDate>Fri, 13 Mar 2009 11:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 3 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/3</link>
+      <description>remove api information</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/3</guid>
+      <pubDate>Wed, 11 Mar 2009 10:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 1 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/1</link>
+      <description>Partager projet "ezflickr" dans "http://svn.projects.ez.no/ezflickr"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/1</guid>
+      <pubDate>Wed, 11 Mar 2009 10:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflickr rev. 2 by Jérôme Cohonner</title>
+      <link>http://projects.ez.no/ezflickr/subversion/2</link>
+      <description>Partager projet "ezflickr" dans "http://svn.projects.ez.no/ezflickr"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflickr/subversion/2</guid>
+      <pubDate>Wed, 11 Mar 2009 10:50:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

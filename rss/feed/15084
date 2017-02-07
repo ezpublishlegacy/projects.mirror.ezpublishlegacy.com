@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezflowplayer / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:10:15 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:10:15 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15084" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Beta release eZFlowplayer</title>
+      <link>http://projects.ez.no/ezflowplayer/news/beta_release_ezflowplayer</link>
+      <description>&lt;p&gt;Version based on Flowplayer 3.1.1&lt;/p&gt;&lt;p&gt;
+- Basic playback functions for File upload and RTMP streaming server (tested with Wowza streaming server)&lt;br /&gt; &lt;/p&gt;&lt;p&gt;This is an beta release, report all bugs and suggestions to &lt;a href="mailto:messenlien@gmail.com" target="_self"&gt;messenlien@gmail.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Download &lt;a href="http://projects.ez.no/ezflowplayer/downloads/ez_flowplayer_beta_0_2" target="_self"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;PS!.. Dont checkout version in SVN. This is not updated!&lt;/b&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/ezflowplayer/news/beta_release_ezflowplayer</guid>
+      <pubDate>Mon, 06 Jul 2009 22:22:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flowplayer 3.1</title>
+      <link>http://projects.ez.no/ezflowplayer/news/flowplayer_3_1</link>
+      <description>&lt;p&gt;The new version of flowplayer will ship april 15th. I will hold back any release untill i have the new version intergrated. There are allot of new functions aswell with this release.&lt;/p&gt;</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/ezflowplayer/news/flowplayer_3_1</guid>
+      <pubDate>Tue, 14 Apr 2009 11:47:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>First test is soon ready</title>
+      <link>http://projects.ez.no/ezflowplayer/news/first_test_is_soon_ready</link>
+      <description>&lt;p&gt;Have been running the first version in test for a few days now. Everything seems to be working good so far. I will need to clean up some code and write a quick install guide before i can put it on public testing. &lt;/p&gt;&lt;p&gt;A demo of the streaming server integration is running &lt;a href="http://messenlien.com/eng/Flowplayer/RTMP-Streaming-wowza-server" target="_blank"&gt;here&lt;/a&gt;. This one is running on a limited wowza streaming server. But you should be able to see the difference from running the movie as http streaming. Try to skip forward in the movie while playing, you should see the playback starts instant from that point.&lt;/p&gt;</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/ezflowplayer/news/first_test_is_soon_ready</guid>
+      <pubDate>Sat, 28 Mar 2009 21:40:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

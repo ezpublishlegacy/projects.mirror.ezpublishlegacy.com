@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / object_content_class_change</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:32:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:32:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30452" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nodes are disappearing on importing class</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/nodes_are_disappearing_on_importing_class</link>
+      <description>Hello Everyone, I am using two environments say dev and qa. I have a class in dev and there is an object which is inheriting properties of that class. qa also has same structure. Now, we add an attribute in the class in dev environment and the corresponding object is updated properly. Then, I export this class in a package and import in qa environment. While importing   I select 'replace the existing class' option. The class is imported properly with the new attribute but the corresponding nodes are not visible in the tree structure. &#13;
+When i made a drill through, i observed that there is a new row added in the ezcontentclass table for the same class with a new class_id and the previous existing row with the previous class_id for the same class got deleted. And also there is no row corresponding to the previous existed class_id in ezcontentobject table.&#13;
+&#13;
+We can manipulate in database to get the solution, but I was hoping if there is any solution from ezPublish admin side.&#13;
+&#13;
+Your help is greatly appreciated.</description>
+      <author>community@ez.no (Sachin Singh)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/nodes_are_disappearing_on_importing_class</guid>
+      <pubDate>Fri, 21 Mar 2014 19:00:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ Publish 4.x version on github</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/ez_publish_4_x_version_on_github/re_ez_publish_4_x_version_on_github</link>
+      <description>Hello :)&#13;
+&#13;
+Even version from Github is not really ez 4.x compatibile, as scripts fails in many ways. For example it makes huge mess on multi language objects, be careful with it!&#13;
+&#13;
+I'm back in eZ business, so I'll try to fix it and do some refactorization. </description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/ez_publish_4_x_version_on_github/re_ez_publish_4_x_version_on_github</guid>
+      <pubDate>Thu, 07 Feb 2013 09:16:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Publish 4.x version on github</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/ez_publish_4_x_version_on_github</link>
+      <description>https://github.com/myxt/ezchangeclass&#13;
+&#13;
+(mentioned in the other thread as well, but adding it as separate thread to gain visibility)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/ez_publish_4_x_version_on_github</guid>
+      <pubDate>Mon, 09 Jul 2012 20:34:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great extension</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/great_extension/re_great_extension2</link>
+      <description>I put a fork of this extension on Github that works in eZ Publish 4.x:&#13;
+https://github.com/myxt/ezchangeclass&#13;
+&#13;
+Harry: the option is in the context menu (right click on an objects icon &gt; change class)&#13;
+</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/great_extension/re_great_extension2</guid>
+      <pubDate>Tue, 01 Nov 2011 16:45:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great extension</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/great_extension/re_great_extension</link>
+      <description>Hi Sander, Bartek,&#13;
+&#13;
+An update for eZ version 4 would be greatly appreciated!&#13;
+Also some instructions for installation, even if it's only very brief. Copied the extension, enabled it, but can't find any button, menu option, whatever. Where to look?&#13;
+&#13;
+Thanks!&#13;
+&#13;
+Harry</description>
+      <author>community@ez.no (Harry Oosterveen)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/great_extension/re_great_extension</guid>
+      <pubDate>Tue, 04 Oct 2011 21:31:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great extension</title>
+      <link>http://projects.ez.no/object_content_class_change/forum/general/great_extension</link>
+      <description>Hi Bartek,&#13;
+&#13;
+I have used this extension quite some times, it is a real life saver during refactoring sprints.&#13;
+In order to keep this extension working with eZ Publish 4 some slight modifications are needed. I would be happy to send what I have altered in order to make it work. Could you update your code?&#13;
+Or, if you're not willing to further maintaing this project, I am happy to take over because this is one of the most useful projects ;)&#13;
+&#13;
+Thanks!&#13;
+Sander</description>
+      <author>community@ez.no (Sander van den Akker)</author>
+      <guid>http://projects.ez.no/object_content_class_change/forum/general/great_extension</guid>
+      <pubDate>Mon, 26 Sep 2011 09:53:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/object_content_class_change/news/changelog</link>
+      <description>&lt;p&gt;
+0.61 (ar)&lt;br /&gt;
+ * conversionFunctions::getSimpleConversionArray is using $this so can&lt;br /&gt;
+ not be called statically&lt;br /&gt;
+ * lots of missing is_set / isset checks in map_attribute.php and&lt;br /&gt;
+ map_attribute.tpl on arrays&lt;br /&gt;
+ 0.60 (ar)&lt;br /&gt;
+ * fixed while bug in cli script&lt;br /&gt;
+ * Fixed possible 'mem leak'&lt;br /&gt;
+ + added ezstring / eztext -&gt; ezxml converter (thanks Mauro&lt;br /&gt;
+ Innocenti)&lt;br /&gt;
+ + added ezstring to ezint / ezfloat converter (untested!)&lt;br /&gt;
+ Known bug: Duplicated relations with object relation(s) attributes&lt;br /&gt;
+ 0.51 (ar)&lt;br /&gt;
+ * fixed offset bug&lt;br /&gt;
+ * fixed 3.8.x api bug&lt;br /&gt;
+ + added sub-tree parameter&lt;br /&gt;
+ + added logging capability&lt;br /&gt;
+ 0.50 (ar)&lt;br /&gt;
+ + Added batch converting ability with wizard&lt;br /&gt;
+ * some other small fixes&lt;br /&gt;
+ + added lichens text and ezinfo.php&lt;br /&gt;
+ 0.31&lt;br /&gt;
+ * included patch from Peter Putzer&lt;br /&gt;
+ 0.30&lt;br /&gt;
+ + Added simple conversion - now it's possible to define conversion in&lt;br /&gt;
+ changeclass.ini&lt;br /&gt;
+ [SimpleConversion]&lt;br /&gt;
+ SupportedConversion[]=eztext;ezstring&lt;br /&gt;
+ Above settings will enable mapping between different datatypes when there&lt;br /&gt;
+ is no need to make any changes on attribute content &lt;br /&gt;
+ 0.23 (ar)&lt;br /&gt;
+ + Added possibility to have custom datatype converters, one example is&lt;br /&gt;
+ included where relationslist is converted to a 'relationlistbloc'&lt;br /&gt;
+ witch is a relationlist with dates on each relation.&lt;br /&gt;
+ * Fixed some bugs / warnings&lt;br /&gt;
+ 0.19&lt;br /&gt;
+ * Possibility to change existing object to different content class -&lt;br /&gt;
+ button "Modify object"&lt;br /&gt;
+ 0.1&lt;br /&gt; + Initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/object_content_class_change/news/changelog</guid>
+      <pubDate>Mon, 08 Oct 2007 08:03:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezchangeclass061.zip</title>
+      <link>http://projects.ez.no/object_content_class_change/downloads/ezchangeclass061_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/object_content_class_change/downloads/ezchangeclass061_zip</guid>
+      <pubDate>Mon, 08 Oct 2007 08:03:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

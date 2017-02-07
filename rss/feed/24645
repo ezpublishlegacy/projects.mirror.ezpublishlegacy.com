@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cjw_newsletter / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:36:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:36:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24645" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CJW Newsletter and eZ Publish 5</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_and_ez_publish_5</link>
+      <description>&lt;p&gt;
+We can confirm that CJW Newsletter is running smoothly in the eZ Publish 5.x Legacy Stack.&lt;br /&gt;
+ &lt;br /&gt; Furthermore we are in the process of porting the newsletter datatype to the Symfony stack. This will allow you to use CJW Newsletter in a pure eZ Publish 5 environment.&lt;/p&gt;</description>
+      <author>community@ez.no (Donat Fritschy)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_and_ez_publish_5</guid>
+      <pubDate>Tue, 08 Jul 2014 09:39:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter Funding and Roadmap for Version 2.0 - Update</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_funding_and_roadmap_for_version_2_0_update</link>
+      <description>&lt;p&gt;We are working on CJW Newsletter version 2.0. Some features are already in beta, some are already funded by customer funding or partner funding, some need still some love.&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1227_automated_recurring_newsletters" target="_self"&gt;Enhancement #1227: Automated, recurring newsletters&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_426_scheduled_sending_out " target="_self"&gt;in beta: Enhancement #426: Scheduled sending out&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_908_different_reply_to_and_from_email" target="_self"&gt;Enhancement #908: Different "Reply-To" and "From" email&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_909_newsletter_with_attachments_e_g_pdfs" target="_self"&gt;Enhancement #909: Newsletter with attachments (e.g. PDFs)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1229_integration_of_campain_analysis_tools" target="_self"&gt;Enhancement #1229: Integration of campain analysis tools&amp;nbsp;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1230_url_shortener" target="_self"&gt;Enhancement #1230: URL shortener&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1231_user_segmentation_virtual_nl_list" target="_self"&gt;in beta Enhancement #1231: User segmentation, virtual nl list&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;EN: Blog post in English about user segmentation: &lt;a href="http://cjw-network.com/en/blog/user-segmentation" title="CJW Network - CJW NEwsletter User Segmentation" target="_blank"&gt;http://cjw-network.com/en/blog/user-segmentation&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DE: Blog post in German about user segmentation / Zielgruppenunterscheidung: &lt;a href="http://cjw-network.com/de/blog/user-segmentation-zielgruppenunterscheidung" title="CJW Newsletter User Segmenation / Zielgruppenunterscheidung" target="_blank"&gt;http://cjw-network.com/de/blog/user-segmentation-zielgruppenunterscheidung&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_funding_and_roadmap_for_version_2_0_update</guid>
+      <pubDate>Wed, 02 May 2012 21:32:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter Funding and Roadmap for Version 2.0</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_funding_and_roadmap_for_version_2_0</link>
+      <description>&lt;p&gt;We are working on CJW Newsletter version 2.0. Some features are already funded by customer funding or partner funding, some need still some love.&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1227_automated_recurring_newsletters" target="_self"&gt;Enhancement #1227: Automated, recurring newsletters&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_426_scheduled_sending_out " target="_self"&gt;Enhancement #426: Scheduled sending out&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_908_different_reply_to_and_from_email" target="_self"&gt;Enhancement #908: Different "Reply-To" and "From" email&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_909_newsletter_with_attachments_e_g_pdfs" target="_self"&gt;Enhancement #909: Newsletter with attachments (e.g. PDFs)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1229_integration_of_campain_analysis_tools" target="_self"&gt;Enhancement #1229: Integration of campain analysis tools&amp;nbsp;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1230_url_shortener" target="_self"&gt;Enhancement #1230: URL shortener&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/forum/feature_requests/enhancement_1231_user_segmentation_virtual_nl_list" target="_self"&gt;Enhancement #1231: User segmentation, virtual nl list&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_funding_and_roadmap_for_version_2_0</guid>
+      <pubDate>Wed, 19 Oct 2011 15:48:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>News CJW Newsletter Version 1.0.0 RC1 has been released.</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/news_cjw_newsletter_version_1_0_0_rc1_has_been_released</link>
+      <description>&lt;p&gt;&lt;a href="http://projects.ez.no/cjw_newsletter/downloads/cjw_newsletter_1_0_0rc1" target="_blank"&gt;http://projects.ez.no/cjw_newsletter/downloads/cjw_newsletter_1_0_0rc1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;CJW Newsletter is a full featured newsletter system developed by &lt;a href="http://www.cjw-network.com/" target="_blank"&gt;CJW Network&lt;/a&gt; and available as an add on for eZ Publish. It integrates seamlessly with eZ Publish an eZ Flow installations. It can also be used as an independent newsletter and multi-channel on-line platform.&lt;/p&gt;</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/news_cjw_newsletter_version_1_0_0_rc1_has_been_released</guid>
+      <pubDate>Wed, 26 Jan 2011 10:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>CJW Newsletter Version 1.0.0 beta 2 has been released.</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_version_1_0_0_beta_2_has_been_released</link>
+      <description>&lt;p&gt;Release&lt;a href="http://www.projects.ez.no/cjw_newsletter/downloads" target="_blank"&gt; 1.0.0beta2&lt;/a&gt; of the extension &lt;a href="/../../../cjw_newsletter" target="_self"&gt;CJW Newsletter&lt;/a&gt; has just been released with a lot of bugfixes and improvement, main enhancements: &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;templates for admin2&lt;/li&gt;
+
+&lt;li&gt;nl user management &lt;/li&gt;
+
+&lt;li&gt;streamlined user interface&lt;/li&gt;
+
+&lt;li&gt;easier installation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt; CJW Newsletter is a full featured newsletter system developed by &lt;a href="http://www.cjw-network.com/" target="_blank"&gt;CJW Network&lt;/a&gt; and available as an add on for eZ Publish. It integrates seamlessly with eZ Publish an eZ Flow installations. It can also be used as an independent newsletter and multi-channel on-line platform. &lt;/p&gt;</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/cjw_newsletter_version_1_0_0_beta_2_has_been_released</guid>
+      <pubDate>Thu, 07 Oct 2010 12:29:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Version 1.0.0 has been released.</title>
+      <link>http://projects.ez.no/cjw_newsletter/news/version_1_0_0_has_been_released</link>
+      <description>&lt;p&gt;Release &lt;a href="http://www.projects.ez.no/cjw_newsletter/downloads" target="_self"&gt;1.0.0beta&lt;/a&gt; of the extension &lt;a href="http://projects.ez.no/cjw_newsletter" target="_self"&gt;CJW Newsletter&lt;/a&gt; has just been released.&lt;/p&gt;&lt;p&gt;CJW Newsletter is a full featured newsletter system developed by &lt;a href="http://www.cjw-network.com" target="_blank"&gt;CJW network&lt;/a&gt; and available as an add on for eZ Publish. It integrates seamlessly with eZ Publish an eZ Flow installations. It can also be used as an independent newsletter and multi-channel on-line platform.&lt;/p&gt;</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/cjw_newsletter/news/version_1_0_0_has_been_released</guid>
+      <pubDate>Tue, 30 Mar 2010 14:18:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

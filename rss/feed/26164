@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / _soextra / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:14:07 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:14:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26164" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/a1445759aac058c50310b6e253a36e42b5a29531</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/themes/ez/editor_template.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;i18n additions to path bar&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/a1445759aac058c50310b6e253a36e42b5a29531</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/1c8f71ec87319449532b96f00c6df1dfbb7d94d1</link>
+      <description>
+      &lt;pre&gt;m classes/soextraserverfunctions.php
++ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed translation contexts. Added translation.ts&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/1c8f71ec87319449532b96f00c6df1dfbb7d94d1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/6c44027f8f738603fded7684235f407231fd0fc1</link>
+      <description>
+      &lt;pre&gt;m README.md
++ design/standard/templates/content/datatype/view/ezimage.tpl
++ doc/changelogs/0.1/CHANGELOG-0.1
++ doc/changelogs/0.2/CHANGELOG-0.1-to-0.2
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added changelogs and screenshot&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/6c44027f8f738603fded7684235f407231fd0fc1</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/a5656b065a2a50690d1fd64c9c91c065b40c394c</link>
+      <description>
+      &lt;pre&gt;&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'oe5.1.0' of github.com:stevoland/ez_soextra into oe5.1.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/a5656b065a2a50690d1fd64c9c91c065b40c394c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/12c1ad1e185887a7ba68b4356193d0a05f98ba0f</link>
+      <description>
+      &lt;pre&gt;m classes/soextraserverfunctions.php
+m design/standard/javascript/ezoe/popup_utils.js
+m design/standard/javascript/plugins/soextra/editor_plugin.js
+m doc/TODO
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Various fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/12c1ad1e185887a7ba68b4356193d0a05f98ba0f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/118487c6bb4b7b728b79cba63bdfa6370dfa8c1c</link>
+      <description>
+      &lt;pre&gt;m design/ezwebin/templates/content/datatype/view/ezxmltags/block.tpl
+m design/standard/templates/content/datatype/edit/ezxmltext_soextra.tpl
+m design/standard/templates/content/datatype/view/ezxmltags/block.tpl
++ design/standard/templates/ezoe/customattributes.tpl
+m design/standard/templates/ezoe/tag_embed_images.tpl
+m design/standard/templates/ezoe/tag_embed_objects.tpl
+m settings/content.ini.append.php.EXAMPLE
+m settings/ezoe_attributes.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow unique custom attribute inputs per embedded class&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/118487c6bb4b7b728b79cba63bdfa6370dfa8c1c</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/1c8526b0d166b2c64bf8371dbf24ac0ad9d25f3b</link>
+      <description>
+      &lt;pre&gt;m README.md
+m autoloads/soeattributesoperator.php
+m design/ezwebin/templates/content/datatype/view/ezxmltags/block.tpl
+m design/standard/javascript/plugins/soextra/editor_plugin.js
+m design/standard/javascript/themes/ez/editor_template.js
+m design/standard/stylesheets/soextra_editor.css
+m design/standard/stylesheets/soextra_site.css
++ design/standard/stylesheets/yui/grids.css
+m design/standard/templates/content/datatype/edit/ezxmltext_soextra.tpl
+m design/standard/templates/content/datatype/view/ezxmltags/block.tpl
++ design/standard/templates/ezoe/customattributes/class.tpl
+m doc/TODO
+m settings/content.ini.append.php.EXAMPLE
+m settings/ezoe_attributes.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Moved blocks to YUI3 gids. Added classification attribute to custom tags mimicking normal tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/1c8526b0d166b2c64bf8371dbf24ac0ad9d25f3b</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/5908b3785b54d7769e8c898a0eba4e391b750b9d</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/ezoe/tag_custom.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed insert custom block tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/5908b3785b54d7769e8c898a0eba4e391b750b9d</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/1230f21f543d7198ddec9d8c14258c24cfeab800</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/themes/ez/editor_template.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed positioning cursor before/after blocks&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/1230f21f543d7198ddec9d8c14258c24cfeab800</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/6b46ece99e8c4ac478e8203d507c05c87ab530f2</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/plugins/soextra/editor_plugin.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed debug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/6b46ece99e8c4ac478e8203d507c05c87ab530f2</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/10e490239305e89565a9d02f65ea16eefe170cf5</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/plugins/soextra/editor_plugin.js
+m design/standard/javascript/themes/ez/editor_template.js
+m design/standard/stylesheets/soextra_editor.css
+m design/standard/templates/content/datatype/edit/ezxmltext_soextra.tpl
+m settings/soextra.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve handling of empty elements like pagebreak + newline&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/10e490239305e89565a9d02f65ea16eefe170cf5</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/8fba1c9f002faa00fa59f4a1132ac150ab660fdc</link>
+      <description>
+      &lt;pre&gt;+ doc/CHANGELOG
+- doc/changelogs/0.1/CHANGELOG-0.1
+- doc/changelogs/0.2/CHANGELOG-0.1-to-0.2
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/8fba1c9f002faa00fa59f4a1132ac150ab660fdc</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/a10ba6f2b062220e9bbd9f988b14acb6d10172d8</link>
+      <description>
+      &lt;pre&gt;+ doc/CHANGELOG
+- doc/changelogs/0.1/CHANGELOG-0.1
+- doc/changelogs/0.2/CHANGELOG-0.1-to-0.2
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated changelog&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/a10ba6f2b062220e9bbd9f988b14acb6d10172d8</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/de81760bb303471f185632d825927b38f2872931</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated versions in readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/de81760bb303471f185632d825927b38f2872931</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/a34abb10dd260b913f0c22133ab1858c1a9e8d98</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated versions in readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/a34abb10dd260b913f0c22133ab1858c1a9e8d98</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/aaf2aa84a40d903549a4f3cdb65eec49f255a052</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezoe/popup_utils.js
+m design/standard/javascript/themes/ez/editor_template.js
+m design/standard/templates/content/datatype/edit/ezxmltext_ezoe.tpl
+m design/standard/templates/ezoe/box_bookmarks.tpl
+m design/standard/templates/ezoe/box_browse.tpl
+m design/standard/templates/ezoe/box_search.tpl
+m design/standard/templates/ezoe/customattributes.tpl
+- design/standard/templates/ezoe/customattributes/csssize.tpl
+m design/standard/templates/ezoe/tag_custom.tpl
+m design/standard/templates/ezoe/tag_embed_images.tpl
+m design/standard/templates/ezoe/tag_embed_objects.tpl
+m patch/ezoe-5.2.0/extension/ezoe/ezxmltext/handlers/input/ezoeinputparser.php
+m patch/ezoe-5.2.0/extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php
+m patch/ezoe-5.2.0/extension/ezoe/modules/ezoe/embed_view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated for oe5.2.0 (ez4.4)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/aaf2aa84a40d903549a4f3cdb65eec49f255a052</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/4bc38b77e7462dfa0228efdf502268d1942b3154</link>
+      <description>
+      &lt;pre&gt;m patch/ezoe-5.1.0/extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php
+- settings/content.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix for related image removed error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/4bc38b77e7462dfa0228efdf502268d1942b3154</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/38001bb67b121478c4481a370802043563b2cbb7</link>
+      <description>
+      &lt;pre&gt;m design/ezwebin/templates/content/datatype/view/ezxmltags/block.tpl
+m design/standard/javascript/themes/ez/editor_template.js
+m design/standard/templates/content/datatype/edit/ezxmltext_soextra.tpl
+m design/standard/templates/content/datatype/view/ezxmltags/block.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed template warnings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/38001bb67b121478c4481a370802043563b2cbb7</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/1bf977d98577717cebab0786b51c8f433d64076f</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/plugins/soextra/editor_plugin.js
+m design/standard/stylesheets/soextra_editor.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change mceItemCustomTag to ezoeItemCustomTag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/1bf977d98577717cebab0786b51c8f433d64076f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/soextra/subversion/0d6b7268d74a183c01ff32b35754d652032ca177</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/ezoe/popup_utils.js
+m design/standard/javascript/themes/ez/editor_template.js
+m design/standard/templates/content/datatype/edit/ezxmltext_ezoe.tpl
+m design/standard/templates/ezoe/box_bookmarks.tpl
+m design/standard/templates/ezoe/box_browse.tpl
+m design/standard/templates/ezoe/box_search.tpl
+m design/standard/templates/ezoe/customattributes.tpl
+- design/standard/templates/ezoe/customattributes/csssize.tpl
+m design/standard/templates/ezoe/tag_custom.tpl
+m design/standard/templates/ezoe/tag_embed_images.tpl
+m design/standard/templates/ezoe/tag_embed_objects.tpl
+m patch/ezoe-5.2.0/extension/ezoe/ezxmltext/handlers/input/ezoeinputparser.php
+m patch/ezoe-5.2.0/extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php
+m patch/ezoe-5.2.0/extension/ezoe/modules/ezoe/embed_view.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of git://github.com/stevoland/ez_soextra&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/soextra/subversion/0d6b7268d74a183c01ff32b35754d652032ca177</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bysoftdeveloper / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:32:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:32:02 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29241" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Joining forces?</title>
+      <link>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces3</link>
+      <description>I have added support to this feature(only when the ezjscore and ezsh are installed), developer can view the highlight tpl by double click on the list.</description>
+      <author>community@ez.no (Alva Wu)</author>
+      <guid>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces3</guid>
+      <pubDate>Thu, 08 Sep 2011 09:36:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Joining forces?</title>
+      <link>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces2</link>
+      <description>Absolutely great idea. We can add a link in used template list for each template file. Then one developer can review other developer's template file by using ezsh extension.&#13;
+&#13;
+Then each template file link should like below:&#13;
+geshi/highlight/extension/ezteamroom/design/ezteamroom/override/templates/full/blog_post.tpl&#13;
+&#13;
+and open another window to view the source code. Great idea!</description>
+      <author>community@ez.no (Cavin Deng)</author>
+      <guid>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces2</guid>
+      <pubDate>Wed, 03 Nov 2010 06:36:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Joining forces?</title>
+      <link>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces</link>
+      <description>An example integration: in the new eZTemplatesStatisticsReporter class, look if egeshi extension is enabled, and, if it is, add a link to view the source code of the template, wityh highlighting, in the browser</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces/re_joining_forces</guid>
+      <pubDate>Fri, 22 Oct 2010 12:32:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Joining forces?</title>
+      <link>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces</link>
+      <description>An interesting project, not very far away from my own ones:&#13;
+- the ezdebug_template_operator for better debugging&#13;
+- the ggsysinfo one for admin/dev system info and reports&#13;
+&#13;
+It might be a good idea to merge the reports and operators you have developed in the existing codebase...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/bysoftdeveloper/forum/general/joining_forces</guid>
+      <pubDate>Fri, 22 Oct 2010 12:27:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

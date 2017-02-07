@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / smile_ez_publish_eclipse_plugin / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:46:33 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:46:33 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/29481" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/smile_ez_publish_eclipse_plugin/news/changelog</link>
+      <description>&lt;p&gt;
+25 Aug 09 : Release of Eclipse Plugin 0.0.52&lt;br /&gt;
+ * Generated code follows eZ Publish coding standards (#2836197)&lt;br /&gt;
+ * Generated code ported to eZ Publish 4 (#2836198)&lt;br /&gt;
+ * Added more parameters type to operator wizard (#1694365)&lt;br /&gt;
+ 14 Aug 09 : Release of smileclasses eZ Publish extension 0.0.20&lt;br /&gt;
+ * Updated for eZ Publish 4.0 and 4.1&lt;br /&gt;
+ * Removed smileclasses.css so that it is not included in front&lt;br /&gt;
+ siteaccess when using design.ini/StylesheetSettings/CSSFileList&lt;br /&gt;
+ (#1680607)&lt;br /&gt;
+ * Added views of smileclasses in AnonymousAccessList array&lt;br /&gt;
+ (#1694375)&lt;br /&gt;
+ * smileclasses/export lists only classes in "defined" status&lt;br /&gt;
+ (#1684215)&lt;br /&gt;
+ 30 Mar 07 : Improved configuration and usage&lt;br /&gt;
+ 23 Mar 07 : Added JAC systeme editor and improved operator wizard&lt;br /&gt;
+ 20 Mar 07 : Added TPL validation &lt;br /&gt;
+ 15 Mar 07 : Improved operator extension generator.&lt;br /&gt; 08 Mar 07 : First released version.&lt;/p&gt;</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/smile_ez_publish_eclipse_plugin/news/changelog</guid>
+      <pubDate>Tue, 25 Aug 2009 10:02:55 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

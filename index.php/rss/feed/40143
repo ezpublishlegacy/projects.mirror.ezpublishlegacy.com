@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / dappsocial</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:17 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:17 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40143" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/ea2ee599d2e6cf40cf1685ef0e1a95dfd829c4b5</link>
+      <description>
+      &lt;pre&gt;+ design/tutei/override/templates/embed/obj.tpl
++ design/tutei/override/templates/embed/panda3d.tpl
++ design/tutei/override/templates/embed/shiva3d.tpl
++ design/tutei/override/templates/embed/unity.tpl
++ design/tutei/override/templates/full/blog.tpl
++ design/tutei/override/templates/full/blog_post.tpl
++ design/tutei/override/templates/full/event.tpl
++ design/tutei/override/templates/full/event_calendar.tpl
++ design/tutei/override/templates/full/flash.tpl
++ design/tutei/override/templates/full/flash_folder.tpl
++ design/tutei/override/templates/full/gallery.tpl
++ design/tutei/override/templates/full/image.tpl
++ design/tutei/override/templates/full/obj.tpl
++ design/tutei/override/templates/full/obj_folder.tpl
++ design/tutei/override/templates/full/panda3d.tpl
++ design/tutei/override/templates/full/panda3d_folder.tpl
++ design/tutei/override/templates/full/shiva3d.tpl
++ design/tutei/override/templates/full/shiva3d_folder.tpl
++ design/tutei/override/templates/full/unity.tpl
++ design/tutei/override/templates/full/unity_folder.tpl
++ design/tutei/override/templates/full/user.tpl
++ design/tutei/override/templates/line/obj.tpl
++ design/tutei/override/templates/line/panda3d.tpl
++ design/tutei/override/templates/line/shiva3d.tpl
++ design/tutei/override/templates/line/unity.tpl
++ design/tutei/templates/full/event_view_calendar.tpl
++ design/tutei/templates/node/removeobject.tpl
++ design/tutei/templates/user/edit.tpl
++ design/tutei/templates/user/login.tpl
++ design/tutei/templates/user/register.tpl
++ design/tutei/unity/objViewer.unity3d
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed main design folder name.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/ea2ee599d2e6cf40cf1685ef0e1a95dfd829c4b5</guid>
+      <pubDate>Fri, 17 Feb 2012 17:40:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/cafeb3e451cd1d00cf3ca5b7638d2540260ba911</link>
+      <description>
+      &lt;pre&gt;- design/ezflow/override/templates/embed/obj.tpl
+- design/ezflow/override/templates/embed/panda3d.tpl
+- design/ezflow/override/templates/embed/shiva3d.tpl
+- design/ezflow/override/templates/embed/unity.tpl
+- design/ezflow/override/templates/full/blog.tpl
+- design/ezflow/override/templates/full/blog_post.tpl
+- design/ezflow/override/templates/full/event.tpl
+- design/ezflow/override/templates/full/event_calendar.tpl
+- design/ezflow/override/templates/full/flash.tpl
+- design/ezflow/override/templates/full/flash_folder.tpl
+- design/ezflow/override/templates/full/gallery.tpl
+- design/ezflow/override/templates/full/image.tpl
+- design/ezflow/override/templates/full/obj.tpl
+- design/ezflow/override/templates/full/obj_folder.tpl
+- design/ezflow/override/templates/full/panda3d.tpl
+- design/ezflow/override/templates/full/panda3d_folder.tpl
+- design/ezflow/override/templates/full/shiva3d.tpl
+- design/ezflow/override/templates/full/shiva3d_folder.tpl
+- design/ezflow/override/templates/full/unity.tpl
+- design/ezflow/override/templates/full/unity_folder.tpl
+- design/ezflow/override/templates/full/user.tpl
+- design/ezflow/override/templates/line/obj.tpl
+- design/ezflow/override/templates/line/panda3d.tpl
+- design/ezflow/override/templates/line/shiva3d.tpl
+- design/ezflow/override/templates/line/unity.tpl
+- design/ezflow/templates/full/event_view_calendar.tpl
+- design/ezflow/templates/node/removeobject.tpl
+- design/ezflow/templates/user/edit.tpl
+- design/ezflow/templates/user/login.tpl
+- design/ezflow/templates/user/register.tpl
+- design/ezflow/unity/objViewer.unity3d
+m docs/INSTALL
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed main design folder name to tutei.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/cafeb3e451cd1d00cf3ca5b7638d2540260ba911</guid>
+      <pubDate>Fri, 17 Feb 2012 17:40:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/b34d5288f45ea62f25f3e135a85d4600ddc00c4a</link>
+      <description>
+      &lt;pre&gt;+ bin/php/createrole.php
++ classes/google-api-php-client/src/apiClient.php
++ classes/google-api-php-client/src/auth/apiAuth.php
++ classes/google-api-php-client/src/auth/apiAuthNone.php
++ classes/google-api-php-client/src/auth/apiOAuth.php
++ classes/google-api-php-client/src/auth/apiOAuth2.php
++ classes/google-api-php-client/src/cache/apiApcCache.php
++ classes/google-api-php-client/src/cache/apiCache.php
++ classes/google-api-php-client/src/cache/apiFileCache.php
++ classes/google-api-php-client/src/cache/apiMemcacheCache.php
++ classes/google-api-php-client/src/config.php
++ classes/google-api-php-client/src/contrib/apiBuzzService.php
++ classes/google-api-php-client/src/external/OAuth.php
++ classes/google-api-php-client/src/external/URITemplateParser.php
++ classes/google-api-php-client/src/io/apiCurlIO.php
++ classes/google-api-php-client/src/io/apiHttpRequest.php
++ classes/google-api-php-client/src/io/apiIO.php
++ classes/google-api-php-client/src/io/apiREST.php
++ classes/google-api-php-client/src/io/apiRPC.php
++ classes/google-api-php-client/src/service/apiBatch.php
++ classes/google-api-php-client/src/service/apiModel.php
++ classes/google-api-php-client/src/service/apiService.php
++ classes/google-api-php-client/src/service/apiServiceRequest.php
++ classes/google-api-php-client/src/service/apiServiceResource.php
+m design/ezflow/override/templates/embed/obj.tpl
++ modules/social/glogin.php
+m modules/social/module.php
++ settings/googleapi.ini
+m settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added create role script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/b34d5288f45ea62f25f3e135a85d4600ddc00c4a</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/67867ca1f0a5ad8d2a18b0bb161ec23ab9f6ec8a</link>
+      <description>
+      &lt;pre&gt;m design/ezflow/templates/user/login.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing janrain extension compatibility&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/67867ca1f0a5ad8d2a18b0bb161ec23ab9f6ec8a</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/01097b41107692627bf27ee4ffa2244bc466bc23</link>
+      <description>
+      &lt;pre&gt;m design/ezflow/templates/user/login.tpl
+m eventtypes/event/createuserextras/createuserextrastype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing user create event, now works with janrain&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/01097b41107692627bf27ee4ffa2244bc466bc23</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/bc13754b3bcbb7df5cfdedcc7f569602a62c0b90</link>
+      <description>
+      &lt;pre&gt;m docs/INSTALL
++ packages/tuteisocial_classes-1.3-1.ezpkg
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixing old dapp references&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/bc13754b3bcbb7df5cfdedcc7f569602a62c0b90</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/a2563d332d8e3efdc8aea68a17a60d4cef1a8835</link>
+      <description>
+      &lt;pre&gt;m README
+m actions/content_actionhandler.php
+m autoloads/eztemplateautoload.php
+m autoloads/tuteisocialtemplateoperators.php
+m bin/php/createtestusers.php
+m bin/php/test.php
+m bin/php/userextras.php
+m classes/qavoteservercallfunctions.php
+m classes/userrelationshipelaborationsobject.php
+m classes/userrelationshipsobject.php
+m classes/userrelationshiptypesobject.php
+m datatypes/relationship/relationshiptype.php
+m design/ezflow/override/templates/full/obj.tpl
+m design/standard/javascript/qavote_jquery.js
++ design/standard/stylesheets/tuteisocial.css
+m design/standard/templates/content/datatype/view/relationship.tpl
++ design/standard/templates/tuteisocial/approve.tpl
++ design/standard/templates/tuteisocial/delete.tpl
++ design/standard/templates/tuteisocial/friendshipmail.tpl
++ design/standard/templates/tuteisocial/request.tpl
+m docs/INSTALL
+m eventtypes/event/createuserextras/createuserextrastype.php
+m extension.xml
+m ezinfo.php
+m modules/social/approve.php
+m modules/social/delete.php
+m modules/social/function_definition.php
+m modules/social/request.php
+m modules/social/tuteisocialfunctioncollection.php
+m settings/content.ini.append.php
+m settings/design.ini.append.php
+m settings/extendedattributefilter.ini.append.php
+m settings/ezjscore.ini.append.php
+m settings/module.ini.append.php
+m settings/site.ini.append.php
++ settings/tuteisocial.ini.append.php
+m settings/workflow.ini.append.php
+m translations/por-BR/translation.ts
+m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;removed dapp references&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/a2563d332d8e3efdc8aea68a17a60d4cef1a8835</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/0f3d1f6a0eb0c1e681798351a1e98a49dca2a8c8</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
++ README
++ actions/content_actionhandler.php
++ autoloads/dappsocialtemplateoperators.php
++ autoloads/eztemplateautoload.php
++ autoloads/qavotetemplateoperators.php
++ bin/php/createtestusers.php
++ bin/php/test.php
++ bin/php/userextras.php
++ classes/masterservercallfunctions.php
++ classes/node.php
++ classes/object.php
++ classes/qavotedataobject.php
++ classes/qavotefilter.php
++ classes/qavoteobject.php
++ classes/qavoteobjecttreenode.php
++ classes/qavoteservercallfunctions.php
++ classes/statsservercallfunctions.php
++ classes/userexpdataobject.php
++ classes/userexpobject.php
++ classes/userrelationshipelaborationsobject.php
++ classes/userrelationshipsobject.php
++ classes/userrelationshiptypesobject.php
++ datatypes/qavote/qavotetype.php
++ datatypes/relationship/relationshiptype.php
++ datatypes/userexp/userexptype.php
++ design/ezflow/override/templates/embed/obj.tpl
++ design/ezflow/override/templates/embed/panda3d.tpl
++ design/ezflow/override/templates/embed/shiva3d.tpl
++ design/ezflow/override/templates/embed/unity.tpl
++ design/ezflow/override/templates/full/blog.tpl
++ design/ezflow/override/templates/full/blog_post.tpl
++ design/ezflow/override/templates/full/event.tpl
++ design/ezflow/override/templates/full/event_calendar.tpl
++ design/ezflow/override/templates/full/flash.tpl
++ design/ezflow/override/templates/full/flash_folder.tpl
++ design/ezflow/override/templates/full/gallery.tpl
++ design/ezflow/override/templates/full/image.tpl
++ design/ezflow/override/templates/full/obj.tpl
++ design/ezflow/override/templates/full/obj_folder.tpl
++ design/ezflow/override/templates/full/panda3d.tpl
++ design/ezflow/override/templates/full/panda3d_folder.tpl
++ design/ezflow/override/templates/full/shiva3d.tpl
++ design/ezflow/override/templates/full/shiva3d_folder.tpl
++ design/ezflow/override/templates/full/unity.tpl
++ design/ezflow/override/templates/full/unity_folder.tpl
++ design/ezflow/override/templates/full/user.tpl
++ design/ezflow/override/templates/line/obj.tpl
++ design/ezflow/override/templates/line/panda3d.tpl
++ design/ezflow/override/templates/line/shiva3d.tpl
++ design/ezflow/override/templates/line/unity.tpl
++ design/ezflow/templates/full/event_view_calendar.tpl
++ design/ezflow/templates/node/removeobject.tpl
++ design/ezflow/templates/user/edit.tpl
++ design/ezflow/templates/user/login.tpl
++ design/ezflow/templates/user/register.tpl
++ design/ezflow/unity/objViewer.unity3d
++ design/standard/images/Thumbs.db
++ design/standard/images/border.png
++ design/standard/images/bronze-badge.png
++ design/standard/images/controls.png
++ design/standard/images/gold-badge.png
++ design/standard/images/loading.gif
++ design/standard/images/loading_background.png
++ design/standard/images/personal.png
++ design/standard/images/silver-badge.png
++ design/standard/images/sprites.png
++ design/standard/javascript/DetectPanda3D.js
++ design/standard/javascript/RunPanda3D.js
++ design/standard/javascript/dappsocial.js
++ design/standard/javascript/jquery.colorbox-min.js
++ design/standard/javascript/qavote_jquery.js
++ design/standard/stylesheets/colorbox.css
++ design/standard/stylesheets/dappsocial.css
++ design/standard/stylesheets/qavote.css
++ design/standard/templates/class/datatype/edit/qavote.tpl
++ design/standard/templates/class/datatype/edit/relationship.tpl
++ design/standard/templates/class/datatype/edit/userexp.tpl
++ design/standard/templates/class/datatype/view/qavote.tpl
++ design/standard/templates/class/datatype/view/relationship.tpl
++ design/standard/templates/class/datatype/view/userexp.tpl
++ design/standard/templates/content/datatype/edit/qavote.tpl
++ design/standard/templates/content/datatype/edit/relationship.tpl
++ design/standard/templates/content/datatype/edit/userexp.tpl
++ design/standard/templates/content/datatype/view/qavote.tpl
++ design/standard/templates/content/datatype/view/relationship.tpl
++ design/standard/templates/content/datatype/view/userexp.tpl
++ design/standard/templates/dappsocial/approve.tpl
++ design/standard/templates/dappsocial/delete.tpl
++ design/standard/templates/dappsocial/friendshipmail.tpl
++ design/standard/templates/dappsocial/request.tpl
++ docs/INSTALL
++ docs/ProjectAchievements
++ docs/exptable.xls
++ eventtypes/event/createuserextras/createuserextrastype.php
++ extension.xml
++ ezinfo.php
++ modules/social/approve.php
++ modules/social/dappsocialfunctioncollection.php
++ modules/social/delete.php
++ modules/social/function_definition.php
++ modules/social/module.php
++ modules/social/request.php
++ packages/Unity3dObjViewerProject.zip
++ packages/dappsocial_classes-1.3-1.ezpkg
++ settings/content.ini.append.php
++ settings/dappsocial.ini.append.php
++ settings/datatype.ini.append.php
++ settings/design.ini.append.php
++ settings/extendedattributefilter.ini.append.php
++ settings/ezjscore.ini.append.php
++ settings/image.ini.append.php
++ settings/module.ini.append.php
++ settings/override.ini.append.php-RECOMMENDED
++ settings/site.ini.append.php
++ settings/workflow.ini.append.php
++ sql/common/democontent.sql
++ sql/mysql/schema.sql
++ test_images/Thumbs.db
++ test_images/ace.jpg
++ test_images/arturo.jpg
++ test_images/billy.jpg
++ test_images/blossom.jpg
++ test_images/boomer.jpg
++ test_images/bossman.jpg
++ test_images/brick.jpg
++ test_images/bubbles.jpg
++ test_images/butch.jpg
++ test_images/buttercup.jpg
++ test_images/dog.jpg
++ test_images/fuzzy.jpg
++ test_images/grubber.jpg
++ test_images/him.jpg
++ test_images/jojo.jpg
++ test_images/junior.jpg
++ test_images/keane.jpg
++ test_images/mayor.jpg
++ test_images/princess.jpg
++ test_images/professor.jpg
++ test_images/sara.jpg
++ test_images/sedusa.jpg
++ test_images/slim.jpg
++ test_images/snake.jpg
++ translations/por-BR/translation.ts
++ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;created project&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/0f3d1f6a0eb0c1e681798351a1e98a49dca2a8c8</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:12 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/55ed737e44cdd054ef7878af207ee35ad693b577</link>
+      <description>
+      &lt;pre&gt;m classes/node.php
+m classes/object.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;changed ezp wrapper classes, so now we can edit objects&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/55ed737e44cdd054ef7878af207ee35ad693b577</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/144bef6d2937ebc844342116145a03d158992d50</link>
+      <description>
+      &lt;pre&gt;m modules/social/glogin.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fixed glogin pass problem&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/144bef6d2937ebc844342116145a03d158992d50</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/44de8f34e0df36dd54172ee93f7e6e9a83d8a83a</link>
+      <description>
+      &lt;pre&gt;m modules/social/glogin.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;google login - first working version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/44de8f34e0df36dd54172ee93f7e6e9a83d8a83a</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:11 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/dappsocial/subversion/16bea31bcf06eadcd739568a140a6b1da293b59d</link>
+      <description>
+      &lt;pre&gt;m bin/php/createrole.php
++ classes/google-api-php-client/src/contrib/apiBooksService.php
++ classes/google-api-php-client/src/contrib/apiDiacritizeService.php
++ classes/google-api-php-client/src/contrib/apiLatitudeService.php
++ classes/google-api-php-client/src/contrib/apiModeratorService.php
++ classes/google-api-php-client/src/contrib/apiPagespeedonlineService.php
++ classes/google-api-php-client/src/contrib/apiPredictionService.php
++ classes/google-api-php-client/src/contrib/apiShoppingService.php
++ classes/google-api-php-client/src/contrib/apiTasksService.php
++ classes/google-api-php-client/src/contrib/apiTranslateService.php
++ classes/google-api-php-client/src/contrib/apiUrlshortenerService.php
+m modules/social/glogin.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;started google login module&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/dappsocial/subversion/16bea31bcf06eadcd739568a140a6b1da293b59d</guid>
+      <pubDate>Thu, 22 Dec 2011 10:29:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

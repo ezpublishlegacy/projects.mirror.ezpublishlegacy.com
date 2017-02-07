@@ -1,0 +1,36 @@
+--- kernel/classes/ezorder.php.orig	2010-01-20 16:35:47.000000000 +0100
++++ kernel/classes/ezorder.php	2010-01-20 16:29:33.000000000 +0100
+@@ -1343,10 +1343,33 @@
+     {
+         $db = eZDB::instance();
+         $db->lock( 'ezorder' );
++	$config = eZINI::instance( 'site.ini' );
+ 
+         $this->setAttribute( 'is_temporary', 0 );
+         $nextIDArray = $db->arrayQuery(  "SELECT ( max( order_nr ) + 1 ) AS next_nr FROM ezorder" );
+         $nextID = $nextIDArray[0]['next_nr'];
++
++	/* Support order_id start value from site.ini */
++        $orderIdBase = $config->variable( 'ShopSettings', 'OrderIdBase' ) ? $config->variable( 'ShopSettings', 'OrderIdBase' ) : 1;
++	if ($nextID == 1){
++	    $nextID = $orderIdBase;
++	}
++
++	/* Support prepending year to order_nr */
++	if ($config->variable( 'ShopSettings', 'OrderIdUseYear' ) == "true"){
++	    $year = date('Y');
++	    /* Check silvester to reset order_nr: */
++	    $sqlYear = substr($nextID,0,4);
++	    $silvester = $year != $sqlYear;
++	    /* Check if this is the first order (no year prepended before */
++            $new = $nextID == $orderIdBase;					 
++	    /* Prepend year if necessary: */
++	    if ($new || $silvester)
++	    {
++		$nextID = $year.$orderIdBase;
++	    }
++	}
++
+         $this->setAttribute( 'order_nr', $nextID );
+         $this->store();
+ 

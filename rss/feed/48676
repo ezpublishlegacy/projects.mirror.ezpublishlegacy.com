@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / tstranslate</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:11:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:11:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48676" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/b10e4401668845fff134c08abd3807ccb75c63dc</link>
+      <description>
+      &lt;pre&gt;m modules/tstranslate/set.php
+m settings/tstranslate.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use eZ module redirect. Added a couple new translation exceptions.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/b10e4401668845fff134c08abd3807ccb75c63dc</guid>
+      <pubDate>Fri, 22 Mar 2013 09:03:24 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/0bd5ca8c2f3a2e9adcd33eee7d582d61c315768c</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/tstranslate.js
+m kernel/common/ezpi18n.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from makingwaves/div-bug-fixes
+
+Fixes form inside form problem, and html entities in strings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/0bd5ca8c2f3a2e9adcd33eee7d582d61c315768c</guid>
+      <pubDate>Wed, 16 Jan 2013 08:12:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/1b3117dd6f2ef6c5efa169e56adb642e00f10788</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/tstranslate.js
+m kernel/common/ezpi18n.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixes form inside form problem, and html entities in strings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/1b3117dd6f2ef6c5efa169e56adb642e00f10788</guid>
+      <pubDate>Wed, 16 Jan 2013 08:12:58 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/ce9c3c649d9404cb2d900be96782decbc9aab820</link>
+      <description>
+      &lt;pre&gt;m README.md
+m kernel/common/ezpi18n.php
+m modules/tstranslate/set.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge remote-tracking branch 'origin/master'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/ce9c3c649d9404cb2d900be96782decbc9aab820</guid>
+      <pubDate>Wed, 09 Jan 2013 12:12:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/6fc28534e97658fdb56193f24c51c8cd3c5aaf2d</link>
+      <description>
+      &lt;pre&gt;m settings/tstranslate.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added a couple more default context excludes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/6fc28534e97658fdb56193f24c51c8cd3c5aaf2d</guid>
+      <pubDate>Wed, 09 Jan 2013 12:12:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/b00a7c530510f6bc425c7b4a792c17acbe97451a</link>
+      <description>
+      &lt;pre&gt;m README.md
+m modules/tstranslate/set.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed handling of the translation file xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/b00a7c530510f6bc425c7b4a792c17acbe97451a</guid>
+      <pubDate>Wed, 09 Jan 2013 11:32:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/babfa76f7faa61569936583f38a15a15666b262c</link>
+      <description>
+      &lt;pre&gt;m modules/tstranslate/set.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix redirection url after translation update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/babfa76f7faa61569936583f38a15a15666b262c</guid>
+      <pubDate>Wed, 09 Jan 2013 11:32:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/ef251a1124beefb0e91f3aa8a35fd72e62712610</link>
+      <description>
+      &lt;pre&gt;m kernel/common/ezpi18n.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Handle new strings by adding them to the translations file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/ef251a1124beefb0e91f3aa8a35fd72e62712610</guid>
+      <pubDate>Wed, 09 Jan 2013 11:32:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/514d9006264740e9bd04d9c3e663ae94230da52e</link>
+      <description>
+      &lt;pre&gt;m README.md
+m kernel/common/ezpi18n.php
+m modules/tstranslate/set.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from makingwaves/div-bug-fixes
+
+Div bug fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/514d9006264740e9bd04d9c3e663ae94230da52e</guid>
+      <pubDate>Wed, 09 Jan 2013 11:32:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/83fdf2ac37fd395c858e05f64593b7fdab552e1d</link>
+      <description>
+      &lt;pre&gt;+ classes/listener_event.php
+m design/standard/javascript/tstranslate.js
+m design/standard/templates/tstranslate/translate_list.tpl
+m kernel/common/ezpi18n.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding listener event to clean session between pages, etc.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/83fdf2ac37fd395c858e05f64593b7fdab552e1d</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/86058f6c86c06db3a3926b125651c6c69aad4ca5</link>
+      <description>
+      &lt;pre&gt;m kernel/common/ezpi18n.php
+m modules/tstranslate/set.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bug fixing policy check and cache&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/86058f6c86c06db3a3926b125651c6c69aad4ca5</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/129f9c56cde41035b1f7ca8a6dcf11b56693dd08</link>
+      <description>
+      &lt;pre&gt;m kernel/common/ezpi18n.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adjustment to access rights functionality&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/129f9c56cde41035b1f7ca8a6dcf11b56693dd08</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/f96ceecbd818d63b06d1b68aca8f440e12ffd160</link>
+      <description>
+      &lt;pre&gt;m kernel/common/ezpi18n.php
++ settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add access control&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/f96ceecbd818d63b06d1b68aca8f440e12ffd160</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/8a4ae72691d5d853dae242632a30ec1d82eb874e</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/tstranslate.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed css class vs.id bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/8a4ae72691d5d853dae242632a30ec1d82eb874e</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/ba6ba98f5b155016eddee5626864556734d184c9</link>
+      <description>
+      &lt;pre&gt;m README.md
+m design/standard/javascript/tstranslate.js
+m design/standard/templates/tstranslate/translate_list.tpl
+m settings/tstranslate.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding more exclude strings and some minor fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/ba6ba98f5b155016eddee5626864556734d184c9</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/54f8cedf0ed2bf2beb524ec45700148d57736f45</link>
+      <description>
+      &lt;pre&gt;m classes/listener_event.php
+m kernel/common/ezpi18n.php
+m modules/tstranslate/set.php
+m settings/tstranslate.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Rewrite to clear cache on every page request&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/54f8cedf0ed2bf2beb524ec45700148d57736f45</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/76b97902d58d18b72fac5e000c05445deb5720f9</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/tstranslate/translate_list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed permission bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/76b97902d58d18b72fac5e000c05445deb5720f9</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/948313263f2c9b5999fc9e89736931294f25ca68</link>
+      <description>
+      &lt;pre&gt;m design/standard/stylesheets/tstranslate.css
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Clean up css&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/948313263f2c9b5999fc9e89736931294f25ca68</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/72fa3b2c6374a3db5e73b86bfeab77bdf477f32b</link>
+      <description>
+      &lt;pre&gt;+ design/standard/stylesheets/tstranslate.css
+m design/standard/templates/tstranslate/translate_list.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move css to css file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/72fa3b2c6374a3db5e73b86bfeab77bdf477f32b</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/7d24742abc4cbefddd2a0505f33080ec20fa3e01</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/tstranslate/translate_list.tpl
+m kernel/common/ezpi18n.php
+m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Restructure to fix problem with caching between different users&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/7d24742abc4cbefddd2a0505f33080ec20fa3e01</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/8386f673d330f6885ee97cfca9f4347ed95b083d</link>
+      <description>
+      &lt;pre&gt;m kernel/common/ezpi18n.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed permission check bug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/8386f673d330f6885ee97cfca9f4347ed95b083d</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/2b3bc682cb26ba3d71fff78260df35017d335a0c</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added author info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/2b3bc682cb26ba3d71fff78260df35017d335a0c</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/eea39ce741747892bb4358ae6f6aad2614880464</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updating README&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/eea39ce741747892bb4358ae6f6aad2614880464</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/056d9085abfab4b29e4ae122e1482beb6d89cc34</link>
+      <description>
+      &lt;pre&gt;m design/standard/javascript/tstranslate.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Support older versions of jquery&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/056d9085abfab4b29e4ae122e1482beb6d89cc34</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/3439c02d992e586f483817fbf42f41df352ae121</link>
+      <description>
+      &lt;pre&gt;m README.md
+m design/standard/javascript/tstranslate.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed problem with translatable text inside links&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/3439c02d992e586f483817fbf42f41df352ae121</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/4319c80a1d214e4bd2118be91c0275a652de5e32</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/4319c80a1d214e4bd2118be91c0275a652de5e32</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/87a55fce32f5d4365929a430fdb735fa2fc4138c</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Adding some newlines&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/87a55fce32f5d4365929a430fdb735fa2fc4138c</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/7d6007750b8c925bbadd824315c29d548b779e18</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Minor adjustments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/7d6007750b8c925bbadd824315c29d548b779e18</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:38 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/tstranslate/source/08f40ca215d2cc1c249af7b936207ef6904c393a</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added author info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/tstranslate/source/08f40ca215d2cc1c249af7b936207ef6904c393a</guid>
+      <pubDate>Wed, 12 Dec 2012 14:22:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

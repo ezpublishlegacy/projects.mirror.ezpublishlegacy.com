@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / facebook_connect / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:58:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:58:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14723" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect6</link>
+      <description>If you need a Facebook and/or Twitter sign in feature, you can use Netgen connect http://projects.ez.no/ngconnect</description>
+      <author>community@ez.no (Vjeran Vlahovic)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect6</guid>
+      <pubDate>Thu, 02 Jun 2011 20:08:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect5</link>
+      <description>Pr. defintion, yes. Simon did not maintain it when I started to use it, and I don't use it anymore so it's up for grabs for anyone that wants to contribute.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect5</guid>
+      <pubDate>Thu, 02 Jun 2011 19:58:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback7</link>
+      <description>And just one more thing; from the extension description: "User will be logged in automatically by login handler."&#13;
+&#13;
+Where will user automatically be logged in? eZ Publish? Facebook?</description>
+      <author>community@ez.no (Frederik Krautwald)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback7</guid>
+      <pubDate>Wed, 29 Dec 2010 01:52:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback6</link>
+      <description>&lt;b&gt;In section 3&lt;/b&gt; a javascript sample is provided that doesn't work as &lt;code&gt;FB.Facebook&lt;/code&gt; is undefined; this example is then followed by a PHP4 example with no explaination, whatsoever, where to include the code or alike.&#13;
+&#13;
+Obviously, the coders of this extension assume everyone else to mind read or be eZ Publish gurus. Sad as they mention in &lt;i&gt;about the extension:&lt;/i&gt; "Contains a detailed integration guide and some examples how to use it."&#13;
+&#13;
+Sorry, but this just isn't good enough.</description>
+      <author>community@ez.no (Frederik Krautwald)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback6</guid>
+      <pubDate>Wed, 29 Dec 2010 01:46:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect4</link>
+      <description>And??? What’s the story? Has this project been abandoned?</description>
+      <author>community@ez.no (Frederik Krautwald)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect4</guid>
+      <pubDate>Tue, 28 Dec 2010 22:42:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback5</link>
+      <description>First, the readme document is flawed. Here are my corrections:&#13;
+&#13;
+&lt;b&gt;In 1. Usage section:&lt;/b&gt;&#13;
+&#13;
+&lt;i&gt;Original&lt;/i&gt;&#13;
+&lt;code&gt;&#13;
+2. To make FBML syntax workable add xmlns:fb="http://www.facebook.com/2008/fbml" in your &lt;head&gt; tag.&#13;
+&lt;/code&gt;&#13;
+&#13;
+&lt;i&gt;Change to&lt;/i&gt;&#13;
+&lt;code&gt;&#13;
+2. To make FBML syntax workable add xmlns:fb="http://www.facebook.com/2008/fbml" in your &lt;html&gt; tag. (E.g., &lt;html xmlns:fb="http://www.facebook.com/2008/fbml"&gt;)&#13;
+&lt;/code&gt;&#13;
+&#13;
+And in&#13;
+&lt;code&gt;&#13;
+3. Add the following line in the &lt;body&gt; tag.&#13;
+   &lt;script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"&gt;&lt;/script&gt;&#13;
+&lt;/code&gt;&#13;
+shouldn't this be in between the &lt;head&gt; tag?&#13;
+&#13;
+&lt;code&gt;&#13;
+4. Create the login button with &lt;fb:login-button&gt;&lt;/fb:login-button&gt;&#13;
+&lt;/code&gt;&#13;
+Where???&#13;
+&#13;
+&lt;code&gt;&#13;
+5. Add some Javascript:&#13;
+&#13;
+&lt;script type="text/javascript"&gt;&#13;
+  {def $apikey = ezini('FacebookConnect', 'APIKey', 'content.ini')&#13;
+       $templateBundleID = ezini('FacebookConnect', 'TemplateBundleID', 'content.ini')}&#13;
+  FB.init("{$apikey}", "{'xd_receiver'|ezurl(no)}");&#13;
+&lt;/script&gt;&#13;
+&lt;/code&gt;&#13;
+Where??? And isn't "TemplateBundleID" obsolete?&#13;
+&#13;
+&lt;code&gt;&#13;
+6. Set a rewrite rule for the static xd_receiver.html which should be placed in root&#13;
+&lt;/code&gt;&#13;
+How does this rewrite rule look? Missing example for .htaccess&#13;
+&#13;
+&lt;b&gt;In the 2. Login section:&lt;/b&gt;&#13;
+&lt;code&gt;&#13;
+If there is a fbuid attribute stored in user class, user will be fetched by fbuid and logged in automatically.&#13;
+Add FBUID attribute ID in content.ini.append&#13;
+&lt;/code&gt;&#13;
+So, we should create a fbuid attribute in the user class? Of which type? Text line? And the identifier, should it be lowercase "fbuid" or uppercase?</description>
+      <author>community@ez.no (Frederik Krautwald)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback5</guid>
+      <pubDate>Mon, 27 Dec 2010 20:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>small bug with FaceBookConnectUser::facebookConnectUser()</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/small_bug_with_facebookconnectuser_facebookconnectuser</link>
+      <description>Hi,&#13;
+&#13;
+In modules/facebook/connect.php - line 208 is small bug:&#13;
+&#13;
+FaceBookConnectUser::facebookConnectUser( $currentUser-&gt;id(), $fbUid );&#13;
+&#13;
+correct is:&#13;
+&#13;
+FaceBookConnectUser::fbConnectUser( $currentUser-&gt;id(), $fbUid );&#13;
+&#13;
+btw: nice extension, thanks :)&#13;
+&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/small_bug_with_facebookconnectuser_facebookconnectuser</guid>
+      <pubDate>Tue, 14 Dec 2010 05:42:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Autoload error</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/autoload_error/re_autoload_error</link>
+      <description>It's just a warning isn't it? &#13;
+Anyway, I'm not planning on hacking the fb code.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/autoload_error/re_autoload_error</guid>
+      <pubDate>Tue, 10 Aug 2010 07:28:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Autoload error</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/autoload_error</link>
+      <description>Class Services_JSON_Error in file extension/facebook_connect/lib/facebook-platform/php/jsonwrapper/JSON/JSON.php is already defined in:&#13;
+extension/facebook_connect/lib/facebook-platform/php/jsonwrapper/JSON/JSON.php (var/autoload/ezp_extension.php)</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/autoload_error</guid>
+      <pubDate>Mon, 09 Aug 2010 14:14:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bug with passing view parameters in ez publ...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/bug_with_passing_view_parameters_in_ez_publish/re_bug_with_passing_view_parameters_in_ez_publ</link>
+      <description>Think you need to check if fb js files are loaded or not, my guess is that something goes wrong with the xd_receiver path or similar. So check what it produces with and without view parameters, ref: "{'extension/facebook_connect/xd_receiver.html'|ezroot(no)}");.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/bug_with_passing_view_parameters_in_ez_publish/re_bug_with_passing_view_parameters_in_ez_publ</guid>
+      <pubDate>Tue, 04 May 2010 08:34:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug with passing view parameters in ez publish?</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/bug_with_passing_view_parameters_in_ez_publish</link>
+      <description>Hi.&#13;
+We are currently using the &lt;fb comments&gt; version and this works perfectly if our page does not include view parameters.&#13;
+Example testsite.com/(param)/1&#13;
+&#13;
+If we remove (param)/1 the facebook connect module is displayed on the page.&#13;
+If the (param)/1 is present , the facebook connect window no longer shows up.&#13;
+&#13;
+Is this a facebook issue?</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/bug_with_passing_view_parameters_in_ez_publish</guid>
+      <pubDate>Wed, 10 Mar 2010 10:35:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect3</link>
+      <description>Yes thank you, now I only need time.. :)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect3</guid>
+      <pubDate>Thu, 04 Mar 2010 10:06:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect2</link>
+      <description>Andre, is this what you need:&#13;
+&#13;
+http://wiki.developers.facebook.com/index.php/Extended_permissions#Requiring_Extended_Permissions&#13;
+&#13;
+...the part with:&#13;
+&#13;
+$fb-&gt;require_login($required_permissions = 'email,read_stream')</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect2</guid>
+      <pubDate>Wed, 03 Feb 2010 20:43:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feedback - include register form in connect...</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect</link>
+      <description>Yes I know, haven't worked on this since september.&#13;
+Basically waiting for facebook to add email to their API, something they did a couple of days ago*.&#13;
+So when I have time I'll add support for something like this. (Mentioned somewhere else, it should be possible to get facebook to request extra info on connect authentication/verification page on behalf of the connect site so number of steps can be greatly reduced. Not sure how to set that up, so if anyone knows, please share. ).&#13;
+&#13;
+* http://developers.facebook.com/news.php?blog=1</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl/re_feedback_include_register_form_in_connect</guid>
+      <pubDate>Fri, 29 Jan 2010 14:34:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>feedback - include register form in connect.tpl </title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl</link>
+      <description>Salut andre&#13;
+&#13;
+It's difficult for the end-user to login with facebook and ask them to create an account on the website.&#13;
+It will be better (for me) to have the register form include in connect.tpl. (of course user attributes must be set with the data from facebook;-) )&#13;
+&#13;
+Stephane&#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback_include_register_form_in_connect_tpl</guid>
+      <pubDate>Fri, 20 Nov 2009 22:43:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback4</link>
+      <description>Hi all,&#13;
+&#13;
+for dinmat.no I needed something in between the hybrid and the fully integrated model. I needed to know which fb-user was in use, but didn't want to expose the users to the cumbersome registration.&#13;
+&#13;
+So I made an operator which takes either $fb-&gt;get_loggedin_user() or an ID which is stored as an attribute in e.g. a comment object.&#13;
+&#13;
+Simple, light and seamless integration.&#13;
+&#13;
+Felix</description>
+      <author>community@ez.no (Felix Laate)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback4</guid>
+      <pubDate>Mon, 28 Sep 2009 07:41:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback3</link>
+      <description>-----&#13;
+4. Interesting, I need to test that out I think. (Actually, how do I test that out without having to A. create new facebook user or B. create new application to be able to get the approval/connect screen up the first time..)&#13;
+------&#13;
+&#13;
+&#13;
+I hope i understand your question right:&#13;
+So you have a Facebook User and a Facebook Connect testaplication, which are still connected together, and now you cant show the dialog again?&#13;
+If you are logged in to facebook you have a button called "applications" on the lower left corner. On the popup choose "edit applications". Now your are on the "Application Settings" Site. On the right where it says "show: recently used", pick "Authorized".&#13;
+&#13;
+Now your connected sites will be listed. Just delete the testapplication from there. Now you can restart the connection procedure. You can also edit the setting to delete confirmed permission. So the permission dialog appears again.&#13;
+An alternate way to get the permission dialog is the following code:&#13;
+&lt;code&gt;&#13;
+&lt;fb:prompt-permission perms="read_stream,publish_stream"&gt; Grant permission for status updates &lt;/fb:prompt-permission&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+I played around a little bit with the login button:&#13;
+&lt;code&gt;&#13;
+&lt;fb:login-button autologoutlink="true" size="large" length="long" onlogin='FB.Connect.showPermissionDialog("read_stream", function(x){window.location="/facebook/connect";});'&gt;&lt;/fb:login-button&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+This tiny code will first connect you to your site, then prompt the permission dialog with, for example, the read_stream permission, and after that redirect you to the /facebook/connect Module. If your are logged in with facebook, this button is not a login button anymore, but a logout button (autologoutlink="true").&#13;
+I was choosing a big login button, facebook have different size for that. If you dont like the big one, just delete size="large" length="long".&#13;
+On the evenening i will do some tests with the ini file,  from where i want to get my required permissions, which should build my permission dialog.</description>
+      <author>community@ez.no (John Moritz)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback3</guid>
+      <pubDate>Wed, 23 Sep 2009 08:13:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback2</link>
+      <description>1. Maybe, at least for ezwebin/ezflow designs.&#13;
+&#13;
+2.Should probably use translation files for this.&#13;
+&#13;
+3. Yes, I know. Need to create some sort of general way to handle this. I mentioned handlers, but could be higher level as well like ini settings.&#13;
+&#13;
+4. Interesting, I need to test that out I think. (Actually, how do I test that out without having to A. create new facebook user or B. create new application to be able to get the approval/connect screen up the first time..)&#13;
+&#13;
+&#13;
+And added your fbml variant of the login button in the doc.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback2</guid>
+      <pubDate>Mon, 21 Sep 2009 11:07:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback</link>
+      <description>I saw in your readme file that you create a login button with:&#13;
+&lt;code&gt;&#13;
+&lt;a href={"facebook/connect"|ezurl}&gt;&#13;
+  &lt;img src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_medium_long.gif" alt="Connect"/&gt;&#13;
+  &lt;/a&gt;&#13;
+&lt;/code&gt;&#13;
+I use a shorter version for the same:&#13;
+&lt;code&gt;&#13;
+&lt;fb:login-button onlogin='window.location={"facebook/connect"|ezurl};'&gt;&lt;/fb:login-button&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (John Moritz)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback/re_feedback</guid>
+      <pubDate>Fri, 18 Sep 2009 11:16:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Feedback</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/feedback</link>
+      <description>Because Andre asked for feedback on the ezPublish developer forum, i write down some suggestions for the Facebook Connect extension. I know that some suggestions are still included on this extension. This is an overview like i do/plan it on my own site.&#13;
+&#13;
+1. Include the Facebook Connect Button on Login and Registration Page. Every page a user can register and login needs this button.&#13;
+&#13;
+2. You can show the Facebook Connect popup in different languages. For Example German language&#13;
+&lt;code&gt;&#13;
+&lt;script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/de_DE" type="text/javascript"&gt;&lt;/script&gt;&#13;
+&lt;/code&gt;&#13;
+My consideration ist to get the [RegionalSetting] from the site.ini of the actual Siteaccess a user is in, and include the Locale Setting to the code above.&#13;
+Sadly the language code of ezPublish and Facebook is not compatible. From now i dont know how to solve this on the easyiest way. Maybe thru a translation file, where for example ger-DE will be translated to de_DE.&#13;
+&#13;
+3. If a user connects thru facebook_connect he should be redirected to a page where he can choose to login with an existing account or create a new eZuser.&#13;
+If a fb.User creates a new eZuser, the existing Facebook data should be used as far as possible. It must be a fast solution. On my site i just have two form fields on fb_connect registration, for a username and the password. Password could also be created automaticly and after registration sended thru e-mail.&#13;
+&#13;
+4. Is depending on 3.). Facebook gives you the ability to extend the Connection popup. On my site i need the birthday of every user. This data is not included on the standard facebook connect procedure. But you can extend this with FB.Connect.showPermissionDialog. Required data shoul be placed on a .ini file. So i build my permission dialog after requesting the ini file which data is needed. This gives me the chance to make the registration process as fast as possible.&#13;
+&#13;
+more ideas are in my head, but i have to think about how to include all those things...</description>
+      <author>community@ez.no (John Moritz)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/feedback</guid>
+      <pubDate>Fri, 18 Sep 2009 09:58:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea12</link>
+      <description>The code is now in svn, feedback wanted.&#13;
+Currently using facebook/connect you can either login with existing eZ Publish user to connect it to Facebook user, register new user or if your already logged in to eZ Publish connect that user.&#13;
+&#13;
+Biggest todo's would be to create datatype to handle deleting connections (eZ Publish user &lt;-&gt; Facebook user id) when user is deleted.&#13;
+And also detecting that user has logged out from facebook and automatically logout from eZ Publish.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea12</guid>
+      <pubDate>Wed, 02 Sep 2009 20:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea11</link>
+      <description>@Andre: Exactly, or generate any password for the ezp profile if needed. The user can't login with the ezpublish profile.&#13;
+Empty fields.. hm you can synchronize the facebook profile with the ezp profile in the background while the user logs in the first time. </description>
+      <author>community@ez.no (Simon Schneeberger)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea11</guid>
+      <pubDate>Thu, 27 Aug 2009 11:33:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea10</link>
+      <description>@Simon: 1. You save the user account with all empty fields but email (ezuser) and fbuid then? Empty password as well then I guess? (So he can't login directly with ezp user)&#13;
+2. Click on Collaboration on the top here, and you'll see my pending request for membership.&#13;
+&#13;
+&#13;
+&#13;
+@Fredrik: Cool site, like the design.&#13;
+ How do you detect that he is logged out? I assume your not referring to a simple "FB.Connect.logoutAndRedirect( {'user/logout'|ezurl} );" on your side here.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea10</guid>
+      <pubDate>Thu, 27 Aug 2009 10:45:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea9</link>
+      <description>Hi&#13;
+&#13;
+We just released a new project with facebook connect.&#13;
+http://www.jysktravel.com/&#13;
+&#13;
+After login you should be able to see a little facebook widgets for example here:&#13;
+http://www.jysktravel.com/trips/trip-types&#13;
+&#13;
+The facebook function is connected to the internal ez accounts and after logging in with facebook you can save favorites, do commenting, share on facebook and so on&#13;
+&#13;
+We started with this extension as inspiration and added/modded the following:&#13;
+&#13;
+- Automatic creation of ez user in specific facebook group.&#13;
+- If you logout from facebook you automaticaly get logged out from ez as well.&#13;
+- Option to copy basic facebook details into ez account.&#13;
+&#13;
+Facebook is a bit slow in registering that a user has logged out from facebook so for a minute or two you will apear as logged in but you will get erros from facebook if you try to access the API. We got around this by keeping some facebook data in the ez account.&#13;
+&#13;
+We have implemented this with individual fields but a specific datatype would probably be a better solution.&#13;
+&#13;
+We have great demand from clients to integrate their sites with facebook so would be great to hear other ideas and implementation that you guys have done on other projects.&#13;
+&#13;
+Fredrik</description>
+      <author>community@ez.no (Fredrik Ardmar)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea9</guid>
+      <pubDate>Thu, 27 Aug 2009 01:42:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea8</link>
+      <description>Sorry I didn't receive a request. For sure you're welcome to support this project!&#13;
+&#13;
+For a project we had the following solution realized, but finally we kept it away. &#13;
+&#13;
+If an user comes to the loginpage of a community he should have the decision wether he wants to log in with ez publish or with facebook. If he logs in with facebook connect the first time, ezp recognize it (no fbuid found) and will redirect him to a form with at least an email field. It will create an ez publish account. With a checkbox in the form he can optionally synchronize his facebook profile with the ez publish profile, e.g. date of birth, hometown... &#13;
+&#13;
+Now everytime he logs in with facebook the login handler matches a fbuid and will log in the ez publish user.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Simon Schneeberger)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea8</guid>
+      <pubDate>Wed, 26 Aug 2009 14:01:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea7</link>
+      <description>Hi all!&#13;
+&#13;
+Currently working on this extension a bit (which needs a lot of work), and I'm aiming at allowing three scenarios:&#13;
+&#13;
+1. Javascript only login, eZ Publish does not know your logged in to facebook&#13;
+2. Hybrid, login using facebook/login where your logged in as a facebook user (shared across all facebook users), this way eZ Publish know that your logged in and that your a facebook user (as in: you create a new user group and give him additional rights if you want to)&#13;
+3. Connect, as in connecting eZ Publish user and facebook user using a facebook/connect view, where you will get the option to login or create new user after being logged in to facebook if there are no users with the facebook id of the user*.&#13;
+&#13;
+* Unsure if I'll go for the custom table, datatype or generic int attribute on user class approach. The two first options are definitely the cleanest options, especially the datatype option witch can be a extended version of the int datatype really.&#13;
+&#13;
+Other changes:&#13;
+ * login handler: not needed with the login / connect views (will also include a logout view), but I'm thinking about keeping it to check that the user is still logged in to facebook periodically (like every 3 minute or something, or when the user has been inactive above 5 minutes)&#13;
+* Maybe add a edit handler / workflow where if set, an additional placement for the user is added when created (a setting for optional facebook user group), also use this in facebook/connect when you choose to login with existing user&#13;
+&#13;
+&#13;
+So, any comments? What do you need?&#13;
+&#13;
+PS: Simon hasn't answered my request for membership, so currently aiming at forking the project.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea7</guid>
+      <pubDate>Wed, 26 Aug 2009 07:46:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea6</link>
+      <description>Yep..not a clue what it's supposed to do. It says it connects the site to facebook. Other than connecting..what does it do? Allow you to login to your face book page from the site? Does it do it for everyone or just the admins, meaning will it log us in and then we just update?  Or does it put updates on your Face book for you?&#13;
+&#13;
+Not really sure why I'd want this. Sorry to be harsh but I do love EZ but I never get clear instructions or explanations on how to use a lot of things here.  And as I say it's way better than Joomla or Xoops or any of them out there, but no documentation, or overly complicated documentation, make this appear to be too hard to use. Sorry. /end rant</description>
+      <author>community@ez.no (Cori Roberts)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea6</guid>
+      <pubDate>Wed, 01 Jul 2009 22:50:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea5</link>
+      <description>I'm just looking through here and not sure what this great idea is...what does this do?  I'm headed over to look at the documentation but developers are notorious for creating really complicated explanations so I'm not sure if I'll understand it. But I'm off to read.&#13;
+&#13;
+-Cori</description>
+      <author>community@ez.no (Cori Roberts)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea5</guid>
+      <pubDate>Wed, 01 Jul 2009 22:45:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea4</link>
+      <description>I am very interested in this project.&#13;
+So far i can see, this is only the loginhandler, right?&#13;
+I am thinking about how fb connect should integrated in registration process of ezpublish. What would be the best practice?&#13;
+Let say there is a user without an ezpublish login (my site). The user can see the fbconnect button on my site, and because he is a fb member he want to login to that.&#13;
+&#13;
+So far i can see, nothing will happen, till the user creates an ezpublish profile. I have to store the fbID of the User on that profile (in user class). After that he can use this loginhandler.&#13;
+Is this the right way to integrate fbconnect? I have to make a registrationhandler first?&#13;
+ &#13;
+&#13;
+</description>
+      <author>community@ez.no (John Moritz)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea4</guid>
+      <pubDate>Wed, 17 Jun 2009 02:24:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea3</link>
+      <description>You are right. Yesterday I changed the login_handler to a sso_handler which works better. Now eZ thinks you are logged in everytime you load a new site.I will update the extension next week. </description>
+      <author>community@ez.no (Simon Schneeberger)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea3</guid>
+      <pubDate>Fri, 03 Apr 2009 10:33:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea2</link>
+      <description>Hi&#13;
+&#13;
+A quick questions..&#13;
+&#13;
+The login handler that comes with the extension, how does that work? I tried installing it but not really sure what its suppose to do? &#13;
+&#13;
+If I connect the extension with a fbuid in my user class will eZ then think that this user is logged in?&#13;
+&#13;
+ &lt;code&gt;&#13;
+{def $user=fetch( 'user', 'current_user' )}&#13;
+ &lt;/code&gt;&#13;
+&#13;
+Would that return the user that has the same fbuid as the user from facebook connect?&#13;
+&#13;
+Hope you follow my somewhat incoherent thoughts..&#13;
+&#13;
+Fredrik&#13;
+</description>
+      <author>community@ez.no (Fredrik Ardmar)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea2</guid>
+      <pubDate>Thu, 02 Apr 2009 03:18:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea</link>
+      <description>No. The user won't be created in ezpublish. You can't access the email of the facebook user via API.</description>
+      <author>community@ez.no (Simon Schneeberger)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea/re_great_idea</guid>
+      <pubDate>Mon, 30 Mar 2009 23:08:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great idea!</title>
+      <link>http://projects.ez.no/facebook_connect/forum/general/great_idea</link>
+      <description>I will test this extension asap!&#13;
+&#13;
+But perhaps anybody can help me with this question:&#13;
+&#13;
+If somebody register in the ez publish with the "facebook connect" like in the example http://www.somethingtoputhere.com/therunaround/register.php is the user also created in ezpublish?&#13;
+&#13;
+I have checked the docs in the extension, but it only explains about login...&#13;
+&#13;
+Sorry for being lazy and not read the "facebook connect" documentation!</description>
+      <author>community@ez.no (Andreas Kaiser)</author>
+      <guid>http://projects.ez.no/facebook_connect/forum/general/great_idea</guid>
+      <pubDate>Wed, 25 Mar 2009 16:19:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

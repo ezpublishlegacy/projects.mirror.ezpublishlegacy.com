@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / multiplefileupload / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:49:06 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:49:06 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30981" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/multiplefileupload/news/changelog</link>
+      <description>&lt;p&gt;
+# 0.3&lt;br /&gt;
+ - Fix for upload problems with windows servers&lt;br /&gt;
+ # 0.2.9&lt;br /&gt;
+ - Fixed some "strange behaviour" of eZP with&lt;br /&gt;
+ $Module-&gt;redirectTo(...)&lt;br /&gt;
+ - Added the GNU license file ;-)&lt;br /&gt;
+ # 0.2.8&lt;br /&gt;
+ - Added an INI file multiplefileupload.ini, so you can set you image&lt;br /&gt;
+ class id and the&lt;br /&gt;
+ number of the "name" and "image" attributes (if you changed your image&lt;br /&gt;
+ class)&lt;br /&gt;
+ - Updated the the JUpload applet to the latest version&lt;br /&gt;
+ - Added a new template für the upload page which uses no JS&lt;br /&gt;
+ (didn't work in Firefox).&lt;br /&gt;
+ This template will be used by default now, if you liked the old one you&lt;br /&gt;
+ can set&lt;br /&gt;
+ UseFirefoxTemplate=false in you multiplefileupload.ini.append&lt;br /&gt;
+ # 0.2.7&lt;br /&gt;
+ - Added fixes for eZPublish 3.5.1&lt;br /&gt;
+ - By public demand the "Caption" field will not be set any more&lt;br /&gt;
+ # 0.2.6&lt;br /&gt;
+ - Fixed the "related object" problem&lt;br /&gt;
+ # 0.2.5&lt;br /&gt;
+ - Added a small fix for eZPublish 3.4&lt;br /&gt;
+ # 0.2.4&lt;br /&gt;
+ - The eZ 3.2 legacy files will be cleared automatically after upload,&lt;br /&gt;
+ &lt;br /&gt;
+ so the will not lay around when you delete your images in ez3.3&lt;br /&gt;
+ (Do not use this version if you have eZ 3.2!)&lt;br /&gt;
+ # 0.2.3&lt;br /&gt;
+ - Added a small bugfix for multiwebpage eZPublish distributions&lt;br /&gt;
+ - The upload page in the upload applet has its own pagelayout.tpl&lt;br /&gt;
+ now&lt;br /&gt;
+ - The module will use the first characters of the filenames as node&lt;br /&gt;
+ priority if they are numbers now&lt;br /&gt;
+ # 0.2.2&lt;br /&gt;
+ - Now I set the section id of the parent object for the uploaded&lt;br /&gt;
+ files.&lt;br /&gt;
+ # 0.2.1&lt;br /&gt;
+ - The images are not draft after upload, they are published now.&lt;br /&gt;
+ Any complains about this change?&lt;br /&gt;
+ # 0.2&lt;br /&gt;
+ - BugFix: Fixed a problem with the browserCookie java parameter&lt;br /&gt;
+ - BugFix: Added "ezroot" to the java applets (strange, I forgot about&lt;br /&gt;
+ that)&lt;br /&gt;
+ # 0.1&lt;br /&gt; - initial release&lt;/p&gt;</description>
+      <author>community@ez.no (Patrizio Bekerle)</author>
+      <guid>http://projects.ez.no/multiplefileupload/news/changelog</guid>
+      <pubDate>Thu, 13 Oct 2005 07:10:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

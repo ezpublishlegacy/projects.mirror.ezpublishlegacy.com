@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / selfpreferences / Downloads</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:37:03 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:37:03 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/14498" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SELF Preferences 1.0 beta 2</title>
+      <link>http://projects.ez.no/selfpreferences/downloads/self_preferences_1_0_beta_2</link>
+      <description>&lt;p&gt;Fix: wrong schema.sql&lt;/p&gt;</description>
+      <author>community@ez.no (Piotr Karaś)</author>
+      <guid>http://projects.ez.no/selfpreferences/downloads/self_preferences_1_0_beta_2</guid>
+      <pubDate>Thu, 26 Feb 2009 09:52:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

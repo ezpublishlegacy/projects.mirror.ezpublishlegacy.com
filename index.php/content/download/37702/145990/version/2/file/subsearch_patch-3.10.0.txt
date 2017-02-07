@@ -1,0 +1,137 @@
+--- ezsearchengine.php	2008-03-29 00:17:45.000000000 -0600
++++ subsearch.php	2008-03-29 00:23:30.000000000 -0600
+@@ -1,6 +1,6 @@
+ <?php
+ //
+-// Definition of eZSearchEngine class
++// Definition of Subsearch class
+ //
+ // Created on: <25-Jun-2002 13:09:57 bf>
+ //
+@@ -27,7 +27,7 @@
+ //
+ 
+ /*!
+-  \class eZSearchEngine ezsearch.php
++  \class Subsearch ezsearch.php
+ 
+ */
+ 
+@@ -37,11 +37,11 @@
+ include_once( "kernel/classes/ezcontentobject.php" );
+ include_once( 'kernel/classes/ezcontentlanguage.php' );
+ 
+-class eZSearchEngine
++class Subsearch
+ {
+     /*!
+      */
+-    function eZSearchEngine()
++    function Subsearch()
+     {
+         $generalFilter = array( 'subTreeTable' => '',
+                                 'searchDateQuery' => '',
+@@ -102,7 +102,7 @@
+ 
+                 foreach( $metaData as $metaDataPart )
+                 {
+-                    $text = eZSearchEngine::normalizeText( strip_tags(  $metaDataPart['text'] ), true );
++                    $text = Subsearch::normalizeText( strip_tags(  $metaDataPart['text'] ), true );
+ 
+                     // Split text on whitespace
+                     if ( is_numeric( trim( $text ) ) )
+@@ -533,6 +533,13 @@
+             else
+                 $sortArray = array();
+ 
++			// JR
++			if ( isset( $params['Limitation'] ) )
++				$searchSubsearchArray = $params['Limitation'];
++			else
++				$searchSubsearchArray = array();
++			eZDebug::writeDebug("Search Limitation: " . count($searchSubsearchArray));
++
+             $ignoreVisibility = isset( $params['IgnoreVisibility'] ) ? $params['IgnoreVisibility'] : false;
+ 
+             // strip multiple spaces
+@@ -671,6 +678,29 @@
+                 $classAttributeQuery = "ezsearch_object_word_link.contentclass_attribute_id IN ( $attributeString ) AND ";
+             }
+ 
++			// JR
++			$subsearchQuery = "";
++			$subsearchTables = "";
++			$ssidx = 0;
++			foreach ($searchSubsearchArray as $ss)
++			{
++				if (is_numeric($ss[0]))
++				{
++					$subsearchTables .= "ezsearch_object_word_link owlsub$ssidx, ezsearch_word wsub$ssidx, ";
++					$subsearchQuery .= 
++						"owlsub$ssidx.word_id = wsub$ssidx.id AND "
++					.	"wsub$ssidx.word LIKE '" . $ss[1] . "' AND "
++					.	"owlsub$ssidx.contentobject_id = ezsearch_object_word_link.contentobject_id AND "
++					.	"owlsub$ssidx.contentclass_attribute_id = " . $ss[0]
++					.	" AND ";
++					$ssidx += 1;
++				} else {
++					eZDebug::writeWarning("Invalid subsearch query: " . $ss[0] . " / " . $ss[1]);
++				}
++			}
++			ezDebug::writeDebug("Subsearch Tables: " . $subsearchTables);
++			ezDebug::writeDebug("Subsearch WHERE: " . $subsearchQuery);
++
+             // Get the total number of objects
+             $totalObjectCount = $this->fetchTotalObjectCount();
+ 
+@@ -780,10 +810,7 @@
+             }
+ 
+             $limitation = false;
+-            if ( isset( $params['Limitation'] ) )
+-            {
+-                $limitation = $params['Limitation'];
+-            }
++			// JR: We hijack $params['Limitation'] to carry the subsearch information, so do not use it to set $limitation.
+ 
+             $limitationList = eZContentObjectTreeNode::getLimitationList( $limitation );
+             $sqlPermissionChecking = eZContentObjectTreeNode::createPermissionCheckingSQL( $limitationList );
+@@ -879,7 +906,7 @@
+                                          FROM ezcontentobject,
+                                               ezsearch_object_word_link
+                                               $subTreeTable,
+-                                              ezcontentclass,
++                                              ezcontentclass, $subsearchTables
+                                               ezcontentobject_tree
+                                               $sqlPermissionChecking[from]
+                                          WHERE
+@@ -887,6 +914,7 @@
+                                                $sectionQuery
+                                                $classQuery
+                                                $classAttributeQuery
++											   $subsearchQuery
+                                                $searchPartText
+                                                $subTreeSQL
+                                          ezcontentobject.id=ezsearch_object_word_link.contentobject_id and
+@@ -1149,6 +1177,7 @@
+     */
+     function buildSortSQL( $sortArray )
+     {
++        $db =& eZDB::instance();
+         $sortCount = 0;
+         $sortList = false;
+         if ( isset( $sortArray ) and
+@@ -1239,6 +1268,13 @@
+                                                   a$attributeJoinCount.contentclassattribute_id = $sortClassID AND
+                                                   a$attributeJoinCount.version = ezcontentobject_name.content_version";
+ 
++							// JR
++							if (isset($sortBy[3]) && isset($sortBy[4]))
++							{
++								$attributeWereSQL .= " AND a$attributeJoinCount.$sortKey ";
++								$attributeWereSQL .= $sortBy[3] ? " > " : " < ";
++								$attributeWereSQL .= "'" . $db->escapeString($sortBy[4]) . "' ";
++							}
+                             $attributeJoinCount++;
+                         }break;
+ 

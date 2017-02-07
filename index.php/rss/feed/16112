@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezoe / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:51:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:51:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16112" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Add a new tinymce tag</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/add_a_new_tinymce_tag</link>
+      <description>Hi,&#13;
+&#13;
+I try to add a new tag, like &lt;mytag&gt;&lt;/mytag&gt;, using a tinymce plugin.&#13;
+&#13;
+But when I disable editor, or publish content, all my tags and content are removed.&#13;
+&#13;
+Where can I add my new tag, to allow eZPublish use ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/add_a_new_tinymce_tag</guid>
+      <pubDate>Wed, 30 Jan 2013 14:57:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: anchors are getting stripped</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped/re_anchors_are_getting_stripped2</link>
+      <description>http://issues.ez.no/IssueView.php?Id=17838</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped/re_anchors_are_getting_stripped2</guid>
+      <pubDate>Tue, 14 Jun 2011 08:18:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Have to disable ezoe in order to insert new...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/have_to_disable_ezoe_in_order_to_insert_new_object/re_have_to_disable_ezoe_in_order_to_insert_new</link>
+      <description>Related: http://issues.ez.no/IssueView.php?Id=18209</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/have_to_disable_ezoe_in_order_to_insert_new_object/re_have_to_disable_ezoe_in_order_to_insert_new</guid>
+      <pubDate>Tue, 14 Jun 2011 08:14:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Have to disable ezoe in order to insert new object</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/have_to_disable_ezoe_in_order_to_insert_new_object</link>
+      <description>Anyone experience the problem where if there is an embedded object at the top of the page then inserting an object above it is impossible.  The only solution is to disable the editor, manually create a return (empty row) re-enable the editor and then you can add a new object etc.  This also occurs between tables.&#13;
+&#13;
+Should I report as a bug?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/have_to_disable_ezoe_in_order_to_insert_new_object</guid>
+      <pubDate>Fri, 17 Dec 2010 07:24:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: anchors are getting stripped</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped/re_anchors_are_getting_stripped</link>
+      <description>*bump*</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped/re_anchors_are_getting_stripped</guid>
+      <pubDate>Fri, 17 Dec 2010 07:21:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>anchors are getting stripped</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped</link>
+      <description>I installed ezoe 5.2.0 on ez 4.3.0, everything appears to work fine except that page anchors like, &lt;anchor name="test" /&gt; are getting removed when I save a draft or publish, no errors just silently stripped.&#13;
+&#13;
+Any one have any suggestions?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/anchors_are_getting_stripped</guid>
+      <pubDate>Tue, 30 Nov 2010 04:44:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Add a literal text in ezoe, language list d...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/add_a_literal_text_in_ezoe_language_list_does_t_appears/re_add_a_literal_text_in_ezoe_language_list_d</link>
+      <description>Cross posting, answer in : http://share.ez.no/forums/developer/add-a-literal-text-in-ezoe-language-list-does-t-appears</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/add_a_literal_text_in_ezoe_language_list_does_t_appears/re_add_a_literal_text_in_ezoe_language_list_d</guid>
+      <pubDate>Tue, 21 Sep 2010 09:04:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add a literal text in ezoe, language list does't appears</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/add_a_literal_text_in_ezoe_language_list_does_t_appears</link>
+      <description>Hi, &#13;
+&#13;
+I install an ezpublish site version 4.3, and i want to add a literal text in ezoe, I select a text and I click button "literal", in a popin i don't have a list of language; PHP, HTML ....&#13;
+&#13;
+The language list must appears by default ? OR I must configure ezoe ? in this case what to do ?&#13;
+&#13;
+TKS&#13;
+&#13;
+</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/add_a_literal_text_in_ezoe_language_list_does_t_appears</guid>
+      <pubDate>Sun, 19 Sep 2010 23:51:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i6</link>
+      <description>Thank you very much André!&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i6</guid>
+      <pubDate>Wed, 28 Jul 2010 14:07:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i5</link>
+      <description>Thanks, haven't had this issue with Ipad here but changed trunk to not use whitespace.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i5</guid>
+      <pubDate>Wed, 28 Jul 2010 12:55:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i4</link>
+      <description>Hello,&#13;
+&#13;
+I am using eZ Publish 4.2.0, ezoe 5.0.4, Ubuntu Server Linux (server), mobile browsers (client) &#13;
+&#13;
+I found user agent strings which required different matching than what you were testing. Here is what worked much better for me.&#13;
+&#13;
+&lt;code&gt;elseif ( strpos( $userAgent, 'WebKit' ) !== false and&#13;
+                     strpos( $userAgent, 'Mobile' ) === false and&#13;
+                     strpos( $userAgent, 'Android' ) === false and&#13;
+                     strpos( $userAgent, 'iPad' ) === false and // IPhone / IPad does not have rich text editing support&#13;
+                     strpos( $userAgent, 'iPhone' ) === false and&#13;
+                     strpos( $userAgent, 'iPod' ) === false and&#13;
+                     preg_match('/WebKit\/([0-9\.]+)/i', $userAgent, $browserInfo ) )&lt;/code&gt; This is because the iPhone/iPad user agent strings keep changing but the word iPhone/iPad exists just without the space (in your patch). http://stackoverflow.com/questions/2153877/what-is-the-ipad-user-agent&#13;
+&#13;
+Example: &#13;
+&#13;
+Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i4</guid>
+      <pubDate>Wed, 28 Jul 2010 02:38:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i3</link>
+      <description>Try to debug with this:&#13;
+&lt;code&gt;&#13;
+Index: trunk/ezoe/ezxmltext/handlers/input/ezoexmlinput.php&#13;
+===================================================================&#13;
+--- trunk/ezoe/ezxmltext/handlers/input/ezoexmlinput.php	(revision 262)&#13;
++++ trunk/ezoe/ezxmltext/handlers/input/ezoexmlinput.php	(working copy)&#13;
+@@ -194,6 +194,7 @@&#13;
+                 if ( $browserInfo[1] &gt;= 522.0 )&#13;
+                     self::$browserType = 'WebKit';&#13;
+             }&#13;
++            var_dump( self::$browserType );&#13;
+             if ( self::$browserType === false )&#13;
+                 eZDebug::writeNotice( 'Browser not supported: ' . $userAgent, __METHOD__ );&#13;
+         }&#13;
+&lt;/code&gt;&#13;
+&#13;
+It should return false, meaning browser is not supported and eZ Publish should fallback to normal ezxmltext text area.&#13;
+If it does not work as described above, please mention your ezoe + eZ Publish version.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i3</guid>
+      <pubDate>Tue, 27 Jul 2010 08:03:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i2</link>
+      <description>Hello everyone,&#13;
+&#13;
+André, I have implemented the patch you suggest&#13;
+yet even with the patch in place, caches cleared,&#13;
+ezoe does not seem to properly deliver a&#13;
+text input area to the user on an iPad.&#13;
+&#13;
+Can you help in understanding why it is not working&#13;
+and how it might be further improved?&#13;
+&#13;
+Respectfully,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i2</guid>
+      <pubDate>Mon, 26 Jul 2010 16:32:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot type on mobile platforms (iPhone / i...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i</link>
+      <description>Make sure they don't get the online editor like trunk (5.2.0alpha) currently does for iphone/ipod:&#13;
+http://websvn.projects.ez.no/wsvn/ezoe/trunk/?op=revision</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android/re_cannot_type_on_mobile_platforms_iphone_i</guid>
+      <pubDate>Sun, 18 Jul 2010 10:08:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cannot type on mobile platforms (iPhone / iPad / Android)</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android</link>
+      <description>When viewed on a mobile browser such as Safari on iPhone/iPad, or the browser in Android, the ezoe component does not appear to be recognized by these browsers/platforms as a text input area.  Thus, the soft keyboard (on-screen touch keyboard) does not appear, and it is impossible to enter anything into the ezoe text input area.&#13;
+&#13;
+Any solutions for this?&#13;
+&#13;
+eZ Publish 4.2.0, ezoe 5.0.4, Ubuntu Server Linux (server), mobile browsers (client)</description>
+      <author>community@ez.no (A Fowler)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/cannot_type_on_mobile_platforms_iphone_ipad_android</guid>
+      <pubDate>Fri, 16 Jul 2010 17:59:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [SOLVED] Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_solved_poblem_whith_images</link>
+      <description>Thanks, fixed it in trunk and stable/5.1.&#13;
+Basically there is a similar conditions in upload.php that needs this -&gt;hasContent() check.&#13;
+And there is also one in ezjscajaxcontent.php (also fixed in ezjscore trunk) in ezjscore extension  that is used for preview on browse / search / bookmarks tabs.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_solved_poblem_whith_images</guid>
+      <pubDate>Mon, 10 May 2010 11:29:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: entity_encoding : 'raw' commented by default?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default3</link>
+      <description>This seems to cause regression for none breaking space charter and possible other special charters that needs to be saved in encoded form.&#13;
+&#13;
+So keep an eye on this:&#13;
+http://issues.ez.no/IssueView.php?Id=16779</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default3</guid>
+      <pubDate>Wed, 05 May 2010 11:27:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images8</link>
+      <description>I found the problem!&#13;
+The Image class of my site contains two ezimage attributes. The first is "large_image" and in almost all images is empty, the second is "image" and is the field that actually contains the image in all image objects.&#13;
+I made this change to extension/ezoe/ezxmltext/handlers/input/ezoexmlinput.php to see images in the editor&#13;
+&lt;code&gt;&#13;
+1153a1154&#13;
+&gt;                           $hasContent = $contentObjectAttribute-&gt;hasContent();&#13;
+1155c1156&#13;
+&lt;                             if ( $content != null </description>
+      <author>community@ez.no (Davide Candita)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images8</guid>
+      <pubDate>Fri, 23 Apr 2010 14:45:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images7</link>
+      <description>Hmm, maybe.&#13;
+I think you should move this discussion to share.ez.no to get more people to see it, I think I have seen something like this before, but don't remember exactly what is was as I don't work that much on support.&#13;
+&#13;
+For instance, what happens if you check all check boxes in setup/cache and clear them all (not clear all button, but checkboxes, as image alias is not part of clear all button). Be sure to have backup first, and I hope you have one from original version as well.&#13;
+&#13;
+Edit: Related to this maybe? http://issues.ez.no/IssueView.php?Id=16703</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images7</guid>
+      <pubDate>Thu, 22 Apr 2010 07:33:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: entity_encoding : 'raw' commented by default?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default2</link>
+      <description>i see. thanks for the fix. &#13;
+best.</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default2</guid>
+      <pubDate>Wed, 21 Apr 2010 20:15:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images6</link>
+      <description>Is possible that some upgrade script hasn't worked as expected?&#13;
+The debug output is now:&#13;
+&lt;code&gt;&#13;
+array (&#13;
+  0 =&gt; 'large_image',&#13;
+  1 =&gt; 'ezimage',&#13;
+  2 =&gt; 'original',&#13;
+  3 =&gt; &#13;
+  array (&#13;
+    'name' =&gt; 'original',&#13;
+    'width' =&gt; '',&#13;
+    'height' =&gt; '',&#13;
+    'mime_type' =&gt; '',&#13;
+    'filename' =&gt; '',&#13;
+    'suffix' =&gt; '',&#13;
+    'dirpath' =&gt; '',&#13;
+    'basename' =&gt; '',&#13;
+    'alternative_text' =&gt; '',&#13;
+    'text' =&gt; '',&#13;
+    'original_filename' =&gt; '',&#13;
+    'url' =&gt; '',&#13;
+    'alias_key' =&gt; '1293033771',&#13;
+    'timestamp' =&gt; '1188994503',&#13;
+    'full_path' =&gt; '',&#13;
+    'is_valid' =&gt; '',&#13;
+    'is_new' =&gt; false,&#13;
+    'filesize' =&gt; false,&#13;
+    'info' =&gt; false,&#13;
+  ),&#13;
+  4 =&gt; '&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+&lt;ezimage serial_number="1"&#13;
+         is_valid=""&#13;
+         filename=""&#13;
+         suffix=""&#13;
+         basename=""&#13;
+         dirpath=""&#13;
+         url=""&#13;
+         original_filename=""&#13;
+         mime_type=""&#13;
+         width=""&#13;
+         height=""&#13;
+         alternative_text=""&#13;
+         alias_key="1293033771"&#13;
+         timestamp="1188994503"&gt;&#13;
+  &lt;original attribute_id="17997"&#13;
+            attribute_version="1"&#13;
+            attribute_language="eng-GB" /&gt;&#13;
+&lt;/ezimage&gt;',&#13;
+)&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Davide Candita)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images6</guid>
+      <pubDate>Wed, 21 Apr 2010 16:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: entity_encoding : 'raw' commented by default?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default</link>
+      <description>Confirmed, seems to cause problems with other changes in trunk regarding how TinyMCE stores data, and basically double encodes these characters. So will turn it back on for trunk (not an issue in 5.1).&#13;
+&#13;
+Fixed in rev. 212&#13;
+&#13;
+Note to self: Other option is to set it to numeric instead of raw, but then [InputSettings]AllowNumericEntities setting needs to be enable, and if it's not you'll get same issue as you have now, but with numeric entities in output instead.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default/re_entity_encoding_raw_commented_by_default</guid>
+      <pubDate>Wed, 21 Apr 2010 06:04:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images5</link>
+      <description>Not sure, so think we need some more debug.&#13;
+Change the line in patch above to:&#13;
+&lt;code&gt;&#13;
+if ( $imageAlias['url'] === '' )&#13;
+eZDebug::writeDebug(var_export( array( $classAttribute-&gt;attribute( 'identifier' ), $dataTypeString, $size, $imageAlias, $contentObjectAttribute-&gt;attribute( 'data_text' ) ), true ), 'OE IMAGE' );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images5</guid>
+      <pubDate>Wed, 21 Apr 2010 05:47:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>entity_encoding : 'raw' commented by default?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default</link>
+      <description>hi. This setting is commented in default template &#13;
+http://svn.projects.ez.no/ezoe/trunk/ezoe/design/standard/templates/content/datatype/edit/ezxmltext_ezoe.tpl&#13;
+&#13;
+Is there any reason for that? it's strange, because i haven't noted problems with that till now (i've upgraded my browser though). &#13;
+&#13;
+The problem is that if text contains spanish special characters (tildes) like 'áéíóú', these characteres are converted to html entities like &eacute;, for example. &#13;
+&#13;
+This is solved by uncommenting this setting... could this be moved to a ini or something?&#13;
+&#13;
+thanks. &#13;
+&#13;
+</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/entity_encoding_raw_commented_by_default</guid>
+      <pubDate>Tue, 20 Apr 2010 22:05:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images4</link>
+      <description>Apparently we have found the problem, debug returns all array like this&#13;
+&#13;
+&lt;code&gt;&#13;
+array (&#13;
+  0 =&gt; 'large_image',&#13;
+  1 =&gt; 'ezimage',&#13;
+  2 =&gt; 'original',&#13;
+  3 =&gt; &#13;
+  array (&#13;
+    'name' =&gt; 'original',&#13;
+    'width' =&gt; '',&#13;
+    'height' =&gt; '',&#13;
+    'mime_type' =&gt; '',&#13;
+    'filename' =&gt; '',&#13;
+    'suffix' =&gt; '',&#13;
+    'dirpath' =&gt; '',&#13;
+    'basename' =&gt; '',&#13;
+    'alternative_text' =&gt; '',&#13;
+    'text' =&gt; '',&#13;
+    'original_filename' =&gt; '',&#13;
+    'url' =&gt; '',&#13;
+    'alias_key' =&gt; '1293033771',&#13;
+    'timestamp' =&gt; '1188994591',&#13;
+    'full_path' =&gt; '',&#13;
+    'is_valid' =&gt; '',&#13;
+    'is_new' =&gt; false,&#13;
+    'filesize' =&gt; false,&#13;
+    'info' =&gt; false,&#13;
+  ),&#13;
+)&#13;
+&lt;/code&gt;&#13;
+&#13;
+The array $imageAlias has almost all fields empty. What can cause this. How can I fix?&#13;
+&#13;
+Thanks&#13;
+  Davide&#13;
+</description>
+      <author>community@ez.no (Davide Candita)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images4</guid>
+      <pubDate>Tue, 20 Apr 2010 15:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images3</link>
+      <description>I don't think this is a js issue, but if you seen any errors in your javascript concole, please post them.&#13;
+&#13;
+Anyway, to be able to understand this we need to debug a bit, here is a patch for ezoe to do just that:&#13;
+&lt;code&gt;&#13;
+Index: ezoe/ezxmltext/handlers/input/ezoexmlinput.php&#13;
+===================================================================&#13;
+--- ezoe/ezxmltext/handlers/input/ezoexmlinput.php	(revision 207)&#13;
++++ ezoe/ezxmltext/handlers/input/ezoexmlinput.php	(working copy)&#13;
+@@ -1208,6 +1208,7 @@&#13;
+                                 $srcString   = $URL . '/' . $imageAlias['url'];&#13;
+                                 $imageWidth  = $imageAlias['width'];&#13;
+                                 $imageHeight = $imageAlias['height'];&#13;
++                                eZDebug::writeDebug(var_export( array( $classAttribute-&gt;attribute( 'identifier' ), $dataTypeString, $size, $imageAlias ), true ), 'OE IMAGE' );&#13;
+                                 break;&#13;
+                             }&#13;
+                         }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Apply the patch and enable debugOutput in eZ Publish (or check debug.log after you have opened the edit view) and search for "OE IMAGE" if you get lots of debug info.&#13;
+it will give you current class attribute identifier, datatype, size param and the actual raw image alias data.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images3</guid>
+      <pubDate>Mon, 19 Apr 2010 22:35:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images2</link>
+      <description>Hello,&#13;
+the version of eZ Publish is 4.1.4 and it is an installation that is an upgrade of two installations (3.8.10 and 3.10.1) together. Ezoe version is 5.0.4. The same problem occurs on two different machines and on one of these machines there are other installations (same versions of eZ Publish and eZOE) that work well. I don't have made changes to the file ezoe.ini.&#13;
+There are many configurations, but I don't know what would cause problem to the editor. Ask me if there are specific configurations that I can provide to help you to help me.&#13;
+&#13;
+The tag on the edit page is:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;img id="eZObject_5129" title="sediMAX logo" src="/" width="" height=""  alt="original" view="embed" inline="false" align="middle" /&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+or more readable&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;Img id="eZObject_5129" title="sediMAX logo" src="/" width="" height="" alt="original" view="embed" inline="false" align="middle" /&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+I think there is some javascript that is not loaded&#13;
+&#13;
+Thanks&#13;
+  Davide</description>
+      <author>community@ez.no (Davide Candita)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images2</guid>
+      <pubDate>Mon, 19 Apr 2010 20:31:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Customize the tool bar</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar4</link>
+      <description>Answer given here: http://share.ez.no/forums/extensions/ezoe-add-a-button-calling-a-custom-tag</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar4</guid>
+      <pubDate>Sat, 17 Apr 2010 11:17:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images</link>
+      <description>Hi, can you post some more info on your setup?&#13;
+ezp version, and is it an old site upgraded?&#13;
+ezoe version&#13;
+ezoe.ini settings if you have overriden it&#13;
+image aliases on the setup if it is non standard&#13;
+other non standard settings you might know about.&#13;
+&#13;
+&#13;
+Also, check the source code of the edit page, the tag you posted is the one inside TinyMCE, so to determine if issue is caused by ezoe code or TinyMCE you need to look for encoded html output from ezoe xml input handler, long story short, look for "&lt;img id=" pattern within textarea tags.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images/re_poblem_whith_images</guid>
+      <pubDate>Fri, 16 Apr 2010 08:42:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>[SOLVED] Poblem whith images</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images</link>
+      <description>Hi,&#13;
+I have a problem with ezoe that I do not know how to solve.&#13;
+When editing an object no image is displayed, but when it is published is displayed correctly. The images are displayed everywhere but not in the editor. Instead of the image is displayed the size (original, reference, small, ...) that is the property &lt;i&gt;alt&lt;/i&gt; of the &lt;i&gt;img&lt;/i&gt; tag that is created, but the &lt;i&gt;src&lt;/i&gt; property is incorrect.&#13;
+&#13;
+An example of img tag that is dynamically created by the editor is&#13;
+&#13;
+&lt;img id="eZObject_5587" title="img_home" src="/" mce_src="/" alt="original" view="embed" inline="false" height="" width="" align="middle"&gt;</description>
+      <author>community@ez.no (Davide Candita)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_poblem_whith_images</guid>
+      <pubDate>Thu, 15 Apr 2010 10:08:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Customize the tool bar</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar3</link>
+      <description>Hello,&#13;
+&#13;
+Furthermore, I would like to know if it's possible to customize the tool bar.&#13;
+&#13;
+My goal is to display a specific button which call a specific custom tag in order to avoid passing through the specific custom tag screen. In fact, I would like to imitate the button which call the "sub" or the "sup" custom tag.&#13;
+&#13;
+I've already managed the creation of the custom tag (named mycustomtag) and display a button on the oe tool bar which is supposed to call the good custom tag. However, my button doesn't call any javascript event.&#13;
+&#13;
+Thank you by advance for your information,&#13;
+&#13;
+Laurent&#13;
+&#13;
+</description>
+      <author>community@ez.no (Laurent Esposito)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar3</guid>
+      <pubDate>Wed, 14 Apr 2010 17:47:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Select type on customAttributes don't work</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_select_type_on_customattributes_don_t_work/re_select_type_on_customattributes_don_t_work</link>
+      <description>Solve here http://issues.ez.no/IssueView.php?Id=16552</description>
+      <author>community@ez.no (Yannick Komotir)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_select_type_on_customattributes_don_t_work/re_select_type_on_customattributes_don_t_work</guid>
+      <pubDate>Thu, 08 Apr 2010 18:03:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>[SOLVED]Select type on customAttributes don't work</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/solved_select_type_on_customattributes_don_t_work</link>
+      <description>Hello,&#13;
+&#13;
+I'm currently work with a custom tag wich i want to display like a list box, I can see the list in eZ OE but value is not save in xml, it's always &#13;
+&lt;code&gt;&#13;
+&lt;custom name="myTag" custom:type="custom"&gt;aaaa&lt;/custom&gt;&#13;
+ &lt;/code&gt;&#13;
+As you can see the custom:type don't change value, It's a ezoe issue ?&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Yannick Komotir)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/solved_select_type_on_customattributes_don_t_work</guid>
+      <pubDate>Mon, 29 Mar 2010 15:16:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezoe and flash with button media don't work ?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/ezoe_and_flash_with_button_media_don_t_work/re_ezoe_and_flash_with_button_media_don_t_work</link>
+      <description>media plugin is not supported in oe yet, from ezoe.ini:&#13;
+&lt;code&gt;&#13;
+[EditorSettings]&#13;
+# TinyMCE plugins you want to use&#13;
+# plugins not mentioned here aren't tested and therefore not supported together with Online Editor&#13;
+Plugins[]&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/ezoe_and_flash_with_button_media_don_t_work/re_ezoe_and_flash_with_button_media_don_t_work</guid>
+      <pubDate>Wed, 24 Mar 2010 09:18:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezoe and flash with button media don't work ?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/ezoe_and_flash_with_button_media_don_t_work</link>
+      <description>Hy everybody,&#13;
+&#13;
+A question about ezeo:&#13;
+I activate :&#13;
+&#13;
+Plugins[]=media &#13;
+ &#13;
+and&#13;
+ &#13;
+Buttons[]=media &#13;
+ &#13;
+in ezoe.ini.append.php&#13;
+&#13;
+But when i want to use the button in XML block i have :{#media_dlg.type} etc. it replace all value ... what file i must activate to use correctly this plugins (it's to add flash or movie in content)?&#13;
+&#13;
+Thanks a lot for help i'm lost and i think is easy to add flash in ezWebsite non ?&#13;
+</description>
+      <author>community@ez.no (Emilien MIOSSEC)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/ezoe_and_flash_with_button_media_don_t_work</guid>
+      <pubDate>Wed, 17 Mar 2010 09:09:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezoe: 5.1.0Beta1 - some problems with creat...</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/ezoe_5_1_0beta1_some_problems_with_create_link/re_ezoe_5_1_0beta1_some_problems_with_creat</link>
+      <description>Thanks, found this some days ago so will be fixed in 5.1.0beta2</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/ezoe_5_1_0beta1_some_problems_with_create_link/re_ezoe_5_1_0beta1_some_problems_with_creat</guid>
+      <pubDate>Tue, 02 Mar 2010 08:48:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezoe: 5.1.0Beta1 - some problems with create link</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/ezoe_5_1_0beta1_some_problems_with_create_link</link>
+      <description>Hi,&#13;
+&#13;
+When I want to create a link with the option search or browse (ezobject, eznode), and when I click on one of them, the options doesn't work.&#13;
+&#13;
+during this operation java script returns some error&#13;
+&#13;
+Error: navigation[4] is undefined&#13;
+File source: http://ezpublish_test/panel/ezoe/tags/57/2/link&#13;
+Row: 175&#13;
+&#13;
+Best regards,&#13;
+Lukasz</description>
+      <author>community@ez.no (Lukasz Klejnberg)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/ezoe_5_1_0beta1_some_problems_with_create_link</guid>
+      <pubDate>Mon, 01 Mar 2010 12:26:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>make alt text a required attribute?</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/make_alt_text_a_required_attribute</link>
+      <description>How can this be done?</description>
+      <author>community@ez.no (Ryan Williams)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/make_alt_text_a_required_attribute</guid>
+      <pubDate>Wed, 24 Feb 2010 19:31:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Customize the tool bar</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar2</link>
+      <description>Thank for you reply, so I'll see later and I continue to use custom tags and attributes.&#13;
+Véronique&#13;
+&#13;
+</description>
+      <author>community@ez.no (Veronique Jamilloux)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar2</guid>
+      <pubDate>Fri, 29 Jan 2010 16:47:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Customize the tool bar</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar</link>
+      <description>TinyMCE does not support classes in this drop down, ref TODO.txt in trunk:&#13;
+&lt;code&gt;&#13;
+* Custimizable formats selector w/ classes (needs support for classes in TinyMCE FormatBlock call)&#13;
+  See: issue #008781&#13;
+&lt;/code&gt;&#13;
+&#13;
+Small update: Seems like TinyMCE 3.3 (currently in beta) will have better support for this (even styles), so you'll hopefully see this feature part of OE later this year.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar/re_customize_the_tool_bar</guid>
+      <pubDate>Fri, 29 Jan 2010 10:44:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Customize the tool bar</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar</link>
+      <description>Hi,&#13;
+&#13;
+Is it possible to customize the items of the drop down list (the button selectformat) in the ezoe toolbar? I would like that my own headers and paragraphs css class appear in it.&#13;
+&#13;
+Thak you for your information&#13;
+Véronique</description>
+      <author>community@ez.no (Veronique Jamilloux)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/customize_the_tool_bar</guid>
+      <pubDate>Thu, 28 Jan 2010 15:38:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Styling custom tags in OE</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe/re_styling_custom_tags_in_oe2</link>
+      <description>Hi guys!&#13;
+&#13;
+Sorry for late response Bruce, overlooked this thread.&#13;
+Seems like you want to style tags inside the editor, and here is how (from design.ini):&#13;
+&lt;code&gt;&#13;
+[StylesheetSettings]&#13;
+# A list of stylesheets to use for the editor content.&#13;
+# Enable the code button in ezoe.ini to be able to see the&#13;
+# generated html content or use a debug tool like firebug!&#13;
+# You can use a variable &lt;skin&gt; anywhere in the path / filename&#13;
+# this (optional) variable is taken from ezoe.ini&#13;
+EditorCSSFileList[]=skins/&lt;skin&gt;/content.css&#13;
+&#13;
+&#13;
+## Here is an example for appending your own css to the editor&#13;
+## content you need to place it in the stylesheets folder in&#13;
+## one of your active eZ Publish designs.&#13;
+#[StylesheetSettings]&#13;
+#EditorCSSFileList[]=my_custom_editor_styles.css&#13;
+&#13;
+&#13;
+# EditorDialogCSSFileList is just like EditorCSSFileList exept it&#13;
+# is used in the popup dialogs in the editor and it is loaded after&#13;
+# the dialog.css file from the selected skin.&#13;
+# example for stylesheet/my_custom_editor_dialog_styles in some design:&#13;
+#[StylesheetSettings]&#13;
+#EditorDialogCSSFileList[]=my_custom_editor_dialog_styles.css&#13;
+&lt;/code&gt;&#13;
+&#13;
+As for custom tags they can be either div, span or image, that corresponds to block, inline and image tag as specified by the content.ini [CustomTagSettings]IsInline setting (see content.ini for more info and doc on other related topics).&#13;
+They have two classes on them witch you can use to target them for, the general is 'mceItemCustomTag' and then there is another one from the tag name, forinstance 'pagebreak'.&#13;
+Some custom tags will use native tags though, these are currently (ezoexmlinput.php):&#13;
+&lt;code&gt;&#13;
+    public static $nativeCustomTags = array(&#13;
+                  'underline' =&gt; 'u',&#13;
+                  'sup' =&gt; 'sup',&#13;
+                  'sub' =&gt; 'sub'&#13;
+                  );&#13;
+&lt;/code&gt;&#13;
+&#13;
+Examples of custom tag styling (stylesheets/skins/o2k7/content.css):&#13;
+&lt;code&gt;&#13;
+span.mceItemCustomTag.strike&#13;
+{&#13;
+  text-decoration: line-through;&#13;
+}&#13;
+&#13;
+div.mceItemCustomTag.pagebreak&#13;
+{&#13;
+  height: 12px;&#13;
+  border: 1px dotted #ccc;&#13;
+  margin: 15px 0 15px 0;&#13;
+}&#13;
+&#13;
+div.mceItemCustomTag.pagebreak p { margin: 0; } /* page break has an paragraph as only content */&#13;
+&lt;/code&gt;&#13;
+&#13;
+Embed tags can be styles the same way, they also have div / span / img, where image is used for image relations, div for general embed relations and span for embed-inline relations (the tag, not the view... this is controlled by the 'inline' check box in the embed dialog).&#13;
+Classes on embed tags are (excluding image): "mceNonEditable &lt;user-class-on-tag&gt; mceItemContentType&lt;Relation-Group-type-as-defined-pr-class-in-content.ini&gt;"&#13;
+&#13;
+hope this helps :)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe/re_styling_custom_tags_in_oe2</guid>
+      <pubDate>Fri, 08 Jan 2010 08:54:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Styling custom tags in OE</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe/re_styling_custom_tags_in_oe</link>
+      <description>Gidday Bruce - I seem to be struggling with the same or a similar issue.&#13;
+&#13;
+So far I have managed to get my CSS classes to appear in a drop-down menu inside ezoe's popup dialogue for inserting/editing images added via the 'embed' template. &#13;
+&#13;
+My own problem is knowing how to pass the selected class to a template via the attribute_view_gui template function. If I don't use this function for my ezoe custom tags, then I can pass vars directly from the popup dialogues to my templates but not seemingly using attribute_view_gui. (Here's a link to my forum post: http://bit.ly/4wRTfg)&#13;
+&#13;
+Anyway, here is how I have my classes showing up in ezoe's dialogues - I hope it's helpful to you!&#13;
+&#13;
+In: extension/ezoe/settings/content.ini.append.php&#13;
+&#13;
+&lt;code&gt;&#13;
+# Pattern for content type:&#13;
+#[&lt;tag&gt;-type_&lt;content-type&gt;]&#13;
+#&#13;
+## This examples demonstrates limiting AvailableClasses list in editor&#13;
+## when editing embed tags with a relation to a object of content type image.&#13;
+[embed_image]&#13;
+AvailableClasses[]&#13;
+AvailableClasses[]=image-right&#13;
+AvailableClasses[]=image-left&#13;
+&lt;/code&gt;&#13;
+&#13;
+For custom tags, I have my CSS class definitions in: extension/ezoe/settings/ezoe_attributes.ini but I think they can all go in extension/ezoe/settings/ezoe_customattributes.ini (I haven't experimented though)&#13;
+&#13;
+&lt;code&gt;&#13;
+[CustomAttribute_my-custom-tag-definition-name-or-title]&#13;
+Name=CSS Class&#13;
+Default=some-css-class&#13;
+Type=select&#13;
+Selection[]&#13;
+Selection[some-css-class]=some-css-class&#13;
+Selection[some-css-class-2]=some-css-class-2&#13;
+&lt;/code&gt;&#13;
+&#13;
+...etc&#13;
+&#13;
+Good luck&#13;
+Russ</description>
+      <author>community@ez.no (Russell Michell)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe/re_styling_custom_tags_in_oe</guid>
+      <pubDate>Thu, 07 Jan 2010 20:23:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Styling custom tags in OE</title>
+      <link>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe</link>
+      <description>Hi Andre&#13;
+&#13;
+Any hints on where styles should go so that custom tags are styled in the OE.  I know the styles I need to apply just need to know where to put them!&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezoe2/forum/general/styling_custom_tags_in_oe</guid>
+      <pubDate>Wed, 09 Dec 2009 06:53:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / enhanced_selection</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 18:50:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 18:50:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31376" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>optgroup</title>
+      <link>http://projects.ez.no/enhanced_selection/forum/general/optgroup</link>
+      <description>The extension will be really completed  with the possibility to add optgroup option&#13;
+&#13;
+&lt;optgroup class="xxx"  label="xxxxx"&gt;&#13;
+    &lt;option value="xx"&gt;xx&lt;/option&gt;&#13;
+     ...&#13;
+ &lt;/optgroup&gt;&#13;
+</description>
+      <author>community@ez.no (Stephane Cottin)</author>
+      <guid>http://projects.ez.no/enhanced_selection/forum/general/optgroup</guid>
+      <pubDate>Thu, 06 Oct 2011 10:03:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Good</title>
+      <link>http://projects.ez.no/enhanced_selection/reviews/good</link>
+      <description>Very usefull extension :)</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/enhanced_selection/reviews/good</guid>
+      <pubDate>Fri, 17 Jun 2011 09:23:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>SQL query</title>
+      <link>http://projects.ez.no/enhanced_selection/forum/general/sql_query</link>
+      <description>Hi,&#13;
+&#13;
+The SQL feature is undocumented...&#13;
+If you want to add a SQL query in your datatype, you can do like this :&#13;
+&lt;code&gt;&#13;
+SELECT FIELD1 as identifier, FIELD2 as name FROM TABLE&#13;
+&lt;/code&gt;&#13;
+&#13;
+Good and usefull extension !&#13;
+Thanks</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/enhanced_selection/forum/general/sql_query</guid>
+      <pubDate>Fri, 17 Jun 2011 09:22:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/enhanced_selection/news/changelog</link>
+      <description>&lt;p&gt;
+* v1.0:&lt;br /&gt;
+ - Initial public release&lt;br /&gt;
+ * v1.1:&lt;br /&gt;
+ - Fixed bug: Required option isn't checked when the datatype is in&lt;br /&gt;
+ multiselect mode.&lt;br /&gt;
+ # Thanks to Brendan Pike for reporting this&lt;br /&gt;
+ - Fixed: XHTML compliance in object/edit&lt;br /&gt;
+ - Improved CS (PHP and templates)&lt;br /&gt;
+ - Added: class view template&lt;br /&gt;
+ - Added: options can now be sorted alphabetically (either asc or&lt;br /&gt;
+ desc)&lt;br /&gt;
+ * v1.1a:&lt;br /&gt;
+ - Fixed bug: Unrequired multiselect would throw a validation&lt;br /&gt;
+ error&lt;br /&gt;
+ # Again thanks to Brendan Pike&lt;br /&gt;
+ - Removed forgotten debug statement&lt;br /&gt;
+ * v2.0:&lt;br /&gt;
+ - Next gen version of the datatype&lt;br /&gt;
+ * v3.0:&lt;br /&gt; - PHP5 port&lt;/p&gt;</description>
+      <author>community@ez.no (Hans Melis)</author>
+      <guid>http://projects.ez.no/enhanced_selection/news/changelog</guid>
+      <pubDate>Tue, 01 Jul 2008 05:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>enhancedselection2.zip</title>
+      <link>http://projects.ez.no/enhanced_selection/downloads/enhancedselection2_zip</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/enhanced_selection/downloads/enhancedselection2_zip</guid>
+      <pubDate>Tue, 01 Jul 2008 05:40:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

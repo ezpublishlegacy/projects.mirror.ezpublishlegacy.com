@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / novenimagecropper / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19460" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>novenimagecropper rev. 54 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/54</link>
+      <description>Fixed issue with uppercase image file extensions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/54</guid>
+      <pubDate>Sun, 29 Aug 2010 17:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 53 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/53</link>
+      <description>- added italian translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/53</guid>
+      <pubDate>Tue, 27 Apr 2010 20:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 52 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/52</link>
+      <description>Added spanish translation (thanks Carlos Revillo)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/52</guid>
+      <pubDate>Sun, 25 Apr 2010 09:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 51 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/51</link>
+      <description>Added Norwegian translation (thanks Håvard Bergersen for your contribution !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/51</guid>
+      <pubDate>Wed, 21 Apr 2010 20:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 50 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/50</link>
+      <description>Changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/50</guid>
+      <pubDate>Wed, 14 Apr 2010 23:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 49 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/49</link>
+      <description>Update to eZ Publish 4.3 API :
+  - Use of eZTemplate::factory()
+  - Use of ezpI18n::tr()
+
+Backwards compatibility is maintained (will work on previous eZ Publish 4 versions)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/49</guid>
+      <pubDate>Wed, 14 Apr 2010 23:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 48 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/48</link>
+      <description>AjaxUpload 3.9 + forgotten jquery 1.4.2</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/48</guid>
+      <pubDate>Wed, 14 Apr 2010 22:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 47 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/47</link>
+      <description>- Upgrade to jQuery 1.4.2 and jQuery UI 1.8
+- Fixing a small bug with eZ JS Core 1.1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/47</guid>
+      <pubDate>Wed, 14 Apr 2010 22:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 46 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/46</link>
+      <description> </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/46</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 44 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/44</link>
+      <description>Doc in RST Format</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/44</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 45 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/45</link>
+      <description>Remove old plain txt doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/45</guid>
+      <pubDate>Thu, 07 Jan 2010 13:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 43 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/43</link>
+      <description>fix issue with default width/height for aspect ratio</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/43</guid>
+      <pubDate>Mon, 23 Nov 2009 10:55:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 42 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/42</link>
+      <description>- test of commit rights: folder for ita trads</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/42</guid>
+      <pubDate>Thu, 29 Oct 2009 13:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 41 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/41</link>
+      <description>Added a "novenimagecropper_reference" image alias, used against "reference" alias, not always available</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/41</guid>
+      <pubDate>Fri, 09 Oct 2009 08:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 40 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/40</link>
+      <description>Updated doc about "reference" image filter that must be declared in image.ini (not by default in ezwebin frontend siteaccess)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/40</guid>
+      <pubDate>Thu, 08 Oct 2009 17:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 38 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/38</link>
+      <description>Implement suggestion by Marco to add more aspect ratio</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/38</guid>
+      <pubDate>Wed, 07 Oct 2009 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 39 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/39</link>
+      <description>Changelog update</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/39</guid>
+      <pubDate>Wed, 07 Oct 2009 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 37 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/37</link>
+      <description>German translation updated (thanks Marco Zinn !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/37</guid>
+      <pubDate>Wed, 07 Oct 2009 15:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 36 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/36</link>
+      <description>Updated CHANGELOG (1.0.6)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/36</guid>
+      <pubDate>Wed, 07 Oct 2009 13:15:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 35 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/35</link>
+      <description>Wrong version tag (for ant build)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/35</guid>
+      <pubDate>Wed, 07 Oct 2009 13:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 34 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/34</link>
+      <description>Fix PHP warning in modules/novimagecrop/upload.php. Image content attribute was not passed to eZContentObjectAttribute::store() method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/34</guid>
+      <pubDate>Wed, 07 Oct 2009 12:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 33 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/33</link>
+      <description>fix issue with ezcImageConverterSettings if ImageMagick is not present in the system. Now takes into account settings from image.ini
+Added new error message in translation file (when neither ImageMagick nor GD is activated in ez)
+
+See http://projects.ez.no/novenimagecropper/forum/issues/not_a_valid_ezjscserverrouter_argument</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/33</guid>
+      <pubDate>Wed, 07 Oct 2009 12:45:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 32 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/32</link>
+      <description>Update german translation</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/32</guid>
+      <pubDate>Tue, 06 Oct 2009 22:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 31 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/31</link>
+      <description>Oups, wrong name for translation and translation file has .xml suffix. Sorry !</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/31</guid>
+      <pubDate>Tue, 06 Oct 2009 18:06:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 30 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/30</link>
+      <description>Update french translation with right doctype</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/30</guid>
+      <pubDate>Tue, 06 Oct 2009 17:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 29 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/29</link>
+      <description>Add german translation (thanks Marco Zinn for your contribution !)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/29</guid>
+      <pubDate>Tue, 06 Oct 2009 17:50:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 28 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/28</link>
+      <description> </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/28</guid>
+      <pubDate>Tue, 06 Oct 2009 13:40:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 27 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/27</link>
+      <description>Update ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/27</guid>
+      <pubDate>Tue, 06 Oct 2009 13:35:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 26 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/26</link>
+      <description>fix potential problems with params for ezcImageFilter. Must be int</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/26</guid>
+      <pubDate>Sun, 04 Oct 2009 12:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 25 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/25</link>
+      <description>Delete obsolete view scripts for the module 'novimagecrop'</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/25</guid>
+      <pubDate>Sun, 04 Oct 2009 12:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 24 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/24</link>
+      <description>Changelog for 1.0.4</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/24</guid>
+      <pubDate>Sat, 03 Oct 2009 08:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 23 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/23</link>
+      <description>Fixed issue when uploading an image and no previous image was registered in object =&gt; 'Crop' button was still disabled</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/23</guid>
+      <pubDate>Sat, 03 Oct 2009 08:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 22 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/22</link>
+      <description>Fix 'Extension allways uses reference alias of the image'</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/22</guid>
+      <pubDate>Sat, 03 Oct 2009 08:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 21 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/21</link>
+      <description>Version 1.0.3 :
+* Added possibility to "force" crop width/height selection for an aspect ratio
+* Fixed bug when closing dialog : aspect ratio select box doesn't reset</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/21</guid>
+      <pubDate>Fri, 02 Oct 2009 13:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 20 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/20</link>
+      <description>Wrong element to trigger jquery event for "updateImage()"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/20</guid>
+      <pubDate>Thu, 01 Oct 2009 10:05:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 19 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/19</link>
+      <description>Removed "console.log"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/19</guid>
+      <pubDate>Thu, 01 Oct 2009 08:35:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 18 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/18</link>
+      <description>* Callback function updateImage() now sends a jQuery event when update is finished
+* Add JSDoc on updateImage() function
+* Add PHPDoc on NovImgCropServerFunctions::updateImageByPath() server function
+* Updated doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/18</guid>
+      <pubDate>Thu, 01 Oct 2009 08:35:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 17 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/17</link>
+      <description>Update changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/17</guid>
+      <pubDate>Wed, 30 Sep 2009 09:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 16 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/16</link>
+      <description>fix pb with callback updateImageByPath()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/16</guid>
+      <pubDate>Wed, 30 Sep 2009 09:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 14 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/14</link>
+      <description>Bad 1.0 tag</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/14</guid>
+      <pubDate>Sun, 27 Sep 2009 09:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 15 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/15</link>
+      <description>Tag version 1.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/15</guid>
+      <pubDate>Sun, 27 Sep 2009 09:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 12 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/12</link>
+      <description>Tag version 1.0 final</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/12</guid>
+      <pubDate>Sun, 27 Sep 2009 09:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 13 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/13</link>
+      <description>ezinfo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/13</guid>
+      <pubDate>Sun, 27 Sep 2009 09:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 11 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/11</link>
+      <description>Updating doc</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/11</guid>
+      <pubDate>Sun, 27 Sep 2009 09:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 10 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/10</link>
+      <description>Untranslated translation file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/10</guid>
+      <pubDate>Fri, 25 Sep 2009 13:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 9 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/9</link>
+      <description>Fixed bug with eZClusterFileHandler (now fully compatible with eZDB and eZFS/eZFS2)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/9</guid>
+      <pubDate>Fri, 25 Sep 2009 12:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 8 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/8</link>
+      <description>ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/8</guid>
+      <pubDate>Thu, 24 Sep 2009 12:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/7</link>
+      <description>Refactoring to use ezjscore (must be installed)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/7</guid>
+      <pubDate>Thu, 24 Sep 2009 12:15:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 6 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/6</link>
+      <description>Tag version 1.0-beta1</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/6</guid>
+      <pubDate>Thu, 24 Sep 2009 12:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>novenimagecropper rev. 5 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/novenimagecropper/subversion/5</link>
+      <description>Fix pb with AJAX calls URLs when in non-ForceVirtualHost mode</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/novenimagecropper/subversion/5</guid>
+      <pubDate>Fri, 18 Sep 2009 11:45:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sqligeoloc</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:28 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26554" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>sqligeoloc rev. 9 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/9</link>
+      <description>Ant script again</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/9</guid>
+      <pubDate>Sun, 22 Aug 2010 10:05:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 8 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/8</link>
+      <description>Added extension.xml
+Updated ant script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/8</guid>
+      <pubDate>Sun, 22 Aug 2010 09:45:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/7</link>
+      <description>module.ini =&gt; ModuleList param was not present</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/7</guid>
+      <pubDate>Fri, 20 Aug 2010 20:20:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 6 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/6</link>
+      <description>Fixed : Invalid IP would never throw an exception</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/6</guid>
+      <pubDate>Wed, 23 Jun 2010 09:51:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 5 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/5</link>
+      <description>CHANGELOG</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/5</guid>
+      <pubDate>Tue, 22 Jun 2010 16:25:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 4 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/4</link>
+      <description>Fix ip2long issue on 32bits systems</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/4</guid>
+      <pubDate>Tue, 22 Jun 2010 16:05:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 3 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/3</link>
+      <description>TODO file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/3</guid>
+      <pubDate>Tue, 22 Jun 2010 14:00:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>SQLi Geoloc 1.0.1</title>
+      <link>http://projects.ez.no/sqligeoloc/downloads/sqli_geoloc_1_0_1</link>
+      <description></description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/sqligeoloc/downloads/sqli_geoloc_1_0_1</guid>
+      <pubDate>Mon, 21 Jun 2010 19:17:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 2 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/2</link>
+      <description>Initial Import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/2</guid>
+      <pubDate>Mon, 21 Jun 2010 19:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>sqligeoloc rev. 1 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/sqligeoloc/subversion/1</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/sqligeoloc/subversion/1</guid>
+      <pubDate>Mon, 21 Jun 2010 18:28:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

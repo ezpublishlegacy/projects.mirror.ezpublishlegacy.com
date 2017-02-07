@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggwebservices / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13618" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>gg Webservices 0.14 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_14_released</link>
+      <description>&lt;p&gt;The biggest new feature of this release is compatibility with the eZPublish REST v2 API.&lt;/p&gt;&lt;p&gt;This includes the visual debugger - making troubleshooting pesky REST problems nice and easy.&lt;/p&gt;&lt;p&gt;But there's a lot of both bugfices and new features - read on for a detailed changelog&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_14_released</guid>
+      <pubDate>Sat, 20 Jul 2013 21:28:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.13 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_13_released</link>
+      <description>&lt;p&gt;An ajax + bugfixes + documentation release&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;better support for ajax calls&lt;/li&gt;
+
+&lt;li&gt;added a dedicated javascript function for "proxy" mode (useful to avoid same-origin problems when accessing remote services)&lt;/li&gt;
+
+&lt;li&gt;fixed a fatal error when assigning access permissions to webservices/execute&lt;/li&gt;
+
+&lt;li&gt;much improved documentation&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_13_released</guid>
+      <pubDate>Tue, 25 Sep 2012 13:55:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.11.3 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_3_released</link>
+      <description>&lt;p&gt;A single bugfix, related to (all types of) clients waiting a long time for responses when talking to some http servers which have bad configurations related to keepalives.&lt;/p&gt;&lt;p&gt;Get it at: http://projects.ez.no/ggwebservices/downloads/gg_webservices_0_11/ggwebservices_0_11_3_zip&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_3_released</guid>
+      <pubDate>Sun, 18 Mar 2012 17:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices goes to github</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_goes_to_github</link>
+      <description>&lt;p&gt;Fork it at https://github.com/gggeek/ggwebservices&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_goes_to_github</guid>
+      <pubDate>Tue, 28 Feb 2012 14:55:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.11.2 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_2_released</link>
+      <description>&lt;p&gt;A bugfix release, mostly useful to SOAP users:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;soap client now correctly generates the SOAPACtion http header when in wsdl mode&lt;/li&gt;
+
+&lt;li&gt;soap client properly takes in account soap version (1.1 versus 1.2) from ini file settings&lt;/li&gt;
+
+&lt;li&gt;bugfixes in the list of servers shown in the debugger, left-hand column&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_2_released</guid>
+      <pubDate>Wed, 08 Feb 2012 18:35:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.11.1 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_1_released</link>
+      <description>&lt;p&gt;A bugfix-only release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;make debugger compatible with ezformtoken extension&lt;/li&gt;
+
+&lt;li&gt;assorted debugger bugfixes related to javascript interaction (esp. for Chrome users)&lt;/li&gt;
+
+&lt;li&gt;fix fatal error in xmlrpc client (introduced in 0.11)&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_1_released</guid>
+      <pubDate>Sun, 29 Jan 2012 21:35:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.11 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_released</link>
+      <description>&lt;p&gt;Not a lot of changes, but at least one bugfix:&lt;/p&gt;&lt;p&gt;when using basic auth, part of the request http headers were being dropped&lt;/p&gt;&lt;p&gt;Also a small change: the error code returned by the client when receiving error http status codes in responses has changed (helps with REST services)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_11_released</guid>
+      <pubDate>Wed, 11 Jan 2012 10:49:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.10 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_10_released</link>
+      <description>&lt;p&gt;Highlights of this release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;better support for REST calls in the client (can send http request encoded as json, use all http verbs, and especially receive responses in XML format)&lt;/li&gt;
+
+&lt;li&gt;better support for SOAP calls from templates&lt;/li&gt;
+
+&lt;li&gt;full REST support in the debugger (except for oauth) :-)&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_10_released</guid>
+      <pubDate>Mon, 31 Oct 2011 01:42:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.9.1 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_9_1_released</link>
+      <description>&lt;p&gt;New in this release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;code samples for connecting to twitter&lt;/li&gt;
+
+&lt;li&gt;restored compatibility with php 5.2 when using json&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_9_1_released</guid>
+      <pubDate>Wed, 20 Jul 2011 22:44:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.9 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_9_released</link>
+      <description>&lt;p&gt;New in this release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;Flickr api support (code samples for connecting to Flickr and LastFm provided)&lt;/li&gt;
+
+&lt;li&gt;debugger is compatible with eZP 4.5&lt;/li&gt;
+
+&lt;li&gt;simpler debugging of client-side calls: both request and response are traced in the debug output&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_9_released</guid>
+      <pubDate>Sat, 09 Jul 2011 00:47:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.8 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_8_released</link>
+      <description>&lt;p&gt;Codenamed "back to the future", this release adds a much improved support for creating SOAP servers.&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;fully automatic (or manual) wsdl generation&lt;/li&gt;
+
+&lt;li&gt;a human-readable version of the wsdl file is also automatically made available&lt;/li&gt;
+
+&lt;li&gt;based on the php native soap extension&lt;/li&gt;
+
+&lt;li&gt;access permissions can be given per-webservice or limited by client ip address&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;For the first time, complete documentation of the php-level API is also included (tanks to the &lt;a href="http://projects.ez.no/ezextensionbuilder" target="_self"&gt;ezextensionbuilder&lt;/a&gt; extension used for packaging the zip file).&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_8_released</guid>
+      <pubDate>Wed, 20 Apr 2011 20:59:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.7 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_7_released</link>
+      <description>&lt;p&gt;Main new features:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;The debugger can now be used with SOAP servers !!!&lt;/li&gt;
+
+&lt;li&gt;Added ezjscore client, so that ezjscore methods can be called on remote servers&lt;/li&gt;
+
+&lt;li&gt;All clients: add support for setting cookies, ssl options&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Bugfixes: quite a few bugs fixed in the client classes.&lt;/p&gt;&lt;p&gt;The clients are now considered stable and featureful enough to be used as basis for the debugger instead of the external phpxmlrpc library.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_7_released</guid>
+      <pubDate>Thu, 31 Mar 2011 10:33:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.6 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_6_released</link>
+      <description>&lt;p&gt;So much new stuff that it is hard to summarize it here :-)&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;a bugfix in adding parameters to xmlrpc clients (when using php code, not the template fetch function)&lt;/li&gt;
+
+&lt;li&gt;support for soap 1.2 besides 1.1 (client)&lt;/li&gt;
+
+&lt;li&gt;rest client is now incredibly more flexible, it can really be used to query services such as flickr, yahoo, facebook or google&lt;/li&gt;
+
+&lt;li&gt;many more parameters can be set in the definition of target servers in the ini file, such as eg. NTLM or Digest authentication, support for http compression etc...&lt;/li&gt;
+
+&lt;li&gt;the debugger supports debugging ezjscore call&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Be sure to read carefully the changelog file.&lt;/p&gt;&lt;p&gt;Please also be sure to test this baby before putting it in production if you're upgrading an existing installation, as the refactoring has been massive.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_6_released</guid>
+      <pubDate>Sat, 18 Dec 2010 01:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.5 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_5_released</link>
+      <description>&lt;p&gt;Still working on proper support for creating SOAP webservices with proper WSDL...&lt;/p&gt;&lt;p&gt;In the meantime, you get:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;allow to register webservices methods with dots in their name&lt;/li&gt;
+
+&lt;li&gt;a new webservice: ezp.authandexec; it allows to authenticate and execute a 2nd webservice in a single call. Very useful for those ws clients that do not support session cookies&lt;/li&gt;
+
+&lt;li&gt;a new policy limitation on the webservices/execute view: per siteaccess&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_5_released</guid>
+      <pubDate>Mon, 21 Jun 2010 09:44:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.4 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_4_released</link>
+      <description>&lt;p&gt;Lots of new features and 2 bug fixes in this new release:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;added support for calling external services that require simple POST (a.k.a. html forms) to the template fetch function / ggeZWebservicesClient class&lt;/li&gt;
+
+&lt;li&gt;added a view to invoke webservices without the need of a specific controller file: /webservices/execute/$protocol (supported protocols are currently xmlrpc and jsonrpc)&lt;/li&gt;
+
+&lt;li&gt;permissions to execute - with limitation on single webservices - can be granted on that view&lt;/li&gt;
+
+&lt;li&gt;add support of exposing ezjscore webservices to xmlrpc/jsonrpc calls via that view&lt;/li&gt;
+
+&lt;li&gt;added the Y.io.jsonrpc javascript function for Yui 3 (in module 'io-jsonrpc') to ease execution of jsonrpc calls from the browser&lt;/li&gt;
+
+&lt;li&gt;moved javascript libraries to 'standard' design, so that they can be used for front-end interfaces too&lt;/li&gt;
+
+&lt;li&gt;added a cronjob to rotate logs of executed ws calls. By default added to infrequent set&lt;/li&gt;
+
+&lt;li&gt;upgrade the included phpxmlrpc lib to 3.0.0 beta, fixing all warnings with php 5.3&lt;/li&gt;
+
+&lt;li&gt;webservice server classes now catch exceptions raised by user-provided functions while handling invocation calls; use the server's $exception_handling member to finetune this behaviour&lt;/li&gt;
+
+&lt;li&gt;allow module view (and custom controllers too) to load all functions in soap/jsonrpc/xmlrpc dirs regardless of the incoming call's protocol. Set RegisterAllProtocolsFunctions=enabled to activate&lt;/li&gt;
+
+&lt;li&gt;fix: give a debuggable error message if soap extension is not enabled and user tries to create a ggPhpSOAPClient&lt;/li&gt;
+
+&lt;li&gt;fix: bad php constants where used by ggXMLRPCServer if invalid params where received&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;There have veen a couple of incompatible changes too - please read carefully the changelog before upgrade.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_4_released</guid>
+      <pubDate>Sun, 24 Jan 2010 23:12:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.3 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_3_released</link>
+      <description>&lt;p&gt;The new release boasts one big improvement: support for WSDL descriptions of remote soap services via usage of the php native SOAP extension!&lt;/p&gt;&lt;p&gt;The proxy module is now working and it has gained support for policy limitations on remote servers.&lt;/p&gt;&lt;p&gt;Other minor changes include future-proofing: naming conflicts with php 5.3 new reserved keywords have been fixed.&lt;/p&gt;&lt;p&gt;You can get it from: &lt;a href="http://projects.ez.no/ggwebservices/downloads/gg_webservices_0_3/ggwebservices_0_3_zip" target="_self"&gt;projects.ez.no/ggwebservices/downloads/gg_webservices_0_3/ggwebservices_0_3_zip&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The complete changelog is available here: &lt;a href="http://svn.projects.ez.no/ggwebservices/trunk/extension/ggwebservices/doc/changelogs/CHANGELOG-0.2-to-0.3" target="_self"&gt;svn.projects.ez.no/ggwebservices/trunk/extension/ggwebservices/doc/changelogs/CHANGELOG-0.2-to-0.3&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_3_released</guid>
+      <pubDate>Wed, 24 Jun 2009 11:12:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.2 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_2_released</link>
+      <description>&lt;p&gt;Main improvement in this release is the addition of a full graphical debugger GUI, that can be used to troubleshoot connections to local or remote xmlrpc / jsonrpc servers.&lt;/p&gt;&lt;p&gt;Support for connecting to remote servers via proxies has been improved, as well as https connections when no curl extension is available.&lt;/p&gt;&lt;p&gt;Last but not least, a couple of bugs have been fixed&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_2_released</guid>
+      <pubDate>Wed, 01 Apr 2009 10:19:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>gg Webservices 0.1 released</title>
+      <link>http://projects.ez.no/ggwebservices/news/gg_webservices_0_1_released</link>
+      <description>&lt;p&gt;The first release of the gg Webservices extension is available.&lt;/p&gt;&lt;p&gt;It allows to:&lt;/p&gt;
+&lt;ol&gt;
+
+&lt;li&gt;expose php functions as xmlrpc or jsonrpc webservices, using the same API used for creating soap webservices in the stock eZ Publish&lt;/li&gt;
+
+&lt;li&gt;call external xmlrpc, jsonrpc or rest webservices, from either php or template code&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;p&gt;More to come in the future!&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ggwebservices/news/gg_webservices_0_1_released</guid>
+      <pubDate>Tue, 10 Mar 2009 13:52:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / full_italian_translation_of_user_manual</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:23:53 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:23:53 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31808" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/full_italian_translation_of_user_manual/news/changelog</link>
+      <description>&lt;p&gt;23.01.2009: New version with some corrections.&lt;/p&gt;</description>
+      <author>community@ez.no (Sandra Parente)</author>
+      <guid>http://projects.ez.no/full_italian_translation_of_user_manual/news/changelog</guid>
+      <pubDate>Fri, 23 Jan 2009 10:49:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezp_4_0_manuale_utente.pdf</title>
+      <link>http://projects.ez.no/full_italian_translation_of_user_manual/downloads/ezp_4_0_manuale_utente_pdf</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/full_italian_translation_of_user_manual/downloads/ezp_4_0_manuale_utente_pdf</guid>
+      <pubDate>Fri, 23 Jan 2009 10:49:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

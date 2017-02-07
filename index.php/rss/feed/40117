@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ngconnect / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:37:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:37:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40117" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Automatic Logging</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/automatic_logging/re_automatic_logging</link>
+      <description>Hi Abdallah,&#13;
+&#13;
+I'm not sure it can be done. What you would need is the user ID from Facebook to be able to log him in automatically, and I see no way in obtaining it without user action.&#13;
+&#13;
+On the other side, if it were up to me, I would not like automatic login. What if user doesn't want to be logged in? What if someone else is logged in on Facebook when the user is accessing your web? This way, you leave the choice to the user, which is IMO much better option then trying to guess :)</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/automatic_logging/re_automatic_logging</guid>
+      <pubDate>Wed, 16 May 2012 09:01:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatic Logging</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/automatic_logging</link>
+      <description>Hi,&#13;
+&#13;
+I wonder if there's a way to detect an already established connection (user is already logged into Facebook for example) and log the user in directly without having to click on the Facebook button?&#13;
+&#13;
+What currently happens with me, is that users who already have a valid connection with Facebook have to click on the login button, and then the authentication pop opens up and closes immediately, and the page refreshes and then the user is logged in.</description>
+      <author>community@ez.no (Abdallah Mostafa)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/automatic_logging</guid>
+      <pubDate>Tue, 15 May 2012 19:40:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Store token to call API ?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api3</link>
+      <description>Hi Mickael,&#13;
+&#13;
+your changes look quite good. Although, in ngconectfunctions.php/connectUser, you might wanna update the token in the database if the row already exists, and not just store it first time when the user logs in.&#13;
+&#13;
+As far as using the token for making API calls, you'll probably need to modify ngConnectAuthTwitter to actually request read/write permissions instead of only read permissions.&#13;
+&#13;
+I'm afraid I can't help you with that as I didn't go into depth with how oAuth in Twitter works, just what was required to get ngconnect working.&#13;
+&#13;
+You should check out https://dev.twitter.com/docs/auth </description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api3</guid>
+      <pubDate>Fri, 25 Nov 2011 09:34:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Store token to call API ?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api2</link>
+      <description>Thanks for you answer.&#13;
+&#13;
+I managed to store the token in a new field of ngconnect.&#13;
+Basically : &#13;
+- at the end of ngconnectauthtwitter.php, I add the token via this : &#13;
+&lt;code&gt;&#13;
+		$result = array(&#13;
+			'status'				=&gt; 'success',&#13;
+			'login_method'			=&gt; 'twitter',&#13;
+			'id'					=&gt; $user-&gt;id,&#13;
+			'first_name'			=&gt; isset($user-&gt;name) ? $user-&gt;name : '',&#13;
+			'last_name'				=&gt; '',&#13;
+			'email'					=&gt; '',&#13;
+			'picture'				=&gt; $pictureUri&#13;
+// mike add token dans authresult	&#13;
+													,&#13;
+			'token'				=&gt; $accessToken['oauth_token']											&#13;
+// mike end		&#13;
+		&#13;
+		);&#13;
+&lt;/code&gt;&#13;
+- in ngconnect.php, I add the token field&#13;
+&lt;code&gt;&#13;
+	static function definition()&#13;
+	{&#13;
+		return array(&#13;
+					'fields' =&gt; array(	'user_id' =&gt; array(	'name' =&gt; 'UserID',&#13;
+															'datatype' =&gt; 'integer',&#13;
+															'default' =&gt; 0,&#13;
+															'required' =&gt; true),&#13;
+										'login_method' =&gt; array(	'name' =&gt; 'LoginMethod',&#13;
+																	'datatype' =&gt; 'string',&#13;
+																	'default' =&gt; '',&#13;
+																	'required' =&gt; true),&#13;
+										'network_user_id' =&gt; array(	'name' =&gt; 'NetworkUserID',&#13;
+																	'datatype' =&gt; 'string',&#13;
+																	'default' =&gt; '',&#13;
+																	'required' =&gt; true)&#13;
+// modif mike : add token field&#13;
+																	,&#13;
+										'token' =&gt; array(	'name' =&gt; 'token',&#13;
+																	'datatype' =&gt; 'string',&#13;
+																	'default' =&gt; '',&#13;
+																	'required' =&gt; true)																	&#13;
+// modif mike : end 																			&#13;
+										),&#13;
+&lt;/code&gt;&#13;
+- at the end of ngconectfunctions.php, I store the token with other db fields :&#13;
+&lt;code&gt;&#13;
+	public static function connectUser($userID, $loginMethod, $networkUserID, $membertoken)&#13;
+	{&#13;
+		$ngConnect = ngConnect::fetch($userID, $loginMethod, $networkUserID);&#13;
+		if(!($ngConnect instanceof ngConnect))&#13;
+		{&#13;
+			$ngConnect = new ngConnect(array(&#13;
+				'user_id'				=&gt; $userID,&#13;
+				'login_method'			=&gt; $loginMethod,&#13;
+				'network_user_id'		=&gt; $networkUserID,&#13;
+			'token'		=&gt; $membertoken&#13;
+			));&#13;
+			$ngConnect-&gt;store();&#13;
+		}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Now, I need to figure out how to use this token to create API posts via curl ... </description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api2</guid>
+      <pubDate>Fri, 25 Nov 2011 09:06:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Store token to call API ?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api</link>
+      <description>Hello Mickael,&#13;
+&#13;
+API token can certainly be stored in the database and it's not a problem.&#13;
+&#13;
+You can checkout ngConnect PHP class to atleast give you the overview how the thing works. That class wraps ngconnect database table into PHP code and allows you to fetch data from the table and store the data without any SQL.&#13;
+&#13;
+However, the code that works with tokens needs to be modified to work with stored tokens, nothing fancy, but needs to be done and it would require couple of days of coding </description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api/re_store_token_to_call_api</guid>
+      <pubDate>Thu, 24 Nov 2011 14:50:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Store token to call API ?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api</link>
+      <description>Thanks for this useful and promising extension.&#13;
+&#13;
+On top of signing in with social network credentials, I need to actually use their API to post status based on actions on my site.&#13;
+I guess the best way would be to store the token in the ngconnect table so I can use it in API calls.&#13;
+=&gt; is this the best way?&#13;
+=&gt; would someone know how to add this field ?&#13;
+&#13;
+(I'm not an actual developer :-( )&#13;
+&#13;
+Thanks in advance for your help :-)&#13;
+&#13;
+Mickael</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/store_token_to_call_api</guid>
+      <pubDate>Tue, 22 Nov 2011 22:49:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade to OAuth 2.0?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/upgrade_to_oauth_2_0/re_upgrade_to_oauth_2_0</link>
+      <description>Hello Slavo,&#13;
+&#13;
+Netgen Connect already uses HTTPS and oAuth 2.0 to talk to Facebook apps, so there is nothing to worry about :)</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/upgrade_to_oauth_2_0/re_upgrade_to_oauth_2_0</guid>
+      <pubDate>Thu, 29 Sep 2011 07:25:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrade to OAuth 2.0?</title>
+      <link>http://projects.ez.no/ngconnect/forum/general/upgrade_to_oauth_2_0</link>
+      <description>Hi,&#13;
+I am using facebook connect with this extension and recently I've got this message from FB:&#13;
+&#13;
+&lt;i&gt;"Reminder: Upgrade Your App to OAuth 2.0 and HTTPS by October 1st. In May we announced that all apps on Facebook need to support OAuth 2.0 and HTTPS to make the platform more secure."&lt;/i&gt;&#13;
+&#13;
+Should I worry about my FB application, or is ngconnect ok regarding this issue?&#13;
+&#13;
+Thanks,&#13;
+Slavo</description>
+      <author>community@ez.no (Slavo Uhrin)</author>
+      <guid>http://projects.ez.no/ngconnect/forum/general/upgrade_to_oauth_2_0</guid>
+      <pubDate>Thu, 29 Sep 2011 06:28:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

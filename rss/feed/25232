@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezwebservicesapi / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:23 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:23 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25232" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Webservices API 0.4 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_4_released</link>
+      <description>&lt;p&gt;Bugfixes galore! More details &lt;a href="http://svn.projects.ez.no/ezwebservicesapi/trunk/extension/ezwebservicesapi/doc/changelogs/CHANGELOG-0.3-to-0.4" target="_self"&gt;in the changelog&lt;/a&gt;&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_4_released</guid>
+      <pubDate>Sat, 04 Dec 2010 18:23:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.3 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_3_released</link>
+      <description>&lt;p&gt;A single bugfix: the ezp::inspect() webservice was not working when called using the ezjscore protocol.&lt;/p&gt;&lt;p&gt;Since this webservice is used by the pending new release of the &lt;a href="http://projects.ez.no/ezdebug_template_operator" target="_self"&gt;ezdebug&lt;/a&gt; extension for a drill-down-variable-analysis template operator, the patching was deemed urgent.&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_3_released</guid>
+      <pubDate>Sun, 28 Nov 2010 01:26:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.2 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_2_released</link>
+      <description>&lt;p&gt;Main new features&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;ezjscore support. Yes! Now you can use your favorite ajax client to invoke all exposed webservices&lt;/li&gt;
+
+&lt;li&gt;support for invoking all existing module operations (what are they? who knows! but they can be executed, so who cares...)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;But also: fix calling eZ Publish views via webservices.&lt;/p&gt;&lt;p&gt;A detailed blog post explaining how this works (or not) is in the works...&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_2_released</guid>
+      <pubDate>Mon, 08 Nov 2010 21:01:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Webservices API 0.1 released</title>
+      <link>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_1_released</link>
+      <description>&lt;p&gt;Not yet quite complete, this release supports:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;invocation of any existing fetch function (including ones from extensions)&lt;/li&gt;
+
+&lt;li&gt;invocation of any existing module view (including ones from extensions)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;via the following webservice protocols:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;jsonrpc&lt;/li&gt;
+
+&lt;li&gt;xmlrpc&lt;/li&gt;
+
+&lt;li&gt;ajax (via jsonrpc)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;Fine-grained access control is possible (with limitation at the level of the single view/fetch function)&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezwebservicesapi/news/ez_webservices_api_0_1_released</guid>
+      <pubDate>Fri, 18 Jun 2010 13:02:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

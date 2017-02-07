@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezpaypal / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:08:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:08:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24532" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezpaypal using cURL</title>
+      <link>http://projects.ez.no/ezpaypal/forum/general/ezpaypal_using_curl</link>
+      <description>I have created  an eZ paypal variation that uses cURL instead of socket to check payment, this was due to some problems I found on some servers that doesn't allow socket external communication, also I made some more small additions.&#13;
+&#13;
+As everybody knows the web shop feature was deprecated since ez 4.3, but it still does work as in ezcommunity 2012.4, so I added the necessary ini settings to show shop menu in admin interface.&#13;
+&#13;
+Also I added a small installation tutorial, some hints/tips on how to setup the paypal sandbox enviroment, and a note on localhost testing.&#13;
+&#13;
+Please check, fork, and contribute to the extension on Github.&#13;
+&#13;
+I would like to expand this extension and include the payperdownload tutorial and some things more like subscriptions or pay per content tree node access, so... I do accept commits ;D&#13;
+&#13;
+https://github.com/thiagocamposviana/ezpaypal</description>
+      <author>community@ez.no (Thiago Campos Viana)</author>
+      <guid>http://projects.ez.no/ezpaypal/forum/general/ezpaypal_using_curl</guid>
+      <pubDate>Tue, 08 May 2012 11:08:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

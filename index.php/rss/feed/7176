@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / recaptcha / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:18:19 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:18:19 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/7176" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: can't get it working for 4.4</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/can_t_get_it_working_for_4_4/re_can_t_get_it_working_for_4_4</link>
+      <description>i solved my issue.. i had some html mistake in it.. what a joke :D&#13;
+&#13;
+thanks anyway, great extension.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/can_t_get_it_working_for_4_4/re_can_t_get_it_working_for_4_4</guid>
+      <pubDate>Tue, 19 Jul 2011 14:57:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>can't get it working for 4.4</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/can_t_get_it_working_for_4_4</link>
+      <description>Hi bruce,&#13;
+&#13;
+i am using your great extension since a couple of years on one of my websites. &#13;
+now i have a second website (ez 4.4) and try to get your extension running in the user/register module..&#13;
+&#13;
+i did all steps you mentioned.&#13;
+i also added the attribute to the user class, setup:&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+17. Validation [reCAPTCHA] (id:420)&#13;
+	&#13;
+Flags: Is required&#13;
+Is not searchable&#13;
+Does not collect information&#13;
+Translation is disabled&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+recaptcha.ini is setup well too (in override)&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;?php /* #?ini charset="utf-8"?&#13;
+&#13;
+[Keys]&#13;
+PublicKey=XXXX&#13;
+PrivateKey=XXXX&#13;
+&#13;
+[Display]&#13;
+Theme=clean&#13;
+OverrideLang=en&#13;
+&#13;
+*/ ?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+the template code looks like that where its loaded:&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;input type="hidden" name="ContentObjectAttribute_id[]" value="{$attribute.id}" /&gt;&#13;
+							&lt;div class="block"&gt;&#13;
+								{attribute_edit_gui attribute=$attribute}&#13;
+							&lt;/div&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+i can also see the recaptcha PERFEKT in frontend i can enter a value.. but in the moment i click "register" the "&lt;noscript&gt;" area disappears and i get this error:&#13;
+&lt;code&gt;&#13;
+input did not validate&#13;
+    * Validation: The reCAPTCHA wasn't entered correctly. Please try again.&#13;
+&lt;/code&gt;&#13;
+no matter what i enter..&#13;
+debug output also tells me the reason. &#13;
+&#13;
+&lt;code&gt;&#13;
+Warning: eZHTTPTool 	Jul 16 2011 13:09:00&#13;
+Undefined post variable: recaptcha_challenge_field&#13;
+Warning: eZHTTPTool 	Jul 16 2011 13:09:00&#13;
+Undefined post variable: recaptcha_response_field&#13;
+&lt;/code&gt;&#13;
+&#13;
+means the two fields from noscript are not really getting cought by validation.. if i look at the sourcecode before clicking "register" i can see the input fields there..&#13;
+&#13;
+&lt;code&gt;&#13;
+							&lt;h2&gt;Validation&lt;/h2&gt;&#13;
+							&lt;input name="ContentObjectAttribute_id[]" value="1316" type="hidden"&gt;&#13;
+							&lt;div class="block"&gt;&#13;
+								 &lt;script type="text/javascript"&gt;&#13;
+var RecaptchaTheme='clean';&#13;
+var RecaptchaLang='en';&#13;
+&#13;
+var RecaptchaOptions = {&#13;
+theme: RecaptchaTheme,&#13;
+lang: RecaptchaLang&#13;
+};&#13;
+&#13;
+&lt;/script&gt;&#13;
+          &#13;
+        &lt;!-- AND HERE THE JS FILE IS LOADED, i just cutted it out for a better overview -&gt;&#13;
+        &#13;
+	&lt;noscript&gt;&#13;
+  		&lt;iframe src="http://www.google.com/recaptcha/api/noscript?k=XXX" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;&#13;
+  		&lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;&#13;
+  		&lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;&#13;
+	&lt;/noscript&gt;&#13;
+							&lt;/div&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+where is my mistake? why does the field disappear onclick? is that the reason? it is not doing that in my old installation.&#13;
+&#13;
+thanks in advance. </description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/can_t_get_it_working_for_4_4</guid>
+      <pubDate>Sat, 16 Jul 2011 11:14:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezteamroom with recaptcha</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/ezteamroom_with_recaptcha</link>
+      <description>Anyone tried this combination, I'm not able to register through the ezteamroon siteaccess yet can fine through the public one.  Using recaptcha 1.3, ezteamroom 1.1 on eZ Publish 4.4.0.&#13;
+&#13;
+Any tips on how to debug this, it simply says the words were wrong which I know is not the cause.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/ezteamroom_with_recaptcha</guid>
+      <pubDate>Wed, 04 May 2011 03:45:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>branches/recaptcha4ez3:  patch for eZ 3.4.x</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/branches_recaptcha4ez3_patch_for_ez_3_4_x</link>
+      <description>hi, &#13;
+&#13;
+some little modification for the templates, because there are no {if} and {def} statements in eZ 3.4s template language : &#13;
+&#13;
+&lt;code&gt;&#13;
+#P recaptchaEZ3&#13;
+Index: design/standard/templates/content/datatype/collect/recaptcha.tpl&#13;
+===================================================================&#13;
+--- design/standard/templates/content/datatype/collect/recaptcha.tpl	(revision 5)&#13;
++++ design/standard/templates/content/datatype/collect/recaptcha.tpl	(working copy)&#13;
+@@ -1,5 +1,5 @@&#13;
+-{def $lang=ezini('Display','OverrideLang','recaptcha.ini')} &#13;
+-{if $lang|eq('')}{set $lang=$attribute.language_code|extract_left(2)}{/if}&#13;
++{let lang=ezini('Display','OverrideLang','recaptcha.ini')} &#13;
++{section show=$lang|eq('')}{set lang=$attribute.language_code|extract_left(2)}{/section}&#13;
+ &lt;script type="text/javascript"&gt;&#13;
+ var RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
+ var RecaptchaLang='{$lang}';&#13;
+Index: design/standard/templates/content/datatype/edit/recaptcha.tpl&#13;
+===================================================================&#13;
+--- design/standard/templates/content/datatype/edit/recaptcha.tpl	(revision 5)&#13;
++++ design/standard/templates/content/datatype/edit/recaptcha.tpl	(working copy)&#13;
+@@ -1,5 +1,5 @@&#13;
+-{def $lang=ezini('Display','OverrideLang','recaptcha.ini')} &#13;
+-{if $lang|eq('')}{set $lang=$attribute.language_code|extract_left(2)}{/if}&#13;
++{let lang=ezini('Display','OverrideLang','recaptcha.ini')} &#13;
++{section show=$lang|eq('')}{set lang=$attribute.language_code|extract_left(2)}{/section}&#13;
+ &lt;script type="text/javascript"&gt;&#13;
+ var RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
+ var RecaptchaLang='{$lang}';&#13;
+&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Roman Mudrack)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/branches_recaptcha4ez3_patch_for_ez_3_4_x</guid>
+      <pubDate>Wed, 09 Jun 2010 08:34:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>compatibility patch for ez4.1.3</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/compatibility_patch_for_ez4_1_3</link>
+      <description>This is a patch to apply to the actual reCaptcha extension, to get it works with eZ Publish 4.1.3.&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: settings/module.ini.append.php&#13;
+===================================================================&#13;
+--- settings/module.ini.append.php	(revision 5)&#13;
++++ settings/module.ini.append.php	(working copy)&#13;
+@@ -2,5 +2,6 @@&#13;
+ &#13;
+ [ModuleSettings]&#13;
+ ExtensionRepositories[]=recaptcha&#13;
++ModuleList[]=recaptcha&#13;
+ &#13;
+ */ ?&gt;&#13;
+Index: modules/recaptcha/module.php&#13;
+===================================================================&#13;
+--- modules/recaptcha/module.php	(revision 5)&#13;
++++ modules/recaptcha/module.php	(working copy)&#13;
+@@ -1,6 +1,10 @@&#13;
+ &lt;?php&#13;
+ &#13;
+ $Module = array( "name" =&gt; "reCAPTCHA" );&#13;
++&#13;
++$ViewList = array();&#13;
++&#13;
++$FunctionList = array();&#13;
+ $FunctionList['bypass_captcha'] = array();&#13;
+&lt;/code&gt;&#13;
+&#13;
+Hope it helps.&#13;
+&#13;
+Filippo </description>
+      <author>community@ez.no (Filippo De Santis)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/compatibility_patch_for_ez4_1_3</guid>
+      <pubDate>Fri, 08 Jan 2010 15:08:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Permissions issue when assigning with limit...</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation/re_permissions_issue_when_assigning_with_limit2</link>
+      <description>Hi Bruce,&#13;
+&#13;
+This was built on ezpublish 4.0.1, and the role was limited to the subtrees of Content </description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation/re_permissions_issue_when_assigning_with_limit2</guid>
+      <pubDate>Tue, 05 May 2009 00:43:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Permissions issue when assigning with limit...</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation/re_permissions_issue_when_assigning_with_limit</link>
+      <description>Hi Geoff&#13;
+&#13;
+Can you let me know what version of eZ you are using and what if any error messages are displayed?  Also what kind of limitation causes the issues?&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation/re_permissions_issue_when_assigning_with_limit</guid>
+      <pubDate>Thu, 30 Apr 2009 04:37:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Permissions issue when assigning with limitation</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation</link>
+      <description>If permission is given to a role to access the &lt;i&gt;bypass_recaptcha&lt;/i&gt; function, and that role is assigned to a user/group with limitation, this function will not work.&#13;
+&#13;
+The role must be assigned without limitation in order for this to work.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/permissions_issue_when_assigning_with_limitation</guid>
+      <pubDate>Thu, 30 Apr 2009 00:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>XHTML strict patch</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/xhtml_strict_patch</link>
+      <description>We have updated classes/recaptchalib.php to be XHTML strict, replacing IFRAME with OBJECT, and putting everything in a block-level element:&#13;
+&lt;code&gt;&#13;
+Index: recaptchalib.php&#13;
+===================================================================&#13;
+--- recaptchalib.php	(revision 121)&#13;
++++ recaptchalib.php	(revision 2205)&#13;
+@@ -122,9 +122,11 @@&#13;
+         return '&lt;script type="text/javascript" src="'. $server . '/challenge?k=' . $pubkey . $errorpart . '"&gt;&lt;/script&gt;&#13;
+ &#13;
+ 	&lt;noscript&gt;&#13;
+-  		&lt;iframe src="'. $server . '/noscript?k=' . $pubkey . $errorpart . '" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br/&gt;&#13;
+-  		&lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;&#13;
++		&lt;div&gt;&#13;
++  		&lt;object data="'. $server . '/noscript?k=' . $pubkey . $errorpart . '" type="text/html" height="300" width="500"&gt;&lt;/object&gt;&lt;br/&gt;&#13;
++  		&lt;textarea id="recaptcha_challenge_field" name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;&#13;
+   		&lt;input type="hidden" name="recaptcha_response_field" value="manual_challenge"/&gt;&#13;
++  		&lt;/div&gt;&#13;
+ 	&lt;/noscript&gt;';&#13;
+ }&#13;
+ &lt;/code&gt;&#13;
+&#13;
+For those that need it.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/xhtml_strict_patch</guid>
+      <pubDate>Thu, 16 Apr 2009 00:13:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: User edit</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/user_edit/re_user_edit2</link>
+      <description>Override the edit template for the user content class and don't display the recaptcha attribute.</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/user_edit/re_user_edit2</guid>
+      <pubDate>Thu, 16 Apr 2009 00:04:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: User edit</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/user_edit/re_user_edit</link>
+      <description>Hello!&#13;
+&#13;
+Is there anybody outhere?</description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/user_edit/re_user_edit</guid>
+      <pubDate>Mon, 23 Feb 2009 11:53:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>User edit</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/user_edit</link>
+      <description>Hello,&#13;
+&#13;
+I added recaptcha attribute to user class and it work excellent on user/register&#13;
+but I want to disable it on user/edit page. How to do this?</description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/user_edit</guid>
+      <pubDate>Tue, 10 Feb 2009 14:46:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>BUG + FIX</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/bug_fix</link>
+      <description>change &#13;
+&#13;
+$operatorValue = recaptcha_get_html( $key );&#13;
+&#13;
+to&#13;
+&#13;
+$operatorValue = recaptcha_get_html( $key, null, eZSys::isSSLNow() );</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/bug_fix</guid>
+      <pubDate>Mon, 02 Feb 2009 22:13:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: JS issue with IE7</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/js_issue_with_ie7/re_js_issue_with_ie7</link>
+      <description>Thanks Łukasz.&#13;
+&#13;
+Fixed </description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/js_issue_with_ie7/re_js_issue_with_ie7</guid>
+      <pubDate>Mon, 15 Dec 2008 03:05:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>JS issue with IE7</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/js_issue_with_ie7</link>
+      <description>Hi Bruce,&#13;
+&#13;
+This is great extension. It helped stop spam sent via contact form on my personal website.&#13;
+However I found JS issue in IE7. Here is a patch:&#13;
+&lt;code&gt;&#13;
+Index: design/standard/templates/content/datatype/collect/recaptcha.tpl&#13;
+===================================================================&#13;
+--- design/standard/templates/content/datatype/collect/recaptcha.tpl    (revision 1)&#13;
++++ design/standard/templates/content/datatype/collect/recaptcha.tpl    (working copy)&#13;
+@@ -1,12 +1,12 @@&#13;
+ {def $lang=ezini('Display','OverrideLang','recaptcha.ini')}&#13;
+ {if $lang|eq('')}{set $lang=$attribute.language_code|extract_left(2)}{/if}&#13;
+ &lt;script type="text/javascript"&gt;&#13;
+-RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
+-RecaptchaLang='{$lang}';&#13;
++var RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
++var RecaptchaLang='{$lang}';&#13;
+ {literal}&#13;
+ var RecaptchaOptions = {&#13;
+ theme: RecaptchaTheme,&#13;
+-lang: RecaptchaLang,&#13;
++lang: RecaptchaLang&#13;
+ };&#13;
+ {/literal}&#13;
+ &lt;/script&gt;&#13;
+Index: design/standard/templates/content/datatype/edit/recaptcha.tpl&#13;
+===================================================================&#13;
+--- design/standard/templates/content/datatype/edit/recaptcha.tpl       (revision 1)&#13;
++++ design/standard/templates/content/datatype/edit/recaptcha.tpl       (working copy)&#13;
+@@ -1,12 +1,12 @@&#13;
+ {def $lang=ezini('Display','OverrideLang','recaptcha.ini')}&#13;
+ {if $lang|eq('')}{set $lang=$attribute.language_code|extract_left(2)}{/if}&#13;
+ &lt;script type="text/javascript"&gt;&#13;
+-RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
+-RecaptchaLang='{$lang}';&#13;
++var RecaptchaTheme='{ezini('Display','Theme','recaptcha.ini')}';&#13;
++var RecaptchaLang='{$lang}';&#13;
+ {literal}&#13;
+ var RecaptchaOptions = {&#13;
+ theme: RecaptchaTheme,&#13;
+-lang: RecaptchaLang,&#13;
++lang: RecaptchaLang&#13;
+ };&#13;
+ {/literal}&#13;
+ &lt;/script&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Reg. to JS is it good practice to declare vars with var word too. Issue exists in both php4 and php5 versions.&#13;
+&#13;
+Cheers!&#13;
+Luke</description>
+      <author>community@ez.no (Łukasz Serwatka)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/js_issue_with_ie7</guid>
+      <pubDate>Sun, 14 Dec 2008 14:07:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>The reCAPTCHA class</title>
+      <link>http://projects.ez.no/recaptcha/forum/general/the_recaptcha_class</link>
+      <description>I've just given the extension a shot, and it's quite nice, though I've got a couple of concerns. The main one is that the class itself has a "die()" statement in it, which if the fsockopen() fails could result in eZ Publish ending up in an inconsistent state. I'm quite keen on getting rid of that. Does anyone else agree?</description>
+      <author>community@ez.no (Michael Maclean)</author>
+      <guid>http://projects.ez.no/recaptcha/forum/general/the_recaptcha_class</guid>
+      <pubDate>Tue, 09 Sep 2008 20:10:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

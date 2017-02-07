@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsi</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/13816" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/ad9e09111e073007ed8fff98ef2d4d3271e93f27</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23651 - EZ Si missing /var/[^]+/cache/public&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/ad9e09111e073007ed8fff98ef2d4d3271e93f27</guid>
+      <pubDate>Mon, 24 Nov 2014 16:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/a53c7ebb771b202342d1863f71d5de9bc9b0be5f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from pedroresende/ezp23651
+
+Fix EZP-23651 - EZ Si missing /var/[^]+/cache/public&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/a53c7ebb771b202342d1863f71d5de9bc9b0be5f</guid>
+      <pubDate>Mon, 24 Nov 2014 16:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/5b8efd66a836b1001b3b6ce0f422070a31a2960d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-23511: EZ Si Vhost issues on Apache 2.4
+
+&gt; https://jira.ez.no/browse/EZP-23511&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/5b8efd66a836b1001b3b6ce0f422070a31a2960d</guid>
+      <pubDate>Mon, 17 Nov 2014 09:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/e398ff3eb750dfdd196fc3956ad14463b52ec600</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/e398ff3eb750dfdd196fc3956ad14463b52ec600</guid>
+      <pubDate>Mon, 03 Nov 2014 14:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/486601d0ada86de8b910868866df3c10ad05a761</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/486601d0ada86de8b910868866df3c10ad05a761</guid>
+      <pubDate>Tue, 20 May 2014 20:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/83c06279b9b89062ab294d3be9e6b194c9989a67</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Create composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/83c06279b9b89062ab294d3be9e6b194c9989a67</guid>
+      <pubDate>Fri, 16 May 2014 23:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/8207e1f644eacd21b372a38e4db2261dea14ba28</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/8207e1f644eacd21b372a38e4db2261dea14ba28</guid>
+      <pubDate>Thu, 15 May 2014 09:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/fac962ac521790d37acf7cf16081d3d5f1a81c55</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/fac962ac521790d37acf7cf16081d3d5f1a81c55</guid>
+      <pubDate>Thu, 15 May 2014 09:00:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/fd6cf2b8b1e21586d99e5fbd59d0853115c610dc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/fd6cf2b8b1e21586d99e5fbd59d0853115c610dc</guid>
+      <pubDate>Tue, 13 May 2014 21:50:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/87d529adae60ce49c14b9aa37ea85283c8dfcc81</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/87d529adae60ce49c14b9aa37ea85283c8dfcc81</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/334cffb3cbe1087ad8321a052d0f63a9d8bd6a5e</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license in ezinfo.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/334cffb3cbe1087ad8321a052d0f63a9d8bd6a5e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/937c09d1f7505bd5af91b4c035ebb9b3258145bb</link>
+      <description>
+      &lt;pre&gt;m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated ezinfo.php with proper version number tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/937c09d1f7505bd5af91b4c035ebb9b3258145bb</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/b3acc34e00f68dc51e046b165d324ca5724e8030</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/blockhandlers/esi/ezsiesiblockhandler.php
+m classes/blockhandlers/ezsiblockhandler.php
+m classes/blockhandlers/ssi/ezsissiblockhandler.php
+m classes/ezsiblockfunction.php
+m classes/filehandlers/ezsifilehandler.php
+m classes/filehandlers/fs/ezsifsfilehandler.php
+m classes/filehandlers/ftp/ezsiftpfilehandler.php
+m cronjobs/siblockupdate.php
+m extension.xml
+m ezinfo.php
+m tests/ezsiblockfunction_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/b3acc34e00f68dc51e046b165d324ca5724e8030</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/6a0168de7ede9738f75b0234787bfee7759db1e5</link>
+      <description>
+      &lt;pre&gt;m classes/ezsiblockfunction.php
+m tests/ezsiblockfunction_test.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #018502: Class 'eZSiBlockFunction' should be named 'eZSIBlockFunction'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/6a0168de7ede9738f75b0234787bfee7759db1e5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/0754cbf0a172ef4a13f39be526edcb5c6c9e655c</link>
+      <description>
+      &lt;pre&gt;m tests/ezsiblockfunction_test.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/0754cbf0a172ef4a13f39be526edcb5c6c9e655c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/0b783dee7374e2cbf9acdc21225d724b12f1ac33</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/0b783dee7374e2cbf9acdc21225d724b12f1ac33</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezsi/subversion/7784a66d5f66a98ad7bd045de6d9ad19e4d90092</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m classes/blockhandlers/esi/ezsiesiblockhandler.php
+m classes/blockhandlers/ezsiblockhandler.php
+m classes/blockhandlers/ssi/ezsissiblockhandler.php
+m classes/ezsiblockfunction.php
+m classes/filehandlers/ezsifilehandler.php
+m classes/filehandlers/fs/ezsifsfilehandler.php
+m classes/filehandlers/ftp/ezsiftpfilehandler.php
+m cronjobs/siblockupdate.php
+m extension.xml
+m ezinfo.php
+m tests/ezsiblockfunction_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/7784a66d5f66a98ad7bd045de6d9ad19e4d90092</guid>
+      <pubDate>Tue, 12 Feb 2013 12:40:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>FilterDeclare SSI / Last modified header</title>
+      <link>http://projects.ez.no/ezsi/forum/general/filterdeclare_ssi_last_modified_header</link>
+      <description>Hi, &#13;
+&#13;
+using the eZSI with SSI configuration:&#13;
+&#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+&lt;/code&gt;&#13;
+&#13;
+we're loosing the "Last-Modified" header. &#13;
+&#13;
+Loosing that header prevents the clients bowser from caching the requested files like images, css, js. So the client requests those files on every single pageview.&#13;
+&#13;
+So get those headers back the following code can be used:&#13;
+&#13;
+Apache higher than 2.2.15:&#13;
+ &#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+    SSILastModified on&#13;
+&lt;/code&gt;&#13;
+&#13;
+below 2.2.15:&#13;
+&#13;
+&lt;code&gt;&#13;
+    FilterDeclare SSI&#13;
+    FilterProvider SSI INCLUDES resp=Content-Type $text/html&#13;
+    FilterChain SSI&#13;
+    XBitHack full&#13;
+&lt;/code&gt;&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/filterdeclare_ssi_last_modified_header</guid>
+      <pubDate>Tue, 16 Aug 2011 11:43:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 73 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezsi/subversion/73</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/73</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 72 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/72</link>
+      <description>test: is this repo closed down?</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/72</guid>
+      <pubDate>Tue, 26 Oct 2010 18:40:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 71 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/71</link>
+      <description>test: is this repo closed down?</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/71</guid>
+      <pubDate>Tue, 26 Oct 2010 18:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 70 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezsi/subversion/70</link>
+      <description>- Fixed: Typo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/70</guid>
+      <pubDate>Tue, 28 Sep 2010 12:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 69 by Ole Marius Smestad</title>
+      <link>http://projects.ez.no/ezsi/subversion/69</link>
+      <description>- Updated: Fixed format of ezinfo.php</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/69</guid>
+      <pubDate>Tue, 28 Sep 2010 12:20:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi add subtree_expiry</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_add_subtree_expiry</link>
+      <description>Salut&#13;
+&#13;
+Like cache-block, it will be cool if ezsi support subtree_expiry. &#13;
+&#13;
+&#13;
+&#13;
+ &#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_add_subtree_expiry</guid>
+      <pubDate>Thu, 16 Sep 2010 08:14:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EZSI files /var/si-blocks/ and ezdbfileclus...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus2</link>
+      <description>More examples of using the cluster-file-handler to store files: look at the bottom of&#13;
+http://svn.projects.ez.no/ggsysinfo/modules/sysinfo/storagechurn.php&#13;
+and&#13;
+http://svn.projects.ez.no/ggsysinfo/modules/sysinfo/logchurn.php&#13;
+or&#13;
+http://svn.projects.ez.no/ezwebservicesapi/trunk/extension/ezwebservicesapi/xmlrpc/initialize.php</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus2</guid>
+      <pubDate>Fri, 04 Jun 2010 11:49:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: EZSI files /var/si-blocks/ and ezdbfileclus...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus</link>
+      <description>Hello,&#13;
+&#13;
+&lt;code&gt;Is there a way to store them within the ezdbfile / data tables ?&lt;/code&gt;&#13;
+&#13;
+Yes, you will need to write your own file handler that will use cluster api instead of direct file calls.&#13;
+&#13;
+To achieve this, a class ezsiclusterfilehandler can be written in folder classes/filehandlers/cluster , defining how to store and delete using cluster api. It should contain something like :&#13;
+&#13;
+&lt;code&gt;&#13;
+    public function storeFile( $directory, $fileName, $fileContents )&#13;
+    {&#13;
+        $filePath = 'var/'.$directory.'/'.$fileName;&#13;
+        $clusterFileHandler = eZClusterFileHandler::instance();&#13;
+        $clusterFileHandler-&gt;fileStoreContents( $filePath, $fileContents );&#13;
+&#13;
+        // TODO : Check for a better error handling&#13;
+        return true;&#13;
+    }&#13;
+..&#13;
+    public function removeFile( $directory, $fileName )&#13;
+    {&#13;
+        $filePath = $directory.'/'.$fileName;&#13;
+        eZDebug::writeNotice( 'Removing ' . $filePath, __METHOD__ );&#13;
+        $clusterFileHandler = eZClusterFileHandler::instance( $filePath );&#13;
+        $clusterFileHandler-&gt;delete();&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+This works nice for me. Just check carefully that SI blocks will also be cached by your Varnish as this may strongly increase charge on your database..&#13;
+&#13;
+Enjoy</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster/re_ezsi_files_var_si_blocks_and_ezdbfileclus</guid>
+      <pubDate>Fri, 04 Jun 2010 09:26:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>default.vcl reference</title>
+      <link>http://projects.ez.no/ezsi/forum/general/default_vcl_reference</link>
+      <description>&#13;
+Any default.vcl example file for ezpublish ? &#13;
+&#13;
+thanks. </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/default_vcl_reference</guid>
+      <pubDate>Thu, 27 May 2010 09:37:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>EZSI files /var/si-blocks/ and ezdbfilecluster...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster</link>
+      <description>&#13;
+Hello, &#13;
+&#13;
+I got multiple frontend, and a db cluster (ezdbcluster) behind. &#13;
+I noticed the ezsi files are stored on the filesystem : var/si-blocks/ ... of my frontend. &#13;
+&#13;
+Is there a way to store them within the ezdbfile / data tables ? &#13;
+&#13;
+thanks. &#13;
+</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/ezsi_files_var_si_blocks_and_ezdbfilecluster</guid>
+      <pubDate>Wed, 19 May 2010 14:22:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: si-blocks are not fetched when using siteac...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac2</link>
+      <description>Super. Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac2</guid>
+      <pubDate>Wed, 21 Apr 2010 12:43:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: si-blocks are not fetched when using siteac...</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac</link>
+      <description>Hi Valentin,&#13;
+&#13;
+As I just wrote in thread http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src , it seems for me not possible use as is (because of relative path). You may need a workaround to make it work (as yours).&#13;
+Maybe a bit easier/smart (as the hack is deported), it's also possible to just handle it in your varnish vcl :&#13;
+&lt;code&gt;&#13;
+set bereq.url = "/";&#13;
+esi;&#13;
+&lt;/code&gt;&#13;
+This will change the seen url for Varnish before parsing tags, and then use the given path to generate ESI requests.&#13;
+&#13;
+Good luck</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri/re_si_blocks_are_not_fetched_when_using_siteac</guid>
+      <pubDate>Wed, 21 Apr 2010 12:24:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>An issue with cronjob (eZSIBlockFunction not found)</title>
+      <link>http://projects.ez.no/ezsi/forum/general/an_issue_with_cronjob_ezsiblockfunction_not_found</link>
+      <description>Hi,&#13;
+&#13;
+Just a small mistake in the cronjob file "siblockupdate.php".&#13;
+On line 150 (trunk), in method "removeFileIfNeeded", a static call on class "eZSIBlockFunction" is made :&#13;
+    $fileHandler = eZSIBlockFunction::loadSIFileHandler();&#13;
+&#13;
+But it seems that this class doesn't exist (any more at least) and can't be found, issuing a fatal error.&#13;
+The class may have been renamed to "eZSiBlockFunction" (with a low "i"), but the reference hasn't been updated. As far as tells the svn this has always been the case (since initial import).</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/an_issue_with_cronjob_ezsiblockfunction_not_found</guid>
+      <pubDate>Wed, 21 Apr 2010 12:12:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src8</link>
+      <description>Hi,&#13;
+&#13;
+&lt;code&gt;I do not think it is a problem to have relative path in your ESI src="" attribute. As long as the file is accessible directly by your browser it should be fetched by Varnish as well. If for example, from your browser you can access http://example.com/./path/../to/../file.html then Varnish should be able to access the file as well.&lt;/code&gt;&#13;
+&#13;
+Indeed it may be.. &#13;
+&#13;
+As defined in ESI specs :&#13;
+&lt;code&gt;Relative URIs will be resolved relative to the template.&lt;/code&gt;&#13;
+&#13;
+eZ Publish handles url aliases but as all requests are managed on web root (via index.php redirection), the real interpretation path remains "/".&#13;
+But for Varnish, a slash in url constitutes a new "subfolder" that makes it a new home to be relative to.&#13;
+&#13;
+Then when you play with pathes deeper than one level, the created esi request will be erraneous as it considers the last slash as a basis path.&#13;
+For an ESI block called from a page named "http://example.com/Folder/Subfolder/The-final-content", that kind of uri will be produced : http://example.com/Folder/Subfolder/var/si-blocks/file.htm , which won't be a valid one.&#13;
+&#13;
+Possible workarounds I see :&#13;
+- Hack the FS handler in ezsiblockfunction.php to make the generated "src" absolute from "/" (Valentin's solution)&#13;
+- Add an Apache rewrite rule to strip the folder path from the ESI request, rewriting them relative to "/" (not very smart..)&#13;
+- Add a dedicated rule in Varnish VCL, to reconsider the base path before parsing esi tags :&#13;
+# Parsing ESI tags&#13;
+set bereq.url = "/";&#13;
+esi;&#13;
+&#13;
+But currently it doesn't seem to me possible to use the FS handler in a host configuration context without one of those workarounds?&#13;
+&#13;
+And right with mod_deflate, I've also lost a few hairs with it... thanks Pablo to point it!</description>
+      <author>community@ez.no (Alexandre Nion)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src8</guid>
+      <pubDate>Wed, 21 Apr 2010 10:30:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>si-blocks are not fetched when using siteaccess in URI</title>
+      <link>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri</link>
+      <description>Hi,&#13;
+I'm trying to install Varnish and eZSI and could not get it work due to I use MathOrder=uri&#13;
+If I visit site like http://host.com/siteaccess/&#13;
+Varnish every time tries to fetch si blocks using siteaccess&#13;
+like http://host.com/siteaccess/var/si-blocks/....&#13;
+&#13;
+This hack resolves it.&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: ezsiblockfunction.php&#13;
+===================================================================&#13;
+--- ezsiblockfunction.php	(revision 54392)&#13;
++++ ezsiblockfunction.php	(working copy)&#13;
+@@ -107,7 +107,7 @@&#13;
+ &#13;
+                     if( $SIFileHandler == 'fs' )&#13;
+                     {&#13;
+-                        $blockFilePathPreprendString = 'var/';&#13;
++                        $blockFilePathPreprendString = '/var/';&#13;
+                     }&#13;
+ &#13;
+                     $filePath = $blockFilePathPreprendString . $cacheDir . '/' . $fileName;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Could you please tip how to configure eZSI or Varnish to get it work without this hack?&#13;
+Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/si_blocks_are_not_fetched_when_using_siteaccess_in_uri</guid>
+      <pubDate>Wed, 21 Apr 2010 09:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 68 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/68</link>
+      <description>- Updated copyright notice with current year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/68</guid>
+      <pubDate>Wed, 24 Mar 2010 09:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 67 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/67</link>
+      <description>- Updated wrong eZ Systems name</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/67</guid>
+      <pubDate>Wed, 24 Mar 2010 09:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src7</link>
+      <description>I want to let you know that I needed to unload mod_deflate to make it works&#13;
+as noticed here : http://www.mail-archive.com/varnish-misc@projects.linpro.no/msg02586.html&#13;
+&#13;
+bye</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src7</guid>
+      <pubDate>Tue, 09 Mar 2010 09:04:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src6</link>
+      <description>Thanks Jérome. &#13;
+&#13;
+I damned, I copy/paste your doc... please change the "tll" to "ttl" in the example ... ###!:p &#13;
+there : &#13;
+{si-block key=string $key [tll=integer $ttl]}</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src6</guid>
+      <pubDate>Thu, 25 Feb 2010 18:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>cache problem</title>
+      <link>http://projects.ez.no/ezsi/forum/general/cache_problem</link>
+      <description>Hi,&#13;
+&#13;
+I would like to know if someone have had already this kind of problem.&#13;
+My esi block is correctly display and the cronjob has also a good configuration (it run all 10 minutes).&#13;
+I make this test: I display the current time in my si-block. The first time I watch the web page, I have the good time, but 10minutes, 20minutes or more, the time have not changed.&#13;
+If I look at the file html include in the si-blosk, the time is good. If I look at my web page in an other browser, it's good for the first time.&#13;
+I think it's a client cache problem.&#13;
+&#13;
+Has someone an idea of how to resolve this?&#13;
+&#13;
+Thank's,&#13;
+&#13;
+Seb&#13;
+</description>
+      <author>community@ez.no (Seb gaillard)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/cache_problem</guid>
+      <pubDate>Tue, 23 Feb 2010 11:24:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src5</link>
+      <description>Hi,&#13;
+I'm trying to install Varnish and eZSI and could not get it work due to I use MathOrder=uri&#13;
+and Varnish everytime tries to fetch si blocks using siteaccess&#13;
+like http://host.com/siteaccess/var/si-blocks/....&#13;
+&#13;
+This hack resolves it.&#13;
+&#13;
+&lt;code&gt;&#13;
+Index: ezsiblockfunction.php&#13;
+===================================================================&#13;
+--- ezsiblockfunction.php	(revision 54392)&#13;
++++ ezsiblockfunction.php	(working copy)&#13;
+@@ -107,7 +107,7 @@&#13;
+ &#13;
+                     if( $SIFileHandler == 'fs' )&#13;
+                     {&#13;
+-                        $blockFilePathPreprendString = 'var/';&#13;
++                        $blockFilePathPreprendString = '/var/';&#13;
+                     }&#13;
+ &#13;
+                     $filePath = $blockFilePathPreprendString . $cacheDir . '/' . $fileName;&#13;
+&lt;/code&gt;&#13;
+&#13;
+Could you please tip how to configure eZSI or Varnish to get it work without this hack?&#13;
+Thanks</description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src5</guid>
+      <pubDate>Mon, 15 Feb 2010 14:03:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 66 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/66</link>
+      <description>- updated CHANGELOG</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/66</guid>
+      <pubDate>Tue, 02 Feb 2010 15:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 65 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/65</link>
+      <description>- Fixed 16015: ezsi race condition gives database transaction error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/65</guid>
+      <pubDate>Tue, 02 Feb 2010 15:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src4</link>
+      <description>Hi Pablo,&#13;
+&#13;
+not sure I understand your question but I'll try to answer :)&#13;
+&#13;
+&lt;code&gt;&#13;
+If -has indicated below- I use the SSI mode, ok it works, but I miss a step : where is varnish ? Ok the EZSI store the content, generate the static html file, and add the include in the html view, so apache mode_filter & mod_include include the html file (which has a right ./var/site-blocks... url).
+</code>
+There is a misunderstanding here. Varnish can not parse SSI tags, but only ESI ones.
+The difference between SSI and ESI is (to sum up) the syntax. For example we could use the following SSI code to include a file:
+<code>
+<!--#include file=path/to/file.html -->
+</code>
+
+And the following ESI code to do the same thing:
+<code>
+<esi:include src="path/to/file.html" ttl="2h" onerror="continue"/>
+</code>
+
+SSI tags can only be parsed by Apache whereas an ESI tag can be parsed by Akamai or Varnish.
+
+<code>
+I noticed here :
+http://varnish.projects.linpro.no/wiki/ESIfeatures
+sub vcl_fetch {
+if (req.url == "/test.html") {
+esi; /* Do ESI processing */&#13;
+set obj.ttl = 24 h;&#13;
+} elseif (req.url == "/cgi-bin/date.cgi") {&#13;
+set obj.ttl = 1m;&#13;
+}&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Varnish does not parse the ttl attribute returned by eZSI so you will have to define the TTL by yourself in your VCL file. As explained in the example, if the user requests the /test.html page then the ESI engine will be turned on, an apply any &lt;esi:include&gt; instruction found.&#13;
+&#13;
+I do not think it is a problem to have relative path in your ESI src="" attribute. As long as the file is accessible directly by your browser it should be fetched by Varnish as well. If for example, from your browser you can access http://example.com/./path/../to/../file.html&#13;
+then Varnish should be able to access the file as well.&#13;
+&#13;
+If not, check your Apache configuration, either something is misconfigured or a RewriteRule is missing.&#13;
+&#13;
+Please also note that using relative path can be a security issue.&#13;
+&#13;
+Best Regards.</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src4</guid>
+      <pubDate>Tue, 12 Jan 2010 12:34:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Blocks not showing - wrong src?</title>
+      <link>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src3</link>
+      <description>Hello Jérome. (salut !) &#13;
+&#13;
+same question.&#13;
+with the esi mode I generate a link which can't work var/si-blocks... as it is relative. &#13;
+&#13;
+If -has indicated below- I use the SSI mode, ok it works, but I miss a step : where is varnish ? Ok the EZSI store the content, generate the static html file, and add the include in the html view, so apache mode_filter & mod_include  include the html file (which has a right ./var/site-blocks... url). 
+
+So I obviously miss a step : where is varnish there ? 
+If I switched back to ESI Mode => varnish. 
+The link to the var/si-block won't work anymore. 
+What are the rules to put in the varnish vcl config ? 
+
+I noticed here : 
+http://varnish.projects.linpro.no/wiki/ESIfeatures
+sub vcl_fetch {
+    if (req.url == "/test.html") {
+        esi;  /* Do ESI processing */&#13;
+        set obj.ttl = 24 h;&#13;
+    } elseif (req.url == "/cgi-bin/date.cgi") {&#13;
+        set obj.ttl = 1m;&#13;
+    }&#13;
+}&#13;
+&#13;
+Ok I understand well that Varnish should only get the date.cgi but in our case the url is not working (again a relative url var/si-blocks). BTW I'm using URI siteaccess. &#13;
+Thanks for you help, I'd like to quickly validate the Varnish / ESI team. &#13;
+Thanks for your extension. &#13;
+&#13;
+ </description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/blocks_not_showing_wrong_src/re_blocks_not_showing_wrong_src3</guid>
+      <pubDate>Wed, 06 Jan 2010 15:46:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 64 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/64</link>
+      <description>- Removing empty .sql and .dba files
+
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/64</guid>
+      <pubDate>Wed, 25 Nov 2009 09:55:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 63 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezsi/subversion/63</link>
+      <description>- Added flag to create a tarball for this extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/63</guid>
+      <pubDate>Thu, 12 Nov 2009 13:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 62 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/62</link>
+      <description>- renamed changelog file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/62</guid>
+      <pubDate>Mon, 09 Nov 2009 18:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi 1.1 released</title>
+      <link>http://projects.ez.no/ezsi/news/ezsi_1_1_released</link>
+      <description>&lt;p&gt;It was actually released in june, anywhow...&lt;/p&gt;&lt;p&gt;Changes:&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;rev. 19 : Updated keyIsValid and ttlIsValid visibility&lt;/li&gt;
+
+&lt;li&gt;rev. 20 : Added PHPUnit tests&lt;/li&gt;
+
+&lt;li&gt;rev. 21 : Delete si module&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/news/ezsi_1_1_released</guid>
+      <pubDate>Mon, 09 Nov 2009 18:35:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsi rev. 61 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezsi/subversion/61</link>
+      <description>- spelling improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsi/subversion/61</guid>
+      <pubDate>Mon, 09 Nov 2009 18:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: move location of generated si-blocks</title>
+      <link>http://projects.ez.no/ezsi/forum/general/feat_request_move_location_of_generated_si_blocks</link>
+      <description>As they are basically cache blocks, I think they should be stored inside the cache dir.&#13;
+&#13;
+Proposed location: var/cache/public/si-blocks, or  var/siteaccess/cache/public/si-blocks</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/feat_request_move_location_of_generated_si_blocks</guid>
+      <pubDate>Mon, 09 Nov 2009 18:07:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: expiring a block on-demand</title>
+      <link>http://projects.ez.no/ezsi/forum/general/feat_request_expiring_a_block_on_demand</link>
+      <description>This could be done via script, or via a nice gui.&#13;
+Taking as input the name of the tpl where the block is defined and its key (and optionally lineno), the code should be able to figure out which lines in the ezsi table are involved and alter their mtime so that they get regenerated on the next pass of the cronjob.&#13;
+&#13;
+Of course having a tab in the admin interface would also be a nice way to keep the evolution of ezsi caches under control...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsi/forum/general/feat_request_expiring_a_block_on_demand</guid>
+      <pubDate>Mon, 09 Nov 2009 18:05:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

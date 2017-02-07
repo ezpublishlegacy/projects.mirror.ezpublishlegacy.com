@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezdatetimeselect / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:34:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:34:37 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/32985" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/ezdatetimeselect/news/changelog</link>
+      <description>&lt;p&gt;
+0.2&lt;br /&gt;
+ ----&lt;br /&gt;
+ Fixed the problem causing the calendar not to display correctly in the&lt;br /&gt;
+ user interface. Did this by adding a new css file called&lt;br /&gt;
+ classesfix.css to override the lines in the&lt;br /&gt;
+ ezroot/design/base/stylesheets/classes.css file that were causing the&lt;br /&gt;
+ problem. These were:&lt;br /&gt;
+ /* CALENDAR */&lt;br /&gt;
+ div.calendar table&lt;br /&gt;
+ {&lt;br /&gt;
+ width: 100%;&lt;br /&gt;
+ }&lt;br /&gt;
+ div.calendar td&lt;br /&gt;
+ {&lt;br /&gt;
+ padding: 0 2px 0 2px;&lt;br /&gt;
+ text-align: center;&lt;br /&gt;
+ font-size: 0.7em;&lt;br /&gt;
+ }&lt;br /&gt;
+ 0.3 &lt;br /&gt;
+ ----&lt;br /&gt;
+ Calendar now initializes to the previously entered date, if there is&lt;br /&gt;
+ one.&lt;br /&gt;
+ Changed the calendar icon for a slightly nicer one. Old one is still in the&lt;br /&gt;
+ images folder if anyone prefers that one.&lt;br /&gt;
+ 0.4&lt;br /&gt;
+ ----&lt;br /&gt;
+ Calendar now initializes to the previously entered date or a newly selected&lt;br /&gt; date when reopened.&lt;/p&gt;</description>
+      <author>community@ez.no (Fraser Hore)</author>
+      <guid>http://projects.ez.no/ezdatetimeselect/news/changelog</guid>
+      <pubDate>Wed, 11 Jan 2006 23:56:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

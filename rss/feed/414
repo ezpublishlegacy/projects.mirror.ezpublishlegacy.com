@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsurvey / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:27:24 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:27:24 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/414" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bug report: javascript error in override template</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/bug_report_javascript_error_in_override_template</link>
+      <description>In future editions of ezsurvey, please fix /extension/ezsurvey/design/admin2/override/templates/fulll/survey.tpl so that this line...&#13;
+&#13;
+$js_class_languages = $node.object.content_class.prioritized_languages_js_array&#13;
+&#13;
+...is edited to this...&#13;
+&#13;
+$js_class_languages = $node.object.content_class.prioritized_languages_js_array|explode( '"' )|implode( '\'' )&#13;
+&#13;
+Otherwise the json string uses double quotes and this generates a javascript error (in IE at least; Chrome and FF appear to autocorrect this problem).</description>
+      <author>community@ez.no (David Wirth)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/bug_report_javascript_error_in_override_template</guid>
+      <pubDate>Mon, 18 Jun 2012 17:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mirror of entire ezsurvey extension repository on GitHub!</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/mirror_of_entire_ezsurvey_extension_repository_on_github</link>
+      <description>Hello eZ Community using ezsurvey extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/ezsurvey&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r8 | xrow | 2007-04-05 00:55:24 -0500 (Thu, 05 Apr 2007).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting&#13;
+</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/mirror_of_entire_ezsurvey_extension_repository_on_github</guid>
+      <pubDate>Sat, 24 Mar 2012 23:27:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suggestion about error message.</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/suggestion_about_error_message</link>
+      <description>Firstly, thanks you guys develop this amazing extension. I have a suggestion for this extension.&#13;
+For now ezsurvey put the error messages at the begin of the form. When i used ezsurvey in our project, the customer always demand putting the error message near the question (Above or below).  So i have to put error message for each question if the answer for that question is wrong.  Consider following code snippet:&#13;
+&#13;
+&lt;div&gt;&#13;
+   &lt;label&gt;What your email?&#13;
+        &lt;span&gt;Please answer this question as well&lt;/span&gt; &lt;!-- This is error message --&gt;&#13;
+   &lt;/label&gt;&#13;
+   &lt;input type="text" name="some name" value="" /&gt;&#13;
+&lt;/div&gt;&#13;
+&#13;
+So, we got error message nearby the question.  And the user can quickly know what kind of problem with his input and where is problem. I think it is better for user's experience.&#13;
+</description>
+      <author>community@ez.no (Cavin Deng)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/suggestion_about_error_message</guid>
+      <pubDate>Thu, 03 Mar 2011 03:41:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to get past the setup wizard</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/unable_to_get_past_the_setup_wizard</link>
+      <description>I've experienced this on a couple of sites now after upgrading both ez publish and ezsurvey.  &#13;
+I get forced back to /survey/wizard and find myself unable to select the parent folder for the survey attributes.&#13;
+&#13;
+Any else experience this or have an idea on a work around?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/unable_to_get_past_the_setup_wizard</guid>
+      <pubDate>Wed, 18 Aug 2010 06:08:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: PHP Fatal error:  Call to undefined functio...</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/php_fatal_error_call_to_undefined_function_templateinit/re_php_fatal_error_call_to_undefined_functio</link>
+      <description>Thanks Pierre&#13;
+&#13;
+I experienced this also and found your fix worked.  Did you report this bug?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/php_fatal_error_call_to_undefined_function_templateinit/re_php_fatal_error_call_to_undefined_functio</guid>
+      <pubDate>Wed, 18 Aug 2010 06:02:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP Fatal error:  Call to undefined function templateInit()</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/php_fatal_error_call_to_undefined_function_templateinit</link>
+      <description>When I was submiting the survey I had a ugly ez publish error, and in the apache I had this error:&#13;
+&#13;
+&lt;b&gt;PHP Fatal error:  Call to undefined function templateInit() in /var/.../ezpublish-4.3.0/..../ezsurvey/datatypes/ezsurvey/ezsurveytype.php on line 377&lt;/b&gt;&#13;
+&#13;
+To solve this i change the line 377 from:&#13;
+&lt;code&gt;&#13;
+$tpl_email = templateInit();&#13;
+ &lt;/code&gt;&#13;
+to:&#13;
+ &lt;code&gt;&#13;
+$tpl_email = eZTemplate::instance();&#13;
+ &lt;/code&gt;&#13;
+and work fine.&#13;
+&#13;
+Ez survey Version 2.1-1&#13;
+Ez publish 4.3&#13;
+&#13;
+PiR</description>
+      <author>community@ez.no (Pierre Tissot)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/php_fatal_error_call_to_undefined_function_templateinit</guid>
+      <pubDate>Thu, 03 Jun 2010 09:37:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is this project still opened ?</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened/re_is_this_project_still_opened2</link>
+      <description>http://projects.ez.no/ezsurvey_ezp4&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened/re_is_this_project_still_opened2</guid>
+      <pubDate>Mon, 24 Nov 2008 10:14:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Download link</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/download_link/re_download_link</link>
+      <description>http://projects.ez.no/ezsurvey_ezp4&#13;
+http://projects.ez.no/content/download/9760/43628/version/1/file/ezsurvey-extension-2.0-1.zip&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/download_link/re_download_link</guid>
+      <pubDate>Mon, 24 Nov 2008 10:13:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Download link</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/download_link</link>
+      <description>I can't find download link for eZ Survey, can someone please help me on this?&#13;
+&#13;
+</description>
+      <author>community@ez.no (Neidy Tunzine)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/download_link</guid>
+      <pubDate>Fri, 31 Oct 2008 09:18:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Is this project still opened ?</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened/re_is_this_project_still_opened</link>
+      <description>serach for ezsurvey_ezp4, you will find the new version</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened/re_is_this_project_still_opened</guid>
+      <pubDate>Fri, 19 Sep 2008 12:40:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is this project still opened ?</title>
+      <link>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened</link>
+      <description>I'm interesting by Ez Survey, and i would like to use it with Ez Publish 4.&#13;
+I have found this project, but it seems to have no activity. Is this project still opened ?</description>
+      <author>community@ez.no (stéphane dronneau)</author>
+      <guid>http://projects.ez.no/ezsurvey/forum/general/is_this_project_still_opened</guid>
+      <pubDate>Tue, 05 Feb 2008 17:53:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

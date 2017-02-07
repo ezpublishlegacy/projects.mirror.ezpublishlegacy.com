@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezvim / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:54:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:54:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/368" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Problem of installation</title>
+      <link>http://projects.ez.no/ezvim/forum/general/problem_of_installation</link>
+      <description>Hello,&#13;
+&#13;
+I have error message after # order :cv http://url_mon_projet&#13;
+&lt;code&gt;&#13;
+Erreur détectée en traitant function Ezcv :&#13;
+ligne 52 :&#13;
+Traceback (most recent call last):&#13;
+File "&lt;string&gt;", line 1, in &lt;module&gt;&#13;
+File "/home/stephane/.vim/plugin/ez.py", line 49, in eZClassesView&#13;
+class_txt = eZClassText(cl)&#13;
+File "/home/stephane/.vim/plugin/ez.py", line 79, in eZClassText&#13;
+class_txt = str(class_name) +' #'+str(class_numeric_id)&#13;
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe8' in position 3:&#13;
+ordinal not in range(128)&#13;
+&lt;/code&gt;&#13;
+&#13;
+I use ubuntu 9.10 with VIM 7.2.245 and my project is with eZ 4.2.&#13;
+&#13;
+Thank in avance for some advice.</description>
+      <author>community@ez.no (Stéphane Bullier)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/problem_of_installation</guid>
+      <pubDate>Sun, 06 Dec 2009 19:28:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error</title>
+      <link>http://projects.ez.no/ezvim/forum/general/error/re_error</link>
+      <description>There is a bug if you have non-Ascii caracters. I made a patch for it. This is needed if you have for example german Umlauts.&#13;
+&#13;
+&lt;code&gt;&#13;
+--- ez.py.old   2009-03-12 13:14:24.000000000 +0100&#13;
++++ ez.py       2009-03-13 15:54:35.000000000 +0100&#13;
+@@ -76,7 +76,7 @@ def eZClassText(cl):&#13;
+     class_name = cl.getAttribute('name')&#13;
+     class_identifier = cl.getAttribute('identifier')&#13;
+     class_numeric_id = cl.getAttribute('id')&#13;
+-    class_txt = str(class_name) +' #'+str(class_numeric_id)&#13;
++    class_txt = str(class_name.encode('utf-8')) +' #'+str(class_numeric_id)&#13;
+     class_txt = class_txt+' ['+str(class_identifier)+']'&#13;
+     return class_txt&#13;
+  &#13;
+@@ -91,7 +91,7 @@ def eZAttributeClass(attr):&#13;
+     if attr_required :&#13;
+         attr_prefix = '+'&#13;
+     attr_txt = '    '+attr_prefix+' '+str(attr_id)+' '&#13;
+-    attr_txt = attr_txt+str(attr_name)+' #'+str(attr_numeric_id)&#13;
++    attr_txt = attr_txt+str(attr_name.encode('utf-8'))+' #'+str(attr_numeric_id)&#13;
+     attr_txt = attr_txt+' ['+str(attr_type)+']'&#13;
+     return attr_txt&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Andreas Adelsberger)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/error/re_error</guid>
+      <pubDate>Fri, 13 Mar 2009 15:16:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error</title>
+      <link>http://projects.ez.no/ezvim/forum/general/error</link>
+      <description>Hi, &#13;
+&#13;
+I just tried your extension. When i want to load the classes this error occurs:&#13;
+&#13;
+Fehler beim Ausführen von "function Ezcv":&#13;
+Zeile   52:&#13;
+Traceback (most recent call last):&#13;
+  File "&lt;string&gt;", line 1, in &lt;module&gt;&#13;
+  File "/home/punknroll/.vim/plugin/ez.py", line 53, in eZClassesView&#13;
+    attr_txt = eZAttributeClass(attr)&#13;
+  File "/home/punknroll/.vim/plugin/ez.py", line 94, in eZAttributeClass&#13;
+    attr_txt = attr_txt+str(attr_name)+' #'+str(attr_numeric_id)&#13;
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 18: ordinal not in range(128)&#13;
+&#13;
+----------------------------------------&#13;
+any idea?&#13;
+&#13;
+thanx in advance</description>
+      <author>community@ez.no (Andreas Adelsberger)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/error</guid>
+      <pubDate>Thu, 12 Mar 2009 08:15:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>E28: No such highlight group name: Error / __ /</title>
+      <link>http://projects.ez.no/ezvim/forum/general/e28_no_such_highlight_group_name_error</link>
+      <description>Thank you--I very much look forward to enjoying ezvim.&#13;
+&#13;
+After installing it version 0.2, however, I get this error when I try to edit an existing or new .tpl file:&#13;
+&#13;
+Error detected while processing function EzTplEnvironment:&#13;
+line    7:&#13;
+E28: No such highlight group name: Error / __ /&#13;
+&#13;
+Is there a quick fix? Thanks!</description>
+      <author>community@ez.no (Greg McAvoy-Jensen)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/e28_no_such_highlight_group_name_error</guid>
+      <pubDate>Sat, 17 Jan 2009 19:39:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: VIM version compatibility  </title>
+      <link>http://projects.ez.no/ezvim/forum/general/vim_version_compatibility/re_vim_version_compatibility</link>
+      <description>Hi Brendan,&#13;
+&#13;
+Sorry for delay, I did not notice your message until today :(&#13;
+&#13;
+I've just released a new version that works well with vim 7.1 (I'm using this version too).&#13;
+As mentionned on the project page, you need the python scripting langage for vim to use this plugin. With Debian or Ubuntu, you must install vim-python package.&#13;
+&#13;
+Cheers!</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/vim_version_compatibility/re_vim_version_compatibility</guid>
+      <pubDate>Fri, 16 Jan 2009 23:28:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>VIM version compatibility  </title>
+      <link>http://projects.ez.no/ezvim/forum/general/vim_version_compatibility</link>
+      <description>Hi, just wondering if your extension is compatible with VIM 7.1 still.&#13;
+&#13;
+I get the following error: &#13;
+Error detected while processing /home/brendan/.vim/plugin/ez.vim:&#13;
+line   48:&#13;
+E319: Sorry, the command is not available in this version: pyf /home/brendan/.vim/plugin/ez.py&#13;
+Press ENTER or type command to continue&#13;
+&#13;
+Have I mis-configured something?&#13;
+</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/vim_version_compatibility</guid>
+      <pubDate>Wed, 09 Jul 2008 05:07:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Great extension !!</title>
+      <link>http://projects.ez.no/ezvim/forum/general/great_extension/re_great_extension</link>
+      <description>Hi Michael&#13;
+&#13;
+&#13;
+&gt; Custom operators view sidebar - what's that for? is it for the custom template operators?&#13;
+My first idea was to make a sidebar displaying extensions providing custom operator(s) that you can "unfold" to view those operators and there arguments.&#13;
+&#13;
+I'm also thinking about a sidebar where you can view informations about all operators.&#13;
+&#13;
+&gt; Besides, is it possible to format the template, SQL script and php code automatically according to eZ publish standards? &#13;
+it's a good idea, I add it to my TODO list.&#13;
+&#13;
+Thank you very much for you comments !</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/great_extension/re_great_extension</guid>
+      <pubDate>Sun, 15 Apr 2007 13:00:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Great extension !!</title>
+      <link>http://projects.ez.no/ezvim/forum/general/great_extension</link>
+      <description>I love this extension and vim is my favorite editor :) &#13;
+I'm looking forward to your new features below&#13;
+    * Specific vim syntax highlight for eZ Template - I have been waiting for it for a long time &#13;
+    * Template validation on save - that's a great idea&#13;
+    * Custom operators view sidebar - what's that for? is it for the custom template operators?&#13;
+&#13;
+Besides, is it possible to format the template, SQL script and php code automatically according to eZ publish standards?  &#13;
+&#13;
+Please refer to :&#13;
+http://ez.no/ezpublish/documentation/development/standards/php&#13;
+http://ez.no/ezpublish/documentation/development/standards/template&#13;
+http://ez.no/ezpublish/documentation/development/standards/sql&#13;
+&#13;
+Many thanks in advance&#13;
+&#13;
+it's really a great extension :)</description>
+      <author>community@ez.no (Michael Lee)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/great_extension</guid>
+      <pubDate>Thu, 12 Apr 2007 11:45:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Do you need the extension ?</title>
+      <link>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension/re_do_you_need_the_extension2</link>
+      <description>Neat! These features are a compelling reason to work smarter by using vim empowered with ezvim :)&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Eminem - Final Thought&lt;/i&gt;&#13;
+&#13;
+Ps. What's up with the forum text markup (as advertised not working...) on the eZ projects' threads?</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension/re_do_you_need_the_extension2</guid>
+      <pubDate>Wed, 11 Apr 2007 12:15:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Do you need the extension ?</title>
+      <link>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension/re_do_you_need_the_extension</link>
+      <description>Hi Xavier,&#13;
+&#13;
+&gt; If I don't have the extension, I can still have your shortcuts, don't I ?&#13;
+You can use eZVim without the SmileClasses eZ Publish extension. Obviously, in this configuration, you can't use the sidebar (Classes View), but vim abbreviations work without problem.&#13;
+&#13;
+&gt; Bravo !&#13;
+Merci ;-)&#13;
+</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension/re_do_you_need_the_extension</guid>
+      <pubDate>Mon, 09 Apr 2007 23:03:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do you need the extension ?</title>
+      <link>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension</link>
+      <description>Hi,&#13;
+&#13;
+If I don't have the extension, I can still have your shortcuts, don't I ?&#13;
+&#13;
+Bravo !</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ezvim/forum/general/do_you_need_the_extension</guid>
+      <pubDate>Mon, 09 Apr 2007 21:36:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezonrails / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26531" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZOnRails 0.2 released</title>
+      <link>http://projects.ez.no/ezonrails/news/ezonrails_0_2_released</link>
+      <description>&lt;p&gt;Now with support for automatically registering existing php methods as fetch functions!&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezonrails/news/ezonrails_0_2_released</guid>
+      <pubDate>Fri, 14 Oct 2011 21:56:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZOnRails 0.1 released</title>
+      <link>http://projects.ez.no/ezonrails/news/ezonrails_0_1_released</link>
+      <description>&lt;p&gt;How it works:&lt;/p&gt;&lt;p&gt;
+1. create php class "goofy", with a method "index", drop it in the the controllers dir.&lt;br /&gt;
+2. that method will be executed when the user browses to http://ez.server/etc/index.php/siteaccess/ezonrails/goofy&lt;br /&gt;
+3. now add a method "action1" to the "goofy" class&lt;br /&gt;
+4. that method will be executed when the user browses to http://ez.server/etc/index.php/siteaccess/ezonrails/goofy/action1&lt;br /&gt;
+5. back to step 3&lt;br /&gt;6. do not forget to assign execution permissions on your new methods (module: ezonrails). NB: whenever you add a new method to a controller class, be sure to clean all caches before trying to add a permission to execute it, as the list of available controllers and actions is cached for speed&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezonrails/news/ezonrails_0_1_released</guid>
+      <pubDate>Tue, 22 Jun 2010 16:09:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

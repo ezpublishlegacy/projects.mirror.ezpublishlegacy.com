@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezflowplayer / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:07:09 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:07:09 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15087" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Live streaming</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming3</link>
+      <description>Hi Brendan,&#13;
+&#13;
+we're using Wowza Media Server with RTMP Steaming and JW Player to display the content. &#13;
+&#13;
+The JW player also supports bandwith detection and switching:&#13;
+&#13;
+Examples:&#13;
+http://www.all2e.com/Showcase/Streaming-Video-mit-eZ-Publish&#13;
+http://www.musikmachen.de/Lernen/Workshops/Videoworkshop-Lick-of-the-Week-Open-String-Scales&#13;
+&#13;
+To convert the input files to a valid streaming format we made a datatype which uses an external service to convert the videos. So there's no problem with user-generated content and the different formats.</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming3</guid>
+      <pubDate>Tue, 27 Jul 2010 10:49:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Live streaming</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming2</link>
+      <description>I hope you manage to get the live stream support done as I'm hoping to use this as a part of a project I'm working on.&#13;
+&#13;
+It looks like Red5 is getting live stream support now too, check the features in Red5 0.9.0.&#13;
+http://red5.googlecode.com/svn/doc/trunk/changelog.txt&#13;
+&#13;
+I don't think it will be too hard to get dvswitch to stream to either Red5 or Wowza, I couldn't see a way to get Icecast to live stream to an embedded flash player so I changed focus and will play with Red5 soon.&#13;
+&#13;
+I'll keep an eye on the improved eZmedia project, could be fruitful.&#13;
+&#13;
+If I manage to make some progress I'll let you know how I get on.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming2</guid>
+      <pubDate>Thu, 10 Sep 2009 06:10:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Live streaming</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming</link>
+      <description>Thanks Brendan&#13;
+The live stream feature is not fully implemented yet. But im working on it. I have worked mostly with Windows media and Apple live streams earlier, so flash is new to me. Will test it against wowza streaming server.&#13;
+&#13;
+Dvswitch was a really cool thing, been playing a little with it here myself now. Great find! This might get usefull. You should be able to pickup the stream and send it to a flash streaming server, i'll let you know if i get it to work. &#13;
+I am considering if i should use the ezflowplayer code and making it a streaming product to support several other formats. I know ezmedia supports several formats, but they dont support proper streaming servers. That was the reason i started with flowplayer. &#13;
+Wowza will support apple, windows and flash in the next version. Will consider icecast also if i go that way. Maybe we can get it to support several live streams at the same time:) &#13;
+&#13;
+A while back i did a open funding project to write a spec for a better media support for eZ. Maybe its time to go further on that now..http://ez.no/developer/open_funding/suggestions_for_new_functionality/ez_media_improvements</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/live_streaming/re_live_streaming</guid>
+      <pubDate>Thu, 10 Sep 2009 05:52:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Live streaming</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/live_streaming</link>
+      <description>Hi Pål&#13;
+&#13;
+Thanks for the great extension.  I'm considering using it for displaying a live stream which I will be generating from a Debian machine using DVSwitch http://dvswitch.alioth.debian.org and I was wondering if you have any experience or advice with live streams?&#13;
+&#13;
+I've only just started to research what I'll need to do this, initially I was intending to use ffmpeg2theora to convert my output then point it at an icecast server, but it doesn't appear that Flowplayer is yet able to support theora streams.&#13;
+&#13;
+Any ideas for me?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/live_streaming</guid>
+      <pubDate>Thu, 03 Sep 2009 07:22:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can't wait for it.</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/can_t_wait_for_it/re_can_t_wait_for_it</link>
+      <description>Got some plans for several different templates here. One of them are play lists. From there we can get a recommendations screen, maybe we can use relation functions within eZ to fix it.</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/can_t_wait_for_it/re_can_t_wait_for_it</guid>
+      <pubDate>Tue, 14 Apr 2009 11:46:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looks nice !</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/looks_nice</link>
+      <description>Seems like a extension that I need :)</description>
+      <author>community@ez.no (Erland Flaten)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/looks_nice</guid>
+      <pubDate>Mon, 13 Apr 2009 20:26:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't wait for it.</title>
+      <link>http://projects.ez.no/ezflowplayer/forum/general/can_t_wait_for_it</link>
+      <description>Hi :)&#13;
+&#13;
+It looks very good! I can't wait for it. :)&#13;
+&#13;
+If possible, the "recommendations screen" after viewing a movie is nice, using maybe an xml listing all previously uploaded movies. I think Flow player supports it.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Noicokuna Niemoge)</author>
+      <guid>http://projects.ez.no/ezflowplayer/forum/general/can_t_wait_for_it</guid>
+      <pubDate>Wed, 08 Apr 2009 07:52:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

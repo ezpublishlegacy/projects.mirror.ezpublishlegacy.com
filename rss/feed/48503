@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / eztagmaps</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:09:48 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:09:48 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/48503" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztagmaps/source/bc62c45ce3cae0c3128ee21c9fb5097d48b7efd7</link>
+      <description>
+      &lt;pre&gt;m INSTALL.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update INSTALL.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztagmaps/source/bc62c45ce3cae0c3128ee21c9fb5097d48b7efd7</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztagmaps/source/f982000ee4b5b5447c5d7f3cf5ed24f3294e3a1c</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztagmaps/source/f982000ee4b5b5447c5d7f3cf5ed24f3294e3a1c</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztagmaps/source/d727fe7e911093e0473d3009e46fc129aa77396c</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztagmaps/source/d727fe7e911093e0473d3009e46fc129aa77396c</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztagmaps/source/b9fb0d0dda63379138c23a2f6d1e49b5f3d505ec</link>
+      <description>
+      &lt;pre&gt;+ INSTALL.md
+m README.md
+m autoloads/templateget_objects_by_tagoperator.php
+m classes/ezgeocode.php
+m design/standard/templates/content/datatype/view/ezxmltags/tagmap.tpl
+m settings/content.ini.append.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Beta release version
+
+Added cache for geocode
+Added installation instructions&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztagmaps/source/b9fb0d0dda63379138c23a2f6d1e49b5f3d505ec</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/eztagmaps/source/2e2e936b8d17ed1b28752e1ed8d120f1e22ea0f2</link>
+      <description>
+      &lt;pre&gt;+ .gitattributes
++ .gitignore
++ README.md
++ autoloads/eztemplateautoload.php
++ autoloads/templateget_objects_by_tagoperator.php
++ classes/ezgeocode.php
++ design/standard/templates/content/datatype/view/ezxmltags/tagmap.tpl
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/site.ini.append.php
++ settings/template.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/eztagmaps/source/2e2e936b8d17ed1b28752e1ed8d120f1e22ea0f2</guid>
+      <pubDate>Mon, 19 Nov 2012 10:42:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

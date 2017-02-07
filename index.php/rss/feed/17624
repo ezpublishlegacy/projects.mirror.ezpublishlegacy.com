@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ntags / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:14:33 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:14:33 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17624" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: html errors</title>
+      <link>http://projects.ez.no/ntags/forum/general/html_errors/re_html_errors</link>
+      <description>Thank you very much for the report. It seems there are quite a few HTML errors in taglist.tpl. I'll fix them for the next release.</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/forum/general/html_errors/re_html_errors</guid>
+      <pubDate>Mon, 27 Jul 2009 13:21:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>html errors</title>
+      <link>http://projects.ez.no/ntags/forum/general/html_errors</link>
+      <description>Nice extension :)&#13;
+I believe there is a few html errors though, unclosed tags etc. which are causing the admin interface to degrade.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ntags/forum/general/html_errors</guid>
+      <pubDate>Sun, 26 Jul 2009 03:57:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Tagging images during OE upload</title>
+      <link>http://projects.ez.no/ntags/forum/general/tagging_images_during_oe_upload/re_tagging_images_during_oe_upload</link>
+      <description>Awesome! Thanks for the prompt enhancement. I guess we can all look forward to version 5.0! :)</description>
+      <author>community@ez.no (Leif Arne Storset)</author>
+      <guid>http://projects.ez.no/ntags/forum/general/tagging_images_during_oe_upload/re_tagging_images_during_oe_upload</guid>
+      <pubDate>Mon, 20 Jul 2009 22:40:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tagging images during OE upload</title>
+      <link>http://projects.ez.no/ntags/forum/general/tagging_images_during_oe_upload</link>
+      <description>Good idea, here is a patch for the upload.php view to support ezkeyword datatypes:&#13;
+&lt;code&gt;&#13;
+Index: ezoe/modules/ezoe/upload.php&#13;
+===================================================================&#13;
+--- ezoe/modules/ezoe/upload.php	(revision 33)&#13;
++++ ezoe/modules/ezoe/upload.php	(working copy)&#13;
+@@ -145,6 +145,10 @@&#13;
+                         $content-&gt;setAttribute( 'alternative_text', trim( $http-&gt;postVariable( $base ) ) );&#13;
+                         $content-&gt;store();&#13;
+                         break;&#13;
++                    case 'ezkeyword':&#13;
++                        $newObjectDataMap[$key]-&gt;fromString( $http-&gt;postVariable( $base ) );&#13;
++                        $newObjectDataMap[$key]-&gt;store();&#13;
++                        break;&#13;
+                     case 'ezxmltext':&#13;
+                         $text = trim( $http-&gt;postVariable( $base ) );&#13;
+                         include_once( 'extension/ezoe/ezxmltext/handlers/input/ezoeinputparser.php' );&#13;
+&lt;/code&gt;&#13;
+&#13;
+The next thing you'll need is to override templates/ezoe/upload_images.tpl ( look for ContentObjectAttribute_caption, and add ContentObjectAttribute_tags for keywords ).&#13;
+&#13;
+This patch++ might show up in ezoe/trunk quite soon..&#13;
+&#13;
+UPDATE: done http://issues.ez.no/IssueView.php?Id=15139</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ntags/forum/general/tagging_images_during_oe_upload</guid>
+      <pubDate>Tue, 07 Jul 2009 08:53:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

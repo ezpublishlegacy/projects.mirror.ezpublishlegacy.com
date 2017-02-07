@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_twitter / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:33:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:33:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/39235" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/7efefc3392db01fe88c761500a0ace8eb6022c43</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated twitteroauth library to latest version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/7efefc3392db01fe88c761500a0ace8eb6022c43</guid>
+      <pubDate>Sun, 31 Aug 2014 20:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/e8bf5ef80f37278a62d9ef4430c0d563332dbdf1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Replaced call to ezi18n with ezpI18n::tr for greater eZ Publish 5 support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/e8bf5ef80f37278a62d9ef4430c0d563332dbdf1</guid>
+      <pubDate>Sun, 31 Aug 2014 18:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/d6ee1ddb8bdca6abbe3b8d04475e0c0c4b23c984</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Updated twitter api support from v1 to v1.1 in twitteroauth lib&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/d6ee1ddb8bdca6abbe3b8d04475e0c0c4b23c984</guid>
+      <pubDate>Sun, 31 Aug 2014 18:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/3a43a31a12dc719ec083b84c838bb18f96c0a430</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated: Moved extensions into root of repository&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/3a43a31a12dc719ec083b84c838bb18f96c0a430</guid>
+      <pubDate>Sun, 31 Aug 2014 18:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_twitter rev. 2 by Serhey Dolgushev</title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/2</link>
+      <description>changes for 2011.8</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/2</guid>
+      <pubDate>Mon, 19 Sep 2011 08:30:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_twitter rev. 1 by Serhey Dolgushev</title>
+      <link>http://projects.ez.no/nxc_twitter/subversion/1</link>
+      <description>Init</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_twitter/subversion/1</guid>
+      <pubDate>Tue, 07 Dec 2010 09:32:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

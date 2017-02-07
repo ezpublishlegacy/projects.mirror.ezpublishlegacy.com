@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezgmaplocation / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:12 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:12 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18199" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/96cbe91a26a9b57d5fd917a49d0c86cbc561d114</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-24112 - Avoid mixed content blocking in the GMapLocation attribute when using pages over HTTPS
+
+Fixes #21&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/96cbe91a26a9b57d5fd917a49d0c86cbc561d114</guid>
+      <pubDate>Tue, 10 Mar 2015 09:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/eafae099bf3bbf0bbf8d686e6aaf0e39e9715dcf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/eafae099bf3bbf0bbf8d686e6aaf0e39e9715dcf</guid>
+      <pubDate>Mon, 03 Nov 2014 15:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/0cdae7a58a3dd651f9aabc5c32214abc9e0a1958</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update copyright info on old headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/0cdae7a58a3dd651f9aabc5c32214abc9e0a1958</guid>
+      <pubDate>Tue, 20 May 2014 20:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/91948f6d14de3848c2ff397221421635e6e345f6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated legacy extension package name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/91948f6d14de3848c2ff397221421635e6e345f6</guid>
+      <pubDate>Thu, 15 May 2014 09:50:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/35c5d53343a4860af40461b4f26562d4b1858614</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update to include original author again&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/35c5d53343a4860af40461b4f26562d4b1858614</guid>
+      <pubDate>Thu, 15 May 2014 09:30:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/966417f1db93f666c1f6a5935ef0e96799b256a3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/966417f1db93f666c1f6a5935ef0e96799b256a3</guid>
+      <pubDate>Thu, 15 May 2014 09:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/a3e313d7c55c576b4d6706597331eb43591cfb6f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed composer package to ezgmaplocation-ls&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/a3e313d7c55c576b4d6706597331eb43591cfb6f</guid>
+      <pubDate>Wed, 14 May 2014 16:20:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/cfac724fa28e489d94ae4599ef4ef9159a0d34bd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json for ezgmaplocation extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/cfac724fa28e489d94ae4599ef4ef9159a0d34bd</guid>
+      <pubDate>Wed, 14 May 2014 14:20:42 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/99f208be2f0c9ce0cee44a16c8914440cc803ce1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/99f208be2f0c9ce0cee44a16c8914440cc803ce1</guid>
+      <pubDate>Tue, 13 May 2014 21:40:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/af65445321b8c8060d917e2d83955e04d962c93f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #20 from thiagocamposviana/master
+
+Update translation.ts for pt-br&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/af65445321b8c8060d917e2d83955e04d962c93f</guid>
+      <pubDate>Fri, 18 Oct 2013 10:10:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/09ff94b9387ec803142435f3c7a73bbb304d923c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update translation.ts
+
+Fixed pt-br datatype string.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/09ff94b9387ec803142435f3c7a73bbb304d923c</guid>
+      <pubDate>Fri, 18 Oct 2013 10:10:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/2a4ac6893c2bb9c6c6543e48ab36038197f28401</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert " Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows"
+
+This reverts commit 08592add7c306c6da240ded68ce1669c770b68d2.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/2a4ac6893c2bb9c6c6543e48ab36038197f28401</guid>
+      <pubDate>Mon, 02 Sep 2013 12:40:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/019a4a6b9163760337b43faccb8f9cc24e9295be</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed BOM char from ezgmaplocation.ini.append.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/019a4a6b9163760337b43faccb8f9cc24e9295be</guid>
+      <pubDate>Wed, 28 Aug 2013 09:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/08592add7c306c6da240ded68ce1669c770b68d2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/08592add7c306c6da240ded68ce1669c770b68d2</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/9066ba0c70d18cce6e565c54d206f5363c6ca814</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #19 from crevillo/EZP-19411
+
+ Implemented EZP-19411: Avoid file_exists and include calls for register...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/9066ba0c70d18cce6e565c54d206f5363c6ca814</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/ab4316f6a6c79c9a4e84584725f3615e12b03892</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/pol-PL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated translation strings&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/ab4316f6a6c79c9a4e84584725f3615e12b03892</guid>
+      <pubDate>Fri, 12 Apr 2013 13:30:46 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/e12828738b856bf435adf7c1d44206467464f12f</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove "default" template operator usage.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/e12828738b856bf435adf7c1d44206467464f12f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/8b7a6992d6f20ed4a13916fd50d4f7121bc5bdcf</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;More flexibility to attribute_view_gui function, now it's possible to specify width or height:
+
+{attribute_view_gui attribute=$data_map.location width=350 height=210}
+
+Default values still are 500 and 280, so it's back compatible, it isn't mandatory to specify width or height.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/8b7a6992d6f20ed4a13916fd50d4f7121bc5bdcf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/b1ecac74f560fe9fc26d4761386292491966629d</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/edit/ezgmaplocation.tpl
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #11 from jdespatis/clean-wrappers
+
+Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/b1ecac74f560fe9fc26d4761386292491966629d</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/cdfef7be0689fa7e5fae95ae5b1d7c5eba59e6c6</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/edit/ezgmaplocation.tpl
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed partially #17073: Vanish wrappers in &lt;script&gt; and &lt;style&gt;&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/cdfef7be0689fa7e5fae95ae5b1d7c5eba59e6c6</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/f69f8452466f5375270b6805dcdc69559337e963</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #10 from emodric/cro-HR-fix
+
+Small fix to Croatian translation - 2011.11 campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/f69f8452466f5375270b6805dcdc69559337e963</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/a500cdb06db641fd5ef1d8616b8ea12a8d4f82bd</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #13 from thiagocamposviana/master
+
+finalized pt-BR translation - Etna/4.7 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/a500cdb06db641fd5ef1d8616b8ea12a8d4f82bd</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/38fb2d4c86b69774c98efc7641347791fbc18599</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/38fb2d4c86b69774c98efc7641347791fbc18599</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/8bac7a5b65da80774662cfb8add5f24b54bb2dba</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #12 from thiagocamposviana/patch-1
+
+attribute_view_gui function width and height&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/8bac7a5b65da80774662cfb8add5f24b54bb2dba</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/2173cee7c7d3d97aaa643b79be9db96ce4c60bdf</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Edited comment about float position.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/2173cee7c7d3d97aaa643b79be9db96ce4c60bdf</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/66a1dfc4957d636d909e6606d9e6a9692c0fc0ef</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed default height to 280 as it was before.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/66a1dfc4957d636d909e6606d9e6a9692c0fc0ef</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/f339977cf45e661b1bfdcf947192cadd9ba653e3</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/classes/ezgmaplocation.php
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/datatypes/ezgmaplocation/ezgmaplocationtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: missing eZ copyright&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/f339977cf45e661b1bfdcf947192cadd9ba653e3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/3369bc108617a411ae53a71b72ebb5749ff4db33</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/sql/oracle/oracle.sql
++ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/update/database/oracle/1.5/dbupdate-1.4-to-1.5.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #019338: Database Check Failed after upgrading from Ez Publish 4.6 &gt; 4.7 rc1 with Oracle&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/3369bc108617a411ae53a71b72ebb5749ff4db33</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/e2820274d4b24612e49f8fadf473554e3f063b94</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #14 from netbliss/master
+
+Italian translation created - Etna (4.7) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/e2820274d4b24612e49f8fadf473554e3f063b94</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/a6ea31e41a5fb7fc0f31387bbfbe9a393d850a9a</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/ita-IT/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Italian translation created
+
+Created italian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/a6ea31e41a5fb7fc0f31387bbfbe9a393d850a9a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/b5bed810ba9153dde77129aa6a831eca2a999ab3</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/classes/ezgmllocationfilter.php
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/extension.xml
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/b5bed810ba9153dde77129aa6a831eca2a999ab3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/057426ab0572fcd181c79e391bdc2c40ed330c8f</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/classes/ezgmaplocation.php
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/classes/ezgmllocationfilter.php
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/datatypes/ezgmaplocation/ezgmaplocationtype.php
+m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/057426ab0572fcd181c79e391bdc2c40ed330c8f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/726393ba97b91132082721c7b62f43509adebd99</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/pol-PL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #17 from nfrp/polish_translation
+
+Polish translation - 2012.10/5.0 translation session&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/726393ba97b91132082721c7b62f43509adebd99</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/1da036ffc80cc65bfb7407f31735ee4a9ade64f1</link>
+      <description>
+      &lt;pre&gt;+ packages/ezgmaplocation_extension/ezextension/ezgmaplocation/translations/pol-PL/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Polish translation - 2012.10/5.0 translation session&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/1da036ffc80cc65bfb7407f31735ee4a9ade64f1</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/10363325a10ed3e684d22002c021d15b0d1d68a2</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/package.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed version numbers in package.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/10363325a10ed3e684d22002c021d15b0d1d68a2</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/5c1f2b2e8192cb71fb7a66677bde45071c96a704</link>
+      <description>
+      &lt;pre&gt;m packages/ezgmaplocation_extension/ezextension/ezgmaplocation/extension.xml
+- packages/ezgmaplocation_extension/ezextension/ezgmaplocation/ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x stack extensions
+to make it clear what is running on Legacy vs Symfony stack of 5.0.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/5c1f2b2e8192cb71fb7a66677bde45071c96a704</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 94 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/94</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/94</guid>
+      <pubDate>Wed, 27 Oct 2010 13:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 93 by André R</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/93</link>
+      <description>- Change use of old templateInit()/ezi18n() api and use class based api's introduced in 4.3 instead</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/93</guid>
+      <pubDate>Wed, 13 Oct 2010 14:25:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 92 by André R</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/92</link>
+      <description>- gmaplocation does not provide template operators, this ini mistakes leads to unneeded stat call in template code.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/92</guid>
+      <pubDate>Sat, 18 Sep 2010 11:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 91 by André R</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/91</link>
+      <description>- Remove loading.php support
+    
+No need to keep bc for something that has never existed in a stable version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/91</guid>
+      <pubDate>Mon, 02 Aug 2010 15:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 90 by André R</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/90</link>
+      <description>- add empty comment to empty template to avoid error with template debug</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/90</guid>
+      <pubDate>Thu, 20 May 2010 09:35:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 89 by Bertrand Dunogier</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/89</link>
+      <description>- Added extension.xml. Replaces loading.php and ezinfo.xml starting from ezpublish 4.4.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/89</guid>
+      <pubDate>Tue, 11 May 2010 08:20:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 88 by Patrick Allaert</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/88</link>
+      <description>- Implemented enhancement #016711: Making extension aware of the order/priority in which they need to be loaded</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/88</guid>
+      <pubDate>Fri, 23 Apr 2010 09:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 86 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/86</link>
+      <description>- Fixed copyright year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/86</guid>
+      <pubDate>Thu, 25 Mar 2010 11:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 87 by Jérôme Renard</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/87</link>
+      <description>- Fixed copyright year</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/87</guid>
+      <pubDate>Thu, 25 Mar 2010 11:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 85 by André R</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/85</link>
+      <description>- phpcomment spelling</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/85</guid>
+      <pubDate>Wed, 24 Mar 2010 13:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 84 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/84</link>
+      <description>--Spanish and Catalan translations updated, credits go to Microblau, http://www.microblau.net/</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/84</guid>
+      <pubDate>Wed, 10 Mar 2010 12:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 83 by Eric Sagnes</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/83</link>
+      <description>Added Japanese translation
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/83</guid>
+      <pubDate>Wed, 10 Mar 2010 05:50:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 82 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/82</link>
+      <description>- Updated version no.
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/82</guid>
+      <pubDate>Tue, 09 Mar 2010 13:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezgmaplocation rev. 81 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezgmaplocation/subversion/81</link>
+      <description>- Fixed: added ini file to silence wrong suggestions to alter oracle db in system upgrade check page (take 2)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezgmaplocation/subversion/81</guid>
+      <pubDate>Sat, 27 Feb 2010 22:40:18 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

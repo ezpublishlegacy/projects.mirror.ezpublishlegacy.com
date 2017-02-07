@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / merge / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:04:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:04:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46749" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/merge/source/5e94276d3a999d85e4124d93ace0a5a7f121cb6e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed fatal error on missing node, and disabled php timeout&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/merge/source/5e94276d3a999d85e4124d93ace0a5a7f121cb6e</guid>
+      <pubDate>Mon, 11 Jan 2016 14:52:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/merge/source/a8168393d0bc01430244f2010f264f2dbdd9c0e8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed issue with added "2" at the end of new url on some merges&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/merge/source/a8168393d0bc01430244f2010f264f2dbdd9c0e8</guid>
+      <pubDate>Wed, 06 Jan 2016 08:52:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/merge/source/1f611d01bf288db3e6a45cffd96917486deceeed</link>
+      <description>
+      &lt;pre&gt;m README.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated description&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/merge/source/1f611d01bf288db3e6a45cffd96917486deceeed</guid>
+      <pubDate>Tue, 08 May 2012 13:11:51 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/merge/source/0766ec1ae464d0d3e284926157fa5a0b5860d951</link>
+      <description>
+      &lt;pre&gt;+ README.md
++ actions/content_actionhandler.php
++ design/admin2/templates/merge/select.tpl
++ extension.xml
++ ezinfo.php
++ modules/merge/module.php
++ modules/merge/select.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/menu.ini.append.php
++ settings/merge.ini.append.php
++ settings/module.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Original merge extension&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/merge/source/0766ec1ae464d0d3e284926157fa5a0b5860d951</guid>
+      <pubDate>Tue, 08 May 2012 13:11:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

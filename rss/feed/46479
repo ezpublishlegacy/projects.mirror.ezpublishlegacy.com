@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qhmotionlogon / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:45:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:45:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/46479" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/qhmotionlogon/source/6dbb7bd375e3cd568f45d02e420bb83f6544ddad</link>
+      <description>
+      &lt;pre&gt;+ README.md
+m classes/phpDollar.php
+m datatypes/qhmotionlogon/qhmotionlogontype.php
+m design/admin/override/templates/user/login.tpl
++ design/standard/javascript/jquery.motionCanvas.js
+m design/standard/templates/content/datatype/edit/qhmotionlogon.tpl
++ design/standard/templates/mlogon/test.tpl
+m login_handler/ezqhmotionlogonuser.php
+m modules/mlogon/login.php
+m modules/mlogon/module.php
++ modules/mlogon/test.php
++ modules/mlogon/testprocess.php
+m settings/design.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bug fixes and clean up&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhmotionlogon/source/6dbb7bd375e3cd568f45d02e420bb83f6544ddad</guid>
+      <pubDate>Thu, 19 Apr 2012 11:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/qhmotionlogon/source/89256517408b8a8762716882b5a7c0f06d5a1530</link>
+      <description>
+      &lt;pre&gt;- README
+- design/standard/javascript/jquery.harmonyRibbonCanvas.js
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Removed old files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhmotionlogon/source/89256517408b8a8762716882b5a7c0f06d5a1530</guid>
+      <pubDate>Thu, 19 Apr 2012 11:31:28 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/qhmotionlogon/source/6ccf226fda6011afdf1f8a33075dcda1b3da5d2a</link>
+      <description>
+      &lt;pre&gt;+ README
+m classes/phpDollar.php
+m datatypes/qhmotionlogon/qhmotionlogontype.php
+m design/standard/javascript/jquery.harmonyRibbonCanvas.js
++ design/standard/stylesheets/qhmotionlogon.css
++ extension.xml
++ ezinfo.php
+m login_handler/ezqhmotionlogonuser.php
+m modules/mlogon/login.php
+m modules/mlogon/module.php
+m settings/content.ini.append.php
+m settings/design.ini.append.php
+m settings/override.ini.append.php
+m settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;metadata update&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhmotionlogon/source/6ccf226fda6011afdf1f8a33075dcda1b3da5d2a</guid>
+      <pubDate>Thu, 19 Apr 2012 07:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/qhmotionlogon/source/359d5e4e9c5ada66b8d00952834c7b8abd5e9f36</link>
+      <description>
+      &lt;pre&gt;m classes/phpDollar.php
+m design/admin/override/templates/user/login.tpl
+m design/standard/javascript/jquery.motionCaptcha.0.2.js
+m login_handler/ezqhmotionlogonuser.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Clean up and added color override&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhmotionlogon/source/359d5e4e9c5ada66b8d00952834c7b8abd5e9f36</guid>
+      <pubDate>Thu, 19 Apr 2012 07:51:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/qhmotionlogon/source/a92d2d4fbc274f27400228bab036139fef28f65d</link>
+      <description>
+      &lt;pre&gt;+ classes/phpDollar.php
++ datatypes/qhmotionlogon/qhmotionlogontype.php
++ design/admin/override/templates/user/login.tpl
++ design/standard/javascript/jquery.motionCaptcha.0.2.js
++ design/standard/stylesheets/jquery.motionCaptcha.0.2.css
++ design/standard/templates/content/datatype/edit/qhmotionlogon.tpl
++ login_handler/ezqhmotionlogonuser.php
++ modules/mlogon/login.php
++ modules/mlogon/module.php
++ settings/content.ini.append.php
++ settings/design.ini.append.php
++ settings/module.ini.append.php
++ settings/override.ini.append.php
++ settings/site.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/qhmotionlogon/source/a92d2d4fbc274f27400228bab036139fef28f65d</guid>
+      <pubDate>Thu, 19 Apr 2012 07:51:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

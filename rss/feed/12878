@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ggsysinfo / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:23:27 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:23:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12878" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/45c8c24a19f5fac1c8f94b4ced7f36e9c4be8a0f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update todo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/45c8c24a19f5fac1c8f94b4ced7f36e9c4be8a0f</guid>
+      <pubDate>Fri, 09 Sep 2016 10:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/04e3cb543b17780e1839e36fc167a0acb5524325</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix a warning when generating reports&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/04e3cb543b17780e1839e36fc167a0acb5524325</guid>
+      <pubDate>Fri, 09 Sep 2016 10:10:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/7f48a7f199f0cbeabe46285a2e57763bfdc5a5e7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: spurious php cli script was left in after a merge of 2014 refactoring&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/7f48a7f199f0cbeabe46285a2e57763bfdc5a5e7</guid>
+      <pubDate>Wed, 25 May 2016 14:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/e47b89a4592bec2ce0baf257160cfa8f05e0ca71</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add changelogs and tag 0.9.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/e47b89a4592bec2ce0baf257160cfa8f05e0ca71</guid>
+      <pubDate>Wed, 25 May 2016 14:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/fd7cbc5e1d6b97c72a04ad1ccdb12500e8a5a1e8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow more than one dir for scm info&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/fd7cbc5e1d6b97c72a04ad1ccdb12500e8a5a1e8</guid>
+      <pubDate>Wed, 25 May 2016 14:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/1ca6bf806d4cebad67b254929522e033389fd3a6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;whitespace&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/1ca6bf806d4cebad67b254929522e033389fd3a6</guid>
+      <pubDate>Wed, 25 May 2016 14:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/062d72c525fea9e9f304869f56b1b8dfcd227884</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow users to set the scm repo dir to be used to get the revision version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/062d72c525fea9e9f304869f56b1b8dfcd227884</guid>
+      <pubDate>Fri, 20 May 2016 17:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/830913f8865fff97f17dc9d5d057716ae700d1c4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix one template error&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/830913f8865fff97f17dc9d5d057716ae700d1c4</guid>
+      <pubDate>Fri, 20 May 2016 16:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/0d3d754fb9b47018239da6b3957012a76ab6f68a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;enable by default the scm-info panel if git info is found&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/0d3d754fb9b47018239da6b3957012a76ab6f68a</guid>
+      <pubDate>Tue, 16 Feb 2016 13:10:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/1a85955d2000a2f054ceedfbda5722ef8544d2ec</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Set zetacomponent dependency to a good known version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/1a85955d2000a2f054ceedfbda5722ef8544d2ec</guid>
+      <pubDate>Mon, 11 Jan 2016 16:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/a9b195916c65f1b6ecb6e6eea5e81981b1057cf6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move readme to MD format&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/a9b195916c65f1b6ecb6e6eea5e81981b1057cf6</guid>
+      <pubDate>Sat, 09 Jan 2016 23:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/7a928c4b3647ed61b7bcd38f515f1262ceedad15</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CRLF =&gt; LF&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/7a928c4b3647ed61b7bcd38f515f1262ceedad15</guid>
+      <pubDate>Sat, 09 Jan 2016 20:30:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/ee4eaee8e1d609e27956b3a8d7ee6fe1b3d98b92</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix copyright stmts (welcome 2016)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/ee4eaee8e1d609e27956b3a8d7ee6fe1b3d98b92</guid>
+      <pubDate>Sat, 09 Jan 2016 20:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/1940a511720a41a1c18dca95cf9e1bfe4f991ff0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix changelogs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/1940a511720a41a1c18dca95cf9e1bfe4f991ff0</guid>
+      <pubDate>Sat, 09 Jan 2016 19:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/f6f334f389f05fb3befccb5e486a78f1356ec6b5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add docs for 0.8.1 version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/f6f334f389f05fb3befccb5e486a78f1356ec6b5</guid>
+      <pubDate>Sat, 09 Jan 2016 19:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/33413c3a6ddeb0bb3402b0a08f66a9a2425c5f80</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ggsysinfo&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/33413c3a6ddeb0bb3402b0a08f66a9a2425c5f80</guid>
+      <pubDate>Sat, 09 Jan 2016 19:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/a5e301533bbe0c3717002dfb2642407f147b49ab</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix links to online docs for math tpl ops&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/a5e301533bbe0c3717002dfb2642407f147b49ab</guid>
+      <pubDate>Sat, 09 Jan 2016 19:20:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/bd311b84517992a7d0fc37cb57f28eb13e906504</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add git describe, to show the currently deployed tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/bd311b84517992a7d0fc37cb57f28eb13e906504</guid>
+      <pubDate>Thu, 06 Nov 2014 11:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/fbd9e7a5b9f19eb5f774f2d6a5a36a16327aa6de</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #5 from gazofnaz/master
+
+Add git describe, to show the currently deployed tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/fbd9e7a5b9f19eb5f774f2d6a5a36a16327aa6de</guid>
+      <pubDate>Thu, 06 Nov 2014 11:20:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/02867adf136b237e6b5396d3eb622138fd0dc438</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Lots of refactoring and new features&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/02867adf136b237e6b5396d3eb622138fd0dc438</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/f7ba127adb7a3ab9d9c670907c9d7b217de6f042</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update gitignore for current ezextensionbuilder version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/f7ba127adb7a3ab9d9c670907c9d7b217de6f042</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/b280aebac3296e181cbd503faeb782136d905490</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Tag for 0.8 development sprint&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/b280aebac3296e181cbd503faeb782136d905490</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/7a3d66b82221c3e0273314dc7853dd3603927179</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Release 0.7.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/7a3d66b82221c3e0273314dc7853dd3603927179</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:23 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/d609645ba007a70b1214053695498c7b956795ff</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add support for checking eZ5 (Symfony) caches and log files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/d609645ba007a70b1214053695498c7b956795ff</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/9989476d2f2757353bcc4a0a9666a0eb9c9bb3dd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ggsysinfo
+
+Conflicts:
+	bin/php/ezreport.php
+	design/standard/templates/sysinfo/logview.tpl
+	extension.xml
+	ezinfo.php
+	modules/sysinfo/cachestats.php
+	modules/sysinfo/genericview.php&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/9989476d2f2757353bcc4a0a9666a0eb9c9bb3dd</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/1178fba38fe8eb31978c75641899649ca6b34d01</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Accept semicolon as report names separator for cli script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/1178fba38fe8eb31978c75641899649ca6b34d01</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/bf51218127b19d104a7e07667d545830904a64d5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Report 0 instead of null for object relations in content stats views&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/bf51218127b19d104a7e07667d545830904a64d5</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/20d95fb24dd8dae11da4eacdc1798f9816ec3fce</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove leftover Ovum stuff; add more info in realpath-cache view&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/20d95fb24dd8dae11da4eacdc1798f9816ec3fce</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/0019d58a68727d009ff148d4037f23ffd3977ed7</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove duplicate cli script&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/0019d58a68727d009ff148d4037f23ffd3977ed7</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/fbde877ea2a800706c0342331f73d92be3564207</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Mark new requirement for php 5.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/fbde877ea2a800706c0342331f73d92be3564207</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/dc716f9e0de0d2b18cdfce209dbab6adbdd1bf6e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update documentation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/dc716f9e0de0d2b18cdfce209dbab6adbdd1bf6e</guid>
+      <pubDate>Mon, 13 Oct 2014 10:20:21 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/92d40c9087b3f2b048646931f332a88c8e8844e6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update main .gitignore for latest ezextbuilder / composer-driven builds&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/92d40c9087b3f2b048646931f332a88c8e8844e6</guid>
+      <pubDate>Sun, 09 Mar 2014 19:50:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/47f581d853e4cb412ebdb0594f65ad49e1d81566</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add description on top of all views&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/47f581d853e4cb412ebdb0594f65ad49e1d81566</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/45acd644d3f7c5c90602e48a4d3754910344aed2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix warning for tpls as well&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/45acd644d3f7c5c90602e48a4d3754910344aed2</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/cbe2f286d93fcb879fd636d4391f4f9edd418504</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update gitignore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/cbe2f286d93fcb879fd636d4391f4f9edd418504</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/26c520fad658f75c7b5020d6958b4d8f8813cc43</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix: i18n warnings with php 5.0 to 5.2&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/26c520fad658f75c7b5020d6958b4d8f8813cc43</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/7d6303df196ce8b6e6636f36979a9d28a73bdf0f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add requirements on ezextbuilder for dev mode&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/7d6303df196ce8b6e6636f36979a9d28a73bdf0f</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/c44207b95bcf266b8404242426fd2db902d6c161</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix one warning, plus comments and whitespace&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/c44207b95bcf266b8404242426fd2db902d6c161</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/4897975acaffdd994ebd9edec9103f2d1bdce440</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Survive better when zetacomponents graph component is missing&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/4897975acaffdd994ebd9edec9103f2d1bdce440</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/5dd54a81580545f6a88883c297a983cba155710b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add missing composer dependency on zetacomponents graph&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/5dd54a81580545f6a88883c297a983cba155710b</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/52c03a2d682217a6195e76d9c9d1a11de7c47582</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update copyright to 2014; .gitignore for new ezextbuilder&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/52c03a2d682217a6195e76d9c9d1a11de7c47582</guid>
+      <pubDate>Sun, 09 Mar 2014 19:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/5597c7ffeb34e5957d6e44f7118ec342a7a4baca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from tomahoax/master
+
+Using readfile() instead of a bit more memory consuming file_get_contents()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/5597c7ffeb34e5957d6e44f7118ec342a7a4baca</guid>
+      <pubDate>Sun, 03 Nov 2013 21:20:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/fff58a8f44ad4f3961cf9a64402ab360d537d4cb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update composer.json and docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/fff58a8f44ad4f3961cf9a64402ab360d537d4cb</guid>
+      <pubDate>Sat, 02 Nov 2013 22:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/6428c140e9885f2896951999d8a9face29174aae</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix path to ezp installer&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/6428c140e9885f2896951999d8a9face29174aae</guid>
+      <pubDate>Fri, 07 Jun 2013 09:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/b6a88c353b71815c39ede4c8861ca4d716161bca</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/b6a88c353b71815c39ede4c8861ca4d716161bca</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/cb163607a7ac5c17eafa0860a62ded3f9a4e86c0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Support for opcache/ZAP&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/cb163607a7ac5c17eafa0860a62ded3f9a4e86c0</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/e277f5414905007a2b5f7cac072dd0a29e687b42</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update ocp to latest revision&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/e277f5414905007a2b5f7cac072dd0a29e687b42</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/cbba9f0e7dbd9d0995a11e1f3adf55f3adff714c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add missing support for opcache&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/cbba9f0e7dbd9d0995a11e1f3adf55f3adff714c</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/301e1fbe341943b8e733a839b28503a442b92eb1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Allow ini report to vary per siteaccess; better display of ini report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/301e1fbe341943b8e733a839b28503a442b92eb1</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ggsysinfo/subversion/00469add7ffa82c32291d5b96a7a0d4462d5d45e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add ini settings report&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ggsysinfo/subversion/00469add7ffa82c32291d5b96a7a0d4462d5d45e</guid>
+      <pubDate>Thu, 06 Jun 2013 12:20:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

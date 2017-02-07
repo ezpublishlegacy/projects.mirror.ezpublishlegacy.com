@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / subtreelocation</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/40742" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subtree refresh</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/subtree_refresh</link>
+      <description>Is there a way to refresh the sub items for a location link created with this without destroying and recreating the subtree location. I have this setup for a repository of products but when i add a new product to the folder I want it to inherit the location. Thanks</description>
+      <author>community@ez.no (Luke Konecki)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/subtree_refresh</guid>
+      <pubDate>Thu, 10 Jan 2013 15:39:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation-0.2-b.zip</title>
+      <link>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_2_b_zip</link>
+      <description>&lt;p&gt;Release beta 0.2 :&lt;/p&gt;&lt;p&gt;contains the action handler to add location to en entire subtree.&lt;/p&gt;&lt;p&gt;Add the integration with ezscriptmonitor and the php script to execute this operation outside the back office.&lt;/p&gt;</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_2_b_zip</guid>
+      <pubDate>Sat, 09 Apr 2011 19:42:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation-0.2-b.tar.gz</title>
+      <link>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_2_b_tar_gz</link>
+      <description>&lt;p&gt;Release beta 0.2 :&lt;/p&gt;&lt;p&gt;contains the action handler to add location to en entire subtree.&lt;/p&gt;&lt;p&gt;Add the integration with ezscriptmonitor and the php script to execute this operation outside the back office.&lt;/p&gt;</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_2_b_tar_gz</guid>
+      <pubDate>Sat, 09 Apr 2011 19:42:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 12 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/12</link>
+      <description>Release 0.2 beta
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/12</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 10 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/10</link>
+      <description>Verify if a script is not already scheduled in ezscriptmonitor with the same nodes before scheduling a new one</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/10</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 11 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/11</link>
+      <description>Add INSTALL file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/11</guid>
+      <pubDate>Sat, 09 Apr 2011 19:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: GREAT idea</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/great_idea/re_great_idea</link>
+      <description>Thanks,&#13;
+&#13;
+I am currently working to add some functions like integration with ezscriptmonitor and the possibility to define depth of the operation or filter by classes. The integration with ezscriptmonitor is in the repository, i will release a version 0.2 with this functionnality this weekend.&#13;
+&#13;
+Do not hesitate to post any remarks, bug or other things to help me make this extension the best possible.&#13;
+</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/great_idea/re_great_idea</guid>
+      <pubDate>Thu, 07 Apr 2011 08:48:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GREAT idea</title>
+      <link>http://projects.ez.no/subtreelocation/forum/general/great_idea</link>
+      <description>Been waiting for years for somebody to do this!&#13;
+&#13;
+I'd just change the name to "add secondary location to subtree" ;-)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/subtreelocation/forum/general/great_idea</guid>
+      <pubDate>Mon, 04 Apr 2011 08:53:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 9 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/9</link>
+      <description>add ezscriptmonitor connector</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/9</guid>
+      <pubDate>Sat, 02 Apr 2011 22:21:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 8 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/8</link>
+      <description>add php script to execute subtree location from command line or crontab</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/8</guid>
+      <pubDate>Sat, 02 Apr 2011 17:41:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 7 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/7</link>
+      <description>add svn:ignore .project</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/7</guid>
+      <pubDate>Fri, 01 Apr 2011 22:22:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 6 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/6</link>
+      <description>fix "Unknown content object action" warning in error.log</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/6</guid>
+      <pubDate>Fri, 01 Apr 2011 22:22:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 5 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/5</link>
+      <description>Add 0.1-b release tag
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/5</guid>
+      <pubDate>Fri, 01 Apr 2011 21:41:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation-0.1-b.tar.gz</title>
+      <link>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_1_b_tar_gz</link>
+      <description>&lt;p&gt;Release beta 0.1 :&lt;/p&gt;&lt;p&gt;contains the action handler to add location to en entire subtree.&lt;/p&gt;</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_1_b_tar_gz</guid>
+      <pubDate>Fri, 01 Apr 2011 21:26:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation-0.1-b.zip</title>
+      <link>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_1_b_zip</link>
+      <description>&lt;p&gt;Release beta 0.1 :&lt;/p&gt;&lt;p&gt;contains the action handler to add location to en entire subtree.&lt;/p&gt;</description>
+      <author>community@ez.no (Jonathan Bouzekri)</author>
+      <guid>http://projects.ez.no/subtreelocation/downloads/subtreelocation_0_1_b_zip</guid>
+      <pubDate>Fri, 01 Apr 2011 21:26:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 3 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/3</link>
+      <description>delete .project file and add ezinfo file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/3</guid>
+      <pubDate>Fri, 01 Apr 2011 21:21:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 4 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/4</link>
+      <description>Add comment in algo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/4</guid>
+      <pubDate>Fri, 01 Apr 2011 21:21:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 2 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/2</link>
+      <description>send to svn current development state</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/2</guid>
+      <pubDate>Fri, 01 Apr 2011 19:42:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>subtreelocation rev. 1 by Jonathan Bouzekri</title>
+      <link>http://projects.ez.no/subtreelocation/subversion/1</link>
+      <description>Init svn repository
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/subtreelocation/subversion/1</guid>
+      <pubDate>Fri, 01 Apr 2011 19:42:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

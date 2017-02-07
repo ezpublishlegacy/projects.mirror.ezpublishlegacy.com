@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / qhnotifications / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 16:50:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 16:50:47 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/43171" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Feature requests</title>
+      <link>http://projects.ez.no/qhnotifications/forum/general/feature_requests</link>
+      <description>1. make the nr of notifications shown flexible. Right now it is hardcoded in the js class&#13;
+2. allow notifications to dissolve automatically after a while (it does not seem they currently do)&#13;
+3. add a readme/install file in the zip - it might not be evident that the documentation is provided via a new module with a "demo" purpose</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/qhnotifications/forum/general/feature_requests</guid>
+      <pubDate>Mon, 27 Feb 2012 18:34:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

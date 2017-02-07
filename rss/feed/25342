@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / arh_jdebug / Reviews</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:28 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:28 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/25342" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re : This can conflict with typical javascript in a project (Doug Plant)  </title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/re_this_can_conflict_with_typical_javascript_in_a_project_doug_plant</link>
+      <description>In the latest version of the extesion, the call of js and css files is made with extension ezjscore (a template operator ezscript_require).So there is no possibility of conflicts with the use of jQuery in another extensions.</description>
+      <author>community@ez.no (Abdelkader RHOUATI)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/re_this_can_conflict_with_typical_javascript_in_a_project_doug_plant</guid>
+      <pubDate>Mon, 23 Aug 2010 02:05:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>This can conflict with typical javascript in a project</title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/this_can_conflict_with_typical_javascript_in_a_project</link>
+      <description>I'm down-grading my star-rating in light of the ease with which this extension conflicted with the project's own jquery.</description>
+      <author>community@ez.no (Doug Plant)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/this_can_conflict_with_typical_javascript_in_a_project</guid>
+      <pubDate>Fri, 16 Jul 2010 22:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very handy</title>
+      <link>http://projects.ez.no/arh_jdebug/reviews/very_handy</link>
+      <description>I like this. I'm using it as soon as I installed it, and relying on it within minutes.&#13;
+&#13;
+I hope you don't mind my proposing some ideas:&#13;
+- the closed state doesn't stick over page-loads; have you considered cookies or ez preferences?&#13;
+- being able to completely hide the toolbar and call it up with a key-press, like ctrl-spacebar&#13;
+- being able to enable only for logged-in users (so that one could install it on a production site)&#13;
+- the default location is somewhat in the way - that is where the first of my echo-output goes&#13;
+</description>
+      <author>community@ez.no (Doug Plant)</author>
+      <guid>http://projects.ez.no/arh_jdebug/reviews/very_handy</guid>
+      <pubDate>Fri, 30 Apr 2010 22:26:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

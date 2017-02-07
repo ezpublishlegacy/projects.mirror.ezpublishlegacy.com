@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ocembed / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:37:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:37:42 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/50881" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/3ed5e6fd62bfb51bfacb08732389feeb8c1dfb26</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix readme&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/3ed5e6fd62bfb51bfacb08732389feeb8c1dfb26</guid>
+      <pubDate>Mon, 29 Feb 2016 14:24:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/569c2b4a9bd66f1c09e86a5366597aa3dbc315cd</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Cache embed result in db&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/569c2b4a9bd66f1c09e86a5366597aa3dbc315cd</guid>
+      <pubDate>Mon, 29 Feb 2016 14:14:02 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/7878ab78014a88ae2a601e438874016570c64635</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added support for twitter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/7878ab78014a88ae2a601e438874016570c64635</guid>
+      <pubDate>Tue, 03 Nov 2015 16:13:27 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/48434600f2f8e4c4da81a32d87bcaec30e8ccc11</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from rantoniazzi/addTwitter
+
+Added support for twitter&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/48434600f2f8e4c4da81a32d87bcaec30e8ccc11</guid>
+      <pubDate>Tue, 03 Nov 2015 16:13:26 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/7eb77a5cc8ba7b92690ecc3afd9de8f25c273eaf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Force fix https in oembed result&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/7eb77a5cc8ba7b92690ecc3afd9de8f25c273eaf</guid>
+      <pubDate>Fri, 20 Mar 2015 15:12:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/db6441641fba5b153823604aa284d02c11e67a3b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add composer.json
+Add conditional debug&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/db6441641fba5b153823604aa284d02c11e67a3b</guid>
+      <pubDate>Thu, 05 Feb 2015 10:43:01 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/85b72fad56cefd8b5985cdba4577aec205f6ff38</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add accumulators and curl dedicated to preventing remote delay&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/85b72fad56cefd8b5985cdba4577aec205f6ff38</guid>
+      <pubDate>Sat, 01 Feb 2014 22:23:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/5f605c783a0fce75eb1ef23ed4a8f1cd4e522ad0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;First github commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/5f605c783a0fce75eb1ef23ed4a8f1cd4e522ad0</guid>
+      <pubDate>Mon, 16 Sep 2013 18:22:37 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ocembed/source/8a6c3856681965334e5efbee0805828ec56af4dc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ocembed/source/8a6c3856681965334e5efbee0805828ec56af4dc</guid>
+      <pubDate>Mon, 16 Sep 2013 18:22:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

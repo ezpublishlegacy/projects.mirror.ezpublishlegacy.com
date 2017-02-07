@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / mbpaex / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:42 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:41 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/12251" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/1994fc46df53f03f650798c9aeda2e3365f03f13</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed typo in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/1994fc46df53f03f650798c9aeda2e3365f03f13</guid>
+      <pubDate>Mon, 03 Nov 2014 14:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/18a7d06c5e5c96f4551ba873a0a7511c3a353226</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed license header and version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/18a7d06c5e5c96f4551ba873a0a7511c3a353226</guid>
+      <pubDate>Mon, 03 Nov 2014 14:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/236415f9534c0ba4f4c8d4df049fbea567090bc5</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #9 from ezsystems/ezp-23350_remamed_admin2
+
+EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/236415f9534c0ba4f4c8d4df049fbea567090bc5</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/d09955dd70b9e3514450f0547a75302961375b5c</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-23350: Renamed admin2 design to admin&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/d09955dd70b9e3514450f0547a75302961375b5c</guid>
+      <pubDate>Thu, 18 Sep 2014 13:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/c42c16b046e17dad2743d38b78bf6990e5db0816</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;[UniTests] Change assertType for assertInstanceOf&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/c42c16b046e17dad2743d38b78bf6990e5db0816</guid>
+      <pubDate>Mon, 19 May 2014 15:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/a266fc9048e1642f0eebce71db29deb6e6e742d1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Create composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/a266fc9048e1642f0eebce71db29deb6e6e742d1</guid>
+      <pubDate>Fri, 16 May 2014 23:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/9d4d7ddfa575987294e15408a3b2a812c7d675e1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Remove ezinfo.php, extension.xml replaced it some years ago&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/9d4d7ddfa575987294e15408a3b2a812c7d675e1</guid>
+      <pubDate>Thu, 15 May 2014 09:10:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/c9ccaea5c5cfdcf4daab41639740bacfecb35adf</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Update Copyright info in extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/c9ccaea5c5cfdcf4daab41639740bacfecb35adf</guid>
+      <pubDate>Thu, 15 May 2014 09:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/d5d9d263ee4cdbdb38d4248140b0ac39cccab915</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix EZP-22128: Change license </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/d5d9d263ee4cdbdb38d4248140b0ac39cccab915</guid>
+      <pubDate>Tue, 13 May 2014 21:50:15 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/4e9d952a5652ef2d84558cb45af63c0f59a809b3</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;EZP-22539: added missing wash statements&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/4e9d952a5652ef2d84558cb45af63c0f59a809b3</guid>
+      <pubDate>Wed, 07 May 2014 15:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/e25ae81a179137d8fc2a77ab2e5dcb5ab50f7fd0</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added Title of the extension in README file.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/e25ae81a179137d8fc2a77ab2e5dcb5ab50f7fd0</guid>
+      <pubDate>Thu, 03 Apr 2014 12:30:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/2f252047c677525b6793637a1c7a023decb9fab9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added description in README&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/2f252047c677525b6793637a1c7a023decb9fab9</guid>
+      <pubDate>Mon, 31 Mar 2014 09:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/5e140803e5ee59f30816392cb71bb12a61703c85</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed README in README.md&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/5e140803e5ee59f30816392cb71bb12a61703c85</guid>
+      <pubDate>Mon, 31 Mar 2014 09:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/65e1edbeda11fe805494dfe9d34b3eb349f73c55</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Revert " Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows"
+
+This reverts commit 7481e5898e15681bea45e44219ef28bca0d6a391.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/65e1edbeda11fe805494dfe9d34b3eb349f73c55</guid>
+      <pubDate>Mon, 02 Sep 2013 12:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/7481e5898e15681bea45e44219ef28bca0d6a391</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt; Implemented EZP-19411: Avoid file_exists and include calls for registering datatypes and workflows&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/7481e5898e15681bea45e44219ef28bca0d6a391</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/a16754a5e9269453afb4ae972bc0671c9b7fe63b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #7 from crevillo/EZP-19411
+
+ Implemented EZP-19411: Avoid file_exists and include calls for register...&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/a16754a5e9269453afb4ae972bc0671c9b7fe63b</guid>
+      <pubDate>Fri, 16 Aug 2013 18:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/e04de62cc5512611cc175c25fff9d71d481ea778</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #6 from bogdanjuszczak/fix--users-with-second-location
+
+Fix EZP-21365: eZ Password Expiry support for users with main location outside "Users"&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/e04de62cc5512611cc175c25fff9d71d481ea778</guid>
+      <pubDate>Thu, 01 Aug 2013 19:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/491719f684efce872e0f9390fad8f865928ed98f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix for users with second (and main) location in 'Content strucutre'&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/491719f684efce872e0f9390fad8f865928ed98f</guid>
+      <pubDate>Thu, 01 Aug 2013 19:00:14 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/f4528cc68134f699f5047991b2a03cc9f8756b0b</link>
+      <description>
+      &lt;pre&gt;+ sql/oracle/schema.sql
+m translations/cat-ES/translation.ts
+m translations/esl-ES/translation.ts
+m translations/fre-FR/translation.ts
+m translations/por-BR/translation.ts
+m translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: updated strings for the ezpublish 4.5 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/f4528cc68134f699f5047991b2a03cc9f8756b0b</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/c3f1c9b9ba6287b7f10cb3f41af2134b122b39ab</link>
+      <description>
+      &lt;pre&gt;m translations/cat-ES/translation.ts
+m translations/esl-ES/translation.ts
+m translations/fre-FR/translation.ts
+m translations/por-BR/translation.ts
++ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;localization: updated strings for the ezpublish 4.5 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/c3f1c9b9ba6287b7f10cb3f41af2134b122b39ab</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/e0f659bc7f67415cb497492d7210d37f12f6ff0c</link>
+      <description>
+      &lt;pre&gt;m classes/ezpaex.php
+m datatypes/ezpaex/ezpaextype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:ezsystems/ezmbpaex&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/e0f659bc7f67415cb497492d7210d37f12f6ff0c</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/b44d433815764e396074de9ea4ff910d6353b6a3</link>
+      <description>
+      &lt;pre&gt;m doc/INSTALL.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Updated INSTALL.txt file with the correct version number&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/b44d433815764e396074de9ea4ff910d6353b6a3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/9df085b49c8f01f1ce6e014d34db94df8904561a</link>
+      <description>
+      &lt;pre&gt;m classes/ezpaex.php
+m datatypes/ezpaex/ezpaextype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed bug #018174: Slow mysql query: eZMBPAEX select *.
+Deprecated and removed call to eZPaEx::schemaCreated() as eZPublish
+will always trigger an error when querying a non-existent table&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/9df085b49c8f01f1ce6e014d34db94df8904561a</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:20 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/005ee4da8557ed4b4328f662626b6a842c45a74e</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/005ee4da8557ed4b4328f662626b6a842c45a74e</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/d61ee06825aba0e2f146cb8e33ae1d8b7a6f9e96</link>
+      <description>
+      &lt;pre&gt;m sql/mysql/mbpaex.sql
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Implemented #018497: create ezx_mbpaex table as InnoDB&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/d61ee06825aba0e2f146cb8e33ae1d8b7a6f9e96</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/dd8fe60d7bef47aa31282d736d140e75e8f22f5f</link>
+      <description>
+      &lt;pre&gt;m classes/ezpaex.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed : CS and wrong comment&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/dd8fe60d7bef47aa31282d736d140e75e8f22f5f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/7b487dc9865a024cf7de6e57c131bd97e3be0b17</link>
+      <description>
+      &lt;pre&gt;m classes/ezpaex.php
+m doc/INSTALL.txt
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #015404: send_expiry_notifications cronjobs shows error even
+though system is configured correctly&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/7b487dc9865a024cf7de6e57c131bd97e3be0b17</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/fee4c11b4141442b513f23cc23e15692e8c94f06</link>
+      <description>
+      &lt;pre&gt;m datatypes/ezpaex/ezpaextype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fixed #15391: ezmbpaex : after registering, you have to change password
+immediately&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/fee4c11b4141442b513f23cc23e15692e8c94f06</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/509e7c46f4f63078d8cb508faadbf531db2cecd5</link>
+      <description>
+      &lt;pre&gt;m translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #3 from thiagocamposviana/master
+
+finalized pt-BR translation - Etna/4.7 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/509e7c46f4f63078d8cb508faadbf531db2cecd5</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/9b4612b60f0f61bf657c50ad0b495c4d7cd8bfb3</link>
+      <description>
+      &lt;pre&gt;m translations/por-BR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;finalized pt-BR translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/9b4612b60f0f61bf657c50ad0b495c4d7cd8bfb3</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/ce1dcd8e1f49ab56ab8b03d14e00ccf4eb77be27</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from npanau/master
+
+French translation - 2011.11 </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/ce1dcd8e1f49ab56ab8b03d14e00ccf4eb77be27</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/95f1995b5960634dd3735609ed2aac86d1823679</link>
+      <description>
+      &lt;pre&gt;m translations/fre-FR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;French translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/95f1995b5960634dd3735609ed2aac86d1823679</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:18 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/c9719ce239e756f031069fc119851652797c1b7f</link>
+      <description>
+      &lt;pre&gt;m classes/ezpaex.php
+m modules/userpaex/forgotpassword.php
+m modules/userpaex/password.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: removed use of deprecated template.php file and templateInit()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/c9719ce239e756f031069fc119851652797c1b7f</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/3751c05535838e18c45a112054899bab4d526320</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add "LS" to extension name
+
+LS stands for "Legacy Stack", and is added to all 4.x extensions
+to make it clear what is running on Legacy vs Symfony stack in 5.0&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/3751c05535838e18c45a112054899bab4d526320</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/41ca48dc1fc0d6c98b51f598afa0e0692f545e85</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #4 from emodric/cro_HR
+
+Add Croatian translation - 4.7 (Etna) / 2012.4 translation campaign&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/41ca48dc1fc0d6c98b51f598afa0e0692f545e85</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/13ad35a51683a2d1a4e82af9764e539661a88b04</link>
+      <description>
+      &lt;pre&gt;+ translations/cro-HR/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add Croatian translation&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/13ad35a51683a2d1a4e82af9764e539661a88b04</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/7fd02d59e1ca121ebd5428faf406d4f343ace7ad</link>
+      <description>
+      &lt;pre&gt;m LICENSE
+m classes/ezpaex.php
+m cronjobs/ezmbpaex_sendexpirynotifications.php
+m cronjobs/ezmbpaex_updatechildren.php
+m datatypes/ezpaex/ezpaextype.php
+m extension.xml
+m ezinfo.php
+m install/scripts/setpasswordlastupdated.php
+m login_handler/ezpaexuser.php
+m modules/userpaex/forgotpassword.php
+m modules/userpaex/module.php
+m modules/userpaex/password.php
+m tests/classes/ezpaex_test.php
+m tests/datatypes/ezpaex/ezpaextype_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2012&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/7fd02d59e1ca121ebd5428faf406d4f343ace7ad</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/mbpaex/subversion/f7296097d1771c4dba3f395c7a0dc6dda53bfc77</link>
+      <description>
+      &lt;pre&gt;m LICENSE
+m classes/ezpaex.php
+m cronjobs/ezmbpaex_sendexpirynotifications.php
+m cronjobs/ezmbpaex_updatechildren.php
+m datatypes/ezpaex/ezpaextype.php
+m extension.xml
+m ezinfo.php
+m install/scripts/setpasswordlastupdated.php
+m login_handler/ezpaexuser.php
+m modules/userpaex/forgotpassword.php
+m modules/userpaex/module.php
+m modules/userpaex/password.php
+m tests/classes/ezpaex_test.php
+m tests/datatypes/ezpaex/ezpaextype_test.php
+m tests/suite.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Changed: welcome 2013&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/f7296097d1771c4dba3f395c7a0dc6dda53bfc77</guid>
+      <pubDate>Tue, 12 Feb 2013 12:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 49 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/mbpaex/subversion/49</link>
+      <description>--Finishing the migration to github. See README for details.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/49</guid>
+      <pubDate>Wed, 27 Oct 2010 14:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 48 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/48</link>
+      <description>- Fixed bug #017280: ezmbpaex template does not work with 4.3
+  (Merged from trunk rev. 46)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/48</guid>
+      <pubDate>Mon, 11 Oct 2010 13:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 47 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/47</link>
+      <description>- Fixed bug #017280: ezmbpaex template does not work with 4.3
+  (Merged from trunk rev. 46)
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/47</guid>
+      <pubDate>Mon, 11 Oct 2010 13:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 46 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/46</link>
+      <description>- Fixed bug #017280: ezmbpaex template does not work with 4.3
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/46</guid>
+      <pubDate>Mon, 11 Oct 2010 13:25:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 44 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/44</link>
+      <description>- Added changelog file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/44</guid>
+      <pubDate>Mon, 11 Oct 2010 13:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 45 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/45</link>
+      <description>- Added 1.4 changelog
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/45</guid>
+      <pubDate>Mon, 11 Oct 2010 13:15:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 42 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/42</link>
+      <description>- Added 1.3.0 changelog
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/42</guid>
+      <pubDate>Mon, 11 Oct 2010 13:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 43 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/43</link>
+      <description>- Added changelog file
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/43</guid>
+      <pubDate>Mon, 11 Oct 2010 13:15:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 41 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/41</link>
+      <description>- Merged from trunk rev. 35
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/41</guid>
+      <pubDate>Mon, 11 Oct 2010 13:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 39 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/39</link>
+      <description>- Created 1.2 branch
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/39</guid>
+      <pubDate>Mon, 11 Oct 2010 13:05:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 40 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/40</link>
+      <description>- Created 1.2.0 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/40</guid>
+      <pubDate>Mon, 11 Oct 2010 13:05:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>mbpaex rev. 38 by Łukasz Serwatka</title>
+      <link>http://projects.ez.no/mbpaex/subversion/38</link>
+      <description>- Created 1.3.0 release
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/mbpaex/subversion/38</guid>
+      <pubDate>Mon, 11 Oct 2010 13:05:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

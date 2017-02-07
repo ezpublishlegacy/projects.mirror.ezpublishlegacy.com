@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / plupload</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:08:01 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:08:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24240" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Feedback...</title>
+      <link>http://projects.ez.no/plupload/forum/general/feedback/re_feedback</link>
+      <description>Actually, the correct url everywhere should be:&#13;
+&#13;
+{concat('plupload/upload/',$parentNodeID)|ezurl()}&#13;
+&#13;
+I've explained it all here:&#13;
+&#13;
+http://projects.ez.no/plupload/forum/general/bug_in_widget_tpl</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/plupload/forum/general/feedback/re_feedback</guid>
+      <pubDate>Sat, 02 Oct 2010 22:20:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>bug in widget.tpl</title>
+      <link>http://projects.ez.no/plupload/forum/general/bug_in_widget_tpl</link>
+      <description>In plupload/design/standard/templates/widget.tpl there's a bug with the upload url that is passed to the upload runtime.&#13;
+&#13;
+The uploading url should be changed form this:&#13;
+&#13;
+&lt;code&gt;&#13;
+{'plupload/upload'|ezroot(single)}&#13;
+&lt;/code&gt;&#13;
+&#13;
+to this:&#13;
+&#13;
+&lt;code&gt;&#13;
+{concat('plupload/upload/',$parentNodeID)|ezurl()}&#13;
+&lt;/code&gt;&#13;
+&#13;
+So that the url of the current siteacces is used (i.e. admin), and not the url of the default siteaccess.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/plupload/forum/general/bug_in_widget_tpl</guid>
+      <pubDate>Sat, 02 Oct 2010 20:32:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Very nice multiupload plugin</title>
+      <link>http://projects.ez.no/plupload/reviews/very_nice_multiupload_plugin</link>
+      <description>Very nice to be able to choose the Runtime between following options:&#13;
+flash, html5, silverlight and more...&#13;
+&#13;
+A very good alternative to ezmultiupload...</description>
+      <author>community@ez.no (Laurent Dorier)</author>
+      <guid>http://projects.ez.no/plupload/reviews/very_nice_multiupload_plugin</guid>
+      <pubDate>Tue, 04 May 2010 14:31:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Feedback...</title>
+      <link>http://projects.ez.no/plupload/forum/general/feedback</link>
+      <description>Hi,&#13;
+&#13;
+I'm trying this nice extension (working with eZ 4.3.0) and discover few minor issues (HTML5 Runtime)...&#13;
+Where should I post my remarks to help you ?&#13;
+&#13;
+For example, currently URL for HTML5 Runtime is:&#13;
+url : {'plupload/upload'|ezroot(single)}&#13;
+&#13;
+it should be like for the the Flash runtime:&#13;
+url : {concat('plupload/upload/',$parentNodeID)|ezroot(single)}&#13;
+&#13;
+Cheers&#13;
+Lolo Irie</description>
+      <author>community@ez.no (Laurent Dorier)</author>
+      <guid>http://projects.ez.no/plupload/forum/general/feedback</guid>
+      <pubDate>Tue, 04 May 2010 13:33:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>plupload rev. 1 by Steven E Bailey</title>
+      <link>http://projects.ez.no/plupload/subversion/1</link>
+      <description>initial upload</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/plupload/subversion/1</guid>
+      <pubDate>Thu, 18 Mar 2010 10:05:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezplupload version 0.1</title>
+      <link>http://projects.ez.no/plupload/downloads/ezplupload_version_0_1</link>
+      <description></description>
+      <author>community@ez.no (Steven E Bailey)</author>
+      <guid>http://projects.ez.no/plupload/downloads/ezplupload_version_0_1</guid>
+      <pubDate>Mon, 15 Mar 2010 22:37:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

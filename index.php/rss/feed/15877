@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezflippingbook</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:05:22 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:05:22 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/15877" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Problem to setup</title>
+      <link>http://projects.ez.no/ezflippingbook/forum/general/problem_to_setup</link>
+      <description>Nice extension.&#13;
+&#13;
+But I run into some problems. After checkout your  code I did:&#13;
+- import package&#13;
+- create flipingbook object (with default parameters) and children images&#13;
+- found smoothgallery css </description>
+      <author>community@ez.no (Ivo Lukač)</author>
+      <guid>http://projects.ez.no/ezflippingbook/forum/general/problem_to_setup</guid>
+      <pubDate>Wed, 27 May 2009 10:47:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>0.1 released on subversion</title>
+      <link>http://projects.ez.no/ezflippingbook/news/0_1_released_on_subversion</link>
+      <description>&lt;a name="eztoc70091_1" id="eztoc70091_1"&gt;&lt;/a&gt;&lt;h2&gt;Preface&lt;/h2&gt;&lt;p&gt;Revision 0.1 of eZflippingbook was released on subversion.&lt;/p&gt;&lt;p&gt;It's an extension which it was developed and tested on eZ publish 4.1, but I thik it should work on all revisions.&lt;/p&gt;&lt;p&gt;The swf object it &lt;b&gt;NOT&lt;/b&gt; included as it is not released under a free license.&lt;/p&gt;&lt;p&gt;See a demo of what you can do on http://page-flip.com, buy your license of the swf object and come back to get this extension.&lt;/p&gt;</description>
+      <author>community@ez.no (Stefano Guandalini)</author>
+      <guid>http://projects.ez.no/ezflippingbook/news/0_1_released_on_subversion</guid>
+      <pubDate>Tue, 28 Apr 2009 20:29:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflippingbook rev. 3 by Stefano Guandalini</title>
+      <link>http://projects.ez.no/ezflippingbook/subversion/3</link>
+      <description>Created tag 0.1 from trunk as this is the first working revision
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflippingbook/subversion/3</guid>
+      <pubDate>Tue, 28 Apr 2009 20:05:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflippingbook rev. 2 by Stefano Guandalini</title>
+      <link>http://projects.ez.no/ezflippingbook/subversion/2</link>
+      <description>Created tags directory
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflippingbook/subversion/2</guid>
+      <pubDate>Tue, 28 Apr 2009 20:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezflippingbook rev. 1 by Stefano Guandalini</title>
+      <link>http://projects.ez.no/ezflippingbook/subversion/1</link>
+      <description>Import of the first revision
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezflippingbook/subversion/1</guid>
+      <pubDate>Tue, 28 Apr 2009 19:55:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

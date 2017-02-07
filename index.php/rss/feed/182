@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_projects / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:44:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:44:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/182" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of the ez_projects extension repository on GitHub!</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/mirror_of_the_ez_projects_extension_repository_on_github</link>
+      <description>Hello eZ Community using ez_projects extension repository!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a complete mirror import of the project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/projects.ez.no&#13;
+&#13;
+We continue strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. Again, this is a friendly mirror of the extension repository.&#13;
+&#13;
+Currently the latest version provided by the mirror is r76 | Nicolas Pastorino | 2013-05-15 2:20pm.&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/mirror_of_the_ez_projects_extension_repository_on_github</guid>
+      <pubDate>Wed, 29 Apr 2015 15:37:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Solved] SVN: can't commit</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/solved_svn_can_t_commit</link>
+      <description>basically, see http://ez.no/developer/forum/developer/support_needed_svn_on_projects_ez_no_can_t_commit ;)&#13;
+I registered my first project here (hr_highslide), but i am not able to commit via SVN.&#13;
+It seems as my SVN account does not exist or the password, that I use on all ez.no websites is not accepted in SVN.&#13;
+Can somebody please check my SVN account. My username on *.ez.no is "marco".&#13;
+&#13;
+Thanks.&#13;
+&#13;
+EDIT:&#13;
+Solved...&#13;
+The issue was a wrong username. My username seems to be "Marco", not "marco". It seems, as SVN is very case-sensitivy, while ez.no sites seem to be more tolerant: I always log in with "marco"...</description>
+      <author>community@ez.no (Marco Zinn)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/solved_svn_can_t_commit</guid>
+      <pubDate>Thu, 22 Oct 2009 17:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to create comments on projects.ez.no...</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no4</link>
+      <description>No,&#13;
+&#13;
+I can confirm as a project leader myself&#13;
+that regardless of the position of the toggle&#13;
+for comments on or off, logged in or not no&#13;
+one is able to publish comments on this site.&#13;
+&#13;
+Test this for your self. I just did with the cie&#13;
+project news item and failed to be able to&#13;
+publish comments.&#13;
+&#13;
+Then look at past news, notice no one is&#13;
+placing comments. Is this not strange to&#13;
+anyone else?&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no4</guid>
+      <pubDate>Thu, 18 Jun 2009 02:25:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to create comments on projects.ez.no...</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no3</link>
+      <description>Hi Kracker,&#13;
+&#13;
+&lt;code&gt;&#13;
+I wanted to ask if the mod_ezclustered_image project would continue to serve older vs current versions of eZ Publish or if this method was considered deprecated in favor of another solution? &#13;
+&lt;/code&gt;&#13;
+&#13;
+mod_ezclustered_image will continue to serve older and new versions of eZ Publish cluster.&#13;
+There is no other solution.&#13;
+&#13;
+I decided to stop maintaining it for the following reasons :&#13;
+1. lack of time (to write an Apache module takes a lot of time)&#13;
+2. difficulty to make it easily installable&#13;
+3. (related to point 2) can not be compiled easily on Debian due to a too old version of one package which contains the library I need. And this is not the lastest version of this library on Debian stable. This forces users to compile their own Apache 2 instance, which is not the Debian way.&#13;
+4. I do not have time to recreate a new Debian package which would fix the issue described above.&#13;
+&#13;
+For at least those 4 reasons I decided to stop maintaining this project.&#13;
+&#13;
+If you are interested in taking over it, feel free to contact me ;)&#13;
+&#13;
+Cheers.&#13;
+</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no3</guid>
+      <pubDate>Sun, 12 Apr 2009 07:08:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to create comments on projects.ez.no...</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no2</link>
+      <description>Hi Kracker and Gaetano,&#13;
+&#13;
+comments are enabled for the news but I can not post a comment either.&#13;
+&#13;
+Maybe a bug ?</description>
+      <author>community@ez.no (Jérôme Renard)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no2</guid>
+      <pubDate>Fri, 10 Apr 2009 06:07:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to create comments on projects.ez.no...</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no</link>
+      <description>For every news item posted, the poster can decide whether comments are allowed or not. I guess Jerome forgot to enable comments this time around.&#13;
+&#13;
+I agree that the text inviting to log in for adding comments is a bit misleading...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items/re_unable_to_create_comments_on_projects_ez_no</guid>
+      <pubDate>Thu, 09 Apr 2009 12:59:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to create comments on projects.ez.no news items?</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items</link>
+      <description>Hello,&#13;
+&#13;
+I was reading a bit of news on projects.ez.no just at the moment and I noticed an news article [0] and I realized I wanted to reply to the article with a comment [1] but could not. I logged in both on projects.ez.no and ez.no and refreshed the page ... yet the page did not display the authenticated user with a comment form at the bottom of the article.&#13;
+&#13;
+I found this behavior confusing when the very page viewed as anonymous user displays text encouraging users to authenticate to comment and when the user does so they still can not create a comment? That's not right, I wonder why it's doing that?&#13;
+&#13;
+Perhaps, I've done something wrong and this issue is merely a side affect unexplained that only affects me I don't know. I hope this helps.&#13;
+&#13;
+Cheers,&#13;
+&lt;i&gt;//kracker&lt;/i&gt;&#13;
+&#13;
+&lt;i&gt;mgmt - electric feel ...&lt;/i&gt;&#13;
+&#13;
+[0] http://projects.ez.no/mod_ezclustered_image/news/looking_for_maintainers&#13;
+[1] I wanted to ask if the mod_ezclustered_image project would continue to serve older vs current versions of eZ Publish or if this method was considered deprecated in favor of another solution?</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/unable_to_create_comments_on_projects_ez_no_news_items</guid>
+      <pubDate>Wed, 08 Apr 2009 23:49:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ projects source code</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code/re_ez_projects_source_code2</link>
+      <description>Hello Kristof,&#13;
+&#13;
+Thank you for identifying the key available extensions used to create the features of eZ Projects. As well as identifying the subversion repository code.&#13;
+&#13;
+Perhaps someone will make an effort to create a new design in the future which does not have those restrictions.&#13;
+&#13;
+Cheers,&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+soleandtheskyriderbandremixlp : nothing is free(subtitle remix)&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code/re_ez_projects_source_code2</guid>
+      <pubDate>Thu, 01 Jan 2009 06:58:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ projects source code</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code/re_ez_projects_source_code</link>
+      <description>Hi&#13;
+&#13;
+eZ Projects itself is mainly constructed with the following extensions:&#13;
+http://projects.ez.no/addcollabrule&#13;
+http://projects.ez.no/unixname&#13;
+http://projects.ez.no/ezssp&#13;
+http://projects.ez.no/autorss&#13;
+http://projects.ez.no/membership__1&#13;
+http://projects.ez.no/ezsubtreerelationfilter&#13;
+http://projects.ez.no/ezrating&#13;
+http://projects.ez.no/redirect&#13;
+&#13;
+There is a little bit of custom code, to initiate the Subversion repositories. This might be made available in a separate extension as well after it's a bit more generalized.&#13;
+&#13;
+If I remember well we are not able to share the design, due to some license restrictions (it was made long ago by a third party for the ez.no website).</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code/re_ez_projects_source_code</guid>
+      <pubDate>Wed, 31 Dec 2008 08:29:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: my profile link (recent change)</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change/re_my_profile_link_recent_change2</link>
+      <description>I think it would also be nice to have an rss feed link of all a member's contributions per profile page. Would this be possible?&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change/re_my_profile_link_recent_change2</guid>
+      <pubDate>Mon, 01 Dec 2008 18:43:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface4</link>
+      <description>@Kristof&#13;
+&#13;
+Thanks! That's great!&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Kottonmouth Kings : The Green Album : Happy&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface4</guid>
+      <pubDate>Mon, 24 Nov 2008 10:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface3</link>
+      <description>Hi Kracker&#13;
+&#13;
+Problem with the repositories.csv file should be fixed now. Thanks for reporting!</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface3</guid>
+      <pubDate>Sun, 23 Nov 2008 13:51:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface2</link>
+      <description>Hello Kristof,&#13;
+&#13;
+I noticed that the repositories file is static or at least not updated on a regular interval.&#13;
+&#13;
+Would you update please the file, http://projects.ez.no/repositories.csv&#13;
+&#13;
+It would be nice to have this file's contents match the current number of projects on currently on svn.projects.ez.no&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Kayne West - Tell everybody that you know ...&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface2</guid>
+      <pubDate>Sat, 15 Nov 2008 16:26:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: my profile link (recent change)</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change/re_my_profile_link_recent_change</link>
+      <description>Hi Kracker&#13;
+&#13;
+Updating your profile is not possible anymore for a long while on eZ Projects, the main data is on ez.no and there's only one-way synchronization. However, I agree that it's a good idea to put a link to edit the profile on ez.no.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change/re_my_profile_link_recent_change</guid>
+      <pubDate>Fri, 17 Oct 2008 08:07:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>my profile link (recent change)</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change</link>
+      <description>Re: &lt;i&gt;http://projects.ez.no/ez_projects/news/my_profile_link&lt;/i&gt;&#13;
+&#13;
+The new problem now is you can no longer click a link and change your account / profile details!&#13;
+&#13;
+I think their is room in the header for both links ...&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Dosh - "Capture The Flag" Live At Home&#13;
+http://www.youtube.com/watch?v=E3CGWOw9LHI&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/my_profile_link_recent_change</guid>
+      <pubDate>Fri, 17 Oct 2008 03:51:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Comments</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments2</link>
+      <description>Finally there's a new logo. Enjoy!</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments2</guid>
+      <pubDate>Tue, 18 Dec 2007 18:04:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface10</link>
+      <description>Hello Everyone!&#13;
+&#13;
+Brookins Consulting is pleased to point out a recent related contribution of two simple scripts which provide for the automated checkout of all of the projects.ez.no projects (svn.projects.ez.no subversion repositories for all of the projects.ez.no projects)&#13;
+&#13;
+http://ezpedia.org/wiki/ez/solution_checking_out_all_projects_ez_no_subversion_repositories&#13;
+&#13;
+With these examples showing how to use the csv formated file as provided to export or checkout all available repositories on your server with a single command or script.&#13;
+&#13;
+With the csv file regularly updated by the projects site through cron one could build a daily / nightly build solution of all the latest trunk repositories, stable release branche builds&#13;
+&#13;
+Such a solution would certainly help project maintainers in easing the amount of manual work related to each project release with an investment of effort to automatically populate the downloads section of each project with nightly builds of trunk and stable download packages (in a variaty of package formats ezpkg (standard), tar.gz (primary binary format), zip, tar.bz2 (etc..))&#13;
+&#13;
+Thank you for providing the csv file Kristof!&#13;
+&#13;
+Cheers!&#13;
+Brookins Consulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface10</guid>
+      <pubDate>Fri, 23 Nov 2007 19:59:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/svn/re_svn4</link>
+      <description>When i took a look last night i was thinking of fixing the issue where the status of the project is shown incorrectly - thought i'd help out :)&#13;
+&#13;
+Where does that code live? I assume its a template bug.&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/svn/re_svn4</guid>
+      <pubDate>Tue, 06 Nov 2007 10:17:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/svn/re_svn3</link>
+      <description>Hi Paul&#13;
+&#13;
+projects.ez.no consists of several extensions, which are almost all publicly available already here. A few ones (related to the svn repositories) are left to be more generalized before they can be released.&#13;
+&#13;
+This project "ez_projects" will serve as a place to discuss this site itself and to link to its own issue tracker. Probably no separate code will be released under it.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/svn/re_svn3</guid>
+      <pubDate>Tue, 06 Nov 2007 09:42:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/svn/re_svn2</link>
+      <description>Hi Kristof,&#13;
+&#13;
+Will you be making available ez_projects itself on svn? &#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/svn/re_svn2</guid>
+      <pubDate>Mon, 05 Nov 2007 22:11:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface9</link>
+      <description>Thank you very much for the viewvc interface!&#13;
+&#13;
+I have been looking forward to this addition and very pleased with it's arrival. I might suggest it would be simpler to access for all if it had it's own subdomain like, &lt;i&gt;http://viewvc.projects.ez.no/&lt;/i&gt;&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Philip Glass - Einstein on the beach - Knee play 4, 2, 1&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface9</guid>
+      <pubDate>Mon, 03 Sep 2007 23:44:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface8</link>
+      <description>And here's the ViewVC (formerly known as ViewCVS) interface: http://websvn.projects.ez.no/viewvc</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface8</guid>
+      <pubDate>Mon, 03 Sep 2007 14:05:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface7</link>
+      <description>Thank you very much for the websvn interface&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Kottonmouth Kings - Irie Feelin&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface7</guid>
+      <pubDate>Fri, 24 Aug 2007 14:06:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface6</link>
+      <description>Websvn is now available at http://websvn.projects.ez.no</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface6</guid>
+      <pubDate>Fri, 24 Aug 2007 11:12:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface5</link>
+      <description>From now on http://projects.ez.no/repositories.csv will give you an up-to-date list of the repositories available via projects. You can use this list for any kind of mass svn checkout or update process. Feel free to contribute any useful scripts using the list.&#13;
+</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface5</guid>
+      <pubDate>Wed, 22 Aug 2007 14:24:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository2</link>
+      <description>Hello,&#13;
+&#13;
+PubSVN, [ http://pubsvn.ez.no/ ] has been updated to show the following text notice.&#13;
+&#13;
+"&lt;i&gt;Some extensions have been made read-only in the community repository, because they are now using the project spaces at eZ projects instead. eZpedia offers a list of these read-only paths in the community repository. We recommend everyone to move their extensions to eZ projects. If you do so then send a list with the related paths in the community repository to Kristof so he can make them read-only.&lt;/i&gt;"&#13;
+&#13;
+And an article has been added to eZpedia to document these deprecated items on pubsvn, &lt;i&gt;http://ezpedia.org/wiki/en/ez/pubsvn_commit_access_restrictions&lt;/i&gt;&#13;
+&#13;
+&lt;i&gt;//kracker&#13;
+&#13;
+Smashing Pumpkins - The End is the Beginning is the End&lt;/i&gt;&#13;
+</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository2</guid>
+      <pubDate>Sun, 12 Aug 2007 06:03:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ projects source code</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code</link>
+      <description>Hello,&#13;
+&#13;
+I took a look today at this project's subversion repository today to find that it was empty! &lt;i&gt;http://svn.projects.ez.no/ez_projects/&lt;/i&gt;&#13;
+&#13;
+Are there plans to release the source code for the project?&#13;
+&#13;
+&lt;i&gt;//kracker&lt;/i&gt;</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/ez_projects_source_code</guid>
+      <pubDate>Sun, 12 Aug 2007 06:00:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Comments</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments4</link>
+      <description>&lt;b&gt;@kracker&lt;/b&gt;&#13;
+I've contacted eZ systems to get a new logo.&#13;
+&#13;
+&lt;b&gt;@damien&lt;/b&gt;&#13;
+The issue with the custom tags has been fixed.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments4</guid>
+      <pubDate>Sat, 19 May 2007 15:03:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Will there be project categories?</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/will_there_be_project_categories/re_will_there_be_project_categories2</link>
+      <description>A certain type of hierarchical categorization has been implemented at http://projects.ez.no/types. In the future we will maybe implement a system with user-defined tags.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/will_there_be_project_categories/re_will_there_be_project_categories2</guid>
+      <pubDate>Sat, 19 May 2007 14:36:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Comments</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments3</link>
+      <description>Another minor thing: the available tags in the forum don't work as expected, copy/paste of the right column :&#13;
+ &lt;code&gt;&#13;
+     $var = phpcode();&#13;
+ &lt;/code&gt;&#13;
+&lt;b&gt;Bold text&lt;/b&gt;&#13;
+&lt;i&gt;Italic text&lt;/i&gt;&#13;
+http://ez.no links will automatically be made clickable</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments3</guid>
+      <pubDate>Mon, 09 Apr 2007 23:14:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>what's up :-)</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/what_s_up</link>
+      <description>Any news to share about ez projects development. &#13;
+&#13;
+Is there any way I could help so just tell me.&#13;
+&#13;
+Best regards&#13;
+&#13;
+Niklas</description>
+      <author>community@ez.no (Niklas Gunnäs)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/what_s_up</guid>
+      <pubDate>Tue, 20 Mar 2007 10:21:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Comments</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments</link>
+      <description>Minor thing:&#13;
+&#13;
+The confirmation page when you register for membership in another project http://projects.ez.no/membership/register/...) has the title 'operation halt', which looks a bit strange.&#13;
+&#13;
+Claudia</description>
+      <author>community@ez.no (Claudia Kosny)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/design_comments/re_design_comments</guid>
+      <pubDate>Thu, 15 Mar 2007 10:29:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wiki and ticker/bug reports</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports7</link>
+      <description>Another option is to have eZ 'contribute' their old bug tracker which should be pretty simple to integrate? &#13;
+&#13;
+The old bug tracker could go on as a project here to refine...&#13;
+&#13;
+It really depends on what is needed. &#13;
+&#13;
+Paul&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports7</guid>
+      <pubDate>Tue, 13 Mar 2007 11:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wiki and ticker/bug reports</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports6</link>
+      <description>It would seem that a process to add what they are now calling as 'components' for each sub project on view, http://issues.ez.no/ProjectSelect.php?Id=1 as a guide for what could possibly be added to, http://issues.ez.no/ProjectSelect.php?Id=6&#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports6</guid>
+      <pubDate>Tue, 13 Mar 2007 11:06:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wiki and ticker/bug reports</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports5</link>
+      <description>Since projects.ez.no is intended to be maintained by eZ in the long run we should simply be able to use issues.ez.no?&#13;
+&#13;
+At the very least this would get things moving in the short term...&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports5</guid>
+      <pubDate>Tue, 13 Mar 2007 10:12:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: SVN</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/svn/re_svn6</link>
+      <description>When will the SVN be migrated from pubsvn (and or the contrib section)&#13;
+&#13;
+Is there a plan for the bringing together of all available community resources to one system.&#13;
+&#13;
+Will eZ systems be bringing svn.ez.no or zev.ez.no's extension repositories over to the projects .ez.no application? There is a whole lot of good code which most people don't know about.&#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/svn/re_svn6</guid>
+      <pubDate>Tue, 13 Mar 2007 09:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: First post!</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/first_post/re_first_post3</link>
+      <description>are we collecting karma points yet ... &#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/first_post/re_first_post3</guid>
+      <pubDate>Tue, 13 Mar 2007 08:58:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Design Comments</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/design_comments</link>
+      <description>This is a thread for the discussion of design inconsistencies ...&#13;
+&#13;
+For a spit moment, I wanted nothing more than to ...&#13;
+&#13;
+- Change the header logo image to 'eZ projects' site design.</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/design_comments</guid>
+      <pubDate>Tue, 13 Mar 2007 08:51:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wiki and ticker/bug reports</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports4</link>
+      <description>Why can we simply not speak with waterproof and make them an offer to get a copy of WiT for our own needs. It might seem off but I don't see cost as the problem ... we all will be using components soon enough ...&#13;
+&#13;
+Still... I am for the old issue tracker being shared as free software, just not getting hung up in the politics of the e.Z.&#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/wiki_and_ticker_bug_reports/re_wiki_and_ticker_bug_reports4</guid>
+      <pubDate>Tue, 13 Mar 2007 08:38:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository11</link>
+      <description>Paul,&#13;
+&#13;
+Great Idea! I very much encourage! Though I think we should produce a good looking old world style proposal document, something that really conveys the value of the proposal / offer ...&#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository11</guid>
+      <pubDate>Tue, 13 Mar 2007 08:34:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: websvn interface</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface11</link>
+      <description>I second this request and add viewcvs as part of the available public tools...&#13;
+Don't forget a method to dynamically checkout or update all of the repositories in one command.&#13;
+&#13;
+//kracker</description>
+      <author>community@ez.no (// kracker)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/websvn_interface/re_websvn_interface11</guid>
+      <pubDate>Tue, 13 Mar 2007 08:31:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository10</link>
+      <description>Good plan. We should also ask eZ to transfer their http://zev.ez.no/svn/extensions over too, which i need to pursue this week...&#13;
+&#13;
+Out of interest are there any pubsvn projects which *dont* have a corresponding contributions page? I would propose asking eZ to contact each developer with a proposal to move their svn and contributions over to 'projects' since they have the profile details. Most contact details can  be worked out but eZ might be able to help out here...&#13;
+&#13;
+I'll mention this to them this week.&#13;
+&#13;
+Paul</description>
+      <author>community@ez.no (Paul Forsyth)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository10</guid>
+      <pubDate>Mon, 12 Mar 2007 10:42:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository9</link>
+      <description>BTW, what's the timezone ? The message are posted one hour ahead of my localtime...</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository9</guid>
+      <pubDate>Mon, 12 Mar 2007 10:42:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository8</link>
+      <description>Hi,&#13;
+&#13;
+Is there a way on projects to update all the extensions with their latest version on the svn ? &#13;
+&#13;
+Is there a way to download automatically all the new extensions added to projects ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository8</guid>
+      <pubDate>Mon, 12 Mar 2007 10:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository7</link>
+      <description>Hi Kristof&#13;
+&#13;
+I like the idea but as I rarely use(d) the community pubsvn I am not the best person to ask.&#13;
+Therefore I think you should open this discussion on the forum in ez.no -  most likely you will get more feedback there. &#13;
+&#13;
+Claudia</description>
+      <author>community@ez.no (Claudia Kosny)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository7</guid>
+      <pubDate>Sun, 11 Mar 2007 15:37:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository6</link>
+      <description>Hi Xavier&#13;
+&#13;
+&lt;code&gt;&#13;
+I didn't find a way to download the complete repository from &#13;
+&lt;/code&gt;&#13;
+&#13;
+In fact it's not one repository, each project has its own dedicated repository.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository6</guid>
+      <pubDate>Sun, 11 Mar 2007 11:04:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository5</link>
+      <description>Otherwise, I'd be a great idea to put in an attic some old extensions that aren't maintained anymore.&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository5</guid>
+      <pubDate>Sun, 11 Mar 2007 10:49:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository4</link>
+      <description>Hi,&#13;
+&#13;
+Ok, been able to put something on one of the repository&#13;
+&#13;
+I didn't find a way to download the complete repository from &#13;
+&#13;
+svn co http://projects.ez.no:81/svn/projects&#13;
+&#13;
+(password protected)&#13;
+&#13;
+On pubsvn, I update the complete repository, that's for sure something we need too on projects. Any idea how to do that ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository4</guid>
+      <pubDate>Sun, 11 Mar 2007 10:46:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository3</link>
+      <description>You will only have write access on projects you are a member of. Of course when a certain project is abandoned by their current developers then it should be possible to transfer the ownership to whatever party interested in further development or maintenance.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository3</guid>
+      <pubDate>Sun, 11 Mar 2007 10:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Outdating the pubsvn community repository</title>
+      <link>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository</link>
+      <description>Oh my god, he killed the repository !&#13;
+&#13;
+Other than that, do we have the same access rights on the project repository than on pubsvn ? (ie write on all projects ?)&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository/re_outdating_the_pubsvn_community_repository</guid>
+      <pubDate>Sat, 10 Mar 2007 16:46:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

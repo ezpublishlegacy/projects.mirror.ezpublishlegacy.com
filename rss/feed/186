@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ez_projects / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:22:47 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:22:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/186" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ez_projects rev. 76 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/76</link>
+      <description>--Adding-in the missing link to ez.no</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/76</guid>
+      <pubDate>Wed, 15 May 2013 12:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 75 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/75</link>
+      <description>--Fixing status label on project home page: Planning now available</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/75</guid>
+      <pubDate>Thu, 21 Feb 2013 13:15:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 74 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/74</link>
+      <description>--SSO Rollout</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/74</guid>
+      <pubDate>Tue, 09 Oct 2012 17:15:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 72 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/72</link>
+      <description>--SSO roll-out</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/72</guid>
+      <pubDate>Tue, 09 Oct 2012 16:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 73 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/73</link>
+      <description>--SSO Rollout</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/73</guid>
+      <pubDate>Tue, 09 Oct 2012 16:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 71 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/71</link>
+      <description>--Adding safety to the github log import script : won\'t halt when a commit was already imported.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/71</guid>
+      <pubDate>Fri, 01 Jun 2012 09:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 70 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/70</link>
+      <description>--More safety rails.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/70</guid>
+      <pubDate>Tue, 03 Apr 2012 12:31:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 69 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/69</link>
+      <description>--new view required to export metadata information for reviews. Fix procedure only.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/69</guid>
+      <pubDate>Tue, 03 Apr 2012 09:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 68 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/68</link>
+      <description>--Fixed : adding author to the latest review, in the XML export of a project.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/68</guid>
+      <pubDate>Tue, 03 Apr 2012 09:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 67 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/67</link>
+      <description>--Fixed sorting method of commits</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/67</guid>
+      <pubDate>Thu, 22 Dec 2011 22:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 66 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/66</link>
+      <description>--Added "Fork me on Github" ribbon when applicable</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/66</guid>
+      <pubDate>Thu, 22 Dec 2011 22:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 65 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/65</link>
+      <description>--Proper cronjob configuation for the git commit-log import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/65</guid>
+      <pubDate>Thu, 22 Dec 2011 13:45:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 64 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/64</link>
+      <description>--Fixed wording</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/64</guid>
+      <pubDate>Thu, 22 Dec 2011 13:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 63 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/63</link>
+      <description>--Added resources list when git is used (right-hand side)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/63</guid>
+      <pubDate>Thu, 22 Dec 2011 13:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 62 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/62</link>
+      <description>--Debugging isgithubrepo tpl operator</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/62</guid>
+      <pubDate>Thu, 22 Dec 2011 13:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 60 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/60</link>
+      <description>--Debugging isgithubrepo tpl operator</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/60</guid>
+      <pubDate>Thu, 22 Dec 2011 13:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 61 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/61</link>
+      <description>--Debugging isgithubrepo tpl operator</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/61</guid>
+      <pubDate>Thu, 22 Dec 2011 13:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 58 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/58</link>
+      <description>--Added new "isgithubrepo' template operator
+--Code acquisition instructions are now github compliant
+--Github author, when used, is autolinked</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/58</guid>
+      <pubDate>Thu, 22 Dec 2011 11:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 59 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/59</link>
+      <description>--Sort order in listing of commits now ok ('published' instead of 'modified')</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/59</guid>
+      <pubDate>Thu, 22 Dec 2011 11:30:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 57 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/57</link>
+      <description>--Full view of log message now github commit compliant</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/57</guid>
+      <pubDate>Thu, 22 Dec 2011 11:15:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 56 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/56</link>
+      <description>--Link to github commit opening in a new window</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/56</guid>
+      <pubDate>Thu, 22 Dec 2011 11:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 53 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/53</link>
+      <description>--Fixed github author field content (formed upon import)
+--Made commit log listing comliant with the Github way</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/53</guid>
+      <pubDate>Thu, 22 Dec 2011 11:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 54 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/54</link>
+      <description>--Fixed sorting method</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/54</guid>
+      <pubDate>Thu, 22 Dec 2011 11:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 55 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/55</link>
+      <description>--Fixed author name in listing
+--Adjusted the shortening of revision/commit number</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/55</guid>
+      <pubDate>Thu, 22 Dec 2011 11:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 50 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/50</link>
+      <description>--Added more verbosity to the github log import script</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/50</guid>
+      <pubDate>Thu, 22 Dec 2011 10:31:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 51 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/51</link>
+      <description>--Fixed data check causing Fatal Error
+--Removed useless carriage returns</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/51</guid>
+      <pubDate>Thu, 22 Dec 2011 10:31:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 52 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/52</link>
+      <description>--Fixed data check causing Fatal Error</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/52</guid>
+      <pubDate>Thu, 22 Dec 2011 10:31:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 49 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/49</link>
+      <description>--Moved ahead on github log import cronjob</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/49</guid>
+      <pubDate>Thu, 22 Dec 2011 10:15:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 48 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/48</link>
+      <description>--Fixed wrong data access.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/48</guid>
+      <pubDate>Tue, 20 Dec 2011 19:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 45 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/45</link>
+      <description>--Moved ahead on cronjob for importing github commit log.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/45</guid>
+      <pubDate>Tue, 20 Dec 2011 19:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 46 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/46</link>
+      <description>--Fixed mis-interpretation of results</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/46</guid>
+      <pubDate>Tue, 20 Dec 2011 19:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 47 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/47</link>
+      <description>--Fixed local testing artifact</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/47</guid>
+      <pubDate>Tue, 20 Dec 2011 19:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 44 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/44</link>
+      <description>--Fixed attribute filter</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/44</guid>
+      <pubDate>Tue, 20 Dec 2011 17:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 43 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/43</link>
+      <description>--Started cronjob updating the github-enabled projects commit log.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/43</guid>
+      <pubDate>Tue, 20 Dec 2011 17:15:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 41 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/41</link>
+      <description>--Added github URL former</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/41</guid>
+      <pubDate>Tue, 20 Dec 2011 17:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 42 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/42</link>
+      <description>--Implemented support of githubFeedUrl to feed consumer
+--Updated tests accordingly</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/42</guid>
+      <pubDate>Tue, 20 Dec 2011 17:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 40 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/40</link>
+      <description>--github Feed consumer done.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/40</guid>
+      <pubDate>Tue, 20 Dec 2011 16:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 39 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/39</link>
+      <description>--Clean-up, this all will be run in eZ Publish context</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/39</guid>
+      <pubDate>Thu, 15 Dec 2011 19:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 38 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/38</link>
+      <description>--Beginning of the github consumption project.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/38</guid>
+      <pubDate>Thu, 15 Dec 2011 19:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 37 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/37</link>
+      <description>-- House keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/37</guid>
+      <pubDate>Thu, 15 Dec 2011 17:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 35 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/35</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/35</guid>
+      <pubDate>Thu, 15 Dec 2011 17:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 36 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/36</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/36</guid>
+      <pubDate>Thu, 15 Dec 2011 17:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 33 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/33</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/33</guid>
+      <pubDate>Thu, 15 Dec 2011 17:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 34 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/34</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/34</guid>
+      <pubDate>Thu, 15 Dec 2011 17:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 31 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/31</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/31</guid>
+      <pubDate>Thu, 15 Dec 2011 17:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 32 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/32</link>
+      <description>--House-keeping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/32</guid>
+      <pubDate>Thu, 15 Dec 2011 17:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 30 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/30</link>
+      <description>--Fixing post-commit hooks for new platform
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/30</guid>
+      <pubDate>Tue, 19 Jul 2011 11:21:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 29 by Nicolas Pastorino</title>
+      <link>http://projects.ez.no/ez_projects/subversion/29</link>
+      <description>--Testing sync between SVN log messages and content base. No real modification in this file.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/29</guid>
+      <pubDate>Wed, 01 Dec 2010 13:25:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 28 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ez_projects/subversion/28</link>
+      <description>new module to deal with rss list. was present in projects.ez.no 4.0.2 version, but in files that were overwritten in the upgrade. adding new module for it</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/28</guid>
+      <pubDate>Mon, 29 Nov 2010 19:27:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ez_projects rev. 27 by Carlos Revillo</title>
+      <link>http://projects.ez.no/ez_projects/subversion/27</link>
+      <description>patch should be in another place, because other function(using eZcFeed) is used for generating the feed in newer version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ez_projects/subversion/27</guid>
+      <pubDate>Wed, 27 Oct 2010 21:25:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

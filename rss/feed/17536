@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / sfnewslettertousergroup / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:12:33 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:12:33 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/17536" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Code modification</title>
+      <link>http://projects.ez.no/sfnewslettertousergroup/forum/general/code_modification</link>
+      <description>Hi,&#13;
+i changed your code a bit to make it more error-proof.&#13;
+&#13;
+Here it is:&#13;
+&lt;code&gt;&#13;
+&lt;?php&#13;
+$debug=true;&#13;
+$ini = eZINI::instance( 'scuola.ini' );&#13;
+$prepend_string=$ini-&gt;variable( 'NameSettings','PrependSubscriptionListsString' );&#13;
+$admin_user_id=$ini-&gt;variable('UserSettings','AdminUserID');&#13;
+$groups_to_ignore=$ini-&gt;variable('UserGroupSettings','IgnoreGroup');&#13;
+$userclasstype=$ini-&gt;variable('UserClassTypes','userclasstype');&#13;
+$admin_user = eZUser::fetch( $admin_user_id );&#13;
+eZUser::setCurrentlyLoggedInUser($admin_user,$admin_user_id);&#13;
+$cli-&gt;output("Starting to sync usergroups to subscriptionlists");&#13;
+$all_subscriptionlists=eZSubscriptionList::fetchList( 0, eZSubscriptionList::countList() );&#13;
+$all_usergroups=eZContentObjectTreeNode::subTreeByNodeID(array('ClassFilterType' =&gt; 'include','ClassFilterArray' =&gt; array('user_group')),5);&#13;
+&#13;
+&#13;
+// For each usergroup check if subscriptionlist entry exists in table. If not, create it.&#13;
+$db = eZDB::instance();&#13;
+&#13;
+&#13;
+$cli-&gt;output(sizeof($all_usergroups)." User Groups to investigate");&#13;
+$sql = "SELECT DISTINCT usergroupid FROM sfnewslettertousergroup WHERE 1";&#13;
+$all_relations=$db-&gt;arrayQuery($sql);&#13;
+&#13;
+&#13;
+foreach ($all_usergroups as $user_group) {&#13;
+&#13;
+&#13;
+    $name=$prepend_string;&#13;
+&#13;
+    $cli-&gt;output("Investigating UserGroup with ID ".$user_group-&gt;ContentObjectID);&#13;
+&#13;
+    $sql = "SELECT DISTINCT usergroupid, subscriptionlistid FROM sfnewslettertousergroup WHERE `usergroupid` = ".$user_group-&gt;ContentObjectID;&#13;
+    $UGSLrelation = $db-&gt;arrayQuery( $sql );&#13;
+&#13;
+&#13;
+    if ($UGSLrelation) {&#13;
+        $subscriptionListID=$UGSLrelation[0]['subscriptionlistid'];&#13;
+&#13;
+&#13;
+        if (in_array($user_group-&gt;ContentObjectID,$groups_to_ignore)) { // Group should be ignored but already has a auto-generated subscriptionlist&#13;
+&#13;
+            $cli-&gt;output("Removing group ".$user_group-&gt;ContentObjectID);&#13;
+            $subscriptionListID=$UGSLrelation[0]['subscriptionlistid'];&#13;
+            eZSubscriptionList::removeAll($subscriptionListID); // delete the no longer wanted subscriptionlist&#13;
+            $sql = "DELETE FROM `sfnewslettertousergroup` WHERE `usergroupid` = ".$user_group-&gt;ContentObjectID;&#13;
+            $db-&gt;query($sql); // remove relation entry from table&#13;
+            continue;&#13;
+        }&#13;
+&#13;
+        $subscriptionList=eZSubscriptionList::fetch($subscriptionListID);&#13;
+        if (is_object($subscriptionList)) {&#13;
+            updateUsersInSubscriptionlist($user_group,$subscriptionList,$cli,$userclasstype,$db);&#13;
+        }else {&#13;
+            $sql = "DELETE FROM `sfnewslettertousergroup` WHERE `subscriptionlistid` = ".$subscriptionListID;&#13;
+            $db-&gt;query($sql); // remove relation entry from table&#13;
+            $subscriptionList=createSubscriptionList($name,$user_group,$groups_to_ignore,$admin_user_id,$db);&#13;
+            updateUsersInSubscriptionlist($user_group,$subscriptionList,$cli,$userclasstype,$db);&#13;
+        }&#13;
+    }&#13;
+    else {&#13;
+&#13;
+        $subscriptionList=createSubscriptionList($name,$user_group,$groups_to_ignore,$admin_user_id,$db);&#13;
+&#13;
+        updateUsersInSubscriptionlist($user_group, $subscriptionList,$cli,$userclasstype,$db);&#13;
+&#13;
+    }&#13;
+}&#13;
+&#13;
+eZUser::logoutCurrent();&#13;
+&#13;
+&#13;
+function createSubscriptionList($name,$user_group,$groups_to_ignore,$admin_user_id,$db) {&#13;
+&#13;
+    $depth=$user_group-&gt;Depth;&#13;
+    if (in_array($user_group-&gt;ContentObjectID,$groups_to_ignore)) { // Ignore Groups defined in ini&#13;
+        return;&#13;
+    }&#13;
+&#13;
+    if ($depth &gt; 2) { // Usergroup is a Subusergroup -&gt; Prepend name of Parent Usergroup&#13;
+        $parent_node=eZContentObjectTreeNode::fetch($user_group-&gt;ParentNodeID);&#13;
+        $name.=$parent_node-&gt;Name." ".$user_group-&gt;Name;&#13;
+    }&#13;
+    else {&#13;
+        $name.=$user_group-&gt;Name;&#13;
+    }&#13;
+&#13;
+    // Now create new subscriptionlist&#13;
+    $db-&gt;begin();&#13;
+    $new_subscriptionlist=eZSubscriptionList::create($name,$admin_user_id);&#13;
+    $new_subscriptionlist_id=$new_subscriptionlist-&gt;attribute('id');&#13;
+    $sql = "INSERT INTO `sfnewslettertousergroup` SET `usergroupid` = '".$user_group-&gt;ContentObjectID."', `subscriptionlistid` = ".$new_subscriptionlist_id;&#13;
+    $db-&gt;query($sql);&#13;
+    $new_subscriptionlist-&gt;setAttribute("description","Auto-generated Subscriptionlist from usergroup ".$user_group-&gt;Name." (ID: ".$user_group-&gt;ContentObjectID.")");&#13;
+    $new_subscriptionlist-&gt;publish();&#13;
+    $db-&gt;commit();&#13;
+    return $new_subscriptionlist;&#13;
+&#13;
+}&#13;
+&#13;
+&#13;
+function updateUsersInSubscriptionlist($usergroup,$subscriptionList,$cli,$userclasstype,$db) {&#13;
+&#13;
+    if (!is_object($subscriptionList)) {&#13;
+        $cli-&gt;output('SubcriptionList is not an object');&#13;
+        return;&#13;
+    }&#13;
+    $subscriptionListID=$subscriptionList-&gt;attribute('id');&#13;
+    $users=eZContentObjectTreeNode::subTreeByNodeID(array('ClassFilterType' =&gt; 'include',&#13;
+        'ClassFilterArray' =&gt; $userclasstype),$usergroup-&gt;MainNodeID);&#13;
+&#13;
+    foreach ($users as $user) {&#13;
+        $user_node=eZContentObjectTreeNode::fetch($user-&gt;NodeID);&#13;
+        $data_map=$user_node-&gt;dataMap();&#13;
+&#13;
+        $first_name=$data_map['first_name']-&gt;attribute('data_text');&#13;
+        $last_name=$data_map['last_name']-&gt;attribute('data_text');&#13;
+        $email=$data_map['user_account']-&gt;attribute('content')-&gt;attribute('email');&#13;
+&#13;
+        if ($subscriptionList-&gt;emailSubscriptionExists($email)) {&#13;
+            continue;&#13;
+        }&#13;
+&#13;
+        $db-&gt;begin();&#13;
+        $new_subscription=eZSubscription::create($subscriptionListID,$first_name,$last_name,0,$email);&#13;
+        $new_subscription-&gt;setAttribute("status",eZSubscription::StatusConfirmed);&#13;
+        $new_subscription-&gt;setAttribute("status",eZSubscription::StatusApproved);&#13;
+        $new_subscription-&gt;publish();&#13;
+        $db-&gt;commit();&#13;
+&#13;
+    }&#13;
+&#13;
+&#13;
+&#13;
+}&#13;
+?&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Matteo Mosangini)</author>
+      <guid>http://projects.ez.no/sfnewslettertousergroup/forum/general/code_modification</guid>
+      <pubDate>Sat, 29 Aug 2009 19:13:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>beta ?</title>
+      <link>http://projects.ez.no/sfnewslettertousergroup/forum/general/beta</link>
+      <description>Hi,&#13;
+&#13;
+we already have some cronjobs which are doing exactly the same job.&#13;
+Is your code already or finished ? We could join forces here.</description>
+      <author>community@ez.no (Norman Leutner)</author>
+      <guid>http://projects.ez.no/sfnewslettertousergroup/forum/general/beta</guid>
+      <pubDate>Wed, 29 Jul 2009 16:18:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ca_glossary / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 17:35:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 17:35:52 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18574" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Keeping upcase </title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/keeping_upcase</link>
+      <description>Hello,&#13;
+&#13;
+is there any solution to keep terms originally how were written in ezxmltext content? Currently all are in downcase. So for example if paragraph starts with:&#13;
+&lt;code&gt;Lorem ipsum&lt;/code&gt;&#13;
+it will be converted into&#13;
+&lt;code&gt;lorem ipsum&lt;/code&gt;&#13;
+I know it's possible to remove 'downcase' operator in ca_glossary.tpl, but it's not a solution for me. It will only use the way how term is written in glossary.&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Bartek Modzelewski)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/keeping_upcase</guid>
+      <pubDate>Sat, 05 May 2012 12:38:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Difference between Glossary operator and CA...</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca5</link>
+      <description>Yes, thank you ! &#13;
+&#13;
+I'll add this to the projects as soon as possible</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca5</guid>
+      <pubDate>Mon, 08 Nov 2010 08:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Difference between Glossary operator and CA...</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca4</link>
+      <description>Thanks Heiner Wurbs for your posts, they really helped me.</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca4</guid>
+      <pubDate>Sun, 07 Nov 2010 14:41:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 4.4 error?</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/4_4_error/re_4_4_error2</link>
+      <description>Also, I wanted to change a little bit the functionality, because i want when a user clicks the item to be sent to the item page where he can find further explanations:&#13;
+&#13;
+Remove:&#13;
+&lt;code&gt;$glossaryUrl = $glossaryNode-&gt;attribute('url_alias');&lt;/code&gt;&#13;
+&#13;
+After&#13;
+&lt;code&gt;$title = $dataMap[$titleAttributeIdentifier]-&gt;content();&lt;/code&gt;&#13;
+Add&#13;
+&lt;code&gt;$url = $definition-&gt;url();&lt;/code&gt;&#13;
+&#13;
+Replace&#13;
+&lt;code&gt;$tpl-&gt;setVariable( 'glossaryUrl', $glossaryUrl );&lt;/code&gt;&#13;
+to&#13;
+&lt;code&gt;$tpl-&gt;setVariable( 'url', $url );&lt;/code&gt;&#13;
+&#13;
+open &lt;b&gt;design/standard/templates/ca_glossary.tpl&lt;/b&gt;&#13;
+replace&#13;
+&lt;code&gt;&lt;a class="ca_glossary" href={concat($glossaryUrl,'#',$title)|ezurl}&gt;{$title|downcase}&lt;span&gt;{$definition}&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&#13;
+with&#13;
+&lt;code&gt;&lt;a class="ca_glossary" href={concat($url)|ezurl}&gt;{$title|downcase}&lt;span&gt;{$definition}&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/4_4_error/re_4_4_error2</guid>
+      <pubDate>Sun, 07 Nov 2010 14:27:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 4.4 error?</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/4_4_error/re_4_4_error</link>
+      <description>Also, I had to change    &#13;
+     &#13;
+&lt;code&gt;       $regExp = "/\b(".implode('|',$matchArray).")\b(?!.*&lt;\/(".$exceptionTagsString.")&gt;+)(?![^(&gt;|&lt;)]*&gt;+)/i";&lt;/code&gt;&#13;
+to&lt;code&gt;$regExp = "/\b(".implode('|',$matchArray).")\b(?![^(&gt;|&lt;)]*&gt;+)/i";&lt;/code&gt; (I am not good with regex sintax, but it did not work with the initial version).&#13;
+&#13;
+&#13;
+and&#13;
+&lt;code&gt;            $definition = $dataMap[$definitionAttributeIdentifier]-&gt;content();&lt;/code&gt;&#13;
+to&#13;
+&lt;code&gt;            $definition_obj = $dataMap[$definitionAttributeIdentifier]-&gt;content();&#13;
+			$definition = $definition_obj-&gt;XMLData;&lt;/code&gt;</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/4_4_error/re_4_4_error</guid>
+      <pubDate>Sun, 07 Nov 2010 13:27:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>4.4 error?</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/4_4_error</link>
+      <description>There seems to be a compatibility problem with ezPublish 4.4&#13;
+&#13;
+Replace&#13;
+&lt;code&gt;$tpl = templateInit();&lt;/code&gt;&#13;
+&#13;
+With&#13;
+&lt;code&gt;$tpl = eZTemplate::instance();&lt;/code&gt;</description>
+      <author>community@ez.no (Sao Tavi)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/4_4_error</guid>
+      <pubDate>Sun, 07 Nov 2010 10:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Difference between Glossary operator and CA...</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca3</link>
+      <description>Hi,&#13;
+&#13;
+next improvement. If you want to use defined variants of a glossary word, e.g. "eZ", "eZ publish", "easy publish", use the following code:&#13;
+&#13;
+Add this line after line 107:&#13;
+&lt;code&gt;&#13;
+$variantsAttributeIdentifier = $ini-&gt;variable('GeneralSettings','VariantsAttributeIdentifier');&#13;
+&lt;/code&gt;&#13;
+And add before the lines:&#13;
+&lt;code&gt;&#13;
+$matchArray[] = preg_quote( $title, '/' );&#13;
+$tpl = templateInit();&#13;
+...&#13;
+&lt;/code&gt;&#13;
+the following code:&#13;
+&lt;code&gt;&#13;
+$variants = $dataMap[$variantsAttributeIdentifier]-&gt;content();&#13;
+if (strlen($variants) &gt; 0) {&#13;
+&#13;
+$variants_arr = explode(",", $variants);&#13;
+if (count($variants_arr) &gt; 0) {&#13;
+&#13;
+foreach ($variants_arr as &$itm) {
+  $matchArray[] = preg_quote( $itm, '/' );&#13;
+  $tpl = templateInit();&#13;
+  $tpl-&gt;setVariable( 'title', $itm );&#13;
+  $tpl-&gt;setVariable( 'glossaryUrl', $glossaryUrl );&#13;
+  $tpl-&gt;setVariable( 'definition', $definition );&#13;
+  $replaceArray[strtolower($itm)] = $tpl-&gt;fetch( 'design:ca_glossary.tpl' );&#13;
+}&#13;
+}&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+You have to add a line in the glossary.ini.append.php for the variant attribute:&#13;
+&lt;code&gt;&#13;
+# Glossar entry variants&#13;
+VariantsAttributeIdentifier=variants&#13;
+&lt;/code&gt;&#13;
+&#13;
+The values in the variant attribute are seperated by comma:&#13;
+&lt;code&gt;&#13;
+eZ,eZ publish,easy publish&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Heiner Wurbs)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca3</guid>
+      <pubDate>Fri, 15 Oct 2010 13:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Difference between Glossary operator and CA...</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca2</link>
+      <description>Hi there,&#13;
+&#13;
+I have an improvement for this ca_glossary extension. If you want to use an ezxmltext for the Glossary word, then you could add the following code to autoloads/ca_glossary.php.&#13;
+&#13;
+Add after line 145:&#13;
+&#13;
+&lt;code&gt;&#13;
+$defObj = $dataMap[$definitionAttributeIdentifier];&#13;
+if ($defObj-&gt;DataTypeString == "ezxmltext") {&#13;
+    $XMLContent = $defObj-&gt;attribute( 'data_text' );&#13;
+    $outputHandler = new eZXHTMLXMLOutput( $XMLContent, false, $defObj );&#13;
+    $htmlContent =& $outputHandler->outputText();&#13;
+    $definition = $htmlContent;&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Then you can use instead of a eztext as &#13;
+DefinitionAttributeIdentifier=&#13;
+an ezxmltext attribute.</description>
+      <author>community@ez.no (Heiner Wurbs)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca2</guid>
+      <pubDate>Fri, 15 Oct 2010 10:36:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Difference between Glossary operator and CA...</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca</link>
+      <description>Hi,&#13;
+&#13;
+Main differences are a use of a template to personnalize the replacement of the matching word and a better performance because there is only one loop through the glossary and uses only one str_replace with a callback_fonction.&#13;
+&#13;
+Regards.</description>
+      <author>community@ez.no (Matthieu  Sévère)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary/re_difference_between_glossary_operator_and_ca</guid>
+      <pubDate>Mon, 17 Aug 2009 07:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Difference between Glossary operator and CA_Glossary</title>
+      <link>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary</link>
+      <description>Hi Matthieu,&#13;
+&#13;
+thanks for your work, can you tell me the difference between&#13;
+&#13;
+http://ez.no/developer/contribs/template_plugins/glossary_operator__1 and and CA_Glossary so it is more easy to decide,&#13;
+&#13;
+Thanks, ekke</description>
+      <author>community@ez.no (Ekkehard Dörre)</author>
+      <guid>http://projects.ez.no/ca_glossary/forum/general/difference_between_glossary_operator_and_ca_glossary</guid>
+      <pubDate>Sun, 16 Aug 2009 10:08:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezupgrade / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:32:11 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:32:11 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/23535" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezupgrade rev. 8 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/8</link>
+      <description>Fixed the issue with broken distro links and cleaned up some upgrade functions for 4.4.0.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/8</guid>
+      <pubDate>Thu, 28 Oct 2010 07:05:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 7 by Jérôme Vieilledent</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/7</link>
+      <description>Upgrade support to eZ Publish Fuji (4.4) Community edition</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/7</guid>
+      <pubDate>Fri, 01 Oct 2010 07:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 6 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/6</link>
+      <description>Added a new notification to eZ Publish 4.3.0 upgrade version. This notification tell the user to check that the patch to the file kernel/classes/datatypes/ezxmltext/handlers/output/ezxhtmlxmloutput.php is fixed, if not they need to alter it. This bug hides some text from text made with the editor.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/6</guid>
+      <pubDate>Thu, 03 Jun 2010 10:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 5 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/5</link>
+      <description>Setting for make the ezupgrade always answear with the default option on prompts. Usally on when the systems try to override files and so on.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/5</guid>
+      <pubDate>Thu, 03 Jun 2010 08:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 4 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/4</link>
+      <description>Added support for upgrading versions from 3.5.0 and up to 4.3.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/4</guid>
+      <pubDate>Wed, 26 May 2010 12:30:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 3 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/3</link>
+      <description>Added support back to 3.8.6</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/3</guid>
+      <pubDate>Thu, 06 May 2010 14:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 2 by Anders Berre</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/2</link>
+      <description>Update the app with support for upgrading from 3.10.0 to 4.2.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/2</guid>
+      <pubDate>Thu, 18 Mar 2010 08:20:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezupgrade rev. 1 by Eirik Alfstad Johansen</title>
+      <link>http://projects.ez.no/ezupgrade/subversion/1</link>
+      <description>Initial release. NM rev. 668.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezupgrade/subversion/1</guid>
+      <pubDate>Mon, 22 Feb 2010 14:40:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+--- eznewsletter/modules/newsletter/function_definition.php	2007-02-08 15:40:35.000000000 +0100
++++ eznewsletter_xsto/modules/newsletter/function_definition.php	2008-12-19 12:56:47.000000000 +0100
+@@ -131,6 +131,15 @@
+                                                                   'type' => 'string',
+                                                                   'required' => true ) ) );
+ 
++$FunctionList['user_data_by_email'] = array( 'name' => 'user_data_by_email',
++                                    'call_method' => array( 'include_file' => $baseDir . 'eznewsletterfunctioncollection.php',
++                                                            'class' => 'eZNewsletterFunctionCollection',
++                                                            'method' => 'userDataByEmail' ),
++                                    'parameter_type' => 'standard',
++                                    'parameters' => array( array( 'name' => 'email',
++                                                                  'type' => 'string',
++                                                                  'required' => true ) ) );
++
+ $FunctionList['newsletter_count'] = array( 'name' => 'newsletter_count',
+                                            'call_method' => array( 'include_file' => $baseDir . 'eznewsletterfunctioncollection.php',
+                                                                    'class' => 'eZNewsletterFunctionCollection',
+@@ -242,4 +251,13 @@
+                                                                      'type' => 'integer',
+                                                                      'required' => true ) ) );
+ 
++$FunctionList['subscription_list_by_name'] = array( 'name' => 'subscription_list_by_name',
++                                                    'call_method' => array( 'include_file' => $baseDir . 'eznewsletterfunctioncollection.php',
++                                                                            'class' => 'eZNewsletterFunctionCollection',
++                                                                            'method' => 'subscriptionListByName' ),
++                                                    'parameter_type' => 'standard',
++                                                    'parameters' => array( array( 'name' => 'id',
++                                                                                  'type' => 'string',
++                                                                                  'required' => true ) )  );
++
+ ?>
+--- eznewsletter/modules/newsletter/eznewsletterfunctioncollection.php	2007-10-09 15:32:30.000000000 +0200
++++ eznewsletter_xsto/modules/newsletter/eznewsletterfunctioncollection.php	2008-12-19 12:51:10.000000000 +0100
+@@ -121,6 +121,14 @@
+         return array( 'result' => $rows[0]['count'] );
+     }
+ 
++    function subscriptionListByName( $id )
++    {
++      $extension = 'eznewsletter';
++        $base = eZExtension::baseDirectory();
++        $baseDir = "$base/$extension/classes/";
++        return array( 'result' => eZSubscriptionList::fetch( $id ) );
++    }
++  
+     function listSubscriptions( $offset, $count )
+     {
+         include_once( 'kernel/classes/ezpersistentobject.php' );
+@@ -139,6 +147,11 @@
+         return array( 'result' => eZUserSubscriptionData::fetchByHash( $hash ) );
+     }
+ 
++    function userDataByEmail( $email )
++    {
++      return array( 'result' => eZUserSubscriptionData::fetch( $email ) );
++    }
++
+     function subscriptionArrayByUserID( $userid )
+     {
+         include_once( eZExtension::baseDirectory() . '/eznewsletter/classes/ezsubscriptionlist.php' );

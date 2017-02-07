@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / cssinlineimageoptimizer / Source</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:44:46 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:44:46 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/45025" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/cssinlineimageoptimizer/source/6407e54c78bef835262a8d512489700a09e032d3</link>
+      <description>
+      &lt;pre&gt;m classes/cssinlineimageoptimizer.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added support for svg images&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cssinlineimageoptimizer/source/6407e54c78bef835262a8d512489700a09e032d3</guid>
+      <pubDate>Mon, 05 Nov 2012 16:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/cssinlineimageoptimizer/source/c49b7db4d39a8fcf16aa2fe36a32bf382df15bf4</link>
+      <description>
+      &lt;pre&gt;m classes/cssinlineimageoptimizer.php
+m settings/ezjscore.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from dpobel/bug_fixes_improvements
+
+Fixes a PHP warning if an image does not exist and allows to exclude images based on regexp patterns.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cssinlineimageoptimizer/source/c49b7db4d39a8fcf16aa2fe36a32bf382df15bf4</guid>
+      <pubDate>Wed, 28 Mar 2012 12:41:17 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/cssinlineimageoptimizer/source/63c814155cd45907dc177cadf382186ca3b7789b</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from dpobel/extension_ordering
+
+Added extension.xml to make sure the loading order is correct&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cssinlineimageoptimizer/source/63c814155cd45907dc177cadf382186ca3b7789b</guid>
+      <pubDate>Wed, 28 Mar 2012 12:21:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/cssinlineimageoptimizer/source/33bc1054068522941df20baf5f8d8af71871969b</link>
+      <description>
+      &lt;pre&gt;+ extension.xml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added extension.xml to make sure the loading order is correct&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cssinlineimageoptimizer/source/33bc1054068522941df20baf5f8d8af71871969b</guid>
+      <pubDate>Wed, 28 Mar 2012 12:21:10 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/cssinlineimageoptimizer/source/6aff2a71f476bfa54ad4259a78f8ddee9a68c6f8</link>
+      <description>
+      &lt;pre&gt;+ README
++ classes/cssinlineimageoptimizer.php
++ settings/ezjscore.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added CSS optimizer to inline small image files as a Data URL.&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/cssinlineimageoptimizer/source/6aff2a71f476bfa54ad4259a78f8ddee9a68c6f8</guid>
+      <pubDate>Thu, 26 Jan 2012 16:20:59 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

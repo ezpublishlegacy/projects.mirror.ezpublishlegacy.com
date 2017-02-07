@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / wikimarkup / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:27:58 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:27:58 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/28486" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Updated version?</title>
+      <link>http://projects.ez.no/wikimarkup/forum/general/updated_version/re_updated_version</link>
+      <description>Hello Sandra,&#13;
+&#13;
+I commend your efforts to contact the author of this project/extension for support.&#13;
+&#13;
+Though, I would wager to suggest that you should provide the *real* error / error message your encountering specifically as your generic error report may not provide enough information to quickly solve the issue you are encountering.&#13;
+&#13;
+I'd also wager there are now differences between eZ Publish + eZ OE (today) vs the time this handler was written originally. You may wish to compare the two/three files for related differences.&#13;
+&#13;
+I hope this helps ...&#13;
+&#13;
+Cheers,&#13;
+Heath</description>
+      <author>community@ez.no (// Heath)</author>
+      <guid>http://projects.ez.no/wikimarkup/forum/general/updated_version/re_updated_version</guid>
+      <pubDate>Mon, 16 Jan 2012 18:54:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updated version?</title>
+      <link>http://projects.ez.no/wikimarkup/forum/general/updated_version</link>
+      <description>Hello Damien, I installed this version but it doesn't work with the latest eZ Publish, it crashes the online editor. Any tip?&#13;
+Thanks for your help!</description>
+      <author>community@ez.no (Sandra Parente)</author>
+      <guid>http://projects.ez.no/wikimarkup/forum/general/updated_version</guid>
+      <pubDate>Mon, 16 Jan 2012 18:19:14 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsqlite / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:31:45 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:31:45 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/11672" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezsqlite rev. 4 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsqlite/subversion/4</link>
+      <description>- Workaround for: eZDBSchema::instance() uses $db-&gt;databaseName() (sqlite) if no type is passed through $params, and schema handler (sqlite3) can not be found</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsqlite/subversion/4</guid>
+      <pubDate>Wed, 18 Feb 2009 13:20:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsqlite rev. 3 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsqlite/subversion/3</link>
+      <description>- Fixed bug: sometimes column names are prefixed with table names
+- Implemented: return a list of available databases on the file system
+- Implemented: don't try to connect when no DB name is given (for compatibility with the ezp test framework)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsqlite/subversion/3</guid>
+      <pubDate>Tue, 21 Oct 2008 13:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsqlite rev. 2 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsqlite/subversion/2</link>
+      <description>- work in progress on the ezsqlite3 extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsqlite/subversion/2</guid>
+      <pubDate>Tue, 21 Oct 2008 07:25:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezsqlite rev. 1 by Kristof Coomans</title>
+      <link>http://projects.ez.no/ezsqlite/subversion/1</link>
+      <description>- Initial version</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezsqlite/subversion/1</guid>
+      <pubDate>Tue, 30 Sep 2008 15:10:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

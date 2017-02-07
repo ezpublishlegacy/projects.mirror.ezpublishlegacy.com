@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / openoffice.org_extension</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:19:40 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:19:40 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/33968" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/openoffice_org_extension/news/changelog</link>
+      <description>&lt;p&gt;
+Changes from 1.0 Beta 2 to 1.0 stable&lt;br /&gt;
+ -------------------------------------&lt;br /&gt;
+ - Fixed name of generated filename on export to be based on the name&lt;br /&gt;
+ of the exported object&lt;br /&gt;
+ - Updated documentation&lt;br /&gt;
+ - Made PDF version of the documentation&lt;br /&gt;
+ Changes from 1.0 Beta 1 to 1.0 Beta 2&lt;br /&gt;
+ -------------------------------------&lt;br /&gt;
+ - Fixed proper character handling when importing documents&lt;br /&gt;
+ - Fixed correct temporary storing of images during import&lt;br /&gt;
+ - Added preliminary documentation&lt;br /&gt;
+ - Fixed proper cleanup of temporary files after import and export&lt;br /&gt;
+ - Added internationalization support&lt;br /&gt;
+ - Fixed broken table export&lt;br /&gt;
+ Changes from 1.0 Alpha 1 to 1.0 Beta 1&lt;br /&gt;
+ --------------------------------------&lt;br /&gt;
+ - Added support for date and initial-creator nodes as inline&lt;br /&gt;
+ elements.&lt;br /&gt;
+ - Fixed support for header definitions larger than 6.&lt;br /&gt;
+ - Added removal of empty paragraphs.&lt;br /&gt;
+ - Added support for sections in non-custom documents&lt;br /&gt;
+ - Fixed adding embedded images as related objects&lt;br /&gt;
+ - Imported images are now placed in a separate folder for each&lt;br /&gt;
+ imported object&lt;br /&gt;
+ - Added support for exporting documents using OpenOffice.org Writer&lt;br /&gt;
+ Templates&lt;br /&gt;
+ Template usage can be turned on/off in oo.ini, template file is also set in&lt;br /&gt;
+ oo.ini&lt;br /&gt;
+ - Added better error checking&lt;br /&gt;
+ - Added support for multiple levels of headers in export&lt;br /&gt;
+ - Added support for image size and alignment during import&lt;br /&gt;
+ - Added support for image size and alignment during export&lt;br /&gt;
+ - Added support for multiple header levels during import&lt;br /&gt;
+ - Fixed proper handling of XML special chars in string and text&lt;br /&gt;
+ datatype during import&lt;br /&gt;
+ - Added support for exporting ordered and unordered lists.&lt;br /&gt;
+ - Added support for exporting tables.&lt;br /&gt;
+ - Added support for sequences during import, used to e.g. number&lt;br /&gt;
+ images&lt;br /&gt; - Added removal of temporary files after import/export&lt;/p&gt;</description>
+      <author>community@ez.no (Bård Farstad)</author>
+      <guid>http://projects.ez.no/openoffice_org_extension/news/changelog</guid>
+      <pubDate>Tue, 03 May 2005 08:09:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>openoffice_org_extension-1_0-final.tar.gz</title>
+      <link>http://projects.ez.no/openoffice_org_extension/downloads/openoffice_org_extension_1_0_final_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Anonymous User)</author>
+      <guid>http://projects.ez.no/openoffice_org_extension/downloads/openoffice_org_extension_1_0_final_tar_gz</guid>
+      <pubDate>Tue, 03 May 2005 08:09:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

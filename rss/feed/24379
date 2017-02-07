@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezworkflowcollection</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:14 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:13 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24379" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Using Subtree Multiplexer</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/using_subtree_multiplexer</link>
+      <description>Hi,&#13;
+&#13;
+I am using the subtreemultiplexer for the following situation:&#13;
+&#13;
+EditorXY publishes article in subtreeXY and approverXY gets an approve message. &#13;
+EditorABC publishes article in subtreeABC and approverABC gets an approve message. &#13;
+&#13;
+Works until approver approves article. After that the approver gets a second message to approve the same article. Only then the article is published.&#13;
+&#13;
+&#13;
+Also the dropdown in adminbackend-&gt;workflowediting-&gt;subtreemultiplexer seems to be broken. I have 3 workflows in the dropdown available. I configured the 2. entry, but everytime i want to edit, the dropdown the system chooses the first entry&#13;
+&#13;
+In adminbackend-&gt;workflow-&gt;view i can see, that there are two workflows to trigger, but i only configured one.&#13;
+&#13;
+Am I doing something wrong?&#13;
+&#13;
+I am using ez4.7&#13;
+</description>
+      <author>community@ez.no (René Frenzl)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/using_subtree_multiplexer</guid>
+      <pubDate>Tue, 06 May 2014 14:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Subtree Multiplexer</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/53ff4cc8fd40161ccd9305d3eeb4d8221dc5b4d9</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;mention eZP in composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/53ff4cc8fd40161ccd9305d3eeb4d8221dc5b4d9</guid>
+      <pubDate>Wed, 06 Nov 2013 15:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Subtree Multiplexer</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/ab349ad3e43fc661d445a552b3ea06e363677a98</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/ab349ad3e43fc661d445a552b3ea06e363677a98</guid>
+      <pubDate>Sat, 02 Nov 2013 22:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Subtree Multiplexer</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/7f4a125c863461990d3390b2968cb25fa5e9518f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;tag for post-release 0.6&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/7f4a125c863461990d3390b2968cb25fa5e9518f</guid>
+      <pubDate>Wed, 24 Jul 2013 10:20:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Wrong link</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link/re_wrong_link</link>
+      <description>You are right. It seems I migth have lost the original 0.5 zip file, but now 0.6 is available</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link/re_wrong_link</guid>
+      <pubDate>Wed, 24 Jul 2013 10:19:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.6 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</link>
+      <description>&lt;p&gt;- adds a new workflow event: add secondary location upon publish based on an object-relation attribute of current object&lt;/p&gt;&lt;p&gt;- tested for compatibility with eZP 5.1&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_6_released</guid>
+      <pubDate>Wed, 24 Jul 2013 10:18:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/downloads/ezworkflowcollection_0_6_0_zip</link>
+      <description></description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/downloads/ezworkflowcollection_0_6_0_zip</guid>
+      <pubDate>Wed, 24 Jul 2013 10:16:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/fabbd4ff62e4e58b46f304657ab179df58ae6541</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitignore for ezextbuilder&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/fabbd4ff62e4e58b46f304657ab179df58ae6541</guid>
+      <pubDate>Wed, 24 Jul 2013 10:11:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/ea78fa9d660c3794c77c5b134798ca0fc3a2c3fc</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;tag for release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/ea78fa9d660c3794c77c5b134798ca0fc3a2c3fc</guid>
+      <pubDate>Wed, 24 Jul 2013 10:11:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/46788360af1ab143cf2cabcc7b1922b50dc2dbaa</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Move custom templates from admin design to standard&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/46788360af1ab143cf2cabcc7b1922b50dc2dbaa</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/f4dacb2d353fd08100207da981d990a727791e59</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improved README
+Refactor object state update event&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/f4dacb2d353fd08100207da981d990a727791e59</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/0fe6afdd2ad755d72e9acca937cce469c4fa1669</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' of github.com:gggeek/ezworkflowcollection&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/0fe6afdd2ad755d72e9acca937cce469c4fa1669</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/68a853357287bb343f9f786ed7ff28e4f82d594a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Refactor object-state-change event&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/68a853357287bb343f9f786ed7ff28e4f82d594a</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/238e720f7257c9b2436d47df73dbbdd179745825</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Licensing headers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/238e720f7257c9b2436d47df73dbbdd179745825</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/5c32314e79d0b505da953df9efa5dc9aa95e91e2</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add a new workflow event type: addurlalias&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/5c32314e79d0b505da953df9efa5dc9aa95e91e2</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/1c666e5cf6f93f631d9cdf69acc929546d2c8903</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Change build file to create doxygen docs as part of zip&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/1c666e5cf6f93f631d9cdf69acc929546d2c8903</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/4e53693584d4071d468be91cd09faaf9599812b4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add 2 new workflow event types&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/4e53693584d4071d468be91cd09faaf9599812b4</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/2da271cf665514071c111db07dcdc92be9cba55e</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Tag pakefile and changelog for 0.5 release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/2da271cf665514071c111db07dcdc92be9cba55e</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/237993169da2b46a52891ecca7a6bfe180c68523</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Tabs to spaces&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/237993169da2b46a52891ecca7a6bfe180c68523</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/4208979bbced921349182fa18fdc3a54ce604a08</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update docs&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/4208979bbced921349182fa18fdc3a54ce604a08</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/3a933461d3bfa46f05b7fdca8bfb98f6a7b07670</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;whitespaces and comments&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/3a933461d3bfa46f05b7fdca8bfb98f6a7b07670</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/1a1603ae4d1d42a47f350f0c356908a23bdbfc7f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;update cronjobs: remove inclusion of nonexisting file; remove copied-over copyright text&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/1a1603ae4d1d42a47f350f0c356908a23bdbfc7f</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/525ebb542ac73ea298eaff463520a99c1c5cd537</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;fix bad table definition in db_schema.dba: miss primary key&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/525ebb542ac73ea298eaff463520a99c1c5cd537</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/a85c2f8b481129d6b65c6c0a2a4fa6f92ebe0beb</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove inclusion of kernel/common/i18n.php, since we were already using ezpi18n class. This makes it explicit that minimum supported eZ version is 4.3&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/a85c2f8b481129d6b65c6c0a2a4fa6f92ebe0beb</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/71dbfefbe5753e81ac9ae03b66ccb913afb3a473</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve comments (phpdoc style, licensing headers)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/71dbfefbe5753e81ac9ae03b66ccb913afb3a473</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/249a93c1815763afade3890d5118e4c3ebd116e8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improve "full view" of location approval: put names of new locations on separate lines&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/249a93c1815763afade3890d5118e4c3ebd116e8</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/ce7ee7c0dbe9e4eb7210e2d6305706ae36bb8900</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix template for add-location approval page&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/ce7ee7c0dbe9e4eb7210e2d6305706ae36bb8900</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/a47d31465bb8d51634e76bc5721b5be5c8ec9ad1</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add an alternative workflow cronjob to work around bug EZP-16913&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/a47d31465bb8d51634e76bc5721b5be5c8ec9ad1</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection-0.6.0.zip</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/b5528effde031e22709dbf4723be482077bedef4</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;a better fix for cronjobs (hopefully making them work in 4.3 ... 5.1)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/b5528effde031e22709dbf4723be482077bedef4</guid>
+      <pubDate>Tue, 16 Jul 2013 17:11:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wrong link</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link</link>
+      <description>Hi Gaetano,&#13;
+&#13;
+I think you got the wrong link for the last download, you are proposing ezperformancelogger-0.5.0.zip.&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Best regards,&#13;
+&#13;
+Jean-Luc.</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/wrong_link</guid>
+      <pubDate>Wed, 04 Jul 2012 14:48:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_5_released</link>
+      <description>&lt;p&gt;3 new workflow event types in this release, as well as assorted bugfixes:&lt;/p&gt;
+&lt;ol&gt;
+
+&lt;li&gt;add url alias&lt;/li&gt;
+
+&lt;li&gt;copy children on add location to parent&lt;/li&gt;
+
+&lt;li&gt;copy node to all parent locations&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;p&gt;The 2nd and 3rd are helpful when having content composed of a tree of nodes and wanting to keep it identical in multiple locations&lt;/p&gt;&lt;p&gt;For the next release: the non-workflow-event related stuff will be refactored in a separate extension&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_0_5_released</guid>
+      <pubDate>Wed, 23 May 2012 21:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/a82cd9c63b2fa4f8aa6d41724ca61f079d6d5276</link>
+      <description>
+      &lt;pre&gt;m eventtypes/event/expireremotecacheflow/expireremotecacheflowtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix for fatal error with smart-cache enabled version&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/a82cd9c63b2fa4f8aa6d41724ca61f079d6d5276</guid>
+      <pubDate>Tue, 03 Apr 2012 16:40:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/fa1bb17a7c1cdbdb619e91414e034d418e7e2507</link>
+      <description>
+      &lt;pre&gt;m eventtypes/event/expireremotecacheflow/expireremotecacheflowtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from innoteam/master
+
+fix for fatal error + better url names&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/fa1bb17a7c1cdbdb619e91414e034d418e7e2507</guid>
+      <pubDate>Tue, 03 Apr 2012 16:40:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/57bf0389e69be76c3c538acec083d9800359b9f0</link>
+      <description>
+      &lt;pre&gt;m eventtypes/event/expireremotecacheflow/expireremotecacheflowtype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Improved url name to be cleaned&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/57bf0389e69be76c3c538acec083d9800359b9f0</guid>
+      <pubDate>Tue, 03 Apr 2012 16:40:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/a22cc1f030e4e2e91820138fce83f477db8ccd6a</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add gitignore file&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/a22cc1f030e4e2e91820138fce83f477db8ccd6a</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/5d16d72194ed74bb62bec4d71ec21b0dfccf33dc</link>
+      <description>
+      &lt;pre&gt;m pake/options-ezworkflowcollection.yaml
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix link to github in pakefile&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/5d16d72194ed74bb62bec4d71ec21b0dfccf33dc</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection 0.5 released</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/c5c0a4404b66fd781ed2abcead8184f245cbf10d</link>
+      <description>
+      &lt;pre&gt;m design/admin/templates/workflow/eventtype/edit/event_expireremotecacheflow.tpl
+m design/admin/templates/workflow/eventtype/edit/event_multipublish.tpl
+m design/admin/templates/workflow/eventtype/edit/event_subtreemultiplexer.tpl
+m design/admin/templates/workflow/eventtype/view/event_expireremotecacheflow.tpl
+m design/admin/templates/workflow/eventtype/view/event_multipublish.tpl
+m design/admin/templates/workflow/eventtype/view/event_subtreemultiplexer.tpl
+m eventtypes/event/expireremotecacheflow/expireremotecacheflowtype.php
+m eventtypes/event/multipublish/multipublishtype.php
+m eventtypes/event/objectstateupdate/objectstateupdatetype.php
+m eventtypes/event/subtreemultiplexer/subtreemultiplexertype.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update header comments: remove $Id tag, update copyright statement&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/c5c0a4404b66fd781ed2abcead8184f245cbf10d</guid>
+      <pubDate>Wed, 28 Mar 2012 10:50:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZWorkflowCollection moves to github</title>
+      <link>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_moves_to_github</link>
+      <description>&lt;p&gt;Source code now available at https://github.com/gggeek/ezworkflowcollection.git&lt;/p&gt;</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/news/ezworkflowcollection_moves_to_github</guid>
+      <pubDate>Wed, 28 Mar 2012 10:46:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 54 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/54</link>
+      <description>Add shutdown notices</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/54</guid>
+      <pubDate>Fri, 16 Mar 2012 10:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 53 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/53</link>
+      <description>cs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/53</guid>
+      <pubDate>Wed, 14 Mar 2012 11:15:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 51 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/51</link>
+      <description>Fix bad tpl for editing subtree mux event</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/51</guid>
+      <pubDate>Tue, 13 Mar 2012 09:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 52 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/52</link>
+      <description>Update docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/52</guid>
+      <pubDate>Tue, 13 Mar 2012 09:45:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 49 by Geoff Bentley</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/49</link>
+      <description>Added access check for Edit button in object state list template - show disabled icon if user doesn't have access.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/49</guid>
+      <pubDate>Mon, 01 Aug 2011 10:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 50 by Geoff Bentley</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/50</link>
+      <description>Removed french and added i18n refs in My Menu</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/50</guid>
+      <pubDate>Mon, 01 Aug 2011 10:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 48 by Geoff Bentley</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/48</link>
+      <description>Minor lang fix - plural of content in this instance is "content"</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/48</guid>
+      <pubDate>Mon, 01 Aug 2011 10:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 47 by Geoff Bentley</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/47</link>
+      <description>Added IgnoreObjectStatesIDList setting to ini/template to ignore certain states in the select list (e.g 'published')</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/47</guid>
+      <pubDate>Mon, 01 Aug 2011 10:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 46 by Geoff Bentley</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/46</link>
+      <description>Updated archive userid settings reference in cronjob, and added cronjob reference to setting comment</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/46</guid>
+      <pubDate>Mon, 01 Aug 2011 09:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>A small patch</title>
+      <link>http://projects.ez.no/ezworkflowcollection/forum/general/a_small_patch</link>
+      <description>Here's a small patch for 2 template files, fixing a URL typo, adding i18n for My menu items, and slight English tweaks.  Feel free to add to the project.&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+Index: extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl&#13;
+===================================================================&#13;
+--- extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl	(revision 45)&#13;
++++ extension/ezworkflowcollection/design/standard/templates/updatestate/list.tpl	(working copy)&#13;
+@@ -17,7 +17,7 @@&#13;
+ &lt;div class="context-block"&gt;&#13;
+ &#13;
+ {* DESIGN: Header START *}&lt;div class="box-header"&gt;&lt;div class="box-tc"&gt;&lt;div class="box-ml"&gt;&lt;div class="box-mr"&gt;&lt;div class="box-tl"&gt;&lt;div class="box-tr"&gt;&#13;
+-&lt;h1 class="context-title"&gt;{"Contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt; [{$list_count}]&lt;/h1&gt;&#13;
++&lt;h1 class="context-title"&gt;{"Content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt; [{$list_count}]&lt;/h1&gt;&#13;
+ &#13;
+ &#13;
+ {* DESIGN: Mainline *}&lt;div class="header-mainline"&gt;&lt;/div&gt;&#13;
+@@ -54,7 +54,7 @@&#13;
+     &lt;/p&gt;&#13;
+ &lt;/div&gt;&#13;
+ &#13;
+-&lt;div class="right"&gt; {"List contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} :&#13;
++&lt;div class="right"&gt; {"List content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} :&#13;
+ 	&lt;select name="State" onChange="submit()"&gt;&#13;
+ 	{foreach $state.group.states as $element}&#13;
+ 		&lt;option value="{$element.id}"{if $element.id|eq($state.id)} selected="selected"{/if}&gt;{$element.current_translation.name}&lt;/option&gt;&#13;
+@@ -92,7 +92,7 @@&#13;
+ &lt;/table&gt;&#13;
+ {section-else}&#13;
+ &lt;div class="block"&gt;&#13;
+-&lt;p&gt;{"There is no contents in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt;&lt;/p&gt;&#13;
++&lt;p&gt;{"There is no content in state"|i18n('extension/ezworkflowcollection/design/admin/updatestate/list')} &lt;i&gt;{$state_name}&lt;/i&gt;&lt;/p&gt;&#13;
+ &lt;/div&gt;&#13;
+ {/section}&#13;
+ &#13;
+Index: extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl&#13;
+===================================================================&#13;
+--- extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl	(revision 45)&#13;
++++ extension/ezworkflowcollection/design/admin/templates/parts/my/menu.tpl	(working copy)&#13;
+@@ -11,11 +11,11 @@&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/content/pendinglist/'|ezurl}&gt;{'My pending items'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {if fetch( 'user', 'has_access_to', hash( 'module',   'collaboration',&#13;
+              'function', 'view', 'user_id',  $current_user.contentobject_id ) )}&#13;
+-    &lt;li&gt;&lt;div&gt;&lt;a href={'/collaboration/view/summary'|ezurl}&gt;Contenus en attente de validation&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
++    &lt;li&gt;&lt;div&gt;&lt;a href={'/collaboration/view/summary'|ezurl}&gt;{"Content awaiting approval"|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {/if}&#13;
+     {if fetch( 'user', 'has_access_to', hash( 'module',   'updatestate',&#13;
+              'function', 'list', 'user_id',  $current_user.contentobject_id ) )}&#13;
+-    &lt;li&gt;&lt;div&gt;&lt;a href={'/etats/list'|ezurl}&gt;Contenus en attente de publication&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
++    &lt;li&gt;&lt;div&gt;&lt;a href={'/updatestate/list'|ezurl}&gt;{"Content awaiting review"|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     {/if}&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/notification/settings/'|ezurl}&gt;{'My notification settings'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+     &lt;li&gt;&lt;div&gt;&lt;a href={'/content/bookmark/'|ezurl}&gt;{'My bookmarks'|i18n( 'design/admin/parts/my/menu' )}&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Geoff Bentley)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/forum/general/a_small_patch</guid>
+      <pubDate>Thu, 28 Jul 2011 02:28:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 45 by Olivier Portier</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/45</link>
+      <description>Move updatestate/list.tpl in standard design folder</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/45</guid>
+      <pubDate>Thu, 21 Jul 2011 10:10:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezworkflowcollection rev. 43 by Olivier Portier</title>
+      <link>http://projects.ez.no/ezworkflowcollection/subversion/43</link>
+      <description>Fix ezi18n() function call, replaced by ezpI18n::tr()</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezworkflowcollection/subversion/43</guid>
+      <pubDate>Thu, 21 Jul 2011 10:00:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

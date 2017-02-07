@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / assign_files_to_sections / News</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 21:26:21 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 21:26:21 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/31041" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/assign_files_to_sections/news/changelog</link>
+      <description>&lt;p&gt;
+If you upgrade to 0.4 run the corresponding alter.sql file.&lt;br /&gt;
+ As always make backups.&lt;br /&gt;
+ Changes from 0.3 to 0.4:&lt;br /&gt;
+ - new features (see description above)&lt;br /&gt;
+ - changed name of module and views&lt;br /&gt;
+ - fixed php warning when canceling browsing&lt;br /&gt;
+ - rewritten manual&lt;br /&gt;
+ Changes from 0.2 to 0.3:&lt;br /&gt;
+ - from ground up rewritten error handling&lt;br /&gt;
+ - specification for default image is now stored in the db and not&lt;br /&gt;
+ anymore in the ini file. This is especially useful if you use this&lt;br /&gt;
+ extension with more than one siteaccess.&lt;br /&gt;
+ - because of the added functionality, the names of two of the three&lt;br /&gt;
+ module views changed. (See docs.)&lt;br /&gt;
+ - when changing the name of an image, the old name is now loaded into&lt;br /&gt;
+ the text field&lt;br /&gt;
+ - you can now remove more than one image or assignment with one&lt;br /&gt;
+ click&lt;br /&gt;
+ - better checking of form values&lt;br /&gt;
+ - some code optimizations&lt;br /&gt;
+ - you now dont need to specify the full path to the destination&lt;br /&gt;
+ directory. just from the design diretcory on. The rest is figured out&lt;br /&gt;
+ programatically. (See ini if you dont know what i mean exactly)&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (oldcontribs_import oldcontribs_import)</author>
+      <guid>http://projects.ez.no/assign_files_to_sections/news/changelog</guid>
+      <pubDate>Fri, 17 Jun 2005 12:02:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,829 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/index.php/ezstarrating/forum/general/jquery_code_for_voting by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:22:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            jQuery code for voting     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="../../../user/register.html">Become a member of the eZ Community</a></li>
+        <li><a href="../../../user/forgotpassword.html">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="../../../user/login.html">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = ['General', '/ezstarrating/forum/general'];
+menu[4] = ['Leaders', '/ezstarrating/team/leaders', 'Members', '/ezstarrating/team/members'];
+menu[5] = [];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../../ezstarrating.html" onmouseover="switchSubMenu( this );">eZ Star Rating &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../../../ezstarrating/news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../../../ezstarrating/downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../../../ezstarrating/forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../../../ezstarrating/team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../../../ezstarrating/subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li ><a href="../../../../ezstarrating/gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+                            <li class="last"><a href="../../../../ezstarrating/reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+                    
+            
+    <li class="last current"><a href="../../../../ezstarrating/forum/general.html">General</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ezstarrating.html">ezstarrating</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        jquery code for voting
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>jQuery code for voting</h1>
+</div>
+
+
+    <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg19008">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 30 August 2009 12:23:50 pm</p>
+
+        <div class="attribute-long">Hi. <br />
+<br />
+I really like jQuery, so i have written some code to do voting with this library. it's just a 'translation' of the yui3 functions. <br />
+<br />
+please, let me know if you think this code could be useful for you. <br />
+<br />
+regarding to this, it would be nice to choose wich library to use via ini file or something...<br />
+<br />
+best regards.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg19055">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 01 September 2009 3:00:36 pm</p>
+
+        <div class="attribute-long">Feel free to post it and we'll look into ways of incorporation it.<br />
+Would be cool with a jquery / yui setting, but I think it should be in ezjscore then*.<br />
+<br />
+Note: As of today, the loading of scripts are a bit different as well as the access checks**, and the schema changes I mentioned in the other post also happened today***.<br />
+So look out for that when you svn update.<br />
+<br />
+* <a href="../../../../ezjscore/subversion/14" title="http://projects.ez.no/ezjscore/subversion/14">http://projects.ez.no/ezjscore/subversion/14</a><br />
+** <a href="../../../../ezjscore/subversion/12" title="http://projects.ez.no/ezjscore/subversion/12">http://projects.ez.no/ezjscore/subversion/12</a><br />
+*** <a href="../../../../ezstarrating/subversion/43.html" title="http://projects.ez.no/ezstarrating/subversion/43">http://projects.ez.no/ezstarrating/subversion/43</a><br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19068">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 01 September 2009 5:02:33 pm</p>
+
+        <div class="attribute-long">Hi. After getting rev 47, this is the piece of code that is working for me when choosing jquery as my PreferredLibrary<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{run-once}</span>
+
+<span class="line">{ezscript_require(array( 'ezjsc::jquery', 'ezjsc::jqueryio') )}</span>
+
+<span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span>
+
+<span class="line">$('head').append('&lt;link rel=&quot;stylesheet&quot; href={&quot;stylesheets/star_rating.css&quot;|ezdesign()} type=&quot;text/css&quot; /&gt;');</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">{if has_access_to_limitation( 'ezjscore', 'call', hash( 'FunctionList', 'ezstarrating_rate' ) )}</span>
+
+<span class="line">{literal}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$().ready(function() {</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('ul.ezsr-star-rating').addClass('ezsr-star-rating-enabled');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('li a', 'ul.ezsr-star-rating').click( _rate );&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;});</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;function _rate( e )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var args = $(this).attr('id').split('_');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_rating_' + args[1]).removeClass('ezsr-star-rating-enabled');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('li a', '#ezsr_rating_' + args[1]).unbind( 'click' );&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jQuery.ez( 'ezstarrating::rate::' + args[1] + '::' + args[2] + '::' + args[3],&nbsp;function(data){ _callBack(data) } );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return false;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;function _callBack( data )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( data &amp;&amp; data.content !== '' )</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( data.content.rated&nbsp;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_just_rated_' + data.content.id).removeClass('hide');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_rating_percent_' + data.content.id).css('width', (( data.content.stats.rounded_average / 5 ) * 100 ) + '%' );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_average_' + data.content.id).text( data.content.stats.rounded_average );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_total_' + data.content.id).text( data.content.stats.rating_count );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else if ( data.content.already_rated&nbsp;)</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#ezsr_has_rated_' + data.content.id).removeClass('hide');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//else alert('Invalid input variables, could not rate!');</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// This shouldn't happen as we have already checked access in the template..</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// Unless this is inside a aggressive cache-block of course.</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert( data.content.error_text );</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">&nbsp;&nbsp;&nbsp;}</span>
+
+<span class="line">{/literal}</span>
+
+<span class="line">{/if}</span>
+
+<span class="line">&nbsp;</span>
+
+<span class="line">&lt;/script&gt;</span>
+
+<span class="line">{/run-once}</span>
+
+<span class="line"></span></pre><br />
+<br />
+About the preferred setting, i was thinking in something like the following. <br />
+1.- Call to the ezscript_require operator getting your preferred Library. <br />
+<br />
+Something like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{def $preferred_library = ezini('eZJSCore', 'PreferredLibrary', 'ezjscore.ini')}</span>
+
+<span class="line">{ezscript_require(array( concat( 'ezjsc::', $preferred_library ),&nbsp;concat( 'ezjsc::', $preferred_library, 'io' ) ) )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+Then, add a javascript folder under design folder, and one more folder for every library. so we can have some like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">design</span>
+
+<span class="line">&nbsp;&nbsp;|--------javascript</span>
+
+<span class="line">&nbsp;&nbsp;|------------jquery</span>
+
+<span class="line">&nbsp;&nbsp;|------------yui3</span>
+
+<span class="line"></span></pre><br />
+<br />
+Under each 'library' folder we can add a star_rating.tpl or whatever. then we'll only have to call the apropiatte tpl usign preferred_library again, something like <br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{include uri=concat( &quot;design:javascript/&quot;, $preferred_library, &quot;/star_rating.tpl&quot;)}</span>
+
+<span class="line"></span></pre><br />
+<br />
+<br />
+P.S. I have more suggestions to add. Would you prefer them in a new post?
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19126">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 2:07:03 pm</p>
+
+        <div class="attribute-long">I think your example would have to be something like:<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">{def $preferred_library = ezini('eZJSCore', 'PreferredLibrary', 'ezjscore.ini')}</span>
+
+<span class="line">{ezscript_require(array( concat( 'ezjsc::', $preferred_library ), concat( 'ezjsc::', $preferred_library, 'io' ), concat( 'ezstarrating_template::', $preferred_library ), ) )}</span>
+
+<span class="line"></span></pre><br />
+<br />
+But yeah, could work.
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19137">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Thursday 03 September 2009 3:56:45 pm</p>
+
+        <div class="attribute-long">great. thank you.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg19253">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/andre_r.html">André R</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />20 August 2005</p>
+        <p class="posts">Posts: 171</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 08 September 2009 8:05:39 pm</p>
+
+        <div class="attribute-long">Hi, this is now implemented in svn, thanks for sharing the jQuery code!<br />
+I only did some small tweaks:<br />
+* not using $ in global scope in case user uses moo tools or prototype <br />
+* changes to be able to change vote<br />
+* support for &quot;ezsr-star-rating-disabled&quot; class on &lt;ul id=&quot;ezsr_rating_{$attribute.id}&quot; class=&quot;ezsr-star-rating&quot;&gt; so user can signal disabled rating for instance based on recently added 'current_user_has_rated' attribute on datatype content (Like we discussed earlier, not used by default since it's not cache safe).<br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>--<br />
+ar</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg19273">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/carlos_revillo.html">Carlos Revillo</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../../var/plain_site/storage/images/users/community/carlos_revillo/17708-13-eng-GB/carlos_revillo_small.jpg" width="100" height="68"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />31 January 2007</p>
+        <p class="posts">Posts: 53</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/index.php/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Wednesday 09 September 2009 1:00:16 am</p>
+
+        <div class="attribute-long">Glad it helpel André. Thanks for reviewing the code. <br />
+<br />
+If i can help with some jquery core for another extensions, please let me know.<br />
+<br />
+I will share a spanish translation file asap.<br />
+<br />
+Best Regards.
+</div>
+                    <div class="attribute-signature">
+            <p>Twitter: @crevillo<br />
+Skype ID: crevillo1976<br />
+<a href="http://www.tantacom.com/" title="http://www.tantacom.com">http://www.tantacom.com</a><br />
+eZ Diff Squad member</p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="../../../user/login.html">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/index.php/ezstarrating/forum/general/jquery_code_for_voting by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 22:22:05 GMT -->
+</html>

@@ -1,0 +1,81 @@
+Index: ezobjectrelationlisttype.php
+===================================================================
+--- ezobjectrelationlisttype.php	(revision 11664)
++++ ezobjectrelationlisttype.php	(working copy)
+@@ -68,6 +68,76 @@
+     }
+ 
+     /*!
++     \return true if the data type can do information collection
++    */
++    function hasInformationCollection()
++    {
++        return true;
++    }
++
++    /*!
++     \reimp
++    */
++    function isInformationCollector()
++    {
++        return true;
++    }
++
++    /*!
++     \reimp
++    */
++    function validateCollectionAttributeHTTPInput( &$http, $base, &$contentObjectAttribute )
++    {
++        $return = EZ_INPUT_VALIDATOR_STATE_ACCEPTED;
++        $content =& $contentObjectAttribute->content();
++        foreach ( $content['relation_list'] as $item )
++        {
++            $version = eZContentObjectVersion::fetchVersion( $item["contentobject_version"], $item["contentobject_id"] );
++            $attributes = $version->attribute( 'contentobject_attributes' );
++            $object_base = $base.'_ezorl_object_'.$item["contentobject_id"];
++
++            foreach ( $attributes as $attribute )
++            {
++                $contentClassAttribute =& $attribute->contentClassAttribute();
++
++                if ( $contentClassAttribute->attribute( 'is_information_collector' ) )
++                {
++                    $tmpreturn = $attribute->validateAttributeHTTPInput( $http, $object_base, $attribute, true );
++                    if ( $tmpreturn != EZ_INPUT_VALIDATOR_STATE_ACCEPTED )
++                        $return = EZ_INPUT_VALIDATOR_STATE_INVALID;
++                }
++            }
++        }
++        return $return;
++    }
++
++    /*!
++     Fetches the http post variables for collected information
++    */
++    function fetchCollectionAttributeHTTPInput( &$collection, &$collectionAttribute, &$http, $base, &$contentObjectAttribute )
++    {
++        $content =& $contentObjectAttribute->content();
++        foreach ( $content['relation_list'] as $item )
++        {
++            $version = eZContentObjectVersion::fetchVersion( $item["contentobject_version"], $item["contentobject_id"] );
++            $attributes = $version->attribute( 'contentobject_attributes' );
++            $object_base = $base.'_ezorl_object_'.$item["contentobject_id"];
++            foreach ( $attributes as $attribute )
++            {
++                $contentClassAttribute =& $attribute->contentClassAttribute();
++
++                if ( $contentClassAttribute->attribute( 'is_information_collector' ) )
++                {
++                    $collect = eZInformationCollectionAttribute::create( $collection->attribute( 'id' ) );
++                    $attribute->collectInformation( $collection, $collect, $http, $object_base );
++                    $collect->store();
++                }
++            }
++        }
++        return true;
++    }
++
++    /*!
+      Validates the input and returns true if the input was
+      valid for this datatype.
+     */

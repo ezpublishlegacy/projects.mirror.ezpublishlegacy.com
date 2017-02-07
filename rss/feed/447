@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / updatesearchindex / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:00:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:00:32 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/447" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/d332248b214006255763d290fdd988a77f5b3ed3</link>
+      <description>
+      &lt;pre&gt;+ bin/php/updatesearchindex.php
++ bin/shell/updatesearchindex.sh
++ cronjobs/updatesearchindex.php
++ doc/FAQ
++ doc/INSTALL
++ doc/LICENSE
++ doc/README
++ doc/changelogs/CHANGELOG-0.0.1
++ doc/example.cron
++ doc/tree.txt
++ ezinfo.php
++ patch/3.8/update/common/scripts/updatesearchindex.php
++ patch/3.8/update/common/scripts/updatesearchindex.php.stock
++ patch/3.8/update/common/scripts/updatesearchindex_sub.php
++ settings/cronjob.ini
++ settings/updatesearchindex.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Renamed: Renamed extension files to live in GitHub project repository root directly&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/d332248b214006255763d290fdd988a77f5b3ed3</guid>
+      <pubDate>Thu, 22 Dec 2011 10:30:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 9 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/9</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bcupdatesearchindex</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/9</guid>
+      <pubDate>Mon, 28 Nov 2011 06:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 7 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/7</link>
+      <description>Added: Version specific directory for old ezp 3.x version.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/7</guid>
+      <pubDate>Sat, 20 Mar 2010 16:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 8 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/8</link>
+      <description>Added: Moving in version 0.0.1 into version directory.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/8</guid>
+      <pubDate>Sat, 20 Mar 2010 16:15:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 6 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/6</link>
+      <description>Added: Added changelog entry for recent modifications.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/6</guid>
+      <pubDate>Fri, 19 Mar 2010 19:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 5 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/5</link>
+      <description>Added: 4.0 compatible changes to extention. Tested with ezpublish 4.2.0</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/5</guid>
+      <pubDate>Fri, 19 Mar 2010 19:45:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 4 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/4</link>
+      <description>Added: Added stable branch of extention for eZ publish 3.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/4</guid>
+      <pubDate>Fri, 19 Mar 2010 19:40:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/1</link>
+      <description>Added: Initial import of updatesearchindex extension</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/2</link>
+      <description>Updated: Minor documentation improvements and path bugfix</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>updatesearchindex rev. 3 by Brookins Consulting</title>
+      <link>http://projects.ez.no/updatesearchindex/subversion/3</link>
+      <description>Updated: Minor documentation layout formatting improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/updatesearchindex/subversion/3</guid>
+      <pubDate>Mon, 25 Feb 2008 14:21:51 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

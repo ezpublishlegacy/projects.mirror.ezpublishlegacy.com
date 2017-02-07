@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezteamroom / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:23:26 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:23:26 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/21761" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Future roadmap</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/future_roadmap</link>
+      <description>Hi all&#13;
+&#13;
+Just wondering what the future holds for ez teamroom, if any further development is planned or if this project has been abandoned?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/future_roadmap</guid>
+      <pubDate>Mon, 20 Feb 2012 07:21:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Manage attendees of an event in ezteamroom...</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar/re_manage_attendees_of_an_event_in_ezteamroom</link>
+      <description>Hi,&#13;
+The problem seems to be caused by the use of the "$()" function in: &#13;
+extension/ezevent/design/standard/javascript/ezevent.js&#13;
+&#13;
+The following patch seems to solve it (also I have added code to prevent a user to be added twice) at least with my setup.&#13;
+Mathieu &#13;
+&#13;
+&lt;code&gt;&#13;
+--- ./extension/ezevent/design/standard/javascript/ezevent.js   2010-12-03 09:04:47.000000000 +0100&#13;
++++ ./extension/ezevent/design/standard/javascript/ezevent.js.new       2010-12-02 18:10:52.000000000 +0100&#13;
+@@ -91,7 +91,8 @@&#13;
+ &#13;
+ function ezevent_showHideBlock( blockID, show )&#13;
+ {&#13;
+-    var block = $( 'ezeventattribute_' + blockID );&#13;
++    //var block = $( 'ezeventattribute_' + blockID );&#13;
++    var block = document.getElementById('ezeventattribute_' + blockID);&#13;
+     if ( block )&#13;
+     {&#13;
+         block.style.display =  ( show ) ? "block" : "none";&#13;
+@@ -138,7 +139,8 @@&#13;
+     gLinkinProgress = true;&#13;
+     if ( gLinkTarget != '' )&#13;
+     {&#13;
+-        lTarget = $( gLinkTarget );&#13;
++        //lTarget = $( gLinkTarget );&#13;
++        lTarget = document.getElementById(gLinkTarget);&#13;
+         gLinkTarget = '';&#13;
+     }&#13;
+     else&#13;
+@@ -193,7 +195,15 @@&#13;
+ &#13;
+ function  ezevent_addUserListEntry( id, uname )&#13;
+ {&#13;
+-    var userList = $( 'list_of_users' );&#13;
++    var user = document.getElementById('list_of_users_entry_' + id);&#13;
++    if ( user ) &#13;
++    {&#13;
++        // user has been already added&#13;
++       return false;&#13;
++    }&#13;
++&#13;
++    //var userList = $( 'list_of_users' );&#13;
++    var userList = document.getElementById('list_of_users');&#13;
+ &#13;
+     if ( !userList )&#13;
+     {&#13;
+@@ -218,7 +228,8 @@&#13;
+ &#13;
+ function  ezevent_removeUserListEntry( id )&#13;
+ {&#13;
+-    var item = $( id );&#13;
++    //var item = $( id );&#13;
++    var item = document.getElementById(id);&#13;
+     &#13;
+     if ( item )&#13;
+     {&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar/re_manage_attendees_of_an_event_in_ezteamroom</guid>
+      <pubDate>Fri, 03 Dec 2010 08:07:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom2</link>
+      <description>Hi,&#13;
+I have modified the following file: &#13;
+extension/ezteamroom/design/ezteamroom/override/templates/fileline/file.tpl&#13;
+in order to add a "version" parameter to the download links. Now I can download all the versions of a file.&#13;
+&#13;
+Warning: the user has to have the permission on the "versionread" of the "content" module.&#13;
+Mathieu&#13;
+&#13;
+--- file.tpl    2010-12-02 09:26:52.000000000 +0100&#13;
++++ file.tpl.new        2010-12-02 09:21:52.000000000 +0100&#13;
+@@ -122,7 +122,7 @@&#13;
+             &lt;td class="{$style}"&gt;{$version.status|choose("Draft"|i18n("ezteamroom/files"),"Published"|i18n("ezteamroom/files"),"Pending"|i18n("ezteamroom/files"),"Archived"|i18n("ezteamroom/files"),"Rejected"|i18n("ezteamroom/files"))}&lt;/td&gt;&#13;
+             &lt;td class="{$style}"&gt;&lt;a target="_blank" href={concat("/content/view/full/",$version.creator.main_node_id,"/")|ezurl}&gt;{$version.creator.name|wash}&lt;/a&gt;&lt;/td&gt;&#13;
+             &lt;td class="{$style}"&gt;&lt;span class="small"&gt;{$version.modified|l10n(shortdate)}&lt;/span&gt;&lt;/td&gt;&#13;
+-            &lt;td class="{$style}"&gt;&lt;a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}&gt; {"Get version"|i18n("ezteamroom/files")}&lt;/a&gt;&lt;/td&gt;&#13;
++            &lt;td class="{$style}"&gt;&lt;a href={concat("content/download/",$version.data_map.file.contentobject_id,"/",$version.data_map.file.id,"/version/", $version.version, "/file/",$version.data_map.file.content.original_filename|rawurlencode() )|ezurl}&gt; {"Get version"|i18n("ezteamroom/files")}&lt;/a&gt;&lt;/td&gt;&#13;
+         &lt;/tr&gt;&#13;
+         {/foreach}&#13;
+         &lt;/table&gt;&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom2</guid>
+      <pubDate>Thu, 02 Dec 2010 08:37:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Unable to download files using WebDAV</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav/re_unable_to_download_files_using_webdav</link>
+      <description>Hi, &#13;
+If I set:&#13;
+  PathPrefix= &#13;
+instead of: &#13;
+  PathPrefix=Teamrooms &#13;
+in settings/siteaccess/ezteamroom/site.ini.append.php, I can download the files using webdav. It seems that this parameter is not properly handled in:&#13;
+kernel/private/classes/webdav/ezwebdavcontentbackend.php? &#13;
+Mathieu &#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav/re_unable_to_download_files_using_webdav</guid>
+      <pubDate>Wed, 01 Dec 2010 16:55:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manage attendees of an event in ezteamroom calendar</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar</link>
+      <description>Hi,&#13;
+I cannot manage the attendees of an event in the calendar. When I am trying to edit an event, I get by default the following javascripr error:&#13;
+"ezevent_initWithMode is not defined"&#13;
+&#13;
+Uncomment the following line in extension/ezevent/settings/design.ini.append.php:&#13;
+JavaScriptList[]=ezevent.js&#13;
+helps but does not solve the problem. Is anyone using this feature? I have using ez publish 4.4.0 + ezteamroom 1.2.&#13;
+&#13;
+Thanks,&#13;
+Mathieu</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/manage_attendees_of_an_event_in_ezteamroom_calendar</guid>
+      <pubDate>Wed, 01 Dec 2010 14:26:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where is cronjob script ?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/where_is_cronjob_script</link>
+      <description>Hi,&#13;
+&#13;
+where is a cronjob script for setup new teamroom?&#13;
+I see only cleanup_users.php and teamroom_mail_import.php&#13;
+&#13;
+Now I can only create new teamrooms but cant use them? Am I missing something?:-)&#13;
+&#13;
+Verzion of ezteamroom is 1.2&#13;
+&#13;
+Update:&#13;
+Problem solved!&#13;
+&#13;
+Best regards,&#13;
+Sinisa</description>
+      <author>community@ez.no (Siniša Šehović)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/where_is_cronjob_script</guid>
+      <pubDate>Fri, 15 Oct 2010 09:23:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>teamroom member registration</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/teamroom_member_registration</link>
+      <description>Is there any way to see the waiting user registration to a teamroom in ezteamroom site access ? or teamroom owners have to go in collaboration dashboard in back end to validate them ?&#13;
+&#13;
+For exemple, when an user ask to be a member in a teamroom. I only see it in the collaboration view in back end, so I need to change to admin siteaccess to validate it.</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/teamroom_member_registration</guid>
+      <pubDate>Fri, 08 Oct 2010 08:54:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>cache update</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/cache_update</link>
+      <description>Hi,&#13;
+&#13;
+I'm experiencing some trouble in list pages. some of them are not updated when I create/update/delete objects.&#13;
+For example, blog list doesn't been updated when I add a new one. In the other hand, it works properly in task list (when I create one task, the list is updated).&#13;
+&#13;
+Does anyone know something about this issue ?</description>
+      <author>community@ez.no (Clément Matéo)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/cache_update</guid>
+      <pubDate>Tue, 05 Oct 2010 09:55:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom</link>
+      <description>Hi, &#13;
+I get the same error with ez teamroom 1.1 and ez publish 4.3 + plain_site package. I have also tested latest code from 1.1 svn branch. Is this a bug or a configuration issue?&#13;
+Thanks,&#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom/re_versioning_in_teamroom</guid>
+      <pubDate>Fri, 24 Sep 2010 16:48:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unable to download files using WebDAV</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav</link>
+      <description>Hi, &#13;
+I am testing eZ Teamroom + WebDAV access. I am able to upload files but when I try to download a file, I get an "500 Internal Server Error" and the following error message in Apache log file:&#13;
+ &#13;
+[Fri Sep 24 17:59:55 2010] [error] [client x.x.x.x] PHP Fatal error:  Call to a member function attribute() on a non-object in /homelocal/ezpublish/www/kernel/private/classes/webdav/ezwebdavcontentbackend.php on line 1449&#13;
+ &#13;
+My setup:  &#13;
+- eZ Publish 4.3.0 (plain_site package using eng-GB langage) &#13;
+- eZ Teamroom 1.1-0 (I get the same error with latest SVN code: 1.1 branch). &#13;
+- PHP 5.2.10  &#13;
+- Webdav client : konqueror or cadaver &#13;
+- default WebDAV configuration (I have just set "EnableWebDAV=true" in ini file)&#13;
+&#13;
+Thanks in advance, &#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/unable_to_download_files_using_webdav</guid>
+      <pubDate>Fri, 24 Sep 2010 16:33:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Versioning in teamroom</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom</link>
+      <description>My problem is that when i upload different version of a file (with the same filename) it is only possible to download the latest which is tagged 'published' although it shows the versions correctly. Within the database there are entries in ezbinaryfile for the files and in the filesystem i can find all the versions.&#13;
+When i look for the files from the admin interface i see the versions and it correctly displays the sizes of the files, but when i open them they always show the latest (published) version. &#13;
+&#13;
+Perhaps it is just a setting but i am not getting it and since this is the essential part of a versioning system i would like to get this working. I also tried to set the permissions according to the manual installation entry of the technical manual of ezpublish. &#13;
+&#13;
+Version of teamroom is 1.1 and ezpublish is 4.3. Installed on CentOS 5.5.&#13;
+&#13;
+Thanks in advance!</description>
+      <author>community@ez.no (Remco Luitwieler)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/versioning_in_teamroom</guid>
+      <pubDate>Tue, 07 Sep 2010 09:48:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: How to enable the online editor with ez tea...</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom/re_how_to_enable_the_online_editor_with_ez_tea</link>
+      <description>Hi Mathieu,&#13;
+&#13;
+it's seems there's an issue in ezteamroom with ezoe and ezwebin. See http://issues.ez.no/16781&#13;
+&#13;
+Cheers,</description>
+      <author>community@ez.no (Damien Pobel)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom/re_how_to_enable_the_online_editor_with_ez_tea</guid>
+      <pubDate>Thu, 19 Aug 2010 21:41:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to enable the online editor with ez teamroom?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom</link>
+      <description>Hi,&#13;
+I am new to eZ Publish. I have installed version 4.3.0 + eZ Website Interface 1.6-0 + eZ Teamroom 1.1-0. How to enable the online editor in the eZ Teamroom interface? I have modified the settings/override/site.ini.append.php file as follow: &#13;
+&#13;
+  [ExtensionSettings]&#13;
+  ActiveExtensions[]=ezevent&#13;
+  ActiveExtensions[]=ezteamroom&#13;
+  ActiveExtensions[]=ezlightbox&#13;
+  ActiveExtensions[]=ezxmlinstaller&#13;
+  ActiveExtensions[]=ezmultiupload&#13;
+  ActiveExtensions[]=ezjscore&#13;
+  ActiveExtensions[]=ezwt&#13;
+  ActiveExtensions[]=ezodf&#13;
+  ActiveExtensions[]=ezoe&#13;
+  ActiveExtensions[]=ezwebin&#13;
+&#13;
+and then run:&#13;
+&#13;
+  php bin/php/ezpgenerateautoloads.php -e&#13;
+&#13;
+and then clear all cache using the admin interface, but the online editor does not work. For example, when I try to create a new Milestone, the editor does not appear (description field) and I get the following Javascript errors: &#13;
+&#13;
+  jQuery is not defined&#13;
+  tinyMCE has no properties&#13;
+  tinymce.ScriptLoader has no properties&#13;
+&#13;
+I precise that the editor is working when I edit pages of the eZ Website interface.&#13;
+&#13;
+Thanks in advance,&#13;
+Mathieu&#13;
+</description>
+      <author>community@ez.no (Mathieu Peltier)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/how_to_enable_the_online_editor_with_ez_teamroom</guid>
+      <pubDate>Thu, 19 Aug 2010 12:05:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>TeamRoom CRM</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/teamroom_crm</link>
+      <description>Teamroom Developers,&#13;
+&#13;
+I was wondering if you were planning on intergrating a CRM (Customer Relationship Manager) into TeamRoom. Features such as client contact information, sales information and reports would be a valuable addition to the project manager functionality within teamroom.&#13;
+&#13;
+That would, in effect help companies track not only the projects they have but their clients as well.&#13;
+&#13;
+If not, then how expandable is TeamRoom to add something like this?  Would it even be possible if we have make a combined effort to get something like this added in the near future?  Thank you&#13;
+</description>
+      <author>community@ez.no (Brandon Chambers)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/teamroom_crm</guid>
+      <pubDate>Wed, 16 Jun 2010 17:46:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Try to install in french [patch]</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch/re_try_to_install_in_french_patch2</link>
+      <description>go to issues.ez.no &#13;
+&#13;
+i post it into.&#13;
+&#13;
+Alexandre</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch/re_try_to_install_in_french_patch2</guid>
+      <pubDate>Thu, 03 Jun 2010 15:12:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Try to install in french [patch]</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch/re_try_to_install_in_french_patch</link>
+      <description>Send it to me please ;)</description>
+      <author>community@ez.no (Pablo Pernot)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch/re_try_to_install_in_french_patch</guid>
+      <pubDate>Thu, 03 Jun 2010 14:36:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Try to install in french [patch]</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch</link>
+      <description>i have a patch for install ezteamrrom in other language than english or german.&#13;
+i recreate the translation file with ezlupdate&#13;
+and i am translating in french the translation file.&#13;
+&#13;
+how can i send it to you  ?&#13;
+&#13;
+</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/try_to_install_in_french_patch</guid>
+      <pubDate>Fri, 28 May 2010 21:45:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZTeamRoom : Event URL bug</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/ezteamroom_event_url_bug</link>
+      <description>Hi everybody, eZ Team Room is a great extension.&#13;
+&#13;
+I don't know where to post this issue, since there is no issues.ez.no project opened yet for ezteamroom. &#13;
+&#13;
+I have a little fix to suggest, see below.&#13;
+&#13;
+This bug seems to remain already in the current "trunk" svn repo of ezteamroom (seen on april, 8th of 2010)&#13;
+&#13;
+Environnement : eZ 4.2.0 + eZTeamRoom 1.0.0 on PHP 5 + MySQL 5&#13;
+&#13;
+File : design/ezteamroom/override/templates/module_widget/event_calendar.tpl&#13;
+&#13;
+In lines 291 and 317,&#13;
+&#13;
+  href={$event.url_alias|ezurl}&#13;
+&#13;
+This doesn't work, since url_alias isn't available for ezcontentobject, when fetched from a tpl, in eZ 4.2.0 (and 4.3.0 ?). &#13;
+&#13;
+You can add main_node :&#13;
+&#13;
+  href={$event.main_node.url_alias|ezurl}&#13;
+&#13;
+...but this is brickwork and maybe there's a better way to fix that : the $event ezcontentobject come from $events array which is  defined in line 74 : it's a fetch( 'event', 'list') result, but this seems to be a not yet documented fetch function.&#13;
+&#13;
+Any suggestion better than my little brickwork  ?</description>
+      <author>community@ez.no (Ronan Guilloux)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/ezteamroom_event_url_bug</guid>
+      <pubDate>Thu, 08 Apr 2010 11:42:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot install on eZ Publish 4.3.0 final</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final/re_cannot_install_on_ez_publish_4_3_0_final2</link>
+      <description>I used the package from here, in downloads section. But got to it through "Certified extensions" page on ez.no&#13;
+&#13;
+http://ez.no/software/ez_certified_extensions/ez_teamroom</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final/re_cannot_install_on_ez_publish_4_3_0_final2</guid>
+      <pubDate>Mon, 05 Apr 2010 14:51:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cannot install on eZ Publish 4.3.0 final</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final/re_cannot_install_on_ez_publish_4_3_0_final</link>
+      <description>Which archive did you use?&#13;
+&#13;
+The trunk and official released packages install fine on eZ Publish 4.3.0&#13;
+&#13;
+See&#13;
+&#13;
+http://ez.no/download/ez_publish/ez_publish_4_stable_releases/4_3&#13;
+&#13;
+I'll adapt the project page &#13;
+&#13;
+hth&#13;
+Paul</description>
+      <author>community@ez.no (Paul Borgermans)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final/re_cannot_install_on_ez_publish_4_3_0_final</guid>
+      <pubDate>Fri, 02 Apr 2010 15:17:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cannot install on eZ Publish 4.3.0 final</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final</link>
+      <description>Install script checks for allowed versions of eZ Publish but version 4.3.0 is not in the list so eZ Teamroom cannot be installed on 4.3.0 without hacking the install script.&#13;
+&#13;
+I did hack the script (extension/ezteamroom/xmlinstallerhandler/ezcheckteamroomrequirements.php).&#13;
+&#13;
+All you need to do is add '4.3.0' element to $validVersions array and installation runs without any problems and eZ Teamroom works fine.</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/cannot_install_on_ez_publish_4_3_0_final</guid>
+      <pubDate>Fri, 02 Apr 2010 14:04:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Only one ezteamroom for a single ez publish installation?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/only_one_ezteamroom_for_a_single_ez_publish_installation</link>
+      <description>Hello,&#13;
+&#13;
+great extension and very useful. There is one thing I'd like to ask, it seems that you can install ezteamroom only once for a project, and the siteaccess is named by default "ezteamroom" ...?    (documentation also strictly warns to check before install if you have ezteamroom siteaccess already existing, so, is that it?)&#13;
+&#13;
+We have a single ez publish installation, supporting currently 2 projects at the same time with database specific settings for each siteaccess (name, user, password). I want to install ezteamrooms for both of them, but it turned out that this can be done only for one of the projects, because ezteamroom is dependant not only on the database, but also on the ez publish installation structure as well?&#13;
+&#13;
+Renaming the ezteamroom siteaccess with a custom name has also turned out problematic. At first it was my belief that I only have to check up the settings under extension/ezteamroom/settings/siteaccess/ezteamroom folder and put as appropriate into the new siteaccess (project_teamroom for example), and eventually merge with any settings that are installed automatically under &lt;root&gt;/settings/siteaccess/ezteamroom as normal. But even if I do, I get cut off my database, and the siteaccess is unusable, claiming that I want to connect to some database (...) with user 'root' and access has been denied (due to the simple reason no such user exist in my dbms). OK, here is the catch - once I try to put custom name for the siteaccess and ALL of my other settings are correct with that name, mapping, etc, etc, it came to me that system simply does not take the settings from my new project_teamroom settings - probably searching for the default installation name ezteamroom (???).&#13;
+&#13;
+When I put my specific database settings into override site.ini file, the siteaccess is working fine. Until the moment I remove the override database settings again.&#13;
+&#13;
+Is there a reason ezteamroom cannot exists more than once in the same project? What if I want to have only one ezp installation, supporting 10 projects at the same time, and I want several of those project to have each their own ezteamroom siteaccess? The only option right now would be, as it seems, to separate each project in own ezp installation and add ezteamrooms...&#13;
+&#13;
+I am curious if this is to be developed and "fixed" (sorry for the word, I just cannot think of anything else).&#13;
+&#13;
+Thanks,&#13;
+&#13;
+Deni</description>
+      <author>community@ez.no (Denitsa M)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/only_one_ezteamroom_for_a_single_ez_publish_installation</guid>
+      <pubDate>Mon, 22 Mar 2010 14:51:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezmbpaex dependance ?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/ezmbpaex_dependance/re_ezmbpaex_dependance</link>
+      <description>Own answer : Not required and maybe not compatible.&#13;
+&#13;
+I deactivate this extension, and I can log in.&#13;
+&#13;
+Solved :)</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/ezmbpaex_dependance/re_ezmbpaex_dependance</guid>
+      <pubDate>Tue, 02 Mar 2010 12:18:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezmbpaex dependance ?</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/ezmbpaex_dependance</link>
+      <description>Hi,&#13;
+&#13;
+In my error.log, I can see : &#13;
+&lt;code&gt;&#13;
+Query error (1146): Table 'ez4_2.ezx_mbpaex' doesn't exist. Query: SELECT contentobject_id, passwordvalidationregexp, passwordlifetime, expirationnotification, password_last_updated, updatechildren, expirationnotification_sent&#13;
+                    FROM   ezx_mbpaex&#13;
+WHERE  contentobject_id='202'&#13;
+&lt;/code&gt;&#13;
+&#13;
+Can you confirm extension "ezmbpaex" is required ?&#13;
+&#13;
+I created the table :&#13;
+&#13;
+&lt;code&gt;&#13;
+CREATE TABLE ezx_mbpaex (&#13;
+  contentobject_id int(11) NOT NULL default '0',&#13;
+  passwordvalidationregexp varchar(150) NOT NULL default '',&#13;
+  passwordlifetime int(11) NOT NULL default '-1',&#13;
+  expirationnotification int(11) NOT NULL default '-1',&#13;
+  password_last_updated int(11) NOT NULL DEFAULT 0,&#13;
+  updatechildren int(2) NOT NULL DEFAULT 0,&#13;
+  expirationnotification_sent int(2) NOT NULL DEFAULT 0,&#13;
+&#13;
+  PRIMARY KEY  (contentobject_id)&#13;
+);&#13;
+&lt;/code&gt;&#13;
+&#13;
+I have no error now. But I still can't log in.&#13;
+&#13;
+Any idea ?</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/ezmbpaex_dependance</guid>
+      <pubDate>Tue, 02 Mar 2010 12:07:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [Solved] Dependencies : ezevent</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_solved_dependencies_ezevent2</link>
+      <description>I replied to you at http://projects.ez.no/ezevent/forum/general/download_is_empty&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+Damien</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_solved_dependencies_ezevent2</guid>
+      <pubDate>Mon, 11 Jan 2010 09:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [Solved] Dependencies : ezevent</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_solved_dependencies_ezevent</link>
+      <description>But the extension is empty, there is no download file.</description>
+      <author>community@ez.no (Heiner Wurbs)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_solved_dependencies_ezevent</guid>
+      <pubDate>Sat, 09 Jan 2010 13:08:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Integration with ezflow</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/integration_with_ezflow</link>
+      <description>Hi all,&#13;
+&#13;
+thanks at first for publishing the code. I suppose this will be very useful for many people to come.&#13;
+&#13;
+For our NGO I am setting up a portal relaunch using ezflow. Since our active members are quite dispersed I would like to integrate ezteamroom as collaboration platform within an private section. The goal is to make this happen within the customized ezflow design. My questions now are:&#13;
+&#13;
+1. Whether there are any attempt to integrate the installation of ezteamroom with ezflow &#13;
+2. If not so, what steps do I have to overcome in order to make it happen. Maybe somebody could give me rough hints on what steps to take&#13;
+&#13;
+Best wishes and thanks once more for the code&#13;
+&#13;
+Sebastian </description>
+      <author>community@ez.no (Sebastian Schoeller)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/integration_with_ezflow</guid>
+      <pubDate>Wed, 30 Dec 2009 07:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Dependencies : ezevent</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_dependencies_ezevent</link>
+      <description>It's OK, Paul released the extension today :&#13;
+&#13;
+http://projects.ez.no/ezevent</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent/re_dependencies_ezevent</guid>
+      <pubDate>Mon, 21 Dec 2009 15:56:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>[Solved] Dependencies : ezevent</title>
+      <link>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent</link>
+      <description>Hi there,&#13;
+&#13;
+In the INSTALL file, it is said that we should have the ezevent extension.&#13;
+But I can't find it on projects.ez.no and using google...&#13;
+&#13;
+Could you say to us where to find it ?</description>
+      <author>community@ez.no (Damien MARTIN)</author>
+      <guid>http://projects.ez.no/ezteamroom/forum/general/solved_dependencies_ezevent</guid>
+      <pubDate>Mon, 21 Dec 2009 14:18:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

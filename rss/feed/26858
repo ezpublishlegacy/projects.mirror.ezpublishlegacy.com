@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xrowforum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:47:31 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:47:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26858" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xrowforum/subversion/4a87ebb6c0ba08ca9fd606800789bfe1eaf00d30</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Replace short open tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/4a87ebb6c0ba08ca9fd606800789bfe1eaf00d30</guid>
+      <pubDate>Thu, 04 Jun 2015 10:21:04 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xrowforum/subversion/3534b5cf1d7694ad873e09c5c500b617096f3589</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #2 from guillaumelecerf/fix_short_open_tags
+
+Replace short open tags&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/3534b5cf1d7694ad873e09c5c500b617096f3589</guid>
+      <pubDate>Thu, 04 Jun 2015 10:21:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xrowforum/subversion/0a2c157384b86043513319748d3adbaa902ab3a8</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use eZMySQLDB::lastSerialID() instead of deprecated mysql_insert_id()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/0a2c157384b86043513319748d3adbaa902ab3a8</guid>
+      <pubDate>Thu, 30 Apr 2015 14:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/xrowforum/subversion/09242bd82ddf939897e134b94c33a1b93d4363d6</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge pull request #1 from guillaumelecerf/use_ez_api
+
+Use eZMySQLDB::lastSerialID() instead of deprecated mysql_insert_id()&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/09242bd82ddf939897e134b94c33a1b93d4363d6</guid>
+      <pubDate>Thu, 30 Apr 2015 14:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x6</link>
+      <description>There's also a standalone extension containing just the ezbirthday datatype at http://projects.ez.no/birthday which we've used in a couple of our projects.&#13;
+&#13;
+It was on my 'To Do' list for a long time to clone the standalone birthday extension to git which I've finally done. It's at https://github.com/eab-dev/birthday&#13;
+&#13;
+Hope you can get it to work on eZ Publish 5! Will all legacy custom datatypes fail with that kind of error?&#13;
+&#13;
+Andy&#13;
+&#13;
+</description>
+      <author>community@ez.no (Andy Caiger)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x6</guid>
+      <pubDate>Sat, 22 Nov 2014 07:02:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/subversion/de790b4a8dceee611b80b793100841914189dd5f</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;initial commit&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/de790b4a8dceee611b80b793100841914189dd5f</guid>
+      <pubDate>Fri, 21 Nov 2014 13:40:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x5</link>
+      <description>Hi,&#13;
+&#13;
+I have just added it to github: https://github.com/xrowgmbh/xrowforum</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x5</guid>
+      <pubDate>Fri, 21 Nov 2014 13:31:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x4</link>
+      <description>Understood Robert.  Is this on github, perhaps I can do a pull request if I can sort the issues out.  It would be a shame to let the extension lapse as there is nothing else in the eZ community like this that I'm aware.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x4</guid>
+      <pubDate>Fri, 21 Nov 2014 13:04:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x3</link>
+      <description>yes ezbirthday datatype is coming from our extension. &#13;
+&#13;
+I am not planning to upgrade this extension soon, sorry.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x3</guid>
+      <pubDate>Fri, 21 Nov 2014 12:03:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x2</link>
+      <description>Hi guys&#13;
+&#13;
+I'm now looking to upgrade a site to eZ5 which is using this extension.  I have done any investigations yet but after a basic upgrade get a NotFound: Could not find 'eZ\Publish\SPI\Persistence\Content\FieldValue\Converter\*' with identifier 'ezbirthday' which is a library within the extension I think.&#13;
+&#13;
+If anyone has tacked this let me know.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x2</guid>
+      <pubDate>Fri, 21 Nov 2014 11:57:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x</link>
+      <description>hi,&#13;
+&#13;
+i have not tested it yet so I dont know.&#13;
+in any case it is NOT planned yet to upgrade it in near future.&#13;
+&#13;
+cheers,&#13;
+robert</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x/re_ezp_5_x</guid>
+      <pubDate>Wed, 28 May 2014 11:12:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezp 5.x ?</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/ezp_5_x</link>
+      <description>Hi,&#13;
+is xrowforum compatible with ezp 5.x? &#13;
+Will there be an upgrade available?&#13;
+Thanks in advance.&#13;
+&#13;
+regards&#13;
+&#13;
+</description>
+      <author>community@ez.no (Horst Lindlbauer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/ezp_5_x</guid>
+      <pubDate>Tue, 27 May 2014 14:15:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Pin a topic</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/pin_a_topic/re_pin_a_topic</link>
+      <description>Hi Guillaume,&#13;
+&#13;
+yes its possible. If I remember it right, then you only need to add a new checkbox attribute to your forum topic class with the identifier "sticky" and thats it.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/pin_a_topic/re_pin_a_topic</guid>
+      <pubDate>Wed, 19 Mar 2014 16:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pin a topic</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/pin_a_topic</link>
+      <description>Hello&#13;
+&#13;
+Is it possible to pin a topic with xrowforum extension ?&#13;
+If not, what is the best way to accomplish this feature ?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Guillaume Kempfer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/pin_a_topic</guid>
+      <pubDate>Wed, 19 Mar 2014 16:33:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 58 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/58</link>
+      <description>- few translations added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/58</guid>
+      <pubDate>Mon, 05 Aug 2013 21:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 57 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/57</link>
+      <description>- fixing missing semicolon, thx to brendan</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/57</guid>
+      <pubDate>Wed, 31 Jul 2013 14:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 56 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/56</link>
+      <description>tab depending on policies now</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/56</guid>
+      <pubDate>Sun, 17 Mar 2013 23:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 55 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/55</link>
+      <description>added translation to remove debug warning</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/55</guid>
+      <pubDate>Sat, 02 Mar 2013 18:45:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 54 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/54</link>
+      <description>- template init, ezi18n replaced
+- bad includes removed
+- bad ts context fixed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/54</guid>
+      <pubDate>Wed, 27 Feb 2013 09:00:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses3</link>
+      <description>hi,&#13;
+&#13;
+good question.. i dont know what is the best way to implement it. i havent looked into it for more then a year. maybe i will have a look into it later next week.. i dont know yet. i was thinking about fetching all available siteaccess from site ini and then foreach them in seperate input fileds in the admin panel. then we store them in xrowforum ini siteaccess based and read them out in the template automatically siteaccess based. something like that.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses3</guid>
+      <pubDate>Wed, 09 Jan 2013 12:44:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses2</link>
+      <description>So we  have good and bad news I see :) I have different admins/editors who should see only their forums on Admin Panel and separated statistic as well. &#13;
+&#13;
+I need to create few root nodes for different forums (different customers). So my idea is to start new structure just under Main Node (node_id:2) containing Forum nodes and add to each Forum additional location placed under Customer sites like:&#13;
+&#13;
+Home -&gt; Forums -&gt; Customer 1 (with additional location to Home -&gt; Companies -&gt; First Group -&gt; Customer 1 -&gt;Forum)&#13;
+Home -&gt; Forums -&gt; Customer 2 (with additional location to Home -&gt; Companies -&gt; First Group -&gt; Customer 2 -&gt;Forum)&#13;
+Home -&gt; Forums -&gt; Customer 3 (with additional location to Home -&gt; Companies -&gt; Second Group -&gt; Customer 3 -&gt;Forum)&#13;
+&#13;
+Than I will set ForumIndexPageNodeID to Forums node id and override php script and statistic template where I check permission of admin to show proper statistics &#13;
+&#13;
+What do you think? Any suggestions how change them and don't break anything? :)&#13;
+&#13;
+Regards,&#13;
+Thanks again for answer&#13;
+Patryk.</description>
+      <author>community@ez.no (Patryk Manterys)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses2</guid>
+      <pubDate>Wed, 09 Jan 2013 12:12:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses</link>
+      <description>Hi Patryk,&#13;
+&#13;
+its no problem to run the forum extension with different siteaccesses. On lineage-realm.com you can see an example of that. but also you are right about the ForumIndexPageNodeID. this can only be set ONCE its not controllable via siteaccess yet. but as far as i remember this setting is only there to display a correct statistic. so i dont know if that is important for you. if you want you can enhance the code so that its controllable per siteaccess. shouldnt be too hard. i will take it to kernel then.&#13;
+&#13;
+p.s. you may dont need to seperate the forums anyway, you should be able to control via settings and policies that user only see the content belonging to the used siteaccess even if all use the same forum node (for example when the siteaccesses are language based). you can only see english content in the american siteaccess or polish content when you use the polish siteaccess. setting this up is a ezpublish feature not an xrowforum feature. but i dont know your needs tho.&#13;
+&#13;
+p.p.s. i havent modified the extension for a long time.. i think there are various updates needed, be aware of that.&#13;
+&#13;
+Robert.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses/re_xrowforum_on_multiple_site_accesses</guid>
+      <pubDate>Wed, 09 Jan 2013 11:54:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum on multiple site accesses</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses</link>
+      <description>Hi xrow :)&#13;
+&#13;
+Guys is this possible to run this forum extension on many site accesses?&#13;
+&#13;
+I have one instance of eZ (4.4) with about 40 sites belongs to different customers. Now I want to install xrowforum for some of them. &#13;
+&#13;
+As I see in admin panel, xrowforum tab, there are settings to set ForumIndexPageNodeID and so on.. Is it possible to have these settings different for particular sites?&#13;
+&#13;
+Of course I want separated forums, that users from site A see only forum A and users from site B see only Forum B.&#13;
+&#13;
+Thanks for answer :)</description>
+      <author>community@ez.no (Patryk Manterys)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/xrowforum_on_multiple_site_accesses</guid>
+      <pubDate>Wed, 09 Jan 2013 09:51:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Delete all include and require in php files</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files/re_delete_all_include_and_require_in_php_files</link>
+      <description>I have also replaced all 'ezi18n' function calls by 'ezpI18n::tr'.</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files/re_delete_all_include_and_require_in_php_files</guid>
+      <pubDate>Wed, 01 Feb 2012 08:35:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delete all include and require in php files</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files</link>
+      <description>Hello,&#13;
+I was trying to override some classes of your extension, especially ones about BBCode, in order to add filters. The problem is that php files like BBCodeParser.php are hard included into classes with "include_once" or "require_once" php functions. &#13;
+&#13;
+You should search and delete every "include" and "require" statements into your extension php files. They are useless thanks to eZ Publish autoload mechanism.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Franck Grenier)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/delete_all_include_and_require_in_php_files</guid>
+      <pubDate>Tue, 31 Jan 2012 15:18:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 53 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/53</link>
+      <description>empty space removed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/53</guid>
+      <pubDate>Sun, 04 Dec 2011 17:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 52 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/52</link>
+      <description>- word censoring only used when the word is not inside another word (to avoid breaking links or words which shouldnt be censored)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/52</guid>
+      <pubDate>Sat, 19 Nov 2011 18:45:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 51 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/51</link>
+      <description>- wrong css class removed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/51</guid>
+      <pubDate>Sat, 19 Nov 2011 12:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 50 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/50</link>
+      <description>fix for offset redirect problem</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/50</guid>
+      <pubDate>Sun, 13 Nov 2011 17:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 49 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/49</link>
+      <description>fix for offset redirect problem</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/49</guid>
+      <pubDate>Sun, 13 Nov 2011 17:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 48 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/48</link>
+      <description>redirect after topic edit fixed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/48</guid>
+      <pubDate>Sat, 12 Nov 2011 11:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 47 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/47</link>
+      <description>- various redirect improvements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/47</guid>
+      <pubDate>Tue, 08 Nov 2011 19:30:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 46 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/46</link>
+      <description>- fixed 1px issue</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/46</guid>
+      <pubDate>Tue, 08 Nov 2011 15:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 45 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/45</link>
+      <description>- issue with re:re:re:re fixed
+- redirect after publish and discard of a pm fixed</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/45</guid>
+      <pubDate>Tue, 08 Nov 2011 12:45:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 44 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/44</link>
+      <description>- pm notification is now default (logic turn around)</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/44</guid>
+      <pubDate>Tue, 08 Nov 2011 11:45:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 43 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/43</link>
+      <description>fixed mixing up topic and post in statistic</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/43</guid>
+      <pubDate>Thu, 03 Nov 2011 13:30:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation3</link>
+      <description>thanks for your contribution. the ts file has been added.</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation3</guid>
+      <pubDate>Tue, 25 Oct 2011 08:53:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 42 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/42</link>
+      <description>- french translation added
+- stable branch deleted</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/42</guid>
+      <pubDate>Tue, 25 Oct 2011 08:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation2</link>
+      <description>Ok thanks !</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation2</guid>
+      <pubDate>Mon, 24 Oct 2011 15:35:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation</link>
+      <description>hi,&#13;
+&#13;
+robert [ at ] xrow. de</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation/re_french_translation</guid>
+      <pubDate>Mon, 24 Oct 2011 13:15:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>French translation</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/french_translation</link>
+      <description>Hi, &#13;
+&#13;
+I wrote a french ts file for this extension.&#13;
+How can I send it to you ?&#13;
+</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/french_translation</guid>
+      <pubDate>Mon, 24 Oct 2011 12:52:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 41 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/41</link>
+      <description>proper url used now</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/41</guid>
+      <pubDate>Mon, 03 Oct 2011 11:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 40 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/40</link>
+      <description>text censoring added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/40</guid>
+      <pubDate>Wed, 07 Sep 2011 21:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 39 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/39</link>
+      <description>- thx for the hint at @ simon boyer</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/39</guid>
+      <pubDate>Mon, 05 Sep 2011 14:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Design Settings</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/design_settings/re_design_settings</link>
+      <description>thx for the hint.&#13;
+i changed it in the install doc, or did you find it somewhere else too?</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/design_settings/re_design_settings</guid>
+      <pubDate>Mon, 05 Sep 2011 14:18:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Design Settings</title>
+      <link>http://projects.ez.no/xrowforum/forum/general/design_settings</link>
+      <description>Hi,&#13;
+&#13;
+In site.ini.append.php, it would be better to use &lt;i&gt;AdditionalSiteDesignList&lt;/i&gt; instead of &lt;i&gt;SiteDesign&lt;/i&gt;, which overrides default SiteDesign settings...&#13;
+&#13;
+Thanks&#13;
+&#13;
+Simon</description>
+      <author>community@ez.no (Simon Boyer)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/general/design_settings</guid>
+      <pubDate>Mon, 05 Sep 2011 13:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 38 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/38</link>
+      <description>h1 added</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/38</guid>
+      <pubDate>Thu, 01 Sep 2011 13:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 37 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/37</link>
+      <description>correct switch between inbox and outbox in path</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/37</guid>
+      <pubDate>Fri, 19 Aug 2011 15:30:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>http://www.lineage-realm.com/community</title>
+      <link>http://projects.ez.no/xrowforum/forum/live_examples/http_www_lineage_realm_com_community</link>
+      <description>hi,&#13;
+&#13;
+after many changes this is my latest project which is using the xrowforum extension.&#13;
+have a look at it if you want :-) i will attach a couple of pictures to the gallery so that you know how it actually looks like when you are logged in.&#13;
+&#13;
+http://projects.ez.no/xrowforum/gallery/screenshots_from_lineage_realm_com&#13;
+live page: http://www.lineage-realm.com/community</description>
+      <author>community@ez.no (Robert Röttger@xrow.de)</author>
+      <guid>http://projects.ez.no/xrowforum/forum/live_examples/http_www_lineage_realm_com_community</guid>
+      <pubDate>Thu, 18 Aug 2011 13:06:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>xrowforum rev. 36 by Robert Röttger@xrow.de</title>
+      <link>http://projects.ez.no/xrowforum/subversion/36</link>
+      <description>proper url on paginator</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/xrowforum/subversion/36</guid>
+      <pubDate>Wed, 17 Aug 2011 17:30:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

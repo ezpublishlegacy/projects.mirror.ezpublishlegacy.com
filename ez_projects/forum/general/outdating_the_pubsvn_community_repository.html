@@ -1,0 +1,934 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<!-- Mirrored from projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 15:28:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>                                                                                
+<title>
+            Outdating the pubsvn community repository     /         General     /         Forum        
+</title>
+
+<meta http-equiv="Content-Language" content="en-GB" />
+    <meta name="author" content="eZ Systems" />
+    <meta name="copyright" content="eZ Systems" />
+    <meta name="description" content="Content Management System" />
+    <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+
+<style type="text/css">
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/core.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/pagelayout.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/classes.css);
+    @import url(../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css) print;
+</style>
+
+<link type="text/css" rel="stylesheet" href="../../../extension/ezprojects2007/design/ezprojects2007/stylesheets/print.css" media="print" />
+
+<!-- IE conditional comments; for bug fixes for different IE versions -->
+<!--[if IE 5]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie5.css);    </style> <![endif]-->
+<!--[if lte IE 6]> <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6lte.css); </style> <![endif]-->
+<!--[if IE 6]>     <style type="text/css"> @import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/ie6.css);    </style> <![endif]-->
+
+<!-- Load special stylesheet (if necessary) for newer Netscape decendants, Mozilla and Firefox, using the Gecko renderer -->
+<script type="text/javascript"><!-- if ((navigator.userAgent.indexOf("Gecko") != -1)&&(navigator.userAgent.indexOf("KHTML") == -1)) document.write("<style type=\"text/css\">@import url(/extension/ezprojects2007/design/ezprojects2007/stylesheets/gecko.css);</style>");--></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/switch-width.js"></script>
+
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/dropdownmenu.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/insertmedia.js"></script>
+<script type="text/javascript" src="../../../extension/ezprojects2007/design/ezprojects2007/javascripts/link-target.js"></script>
+
+<script type="text/javascript" src="../../../var/plain_site/cache/public/javascript/059cd8e3b9fa455a526077cbccc48048.js" charset="utf-8"></script>
+
+
+</head>
+<body onload="menuInit();">
+
+<!-- Complete page area: START -->
+<div id="page">
+
+<!-- Header area: START -->
+<div id="header">
+<div id="header-insert">
+
+<!-- User menu area: START -->
+<div id="usermenu">
+
+<div id="page-width1">
+
+<div id="logo">
+<h1><a href="../../../index.html"><span class="hide">eZ Systems</span></a></h1>
+</div>
+
+<h2 id="slogan">Share your information</h2>
+
+<p class="hide"><a href="#main">Skip to main content</a></p>
+
+<hr class="hide" />
+<div id="searchbox">
+<form action="http://projects.ez.no/content/advancedsearch" method="get">
+
+<div class="block">
+<div class="element">
+<input id="searchbutton" class="button" type="submit" value="Search" />
+</div>
+
+<div class="element searchstring">
+    <label for="searchtext" class="hide">Search text:</label>
+    <input id="searchtext" name="SearchText" type="text" size="12" />
+    
+
+    </div>
+
+</div>
+</form>
+</div>
+
+<hr class="hide" />
+<h2 class="hide">User menu</h2>
+
+<!-- User menu content: START -->
+<ul>
+            <li><a href="http://login.ez.no/register?return=http://projects.ez.no/ezpsectioncontentreport">Become a member of the eZ Community</a></li>
+        <li><a href="http://login.ez.no/forgotpassword?return=http://projects.ez.no/ezdebug_template_operator">Lost password?</a></li>
+    
+    <li>
+    
+    <script type="text/javascript">
+    <!--
+    if ( fixedSize )
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Dynamic width</a>');
+    }
+    else
+    {
+        document.write('<a id="setwidth" href="#" onclick="setWidth(); return false;">Fixed width</a>');
+    }
+    -->
+    </script>
+    
+    </li>
+    
+            <li><a href="http://login.ez.no/login?return=http://projects.ez.no/payment">Log in</a></li>
+    </ul>
+<!-- User menu content: END -->
+
+</div>
+
+</div>
+<!-- User menu area: END -->
+
+</div>
+</div>
+<!-- Header area: END -->
+
+                    
+<script type="text/javascript">
+<!--
+var menu = new Array();
+
+menu[0] = [];
+menu[1] = [];
+menu[2] = [];
+menu[3] = [];
+menu[4] = ['General', '/ez_projects/forum/general', 'Suggestions', '/ez_projects/forum/suggestions'];
+menu[5] = ['Leaders', '/ez_projects/team/leaders', 'Members', '/ez_projects/team/members'];
+menu[6] = [];
+menu[7] = [];
+
+-->
+</script>
+<div id="menuborder">
+
+<!-- Main menu area: START -->
+<div id="menu" onmouseover="menuHover();" onmouseout="tryHideSubMenues();">
+
+<div id="mainmenu" class="float-break">
+<div id="page-width2">
+    <ul id="mainmenulist" class="float-break">
+
+    <li class="project" ><a href="../../../ez_projects.html" onmouseover="switchSubMenu( this );">eZ projects &nbsp;&nbsp;&gt;&gt;</a></li>
+                        <li ><a href="../../news.html" onmouseover="switchSubMenu( this );">News</a></li>
+                            <li ><a href="../../reviews.html" onmouseover="switchSubMenu( this );">Reviews</a></li>
+                            <li ><a href="../../downloads.html" onmouseover="switchSubMenu( this );">Downloads</a></li>
+                            <li class="current"><a href="../../forum.html" onmouseover="switchSubMenu( this );">Forum</a></li>
+                            <li ><a href="../../team.html" onmouseover="switchSubMenu( this );">Team</a></li>
+                            <li ><a href="../../subversion.html" onmouseover="switchSubMenu( this );">Source</a></li>
+                            <li class="last"><a href="../../gallery.html" onmouseover="switchSubMenu( this );">Gallery</a></li>
+        
+    </ul>
+
+</div>
+</div>
+
+
+<div id="submenu">
+<div id="page-width3">
+    <ul class="float-break">
+
+            
+            
+    <li class="current"><a href="../general.html">General</a></li>
+
+                        
+    
+    <li class="last"><a href="../suggestions.html">Suggestions</a></li>
+
+        
+
+</ul>
+</div>
+</div>
+
+<script type="text/javascript"><!--
+document.getElementById('submenu').style.display = 'none';
+--></script>
+
+</div>
+<!-- Main menu area: END -->
+
+</div>
+
+<hr class="hide" />
+<!-- Path area: START -->
+<div id="path">
+
+<div id="page-width4">
+<h2 class="hide">Path</h2>
+
+<!-- Path content: START -->
+<p>
+                                    <a href="../../../content/view/full/2.html">ez projects</a>
+                    
+                        /
+                            <a href="../../../ez_projects.html">ez_projects</a>
+        
+                        /
+                            <a href="../../forum.html">forum</a>
+        
+                        /
+                            <a href="../general.html">general</a>
+        
+                        /
+                                        outdating the pubsvn commun...
+                    
+            </p>
+<!-- Path content: END -->
+
+</div>
+
+</div>
+<!-- Path area: END -->
+
+<hr class="hide" />
+
+<!-- Main area: START -->
+
+<div id="page-width5">
+<div id="main" class="float-break">
+
+<!-- Main area content: START -->
+
+
+
+
+<div class="template-design area-main-full">
+<div class="template-module content-view-full">
+<div class="template-object class-forummessage">
+
+
+
+<div id="top" class="attribute-heading">
+    <h1>Outdating the pubsvn community repository</h1>
+</div>
+
+
+    <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+
+
+ 
+
+
+
+<div class="content-view-children">
+
+<table class="forum list" cellspacing="0">
+
+    
+
+
+
+
+<tr class="bglight" id="msg299">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kristof_coomans.html">Kristof Coomans</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/kristof_coomans/25898-18-eng-GB/kristof_coomans_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />12 February 2004</p>
+        <p class="posts">Posts: 68</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 10 March 2007 4:23:41 pm</p>
+
+        <div class="attribute-long">I'd like to discuss the process of outdating the pubsvn community repository at <a href="http://pubsvn.ez.no/community" title="http://pubsvn.ez.no/community">http://pubsvn.ez.no/community</a>. The new eZ projects with their dedicated Subversion repositories will replace the old repository.<br />
+<br />
+I think that in a first stage the community repository should be made read-only. Afterwards, we can make a dump, split it up where possible and load the different parts in their project repositories.<br />
+<br />
+The community repository will stay up and running for a while until everything is migrated. A schedule should be released to give others the chance to correct their svn externals on time.<br />
+<br />
+Any remarks?
+</div>
+                    <div class="attribute-signature">
+            <p>independent eZ Publish developer and service provider | <a href="http://blog.coomanskristof.be/" title="http://blog.coomanskristof.be">http://blog.coomanskristof.be</a> | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+    
+
+
+
+
+<tr class="bgdark" id="msg300">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/xavier_dutoit.html">Xavier Dutoit</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/xavier_dutoit__1/20968-1-eng-GB/xavier_dutoit_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Saturday 10 March 2007 5:46:22 pm</p>
+
+        <div class="attribute-long">Oh my god, he killed the repository !<br />
+<br />
+Other than that, do we have the same access rights on the project repository than on pubsvn ? (ie write on all projects ?)<br />
+<br />
+X+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.sydesy.com/" title="http://www.sydesy.com">http://www.sydesy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg303">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kristof_coomans.html">Kristof Coomans</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/kristof_coomans/25898-18-eng-GB/kristof_coomans_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />12 February 2004</p>
+        <p class="posts">Posts: 68</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 11 March 2007 11:32:17 am</p>
+
+        <div class="attribute-long">You will only have write access on projects you are a member of. Of course when a certain project is abandoned by their current developers then it should be possible to transfer the ownership to whatever party interested in further development or maintenance.
+</div>
+                    <div class="attribute-signature">
+            <p>independent eZ Publish developer and service provider | <a href="http://blog.coomanskristof.be/" title="http://blog.coomanskristof.be">http://blog.coomanskristof.be</a> | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg304">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/xavier_dutoit.html">Xavier Dutoit</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/xavier_dutoit__1/20968-1-eng-GB/xavier_dutoit_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 11 March 2007 11:46:35 am</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+Ok, been able to put something on one of the repository<br />
+<br />
+I didn't find a way to download the complete repository from <br />
+<br />
+svn co <a href="http://projects.ez.no:81/svn/projects" title="http://projects.ez.no:81/svn/projects">http://projects.ez.no:81/svn/projects</a><br />
+<br />
+(password protected)<br />
+<br />
+On pubsvn, I update the complete repository, that's for sure something we need too on projects. Any idea how to do that ?<br />
+<br />
+X+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.sydesy.com/" title="http://www.sydesy.com">http://www.sydesy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg305">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/xavier_dutoit.html">Xavier Dutoit</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/xavier_dutoit__1/20968-1-eng-GB/xavier_dutoit_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 11 March 2007 11:49:08 am</p>
+
+        <div class="attribute-long">Otherwise, I'd be a great idea to put in an attic some old extensions that aren't maintained anymore.<br />
+<br />
+X+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.sydesy.com/" title="http://www.sydesy.com">http://www.sydesy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg306">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kristof_coomans.html">Kristof Coomans</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/kristof_coomans/25898-18-eng-GB/kristof_coomans_small.jpg" width="100" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />12 February 2004</p>
+        <p class="posts">Posts: 68</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 11 March 2007 12:04:23 pm</p>
+
+        <div class="attribute-long">Hi Xavier<br />
+<br />
+<pre class="wordwrap"><span class="line"></span>
+
+<span class="line">I didn't find a way to download the complete repository from&nbsp;</span>
+
+<span class="line"></span></pre><br />
+<br />
+In fact it's not one repository, each project has its own dedicated repository.
+</div>
+                    <div class="attribute-signature">
+            <p>independent eZ Publish developer and service provider | <a href="http://blog.coomanskristof.be/" title="http://blog.coomanskristof.be">http://blog.coomanskristof.be</a> | <a href="http://ezpedia.org/" title="http://ezpedia.org">http://ezpedia.org</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg307">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/claudia_kosny.html">Claudia Kosny</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 7</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 11 March 2007 4:37:50 pm</p>
+
+        <div class="attribute-long">Hi Kristof<br />
+<br />
+I like the idea but as I rarely use(d) the community pubsvn I am not the best person to ask.<br />
+Therefore I think you should open this discussion on the forum in ez.no -  most likely you will get more feedback there. <br />
+<br />
+Claudia
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg309">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/xavier_dutoit.html">Xavier Dutoit</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/xavier_dutoit__1/20968-1-eng-GB/xavier_dutoit_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 12 March 2007 11:40:49 am</p>
+
+        <div class="attribute-long">Hi,<br />
+<br />
+Is there a way on projects to update all the extensions with their latest version on the svn ? <br />
+<br />
+Is there a way to download automatically all the new extensions added to projects ?<br />
+<br />
+X+
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.sydesy.com/" title="http://www.sydesy.com">http://www.sydesy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg310">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/xavier_dutoit.html">Xavier Dutoit</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/xavier_dutoit__1/20968-1-eng-GB/xavier_dutoit_small.jpg" width="75" height="100"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 37</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 12 March 2007 11:42:07 am</p>
+
+        <div class="attribute-long">BTW, what's the timezone ? The message are posted one hour ahead of my localtime...
+</div>
+                    <div class="attribute-signature">
+            <p><a href="http://www.sydesy.com/" title="http://www.sydesy.com">http://www.sydesy.com</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg311">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/paul_forsyth2.html">Paul Forsyth</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../index.html" width="" height=""  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />09 January 2008</p>
+        <p class="posts">Posts: 20</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Monday 12 March 2007 11:42:42 am</p>
+
+        <div class="attribute-long">Good plan. We should also ask eZ to transfer their <a href="http://zev.ez.no/svn/extensions" title="http://zev.ez.no/svn/extensions">http://zev.ez.no/svn/extensions</a> over too, which i need to pursue this week...<br />
+<br />
+Out of interest are there any pubsvn projects which *dont* have a corresponding contributions page? I would propose asking eZ to contact each developer with a proposal to move their svn and contributions over to 'projects' since they have the profile details. Most contact details can  be worked out but eZ might be able to help out here...<br />
+<br />
+I'll mention this to them this week.<br />
+<br />
+Paul
+</div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bglight" id="msg314">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kracker.html">// kracker</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/kracker/25068-19-eng-GB/kracker_small.jpg" width="100" height="57"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 33</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Tuesday 13 March 2007 9:34:23 am</p>
+
+        <div class="attribute-long">Paul,<br />
+<br />
+Great Idea! I very much encourage! Though I think we should produce a good looking old world style proposal document, something that really conveys the value of the proposal / offer ...<br />
+<br />
+//kracker
+</div>
+                    <div class="attribute-signature">
+            <p>Member since: 2001.07.13 || <a href="http://ezpedia.org/" title="http://ezpedia.org/">http://ezpedia.org/</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>    
+
+
+
+
+<tr class="bgdark" id="msg1227">
+    
+    <td class="info">
+        <p class="author"><a href="../../../users/community/kracker.html">// kracker</a></p>
+
+
+                    <div class="attribute-image">
+
+    
+        
+    
+    <img src="../../../var/plain_site/storage/images/users/community/kracker/25068-19-eng-GB/kracker_small.jpg" width="100" height="57"  border="0" alt="" title="" />
+    
+    
+    </div>
+        
+        <p class="membersince">Member since:<br />30 November 1999</p>
+        <p class="posts">Posts: 33</p>
+    </td>
+
+    
+    <td class="message">
+                    <form method="post" action="http://projects.ez.no/content/action">
+                <div class="object-right">
+                                                </div>
+           </form>
+       
+        <p class="date">Sunday 12 August 2007 8:03:54 am</p>
+
+        <div class="attribute-long">Hello,<br />
+<br />
+PubSVN, [ <a href="http://pubsvn.ez.no/" title="http://pubsvn.ez.no/">http://pubsvn.ez.no/</a> ] has been updated to show the following text notice.<br />
+<br />
+&quot;<i>Some extensions have been made read-only in the community repository, because they are now using the project spaces at eZ projects instead. eZpedia offers a list of these read-only paths in the community repository. We recommend everyone to move their extensions to eZ projects. If you do so then send a list with the related paths in the community repository to Kristof so he can make them read-only.</i>&quot;<br />
+<br />
+And an article has been added to eZpedia to document these deprecated items on pubsvn, <i><a href="http://ezpedia.org/wiki/en/ez/pubsvn_commit_access_restrictions" title="http://ezpedia.org/wiki/en/ez/pubsvn_commit_access_restrictions">http://ezpedia.org/wiki/en/ez/pubsvn_commit_access_restrictions</a></i><br />
+<br />
+<i>//kracker<br />
+<br />
+Smashing Pumpkins - The End is the Beginning is the End</i><br />
+
+</div>
+                    <div class="attribute-signature">
+            <p>Member since: 2001.07.13 || <a href="http://ezpedia.org/" title="http://ezpedia.org/">http://ezpedia.org/</a></p>
+            </div>
+        
+                                </td>
+    <td class="buttons">
+    <div class="button">
+        <a href="#main"><img src="../../../extension/ezprojects2007/design/ezprojects2007/images/button-move_up.gif" height="16" width="16" alt="Up" title="Jump to first message" /></a>
+    </div>
+    </td>
+</tr>
+</table>
+
+</div>
+
+
+
+ 
+
+            <p>You need to be <a href="http://login.ez.no/login?return=http://projects.ez.no/payment">logged in</a> to post messages in the forums. New users may <a href="http://auth.ez.no/user/register">register here</a>.</p>
+    
+</div>
+</div>
+</div>
+
+
+
+<!-- Main area content: END -->
+
+</div>
+</div>
+<!-- Main area: END -->
+<hr class="hide" />
+
+<!-- Footer area: START -->
+<div id="page-width6">
+<div id="footer">
+
+<address>Powered by <a href="http://ez.no/ezpublish" title="eZ Publish Content Management System">eZ Publish&reg; Content Management System.</a></address>
+<address>Copyright &copy; 2007-2011 eZ Systems AS (except where otherwise noted). All rights reserved.</address>
+</div>
+</div>
+<!-- Footer area: END -->
+
+</div>
+<!-- Complete page area: END -->
+
+<!-- BEGIN GA tracker script -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24601020-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END GA tracker script -->
+
+
+
+
+
+</body>
+
+<!-- Mirrored from projects.ez.no/ez_projects/forum/general/outdating_the_pubsvn_community_repository by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 05 Feb 2017 15:28:38 GMT -->
+</html>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ngopengraph / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:13:02 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:13:01 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/27174" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/68a99862f240ee74174ea9b888a9a33743142e27</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' into master_github&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/68a99862f240ee74174ea9b888a9a33743142e27</guid>
+      <pubDate>Wed, 04 Dec 2013 14:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/89cb0cfaf1491daf6ff02cf4c05e55bf50c429de</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fix error in debug output when ezimage attribute does not have any content&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/89cb0cfaf1491daf6ff02cf4c05e55bf50c429de</guid>
+      <pubDate>Wed, 04 Dec 2013 14:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/b5e6c06ee3a2d2509eb4b41df4f2705dea2f476d</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Generate images attribute even when there is no relation available&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/b5e6c06ee3a2d2509eb4b41df4f2705dea2f476d</guid>
+      <pubDate>Mon, 04 Nov 2013 15:51:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/2dd1c32f396a926f8860575b7d4fbb8e45190c4a</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Fallback to default image if no image for relation attribute&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/2dd1c32f396a926f8860575b7d4fbb8e45190c4a</guid>
+      <pubDate>Mon, 04 Nov 2013 15:51:07 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/537db628328dad3b0d18e9b9bd630e2fa1fb0506</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Merge branch 'master' into github_master
+
+Conflicts:
+	composer.json&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/537db628328dad3b0d18e9b9bd630e2fa1fb0506</guid>
+      <pubDate>Mon, 04 Nov 2013 15:51:06 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/5c7e46fc0cf7ce05d7857da646bae8abcdeeda7b</link>
+      <description>
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add eZ Publish Legacy Installer support&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/5c7e46fc0cf7ce05d7857da646bae8abcdeeda7b</guid>
+      <pubDate>Mon, 10 Jun 2013 10:31:03 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/26f8cbbacb4d8ba30cb348208464f74449225048</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m classes/ngopengraphbase.php
+m classes/ngopengraphgmaplocation.php
+m classes/ngopengraphimage.php
+m classes/ngopengraphobjectrelation.php
+m classes/ngopengraphobjectrelationlist.php
+m classes/ngopengraphtext.php
+m classes/ngopengraphxml.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add PHPDoc&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/26f8cbbacb4d8ba30cb348208464f74449225048</guid>
+      <pubDate>Tue, 12 Feb 2013 10:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1ee731c78d81b60fa44561fdd82a2c4c2158ad4d</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/parts/opengraph_persistent.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Make sure there are no template errors for classes that do not output metadata&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1ee731c78d81b60fa44561fdd82a2c4c2158ad4d</guid>
+      <pubDate>Tue, 12 Feb 2013 10:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/79f497d35156ea3577437eeb05f0c72e670de31f</link>
+      <description>
+      &lt;pre&gt;+ .gitignore
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add git ignore&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/79f497d35156ea3577437eeb05f0c72e670de31f</guid>
+      <pubDate>Tue, 12 Feb 2013 10:50:41 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1887710054277c1a12fd1f212b5ebf93efeae885</link>
+      <description>
+      &lt;pre&gt;m classes/ngopengraphgmaplocation.php
+m classes/ngopengraphimage.php
+m classes/ngopengraphobjectrelation.php
+m classes/ngopengraphobjectrelationlist.php
+m classes/ngopengraphtext.php
+m classes/ngopengraphxml.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unneeded constructors&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1887710054277c1a12fd1f212b5ebf93efeae885</guid>
+      <pubDate>Tue, 12 Feb 2013 10:50:40 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/24cbfeeae2eb26aee02d6cfdf12d87566b9fcd78</link>
+      <description>
+      &lt;pre&gt;m classes/ngopengraphimage.php
+m classes/ngopengraphobjectrelation.php
+m classes/ngopengraphobjectrelationlist.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use eZSys::serverURL to properly generate image links&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/24cbfeeae2eb26aee02d6cfdf12d87566b9fcd78</guid>
+      <pubDate>Mon, 11 Feb 2013 17:30:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/a213fc5948a80fb048af3b2df35ba5b94b13e1fc</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added variable </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/a213fc5948a80fb048af3b2df35ba5b94b13e1fc</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/4abd7dfae8984b51d08a02c2e07b2a256111d6f9</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m classes/ngopengraphbase.php
+m classes/ngopengraphobjectrelation.php
++ classes/ngopengraphobjectrelationlist.php
+m design/standard/templates/parts/opengraph.tpl
+m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;object relations support, tag could be array, related images&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/4abd7dfae8984b51d08a02c2e07b2a256111d6f9</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:49 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1e63f2caabdca3ff3cedd579ca87d7a5782413ae</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;!empty is enough&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1e63f2caabdca3ff3cedd579ca87d7a5782413ae</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1123ced6e6da7fbaad7afd4366f93c9a5c13cb52</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Use class member variables instead of local ones&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1123ced6e6da7fbaad7afd4366f93c9a5c13cb52</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/7342d2c98d4916750c1015e719d23f2a94807310</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add setting to control debug output&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/7342d2c98d4916750c1015e719d23f2a94807310</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/0ae358d12bea61896ac861396c53198e017ca1cf</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/parts/opengraph.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add wash operator to opengraph.tpl&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/0ae358d12bea61896ac861396c53198e017ca1cf</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/4027851bd443327e33ccd0fa0896be5658095268</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m classes/ngopengraphbase.php
+m classes/ngopengraphgmaplocation.php
+m classes/ngopengraphimage.php
+m classes/ngopengraphobjectrelation.php
+m classes/ngopengraphobjectrelationlist.php
+m classes/ngopengraphtext.php
+m classes/ngopengraphxml.php
+m design/standard/templates/parts/facebook_like.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Coding standards&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/4027851bd443327e33ccd0fa0896be5658095268</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/012191c4745ff735dacbe3b5f05eec8ccdbe9e7d</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
+m README
+m autoloads/eztemplateautoload.php
+m autoloads/opengraphoperator.php
+m classes/ngopengraphbase.php
+m classes/ngopengraphgmaplocation.php
+m classes/ngopengraphimage.php
+m classes/ngopengraphobjectrelation.php
+m classes/ngopengraphobjectrelationlist.php
+m classes/ngopengraphtext.php
+m classes/ngopengraphxml.php
++ design/standard/images/opengraph_default_image.png
+m design/standard/templates/parts/facebook_like.tpl
+m design/standard/templates/parts/opengraph.tpl
+m doc/HISTORY
+m doc/INSTALL
+m extension.xml
++ ezinfo.php
+m settings/design.ini.append.php
+m settings/image.ini.append.php
+m settings/ngopengraph.ini
+m settings/site.ini.append.php
+m settings/template.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;CRLF -&gt; LF, \t -&gt; \s, 0755 -&gt; 0644, new line at end of file, remove closing PHP tag&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/012191c4745ff735dacbe3b5f05eec8ccdbe9e7d</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/cf167d6b3e069f22809a7a9347eab784ac69fb27</link>
+      <description>
+      &lt;pre&gt;m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;added example </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/cf167d6b3e069f22809a7a9347eab784ac69fb27</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:48 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/2c1211361674b548e8cdb46adc790e78344aa2e6</link>
+      <description>
+      &lt;pre&gt;m extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update version and copyright year&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/2c1211361674b548e8cdb46adc790e78344aa2e6</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/7ac612e50d2d6a358be4632dda8717d0096b9e02</link>
+      <description>
+      &lt;pre&gt;m README.md
+- doc/HISTORY
++ doc/HISTORY.md
+- doc/INSTALL
++ doc/INSTALL.md
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Markdowned!&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/7ac612e50d2d6a358be4632dda8717d0096b9e02</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/d9a02ed12ff41f5fddfe38fcfedd70164d577a43</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
++ design/standard/templates/parts/opengraph_persistent.tpl
++ design/standard/templates/parts/opengraph_set_persistent.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add persistent variant of including opengraph data&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/d9a02ed12ff41f5fddfe38fcfedd70164d577a43</guid>
+      <pubDate>Mon, 11 Feb 2013 17:20:47 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/c2a7d72315592c38f4e19efe05ec4bede32e1a5f</link>
+      <description>
+      &lt;pre&gt;+ LICENSE
++ README
++ autoloads/eztemplateautoload.php
++ autoloads/opengraphoperator.php
++ classes/ngopengraphbase.php
++ classes/ngopengraphgmaplocation.php
++ classes/ngopengraphimage.php
++ classes/ngopengraphobjectrelation.php
++ classes/ngopengraphtext.php
++ design/standard/images/opengraph_default_image.png
++ design/standard/templates/parts/facebook_like.tpl
++ design/standard/templates/parts/opengraph.tpl
++ doc/HISTORY
++ doc/INSTALL
++ extension.xml
++ ezinfo.php
++ settings/design.ini.append.php
++ settings/image.ini.append.php
++ settings/ngopengraph.ini
++ settings/site.ini.append.php
++ settings/template.ini.append.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial import&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/c2a7d72315592c38f4e19efe05ec4bede32e1a5f</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:45 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/5297ff20625edc4225642c06eb85bc3950ffee07</link>
+      <description>
+      &lt;pre&gt;m classes/ngopengraphimage.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bugfix in ezimage handler (left in from testing)&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/5297ff20625edc4225642c06eb85bc3950ffee07</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/976c58c21cf4b7aee3924fb8e4160963e317bd02</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unneeded site_name setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/976c58c21cf4b7aee3924fb8e4160963e317bd02</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/2c2bab12d900d15b35fc3b0634c5637dfbce5eb8</link>
+      <description>
+      &lt;pre&gt;m design/standard/templates/parts/facebook_like.tpl
+m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Remove unneeded ini setting&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/2c2bab12d900d15b35fc3b0634c5637dfbce5eb8</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/6033c979818f2fd0001ce8dd621e10d523fcbc22</link>
+      <description>
+      &lt;pre&gt;m autoloads/opengraphoperator.php
+m classes/ngopengraphimage.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Various fixes&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/6033c979818f2fd0001ce8dd621e10d523fcbc22</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/cc44f7354a764310ce3b6b7936088b6bd205eea9</link>
+      <description>
+      &lt;pre&gt;m doc/HISTORY
+m extension.xml
+m ezinfo.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Bumped version numbers&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/cc44f7354a764310ce3b6b7936088b6bd205eea9</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/beea58d9c2cfef5a40201d623c89ca29e05723b0</link>
+      <description>
+      &lt;pre&gt;+ classes/ngopengraphxml.php
+m settings/ngopengraph.ini
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added XML datatype handler&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/beea58d9c2cfef5a40201d623c89ca29e05723b0</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1697918bb2577802c91b9c947086331dcc47d5fb</link>
+      <description>
+      &lt;pre&gt;m autoloads/eztemplateautoload.php
+m autoloads/opengraphoperator.php
+m design/standard/templates/parts/facebook_like.tpl
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Added support for like button localization&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1697918bb2577802c91b9c947086331dcc47d5fb</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/41f3c17222d66764584840c6bbd5c11b8237c640</link>
+      <description>
+      &lt;pre&gt;m classes/ngopengraphimage.php
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Wrong class name&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/41f3c17222d66764584840c6bbd5c11b8237c640</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:43 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/ngopengraph/subversion/bad721ab62d38ea920cc59b8842b587907496324</link>
+      <description>      &lt;pre&gt;m doc/HISTORY&#13;
+m extension.xml&#13;
+m ezinfo.php&#13;
+&lt;/pre&gt;&#13;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Update changelog and bump version&lt;/pre&gt;&#13;
+    </description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/bad721ab62d38ea920cc59b8842b587907496324</guid>
+      <pubDate>Thu, 22 Dec 2011 10:28:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>ngopengraph rev. 4 by Edi Modrić</title>
+      <link>http://projects.ez.no/ngopengraph/subversion/4</link>
+      <description>small fix in object relation handler</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/4</guid>
+      <pubDate>Fri, 23 Jul 2010 18:55:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>ngopengraph rev. 3 by Edi Modrić</title>
+      <link>http://projects.ez.no/ngopengraph/subversion/3</link>
+      <description>Small fix in ezimage handler</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/3</guid>
+      <pubDate>Fri, 23 Jul 2010 18:44:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ngopengraph rev. 2 by Edi Modrić</title>
+      <link>http://projects.ez.no/ngopengraph/subversion/2</link>
+      <description>Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/2</guid>
+      <pubDate>Fri, 23 Jul 2010 17:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>ngopengraph rev. 1 by Edi Modrić</title>
+      <link>http://projects.ez.no/ngopengraph/subversion/1</link>
+      <description>Create trunk</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ngopengraph/subversion/1</guid>
+      <pubDate>Fri, 23 Jul 2010 17:45:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

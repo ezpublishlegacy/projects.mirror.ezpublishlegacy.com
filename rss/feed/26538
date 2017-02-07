@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezonrails / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:24:38 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:24:38 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/26538" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ezonrails rev. 25 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/25</link>
+      <description>- apply filtering on .xxx.php for fetch functions too</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/25</guid>
+      <pubDate>Sun, 30 Oct 2011 23:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 26 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/26</link>
+      <description>- tag for next dev version
+- add changelog</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/26</guid>
+      <pubDate>Sun, 30 Oct 2011 23:30:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 24 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/24</link>
+      <description>Removed hidden php files from controllers scan because of autoloads failure (files starting with '.', MacOS metadata files).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/24</guid>
+      <pubDate>Sun, 16 Oct 2011 10:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 22 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/22</link>
+      <description>- implement automated fetch function registration</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/22</guid>
+      <pubDate>Fri, 14 Oct 2011 22:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 23 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/23</link>
+      <description>- tag for 2.0 release</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/23</guid>
+      <pubDate>Fri, 14 Oct 2011 22:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 21 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/21</link>
+      <description>- comments, whitespace, leftovers</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/21</guid>
+      <pubDate>Fri, 14 Oct 2011 22:00:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 20 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/20</link>
+      <description>- revert commit nr. 16: we do rely on php class autoloading. If using the same controller in different extensions, just use different php class names</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/20</guid>
+      <pubDate>Fri, 14 Oct 2011 19:15:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 19 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/19</link>
+      <description>Added action existence check in ezOnRailsController::runAction(). Cache will not be written to disk if in development mode.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/19</guid>
+      <pubDate>Mon, 04 Jul 2011 22:01:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 18 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/18</link>
+      <description>- added 0.2 changelog (to be completed);
+- bump up version nr. in ezinfo file;
+- bump copyright statement</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/18</guid>
+      <pubDate>Mon, 04 Jul 2011 21:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 17 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/17</link>
+      <description>Added utility methods to base controller: renderNodeView, runAction, redirectTo. Added examples for them.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/17</guid>
+      <pubDate>Wed, 29 Jun 2011 16:21:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 16 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/16</link>
+      <description>Removed autoload dependency for loaded controllers (useful when have several extensions with same controller class names, ezonrails sources still controlled by ezonrails.ini).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/16</guid>
+      <pubDate>Wed, 29 Jun 2011 06:41:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 15 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/15</link>
+      <description>Added cache disable by using site.ini TemplateSettings-&gt;DevelopmentMode: when it is true cache is not used (useful during development).</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/15</guid>
+      <pubDate>Wed, 29 Jun 2011 05:41:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 13 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/13</link>
+      <description>Test.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/13</guid>
+      <pubDate>Tue, 28 Jun 2011 07:28:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 14 by Alex Kozeka</title>
+      <link>http://projects.ez.no/ezonrails/subversion/14</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/14</guid>
+      <pubDate>Tue, 28 Jun 2011 07:28:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 12 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/12</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/12</guid>
+      <pubDate>Thu, 24 Jun 2010 14:50:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 11 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/11</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/11</guid>
+      <pubDate>Tue, 22 Jun 2010 16:05:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 10 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/10</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/10</guid>
+      <pubDate>Tue, 22 Jun 2010 15:55:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 9 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/9</link>
+      <description>- test static methods</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/9</guid>
+      <pubDate>Tue, 22 Jun 2010 15:55:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 8 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/8</link>
+      <description>- more detailed instructions</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/8</guid>
+      <pubDate>Tue, 22 Jun 2010 15:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 7 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/7</link>
+      <description>- implement proper policy checking</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/7</guid>
+      <pubDate>Tue, 22 Jun 2010 15:45:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 6 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/6</link>
+      <description>- more docs</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/6</guid>
+      <pubDate>Tue, 22 Jun 2010 15:20:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 4 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/4</link>
+      <description>- added todo</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/4</guid>
+      <pubDate>Mon, 21 Jun 2010 11:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 5 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/5</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/5</guid>
+      <pubDate>Mon, 21 Jun 2010 11:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 2 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/2</link>
+      <description>- set proper copyright statements</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/2</guid>
+      <pubDate>Mon, 21 Jun 2010 10:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 3 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/3</guid>
+      <pubDate>Mon, 21 Jun 2010 10:30:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezonrails rev. 1 by Gaetano Giunta</title>
+      <link>http://projects.ez.no/ezonrails/subversion/1</link>
+      <description>- initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/ezonrails/subversion/1</guid>
+      <pubDate>Mon, 21 Jun 2010 10:25:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

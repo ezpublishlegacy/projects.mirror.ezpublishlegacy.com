@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / lamemcache / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:32:57 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:32:57 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18601" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>what can be cached</title>
+      <link>http://projects.ez.no/lamemcache/forum/general/what_can_be_cached</link>
+      <description>What can be cached with lamemcache?&#13;
+&#13;
+View cache, static cache, mysql query results?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/lamemcache/forum/general/what_can_be_cached</guid>
+      <pubDate>Thu, 08 Jul 2010 09:04:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: very good idea - now some improvements</title>
+      <link>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements/re_very_good_idea_now_some_improvements2</link>
+      <description>I think it's ok now&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Couzinier)</author>
+      <guid>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements/re_very_good_idea_now_some_improvements2</guid>
+      <pubDate>Tue, 18 Aug 2009 16:23:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: very good idea - now some improvements</title>
+      <link>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements/re_very_good_idea_now_some_improvements</link>
+      <description>ps: add doc w. requirements</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements/re_very_good_idea_now_some_improvements</guid>
+      <pubDate>Wed, 12 Aug 2009 10:38:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>very good idea - now some improvements</title>
+      <link>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements</link>
+      <description>- tabs + spaces in code, argh!&#13;
+- permissions on modules have french names&#13;
+- why is all the html of the control panel created in php instead of being in the tpl?&#13;
+- 'memecache' function, class is named mmcache =&gt; inconsisten. Use memcache in class name and remove memcache from its methods. ..&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/lamemcache/forum/general/very_good_idea_now_some_improvements</guid>
+      <pubDate>Wed, 12 Aug 2009 10:37:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

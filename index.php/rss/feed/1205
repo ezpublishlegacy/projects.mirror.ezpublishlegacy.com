@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezxajax / Forum / General</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:30:08 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:30:08 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/1205" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of latest ezxajax extension repository on GitHub!</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/mirror_of_latest_ezxajax_extension_repository_on_github</link>
+      <description>Hello eZ Community using ezxajax extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a complete import of the latest project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/ezxajax&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r1659 | Cyberwolf | 2009-12-06 04:55:01 -0600 (Sun, 06 Dec 2009).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/mirror_of_latest_ezxajax_extension_repository_on_github</guid>
+      <pubDate>Sun, 25 Mar 2012 00:33:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>callbacks functions</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/callbacks_functions</link>
+      <description>Hi, There is some possibility of registering calbacks using the ezajax extension?&#13;
+In xajax can pass parameters when you register a function, but i don't know how to do in ezxajax extension.&#13;
+&#13;
+Tnk!</description>
+      <author>community@ez.no (Cristian Rinaldi)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/callbacks_functions</guid>
+      <pubDate>Wed, 15 Sep 2010 20:47:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does this extension work with 4.2</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_24</link>
+      <description>Hi,&#13;
+&#13;
+- do you insert the operartor to your admin tpl e.g. in pagelayout.tpl or  page_head.tpl ( i think you did)&#13;
+&#13;
+&lt;code&gt;&#13;
+{* enabling xajax support *}&#13;
+{cache-block ignore_content_expiry expiry=0}&#13;
+{xajax_javascript()}&#13;
+{/cache-block}&#13;
+&lt;/code&gt;&#13;
+&#13;
+- do you have access to &#13;
+'/extension/ezxajax/design/standard/javascript/xajax_js/xajax_core.js' over the webbrowser&#13;
+if not check your webserver conf&#13;
+&#13;
+- clear the cache on filesystem global and for siteaccess&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_24</guid>
+      <pubDate>Fri, 16 Oct 2009 07:15:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does this extension work with 4.2</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_23</link>
+      <description>Hi Felix,&#13;
+&#13;
+Did you have to do anything extra to make it work?</description>
+      <author>community@ez.no (DeAndre Johnson)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_23</guid>
+      <pubDate>Thu, 15 Oct 2009 15:50:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does this extension work with 4.2</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_22</link>
+      <description>it work for me with 4.2.0 and extensions:&#13;
+&#13;
+    *   Name: ezxajax - xajax eZ Publish integration&#13;
+      Version: 2.0.0&#13;
+     &#13;
+    * Name: ezxajax_roleedit&#13;
+      Version: 2.0.0    &#13;
+&#13;
+    * Name: ezxajax_classattributes&#13;
+      Version: 2.0.0&#13;
+      </description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_22</guid>
+      <pubDate>Thu, 15 Oct 2009 07:08:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Does this extension work with 4.2</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_2</link>
+      <description>Hi&#13;
+&#13;
+I can't get this extension to work. I get this error in page head:&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+&lt;script charset="UTF-8" type="text/javascript"&gt;&#13;
+/* &lt;![CDATA[ */&#13;
+window.setTimeout(&#13;
+ function() {&#13;
+  var scriptExists = false;&#13;
+  try { if (xajax.isLoaded) scriptExists = true; }&#13;
+  catch (e) {}&#13;
+  if (!scriptExists) {&#13;
+   alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: /extension/ezxajax/design/standard/javascript/xajax_js/xajax_core.js");&#13;
+  }&#13;
+ }, 2000);&#13;
+/* ]]&gt; */&#13;
+&lt;/script&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+I'm using EzP 4.2 and ezxajax  with ezxajax_classattributes. Is the error above the problem? Any idea on how to get this to work. Would really like to try this extension out as it seems very useful. I followed all steps in install.txt&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (DeAndre Johnson)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2/re_does_this_extension_work_with_4_2</guid>
+      <pubDate>Wed, 14 Oct 2009 18:28:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does this extension work with 4.2</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2</link>
+      <description>Hi&#13;
+&#13;
+I can't get this extension to work. I get this error in page head:&#13;
+&#13;
+&lt;code&gt;&#13;
+&#13;
+&lt;script charset="UTF-8" type="text/javascript"&gt;&#13;
+/* &lt;![CDATA[ */&#13;
+window.setTimeout(&#13;
+ function() {&#13;
+  var scriptExists = false;&#13;
+  try { if (xajax.isLoaded) scriptExists = true; }&#13;
+  catch (e) {}&#13;
+  if (!scriptExists) {&#13;
+   alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: /extension/ezxajax/design/standard/javascript/xajax_js/xajax_core.js");&#13;
+  }&#13;
+ }, 2000);&#13;
+/* ]]&gt; */&#13;
+&lt;/script&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+I'm using EzP 4.2 and ezxajax  with ezxajax_classattributes. Is the error above the problem? Any idea on how to get this to work. Would really like to try this extension out as it seems very useful. I followed all steps in install.txt&#13;
+&#13;
+Thanks&#13;
+</description>
+      <author>community@ez.no (DeAndre Johnson)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/does_this_extension_work_with_4_2</guid>
+      <pubDate>Sun, 02 Aug 2009 03:33:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can't get xajax to work with eZ 4.0.1</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_13</link>
+      <description>Hi,&#13;
+&#13;
+I tried on a linux server and the error does not occur there!! So it really seems to be windows specific! The "Cannot redeclare class xajaxRequestPlugin" &lt;b&gt;error does NOT happen under linux.&lt;/b&gt; Starrating + xajax work perfectly now.&#13;
+&#13;
+But for development I'am using &lt;b&gt;Windows Vista + xampp 1.6.6a + php 5.2.5&lt;/b&gt;.&#13;
+On that system the error still exists!!&#13;
+&#13;
+I also noticed that the error &lt;b&gt;only happens with the starrating extension&lt;/b&gt;. The &lt;b&gt;xajax hello world example works well under linux and windows&lt;/b&gt;.&#13;
+&#13;
+But &lt;b&gt;the combination windows/xampp + ezxajax + starrating&lt;/b&gt; breaks the whole thing resulting in the "Cannot redeclare class xajaxRequestPlugin" error.&#13;
+&#13;
+I have been developing on that system for almost a year now, but I never had any platform specific problems with any extensions or autoload issues before, so I don't think my xampp configuration is messed up.&#13;
+&#13;
+So far I can ignore the error as I know that it will work on the production system, but of course it would be nice if we could solve that.&#13;
+&#13;
+I hope this helps. Thank you!</description>
+      <author>community@ez.no (Nabil Imran)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_13</guid>
+      <pubDate>Tue, 16 Jun 2009 11:40:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can't get xajax to work with eZ 4.0.1</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_12</link>
+      <description>Sorry for answering so late, I have been ill for 2 weeks :(&#13;
+&#13;
+Back to the problem:&#13;
+&#13;
+&lt;b&gt;multiple libs&lt;/b&gt;&#13;
+I don't have multiple copies of the xajax libs. I greped for "xajaxRequestPlugin" in the whole project, and found only one file where its defined. So it seems that the same file is included twice for some reason.&#13;
+&#13;
+&lt;b&gt;Patches&lt;/b&gt;&#13;
+I tried the patches by Kristof, but they don't solve problem.&#13;
+&#13;
+&lt;b&gt;Other Extensions&lt;/b&gt;&#13;
+&#13;
+I have the following extensions:&#13;
+&#13;
+ActiveExtensions[]=data_import&#13;
+ActiveExtensions[]=ezodf&#13;
+ActiveExtensions[]=ezoe&#13;
+ActiveExtensions[]=ezwebin&#13;
+ActiveExtensions[]=ezxajax&#13;
+ActiveExtensions[]=googlesitemapgenerator&#13;
+ActiveExtensions[]=starrating&#13;
+ActiveExtensions[]=str_replace&#13;
+&#13;
+And also a few extensions developed by myself, but none of them uses xajax, or should conflict with it in any way&#13;
+&#13;
+&lt;b&gt;Windows&lt;/b&gt;&#13;
+I'll try if it works under linux later and report that. When I find time, I'll also try it on a totally fresh eZ installation</description>
+      <author>community@ez.no (Nabil Imran)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_12</guid>
+      <pubDate>Wed, 10 Jun 2009 07:57:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Can't get xajax to work with eZ 4.0.1</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_1</link>
+      <description>Hi Nabil&#13;
+&#13;
+I've installed starrating and ezxajax from the svn of the projects site have have not been able to reproduce your error.&#13;
+&#13;
+Given the nature of the error it would appear that an xajax library is being included twice. I'm wondering if this is an issue with  autoload and possibly having multiple copies of xajax on the system. I'm thinking this may be something either specific to your particular installation or to php/eZpublish/xajax under windows.&#13;
+&#13;
+Are you able to check if there are multiple files hat define the xajaxRequestPlugin class?&#13;
+&#13;
+The Star Rating extension does not include any xajax files - it simply checks to see if it is available and utilises it if it can.&#13;
+&#13;
+Kristof has supplied some patches to the Star Rating extension but they do not appear to address your specific error.&#13;
+&#13;
+What other extensions do you have enabled?&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1/re_can_t_get_xajax_to_work_with_ez_4_0_1</guid>
+      <pubDate>Mon, 01 Jun 2009 06:41:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can't get xajax to work with eZ 4.0.1</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1</link>
+      <description>I'm using eZ 4.0.1 and downloaded xajax from the following url ("Downloads" in the main menu of this site):&#13;
+&#13;
+http://projects.ez.no/ezxajax/downloads/xajax1_0_0_5_beta_4&#13;
+&#13;
+I followed steps 1-5 of the install.txt exactly. The xajax_javascript() operator in the pagelout works fine. I can see the xajax javascript in the generated html file. But when I now access a site, wich actually uses xajax (in this case it's the starrating extension), I get the following error:&#13;
+&#13;
+Fatal error: Cannot redeclare class xajaxRequestPlugin in C:\ws\myproject\extension\xajax\lib\xajax\xajax_core\xajaxPlugin.inc.php on line 102&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&#13;
+The execution of eZ Publish was abruptly ended, the debug output is present below.&#13;
+&#13;
+I also tried to regenerate  autoloads and clear cache several times. And I also tried to use the latest version from the svn (http://svn.projects.ez.no/ezxajax/trunk/extension/ezxajax/) It is named ezxajax instead of xajax, but generated the same error.&#13;
+&#13;
+I'm not sure if this might be a problem the starrating extension, but It looks more like a xajax problem to me.&#13;
+&#13;
+Thank you for any help!!</description>
+      <author>community@ez.no (Nabil Imran)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/can_t_get_xajax_to_work_with_ez_4_0_1</guid>
+      <pubDate>Tue, 19 May 2009 13:05:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Patch for rev. 1656</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656/re_patch_for_rev_16562</link>
+      <description>No problem!!!&#13;
+&#13;
+Thanks.</description>
+      <author>community@ez.no (Francesco Trucchia)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656/re_patch_for_rev_16562</guid>
+      <pubDate>Tue, 17 Feb 2009 23:06:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Patch for rev. 1656</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656/re_patch_for_rev_1656</link>
+      <description>Hi Francesco&#13;
+&#13;
+I must have been a bit quick with committing that template, should have double checked all local modifications. Will fix. Thanks for reporting ;)</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656/re_patch_for_rev_1656</guid>
+      <pubDate>Tue, 17 Feb 2009 19:07:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patch for rev. 1656</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656</link>
+      <description>Hi Kristof,&#13;
+I make a patch for your last revision&#13;
+&#13;
+&lt;code&gt;&#13;
+===================================================================&#13;
+--- design/admin/templates/pagelayout.tpl	(revision 1656)&#13;
++++ design/admin/templates/pagelayout.tpl	(working copy)&#13;
+@@ -288,7 +288,7 @@&#13;
+ {* Main area START *}&#13;
+ &#13;
+ {cache-block keys=$uri_string expiry=0 ignore_content_expiry}&#13;
+-&lt;p&gt;Date/time in cache block: &lt;strong&gt;{currentdate()|l10n('datetime')}&lt;/strong&gt;&lt;/p&gt;&#13;
++  {debug-log var=currentdate()|l10n('datetime') msg="Date/time in cache block"}&#13;
+ {/cache-block}&#13;
+ &#13;
+ {include uri='design:page_mainarea.tpl'}&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Can you please put in your code.&#13;
+Thanks</description>
+      <author>community@ez.no (Francesco Trucchia)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/patch_for_rev_1656</guid>
+      <pubDate>Tue, 17 Feb 2009 16:09:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>how to modify a session object </title>
+      <link>http://projects.ez.no/ezxajax/forum/general/how_to_modify_a_session_object</link>
+      <description>Good morning,&#13;
+&#13;
+Here is a short presentation of the problem I have today : &#13;
+&#13;
+I tried to change the value within a Session object I created with a “ ezxajax function”. I have the error message “ERROR: No response processor is available to process the response from the server. Content-Type: text/html; charset=utf-8”. The problem is I don’t want to return anything. Is it possible?&#13;
+&#13;
+More information : &#13;
+&#13;
+I have an operator to change the value of   a Session object which is working. I added the ezxajax configuration files and operators inside its folder.   &#13;
+&#13;
+This extension folder contains the following items : &#13;
+&lt;code&gt;&#13;
+/autoloads/ eztemplateautoload.php  /* declares a set_session_object ($key, $value) function within a toto.php file */&#13;
+/settings/site.ini.append.php&#13;
+/settings/xajax.ini.append.php /* declares a set_session_object ($key, $value) function within an xajax_toto.php file*/&#13;
+/xajax/xajax_toto.php  /* defines a   set_session_object ($key, $value) function which creates a new toto object and calls its set_session_object ($key, $value) function.&#13;
+&#13;
+/toto.php /* defines a set_session_object ($key, $value) function&#13;
+&lt;/code&gt;&#13;
+&#13;
+In the template, &#13;
+&lt;code&gt;&#13;
+{def $hasXajaxAccess=fetch('user','has_access_to',hash('module','xajax','function','all'))}&#13;
+	&#13;
+	  {if $hasXajaxAccess}&#13;
+	  &#13;
+	 	 {run-once}{xajax_javascript()}{/run-once}&#13;
+{/if}&#13;
+&#13;
+…&#13;
+&#13;
+&lt;a onclick='xajax_ set_session_object (“the”, 334);'&gt;change value&lt;/a&gt;&#13;
+&#13;
+&lt;/code&gt;&#13;
+&#13;
+Thank you in advance for yours answers&#13;
+Florian.&#13;
+&#13;
+It seems you can use Yahoo.util.connect to process the response; But isn't there something similar inside the ezxajax extension?&#13;
+&#13;
+My code now looks like this : &#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;a onclick='var callback ={success: function(o) {alert("sucess");}, failure: function(o) {alert("failure");}};var request = YAHOO.util.Connect.asyncRequest("GET", "&lt;i&gt;url&lt;/i&gt;", callback, null); 'xajax_ set_session_object (“the”, 334); return false;'&#13;
+&#13;
+&lt;i&gt;url&lt;/i&gt; is the current url.&#13;
+&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (florian bellenger)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/how_to_modify_a_session_object</guid>
+      <pubDate>Wed, 11 Feb 2009 11:08:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>how to pass variable from .js to .php ?</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/how_to_pass_variable_from_js_to_php</link>
+      <description>Hi all,&#13;
+&#13;
+I'm trying to set up an ajax "in-line" edit mechanism.&#13;
+&#13;
+Basically, I want to replace the attribute content with an input html tag, and then have the value of this input element sent as a parameter from a function in my js file to the php one.&#13;
+&#13;
+It seems that variable content is not naturally passed =&gt; shall I pass variables with url+GET method or with form+POST method???&#13;
+&#13;
+Thanks in advance for your help.&#13;
+&#13;
+You cand find my "as is" code below&#13;
+##############################&#13;
+- in the .tpl&#13;
+&lt;code&gt;&#13;
+&lt;h1 ondblclick="inlineMod(this)"&gt;{attribute_view_gui attribute=$node.data_map.name}&lt;/h1&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+- in the .js&#13;
+&lt;code&gt;&#13;
+function inlineMod(obj)&#13;
+{&#13;
+	//Objet servant à l'édition de la valeur dans la page&#13;
+	var input = null;&#13;
+&#13;
+	input = document.createElement("input");&#13;
+	&#13;
+	//Assignation de la valeur&#13;
+	if (obj.innerText)&#13;
+		input.value = obj.innerText;&#13;
+	else&#13;
+		input.value = obj.textContent;&#13;
+		&#13;
+	//Recuperation du texte a remplacer	&#13;
+	old = obj.childNodes[2];&#13;
+		&#13;
+	//Remplacement du texte par notre objet input&#13;
+	obj.replaceChild(input, old);&#13;
+&#13;
+	//On donne le focus à l'input et on sélectionne le texte qu'il contient&#13;
+	input.focus();&#13;
+	input.select();&#13;
+		&#13;
+	//Sortie de l'input&#13;
+	input.onblur = "xajax_editattribute(input.value)";&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+- and in the .php&#13;
+&lt;code&gt;&#13;
+function editattribute($variable)&#13;
+{&#13;
+	$objResponse = new xajaxResponse();&#13;
+	$objectID            = '1';&#13;
+	$attributeIdentifier = 'name';&#13;
+	$attributeValue      = $variable;&#13;
+	$contentObject       = eZContentObject::fetch( $objectID );&#13;
+        $curVersionObject = $contentObject-&gt;attribute( 'current' );&#13;
+        $objectDataMap    = $curVersionObject-&gt;attribute('data_map');&#13;
+	$objectDataMap[$attributeIdentifier]-&gt;setAttribute("data_text", $attributeValue );&#13;
+	$objectDataMap[$attributeIdentifier]-&gt;store();&#13;
+        return $objResponse;&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+=&gt; how can I have the php file retrieve the value of "$variable" so I can change the value of the attribute?</description>
+      <author>community@ez.no (Mickael Robin)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/how_to_pass_variable_from_js_to_php</guid>
+      <pubDate>Wed, 26 Nov 2008 14:51:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>AJAX to return an eZ Publish template? eg new comment</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/ajax_to_return_an_ez_publish_template_eg_new_comment</link>
+      <description>[Re-post from Main ez.no developer forum, see full post here: http://ez.no/developer/forum/developer/ajax_to_return_an_ez_publish_template_eg_new_comment#msg166398]&#13;
+&#13;
+I'm thinking that it might be possible and useful to have AJAX to load eZ Publish Templates.&#13;
+&#13;
+For example, when looking at an article and clicking the button for a new comment, an AJAX call returns the edit (new) comment template into the current article page, without a page reload.&#13;
+&#13;
+Has anyone done this type of thing? Any good ideas on how or if it might be possible?</description>
+      <author>community@ez.no (Paul Wilson)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/ajax_to_return_an_ez_publish_template_eg_new_comment</guid>
+      <pubDate>Thu, 29 May 2008 08:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Returning Values - Setting XAJAX to "S...</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s3</link>
+      <description>Hi Kristof,&#13;
+&#13;
+Thanks for your replies.&#13;
+&#13;
+For the moment, I have changed the file &lt;i&gt;/extension/ezxajax/autoloads/xajaxoperator.php&lt;/i&gt; by adding the following code (as you suggested). I added it line 68. &#13;
+&lt;code&gt;$xajax-&gt;configure( 'defaultMode', 'synchronous' ); &lt;/code&gt;&#13;
+Yes, this sets all ajax requests to "synchronous".&#13;
+&#13;
+Looking at the Flag options in xajax.ini, my understanding is that it may be useful to have two options:&#13;
+1) setting the 'defaultMode' as either 'synchronous' or 'asynchronous', and&#13;
+2) overriding the default to set a particular xajax function call (eg xajax_helloworld) as being either 'synchronous' or 'asynchronous'.&#13;
+&#13;
+I see what you mean about the changes from xajax_setFlags to $xajax-&gt;configure (ref for other readers: http://xajaxproject.org/wiki/Upgrading_from_xajax_0.2_to_xajax_0.5).&#13;
+&#13;
+Another method might be to have different call functions according to whether synchronous/asynch is required. For example "xajax_synchronous_helloworld()" or xajax_asynchronous_helloworld()". This seems to be the way that the YUI connection manager works (http://developer.yahoo.com/yui/connection/). For example:&#13;
+&#13;
+&lt;code&gt;//With our callback object ready, it's now time to    &#13;
+//make our XHR call using Connection Manager's   &#13;
+//asyncRequest method:   &#13;
+YAHOO.util.Connect.asyncRequest('GET', sUrl, callback);   &#13;
+&lt;/code&gt;&#13;
+(this code is from http://developer.yahoo.com/yui/examples/treeview/dynamic_tree.html)&#13;
+&#13;
+One thing that concerns me a little is that, although there is a new xajax version in the pipeline, there does not seem to be much activity on the xajaxproject.org site at the moment (eg most recent blog post Jan 08). Perhaps it may be worth waiting to see if the project regains some momentum before developing this extension further.&#13;
+&#13;
+Regards&#13;
+&#13;
+- Paul</description>
+      <author>community@ez.no (Paul Wilson)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s3</guid>
+      <pubDate>Thu, 29 May 2008 07:50:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Returning Values - Setting XAJAX to "S...</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s2</link>
+      <description>It seems only possible to set all ajax requests to be called synchronous by default:&#13;
+&lt;code&gt;&#13;
+$xajax-&gt;configure( 'defaultMode', 'synchronous' );&#13;
+&lt;/code&gt;&#13;
+&#13;
+Apparently, the configure method replaces the setFlag method, which was introduced earlier and adopted by the ezxajax extension but deprecated now. Currently, only boolean values can be configured with the settings in the xajax.ini [Flags] group.&#13;
+&lt;code&gt;&#13;
+$flags =& $ini->group( 'Flags' );&#13;
+foreach ( $flags as $flagName =&gt; $flagINIValue )&#13;
+{&#13;
+    $normalizedFlagValue = strtolower( trim( $flagINIValue ) );&#13;
+    $flagValue = ( $normalizedFlagValue == 'enabled' || $normalizedFlagValue == 'true' );&#13;
+    $xajax-&gt;setFlag( $flagName, $flagValue );&#13;
+}&#13;
+&lt;/code&gt;&#13;
+I suggest we modify the current behavior a bit, to change values automatically to booleans only when they are either enabled, true (=&gt; boolean true) or disabled, false (=&gt; boolean false). Maybe we should even rename the group to something like [Configure]?</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s2</guid>
+      <pubDate>Wed, 21 May 2008 21:39:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Returning Values - Setting XAJAX to "S...</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s</link>
+      <description>Hi Paul&#13;
+&#13;
+As far as I know, it's enough to call the xajax function this way:&#13;
+&lt;code&gt;&#13;
+xajax.call( 'myFunction', { mode:'synchronous', parameters['myDiv', 'some new content'] } );&#13;
+&lt;/code&gt;&#13;
+&#13;
+I did not find any option to register a function as synchronous by default on the PHP side in the documentation, but I must say it's a long time ago I've been looking into xajax.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode/re_returning_values_setting_xajax_to_s</guid>
+      <pubDate>Wed, 21 May 2008 21:19:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Returning Values - Setting XAJAX to "Synchronous" mode?</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode</link>
+      <description>Hi,&#13;
+&#13;
+I'm trying to use XAJAX to return values to javascript. For example:&#13;
+&lt;code&gt;&#13;
+[in PHP Code...]&#13;
+$objResponse = new xajaxResponse();&#13;
+$objResponse-&gt;setReturnValue('Hello World');&#13;
+return $objResponse;&#13;
+&lt;/code&gt;&#13;
+However for this to work, I need to enable "synchronous" mode for the xajax function being called ("synchronous" means that the browser will wait for the xajax response before executing the remaining Javascript). &#13;
+&#13;
+I'm guessing this means:&#13;
+1) adding optional parameter(s) to xajax.ini files to flag synchronous mode for a given xajax function;&#13;
+2) modifying extension/ezxajax/autoloads/xajaxoperator.php to allow parameters/arguments to be assigned when functions are registered with xajax.&#13;
+&#13;
+Has anyone done this, or perhaps there is a better way I've missed?&#13;
+&#13;
+- Paul&#13;
+&#13;
+(ref on synchronous xajax: http://xajaxproject.org/wiki/Xajax_0.5:_Tips_and_Tricks:_New_Features )</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/returning_values_setting_xajax_to_synchronous_mode</guid>
+      <pubDate>Wed, 21 May 2008 14:19:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem: xajax_function is not defined</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined4</link>
+      <description>I decided that we should not any longer lowercase the file name. File name specified in the ini file and the file name on the file system should now match exactly. Implemented in trunk revision 1655.&#13;
+&#13;
+There will also be error messages in debug output now in case a certain file is not found.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined4</guid>
+      <pubDate>Thu, 17 Apr 2008 11:33:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem: xajax_function is not defined</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined3</link>
+      <description>Thanks to the help of Kristof...&#13;
+&#13;
+The problem was because the name of the php file containing my xajax function had some upper case characters. To avoid the problem, only use lower case characters in the file name.&#13;
+&#13;
+Long life to eZXajax !</description>
+      <author>community@ez.no (Hakim Bouras)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined3</guid>
+      <pubDate>Thu, 17 Apr 2008 09:22:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem: xajax_function is not defined</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined2</link>
+      <description>Hi Hakim&#13;
+&#13;
+I suspect that another xajax.ini file is clearing the ExtensionDirectories[] or AvailableFunctions[] array setting. Do you have any other xajax extensions enabled?&#13;
+If we're not able to solve the problem easily this way, I'm always happy to take a closer look if you can provide me access to your installation.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined2</guid>
+      <pubDate>Tue, 15 Apr 2008 21:15:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem: xajax_function is not defined</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined</link>
+      <description>Hi Kristof,&#13;
+&#13;
+&gt;&gt;Did you clear the template caches?&#13;
+Yes, I even did clear all the caches. But I still have the same problem. The access rights to the extension are also OK.&#13;
+&#13;
+I am using the last svn version of ezXajax.&#13;
+&#13;
+My server is running:&#13;
+- ezPublish Version:  4.0.0 (4.0.0) SVN revision: 19785 &#13;
+- Apache / 2.2.3 (Debian) &#13;
+- PHP / 5.2.0-8+etch10&#13;
+&#13;
+Thanks for your help,&#13;
+Hakim&#13;
+</description>
+      <author>community@ez.no (Hakim Bouras)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined/re_problem_xajax_function_is_not_defined</guid>
+      <pubDate>Fri, 11 Apr 2008 06:44:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem: xajax_function is not defined</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined</link>
+      <description>&lt;i&gt;First I recall the post I wrongly posted in the general EZ developper forum.&lt;/i&gt;&#13;
+&#13;
+Hi,&#13;
+&#13;
+I created a small extension very similar to the hello_world example (with a one xajax function). Everything works fine in my development environment.&#13;
+&#13;
+I tried to publish my new extension on my production server. I updated my extension list in the admin interface (and even regenerate the autoload - altough I am not sure it is necessary in this case).&#13;
+&#13;
+When my template use the xajax call, I got the following error in my browser: "xajax_getResearchersByInstitute is not defined" .&#13;
+&#13;
+Looking closer at the source of my page I find out that in the list of declaration on xajax function, the function that I added (with my extension) does not appear:&#13;
+&#13;
+&lt;code&gt;&lt;script type='text/javascript' charset='UTF-8'&gt;&#13;
+/* &lt;![CDATA[ */&#13;
+xajax_viewfull = function() { return xajax.request( { xjxfun: 'viewfull' }, { parameters: arguments } ); };&#13;
+/* ]]&gt; */&#13;
+&lt;/script&gt;&lt;/code&gt;&#13;
+&#13;
+I verify that I have my file xajax.ini file referencing my function...&#13;
+&#13;
+Any idea about how to troubleshoot this problem ?&#13;
+&#13;
+Thanks,&#13;
+Hakim&#13;
+&#13;
+&#13;
+&lt;i&gt;and Kristof's answer: &lt;/i&gt;&#13;
+&#13;
+Hi Hakim&#13;
+&#13;
+Did you clear the template caches?&#13;
+&#13;
+By the way, the ezxajax extension was moved to eZ Projects: http://projects.ez.no/ezxajax. It's better to use the dedicated forums there than the ones here. Thanks!&#13;
+&#13;
+Kristof</description>
+      <author>community@ez.no (Hakim Bouras)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/problem_xajax_function_is_not_defined</guid>
+      <pubDate>Fri, 11 Apr 2008 06:33:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Updates</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/updates/re_updates3</link>
+      <description>Hi,&#13;
+&#13;
+This update works like a charm.&#13;
+&#13;
+Good job !!&#13;
+&#13;
+Thank you.</description>
+      <author>community@ez.no (Stéphane Bullier)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/updates/re_updates3</guid>
+      <pubDate>Tue, 01 Apr 2008 18:27:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Updates</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/updates/re_updates2</link>
+      <description>Hi,&#13;
+&#13;
+i updated today the xajax extension to use with ez4 without strict warnings.&#13;
+&#13;
+I talk with Kristof about the renaming to ezajax - and i did it.&#13;
+You can find the new version 2.0.0 &#13;
+&#13;
+http://svn.projects.ez.no/ezxajax/trunk/extension/ezxajax&#13;
+&#13;
+All xajax extension like  ezxajax_classattributes and ezxajax_roleedit i updated to and give them the same versions number 2.0.0. So we know this versions are used for ez4 and php5.&#13;
+&#13;
+Best regards&#13;
+Felix Woldt</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/updates/re_updates2</guid>
+      <pubDate>Tue, 01 Apr 2008 15:09:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Updates</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/updates/re_updates</link>
+      <description>Hi Bruce&#13;
+&#13;
+Excellent! It's great to see how projects.ez.no is starting to help us collaborate on projects.&#13;
+&#13;
+I started a topic regarding PHP 5 strict compatibility on the xajax forums: http://community.xajaxproject.org/viewtopic.php?id=6424 . I will try to follow this up a bit.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/updates/re_updates</guid>
+      <pubDate>Mon, 31 Mar 2008 19:48:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updates</title>
+      <link>http://projects.ez.no/ezxajax/forum/general/updates</link>
+      <description>Hi Kristof &#13;
+&#13;
+I'm using this for a eZ 4.0 project.  I'm planning on updating to the latest 0.5 beta and making sure it works with eZ 4.0.&#13;
+&#13;
+Cheers&#13;
+Bruce</description>
+      <author>community@ez.no (Bruce Morrison)</author>
+      <guid>http://projects.ez.no/ezxajax/forum/general/updates</guid>
+      <pubDate>Mon, 18 Feb 2008 02:29:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

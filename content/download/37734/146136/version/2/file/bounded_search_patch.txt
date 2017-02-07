@@ -1,0 +1,36 @@
+*** kernel/search/plugins/ezsearchengine/ezsearchengine.php	Mon Sep 11 01:54:34 2006
+--- kernel/search/plugins/ezsearchengine/ezsearchengine.php.new	Mon Feb 26 12:56:56 2007
+***************
+*** 1111,1120 ****
+--- 1111,1121 ----
+       \private
+       \return an array of ORDER BY SQL
+      */
+      function buildSortSQL( $sortArray )
+      {
++         $db =& eZDB::instance();
+          $sortCount = 0;
+          $sortList = false;
+          if ( isset( $sortArray ) and
+               is_array( $sortArray ) and
+               count( $sortArray ) > 0 )
+***************
+*** 1197,1206 ****
+--- 1198,1214 ----
+                              $attributeFromSQL .= ", ezcontentobject_attribute as a$attributeJoinCount";
+                              $attributeWereSQL .= " AND a$attributeJoinCount.contentobject_id = ezcontentobject.id AND
+                                                    a$attributeJoinCount.contentclassattribute_id = $sortClassID AND
+                                                    a$attributeJoinCount.version = ezcontentobject_name.content_version";
+  
++ 							// JR
++ 							if (isset($sortBy[3]) && isset($sortBy[4]))
++ 							{
++ 								$attributeWereSQL .= " AND a$attributeJoinCount.$sortKey ";
++ 								$attributeWereSQL .= $sortBy[3] ? " > " : " < ";
++ 								$attributeWereSQL .= "'" . $db->escapeString($sortBy[4]) . "' ";
++ 							}
+                              $attributeJoinCount++;
+                          }break;
+  
+                          default:
+                          {

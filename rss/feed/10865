@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / objectrelationbrowse / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:46:59 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:46:59 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/10865" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>objectrelationbrowse rev. 3 by S V</title>
+      <link>http://projects.ez.no/objectrelationbrowse/subversion/3</link>
+      <description></description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/objectrelationbrowse/subversion/3</guid>
+      <pubDate>Mon, 26 Oct 2009 08:55:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>objectrelationbrowse rev. 2 by S V</title>
+      <link>http://projects.ez.no/objectrelationbrowse/subversion/2</link>
+      <description>Changed 'Limitation' to 'Limit', as reported by Carlos Revillo.</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/objectrelationbrowse/subversion/2</guid>
+      <pubDate>Thu, 25 Sep 2008 07:55:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>objectrelationbrowse rev. 1 by S V</title>
+      <link>http://projects.ez.no/objectrelationbrowse/subversion/1</link>
+      <description>Initial project import objectrelationbrowse for eZ publish 4.x</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/objectrelationbrowse/subversion/1</guid>
+      <pubDate>Tue, 12 Aug 2008 08:25:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

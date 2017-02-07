@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / noveniniupdate / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 13:58:32 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 13:58:32 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/16737" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ 2011.12 support</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/ez_2011_12_support</link>
+      <description>First time extension user and I just tried to install on 2011.12 and it doesn't appear to work, something I did or is this version not yet supported?&#13;
+&#13;
+Thanks</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/ez_2011_12_support</guid>
+      <pubDate>Fri, 03 Feb 2012 04:47:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible Bug?</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/possible_bug/re_possible_bug2</link>
+      <description>merci:)&#13;
+That could be a viable solution. Just was not aware that there are limitations as to which setting that may be altered.&#13;
+</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/possible_bug/re_possible_bug2</guid>
+      <pubDate>Thu, 12 May 2011 09:08:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible Bug?</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/possible_bug/re_possible_bug</link>
+      <description>Hi Lars&#13;
+&#13;
+Actually, this is not a bug... This is due to the fact that there are several settings in eZ Publish that cannot be modified programmatically. Those are listed in site.ini / [eZINISettings].ReadonlySettingList.&#13;
+&#13;
+And of course &lt;i&gt;image.ini/ImageMagick/ExecutablePath&lt;/i&gt; is one of those ;-)&#13;
+&#13;
+It happened for me too and the solution I found was to be production compliant in my dev environment regarding this kind of settings by making a symlink (/opt/local/bin =&gt; /usr/bin)</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/possible_bug/re_possible_bug</guid>
+      <pubDate>Thu, 12 May 2011 08:51:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Possible Bug?</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/possible_bug</link>
+      <description>Hi.&#13;
+We use this extension for our projects and are very happy indeed. However we do have an issue related to the file image.ini.  It seems this file is not repected somehow , therefore the actual reference to image magick is not updated correctly on our production server when we run the update via comand line.&#13;
+&#13;
+The file image.ini in settings/* is updated (timestamp indicated this), but the value is not changed according to the xml source.&#13;
+&#13;
+Could you test and check if you are able to reproduce this bug?&#13;
+&#13;
+Thanks.&#13;
+Lars</description>
+      <author>community@ez.no (Lars Eirik Roenning)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/possible_bug</guid>
+      <pubDate>Thu, 12 May 2011 08:26:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Be careful with regional settings</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/be_careful_with_regional_settings/re_be_careful_with_regional_settings</link>
+      <description>You're absolutely right !&#13;
+This is a mistake, those regional settings should not be present. I just copied/pasted and forgot them...&#13;
+&#13;
+I just fixed this problem in trunk, revision 23</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/be_careful_with_regional_settings/re_be_careful_with_regional_settings</guid>
+      <pubDate>Sun, 02 May 2010 00:11:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Be careful with regional settings</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/be_careful_with_regional_settings</link>
+      <description>you should not put regional settings to fre-FR because it cause problem with siteaccess in others languages ....</description>
+      <author>community@ez.no (Alexandre SEBBANE)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/be_careful_with_regional_settings</guid>
+      <pubDate>Sat, 01 May 2010 22:27:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 2 feature requests</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests/re_2_feature_requests2</link>
+      <description>Implemented DIFF feature in trunk, rev 19&#13;
+Implemented BACKUP feature in trunk, rev 20</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests/re_2_feature_requests2</guid>
+      <pubDate>Fri, 30 Apr 2010 17:21:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 2 feature requests</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests/re_2_feature_requests</link>
+      <description>Thanks Gaetano for these requests !&#13;
+I'll study those features :).</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests/re_2_feature_requests</guid>
+      <pubDate>Sun, 25 Apr 2010 09:07:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>2 feature requests</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests</link>
+      <description>1 - backup of existing inis before applying new ones&#13;
+&#13;
+2 - allow to see a DIFF of existing values vs. the one in the chosen environment (not a diff of the complete ini settings, just those ones that are to be set and have currently a different values)&#13;
+&#13;
+THEN it will be great extension! ;)</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/2_feature_requests</guid>
+      <pubDate>Sat, 24 Apr 2010 10:29:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changelog in version 2.0</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/changelog_in_version_2_0</link>
+      <description>Hi all&#13;
+&#13;
+Here is the changelog for the brand new version 2.0 of this extension :&#13;
+&#13;
+- Global refactoring, with interfaces, exceptions, etc...&#13;
+- CLI script to do the update. It also can list environments and params.&#13;
+- Ability to edit a single param has been removed because it duplicates the built-in &lt;i&gt;INI editing&lt;/i&gt; feature in the admin.&#13;
+</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/changelog_in_version_2_0</guid>
+      <pubDate>Fri, 14 Aug 2009 08:26:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Cluster mode</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/cluster_mode/re_cluster_mode</link>
+      <description>Jean-Luc&#13;
+&#13;
+I've planned this enhancement for version 2.5.&#13;
+As soon as you add me to the team, I'll commit the version 2.0</description>
+      <author>community@ez.no (Jérôme Vieilledent)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/cluster_mode/re_cluster_mode</guid>
+      <pubDate>Fri, 14 Aug 2009 08:21:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cluster mode</title>
+      <link>http://projects.ez.no/noveniniupdate/forum/general/cluster_mode</link>
+      <description>Hello,&#13;
+&#13;
+This extension does not work on cluster mode, as cluster mode is not using INI files, but index_cluster.php...</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/noveniniupdate/forum/general/cluster_mode</guid>
+      <pubDate>Wed, 29 Jul 2009 15:39:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

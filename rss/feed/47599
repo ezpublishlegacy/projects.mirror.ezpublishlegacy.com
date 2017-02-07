@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / yuzustarrating</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 15:01:30 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 15:01:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/47599" rel="self" type="application/rss+xml"/>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yuzustarrating/source/396ee300ac0493b795336821a4516c21823ef3ec</link>
+      <description>
+      &lt;pre&gt;+ design/admin2/templates/dashboard/beststarrating.tpl
++ design/admin2/templates/dashboard/lateststarrating.tpl
++ design/admin2/templates/tabs/starrating.tpl
++ design/admin2/templates/tabs/starrating_header.tpl
++ settings/admininterface.ini.append.php
++ settings/dashboard.ini.append.php
++ settings/design.ini.append.php
++ settings/site.ini.append.php
++ translations/fre-FR/translation.ts
++ translations/untranslated/translation.ts
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Initial release&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yuzustarrating/source/396ee300ac0493b795336821a4516c21823ef3ec</guid>
+      <pubDate>Mon, 30 Jul 2012 18:42:32 +0000</pubDate>
+    </item>
+    <item>
+      <title></title>
+      <link>http://projects.ez.no/yuzustarrating/source/6a5b927a4e3d080ad68ade803c8fcc936b63e731</link>
+      <description>
+      &lt;pre&gt;+ INSTALL
++ README
+&lt;/pre&gt;
+      &lt;pre style='white-space:pre-wrap;width:81ex'&gt;Add INSTALL and README files&lt;/pre&gt;
+    </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/yuzustarrating/source/6a5b927a4e3d080ad68ade803c8fcc936b63e731</guid>
+      <pubDate>Mon, 30 Jul 2012 18:42:31 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / bcstaticshipping / Subversion</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:28:52 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:28:51 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/992" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>bcstaticshipping rev. 3 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcstaticshipping/subversion/3</link>
+      <description>Removed: Removing subversion repository source code for project. Please use GitHub to obtain project sources in the future, https://github.com/brookinsconsulting/bcstaticshipping</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcstaticshipping/subversion/3</guid>
+      <pubDate>Mon, 28 Nov 2011 06:00:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcstaticshipping rev. 1 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcstaticshipping/subversion/1</link>
+      <description>Added: Initial import</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcstaticshipping/subversion/1</guid>
+      <pubDate>Mon, 25 Feb 2008 14:26:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>bcstaticshipping rev. 2 by Brookins Consulting</title>
+      <link>http://projects.ez.no/bcstaticshipping/subversion/2</link>
+      <description>Added: Release directory structure, moved source code into structure</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/bcstaticshipping/subversion/2</guid>
+      <pubDate>Mon, 25 Feb 2008 14:26:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

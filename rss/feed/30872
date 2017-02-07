@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / extension_ezadmin___pubsvn__</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:01:54 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:01:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/30872" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Changelog</title>
+      <link>http://projects.ez.no/extension_ezadmin_pubsvn/news/changelog</link>
+      <description>&lt;p&gt;
+ - eZAdmin: Added interface for soap tests &lt;br /&gt;
+ - eZAdmin: Added interface for eaccelerator &lt;br /&gt;
+ - eZAdmin: Added screenshots&lt;br /&gt;
+ - eZAdmin: Added framed interface for third party applications&lt;br /&gt;
+ - eZAdmin: Added interface for APC ( apc.php )&lt;br /&gt;
+ - eZAdmin: Drafting phpmyadmin integration... still having problems&lt;br /&gt; &lt;/p&gt;</description>
+      <author>community@ez.no (Björn Dieding@xrow.de)</author>
+      <guid>http://projects.ez.no/extension_ezadmin_pubsvn/news/changelog</guid>
+      <pubDate>Wed, 01 Mar 2006 17:15:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

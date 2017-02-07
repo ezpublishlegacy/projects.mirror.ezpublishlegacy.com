@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezsurvey_ezp4 / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:25:19 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:25:19 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/8196" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard10</link>
+      <description>Nobody can help me ?</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard10</guid>
+      <pubDate>Thu, 24 Nov 2011 14:42:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard9</link>
+      <description>With the package, i have this error :&#13;
+&#13;
+&lt;code&gt;&#13;
+Fatal error: Maximum execution time of 1000 seconds exceeded in /var/www/myserver.com/lib/ezc/Archive/src/utils/checksums.php on line 57&#13;
+Fatal error: eZ Publish did not finish its request&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard9</guid>
+      <pubDate>Wed, 23 Nov 2011 16:16:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard8</link>
+      <description>I already see that but it's not complete, there isn't the identifier for each attribute, can i write what i want as identifier for XML block", "Text block" or "Text entry" ? </description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard8</guid>
+      <pubDate>Wed, 23 Nov 2011 16:01:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard7</link>
+      <description>I think you will find the information you need in the file:&#13;
+&#13;
+extension/ezsurvey/doc/INSTALL&#13;
+&#13;
+You'll also find the package for the content classes in:&#13;
+extension/ezsurvey/packages/&#13;
+&#13;
+Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard7</guid>
+      <pubDate>Wed, 23 Nov 2011 15:55:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard6</link>
+      <description>i would like to create manually the 2 classes "Survey" and "Survey Attribute" but i don't know the parameters of these classes (class name, identifier, object name pattern...) and the details of the attributes for each classes ?&#13;
+&#13;
+Thanks a lot</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard6</guid>
+      <pubDate>Wed, 23 Nov 2011 15:37:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard5</link>
+      <description>In the error.log, i have this : &#13;
+&#13;
+&lt;code&gt;&#13;
+eZMySQLDB:&#13;
+Query error: Table 'ezpublish44.ezsurvey' doesn't exist. Query: SELECT ezcontentobject.id AS contentobject_id,&#13;
+                         ezcontentobject_attribute.language_code as contentobjectattribute_language_code,&#13;
+                         ezcontentobject.name,&#13;
+                         ezsurvey.*&#13;
+                  FROM ezsurvey, ezcontentobject, ezcontentobject_attribute&#13;
+                  WHERE ezcontentobject_attribute.data_type_string='ezsurvey' AND&#13;
+                        ezsurvey.id=ezcontentobject_attribute.data_int AND&#13;
+                        ezcontentobject_attribute.contentobject_id=ezcontentobject.id AND&#13;
+                        ezcontentobject.current_version=ezcontentobject_attribute.version AND&#13;
+                        ezcontentobject.status=1&#13;
+                  ORDER BY ezcontentobject.id DESC, ezcontentobject.current_version DESC&#13;
+&lt;/code&gt;&#13;
+&#13;
+but it's normal because this is the wizard which create the tables...</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard5</guid>
+      <pubDate>Wed, 23 Nov 2011 13:55:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard4</link>
+      <description>I see the components are located in lib/ezc, so i think it's good for this installation.</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard4</guid>
+      <pubDate>Wed, 23 Nov 2011 13:25:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard3</link>
+      <description>i don't know if i have eZ Components installed... how can i know that ?&#13;
+&#13;
+is this component really important to install ezsurvey ?&#13;
+&#13;
+thanks</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard3</guid>
+      <pubDate>Wed, 23 Nov 2011 13:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard2</link>
+      <description>yes i have made this and the result is : &#13;
+&lt;code&gt;&#13;
+Scanning for PHP-files.&#13;
+&#13;
+Scan complete. Found 173 PHP files.&#13;
+&#13;
+Searching for classes (tokenizing).&#13;
+&#13;
+Found 71 classes, added 71 of them to the autoload array.&#13;
+&lt;/code&gt;&#13;
+&#13;
+Is there anything else to do ?</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard2</guid>
+      <pubDate>Wed, 23 Nov 2011 13:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard</link>
+      <description>Have you runned the script to generate PHP autoloads?&#13;
+&#13;
+&lt;code&gt;&#13;
+php bin/php/ezpgenerateautoloads.php --extension&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard/re_automatic_installation_wizard</guid>
+      <pubDate>Wed, 23 Nov 2011 12:14:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatic installation (wizard)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard</link>
+      <description>Hi,&#13;
+i want to install automatically the ezsurvey with the wizard, but when i go in the tabs 'Survey', i haven't the wizard...&#13;
+Do you know why ? (of course i activate the extension in the ini file)&#13;
+&#13;
+My ezpublish version is 4.4.0.&#13;
+&#13;
+Thanks a lot</description>
+      <author>community@ez.no (Anthony M.)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/automatic_installation_wizard</guid>
+      <pubDate>Wed, 23 Nov 2011 11:28:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sum of results is not 100%</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100/re_sum_of_results_is_not_1002</link>
+      <description>Hi Jean-Luc, &#13;
+&#13;
+That is a fix you could directly push in the repository, useful one. I warmly invite you to request membership here : http://projects.ez.no/ezsurvey_ezp4/team/members&#13;
+and then push the fix. &#13;
+&#13;
+Cheers !</description>
+      <author>community@ez.no (Nicolas Pastorino)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100/re_sum_of_results_is_not_1002</guid>
+      <pubDate>Mon, 19 Sep 2011 08:57:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Sum of results is not 100%</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100/re_sum_of_results_is_not_100</link>
+      <description>OK, solved it, on mentionned file:&#13;
+&#13;
+extension/ezsurvey/modules/survey/classes/ezsurveymultiplechoice.php&#13;
+&#13;
+Changed:&#13;
+&#13;
+-&#13;
+$percentage = (int) round( ( 100 * $row['count'] ) / $count );&#13;
+&#13;
+to&#13;
+&#13;
++&#13;
+$percentage = round( ( 100 * $row['count'] ) / $count, 2 );&#13;
+&#13;
+In order to have pourcentage 100,01, which is better...&#13;
+</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100/re_sum_of_results_is_not_100</guid>
+      <pubDate>Fri, 16 Sep 2011 16:26:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sum of results is not 100%</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100</link>
+      <description>Hi,&#13;
+&#13;
+I don't know if somebody has this strange behaviour, but on a only multiple choices survey, the sum of all pourcentages is either 99% or 101%. I guess the pourcentage of each result is incorrectly rounded.&#13;
+&#13;
+I guess it is managed in: extension/ezsurvey/modules/survey/classes/ezsurveymultiplechoice.php</description>
+      <author>community@ez.no (Jean-Luc Nguyen)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/sum_of_results_is_not_100</guid>
+      <pubDate>Fri, 16 Sep 2011 16:16:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update - setup wizard for eZ Survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey5</link>
+      <description>*bump*&#13;
+&#13;
+I've run into the problem described on each site where I've updated the ezsurvey extension to the latest found in git.  It renders the extensions unusable to the administrator, does anyone have any solutions or workarounds? &#13;
+&#13;
+Not sure if this may be related perhaps. &#13;
+PHP: E_NOTICE:&#13;
+session_start() [&lt;a href='function.session-start'&gt;function.session-start&lt;/a&gt;]: ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /var/www/mysite/lib/ezsession/classes/ezsession.php on line 361&#13;
+</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey5</guid>
+      <pubDate>Mon, 22 Aug 2011 08:44:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>postgresql count and cvs export handling of line endings</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/postgresql_count_and_cvs_export_handling_of_line_endings</link>
+      <description>In fetchResultArray the ording needs to be removed from the count to work with posgresql 9.0&#13;
+&#13;
+also in exportCSV carriage returns nedd to be handled such as stripping them. </description>
+      <author>community@ez.no (Douglas Hammond)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/postgresql_count_and_cvs_export_handling_of_line_endings</guid>
+      <pubDate>Wed, 27 Jul 2011 19:26:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A little warning on the field _mandatory_hi...</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden/re_a_little_warning_on_the_field_mandatory_hi2</link>
+      <description>Might make a nice info page in the ez.no docs / blog post on sghare.ez.no, if we get most of the details of problems with suhosin straight...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden/re_a_little_warning_on_the_field_mandatory_hi2</guid>
+      <pubDate>Thu, 30 Jun 2011 16:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: A little warning on the field _mandatory_hi...</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden/re_a_little_warning_on_the_field_mandatory_hi</link>
+      <description>My experience is that you need to disable or configure Suhosin especially, since many of the limits for postvariables are exceeded here, when you're using the survey extension.</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden/re_a_little_warning_on_the_field_mandatory_hi</guid>
+      <pubDate>Thu, 30 Jun 2011 15:26:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>A little warning on the field _mandatory_hidden_</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden</link>
+      <description>The field&#13;
+&lt;code&gt;&#13;
+&lt;input type="hidden" name="{$prefix_attribute}_ezsurvey_question_{$question.id}_mandatory_hidden_{$attribute_id}" value="1" /&gt;&#13;
+&lt;/code&gt;&#13;
+could not be parsed by &lt;b&gt;PHP with Suhosin-Patch.&lt;/b&gt;&#13;
+&#13;
+Suhosin does indeed have http://www.hardened-php.net/suhosin/configuration.html#suhosin.post.max_name_length with a default of 64. &#13;
+And the field (e.g. &lt;i&gt; ContentObjectAttribute_ezsurvey_question_52698_mandatory_hidden_373861&lt;/i&gt; )  could exceed the 64 characters.</description>
+      <author>community@ez.no (Luca Realdi)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/a_little_warning_on_the_field_mandatory_hidden</guid>
+      <pubDate>Thu, 30 Jun 2011 15:13:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Single/Multiple Choice always mandatory?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory3</link>
+      <description>Very usefull, thanks!</description>
+      <author>community@ez.no (Nicolas Panau)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory3</guid>
+      <pubDate>Wed, 22 Jun 2011 16:33:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multilingue result management</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/multilingue_result_management</link>
+      <description>Hello,&#13;
+&#13;
+If a survey is edited in differents languages, each traduction is managed as a different survey.&#13;
+&#13;
+Is there a way to group the results of all survey traductions?&#13;
+&#13;
+Thanks.</description>
+      <author>community@ez.no (anthony dardilhac)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/multilingue_result_management</guid>
+      <pubDate>Tue, 07 Sep 2010 15:27:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bug on re-editing multichoice fields with e...</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_re_editing_multichoice_fields_with_ezsurvey/re_bug_on_re_editing_multichoice_fields_with_e</link>
+      <description>Thanks! I've reproduced the problem with multiplechoice and checkboxes. Fix added to svn rev. 105.&#13;
+&#13;
+Cheers, Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_re_editing_multichoice_fields_with_ezsurvey/re_bug_on_re_editing_multichoice_fields_with_e</guid>
+      <pubDate>Mon, 30 Aug 2010 10:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug on re-editing multichoice fields with eZSurvey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_re_editing_multichoice_fields_with_ezsurvey</link>
+      <description>When re-editing multichoice fields, ezsurvey will not unset all fields automatically:&#13;
+&#13;
+There is an error in the unsetting loop:&#13;
+ezsurvey/modules/survey/classes/ezsurveyquestionresult.php   (Line 105)&#13;
+&#13;
+       &lt;code&gt;&#13;
+        for ( $idx = $count; $idx &lt; count( $questionResultArray ); ++$idx )&#13;
+        {&#13;
+            $questionResultArray[$idx]-&gt;remove();&#13;
+            unset( $questionResultArray[$idx] );&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+Since the size of the array is reduced on every loop, the array is never fully unset.&#13;
+&#13;
+Replace with this code:&#13;
+&#13;
+&lt;code&gt;&#13;
+$questionArraySize = count( $questionResultArray )&#13;
+&#13;
+        for ( $idx = $count; $idx &lt; $questionArraySize; ++$idx )&#13;
+        {&#13;
+            $questionResultArray[$idx]-&gt;remove();&#13;
+            unset( $questionResultArray[$idx] );&#13;
+        }&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Paul Leclercq)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_re_editing_multichoice_fields_with_ezsurvey</guid>
+      <pubDate>Tue, 24 Aug 2010 15:59:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update - setup wizard for eZ Survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey4</link>
+      <description>I'm still experiencing a problem where after upgrading ez to 4.3 and ezsurvey to trunk-gw svn:103 I still can't get paste the wizard.  Nothing helpful in the logs, the only clue might be when I use the browse button I get this message "Choose objects that you want to relate to &lt;&gt;"&#13;
+&#13;
+Any clue what's going wrong?</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey4</guid>
+      <pubDate>Wed, 18 Aug 2010 06:26:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Missing translation operator in templates</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/missing_translation_operator_in_templates/re_missing_translation_operator_in_templates</link>
+      <description>Thank you, I've added the changes to a new branch ready for review by eZ Systems together with some new functionality in http://svn.projects.ez.no/ezsurvey_ezp4/trunk-gw</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/missing_translation_operator_in_templates/re_missing_translation_operator_in_templates</guid>
+      <pubDate>Thu, 05 Aug 2010 09:56:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in the definition of some classes.</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/error_in_the_definition_of_some_classes/re_error_in_the_definition_of_some_classes</link>
+      <description>Thank you, I've added the fix to a new svn branch (http://svn.projects.ez.no/ezsurvey_ezp4/trunk-gw/extension/ezsurvey) with some new updates we've done by us in Grenland Web as well.&#13;
+&#13;
+Then it's up to eZ Systems to merge them into the new version when they're ready.</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/error_in_the_definition_of_some_classes/re_error_in_the_definition_of_some_classes</guid>
+      <pubDate>Thu, 05 Aug 2010 08:54:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: attach file with the survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/attach_file_with_the_survey/re_attach_file_with_the_survey</link>
+      <description>This is not possible with the current version of eZ Survey.&#13;
+&#13;
+To make this functionality I would start to create a new survey questiontype for eZ Survey. You can find the different questiontypes defined in ezsurvey.ini.append.php&#13;
+&#13;
+To upload files, I would maybe reuse the existing functionality in eZ Publish for this, perhaps auto-generate new file contentobjects.&#13;
+&#13;
+Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/attach_file_with_the_survey/re_attach_file_with_the_survey</guid>
+      <pubDate>Mon, 02 Aug 2010 07:37:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>attach file with the survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/attach_file_with_the_survey</link>
+      <description>I need the possibility to enable users who are filling the survey to attach a file along with their answers.&#13;
+&#13;
+Is this possible in the current version od ezsurvey?&#13;
+If not, will it be available soon?&#13;
+&#13;
+If I decide to make my own enhancement for this can someone give me some directions where to start?</description>
+      <author>community@ez.no (Mavko Žmak - Žmale)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/attach_file_with_the_survey</guid>
+      <pubDate>Sun, 01 Aug 2010 19:07:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error in the definition of some classes.</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/error_in_the_definition_of_some_classes</link>
+      <description>Hello,&#13;
+&#13;
+I think that there's an error in the definition of some classes :&#13;
+- eZSurveyResult&#13;
+- eZSurveyQuestionMetaData&#13;
+- and eZSurveyQuestion&#13;
+&#13;
+All have a simple array associated to the key "sort" and an associative array is required here.&#13;
+&#13;
+&lt;code&gt;&#13;
+      'sort' =&gt; array( 'id', 'asc' ),&#13;
+&lt;/code&gt;&#13;
+&#13;
+should be&#13;
+&#13;
+&lt;code&gt;&#13;
+      'sort' =&gt; array( 'id' =&gt; 'asc' ),&#13;
+&lt;/code&gt;&#13;
+&#13;
+Bye</description>
+      <author>community@ez.no (anthony dardilhac)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/error_in_the_definition_of_some_classes</guid>
+      <pubDate>Wed, 26 May 2010 18:36:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Missing translation operator in templates</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/missing_translation_operator_in_templates</link>
+      <description>Hi,&#13;
+&#13;
+In this template:&#13;
+&#13;
+design/standard/templates/survey/result.tpl&#13;
+&#13;
+line 18, it miss the translation operator for «All evaluations» (  {"All evaluations"|i18n('survey')}  )&#13;
+&#13;
+In this one:&#13;
+&#13;
+design/standard/templates/survey/result_list.tpl&#13;
+&#13;
+line 20, it miss the translation operator for «Summary» (  {"Summary"|i18n('survey')}  )&#13;
+line 21, it miss the translation operator for «All evaluations» (  {"All evaluations"|i18n('survey')}  )&#13;
+&#13;
+Moreover, it would be cool if the buttons could be translated in these templates:&#13;
+&#13;
+design/standard/templates/survey/result.tpl&#13;
+design/standard/templates/survey/result_list.tpl&#13;
+&#13;
+Cordially,&#13;
+&#13;
+Pascal</description>
+      <author>community@ez.no (Pascal France)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/missing_translation_operator_in_templates</guid>
+      <pubDate>Fri, 09 Apr 2010 18:22:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback about spam bots ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots3</link>
+      <description>We are trying out a javascript solution. Modified content/datatype/view/ezsurvey.tpl&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;script type="text/javascript"&gt;&#13;
+var survey_uri_form = {$node.url_alias|ezurl()};&#13;
+&lt;/script&gt;&#13;
+&#13;
+&lt;form enctype="multipart/form-data" id="survey_form" method="post" action='nospam'&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+And in the javascript on the site:&#13;
+&lt;code&gt;&#13;
+jQuery(document).ready(function() {&#13;
+	&#13;
+	/* Spam protect survey */&#13;
+	if(jQuery('#survey_form').length != 0) {&#13;
+		var form_el = jQuery('#survey_form');&#13;
+		if(form_el.attr('action') == 'nospam') {&#13;
+			form_el.attr('action', survey_uri_form);&#13;
+		}&#13;
+	}&#13;
+});&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Eyvind Gerhard Sletten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots3</guid>
+      <pubDate>Fri, 19 Feb 2010 09:34:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Embeded survey ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey/re_embeded_survey2</link>
+      <description>No answer.&#13;
+&#13;
+I think this extension is not finished and stable. I found bugs. Some code is not tested.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey/re_embeded_survey2</guid>
+      <pubDate>Wed, 13 Jan 2010 07:58:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Embeded survey ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey/re_embeded_survey</link>
+      <description>Did you ever get an answer to this?  I would also like to embed a survey (same way I would used the "poll" content type before) in a page.  Were you able to get this to work?</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey/re_embeded_survey</guid>
+      <pubDate>Tue, 12 Jan 2010 16:06:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Embeded survey ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey</link>
+      <description>Hi,&#13;
+&#13;
+I'd like to embed a survey. I can use a node view gui, or the OE.&#13;
+&#13;
+I only tried the node view gui for now, but data are not stored.&#13;
+&#13;
+Please, can you tell me how you can do it, or a survey can just work in vew full ?</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/embeded_survey</guid>
+      <pubDate>Mon, 09 Nov 2009 11:00:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation (beginning of)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/french_translation_beginning_of/re_french_translation_beginning_of2</link>
+      <description>Here's mine :&#13;
+&#13;
+&lt;code&gt;&#13;
+&lt;!DOCTYPE TS&gt;&lt;TS&gt;&#13;
+	&#13;
+&lt;context&gt;&#13;
+	&lt;name&gt;kernel/navigationpart&lt;/name&gt;&#13;
+		&lt;message&gt;&#13;
+			&lt;source&gt;Survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+&lt;/context&gt;&#13;
+&#13;
+&lt;context&gt;&#13;
+	&lt;name&gt;ezsurvey/datatypes&lt;/name&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Survey&lt;/source&gt;&#13;
+		&lt;comment&gt;Datatype name&lt;/comment&gt;&#13;
+		&lt;translation&gt;Sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Survey list&lt;/source&gt;&#13;
+		&lt;translation&gt;Liste des concours&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Related object configuration&lt;/source&gt;&#13;
+		&lt;translation&gt;Configuration des objets reliés&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+&lt;/context&gt;&#13;
+&#13;
+&lt;context&gt;&#13;
+	&lt;name&gt;design/admin/parts/survey/menu&lt;/name&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Survey list&lt;/source&gt;&#13;
+		&lt;translation&gt;Liste des sondages&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Related object configuration&lt;/source&gt;&#13;
+		&lt;translation&gt;Configuration&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+&lt;/context&gt;&#13;
+&#13;
+&lt;context&gt;&#13;
+	&lt;name&gt;survey&lt;/name&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Email entry&lt;/source&gt;&#13;
+		&lt;translation&gt;Champ courriel&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Text of question&lt;/source&gt;&#13;
+		&lt;translation&gt;Texte de la question&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Mandatory answer&lt;/source&gt;&#13;
+		&lt;translation&gt;Réponse obligatoire&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Default answer&lt;/source&gt;&#13;
+		&lt;translation&gt;Réponse par defaut&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Formatted Paragraph&lt;/source&gt;&#13;
+		&lt;translation&gt;Paragraphe formaté&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Text of paragraph&lt;/source&gt;&#13;
+		&lt;translation&gt;Texte du paragraphe&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Single/Multiple choice&lt;/source&gt;&#13;
+		&lt;translation&gt;Choix multiple/choix unique&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Rendering style&lt;/source&gt;&#13;
+		&lt;translation&gt;Style de présentation&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Radio buttons in a row&lt;/source&gt;&#13;
+		&lt;translation&gt;Boutons sur une ligne&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Radio buttons in a column&lt;/source&gt;&#13;
+		&lt;translation&gt;Boutons en colonne&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Checkboxes in a row&lt;/source&gt;&#13;
+		&lt;translation&gt;Cases à cocher sur une ligne&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Checkboxes in a column&lt;/source&gt;&#13;
+		&lt;translation&gt;Cases à cocher en colonne&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Selector&lt;/source&gt;&#13;
+		&lt;translation&gt;Sélecteur&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Option label&lt;/source&gt;&#13;
+		&lt;translation type="unfinished"&gt;Etiquette de l'option&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Value&lt;/source&gt;&#13;
+		&lt;translation&gt;Valeur&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Checked&lt;/source&gt;&#13;
+		&lt;translation&gt;Coché&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Order&lt;/source&gt;&#13;
+		&lt;translation&gt;Ordre&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Selected&lt;/source&gt;&#13;
+		&lt;translation&gt;Selectionné&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;New option&lt;/source&gt;&#13;
+		&lt;translation&gt;Nouvelle option&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Remove selected&lt;/source&gt;&#13;
+		&lt;translation&gt;Supprimer la sélection&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Number entry&lt;/source&gt;&#13;
+		&lt;translation&gt;Champ numerique&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Integer values only&lt;/source&gt;&#13;
+		&lt;translation&gt;Valeur entière seulement&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Minimum value&lt;/source&gt;&#13;
+		&lt;translation&gt;Valeur minimale&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Maximum value&lt;/source&gt;&#13;
+		&lt;translation&gt;Valeur maximale&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Paragraph&lt;/source&gt;&#13;
+		&lt;translation&gt;Paragraphe&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Receiver&lt;/source&gt;&#13;
+		&lt;translation&gt;Destinataire&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Email&lt;/source&gt;&#13;
+		&lt;translation&gt;Courriel&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Section header&lt;/source&gt;&#13;
+		&lt;translation&gt;En-tête de section&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Text of header&lt;/source&gt;&#13;
+		&lt;translation&gt;Texte de l'en-tête&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Text entry&lt;/source&gt;&#13;
+		&lt;translation&gt;Champ de texte&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Number of columns for an answer textarea&lt;/source&gt;&#13;
+		&lt;translation&gt;Nombre de colonnes pour la réponse&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Number of rows&lt;/source&gt;&#13;
+		&lt;translation&gt;Nombre de lignes&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey title&lt;/source&gt;&#13;
+		&lt;translation&gt;Titre du concours&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Enabled&lt;/source&gt;&#13;
+		&lt;translation&gt;Activé&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Valid from&lt;/source&gt;&#13;
+		&lt;translation&gt;Valide du&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Year&lt;/source&gt;&#13;
+		&lt;translation&gt;Année&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Month&lt;/source&gt;&#13;
+		&lt;translation&gt;Mois&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Day&lt;/source&gt;&#13;
+		&lt;translation&gt;Jour&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Hour&lt;/source&gt;&#13;
+		&lt;translation&gt;Heure&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Minute&lt;/source&gt;&#13;
+		&lt;translation&gt;Minute&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;No limitation&lt;/source&gt;&#13;
+		&lt;translation&gt;Sans limitation&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Valid to&lt;/source&gt;&#13;
+		&lt;translation&gt;Valide jusqu'au&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;After "Cancel" redirect to URL&lt;/source&gt;&#13;
+		&lt;translation&gt;Après "Cancel" rédiriger vers l'URL&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;After "Submit" redirect to URL&lt;/source&gt;&#13;
+		&lt;translation&gt;Après "Submit" rediriger vers l'URL&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Copy&lt;/source&gt;&#13;
+		&lt;translation&gt;Copier&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Copy question&lt;/source&gt;&#13;
+		&lt;translation&gt;Copier la question&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Add question&lt;/source&gt;&#13;
+		&lt;translation&gt;Ajouter une question&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Publish&lt;/source&gt;&#13;
+		&lt;translation&gt;Publier&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Apply&lt;/source&gt;&#13;
+		&lt;translation&gt;Appliquer&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Apply and Preview&lt;/source&gt;&#13;
+		&lt;translation&gt;Appliquer et prévisualiser&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Discard&lt;/source&gt;&#13;
+		&lt;translation&gt;Abandonner&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Warning&lt;/source&gt;&#13;
+		&lt;translation&gt;Attention&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Edit&lt;/source&gt;&#13;
+		&lt;translation&gt;Modifier&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Results&lt;/source&gt;&#13;
+		&lt;translation&gt;Résultats&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Remove&lt;/source&gt;&#13;
+		&lt;translation&gt;Supprimer&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Confirm&lt;/source&gt;&#13;
+		&lt;translation&gt;Confirmer&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Cancel&lt;/source&gt;&#13;
+		&lt;translation&gt;Annuler&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Last answers&lt;/source&gt;&#13;
+		&lt;translation&gt;Dernières réponses&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Label&lt;/source&gt;&#13;
+		&lt;translation&gt;Etiquette&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Count&lt;/source&gt;&#13;
+		&lt;translation&gt;Nombre&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Percentage&lt;/source&gt;&#13;
+		&lt;translation&gt;Pourcentage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;No results yet.&lt;/source&gt;&#13;
+		&lt;translation&gt;Pas encore de résultat.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Participiant:&lt;/source&gt;&#13;
+		&lt;translation&gt;Participant :&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Submit&lt;/source&gt;&#13;
+		&lt;translation&gt;Envoyer&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Please answer the question %number as well!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : obligatoire.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered text in the question %number is not a valid email address!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir une adresse email valide.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;You must enter the value for an option in the question with id %question!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%question : veuillez saisir une valeur.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Options in the question with id %question must have unique values!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%question : vueillez saisir des valeurs différents.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;You must enter at least one option in the question with id %question!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%question : veuillez saisir au moins une valeur.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+			&lt;message&gt;&#13;
+		&lt;source&gt;Single/Multiple Choice&lt;/source&gt;&#13;
+		&lt;translation&gt;Choix multiple/unique&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+		&lt;message&gt;&#13;
+		&lt;source&gt;Entered text in the question %number is not an integer number!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir un nombre entier.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered text in the question %number is not a number!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir un nombre.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number is not integer or is not lower than or equal to %max!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur maximale est %max.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+			&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number must be lower than or equal to %max!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur maximale est %max.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number is not integer or is not greater than or equal to %min!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur minimale est %min.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number must be greater than or equal to %min!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur minimale est %min.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number is not integer or is not between %min and %max!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur doit être comprise entre %min et %max.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered number in the question %number must be between %min and %max!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : la valeur doit être comprise entre %min et %max.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered text in the question with id %number is not an integer number!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir un nombre entier.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered text in the question with id %number is not an number!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir un nombre.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Entered text '%text' in the question with id %number is not an email address!&lt;/source&gt;&#13;
+		&lt;translation&gt;Question n°%number : veuillez saisir une adresse email valide&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;No results&lt;/source&gt;&#13;
+		&lt;translation&gt;Aucun résultat&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey Preview&lt;/source&gt;&#13;
+		&lt;translation&gt;Prévisualisation du sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Result overview&lt;/source&gt;&#13;
+		&lt;translation&gt;Aperçu des résultats&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Questions marked with %mark% are required.&lt;/source&gt;&#13;
+		&lt;translation&gt;Les questions marquées avec %mark% sont obligatoires.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Embedded form&lt;/source&gt;&#13;
+		&lt;translation&gt;Formulaire embarqué&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Only one answer allowed.&lt;/source&gt;&#13;
+		&lt;translation&gt;Une seule réponse possible.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Persistent user input. ( Users will be able to edit survey later. )&lt;/source&gt;&#13;
+		&lt;translation&gt;Données utilisateurs persistente. (Les utilisateurs pourront éditer le sondage plus tard)&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Active from&lt;/source&gt;&#13;
+		&lt;translation&gt;Actif du&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Active to&lt;/source&gt;&#13;
+		&lt;translation&gt;Actif jusqu'au&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Visible&lt;/source&gt;&#13;
+		&lt;translation&gt;Visible&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;New attribute&lt;/source&gt;&#13;
+		&lt;translation&gt;Nouvel attribut&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;You need to log in in order to answer this survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Vous devez vous logguer pour répondre a ce sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;The survey is not active&lt;/source&gt;&#13;
+		&lt;translation&gt;Le sondage n'est pas actif&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;The survey does already have an answer from you&lt;/source&gt;&#13;
+		&lt;translation&gt;Vous avez dejà participé a ce sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Default settings&lt;/source&gt;&#13;
+		&lt;translation&gt;Configuration par défaut&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;User email&lt;/source&gt;&#13;
+		&lt;translation&gt;Email de l'utilisateur&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;User name&lt;/source&gt;&#13;
+		&lt;translation&gt;Nom de l'utilisateur&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Add extra option&lt;/source&gt;&#13;
+		&lt;translation&gt;Ajouter une option supplémentaire&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;N. B. If you enter just one email address, user will not see this question. Instead the posting&#13;
+will be directly sent to the address.&lt;/source&gt;&#13;
+	&lt;translation type="unfinished"&gt;NB : Ce champ n'est pas visible et permet d'envoyer les résultats directement à l'adresse email renseignée.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Name&lt;/source&gt;&#13;
+		&lt;translation&gt;Nom&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Presel.&lt;/source&gt;&#13;
+		&lt;translation&gt;Presél.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Related object entry&lt;/source&gt;&#13;
+		&lt;translation&gt;Saisie d'objet relié&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Edit related object&lt;/source&gt;&#13;
+		&lt;translation&gt;Editer la relation d'objet&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Enter the button to create a new related object to the survey.&lt;/source&gt;&#13;
+		&lt;translation&gt;Cliquez sur le bouton pour créer une nouvelle relation d'objet avec le sondage.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Add related content&lt;/source&gt;&#13;
+		&lt;translation&gt;Ajouter un contenu lié&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Edit survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Modifier le sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;id&lt;/source&gt;&#13;
+		&lt;translation&gt;id&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey list&lt;/source&gt;&#13;
+		&lt;translation&gt;Liste des sondages&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Title&lt;/source&gt;&#13;
+		&lt;translation&gt;Titre&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Persistent&lt;/source&gt;&#13;
+		&lt;translation&gt;Persistant&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Activity&lt;/source&gt;&#13;
+		&lt;translation&gt;Activité&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Answers&lt;/source&gt;&#13;
+		&lt;translation&gt;Réponses&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;No&lt;/source&gt;&#13;
+		&lt;translation&gt;Non&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Yes&lt;/source&gt;&#13;
+		&lt;translation&gt;Oui&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Not started&lt;/source&gt;&#13;
+		&lt;translation&gt;Non commencé&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Open&lt;/source&gt;&#13;
+		&lt;translation&gt;Ouvert&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Closed&lt;/source&gt;&#13;
+		&lt;translation&gt;Fermé&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Filled Survey&lt;/source&gt;&#13;
+		&lt;translation&gt;Sondage rempli&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;The following information was collected as the result of the survey:&lt;/source&gt;&#13;
+		&lt;translation&gt;Résultats du sondage : &lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Related object configuration&lt;/source&gt;&#13;
+		&lt;translation&gt;Configuration des relations d'objets&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Set the parent node for the survey attributes, which are of the type Related Object&lt;/source&gt;&#13;
+		&lt;translation&gt;Définir où stocker les attributs du sondage (qui sont de type relation d'objet)&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Content class.&lt;/source&gt;&#13;
+		&lt;translation&gt;Classe de contenu.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Set the parent folder for the survey attributes.&lt;/source&gt;&#13;
+		&lt;translation&gt;Définir où stocker les attributs du sondage.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Browse&lt;/source&gt;&#13;
+		&lt;translation&gt;Parcourir&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Browse for the parent node for the related survey attributes.&lt;/source&gt;&#13;
+		&lt;translation&gt;Parcourir pour définir où stocker les attributs du sondage.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Update all&lt;/source&gt;&#13;
+		&lt;translation&gt;Mettre tout à jour&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Update the configuration.&lt;/source&gt;&#13;
+		&lt;translation&gt;Mettre à jour la configuration.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Are you sure you want to remove the survey '%1' with all evaluations?&lt;/source&gt;&#13;
+		&lt;translation&gt;Etes vous sûr(e) de vouloir supprimer le sondage '%1' et tous ses résultats ?&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey result overview&lt;/source&gt;&#13;
+		&lt;translation&gt;Aperçu du résultat du sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Summary&lt;/source&gt;&#13;
+		&lt;translation&gt;Résumé&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;has %count answers.&lt;/source&gt;&#13;
+		&lt;translation&gt;a %count réponses.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Edit survey results for: %result&lt;/source&gt;&#13;
+		&lt;translation&gt;Editer les résultats du sondage %result&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey result&lt;/source&gt;&#13;
+		&lt;translation&gt;Résultat du sondage&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Participant&lt;/source&gt;&#13;
+		&lt;translation&gt;Participant&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Evaluated&lt;/source&gt;&#13;
+		&lt;translation&gt;Evalué&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Survey results for %results&lt;/source&gt;&#13;
+		&lt;translation&gt;Résultats pour %results&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;All evaluations&lt;/source&gt;&#13;
+		&lt;translation&gt;Toutes les évaluations&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Evaluated:&lt;/source&gt;&#13;
+		&lt;translation&gt;Evalué :&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;The survey is not valid. Survey ID is missing&lt;/source&gt;&#13;
+		&lt;translation&gt;Le sondage n'est pas valide. L'ID est manquant&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;All values in Valid from need to be numeric.&lt;/source&gt;&#13;
+		&lt;translation&gt;Toutes les valeurs doivent être numeriques.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;It is only allowed with 1 checked item for the question with id %question when you have radiobuttons!&lt;/source&gt;&#13;
+		&lt;translation&gt;Vous ne pouvez cocher qu'une seule case pour la question %question.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;Email addresses in the question with id %number must have unique values!&lt;/source&gt;&#13;
+		&lt;translation&gt;Les adresses de courriel dans la question avec id %number doivent être uniques.&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+	&lt;message&gt;&#13;
+		&lt;source&gt;All&lt;/source&gt;&#13;
+		&lt;translation&gt;Tous&lt;/translation&gt;&#13;
+	&lt;/message&gt;&#13;
+&lt;/context&gt;&#13;
+&lt;/TS&gt;&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/french_translation_beginning_of/re_french_translation_beginning_of2</guid>
+      <pubDate>Fri, 23 Oct 2009 15:31:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: French translation (beginning of)</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/french_translation_beginning_of/re_french_translation_beginning_of</link>
+      <description>Thanks for the translation :)</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/french_translation_beginning_of/re_french_translation_beginning_of</guid>
+      <pubDate>Fri, 23 Oct 2009 12:07:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>result_edit.php bug</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/result_edit_php_bug</link>
+      <description>There is a bug when editing survey results through administration interface.&#13;
+&#13;
+In case when multiple answers are allowed per user, ezsurveyresult table can hold information such as:&#13;
+&#13;
+&lt;code&gt;&#13;
+id     survey_id     user_id     ....&#13;
+1     1                 10&#13;
+2     1                 10&#13;
+....&#13;
+&lt;/code&gt;&#13;
+&#13;
+processViewActions method in result_edit.php fetches a row from ezsurveyresult only by using survey_id and user_id as the key, while it should fetch it by using id also.&#13;
+&#13;
+Because of the missing attribute, wrong ezsurveyresult row is sometimes updated when saving edited results. So in case given above, when editing survey result with id 1 or 2 and after saving the results, extension will always update ezsurveyresult row with id = 1 (because it is the first row in ezsurveyresult table with survey_id = 1 and user_id = 10)&#13;
+&#13;
+To correct the bug, I added one extra parameter ($ID) to eZSurveyResult::instance method so now method looks like:&#13;
+&#13;
+&lt;code&gt;&#13;
+static function instance($surveyID, $userID = false, $ID = false )&#13;
+{&#13;
+    if ( $userID & $ID )
+    {
+        $surveyResult = eZPersistentObject::fetchObject( eZSurveyResult::definition(),
+                                                         null,
+                                                         array( 'id' => $ID,
+                                                                'survey_id' => $surveyID,
+                                                                'user_id' => $userID ) );&#13;
+        if ( $surveyResult )&#13;
+        {&#13;
+            return $surveyResult;&#13;
+        }&#13;
+        else&#13;
+        {&#13;
+            return new eZSurveyResult( array( 'survey_id' =&gt; $surveyID ) );&#13;
+        }&#13;
+    }&#13;
+        &#13;
+    if ($userID)&#13;
+    {&#13;
+        $surveyResult = eZPersistentObject::fetchObject( eZSurveyResult::definition(),&#13;
+                                                         null,&#13;
+                                                         array( 'survey_id' =&gt; $surveyID,&#13;
+                                                                'user_id' =&gt; $userID ) );&#13;
+        if ( $surveyResult )&#13;
+        {&#13;
+            return $surveyResult;&#13;
+        }&#13;
+    }&#13;
+&#13;
+    return new eZSurveyResult( array( 'survey_id' =&gt; $surveyID ) );&#13;
+}&#13;
+&lt;/code&gt;&#13;
+&#13;
+Also, I modified eZSurveyResult::instance call in result_edit.php to look like this:&#13;
+&#13;
+&lt;code&gt;&#13;
+    $result = eZSurveyResult::instance( $surveyResult-&gt;attribute( 'survey_id' ),&#13;
+                                        $surveyResult-&gt;attribute( 'user_id' ),&#13;
+                                        $surveyResult-&gt;attribute( 'id' ) );&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (Edi Modrić)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/result_edit_php_bug</guid>
+      <pubDate>Thu, 15 Oct 2009 11:56:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Bug on redirect</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_redirect/re_bug_on_redirect</link>
+      <description>I think that bug should have been fixed in the latest version of eZ Survey (revision 83).&#13;
+See the issue http://issues.ez.no/IssueView.php?Id=15566</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_redirect/re_bug_on_redirect</guid>
+      <pubDate>Fri, 02 Oct 2009 07:11:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bug on redirect</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_redirect</link>
+      <description>Hi there,&#13;
+&#13;
+Looks like there is one issue while using the redirect option on a site thats is using URI and not Host. &#13;
+&#13;
+It looks like it adds the siteaccess two times before redirecting. This is no problem if the site is set up to use host. </description>
+      <author>community@ez.no (Anders Berre)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/bug_on_redirect</guid>
+      <pubDate>Thu, 01 Oct 2009 08:41:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Errors are not displayed</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/errors_are_not_displayed</link>
+      <description>Hi,&#13;
+&#13;
+In a survey, when l try send a survey with an empty field that is mandatory for example, no error is displayed.&#13;
+&#13;
+I think this is this code, in extension\ezsurvey\design\standard\templates\content\datatype\view\ezsurvey.tpl : &#13;
+&lt;code&gt;&#13;
+{section show=$preview|not}&#13;
+{include uri="design:survey/view_validation.tpl"}&#13;
+{/section}&#13;
+&lt;/code&gt;&#13;
+&#13;
+In the debugger, I can see : &#13;
+&lt;i&gt;Error: eZTemplate @ extension/ezsurvey/design/standard/templates/content/datatype/view/ezsurvey.tpl:28[0]&#13;
+Unknown template variable 'preview' in namespace 'ContentAttribute'&lt;/i&gt;&#13;
+&#13;
+So the tpl is never included. &#13;
+&#13;
+The problem occur with eZ Publish 4.1.3, eZ Survey for ez 4, rev 78.&#13;
+&#13;
+Can you do something ?&#13;
+&#13;
+Thanks.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Nicolas Lescure)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/errors_are_not_displayed</guid>
+      <pubDate>Fri, 18 Sep 2009 12:40:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback about spam bots ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots2</link>
+      <description>Of course, i need anonymous contributions... like a classic contact form.&#13;
+&#13;
+Maybe, the simplest way is to change the default survey template, by displaying a first empty FORM before the real survey FORM (acting like the defaut /content/action POST -&gt; /content/edit/ POST). Double POST is a good way to prevent spam bots.&#13;
+&#13;
+Suggestion :&#13;
+--------------&#13;
+A confirmation page ('modify' button and 'confirm' button) could be a safe (anti spam because double POST) and an useful feature (printing).</description>
+      <author>community@ez.no (gilles guirand)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots2</guid>
+      <pubDate>Tue, 15 Sep 2009 07:21:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Feedback about spam bots ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots</link>
+      <description>One solution out of the box could be to force a user to log in before it's possible to send the form, since the survey itself are using the same permissions as an article, folder etc.</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots/re_feedback_about_spam_bots</guid>
+      <pubDate>Mon, 14 Sep 2009 22:42:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Feedback about spam bots ?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots</link>
+      <description>Hi,&#13;
+&#13;
+I plan to use ez survey, but i worry about spam bots.&#13;
+&#13;
+eZ Survey create content just after one single POST submit and i guess it could be dangerous (no confirmation, no CAPTCHA...)&#13;
+&#13;
+Of course, i could add a captcha datatype (custom data type), but maybe someone already use another clever solution ?&#13;
+&#13;
+Thx,</description>
+      <author>community@ez.no (gilles guirand)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/feedback_about_spam_bots</guid>
+      <pubDate>Mon, 14 Sep 2009 22:21:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update - setup wizard for eZ Survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey3</link>
+      <description>Did a test now with a clean eZ Publish 4.0.1 site and worked without any problems for me. Do you have any special setup? &#13;
+&#13;
+Hi, no the site was upgraded from very early eZ3.x but when checking files and database it comes up clean.&#13;
+&#13;
+I tested today on a clean ez 4.1.3 with eZWorkflow and the Survey installed fine.</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey3</guid>
+      <pubDate>Wed, 26 Aug 2009 05:42:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update - setup wizard for eZ Survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey2</link>
+      <description>Did a test now with a clean eZ Publish 4.0.1 site and worked without any problems for me. Do you have any special setup?</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey2</guid>
+      <pubDate>Tue, 18 Aug 2009 08:28:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Update - setup wizard for eZ Survey</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey</link>
+      <description>New installer failed for me on eZ publish 4.0.1.  I get stuck at "Select the parent folder for the survey attributes" when browsing I get the message "Choose objects that you want to relate to &lt;&gt;" and upon making a selection I get thrown right back to the "Select the parent folder for the survey attributes" If I try and skip using the Next button I get a warning "You need to select a parent for survey attribute."</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/update_setup_wizard_for_ez_survey/re_update_setup_wizard_for_ez_survey</guid>
+      <pubDate>Tue, 18 Aug 2009 02:23:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade ez from 4.1.0 to 4.1.1. ezSurvey ha...</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_has_no_permissions/re_upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_ha4</link>
+      <description>Hi,&#13;
+&#13;
+at the moment, only the svn trunk version will work properly with eZ Publish 4.1, where I've  added other fixes as well. &#13;
+&#13;
+Regards Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_has_no_permissions/re_upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_ha4</guid>
+      <pubDate>Wed, 22 Jul 2009 23:09:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Upgrade ez from 4.1.0 to 4.1.1. ezSurvey ha...</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_has_no_permissions/re_upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_ha3</link>
+      <description>Latest version of survey has all needed functions defined, but! it looks like it also requires adding &#13;
+ModuleList[]=survey&#13;
+in module.ini&#13;
+&#13;
+Regards,&#13;
+SP</description>
+      <author>community@ez.no (Sergiy Pushchin)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_has_no_permissions/re_upgrade_ez_from_4_1_0_to_4_1_1_ezsurvey_ha3</guid>
+      <pubDate>Wed, 22 Jul 2009 11:10:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Single/Multiple Choice always mandatory?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory2</link>
+      <description>Thanks, Bjorn.&#13;
+&#13;
+If people are curious, I updated the code on my installation to allow the user to make single/multiple choice questions mandatory.&#13;
+&#13;
+In extension/ezsurvey/design/standard/templates/survey/view/multiplechoice.tpl:&#13;
+I replaced &#13;
+&lt;code&gt;{switch match=$question.num}{case match=1}&lt;strong class="required"&gt;*&lt;/strong&gt;{/case}{case match=2}*{/case}{/switch}&lt;/code&gt;&#13;
+with&#13;
+&lt;code&gt;{section show=$question.mandatory}&lt;strong class="required"&gt;*&lt;/strong&gt;{/section}&lt;/code&gt;&#13;
+&#13;
+In extension/ezsurvey/design/standard/templates/survey/edit/multiplechoice.tpl:&#13;
+I added&#13;
+&lt;code&gt;&lt;div class="block"&gt;&#13;
+&lt;input type="hidden" name="{$prefix_attribute}_ezsurvey_question_{$question.id}_mandatory_hidden_{$attribute_id}" value="1" /&gt;&#13;
+&lt;label&gt;&lt;input type="checkbox" name="{$prefix_attribute}_ezsurvey_question_{$question.id}_mandatory_{$attribute_id}" value="1"{section show=$question.mandatory} checked="checked"{/section} /&gt;&#13;
+{"Mandatory answer"|i18n('survey')}&lt;/label&gt;&#13;
+&lt;/div&gt;&lt;/code&gt;&#13;
+at line 20.&#13;
+&#13;
+In extension/ezsurvey/modules/survey/classes/ezsurveymultiplechoice.php:&#13;
+I replaced&#13;
+&lt;code&gt; if ( !$http-&gt;hasPostVariable( $postSurveyAnswer ) and&#13;
+            $this-&gt;attribute( 'num' ) != 3 and         // 3 - checkboxes in a row&#13;
+            $this-&gt;attribute( 'num' ) != 4            // 4 - checkboxes in a column&#13;
+&lt;/code&gt;&#13;
+with&#13;
+&lt;code&gt; if ( !$http-&gt;hasPostVariable( $postSurveyAnswer ) and&#13;
+	$this-&gt;attribute('mandatory') )		// checking for mandatory status&#13;
+&lt;/code&gt;&#13;
+&#13;
+And because I was getting errors due to the $preview variable not existing when I viewed a survey, in extension/ezsurvey/design/standard/templates/content/datatype/view/ezsurvey.tpl:&#13;
+I replaced&#13;
+&lt;code&gt;{section show=$preview|not}&lt;/code&gt;&#13;
+with&#13;
+&lt;code&gt;{if is_set($preview)|not}&lt;/code&gt;&#13;
+&#13;
+I hope this is useful for someone else!</description>
+      <author>community@ez.no (Jordan Hirsch)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory2</guid>
+      <pubDate>Thu, 16 Jul 2009 16:03:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Single/Multiple Choice always mandatory?</title>
+      <link>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory</link>
+      <description>Hi,&#13;
+&#13;
+I think this is because of historic reasons for how single/multiple choice was working in the first version as well.&#13;
+&#13;
+The question is required if you add a choice with radio buttons. Then you need to select one of the choices.&#13;
+&#13;
+For the checkboxes you can either choose none, all of them or some, so in this case it will not be mandatory.&#13;
+&#13;
+For a select-list, you'll allways have a choice.&#13;
+&#13;
+The type of question is stored in the num attribute, which is why the asterix is controlled by this value.&#13;
+&#13;
+Cheers,&#13;
+Bjørn</description>
+      <author>community@ez.no (Bjørn Reiten)</author>
+      <guid>http://projects.ez.no/ezsurvey_ezp4/forum/general/single_multiple_choice_always_mandatory/re_single_multiple_choice_always_mandatory</guid>
+      <pubDate>Wed, 15 Jul 2009 13:43:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

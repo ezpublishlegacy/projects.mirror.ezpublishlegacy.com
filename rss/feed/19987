@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_cmis_server</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 12:26:37 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 12:26:36 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/19987" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nxc_cmis_server rev. 10 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/10</link>
+      <description>- Added extension.xml file</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/10</guid>
+      <pubDate>Thu, 10 Nov 2011 15:30:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 9 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/9</link>
+      <description>- Fixed base64_decoding with text/plain format</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/9</guid>
+      <pubDate>Wed, 09 Nov 2011 14:46:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 8 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/8</link>
+      <description>- Removed default key on repository.ini</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/8</guid>
+      <pubDate>Tue, 08 Nov 2011 21:30:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 7 by Philippe Vincent-Royol</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/7</link>
+      <description>- Upgraded code to run with eZ 4.5</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/7</guid>
+      <pubDate>Tue, 08 Nov 2011 21:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 6 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/6</link>
+      <description>- Implemented CMIS 1.0
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/6</guid>
+      <pubDate>Tue, 26 Jan 2010 15:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 5 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/5</link>
+      <description>- Fixed company name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/5</guid>
+      <pubDate>Mon, 09 Nov 2009 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 4 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/4</link>
+      <description>- Changed version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/4</guid>
+      <pubDate>Mon, 19 Oct 2009 06:10:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 3 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/3</link>
+      <description>- Fixed bug with </description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/3</guid>
+      <pubDate>Fri, 16 Oct 2009 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 2 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/2</link>
+      <description>- Fixed wrong ext name
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/2</guid>
+      <pubDate>Thu, 08 Oct 2009 10:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmisserver-0.1.tar.gz</title>
+      <link>http://projects.ez.no/nxc_cmis_server/downloads/nxc_cmisserver_0_1_tar_gz</link>
+      <description></description>
+      <author>community@ez.no (Valentin Doroschuk)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/downloads/nxc_cmisserver_0_1_tar_gz</guid>
+      <pubDate>Thu, 08 Oct 2009 10:40:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>nxc_cmis_server rev. 1 by Valentin Doroschuk</title>
+      <link>http://projects.ez.no/nxc_cmis_server/subversion/1</link>
+      <description>- Added first version
+</description>
+      <author>community@ez.no (Administrator User)</author>
+      <guid>http://projects.ez.no/nxc_cmis_server/subversion/1</guid>
+      <pubDate>Thu, 08 Oct 2009 10:00:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / xmlwash / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Sun, 05 Feb 2017 14:09:55 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:09:55 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/277" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: eZ4.2 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability3</link>
+      <description>I was having this issue too, took me a while to spot the problem but it was a simple one.&#13;
+&#13;
+on the very first line of extension/xmlwash/classes/xmlwash.php&#13;
+&#13;
+change &lt;? to &lt;?php&#13;
+&#13;
+this I assume this is only a problem if you don't have "short open tag" turned on</description>
+      <author>community@ez.no (Nathan Kelly)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability3</guid>
+      <pubDate>Wed, 14 Sep 2011 23:05:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ4.2 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability2</link>
+      <description>It looks like i depends on TemplateCompile Settings.&#13;
+Can you try to disable the TemplateCompile Setting? &#13;
+If it disabled the output is not displayed, if enabled it was displayed?&#13;
+Can you check this on your environment?&#13;
+&#13;
+&lt;code&gt;&#13;
+[TemplateSettings]&#13;
+#Debug=enabled&#13;
+ShowXHTMLCode=enabled&#13;
+ShowUsedTemplates=enabled&#13;
+DevelopmentMode=enabled&#13;
+TemplateCompile=disabled&#13;
+TemplateCache=disabled&#13;
+#TemplateCache=enabled&#13;
+&lt;/code&gt;&#13;
+&#13;
+ez420 and php 5.3.1</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability2</guid>
+      <pubDate>Tue, 04 May 2010 07:05:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ4.2 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability</link>
+      <description>we have the same problem.&#13;
+&#13;
+But we can not reproduce the environment/ez settings.&#13;
+&#13;
+On some developer machines we have the problem and on some not.&#13;
+It looks like it depends on php 5.3.&#13;
+&#13;
+What setting do you have?  &#13;
+PHP version:&#13;
+template cache:&#13;
+view cache:&#13;
+template compile:&#13;
+&#13;
+Hopefully we find together a solution.&#13;
+Felix</description>
+      <author>community@ez.no (Felix Woldt)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability/re_ez4_2_compatability</guid>
+      <pubDate>Mon, 03 May 2010 06:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ4.2 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability</link>
+      <description>I'm currently using version eZ4.2 and this extension does not work for this version.&#13;
+&#13;
+there is there a version for 4.2?&#13;
+The latest version in subversion gives me a bug in the back office and front Office&#13;
+&#13;
+&lt;code&gt;&#13;
+array( 'xmlattribute' =&gt; array( 'type' =&gt; 'attribute', 'required' =&gt; false, 'default' =&gt; "" ) ), 'strip_tags' =&gt; array ('tagskept'=&gt; array ('type' =&gt; 'array', 'required' =&gt; false, 'default' =&gt; array('&#13;
+&#13;
+') ) ), 'teaser' =&gt; array( 'length' =&gt; array( 'type' =&gt; 'integer', 'required' =&gt; false, 'default' =&gt; 100 ), 'fuzzyness' =&gt; array( 'type' =&gt; 'integer', 'required' =&gt; false, 'default' =&gt; 5 ) ) ); } /*! Executes the PHP function for the operator cleanup and modifies \a $operatorValue. */ function modify( &$tpl, &$operatorName, &$operatorParameters, &$rootNamespace, &$currentNamespace, &$operatorValue, &$namedParameters ) { $temp=$operatorValue; switch ($operatorName) { case 'xmlwash': $parser = new SafeHTML(); // eZDebug::writeNotice($temp); // $operatorValue = $parser-&gt;parse($temp); // $operatorValue = $temp; break; case 'strip_tags': $temp=str_replace("&#13;
+","",$temp); $temp=preg_replace("//","&#13;
+",$temp); $tags=implode('',$namedParameters['tagskept']); //$operatorValue = strip_tags($temp,$tags); break; case 'teaser': $teaser = new HtmlTeaser($temp); $iniSQ = eZINI::instance("ezxml.ini"); if ( $iniSQ-&gt;hasVariable( 'Teaser', 'Fuzzyness' ) ) { $teaser-&gt;setFuzzyness( $iniSQ-&gt;variable( 'Teaser', 'Fuzzyness' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'Length' ) ) { $teaser-&gt;setTeaserLength( $iniSQ-&gt;variable( 'Teaser', 'Length' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'AddTextBeforeTagArray' ) ) { $teaser-&gt;setAddTextBeforeTagArr( $iniSQ-&gt;variable( 'Teaser', 'AddTextBeforeTagArray' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'KeepTagsArray' ) ) { $teaser-&gt;setKeepTagsArr( $iniSQ-&gt;variable( 'Teaser', 'KeepTagsArray' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'AddText' ) ) { $teaser-&gt;setAddText( $iniSQ-&gt;variable( 'Teaser', 'AddText' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'KeepAttributesArray' ) ) { $teaser-&gt;setKeepAttribsArr( $iniSQ-&gt;variableArray( 'Teaser', 'KeepAttributesArray' ) ); } if ( $iniSQ-&gt;hasVariable( 'Teaser', 'Tags2SpaceArray' ) ) { $teaser-&gt;setTags2SpaceArr( $iniSQ-&gt;variable( 'Teaser', 'Tags2SpaceArray' ) ); } $teaser-&gt;setTeaserLength($namedParameters['length']); $teaser-&gt;setFuzzyness($namedParameters['fuzzyness']); $operatorValue = $teaser-&gt;getTeaser(); break; } } } ?&gt;&#13;
+&lt;/code&gt;&#13;
+&#13;
+This code appear  when i active this extension&#13;
+&#13;
+&#13;
+Help please</description>
+      <author>community@ez.no (val Mbuyi)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_2_compatability</guid>
+      <pubDate>Thu, 08 Apr 2010 07:51:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem of utilisation</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation4</link>
+      <description>Thanks to the author for this extension, it is very useful!&#13;
+&#13;
+To those with errors, the problem might be that your ezxmltext.tpl is not getting overridden. This is what a standard-ish ezxmltext.tlp looks like:&#13;
+&lt;code&gt;&#13;
+{$attribute.content.output.output_text|striptags}&#13;
+&lt;/code&gt;&#13;
+&#13;
+You need your ezxmltext.tpl to look something more like the template provided by xmlwash:&#13;
+&#13;
+&lt;code&gt;&#13;
+{if is_set($maxlength)}&#13;
+{$attribute.content.output.output_text|xmlwash( $maxlength )}&#13;
+{else}&#13;
+{$attribute.content.output.output_text|xmlwash( 0 )}&#13;
+{/if}&#13;
+&lt;/code&gt;&#13;
+&#13;
+As you can see, this code passes the $maxlength variable to xmlwash and it should return the text correctly. This was actually a fix for a slightly different issue, but may provide a good start for anyone having problems.&#13;
+&#13;
+Disclaimer: This solution is only for those who have xmlwash "working", but the maxlength operator is failing. It might work, or it might not *fingers crossed*&#13;
+&#13;
+Thanks again to everyone who has contributed to this handy little extension!</description>
+      <author>community@ez.no (Julian Apatu)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation4</guid>
+      <pubDate>Mon, 01 Feb 2010 00:05:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debugger sends lots of warnings from xmlwash</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/debugger_sends_lots_of_warnings_from_xmlwash</link>
+      <description>We use strict php and get theese: &#13;
+&#13;
+Assigning the return value of new by reference is deprecated in C:\xampp\htdocs\eZ\my_site\extension\xmlwash\classes\xmlwash.php on line xxx&#13;
+&#13;
+Is there a new version coming up, or what happens when these depricated calls dont work any more? &#13;
+&#13;
+Best regards&#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (maja anjer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/debugger_sends_lots_of_warnings_from_xmlwash</guid>
+      <pubDate>Fri, 03 Apr 2009 12:12:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cleaning eZXMLText attributes via an enhanced output handler</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/cleaning_ezxmltext_attributes_via_an_enhanced_output_handler</link>
+      <description>A few days ago I whipped up an extension yesterday that uses the "Alias" feature to replace the default XHTMLOutputHandler for ezxmltext. Unfortunately, I don't see a way to get the "view" parameter from ezxmltext.tpl to the ezxmtags/*.tpl, so I can't add an override key for it.&#13;
+&#13;
+However, if you use&lt;code&gt;{$node.data_map.MY_ATTRIBUTE.content.output.output_text}&lt;/code&gt;directly in your node view templates, you can simulate the "view" parameter by calling&lt;code&gt;{$node.data_map.MY_ATTRIBUTE.content.output.output_text_VIEW}&lt;/code&gt;instead.&#13;
+&#13;
+As far as I can see, there are no sideeffects and you can define as many "views" as you like (via ezxml.ini). The new override key for ezxmltags is called "attribute_view_mode". &#13;
+&#13;
+Anyone interested?</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/cleaning_ezxmltext_attributes_via_an_enhanced_output_handler</guid>
+      <pubDate>Wed, 17 Dec 2008 11:29:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: eZ4 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_compatability/re_ez4_compatability</link>
+      <description>xmlwash should 4.x compatible now. The 3.x version is still available in the subdirectory 3.x/xmlwash</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_compatability/re_ez4_compatability</guid>
+      <pubDate>Sun, 16 Nov 2008 10:53:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ4 compatability</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/ez4_compatability</link>
+      <description>Hi Xavier&#13;
+&#13;
+Just wondering if you intend to upgrade this extension to support eZ4 and if so when.&#13;
+&#13;
+Cheers</description>
+      <author>community@ez.no (Brendan Pike)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/ez4_compatability</guid>
+      <pubDate>Wed, 02 Jul 2008 03:34:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem of utilisation</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation2</link>
+      <description>I have the same problem. But this could be im trying to add it to a eZ Flow block.&#13;
+&#13;
+ {attribute_view_gui attribute=$valid_nodes[0].data_map.intro maxlength=42}&#13;
+&#13;
+Just blanks the block completly.</description>
+      <author>community@ez.no (Pål Messenlien)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation2</guid>
+      <pubDate>Tue, 26 Feb 2008 00:10:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in operatorList</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist/re_error_in_operatorlist2</link>
+      <description>Hi Xavier&#13;
+&#13;
+You should have a mail in your inbox now.&#13;
+&#13;
+/vathanan</description>
+      <author>community@ez.no (Vathanan Kumarathurai)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist/re_error_in_operatorlist2</guid>
+      <pubDate>Wed, 18 Jul 2007 15:58:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Error in operatorList</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist/re_error_in_operatorlist</link>
+      <description>Hi,&#13;
+&#13;
+Thanks for the fix.&#13;
+&#13;
+Could you contact me by mail ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist/re_error_in_operatorlist</guid>
+      <pubDate>Wed, 18 Jul 2007 15:44:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error in operatorList</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist</link>
+      <description>In classes/xmlwash.php, in function operatorList()&#13;
+&#13;
+The following line:&#13;
+&lt;code&gt;&#13;
+        return array( 'xmlwash' , 'strip_tags', 'xmlwash' );&#13;
+&lt;/code&gt;&#13;
+&#13;
+should be changed to:&#13;
+&lt;code&gt;&#13;
+        return array( 'xmlwash' , 'strip_tags', 'teaser' );&#13;
+&lt;/code&gt;&#13;
+&#13;
+/vathanan</description>
+      <author>community@ez.no (Vathanan Kumarathurai)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/error_in_operatorlist</guid>
+      <pubDate>Wed, 18 Jul 2007 15:34:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem with embed flash</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_with_embed_flash/re_problem_with_embed_flash</link>
+      <description>Salut,&#13;
+&#13;
+Well, &lt;object&gt; is indeed one of the banned tags.&#13;
+&#13;
+I suppose there is a way of doing naughty things with that, and that you're never too safe and ...&#13;
+&#13;
+that the safest filter is $content="" on a computer not connected to the internet nor a network.&#13;
+&#13;
+We have to come up with some tuning on what's allowed. What's the best way of doing it ? Defining options in a ini about what tags are allowed or not ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_with_embed_flash/re_problem_with_embed_flash</guid>
+      <pubDate>Wed, 11 Jul 2007 19:12:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem with embed flash</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_with_embed_flash</link>
+      <description>Hello,&#13;
+&#13;
+When I insert a flash object into XML block the balise &#13;
+&lt;code&gt;&#13;
+&lt;object&gt;&#13;
+...&#13;
+&lt;/object&gt;&#13;
+&lt;/code&gt;&#13;
+disappears.&#13;
+&#13;
+When I disactive the xmlwash extension, it's working fine.&#13;
+&#13;
+It's a bug ?</description>
+      <author>community@ez.no (Stéphane Bullier)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_with_embed_flash</guid>
+      <pubDate>Wed, 11 Jul 2007 17:49:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion7</link>
+      <description>Well, one of the common non obstructive javascript tricks is to have semantically complex classes name, eg:&#13;
+&#13;
+&lt;img class="optimal_ratio-28 duration-12s "... &gt; (not sure what you want to do, but you get the idea ;)&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion7</guid>
+      <pubDate>Fri, 22 Jun 2007 16:50:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion6</link>
+      <description>Yes, but that's not possible in this case - I'm calling a function with parameters that are specific to each image and cannot be reconstructed from tag attributes.</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion6</guid>
+      <pubDate>Sun, 10 Jun 2007 10:25:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion5</link>
+      <description>Hi,&#13;
+&#13;
+Ok, I don' have this problem as I'm a big fan of not messing the content with js code.&#13;
+&#13;
+What I'd do in a case like you is to simply put a class "funkydowatever" (name optional ;) on the image &#13;
+&#13;
+Then, with jquery, add the behaviour on the class $jQuery(".funcydowatever").click(function() { alert("I do a funky alert"); } ); (function optional)&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion5</guid>
+      <pubDate>Sun, 10 Jun 2007 08:29:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: To Do</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/to_do/re_to_do2</link>
+      <description>Nothing new, didn't have the time to delve into it.</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/to_do/re_to_do2</guid>
+      <pubDate>Thu, 07 Jun 2007 19:29:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion4</link>
+      <description>Oh, sure, it's not in the user input in the XML field, rather it is generated by my image embedding templates.</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion4</guid>
+      <pubDate>Thu, 07 Jun 2007 19:28:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem of utilisation</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation3</link>
+      <description>Salut,&#13;
+&#13;
+I use ez publish 3.9.2.&#13;
+&#13;
+When I write : &#13;
+&lt;code&gt;&#13;
+{attribute_view_gui attribute=$node.object.data_map.chapeau maxlength=42}&#13;
+&lt;/code&gt;&#13;
+nothing appear. There is no warning or error message in debug.&#13;
+&#13;
+But when I write :&#13;
+&lt;code&gt;&#13;
+{$node.data_map.chapeau.content.output.output_text|strip_tags(array('&lt;p&gt;','&lt;i&gt;','&lt;a&gt;'))|shorten(1000)|xmlwash()}&#13;
+&lt;/code&gt;&#13;
+it's working correctly.&#13;
+&#13;
+Thank for your help.&#13;
+</description>
+      <author>community@ez.no (Stéphane Bullier)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation3</guid>
+      <pubDate>Thu, 07 Jun 2007 08:27:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion3</link>
+      <description>Repeat after me: do not put custom javascript in a xml field ;)&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion3</guid>
+      <pubDate>Tue, 05 Jun 2007 15:02:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Anchors</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/anchors/re_anchors</link>
+      <description>And that's regular anchors ? #toto ?&#13;
+&#13;
+Not that I'm aware of any risks related to anchor not any willingness to delete them...&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/anchors/re_anchors</guid>
+      <pubDate>Tue, 05 Jun 2007 14:33:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: To Do</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/to_do/re_to_do</link>
+      <description>Hi,&#13;
+&#13;
+Just saw your post. For some reasons, didn't get the notification.&#13;
+&#13;
+Were are you on that ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/to_do/re_to_do</guid>
+      <pubDate>Tue, 05 Jun 2007 14:31:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Problem of utilisation</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation</link>
+      <description>Salut,&#13;
+&#13;
+Put debug on, clear the caches, reload the page. Do you have any warning/error message ?&#13;
+&#13;
+What's the ez publish version you use ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation/re_problem_of_utilisation</guid>
+      <pubDate>Tue, 05 Jun 2007 14:29:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problem of utilisation</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation</link>
+      <description>Hello,&#13;
+&#13;
+Thank for your extension. I read your readme.txt and when I insert your code&#13;
+&lt;code&gt;&#13;
+{attribute_view attribute=$node.object.data_map.intro maxlength=42}&#13;
+&lt;/code&gt;&#13;
+&#13;
+ in my line view template nothing appeer.&#13;
+&#13;
+When I use the normal code I can see the intro : &#13;
+&lt;code&gt;&#13;
+{attribute_view_gui attribute=$node.data_map.chapeau}&#13;
+&lt;/code&gt;&#13;
+&#13;
+I follow your instruction to install xmlwash extension.&#13;
+&#13;
+Your have some idea.&#13;
+&#13;
+</description>
+      <author>community@ez.no (Stéphane Bullier)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/problem_of_utilisation</guid>
+      <pubDate>Tue, 05 Jun 2007 13:33:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: 3.5 compatibility</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/3_5_compatibility/re_3_5_compatibility</link>
+      <description>Hi,&#13;
+&#13;
+To be honest, the compatibility with the 3.5 wasn't my top goal ;)&#13;
+&#13;
+Point noted, thanks for the testing and report.&#13;
+&#13;
+Xavier</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/3_5_compatibility/re_3_5_compatibility</guid>
+      <pubDate>Tue, 15 May 2007 12:54:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>3.5 compatibility</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/3_5_compatibility</link>
+      <description>You might want to make a note somewhere in the docs that all one needs to do in order to make the extension 3.5 compatible, is to replace the if with a section in xmlwash/design/standard/templates/content/datatype/view/ezxmltext.tpl</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/3_5_compatibility</guid>
+      <pubDate>Tue, 15 May 2007 12:44:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>To Do</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/to_do</link>
+      <description>Has anyone had a look at my recent additions (the "teaser" template operator)? Since I didn't get any complaints about a config option not working (because of bug http://issues.ez.no/IssueView.php?Id=10507 ), it looks like none did.&#13;
+&#13;
+I recently fixed the cases where partial tags where included. What I have not been able to correct yet (or even specify a stable algorithm for) is the problem described in http://projects.ez.no/xmlwash/forum/general/subversion . Any suggestions?&#13;
+&#13;
+On my immediate to-do list: &#13;
+&#13;
+- fix "..." immediately after &lt;/p&gt;&#13;
+- input parameters for "teaser" operator (allowing the user to override the ini-settings)</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/to_do</guid>
+      <pubDate>Wed, 25 Apr 2007 13:08:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anchors</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/anchors</link>
+      <description>It looks as though, the xmlwash() is clearing my anchor tags (entered via OE). Is this a known issue or some security feature? Is there a workaround for this?&#13;
+&#13;
+Thanks,&#13;
+Andy</description>
+      <author>community@ez.no (Andrew Mullins)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/anchors</guid>
+      <pubDate>Tue, 10 Apr 2007 19:03:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion2</link>
+      <description>Hi,&#13;
+&#13;
+I didn't receive any emails from either of you. But it did work with the SVN Repository Exploring perspective (not sure why "import from SVN checkout" did not work). I've checked in a first version of the 'teaser' operator that can be configured via the ezxml.ini.append.php file. Currently there is no documentation to speak of. &#13;
+&#13;
+Future additions would be:&#13;
+&#13;
+* Complete configurability via parameters (currently only maxlength and fuzzyness can be set as template operator parameters, everything else can only be changed in the .ini). &#13;
+&#13;
+* Handle the case where a block level tag ends just before the "..." would be inserted. Currently, block level tags are handled if the text is cut before the closing element, but not if it is inserted just outside (which will break most layouts):&#13;
+&lt;code&gt;&#13;
+&lt;p&gt;eZ is a very nice company.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The even share their repositories.&lt;/p&gt;&#13;
+&lt;/code&gt;&#13;
+If the teaser operator cuts bevore the first &lt;/p&gt;, we would get:&#13;
+&lt;code&gt;&#13;
+&lt;p&gt;eZ is a very nice company...&lt;/p&gt;&#13;
+&lt;/code&gt;&#13;
+However, if the cut happens at the whitespace between the &lt;p&gt; elements, we get:&#13;
+&lt;code&gt;&#13;
+&lt;p&gt;eZ is a very nice company.&lt;/p&gt;&#13;
+...&#13;
+&lt;/code&gt;&#13;
+However, I don't have the time to delve that deeply into the parsing algorithm at the moment. Oh, and a warning should be added that the ezxmltext.tpl is overridden by the extension. Took me some time to find out why my custom javascript was mysteriously "cleaned" in some templates ;-)</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion2</guid>
+      <pubDate>Mon, 02 Apr 2007 13:43:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion</link>
+      <description>Hi, did you receive our emails about it ?&#13;
+&#13;
+Let's share again:&#13;
+&#13;
+Each svn projects are separate svn repositories. I'm not familiar with eclipse, but you can download all the xmlwash project as a single project (from the normal svn client).&#13;
+&#13;
+and kristof added:&#13;
+&#13;
+I haven't used Eclipse and Subclipse that much so I'm definitely not an expert. It would be an annoying limitation if Subclipse doesn't allow you to checkout the root of the repository. Maybe Xavier can restructure the repository (with branches: trunk, releases, ...) to workaround this limitation.&#13;
+&#13;
+Cheers&#13;
+&#13;
+Kristof&#13;
+&#13;
+(consulted resources: http://svn.collab.net/subclipse/help/index.jsp?topic=/org.tigris.subversion.subclipse.doc/html/gettingstarted/checkout.html )&#13;
+&#13;
+&#13;
+&#13;
+Does it help ? Do you want me to move it to trunk ?&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion/re_subversion</guid>
+      <pubDate>Mon, 02 Apr 2007 12:51:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Subversion</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/subversion</link>
+      <description>Hi,&#13;
+&#13;
+how can I check out XMLwash from within Eclipse? I've installed the SVN plugin, but when I select http://projects.ez.no:81/svn/projects as the repository URL, I get a permissions error. The URL http://projects.ez.no:81/svn/projects/xmlwash allows me to select the individual folders in the project, but downloads them as seperate projects.</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/subversion</guid>
+      <pubDate>Fri, 30 Mar 2007 08:05:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions for shorten</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten4</link>
+      <description>Hi,&#13;
+&#13;
+I've applied for membership.&#13;
+&#13;
+Greetings,&#13;
+Peter</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten4</guid>
+      <pubDate>Wed, 28 Mar 2007 14:22:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions for shorten</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten3</link>
+      <description>Hi Peter,&#13;
+&#13;
+That's fantastic news !&#13;
+&#13;
+Could you request to join the team on this project so I can grant you write access on the svn ? That's going to be easier to work that way.&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten3</guid>
+      <pubDate>Mon, 26 Mar 2007 22:23:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions for shorten</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten2</link>
+      <description>I will try to integrate teaser.php into the main code of xmlwash - either tonight or in the next few days. I was waiting for such an operator anyway.&#13;
+&#13;
+Greetings,&#13;
+Peter</description>
+      <author>community@ez.no (Peter Putzer)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten2</guid>
+      <pubDate>Mon, 26 Mar 2007 14:39:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Suggestions for shorten</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten</link>
+      <description>Hi Claudia,&#13;
+&#13;
+Saw your post right now only. I'll check with K if ez still hasn't installed the mail function or if I'm just dumb and didn't see how to get notifications.&#13;
+&#13;
+As for the suggestions, I'd like to add one: &#13;
+- define the length in line unit (that's what the clients ask). I don't have the slightest idea to do that (to make it funnier, I'm into liquid templates).&#13;
+&#13;
+As for you suggestions, some have been taken (I deal with tags as you expect). I like some others (eg don't take into account the tags in the length. This one is trickier... do you want a svn write access ? ;)&#13;
+&#13;
+&#13;
+X+</description>
+      <author>community@ez.no (Xavier Dutoit)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten/re_suggestions_for_shorten</guid>
+      <pubDate>Sat, 10 Mar 2007 10:27:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suggestions for shorten</title>
+      <link>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten</link>
+      <description>Hi Xavier&#13;
+&#13;
+here what I would expect of a xmlshorten operator:&#13;
+- don't count any tags in the length of the string&#13;
+- generally strip html tags but allow a list of tags to keep&#13;
+- option to remove/autoclose unclosed tags&#13;
+- allow option for 'fuzzy' shortening - meaning shortening on the next/previous space so words are not cut off. Maybe some integer parameter which is set to 0 for precise shortening and any larger number indicates the range of fuzziness?&#13;
+&#13;
+That's it - for now at least ;-)&#13;
+&#13;
+Claudia</description>
+      <author>community@ez.no (Claudia Kosny)</author>
+      <guid>http://projects.ez.no/xmlwash/forum/general/suggestions_for_shorten</guid>
+      <pubDate>Thu, 08 Mar 2007 20:44:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
