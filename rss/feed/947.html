@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezrating / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Wed, 08 Feb 2017 01:11:50 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 01:11:49 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/947" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mirror of entire ezrating extension repository on GitHub!</title>
+      <link>http://projects.ez.no/ezrating/forum/general/mirror_of_entire_ezrating_extension_repository_on_github</link>
+      <description>Hello eZ Community using ezrating extension!&#13;
+&#13;
+Brookins Consulting is happy to announce we have created a full and complete import of the entire project's svn repository into a git based repository on GitHub.&#13;
+&#13;
+https://github.com/brookinsconsulting/ezrating&#13;
+&#13;
+We will strive to keep this friendly fork / mirror up to date with any changes that come in the future from the forums and other forks in an effort to remain compatible with the latest versions of eZ Publish.&#13;
+&#13;
+Anyone is free to use (clone) this repository, just watch it for changes, or fork this new repository and use it as needed freely. This is a friendly mirror of the extension.&#13;
+&#13;
+Currently the latest version provided by the mirror is r8 | Cyberwolf | 2008-10-15 07:03:15 -0500 (Wed, 15 Oct 2008).&#13;
+&#13;
+Cheers,&#13;
+Brookins Consulting&#13;
+&#13;
+http://github.com/brookinsconsulting</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezrating/forum/general/mirror_of_entire_ezrating_extension_repository_on_github</guid>
+      <pubDate>Sun, 25 Mar 2012 01:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Patch for PostgreSQL</title>
+      <link>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql/re_patch_for_postgresql2</link>
+      <description>The part&#13;
+&lt;code&gt;&#13;
+... AND o.published &gt;= ALL (SELECT o1.published FROM...&#13;
+&lt;/code&gt;&#13;
+ensures that only the last published review/rating object of an individual user is taken into account. So users can write a new review/rating, for example when there is a new release of the software, and only their last rating will be used.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql/re_patch_for_postgresql2</guid>
+      <pubDate>Tue, 23 Sep 2008 12:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Patch for PostgreSQL</title>
+      <link>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql/re_patch_for_postgresql</link>
+      <description>Oopsies, I didn't see your last commits, so sorry for the annoyance.&#13;
+&#13;
+Actually, my project is nearly at end but the client wants some AJAX for the rating so I may post another useless patch some time :)</description>
+      <author>community@ez.no (chl )</author>
+      <guid>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql/re_patch_for_postgresql</guid>
+      <pubDate>Tue, 09 Sep 2008 09:49:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patch for PostgreSQL</title>
+      <link>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql</link>
+      <description>Hello,&#13;
+Thanks for this extension, it helped me quite a lot on my site.&#13;
+Just one little catch, the 'AS' separator is still mandatory in a PostgreSQL Select statement, hence this little patch.&#13;
+&#13;
+Also, if you have a few moments, could you explain me the&#13;
+... AND o.published &gt;= ALL (SELECT o1.published FROM...&#13;
+in the same SQL query ?&#13;
+For what I understand, it should always return the votes published after the latest revision of the object ? Because on PostgreSQL (again :), it returns only the last rate (but I may have been wrong somewhere)&#13;
+My current site really was simple enough to just take all rates on an article but I'd like to understand in case I come accross something more elaborate :)&#13;
+&#13;
+Thanks anyway !&#13;
+&#13;
+&lt;code&gt;&#13;
+--- ezratingoperator.php	2007-06-21 16:56:14.683367000 +0200&#13;
++++ ezratingoperator.php	2008-08-20 12:18:35.000000000 +0200&#13;
+@@ -43,7 +43,7 @@&#13;
+                 include_once( 'lib/ezdb/classes/ezdb.php' );&#13;
+                 $db =& eZDB::instance();&#13;
+ &#13;
+-                $sql = "SELECT COUNT(a.data_int) reviewer_count, AVG(a.data_int) average_rating, MIN(a.data_int) min_rating, MAX(a.data_int) max_rating&#13;
++                $sql = "SELECT COUNT(a.data_int) AS reviewer_count, AVG(a.data_int) AS average_rating, MIN(a.data_int) AS min_rating, MAX(a.data_int) AS max_rating&#13;
+                         FROM ezcontentobject_attribute a, ezcontentclass_attribute ca, ezcontentobject o, ezcontentobject_tree n&#13;
+                         WHERE n.contentobject_id=o.id&#13;
+                           AND n.parent_node_id=$nodeID&#13;
+&lt;/code&gt;</description>
+      <author>community@ez.no (chl )</author>
+      <guid>http://projects.ez.no/ezrating/forum/general/patch_for_postgresql</guid>
+      <pubDate>Mon, 08 Sep 2008 11:42:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

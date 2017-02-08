@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / ezjscore / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Wed, 08 Feb 2017 04:41:54 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 04:41:54 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/18179" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Re: ezcss_load breaks on empty cells</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells/re_ezcss_load_breaks_on_empty_cells2</link>
+      <description>Oups, did not track replies (one year !!)&#13;
+Thanks for the tip about the "empty" function, and for the fix.&#13;
+Best,</description>
+      <author>community@ez.no (Romain Petit)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells/re_ezcss_load_breaks_on_empty_cells2</guid>
+      <pubDate>Thu, 26 Jul 2012 15:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Breaking eZ Publish role policy</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/breaking_ez_publish_role_policy</link>
+      <description>I'am using ezjscore for a while now and i've just found recently that this extension doesn't follow eZ Publish policy about right.&#13;
+&#13;
+- eZ Publish rights work as a white list. Unless you're in the admin group, you're not allowed to do anything.&#13;
+&#13;
+- eZJSCore doesn't follow that behaviour. Unless you specify it in an ini file, it never checks whether or not you are allowed to call an ezjscServerRouter.&#13;
+&#13;
+This means that every one can fetch some information about your content. You only have to call the following url&#13;
+&#13;
+http://projects.ez.no/ezjscore/call/ezjscnode::subtree::2&#13;
+&#13;
+Don't you think ezjscore should follow the same behaviour as eZ Publish ?</description>
+      <author>community@ez.no (Jérémy Poulain)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/breaking_ez_publish_role_policy</guid>
+      <pubDate>Fri, 19 Aug 2011 11:34:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does ezjscore minify css from @import url(...)</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/does_ezjscore_minify_css_from_import_url</link>
+      <description>Hello&#13;
+&#13;
+I have a css that contains only lines like this:&#13;
+@import url("Common.css");&#13;
+@import url("layout/ContentPane.css");&#13;
+@import url("layout/TabContainer.css");&#13;
+@import url("layout/AccordionContainer.css");&#13;
+@import url("layout/SplitContainer.css");&#13;
+&#13;
+Does ezjscore can recursively fetch all content from the css in those @import and put everything in one single big css file ?&#13;
+&#13;
+&#13;
+It seems to not working in my case (ezp 2011.4)</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/does_ezjscore_minify_css_from_import_url</guid>
+      <pubDate>Fri, 15 Jul 2011 15:10:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: FrontendCSSFileList triggered on every site...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site4</link>
+      <description>Not in eZ Publish 4.x, but for 5.x we can re think the whole thing of course.&#13;
+If you want to place it outside of the cache block on your project you can do that, but it will probably come at an performance hit, how large depends on the logic you have in those scripts.&#13;
+&#13;
+First thing on my list for 5.x would for instance be to separate between web site wide scripts/css and pr page scripts/css so that client does not need to re download whole file if there are page variations.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site4</guid>
+      <pubDate>Thu, 14 Jul 2011 09:13:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezcss_load breaks on empty cells</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells/re_ezcss_load_breaks_on_empty_cells</link>
+      <description>Thanks!&#13;
+&#13;
+Changed it to "!empty( $array )", much faster then count() ;)&#13;
+&#13;
+And as it is a language construct, it is just as fast as isset(), so bad habit of mine to use isset() to see if array is empty..&#13;
+commit: https://github.com/ezsystems/ezjscore/commit/bf826f183b3ba4db537a148492af9af271de45f7</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells/re_ezcss_load_breaks_on_empty_cells</guid>
+      <pubDate>Thu, 14 Jul 2011 09:10:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezcss_load breaks on empty cells</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells</link>
+      <description>Hi,&#13;
+&#13;
+For information:&#13;
+If the parameter 'css_files' of the operator contains an empty cell, the next files will not be loaded.&#13;
+It happens in the 'flattenArray' function in 'ezjscpackertemplatefunctions.php'.&#13;
+So instead of verifying all my ini files etc... I've replaced:&#13;
+&#13;
+&lt;code&gt;&#13;
+    static protected function flattenArray( $array )&#13;
+    {&#13;
+        $arrayFlatten = array();&#13;
+        while( isset( $array[0] ) )&#13;
+        {&#13;
+             $item = array_shift( $array );&#13;
+             if ( is_array( $item ) )&#13;
+                 $array = array_merge( $item, $array );&#13;
+             else&#13;
+                 $arrayFlatten[] = $item;&#13;
+        }&#13;
+        return $arrayFlatten;&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+by &#13;
+&#13;
+&lt;code&gt;&#13;
+    static protected function flattenArray( $array )&#13;
+    {&#13;
+        $arrayFlatten = array();&#13;
+        while( count( $array ) )&#13;
+        {&#13;
+             $item = array_shift( $array );&#13;
+             if ( is_array( $item ) )&#13;
+                 $array = array_merge( $item, $array );&#13;
+             else&#13;
+                 $arrayFlatten[] = $item;&#13;
+        }&#13;
+        return $arrayFlatten;&#13;
+    }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Very usefull project !</description>
+      <author>community@ez.no (Romain Petit)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezcss_load_breaks_on_empty_cells</guid>
+      <pubDate>Wed, 13 Jul 2011 14:22:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Disable packer in design.ini FrontendJavasc...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist/re_disable_packer_in_design_ini_frontendjavasc2</link>
+      <description>I've added 2 feature requests for your information&#13;
+&#13;
+http://issues.ez.no/IssueView.php?Id=18431&#13;
+and&#13;
+http://issues.ez.no/IssueView.php?Id=18430&#13;
+&#13;
+the 18431 would be a good feature to let the user choose the packerEngine (JSMin, or yui compressor, dojo shrinksafe) and would solve the problem to define a packer level per js file&#13;
+&#13;
+Hope it helps</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist/re_disable_packer_in_design_ini_frontendjavasc2</guid>
+      <pubDate>Sat, 02 Jul 2011 12:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: FrontendCSSFileList triggered on every site...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site3</link>
+      <description>Ok thanks,&#13;
+&#13;
+And this logic will never change right?</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site3</guid>
+      <pubDate>Thu, 30 Jun 2011 16:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: FrontendCSSFileList triggered on every site...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site2</link>
+      <description>The design is that FrontendCSSFileList is triggered on all front end siteaccess, how often depends on your cache-block's.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site2</guid>
+      <pubDate>Wed, 29 Jun 2011 07:09:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: FrontendCSSFileList triggered on every site...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site</link>
+      <description>i don't know if i really understand you well, but imho, it's normal you have it triggered in every siteaccess. if it's is your settings/design.ini and that extension is in ActiveExtensions, then normally this would happen. &#13;
+&#13;
+So, imho, ez 2011.4 is doing it well, but previous version should work like that too... i don't think logic has changed on this. it should be another thing... &#13;
+&#13;
+&#13;
+</description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess/re_frontendcssfilelist_triggered_on_every_site</guid>
+      <pubDate>Tue, 28 Jun 2011 13:37:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>FrontendCSSFileList triggered on every siteaccess ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess</link>
+      <description>Hello&#13;
+&#13;
+In an extension, I've set my design.ini with:&#13;
+[StylesheetSettings]&#13;
+FrontendCSSFileList[]=djgfxstock::flags&#13;
+BackendCSSFileList[]=djgfxstock::flags&#13;
+&#13;
+I have also a website with several siteaccess like domain.com/fr, domain.com/en (one siteaccess per language indeed)&#13;
+&#13;
+Then I clear my cache, and I see that the function djgfxstock::flags is launched on backend and frontend (I'm ok with this), but it's also launched on EVERY siteaccess&#13;
+&#13;
+I'm hardly sure that, previously ez 2011.4, this function would have been launched only one time for all siteaccess&#13;
+=&gt; I'm mistaken or logic has really changed ?</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/frontendcssfilelist_triggered_on_every_siteaccess</guid>
+      <pubDate>Tue, 28 Jun 2011 12:47:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Disable packer in design.ini FrontendJavasc...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist/re_disable_packer_in_design_ini_frontendjavasc</link>
+      <description>There is no such option at the moment.&#13;
+Best is probably to use Packer=2 (this is the default when enabled) on your front end siteaccess.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist/re_disable_packer_in_design_ini_frontendjavasc</guid>
+      <pubDate>Tue, 22 Feb 2011 10:15:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: is getCacheTime working ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working3</link>
+      <description>Oups, I've missed your answer, thanks for it André.&#13;
+&#13;
+I see for the -1 =&gt; I invalid the bug issue&#13;
+&#13;
+your code is exactly what I need indeed, cool !&#13;
+&#13;
+The fact is I could code a template operator yes, but I prefer to put all my css/js generation in the same class, in ezjscore_server&#13;
+&#13;
+packer=0 is perfect for my need, didn't know that...</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working3</guid>
+      <pubDate>Mon, 21 Feb 2011 10:49:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disable packer in design.ini FrontendJavascriptList ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist</link>
+      <description>Hi,&#13;
+&#13;
+I have some js codes (checked with JSLint) I can include with ezjscore.&#13;
+Works great, so I could use Packer=3&#13;
+&#13;
+BUT, I also include some js thanks to : (in design.ini)&#13;
+&lt;code&gt;&#13;
+[JavaScriptSettings]&#13;
+FrontendJavaScriptList[]=release/1.0.0/dojo/dojo.js&#13;
+&lt;/code&gt;&#13;
+&#13;
+and those included js (dojo.js is just one example among others), haven't been checked with JSLint (I don't have the hand on these js, I just get them from the outside)&#13;
+&#13;
+So because of those javascripts, I can't use packer=3, I still have to use Packer =2&#13;
+&#13;
+=&gt; Hence my question, is it possible to tell to my extension: please use Packer=3, except for files included in FrontendJavascriptList...&#13;
+&#13;
+Maybe I can add some arguments in the js included in FrontendJavascriptList ?&#13;
+&#13;
+Any idea is welcome !</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/disable_packer_in_design_ini_frontendjavascriptlist</guid>
+      <pubDate>Mon, 21 Feb 2011 10:19:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feat. request: send a "Vary: Accept</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_send_a_vary_accept_header/re_feat_request_send_a_vary_accept_qu</link>
+      <description>Correct, does this look ok?&#13;
+https://github.com/ezsystems/ezjscore/commit/755335876db672e64a28e9e4691107655c4a7fbc</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_send_a_vary_accept_header/re_feat_request_send_a_vary_accept_qu</guid>
+      <pubDate>Wed, 02 Feb 2011 10:34:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to use template variable in eezjsc...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions/re_possible_to_use_template_variable_in_eezjsc2</link>
+      <description>I think your doing the wrong approach here.&#13;
+Normally I do it like this.&#13;
+&#13;
+in template include a generic script that have some kind of init() function that takes these dynamic parameters as variables:&#13;
+{ezscript_require('my_script.js')}&#13;
+&#13;
+Then the initial init call inline:&#13;
+&lt;script type="text/javascript"&gt;&#13;
+myGenericFunction.init( "{$access_type.name}", $access_type.type );&#13;
+&lt;/script&gt;&#13;
+&#13;
+like that :)&#13;
+( yes google page speed will give you a notice for using inline scripts, but this is far more efficient the re generating the js all the time..)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions/re_possible_to_use_template_variable_in_eezjsc2</guid>
+      <pubDate>Fri, 28 Jan 2011 14:20:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: is getCacheTime working ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working2</link>
+      <description>-1 is special case, it's used for dynamic calls like ::yui3 that don't actually generate any content them self, but manipulates the array of included files dynamically.&#13;
+&#13;
+If you want it to always invalidate, then you could use "return time();". But then it will cache the file to disk and update it on every call, not efficient. So best (if you have to use ezjscore for this, might be creating a template operator for this case is better then use a js packer and ask it to not cache it is a bit indirect approach :) ) is probably to use ezscript('my::function',,,,0) to disable packing for this specific call so it is included inline in the html.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working2</guid>
+      <pubDate>Fri, 28 Jan 2011 14:13:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: is getCacheTime working ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working</link>
+      <description>Well It seems to be a bug, I've filled in a report:&#13;
+http://issues.ez.no/IssueView.php?Id=17892&#13;
+&#13;
+The fact is, when using getCacheTime, I get the warning:&#13;
+&#13;
+file_get_contents(alert('time is: 1296151486');) [&lt;a href='function.file-get-contents'&gt;function.file-get-contents&lt;/a&gt;]: failed to open stream: No such file or directory in /.../ezpublish-4.4.0-gpl/extension/ezjscore/classes/ezjscpacker.php on line 419</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working/re_is_getcachetime_working</guid>
+      <pubDate>Thu, 27 Jan 2011 18:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>is getCacheTime working ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working</link>
+      <description>Hi&#13;
+&#13;
+I've created function that extends ezjscServerFunctions in order to generate some js/css on the fly. But I don't want the result to be cached&#13;
+&#13;
+I've seen the method getCacheTime( $functionName ), seems to be designed for this, however it doesn't seem to work.&#13;
+In fact I can read on http://projects.ez.no/ezjscore, in the TODO section:&#13;
+* template handlers does not let you specify expiry time like static files (modified time) and php handlers do ( ::getCacheTime )&#13;
+&#13;
+but not sure this information is up to date, any idea ?&#13;
+&#13;
+You'll find below a simple code for testing:&#13;
+If I comment the getCacheTime block, the js shows an alert on the time (but always the same time because of cache)&#13;
+And if I uncomment it, then The js code is not inserted at all in the global .js file..&#13;
+&#13;
+Any idea is welcome !&#13;
+&#13;
+&lt;code&gt;&#13;
+class dmvServerFunctions extends ezjscServerFunctions&#13;
+{&#13;
+    public static function getCacheTime( $functionName )&#13;
+    {&#13;
+        return -1;&#13;
+    }&#13;
+&#13;
+    public static function dojo_load( $args )&#13;
+    {&#13;
+        $time = time();&#13;
+        return "alert('time is: $time');";&#13;
+    }&#13;
+}&#13;
+&lt;/code&gt;&#13;
+</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/is_getcachetime_working</guid>
+      <pubDate>Thu, 27 Jan 2011 18:03:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to use template variable in eezjsc...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions/re_possible_to_use_template_variable_in_eezjsc</link>
+      <description>Well technically, I can access them with:&#13;
+&lt;code&gt;&#13;
+        $tpl = eZTemplate::instance();&#13;
+        $accessType = $tpl-&gt;variable('access_type');&#13;
+        $used = $tpl-&gt;variable('used', 'DesignKeys');&#13;
+&lt;/code&gt;&#13;
+&#13;
+But cache seems to be involved and the css/js created.&#13;
+&#13;
+The returned string (returned by this php function (that extends ezjscServerFunctions).) seems to be cached and is returned whenever this js is used...&#13;
+&#13;
+The fact is my js generated by this function is different for all pages&#13;
+&#13;
+=&gt; Is it possible to tell to this php function "hey, never cache what I return, process it everytime..." ?&#13;
+&#13;
+I guess the answer is no, but one never knows...&#13;
+&#13;
+Thanks for your help&#13;
+</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions/re_possible_to_use_template_variable_in_eezjsc</guid>
+      <pubDate>Thu, 27 Jan 2011 17:43:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Possible to use template variable in eezjscServerFunctions ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions</link>
+      <description>Hi,&#13;
+&#13;
+I've created a class that extends ezjscServerFunctions, in order to create custom php method that can create css or js, in order to give it to ezjscore that can minify it (sooo a cool feature)&#13;
+&#13;
+However in those php functions, I'd like to access those variables available in pagelayout.tpl for example:&#13;
+$access_type.name and $DesignKeys&#13;
+&#13;
+I guess it's possible to retrieve them as I can find them in $GLOBALS inside my ezjscServerFunctions function&#13;
+&#13;
+Any idea how to access them ?</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_use_template_variable_in_eezjscserverfunctions</guid>
+      <pubDate>Thu, 27 Jan 2011 16:46:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to force ezscript_require to put a...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a4</link>
+      <description>Yes it works !&#13;
+&#13;
+Thanks André&#13;
+&#13;
+My google page speed is happy&#13;
+&#13;
+I'd like now to kill those http queries towards yahoo to retrieve yui stuff 2in3.1 :)</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a4</guid>
+      <pubDate>Thu, 27 Jan 2011 16:03:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezjscore loads external yui2 js on yahoo CD...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd5</link>
+      <description>All my tries to load dojo with ezjscript have gone wrong.. so I keep on loading dojo with a &lt;script&gt; tag&#13;
+&#13;
+dojo is not involved in the problem explained here (really don't think so)&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd5</guid>
+      <pubDate>Thu, 27 Jan 2011 11:44:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [bug?] ezcss_require drops some require in...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in3</link>
+      <description>Thanks for code patching for next ezp 4.5</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in3</guid>
+      <pubDate>Thu, 27 Jan 2011 11:26:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezjscore loads external yui2 js on yahoo CD...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd4</link>
+      <description>Ok, guess we need to look more into it then.&#13;
+Could the error be from the fact that you tried to load dojo.js with ezscript_load maybe? (but I guess you should have been getting other errors then)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd4</guid>
+      <pubDate>Wed, 26 Jan 2011 21:33:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to force ezscript_require to put a...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a3</link>
+      <description>I think he meant modifying the ezjscore_load call to include dojo.js as first param, calling it several times will indeed cause issues.&#13;
+&#13;
+The cleaneste is to add it to FrontendJavaScriptList/BackendJavaScriptList (first is for frontend and second is for backend) in design.ini to make it load as one of the first scripts on all pages.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a3</guid>
+      <pubDate>Wed, 26 Jan 2011 21:29:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to force ezscript_require to put a...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a2</link>
+      <description>Then it works on the frontoffice, but I get a bunch of errors on the backoffice&#13;
+&#13;
+Indeed, due to ezscript_load in my template, one big js block loading jquery is not included in the global .js in the backoffice...&#13;
+&#13;
+</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a2</guid>
+      <pubDate>Wed, 26 Jan 2011 15:55:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Possible to force ezscript_require to put a...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a</link>
+      <description>can you try to add that script as parameter to the ezscript_load call instead?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top/re_possible_to_force_ezscript_require_to_put_a</guid>
+      <pubDate>Wed, 26 Jan 2011 15:24:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Possible to force ezscript_require to put a js at the top ?</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top</link>
+      <description>Hi,&#13;
+&#13;
+I'm using dojo as js framework.&#13;
+&#13;
+In a template (included in pagelayout.tpl), i perform an ezscript_require('dojo.js').&#13;
+However as I've all around js script that uses dojo, dojo HAS to be included in the top of the global minified .js file...&#13;
+&#13;
+Hence my question: as I can see in setPersistentArray, it's possible to push a js at the top of js_files&#13;
+=&gt; Is it possible to do it with ezscript_require ?&#13;
+&#13;
+For now, a workaround for me would be to code a custom template operator ezscript_require_prepend that force $append = false in the call to setPersistentArray&#13;
+&#13;
+But is there another easier way to achieve this ?</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/possible_to_force_ezscript_require_to_put_a_js_at_the_top</guid>
+      <pubDate>Wed, 26 Jan 2011 15:13:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezjscore loads external yui2 js on yahoo CD...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd3</link>
+      <description>I was wrong indeed, the patch doesn't work well&#13;
+&#13;
+I get a js error (but not all times, really strange...)&#13;
+error is: YAHOO is undefined on line var dsJSON = new YAHOO.util.DataSource(_cfg.url);</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd3</guid>
+      <pubDate>Wed, 26 Jan 2011 14:44:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezjscore loads external yui2 js on yahoo CD...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd2</link>
+      <description>Thanks for your patch André R,&#13;
+&#13;
+I've successfully tested it ! no more http connections to yahoo, it can speed up a little more my website now, cool !&#13;
+&#13;
+I've added a bug on this:&#13;
+http://issues.ez.no/IssueView.php?Id=17877&#13;
+&#13;
+Maybe you can import your patch and close this ticket ?&#13;
+&#13;
+Thanks again...</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd2</guid>
+      <pubDate>Wed, 26 Jan 2011 14:28:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [bug?] ezcss_require drops some require in...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in2</link>
+      <description>Thanks !&#13;
+&#13;
+I've dropped my patch and added yours, it works as expected !&#13;
+&#13;
+I've had added an issue here:&#13;
+http://issues.ez.no/IssueView.php?Id=17875</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in2</guid>
+      <pubDate>Wed, 26 Jan 2011 13:50:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: [bug?] ezcss_require drops some require in...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in</link>
+      <description>you are right, however, I think the correct solution would be:&#13;
+&lt;code&gt;&#13;
+diff --git a/autoloads/ezjscpackertemplatefunctions.php b/autoloads/ezjscpackertemplatefunctions.php&#13;
+index 8136f20bfd1c50dde323580795b7a890d2f2bf86..6ceed8a28733c9b438233b2c05700f9246ac8fda 100644&#13;
+--- a/autoloads/ezjscpackertemplatefunctions.php&#13;
++++ b/autoloads/ezjscpackertemplatefunctions.php&#13;
+@@ -304,7 +304,7 @@ class ezjscPackerTemplateFunctions&#13;
+         {&#13;
+             $persistentVariable = $moduleResult['content_info']['persistent_variable'];&#13;
+         }&#13;
+-        else if ( $tpl-&gt;hasVariable('persistent_variable') )&#13;
++        else if ( !$isPageLayout & $tpl->hasVariable('persistent_variable') )
+         {
+            $persistentVariable = $tpl->variable('persistent_variable');&#13;
+         }&#13;
+&lt;/code&gt;&#13;
+&#13;
+As it should read value from self::$persistentVariable in this case, as persistent_variable is only supported by content/view.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case/re_bug_ezcss_require_drops_some_require_in</guid>
+      <pubDate>Wed, 26 Jan 2011 10:22:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: ezjscore loads external yui2 js on yahoo CD...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd</link>
+      <description>Haven't tested this yet, but from looking at the 2in3 page it looks like something like the following might help:&#13;
+&#13;
+&lt;code&gt;&#13;
+diff --git a/classes/ezjscserverfunctionsjs.php b/classes/ezjscserverfunctionsjs.php&#13;
+index a30bdd4edaecb11d669d2ccb34b6ce3364abf106..2321c40e248fcafd05d83928ec60e14d4345a572 100644&#13;
+--- a/classes/ezjscserverfunctionsjs.php&#13;
++++ b/classes/ezjscserverfunctionsjs.php&#13;
+@@ -112,7 +112,7 @@ class ezjscServerFunctionsJs extends ezjscServerFunctions&#13;
+         {&#13;
+             $scriptFiles = $ezjscoreIni-&gt;variable( 'eZJSCore', 'LocalScripts' );&#13;
+             $scriptBases = $ezjscoreIni-&gt;variable( 'eZJSCore', 'LocalScriptBasePath' );&#13;
+-            $packerFiles = array_merge( array( $scriptFiles['yui3'], 'ezjsc::yui3conf::' . $scriptBases['yui3'] ), $packerFiles );&#13;
++            $packerFiles = array_merge( array( $scriptFiles['yui3'], "ezjsc::yui3conf::{$scriptBases['yui3']}::{$scriptBases['yui2']}" ), $packerFiles );&#13;
+         }&#13;
+         return '';&#13;
+     }&#13;
+@@ -120,13 +120,16 @@ class ezjscServerFunctionsJs extends ezjscServerFunctions&#13;
+     /**&#13;
+      * Yui3 config as requested by {@link ezjscServerFunctionsJs::yui3()}&#13;
+      *&#13;
+-     * @param array $args First value is base bath if set&#13;
++     * @param array $args First value is base path for yui3 and yui2 (for yui 2in3 setup)&#13;
+      * @return string YUI 3.0 JavaScript config string&#13;
+      */&#13;
+     public static function yui3conf( $args )&#13;
+     {&#13;
+-        if ( isset( $args[0] ) )&#13;
+-            return 'var YUI3_config = { \'base\' : \'' . self::getDesignFile( $args[0] ) . '\', modules: {} };';&#13;
++        if ( isset( $args[1] ) )&#13;
++        {&#13;
++            return "var YUI3_config = { 'base': '" . self::getDesignFile( $args[0] ) . "', 'modules': {}," .&#13;
++                   " 'groups': { 'yui2': {  'base': '" . self::getDesignFile( $args[1] ) . "' } } };";&#13;
++        }&#13;
+ &#13;
+         return 'var YUI3_config = { modules: {} };';&#13;
+     }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Or stop using yui2 in yui3 now that yui3 includes AutoComplete widget(even thoug it's in beta).&#13;
+&#13;
+&#13;
+2in3 page: https://github.com/yui/2in3</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled/re_ezjscore_loads_external_yui2_js_on_yahoo_cd</guid>
+      <pubDate>Wed, 26 Jan 2011 10:05:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>[bug?] ezcss_require drops some require in a specific case</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case</link>
+      <description>Hi,&#13;
+&#13;
+I have a template (page_head_dmv.tpl) that is included in pagelayout.tpl.&#13;
+To be precise, the include is done this way:&#13;
+&lt;code&gt;&#13;
+{include uri='design:page_head.tpl'}&#13;
+{include uri='design:page_head_dmv.tpl'}&#13;
+{include uri='design:page_head_style.tpl'}&#13;
+{include uri='design:page_head_script.tpl'}&#13;
+&lt;/code&gt;&#13;
+&#13;
+in my template page_head_dmv.tpl, I use ezcss_require, like this:&#13;
+&lt;code&gt;&#13;
+{ezcss_require('menu.css')}&#13;
+&lt;/code&gt;&#13;
+&#13;
+It correctly works on a view full node for example, menu.css is bundled in the global minified css, built by ezjscore&#13;
+&#13;
+&#13;
+###### When it works...&#13;
+&#13;
+In fact, to give some information, by adding some logs in static function ezjscPackerTemplateFunctions::setPersistentArray(), the following test is true&#13;
+&lt;code&gt;&#13;
+        if ( $tpl-&gt;hasVariable('module_result') )&#13;
+        {&#13;
+            $isPageLayout = true;&#13;
+            $moduleResult = $tpl-&gt;variable('module_result');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+As a result $moduleResult is filled in (and $isPageLayout is true), and the next test is true also:&#13;
+&lt;code&gt;&#13;
+        if ( isset( $moduleResult['content_info']['persistent_variable'] ) )&#13;
+        {&#13;
+            $persistentVariable = $moduleResult['content_info']['persistent_variable'];&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+And finally at the end of this function, as $moduleResult['content_info']['persistent_variable'] exists, the following code correctly filled in $moduleResult['content_info']['persistent_variable']:&#13;
+&lt;code&gt;&#13;
+            if ( isset( $moduleResult['content_info']['persistent_variable'] ) )&#13;
+            {&#13;
+                $moduleResult['content_info']['persistent_variable'] = $persistentVariable;&#13;
+                $tpl-&gt;setVariable('module_result', $moduleResult );&#13;
+            }&#13;
+&lt;/code&gt;&#13;
+&#13;
+Well all works there !&#13;
+&#13;
+&#13;
+######## When it DOESN'T work&#13;
+However when I edit an object (www.domain.com/content/edit/383/1 for example), all my ezcss_require in my custom template page_head_dmv.tpl are lost...&#13;
+&#13;
+In fact, to give more explanations, in that case, all css from the module /content/edit are SUCCESSFULLY loaded first thanks to ezjscore&#13;
+the following test is false:&#13;
+&lt;code&gt;&#13;
+        if ( $tpl-&gt;hasVariable('module_result') )&#13;
+        {&#13;
+            $isPageLayout = true;&#13;
+            $moduleResult = $tpl-&gt;variable('module_result');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+but the following is true:&#13;
+&lt;code&gt;&#13;
+        else if ( $tpl-&gt;hasVariable('persistent_variable') )&#13;
+        {&#13;
+           $persistentVariable = $tpl-&gt;variable('persistent_variable');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+And at the end, as isPageLayout is false, the following code is executed, and correctly works (as $tpl-&gt;hasVariable('persistent_variable')  is true):&#13;
+&lt;code&gt;&#13;
+$tpl-&gt;setVariable('persistent_variable', $persistentVariable );&#13;
+&lt;/code&gt;&#13;
+&#13;
+AND AFTER comes the load of my css in my page_head_dmv.tpl (which is included in pagelayout.tpl), and things are going crazy here...&#13;
+Whenever I use ezcss_require in page_head_dmv.tpl, the following test is true:&#13;
+&lt;code&gt;&#13;
+        if ( $tpl-&gt;hasVariable('module_result') )&#13;
+        {&#13;
+            $isPageLayout = true;&#13;
+            $moduleResult = $tpl-&gt;variable('module_result');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+BUT the following test is wrong:&#13;
+&lt;code&gt;&#13;
+        if ( isset( $moduleResult['content_info']['persistent_variable'] ) )&#13;
+        {&#13;
+            $persistentVariable = $moduleResult['content_info']['persistent_variable'];&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+and the following test is true:&#13;
+&lt;code&gt;&#13;
+        else if ( $tpl-&gt;hasVariable('persistent_variable') )&#13;
+        {&#13;
+           $persistentVariable = $tpl-&gt;variable('persistent_variable');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+And at the end, as $isPageLayout is true, the following code is executed, but it doesn't store anything as  $moduleResult['content_info']['persistent_variable'] doesn't exist...:&#13;
+&lt;code&gt;&#13;
+        if ( $isPageLayout )&#13;
+        {&#13;
+            if ( isset( $moduleResult['content_info']['persistent_variable'] ) )&#13;
+            {&#13;
+                $moduleResult['content_info']['persistent_variable'] = $persistentVariable;&#13;
+                $tpl-&gt;setVariable('module_result', $moduleResult );&#13;
+            }&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+=&gt; As a result, my css required by ezcss_require is not stored anywhere ..... and this css is not put into the global minified css...&#13;
+&#13;
+I really think that whenever $tpl-&gt;hasVariable('module_result') is true, a second check HAS to be performed before putting $isPageLayout to true&#13;
+&#13;
+Indeed, a workaround for me was changing the code:&#13;
+&lt;code&gt;&#13;
+        if ( $tpl-&gt;hasVariable('module_result') )&#13;
+        {&#13;
+            $isPageLayout = true;&#13;
+            $moduleResult = $tpl-&gt;variable('module_result');&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+TO:&#13;
+&lt;code&gt;&#13;
+        if ( $tpl-&gt;hasVariable('module_result') )&#13;
+        {&#13;
+            $moduleResult = $tpl-&gt;variable('module_result');&#13;
+            if ( isset( $moduleResult['content_info']['persistent_variable'] ) )&#13;
+            {&#13;
+                $isPageLayout = true;&#13;
+            }&#13;
+        }&#13;
+&lt;/code&gt;&#13;
+&#13;
+And then all works as expected for me...&#13;
+&#13;
+Please confirm me this is a ezjscore, or maybe I've missed something...</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/bug_ezcss_require_drops_some_require_in_a_specific_case</guid>
+      <pubDate>Tue, 25 Jan 2011 21:58:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ezjscore loads external yui2 js on yahoo CDN (CDN disabled)</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled</link>
+      <description>Hi,&#13;
+&#13;
+I use the default settings of ezjscore, with a brand new ezp 4.4&#13;
+With default settings which is disable CDN.&#13;
+&#13;
+I have installed ezfind that uses autocomplete and new nice features,&#13;
+&#13;
+However on my website, ezjscore loads external .js from the CDN, instead of getting them locally (which I prefer).&#13;
+Here are the files retrieved on yahoo:&#13;
+ &#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-connection/yui2-connection-min.js&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-autocomplete/yui2-autocomplete-min.js&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-skin-sam-autocomplete/assets/skins/sam/yui2-skin-sam-autocomplete-min.css&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-yahoo/yui2-yahoo-min.js&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-event/yui2-event-min.js&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-dom/yui2-dom-min.js&#13;
+http://yui.yahooapis.com/2in3.1/2.8.0/build/yui2-datasource/yui2-datasource-min.js&#13;
+&#13;
+However i can see some of these js files in extension/ezjscore/design/standard/lib/yui/2.8.1/build:&#13;
+extension/ezjscore/design/standard/lib/yui/2.8.1/build/connection/connection-min.js&#13;
+extension/ezjscore/design/standard/lib/yui/2.8.1/build/autocomplete/autocomplete-min.js&#13;
+etc...&#13;
+&#13;
+the files have different names, but I really think they can be used instead of files on the CDN&#13;
+&#13;
+=&gt; maybe it comes from the fact ezjscore uses 2.8.1, but loader everywhere contains 2.8.0 ? (however a symlink from 2.8.0 to 2.8.1 does nothing)&#13;
+=&gt; maybe ezfind has to change something ? for instance, it loads yui2-connection, this way:&#13;
+YUI(YUI3_config).use('yui2-connection', 'yui2-autocomplete', function (Y) {&#13;
+                YAHOO = Y.YUI2;&#13;
+                initAutosuggest();&#13;
+            });&#13;
+&#13;
+Any idea is welcome</description>
+      <author>community@ez.no (Jerome Despatis)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/ezjscore_loads_external_yui2_js_on_yahoo_cdn_cdn_disabled</guid>
+      <pubDate>Tue, 25 Jan 2011 13:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: send a "Vary: Accept" header</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_send_a_vary_accept_header</link>
+      <description>Since the returned content depends on that header, the http headers in the response should include a 'Vary' one.&#13;
+See rfc 2616, and e.g. http://www.subbu.org/blog/2007/12/vary-header-for-restful-applications</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_send_a_vary_accept_header</guid>
+      <pubDate>Tue, 14 Dec 2010 21:54:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feat. request: use application/json as cont...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header/re_feat_request_use_application_json_as_cont2</link>
+      <description>Duh, missed it - I only read the changelogs ;-)&#13;
+&#13;
+Btw: what is the preferred way to open feature requests: here, in wit, or both?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header/re_feat_request_use_application_json_as_cont2</guid>
+      <pubDate>Mon, 08 Nov 2010 12:23:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feat. request: use application/json as cont...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header/re_feat_request_use_application_json_as_cont</link>
+      <description>https://github.com/ezsystems/ezjscore/commit/3b146484ba6513fd1fb21be8acb2ea27b8b1cd50</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header/re_feat_request_use_application_json_as_cont</guid>
+      <pubDate>Mon, 08 Nov 2010 09:17:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: use application/json as content-type header</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header</link>
+      <description>It is the correct type registered by IANA for sending json responses.&#13;
+Currently the ezjscore/call view sends text/javascript, even though it encodes the result as json</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_use_application_json_as_content_type_header</guid>
+      <pubDate>Sun, 07 Nov 2010 22:00:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Specifiy remote JS to load into the design....</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design4</link>
+      <description>Hi André,&#13;
+&#13;
+You're absolutely right!&#13;
+&#13;
+I made a stupid mistake, we absolutely can call remote files from design.ini!&#13;
+&#13;
+Thank you for opening my eyes ;)</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design4</guid>
+      <pubDate>Tue, 02 Nov 2010 07:27:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: allow dynamic adding of new access functions</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_allow_dynamic_adding_of_new_access_functions</link>
+      <description>Currently I can build dynamically (with a little difficulty, but it is doable) a php class, that will expose at runtime some webservices that are defined depending on variable conditions.&#13;
+Unfortunately, since the list of access functions is currently gotten from ezjscore.ini, I have a hard time setting up an access function for every one of my new webservices (see the ezwebservicesapi extension). Any chances of improving this?</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_allow_dynamic_adding_of_new_access_functions</guid>
+      <pubDate>Mon, 01 Nov 2010 23:36:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat request: support for recursive (nested) parameters</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_support_for_recursive_nested_parameters</link>
+      <description>Carrying further what was explained in depth here: http://projects.ez.no/ezjscore/forum/general/evolution_of_the_extension_usage_of_standard_rpc_protocols&#13;
+&#13;
+Q: what if I need to pass to my function, exposed via ezjscore, parameters that are arrays/hashes?&#13;
+&#13;
+A: I currently have to decide by myself how to serialize them on the caller side, and then to decode them by hand on the server side, since only scalar parameters are supported by the extension.&#13;
+&#13;
+While this is possible, it is quite bad API design, as it makes it hard to have a set of functions that can be operated regardless of the protocol in use (json vs soap vs etc).&#13;
+&#13;
+I would expect the extension to do the grunt work for me, based on the content-type header sent along with the request. If I send requests with a json content-type, the parameters can be deserialized before being passed on to the actual function.Which means support for nested parameters (arrays and hashes). The same goes, more or less for xml...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_support_for_recursive_nested_parameters</guid>
+      <pubDate>Mon, 01 Nov 2010 21:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Access to a kernel module via index_ajax.php</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/access_to_a_kernel_module_via_index_ajax_php/re_access_to_a_kernel_module_via_index_ajax_php3</link>
+      <description>sounds safe.</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/access_to_a_kernel_module_via_index_ajax_php/re_access_to_a_kernel_module_via_index_ajax_php3</guid>
+      <pubDate>Wed, 27 Oct 2010 07:42:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: feat. request: when packing css go through...</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_when_packing_css_go_through_design_chain/re_feat_request_when_packing_css_go_through</link>
+      <description>+1 about the idea.&#13;
+In fact, if you start by copying provided css files to your custom design, you need to copy background images too... &#13;
+ &#13;
+but what if you have packer disabled? you still will need to put the images in the specific design folder... </description>
+      <author>community@ez.no (Carlos Revillo)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_when_packing_css_go_through_design_chain/re_feat_request_when_packing_css_go_through</guid>
+      <pubDate>Tue, 26 Oct 2010 19:36:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>feat. request: when packing css go through design chain</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/feat_request_when_packing_css_go_through_design_chain</link>
+      <description>It currently is not so easy to:&#13;
+. use css files for specifying background images&#13;
+. use design fallback mechanics to allow easy changes to those images&#13;
+This happens because links from css to images look like "../images/a.png".&#13;
+&#13;
+So if I want to change a.png in eg. a new extension, I have to put there both the image and a small css, which is a modified copy of a portion of the original.&#13;
+&#13;
+Since ezjscore already parses and rewrites the css files url() attributes when packing them, it would not be too hard to add an (optional) phase of image search via ezdesign.</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/feat_request_when_packing_css_go_through_design_chain</guid>
+      <pubDate>Tue, 26 Oct 2010 19:22:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: yui2 support</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/yui2_support/re_yui2_support2</link>
+      <description>Can yui2 and yui3 libraries coexist (be loaded in same page)?&#13;
+&#13;
+I need yui tree, only available within yui2, and Y.io.ez, only available within yui3...</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/yui2_support/re_yui2_support2</guid>
+      <pubDate>Tue, 26 Oct 2010 19:17:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Access to a kernel module via index_ajax.php</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/access_to_a_kernel_module_via_index_ajax_php/re_access_to_a_kernel_module_via_index_ajax_php2</link>
+      <description>slightly offtopic, but using the ezwebservicesapi extension, you can directly invoke the fetch function via an ajax call - no module or template involved</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/access_to_a_kernel_module_via_index_ajax_php/re_access_to_a_kernel_module_via_index_ajax_php2</guid>
+      <pubDate>Tue, 26 Oct 2010 19:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Specifiy remote JS to load into the design....</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design3</link>
+      <description>That is not correct.&#13;
+You can not use ezjscore.ini for this kind of stuff, ezjscore.ini is for library loading and needs some pices of php code to work.&#13;
+&#13;
+You can however use design.ini to load external scripts / css as long as ezjscore functions are used for loading JavaScriptList and so on.&#13;
+But the url your mentioning in your example is a css file so will never work as a JavaScript no matter how hard you try :)</description>
+      <author>community@ez.no (André R)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design3</guid>
+      <pubDate>Fri, 22 Oct 2010 09:02:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: Specifiy remote JS to load into the design....</title>
+      <link>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design2</link>
+      <description>Hi kracker,&#13;
+&#13;
+OK, I'll check it.&#13;
+&#13;
+Cheers,&#13;
+Seb</description>
+      <author>community@ez.no (Sébastien Antoniotti)</author>
+      <guid>http://projects.ez.no/ezjscore2/forum/general/specifiy_remote_js_to_load_into_the_design_ini/re_specifiy_remote_js_to_load_into_the_design2</guid>
+      <pubDate>Fri, 22 Oct 2010 06:15:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

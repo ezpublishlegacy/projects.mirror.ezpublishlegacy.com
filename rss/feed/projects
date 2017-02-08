@@ -6,11 +6,27 @@
     <description>The latest new projects on eZ Projects.</description>
     <language>en-GB</language>
     <managingEditor>community@ez.no (Administrator User)</managingEditor>
-    <pubDate>Sun, 05 Feb 2017 12:15:43 +0000</pubDate>
-    <lastBuildDate>Sun, 05 Feb 2017 12:15:43 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2017 03:37:58 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 03:37:57 +0000</lastBuildDate>
     <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <atom:link href="http://projects.ez.no/rss/feed/projects" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eZ Publish Legacy : Documentation</title>
+      <link>http://projects.ez.no/ezpublishlegacydoc</link>
+      <description>A public git based mirror of doc.ez.no resources (mirror, 3.x-&gt;5.x docs, file downloads) hosted at http://doc.mirror.ezpublishlegacy.com and https://github.com/ezpublishlegacy/doc.mirror.ezpublishlegacy.com</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpublishlegacydoc</guid>
+      <pubDate>Tue, 07 Feb 2017 18:45:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>eZ Publish Legacy : Projects</title>
+      <link>http://projects.ez.no/ezpublishlegacyprojects</link>
+      <description>A public git based mirror of projects.ez.no resources (mirror, repositories, downloads) hosted at http://projects.mirror.ezpublishlegacy.com, https://github.com/ezpublishlegacy/projects.mirror.ezpublishlegacy.com and https://github.com/ezpubishlegacyprojects</description>
+      <author>community@ez.no (Brookins Consulting)</author>
+      <guid>http://projects.ez.no/ezpublishlegacyprojects</guid>
+      <pubDate>Tue, 07 Feb 2017 18:45:06 +0000</pubDate>
+    </item>
     <item>
       <title>eZp Section Content Report</title>
       <link>http://projects.ez.no/ezpsectioncontentreport</link>
@@ -160,23 +176,6 @@ The javascript makes an ajax call to the provided module view to determine if a 
       <author>community@ez.no (Emmanuel Drouet)</author>
       <guid>http://projects.ez.no/ezfieldtypegeneratorbundle</guid>
       <pubDate>Wed, 12 Oct 2016 08:15:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>EdgarEzTFABundle</title>
-      <link>http://projects.ez.no/edgareztfabundle</link>
-      <description>This bundle provider Two Factor Authentication for your siteaccess&#13;
-</description>
-      <author>community@ez.no (Emmanuel Drouet)</author>
-      <guid>http://projects.ez.no/edgareztfabundle</guid>
-      <pubDate>Mon, 05 Sep 2016 12:45:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>SmileEzSiteBuilderBundle</title>
-      <link>http://projects.ez.no/edgarezsitebuilderbundle</link>
-      <description>This bundle aims to provide a webFactory tool in eZ Platform context.</description>
-      <author>community@ez.no (Emmanuel Drouet)</author>
-      <guid>http://projects.ez.no/edgarezsitebuilderbundle</guid>
-      <pubDate>Tue, 30 Aug 2016 09:30:06 +0000</pubDate>
     </item>
   </channel>
 </rss>

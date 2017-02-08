@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eZ Projects / nxc_extensions / Forum</title>
+    <link>http://projects.ez.no/</link>
+    <description></description>
+    <language>en-GB</language>
+    <managingEditor>community@ez.no (Administrator User)</managingEditor>
+    <pubDate>Wed, 08 Feb 2017 04:24:30 +0000</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 04:24:30 +0000</lastBuildDate>
+    <generator>eZ Components Feed dev (http://ezcomponents.org/docs/tutorials/Feed)</generator>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="http://projects.ez.no/rss/feed/24352" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Included in the kernel?</title>
+      <link>http://projects.ez.no/nxc_extensions/forum/general/included_in_the_kernel</link>
+      <description>Hi,&#13;
+&#13;
+I haven't had a chance to test this out yet, but judging from the description, this sounds great.&#13;
+&#13;
+However, it seems to be that something like this should be a part of the kernel instead of as an extension. Have you talked to eZ about this?</description>
+      <author>community@ez.no (Eirik Alfstad Johansen)</author>
+      <guid>http://projects.ez.no/nxc_extensions/forum/general/included_in_the_kernel</guid>
+      <pubDate>Wed, 24 Mar 2010 07:25:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Re: some suggestions</title>
+      <link>http://projects.ez.no/nxc_extensions/forum/general/some_suggestions/re_some_suggestions</link>
+      <description>Hi gaetano&#13;
+&#13;
+Maybe off-topic but ezinfo.php sucks. IMHO the best way to define meta-information about an extension would be in a XML file with a clearly defined XML schema.</description>
+      <author>community@ez.no (Kristof Coomans)</author>
+      <guid>http://projects.ez.no/nxc_extensions/forum/general/some_suggestions/re_some_suggestions</guid>
+      <pubDate>Sat, 20 Mar 2010 13:53:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>some suggestions</title>
+      <link>http://projects.ez.no/nxc_extensions/forum/general/some_suggestions</link>
+      <description>great work! about time that somebody took up the challenge.&#13;
+&#13;
+missing suggestions / feature requests:&#13;
+&#13;
+- nxcExtensionSettings::executesql: it is hardcoded to mysql :(, it uses a bad directory for sql files (an eZP standard does exist for that!), it does not check if file exists, and it is a function that actually exists in ezdbschema. Last but not least, using .dba file for defining sql elements needed by an extension is now recommended - try in 4.3 the upgrade_check/db page&#13;
+&#13;
+- class nxcextension: remove include_once, let autoload do its magic via class_exists&#13;
+&#13;
+- dependencies should be able to specify&#13;
+ + versions (eg. I need ezjscore 0.2 min and 0.99 max)&#13;
+ + min/max ezp versions, too&#13;
+ + possibly a specific db, or other ez feature (eg webdav). harder to implement...&#13;
+&#13;
+- I'd recommend to specify the extension dependencies in the existing ezinfo.php file, by adding a new static method to that class - this leaves us with a dependency specification that is not ties to the way it is checked/implemented (might like to read that and code that into pear packages later, and leave pear to do the checking/handling)&#13;
+</description>
+      <author>community@ez.no (Gaetano Giunta)</author>
+      <guid>http://projects.ez.no/nxc_extensions/forum/general/some_suggestions</guid>
+      <pubDate>Sat, 20 Mar 2010 09:43:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
